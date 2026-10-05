@@ -1,0 +1,136 @@
+SSA Program Operations Manual System (POMS) - SI 00820.143 - Monthly Wage Reporting
+Effective Dates: 09/26/2013 - Present | TN 91 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820143 (fetched 2026-10-04)
+
+F. Procedure for processing monthly wage reports
+Process wage reports according to whether we identify the wages as “verified,” “reported,”
+or “alleged.”
+The wage reporter may choose any method in this section to report wages, regardless
+of the level of automation. Do not refuse to accept monthly wage reports submitted
+using a method other than an automated wage reporting methods (e.g., mailing pay stubs).
+Section 202 of the Social Security Protection Act of 2004 requires that we issue a
+receipt for all wage reports submitted by recipients or their representatives (including representative
+payees). Issue a receipt regardless of whether we identify the wage report as “verified,”
+“alleged,” or “reported.”
+1. “Verified” wages
+a. Using SSIMWV to streamline pay stub inputs
+SSIMWV streamlines the input of pay stubs by propagating wage information to the Wages
+page (i.e., IWAG) in the SSI claim system or the SSR. SSIMWV posts wage amounts in
+the “Verified Amount” column of the appropriate Wages page or on the SSR with a verification
+code of “9.” Do not use SSIMWV to process monthly wage reports submitted without pay
+stubs.
+To access the SSIMWV Users Guide and for additional information related to SSIMWV,
+refer to SI 00820.144D.
+b. Processing the wage report
+Use the Intranet-based SSIMWV system to input monthly wage amounts submitted with
+pay stubs.
+If you cannot process the case using SSIMWV, input the wage amount in the “Verified
+Amount” column on the SSI claim system Wages page.
+For cases outside the SSI claim system (i.e., non-MSSICS or non-CCE cases), transmit
+the EN field via SSA-1719(B) with a verification code of “9”. For more information
+on the EN field, see SM 01305.101.
+Input an estimate of future wages according to SI 00820.150, beginning with the month after the reported month.
+Use one of the following methods to post an estimate:
+•
+SSIMWV - the system prompts the user for information to derive an estimate and posts the
+estimate to the “Alleged Amount” column on the Wages page.
+•
+SSI claim system/SSA-1719(B) - post an estimate of future wages, per instructions in SI 00820.150D.
+Process verified wage amounts submitted by a concurrent beneficiary by entering the
+eWork application for possible Title II development. eWork subsequently transfers
+you to SSIMWV to input the SSI monthly wage amount. For more information about using
+eWork to process wage reports, see DI 13010.020.
+c. Receipt issuance
+Issue a wage report receipt to the recipient or their representative payee when using
+SSIMWV. For in-person reports, generate a receipt immediately, and provide the receipt
+to the recipient or their representative payee. SSIMWV automatically prints and dates
+the receipt.
+If you cannot process the wage report using SSIMWV, issue the receipt using either:
+•
+eWork; or
+•
+the Document Processing System (DPS) via the SSA-L724 (Work Report Receipt).
+For additional information related to issuance of receipts for “verified” wage reports
+that you cannot process using SSIMWV, see DI 13010.020.
+d. Documentation of a verified wage amount
+Archive the SSIMWV receipt in ORS. The ORS-stored receipt serves as documentation
+of the pay stub evidence submitted by the reporter.
+No separate action is necessary to document the report.
+If SSIMWV does not issue a receipt, or the receipt is not stored in ORS, document
+the wage report using the procedures:
+•
+SI 00820.135 Wage Verification and Reported Wages Over $65 per Month
+•
+GN 00301.286 Electronic Evidence Documentation and Retention
+2. “Reported” wages
+a. Processing a reported wage amount submitted via myWR, SSAMWR, and SSITWR
+Wages reported using myWR, SSAMWR, or SSITWR automatically:
+•
+post to the “Reported Amount” column of the Wages page in the SSI claim system;
+•
+transmit to the SSR with a verification code of “0;”
+•
+generate an automated wage report receipt; and
+•
+require no additional actions.
+b. Processing a monthly wage report received outside of myWR, SSAMWR, and SSITWR
+When you receive a monthly wage amount directly from a reporter (e.g., via telephone
+contact), you must:
+1.
+Confirm whether you can process the monthly wage amount submitted as a “reported”
+wage by determining if the:
+•
+wage earner received the reported wages in the current month or the month immediately
+preceding it;
+•
+gross wage amount submitted is based on pay stub wage evidence in the individual’s
+possession (Ask the reporter.); and
+•
+wage report is submitted and you can process the report either before the GK cutoff,
+or during the temporary GK period in the month that we receive the report.
+2.
+If you can consider the gross wages as “reported”:
+•
+input the wages on the Wages page in the SSI claim system in the “Reported Amount”
+column;
+•
+post an estimate of future wages in the “Alleged Amount” column starting with the
+month after the reported month; and
+•
+send the transaction to the SSR.
+For instructions on estimating future wages, see SI 00820.150.
+IMPORTANT: You cannot transmit monthly wage amounts identified as a “reported” amount via SSA-1719(B)
+input. Therefore, you cannot transmit “reported” wages to the SSR for cases outside
+the SSI claim system (i.e., non-MSSICS or non-CCE). Never use SSIMWV to process amounts representing “reported” wages.
+c. Receipt issuance
+While myWR, SSAMWR, and SSITWR automatically generate receipts, wage reports made
+via contact with the FO generally require a manual receipt.
+Take the following actions whenever a receipt is required but not automatically generated:
+•
+Issue a receipt to the SSI beneficiary or their representative payee using the notice
+titled, “Monthly Wage Reporting – Receipt” in DPS (SSA-L724).
+•
+Print the receipt locally and store the receipt in ORS.
+For more information on receipt issuance, see DI 13010.020.
+d. Documentation of “reported” wage amounts
+Separate action is not required to document a wage amount that we identify as “reported.”
+The wage amount is indicated on the SSR with a “0” verification code.
+The “0” verification code remains on the SSR unless a subsequent action is taken to
+verify the “reported” wage amounts.
+3. “Alleged” wages
+a. Processing “Alleged” wage reports
+Process a monthly wage report not identified as “verified” or “reported” as follows:
+•
+Post the wages in the “Alleged Amount” column on the SSI claim system Wages page or
+to the SSR using an SSA-1719(B) input with a verification code of “1” in the EN field.
+•
+Input an estimate of future wages per instructions in SI 00820.150.
+b. Receipt issuance
+Issue the receipt for an alleged monthly wage amount using either:
+•
+eWork; or
+•
+DPS via the SSA-L724 (Work Report Receipt).
+To issue receipts for alleged monthly wage amounts, see DI 13010.020C.
+c. Documentation of alleged wage amounts
+Documentation is not required for a monthly wage report identified as an allegation.

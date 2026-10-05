@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - SI 00835.450 - Cash Income from Within and from Outside Households
+Effective Dates: 12/13/2023 - Present | TN 117 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835450 (fetched 2026-10-04)
+
+D. Examples — cash from within households
+EXAMPLE 1: Cash Income Received — Recipient Contributes Pro Rata Share
+Philip Beck, an SSI recipient, lives in an apartment and has rental liability. Philip
+shares the apartment with two friends; neither receives public assistance payments.
+Philip states that all three share the household expenses. Household operating expenses
+average $675 a month. Philip contributes $225 in cash each month. The other two each
+contribute $240 in cash. Philip meets their pro rata share of expenses; therefore,
+no ISM is charged to Philip. The cash income to Philip is computed as follows:
+​
+​
+Amount of Philip's Cash Contribution
+$225
+​
+Minus Amount of Philip's Pro Rata Share of Expenses
+-225
+​
+Balance Equals Philip's “Excess” Cash Contributions
+$ 0
+Total
+Total Household Cash Contributions
+$705
+​
+Minus Philip's “Excess” Contribution
+0
+​
+Balance of Household Cash Contributions
+$705
+​
+Minus Total Household Operating Expenses
+- 675
+​
+Cash Income to Philip
+$ 30
+​
+The FO charges Philip with $30 cash income.
+In the SSI Claims System, on the SSI Claims Household Expenses and Contributions page,
+the CS would input $225 as the AMOUNT CLAIMANT CONTRIBUTES, and input $480 as the
+AMOUNT OTHERS CONTRIBUTE. The SSI Claims System computes the amount of cash income.
+EXAMPLE 2: Cash Income Received—Recipient Contributes More than Pro Rata Share
+Sarah North, an aged recipient, lives with their two adult children in a home that
+Sarah owns. The monthly household expenses average $450. Sarah contributes $155 in
+cash; therefore, Sarah meets their pro rata share. One adult child contributes $165;
+the other contributes $140. Cash income to Mrs. North is computed as follows:
+​
+​
+Amount of Sarah's Cash Contribution
+$155
+​
+Minus Sarah's Pro Rata Share of Expenses
+-150
+​
+Balance Equals Sarah's “Excess” Cash Contribution
+$ 5
+​
+​
+​
+Total Household Cash Contributions
+$460
+​
+Minus Sarah's “Excess” Contribution
+- 5
+​
+Balance of Household Cash Contributions
+$455
+​
+Minus Total Household Operating Expenses
+-450
+​
+Cash Income to Sarah
+$ 5
+​
+The FO credits Sarah with their excess contribution and thereby charges Sarah with
+$5 cash income.
+In the SSI Claims System, on the Household Expenses and Contributions page, the CS
+would input $155 as the AMOUNT CLAIMANT CONTRIBUTES, and input $305 as the AMOUNT
+OTHERS CONTRIBUTE. The SSI Claims System computes the amount of cash income.
+EXAMPLE 3: Cash Income Received—Couple Does Not Meet Pro Rata Share
+Jerry and Jamie Johnson, an aged couple, live in their own house with their adult
+son, Bob. They contribute $100 towards household expenses each month. Bob contributes
+$130 in cash per month to “pay for my expenses.” Total household expenses are $210. Total household contributions are $230. Pro rata
+share of expenses is $70.
+Part of Bob's contribution pays the $40 difference between the parents' contribution
+($100) and their pro rata share ($140), so $40 is counted as ISM to the couple ($40
+is used since it is less than the couple's PMV). The couple does not meet their pro
+rata share of expenses, so there is no excess contribution on their part. The difference
+between total household expenses and total household contributions is $20, which is
+the cash income to the couple. ($10 each).
+In the SSI Claims System, on the Household Expenses and Contributions page, the CS
+would input $100 as the AMOUNT CLAIMANT CONTRIBUTES, and input $130 as the AMOUNT
+OTHERS CONTRIBUTE. The SSI Claims System knows this is a couple's claim and compares
+the AMOUNT CLAIMANT CONTRIBUTES against twice the pro rata share.
+EXAMPLE 4: Ineligible Spouse's Contribution Exceeds the Pro Rata Share for the Couple
+Jameson, an SSI recipient, lives with an ineligible spouse in their own home. Their
+two adult children live with them. The ineligible spouse contributes $500 a month
+towards household expenses, but Jameson contributes nothing. The adult children contribute
+a total of $450 a month. The total household operating expenses are $800 a month.
+The ineligible spouse's excess contribution of $300 ($500 minus their $200 pro rata
+share) is added to Jameson's $0 contribution resulting in an excess contribution of
+$100 for Jameson ($300 minus the $200 pro rata share). This $100 excess is subtracted
+from the total household cash contributions of $950. Household cash contributions
+exceed total household operating expenses by $50 ($850 minus $800). This cash income
+to Jameson and their ineligible spouse is then divided by two and only Jameson is
+charged with $25 cash income.
+In SSI Claims System, on the Household Expenses and Contributions page, the CS would
+input $0 as the AMOUNT CLAIMANT CONTRIBUTES, input $500 as the AMOUNT DEEMOR CONTRIBUTES,
+and input $450 in the AMOUNT OTHERS CONTRIBUTE. The SSI Claim System computes the
+amount of cash income.

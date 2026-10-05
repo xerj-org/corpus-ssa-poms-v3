@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 23022.030 - Identifying and Receipting Compassionate Allowances (CAL) and Quick Disability Determinations (QDD) Cases
+Effective Dates: 04/06/2018 - Present | TN 24 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022030 (fetched 2026-10-04)
+
+D. Automatic EFI “Accept Jurisdiction” of CAL and QDD cases: receipt date
+The DDS case processing system download and receipt queue indicates whether a case
+has been marked for fast-track processing. To ensure quick processing of CAL and QDD
+cases, the DDS case processing systems automate the “Accept Jurisdiction” EFI transaction
+(0123).
+The system also indicates whether the Document Management Architecture (DMA) stored
+an image of the signed SSA-827 Authorization to Disclose Information to the Social Security Administration (SSA).
+The DDS should monitor the Download/Receipt queue to expeditiously receipt and assign
+CAL or QDD fast-track cases.
+The DDS will take one of the following actions:
+•
+Accept jurisdiction and receipt, and assign the case to a QDD and CAL adjudicator
+the same day that it posts to the Download/Receipt queue, if possible; or
+•
+Resolve by close of business any circumstances that would cause them not to receipt
+the case. For example, if the FO transfers the case to the wrong DDS, The DDS rejects
+the case and sends it back to the FO.
+NOTE:
+Do not automatically reject jurisdiction of cases that do not have an SSA-827 in DMA
+For additional information about DDS case receipt, see DI 81020.015.

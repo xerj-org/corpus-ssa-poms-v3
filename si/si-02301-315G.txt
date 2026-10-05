@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02301.315 - Erroneous Payments and GK Payment Continuation
+Effective Dates: 06/11/2013 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301315 (fetched 2026-10-04)
+
+G. Examples
+1. Example 1
+Multiple Payment Case/Payment Over the Payment Ceiling
+In July 1993, the FO discovers that Randy Yates is receiving SSI payments on three
+different SSNs. They are receiving monthly payments of $74, $434 (FBR), and a payment
+of $1000 which is over the payment ceiling. The FO determines that Randy Yates is
+entitled only to the monthly payment of $74 which they are receiving on the correct
+SSN. On July 10, the FO inputs T20 to the incorrect records to terminate the erroneous
+payments for the following month, and issues a manual SSA-L8165-U2. The notice explains
+that SSA will send only one monthly payment of $74 beginning August and offers payment
+continuation at $434.
+NOTE: The FO offers payment continuation at $434 since it is the highest payment within
+the payment ceiling. Since it is higher than the correct amount on the record, the
+FO would have to pay by A-OTP an additional $360 each month to provide payment continuation
+until the appeal decision. For a sample notice, see NL 00804.700, notice number 4.
+2. Example 2
+Payment Ceiling Case
+In July 1993, the FO discovers continuing SSI payments over the payment ceiling for
+Lamar Candy of $1289.34 since March 1993. The FO attempted to pay $289.34 beginning
+March, but a transmission error resulted in the erroneous payments on the M02 record.
+Lamar Candy is due $289.34 for March and $254 for April and continuing. On July 5,
+the FO inputs to reduce the payment and issues a manual SSA-L8165-U2. The notice explains
+the reduction to $254 beginning August and offers payment continuation at $289.34.
+NOTE: The FO must offer payment continuation at $289.34 because it is the amount that the
+FO attempted to pay for the first month of erroneous payments and because it is higher
+than the correct amount due. For a sample notice, see NL 00804.700, notice number 5.

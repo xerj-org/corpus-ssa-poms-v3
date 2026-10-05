@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - GN 03910.040 - Appointment of a Representative
+Effective Dates: 10/02/2026 - Present | TN 52 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203910040 (fetched 2026-10-04)
+
+F. Processing incoming appointments
+To process incoming Form SSA-1696, the FO or PC will follow the procedures in GN 03910.040A and GN 03910.040E.2. OHO and OAO staff will follow the procedure in HALLEX HA
+01110.011C.
+OHO or OAO staff will also annotate the appointment and the representative's information
+in their respective internal systems if they are not updated by RASR.
+Technicians will take the following steps:
+1. Review Form SSA-1696 before entering information into RASR
+Before entering information into RASR, the processing component will review Form SSA-1696
+to determine whether it contains information required in GN 03910.040A.
+If the form is unclear about the scope of appointment or does not specify which pending
+case(s) the representative is appointed to handle the technician or staff will:
+•
+Contact the claimant (by telephone or in writing) to clarify the scope of the representation;
+and
+•
+Document the contact with the claimant by adding a copy of the written correspondence
+in the electronic folder or by using a ROC in the CCE, RPOC in MCS, or ROC for non-MCS
+or CCE cases. For non-MCS or MSSICS cases, upload the written correspondence or ROC
+into the electronic folder or file the original ROC in the paper folder.
+NOTE: For contacting represented claimants, see GN 03910.050. If the contact attempts are unsuccessful, discard the form and send notice per GN 03905.055B.2. For the destruction of documents, see DI 81020.055.
+2. Flag and annotate the system
+Flag and annotate the case file and RASR as follows:
+Type
+Process
+Electronic Claims
+Step 1. Enter information from the Form SSA-1696 in RASR. For processing instructions,
+refer to GN 03913.040.
+If the information is entered by OHO or OAO, they will notify the FO of any
+additional action necessary. For more information see DI 81010.080.
+Step 2. The FO will ensure that the claims file in the EDCS contains the
+Representative Involved" flag and the Form SSA-1696 is uploaded into the claim file.
+If the representative is appointed to the case before the file is sent to the DDS,
+OHO, or OAO, check that the "Representative Involved" flag was added to the electronic
+folder in disability claims. See DI 81020.085 for information on certified electronic folder flags.
+If the case is at the reconsideration or hearing level and jurisdiction has changed,
+activate the flag, if it hasn't updated automatically, and send an update after transfer
+(UAT) in EDCS.
+Paper Claims
+Step 1. Affix the Form
+SSA-1128 (Representative Involved) to the front lower right corner of the
+paper claim(s) folder and indicate on the form whether:
+a.
+The representative is an attorney, EDPNA, or a non-attorney who is not eligible for
+direct payment;
+b.
+A fee agreement has been submitted. See GN 03940.000;
+c.
+The representative assigns direct payment of the fee to an entity;
+d.
+The representative waives a fee or only direct payment of the fee from withheld past-due
+benefits;
+e.
+The claim is Title II, Title XVI, or concurrent;
+f.
+A third party has paid or will pay the representative's fee. See GN 03920.005B and GN 03920.010B for information on our authorization of fees when paid by a third-party entity; and
+g.
+The representative submits a fee agreement. Check the block on the Form SSA-1128 labeled
+Fee Agreement in File, but do not check either the Approved or Disapproved block if
+you are not the decision maker. See GN 03940.002 for information on the fee agreement decision maker.
+Step 2. Enter the information on Form SSA-1696 into RASR and file the
+form in the claim file. For processing instructions, refer to GN
+03913.040
+a.
+Enter the information in RASR, which will send the necessary notices and acknowledgments
+to the appointed representative and the claimant.
+b.
+The FO will also ensure that the representative's information propagates into the
+downstream systems (e.g., MCS, MSSICS, and Electronic Disability Collection System
+(EDCS)).
+c.
+When an affected auxiliary beneficiary's information becomes available, the FO will
+enter this information and ensure that a link to the claimant has been created through
+RASR.
+d.
+The FO will use the Evidence Portal to store all documents, Form SSA-1696, and any
+related material for claims that do not have an electronic folder.
+Step 3: Label evidence
+For paper claims, label any evidence submitted by a representative without a cover
+letter or other identifier by annotating the evidence in the upper right corner: "Submitted
+by [Representative's Name] on [Date]."
+IMPORTANT: Technicians must go through MCS (e.g., NOT2), MSSICS (e.g., UATH and UFEE), and Manual
+Adjustment Credit and Award Data Entry system (MACADE) (e.g., ATT) screens as applicable
+when adjudicating a claim. This process ensures that MCS, MSSIC, and MACADE have the
+most up-to-date appointed representative information.
+NOTE: If the appointed representative discloses disbarment, suspension, or disqualification
+from a court, bar, or another Federal program or agency in section 5, part A of Form
+SSA-1696, or the appointed representative provides information in that section that
+is different than what is in our records, the FO or PC technicians or OHO or OAO staff
+must notify the Office of the General Counsel using the contact information in GN 03970.070.
+3. Acknowledge the SSA-1696
+RASR sends a notice to the appointed representative and a copy to the claimant acknowledging
+the appointment. The acknowledgment notice is also available in DPS and Manage Text
+(AURORA) processing system for manual processing in cases where RASR fails to send
+the notice (e.g., claimant's address is missing in the system).
+IMPORTANT: Sending a copy of the acknowledgment notice alerts the claimant that we recognized
+the appointment and ensures the claimant's continued concurrence with it. For information
+about the available notices, See GN
+03905.000.
+4. Acknowledging the assignment of direct payment to an entity
+If the representative has selected the assignment option in Section 5, Part C on Form
+SSA-1696, RASR will send an automated notice to the entity (notification RSR120).
+If the representative is attempting to assign direct payment of any authorized fee
+to an entity but the representative's request cannot be processed (i.e., entity is
+not registered, entity is on the ineligible for direct payment list (IDPE), the information
+or EIN is incorrect or invalid), technicians must access the DPS to prepare a manual
+notice to inform the representative that the assignment failed. Complete the appointment
+as described in GN 03910.040B.2. For an example of the Notification of Failed Assignment notice for both the representative
+and the entity, see GN 03905.036.

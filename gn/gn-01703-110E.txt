@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 01703.110 - How to Document Insured Status Decisions
+Effective Dates: 03/23/2022 - Present | TN 8 (03-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703110 (fetched 2026-10-04)
+
+E. Procedure - Disability Insured Status Calculator (DISCO) and the Disability Wizard
+(DIBwiz)
+The DISCO program retrieves online earnings, NUMIDENT, and Supplemental Security Record
+data to produce DIB insured status calculations. DISCO determines whether a claimant
+is insured for title II benefits. The Disability Wizard Quality Management Tool (DIBwiz
+QMT) helps to establish proper EODs (Established Onset Dates) and to identify prior
+entitlement and title II (T2) insured status. The FO may use either of these tools
+to assess key technical entitlement issues, such as insured status, earnings, and
+prior filings.
+Additional information on DISCO, DIBwiz, and other tools are available on the toolbar.
+When coding foreign QCs in the DISCO program use the number “8”. The number “1” is
+used to code US QCs only.
+For each year in which there is a U.S. and or a foreign QC:
+•
+Display a U.S. QC as “1.”
+•
+Display a foreign QC as “8.”
+• Display no QC as “N.”
+•
+Show QCs in proper order.
+Example: There are US QC’s for the year 1969 through the year 1999 and Foreign
+QC’s for the year 2000 through the second quarter of the year 2019.
+The following alerts have been added to the DISCO program to reflect the use of
+foreign QCs.
+This alert will appear when the Modify QC pattern contains the number (8):
+•
+Totalization QCs involved refer to: GN 01703.100 Crediting Foreign Coverage, GN 01703.110 How To Document Insured Status Decisions GN 01701.140 Entitlement to Hospital Insurance (HI) in Totalization Claims.
+This alert will appear when the Modify QC pattern contains the number (8) and MQGE
+is selected:
+•
+MQGE selected and Totalization QCs potentially involved. Totalization QCs cannot be
+used to establish premium-free HI refer to: GN 01701.140 Entitlement to Hospital Insurance (HI) in Totalization Claims, GN 01701.135 Totalization Benefits Payable by the United States.
+This alert will appear whenever there is a totalization segment on the MBR:
+•
+Totalization data is present on MBR refer to: SM 00510.092 Totalization Data Line.

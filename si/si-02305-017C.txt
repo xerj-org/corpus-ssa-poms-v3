@@ -1,0 +1,151 @@
+SSA Program Operations Manual System (POMS) - SI 02305.017 - Release and Scheduling of RZ, LI, and Manual Deeming Case Workloads
+Effective Dates: 11/21/2023 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305017 (fetched 2026-10-04)
+
+C. Policy - Release Schedule for Priority Diaries Associated with LIs or RZs
+The following provides the release schedule for priority diaries (i.e., DI, 5B, 5H,
+SB, K6, K7, J3, J5, U5, S2, S7, KB, KC, KE, K8, K9, KP, KZ, D8, R8, 3D and I8) associated
+with LIs or RZs:
+1. DI Diary
+Most DI (dedicated account monitoring required) diaries are set in the October release
+of each FY. Others are set during the small redetermination and limited issue releases
+in subsequent months and posted to the DIAR segment of the SSID with the diary maturity
+date. See limited Issue Cases, (SI 02305.011) and DI Diary and the Redetermination/Limited Issue Process, (GN 00605.208) for instructions on processing this diary. If the case with the DI diary is selected
+for LI development, it is identified as such by a selection indicator of Z in the CRZD segment of an SSI query.
+2. 5B Diary
+IRS interface (5B) diaries are released in October, February, and June. IRS informational
+alerts identifying amounts above the tolerance are available on SUMS/MCAS MI Central.
+See Internal Revenue Service (IRS) Interface General, (SI 02310.045) through IRS Interface Special Situations, (SI 02310.049) for a description of the IRS match and processing instructions. Alert data (including
+informational alerts) are available on an interface database and are retrievable through
+SUMS/MCAS MI Central by the SSN/IRS/SSID Query Screen under the Workload Listing section
+for RZs and LIs. (For information on the use of this query, click on the RZ/LI Users'
+Guide on the RZ/LI Listing page.)
+3. 5H Alert
+IRS/SSR Pension (5H) alerts are in conjunction with 5B workloads. See Pension Interface
+(5H diary), (SI 02310.052) for processing instructions. Alert data (including informational alerts) are available
+on an interface database and are retrievable through SUMS/MCAS MI Central by the SSN/IRS/SSID
+Query Screen under the Workload Listing section for RZs and LIs. (For information
+on the use of this query, click on the RZ/LI Users' Guide on the RZ/LI Listing page.)
+4. SB Diary
+SSA conducts a computer match between SSI records in current and force payment/force
+due status and the Bureau of the Public Debt's (BPD's) savings security instrument
+registration file. The diaries are released in October and April. See Savings Security
+Instrument Match (SB Diary), (SI 02310.015) for processing instructions.
+5. K6/K7 Diaries
+Most MEF/SSR earned income (K6/K7) diaries are released in October and April but may
+be released at other times during the FY. See Master Earnings File (MEF) Match (K6
+and K7 Diary), (SI 02310.055) for processing instructions.
+6. J3/J5 Diaries
+These diaries are set when the recipients/deemors wage amount shown on the Supplemental
+Security Record (SSR) is greater than the wage amount shown on the MEF. The J3 diary
+generates when the discrepancy between the SSR and the MEF is greater than $1,000
+annually for the recipient or deemor. The J5 diary generates when the discrepancy
+between the SSR and the MEF is greater than $2,000 annually for the deemor. See Earned
+Income, (SI 00820.001) for processing instructions.
+Beginning with September 2008, the J3/J5 diaries will generate in March and September
+each year.
+7. U5 Diary
+Unemployment compensation (U5) diaries are released in October, January, April and
+July each year. See Unemployment Compensation Match (U5 Diary), (SI 02310.065) for processing instructions.
+8. S2 Diary
+State wage match (S2) diaries are released in October, January, April and July each
+year. See State Wage Record Match (S2 Diary), (SI 02310.062) for processing instructions.
+9. S7 Diary
+The S7 diary is set when there are discrepancies between the wage amount shown on
+the Supplemental Security Record (SSR) and the wage amount shown on the Office of
+Child Support Enforcement (OCSE) database. The S7 diary is set when the recipients
+wage amount on the SSR is $250 or more per quarter greater than the amount shown on
+the OCSE database. The S7diary is also set when the deemors wage amount is $500 or
+more per quarter greater than the wage amount shown on the OCSE database. See Monthly
+Wage Reporting, (SI 00820.143) for processing instructions.
+Beginning with September 2008, the S7 diary will generate in March, June, September
+and December each year.
+10. D6 Diary
+Effective October 2005 (FY 2006) the death (D6) diary no longer generates a LI, or
+a RZ.
+The D6 diary was set for a deceased eligible/ineligible spouse, parent, or essential
+person when a death input is made to the record but no RZ initiation data or initiation/completion
+data were transmitted. Previously when a D6 diary generated, the case was released
+as a profile D MEP RZ during the next RZ merge run.
+11. KC/KE/K8/K9 Diaries
+Critical birthday (KC/KE/K8/K9) diaries are set in October of the fiscal year of the
+year of age attainment. The cases are released as LIs in the month before the month
+of age attainment. See Critical Birthday Diaries Supplemental Security Income (SSI),
+(SI 02309.001), Attainment of Age 65 by Ineligible Spouse, Parent or Essential Person K8/K9 diary
+Supplemental Security Income (SSI), (SI 02309.005), and Gerontology Limited Issue KC Diary (SI 02309.006) for processing instructions.
+12. KB Diaries
+Most KB diaries are set in October of the fiscal year and are selected as profile
+K MEP scheduled RZs the month of age 18 attainment. Cases meeting KB criteria after
+the October redetermination merge have the diary set in a subsequent monthly redetermination
+merge. To help avoid multiple RZs in a fiscal year, if the record has a priority select
+diary and a KB diary with a future date, the record is selected as a LI case for development
+of the priority select diary. The RZ is delayed until the month the KB diary matures.
+EXAMPLE: In October a record is set with a 5B diary and a KB diary (because the recipient
+will turn age 18 the following March). The 5B diary is released for LI development
+in October. The KB diary is released as a profile K RZ in March.
+REMINDER: Coordinate age 18 disability redeterminations (see Public Law (PL) 104-193 Title
+XVI Childhood and Age 18 Disability and Redetermination Cases, (DI 23570.006) and Public Law (PL) 104-193 General, (DI 11070.001) with profile K redeterminations to avoid multiple contacts with recipients. Also,
+coordinate dedicated account monitoring processing with profile K RZs.
+13. KC Diaries
+The recipient or eligible spouse will attain age 90 by the end of the fiscal year.
+This is a new LI. Pursuing a LI for Title XVI only recipients who are age 90 or older
+will:
+a.
+ensure processing occurs as part of our program integrity workloads,
+b.
+provide tracking, and
+c.
+remove the agencys dependency on a stand-alone regional website. Example: The RZ run treats the KC diary the same as other RZ/LI diaries.
+If the case has a high score, then it receives an RZ selection. If the case has a
+low score, then it receives a diary limited issue (Profile = X, Selection Indicator
+=X). If the case has a reason for delay, the RZ run delays its selection to minimize
+multiple contacts per year.
+14. KZ Diary
+Insured status (KZ) diaries are set semi-annually (April/October) if the recipient
+is within 4 quarters of being eligible for Title II retirement benefits on their own
+record. See Processing the Insured Status (KZ) Diary Supplemental Security Income
+(SSI), (SI 02309.010) and Overview of Redetermination Related Diaries and Alerts, (SM 01501.250B) for
+processing instructions.
+NOTE: KZ diaries are also set for potential disability benefits. However, KZ disability
+insured status diaries will not be set for recipients under age 65 who do not meet
+either the 20/40 requirement for disability benefits or the special insured status
+requirements for individuals who become disabled prior to age 31.
+15. D8 Diary
+Centers for Medicare and Medicaid Services (CMS) Minimum Data Set (D8) diaries are
+released monthly. This match identifies recipients whose admission to a medical facility
+has not been reported. See Title XVI Facility Match (D8 diary), (SI 02310.064) for processing instructions.
+16. KP Diary
+The system sets a KP diary in October of the fiscal year when one member of an eligible
+couple attains age 62 to 64 later in the fiscal year and does not receive Title II
+benefits, but the other member of the couple does receive Title II benefits. The diary
+is set for the month before the month of age attainment. Both members of the couple
+must be in current pay status (C01). The diary is set once each FY. See Detecting
+Entitlement to Title II Spouses Benefits KP Diary, (SI 02309.007) for processing instructions.
+17. R8 Diary
+The conserved funds diary (R8) is set to identify cases where the WBDOC processed
+an annual representative payee accounting report showing conserved funds in excess
+of $2000 for an individual or $3,000 for a couple. The WBDOC employee inputs the CF
+field in the REPY segment of the SSR and the LI is selected in the next RZ merge run.
+See Verification Requirements Conserved Funds (R8) Diary, (SI 01140.021) for processing
+instructions.
+18. 3D Diary
+The Department of Homeland Security (DHS) transmits listings to SSA of those individuals
+who have been removed from the United States. SSA matches the data against the SSR
+monthly and posts a 3D diary.
+See Processing Alerts from Computer Matches, (SI 02310.007) and DHS Match Removal From the United States (3D Diary), (SI 02310.018) for descriptions of the DHS match as well as for processing instructions.
+19. I8 Diary
+The Department of Homeland Security (DHS) transmits listings to SSA of individuals
+who have voluntarily left the United States and have received a re-entry permit. SSA
+receives this information monthly and posts an I8 diary. This match was effective
+July 2005. See DHS Match Voluntary Leaving the United States (I8 Diary), (SI 02310.017) for a description of this DHS match as well as for processing instructions.
+20. KV Diary
+The KV diary sets yearly for potential Department of Veterans Affairs (VA) pension
+payments. The system identifies SSI recipients who are:
+•
+In current pay status (C01), force pay, or 1619(b) status; and
+•
+Potentially eligible for, but not receiving a VA pension.
+If the case has a high score, then it receives an RZ selection. If the case has a
+low score, then it receives a diary limited issue (Profile = X, Selection = X). If
+the case has a reason for delay, the RZ run delays its selection to minimize multiple
+contacts per year.

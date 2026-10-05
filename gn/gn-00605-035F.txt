@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 00605.035 - FO, TSC or PC Provides Replacement Accounting Form
+Effective Dates: 11/17/2005 - Present | TN 24 (11-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605035 (fetched 2026-10-04)
+
+F. Procedure – How To Determine the Total Accountable Amount
+The Total Accountable Amount (TAA) represents the total benefits paid during the 12-month
+report period plus conserved funds as reported on last year's accounting report.
+1. Title II
+Use the eRPA in the eRPS to query the system control file to obtain the TAA and complete
+Item 3 on the accounting report.
+NOTE: Although the Payment History Update System (PHUS) record is used to determine benefits
+paid, it does not contain conserved funds data. When sending the payee a replacement
+accounting form, obtain the TAA from the eRPA screen.
+2. Title XVI
+Compute the total benefits paid during the 12-month report period by reviewing the
+Payment History (PMTH) segment of the SSR (along with the PHUS record for concurrent
+cases); obtain the prior conserved funds amount from the CF: field in the REPY segment;
+and complete Item 3 on the accounting report.

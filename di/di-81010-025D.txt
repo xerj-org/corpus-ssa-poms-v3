@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - DI 81010.025 - Completing Electronic Disability Collect System (EDCS) Forms for Initial Claims
+Effective Dates: 07/28/2014 - Present | TN 76 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010025 (fetched 2026-10-04)
+
+D. Completing the Child Disability Report (Form SSA-3820) in EDCS
+The EDCS-3820 collects child disability report information:
+•
+Submitted on the Internet Disability Report; or
+•
+Entered during the applicant interview.
+The questions on the EDCS pages correspond to those found on the paper SSA-3820. A
+spell-check button is placed below each Allegations field of the SSA-3820. Run the spell-check feature on each initial claim. Spell check is in place to assist in recognizing key words to identify Quick Disability
+Determination (QDD) and Compassionate Allowance (CAL) cases. EDCS contains the following
+pages:
+1. About the Child
+The About the Child page displays:
+•
+The child’s name, date of birth, language preference, and age, which propagate from
+the mainframe and cannot be changed in EDCS; and
+•
+The child’s height, weight, Medical Assistance number (if the child is receiving Medical
+Assistance), and spoken language.
+2. About You
+The About You page displays:
+•
+General information about the person or agency applying on behalf of the child; and
+•
+The applicant identification information, including name, address, daytime telephone
+number, and relationship to the child, all of which propagate from MSSICS and cannot
+be changed in EDCS.
+3. Other Contacts
+Use the Other Contacts page to:
+•
+Establish a summary list of all potential contacts who can assist with the child’s
+case; and
+•
+Add, update, or delete individuals or organizations from the list of contacts.
+4. Illness and Onset
+Use the Illness and Onset page to enter:
+•
+Allegations about illnesses, injuries, or conditions and how they limit the child’s
+daily activities;
+•
+The child pain questionnaire; and
+•
+The child’s disabling condition and AOD.
+NOTE: The child’s disabling condition and AOD propagate from the mainframe. You cannot
+over key the AOD.
+To change the AOD, correct it in MSSICS and re-propagate EDCS.
+If the claimant alleges cancer, enter the type and stage, when prompted.
+5. School History
+Use this page to record, update, view, and delete information about the child’s school
+history. The SRF includes a list of schools to use when developing school history
+(see Source Reference File (SRF) - DI 81010.040.).
+6. Med Sources
+Use the Med Sources page to record, update, view, and delete information about the
+source(s) and treatment for the child. The SRF includes a list of medical providers,
+hospitals, and clinics to search when developing medical history, which can be added,
+modified, or deleted (see Source Reference File (SRF) - DI 81010.040.)
+7. Medications
+Use the Medications page to record, update, view, and delete information about medications
+that the child is taking.
+8. Tests
+Use the Tests page to record, update, view, and delete information about tests the
+child has had, or is scheduled to have, for their condition.
+9. Vocational Rehabilitation
+Use the Vocational Rehabilitation page to record, update, view, and delete information
+about the child’s experience and interest in vocational rehabilitation.
+10. Work Activity
+Use the Work Activity page to record, update, and view any of the child’s work experience.
+11. Remarks
+Use the Remarks page to enter additional information provided about the case that
+could not fit in the allotted space in prior sections.

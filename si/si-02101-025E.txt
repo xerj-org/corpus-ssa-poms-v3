@@ -1,0 +1,147 @@
+SSA Program Operations Manual System (POMS) - SI 02101.025 - Basic Requirements of Supplemental Security Income Underpayment Review
+Effective Dates: 12/03/2024 - Present | TN 36 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101025 (fetched 2026-10-04)
+
+E. Procedure for management, adjudicator, and reviewer responsibilities
+1. Management responsibilities
+Take these steps to process underpayment alerts.
+a.
+Management is responsible for overseeing prepayment reviews added to the Underpayment Case Control Log until payment reflects on the SSR.
+b.
+Make employees aware of their responsibilities in the process.
+2. Adjudicator responsibilities for prepayment review
+Conduct a prepayment review if the underpayment is $15,000 or more, unless:
+•
+Title II offset reduces the underpayment at risk to less than $15,000. (For instructions
+on documenting no money at risk, refer to SI 02006.100F.2.); or
+•
+The LRC criteria outlined in SI 02101.025C are met.
+3. Adjudicator responsibilities for preparing underpayment for release
+Follow these steps to prepare the underpayment for release.
+STEP
+ACTION
+1
+Determine if all benefits due on the record can be paid without delaying the recurring
+check.
+•
+If YES, go to step 2.
+•
+If NO, release the recurring payment. Go to step 2.
+2
+Determine whether the case meets the LRC criteria:
+•
+If YES, go to step 4.
+•
+If NO, go to step 3.
+3
+Conduct the prepayment review. Query the Office of Child Support Enforcement (OCSE)
+online databases to determine if there are any undisclosed wages, unemployment compensation,
+or "new hire" information according to MS 05203.015 through MS 05203.018.
+The query should include the individual and deemors. Follow the procedures in SI 00810.550. Go to step 4.
+NOTE: If the FO receives an S2 alert for wages or U5 alert for unemployment compensation
+because of a central office database match, NEGATIVE VERIFICATION IS NOT REQUIRED.
+4
+Determine whether there is an IAR.
+•
+If YES, go to step 5.
+•
+If NO, go to step 7.
+5
+Determine whether a GR code is in the GRC field of the MPMT segment of the SSR.
+•
+If YES, go to step 7.
+•
+If NO, go to step 6.
+6
+Enter appropriate GR code and go to step 7. For grant reimbursement information, refer
+to SM 01005.623.
+7
+Determine whether we must release the underpayment using the A-OTP process per SM
+01311.667, and SI 02003.023 and SI 02003.025 for IAR cases.
+If YES, and this:
+•
+IS NOT a dedicated account case, after the reviewer enters the appropriate code on
+the UOUP screen to release the underpayment, follow instructions in SM 01901.015 and
+MS 00303.022 through MS 00303.025;
+•
+IS a dedicated account case, after the reviewer enters the appropriate code on the
+UOUP screen to release the underpayment, follow instructions in SI 02101.010, SM 01311.660 and SM 01901.015 and MS 00303.022 through MS 00303.025; or
+•
+IS an installment case with an exception, after reviewer has entered the appropriate
+code on the UOUP screen to release the underpayment, follow SI 02101.020 and SM 01901.015 and MS 00303.022 through MS 00303.025.
+If NO, go to step 8.
+8
+Determine whether the case involves an attorney.
+•
+If YES, complete the UATH screen and RASR. Go to step 9.
+•
+If NO, go to step 9.
+9
+Determine whether the system automatically generates a notice. If not, prepare a manual
+notice. Go to step 10.
+10
+Document the review using the mandatory Underpayment Case Control Log. The adjudicator
+will answer the questions in the Underpayment Case Control Log|Create Underpayment
+for Review screen. Copy language for Report of Contact button.
+MSSICS cases:
+•
+Create a Report of Contact page, and paste the text.
+•
+Lock the Report of Contact page to protect the contents.
+Non-MSSICS cases:
+•
+Create an SSA-5002, Report of Contact and paste the text.
+•
+Store the SSA-5002 in the Evidence Portal (EP) or Certified Electronic Folder (CEF).
+11
+Post For Review, case is ready for the reviewer to verify and release the underpayment.
+4. Reviewer responsibilities
+Follow these steps for reviewer's responsibilities.
+STEP
+ACTION
+1
+Review the determination of the underpayment amount. Go to step 2.
+2
+Review the manual notice. Go to step 3.
+3
+Correct any deficiencies. Go to step 4.
+4
+Document the review using the Underpayment Case Control Log. The reviewer will answer
+questions in the Underpayment Case Control Log|Case Review screen. Copy language for
+Report of Contact button. Submit Completed Review button.
+MSSICS cases:
+•
+Create a Report of Contact page, paste the text.
+•
+Lock the Report of Contact to protect the contents.
+Non-MSSICS cases:
+•
+Create an SSA-5002, Report of Contact and paste the text.
+•
+Store the SSA-5002 in the EP.
+Go to step 5.
+5
+Complete the UOUP screen to release the underpayment by entering the appropriate code
+on the UOUP screen. For UOUP data, refer to MS 00304.018.
+Go to Step 6 if IAR is involved and the MPMT UPV of “V” is set.
+Go to Step 7 if no IAR is involved.
+6
+After 25 workdays from the date the UOUP screen was transmitted (underpayment is $15,000.00
+or more) and eIAR has not released the IAR payment, then:
+•
+Determine if there is an I9 diary and process accordingly;
+•
+If UPV of “V” is set and no I9 diary, do not delete the GRC; contact the RO.
+7
+The system releases the underpayment.
+5. Adding remarks to Report of Contact
+For
+the SSI underpayment workload, follow these
+instructions:
+Paste into the Report of Contact screen, or the SSA-5002:
+•
+To paste into the Report of Contact screen, navigate to the Report of Contact screen.
+Select CTRL+V. The text will appear on the screen.
+•
+To paste into the SSA-5002, open the SSA-5002 form. Select CTRL+V and the text will
+appear on the form.

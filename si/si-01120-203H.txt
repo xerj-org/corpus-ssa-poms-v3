@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - SI 01120.203 - Exceptions to Counting Trusts Established on or after January 1, 2000
+Effective Dates: 06/09/2022 - Present | TN 104 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501120203 (fetched 2026-10-04)
+
+H. Procedure for follow-up to a finding of undue hardship due to deprivation of food
+or shelter and limited funds
+1. When to use this procedure
+Use this procedure when it is necessary to determine whether an individual who established
+a trust continues to be eligible for SSI based on undue hardship due to alleged deprivation
+of food or shelter and limited available funds. Since this type of undue hardship
+is a month-by-month determination, recontact the individual to redevelop undue hardship
+periodically.
+2. Recontact period
+The recontact period may vary depending on the individual's situation. If the individual
+alleges, and information in the file indicates, that the individual's income and resources
+are not expected to change significantly, and the individual is continuously eligible
+for SSI because of undue hardship, recontact the individual
+at
+least every six months. If the individual's income and resources are expected to fluctuate, or the file
+indicates a history of such fluctuation, the recontact period should be shorter, even
+monthly in some cases.
+3. Documentation
+At each recontact:
+•
+Obtain on a Report of Contact page the individual's statement, either signed or recorded,
+that failure to receive SSI would have deprived the individual of food or shelter
+for any month not covered by a prior allegation;
+•
+Determine whether total income and liquid resources exceeded the FBR plus any State
+supplement for each prior month;
+•
+If undue hardship continued for the prior period and is expected to continue in the
+future period, continue payment and tickle the case for the next recontact, per SI 01120.203H.4. in this section; and
+•
+If undue hardship did not continue through each month, clear the excluded amount and exclusion reason entries on the Trust page for each month that undue hardship did not apply. Process
+the excess resources overpayment for those months. If undue hardship stops due to
+a continuing change in the individual's situation, such as income or resources, do
+not tickle the file to follow up. The individual must recontact SSA and make a new
+allegation of undue hardship.
+4. Recontact controls
+For SSI Claims System cases, use the Development Worksheet under instructions in MS
+08122.004 and enter the following worksheet inputs:
+•
+In the ISSUE field: input TRUST;
+•
+In the TICKLE field: input the date by which the individual should be recontacted to redevelop
+undue hardship; and
+•
+In the REMARKS field or on the Development Notes page (MS 08122.005): add additional notes with
+information about the trust undue hardship issue that the Claims Specialist believes
+is appropriate.
+For non-SSI Claims System cases, use the Modernized Development Worksheet (MDW). If
+an MDW is applicable, set up an MDW screen using instructions in MS 03901.001 and
+the following MDW inputs:
+•
+In the ISSUE field: input TRUST;
+•
+In the CATEGORY field: input T16MISC;
+•
+In the TICKLE field: input the date by which the individual should be recontacted to redevelop
+undue hardship; and
+•
+In the MISC field: input information (up to 140 characters) about the trust undue hardship issue
+including issues to be aware of and anything else the Claims Specialist believes is
+appropriate. If additional space is needed, use REMARKS.

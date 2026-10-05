@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 01703.230 - Totalization Status Codes (TSC)
+Effective Dates: 01/27/2017 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703230 (fetched 2026-10-04)
+
+E. Process
+Cases on which a totalization benefit is being paid (TSC of A1, A3, or E2) or on which
+a totalization claim is pending (TSC of P1 or P2), remain under DIO jurisdiction and
+should never be transferred. If the TSC has been posted to the MBR, any attempt to
+transfer a case with one of those TSCs should result in a MACADE exception. Cases
+with a TSC of DI, D2, or D4 should generally be retained in DIO in the event reconsideration
+requests are filed.
+Only cases where all beneficiaries are domestic, non-totalization RSDI benefits are
+being paid and the TSC is either D3 or T1 should be transferred to another PSC or
+DIO. The presence of a TSC of D3 or T1 will not block processing in other PSCs or
+ODO.

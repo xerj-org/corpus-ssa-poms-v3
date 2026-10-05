@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 14510.025 - Office of Disability Operations (ODO) Procedures for Processing Allowances, Closed Periods, and Denials of Section 301 Payments
+Effective Dates: 01/08/2025 - Present | TN 18 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510025 (fetched 2026-10-04)
+
+A. Procedure for Section 301 payment allowances
+1. Both Title II and Title XVI cases
+•
+Print the SSA-833
+(Cessation or Continuance of Disability or Blindness Determination and Transmittal)
+or SSA-832 (Cessation or Continuation of Disability or Blindness Determination and Transmittal)
+from the Evidence Portal (EP) or eView and annotate in the remarks section of the
+document, DO NOT PROCESS SECTION 301 PAYMENT CONTINUATION.
+•
+Scan the SSA-553 and SSA-833 or SSA-832 into eView or EP.
+•
+Prepare and send a notice of allowance of the Section 301 payment continuation due
+to participation in a VR or similar program.
+•
+Complete the Web-Based Section 301 Data
+Sheet.
+IMPORTANT: If the Title II beneficiary is participating in a State VR agency program, the State
+VR agency may be eligible for VR reimbursement under certain circumstances. E-mail
+a copy of the SSA-4290-F5 (Development of Participation in a Vocational Rehabilitation or Similar Program),
+the SSA-553, and the SSA-833 or SSA-832 to the ORDES OES VR Team at VR.301.Claims@ssa.gov.
+2. Title II cases
+•
+Do not process the disability cessation;
+•
+Annotate the Master Beneficiary Record (MBR) with a special message: Section 301 payment
+case - do not process any reported work;
+•
+Post the Section 301 payment continuation event (see MS CDR 001.005 CDR PC Input Screen
+(IPCA)); and
+•
+Diary the case for one year from the current month or earlier for review on the Disability
+Control File (DCF) (see DI 14510.025A).
+The latest event on the DCF should be the medical cessation posted by the Disability
+Determination Services (DDS) to the Disability Determination Services Query (DDSQ).
+If DDS does not post the cessation to the DCF, review the Disability Determination
+Service Query (DDSQ/HA04) to determine if DDS reversed the cessation to a continuance.
+(If DDS reversed the cessation, Section 301 payment continuation is no longer applicable.)
+If DDS did not reverse the cessation, manually annotate the cessation determination
+to DCF (MS CDR 001.005 (CDR PC Input Screen (IPCA)). Once you post the cessation,
+enter the Section 301 event on the DCF.
+•
+On the MCDR screen, select 3=PC Update (MS CDR 001.005).
+•
+On the ECDR screen, select 5=T2 Medical.
+•
+On the IPCA screen, select 15=301 CaseVOC REHAB.
+•
+Use the worksheet (CDRW screen) to diary the case for review (MS CDR 001.013 (CDR
+Development Worksheet (CDRW)).
+3. Title XVI cases
+•
+Add a remark to the DCF: 301 Allowance mm/dd/yy;
+•
+Email (FO e-mail addresses are listed in the Detailed Office/Organization Resource
+System (DOORS)) the Section 301 flag to the servicing Field Office (FO) with instructions
+to annotate the Section 301 approval to the Supplemental Security Record (SSR) remarks
+and to establish or update the VP diary; and
+•
+Place the case in Development Hold File (DHF) for 15 days.
+•
+After 15 days, review the SSR to verify that the FO updated the VP diary and that
+the payment status is C01 and/or N07/N08 has been removed.
+If the FO has not taken action, follow up by emailing the appropriate FO with the
+subject line Follow-Up Request Action Needed: Section 301 VP Diary Update Needed..

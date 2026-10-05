@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 00605.035 - FO, TSC or PC Provides Replacement Accounting Form
+Effective Dates: 11/17/2005 - Present | TN 24 (11-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605035 (fetched 2026-10-04)
+
+E. Procedure — How To Determine the Report Period
+Use the RPS, MBR or SSR to determine the 12-month report period for which the payee
+must account.
+1. Title II
+a.
+Use the eRPA in the eRPS to query the system control file to determine the 12-month
+report period beginning and ending dates (always use the first day of the month with
+the beginning date and the last day of the month with the ending date), or
+b.
+Review the MBR to determine the last month of the report period. Is there a NAM (Negotiated
+Accountability Month) date in the RPAYEE segment?
+•
+If yes, use the last day of the NAM month as the end month of the report period.
+•
+If no, use the last day of the DOS (date payee selected) month as the end month of the report
+period.
+c.
+Assume the report period ended in the calendar year in which the NAM or DOS month
+most recently occurred.
+d.
+Count back 12 full calendar months from the end of the report period. The first month
+is equivalent to the month after the NAM or DOS month.
+EXAMPLE: On June 28, 2001, the payee contacts the TSC and asks for a replacement for a lost
+SSA-623-OCR-SM form. No NAM is present in the RPAYEE segment of the MBR for the beneficiary.
+The DOS date is 05/1998. The last month of the report period is May. The report period
+ended with the last day of May 2001. The first month of the report period is June;
+the 12-month report period is 06/01/2000 through 05/31/2001.
+2. Title XVI and Concurrent
+Use the SSR to determine the 12-month report period beginning and ending dates. Assume
+the report period ended in the calendar year in which the NAM or DOS month most recently
+occurred. The NAM is shown as M: and the DOS as S: in the REPY segment of the SSR.
+It will be necessary to review the NM coding on the SSR:
+a.
+If NM coding is present, begin the report period on the first day of the month following
+the NM and end the report period with the last day of the twelfth month.
+EXAMPLE 1: The SSR shows M:07/00. The four digits represent the month and year for which the
+payee last accounted; i.e., July 2000. The report period is 08/01/2000 through 07/31/2001.
+EXAMPLE 2: The SSR shows M:06/99. The calendar year is 2001. The report period is 07/01/2000
+through 06/30/2001.
+b.
+If there is no NM data, assume the payee has not previously accounted for payments
+received. The report period begins with the first day following the DOS month and
+ends with the last day of the twelfth month.
+EXAMPLE: The SSR does not display NM data. The DOS is 05/25/00. The report period is 06/01/2000
+through 05/31/2001.

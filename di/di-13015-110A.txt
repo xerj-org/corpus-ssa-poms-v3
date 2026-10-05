@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 13015.110 - Hints on Reading PCACS Queries
+Effective Dates: 01/18/2001 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015110 (fetched 2026-10-04)
+
+A. Exhibit – PCACS Query
+Shown below is a facsimile of the PCACS query that will give you information about
+a folder"s current status. Fields shown that are common to other screens or are not
+needed to determine where the CDR folder is, are not explained here.
+===========================================================
+1.          PCACS FACSIMILE: SQRY Screen
+PCACS SS/SS/SS STANDARD QUERY SQRY
+TRANSFER TO: XXXXENTERING COMPONENT:SSSSS UNIT:PPPPPP
+ROUTE RESPONSE TO: 9                    1. SCREEN            2. PRINTER
+ENTER SSN/SSNX OR SELECT RECORD(S) FOR FULL QUERY:
+[1]
+SSN: XXXXXXXXX SSNX: 99999
+[2]                                                                     [3]                                  [4]                    [5]
+SSN SSNX AD A H C TOEL1/TOEL2/LIST LOCATION
+SSSSSSSSS SSSSS SS S S S SSSSSSSSSSSSSS SSSSSSSSSSSSSSSS
+LOCDT SITEDT
+SSSSSS SSSSSS
+SSSSSSSSS SSSSS SS S S S SSSSSSSSSSS SSSSSSSSSSSS SSSSS SSSSSS
+SSSSSSSSS SSSSS SS S S S SSSSSSSSSSS SSSSSSSSSSSS SSSSS SSSSSS
+[6]
+DISPLAY MORE RECORDS (Y/N): X
+===========================================================

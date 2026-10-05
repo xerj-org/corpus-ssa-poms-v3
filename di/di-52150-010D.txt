@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 52150.010 - Average Current Earnings (ACE)
+Effective Dates: 11/09/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150010 (fetched 2026-10-04)
+
+D. Changing the MCS EC or ICF ACE
+Earnings posted to the Master Earnings File (MEF) consist only of earnings up to,
+but not exceeding, the yearly statutory maximum. Both the modernized claim system
+earnings computation (MCS EC) and ICF compute the ACE using the MEF earnings. There
+may be instances when MCS EC or ICF do not compute the highest possible ACE.
+MCS EC and ICF both include alerts when over-maximum earnings should be considered.
+In these situations, obtain a detailed earnings query (DEQY) for the years where over-maximum
+earnings are possible. The “TOTAL COMP” field of the DEQY displays the actual amount
+earned, even if it exceeds the yearly maximum. Use the “TOTAL COMP” amount(s) from
+the DEQY to compute the ACE manually or by using ICF.
+1. Using MCS EC to determine the ACE
+MCS EC uses only the posted earnings. When over-maximum earnings are involved:
+•
+Compute the ACE manually or via ICF;
+•
+Answer “Y” to “DO YOU NEED TO MANUALLY ENTER A HIGHER ACE” on the WC/PDB Claim Data
+(WPCL) screen; and
+•
+Enter the new 100 percent ACE in the block that follows. For coding instructions,
+see MSOM COMMON 001.003.
+Develop lag-year earnings when the alleged lag earnings affect the ACE. In those cases,
+post the lag earnings amount to the Earnings (EARN) screen in the claim path. For
+coding instructions, see MSOM MCS 005.028. For development of lag earnings, see RS 01404.005.
+If the lag-year earnings amount is over the statutory limit, you must compute the
+ACE manually. Enter on the WPCL screen.
+2. Using ICF #31 or #32 to calculate the ACE
+Manually enter over-maximum earnings when using ICF #31 or #32 to calculate the ACE.
+•
+On the WC/PDB Offset-General Information (WCGI) enter “Y” in ACE COMP NEEDED. Also
+enter the number of divisor months used in the PIA computation. NOTE: The number of divisor months is not a number that is displayed on the MBR. If necessary,
+compute the PIA in order to determine the correct number of divisor months.
+•
+The WC/PDB Offset-Computational Earnings (WCDE) allows earnings to be added or overkeyed.
+The earnings from that screen are used to determine the ACE.

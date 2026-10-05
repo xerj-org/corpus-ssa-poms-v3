@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.407 - Coding Chile Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402407 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Chile
+The customer provides us with a signup form for Chile containing the account number
+“12345678901234567890.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 680000129.
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Chile.
+•
+Start with the country code of “U” designated for Chile; and
+•
+Code 16 digits of the 20-digit account number “1234567890123456”.
+a. You must obtain the following
+•
+RTN: 680000129
+•
+Checking
+•
+DAN: U1234567890123456
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000129
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN-680000129
+•
+DAN-CU1234567890123456

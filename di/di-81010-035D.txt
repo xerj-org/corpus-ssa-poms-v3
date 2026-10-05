@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 81010.035 - Data Propagation
+Effective Dates: 09/23/2013 - Present | TN 84 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010035 (fetched 2026-10-04)
+
+D. Data propagation from Internet Disability Reports (IDRs) in EDCS
+Information from IDRs propagates into EDCS only if Internet Users (IUs) finally transmit
+the report (see Internet Disability Report Intake Overview Commonly Used Acronyms,
+Reports, and Terms, DI 81007.005). When establishing a case, if a finally transmitted IDR exists, EDCS:
+•
+Displays an alert message;
+•
+Automatically selects KEYED for the appropriate report(s) on the Form(s) Selection
+screen;
+•
+Displays propagated IDRs data prior to the user making any entries in EDCS;
+•
+Captures a “Record of Change” (ROC) snapshot prior to propagating data from the mainframe
+and Exclusion Information screen. For details on ROCs, see Case Data Tab, DI 81005.045C; and
+•
+Marks the case if an Internet report was available but not propagated for any reason.
+This information is available in eView on the Case Information page under Client Dates.
+If a form was not propagated, the Client Dates section shows the date the form was
+submitted, the type of Internet form that did not propagate, and the reason why the
+internet form did not propagate.
+NOTE: If the claimant submits an IDR after an EDCS record has been established, the FO
+must ensure that the EDCS record reflects all pertinent information from both the
+IDR and whatever has already been entered in EDCS. This can be done by printing out
+the IDR and entering additional information into EDCS; or if there is no keyed data
+in the EDCS record yet, the EDCS record can be deleted and a new IDR can be started
+which will propagate IDR data.
+1. Priority for IDR data propagation
+During propagation, mainframe information overlays Internet information where data
+fields exist on both the mainframe claim and the IDR, including situations where there
+is no data present in the mainframe field (i.e., phone number).
+EXCEPTION: The mainframe allegation of disabling conditions is added to the end of the EDCS
+field only if there is room (i.e., the claimant didn’t use the full 1,000 characters
+that are allowed when submitting the Internet disability report).
+2. IUs complete the wrong Internet Disability Report
+If an IU completes the incorrect Internet Disability Report, see Establishing Internet
+Disability Report Data in Electronic Disability Collect System (EDCS), DI 81007.030D.

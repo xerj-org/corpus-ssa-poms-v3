@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - GN 02401.903 - Allegations of Nonreceipt Not Filed Timely
+Effective Dates: 04/18/2014 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401903 (fetched 2026-10-04)
+
+D. Title II procedure when the credit is present after 13 months
+The technician should take the following steps to verify and process an LP credit
+if it is present on the record.
+1. Analyze the Treasury Check Information System (TCIS)
+FO technician reviews the TCIS to obtain the status of the payment and if necessary,
+refers the case to a processing center (PC) via modernized development worksheet (MDW)
+for processing.
+NOTE: Prior to releasing payment, the PC technician should refer to instructions in GN 02401.903D.2 through GN 02401.903D.7 in this section.
+2. PC technician determines the payment status
+PC technician reviews the MBR to determine the payment status of the beneficiary.
+3. Beneficiary is now deceased
+If the beneficiary is now deceased and check replacement is appropriate, make the
+payment as defined in GN 02301.030A.
+4. Beneficiary is no longer entitled
+If the beneficiary is no longer entitled, the PC technician should:
+•
+Attempt to contact the beneficiary directly.
+•
+If direct contact is unsuccessful, obtain a current address from the FO servicing
+the last known address. For notice language to use when the beneficiary is not entitled,
+see NL 03001.025.
+5. Beneficiary has an overpayment present on the record
+If there is an overpayment on the record, adjust any underpayment due to recover the
+overpayment. To determine if an adjustment of the underpayment is necessary, see item
+2 in GN 02210.006.
+6. Beneficiary entitled to benefits and no overpayment on record
+PC technician places the following message in the special message field on MBR with
+the type of payment issued. Remember to use the payment date of the check for which
+the LP credit represents.
+“Limited Payability Case MM/DD/YYYY paid via Single Payment System (SPS) Critical
+Payment System (CPS), Manual Adjustment, Credit, and Award Data Entry (MACADE), etc.”
+7. Possible prior check replacement
+If the record indicates that a credit may be due, the PC technician should take the
+following steps:
+•
+Review the beneficiary’s record carefully to ensure the check is due.
+NOTE: Take extreme care to avoid replacing the check again and possibly causing an overpayment.
+•
+Analyze and review the PHUS record.
+•
+If the PHUS 169 event has an RCLRN code of C, do not replace the payment because we already reissued it. Also, review the special message
+field for LP check status.
+For additional limited payability procedures, see SM 00624.400 through SM 00624.412,
+and for instructions on completing the intranet SSA-4208 Reclamation Data Input form,
+see MSOM INTRANETMAMPSCDI 002.001.
+NOTE: Actions taken using the intranet SSA-4208 Reclamation Data Input form will not produce
+a notice. The PC technician must prepare a manual notice, if necessary following instructions
+outlined NL 00601.040.
+8. PC technician reissues the check
+Only issue the check if it is still due the beneficiary.
+a. Analyze MBR to determine if payment is due
+If the beneficiary is not in LAF C and payment is still due, verify that the payee’s
+address is correct prior to releasing the payment.
+If the beneficiary is in LAF C, reissue the payment via the intranet SSA-4208 Reclamation
+Data Input form, which will properly annotate the PHUS record.
+NOTE: Actions taken using the intranet SSA-4208 Reclamation Data Input form will not produce
+a notice. The PC technician must prepare a manual notice, if necessary.
+See details:
+•
+SM 00609.901 Nonreceipt or SF-1184 Processing of a Limited Payability (LP) Check NonReceipt
+-- Limited Payability
+•
+MSOM INTRANETMAMPSCDI 002.001 SSA-4208 Reclamation Data Input Forms - Overview (SSA4208)
+•
+MSOM INTRANETMAMPSCDI 002.002 SSA-4208 Reclamation Data Input Form- Claim Number &
+BIC (SSA4208)
+•
+MSOM INTRANETMAMPSCDI 002.003 SSA-4208 Reclamation Data Input Form 1 & Form 2 (SSA4208)
+b. Additional coding requirements depending upon the system used to issue the payment
+PC technician should follow these specific processing instructions:
+•
+If you use MADCAP, code the Form SSA-1257 (PHUS Data Change) with the AC field = “2”
+to post the 170 PHUS event to offset the payment.
+•
+If you use CPS, code the form SSA-3263 (CPS Input Form) with a Type of Payment Code
+of C40 to suppress the notice and provide a means to identify these payments.
+Enter a Tax Code of “NR” and a First Remark of “REISSUE CHECK” in the Nature of Problem field.
+•
+If you use SPS, code the Form SSA-1257 with the AC field = “2” to post the 170 PHUS
+event to offset the payment.
+NOTE: Be sure to use this for check replacement to non-beneficiaries.
+See details:
+•
+SM 00630.080 Stages of The SSA-1257 Process
+•
+SM 00630.081 Completing Top Fields of SSA-1257
+•
+SM 00630.082 Completing AC1 Fields of SSA-1257
+•
+SM 00630.083 Completing AC2 Fields of SSA-1257
+•
+SM 00635.400 How to Complete CPS Input Form SSA-3263
+•
+SM 00834.001 Single Payment System (SPS)
+•
+MSOM INTRANETCPS 001.001 The Critical Payment System - Overview
+9. Send notice
+Send notice informing beneficiary that they are entitled to the payment per instructions
+in NL 03001.025.

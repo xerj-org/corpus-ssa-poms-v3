@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 40525.030 - Overview of the CDR Selection and Release Process
+Effective Dates: 10/04/2005 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525030 (fetched 2026-10-04)
+
+C. Process - Automated Continuing Investigation of Disability (ACID) and the Master Beneficiary
+Record (MBR)
+1.
+Within the PCs, the DCF controls the title II continuing disability reviews (CDRs)
+for direct release and CDR Mailer(s).
+2.
+DCF produces a PKGRAPE file (based on most current folder location within the Processing
+Center Action Control System (PCACS)) which creates the paper alerts for the Megasite
+and Caves to pull and ship folder(s).
+3.
+DCF also determines if a PC has the folder(s) and sends an alert to them.
+4.
+Updates of CDR or CDR mailer processing are recorded on the DCF and can be queried
+on the CDR Query (QCDR) screen (see MSOM CDR 001.004) of the DCF.
+5.
+The update to the CDR PC Input (IPCA) screen creates a transaction which establishes
+a Title II or Concurrent Title II/XVI direct release on the DCF.
+6.
+This update to the DCF can take from 24 - 48 hours after the IPCA screen input.

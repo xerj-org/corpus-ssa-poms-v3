@@ -1,0 +1,131 @@
+SSA Program Operations Manual System (POMS) - DI 52170.010 - Form SSA-2455 (Offset Worksheet-Disability Insurance Benefits)
+Effective Dates: 06/05/2020 - Present | TN 2 (06-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452170010 (fetched 2026-10-04)
+
+E. Completing the SSA-2455
+Prepare a separate SSA-2455 for each month there is a change in the following:
+•
+WC/PDB rate
+•
+Family composition
+•
+Total family benefits (TFB)
+•
+Average current earnings (ACE).
+EXCEPTION: Use Form SSA-2454 in DI 52170.020 for WC/PDB rate changes occurring after a triennial redetermination.
+Enter the worker’s Social Security number on each SSA-2455.
+1. Part 1 – Offset data
+a. Period covered by this worksheet
+Enter the period of time for which the computation is applicable, (e.g., 06/1995 –
+05/1997, 07/1996 only, 06/1998 on).
+b. Month of entitlement
+Enter the DIB month of entitlement (MOET).
+c. First month of offset
+Enter the first month offset was considered or imposed, whichever is earlier. For
+more information, see DI 52150.020 – Workers’ Compensation/Public Disability Benefits (WC/PDB) Offset Effective Date
+(OED).
+d. Family benefit computation
+Enter each beneficiary's benefit amount in the first possible month of offset. Add
+all the benefit amounts and enter the sum for the TFB. For more information, see DI 52150.005 – Total Family Benefits (TFB).
+e. 100 percent Average Current Earnings (ACE)
+Enter the 100 percent ACE rounded down to the nearest dollar. Use unindexed covered
+earnings. Check the appropriate block to identify the highest ACE. Show the year and
+earnings used if a High-1 ACE is used. For information on ACE, see DI 52150.010 – Average Current Earnings (ACE).
+NOTE:
+The ACE shown on the MCS Remarks screen is the 80 percent ACE.
+f. 80 percent ACE
+Multiply the 100 percent ACE by 0.8.
+2. Part 2 – Offset computation
+This part of the form establishes a base rate for all beneficiaries. The total Social
+Security disability benefits payable in the first month of offset plus the monthly
+WC/PDB cannot exceed the applicable limit (the higher of the 80 percent ACE or TFB
+(total family benefits).
+•
+Subtract the monthly WC/PDB from the applicable limit to find the total benefits payable
+to the family in the first possible month of offset.
+•
+Pay the number holder first and any excess is distributed among the auxiliaries.
+a. Applicable limit
+Enter the highest of the TFB or the 80 percent ACE. For determining the applicable
+limit, see DI 52150.015.
+b. Monthly WC/PDB
+Enter the monthly WC/PDB rate for which the computation is applicable. Round the monthly
+amount down to the next lower dime. Indicate if the amount has been verified (by checking
+the verified block). (For example, $578.58 would be rounded down to $578.50.) If not
+verified, obtain verification. See DI 52150.035 - Determining the WC/PDB Amount.
+c. Total benefits payable after offset
+Subtract the monthly WC/PDB from the applicable limit and enter the amount. Do not
+enter an amount less than zero.
+If this amount is equal to or higher than the number holder's monthly benefit amount
+(MBA), the number holder receives the full MBA.
+If this amount is higher than the TFB, do not offset and do not complete the rest
+of the form. Annotate the MBR with the OFT code OP (Offset Postponed).
+If this amount is less than the number holder's MBA, this is the amount payable to
+the number holder in the first possible month of offset. (i.e., total offset applies
+to the auxiliaries.)
+d. Worker’s MBA
+Enter the PIA in the first possible month of offset, unless reduced for age. If so,
+enter the reduced DIB.
+e. Amount payable to auxiliaries
+Subtract the number holder’s MBA (Part 2 D.) from the total benefits after offset
+(Part 2 C.) and enter the amount. Do not enter an amount less than zero.
+f. Number of auxiliaries
+Enter the number of auxiliaries entitled for the months shown in the period covered
+by the worksheet, including delayed auxiliaries and any auxiliary whose payment is
+marked “Do Not Certify”. (This will protect the benefits payable to auxiliaries not
+yet certified for payment.) NOTE: Recalculate the offset whenever there is a change in the number of auxiliaries.
+g. Amount payable to each auxiliary
+1.
+Divide the amount payable to auxiliaries (Part 2 E.) by the number of auxiliaries
+(Part 2 F.), if the auxiliaries' benefit amounts before offset are equal. See DI 52170.025 - Rounding Rules for Offset Computations.
+2.
+Distribute this amount proportionately if the auxiliaries' benefit amounts before
+offset (i.e., amounts used in the TFB) are not equal, (e.g., a reduced or dually-entitled
+spouse and 3 children or an HB6 or an HB9 is involved).
+3.
+Apply the following formula to distribute the amounts payable after offset:
+•
+Benefits payable to all auxiliaries after offset (Part 2 E.);
+•
+Multiplied by the auxiliary benefits before offset; then
+•
+Divided by the total of the auxiliary amounts used to compute TFB.
+Example:
+1. Total benefits payable to all auxiliaries after offset = $150.00
+2. HB MBA = $120.00
+HC1 MBA = $160.00
+3. Total Auxiliary benefits used to compute TFB = $280.00
+HB $150.00 X $120.00 = $64.20 (rounded down - MOE after 6/82)
+$280.00
+HC1 $150.00 X $160.00 = $85.70
+$280.00
+3. Part 3 – Increase not subject to offset
+a. Claims symbols
+Enter the auxiliaries symbols (BICs).
+b. Protected increases
+•
+Enter the month and year of each increase.
+•
+Enter each increase that is effective after the first possible month of offset.
+•
+Show the number holder's increase under “HA”.
+•
+If the auxiliaries' increases are equal, use one column to show the auxiliary rates.
+For example, if the BICs on record are HA, C1, C2 and C3, label one column HA and
+label one column C1, C2, C3. NOTE: Do not combine the auxiliary amounts.
+•
+Use the remaining columns if the auxiliaries' increases are not equal.
+NOTE:
+Protected increases are increases that are not subject to offset by a recomputation
+or SSA cost-of-living increase. See DI 52150.055 to determine protected increases.
+c. Amount payable
+Enter the amount payable after offset to the number holder (from Part 2 C. or 2 D.)
+and to each auxiliary (from Part 2 G.).
+d. Total amounts payable
+Add each column.
+e. Signature and date
+Sign and date the form. Then, scan or fax into the claims folder.
+4. Completing the back of the SSA-2455
+Use the reverse side of the SSA-2455 to manually prorate a lump sum settlement and
+to document calculations involving mid-month WC/PDB rate changes. See manual proration
+instructions for SSA-2455 in DI 52170.030.

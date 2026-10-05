@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - GN 02610.035 - Computing Manual Windfall Offset Amount
+Effective Dates: 01/06/2011 - Present | TN 23 (05-13)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610035 (fetched 2026-10-04)
+
+B. How to compute the windfall offset amounts manually
+The FO must take the following steps to compute title II offset amounts:
+STEP
+ACTION
+1
+Determine the offset period following the instructions in GN 02610.022. If the PC sends an SSA-e4345 requesting a manual computation by the FO:
+•
+FO records the offset period in Section II. of the SSA-e4345 and go to step 2.
+•
+Otherwise, go to step 2.
+NOTE: When processing a manual computation, the PC and FO exchange windfall offset results
+using the SSA-e4345.
+2
+Identify the title II benefits due in each month of the offset period using information
+on the SSA-e4345 or obtained from an AACT or PHUS query.
+3
+Enter monthly title II benefits due in the offset period using eComputation (eComps)
+or an SSA-4968-U2 or equivalent to compute the title XVI amount that is due for each
+month counting title II benefits, as if paid when due.
+NOTE: eComps is an intranet application that will perform manual computations for title
+XVI records in situations where the automated system cannot complete the computation.
+4
+Subtract the results of step 3 from the title XVI amount that was due on the SSR SSID
+FAM for each month. Review the Federal Amount Due (FAM) field in the Computation History
+(CMPH) segment of the SSID query for each month.
+RESULT: This amount is the windfall federal offset amount (WFO).
+5
+Enter the WFO on the SSAe4345, as follows:
+•
+If the title II benefit is a disability benefit, use column 2, “DIB.”
+•
+If the title II benefit is a retirement or survivors benefit, use column 3, “RSI.”
+6
+If there is State supplementation involved, follow steps 4 and 5 to compute the windfall
+state offset amount (WSO).
+7
+Enter the WFO and WSO results in Columns 4 or 5 on the SSA-4346-U2 following rules
+in step 5.
+8
+Total all WFO and WSO amounts and enter in the “Total” blocks on the SSA-4346-U2.
+Also, enter those amounts in section II. of the SSA-e4345.
+If the total WFO and WSO is greater than the title II benefit due, enter the title
+II amount in section II.
+9
+Subtract results of step 8 from retroactive the title II benefits due in the offset
+period.
+RESULT:  This amount is the non-countable income (NCI). NCI does not count as income in the
+month of receipt for title XVI.
+10
+Record the NCI in section II.C. of the SSA-e4345. Fax copies of the SSA-4346-U2 and
+SSA-e4345 to the Electronic Folder (EF) or the Non Disability Repository for Evidentiary
+Documents (NDRed).
+11
+Post offset data to the SSR following the instructions in SM 01320.201B. If you are
+unable to post offset results to the record establishment date (RCRD) segment of the
+current SSR for the complete windfall period, send an SSA-e4345 to the PC with computation
+results. Also, provide the offset results on the e4345 if the PC established an e4345
+to provide the pending offset information.
+12
+The PC:
+•
+Posts data from Section II on the SSA-e4345 to the MBR. For more information on posting
+data to the MBR, see SM 00815.500.
+•
+Subtracts the offset amount from the retroactive title II benefits.
+•
+Subtracts any collectible title XVI overpayment. For more information on cross-program
+recovery of title XVI overpayments from title II underpayments, see SI 02220.021.
+•
+Releases any remaining title II benefits to the beneficiary.
+•
+Transfers the offset amount from the appropriate trust fund to the general fund.

@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 02402.382 - Coding Bulgaria Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 311 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402382 (fetched 2026-10-04)
+
+G. Example of coding Bulgaria direct deposit
+The customer provides us with a signup form for Montenegro containing the information
+IBAN BG80 BNBG 9661 1020 3456 78.
+•
+The first two characters of a Bulgaria IBAN are “BG,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The fifth through eighth characters of the IBAN are the Bank Identifier.
+•
+The ninth through twelfth characters represent the Branch Identifier.
+•
+The thirteenth through fourteenth characters represent the Basic Bank Account Number
+(BBAN).
+•
+The technicians should never code the IBAN ISO country code, the check digit, the
+Bank Identifier, the Branch Identifier, or the Basic Bank Account Number to the MBR
+for Bulgaria.
+•
+The last eight digits of the IBAN represent the eight-digit account number.
+The technician should take the following actions:
+1. Derive the RTN
+The technician must code the RTN as follows:
+•
+Code an RTN of 680000035
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+To derive the DAN, code as follows:
+•
+Start with a country code of G designated for Bulgaria; and
+•
+Code the eight-digit Account Number “20345678.”
+3. Obtain the following information
+•
+IBAN: BG80 BNBG 9661 1020 3456 78
+•
+Checking
+•
+DAN: G20345678
+a. The coding in an SSA System reflects
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000035
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: G20345678
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-680000035
+•
+DAN-CG20345678

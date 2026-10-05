@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 01010.140 - Delayed Claims
+Effective Dates: 08/08/2023 - Present | TN 93 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010140 (fetched 2026-10-04)
+
+A. Policy to delay claims
+Delay an auxiliary or survivor claimant’s entitlement to benefits if no valid application
+or if insufficient evidence exists to adjudicate the claim and the claimant meets
+all of the conditions outlined in this section. Process delayed claims into delayed
+claimant payment status (PB) or terminated delayed claimant payment status (PT) on
+the Master Beneficiary Record (MBR). A Ledger Account File (LAF) code of PB or PT
+prevents the release of any payments to the delayed claimant until we obtain an application
+and establish all factors of entitlement. The delayed claim process allows us to award
+and pay non-delayed auxiliaries and survivors on the record who meet the conditions
+for entitlement. We include delayed claimants when calculating the distribution of
+the family maximum, but do not pay the delayed claimant(s) until they meet all factors
+of entitlement.
+1. When to delay a claim
+Process an auxiliary or survivor claim as a delayed claim if:
+a.
+A proper applicant files an application for an auxiliary or survivor claimant and
+we are developing evidence for at least one factor of entitlement;
+OR
+A potential auxiliary or survivor claimant with no valid application has a protective
+filing, per GN 00204.010; AND
+b.
+The family maximum is involved and we would overpay other entitled auxiliary or survivor
+claimants if we do not include the delayed claimant in the initial benefit calculation;
+AND
+c.
+Other entitled claimants are due immediate payment.
+2. When not to delay a claim
+Do not process an auxiliary or survivor claim as a delayed claim if it meets any of
+the following conditions:
+•
+The only outstanding issue is representative payee development. Use a suspension event
+according to GN 00504.110, or a diary code listed in GN 01040.010, as appropriate.
+•
+We establish a lead for the potential claimant rather than a protective filing. Document
+development and dispose of the lead per GN 00202.020H.

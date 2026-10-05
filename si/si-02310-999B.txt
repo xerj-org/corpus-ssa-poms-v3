@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - SI 02310.999 - Exhibits of SSI Interfaces
+Effective Dates: 02/04/2025 - Present | TN 69 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310999 (fetched 2026-10-04)
+
+B. Exhibit B – Railroad Board Extract
+Railroad Record Format:
+The following explains the railroad record format. The fields that you will need to
+reference have been blocked.
+RRB RECORD FORMAT - PAYMENT RUN OPF MM/DD/YY1
+HUN2 000000000 SSR PERSON TYPE      3
+BENE NAME    4  RRB ID 0000000005 RR BIC     6
+BENE SS 0000000007 RRB DOB MMDDYY COB 00 EMP SN 000000000
+RR STATUS 0 RR RATE $$$.¢¢8 SMIB DED $$.¢¢9 SUPP ANNU AMT $$.¢¢1 0
+CAN 000000000 BIC 00 SS DOB MMDDYY SS STATUS SS AMT $$$.¢¢
+RCD NO 0 BENE TYPE 00 TERM/SUSP CODE 00 TERM/SUSP DATE MMYY
+TOT RATE $$$.¢¢PREV TOT RATE $$$.¢¢PREV RATE $$$.¢¢
+RR ACCR AMT .00 SUPP ACCR AMT .00 SS ACCR AMT .00
+ACCT DATE MMDDYY CUR AWD 0 PART AWD 0 POL CODE 0
+ZIP CODE 00000 ADDR
+LEGEND:
+1- Date of RRB Run
+2- Housed - under number
+3- Type record: Individual, Eligible Spouse, Ineligible Spouse or Parent 1, Parent
+2 (points to the person on the SSIRD for Analysis; not identifying information)
+4- Beneficiary
+5- RRB Claim Number
+6- RRB BIC: RA, RH-railroad employee  JA-joint award or dual entitlement
+MA, MH-spouse     PA, PD, PH - parent
+WA, WD, WH-widow(er)  CA, CD, CH-consolidated family award
+7-Beneficiary's SSN
+8- RR Rate: This is the basic railroad benefit which the recipient is entitled to
+after SMIB is deducted.
+9- SMIB Ded: This is the amount of the SMIB premium being deducted.
+10 - Supp Annu Amt: This is an extra RR benefit which a small number of RR beneficiaries
+receive.

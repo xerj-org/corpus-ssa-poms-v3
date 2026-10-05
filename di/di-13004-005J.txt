@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 13004.005 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 09/22/2016 - Present | TN 2 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413004005 (fetched 2026-10-04)
+
+J. WBDOC processing for CDR mailer forms
+1. Handling of undeliverables
+The WBDOC reviews and processes most scannable CDR mailer forms, including forms returned
+by the United States Postal Service (USPS) as undeliverable. When this happens, the
+WBDOC has procedures to attempt redelivery.
+2. Preliminary screening for signatures, damaged forms, name or address changes, reports
+of death, or allegations of fraudulent activity
+a.
+Some received mailer forms are not signed, in which case the WBDOC sets up controls
+to obtain a signature.
+b.
+Signed mailers sometimes have unanswered questions; the WBDOC uses the agency's Direct
+Contact (DIRCON) procedures and the mail to secure missing responses.
+c.
+Some returned mailer forms contain a report of death, name change, change of address
+to a foreign country, and information regarding fraudulent activity, and may not be
+optically scannable because of damage. When this happens, the WBDOC refers the CDR
+mailer form to the servicing PC for necessary action.
+d.
+The WBDOC makes MBR update inputs for name corrections (but not name changes), change
+of addresses (with or without a corresponding change of telephone number), and reports
+of death for title II cases, and refers such reports on title XVI cases to the servicing
+FOs for action.
+3. WBDOC mailer form analysis, coding, scanning and keying
+Upon completion of the preliminary actions, the WBDOC does a detailed analysis of
+the mailer responses, including remarks and any attachments sent with the mailer forms.
+We summarize the results of the analysis as codes for use by the Division of Continuing
+Disability Reviews Support (DCDRS) decision logic program. For DCDRS decision logic,
+see DI 13004.005K.1. (in this section). The WBDOC enters a code in each of three “ANY CODES?” boxes provided
+on the back of the form.
+A scanning and keying operation then creates an electronic data file of each mailer
+form.
+4. Sorting and shipping mailer forms in the WBDOC
+Some “actionable” paper mailer forms need to be sent to the PCs for translation or
+further review, see DI 13004.005L.4. (in this section). We determine, what mailers needs referring to the PC, then the
+WBDOC sorts the processed mailer forms by title (title II/concurrent or title XVI-only)
+and by PC jurisdiction, and mails them to the PCs. The WBDOC sends Title XVI-only
+mailer forms to PC-1 though PC-6 only and send title II-only and title II/concurrent
+forms to PC-1 through PC-7.
+5. Transmission of the mailer form electronic data files and confirmation files to the
+National Computer Center (NCC)
+The WBDOC assembles the data from scanning and keying into title-specific data files. The WBDOC also creates title-specific confirmation files consisting of the SSN and BIC/ID. WBDOC transmits all files to the agency's NCC.
+The NCC receives, prepares and routes the confirmation file data to the appropriate
+program for updating the DCF. Receipt of the confirmation data clears the control
+that if not cleared will cause the case to be selected for a 2nd-mailer or nonresponder alert. Upon receiving receipt notification, the DCF shows
+EVENT 005 “T2 MAILER RETURNED-DECISION PENDING,” “T2/T16 MAILER RETURNED-DECISION
+PENDING”or“T16 MAILER RETURNED-DECISION PENDING.”
+The NCC receives and prepares the data files for DCDRS to retrieve and process through
+DCDRS's decision logic program.

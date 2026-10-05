@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 03960.060 - Post-Review Actions Under the Fee Agreement Process - Title II
+Effective Dates: 12/09/2024 - Present | TN 13 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203960060 (fetched 2026-10-04)
+
+A. Review of Fee Agreement Determination
+When the decision maker initially approved or disapproved the fee agreement and the
+reviewer has affirmed or reversed that determination, post-review actions vary depending
+on the result.
+NOTE: For the definition of “reviewer,” see GN 03960.001D.12.
+1. Reviewer Affirmed the Disapproval
+When the reviewer has affirmed the disapproval of the fee agreement, the representative
+must seek approval under the fee petition process to charge and collect a fee. If
+the representative is not eligible for direct payment, no post-review action is necessary.
+If the representative is eligible for direct payment, including when they assigned
+direct payment of the fee to an eligible entity, the processing center (PC) will,
+for cases decided:
+•
+Below the hearing level, follow GN 03930.045C.1 and diary the case for 60 days.
+•
+At the hearing or Appeals Council (AC) level, follow GN 03930.045C.2 and diary the case for 60 days.
+•
+In Federal court proceedings or on remand from a court, follow GN 03930.045C.2 and diary the case for 120 days.
+If the initial decision maker approved the fee agreement, and the reviewer intends
+to reverse that determination and disapprove the agreement, see GN 03960.060B.
+2. Reviewer Affirmed the Approval or Approved the Fee Agreement
+When the reviewer affirmed the approval or reversed the initial disapproval determination
+and has approved the fee agreement, technicians:
+•
+Follow GN 03940.030 (Title II claims) or GN 03940.046 (Title XVI claims) to calculate the fee amount if manual calculation is necessary
+and provide notice of the amount of the fee under the approved agreement, if not resolved
+already; the past-due benefits amount; and the right to request administrative review
+of the fee amount within 15 days of receiving this notice.
+•
+In a concurrent Titles II and XVI case, notify the servicing FO that the determination
+is available in the online retrieval system (ORS) using Processing Center Action Control
+System (PCACS) or other locally used communication method a copy of the claimant's
+notice showing the past-due benefits and fee amounts.
+•
+Recode the Appointed Fee (APPFEE) and Appointed Rep Account Data (APPREP) Data Lines
+using the Appointed REP Account Data (ARA) screen.
+NOTE: If the reviewer reverses the approval of the fee agreement, any fee previously authorized
+and paid will be treated as an excess fee matter as described in GN 03920.051, regardless of whether we or the claimant paid the previously authorized fee.
+3. Reviewer Affirmed the Approval or Approved the Fee Agreement and Authorized the Fee
+Amount
+When the reviewer affirmed the initial approval or reversed the previous disapproval
+determination and has approved the fee agreement and authorized the fee amount, technicians:
+•
+In a concurrent Titles II and XVI case, notify the servicing FO that the determination
+is available in ORS using PCACS or other locally used communication method.
+•
+Recode the APPFEE and APPREP Data Lines using the ARA screen.

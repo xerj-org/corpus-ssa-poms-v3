@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 51501.025 - Disposition of Subsequent Disability Applications
+Effective Dates: 03/29/2012 - Present | TN 11 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0451501025 (fetched 2026-10-04)
+
+B. FO actions
+1. Application taken in MCS, MSSICS, or as an iClaim
+a. Modernized Claims System (MCS) applications
+Follow the Manual Clearance (MANC screen) procedures in MSOM MCS 020.004.
+b. Modernized Supplemental Security Income Claims System (MSSICS) applications
+•
+Transmit a SSA-1719B (Supplemental Security Income Posteligibility Input) with a T50
+code per SM 01801.110.
+•
+Reload the prior claim with the appeals segment. See MSOM MSSICS 020.003 through MSOM
+MSSICS 020.007 for descriptions of required appeal fields.
+c. iClaim applications
+Import the claim into MCS. Follow the MANC screen procedures in MSOM MCS 020.004.
+NOTE: iClaim does not allow claimants to file a new disability application if the claimant
+has a prior claim below the Appeals Council (AC) level.
+2. New disability report completed in EDCS
+Take the following actions to close the new Electronic Disability Collect System (EDCS)
+segment.
+•
+Use the Update-After-Transfer (UAT) function on the AC appeals segment in EDCS to
+alert the AC there is additional evidence in the new EDCS segment;
+•
+Process a FO “No Determination” (ND); and
+•
+Select ND reason: “Misc Clearance” and add the remark, “Subsequent Disability Claim.”
+NOTE: EDCS does not allow you to create a new segment when there is an EDCS segment for
+a prior claim below the AC level.

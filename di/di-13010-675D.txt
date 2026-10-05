@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 13010.675 - The Verify/Update Earnings (VERN) Screen
+Effective Dates: 10/01/2012 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010675 (fetched 2026-10-04)
+
+D. Field descriptions
+The following are display fields on the VERN:
+•
+DCF ID, CAN, UNIT, and NAME: are pre-filled.
+•
+TWP CMPL DATE: Provides the last month of the TWP. The data only propagate if all
+months within the TWP are documented within the VERN screens as “verified”.
+•
+CUR ENT: Indicates whether the individual’s benefits are under Title II, Title XVI,
+or are concurrently under both Title II and Title XVI.
+•
+DATE: Provides the requested month and year of the associated earnings information.
+•
+ALLEGED: Provides posted alleged earnings (unverified) input by the Ticket to Work
+Program Manager. The OCO/PSC/FO staff does not use this field.
+All Title XVI earnings information fields on the bottom of the screen are for display
+only. Verified Title XVI earnings information propagates from earnings and work incentive
+information which you input to the Supplemental Security Record (SSR).

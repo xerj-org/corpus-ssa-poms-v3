@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02402.388 - Coding Bosnia Herzegovina Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/02/2023 - Present | TN 245 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402388 (fetched 2026-10-04)
+
+G. Example - Coding Bosnia Herzegovina Direct Deposit
+The customer provides us with a signup form for Bosnia Herzegovina containing the
+account number: "BA391290079401028494".
+•
+The first two characters of Bosnia Herzegovina IBAN is “BA,” which represent the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth through seventh characters of the IBAN represent the three-digit bank code.
+•
+The eighth through tenth characters represent the three-digit branch code.
+•
+The next eight digits of the IBAN represent the account number. The last two digits
+depict the check digit for the account number (never coded to the MBR).
+1. Derive the RTN
+The technician enter the information for the RTN.
+•
+Code the prefix of 68
+•
+Code the three-digit bank code, “129”
+•
+Code the three-digit branch code, “007”
+•
+Code the one-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of “M” designated for Bosnia Herzegovina;
+•
+Code the 8-digit Customer Account Number “94010284”
+3. Obtain the following information
+•
+IBAN: BA391290079401028494
+•
+RTN: 681290077
+•
+Checking
+•
+DAN: M94010284
+a. POS reflects the direct deposit information:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 681290077
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M94010284
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information:
+•
+RTN- 681290077
+•
+DAN-CM94010284

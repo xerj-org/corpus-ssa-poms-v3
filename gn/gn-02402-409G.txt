@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.409 - Coding Taiwan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402409 (fetched 2026-10-04)
+
+G. Example of coding bank data for Taiwan
+The customer provides us with a signup form for Russia containing the account number
+“12345678901234.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 680000077
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Taiwan
+•
+Start with the country code of “K” designated for Taiwan; and
+•
+Code 14-digit account number “12345678901234”.
+a. You must obtain this information
+•
+RTN: 680000077
+•
+Checking
+•
+DAN: K12345678901234
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000077
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: K12345678901234
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN:680000077
+•
+DAN:CK12345678901234

@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 02330.100 - Trust Fund Accounting and Adjustment of the Hospital and/or Medical Insurance Premium Data on the BCM Record
+Effective Dates: 10/28/2022 - Present | TN 3 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202330100 (fetched 2026-10-04)
+
+GN 02330.100 Trust Fund Accounting and Adjustment of the Hospital and/or Medical Insurance Premium
+Data on the BCM Record
+AUDIENCE: HIE, EHS, BA, BATA, RECOVR, IES
+A medical insurance premium refund involving a deceased enrollee will be certified
+for payment from either the Federal Old-Age and Survivors Insurance Trust Fund (FOASI)
+or the Federal Disability Insurance Trust Fund (FDI) depending on the type of benefit
+the deceased enrollee was receiving at the time of death. For example, a disabled
+WE would have been paid from the FDI, trust fund while an aged WE would have been
+paid from the FOASI trust fund.
+A medical insurance refund, paid from the appropriate trust fund (as outlined above)
+will not require a trust fund reversal. This is because the termination of the beneficiary's
+benefits acted to prompt a reversal of monies in the trust funds automatically by
+the SOBER System. That is, the excess premium amount was taken out of the Federal
+Supplementary Medical Insurance Collection Account (either 20 ×8004.5 or 20 ×8004.7)
+and deposited in the FOASI or FDI trust fund, whichever is appropriate.
+A Hospital Insurance excess premium refund will be paid from the FOASI trust fund.
+However, this will necessitate a trust fund reversal action via Form SSA-666 which
+would take the monies out of the Federal Hospital Insurance Collection Account 20
+×8005.9 and deposit them in the FOASI trust fund 75-20 ×8006.
+When an excess refund is added to an LSDP or a payment to a beneficiary (in the form of an AA), it will be necessary
+to do a trust fund reversal if the payment to which it (the refund) is added is paid
+from a trust fund other than the one to which the funds were originally deposited
+(as outlined above).
+It will also be necessary to remove the excess (refunded) amount from the BCM for
+the account involved. This can be accomplished by preparing an SSA-1592, Premium Accounting
+Card, for the amount of the refund. If the refund involves both a hospital insurance
+and a medical insurance refund, two SSA-1592's are required, one with the appropriate
+Record Identification Code (RIC) for premium Part A (HI) and the other with the appropriate
+RIC for Part B (SMI). The instructions for completing the SSA-1592 can be found in
+section 760.02.A. of the Health Insurance and Inquiries Manual.

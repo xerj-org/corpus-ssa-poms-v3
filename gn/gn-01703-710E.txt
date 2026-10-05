@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 01703.710 - Completion of the e4962, Totalization Data Collection Form, via the Totalization Data Collection Program (TDCP)
+Effective Dates: 07/24/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703710 (fetched 2026-10-04)
+
+E. Examples of completing the e4962s
+The examples illustrate how and who completes the e4962 in the following hypothetical
+situations.
+Example 1: Uninsured worker
+An uninsured worker visits an FO on November 7, 1993 and files concurrent RSDI or
+Totalization claims for both U.S. and German retirement benefits. DIO receives the
+claim on December 5, 1993.
+Since the CTE or CR is establishing this record for the first time, indicate transaction
+A. The CTE or CR is able to record complete information in parts II, III, and IV.
+However, the CTE or CR cannot complete information in parts V and VI at this time.
+After you complete the action on the RSDI claim, prepare the claims package for the
+German agency and a request for the German earnings record. On December 20, 1993,
+the CTE or CR (foreign only) releases the package to the BfA in Germany. Since the
+e4962 completed by the CTE or CR established the record, the CTE or CR now prepares
+a transaction C form to update the record with the new information.
+When you receive the development, add the receipt date for the development requested
+from the foreign agency (block C in Part V) and the U.S. Totalization claim authorization
+date, and TSC in Part VI to the program. In the meantime, the TDCP carries the record
+as a pending item.
+On April 19, 1994, you receive the requested earnings record from the BfA and, on
+May 28, 1994, the CTE awards U.S. Totalization benefits. Utilizing transaction C,
+the CTE now records the receipt date in Part V and the final status of the U.S. Totalization
+claim in Part VI.
+Example 2: Insured worker
+Same as in EXAMPLE 1, except that the worker is insured based on U.S. coverage. On
+December 17, 1993, the CTE recognizes the denied Totalization claim (TSC D3) and records
+the data in Part VI.
+On January 7, 1994, the BET or CR (foreign only) prepares the claims package for the
+German agency; but since the worker is insured, there is no need to request a German
+earnings record. The data previously coded by the CTE is correct, and the U.S. authorization
+was included. Therefore, the BET or CR (foreign only) can prepare a transaction C
+form to indicate the date the package was sent.

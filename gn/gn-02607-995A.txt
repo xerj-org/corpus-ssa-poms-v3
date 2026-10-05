@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02607.995 - Processing of Title II Prisoner Systems Exclusions and Exceptions
+Effective Dates: 08/05/2024 - Present | TN 107 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607995 (fetched 2026-10-04)
+
+A. Form SSA-2790 (Prisoner Fax Request)
+1. When to use the Form SSA-2790 (Prisoner Fax Request)
+Field offices (FOs) use the Form SSA-2790 (Prisoner Fax Request) to transmit Prisoner Update Processing System (PUPS) prisoner
+case information to the payment centers or program service centers (PSC/OCO-ODO) when
+prisoner-processing issues occur. These processing issues include:
+•
+PUPS prisoner suspension exclusions,
+•
+PUPS/Post-entitlement Online System (POS) reinstatement exclusions, or
+•
+Title II Redesign (T2R) PUPS suspension exceptions.
+Prepare a Form SSA-2790 (Prisoner Fax Request) to refer a Title II beneficiary’s prisoner
+suspension or reinstatement processing action to PSC/OCO-ODO for the associated systems
+issues listed on the chart.
+Systems issues requiring a Form SSA-2790 (Prisoner Fax Request)
+POMS reference for prisoner systems issue
+Form SSA-2790 (Prisoner Fax Request) processing references
+PUPS creates a T2R suspension exception
+This type of T2R suspension exception occurs when there is no prisoner suspension
+on the MBR (LAF S7) or on the PUPS Prisoner Summary (PUST) screen for T2, and the
+T2 PRISONER UPDATE (PU02) screen changes to *PENDING and remains *PENDING for more
+than 15 calendar days.
+or
+For information on this PUPS T2R suspension exception, see GN 02607.750C.1., and for systems-related information on suspensions using PUPS, see MS PRISON 003.001D.
+For FO instructions on completing the SSA-2790 Prisoner Fax Request, see GN 02607.995B. in this section.
+For PSC/OCO-ODO instructions on processing PUPS T2R suspension exceptions, see GN 02607.995C.3. in this section.
+No prisoner suspension occurs on the MBR or on PUPS, and a PUPS exception does not
+create a PSCACS Action Control Record (ACR) with a Type of Event Level (TOEL2) equal
+to PRISON or PRISUS and there is no control on the Transaction History Screen (THIS).
+For information on this PUPS suspension exception, see GN 02607.750C.2.
+For FO instructions on preparing the SSA-2790 Prisoner Fax Request, see GN 02607.995B. in this section.
+For PSC/OCO-ODO instructions on processing PUPS/POS reinstatement exclusion, see GN 02607.995C.3. in this section.
+PUPS/POS T2R reinstatement exclusion
+The POS system cannot process the prisoner reinstatement action through PUPS/POS and
+it creates the message, “T2 REINSTATEMENT EXCLUSION ACTION SENT TO PSC FOR PROCESSING.”
+For information on this PUPS/POS reinstatement exclusion, see GN 02607.860A.3.a., and GN 02607.860B.1.
+For information on reinstatements using the PRSN Common screen, see MS COMMON 005.027.
+For FO instructions on preparing the SSA-2790 (Prisoner Fax Request) for PUPS/POS
+T2R reinstatement exclusions, see GN 02607.995B. in this section.
+For PSC/OCO-ODO instructions on processing PUPS/POS reinstatement exclusions, see
+GN 02607.860B.2. and GN 02607.995C.2. in this section.
+PUPS suspension exclusions
+Changing an incorrect suspension date to an earlier suspension date and PUPS paid
+an incentive payment (IP) for the incorrect prisoner S7 suspension date;
+or
+Changing an incorrect suspension date to a later suspension date, but the later suspension
+date is still in the current prisoner S7 suspension period.
+For information on processing this PUPS suspension exclusion, see GN 02607.740D.1.a
+For information on processing this PUPS suspension exclusion, see GN 02607.740E.3.a.
+For FO instructions on preparing the SSA-2790 (Prisoner Fax Request) for PUPS suspension
+exclusions, see GN 02607.995B.3. and GN 02607.995 C.1. in this section.
+For PSC/OCO-ODO instructions on processing PUPS suspension exclusions, see GN 02607.995C.1. in this section.
+For FO instructions on preparing the Form SSA-2790 (Prisoner Fax Request) for PUPS
+suspension exclusions, see GN 02607.995B.3. and GN 02607.995 C.1. in this section.
+For PSC/OCO-ODO instructions on processing PUPS suspension exclusions, see GN 02607.995C.1. in this section.
+2. PSC/OCO-ODO responds to SSA-2790
+When the PSC/OCO-ODO technician receives the Form SSA-2790 (Prisoner Fax Request),
+they review the completed information on the SSA-2790, the beneficiary’s PUPS record,
+and the PUPS T2R systems exception. For PSC/OCO-ODO SSA-2790 exclusion and exception
+processing instructions, see GN 02607.995C in this section.

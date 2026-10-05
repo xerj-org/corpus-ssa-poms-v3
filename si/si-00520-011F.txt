@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - SI 00520.011 - Determination of Applicability of $30 Payment Limit
+Effective Dates: 04/16/2013 - Present | TN 54 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500520011 (fetched 2026-10-04)
+
+F. Procedure for systems input for child under age 18 in $30 limit situations
+When making a systems input for an institutionalized child under age 18, consider
+whether private health insurance payments are material to eligibility or the payment
+amount. Be alert to situations where a child in N02 is eligible for the $30 payment
+limit because private health insurance, or a combination of Medicaid and private health
+insurance, is paying over 50 percent of the cost of care.
+For cases where a child under age 18 is subject to the $30 payment limit because of
+private health insurance payments (i.e., Medicaid alone does not pay over 50 percent
+of the cost of care), take the following actions:
+1.
+Suppress the automated notice and use the Document Processing System (DPS) system
+to generate the SSA-L8155, SSI Notice of Planned Action in all cases involving institutionalized
+children under age 18 who are subject to the $30 payment limit because of private
+health insurance payments and in all cases where payments to those children change
+because of attainment of age 18. This notice is located within DPS under national
+documents subtitle “Post Entitlement.” For instructions on preparing the manual notices,
+see SI 00520.011G and NL 00804.167. Use automated notices in cases where Medicaid alone pays over 50 percent of the
+cost of care.
+2.
+Ensure that the system reflects FLA-D (the same as for cases where Medicaid pays over
+50 percent of the cost of care).
+3.
+For non-MSSICS cases, enter the code PRIV, INSU in the Case Related Data (CG) field (see SM 01301.785).
+4.
+Code the Optional State Supplementation (OS) field for children in private medical
+treatment facilities as if they were in FLA-A rather than FLA-D. (We modified the
+system to ensure compatibility of the additional OS codes with FLA-D. See SI 01415.010 and regional instructions to determine the appropriate code for each supplementing
+state.)
+NOTE: Children in public medical treatment facilities who become eligible (subject to the
+$30 payment limit) because of private health insurance payments will not receive state
+supplementation unless the state has established a rate that includes those children.

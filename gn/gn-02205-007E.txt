@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 02205.007 - Joint and Several Liability for Title II Overpayment Recovery
+Effective Dates: 12/20/2012 - Present | TN 14 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202205007 (fetched 2026-10-04)
+
+E. Overpayment recovery
+1. Representative payee and beneficiary jointly liable for the overpayment
+The priority order of recovery depends on the payment status of the beneficiary. First,
+we will recover from the beneficiary. Afterward, we will recover from the representative
+payee. The PSC will post the overpayment and send the notice according to the following
+situations:
+If…
+Then…
+the representative payee and the overpaid beneficiary are jointly liable and the representative
+payee is currently receiving benefits on behalf of the overpaid beneficiary,
+•
+Post the overpayment to the beneficiary’s record via the Manual Adjustment, Credit,
+and Award Data Entry (MACADE) or Debt Management System (DMS).
+•
+Follow normal overpayment instructions for notification and recovery of the overpayment
+as shown in GN 02201.009 and GN 02210.001.
+•
+Send the representative payee the overpayment notice in NL 00703.108.
+EXAMPLE: Using the scenario in GN 02205.007C, in this section, where Mrs. Burnham and Bob are jointly liable, post the overpayment
+to Bob’s record.
+the jointly liable overpaid beneficiary has a new payee,
+•
+Post the overpayment to the beneficiary’s record via MACADE or DMS.
+•
+Send the beneficiary the overpayment notice in NL 00703.100.
+the overpaid beneficiary is no longer receiving benefits and the representative payee
+is receiving benefits for some other person on the same earnings record,
+•
+Post the overpayment to this other beneficiary’s record due to this beneficiary being
+contingently liable for the overpayment via MACADE or DMS. For more information about
+contingent liability, see GN 02205.005.
+•
+Send the representative payee the overpayment notice in NL 00703.110.
+EXAMPLE: Using the scenario in GN 02205.007C, in this section, Bob is a C1 on Mrs. Burnham’s account and no longer receiving benefits.
+John is a C2 on Mrs. Burnham’s account receiving benefits and Mrs. Burnham is John’s
+representative payee. John is contingently liable for Bob’s overpayment. Therefore,
+post Bob’s overpayment to John’s record. If John has a different payee, still post
+Bob’s overpayment to John’s record.
+the representative payee is not receiving benefits for himself or herself or receiving
+benefits for a beneficiary that is considered contingently liable,
+•
+Post the overpayment to the beneficiary’s record via MACADE or DMS.
+•
+Send the representative payee the overpayment notice in NL 00703.112.
+EXAMPLE: Using the same scenario in GN 02205.007C, in this section, Bob is no longer receiving benefits and Mrs. Burnham is not the
+payee for anyone else on Bob’s record. In addition, no one else is currently receiving
+benefits on Bob’s record, post the overpayment to Bob’s record.
+the representative payee has questioned his or her liability or requested waiver,
+Do not initiate recovery from the overpaid beneficiary until those issues are resolved
+(i.e., when it is determined that recovery from the representative payee is inappropriate).
+2. Representative payee solely liable
+If the overpaid beneficiary establishes that he or she is not liable for the overpayment
+or he or she meets the criteria for an approved waiver, then only the representative
+payee is primarily liable. The PSC will post the overpayment to the representative
+payee using the overpaid beneficiary’s SSN, the record where the overpayment occurred,
+using the BIC of “_X” (i.e., AX, CX), see SM 00610.772B.2.
+Effective December 4, 2008, a representative payee (or his or her estate) is solely
+liable for repayment if he or she received any benefits on behalf of a deceased beneficiary
+after the death of the beneficiary.

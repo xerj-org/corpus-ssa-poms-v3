@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - DI 81010.150 - Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System (EDCS)
+Effective Dates: 11/16/2023 - Present | TN 73 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010150 (fetched 2026-10-04)
+
+A. Mainframe requirements
+1. Disability reconsiderations
+A mainframe reconsideration request, with the exception of Modernized Claims System
+(MCS) exclusion appeals, must be created prior to creation of reconsideration cases
+in EDCS. Reconsideration requests must be printed from the mainframe in order to save
+the image in the Online Retrieval System (ORS). Reconsiderations that require mainframe
+input include:
+•
+Supplemental Security Income (SSI),
+•
+Disability Insurance Benefits (DIB),
+•
+Childhood Disability Benefits (CDB), and
+•
+Disabled Widow(er)’s Benefits (DWB).
+NOTE: For CDB or DWB cases that do not require an MCS application at the initial level;
+you can create an EDCS appeal only if EDCS was used for the initial filing. See Creating
+Electronic Disability Collect System (EDCS) Cases - DI 81010.020B.
+2. Disability hearings
+Create a mainframe hearing request, with the exception of MCS exclusion appeals, before
+establishing an EDCS hearing level case. Hearing requests must be printed from the
+mainframe in order to save the image in ORS. Create hearings in EDCS for the following
+claim types:
+•
+SSI,
+•
+DIB,
+•
+CDB, and
+•
+DWB cases that required an MCS application at the initial level.
+When creating an EDCS hearing level case, the associated lower level mainframe claim
+cases (initial claim and reconsideration) must have a medical denial by the DDS and
+a denial code must be posted to the Master Beneficiary Record (MBR) or Supplemental
+Security Record (SSR), or both.
+For claims medically denied at the initial claim case level in Prototype States, hearing
+cases can be established in EDCS even though a reconsideration level appeal does not
+exist.
+NOTE: For CDB or DWB cases that did not require an MCS application at the initial level,
+create an EDCS appeal only if using EDCS for the initial and reconsideration level
+filing. For more information on creating an EDCS case, see Creating Electronic Disability
+Collect System (EDCS) Cases - DI 81010.020B.
+3. Appeals Council
+A mainframe appeal council request does not need to be created to establish an EDCS
+AC level case. In order to create a case at the AC level, there must be at least one
+Administrative Law Judge (ALJ) Decision on the claim. To create an AC level case,
+use the case creation screen in EDCS, and follow these steps:
+1.
+Select Claims Dialog Box,
+2.
+Complete the required fields,
+3.
+Select the claim(s) the claimant is appealing,
+4.
+Enter “Request for Review” date. For more information on the Request for Review date
+see Requesting Appeals Council (AC) Review, GN 03104.100. This date:
+•
+cannot be in the future;
+•
+format must be MM/DD/YYYY; and
+•
+cannot be earlier than the ALJ Disposition date.
+5.
+Select “OK”,
+6.
+Click on “Create Case” button; and
+7.
+Fax the “writing” into the Certified Electronic Folder (CEF) after the AC level appeal
+has been created in EDCS. For more information requests for review see How to Request
+Review, GN 03104.100A.1.
+The FO cannot access the Transfer page. AC cases automatically transfer to the corresponding
+Office of Appellate Operations (OAO) of jurisdiction. The case downloads to Appeal
+Review Process System (ARPS) after “Create Case” button is selected.

@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 02301.110 - Penalty Notices and Collection Actions
+Effective Dates: 09/13/2001 - Present | TN 62 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301110 (fetched 2026-10-04)
+
+E. Procedure — Decision to Collect a Penalty
+1. Manual Notice Instructions
+Select penalty paragraphs from NL 00804.240 “Miscellaneous”. Use paragraph PENM50 under the caption "Information About Your Payments"
+and PENM52 under the caption "Things To Remember" on Form SSA-L8166-U2 (Important
+Information Notice). For a sample notice, see NL 00804.700, Notice Number 2.
+2. When to Send
+Send the collect notice using this chart.
+WHEN A COLLECT DECISION OCCURS . . .
+THEN SEND THE PENALTY NOTICE . . .
+Before the release of an overpayment notice
+After the release of an AONS notice;
+OR
+Attached behind a manual overpayment notice (Form SSA-L8170-U3, SSA-L8171-U3, or SSA-L8172-U3.*
+For an excess payment that did not result in an overpayment
+As soon as possible
+After the release of an overpayment notice
+As soon as possible
+*CAUTION: Do not send the notice before the release of an AONS or manual overpayment
+notice. See SM 01311.035.C for a description of overpayment notice information in
+the Overpayment Sequence Data (OPSQ) segment on the SSR.
+3. Adding a Penalty Decision to the SSR on Current Pay Records
+When a decision has been made to collect a penalty, the Penalty Screen (UOPN) in the
+DIRECT SSR Update is completed. (See MSOM BUSSR 004.016 on UOPN.)
+•
+Select ‘Y' for ADD PENALTY. The next penalty increment will be displayed.
+Note:
+You may over key the penalty amount displayed to increase the increment because penalty
+periods are not propagated to the new record (e.g., We assessed a penalty of $25 on
+a terminated prior record and are now assessing a subsequent penalty of $50 on the
+current active record).
+•
+The system automatically builds a P98 entry and a RECOVER BY CHECK ADJUSTMENT (D TAC)
+DECISION.
+NOTE: Notice suppression should be input to stop the systems generated notice.
+4. Record Goes Into Nonpay Status
+When a record goes into nonpay status and the penalty collection has not been completely
+collected:
+•
+Select the Penalty option in the Overpayment Menu (UOMN).
+•
+Select ADJUST PENALTY COLLECT DECISION on the Penalty screen (UOPN).
+•
+The system will automatically adjust the D TAC to equal the amount of the penalty
+collected and build a DB decision for the uncollected amount. If none of the penalty
+amount has been collected, the system will change the D TAC to a DB decision. (See
+MSOM BUSSR 004.016 and SM 01311.305 and SM 01311.307.)
+NOTE: Whenever a record goes from current pay to nonpay or from nonpay to current pay,
+the ADJUST PENALTY COLLECT DECISION must be used.
+If the individual goes back into current pay, a B8 diary is set. Select ADJUST PENALTY
+COLLECT DECISION OPTION on UOPN to change the DB TAC to D TAC.
+5. FLA-D Cases
+For cases in FLA-D, penalty assessments may be established but not collected. Recovery
+of the penalty will automatically begin when the new FLA is transmitted. Suppress
+the automated notice and issue a manual notice when changing the FLA from D and there
+is a penalty collect decision on the record.

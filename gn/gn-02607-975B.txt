@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - GN 02607.975 - Enumeration Verification System (EVS) and Inmate Status Codes on PUPS Alerts and Records
+Effective Dates: 08/15/2023 - Present | TN 90 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607975 (fetched 2026-10-04)
+
+B. Inmate status codes
+1. Codes effective 04/01/00
+CODE
+DEFINITION
+DESCRIPTION
+Y
+Convicted
+Individual convicted of a crime (felony or misdemeanor) and confined to a correctional
+institution.
+C
+Confined but not convicted
+Individual confined in a correctional institution but not convicted of a crime.
+I
+Institutionalized by court order (NGRI)
+Individual found not guilty by reason of insanity or found incompetent to stand trial
+and confined to a public institution as a result of a court order in connection with
+a criminal case.
+X
+Sexually dangerous person
+Individual confined in the public institution based on a determination that they are
+a sexually dangerous person or a sexual predator.
+P
+Parole violation
+Individual violated parole and returned to a correctional institution.
+E
+Escapee
+Individual escaped from a correctional institution.
+J
+Confined juvenile
+Inmate, under age 18, in the custody of juvenile authorities; will not be tried as
+an adult for their crime.
+A
+Juvenile convicted as an adult
+Inmate, under age 18, convicted of a crime as an adult.
+2. Codes used before 04/01/00
+CODE
+DEFINITION
+DESCRIPTION
+N
+Convicted, development of more than 1-year sentence criteria needed
+Individual convicted. Sentence may be 12 months or less. Reporter unable to verify
+length of sentence.
+Y
+Convicted, more than 1-year sentence criteria met
+Individual convicted of a crime with a sentence of more than 1 year or crime carries
+possible sentence of more than one year.
+S
+Convicted, more than 1-year sentence criteria not met
+Reporter confirms crime carries a sentence of 12 months or less.
+C
+Not convicted, charge not punishable by sentence > 1 year
+Crime carries possible sentence of one year or less.
+D
+Not convicted, charge potentially punishable by sentence > 1 year
+Crime carries possible sentence of more than 1 year, but reporter unable to determine
+the length of the sentence.
+I
+Institutionalized by court order (NGRI)
+Individual found not guilty by reason of insanity or found incompetent to stand trial
+and confined to a public institution as a result of a court order in connection with
+a criminal case.
+P
+Parole violation
+Individual violated parole and returned to a correctional institution.
+J
+Confined juvenile
+Inmate, under age 18, in the custody of juvenile authorities; will not be tried as
+an adult for their crime.
+A
+Juvenile convicted as an adult
+Inmate, under age 18, convicted of a crime as an adult.

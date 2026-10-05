@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 52140.010 - Processing Center (PC) Responsibilities for Processing Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 09/13/2017 - Present | TN 11 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140010 (fetched 2026-10-04)
+
+F. Handling WC/PDB-related alert and exception output received in the PC
+1. Output from inputs made in the FO
+Some FO actions using ICF #32 (Adjudicate WC/PDB Claim (WCDA)) create a system exception
+that requires final processing in the PC. Other FO actions process, but produce an
+alert in the PC if T2 identifies an MBR inconsistency or other issue that requires
+attention. An FO input using ICF #34 (OREO) produces output in the PC for processing
+to completion via MADCAP.
+In most instances, T2R exceptions and alerts initially go to the BTE/BA for processing
+via MADCAP. The BTE/BA may forward the output to a CS if they believe there is a problem
+with the input data or the ICF result is something that the BTE/BA is unable to resolve.
+If the BTE/BA forwards the case to the CS, the CS must then review the alert or exception
+and make the correction needed to complete processing. The CS should review the EF(eView),
+EP, or the completed side of the Paperless folder for prior WC/PDB information or
+proof that might be available to resolve the alert or exception before returning the
+case to the BTE/BA for final processing.
+NOTE: The CS should verify that proper notice language is included per DI 52155.035 before returning the case to the BTE/BA for final processing.
+2. Triennial redetermination alerts
+Triennial redetermination alerts are a PC workload responsibility. For information
+regarding the triennial redetermination of the average current earnings (ACE) alerts
+received in the PC each year and re-verifying WC/PDB, refer to DI 52150.080.

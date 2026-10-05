@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 10505.015 - Averaging Countable Earnings
+Effective Dates: 05/22/2020 - Present | TN 27 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410505015 (fetched 2026-10-04)
+
+E. Systems coding
+1. Future Development
+When there is an indication that the work pattern or earnings may change from non-SGA
+to SGA:
+•
+Create an issue of SGA on the eWork development worksheet, or
+•
+Document the SGA issue on the CDR Development Worksheet (CDRW) screen of the disability
+control file (DCF), and
+•
+Diary the case for review at the time you expect the change to occur or for a 12-month
+period. For detailed information on the CDRW screen, see DI 13010.605.
+2. Post-entitlement
+Use eWork to process the SGA determination. eWork automatically pushes the following
+to the verified earnings (VERN) (see DI 13010.675) and CDR Remarks Input (IRMK) (see DI 13010.630) screens of the DCF:
+•
+Monthly earnings information; and
+•
+Work determination codes; and
+•
+Averaging documentation.
+When making the final SGA determination eWork will present the option to average when
+appropriate and allow you to choose the averaging period(s). The averaging option
+is only available when you are in the “preview/process decision” or “effectuation”
+phase of the work review.
+NOTE: While eWork may present the option to average, the decision to apply averaging
+is the ultimately the responsibility of the technician. Do not apply averaging simply
+because eWork presents the option to do so.
+3. eWork exclusion cases
+Manually document the average earnings amount on the VERN screen in the DCF. While
+you can use eWork’s initial claims (IC) functionality to assist you in making an SGA
+determination, IC does not post the earnings to the DCF. For more information on eWork
+exclusion cases and instructions on how to input earnings manually to the DCF, see
+DI 13010.026.

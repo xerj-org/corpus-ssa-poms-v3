@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - DI 13010.160 - Suspending Benefits for Title II
+Effective Dates: 06/25/2024 - Present | TN 81 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010160 (fetched 2026-10-04)
+
+C. Beneficiary requests voluntary suspension
+A voluntary request for suspension to avoid or reduce a possible overpayment may be
+processed when the beneficiary has:
+•
+Completed the grace period after the trial work period (TWP), or
+•
+Is not entitled to a TWP, or
+•
+Is in the EXR initial reinstatement period.
+Suspend benefits with the first non-payment month (e.g. after grace period).
+1. Documenting request to suspend benefits
+Obtain a signed statement from the beneficiary or representative payee, or document
+the request to suspend benefits to avoid or reduce a possible overpayment. Use one
+of the following methods to document the record:
+•
+SSA-820 or SSA-821 (Work Activity Report)
+•
+SSA-5002 (Report of Contact (RPOC), or
+•
+the eWork Development Worksheet.
+Inform the beneficiary that we are temporarily suspending their benefits while we
+are evaluating work activity.
+2. If the beneficiary requests a voluntary suspension action to reduce or avoid an overpayment,
+a due process notification is not required
+Take the following actions to input voluntary suspension:
+•
+Input an S0 suspension through the CDIB work suspension input in POS Suspension actions
+input through CDIB are effective with the current operating month. For more information
+on SO suspension, see MSOM COMMON 005.008 and SM 03020.050.
+•
+Document the eWork development worksheet and the remarks screen of the DCF with the
+reasons for and the date of the suspension;
+•
+Continue all needed development and make a work CDR determination following normal
+procedures;
+•
+Provide due process if benefits are not payable for any additional months prior to
+the voluntary suspension, and effectuate the determination with a DIB CESS input,
+or follow fax procedures if the case is a POS exclusion;
+NOTE: POS accepts the input of an EPE or IRP action, but TATTER rejects the action when
+the beneficiary is in S0 suspense. An exception is generated with the message:
+a.
+“PRIOR LAF PROHIBITS EPE PROCESSING” for EPE actions, or
+b.
+“PRIOR LAF PROHIBITS PROCESSING” for IRP actions.
+The PC must then resolve the exception alert. Monitor the exception by establishing
+a work issue on the eWork development worksheet. Check the progress of the exception
+using PCACS or PPL ROQS.

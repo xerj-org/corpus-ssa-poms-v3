@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02402.342 - Coding Panama Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 09/01/2022 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402342 (fetched 2026-10-04)
+
+E. Process for applying Panama bank data
+1. Applying Panama bank data to the MBR
+The FBU in Costa Rica keys the complete bank data to ITS.gov . FRBKC then sends a portion of the bank data to SSA through Automated Enrollment
+(Quick$tart). The data takes at least two days to post to the MBR. SSA's MBR doesnt
+have enough spaces in the RTN and DAN fields to accept all of the coding for Panama,
+so the final 4 digits (from the record on ITS.gov ) are not sent to SSA.
+When the cutoff for direct deposit is near, the FBU in Costa Rica codes the full data
+to ITS.gov and codes the correct data for the MBR. When DIO makes an input for Panama IDD, DIO then faxes the enrollment form or request to the
+Embassy in Panama City for review, with a note that it has been input to ITS.gov and the MBR.
+2. Applying the remainder of the bank data before payment
+When a payment for Panama arrives at FRBKC, FRBKC checks it against the information
+for that beneficiary on ITS.gov If the information matches, FRBKC adds the remaining 4 digits from ITS.gov to complete the account number. If the two sets of information do not match, FRBKC contacts the Embassy in Panama City to resolve the difference.
+3. Routing a completed enrollment form
+In general, beneficiaries mail completed enrollment forms to the U.S. Embassy in Panama
+City. The Embassy verifies that the coding is complete and accurate and sends the
+completed forms to the FBU in San Jos, Costa Rica, for input. If the beneficiary calls to enroll, or if the form is incomplete, the Embassy completes the form and sends
+it to the San Jos FBU.

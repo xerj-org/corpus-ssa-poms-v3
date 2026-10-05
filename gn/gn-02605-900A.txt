@@ -1,0 +1,269 @@
+SSA Program Operations Manual System (POMS) - GN 02605.900 - Postal Addressing Standards
+Effective Dates: 04/21/2021 - Present | TN 38 (04-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605900 (fetched 2026-10-04)
+
+A. Policy for postal addressing standards
+1. Primary address
+The Delivery Address Line and Last Line of Address on mail are validated by the ZIP
++4 software.
+A standardized address contains the correct city name, state and ZIP code. All suffixes,
+directionals, and abbreviations are correct.
+All lines of the address are aligned with the left margin and use uppercase letters.
+Example of a standard postal address:
+MR JOHN DOE (Recipient line)
+123 MAGNOLIA ST (Delivery Address line)
+HEMPSTEAD NY 11550 (Last line)
+NOTE: When the name of a State is used as a portion of the Primary Street Name, the standard
+two–letter abbreviation is recommended. However, when the State name is the complete
+Primary Street Name, such as OKLAHOMA AVE, then completely spell out the State name.
+2. Secondary address
+a. Unit designators
+Secondary address unit designators are printed on mail. The preferred location is
+at the end of the Delivery Address Line.
+The most common unit designators are:
+APARTMENT
+APT
+BUILDING
+BLDG
+FLOOR
+FL
+SUITE
+STE
+UNIT
+UNIT
+ROOM
+RM
+DEPARTMENT
+DEPT
+NOTE: If all address information cannot be placed on a single line directly above the City, State, and ZIP Code, see b. in this section.
+Examples of a secondary address:
+102 MAIN ST APT 101
+13 EXECUTIVE DR STE 20
+1600 CENTRAL PL BLDG 4
+55 SYLVAN BLVD RM 108
+b. Alternate location
+If you cannot continue all address information in a single line immediately above
+the city, State, and ZIP code, i.e., the street portion of the address require more
+than 22 spaces; place secondary address information on the line above the Delivery
+Address Line.
+Example of an alternate location:
+MR M MURRAY
+APT C
+5800 LILAC GARDENS CIR
+SPRINGFIELD VA 22152-1058
+3. Last line of address
+a. Approved city place
+All Last Line addresses are matched with the city and State. Only use the approved
+city place names.
+b. Punctuation and special characters
+Punctuation or special characters in the Last Line of the Address are not used.
+Example of punctuation and special characters:
+BROWN'S CROSSROADS VA
+becomes
+BROWNS CROSSROADS VA
+c. Spelling of city names
+City names are spelled out in their entirety. When abbreviations must be used, use
+the approved abbreviations provided in the ZIP Code Directory.
+d. Format
+The Last Line has at least one space between the city name, the two character State
+abbreviation, and the ZIP code.
+4. Delivery address line
+a. Components
+The Delivery Address Line, as matched against the ZIP +4 software must be broken down
+into its individual components on the mail piece with one space between address elements.
+These are:
+•
+primary address number,
+•
+street name,
+•
+secondary street identifier,
+•
+predirectional, and
+•
+postdirectional.
+Examples of address elements:
+101 MAIN ST
+101 MAIN ST APT 12
+101 W MAIN ST APT 12
+101 W MAIN ST E APT 12
+b. Street name
+Punctuation is limited to periods (not for MSSICS and the SSR), slashes, and hyphens.
+Periods: 39.2 RD
+Fractional Addresses:
+101 1/2 MAIN ST
+Hyphenated Addresses:
+289-01 MONTGOMERY AVE (NO space on either side of the hyphen)
+5. Directional standards
+a. Abbreviations
+Abbreviate directionals to the appropriate one or two character abbreviation.
+Examples of abbreviated directionals:
+234 NW SMITH ST
+678 MAIN DR S
+101 N BAY DR
+599 BAY BLVD SW
+b. Predirectional field
+If a directional word is the first word in the street name with no other directional
+to the left of it, abbreviate it for standardization purposes.
+Examples of predirectional:
+NORTH BAY ST
+becomes
+N BAY ST
+EAST END AVE
+becomes
+E END AVE
+c. Postdirectional field
+If a directional word is located to the right of the street name and suffix, abbreviate
+it and locate it in the postdirectional field.
+Examples of postdirectional:
+BAY DRIVE WEST
+becomes
+BAY DR W
+d. Two directionals
+If two directional words appear consecutively before the street name, then the first
+of the two words (the left-most), becomes the predirectional. The second directional
+word becomes part of the primary name and is spelled out in its entirety in the primary
+name field.
+Examples of two directionals:
+NORTH SOUTH MAIN AVE
+becomes
+N SOUTH MAIN AVE
+SOUTH EAST BAY DR
+becomes
+S EAST BAY DR
+NOTE: SOUTHEAST BAY DR (one word) becomes SE BAY DR, as with single directionals.
+e. Directional as part of street name
+If the directional word appears between the street name and the suffix then it appears
+as part of the primary name spelled out.
+Example of directional as part of a street name:
+BAY WEST DRIVE
+becomes
+BAY WEST DR
+6. Suffixes
+a. Abbreviations
+The suffix of the address should conform to the standard suffix abbreviations listed
+in the ZIP Code directory.
+b. Two suffixes
+If two consecutive words on the suffix table are in the address, abbreviate the second
+of the two words according to the suffix table and place it in the suffix field. The
+first of the two words is part of the primary name. Spell it out in its entirety after
+the street name on the mail piece.
+Examples of two suffixes:
+789 MAIN AVENUE DRIVE
+Becomes
+789 MAIN AVENUE DR
+4513 3RD STREET CIRCLE WEST
+Becomes
+4513 3RD STREET CIR W
+7. Numeric street names
+Numeric street names, i.e., 7TH ST, or SEVENTH ST should be output on the mail piece
+exactly as they appear in the ZIP Code directory.
+8. Highways designations
+Standardize county, State and local highways as follows:
+HOUSE/LOT RANGE
+HIGHWAY NAME
+934
+COUNTY RD 20
+1072
+STATE RD 20
+333
+STATE RT 20
+789
+US HIGHWAY 20
+1991
+TOWNSHIP RD 20
+9. Rural route address
+a. Format
+Output rural route addresses on mail pieces as: RR N BOX NN. Do not use the words
+“rural,” “route,” “number,” “No.,” or the “#” symbol.
+Examples of rural route address:
+RR 2 BOX 152
+RR 9 BOX 23A (No space between 23 and A)
+b. Leading Zero
+A leading zero before the rural route number is not necessary.
+Example of leading zero:
+RR03 BOX 98D
+becomes
+RR 3 BOX 98D
+c. Hyphens
+Hyphens are only printed as part of the box number when indicated as part of the address.
+Example of hyphens:
+RR 4 BOX 19-1A
+d. Designations RFD and RD
+Change the designations “RFD” and “RD” (as a meaning for rural or rural free delivery)
+to RR.
+Example of designations RFD and RD:
+RFD ROUTE 4  87A
+becomes
+RR 4 BOX 87A
+e. Additional designations
+There should be no additional designations, such as town or street names, on the Delivery
+Address Line of rural route addresses, because street names used together with route
+and box numbers can create potential matching difficulty.
+Example of no additional designations for rural route address:
+RR 2 BOX 18 BRYAN DIARY RD
+becomes
+RR 2 BOX 18
+10. Highway contract route addresses
+a. Format
+Highway contract route addresses are output on a mail piece as: HC N BOX NN. Do not
+use the words “highway contract,” “route,” “number,” “No.,” “star,” or the “#” symbol.
+Examples of highway contract route addresses:
+HC 68 BOX 152
+HC 68 BOX 23
+b. Leading zero
+A leading zero before the highway contract route number is not necessary.
+Example of leading zero:
+HC068 BOX 98D
+becomes
+HC 68 BOX 98D
+c. Hyphens
+Hyphens are only printed as part of the box number when indicated as part of the address.
+Examples of hyphens:
+HC 68 BOX 19-2B
+d. Star route designation
+Change the designation “STAR ROUTE,” which usually refers to highway contract route,
+to “HC.”
+Example of star route designation:
+STAR ROUTE 68 BOX  45
+becomes
+HC 68 BOX 45
+e. Additional designations
+Do not show any additional designations, such as town or street names, on the delivery
+address line of highway contract route addresses.
+NOTE: Street names used together with route and box numbers can create potential matching
+difficulty.
+Example of no additional designations for highway contract route addresses:
+HC 2 BOX 18 BRYAN DIARY RD
+becomes
+HC 2 BOX 18
+11. Post office box addresses
+a. Format
+Post office box addresses are output as PO BOX NN on the mail piece.
+Examples of post office box addresses:
+PO BOX 11890
+PO BOX G
+b. Leading zero
+There are situations where a PO BOX number is preceded by significant leading zeroes.
+Example of leading zero for post office box addresses:
+Mail piece: PO BOX 00145
+c. Designations
+PO BOX addresses often appear with the word “Caller,” “Lockbox,” or “Drawer.” Change
+these to PO BOX as output on a mail piece.
+Example of PO BOX designations:
+ABC COMPANY DRAWER L
+becomes
+PO BOX L
+d. Dual addresses
+Avoid dual addresses whenever possible. If dual addresses are used, place the intended
+delivery address on the line immediately above the city and State. The other address
+must be shown on a separate line above the delivery address line. Ensure the ZIP code
+is correct for the delivery address line above the city and State. You must show a
+“post office” box on the Delivery Address Line.
+Example of dual addresses for PO BOX addresses:
+1145 RIVER DR, PO BOX 195
+NAPLES FL 33940
+becomes
+1145 RIVER DR
+PO BOX 195
+NAPLES FL 33940

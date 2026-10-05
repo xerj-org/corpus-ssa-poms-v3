@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - GN 02401.902 - Nonreceipt Alleged Timely and Check in Limited Payability Status
+Effective Dates: 04/10/2023 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401902 (fetched 2026-10-04)
+
+E. Timely allegation of nonreceipt when an overpayment is on the record
+1. Procedure on how to repay the check if the check is not part of an existing overpayment
+on the record
+If the LP check will be replaced because the timely nonreceipt allegation was not
+input or an incorrect stop code was input and the check is not part of an existing
+overpayment on the record, we will reissue the check following the process shown below.
+a. Field Office (FO) processing:
+1.
+Title II cases:
+Sende a MDW to the PC of jurisdiction for processing.
+2.
+Title XVI cases:
+a.
+If there is an LP credit on the SSR for the check, repay the check following instructions
+in GN
+02401.903.E.
+b.
+If there is no LP credit on the SSR, repay the check via Automatic One-Time Payment
+(A-TOP) via MSSICS Direct SSR Update, see MS 00303.007, MS 00303.002. Use the original
+payment date of the check. When preparing the A-TOP, input an NT-TAC on the resulting
+overpayment;
+c.
+Annotate the REMARKS field on the Supplemental Security Record (SSR) with "LimPay
+Case; N/R for MOP MM/YYYY Timely Filed with wrong code or not input; replacement paid
+via A-TOP;" and,
+d.
+Send a notice to the beneficiary, recipient, or representative payee with the explanation
+of when they will receive the payment due per NL 03001.025.
+b. Processing Center (PC) Processing
+1.
+Title XVI Cases:
+Route case to FO for processing via MDW. FO will process using instructions in per
+GN 02401.902E.
+2.
+Title II Cases:
+a.
+Reissue the check via Single Payment System (SPS) or MACADE, with the date of COM.
+For either method, add a corresponding PHUS 170 Event with an ETD of COM;
+b.
+Annotate the special message (SPC MSG) field on the Master Beneficiary Record (MBR)
+"LimPay case; N/R for MOP MM/YYYY Timely Filed with wrong code or not input; replacement
+paid via SPS or MACADE;" and.
+c.
+Send a notice to the beneficiary, recipient, or representative payee with the explanation
+of when they will receive the payment due per NL 03001.025.
+2. Procedure on how to apply the check if it is part of an existing overpayment on the
+record
+If the LP check is still due because the nonreceipt request was timely, but the technician
+failed to make the input or an incorrect stop code was input and the check is part
+of an existing overpayment on the record, follow the instructions below.
+a. Check is part of an existing overpayment
+If the technician determines the check is part of an existing overpayment on the record:
+1.
+Reduce or recover the overpayment on the record;
+2.
+Annotate the SP MSG for Title II or REMARKS field for Title XVI with "Limited Payability
+Check MM/DD/YYYY used to reduce or recover O/P; and
+3.
+Send a manual notice with the explanation of how we used the payment to reduce or
+recover the overpayment.
+NOTE: Do not submit this case for a handwriting analysis because the beneficiary, recipient, or representative payee reported the nonreceipt
+of payment timely.
+b. Check is not due
+If the check is not due and an overpayment is on the record, follow overpayment procedures
+found in GN
+02201.000.

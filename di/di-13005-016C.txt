@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 13005.016 - Continuing Disability Review (CDR) for Title XVI Section 1619 Recipients
+Effective Dates: 08/03/2023 - Present | TN 18 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413005016 (fetched 2026-10-04)
+
+C. Processing a Section 1619 diary
+The Supplemental Security Record (SSR) will identify Section 1619(a) and Section 1619(b)
+cases with an A1 diary for initial Section 1619 eligibility or an A2 diary for a Section
+1619 status change. In addition, when the system identifies a status change that may
+require a CDR, the CDR Initiation Type (CIT) field updates with a code of “S,” see
+SM 01305.992. The FO will determine if we will require a CDR based on the diary and
+a review of the record.
+1. A1 diary for initial Section 1619 eligibility
+The SSR generates an A1 diary when:
+•
+an individual first enters Section 1619(a) status (for example, earnings over SGA
+post to the individual’s record); or
+•
+an individual first enters Section 1619(b) status (for example, earnings post to the
+record that results in a zero payment).
+Cases in current pay status with an A1 diary will receive selection for a medical
+review under the normal CDR process. Cases in non-pay status with an A1 diary do not
+require a CDR.
+2. A2 diary for Section 1619 status change
+The SSR generates an A2 diary when:
+•
+an individual moves from a Section 1619(b) (for example, a non-payment month to a
+Section 1619(a) or a regular Section 1611 payment month); or
+•
+an individual moves from a Section 1619(b) (for example, a non-payment month to a
+suspense month, then back to a Section 1619(a) or Section 1619(b) month or a Section
+1611 payment month).
+These cases may also have a CIT of “S” or a Prior CDR Initiation Type (CIP) of “S”
+in the Disability Information (DISB) field of the SSR, see SM 01305.992 and SM 01601.595.
+Cases in current pay status with an A2 diary will require a CDR unless certain exclusions
+apply, see DI 13005.018B.2.

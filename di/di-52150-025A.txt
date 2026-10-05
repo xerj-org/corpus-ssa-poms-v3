@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - DI 52150.025 - Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset Ending Date
+Effective Dates: 12/11/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150025 (fetched 2026-10-04)
+
+A. Offset ends because of attainment of age 62—Workers Comp Non-MEGACAP Alert Code F
+If the DIB onset is prior to 03/01/81 OR the MOET is prior to 09/81, the last possible month of offset is the month prior
+to attainment of age 62. The Non-Megacap Code-F alert is generated in the Processing
+Center (PC) at age 61 years, 11 months. See SM 00619.056 regarding the alert.
+1.
+The benefit authorizer/benefit technical examiner (BA/BTE) receives the alert.
+2.
+If proof of age is established, the BA/BTE uses MACADE to annotate the WC/PDB offset
+stop date and removes offset.
+3.
+If proof of age is not established, the BA/BTE routes the case to a claims authorizer/claims
+technical examiner (CA/CTE) to develop proof of age.

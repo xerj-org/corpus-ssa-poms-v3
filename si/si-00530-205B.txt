@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - SI 00530.205 - Fugitive Felon Automated Case Processing (FFAP)
+Effective Dates: 07/25/2022 - Present | TN 9 (07-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530205 (fetched 2026-10-04)
+
+B. Procedure – how cases are processed by FFAP
+Each week a file of the FF cases slated to be referred to the FO will be input into
+FFAP. One of the following results will occur:
+•
+A majority of cases will be fully automated by FFAP. The period of N25 will be posted
+to the SSR and the appropriate notice sent. The notice will be available on Online
+Retrieval System (ORS).
+•
+Some cases will be partially processed. The period of N25 will be posted and the notice
+sent, but field office review is required to determine if additional action is needed.
+•
+A few cases will be excluded from the automated process and referred to the field
+office for manual processing.
+•
+A small number of cases will be returned to OIG due to insufficient information.
+NOTE: Cases fully or partially processed will reflect a transaction by F02 and Unit FFAP
+in the TRAN segment on the SSR.

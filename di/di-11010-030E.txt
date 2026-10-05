@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - DI 11010.030 - Field Office (FO) Operating Instructions for Deferred Title II Initial Claims
+Effective Dates: 11/07/2013 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010030 (fetched 2026-10-04)
+
+E. Processing allowances
+The Workload Action Center (WAC) DIB Action Items tab has a capability issues list
+to help identify which claims may require a capability determination or representative
+payee development upon allowance.
+•
+For resolution of representative payee issues, see DI 11055.215.
+•
+For when to establish direct payment, or an initial “no payment” award (with benefits
+in temporary LAF-S8 (DEVPYE) suspense status pending further payee development), see
+GN 00504.110.
+If a claim processes via NMC and the NMC trigger cannot effectuate the allowance,
+the development worksheet (DW) screen alerts the FO that additional evidence or further
+development is needed. For example, if capability is unresolved, the DW shows DDSRV
+(generated with an explanation in the issue Remarks field) and additional exclusion
+codes (e.g., DDS-EX, DDS-PL, DDS-FL) as applicable. The NMC trigger may fail to effectuate
+allowances (though not certain disallowances) in claims with other processing issues
+or limitations, e.g.:
+•
+Fee payment to an appointed representative, see GN 03940.015
+•
+Favorable reopening of a prior medical determination, see DI 25501.250
+•
+Felony related impairment, see DI 10105.100
+•
+Offset from multiple WC/PDB claims for the same period, see DI 52150.035F
+•
+Retroactive benefits withheld for recovery of a prior overpayment, see GN 01010.040D
+•
+Certain EC screen edits, see DI 11010.015
+Resolve any material discrepancies between the Primary Insurance Amount (PIA) on the
+MBR of a prior award and EC (following instructions in GN 01010.100). Review trial computations in EC; if one agrees with the MBR PIA (the guarantee as
+explained in RS 00605.035), EC will correctly use the prior period of disability (PPD).
+NOTE:
+When the disability determination is on the Workload Management Information (WMI)
+listing, but the CEF (or other official folder) is pending in the Disability Quality
+Branch (DQB) (or equivalent review section), hold effectuation until the case returns
+from the DQB. To verify the DQB determination, review the:
+•
+EDCS Action Page for case return, see DI 81010.100
+•
+Case Review/Action History, see DI 81005.055 and DI 10005.020A.1
+•
+SSA-831 Disability Determination and Transmittal
+In a medical allowance, take the following action immediately upon receipt of the
+AL indicator code on the WMI list (or other equivalent alert from the DDS/DQB):
+1.
+Initiate all further required nonmedical development (including auxiliary claims).
+2.
+For CEF cases, open the case in eView. Look at the eView Status/History to make sure
+the case is back at the FO and not still pending in the DQB.
+3.
+Check eView messages, the EDCS Actions page, and SSA-831 remarks for any special notice,
+routing, or other processing instructions. (Or check for receipt of the official folder,
+which may occur first.)
+4.
+Receipt in the DDS disability determination (DDSDEC) issue on the DW. FO processing
+time on the WMI completed list will typically be counted from the application receipt
+date to the date of transfer (DDSDEC REQ date) in EDCS (FO1 time) and then from the
+FO receipt (DDSDEC REC date) to when the MBR updates for the disability determination
+(FO2 time). For successful NMC auto-initiated adjudications, batch updates automatically
+complete FO2 time after the DDS case clearance back to the FO (regardless of DDSDEC
+dates on the DW). For partial adjudication, see GN 01010.110 and GN 01010.120.
+5.
+If the disability determination did not trigger payment via NMC, ensure the nonmedical
+development for the entitlement is complete and manually process the award.
+6.
+Most auxiliary claims, including childhood disability benefits (CDB) and disabled
+widow(er)s benefits (DWB), will process as subsequent claims through EC (unless there
+is a processing limitation, e.g., the “"NH benefit adjustment needed" edit when EC
+attempts to complete a subsequent auxiliary award that affects current WC/PDB offset
+computations as described in DI 52140.001J).
+•
+The FO has authority to delay the claimant's payment for a short period (generally
+no more than 5 working days); if deferred or full auxiliary development can be completed
+within that time, the FO may process all the claims through EC.
+•
+If the case has not been triggered for NMC, and the claimant has a future month of
+entitlement at the time of the disability claim allowance (e.g., case is still in
+the waiting period), the FO may delay the EC trigger until the auxiliary development
+is complete when necessary to enable all the claims to process together through EC.
+NOTE: This optional procedure reduces the number of subsequent auxiliary claims requiring
+Manual Adjustment Credit and Award Process (MADCAP) processing. However, use this
+procedure only when the EC triggers of the primary and auxiliary claims occur soon
+enough to assure timely payment to the claimant.

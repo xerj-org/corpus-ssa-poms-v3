@@ -1,0 +1,12 @@
+SSA Program Operations Manual System (POMS) - GN 02406.715 - Systems Processing of Mass Loss
+Effective Dates: 06/11/2015 - Present | TN 33 (06-15)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406715 (fetched 2026-10-04)
+
+A. Process for mass loss non-receipts
+When mass loss non-receipts are input, the system reads the inputs as non-receipt
+type “A.” The system then:
+•
+Sends a B-stop to Treasury, so that Treasury can issue a courtesy disbursement check;
+and
+•
+Posts an “A-stop” on PHUS for title II or the Treasury Status Query for title XVI.

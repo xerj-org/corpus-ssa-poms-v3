@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 52150.035 - Determining the Workers’ Compensation/Public Disability Benefit (WC/PDB) Amount Used to Compute Offset
+Effective Dates: 01/30/2019 - Present | TN 29 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150035 (fetched 2026-10-04)
+
+A. Determining WC/PDB amounts for offset computation
+It is important to remind claimants of their reporting responsibilities of WC/PDB
+payments during the initial interview and explain how their failure to report these
+payments to SSA timely, may lead to an overpayment.
+1. WC/PDB amounts received by the number holder (NH)
+Offset disability insurance benefits (DIB) based on monthly WC/PDB amounts received
+by the NH, minus any excludable expenses. WC/PDB amounts paid on other than a monthly
+basis, including a lump sum (LS), also cause offset.
+2. WC/PDB amounts received by dependents (including inchoate payments)
+Some States pay additional amounts to the NH’s dependents.
+To compute offset, exclude benefits paid directly to the dependent rather than the
+NH; but include payments made to the NH.
+3. Deductions from the WC/PDB gross benefit
+Mandatory or voluntary automatic payroll-type WC/PDB benefit deductions are offsettable.
+These include, but are not limited to:
+•
+Life insurance premiums,
+•
+Health benefit premiums,
+•
+Federal Insurance Contribution Act (FICA) taxes, or
+•
+Garnishment (e.g., for unpaid taxes or child or spousal support).
+4. WC/PDB benefit rate adjustments
+When imposing offset, use the WC rate(s) and period(s) determined by the payer to
+be correct and payable, i.e., the rate that should have been paid rather than the
+rate actually paid. This difference in rates can occur, for example, when the WC carrier
+overpaid the beneficiary and subsequently reduced the WC rate to recover the overpayment.
+Whether the carrier recovers the excess amount paid is irrelevant to the offset computation.
+We impose offset based on the established WC rate that should have been paid.
+EXAMPLE 1:
+For the 10-week period (05/01/2004 through 07/09/2004), NH received $400.00 per week
+in temporary total WC.
+Effective 07/10/2004, NH began to receive $300.00 per week in temporary partial WC.
+In 12/2006, a hearing is held and it is determined that NH’s disability did not meet
+the requirements for temporary total WC. The $300 payments should have started 05/01/2004
+instead of 07/10/2004. This results in a $1,000 overpayment.
+The WC proof indicates the WC carrier agreed to withhold $10 per week until the overpayment
+recovery is completed – resulting in 100 weekly payments of $290 until the overpayment
+is recovered. (The WC overpayment issue is between the carrier and the beneficiary.)
+Therefore, code the ICF with a continuing WC rate of $300 per week for the period
+05/01/2004 and continuing.
+EXAMPLE 2:
+NH received a letter from the insurer converting NH’s TT benefits to PP benefits (at
+a lower rate). The letter informed the NH that they were paid TT benefits from 04/28/2006
+to 04/13/2008 and determined to be “Permanent & Stationary” beginning 02/05/2008.
+The letter stated the insurer was asserting credit for the TT overpayment for 02/05/2008
+to 04/13/2008 against permanent disability.
+Code the ICF WC/PDB with the TT rate for 04/28/2006 through 02/04/2008 and the PP
+rate for 02/05/2008 and continuing.
+5. Periodic payments paid in a lump sum (LS)
+Use caution when interpreting legal documents. The payment may appear to be a LS,
+as defined in DI 52150.060, but may actually be a single payment that represents accumulated or past-due periodic
+payments. If a check represents past-due periodic WC/PDB payments that simply bring
+payments up to date, it is not a LS. For example:
+•
+The parties agree that the claimant’s disability began on 03/19/2002, and that, upon
+approval of this agreement for settlement, the Employer and Carrier will make a payment
+to the Claimant in the sum of $83,235.32, which the parties agree is in full satisfaction
+of all accrued and unpaid weekly benefits through 06/30/2007.
+•
+Respondent shall pay claimant compensation at the rate of $212.12 per week from 08/01/2007
+and continuing until further order of this court. Fifteen and one-half (15.5) weeks
+have accrued and shall be paid in a lump sum of $3,287.86.

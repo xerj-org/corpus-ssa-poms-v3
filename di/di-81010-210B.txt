@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - DI 81010.210 - Electronic Continuing Disability Review (eCDR) Exclusions
+Effective Dates: 06/08/2009 - Present | TN 90 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010210 (fetched 2026-10-04)
+
+B. Processing Electronic Continuing Disability Reviews (eCDRs) With Pending Claims
+Beneficiaries may become eligible for another benefit (e.g., SSI recipient attains
+insured status for Title II benefits) while currently receiving disability payments.
+If a beneficiary files for another benefit and is selected for a CDR, the Field Office
+(FO) must process both as Certified Electronic Folder (CEF) Exclusions with paper folders. If possible,
+the FO should establish the new claim in EDCS. Follow the procedures outlined in Certified
+Electronic Folder (CEF) Exclusions - DI 81010.030C.
+FO Processes New Claim and Initiates CDR at the Same Time
+1.
+Enter the new claim on the Modernized Claims System (MCS)/Modernized Supplemental
+Security Income Claims System (MSSICS) mainframe systems;
+NOTE: Certain Childhood Disability Beneficiary (CDB) and Disabled Widow Beneficiary (DWB)
+cases do not require establishment of an MCS claim prior to creating an EDCS case.
+For more information on conversion cases, see Childhood Disability Benefits (CDB)
+General - RS 00203.080 and DI 81010.020B.
+2.
+Initiate the CDR on the Disability Control File (DCF);
+3.
+Enter the SSA-3368 and SSA-3367 in EDCS;
+4.
+Obtain SSA-454 to capture any information not on the 3368 and SSA-827s. Place the
+SSA-454 and SSA-827s in the Comparison Point Decision (CPD) folder;
+5.
+Create a paper Modular Disability Folder (MDF) for the new claim. Staple the new MDF
+to the CPD folder. For more information on creating an MDF, see General Overview of
+the MDF DI 70005.005;
+6.
+Transfer the claim and CDR on MCS/MSSICS/DCF;
+7.
+Add message to EDCS and the routing form: “CEF exclusion - initial claim filed with
+CDR/Age 18 redetermination. Initial claim entered in EDCS”;
+8.
+Transfer the claim in EDCS. On EDCS Transfer screen, select “Paper folder has been
+created for this filing” and “Prior paper folder attached”;
+9.
+Attach EDCS route slip to paper folders and send to DDS;
+10.
+Mail the paper folder to the Disability Determination Services (DDS).
+NOTE: If the CDR case is established in EDCS and the initial claim is a paper case, complete
+the paper forms SSA-3368, SSA-3367, SSA-827, and complete form SSA-831 per DI 11010.205.
+CDR Pending and New Claim Filed
+If the FO conducts an interview and discovers that an eCDR is pending at the DDS or
+Office of Quality Review (OQR), process as follows:
+1.
+Enter the new claim on the MCS/MSSICS mainframe systems;
+NOTE: Certain Childhood Disability Beneficiary (CDB) and Disabled Widow Beneficiary
+(DWB) cases do not require establishment of an MCS claim prior to creating an EDCS
+case. For more information on conversion cases, see Childhood Disability Benefits
+(CDB) General - RS 00203.080 and DI 81010.020B.
+2.
+Complete the SSA-3368, SSA-3367 on paper and obtain signed SSA-827s;
+3.
+Complete form SSA-831, per DI 11010.205;
+4.
+Create a paper MDF. For more information on creating a MDF, see General Overview of
+the MDF DI 70005.005;
+5.
+Transfer the claim on MCS/MSSICS mainframe systems;
+6.
+Attach SSA-408 Route Slip to the paper folder with the remark, “Associate with eCDR
+transferred on mm/dd/yyyy. Convert eCDR to paper per Certified Electronic Folder (CEF)
+Exclusions - DI 81010.030 and Electronic Claims Receipt Process - DI 81020.015C. Please update the PFI for CDR claim to reflect change to paper folder processing.”
+7.
+Route the paper folder to the Disability Determination Services (DDS).
+Claim Pending and CDR Initiated
+If an initial/reconsideration/appeal is pending at the DDS or OHO and a CDR comes
+due:
+1.
+Initiate the CDR in DCF.
+2.
+Obtain the SSA-454 or SSA-3368 for age 18 redeterminations, and SSA-827s.
+3.
+Transfer the CDR to the applicable office via the DCF.
+4.
+Prepare a paper MDF for the initial claim. Print sections A - D and file in the paper
+folder. For more information on creating an MDF, see General Overview of the MDF DI 70005.005;
+5.
+Attach SSA-408 Route Slip to the paper folder with the remark, “Associate with EDCS
+case transferred on mm/dd/yyyy. Convert to paper per Certified Electronic Folder (CEF)
+Exclusions - DI 81010.030 and Electronic Claims Receipt Process - DI 81020.015C. Please update the PFI for claim to reflect change to paper folder processing.”
+6.
+Mail the paper folder to the DDS/OHO office.

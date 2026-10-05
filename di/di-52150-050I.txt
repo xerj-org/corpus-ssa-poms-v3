@@ -1,0 +1,279 @@
+SSA Program Operations Manual System (POMS) - DI 52150.050 - Workers’ Compensation/Public Disability Benefits (WC/PDB) with Excludable Expenses
+Effective Dates: 08/22/2016 - Present | TN 37 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150050 (fetched 2026-10-04)
+
+I. Applying excludable expenses to the offset computation
+1. Applying expenses to periodic payments
+WC hearing decisions often involve excludable expenses, particularly attorney fees,
+and there can be multiple WC decisions and multiple attorney fee awards.
+Even if the decision does not result in changes in the WC amount, additional attorney
+fees may be involved. For example, this may occur in an award in which there is no
+retroactive change in WC and no change to ongoing payment other than an extension
+of the number of paid weeks. The WC decision may not clearly state how or for what
+period the excludable expenses should be deducted for offset computational purposes.
+The judge will often specify the deduction period it represents. If the document specifies
+no period, review the award or other evidence to determine the period representing
+the expenses. For example, expenses can relate to the entire WC period, a closed period
+in the past or future payments.
+Take the following actions to determine the deduction period:
+a.
+If the expenses represent amounts for a specified period, deduct expenses from the
+period they represent.
+b.
+If you cannot determine the period the expenses represent, and the award involves
+an ongoing increase or ongoing decrease in the WC rate from the rate previously used to compute offset, deduct expenses
+effective with the date of the WC rate change.
+c.
+If unable to determine the period the expenses represent and there is no change in
+the WC rate, deduct the expenses effective with the date of the decision.
+For cases processed effective 12/2008 that used the Offset First Considered (OFC)
+date (the OFC date preceded the date(s) determined in DI 52150.050I.1.a. through DI 52150.050I.1.c.), follow Reopenings - Change in Ruling or Legal Interpretation - Change of Position
+instructions per GN 04001.100.
+NOTE: The ongoing expense amount or percentage must correspond with the WC frequency of
+payment (for example, if the WC rate is weekly, the corresponding ongoing expenses
+must also correspond in a weekly amount or weekly percentage).
+2. Applying expenses shown as a percentage
+When the award shows an expense as a percentage rather than an amount, always carry
+the percentage two decimal places, as the following examples illustrate:
+•
+Example 1
+The award stipulates a weekly WC rate of $360.00 with 25 percent allocated to ongoing
+attorney fees. Indicate 25.00 as the percentage amount on the WC/PDB Offset-Periodic
+Payments (WCPP) screen in Interactive Computation Facility (ICF) or the Title 2 Redesign
+(T2R) Common input screen WC/PDB Periodic Payments Ongoing Expenses (WPOX).
+•
+Example 2
+The award stipulates that every third check will go to the attorney as payment of
+attorney fees (the equivalent of 33.33 percent of the benefits paid). Indicate 33.33
+as the percentage amount on the WCPP screen in ICF or the T2R Common input screen
+WPOX.
+3. Applying expenses to periodic payments - example
+The following scenario illustrates how to apply expenses to periodic payments:
+DIB previously awarded and offset coded. DIB MOET and OFC date is 01/2005 and the
+weekly rate $75.00.
+A post-entitlement action comes in, the new award states:
+•
+Decision date 03/25/2007; $180.00 weekly rate effective 12/18/2005, the carrier is
+to continue payment at $180.00 a week
+•
+The period specified as 12/18/2005 - 03/25/2007 (66 weeks).
+•
+Award stipulates attorney fees of $3,000.00, of which $2,000.00 is “payable now”,
+and the remaining attorney fees will be paid at $25.00 per week starting 03/26/07.
+The following scenario illustrates how to process the post-entitlement action:
+Step 1:
+The $2,000.00 “payable now” expenses are deducted retroactively. Since they provide
+the period, allocate the $2,000.00 over the 66-week term of 12/18/05 through 03/25/07.
+This equates to $30.30 per week. Therefore, the retroactive coding would appear as
+12/18/05 through 03/25/07, $180.00 weekly with $30.30 expenses.
+REMINDER: You may want to refer to your regional/PC resource websites for tools to
+assist in calculating WC/PDB rates, lump sum proration, and excludable expenses.
+Step 2:
+a.
+Input the following award information on the WCCL screen:
+i.
+Periodic Payments Involved “Y;” and
+ii.
+Lump Sum Involved “N.”
+b.
+Code the WCPP screen with the following information:
+NOTE: We are using the WCPP screen in this case scenario due to an ICF processing limitation, the WCCD and WCEE screens will always deduct expenses effective the first day of the month even if you enter another day.
+i.
+Enter the weekly WC paid for 12/01/05 through 12/17/05 with no ongoing expenses. (If
+you erroneously begin your input with the mid-month Start date of 12/18/05, ICF computes
+offset as if there were no payments made prior to 12/18/05.)
+ii.
+Enter the new weekly WC rate of $180.00 effective 12/18/2005, with ongoing expenses
+of $30.30 through 03/25/07.
+NOTE: The $3,000.00 fee represents $2,000.00 payable now and leaves $1,000.00 remaining.
+The start date for the remaining $1,000.00 expense deduction is 03/26/07 at $25.00
+per week.
+iii.
+Determine the ending date of the $25.00 weekly expenses.
+iv.
+Divide the $1,000.00 remaining by $25.00 to determine the number of weeks that we
+will prorate the fee; $1,000.00 divided by $25.00 = 40 weeks.
+v.
+Based on the start date of 03/26/07, the 40 Week proration expense period ending date
+is 12/30/07.
+NOTE: You can also use the Excludable Expenses Calculator to determine the end date.
+vi.
+Code $180.00 with $25.00 a week expense (representing the remaining $1,000.00 attorney
+expense payable) for 03/26/07 to 12/30/07, which represents 40 weeks at $25.00 a week.
+vii.
+Code $180.00 for 12/31/07 to show the continuing weekly WC payment.
+Code the periodic WC dates, periodic payment amounts, and ongoing expenses as follows:
+WC/PDB OFFSET - PERIODIC PAYMENTS            WCPP
+​
+PERIODIC PAYMENT:
+PERIODIC PAYMENT:
+ONGOING EXPENSES:
+START (MMDDYY)
+STOP
+(MMDDYY)
+AMOUNT
+PROOF (Y/N)
+FREQUENCY
+AMOUNT OR %
+PROOF(Y/N)
+120105
+121705
+75.00
+Y
+W
+121805
+032507
+180.00
+Y
+W
+30.30
+Y
+032607
+123007
+180.00
+Y
+W
+25.00
+Y
+123107
+180.00
+Y
+W
+NOTE: Technicians are responsible for validating the correct offset in ICF. If a calculation
+appears incorrect (WC rate increases, and MBA also appears to increase), technicians
+should perform manual calculations to validate offset.
+4. Applying expenses to the LS award
+To process LS awards involving expenses, see Prorating a Workers’ Compensation/Public
+Disability Benefit (WC/PDB) Lump Sum Settlement in DI 52150.060.
+5. Applying expenses to “Notice Provision” cases
+The notice provisions only apply to cases involving onset before 03/01/1981 or entitlement
+before 09/01/1981. See Notice Provisions Pre-1981 Amendment Cases per DI 52170.040.
+6. Applying expenses alleged after processing the initial LS proration
+After processing a LS proration, a NH may claim expenses not mentioned in the award
+or claim an amount greater than the amount originally specified and proven.
+Review the evidence to determine the period represented by the expenses. Recalculate
+the offset to include the additional expenses if the worker provides appropriate verification
+of the expenses.
+An attorney sends the NH to a doctor for an examination in connection with a pending
+WC settlement. The NH paid the doctor charges of $125 for the exam. The settlement
+does not mention this expense. It is excludable because the NH incurred the expense
+in connection with the WC claim.
+7. Calculating monthly WC/PDB rate with excludable expenses
+Calculate the WC or PDB payments and excludable expenses separately for each month.
+If applicable, calculate the monthly WC or PDB amount and round to the next lower
+dime per instructions in DI 52150.035C.2.
+For expenses, round normally to the nearest penny; subtract the amount from the WC
+or PDB for the month and then round down the final WC or PDB amount to the lower dime.
+Apply separate monthly equivalency tests to the WC or PDB rate and to the expenses,
+if applicable.
+The following table provides an example of calculating the monthly WC or PDB rate
+with excludable expenses:
+Steps
+Weekly WC $134.19
+Weekly Expenses $33.55
+1. Convert the weekly WC or PDB rate to a monthly rate and round to the lower dime.
+$134.19 Weekly WC
+x 13/3
+$581.49 = $581.40 Monthly WC
+2. Convert the weekly expenses rate to a monthly rate and round to the nearest penny.
+$33.55 Weekly Expenses
+x 13/3
+$145.38 Monthly Expenses
+3. Subtract the monthly expenses from the monthly WC or PDB. Round down the final
+WC or PDB amount to the lower dime.
+$581.40 Monthly WC
+- $145.38 Monthly Expenses
+$436.02 = $436.00 Final monthly WC amount
+a. Excludable expenses start or end in the middle of the month
+Keep these items in mind when dealing with middle of the month expenses:
+•
+Prorate the expenses using $0 for days excludable expenses are not involved per DI 52150.040D.1.
+•
+Compute the expenses daily rate and round to the nearest penny, as seen in DI 52150.035B.
+•
+Subtract this amount from the WC or PDB rate for the month.
+•
+Round down the final WC or PDB amount to the lower dime.
+The following table provides an example of calculating the monthly WC or PDB rate
+with excludable expenses that start or end in the middle of the month:
+Steps
+Weekly WC $134.19
+Weekly Expenses $33.55 effective 04/20/2007
+1.
+Convert the weekly WC rate to a monthly rate and round to the lower dime.
+$134.19 Weekly WC
+x 13/3
+$581.49 = $581.40 Monthly WC
+2. Compute the expenses daily rate (round to the nearest penny) to prorate the expenses.
+$33.55 Weekly Expenses
+÷ 7 days
+$4.79 Daily rate
+x 11 days (for 04/20/2007 – 04/30/2007)
+$52.69 Total monthly excludable expenses amount in 04/2007
+3. Subtract the monthly expenses from the monthly WC. Round down the final amount
+to the lower dime.
+$581.40 Monthly WC for 04/20007
+- $52.69 Monthly Expenses for 04/2007
+$528.71 = $528.70 Final monthly WC amount for 04/2007
+b. Excludable expenses mid-month change and monthly equivalent comparison
+Keep these items in mind when dealing with middle of the month expense changes and
+monthly equivalent comparison:
+•
+Prorate the expenses as in DI 52150.040D.1.
+•
+Round the expenses to the nearest penny.
+•
+Subtract this amount from the WC or PDB for the month.
+•
+Round down the final WC or PDB amount to the lower dime.
+The newly derived excludable expenses rate for the adjustment month may be:
+•
+higher than the monthly equivalent for the higher weekly expenses rate; or
+•
+lower than the monthly equivalent for the lower weekly expenses rate.
+Base the new excludable expenses rate in the month of change on these comparisons:
+•
+Compare the monthly equivalent for the higher weekly expenses rate to the new expenses
+rate computed for the mid-month adjustment, using whichever rate is lower. The change
+cannot result in monthly expenses higher than the monthly equivalent for the higher
+weekly expenses rate. or
+•
+Compare the new expenses rate computed for the mid-month adjustment to the monthly
+equivalent for the lower weekly expenses rate, using the higher of the two. The change
+cannot result in monthly expenses less than the monthly equivalent for the lower weekly
+expenses rate.
+If applicable, apply separate monthly equivalency tests to the WC or PDB rate and
+to the expenses. For examples of WC/PDB rate monthly equivalency comparison see DI 52150.040D.4.
+The following table provides an example of excludable expenses equivalency comparison:
+Steps
+Weekly WC $134.19
+Weekly Expenses $50.00 increased to $55.00 effective 03/04/2008
+1.
+Convert the weekly WC rate to a monthly rate and round to the lower dime.
+$134.19 Weekly WC
+x 13/3
+$581.49 = $581.40 Monthly WC
+2. Compute the old expenses daily rate (round to the nearest penny) to prorate the
+expenses.
+$50.00 Weekly Expenses
+÷ 7 days
+$7.14 Daily rate
+x 3 days (for 03/01/2008 – 03/03/2008)
+$21.42
+3. Compute the new expenses daily rate (round to the nearest penny) to prorate the
+expenses. Add the old and the new amounts for the total.
+$55.00 Weekly Expenses
+÷ 7 days
+$7.86 Daily rate
+x 28 days (for 03/04/2008 – 03/31/2008)
+$220.08 + $21.42 = $241.50 Total
+4. Perform the equivalency comparison.
+02/2008 monthly equivalent: $50.00 x 13/3 = $216.67
+04/2008 monthly equivalent: $55.00 x 13/3 = $238.33
+The monthly expenses amount in 03/2008 is the 04/2008 monthly equivalent for the higher
+monthly expenses amount of $238.33.
+5. Subtract the monthly expenses from the monthly WC. Round down the final amount
+to the lower dime.
+$581.40 Monthly WC
+- $238.33 Monthly Expenses
+$343.07 = $343.00 Final monthly WC Amount for 03/2008

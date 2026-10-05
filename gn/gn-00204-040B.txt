@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 00204.040 - Month of Election (MOEL) and Month of Entitlement (MOET)
+Effective Dates: 08/31/2010 - Present | TN 133 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204040 (fetched 2026-10-04)
+
+B. Month of Entitlement (MOET)
+The MOET is the month a claimant becomes entitled to benefits. Once the MOET is set,
+it cannot change unless we reopen the claim under the administrative finality rules.
+For more information on administrative finality, see GN 04000.000. The MOEL chosen
+by the claimant converts to a MOET after verifying the annual earnings through the
+annual work report or the earnings enforcement process.
+For processing purposes, we code claims in MCS with a final or non-flexible option
+code of “C”, “D” or “E.” For MOEL options codes, see GN 00204.041.
+NOTE: The only indication of an MOEL conversion is the enforcement process and the data
+in the beneficiary entitlement (BENE ENT) field in the Master Beneficiary Record (MBR),
+which shows if the MOEL was confirmed (see SM 00606.095). The MOEL option code (e.g.,
+MOE “A” or “B”) on the MBR does not change.

@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - SI 02305.034 - Period of Review Redeterminations (RZs) and Limited Issues (LIs)
+Effective Dates: 10/02/2026 - Present | TN 110 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305034 (fetched 2026-10-04)
+
+D. Procedure
+1. Transmitting a RZ Initiation Date
+The following is procedure for transmitting the initiation date to the recipient's
+record:
+Complete a build transaction SSR (BTS) for RZs completed in the SSI Claims system
+(or an SSA-1719-B transaction for paper RZs) and transmit the initiation date to the
+SSR as soon as possible after the interview. This prevents:
+•
+Development gaps caused when no initiation date is posted;
+•
+Development by one FO when another FO has already initiated an RZ;
+•
+Establishment of a D6 diary;
+•
+Establishment of the RZ in the TSC when a TSR transmits a PE change in the SSI Claims
+system before the RZ is cleared.
+Transmitting an initiation date will not always exclude the RZ from being reselected
+as an RZ with a new profile. Usually, initiated unscheduled RZs are the only cases
+that are reselected and re-profiled.
+EXAMPLE: A profile C RZ was initiated on 12/04/02. The recipient is a disabled child of an
+individual in the military who gets transferred out of the U.S. in 02/03 while the
+RZ is still pending. The case will be reselected as a profile V. (See SI 02305.013 for profile definitions.)
+2. Transmitting an RZ Completion Date
+Close an RZ event in the SSI Claims system (or transmit a completion code via 1719b
+input for paper RZs) only after receipt (either an SSI Claims system printout or a
+signed RZ form) is provided to the recipient or their rep payee and RZ development
+is complete.
+NOTE: Regardless of when you close the RZ event in the SSI Claims system, the RZI will
+be the date you opened the RZ event in the system.
+3. Initiation Date of the Prior RZ
+The initiation date of the prior RZ is located in the RZI field of the CRZD segment
+of an SSID. Prior LI (profile X) initiation and completion has no effect on determining
+the initiation date of the prior RZ.
+The following list explains how to determine the initiation date of the prior RZ if
+the RZI field is blank on the CRZD history segment of an SSID:
+•
+If the payment quality review (RZT=F) was the last RZ, use the RZ control date (RZD) on the SSID to establish the prior initiation date;
+•
+If a T30/T33/Start date action occurred since the last RZ, use the RZD date on the SSID to establish the prior initiation date;
+•
+If the case has a selection indicator code of J or K (RZS = J or K), use one of the dates in SI 02305.034A.2. to establish the prior initiation date;
+•
+All other cases without a prior RZI, use the RZ completion date (RZC) of the most recent RZ on the SSID.
+4. Development in Overlap Period
+The period of review may overlap a prior period for which factors of eligibility were
+developed.
+EXAMPLE: If an initial claims update was completed on 04/15/03, the subsequent period of review
+would begin on 04/01/03. There is an overlap period of 15 days.
+•
+If the record shows that a factor of eligibility was previously developed, do not develop that factor of eligibility for the overlap period (other than Medicaid-use
+test, or threshold test for 1619(b) cases). This includes factors of eligibility developed
+in limited issue cases and recipient reports.
+•
+If a factor of eligibility is based on status as of the first of the month, assume it was developed for the prior action. Do not redevelop that factor of eligibility.
+NOTE: See SI 02310.047 for instructions on developing previously developed IRS interface data.
+5. Development Outside the Period Of Review
+The following describes required development of changes that occur outside the period
+of review:
+•
+If the change occurred prior to the last RZ, develop only the factor that changed following the rules of administrative finality
+per SI 04070.001.
+•
+If the change occurred after current initiation date, develop as necessary. However, do not delay input of RZ completion indicator until
+the change is developed.
+6. Curtailing Development
+The following describes when development may be curtailed during an RZ:
+•
+If the recipient is ineligible based on one or more factors of eligibility for the
+entire period of review curtail development of all other factors of eligibility;
+•
+If the recipient is ineligible based on one or more factors of eligibility for only part
+of the period of review curtail development of all other factors only for periods of ineligibility.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02406.125 - Transmitting Reports of Nonreceipt, Loss, Theft, or Destruction -- Title II and Title XVI -- Recurring Checks and PMA Checks -- Normal and Dire Need Situations
+Effective Dates: 03/28/2000 - Present | TN 14 (04-00)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406125 (fetched 2026-10-04)
+
+C. Procedure - DIRE NEED - TITLE II (If criteria in RS 02801.010 are met)
+1. TSC:
+Do not input nonreceipt or CPS. Refer to FO via PRIORITY MDW.
+2. FO:
+•
+Issue an IP for up to $400 ($999 effective 8/21/99) and a CPS payment for the balance,
+if any.
+•
+Code TPT of C43 and in the NPF field on the CPAY transaction enter: ”INPUT STOP PMT
+SFTF FOR ORIG PMY DTD MM/DD/YY.REPLCMT PMT MADE BY IP/CPS.” (MSOM CPS 001.005 and RS 02801.001)
+•
+Send a priority MDW to the PC to input F-stop on missing recurring payment.
+3. PC:
+•
+Input an F-stop on the missing recurring payment.
+Unlike title XVI, the title II IP is not deducted automatically from the next month's
+check; therefore, the IP and CPS take the place of the original check and no additional
+benefits are due.

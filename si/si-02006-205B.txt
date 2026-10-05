@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - SI 02006.205 - Identification and Notification of Affected Claimants and Their Representatives and Development of Title II Data
+Effective Dates: 12/05/2024 - Present | TN 22 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006205 (fetched 2026-10-04)
+
+B. Procedure - Title XVI Offset Cases
+NOTE: Under the 9W diary procedure, title XVI offset should seldom occur. See GN 02610.018A.1. The notice language is retained for historical purposes.
+1. How to Process Title XVI Offset
+Trigger Title XVI offset per SM 01320.016 when the recipient is not eligible for SSI
+for any month in the windfall period for reasons other than use of the title II retroactive
+benefits in the computation. When title II benefits are released erroneously without
+applying windfall offset, title XVI offset may be applied by posting the retroactive
+benefits as if paid timely. If the claimant protests the loss of Medicaid, follow
+GN 02610.065B.4.a. to issue an A-OTP of $1.00 for each month in which title II completely offsets title
+XVI. Follow regional instructions regarding Medicaid certification. Post an N TAC
+to resolve any of the overpayments caused by the A-OTP that have not been processed
+by the system. See GN 02250.350 for guidelines for the system process and tolerances.
+2. Identifying Title XVI Offset Cases
+A title XVI offset case is one which contains type “G” income in the UMIH field. This means that title II income has been posted and used
+in the computation as if it were paid when due rather than retroactively. As noted
+above, since the inception of the 9W diary procedure, title XVI offset cases will
+occur rarely and only as a result of procedural errors or special circumstances.
+3. Notice for Title XVI Offset
+In the offset processing, suppress the systems-generated notice and prepare the required
+initial determination notices to both the claimant and the representative. Include
+the following paragraphs in each of the notices.
+“You have monthly income which must be considered in figuring your payment as follows:
+You will soon get social security money for past months. When we figure your SSI payment,
+we count this social security money as if we paid it to you during each of the months
+it was due. You were due $$$.00 a month for MM/YY through MM/YY.
+Since a lawyer represents you in your social security claim, the amounts we used above
+for your social security may change. When fees to pay your lawyer are approved, we
+will subtract these fees from your social security income for any month. Then you
+may get more supplemental security income.
+Your local social security office will be told when fees for your lawyer are approved,
+but you may be told sooner. Please contact your local social security office when
+you get the letter about approved legal fees. This may help us decide sooner if you
+should get more supplemental security income. If you go to your office, please bring
+the letter about the legal fees with you.”
+When sending the notice to a representative payee, use the claimant's name and subsequently
+the appropriate pronouns instead of you/your.
+In the second paragraph, enter the amount or amounts and the month(s) and year(s)
+applicable for the retroactive title II benefits due. In the last sentence, if “you” is changed, correct “were” to “was.”
+In the third paragraph, do not use the word “more” in the last sentence if the notice used is SSA-L8030-U2 (SSI Notice of Disapproved
+Claim). Also, delete “more” in the fourth paragraph.
+NOTE: Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+alleges being blind or visually impaired.

@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - GN 02613.880 - Title XVI Pre-2007 Martinez Settlement Relief Processing
+Effective Dates: 05/06/2026 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613880 (fetched 2026-10-04)
+
+B. General information on processing pre-2007 cases
+If a recipient of the September 10, 2010 or May 20, 2011, notice contacts you and
+requests Martinez relief, use the following chart for guidance on processing these
+cases.
+Identification
+Action
+Refer the case to the ^Martinez Settlement mailbox with the Subject CATS to find out
+whether a recipient is listed as an F5 or F7 class member in CATS (an email reply
+will provide the correct CCID code).
+If the reply shows the recipient is listed as an F5 in CATS:
+Review the Supplemental Security Record (SSR) to determine the current payment status
+(PSY) code.
+Is the SSR in PSY C01?
+If yes, follow processing instructions for cases in pay status in GN 02613.880C.1. in this section.
+If no, is the SSR in terminated status (i.e., T31, T33, T50, or T51) as of April 1,
+2009 and the month prior to termination is N25?
+If yes, follow processing instructions for cases in terminated status in GN 02613.880C.2 in this section.
+If no, following instructions in Step 1 in this chart if it is determined after reviewing
+the PSY and OPSQ fields the recipient is not eligible.
+If the case is concurrent, follow processing instructions in GN 02613.880C.3. in this section.
+Determine if a fugitive felon overpayment balance exists by following Step 2 in this
+chart.
+If it is determined after reviewing the PSY and OPSQ fields on all records that the
+recipient is not eligible for Martinez relief,
+issue a manual denial notice located in the Document Processing System (DPS).
+The Martinez Settlement Relief Denial Notice for T16 is in DPS Post Entitlement folder.
+If the reply shows the recipient is F7 in CATS, the recipient has multiple warrants.
+Follow step 3 in this chart.
+2. Review the SSR to determine if there is a fugitive felon overpayment (O/P) and
+an outstanding O/P balance.
+Review the OPSQ field on the SSR to determine if a fugitive felon overpayment exists.
+Review all SSR records containing N25 nonpayment months to make this determination.
+Generally, if an NE TAC is present in the overpayment field on the SSR, no further
+action is required (see exception in GN 02613.880D in this section).
+If a fugitive felon O/P and an outstanding O/P balance exist, remove the fugitive
+felon O/P following instructions in GN 02613.880D in this section.
+3. For F7 Multiple Mixed Warrant Cases Only
+Access the Fugitive Felon System Control File (FFSCF) to review the offense codes
+and periods for each of the warrants.
+For information on accessing FFSCF, see MSOM PRISON 001.002.
+For obtaining queries in FFSCF, review MSOM PRISON 006.001-PRISON 006.014.
+If any N25 period is based on a warrant with an offense code of 4901, 4902, 4999 (felony
+offense codes) or 5011, 5012, 8101, 8102 (probation or parole violation codes), Martinez
+relief does not apply to that period.
+If there are overlapping periods for warrants, and one of the warrants is for an offense
+code of 4901, 4902, 4999, 5011, 5012, 8101, or 8102, that warrant takes precedence
+and Martinez relief is not provided for the N25 suspension months.
+If after reviewing the information for each warrant period you determine the recipient
+is eligible for pre-2007 Martinez relief, follow processing instructions in GN 02613.880C.1. thru GN 02613.880C.3. in this section.
+If you determine, after reviewing the PSY and OPSQ fields on all records, that the
+recipient is not eligible for Martinez relief, issue a manual denial notice located
+in the Document Processing System (DPS).
+The Martinez Settlement Relief Denial Notice for Title XVI is located in the DPS Post
+Entitlement folder.
+4. Inquiries from recipients that do not have a notice.
+Follow Martinez inquiry instructions in GN 02613.885.
+When processing T16 pre-2007 Martinez cases, use the following information as guidance:
+•
+Martinez relief does not apply to any N25 period based on a warrant with an offense
+code of 4901, 4902, 4999 (felony offense codes) or 5011, 5012, 8101, 8102 (probation
+or parole violation codes).
+•
+Some pre-2007 class members whose SSI payments were suspended or denied before January
+1, 2007 are included in the post-2006 group, not the pre-2007, because the period
+of PSY N25 continued into 2007.
+•
+If the recipient is in prison, a fugitive felon, or violating a condition of their
+probation or parole, the No Social Security Benefits for Prisoners Act of 2009 prohibits
+payment of retroactive benefits. Refer to EM -10013SEN for instructions on how to
+process these cases.

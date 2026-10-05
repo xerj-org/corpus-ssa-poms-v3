@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02602.400 - Processing Reports of Divorce
+Effective Dates: 01/07/2014 - Present | TN 81 (08-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602400 (fetched 2026-10-04)
+
+A. National 800 Number Network (N8NN) processing instructions
+When the N8NN receives a call for a divorce report inquiry, N8NN agents take the following
+actions.
+1. Terminate a spouse due to divorce
+If a spouse on the record terminates due to divorce, follow the detailed instructions
+in TC 36001.020.
+2. Terminate a stepchild due to divorce
+If a stepchild is entitled on the record, who the NH did not legally adopt, complete
+the Child Relationship (CREL) screen to update the end date of the child relationship
+and reason per MS COMMON 005.012.
+NOTE: Code the Beneficiary Marriage (BMAR) common screen and CREL screens separately because
+they are independent of each other.
+For more information on the BMAR screen, see SM 03020.040.
+For more information on the CREL screen, see SM 03020.070.
+3. Allegation of adoptive relationship between the NH and stepchild
+If there is an allegation that the NH legally adopted a stepchild who is entitled
+on the record, send a Modernized Development Worksheet (MDW) to the field office (FO)
+for further development of the adoptive relationship.
+For more information regarding modes of requesting assistance, see GN 01070.228 and GN 01070.420.

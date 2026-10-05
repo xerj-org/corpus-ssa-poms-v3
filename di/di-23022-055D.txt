@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 23022.055 - Adding and Modifying Compassionate Allowances (CAL) Status; Removing and Reinstating CAL and Quick Disability Determinations (QDD) Status
+Effective Dates: 11/16/2021 - Present | TN 71 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022055 (fetched 2026-10-04)
+
+D. Remove cases from CAL and QDD fast-track processing
+IMPORTANT: A component must have jurisdiction to remove a case from fast-track processing.
+1. CAL cases
+The DDS, OQR, and OHO can remove a case from CAL processing. When the DDS or OQR removes
+a case from CAL processing as described in DI 23022.055A, the EFI sends an automatic message to both eView and the DDS legacy system, as follows:
+“Case has been removed from the Compassionate Allowance process because <insert reason>.”
+2. QDD cases
+The DDS, OQR, or the RO, may remove a case from QDD processing only with supervisory
+approval. FO staff and supervisors do not have this capability. The DDS may remove
+a case from QDD processing at the point it meets any one of the criteria listed in
+DI 23022.055E in this section. Remove a case from QDD using eView or your case processing system.
+To access the QDD page in eView:
+a.
+Select the yellow Edit/Lock case link at the top of the page.
+b.
+Select the QDD link at the far right on the header bar to display the QDD page. Click
+on the “Remove” button to display a box with a drop-down list of the reasons for removal.
+c.
+Select the correct reason and then select “OK”. The system will remove the case from
+QDD, and the indicator on the header bar will change to QDD: N.
+NOTE:
+The DDS can reinstate a case to QDD with DDS supervisory approval.

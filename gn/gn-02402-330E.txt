@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.330 - Coding New Zealand Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402330 (fetched 2026-10-04)
+
+E. Description of New Zealand IDD bank data
+The data to code IDD for New Zealand comes from banks determined by the FRBKC. The
+bank data on the MBR includes the country code of L, a 6-digit bank code, and a 10-digit
+account number.

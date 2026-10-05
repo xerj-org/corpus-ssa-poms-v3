@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02408.615 - Automated Electronic Funds Transfer (EFT) Reclamation Requests and Exclusions
+Effective Dates: 07/02/2021 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408615 (fetched 2026-10-04)
+
+D. Process for exclusions from the automated reclamation process
+In the following situations, the system does not send an automated E-stop:
+1. Title II or Title XVI payment went to a representative payee
+A payment that went to the representative payee after the beneficiary’s death is a
+legally defined overpayment. We process the overpayment, giving due process. See GN 02201.001D, GN 02408.007, SI 02220.053, and GN 02201.000 regarding Title II and Title XVI overpayment policy.
+REMINDER: Never input a manual reclamation request on a payment that went to a representative payee
+after a beneficiary’s death.
+2. A spouse or parent on the same Title II record had direct deposit to the same account
+SSA does not send an automated reclamation (E-stop) when a spouse or parent is paid
+on the same Title II record and has direct deposit to the same account. In addition, SSA does not send a DNE to the
+FI when a beneficiary and spouse share the same bank account, see GN 02408.605.
+NOTE: Because of systems limitations, an automated reclamation will go out if the spouse
+or parent is only technically entitled (in LAF-AD or LAF-SD) on the same Title II
+record of the deceased beneficiary. However, do not initiate a manual reclamation
+when the spouse or parent is only technically entitled on the same record as the deceased
+beneficiary.
+The PC sends an overpayment notice with due process to collect the incorrect payment(s)
+from the spouse or parent who was a joint-account holder and entitled on the same
+Title II record for the month before the month of death. The PC inputs the overpayment
+information into the Recovery of Overpayments, Accounting and Reporting (ROAR) system
+and the MBR Beneficiary Overpayment/Underpayment (OUPAY) Data Line. If the spouse
+or parent does not return the funds, the PC takes the money out of benefit payments
+to the spouse or parent.
+3. Beneficiary/Recipient dies on or after an early delivery payment date
+When the regular payment date falls on a Saturday, Sunday, or a Federal holiday, the
+payment date becomes the last day before the regular payment date that is not a Saturday, Sunday, or Federal holiday. This payment date is defined as an early
+delivery payment date.
+When a benefit delivered early is incorrect because entitlement terminated due to
+death, the incorrect benefit is not recovered if the death occurred after the payment
+was made (i.e., payment was issued and accepted, whether or not spent) but in the
+same month as the early payment.
+Assume that the disqualifying event occurred after payment was made. This provision
+is applicable regardless of the method of payment (e.g., direct payment, representative
+payment, payment to a financial institution). If representative payment has been made,
+the representative payee must have expended the incorrect benefit on the beneficiary.
+Assume that the death occurred after payment was made. There is no early payment if
+the check is not received or is returned. Payment of any increased benefits, underpayments,
+and/or lump-sum death payment is made without regard to the existence of such an incorrect,
+early payment on the record.
+EXAMPLE: The beneficiary received their benefit check for December on Thursday morning, December
+31, and cashed their check that afternoon. On returning to their apartment shortly
+after cashing their check, they died. Although a benefit is not due for the month
+of death, the beneficiary had already cashed the check for the December benefit. The
+December benefit is incorrect, but is not subject to recovery. (See GN 02201.007E)
+4. IDD payment
+No automated reclamation can be done for an IDD payment (the routing number begins
+with 5, 6, or 7) because Treasury has no authority over a foreign bank. The process
+for IDD reclamations begins at GN 02408.900.
+5. Direct deposit was involved for either or both members of a Title XVI couple’s case
+The system does not send an automated reclamation for a deceased recipient on a Title
+XVI couple’s record when either or both members receive payment via direct deposit. Treat this scenario as an overpayment to the
+surviving spouse. Do not initiate a manual reclamation. See GN 02408.650.
+6. Prior month accrual (PMA) Payment
+The system does not send an automated reclamation for a PMA payment issued after the
+death of the beneficiary. If this is an incorrect payment (not due to the beneficiary),
+input a manual reclamation per GN 02408.620.
+7. More than 50 recurring Title II payments
+When we send more than 50 recurring Title II EFT payments to the beneficiary after
+death, the system sends an alert to the PSC. The PSC must then do manual reclamation
+inputs for all the payments. The Title II system can process reclamation requests
+for up to 50 payments per day per beneficiary. There is no daily limit for Title XVI
+reclamations.

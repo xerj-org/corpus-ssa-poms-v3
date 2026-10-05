@@ -1,0 +1,144 @@
+SSA Program Operations Manual System (POMS) - GN 02406.310 - Request for Reconsideration of DCN Overpayment or Forgery Determination
+Effective Dates: 05/10/2024 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406310 (fetched 2026-10-04)
+
+C. FO/PC/TSC action when DCN overpayment protest received within 60 days
+This section provides instructions for the FO, PC and TSC when the beneficiary or
+recipient protests an overpayment caused by negotiation of the original and courtesy
+disbursement or replacement check (within 60 days of overpayment notice).
+1. FO or TSC
+The following charts show the initial actions taken by the FO or TSC for Title II
+and TXVI.
+a. Title II
+The FO or TSC will take the following actions.
+STEP
+ACTION
+1
+Input protest/stop recovery (TC23 3 Alleged Nonreceipt of Check to ROAR) to prevent
+recovery of the overpayment. This will set up a 90-day diary.
+2
+Notify the servicing PC via priority MDW that the claimant has filed a protest of
+the overpayment. (PC now has jurisdiction.)
+b. Title XVI
+The TSC will take the following actions.
+STEP
+ACTION
+1
+Notify the servicing FO via priority MDW that recipient is protesting the DCN overpayment.
+2
+Mail the SSA-561-U2 to the recipient for signature with a return envelope addressed
+to the FO of jurisdiction.
+3
+Do not suspend recovery based on the telephone request.
+The FO will take the following action.
+STEP
+ACTION
+1
+After receipt of the completed SSA-561-U2, input an MT-TAC on the Overpayment Decision
+Screen (UOPD) to suspend recovery.
+2
+Set up a manual diary for 90 days.
+3
+Keep SSA-561-U2 with copy of the claims package(s).
+2. FO or PC action to process the reconsideration
+The FO or PC will take the following actions to process the reconsideration request.
+STEP
+ACTION
+1
+For reconsideration requests, the FO or PC must obtain a signed SSA-795 (Title II)
+or SSA-561-U2 (Title XVI) . Either have the claimant come into the FO to sign the
+necessary form or mail the form to the claimant with a return envelope addressed to
+the FO/PC. The form must state the claimant wishes to protest the DCN overpayment.
+When mailing the SSA-795 (Title II) or SSA-561-U2 (Title XVI), mail it with the FS-1133.
+Have claimant call SSA if the claims package is not received within 5 days.
+NOTE: If Title II collection efforts have not been suspended, input protest/stop recovery
+(TC 23R to ROAR).
+If the FS-1133 is not available when mailing the SSA-795 or SSA-561-U2, Go to STEP 2.
+If the FS-1133 is available with the SSA-795 or SSA-561-U2 when mailing. Go to STEP
+3.
+If the claimant wishes to come into the FO to complete the FS-1133, Go to STEP 4.
+2
+Have the claimant come into the FO or mail the blank FS-1133 and check photocopy to
+the claimant with a return envelope addressed to the FO/PC. Instruct the claimant
+that the FS-1133 must be returned in 30 days or recovery will recommence. If they
+do not receive the claims package by mail within 5 days, have the claimant call the
+FO. Go to STEP
+3.
+3
+Diary for 30 days (plus 5 mailing days) for return of the FS-1133 package.
+If the claimant returns the FS-1133 package within 30 days (plus 5 mailing days),
+go to STEP 5.
+If a completed FS-1133 is not received in SSA within 30 days plus 5 mailing days,
+begin or restart the overpayment recovery. STOP.
+4
+The FO must diary for 30 days from the moment of notification to the claimant that
+the FS-1133 is available.
+If the claimant returns the FS-1133 package within 30 days from the moment of notification,
+go to STEP 5.
+If a completed FS-1133 is not received in SSA within 30 days, begin or recommence
+overpayment recovery. STOP.
+5
+Review the responses on the FS-1133 and then send the package to Treasury. For address
+on where to mail the FS-1133 see GN 02406.160H.
+Go to STEP 6.
+6
+Diary for 90 days for the return of the CDN from Treasury. Check the Treasury Check
+Information System (TCIS) or call Treasury's general number at 855-868-0151 to see
+if forgery determination is complete. STOP.
+3. Treasury determines that forgery is NOT involved (Claimant Endorsed the Check[s])
+Treasury and SSA takes the following actions when forgery is not involved.
+NOTE: For more information on Treasury's action when receiving the FS-1133, see GN 02406.310E.
+STEP
+ACTION
+1
+Treasury will send a CDN to SSA. This should be received within 90 days of Treasury
+receiving the FS-1133.
+2
+Treasury will send a denial letter to the claimant specifying the basis of the denial.
+The letter will contain the opinion of the handwriting expert and will provide Treasury's
+return address and instructions in case the claimant wants to provide additional evidence
+and appeal the forgery determination within 60 days.
+3
+SSA must diary the case for 90 days for possible appeal of Treasury's forgery decision.
+Treasury will send a CDN if appeal is filed.
+Do not resume recovery until either the 60-day appeal period has elapsed, or Treasury
+makes a final determination on an appeal that forgery is not involved.
+4
+After the appeal period has expired, FOs must ask their Regional Office (RO) and PCs
+must call their Operations Analyst to query TCIS to see if claimant appealed forgery
+determination. Information can also be obtained by calling Treasury at 1-855-868-0151.
+The technicians should call this number for all check claims, payment, and post-payment
+inquiries. FO must also check remarks on MBR/SSR.
+5
+If the 60-day appeal period plus 30 additional days have elapsed and no appeal has
+been filed (i.e., no CDN received), SSA resumes overpayment recovery.
+4. Appeal is not filed
+If an appeal is not filed, resume recovery of the overpayment as follows.
+a. Title II
+STEP
+ACTION
+1
+Send the reconsideration notice. Use the sample notice in NL 00703.119 minus the SSA-662 with a paragraph stating that the Treasury determined that forgery
+was not involved.
+2
+Input a transaction code of 27 to ROAR (reconsideration denial).
+b. Title XVI
+STEP
+ACTION
+1
+Use a dictated notice stating that Treasury determined that forgery was not involved.
+2
+Use the Overpayment Decision Screen (UOPD) in MSSICS to remove the MT-TAC.
+5. PC/FO action when Treasury determines forgery is involved
+There is no overpayment. Credit will be returned to SSA via the Online Payment and
+Collection (OPAC) system . Also:
+STEP
+ACTION
+1
+PC/FO: Send a reconsideration determination to the beneficiary/recipient. Do not include
+waiver language.
+2
+PC: Title II - Input a transaction code of 25 to ROAR (reconsideration approval).
+3
+FO: Title XVI - Credit will post to the SSR causing an excess decision. Delete the
+MT-TAC entered earlier to suspend collection.

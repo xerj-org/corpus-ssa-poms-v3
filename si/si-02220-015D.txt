@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - SI 02220.015 - Supplemental Security Income Overpayment - Recovery By Adjustment
+Effective Dates: 08/24/2005 - Present | TN 140 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220015 (fetched 2026-10-04)
+
+D. Netting
+Netting is not a method of overpayment recovery; rather, it is the process used to
+determine whether, as part of the payment computation process, an under- or overpayment
+exists. It is the procedure we use to determine the amount of an underpayment or the
+outstanding overpayment balance due. Netting is a part of the payment computation
+process. We compare excess payments and additional amounts due for the period under
+review, refer to SI 02201.005C.6. The result is the net overpayment or underpayment amount due for the period under
+review.
+In most cases, the system automatically computes the net amount for all periods where
+there are excess payments and additional amounts due for the period(s) under review.
+If the net result is an overpayment, the system will create an overpayment sequence
+for the period under review. The system will, in most cases, notify the individual
+of the net result either by sending a post eligibility notice and issuing an underpayment
+or by sending an initial overpayment notice. If the system cannot perform automated
+netting and cannot send an automated notice, it will set a B3 diary (unresolved overpayment
+indicator), which the field office (FO) must process manually unless the case is under
+Recovery and Collection of Overpayment Process (RECOOP). For instructions on resolving
+B3 diaries, refer to SM 01311.633; for cases that are excluded from automated netting
+refer to SM 01311.160B.1, and for overpayment sequence processing see SM 01310.200.
+To perform Manual Netting, refer to SM 01311.165B.

@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02402.300 - Coding Canadian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 287 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402300 (fetched 2026-10-04)
+
+F. Procedure - Coding Direct Deposit for U.S. Dollar Accounts at Royal Bank of Canada
+(RBC) in Canada
+Follow these steps to code direct deposit of Title II benefits to U.S. dollar accounts
+at RBC in Canada. (See GN 02402.300D. if this is a Canadian dollar account at RBC.)
+1.
+Code the Account Type as Checking or Savings. If you do not know the type, code it
+as Checking.
+2.
+Code the Routing and Transit Number field 026004093. Do not code a 51 or 62 at the front of the RTN field.
+3.
+Does the account number start with 9? If so, change the 9 to a 0 (zero).
+4.
+Code the Depositor Account Number field by coding the 5-digit branch number, which
+starts with 0, followed by the 7-digit account number, which begins with 4 or 8. Use
+the account number that is shown in very small print above the words “PAY TO THE ORDER
+OF.”
+EXAMPLE: Ms. Smith brings a check when she visits an SSA field office to sign up for direct
+deposit of her SSA benefits to her U.S. dollar account at Royal Bank of Canada. The
+FO codes the RTN as 026004093. The branch number, which consists of the first 5 digits
+after the RTN in the MICR line, is 91442. The account number, in very small print
+above the “PAY TO” line, is 4545678. The FO changes the 9 at the beginning of the
+branch number to a zero (0) and codes the Depositor Account Number as 014424545678
+(the 5 digit branch/transit number followed by the 7 digit account number).

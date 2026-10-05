@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02310.063 - State Wage Record Match (S7 Diary)
+Effective Dates: 07/01/2008 - Present | TN 65 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310063 (fetched 2026-10-04)
+
+F. Procedures for clearance of an S7 alert/diary
+1. S7 alert/diary wage data
+See Wages – General, SI 00820.100 and How to Treat Fluctuating Earned Income Which Never Exceeds $65/Month, SI 00820.160.
+The wage data represent the amount received in a quarter. Obtain a monthly amount
+for SSI purposes if the wages constitute countable income.
+2. Clear the S7 alert/diary
+a.
+Documentation — SSI Claims system -- Individual Has Earned Income
+•
+Document wage development on the Wages page (MS 08114.027) ;
+•
+Document sheltered workshop payment development on the Wages page (MS 08114.027);
+•
+Document sick pay development on the Sick Pay (Earned) page (MS 08114.036).
+•
+Record the source and amount of wages/sick pay on Wages/Sick Pay (Earned) pages (MS
+08114.036) and document proof used on a Report of Contact or EVID screen per GN 00301.286C.4
+b.
+Documentation — non-SSI Claims system -- Individual Has Earned Income
+See SI 00820.100 through SI 00820.160.
+c.
+Diary Clearance Input
+•
+SSI Claims system – Complete the Over Reported Wage Development page (DORW) (MS 04422.028)
+and build transaction SSR for S7 diaries
+•
+Non-SSI Claims system - Transmit earned income to the SSR. (See SM 01305.101.)
+Transmit diary deletion to the SSR via SSA-1719B input. (See SM 01301.220.)

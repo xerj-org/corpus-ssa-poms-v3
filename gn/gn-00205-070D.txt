@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 00205.070 - RSDI Applications - Marital Relationship Questions
+Effective Dates: 07/26/2023 - Present | TN 76 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200205070 (fetched 2026-10-04)
+
+D. Procedure - Completion of Modernized Claims System (MCS) screens
+Until the MCS screens (as shown in GN 00205.070D.2 in this section) are changed, follow these operating procedures.
+1. EVER MARRIED (Y/N) question
+The EVER MARRIED (Y/N) question on MCS Identification 1 (IDEN) and Number Holder Identification
+(NHID) screens now means asking:
+•
+Are you currently married?
+•
+Did you have any previous marriage that lasted 10 or more years (includes multiple
+consecutive marriages to the same individual if the combined period totals 10 years
+or more per RS 00202.005A) or that ended by your spouses death?; also if eligibility is dependent on claimant
+being unmarried, ask if they remarried after divorcing the NH. If yes, ask for their
+last marriage information (regardless of duration).
+•
+If yes to either of these questions, input Y to EVER MARRIED and document the marriage(s)
+per GN 00205.070D.2 in this section.
+•
+Otherwise input N to EVER MARRIED.
+•
+When taking a child's claim, the marriage of the NH to the child's parent must be
+recorded even if it lasted less than 10 years.
+2. NH Marriage (NH MAR) and Beneficiary Marriage (BMAR) screens
+Document only marriages listed in GN 00205.070C in this section, on the appropriate screen.

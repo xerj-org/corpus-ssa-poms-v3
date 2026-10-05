@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - SI 00603.004 - Simultaneous Development Application Process
+Effective Dates: 12/27/2023 - Present | TN 28 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603004 (fetched 2026-10-04)
+
+C. Procedure - switch to simultaneous development
+1. When to switch
+Initiate simultaneous development on a deferred development case in the following
+situations.
+•
+You decide at some point after the application has been filed and before a DDS determination
+is received that a claim meets one of the requirements for simultaneous development
+(SI 00603.002)
+EXAMPLE: You learn the claimant is homeless two weeks after filing.
+•
+You decide when a reconsideration or hearing request is filed on a medical denial
+that the claimant's medical condition is terminal (TERI) or meets the other medical/vocational
+guidelines in DI 11010.025.
+NOTE: The reason for not initiating simultaneous development for nonmedical reasons only (e.g., claimant becomes homeless) is because it is likely that the DDS
+determination will remain the same.
+•
+The DDS makes a presumptive disability/presumptive blindness determination (PD/PB)
+per DI 23535.010
+•
+The DDS determines a case meets TERI criteria
+2. Ask additional questions
+a. Paper application
+•
+Obtain a supplemental SSA-8000-BK and related forms. (See SI 00604.001 ff. for instructions on completing the SSA-8000-BK.)
+•
+Do not ask questions on the SSA-8000-BK that elicit information that has already been
+obtained on the SSA-8001-BK and are not subject to change (e.g., other names, social
+security numbers (SSNs), date of birth, place of birth, disability).
+b. MSSICS application
+Change application type to FULL on ACLM and answer the unanswered questions in the
+claims path.
+3. Review previous answers
+a. Paper application
+Compare information on the SSA-8000-BK to the SSA-8001-BK and resolve any conflicts.
+b. MSSICS application
+Review with the individual answers given previously that are subject to change. (Examples
+of items not subject to change are other names, SSNs, date of birth, place of birth,
+disability.) Record any changes since the application was filed.
+c. Supplemental Nutrition Assistance Program (SNAP) questions
+Ask the SNAP questions again, if appropriate. For detailed information, see Screening
+Individuals for Supplemental Nutrition Assistance Program (SNAP) Eligibility or Application
+Status (SI 01801.010).
+4. Pursue development
+Pursue all outstanding development.
+5. TERI cases
+Alert the DDS or the hearing office if you have decided a case meets TERI criteria
+(DI 11005.601).
+6. Obtain signature
+Obtain the signature of the claimant, other proper applicant, or representative payee
+applicant on the SSA-8000-BK or amended MSSICS application.
+NOTE: The representative payee applicant's signature is valid only if they are ultimately
+selected as payee.
+7. Systems input
+a. Paper application
+•
+Remove the DEF code immediately.
+•
+Input the date the SSA-8000-BK was completed in the PERC-Update (PC) field (SM 01005.660)
+and delete PS H80 when all nondisability development is complete.
+b. MSSICS application
+No special entries are required until all nondisability development is complete. At
+that point, enter “Y” response to CLOSE OPEN EVENT on the DSSR screen and enter INITIAL CLAIM DECISION
+on the DADJ screen.

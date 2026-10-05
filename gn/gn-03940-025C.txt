@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - GN 03940.025 - Processing Center (PC) Instructions for Processing Fee Agreements for Title II Claims at the Reconsideration, Hearing, or Appeals Council Levels of Review
+Effective Dates: 12/09/2024 - Present | TN 53 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940025 (fetched 2026-10-04)
+
+C. PC case management for direct payment of the authorized fee
+We use the Payment History Update System (PHUS) to collect the assessment and fee
+payment amounts in Title II claims and the Processing Center Action Control System
+(PCACS) to collect representative fee payment volume counts and timeliness information.
+When a claim involves direct fee payment, follow the instructions in this section
+to prepare a supplemental ACR and to process the approved representative's fee.
+1. Initial steps
+a. Verify that the claimant appointed a representative
+Screen incoming claims and other material for an indication of the involvement of:
+•
+A representative eligible for direct payment
+•
+A fee agreement (or a fee petition), or
+•
+A waiver of the fee or direct payment.
+b. Establish a representative fee ACR
+If the representative is eligible for direct payment and has not waived direct payment
+of the fee or if there is an entity with a valid assignment, establish a supplemental
+representative fee ACR.
+Establish this representative fee ACR regardless of whether we will pay the fee immediately
+upon adjudication of the claim or will delay payment for any reason. Prepare the ACR
+in addition to, not instead of, the ACR prepared to control the incoming material.
+EXAMPLE: You receive an fully favorable ALJ decision with an approved fee agreement. You
+take these actions:
+•
+Confirm the representative is eligible for direct payment;
+•
+Confirm whether there is an entity with a valid assignment and that the entity is
+eligible to receive direct payment;
+•
+Confirm the representative has not waived a fee or direct payment;
+•
+If it is then or later determined that a fee petition is involved, assign a TOEL1/2
+of ATFEE PETPAY.
+2. Subsequent steps
+Subsequent handling of the representative fee ACR depends on both:
+•
+The means by which the fully or partially favorable decision is effectuated, and
+•
+Whether we can pay the fee immediately.
+The local PC instructions may call for slightly different routing.
+a. Modernized Claim System Earning Computation (MCS EC)
+If the claim is processed via MCS EC and the fee can be paid immediately (ATYPY code
+on DWO1), the technician who does the final sign-off on the MCS EC trigger will FIN
+(files in) the representative fee ACR. For MCS EC award processing, see GN
+03940.020E.
+If the Single Payment System (SPS) cannot pay the fee automatically (due to multiple
+representatives or any other reason), the PC decision maker sends the representative
+fee ACR to the BA.
+The BA sends the representative fee ACR to FIN after completing the action to pay
+the fee.
+If the claim processed by MCS and the total fee cannot be set immediately, due to
+pending development issue(s) or a delayed auxiliary claimant that could affect the
+fee amount, or if it is now a fee petition case, route the representative fee ACR
+to the DHF PAY location in PCACS.
+b. A101/EF101 processing
+•
+If an A101 or EF101 is used to adjudicate the claim, send the ACR to the holding file
+and then, if the fee has been paid when the hold matures, send the FIN.
+•
+If we can pay the fee immediately, the BA will FIN the representative fee ACR after
+confirming that SPS will pay the fee.
+•
+If the fee cannot be set and paid immediately, route the representative fee ACR first
+to the BA and PHF MCDE and then to the DHF PAY location pending resolution of the
+outstanding issue(s).

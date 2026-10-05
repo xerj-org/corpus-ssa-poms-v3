@@ -1,0 +1,128 @@
+SSA Program Operations Manual System (POMS) - GN 02406.425 - Treasury Case Action Codes of Claims Disposition Notices (CDN)
+Effective Dates: 11/21/2017 - Present | TN 42 (11-17)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406425 (fetched 2026-10-04)
+
+A. CDN code descriptions
+Message codes
+Explanation of message codes
+1a
+Settlement account authorized. Treasury credits the account when we receive a refund.
+1b
+Courtesy settlement check authorized from your
+appropriation at your request. Treasury will credit
+your account when refund is received.
+02
+Check cancelled by the Regional Finance Center
+by deposit ticket #[999999999] dated [MM/DD/YY].
+2a
+Settlement not recommended at this time pending
+investigation.
+2b
+Settlement not recommended at this time pending
+refund from the presenting bank.
+03
+Claim valid but settlement not appropriate, based on
+your recertified or non-entitlement stop. Treasury
+will credit your account when refund is received.
+3a
+Forgery established; a settlement check has been issued:
+Check #[99999999] Symbol and #[9999]; Check Date, [MM/DD/YY],
+Amount [$$$.99]; Payee Name
+3b
+Partial credit received.
+3c
+Partial credit received and partial credit transferred
+via IPAC/GOALS
+3d
+Credit was forwarded to the original finance center via
+SF 215 #[9999999] dated [MM/DD/YY].
+04
+Settlement not appropriate because there has been an
+overpayment. Treasury will credit your account when
+refund is received.
+4a
+Treasury has denied this claim. Reason:
+05
+Treasury is pursuing collection and your account
+will be credited when refund is received.
+5a
+BFS is unable to recover the proceeds of the check due to the expiration of the 1
+year statute of limitations for deceased payee cases. [REF 31 USC 3172 (A) (1)]
+6a
+Settlement not recommended and case closed.
+The examiner of questioned documents is of the opinion
+that the payee endorsed the check(s).
+6b
+Settlement not recommended and case closed.
+Claimant never lived at or received mail at the check
+address. If check negotiated by person of same name at
+check address, there is no legal basis for recovery.
+6c
+Settlement not recommended and case closed.
+Both co-payees of check must sign claim form. Return
+claim form and copy of signatures from applicable IRS return.
+Submit statement of division of check proceeds if applicable.
+6d
+Settlement not recommended and case closed. Determination
+made that payee partially benefitted from check proceeds;
+therefore, recovery is legally barred.
+6e
+Settlement not recommended and case closed. Statute of
+limitations has expired.
+6f
+Settlement not recommended and case closed. Payee endorsed
+the check prior to it being cashed; therefore recovery is
+legally barred.
+6g
+Settlement not recommended and case closed: based on the
+results of USSS investigation.
+6h
+Payee died [MM/DD/YY], not MM/DD/YY]; case closed.
+6i
+We have been advised that an adjustment was made by your office.  Case closed.
+6j
+We have been advised that the payee is still alive.  Case closed.
+6k
+Reclamation action has been abandoned since the check was negotiated by the agency.
+See reverse of the attached check copy.  Case closed.
+6l
+Investigation determined that proceeds were deposited to the payee's account.
+Case closed.
+6m
+Investigation determined that the payee authorized the negotiation of the check.
+Case closed.
+6n
+The U.S. Secret Service determined that the payee was involved in the negotiation.
+Case closed.
+6o
+Additional evidence supplied by the financial institution shows that the
+payee was involved in the negotiation; or benefited from the
+proceeds of the check.  Case closed.
+7a
+When check is drawn to alternate payees, endorsement by either
+constitutes proper negotiation.  The document analyst is of the opinion the
+endorsement on the check was written by ______________.  Case closed.
+7b
+When a check is drawn to alternate payees, endorsement by either constitutes proper
+negotiation.  Provide specimen signature of alternate payee.
+08
+Treasury has exhausted all available means to obtain refund; no further action will
+be taken.
+8a
+Forgery established; a settlement check is being issued to the payee.
+8b
+Forgery established; Treasury is crediting your account.
+8c
+Alleged forgery being investigated; settlement check has not been issued to the payee
+pending investigation.
+8d
+Alleged forgery being investigated; more information to follow.
+8e
+Forgery established.  Treasury will not pursue reclamation action because the cost
+of collection exceeds the check amount. Case closed.
+8f
+Claim valid but settlement not appropriate.  Based on your
+non-entitlement stop, Treasury is
+crediting your account.
+09
+Other

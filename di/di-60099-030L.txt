@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 60099.030 - Field Office (FO), Processing Service Center (PSC), and National 800 Number Network (N8NN) Responsibilities under the Benefit Offset National Demonstration (BOND)
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099030 (fetched 2026-10-04)
+
+L. Post-entitlement changes for BOND participants and beneficiaries
+The PSC may use the following programs to process changes on the MBR for BOND participants
+and BOND beneficiaries:
+•
+Recovery of Overpayments and Accounts Receivable (ROAR);
+•
+Beneficiary Annotation and Communication (BACOM);
+•
+Returned Check Action (REACT);
+•
+Retirement, Survivor, and Disability Insurance (RSDI) Accounting; and
+•
+MBR Maintenance (MUMAINT).
+The MBR can also change by interactions from the Beneficiary and Earnings Data Exchange
+(BENDEX), which is a data exchange between SSA and participating state agencies.
+1. BOND participant
+Follow normal procedures for post-entitlement changes.
+2. BOND beneficiary
+If a beneficiary contacts us about changing an address, phone number, direct deposit,
+or has a payee change, check the MBR for the HISTDEMO group. A BOND beneficiary case
+has a DPI code of DD on the MBR. L5R OFFICE L5R NO LONGER OPERATING notifies the FO via an MDW if a beneficiary needs his or her SSI information updated.
+a. MBR does not have DPI code of DD
+If there is no HISTDEMO group or the HISTDEMO group has a DPI code of something other
+than DD, follow normal procedures to process changes to the master beneficiary record
+(MBR).
+b. MBR has DPI code of DD
+•
+If the action date is after the BOND stop date, the HISTDEMO group has a DPI code
+of DD, and the date of the action is after the stop date, follow normal procedures
+to process changes to the MBR.
+•
+If the action date is on or before the BOND stop date, the HISTDEMO group has a DPI
+code of DD, and the date of the action falls between the start and stop dates on the
+HISTDEMO line, generate an MDW to L5R OFFICE L5R NO LONGER OPERATING with the new information. The BOND work CDR unit will update the MBR. Document the
+file with all evidence to support the changes. The BOND work CDR unit or the centralized
+unit in the Office of Central Operations (OCO) verifies the information before they
+process changes.
+3. PSC attempts to input a PE action
+If a program service center (PSC) or OCO attempts to input a PE action through a MADCAP
+or MACADE transaction within the start and stop dates of the demonstration project,
+an alert specifies the need to access an additional screen to override the current
+demonstration information on the MBR. This is a preventative measure to avoid incorrect
+inputs by the PSCs. PSC staff refer necessary actions within the demonstration period
+to the OCO centralized unit (DEMOB) in PC7 for processing.

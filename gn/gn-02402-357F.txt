@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - GN 02402.357 - Coding Croatian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 01/06/2023 - Present | TN 256 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402357 (fetched 2026-10-04)
+
+F. Procedure for coding Croatia routing and bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Croatia using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership;
+•
+account type;
+•
+beneficiary address
+•
+country;
+•
+enrollment status;
+•
+first and last name of beneficiary;
+•
+IBAN;
+•
+payee indicator; and
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. SWIFT-BIC code obtained from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+If yes, go to step 3.
+3
+Is the beneficiary's account a Euro account in Croatia? If no, STOP.
+REASON: Beneficiaries in Croatia can only receive IDD payments in Euro accounts.
+If yes, go to step 4.
+4
+To derive the 9-digit RTN for Croatia, code as follows:
+•
+prefix of 66 (the multi-country prefix SSA and FRBKC designated to use for IDD to
+Croatia),
+•
+first 6 digits of the 7-digit bank code, and
+•
+1-digit check code, (obtained through Title II Interactive Comps).
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the Type of Account as follows:
+•
+“S” for savings or
+•
+“C” for checking.
+If no indicated account type, use a “C” for checking account.
+6
+Code the DAN for Croatia as follows:
+•
+“Q” designated for Croatia,
+•
+last digit of the bank code, and
+•
+10-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.457F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

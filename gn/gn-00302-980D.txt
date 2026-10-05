@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 00302.980 - Electronic Verification of Vital Events - Age
+Effective Dates: 08/17/2023 - Present | TN 38 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200302980 (fetched 2026-10-04)
+
+D. Documenting SSA systems
+NOTE: FOs and WSUs should follow the instructions in GN 01070.781 for WSU-related claims.
+1. EVVE output verifies the information on a BC for a claim
+•
+Code the MCS RSDHI Claims Application (APPL) screen using the instructions in MSOM
+MCS 005.009 and/or the MSSICS Client Identification (ACID) screen using the instructions
+in MSOM MSSICS 008.002. Code evidence not recorded to MCS or MSSICS to EVID (MSOM
+EVID 001.003).
+•
+On the Development Worksheet (DW01) code the:
+•
+ISSUE field with “AGE;”
+•
+REC field with the date the search was made; and
+•
+REMARKS field with a remark of “EVVE VERIF” and the state file number returned by
+EVVE.
+2. EVVE output verifies the information on a BC for postentitlement purposes
+Follow the instructions in GN 00301.288G.6. about recording online evidence.
+3. EVVE output does not verify the information on a BC for a claim or postentitlement
+issue
+If EVVE does not verify the information on the BC and you cannot ignore the discrepancy
+(e.g., the DB is materially discrepant), code EVID (GN 00301.286C.).
+4. EVVE output verifies information on the BC for enumeration purposes
+•
+To document SSNAP after completing a verification match using EVVE, select “Verified” under “Document
+Verification” on the SSNAP Proof of Age screen and annotate, “EVVE search resulted
+in match” in the “Remarks” field on the SSNAP Summary Screen.
+•
+Process suspect or fraudulent documents according to the instructions in RM 10205.300,
+RM 10205.305, RM 10205.310, and the SSNAP User Guide .
+•
+When manually coding a paper Form SS-5, complete the evidence blocks of the SS-5 following
+the instructions in RM 10205.185 and RM 10205.190.

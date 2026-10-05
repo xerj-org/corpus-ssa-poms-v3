@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 00503.120 - Response Received to Advance Notice
+Effective Dates: 08/14/2023 - Present | TN 14 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200503120 (fetched 2026-10-04)
+
+C. Procedure - Protests
+Resolve any inquiries arising from the advance notice.
+Review the information provided with the inquiry along with the evidence used in the
+initial determination.
+Request a face-to-face interview with the beneficiary to resolve any problems.
+Record the protest on the Protest Details screen on eRPS per MS 07412.004 to prevent
+the selection from being processed while you are resolving it.
+Document the rationale for your decision on the Make Note screen, see MS 07415.002
+and MS 07415.003.
+1. Change in initial determination
+The FO is responsible for sending all notices.
+a. Capability issue
+If the protest involves the need for a payee and you decide that the beneficiary is
+capable, initiate direct payment immediately. The system will send the correct notice
+to the beneficiary if they had a payee.
+If the beneficiary is in direct pay, contact the beneficiary and advise them of the
+decision. Record the non-selection issue on eRPS and process the SSA-11 normally (“SSA-11”
+represents both the SSA-11-SG and SSA-11BK in this subchapter).
+b. Selection of payee issue
+If the issue is the selection of a specific payee and you decide to select a different
+one, process the new SSA-11 in the normal procedure. The eRPS will send the beneficiary
+an advance notice of the revised selection.
+Allow the beneficiary time to appeal the revised determination.
+Record the non-selection issue for the first applicant on eRPS. The T2R notice system
+will send the notices to the new payee, beneficiary, and former payee.
+The FO is responsible for sending the notices to the new payee and beneficiary in
+title XVI change of payee situations. The title XVI system will send these notices
+if the beneficiary was in direct pay. Always send the former payee notice manually
+on title XVI cases.
+2. No change in initial determination
+If, after a thorough review, you decide that the original decision is correct, contact
+the beneficiary and advise them accordingly.
+If the beneficiary understands and agrees, document the decision on the Protest Decision
+Details screen. No further action is required. Follow MS 07412.002 to initiate selection.
+If the beneficiary still disagrees and wants to exercise their right to a formal appeal,
+obtain an SSA-561-U2 and process as indicated below.

@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 00605.352 - Title XVI and Concurrent Final Accounting Selection Criteria
+Effective Dates: 03/13/2019 - Present | TN 49 (03-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605352 (fetched 2026-10-04)
+
+B. Procedure – Selection for Final Accounting
+1. Title XVI
+When processing a change of payee action, the FO will query the Supplemental Security
+Record (SSR) to determine whether a final accounting is required.
+If the date in the REPY S: MMDDYY field on the SSR is 12 months or less from the month
+of input of the change of payee, a final accounting is required. If there is no REPY
+S field, look at the PRSN AP: MMDDYY field. If the date is 12 months or less, request
+a final accounting.
+2. Concurrent (Title II and Title XVI)
+Check the Master Beneficiary Record (MBR) and SSR for the former payee’s date of selection.
+The payee information on both queries should coincide. If either query indicates that
+an annual accounting form was previously sent to the former payee, a final accounting is not
+required and a Representative Payee Report form does
+not have to be sent.
+NOTE: If different payees appear on the SSR and MBR, determine which payee is proper and
+develop for the appointment of the same payee for both claims.
+3. Exceptions
+Exceptions to this requirement for obtaining a final accounting report:
+•
+the former payee has died;
+•
+the former payee is a State institution participating in the onsite review program;
+or
+•
+the former payee is exempt from annual accounting requirements per GN 00605.015.
+NOTE: If the former payee has died and conserved funds are involved, follow the guidelines
+for handling conserved funds upon the death of a payee in GN 00603.110.

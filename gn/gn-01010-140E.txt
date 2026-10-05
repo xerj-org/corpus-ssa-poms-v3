@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - GN 01010.140 - Delayed Claims
+Effective Dates: 08/08/2023 - Present | TN 93 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010140 (fetched 2026-10-04)
+
+E. Process the delayed claim
+After you secure all applications, developments, and required proofs for the delayed
+claim, make an initial determination on entitlement. If the delayed claim was established
+based on “placeholder” information, the delayed claimant must file an application
+and attest to the information in the application.
+Always query the MBR and ORS before making a determination. The LAF code on the MBR
+for the delayed claimant is PB or PT. If an MBR is not established, make an initial
+determination on entitlement based on information available on the MCS Development
+Worksheet (DW01/DW02) and Worksheet Remarks screens (DW04).
+1. Delayed claim awards
+When the MBR shows a beneficiary in LAF PB or PT, it is an indication that an SSA
+technician adjudicated a delayed claim. Review the records (i.e. MCS application)
+and make an initial entitlement determination for the delayed claimant. Review ORS
+to determine if the delayed claim was established using “placeholder” information
+due to a protective filing.
+If we already secured a valid application from a proper applicant and there are no
+changes in the primary insurance amount (PIA), entitlement data for the delayed claimant
+or any other currently entitled beneficiary, do not load a new claim in MCS or prepare
+an A101.
+•
+Annotate the Report of Contact (RPOC) screen in MCS to explain that there are no changes
+in the PIA or entitlement data for delayed claimant or currently entitled beneficiary.
+•
+If the RPOC screen in MCS is not available, input a Special Message on the MBR and
+explain that there are no changes in the PIA or entitlement data for delayed claimant
+or currently entitled beneficiary.
+•
+Document the specific details of the delayed claimant’s entitlement on form SSA-5002.
+Include any minor data change(s) and information regarding the representative payee
+for a minor child, if applicable.
+•
+The claims specialist (CS) or claims technical expert (CTE) signs form SSA-5002.
+•
+Fax a copy of form SSA-5002 to NDRed via EP.
+•
+Fax a request including the SSA-5002 to the PC Paperless repository via EP. Select
+“Claim Delayed-Delayed Claims” from the paperless barcode dropdown options. Annotate
+the paperless barcode coversheet remarks with, “BA ACTION REQ/BENEFIT PAYABLE-SEE
+RPOC IN FILE.”
+•
+Manually clear (MANCLR) any pending application in MCS or eRPS to your office.
+If we already secured a valid application from a proper applicant and there are changes
+in the PIA, entitlement data for the delayed claimant or any other currently entitled
+beneficiary:
+•
+Load the claim in MCS and process the claim via an A101.
+•
+If an A101 exclusion exists, MANCLR the MCS claim and process via an EF101.
+NOTE: If we initially established an application using placeholder information for the
+delayed claimant, secure an application from a proper applicant before you make an
+initial determination. Load the claim in MCS and process the claim via an A101. Update
+the electronic Representative Payee System (eRPS) with the correct payee information.
+2. Delayed claim denials
+After proper development, if you determine that the delayed claimant is not entitled
+to benefits or we did not receive an application, then take all of the following actions.
+•
+Manually clear (MANCLR) any pending application in MCS or eRPS for the delayed claimant;
+and
+•
+Input a manual adjustment credit and award data entry (MACADE) denial with the applicable
+denial code. Use miscellaneous code “064” if no other code applies. The MACADE denial
+results in a MADCAP exception, which serves as an electronic transfer of the action
+to a Benefit Authorizer (BA) in the Processing Center (PC); and
+•
+Prepare and release a denial notice to delayed claimants who filed a valid application.
+Do not issue a denial notice to delayed claimants with no valid application who we
+established using “placeholder” information; and
+•
+Prepare and sign form SSA-5002 to document the basis for denying the delayed claim.
+Include instructions for the PC to adjust the monthly benefit amount (MBA) for currently
+entitled beneficiaries; and
+•
+Fax form SSA-5002 under cover of form SSA-3601 to the PC Paperless repository via
+EP; and
+•
+Fax a copy of form SSA-5002 to NDRed via EP for retention purposes.

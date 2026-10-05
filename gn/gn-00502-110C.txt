@@ -1,0 +1,146 @@
+SSA Program Operations Manual System (POMS) - GN 00502.110 - Taking Applications in the eRPS
+Effective Dates: 08/26/2022 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502110 (fetched 2026-10-04)
+
+C. Additional Processing Reminders
+1. SSI Claims
+Whether taking an SSI claim in the Modernized SSI Claims System (MSSICS) or a non-MSSICS
+method, complete the payee application on the eRPS. (This includes applications from
+parents for minor children).
+2. Beneficiary has Multiple Entitlements
+Only one payee application is needed for all entitlements. You must appoint the same
+representative payee for all entitlements. In the eRPS, use the Entitlements Information
+screen to indicate all known entitlements this application covers (for further instructions
+see MS INTRANETERPS 009.018). Generally, all eligible entitlements should be indicated
+even if payment is not currently being made (e.g., SD, AD, etc.).
+If a payee application in eRPS for one type of benefit is still pending when the second
+application is filed, consider the claims concurrent. Update the Claimant Entitlements
+screen with the new entitlement information
+NOTE: If a beneficiary with a payee later becomes entitled to another benefit, the payee
+is required to file another payee application to be appointed on the new record (for
+further instructions see GN 00502.107A.1). The new application will be processed following normal procedures.
+3. Applicant Filing for More than one Minor Child in a household (Kiddie Loop)
+Use the “kiddie loop” shortcut function in the eRPS when one applicant files to be
+payee for more than one beneficiary (for further instruction see MS INTRANETERPS 009.002).
+You can use this shortcut even if the beneficiaries are entitled on different account
+numbers as long as they reside in the same household
+On the Introduction screen, eRPS will ask: “Is the applicant applying to represent
+multiple minor children in their household?” If you select “yes” eRPS will allow you
+to add the additional claimant/s.
+4. Minor Children Approaching Age 18
+Be aware of the ages of minor children when you are processing applications in the
+eRPS.
+NOTE: If the child is not age 18 when the application is taken but attains age 18 by the
+time the claim is processed and a payee is named, the eRPS cannot recognize that advance
+notice to the child is needed.
+Unless the age 18 or over child is legally incompetent, send a manual advance notice
+to the now-18 or older child (for Final Notices see GN 00503.130).
+REMEMBER: An adult is an individual age 18 or over. All adults, unless declared legally incompetent,
+must be sent advance notice of payee selection.
+5. Surviving Parent in Same Household (Title II)
+When a parent who is serving as a payee for their minor child or incapable Childhood
+Disability Beneficiary (CDB) dies, the child’s benefits are systematically suspended
+(S8/S08) until a new payee application is taken and approved by the FO. If there is
+a surviving parent, contact them to determine if they wishes to file to be payee and process
+the payee application per GN 00502.107.
+NOTE: A face-to-face interview is generally required as provided in GN 00502.113.
+REMINDER: The Selection-Decision screen (MS INTRANETERPS 012.002) in the eRPS permits the FO
+to suppress the notice normally generated to the former (deceased) payee by the Title
+II Redesign program.
+6. Room and Board Residence Operator is Applicant
+When the payee applicant is a room and board residence operator, enter “self” as the
+custodian (custody code “SEL”) on the Custodian screen (MS INTRANETERPS 009.006).
+NOTE: Even though the beneficiary lives in the same dwelling with the room and board residence
+operator, the beneficiary is considered to be living by themselve in their own apartment
+since the room and board operator generally does not have responsibility for the beneficiary’s
+care and welfare.
+REMEMBER: A room and board operator is almost always a creditor and therefore you must investigate
+payee suitability thoroughly before approving it as payee (for creditor information
+see GN 00502.135). Be sure to answer “Yes” to the creditor question on the Miscellaneous screen (MS
+INTRANETERPS 009.008) screen.
+7. Legal Guardian
+The questions in the eRPS on the Court-Appointed Legal Guardian Details screen (MS
+INTRANETERPS 009.007) gather information about the beneficiary’s court-appointed guardian,
+conservator, or other similar position.
+Do NOT use these fields to enter data about an appointed attorney representative. Enter
+only information about the guardian or other similarly appointed person.
+NOTE: You must obtain proof of the court order. For a list of all guardian titles, see
+GN 00502.300 - Digest of State Guardianship Laws.
+8. Developing Lay Evidence of Capability
+The Capability screen (MS INTRANETERPS 009.017) asks for reasons why the claimant/beneficiary
+is unable to handle their own funds. Although several of the most common answers are
+displayed, do NOT choose one of these answers solely on the basis of the disability
+determined or alleged. Obtain the answer to this question in the applicant’s own words.
+If the applicant responds using one of the answers displayed, record that as the answer.
+If the applicant says something different, use the “Other” field, recording the applicant’s
+answer and using the Remarks for the Application (SSA-11) screen (MS INTRANETERPS
+009.020) if needed.
+9. Disclosure
+After the applicant completes an application, an applicant may call or visit the FO
+about the status of their application. You should tell the applicant their application
+is in one of the following three statuses:
+•
+Pending
+•
+Selected
+•
+Non-Selected
+FO instructions for phone inquiries about an application status:
+Status:
+Action:
+Pending
+•
+Pending is after an application has been created and before an applicant has been
+officially selected or non-selected.
+•
+Discuss any pending documents or actions required to complete the application.
+Selected
+•
+Inform the caller that SSA has selected them as the payee.
+•
+Check the Online Retrieval System (ORS) to see the date SSA sent the notice.
+•
+Provide the date that the notice was issued to the caller with estimation that US
+postal service delivery time is about 5 days.
+•
+If it has been more than 5 days since the notice was issued, verify the address, print
+the notice from ORS, and resend to the caller. If the 5-day mailing time has not passed
+yet, advise the caller to contact us after the mailing time to request that SSA resend
+the notice.
+Non-Selected
+•
+Advise the applicant that SSA did not select them as the payee.
+•
+Check ORS to see the date SSA sent the notice.
+•
+Provide the date that the notice was issued to the caller with estimation that US
+postal service delivery time is about 5 days
+•
+If it has been more than 5 days since the notice was issued, verify the address, print
+the notice from ORS, and resend to the caller. If the 5-day mailing time has not passed
+yet, advise the caller to contact us after the mailing time to request that SSA resend
+the notice.
+IMPORTANT: You must verify the identity of any caller before disclosing any information. For
+information about identifying individuals requesting disclosure of personally identifiable
+information over the phone, see GN 03380.010B.2. When there are multiple applicants,
+you must only disclose the information related to that caller’s application.
+Always advise the payee applicant that the beneficiary has the right to access information
+about the payee that is in the beneficiary’s record.
+NOTE: If the payee applicant does not want their address and phone number accessible to
+the beneficiary, the payee may request SSA to only enter the organization’s address
+and phone number on the eRPS. (For access rights see GN 03340.005B.)
+For example, a volunteer payee from the Association for Disabled Persons may choose
+to have the Association’s address or phone number entered on the eRPS in place of
+their own personal address or phone number. Also, in rare instances, a payee may consider
+using a P.O. Box, instead of their street address.
+10. Beneficiary Dies Before Application is Processed
+If the beneficiary dies before the SSA-11 is completely processed, non-select the
+applicant for reason of “incomplete,” and notify the payee applicant of the action
+taken. (For further instructions, see MS INTRANETERPS 013.001 and MS INTRANETERPS
+013.002.)
+If the applicant dies before the SSA-11 is processed, you need to non-select the applicant
+and develop for another suitable payee or consider direct payment, if applicable.
+11. If the Applicant Dies Before Claim is Processed
+If the payee applicant dies before the SSA-11 is processed, you need to non-select
+the applicant and develop for another suitable payee or initiate direct payment, unless
+an exception to direct payment is met.

@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - DI 55030.015 - Field Office (FO) Responsibilities for Handling the TPM's Reports of Earnings
+Effective Dates: 02/26/2014 - Present | TN 4 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455030015 (fetched 2026-10-04)
+
+E. STEP 5 – When to manually update the earnings information on the DCF
+For title II cases, if eWork did not update the earnings determination to the DCF,
+the FO must update the earnings information on the DCF manually by accessing the verify/update
+earnings (VERN) screen. (See DI 55030.045.)
+A manual update is required in rare cases where eWork cannot push to the DCF (Push
+failures), or the Ticketholder is in TWP month 8 or month 9. If a title II only beneficiary
+has not completed the TWP, record the TWP determination on the DCF. Please use the
+charts below to update the VERN screen:
+WORK DET X
+This is the type of earnings represented for the month.
+You must enter 1 - 9, E, I, N, O, S, U, W or X.
+CODE
+MEANING
+1 – 9
+Trial Work Period Months
+Y= Verified Earnings
+N=Earnings not Verified
+E
+Expired Trial Work Period Months - prior to the rolling 60-month period
+I
+NON-SGA during the Initial Reinstatement Period (IRP) for Expedited Reinstatement
+(EXR) Cases
+N
+NON-SGA Months (During EPE) or Earnings not verified
+O
+Other - earnings below TWP Amount (non-service level) during TWP- OR posted earnings
+in months not connected to a period of disability
+S
+SGA Months
+U
+Unsuccessful Work Attempt months (UWA)
+W
+SGA during the Initial Reinstatement Period (IRP) for Expedited Reinstatement (EXR)
+Cases
+X
+Non-payment months during the Initial Reinstatement Period (IRP)
+•
+Make an entry in the WORK DET field of the VERN screen in all cases (i.e., enter a
+month “1” through “9” if earnings are at TWP level or enter an “ O,” for other, if
+earnings are below TWP. You cannot enter an “N” until the TWP is over. If you enter
+an “N” before the TWP is over, you will get a surface edit that says “TWP N/E.” You
+must enter “O” if the amount is below the TWP minimum. “E” is used in rolling TWP
+cases where the TWP month has expired. If the case is a DCF “push fail,” then the
+FO may need to manually update the VERN. (See DI 55030.045.)
+•
+Then, complete the other fields on the VERN screen, as appropriate, based on the evidence.
+The following chart contains the VERN screen entries after a title II
+Ticketholder
+completes the TWP
+Vern Screen Field:
+Entries:
+GROSS field
+The verified gross earnings amount for the month
+VRFD field
+“Y” = verified
+SE field
+The verified self-employment (SE) income for the month
+AMOUNT NOT COUNTED field
+The amount of each type of excludable earnings, if appropriate
+TYPE field
+Type of excludable earnings, if appropriate:
+WE = Impairment Related Work Expense (IRWEs)
+SB = Subsidy Exclusion (T2 only)
+SC  = Special Conditions amount not included (T2 only)
+BE = Un-incurred Business Expense (Self-Employed only)
+PA = Program for Achieving Self-Support – PASS (T16 only)
+SI = Student Earned Income Exclusion (T16 only)
+NOTE: Record any difference due to work incentives in the title II countable earnings
+on the CDR remarks input screen (IRMK). (See MSOM CDR 001.009.)

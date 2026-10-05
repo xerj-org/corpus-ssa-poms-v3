@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - GN 02610.044 - Title II Offset Based on Title XVI Presumptive Disability Payments
+Effective Dates: 08/16/2023 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610044 (fetched 2026-10-04)
+
+A. Background
+When there is a medical allowance for concurrent title II/title XVI disability claims
+and SSI presumptive disability (PD) payments have been made, the title II claim is
+often adjudicated before the final allowance is posted to the SSI claim. If a PD payment
+has been made for a month in the title II windfall offset period, a title II offset
+computation may be processed based on an MBR/SSR interface. This offset computation
+is correctly applied because all requirements for title II offset are met. When the
+final allowance is posted to the SSI claim, if the title II monthly benefit amounts
+are large enough, no additional SSI benefits would be payable for the retroactive
+months. If the SSI recipient were found ineligible for some months in the retroactive
+period they would lose potential Medicaid eligibility inappropriately.
+Example: The SSI date of eligibility is 1/00, a PD decision is made in 2/00, and PD payments
+are made for 3/00 - 4/00. A final allowance results in a title II CMA of $600 being
+paid in 5/00 and retroactive benefits of $600 per month being withheld. The windfall
+period is 1/00 – 6/00. An automated title II offset computation processes before the
+SSI claim is finally adjudicated. Following the offset computation, the SSR shows:
+1/00 - PS S21 (zero offset*)
+2/00 - PS E02 (zero offset*)
+3/00 - PS C01 ($512 SSI paid and $512 title II offset)
+4/00 - PS C01 ($512 SSI paid and $512 title II offset)
+5/00 - PS N01 (zero offset*)
+6/00 - PS N01 (zero offset*)
+*See SI 02006.010A.4 for definition of zero offset.
+Final adjudication of the SSI claim results in the following on the SSR:
+1/00 - PS E02
+2/00 - PS C01 and nothing payable due to zero offset (CMPH FMA shows $512 payment,
+but WFA and WFO are 0 and there is no WFX in WCMP.)
+3/00 - 4/00 PS C01 (SSI paid and title II offset applied)
+5/00 – 6/00 PS N01 (due to payment of title II benefits)

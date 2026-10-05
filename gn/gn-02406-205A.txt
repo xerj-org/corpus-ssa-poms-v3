@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02406.205 - Nonreceipt of Title XVI Underpayment Check/Type 2 and One-Time Payment/Type 4 Payment -- Field Office (FO) and Teleservice Center (TSC) Instructions
+Effective Dates: 01/09/2023 - Present | TN 101 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406205 (fetched 2026-10-04)
+
+A. Underpayments, Automated and Manual One-Time payments
+An underpayment (type 2) in the pay flag one field in the payment history (PMTH) section
+on the Supplemental Security Income Record (SSR) indicates the SSI system automatically
+computed and released an underpayment to the recipient. However, where the system
+cannot release the underpayment, the FO must issue a one-time payment.
+A one-time payment (OTP) type 4 in the pay flag one field in the payment history (PMTH)
+section on the Supplemental Security Income Record (SSR) indicates SSA issued an automated
+one-time payment (AOTP) or manual one-time payment (MOTP). When the FO successfully
+processes an AOTP, it is annotated on the SSR.
+When the Office of Benefit Accounting and Systems Analysis (OBASA)’s Payment Certification
+Branch (PCB) successfully process an MOTP, the payment, must be manually posted to
+the SSR after issuing the payment. A recipient receives an AOTP or MOTP payment within
+7 calendar days after the systems processing date in PMTH for an AOTP or the date
+PCB certifies the payment to the U.S. Department of the Treasury (Treasury) for a
+MOTP.
+NOTE: If the recipient reports nonreceipt of the underpayment, AOTP or MOTP at the FO within
+7 calendar days from the systems run date, the technician must input an A-stop and
+issue an AOTP, unless abuse of the nonreceipt reporting system is a factor.
+If the recipient reports nonreceipt to the teleservice (TSC),
+•
+input an A-stop and send a Modernized Development Worksheet (MDW) or
+•
+for the Supplemental Security Income (SSI) Claims System cases, complete a priority
+Development Worksheet requesting the FO to issue a replacement AOTP, unless abuse
+of the nonreceipt reporting system is a factor.
+•
+For more information on TSC nonreceipt processing, see TC 25001.040.

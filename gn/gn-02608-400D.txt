@@ -1,0 +1,316 @@
+SSA Program Operations Manual System (POMS) - GN 02608.400 - Determining Pension Applicability and Pension Amount
+Effective Dates: 09/12/2025 - Present | TN 62 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608400 (fetched 2026-10-04)
+
+D. Pension paid in a lump sum
+The following apply when a pension is paid in a lump sum payment in addition to a
+monthly pension payment or the entire payment is a lump sum:
+1. Federal monthly annuity payment and lump sum
+If a retired federal employee elects to receive a lower monthly annuity (Alternative
+Form of Annuity or AFA) instead of the regular annuity otherwise payable, the employee
+also receives a lump sum payment.
+Obtain proof from the employee (an election letter from OPM) stating:
+a.
+the amount the monthly regular annuity would be if no lump-sum payment were paid,
+and
+b.
+the amount of the lower monthly annuity (alternative annuity) after reduction because
+of the lump sum.
+The difference between the two amounts is the lifetime proration of the lump sum and
+is fixed.
+To calculate the GPO amount, use the monthly
+regular annuity amount that would
+have been payable if no lump sum was paid.
+2. Alternative annuity amount increases
+If OPM applies a cost-of-living-adjustment (COLA) to the alternative annuity, the
+Title II system determines the new regular monthly annuity amount to use in the new
+GPO calculation as follows:
+Step 1: Adds the new alternative annuity amount furnished by OPM (as shown on the alert resulting
+from the OPM/GPO Interface Operation) to the lump sum prorated monthly amount (fixed
+proration amount) shown on the Master Beneficiary Record (MBR). For information about
+the OPM/GPO Interface, see GN 02608.301.
+Step 2: Uses the results of Step 1 as the new regular monthly annuity amount to calculate
+the new GPO. See GN 02608.100D.
+3. State or local monthly pension payment and lump sum
+If the claimant is receiving a monthly state or local pension and a lump sum payment,
+obtain proof of the monthly amount that would have been paid as if no lump sum was
+paid.
+•
+If unable to obtain proof, prorate the lump sum payment according to GN 02608.400D.4. below and add the proration amount to the monthly State or local pension amount.
+Use the total to calculate the GPO.
+•
+If the monthly pension amount increases or decreases, the TII system uses the steps
+in GN 02608.400D.2. to determine the pension amount to use in the new GPO calculation.
+EXAMPLE: Jean is 63 years old on December 1, 2014, when they receive a lump sum from their
+state pension plan of $25,000.00 and a periodic monthly pension amount of $550.00.
+Jean’s pension payer did not provide the proration amount for the lump sum. Using
+the actuarial values in GN 02608.400D.4.c, the prorated monthly amount (fixed proration amount) for the lump sum is $186.10
+($25,000/134.4). The GPO amount is $736.10 ($550.00 + $186.10). Jean’s government
+pension offset amount is $490.80 ($736.10 x 2/3).
+4. Entire pension is a lump sum payment only
+When the entire pension is paid in a lump sum, the amount may represent a specified
+period of time or a “lifetime.” Generally, the pension-paying agency will prorate
+the lump sum to determine a monthly amount for GPO purposes.
+If the agency will not provide this information, prorate the lump sum as follows:
+a. Specified period
+Divide the lump sum by the number of months in the period specified by the pension-paying
+agency.
+b. Lifetime or unspecified period
+Divide the pension lump sum amount by the appropriate actuarial value in the table
+below that corresponds to the worker's age on the date of the lump sum award.
+NOTE: The Title II system determines which actuarial value to use in a computation using
+the Lump Sum Pension Award Date entered in Modernized Claim System.
+c. Table of actuarial values
+Age on the Lump Sum Award Date (years)
+Actuarial Value Lump Sum Award Date 06/01/2021 or Later
+Actuarial Value Lump Sum Award Date 6/1/2016 through 05/31/2021
+Actuarial Value Lump Sum Award Date 6/1/2011 through 05/31/2016
+Actuarial Value Lump Sum Award Date 6/1/2007 through 05/31/2011
+Actuarial Value
+Lump Sum Award Date 5/31/2007 or earlier
+40 or under
+210.6
+186.7
+183.1
+179.7
+172.7
+41
+208.7
+185.2
+181.7
+178.3
+171.1
+42
+206.8
+183.7
+180.2
+176.8
+169.3
+43
+204.8
+182.2
+178.6
+175.2
+167.6
+44
+202.7
+180.6
+177.1
+173.6
+165.7
+45
+200.5
+178.9
+175.4
+172.0
+163.8
+46
+198.3
+177.2
+173.7
+170.2
+161.8
+47
+196.0
+175.4
+171.9
+168.4
+159.7
+48
+193.6
+173.6
+170.1
+166.6
+157.6
+49
+191.2
+171.7
+168.2
+164.7
+155.4
+50
+188.7
+169.7
+166.3
+162.7
+153.2
+51
+186.1
+167.7
+164.3
+160.6
+150.8
+52
+183.5
+165.7
+162.2
+158.4
+148.4
+53
+180.8
+163.5
+160.1
+156.2
+146.0
+54
+178.1
+161.3
+157.9
+153.9
+143.5
+55
+175.3
+159.1
+155.6
+151.5
+140.9
+56
+172.4
+156.8
+153.2
+149.0
+138.3
+57
+169.5
+154.4
+150.7
+146.5
+135.6
+58
+166.6
+151.9
+148.2
+143.9
+132.8
+59
+163.5
+149.3
+145.5
+141.2
+130.0
+60
+160.4
+146.7
+142.8
+138.4
+127.2
+61
+157.2
+143.9
+140.1
+135.6
+124.2
+62
+153.9
+141.1
+137.3
+132.8
+121.3
+63
+150.6
+138.2
+134.4
+129.8
+118.2
+64
+147.2
+135.1
+131.4
+126.8
+115.2
+65
+143.7
+132.1
+128.4
+123.8
+112.1
+66
+140.1
+128.9
+125.3
+120.7
+109.1
+67
+136.4
+125.7
+122.1
+117.5
+106.0
+68
+132.6
+122.4
+118.8
+114.4
+102.9
+69
+128.8
+119.0
+115.5
+111.1
+99.8
+70
+124.9
+115.6
+112.2
+107.8
+96.7
+71
+120.9
+112.1
+108.7
+104.5
+93.5
+72
+116.9
+108.6
+105.3
+101.2
+90.4
+73
+112.8
+105.0
+101.8
+97.8
+87.2
+74
+108.7
+101.4
+98.3
+94.4
+84.0
+75
+104.5
+97.7
+94.8
+91.0
+80.9
+76
+100.3
+94.0
+91.2
+87.5
+77.7
+77
+96.2
+90.3
+87.6
+84.0
+74.6
+78
+92.0
+86.6
+84.0
+80.5
+71.6
+79
+87.9
+82.9
+80.4
+77.1
+68.6
+80 or older
+83.7
+79.2
+76.8
+73.6
+65.6

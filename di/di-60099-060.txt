@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 60099.060 - Benefit Offset National Demonstration (BOND) Benefit Rate Increase (BRI)
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099060 (fetched 2026-10-04)
+
+DI 60099.060 Benefit Offset National Demonstration (BOND) Benefit Rate Increase (BRI)
+PROCEDURE IS OBSOLETE
+BOND Project is over
+The BOND processing office L5R is no longer operating, access to the data required
+to make determinations is no longer available. All BOND decisions are final as beneficiaries
+are officially outside of their appeal period. Any reconsiderations should be considered
+automatic denials.
+SSA performs a BRI run, usually in December of each year, to update title II benefits
+by applying a cost of living adjustment (COLA) to the primary insurance amount (PIA)
+and the monthly benefit amount (MBA). BOND beneficiaries, whose benefits are in offset
+during the BRI run, will not get the full COLA increase because SSA applies the COLA
+to the offset MBA and not the full MBA amount.
+Therefore, the BOND stand-alone system (BSAS) recalculates the MBA by applying the
+COLA increase to the full MBA and then refigures the BOND offset amount. The BSAS
+triggers a manual adjustment credit and award data entry (MACADE) action to process
+the new MBA, and issues a notice explaining the increase in benefits. In dual entitlement
+cases, the BSAS also corrects the larger excess monthly benefit amount (LEMBA) and
+smaller actuarially reduced monthly benefit amount (SAMBA), and larger full monthly
+benefit amount (LFMBA) and smaller full monthly benefit amount (SFMBA), for those
+cases that did not update correctly due to the SSA BRI. The BSAS conducts the BOND
+BRI process approximately one (1) week after the national BRI process.
+If BSAS is unable to automate a specific case, a processing limitation generates in
+BSAS for OCO to work the case manually through MACADE. The BTE determines the full
+MBA based on the new COLA PIA and subtracts the monthly offset amount (which is stored
+in BSAS). The new BRI MBA is effective with the BRI month and continuing. For BRI
+UTIs, see DI 60099.080. Do not code the DEMO and special message screens. The screens are already posted
+to the MBR.

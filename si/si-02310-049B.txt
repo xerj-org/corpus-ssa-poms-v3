@@ -1,0 +1,167 @@
+SSA Program Operations Manual System (POMS) - SI 02310.049 - IRS Interface - Special Situations
+Effective Dates: 09/18/2026 - Present | TN 75 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310049 (fetched 2026-10-04)
+
+B. Procedure
+1. Interest Transactions
+a. Identifying the Source of the Interest
+If an alert shows an interest transaction from a financial institution but the taxpayer
+denies ownership of a bank account, question the taxpayer about any other dealings
+he or she may have had with the institution such as ownership of a Certificate of
+Deposit or a savings bank life insurance policy, a closed bank account,or the sale
+of negotiable instruments (e.g.,bonds).
+b. Individual denies any dealings with the Institution
+Request the taxpayer to sign an SSA-4641,and contact the institution.
+Request the institution to check its active and closed records of all interest-bearing
+items, not just savings or checking accounts. Since the institution is the source
+of the IRS data, it should have a record of the transaction.
+See SI 02310.048C.5.d. about curtailing development.
+See SI 02310.049B.6. for U.S. Government interest postings. See SI 02310.049B.8. regarding interest paid by IRS.
+c. Verification of Interest Income
+Do not verify interest income if:
+•
+It can be excluded as infrequent/irregular;
+•
+The individual agrees with the amount shown on the alert; or
+•
+The individual disagrees with the amount on the alert but provides a reasonable explanation
+to resolve the discrepancy.
+Accept the individual's allegation. In any other situation, contact the payer for
+verification. Document the allegation per SI 00830.500.
+2. Duplicate Interest Postings
+a.
+Some banks inadvertently submit duplicate reports of interest payments to IRS. Disregard
+duplicate interest transactions where the payer data and amount are identical.
+b.
+If, after disregarding one of the duplicate interest postings, the total amount of
+all the remaining resource indicators is less than the resource tolerance in SI 02310.045A.3., do not develop the resource indicators. Clear the alert if this is the only outstanding
+issue.
+3. Payer Name/Address Is Blank or Appears Inappropriate
+a.
+A transaction may show a payer which would not normally be expected to issue the type
+of payment involved, such as an antique company or plumbing company issuing an interest
+payment.
+b.
+Obtain a detailed earnings query (DEQY) using the payer's employer identification
+number (EIN) to identify the payer.
+Do not request payer name/address data from IRS.
+4. Payee Name Appears Inappropriate
+a.
+A payee shown on an alert may be a company whose EIN contains the same series of digits
+as the recipient's or deemor's SSN.
+b.
+If a payee shown on the IRS alert has a name and address different from the recipient's
+or deemor's, obtain a DEQY to determine if the SSN is also a company's EIN.
+c.
+Do not contact IRS.
+5. Life Insurance Company
+a.
+If a life insurance company is shown as the payer for a transaction, do not assume
+that the individual owns a life insurance policy.
+b.
+The transaction could represent distributions on the company's stock or an investment
+plan managed by the company (e.g., mutual fund).
+c.
+Life insurance companies are not required to report partial returns of premiums (usually
+referred to as “dividends” by the company). However, a return of premiums may be erroneously reported as “interest” or “dividends” on the form 1099.
+6. U.S. Government Interest Payments
+a. General
+Government interest payments represent interest paid on U.S. Government securities.
+Development will depend on the type of security involved.
+See SI 01140.240 for information on U.S. Savings Bonds.
+b. Security Identification
+Identify the type of security involved based on the payer's EIN shown on the alert.
+The following chart lists the type of security associated with each EIN:
+EIN:
+Security:
+530197074
+Treasury Bonds,Notes, or Bills
+540985244
+Series H or HH Savings Bonds
+550416249
+Series E or EE Savings Bonds redeemed directly through BPD
+550624229
+Retirement Plan Bonds or Individual Retirement Plan Bonds
+If any other EIN is shown, the security will usually be a series E or EE savings bond
+redeemed at a local bank.
+c. Verification of Security Value
+Where possible, use the individual's records to determine the value of the security.
+If the type and issue date are known, retroactive values may be obtained through the
+electronic stock verification process.
+If the individual's records are insufficient to determine the value of the security,
+request the taxpayer to sign an SSA-8510 (and an SSA-4641 if the payer is a bank)
+and proceed as follows:
+•
+If payer is a bank (other than a Federal Reserve Bank), request the bank to provide
+any information it has about the security such as the value of the security, the date
+it was purchased, and the date it was redeemed; or
+•
+If the payer is not a bank (or is a Federal Reserve Bank) or the bank is unable to
+provide sufficient evidence, contact Bureau of Fiscal Service (BFS) as described below.
+Do not contact BFS if the individual knows the series (e.g., E, EE),the face value,
+and the issue date. See SI 01140.240 for instructions.
+d. BFS Records
+BFS maintains registration records for savings bonds and other Treasury securities.
+Registration records for series E bonds issued prior to January 1974 are stored by the name and address of the owner (or first-named joint owner) given at the time of purchase.
+Records for bonds issued between September 1957 and January 1974 are computerized. BPD personnel search for records using the owner's first and middle
+initials, first six letters of the surname, and the first four letters of the city
+or town.
+Records for bonds issued prior to September 1957 required manual search. BPD will not search these records unless the FO request indicates
+that the bond was probably issued during this period.
+Records for series E bonds issued from January 1974 to the present and series EE, H, and HH bonds are stored by the owner's SSN (or the SSN of the first-named
+joint owner).
+e. BFS Contact
+Because of BSF's method of recordkeeping, it is essential that FO's carefully question
+the individual to obtain as much information as possible about the bond(s).
+•
+If the bond is owned jointly, obtain the SSN, name, address (as of the date of purchase), and SSN of all joint
+owners. (Some of this information may be found on the microfiche or alphadent file.)
+•
+If the bond was received as an inheritance, ask for the original owner's name and SSN.
+•
+If the bond was received as a gift, ask the individual for the purchaser's name, address, and SSN.
+Although interest on E or EE bonds is reported under the SSN of the individual who
+redeemed the bond, the registration may be under the name of a joint owner.
+All contacts with the BFS must be made via an SSA-562-UF to the parallel FO according
+to the following chart. BFS will not honor direct requests for information.
+Type of Security
+Parallel FO for contacting BFS
+U.S. Savings Bonds (all series), Retirement Plan Bonds, and Individual Retirement
+Plan Bonds
+FO 675
+All Other U.S. Treasury Securities
+FO 270
+The SSA-562-UF
+must be accompanied by a dated SSA-8510with a signature and a copy of the IRS alert. (Obscure information pertaining to other
+transactions on the alert.)
+NOTE: When a representative payee signs the SSA-8510, add the following statement:
+SSA records confirm that the person that signed this form is a representative payee
+for the beneficiary, and as such, is permitted to authorize disclosure.
+Furnish all available information, about the security e.g., type, series, face value, serial number, date of purchase,
+date of redemption, and names, addresses, and SSN's of any joint owners of the security.
+Do not followup on the request until 45 days after the date the SSA-562-UF was sent.
+7. Agricultural Subsidies
+a.
+Most agricultural subsidies list the payer as the U.S. Department of Agriculture,
+Farm Service Agency (FSA). That office does not have information concerning the payments.
+b.
+If the individual does not have sufficient evidence to verify the payment(s), contact
+the local agricultural agency for the county in which the individual's farm is located.
+c.
+The individual denies ownership of a farm and/or receipt of the payment, contact FSA,
+via an SSA-562-UF to the parallel FO (FO code 736) to identify the appropriate county
+using the payee account number shown on the alert. Attach a copy of the alert to the
+SSA-562-UF. (Obscure all other transactions.) Upon receipt of the response from FSA,
+contact the county agency for verification of the payment.
+8. Payer is IRS
+Interest transactions which show the payer as the Internal Revenue Service are interest payments made on tax refunds.
+Do not contact IRS for information on these cases.
+Ask the individual to submit any available evidence of the date of receipt. If the
+individual does not have any evidence, accept his/her allegation as to the receipt
+(or non-receipt) of the interest, including the date of receipt.
+9. Co-op Dividends
+This category includes several types of payments made in connection with business
+(usually farming) cooperatives.
+The payments could represent dividends on the co-op's capital stock or could represent payment for products marketed by the co-op on behalf of the individual. This latter situation is common among dairy
+farm co-op's.
+Carefully question the individual to determine the appropriate course of development.

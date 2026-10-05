@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 00204.004 - Considering Possible Entitlement to Retirement Insurance Benefits (RIB) when a Claimant Files an Application for Spouse’s Benefits
+Effective Dates: 01/03/2017 - Present | TN 115 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204004 (fetched 2026-10-04)
+
+D. Obtaining and documenting a certified E/R
+You must obtain and review a certified E/R with the claimant to determine I/S per
+GN 01010.009. When using the Earnings Computation (EC) screens via MCS follow the instructions
+in GN 00204.004E in this section.
+1. Information to consider when determining I/S
+When determining if a claimant meets I/S, be sure to:
+•
+Consider lag earnings, Military Service (MS), and Railroad (RR) quarters of coverage
+(QC);
+•
+Review the Earnings Alert Query (EARQ) alerts per RS 01404.110; and
+•
+Obtain pre-1956 earnings information (if needed) via the system through the Office
+of Earnings Operation (OEO) when using a certified E/R. For RIB applications, use
+MCS to request OEO feedback to determine the number of pre-1956 QCs.
+2. Insured status not met and RIB application filed
+Effectuate the RIB application as a denial. Follow the documentation policy for MCS
+claims in GN 01010.009.
+3. Insured status not met and no RIB application filed
+Develop and effectuate the spouse’s application. Document the insured status determination
+on the spouse's application using the Report of Contact (RPOC) screen in MCS with
+the following information:
+•
+The type of certified E/R reviewed and the date it was obtained;
+•
+Information about lag earnings, MS credits, etc.; and
+•
+The number of QCs shown on the certified E/R.
+Request paragraph CLOR20 - Auxiliary Claimant Not Insured On Own Record by coding
+the Notice 3 (NOT3) screen.

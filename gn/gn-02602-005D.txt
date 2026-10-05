@@ -1,0 +1,131 @@
+SSA Program Operations Manual System (POMS) - GN 02602.005 - Post-Entitlement Changes that Affect Payment of Title II Benefits
+Effective Dates: 02/09/2021 - Present | TN 108 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602005 (fetched 2026-10-04)
+
+D. Processing PE Actions
+Follow these instructions when processing a PE action:
+1. Review MBR
+Since the release of T2R, the MBR must be free of any inconsistencies in order for
+automated actions, as well as most manual actions, to update to the record. During
+case processing, technicians must review the entire MBR and examine all pending actions.
+Some things to consider when reviewing the MBR include:
+•
+Ledger Account File (LAF) status,
+•
+Special messages,
+•
+Suspension codes,
+•
+MBR data lines,
+•
+Dual entitlement, and
+•
+Accuracy of the Primary Insurance Amounts (PIA) and Month Benefit Amounts (MBA).
+Additional factors may be involved, such as:
+•
+Critical Payment System (CPS) payments,
+•
+PCACS diaries,
+•
+MDWs,
+•
+Medicare,
+•
+Workers' Compensation,
+•
+Attorney fees/Appointed Representative fees,
+•
+Garnishment,
+•
+SSI offset,
+•
+Levy for unpaid federal taxes,
+•
+WEP and GPO for entitlements prior to January 2024,
+•
+Overpayments, and
+•
+Underpayments.
+2. Processing PE actions in the FO
+The Post Entitlement Online System (POS) is the most common method for FO technicians
+to input Title II PE actions, but there are other systems the FO may use to take action
+on a reported change, such as the:
+•
+Miscellaneous Online Edited Transactions (MONET) system,
+•
+Income Related Monthly Adjustment Amount (IRMAA) data collection screens,
+•
+Change in Primary Insurance Amount (CIP) application,
+•
+Interactive Computation Facility (ICF), or
+•
+Debt Management System (DMS).
+When processing PE actions in the FO, take the following steps:
+•
+Review the documentation provided by the beneficiary or third party;
+•
+Review the entire MBR (see GN 02602.005D.1);
+•
+Check for any other pending inputs or WorkTrack files;
+•
+Complete all necessary development;
+•
+Make the necessary input to update the beneficiary's record (POS, CIP, EF101, ICF,
+DMS, etc.);
+•
+Include remarks to explain the action taken;
+•
+Retain any documentation per GN 00301.286 Electronic Evidence Documentation and Retention; and
+•
+Follow instructions in GN 02602.005E for disposition and documentation.
+NOTE: If the POS action excepted in the PC, do not re-input the action unless you can determine
+the reason why it excepted and correct your input. Simply re-inputting the action
+creates multiple exceptions in the PC. You can review the Transaction History Query
+(THIS) to determine if your input excepted (see MS 02901.002 and MSOM 05203.012).
+To request PC assistance and to follow-up on your request, refer to GN 01070.425 for modes of responding to request for assistance and GN 01070.440 for follow-up timeframes.
+3. Processing PE actions in the PC
+Pending PE actions are controlled in the PC by an Action Control Record (ACR). PC
+technicians input Title II PE actions using a variety of systems, such as:
+•
+Manual Adjustment, Credit and Award Data Entry (MACADE),
+•
+CIP,
+•
+POS,
+•
+MONET,
+•
+ICF, or
+•
+DMS.
+When processing PE actions in the PC, take the following steps:
+•
+Review the source document (which may include the diary, alert, fax, etc.);
+•
+Check for any other pending actions (be alert to ACRs pending in other PCs);
+•
+Review the entire MBR (see GN 02602.005D.1);
+•
+Review the completed side of Paperless for reference purposes;
+•
+Complete all necessary development (keep the ACR active during development);
+•
+Make the necessary updates to the beneficiary's record (be sure to address the issue
+that resulted in the T2 exception or processing limitation as well as the input action);
+•
+Document the disposition of the ACR (see GN 02602.005E); and
+•
+Clear the ACR. Be sure to change the ACR retention to long-term as needed per GN 01085.000.
+If you receive an exception or processing limitation, you must address the reason
+that caused the exception or processing limitation as well as the input action that
+did not process. Each technician who takes action in a case must document the action
+and disposition of the ACR. "Action" and "disposition" include sending the ACR to
+an end-of-line read (FIN/FIN) without systems input (see GN 02602.005E).
+NOTE: When processing an action you must process all the ACRs that are pending for
+your job type, i.e. Benefit Authorizer (BA), Claims Authorizer (CA), Check Claims
+and Recovery Examiner (CCRE), etc. To do this you must always "GET FOLDER." In addition,
+you must look at all the ACRs with a different job type to see how they may affect
+your action. When a case has multiple ACRs pending, work the oldest ACR and send any
+younger, subsequent alerts/ACRs to FIN if it can be determined that they are duplicates.
+Prior to sending any duplicate ACRs to FIN, document the ACR according to GN 02602.005E.2. Remember that after taking your action you need to route all the ACRs you processed
+from the "GET FOLDER" view.

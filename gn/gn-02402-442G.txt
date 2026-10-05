@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.442 - Coding Cameroon Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/25/2023 - Present | TN 231 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402442 (fetched 2026-10-04)
+
+G. Example of coding Cameroon direct deposit
+The customer provides us with a signup form for Cameroon containing the account number:
+“123456789011223344556677889.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 720000160
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “W ” designated for Cameroon ; and
+•
+Code 16 digits of the 27-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 720000160
+•
+Checking
+•
+DAN: WO234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000160 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: WO234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 720000160
+•
+DAN- CW1234567890112233

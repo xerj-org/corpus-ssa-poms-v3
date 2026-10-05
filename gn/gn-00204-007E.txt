@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 00204.007 - Application Filing Date
+Effective Dates: 06/10/2026 - Present | TN 174 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204007 (fetched 2026-10-04)
+
+E. Procedure for making a filing date determination
+Review internal SSA records (e.g., office pending file, enhanced Leads and Appointment
+System (eLAS)) for protective filing documentation that could establish the earliest
+application filing date. For documents that may serve to protect the filing date,
+see GN 00204.010.
+If we cannot use a protective filing date, the receipt date is the application filing
+date. For establishing the receipt date, see GN 00204.007B in this section.
+NOTE: For cases involving the reopening of a prior denied claim, the application receipt
+date is the reopening request date. The material file date (MFD) should be the same
+as the application receipt date. The protective filing date is the original protective
+filing date from the previously denied claim. Enter the file date change (FDC) code
+of C on the Decision Input (DECI) screen for Management Information (MI) purposes.
+The FDC code of C will excludes FO1 time, from the original application date through
+the date of the reopening request on the new DW01. However, using this code does not
+exclude this time from the mean overall time on the case.

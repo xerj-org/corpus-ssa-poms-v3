@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02410.105 - Exemptions from Levy
+Effective Dates: 09/04/2019 - Present | TN 45 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410105 (fetched 2026-10-04)
+
+C. Procedure on exemption for IRS levy
+1. IRS does not specify exemptions
+If exemptions are not specified on the notice of levy, take the following actions:
+•
+Establish the levy via TAXY - for the "Select Computation Method," use Option 1 (Partial),
+see SM
+00833.035 and SM
+00833.045. TAXY automatically sends the beneficiary a “Statement of Exemptions” to return to
+us so that SSA can determine the correct amount of exemptions.
+•
+Annotate the Special Message Field on the MBR to show that benefits are being levied
+with exemptions set to DEFAULT status, see GN
+02410.110. Be sure to update the special message field with any changes to the exemption amount.
+TAXY should generate a notice to the beneficiary and the IRS.
+•
+If the exemption statement is returned, use the exemption status provided by the beneficiary
+and process the levy via TAXY to establish the amended exemption status to the next
+benefit payable. Do not question the number of dependent's exemptions claimed; IRS
+will take any action it deems necessary against the taxpayer/ beneficiary to correct
+improper claims for exemptions.
+2. IRS does not allow exemptions
+If IRS wishes to attach the beneficiary's entire benefit amount, they will annotate
+the notice of levy with a statement (or include a separate cover letter or attachment)
+advising SSA that the taxpayer is not entitled to the exemptions. Do not solicit exemptions
+in these cases. If IRS does not allow exemptions, take the following actions:
+•
+Establish the levy via TAXY. For the “Select Computation Method”, use Option 2 (Full).
+After all medical insurance deductions have been withheld from the beneficiary, this
+option will issue the remaining amount of the MBP to the IRS. As a result, we will
+not have to manually bill the beneficiary for medical insurance premiums.
+•
+Annotate the Special Message Field on the MBR to show that benefits are being levied
+with exemptions set to Full Withholding, see GN
+02410.110. Be sure to update the special message field with any changes to the exemption amount.
+TAXY should generate a notice to the beneficiary and the IRS.
+3. Total exemptions exceed benefit
+If the exempt amounts, as shown in IRS Publication 1494, exceed the amount of benefits
+due at the time of service, take the following actions:
+•
+Establish the levy via TAXY. Your input will post a TAX LEVY field on the MBR with
+a Start Date = Current COM and a Term Date = Current COM. As a result, SSA will not
+withhold any benefits for the tax levy.
+•
+Annotate the Special Message Field on the MBR to show that benefits are being levied
+per GN
+02410.105.C.3. Be sure to update the special message field if this situation changes.
+TAXY should generate a notice to the IRS, see NL
+00703.745. The beneficiary will NOT receive a notice in these scenarios.
+4. Applying exemptions
+Exemptions are applied when the levy is effectuated. When the appropriate value for
+exemption is entered in TAXY, the proper exemption will be credited to the levied
+benefit.
+Do not refigure a levy each time IRS changes the exempt amounts unless the beneficiary
+requests that it be refigured.

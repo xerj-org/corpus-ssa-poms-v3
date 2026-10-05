@@ -1,0 +1,87 @@
+SSA Program Operations Manual System (POMS) - SI 02310.064 - Title XIX Facility Match (D8 Diary)
+Effective Dates: 11/28/2022 - Present | TN 64 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310064 (fetched 2026-10-04)
+
+B. Description of match
+1. Conditions that produce the D8 diary
+MSSICS produces a D8 alert and sets a D8 diary when the following conditions exist:
+•
+the recipient is in current pay status for the month of the match, and
+•
+the recipient’s living arrangement code on the Supplemental Security Record (SSR)
+for the month of the match is other than “D”;
+•
+the admission date on the CMS record is later than the SSI date of eligibility; and
+•
+payment continuation under the “temporary institutionalization” provision is not present
+on the SSR.
+2. Frequency of match
+MSSICS generates alerts monthly.
+3. Replacement alerts
+You may find replacement alerts on the National SSI Alert System Page.
+4. Minimum Data Set (MDS) alert format
+C-A    D8 Title XIX Facility Alert
+ST: XX        FO: XXX           RDT: XXXXXX
+HUN: XXX-XX-XXXX               SSN: XXX-XX-XXXX
+NAME: XXXXXXXXXXXXXXXXXXXX,   XXXXXXXXXX, X
+DOE: MM/DD/YYYY    DD: MM/DD/YYYY
+RD: MM/DD/YYYY     AED: MM/DD/YYYY
+CPS: x               ELS: x
+MDS Facility ID No.: xxxxxxxxxxxxxxxx
+FAD:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX   XX
+FTEL:   XXX-XXX-XXXX
+The following represent the data elements in the alert:
+•
+ST: State code of residence on the SSR when the system created the record selection
+•
+FO: Field office code
+•
+RDT: The run date of the match
+•
+HUN: The housed-under number for the record alerted
+•
+SSN: The Social Security Number (SSN) of the matched individual
+•
+NAME: Last, First, Middle Initial of the matched individual on the title XIX record
+•
+DOE: Admission date to the facility
+•
+DD: Discharge date from the facility
+•
+RD: Reentry date to the facility
+•
+AED: Assessment Effective Date; i.e., the date the facility recorded the information
+in the alert.
+•
+CPS: Current payment source. It is possible for a person’s cost-of-care to come from
+more than one source. If so, the first source in the list appears on the alert, as
+follows:
+a: Medicaid per diem;
+b: Medicare per diem;
+c: Medicare ancillary part A;
+d: Medicare ancillary part B;
+e: TRICARE per diem;
+f: Veterans Affairs (VA) per diem;
+g: Self or family pays for full per diem;
+h: Medicaid resident liability or Medicare co-payment;
+i: Private insurance per diem (including co-payment); and
+j: Other per diem.
+•
+ELS: Expected length of stay:
+O: Expected Discharge more than 90 days after the AED
+1: Expected Discharge within 30 days of the AED
+2: Expected Discharge within 31-90 days of the AED
+3: Expected Discharge status uncertain
+•
+MDS Facility ID No.: Identification number of the title XIX provider. The CMS or the
+State providing Medicaid coverage may assign this ID number.
+•
+FAD: Facility name
+Street address
+City and State
+Zip
+Code
+•
+FTEL: Facility telephone number

@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - SI 00603.032 - Exceptions to Conducting a Preeffectuation Review Contact (PERC)
+Effective Dates: 12/27/2023 - Present | TN 26 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603032 (fetched 2026-10-04)
+
+C. Procedure - systems input
+1. Non-MSSICS Processing
+To avoid a PX edit (generated when the record shows some payment due at the time the
+disability allowance is posted and no PERC date input), give the system a PERC date
+of the current month/year in order to adjudicate the claim. Follow instructions in
+SM 01005.660 to make the input.
+2. MSSICS Processing
+Select PERC EXCLUSION on the Preeffectuation Review Contact page.
+3. Delete Posted Date
+Although a PERC date is necessary to avoid a PX edit, the PERC date should be deleted
+if the MSSICS or non-MSSICS cases meets the PD/PB exception to a PERC or the possibility
+exists that the case may be reopened (e.g., the claimant is receiving unemployment
+benefits that makes them ineligible for SSI, but the benefits are expected to end
+in three months). Delete the PERC date information from the system after the record
+is paid using code F and four zeroes per SM 01005.661D.
+RATIONALE: This action will ensure that for these cases, the system will correctly select the
+reference date for the first redetermination.

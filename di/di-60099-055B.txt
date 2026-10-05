@@ -1,0 +1,148 @@
+SSA Program Operations Manual System (POMS) - DI 60099.055 - OCO Centralized Unit Responsibilities
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099055 (fetched 2026-10-04)
+
+B. Processing manual MACADE action for BOND cases
+Benefit technical examiners (BTEs) in L5R OFFICE L5R NO
+LONGER OBSOLETE and OCO’s centralized unit:
+•
+review why the BOND case is a processing limitation;
+•
+take corrective action to complete the processing limitation;
+•
+capture monthly offset amount from BSAS;
+•
+update the BOND Stand-Alone System (BSAS) with any changes for each manually processed
+transaction;
+•
+key in BOND demonstration data for initial BOND cases;
+•
+adjust the monthly benefit taking into consideration BOND offset;
+•
+select proper notice language;
+•
+control cases in deferred status for manual reinstatement; and
+•
+post special messages to the master beneficiary record (MBR).
+1. Demonstration project (HISTDEMO) screen DMO
+The DMO screen (on the MBR) for the BOND beneficiary is coded with the demonstration
+project indicator (DPI) with DD and the START date that is equal to the first month
+of offset and a STOP date that is 60 months from the eligibility begin date (EBD).
+DEMO
+DEMO project indicator: DD
+DST: start date of offset
+DSP: stop date of offset
+MDE 022813 DEMONSTRATION PROJECT (HISTDEMO) DM
+SSN: XXX-XX-XXXX BIC: A
+[ DPI START STOP
+[ (MMCCYY) (MMCCYY)
+| DD 012011 122015
+2. HST screen
+When offset is applied, code a work indication code (WIC) of 2 for the applicant disability
+cessation (ADC) and code the offset benefit amount beginning with the first month
+of offset with a WIC of Z:
+•
+If there is dual entitlement, apply any excess offset to the DWB or CDB record, and
+•
+If an incorrect payment occurs, defer benefits to recover the incorrect payment (IP).
+If the offset amount is higher than the full monthly benefit amount (MBA), place the
+HA in LAF SQ by coding a reason for deduction (RFD) of Q, a WIC of Z and Reason for
+Suspension Termination (RFST) of DMPRDD (Demonstration Project DD), then place any
+auxiliaries on the record in LAF SQ.
+NOTE: For this project, we treat HA’s work the same as work for a retirement and survivor
+insurance (RSI) beneficiary. We consider prior year work as a closed year or overpayment
+(OP) and current year work as an open year or incorrect payment (IP).
+3. Example of Current Operating Month (COM) equals first month of offset
+Action taken in 01/2011 to apply offset. The primary insurance amount (PIA) is 1018.60
+for 12/2010. The offset amount is $522.00. The BTE codes the HST, DEMO, and SMG screens
+with the following information:
+HST
+PIC: A (BIC for BOND Beneficiary)
+MR: 496.60 (Offset MBA)
+FROM: 01/2011 (First date of offset)
+TO: CON
+COM: COM
+RFD: Blank (BOND beneficiary is not in full offset)
+WIC: Z
+RFST: Blank
+ABS: (ABN field on MBR)
+ARC: Blank
+OCO: Blank
+ENB: G* (see BOND notice fill-ins in DI 60099.080).
+MDE 022813 PAYMENT HISTORY HST
+SSN: XXX-XX-XXXX
+[ SLN PIC BIC MR FROM TO RFD WIC SIC RFST
+| 001 A 0496.60 0111 con Z
+| 002
+| 003
+| 004
+| 005
+| 006
+COM (MM): 03 ABS: abc ARC: OCO:
+XSSN: XBIC:
+PRI: PDI: INT:
+ENB: G* WDS017,(non-blind yearly amount), (blind yearly amount)*ERN084, (estimate of
+total earnings)*WDS018,A,(countable income),522.00 (amount of offset).
+DEMO
+DEMO project indicator: DD
+DST: 01/2011 (start date of offset)
+DSP: 12/2015 (stop date of offset)
+MDE 022813 DEMONSTRATION PROJECT (HISTDEMO) DM
+SSN: XXX-XX-XXXX BIC: A
+[ DPI START STOP
+[ (MMCCYY) (MMCCYY)
+| DD 012011 122015
+SMG
+HA/CDB/DWB (select one) in BOND project, Special Processing Required.
+MDE 022813 SPECIAL MESSAGE DATA (SP MSG) SMG
+SSN: XXX-XX-XXXX
+MSG1 : HA/CDB/DWB (select one) in BOND Project. Special Processing Required.
+TRAN DATE:
+DEL(#): STANDARD MSG CODE (?, 01-51): DEL DATE (MMYY):
+4. Example of MACADE action for BOND beneficiary
+A BTE takes action on 05/2012 to apply offset retroactive to 01/2012. PIA is $1370.50,
+effective 12/11. The offset amount is $522.00.
+The BTE codes the HST, DEMO, and SMG screens with the following information:
+HST
+PIC: A (BIC for BOND Beneficiary)
+MR: 848.50 (Offset MBA)
+FROM: 01/2012 (First date of offset)
+TO: CON
+COM: COM
+RFD: Blank (BOND beneficiary is not in full offset)
+WIC: Z
+RFST: Blank
+ABS: ABN field on MBR
+ARC: Blank
+OCO: Blank
+ENB: G* (see DI 60099.080 for BOND notice fill-ins)
+MDE 022813 PAYMENT HISTORY HST
+SSN: XXX-XX-XXXX
+[ SLN PIC BIC MR FROM TO RFD WIC SIC RFST
+| 001 A 848.50 0112 con Z
+| 002
+| 003
+| 004
+| 005
+| 006
+COM (MM): 03 ABS: XYZ ARC: OCO:
+XSSN: XBIC:
+PRI: PDI: INT:
+ENB: G*WDS017,12120.00,20280.00*ERN084,24648.00*WDS018,A,24648.00,522.00.
+DEMO
+DEMO project indicator: DD
+DST: 01/2012 (start date of offset)
+DSP: 12/2016 (stop date of offset)
+MDE 022813 DEMONSTRATION PROJECT (HISTDEMO) DM
+SSN: XXX-XX-XXXX BIC: A
+[ DPI START STOP
+[ (MMCCYY) (MMCCYY)
+| DD 012012 122016
+SMG
+HA in BOND project, Special Processing Required.
+MDE 022813 SPECIAL MESSAGE DATA (SP MSG) SMG
+SSN: XXX-XX-XXXX
+MSG1 : HA in BOND Project. Special Processing Required.
+TRAN DATE:
+DEL(#): STANDARD MSG CODE (?, 01-51): DEL DATE (MMYY):
+NOTE: MADCAP calculates the incorrect payment automatically.

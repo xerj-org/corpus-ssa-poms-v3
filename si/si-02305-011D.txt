@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02305.011 - Dedicated Account Monitoring RZs and LIs
+Effective Dates: 05/08/2012 - Present | TN 70 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305011 (fetched 2026-10-04)
+
+D. Procedure
+1. Identifying Cases that Require Dedicated Account Monitoring
+a. Representative Payee Involvement
+DI diaries will be posted to the DIAR segment of the SSR in October of the current
+FY with the date the diary matures. DI diaries will also be posted in subsequent months
+as dedicated accounts are established on the record and rep payee accountings are
+due.
+Off-line counts and case data for DI diaries associated with RZs or selected as limited
+issues will be available on Post Entitlement Operational Data Store (PE ODS).
+To get the DI diary using PE ODS, go to Custom Pending Lists, select Scheduled RZs
+and chose the Filter By Diary Code option to select the DI diary. This will result
+in a case listing with the total number of cases pending that have DI diaries.
+To get the DI diary using PE ODS, go to Custom Pending Lists, select Scheduled LI
+and chose the Filter By Diary Code option to select the DI diary. This will result
+in a case listing with the total number of cases pending that have DI diaries.
+b. Direct Payment
+To determine whether dedicated account monitoring is required, request the Dedicated
+Account Data (DACT) segment a SSI2, SSI4 or a SSID. If there is a dollar amount in
+the Balance (BAL) field, dedicated account monitoring is required.
+2. Coordinate Dedicated Account Monitoring with Future KB Diary
+If a dedicated account monitoring is due and there is a future KB diary on the record,
+delay the dedicated account monitoring until the profile K RZ is scheduled and conduct
+both the monitoring and the RZ simultaneously to avoid multiple contacts with the
+recipient.
+3. Dedicated Account Monitoring Completed
+To prevent cases from being selected every month for dedicated account monitoring, the DI diary must be cleared and the NM field input
+with or before the RZ or LI disposition code is input to the system.
+Upon completion of the monitoring process, take the following actions to update the
+SSR:
+•
+In non-MSSICS cases, delete the DI diary through the diary function in direct SSR
+update as described in MSOM BUSSR 002.019.
+•
+In MSSICS, delete the diary on the UDIA screen and BTS.
+•
+Input the dedicated account balance to the BA field on the DACT segment following
+the instructions in SM 01301.637.
+•
+Update the Negotiated Accountability Month (NM) field in the REPY segment to indicate
+an annual accounting was completed following the instructions in SM 01301.635.
+•
+Input the reported annual accounting conserved funds to the CF field in the REPY segment
+as appropriate following the instructions in SM 01301.639.
+NOTE: For more information related to the DI diary, see SI 01140.206C.3.d.

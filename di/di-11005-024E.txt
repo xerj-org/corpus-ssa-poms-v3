@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 11005.024 - The Internet Adult Disability Report (i3368)
+Effective Dates: 01/28/2014 - Present | TN 44 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005024 (fetched 2026-10-04)
+
+E. Creating and viewing an i3368 partial
+1. IU re-entry feature to complete a i3368 partial
+An IU can complete the iClaim and i3368 in one or multiple Internet sessions. To access
+and complete an internet form in multiple sessions, the IU must provide the proper
+social security number (SSN) and reentry number. The systems software generates a
+random eight-digit reentry number unique to the IU and to the claim. The same reentry
+number applies to the iClaim and the associated i3368.
+As soon as the IU inputs enough identifying information at the start of iClaim, the
+software immediately generates and displays the reentry number. That will happen when
+the IU is about five screens into the iClaim screen path. After that, the reentry
+number will display at exit, assuming the IU makes a “clean” exit (i.e., the IU uses
+the exit button, not the “X-out” button).
+NOTE: After the IU submits the i3368 to SSA, the reentry feature is no longer available.
+2. FO access to the i3368 partial
+When an IU creates an i3368 partial, the information does not propagate to EDCS. The
+information is retained in an SSA database until the IU submits the i3368. The FO
+can view or print information in an i3368 partial using the Customer Information Control
+System (CICS) Internet query.
+NOTE: Information from a completed and submitted i3368 is available in CICS and propagates
+into EDCS at case creation. A submitted i3368 is available in eView for viewing and
+printing after the FO establishes the case in EDCS and transfers the claim to the
+disability determination services (DDS).

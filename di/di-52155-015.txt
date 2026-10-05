@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - DI 52155.015 - Processing Disability Claims with Workers' Compensation/Public Disability Benefit (WC/PDB) and Auxiliaries
+Effective Dates: 09/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155015 (fetched 2026-10-04)
+
+DI 52155.015 Processing Disability Claims with Workers' Compensation/Public Disability Benefit
+(WC/PDB) and Auxiliaries
+When the number holder (NH) files for disability benefits and WC/PDB is involved,
+make every attempt to process auxiliary claims in the same MCS segment as the NH.
+This makes MCS EC processing more promising for the auxiliary claims and reduces the
+likelihood of overpayment or underpayment to NH and auxiliaries.
+NOTE: Review the policy in GN 01010.140 for processing delayed claims. The WC/PDB screens completed for the NH provide all
+required information to complete an offset determination for the auxiliaries.
+If it is necessary to process an auxiliary award after the award for the NH is processed
+to the MBR, follow the instructions in DI 52140.001J.
+Review the WC/PDB offset data provided by MCS EC. For information on the WC/PDB results
+in MCS EC, see DI 52155.010.

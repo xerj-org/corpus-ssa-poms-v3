@@ -1,0 +1,208 @@
+SSA Program Operations Manual System (POMS) - SI 01140.200 - Checking and Savings Accounts
+Effective Dates: 09/10/2026 - Present | TN 89 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140200 (fetched 2026-10-04)
+
+C. Procedure for verifying financial institutions (FI) accounts
+1. Request account balances from the FI
+Electronic verification using AFI is the preferred method to verify checking and savings
+account ownership and balance information. How we verify financial account balances
+depends on whether the FI is participating or nonparticipating with the AFI initiative.
+For more information on participating and non-participating FIs, see SI 01140.206B.7.
+a. Send an electronic request
+Use AFI to send an electronic request to verify financial account balances held in
+participating FI accounts.
+To prepare and send an electronic request for SSI Claims system cases, follow procedure
+in SI 01140.206E. For non-SSI Claims system or systems limitation cases, see SI 01140.206F.
+b. Mail or fax a paper SSA-4641
+Mail or fax a paper SSA-4641 (Authorization for the Social Security Administration to Obtain Account Records from
+Financial Institutions and Request for Records) to non-participating FIs to verify
+alleged financial accounts held in these FIs. Use the standard version of the SSA-4641
+for these verification requests.
+To prepare an SSA-4641 and, when applicable, to respond to an FI's request for reimbursement for providing
+records, follow procedure in SI 01140.206E.1.b.
+c. FI responses for waiver requests
+Financial information is also used to make determinations on whether, under both title
+II and title XVI, denying a waiver would “defeat the purpose” of the Social Security
+Act. Information obtained in making that determination can be used in making determinations
+on SSI eligibility.
+Use account balance information associated with a waiver request to verify accounts
+balances for any applicable unverified months on the Financial Institution Account
+resource page where financial permission is present. If any geographic search requests
+associated with a waiver request produce undisclosed accounts, develop the accounts
+per SI 01140.206H.3.
+For waivers related to the defeat the purpose of the title II or title XVI programs,
+see GN 02250.100.
+For information on financial permission, see SI 00515.001.
+2. Use the individual’s bank statements, FI records, or a signed statement to verify
+FI accounts
+Electronic verification is the preferred method to verify FI accounts. However, in
+certain situations, you may request or accept bank statements or other FI records
+from the individual. As a last resort when bank records are unavailable, an individual
+may provide a signed statement as evidence. To request evidence, follow procedure
+in SI 00601.100.
+The order of preference for accepting alternative evidence when AFI verification or
+the SSA-e4641 is not used is:
+1.
+bank statements,
+2.
+other FI evidence (including evidence from telephone contact),
+3.
+a signed statement.
+NOTE: In situations discussed in SI 04410.206H, alternative evidence may be developed and accepted while AFI requests are pending.
+When alternative evidence is used to adjudicate an event, process as a stand-alone
+post-eligibility event any electronic responses received post-adjudicatively.
+a. When to accept the individual’s bank statements or FI records
+Accept the individual’s bank statements or FI records as evidence and adjudicate the
+event when the evidence meets the requirements in SI 01140.200C.2.b, AND one or more of the following conditions apply:
+•
+The individual provides bank statements for all alleged accounts covering the entire
+period subject to verification because;
+–
+complete records are readily available at the time of contact; or
+–
+the technician requests alternative evidence due to:
+•
+the FI not responding within 15 days of sending a verification request using eAFI
+or e4641;
+•
+the FI did not provide a complete response to a verification request. For example,
+the verification request included 20 months of balance data, but the FI responded
+with only 5 months of balance data;
+•
+the verification request pertains to an initial claim designated as a terminal illness
+(TERI) case;
+•
+the only alleged FI account is a collective account. To document collective accounts
+on the Financial Institution Account page, follow instructions in SI 01140.206C.7;
+or
+•
+the only alleged FI account is a foreign FI account located outside the country and
+the individual does not conduct banking business with a domestic sister branch. For
+more on the treatment of foreign accounts, see SI 01140.206C.8.
+NOTE: When AFI verification is required, technicians are permitted to request and accept
+alternative evidence from the individual at any point during development. However,
+we still request negative AFI searches and verify balances for up to 25 past months
+even if alternative evidence is received for all alleged accounts. This is necessary
+to ensure we have developed for undisclosed accounts and documented potential resource
+transfers. Follow instructions in SI 01140.206D to request verification for the appropriate
+months. Process any AFI responses post-adjudicatively.
+To determine the FOM balances using bank statements, see SI 01140.200D.6.a and SI 01140.200F in this section.
+b. Criteria for bank statements and FI records to be accepted as evidence
+Accept bank statements according to the following:
+•
+Bank statements are acceptable as long as they are complete and unaltered records,
+whether they are:
+–
+original records mailed to the account holder,
+–
+electronic records that the individual prints or downloads from a FI website, or
+–
+downloaded files and images of bank statements submitted electronically (e.g., using
+Upload Documents),
+•
+If the statements do not provide FOM balances, they must provide sufficient transaction
+level details to calculate the FOM balance.
+•
+When used in lieu of AFI verification, the statements must cover the entire verification
+period in question.
+When bank statements are unavailable, the following are acceptable forms of FI records:
+•
+FI original records that appear to be complete and unaltered.
+•
+FI records other than bank statements issued by the FI, and where:
+–
+the individual alleges that no transactions have occurred that the records do not
+show; or
+–
+the individual alleges that such transactions have occurred and provides appropriate
+evidence of them; and
+–
+the FI records, the allegation regarding additional transactions, and the alleged
+current account balance (on the application or redetermination form) reflect a complete
+and consistent picture of the account.
+•
+Alternatively, FI records that were verified using an automated telephone service
+(see SI 01140.200C.3 in this section) and documented on a Report of Contact.
+c. Examples of FI records other than bank statements
+Examples of other acceptable FI records may include:
+•
+passbooks;
+•
+the individual’s check register;
+•
+transaction details and account activity information printed from the FI’s website
+and submitted by the individual;
+•
+account ledgers;
+•
+ATM transaction receipts; and
+•
+deposit or withdrawal slips.
+3. Verify account balances with an FI using an automated telephone service
+Follow these instructions to verify account balances when using an automated telephone
+service:
+•
+Ensure financial permission has been documented according to SI 00515.001.
+•
+Use an automated telephone customer service line to obtain account balances only if
+it provides complete transaction information, i.e., deposits, withdrawals, cleared
+checks, and transfers to and from the account along with transaction dates.
+•
+To be certain that you access the correct account, dial the bank's customer service
+line provided by the individual or on the FIs official website and enter the proper
+account numbers. However, if required to respond to security prompts, for privacy
+purposes have individuals enter their own security information (i.e. login ID, PINs
+or pass codes, etc.). Never ask the person to provide you with this information.
+•
+If telephone verification would cause the individual's security information to be
+compromised (i.e. you are verifying via a three-way conference call and the automated
+line requires you to key in security information), stop and verify account information
+another way.
+•
+Examine all account activity to determine the account balance as of the FOM. The records
+do not have to specify a FOM balance; they need only to make it possible to extrapolate
+the FOM balance using balances before and after that date. For more information, see
+the examples in SI 01140.205G.
+Be alert for payments for both direct deposit and payment by check situations that
+have an advance date. For example, we treat any payment made early because a payday
+falls on a holiday or weekend as income for the month of normal receipt. For more
+information, see SI 00810.030B.
+•
+If contact with an FI representative is necessary to resolve an issue or question
+not resolved using the automated customer service line, privacy concerns may prevent
+the FI from disclosing information without the account holder's presence or expressed
+consent. FIs may also require consent in writing. Technicians should not contact an
+FI representative directly when the FI is a participating FI for AFI purposes and
+electronic verification has been requested. In these cases, the AFI vendor is responsible
+for liaising with the FI to resolve any issues. See SI 01140.206I for more information.
+NOTE:
+If attempts to reach an FI representative are unsuccessful, do not leave a voicemail
+disclosing PII nor recommend claimant do so.
+Record the results of the telephone verification on a Report of Contact and lock it.
+Include the telephone number, date and time of the contact, automated service or person
+contacted, account information, and the transaction and balance information verified.
+4. Accept the individual’s allegation on a signed statement
+If no other evidence is available, accept the individual’s allegation as evidence
+of bank account balances and adjudicate the event. Accept the allegation according
+to the following:
+•
+Document the individual’s signed statement on an SSA-795 (Statement of Claimant or Other Person) or on the Person Statement screen in the
+SSI Claims system. Include all information relevant to the resource determination,
+such as:
+–
+name of FI;
+–
+names of any co-owners;
+–
+type of account and account number;
+–
+FOM account balances covering all months in the review period; and
+–
+other information material to the resource determination (e.g., exclusions, access
+restrictions, etc.).
+•
+Document attempts to obtain evidence and why they were unsuccessful on a Report of
+Contact.
+•
+Process any evidence received post-adjudicatively as a stand-alone post eligibility
+event.

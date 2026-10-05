@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02410.017 - Requesting Voluntary Tax Withholding (VTW)
+Effective Dates: 08/30/2018 - Present | TN 60 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410017 (fetched 2026-10-04)
+
+B. Processing VTW requests
+Typically, the FO or Teleservice Center receives and processes VTW requests. When
+the FO input creates an exception, and in certain multiple entitlement situations,
+the Processing Centers (PC) will need to input the VTW request. For information regarding
+VTW requests for multiple entitlement cases, see GN 02410.017.D
+1. SSA Systems Input
+a. MCS Application
+Enter the VTW information on the Voluntary Tax Withholding (VTWH) screen. For more
+information on the MCS VTWH screen, see MSOM MCS 009.012.
+b. Postentitlement Online System (POS)
+Enter the information from the W-4V via the Postentitlement Voluntary Tax Withholding
+(PEVW) screen in POS. For more information on the PEVW screen, see MSOM T2PE 003.020.
+c. Manual Adjustment, Credit, and Award Data Entry (MACADE)
+Enter the information from the W-4V via the Voluntary Tax Request (VT) screen in MACADE.
+For more information on the VT screen, see SM 00842.058.
+2. Requests for future withholding
+If the VTW request is for future date(s) only:
+•
+Input 0 percent for the current month; and
+•
+Input the subsequent VTW request percentage(s) and effective date(s).
+Request an additional W-4V form for each separate action requested on a record.
+3. Retaining W-4V
+After successfully inputting the W-4V information, scan the signed W-4V into the evidence
+portal. Review the document for accuracy and shred or destroy the original document.
+4. Notifying the Beneficiary
+Notify the beneficiary or his or her representative payee when we take action to effectuate,
+terminate or change the VTW (for example, when we process an immediate request or
+a future request).
+If the beneficiary or his or her representative payee requested VTW during the MCS
+application, include VTW language in the Notice of Award. In the event a beneficiary
+or his or her representative payee makes a request outside of the MCS application,
+send a notice.

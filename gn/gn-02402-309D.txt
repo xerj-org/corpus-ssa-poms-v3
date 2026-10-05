@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02402.309 - Coding United Kingdom (U.K.) Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402309 (fetched 2026-10-04)
+
+D. Description of U.K. IDD bank data
+U.K. bank data consists of the following:
+•
+Bank Sorting Code Number (branch number): 6 digits.
+•
+Bank Account Number: up to 8 digits. If the Bank Account Number contains fewer than
+8 digits, enough zeros must be coded in front of the Bank Account Number to make 8
+digits.
+•
+Type of account: 1 digit:
+–
+Checking Account = 0, and
+–
+Savings account = 1.
+If the type of account is not known, a zero should be used.
+Building society savings accounts require a roll or reference number (in addition
+to the Bank Sorting Code Number and Bank Account Number) that cannot be coded in SSA's
+systems. Therefore, IDD cannot be accomplished to building society savings accounts.
+IDD can be accomplished to checking accounts in building societies. A building society may not be easily identified as
+such by its name, which may or may not contain the words “building society.” The beneficiary
+may not be aware that the FI is a building society. Some building society savings
+accounts contain letters in the account number. All other accounts, including checking
+accounts in building societies, contain only digits.

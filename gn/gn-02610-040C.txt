@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - GN 02610.040 - How To Manually Compute Title II Offset For Both Members of An SSI Couple Simultaneously
+Effective Dates: 08/16/2023 - Present | TN 33 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610040 (fetched 2026-10-04)
+
+C. Procedure
+To compute the title II offset for each member of the couple, the FO must:
+STEP
+ACTION
+IN THE EXAMPLE B. ABOVE
+1
+Determine the offset period.
+Begins 01/89
+Ends 06/89
+​
+​
+2
+Determine the total retroactive title II due each member in the offset period.
+John -
+$ 750.00
+​
+Ann -
+Total
+$2,400.00
+$3,150.00
+​
+3
+Enter monthly title II benefits for each month of the offset period on a separate
+SSA-4968 for each member using couple's SSI rates where applicable.
+​
+​
+​
+4
+Compute SSI that is due for each month counting the title II benefits paid when due.
+​
+​
+​
+5
+Subtract results of step 4 from the SSI that was due on the SSR (SSID FAM) for each
+month.
+John -
+$ 368 x 4
+= $1,472.00
+Ann -
+$ 185 x 4
+= $ 740.00
+$2,212.00
+RESULT: This amount is the offset amount. (FOA)
+NOTE:
+None of the SSI would have been due if the title II had been paid when due.
+6
+Enter FOA on a single SSA-4346- U2.
+$2,212.00
+​
+•
+Use column 2 if title II is disability
+•
+Use column 3 if title II is RSI
+​
+​
+​
+7
+Follow steps 5 and 6 to compute the State offset amount if a State supplementation
+is involved.
+​
+​
+​
+8
+Enter results in column 4 or 5 on SSA-4346-U2 following rules in step 6.
+​
+​
+​
+9
+Determine each individual's prorated share of the total retroactive title II due by
+dividing each person's retroactive title II benefits by the total.
+Ann =
+2400
+3150
+​
+John =
+750
+3150
+​
+10
+Multiply each member's prorated share of the retroactive title II benefits by the
+offset amount. (Round to the nearest 1¢ )
+John =
+750
+3150
+x 2212 =$526.67
+Ann =
+2400
+3150
+x 2212 = $1685.33
+11
+Subtract results of step 9 from each individual's retroactive title II benefits (See
+GN 02610.041.)
+John =
+$ 750.00
+- 526.67
+223.33 NCI
+​
+Ann =
+$2400.00
+-1685.00
+714.67 NCI
+​
+12
+Complete Section II of the SSA- 4345-U2. Prepare two forms when both members are entitled
+on the same title II claim and annotate “Couple's case - offset prorated.”
+Block A 01/89 - 06/89
+Block B RSI $2212.00
+Block C NCI = $938.00
+​
+13
+Post offset results to SSR. If unable to post or PC initiated the request for the
+computation,
+•
+Call PC with offset results.
+•
+Send original worksheets to the PC annotated “prong
+file.”
+​
+​
+​
+14
+The PC will:
+•
+Record the data from Section II of SSA-4345-U2.
+•
+Post data to the MBR.
+•
+Subtract offset from the retroactive title II benefits.
+•
+Subtract any collectible SSI overpayment - see SI 02220.021.
+•
+Release any remaining title II benefits due each member.
+​
+​
+​

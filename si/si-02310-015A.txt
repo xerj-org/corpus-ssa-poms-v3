@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - SI 02310.015 - Savings Security Instrument Match (SB Diary)
+Effective Dates: 09/18/2026 - Present | TN 76 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310015 (fetched 2026-10-04)
+
+A. Description of match
+This match detects ownership of savings security instruments (including U.S. Saving
+Bonds) by SSI recipients and deemors. This change in terminology is consistent with
+that now used by the Bureau of the Fiscal Service (BFS). Savings securities can be
+either definitive records (paper bonds) or book entry (electronic records).
+1. Comparison
+The match compares SSI records in current pay and force due status with a payment
+greater than zero against BFS's savings security registration file. The match identifies
+currently owned series E and EE instruments issued after December 1973 and series
+I instruments which were first issued in September 1998.
+2. Frequency of Match
+For several years, SSA conducted a yearly computer match with BFS. The match was conducted
+in August of each year with alerts posted to the supplemental security record (SSR)
+in September and set on the Post Entitlement Operational Data Store (PE ODS) system
+in October.
+Beginning in 1998, a second match was conducted in February of each year, with alerts
+posted to the SSR in March and set on PE ODS in April. Having the savings security
+match conducted every 6 months corresponds to BFS's schedule of updating the redemption
+value for savings security instruments (May through October and November through April)
+and provides SSA with more current data.
+3. Generation of Alerts
+The system generates an SB alert, controlled by PE ODS, for records in which the total
+redemption amount for all individuals on the record (eligibles and ineligibles) equals
+or exceeds $1,000 and was not alerted in the prior two matches.
+Example 1:
+10/97
+4/98
+10/98
+4/99
+10/99
+No Alert
+Alert
+No Alert
+No Alert
+Alert
+Example 2:
+10/97
+4/98
+10/98
+4/99
+10/99
+Alert
+No Alert
+No Alert
+Alert
+No Alert

@@ -1,0 +1,577 @@
+SSA Program Operations Manual System (POMS) - GN 02613.875 - Title XVI Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613875 (fetched 2026-10-04)
+
+A. Title XVI (T16) post-2006 Martinez settlement relief processing - reinstatements
+T16 class members may be entitled for reinstatement, reopening and adjudication of
+a previously denied claim or appeal, or both. This section provides reinstatement
+processing instructions only for T16 post-2006 class members. Systems selected these
+cases using a wide range of criteria. For instructions on how to complete actions
+on all selected cases, see GN 02613.875A.3. through GN 02613.875A.7. in this section.
+If an individual is in N25 January 1, 2007 or later, we will reinstate Supplemental
+Security Income (SSI) payments back to the first fugitive felon suspension month that
+is in a period of N25. Use the following information as guidance when processing these
+cases:
+•
+In instances where the suspension or denial period includes consecutive months prior
+to and after January 1, 2007, reinstate payments back to the beginning of the suspension
+period, after considering all other income/resource/living arrangement factors and
+subsequent unfavorable medical decisions. See example 2 in this section.
+•
+If an individual filed a new initial claim after their record terminated due to N25
+suspension, and the claim is still pending in the Field Office (FO) or at the Disability
+Determination Service (DDS), see instructions in GN 02613.875A.1., in this section.
+•
+If an individual filed a new initial claim after their record terminated due to N25
+suspension, and DDS denied the new initial claim for a medical reason, refer the case
+to DDS for a decision to vacate the subsequent medical determination following instructions
+in DI 52520.005C.1.b.
+•
+For cases where we provided a closed period of Martinez relief prior to the subsequent
+medical denial, complete an unscheduled RZ beginning with the first month after the
+closed period to the present. Refer the claim to DDS to vacate the subsequent medical
+denial determination following instructions beginning with DI 52520.005C.1.b, 2nd bullet.
+•
+If an individual filed a new initial claim after their record terminated due to N25
+suspension and the FO denied the claim for a non-Martinez technical issue, pay only
+those months from the beginning of the N25 period through the month prior to the application
+month of the denied initial claim.
+•
+In instances where the suspension or denial action occurred on or after January 1,
+2007, but the suspension or denial was for a closed period with all months occurring
+prior to January 1, 2007, reinstatement can also occur.
+•
+You need to review all prior Supplemental Security Records (SSRs) in order to determine
+the earliest eligible suspension month.
+•
+Do not apply the rules of Administrative Finality to prevent delivery of Martinez
+relief.
+•
+If you have a case where the recipient is currently incarcerated (PSY N22), do not
+work the case. Annotate the SSR with the following statement Apply Martinez relief when released from incarceration. Forward the individuals name and SSN to the court case Outlook email address at ^Martinez
+Settlement. Annotate the SUBJ line: PRISONER. Input CG code NMRG to the SSR via the MSSICS CMSC screen or 1719 input. This CG
+code identifies cases that, in accordance with GN 02613.875, are not eligible for relief (or that we cannot presently process for relief). NOTE: If the recipient is no longer incarcerated, provide Martinez relief, even if you
+have forwarded the case to the mailbox.
+Example:
+A recipient has a warrant and could be eligible for Martinez relief based upon a suspension
+period that includes January 2007. The warrant period began in 10/06 and ended in
+02/07. In this case, we will reinstate benefits back to 10/06.
+Month and Year
+Eligible Warrant
+8/06
+9/06
+10/06
+X
+11/06
+X
+12/06
+X
+1/07
+X
+2/07
+X
+3/07
+4/07
+For instances where a suspension has occurred and there is an overpayment on the record,
+the reinstatement of the recipient back to the first suspension date will effectively
+remove any outstanding fugitive felon overpayment balance. You may have to balance
+the overpayment sequences. For additional information on balancing overpayment sequences,
+see SM 01311.390, How to Balance Sequences to Prevent Excess Decisions.
+In situations where the person had received an overpayment notice and had repaid benefits,
+and the record is in current payment status, the system will automatically release
+any collected overpayment amounts.
+Because many of the suspensions or overpayments are on terminated records, the system
+will not be able to automatically compute the amount that is due. In these situations,
+you will have to manually compute and issue a one-time payment to release any previously-collected
+overpayments or payments due for a period of reinstatement.
+For situations where a prior overpayment existed and the uncollected overpayment was
+waived, you must take appropriate action so that the same funds are not paid again
+(person would receive money twice for the same period of time.)
+For all instances where Martinez relief is due, release the funds in the following
+priority order:
+1.
+Apply the amounts to any outstanding Interim Assistance Reimbursement (IAR) agreements.
+2.
+Apply the amounts to any attorney fees that may be due.
+3.
+Apply remaining funds to any outstanding overpayments caused by a suspension other
+than for fugitive felon status.
+4.
+Release any remaining underpayment, subject to installment processing and any other
+applicable underpayment priority.
+For underpayment priority, see SI 02101.001B.4.
+1. General information--redetermination (RZ) processing and other actions
+Use the following procedure to complete a RZ review for all cases prior to reinstatement
+of payments. Send all class members, including those needing to file a new application,
+the redetermination notice that contains plaintiff-approved Martinez notification
+information and close-out time frames. A face to face RZ is not required, consider
+telephone appointments as much as possible. Depending upon the current payment status
+code, actions in addition to or other than an RZ may be required as explained in GN 02613.875A.3 through GN 02613.875A.7 in this section.
+If an individual filed a new initial claim after their record terminated due to N25
+suspension, and the claim is still pending in the Field Office (FO) or at the Disability
+Determination Service (DDS), use the following as guidance:
+•
+If it is to the claimants advantage (for example: after completing the redetermination
+you realize the claimant would be entitled through the period of the new application)
+and the recipient elects to withdraw the new application, follow instructions in SI 00601.050.
+•
+Once the claimant withdraws the pending SSI application and the claim is still at
+DDS, recall the pending disability case following instructions in DI 23015.001.
+•
+Post the withdrawal to the current record (PSY N12), terminate the record, and complete
+an RZ back to the earliest N25 suspension period. Start date the record the following
+day with the appropriate start date month.
+•
+If the recipient does not wish to withdraw the new application, treat the Martinez
+relief period as a closed period. Manually compute the payment due and follow the
+instructions in GN 02613.875A to determine the priority order for release of the underpayment.
+•
+If you initiate a Martinez RZ and the recipient does not cooperate with your requests
+for evidence, follow procedures in SI 02301.235 for records in pay statuses other than T50, T51, H70, and T01. For records in pay
+status H70, do not place in N20. Input NMRG in the CG field, which alerts systems
+to remove the pending RZ.
+•
+For cases that require a DDS determination for a reopened technically denied claim,
+a previous medical allowance with a subsequent medical denial, or an age 18 disability
+redetermination, follow instructions in DI 52520.005.
+a. Initial Steps
+•
+Obtain an SSR for every record to determine the period of N25 suspension for each
+warrant.
+•
+Refer the case to the ^Martinez Settlement mailbox with the Subject CATS to find out
+whether a recipient is listed as an F4 or F6 class member in the Civil Action Tracking
+System (CATS). A return email from the ^Martinez Settlement mailbox will provide the
+correct CCID code. CATS is no longer available to technicians based on changes made
+by the Office of General Counsel (OGC). Only Central Office staff has access to the
+information on the Martinez CATS records.
+•
+Use the following chart to analyze the offense codes for each warrant on the FFSCF Database (See MSOM PRISON 001.002):
+Offense Code
+Offense Charge Symbol
+ACTION
+4901, 4902, 4999
+FELONY
+Martinez relief does not apply
+•
+Title XVI cases No RZ is necessary. Input CG code NMRG to the SSR via the MSSICS CMSC screen or 1719
+input.
+•
+Concurrent cases - process following GN 02613.001 GN 02613.780.
+Blank OR 9999 OR 5011, 5012, 8101, 8102
+PROBATION OR PAROLE
+Martinez relief does not apply
+•
+Title XVI cases No RZ is necessary. Input CG code NMRG to the SSR via the MSSICS CMSC
+screen or 1719 input
+•
+Concurrent cases process following GN 02613.001 GN 02613.780
+Any other offense code (See GN 02613.900) OR Blank OR 9999
+FELONY
+Martinez relief applies
+For title XVI cases, process:
+•
+Post-2006 following GN 02613.875A.1.b
+•
+Pre-2007 following GN 02613.880
+For concurrent cases, process:
+•
+Post-2006 following GN 02613.865
+•
+Pre-2007 following GN 02613.868
+b. Reviewing Warrant Periods
+If there are overlapping periods for warrants, and one of the warrants is for a code
+4901, 4902, 4999, 5011, 5012, 8101, or 8102 that warrant takes precedence and Martinez
+relief is not provided for any of those N25 suspension months. See Example 3 at the
+end of this chart.
+Determine the period of post-2006 relief in multiple warrant cases by following the
+chart below:
+IF EARLIEST OF ALL QUALIFYING WARRANT PERIODS
+AND N25 MONTHS ARE
+THEN COMPLETE AN RZ
+Begins January 1, 2007 or any later month
+01/2007 or later
+Starting with the earliest N25 month
+Begins PRIOR to January 1, 2007 and continues through January 2007 or later
+Continuous from a date prior to 01/2007 through 01/2007 or later
+Beginning with the first month of N25. See example 2 in GN 02613.875 A in this section
+Begins and ends prior to January 1, 2007 and a separate warrant period begins after
+December 31, 2006, (there is no continuous or overlapping warrant from pre 2007 to
+post 2006)
+Not continuous from a date prior to 01/2007 through 01/2007 or later
+For the N25 months on or after 01/01/07. See example 3 in GN 02613.875A in this section.
+Begins and ends prior to 2007
+AND
+No appeal filed
+12/2006 or before
+No Martinez RZ is necessary recipient does not qualify for post-2006 relief
+Martinez warrants for periods before January 1, 2007 are included in the pre-2007
+relief group. See warrant 2, example 3 in GN 002613.875A in this section.
+Begins and ends prior to 2007
+AND
+Appeal filed with RSN of blank,OTH, OP, or WA.
+AND
+Development shows N25 suspension was appealed
+AND
+DISP date is 01/01/2007 or later
+Any
+Starting with the earliest N25 month
+Example 3:
+In the chart below, the recipient has 3 warrants listed in FFSCF. Warrant 1 has a
+felony offense code of 4901 for the period 11/06 through 2/07. Warrant 2 has an offense
+code 1299 and covers the period 10/06 through 12/06. Warrant 3 has an offense code
+2299 and covers the period 02/07 through 04/07.
+The recipient is not eligible for Martinez relief 11/06 through 02/07 because warrant
+1 is for a flight or escape offense.
+The recipient is not eligible for Martinez relief 10/06 through 12/06 because that
+period is not part of the post 2006 Martinez relief.
+The recipient is eligible for Martinez relief 3/07 forward, and an RZ should be conducted
+for all N25 months.
+Month and Year - PSY
+Warrant 1
+Offense Code
+Warrant 2
+Offense Code
+Warrant 3
+Offense Code
+10/06 N25
+1299
+11/06 N25
+4901
+1299
+12/06 N25
+4901
+1299
+1/07 N25
+4901
+2/07 N25
+4901
+2299
+3/07 N25
+2299
+4/07 N25
+2299
+c. Coding Fugitive Felon System Control File (FFSCF)
+To ensure that we do not erroneously select Martinez warrants in the future, you MUST
+enter the Martinez court decision on the warrant(s) in the Fugitive Felon System Control
+File (FFSCF), the Fugitive Felon Automated Process (FFAP), and MSSICS. It is important
+to update the FFSCF because it is the control file used for the settlement agreement.
+To enter the Martinez court decision in FFSCF, proceed as follows:
+•
+Access FFSCF from the SSA main menu, by following instructions in MSOM PRISON 001.002.
+•
+On the FFDG (Fugitive Felon Warrant Due Process/Good Cause) screen within the FFSCF
+enter CRT as the Good Cause reason and use the decision date of 09/24/2009 (Martinez settlement
+agreement date.) In the remarks section, enter Martinez Settlement.
+•
+For FFDG inputs, see MSOM PRISON 006.007.
+To enter the Martinez court decision in FFAP, proceed as follows:
+•
+On the Good Cause Screen in FFAP, document that Martinez relief was granted to the
+case by entering the CRT code.
+To enter the Martinez court decision in MSSICS, proceed as follows:
+•
+On the Felony Warrant (AWRF) screen, enter N for Warrant Selected/Issued in Error.
+Information on the AWRF screen can be found in MSOM MSSICS 008.023.
+•
+In the Good Cause field, enter 1 to show good cause was established.
+d. Exceptions
+After querying the class member and entering the Martinez court decision in FFSCF,
+MSSICS, and FFAP, follow RZ processing procedures found in SI 02305.000, Redeterminations of Eligibility and Payment Amount, with the following processing
+exceptions:
+•
+For Martinez cases, we are providing the recipient 60 days to contact us from the
+issuance date of the appointment notice. Send one follow up notice after 15 days if
+the recipient does not respond. The follow up notice does not contain Martinez language.
+If the recipient does not respond at the end of the 60 days, actions on what to do
+next are included in the procedures for each payment status code as listed in GN 02613.875A.3, GN 02613.875A.4 and GN 02613.875A.5., in these sections.
+•
+Even though the record may show a completed RZ for the period in which Martinez relief
+might apply, complete an RZ for all N25 months when you determine eligibility for
+Martinez relief.
+•
+Administrative Finality rules do not apply to Martinez RZ relief processing.
+•
+If a record terminated for reasons other than fugitive felon (N25), do not consider
+Martinez relief for any payment status period other than N25. Complete the RZ for
+the N25 period only and pay any retroactive payments according to normal A-OTP procedures.
+There may be cases where a termination processed with less than 12 months of N25 (e.g.
+N01 for 4 months, N25 for 8 months). In these situations, fully develop eligibility
+for each month from the earliest point of Martinez relief forward. If development
+reveals 12 consecutive months of ineligibility for reasons other than N25 conduct
+an RZ only for the applicable closed period. If the claimant alleges a current disability,
+take a new claim under normal procedures. To determine the correct application date
+follow GN 00204.007.
+2. Preparing the Martinez redetermination (RZ) appointment notice
+a.
+Prepare an appointment letter using Starz & Stripes the Next Generation (SSTNG) and:
+•
+On the Letter Options screen, select RZ/LI Interview/Forms and then select First Request,
+and
+•
+On the Initial Fill-Ins screen, Status will automatically identify the case as a Martinez
+Court Case.
+b.
+SSTNG will automatically include the Martinez settlement language in the appointment
+letter. The language provides the recipient with the details of the settlement and
+the kind of relief that we may provide. It also provides the 60 day closeout language.
+c.
+If additional assistance is needed using the SSTNG system, review the Help feature
+for guidance.
+3. Redeterminations (RZ) for records in a hold payment status code of H70
+Previously terminated (T31 andT33) records already have been start dated and placed
+into payment status (PSY) H70 to identify the case as eligible for Martinez relief.
+Review the H70 record for the correct start date month and budget month. If you determine
+that the start date or budget month is incorrect on the H70 record terminate the record
+through direct SSR update. See SM 01801.110 and SM 01801.001. The following day establish
+the new Start Date record with a 450S input using the appropriate start date and budget
+month information to ensure that appropriate Martinez relief is provided. Take the
+following action to process these cases:
+a.
+If the class member responds to the Martinez appointment notice, conduct the RZ and
+proceed as follows. After you complete the Martinez RZ, you must take a manual action
+to pay these cases and post any additional data necessary to effectuate correct payment
+by using either an SSA-450-SI (SSI Data Input and Determination) or an SSA-1719-B
+(SSI Post eligibility Input). See SM sections listed below for specific instructions
+on when to use each form.
+•
+Complete an SSA-450-SI (SSI Data Input and Determination) PR9 for initial claims to
+correct, add or delete data fields on the SSR without transmission of an entire SSA-450-SI
+(SSI Data Input and Determination). Additional information on the SSA-450-SI (SSI
+Data Input and Determination) can be found in SM 01000.000, SM 01005.000, and SM 01010.000;
+or
+•
+Complete an SSA-1719-B (SSI Post eligibility Input) to update post-eligibility data
+on the SSR. Additional information on the SSA-1719-B is found in SM 01301.000 and
+SM 01305.000.
+•
+Transmit an SSA-450-SI (SSI Data Input and Determination) PR9 or SSA-1719-B (SSI Post
+eligibility Input) input by selecting #15 (SSI Data Inputs) from the Main Menu. Select
+the type of input from the Title XVI Menu (SXVI). For additional information on the
+SXVI screen, see MSOM T16INPUTS 001.002.
+b.
+Make sure that your SSA-1719-B (SSI Post eligibility Input) or SSA-450-SI (SSI Data
+Input and Determination) input removes the payment status code of H70 and reflects
+the correct payment status that should have applied to the record before termination
+for fugitive felon reasons.
+c.
+If there is an overpayment on a terminated record, see instructions in GN 02613.875B in this section.
+d.
+If the appointment notice is returned by the post office, follow the normal procedure
+to locate the person SI 02301.240C. (DO NOT place any of these Martinez cases in PSY S06.)
+e.
+If the recipient does not respond within 60 days, leave the record in H70 payment
+status. After attempts to locate the recipient under normal rules, document all attempts
+to locate the recipient by inserting the following message in the remarks section
+in SSTNG and on the SSR, Martinez Settlement Non-Responder. If there is a B9 overpayment
+diary pending, which was created with the establishment of the start date H70 record
+for Martinez, overlay the D-TAC with the applicable TAC code (G TAC for SSI-only records,
+K-TAC for concurrent records for which cross-program recovery is applicable, etc.)
+to remove the diary. No additional actions are necessary.
+NOTE: Systems has already included the following remark on the SSR that identifies these
+cases: Start Dated for Martinez Post 06 Group. Do not overlay this existing remark
+with a new remark.
+f.
+If a recipient responds after the 60 day period, consider good cause for not responding
+based on new or material evidence provided by the recipient per GN 04010.030, Reopenings New and Material Evidence.
+If you find good cause:
+•
+Conduct the RZ review and follow the instructions In GN 02613.875A.3 in this section.
+If you do not find good cause:
+•
+Add the following remark to the SSR, Good Cause For Not Responding Requested xx/xx/xxxx
+but not found.
+•
+Treat the request for good cause as a request for a new application per GN 00204.010.
+•
+Send the recipient an SSA-8165-U2 (SSI Notice of Decision) explaining why we do not
+find good cause, but that we can consider the request for good cause as protective
+filing for a new application. In accordance with normal rules, the good cause notice
+will contain appeal rights since this is an initial determination.
+•
+Also include an SSA-L991 (SSI Informal Denial Notice) located in the Document Processing
+System (DPS) to close out the protective writing.
+4. Redeterminations (RZ) for records in payment status code of T01
+Certain parties may potentially be entitled to Martinez relief underpayments due on
+the accounts of deceased class members (payment status T01). Follow normal processing
+instructions in SI 02101.003.
+NOTE: If there is no potential party eligible for the underpayment, take no action on
+the RZ. Add the following Special Message to the SSR: Not eligible for post-2006 Martinez
+Relief as no RZ is necessary. Input CG code NMRG to the SSR via the MSSICS CMSC screen
+or 1719 input. This CG code identifies cases that, in accordance with GN 02613.875, are not eligible for relief (or that we cannot presently process for relief).
+5. Redeterminations (RZ) for records in payment status code other than H70, T01, T50,
+or T51 (T50 and T51 instructions are in GN02613.875A.6.)
+These records can be in pay status C01, or in any number of other non-pay status codes.
+For guidance on identifying the Martinez period, refer to GN 02613.875A.1.a in this section. Take the following steps to complete the RZ:
+a.
+Start the review period with the earliest period of N25 pay status through the present.
+For processing reinstatements, see GN 02613.875A in this section.
+b.
+If there is an overpayment on a prior record, follow instructions in GN 02613.875B in this section.
+c.
+If there is a pending Martinez-related reconsideration on the record based on a fugitive
+felon issue, take the following action to update the SSR record:
+•
+For MSSICS cases, from the MSSI menu, select 2 (Update) and 9 (Appeals).
+On the ADIS screen, input the Decision Type as the Other Disposition Type and select 3 (Closed for Other Reason).
+•
+For non-MSSICS cases, from the MSSI menu, select 2 (Update) and 19 (Direct SSR Update).
+On the UAPD screen, input the Decision Type as Other Disposition Type and select 8
+(Closed for Other Reason).
+•
+Input the following message on the SSR - Martinez Settlement Relief Processing.
+d.
+If there is a pending hearing request on the SSR based on fugitive felon issue, see
+GN 02613.875E in this section.
+e.
+Non-Responders to RZ appointment letters for records in pay status other than T50,
+T51, H70, and T01.
+•
+If, after sending the 15-day follow-up notice, a recipient still does not respond
+within 60 days of the issuance date of the appointment notice, place the record into
+pay status N20, Failure to Cooperate, if it is in a pay status code that can be overlaid
+with N20. For pay status overlay chart, see SM 01305.001H. If the pay status cannot
+be overlaid with N20 (e.g., N07), annotate the SSR with the remark, Martinez Settlement
+Non-Responder. For those cases which cannot be overlaid with pay status N20, input
+CG code NMRG to the SSR via the MSSICS CMSC screen or 1719 input. This CG code identifies
+cases that, in accordance with GN 02613.875, are not eligible for relief (or that we cannot presently process for relief).
+•
+If, after placing the record into pay status N20, the recipient contacts SSA, develop
+the reason for not responding to our initial appointment and follow-up letters, i.e.,
+out of the country, new address, etc. If the recipient responds they do not wish to
+pursue Martinez relief, complete the RZ following normal procedures up through the
+current period and annotate the SSR with the following message: Recipient does not
+wish to pursue Martinez relief. Additional information on the RZ review period is
+found in SI 02305.034.
+•
+If the recipient does not respond or the appointment notice is returned by the post
+office follow the normal procedure to locate the person SI 02301.240C. Document the attempts in MSSICS by annotating the SSR with Martinez Settlement Non-Responder.
+In non-MSSICS cases, annotate the SSR with the same remark. For those cases which
+cannot be overlaid with pay status S06, input CG code NMRG to the SSR via the MSSICS
+CMSC screen or 1719 input. This CG code identifies cases that, in accordance with
+GN 02613.875, are not eligible for relief (or that we cannot presently process for relief).
+f.
+If a recipient responds after the 60-day period, consider good cause for not responding
+based on new or material evidence provided by the recipient per GN 04010.030, Reopenings New and Material Evidence.
+If you find good cause:
+•
+Conduct the RZ review and follow the instructions In GN 02613.875A.5 in this section.
+If you do not find good cause:
+•
+Add the following remark to the SSR-Good Cause For Not Responding Requested xx/xx/xxxx
+but not found.
+•
+If the record is terminated, treat the request for good cause as a request for a new
+application per GN 00204.010.
+•
+Send the recipient an SSA-8165-U2 (SSI Notice of Decision) explaining why you do not
+find good cause. If the record is terminated, also include that we can consider the
+request for good cause as protective filing for a new application. In accordance with
+normal rules, the good cause notice will contain appeal rights since this is an initial
+determination. If you are providing protective filing for a new claim on the SSA-8165-U2,
+include an SSA-L991 (SSI Informal Denial Notice) to close out the protective writing.
+6. Processing title XVI (T16) post-2006 Martinez class members records in payment status
+code of T50 or T51
+Because of the systems characteristics of these cases, they are not on SSTNG. We have
+agreed to issue an RZ Martinez appointment notice as the official notification of
+the Martinez relief per the settlement agreement. Since a record with a current Payment
+Status (PSY) code of T50 or T51 will likely require an initial application and medical
+determination, take the following action:
+a.
+Review the prior record(s) to determine if there is any period(s) of fugitive felon
+(N25) suspension.
+b.
+If there is a prior record in T31 or T33, verify if the suspension on that record
+was due to fugitive felon (N25). If a T31 or T33 based upon fugitive felon does exist,
+and it is within the Martinez period of relief with a fugitive felon suspension or
+denial after 2006 unless GN 02613.875E NOTE applies, complete an RZ and follow the procedures as listed in GN 02613.875A.3. in this section.
+c.
+If there is a prior record in T31 or T33 and the prior termination was not due to
+fugitive felon (N25), proceed to e.
+d.
+If there is no prior record having a T31 or T33 status, proceed to e.
+e.
+Verify that the warrant offense code is other than 4901, 4902, 4999, 5011, 5012, 8101,
+or 8102.
+f.
+Go to Document Processing System (DPS) and select the Martinez RZ appointment, located
+in the Post Entitlement folder and titled Martinez T16 Redetermination Letter. Provide
+the recipient 60 days from the issuance date of the appointment notice to contact
+us. Send the person an Adult Disability Starter Kit along with the Martinez RZ letter.
+g.
+If a response is received within the 60 day period, follow procedures for filing an
+initial claim based on the following information:
+•
+The protective filing date for the claim is the protective filing date of the previous
+claim that was denied due to a fugitive felon warrant. On the CMSC screen in MSSICS,
+select option 1 for the reason the protective filing date is over 90 days old. If
+this is a MSSICS exclusion, when you complete the AP field on the SSA-450SI, make
+sure to use code A after the application date.
+•
+If there is an overpayment on a prior record which was not related to fugitive felon,
+follow instructions in GN 02613.875B in this section.
+•
+When processing new applications, place ZZZ in the first three positions of the unit
+field for identifying Martinez cases and to exclude from processing time statistics.
+Send the case to DDS for a medical determination per instructions in DI 52520.005C.1.a.
+h.
+If the recipient does not respond, issue a manual SSA-L991, located in the Document
+Processing System (DPS). If the appointment notice is returned by the post office,
+follow the normal procedure to locate the person SI 02301.240C. (DO NOT place any of these Martinez cases in PSY S06.) After 60 days have lapsed
+since the Martinez RZ appointment letter was mailed and you have not located the person,
+stop development. Since these cases are T50 or T51, we cannot add a remark to the
+SSR documenting a Martinez non-responder case. To verify that we released the Martinez
+RZ appointment notice and the SSA-L991, access the Online Retrieval System (ORS).
+i.
+If a recipient responds after the 60 day period, consider good cause for not responding
+based on new or material evidence provided by the recipient per GN 04010.030 Reopenings New and Material Evidence.
+If you find good cause:
+•
+Conduct the interview review and follow the instructions In GN 02613.875A.6. in this section.
+If you do not find good cause:
+•
+Treat the request for good cause as a request for a new application per GN 00204.010.
+•
+Send the recipient an SSA-8165-U2 (SSI Notice of Decision) located in the Document
+Processing System (DPS) explaining why you do not find good cause, but that we can
+consider the request for good cause as protective filing for a new application. In
+accordance with normal rules, the good cause notice will contain appeal rights since
+this is an initial determination. Also, include an SSA-L991 (SSI Informal Denial Notice)
+located in DPS to close out the protective writing.
+NOTE: If the T50 or T51 record terminated due to N25 pay status and the record shows a
+posted medical allowance, do not take a new initial claim and do not request a new
+medical determination. Reopen the application and complete an RZ back to the earliest
+N25 period covered by the post-2006 relief.
+7. Redeterminations (RZ) in concurrent cases
+If a concurrent case exists, the Title II (T2) Martinez post-2006 retroactive relief
+payments should have been released by automatic reinstatements that occurred in December
+2009. Review the master beneficiary record (MBR) to verify that the record is in current
+pay status (LAF C). Take the following action based on your review of the MBR:
+a.
+If the MBR shows current pay status, complete the RZ back to the first month of N25
+suspension eligible for Martinez relief. Post the T2 retroactive income as UM type
+A for each month of the retroactive period. No interface will occur for this action.
+b.
+If the MBR is not in pay, contains a special message indicating post-2006 Martinez
+relief, and a PCACS or the Evidence Portal (EP) shows there is an exception to the
+automated T2 processing which requires manual reinstatement by the processing service
+center (PSC), still complete the RZ back to the first month of N25 suspension. Before
+you clear the RZ:
+•
+Place a U TAC on the SSR to hold the T16 underpayment.
+•
+Control the T16 case until the PC clears the T2 case.
+Once the MBR is in current pay:
+•
+Post the T2 retroactive income in the UM field as type A income for each month of
+the retroactive period. (This will readjust the T16 underpayment.)
+•
+Release the T16 underpayment by removing the U TAC. (Prior to releasing any T16 underpayment,
+pay any outstanding Interim Assistance Reimbursement (IAR) agreements and attorney
+fees that may be due, or offset any non-fugitive felon overpayment which may also
+exist. The remaining underpayment is subject to installment processing and any other
+applicable underpayment priority.)
+c.
+If the MBR is not in pay, contains a special message indicating post-2006 Martinez
+relief, and there is no PCACS or EP, send an MDW to alert the servicing PSC of Martinez
+post-2006 relief. Instructions on how to proceed are in GN 02613.875A.7.b in this section.

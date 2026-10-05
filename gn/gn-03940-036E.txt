@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 03940.036 - Fee Agreement Process - Field Office (FO) and Processing Center (PC) Procedures - Partial Adjudication Involving Deferred Development, Including Workers' Compensation (WC) or Public Disability Benefit (PDB) Information
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940036 (fetched 2026-10-04)
+
+E. PC Actions – DOFA and NON-DOFA Claims
+In DOFA and Non-DOFA claims (see GN 01010.027), including Administrative Law Judge (ALJ) or Appeals Council decision claims, the
+PC will take the following actions when the fee authorization cannot be released when
+the claim is effectuated:
+1. Modernized Claims System (MCS) Actions
+•
+Enter Fee Agreement Type (FAT) - 3 (Undecided) on NOT2 screen;
+•
+Designate an incomplete notice (e.g., enter “Y” in answer to the INCOMPLETE item of
+the NOT3 screen) (see MSOM MCS 009.010 for coding of the NOT3);
+•
+Delete the fee agreement paragraphs. Request the appropriate fee agreement approval
+paragraph (MCS EC ATY800 or ATY801);
+•
+Use the appropriate “neutral” language paragraph to address the representative's fee.
+See GN 03940.075 for paragraphs A and B;
+•
+Enter the appropriate Single Payment System (SPS) issue code (SM 00834.100, MCS Interface
+to SPS, DIT Section 18-E Development Worksheet); and
+•
+Annotate the special message field (see MSOM T2PE 007.008 for instructions on completing
+the special message field) as follows: “Fee determination awaiting correct [WC/PDB
+rates or POA, etc.].”
+2. Manual Award Actions (A101, EF101)
+•
+Enter Fee Agreement Type (FAT) U (Undecided) in Item 11;
+•
+Provide the fee agreement approval paragraphs (ATY800, ATY801) and the appropriate
+neutral language paragraph (See GN 03940.075 and NL 00720.050 for paragraphs);
+•
+Enter the appropriate SPS Issue Code (SM 00834.100, MCS Interface to SPS, DIT Section
+18-E Development Worksheet) on the MCS DW01 screen;
+•
+Annotate the special message field (see MSOM T2PE 007.008 for instructions on completing
+the special message field) as follows: “Fee determination awaiting correct [WC/PDB
+rates or POA, etc]”.
+3. Manual Adjustment Credit and Awards Data Entry (MACADE) Actions
+•
+Enter the appropriate Attorney Payment Indicator on the ATT screen.
+•
+Annotate the APPREP line with a Fee Type – U (undecided).

@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - DI 45001.326 - Processing ESRD Claims Involving Insured Status Based on Government Employment
+Effective Dates: 03/03/2025 - Present | TN 24 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001326 (fetched 2026-10-04)
+
+B. Case processing
+If insured status is met without considering GEQC’s the claim should be processed
+under regular ESRD procedures in DI 45001.313. If government employment was used to determine whether or not insured status was
+met, process in accordance with DI 45001.313 with the following additional considerations:
+1. Awards
+a.
+Complete Form SSA-892-U3 as outlined in HI 00801.308. If the claimant is the spouse or dependent child of the insured government employee,
+the government employee's SSN should be displayed in item 4 and his/her name in item
+6. Medicare entitlement will be established on the government employee's SSN followed
+by the appropriate government Medicare BIC. (See SM 00550.010.) Show “GEQC” in item
+39 (this entry will alert the adjudicators to the special SSN entry in item 4.)
+b.
+ESRD Medicare awards using GEQC's for insured status must be adjudicated using the
+government worker's SSN. Information for adjudicating ESRD Medicare claims based on
+government employment is in DI 11052.015.
+c.
+Prepare Form SSA-101-U3. NEW BICS have been established for government employee claims and they are listed in SM 00550.010.
+Entries in item 1 of the SSA-101-U3 will always refer to the government employee,
+even if he/she is not the ESRD claimant. Additionally, careful attention should be
+paid to the completion of the REQ QC, HAS QC, and MAR. ST. (TOA) blocks of item 2
+(TOA code should be “E”.) and to the coding of the benefit continuity factors in item
+7.
+d.
+The district office is responsible for assigning the paragraphs listed below. These
+paragraphs should be displayed under the claims symbol in item 12 of the SSA-101-U3,
+if space permits, or on an SSA-5002. Additionally, they should be sequenced in the
+order shown below.
+MM90:
+This paragraph with appropriate fill-in should be assigned if the ESRD claimant is
+a government employee.
+MM91:
+This paragraph with appropriate fill-ins should be assigned if the ESRD claimant is
+a spouse or dependent child of a Federal employee.
+MA01:
+This paragraph with appropriate fill-ins should be assigned if the proof of birth
+code in item 6 of the SSA-101-U3 is a “B,” “C,” “F,” or “Q.”
+MH16:
+This paragraph with appropriate fill-ins should be shown if the date of entitlement
+is based on transplant.
+MH17:
+This paragraph should be shown if the date of entitlement is based on dialysis. If
+the claimant participated in a self-care dialysis training program and development
+is currently being taken to determine if the facility is approved, this paragraph
+should be modified as follows: Delete the second sentence and replace with “The beginning
+date of the coverage does not take into account your participation in self-dialysis
+training. We will notify you later if your Medicare coverage can begin at an earlier
+date because of dialysis training.”
+MG09:
+This paragraph should be assigned in all cases.
+MG10:
+This paragraph should be assigned in all initial award situations.
+MG20:
+This paragraph should be assigned in all cases.
+Equitable Relief: If equitable relief applies, one of the paragraphs listed in DI 11052.015 should be included in the award notice.
+The above list is by no means all-inclusive. It may be necessary to request the paragraphs
+listed in DI 45001.313 B.5.b.
+e.
+Awards being made on a claim number which has a three-position BIC must be excluded
+from EAM. For such cases enter in the “Remarks” section of the SSA-3601: “Route to
+ODO Benefit Authorizer for processing.”
+2. Disallowances
+a.
+Whenever the claim for ESRD Medicare was filed based on Federal employment as indicated
+by the submission of an SSA-795 per HI 00801.440 B. along with the CMS-43, disallowed ESRD claims will be adjudicated on the Federal worker's SSN.
+b.
+Whenever the claim for ESRD Medicare was filed based on State or local government
+employment, disallowed ESRD claims will be adjudicated on the State or local worker's
+SSN.
+c.
+Follow the procedures in DI 45010.015 for processing the disallowance.

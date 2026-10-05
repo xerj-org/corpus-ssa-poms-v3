@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 81010.232 - Creating a Record for an Age 18 Disability Redetermination in the Electronic Disability Collect System (EDCS)
+Effective Dates: 03/02/2016 - Present | TN 72 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010232 (fetched 2026-10-04)
+
+B. Non-medical/MSSICS requirements
+CRs should refer to Field Office (FO) Procedures for Processing and Age-18 Redeterminations
+DI 13006.025, for proper processing procedures for Age 18 Redeterminations/Disability Reviews.
+When an eligible child attains age 18, the CR must show a living arrangement change
+using the date of age 18 attainment on the Living Arrangement Change (LCHG) screen
+in the Modernized SSI Claim System (MSSICS). Once the non-medical redetermination
+and living arrangement change have been established, the CR must do the following
+before transferring the eCDR in EDCS:
+•
+Ensure that the Type of Master Record (TMR) on the SSR changes from a child to an
+adult (e.g. to DI or BI) on the Simulated SSI Record (SSR), and
+•
+Query the SSID the following day to ensure the TMR field has been changed to a DI
+or a BI.
+NOTE: If the TMR is not changed from a child to an adult, the Age 18 Disability Redetermination
+cannot be transferred in EDCS. If the TMR has already been changed from a child to
+an adult, it is not necessary to complete a new non-medical redetermination unless
+a diary is due.

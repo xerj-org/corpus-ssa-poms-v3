@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 13010.037 - Trial Work Period (TWP) and Fraud Conviction
+Effective Dates: 01/03/2025 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010037 (fetched 2026-10-04)
+
+D. How to input TWP fraud months
+OCO SIB uses the disability control file (DCF) to record and effectuate the suspension
+of TWP fraud months. This process eliminates the need for a post-entitlement system
+(POS) input. The DCF initiates a T2 Redesign input that results in the suspension
+of disability benefits, and updates the master beneficiary record (MBR) for the TWP
+months that are not payable based on the fraud conviction. For more information on
+how TWP fraud months are posted to the MBR, see SM 00510.213 and SM 03005.285.
+Since the DCF generates a suspension action:
+•
+The field office (FO) or processing center (PC) should never initiate or change the
+DCF verified (VRFD) “F” coding for a TWP fraud determination.
+•
+OCO SIB inputs all DCF suspension or reinstatement coding for TWP fraud cases.
+•
+The FO or PC may process subsequent work actions on a TWP fraud case, as long as there
+is no change to the TWP fraud coding.
+You can use the eWork program to document the TWP and extended period of eligibility
+(EPE) SGA months; however, the process of coding the DCF to effectuate the suspension
+of the TWP fraud months is a manual process.

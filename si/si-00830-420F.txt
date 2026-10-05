@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - SI 00830.420 - Child Support Payments
+Effective Dates: 07/25/2016 - Present | TN 211 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830420 (fetched 2026-10-04)
+
+F. Procedure to code non-SSI Claims System claims
+1. Payment on behalf of an SSI child when payer is an absent parent
+Apply these procedures for a payment from an absent parent on behalf of an SSI child:
+•
+Enter the date and the full amount of cash child support payments to a child as type
+“N” unearned income in the UM field on the SSA-1719-B, (SSI Post Eligibility Data
+Input) or the SSA-450-SI (SSI Data Input and Determination). The system applies the
+one-third exclusion when performing the SSI payment computation.
+•
+For child-support payments that are ISM, first compute the amount of child support
+that is countable. For more information on food or shelter received as child support,
+see SI 00830.420B.2 in this section. Post the countable child support as type “H” income on the SSA-1719-B
+(SSI Posteligiblity Data Input) or SSA-450-SI (SSI Data Input and Determination).
+For more information on specific rules for in-kind support and maintenance (Type H)
+unearned income, see SM 01005.193.
+2. Payment from an absent parent on behalf of a deceased SSI child
+Post the full amount of the child support payments (including arrearages) to a parent
+or other person who received the payment on behalf of the deceased SSI child (and
+who receives SSI or is a deemor) as type “SS” unearned income in the UM field on the
+SSA-1719-B or SSA-450-SI. The one-third exclusion does not apply to these payments.
+Document, on a SSA-795, the payer’s signed statement that the income is from a child support payment or
+arrearage from a deceased SSI child and fax it into Electronic Disability Collect
+System (EDCS) or Non-Disability Repository for Evidentiary Documents (NDRed).
+3. Court-ordered payment on behalf of an SSI child when payer is NOT an absent parent
+Post the full amount of cash child support payments to the child as type “SS” unearned
+income in the UM field on the SSA-1719-B or SSA-450-SI. The one-third exclusion does not apply to these payments. For information
+on deeming and the income used to comply with a court order, see SI 01305.330.
+4. Court-ordered payment from parent who is not absent on behalf of a deceased SSI child
+Post the full amount of child support payments (including arrearages) as income to
+the parent or other person who received the payment on behalf of the deceased SSI
+child. Post the income as type “SS” unearned income in the UM field on the SSA-1719-B
+or SSA-450-SI. The one-third exclusion does not apply to these payments. Document
+the recipient’s signed statement that the income is from a child support payment or
+arrearage from a deceased SSI child on an SSA-795 and fax it into EDCS or NDRed.
+5. Payment on behalf of an adult child
+Apply these procedures for a payment on behalf of an adult child:
+•
+Enter the date and the full amount of cash child support payments (including arrearages
+received, if applicable) to an adult child as type “SS” unearned income in the UM
+field on the SSA-1719-B or SSA-450-SI. The one-third exclusion does not apply to an adult child.
+•
+Enter the date and any child support arrearage payments that are income (received
+June 1, 2002 or later) to a parent or other person who receives SSI as type “SS” unearned
+income in the UM field on the SSA-1719-B or SSA-450-SI.
+6. Payment on behalf of a deceased SSI adult child
+Enter the date and the full amount of the child support payments (including arrearages)
+to a parent or other person who received the payment on behalf of the deceased adult
+child (and who receives SSI or is a deemor) as type “SS” unearned income in the UM
+field on the SSA-1719-B or SSA-450-SI. The one-third exclusion does not apply to these
+payments. Document, on an SSA-795, the recipient’s signed statement that the income is from a child support payment
+or arrearage from a deceased SSI adult child and fax it into EDCS or NDRed.

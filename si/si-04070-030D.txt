@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - SI 04070.030 - Development Required When a Prior SSI Determination or Decision is Reopened
+Effective Dates: 05/10/2023 - Present | TN 14 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504070030 (fetched 2026-10-04)
+
+D. Procedure – Reopening Situations
+1. Determining the Date of the Initial Determination
+The date of an initial determination is important because in most instances reopening
+is possible only within one or two years of this date. This is true even if the initial
+determination has been appealed.
+2. Notice Sent
+When a notice of an initial determination is sent, the date of the notice is the date
+the initial determination was made.
+Careful interviewing regarding the issues being questioned permits identification
+of the appropriate notice. Also consider the following in determining the date of
+the notice:
+•
+When the notice was issued by the system, determine the date of the initial determination from the Online Retrieval System (ORS).
+Automated notices are dated seven calendar days after the corresponding systems run
+date in the NOTC field of the SSR. (See NL 00801.005 – Systems Generated Notices. See MSOM ORS 003.001 – TNA Online Notice Retrieval System for an explanation of ORS.
+•
+When there is a manual or automated overpayment notice, the date can be obtained from the Overpayment Sequence Data Segment (OPSQ) (See SM 01601.880
+– Overpayment Sequence Data – OPSQ).
+3. No Notice Sent
+When there was no notice of the initial determination, determine the date of the determination
+as follows:
+a. Deemed determinations
+For deemed determinations, the date is the first day of the month.
+b. Erroneous death determinations
+For erroneous death determinations, the date is the date that the erroneous date of death was input to the SSI system.
+NOTE: If no notice was sent and one should have been, the individual may establish good
+cause for late filing of an appeal. See SI 04020.020B.3. for an explanation of good cause.

@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02004.010 - Issuing Emergency Advance Payments and Title XVI Immediate Payments
+Effective Dates: 09/18/2026 - Present | TN 18 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502004010 (fetched 2026-10-04)
+
+C. Procedure - Title XVI immediate payment
+Take these steps to make a Title XVI IP determination.
+1. Making a Title XVI determination
+Step
+Action
+1
+Is a financial emergency or a potential public relations problem involved? Have all
+possibilities been exhausted to resolve the emergency?
+If yes, go to step 2. If no, STOP.
+Explain no IP can be paid.
+2
+Is an EAP barred?
+If yes, go to 3.
+If no, issue an EAP, as instructed in SI 02004.010B of this section.
+3
+Has SSI eligibility been established?
+If yes, go to step 4.
+If no, and Title II entitlement is established and there is unpaid Title II funds
+due, evaluate for a Title II immediate payment, refer to RS 02801.010.
+If no, and Title II entitlement is not established, STOP. Explain no IP can be paid.
+4
+Is it an initial, delayed, interrupted payment or nonreceipt case?
+If yes, go to step 5.
+If no, explain why an IP cannot be made. Pay any SSI due by A-OTP, M-OTP and or expedite
+the case to put it in regular payment immediately.
+5
+Obtain approval for an IP from FO management. If making a determination for a concurrent
+Title II/Title XVI case, evaluate the case to decide from which program to issue the
+IP, refer to SI 02004.001B.2. Is a Title XVI IP payable?
+If yes, determine the maximum IP amount payable, refer to SI 02004.001C. Process the payment per SI 02004.010C.2 in this section.
+If no, take required actions to immediately process the case into regular payment
+or evaluate for a Title II IP, refer to RS 02801.010.
+NOTE:
+The 30-day limit on issuing subsequent IPs no longer applies. However, recipients
+must meet ALL criteria before we can issue a subsequent IP within 30 days.
+2. Processing a Title XVI immediate payment
+Establish, approve, and transmit the Title XVI IP in MSSICS. Refer to SM 01325.002
+and MS 00303.009. After establishing and approving the payment on the applicable MSSICS
+screens, transmit the payment information to the TPPS.
+CAUTION: To allow issuance of a USDC from TPPS, establish, approve and
+transmit the IP data to the SSR all on the same day. Failure to do so will prevent the IP information from propagating into TPPS and the
+information will not be sent to the SSR in the overnight batch process.
+Use the completed information in MSSICS to issue a USDC for an IP. The cashier will
+use the instructions outlined in the TPPS User Guide to transfer the IP funds to the USDC.

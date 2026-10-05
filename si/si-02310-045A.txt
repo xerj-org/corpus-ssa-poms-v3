@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - SI 02310.045 - Internal Revenue Service (IRS) Interface
+Effective Dates: 01/25/2017 - Present | TN 55 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310045 (fetched 2026-10-04)
+
+A. Description and purpose of IRS match
+The Supplemental Security Income (SSI) IRS match identifies individuals whose payment
+amount might be decreased, or who may be ineligible for SSI payments due to excess
+income or resources. The SSI system generates a 5B diary in these cases. The 5B diary
+indicates that technicians must develop the SSI recipient’s income or resources by
+initiating a full redetermination (RZ) or a limited issue (LI) redetermination. For
+general information about RZs, see SI 02305.001. For LI information and processing instructions, see SI 02305.015. Technicians must resolve all eligibility and payment discrepancies.
+REMINDER: Always apply AFI procedures by verifying financial account balances, regardless of
+any liquid resource allegation, when there is a resource-related diary present on
+an RZ or LI. For more information on verifying financial account balances, see SI
+01140.206C.3.d.
+1. Frequency of IRS match
+The following schedule indicates when field offices (FOs) can expect IRS information
+to be available from the RZ/LI application
+Management
+Information (MI)
+Central in. IRS information is also available through StaRZ and Stripes-The Next Generation
+(SSTNG).
+Month
+Alert Date
+Records Included
+October
+November 1
+All SSI records in current and force payment status.
+March
+May 1
+All new SSI recipients.
+SSI recipients awarded or reinstated since the selection for the October release;
+and
+SSI recipients for whom no data was detected during the October match.
+June
+July 1
+SSI recipients awarded or reinstated since the selection of the March release.
+2. IRS data
+IRS derives its data from information on form 1099 and similar reports of financial
+transactions submitted for the previous year by financial institutions, brokerage
+firms, government agencies, or employers. We categorize the IRS data as transactions
+that require:
+•
+resource development or income and resource development (as resource indicators);
+and
+•
+only income development as income indicators.
+NOTE: An explanation of each transaction type is in SI 02310.048C.3.
+3. Tolerances
+a. Individuals
+The SSI System screens and establishes an alert based on the total transaction amount
+reported in each IRS data category for all individuals on a record against the following
+tolerances:
+•
+$61 or more for resource indicators; and
+•
+$1,001 or more for income indicators.
+NOTE: For an explanation of the systems processing of the IRS interface, see SM 02002.400.
+For IRS interface development, see MS 04422.013.
+b. Couples
+Couples’ cases include eligible couples and eligible individuals with ineligible spouses.
+The SSI System screens and establishes an alert based on the total transaction amount
+reported in each IRS data category for each member of a couple against the following
+tolerances:
+•
+$101 or more for resource indicators; and
+•
+$1,001 or more for income indicators.
+c. Previously alerted cases
+A 5B diary is not set in the following situations if the:
+•
+difference between this year's and last year's total resource indicators is within
+$10. This tolerance only pertains to previously alerted cases from one year to the
+next. Alerts are not continually suppressed if they are within the $10 resource indicator
+tolerance; or
+•
+current resource indicator is $61 to $70 for an individual or $101 to $110 for a couple,
+and the current year's resource indicator is less than the previous year's resource
+indicator.
+NOTE: Although a transaction may not require development according to the above tolerances,
+FO technicians may opt to develop a transaction if they deem it material to eligibility
+or payment amount.
+EXAMPLE:
+IRS information for tax year 2011 contained resource indicators totaling $75 (5B diary
+posted). The same individual’s IRS information for tax year 2012 contains resource
+indicators totaling $84. Since the difference between the two tax years' information
+is less than $10, and a 5B diary was set based on tax year 2011, no 5B diary is set
+based on the information for tax year 2012. If the resource indicators in tax year
+2013 total $61 or more, the SSI System will establish an alert (5B diary) on the case.

@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 13010.012 - Protection from Medical Review Based on Work Activity
+Effective Dates: 06/29/2017 - Present | TN 71 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010012 (fetched 2026-10-04)
+
+E. Procedure - deferring the medical CDR when the “protection from medical review based
+on work activity” applies
+1.
+Defer the medical CDR until an event prompts a medical CDR for reasons other than
+work activity. For example: the regularly scheduled medical diary is selected for
+review, or the individual or a third party reports medical improvement
+2.
+Annotate the remarks section of the Cessation or Continuance of Disability or Blindness
+Determination and Transmittal (SSA-833), the Continuing Disability Review (SSA-899)
+or the DO Report of Field Review of Continuing Disability (SSA-882) with “Protection
+from medical review based on work activity.” For instructions on how to complete the
+SSA-833, see DI 13010.170. For instructions on how to complete the SSA-899, see DI 13010.175.
+NOTE: eWork prints the remark on the SSA-833 and on the DCF for all medical review protection
+cases.
+3.
+Post a remark on the CDR Remarks Input (IRMK) screen of the DCF (MSOM CDR 001.009):
+“Medical CDR deferred due to Protection from Medical Review based on Work Activity,”
+and record the date of the determination.
+4.
+For a Title II file in the FO, follow national procedure for sending the folder to
+storage until:
+•
+the regularly scheduled medical diary matures, or
+•
+the individual alleges medical improvement, or
+•
+any other event occurs that would prompt a medical CDR for a reason other than the
+beneficiary’s work activity.
+5.
+For electronic processes, follow procedure in DI 81010.000.
+References:
+DI 13005.055 – Processing Possible Medical Recoveries in the FO
+DI 40505.115 – Voluntary Report of Medical Improvement (MI)
+DI 40505.120 – Third Party Reports

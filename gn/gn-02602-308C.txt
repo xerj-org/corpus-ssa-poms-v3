@@ -1,0 +1,12 @@
+SSA Program Operations Manual System (POMS) - GN 02602.308 - Processing Form SSA-1588-SM (Beneficiary Recontact Report) Nonresponders and RETAP Alerts
+Effective Dates: 10/12/2023 - Present | TN 103 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602308 (fetched 2026-10-04)
+
+C. Undeliverable mail development
+When the United States Postal Service (USPS) returns the mailing as undeliverable
+with no forwarding address, the Wilkes-Barre Data Operating Center (WBDOC) scans this
+material into a file and the system updates the RECNTACT line to show undeliverable.
+This action generates an alert to the PSC for development. The PSC should follow the
+instructions in GN 02605.055B. to develop for a good address.
+RETAP will again automatically select the record effective with the RECONTACT UNDELIVERABLE
+date plus 3 months if a new address has been annotated to the MBR per SM 03020.230F.

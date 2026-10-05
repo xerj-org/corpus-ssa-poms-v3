@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02410.110 - Federal Payment Levy Program (FPLP) and Tax Levy Database System (TAXY)
+Effective Dates: 11/02/2010 - Present | TN 30 (11-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410110 (fetched 2026-10-04)
+
+A. Procedure for Federal Payment Levy Program (FPLP)
+1. Federal Payment Levy Program (FPLP)
+As a result of the new Federal Payment Levy Program (FPLP) described in GN 02410.305, IRS adopted the policy of not issuing paper levies, Form 668W, on the same person
+who is subject to FPLP. However, on occasion, IRS is inadvertently using both processes.
+2. Paper levy received and FPLP in place
+When a new IRS form 668W, Notice of Levy on Wages, Salary and Other Income, is received
+in the Payment Center (PC), action is not necessary to see if an automated levy is
+already in place under FPLP. The action should be input to the Tax levy Database System
+(TAXY). The TAXY input of the levy will automatically notify Treasury to terminate
+FPLP deduction from the taxpayer’s SSA benefits.

@@ -1,0 +1,145 @@
+SSA Program Operations Manual System (POMS) - SI 02005.030 - Effect of Changes in Couple’s Status on SSI Payment Computations
+Effective Dates: 05/09/2012 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005030 (fetched 2026-10-04)
+
+C. Determining the budget month when a couple’s status changes
+1. Rules for determining the budget month
+The budget month is the month that is 2 months prior to the computation month, unless
+the Transitional Computation Cycle (TCC) applies. For more information on TCC, see
+SI 02005.005.
+In both initial claims (IC) and post entitlement (PE) situations, the budget month
+must be the same month for both members of an eligible couple.
+If the couple separates and had in-kind support maintenance (ISM) in the form of the
+couple’s presumed maximum value (PMV) or the couple’s value of one-third reduction
+(VTR) in the budget month, count half the couple PMV or VTR for each eligible individual.
+When determining the budget month, it is also necessary to consider the following
+instructions:
+•
+for Title II/Title XVI COLA coordination, see SI 02005.010.
+•
+for PMV/VTR COLA coordination, see SI 02005.001E.4.b..
+•
+for prospective accounting (instead of retrospective monthly accounting for income
+based on needed, see SI 02005.025.
+•
+for applying the VTR and PMV when computing Title XVI benefits, see SI 02005.001E.4.
+•
+for determining the correct start date month, see SM 01801.034.
+2. Determining the budget month when two eligible individuals begin living together and
+form an eligible couple
+When two eligible individuals get married or start holding out as a married couple,
+and begin living together, they become an eligible couple. The budget month for both
+of them is the regular retroactive monthly accounting (RMA) budget month for the member
+of the couple with the latest budget month. The same rule applies to a previously
+separated couple whose Title XVI eligible members resume living together.
+Example 1: budget month when two eligible individuals get married
+•
+Wilma and Fred Flintstone married and began living together on August 26.
+•
+Their combined resources are within the Title XVI eligible couple limit. Wilma has
+been receiving Title XVI payments for years. Wilma received a cash gift of $1500.00
+from a relative in July and was not eligible for that month.
+•
+Wilma was N01 for July, but was eligible again in August. Fred has been receiving
+Title XVI for the last 2 years without interruption. September is their eligibility
+computation month as an eligible couple (i.e., the month after the month of change).
+•
+Their budget month as an eligible couple is August because the budget month for an
+eligible couple must be the same for both members of the couple. The budget month
+for both of them is the regular RMA budget month for the individual with the latest
+budget month.
+•
+Fred’s budget month was July and Wilma’s budget month was August. Therefore, their
+budget month as an eligible couple is August.
+Example 2: budget month when two eligible individuals begin holding out
+•
+Edna Krabappel receives a Title XVI payment of $674.00 each month.
+•
+Millhouse Van Houten receives a Title II payment of $400.00 and a Title XVI payment
+of $294.00 monthly.
+•
+On November 11, 2011, they begin living together and holding out as a married couple.
+Their eligibility computation month as an eligible couple is December.
+•
+Beginning December 1, 2011, they are an eligible couple. Since both have been continuously
+eligible for Title XVI payments, their budget month as a couple for December is October
+2011.
+•
+Based on October’s income, each member of the couple is eligible for $315.50 in December
+2011.
+3. Determining the budget month when an eligible couple separates and resumes living
+together
+When two members of a couple resume living together, they are a couple for Title XVI
+purposes the month after they resume living together. Their eligibility computation
+month as a couple is the first month after the month they resume living together,
+providing both members are eligible that month. Their budget month is the regular
+retrospective monthly accounting (RMA) budget month for the member of the couple with
+the latest budget month.
+NOTE:
+TCC will apply if one or both of the members are not eligible until they regain couple
+status. See SI 02005.005 for information about TCC.
+Example 1: couple separates
+•
+Homer Simpson and Elaine receive Title XVI payments as an eligible couple from August
+2005 until October 20, 2010 when they separate.
+•
+Elaine moves in with their sister and is subject to the VTR as of November 2010.
+•
+Homer continues to live in their apartment and receives no ISM.
+•
+Each is an eligible individual as of November 1, 2010 with a regular RMA budget month
+of September 2010.
+•
+In computing each individual’s payment in November 2010, use that individual’s own
+income from September 2010—not one-half of their combined income.
+NOTE:
+If this couple had received ISM in the form of the couple’s PMV or VTR in the September
+2010 budget month, the claim representative would count half of the couple’s PMV or
+VTR as income to each eligible individual when determining the payment amount for
+November 2010. For more information about applying the VTR and the PMV when computing
+Title XVI benefits, see SI 02005.001E.4.
+Example 2: couple resumes living together
+On June 1, 2011, Homer and Elaine resume living together in a new apartment where
+they pay their own household expenses. They intended to reside here from the first
+moment of the month. Both have been eligible for Title XVI as individuals. June 2011
+is the eligibility computation month. Based on their combined income and resources,
+they are eligible as a couple in June 2011. Since they were both continuously eligible
+for Title XVI, the couple’s budget month is April 2011.
+Payment Computation for June 2011 (budget month is April 2011)
+Homer’s Title II in April 2011
+$400.00
+Elaine’s state pension in April 2011
+$200.00
+Elaine’s individual VTR in April 2011
+$224.66
+Total Income in the Budget Month
+$824.66
+Less General Exclusion
+-$20.00
+Equals: FCI in Budget Month
+$804.66
+Couple’s FBR in June 2011
+$1011.00
+Less: FCI in Budget Month
+-$804.66
+Equals: Payment to Couple
+$206.34 ($103.17 each)
+The payment is the same in July 2011, since we continue to count the VTR as income
+to Elaine in budget month of May 2011
+Payment Computation for August 2011 (budget month is June 2011)
+Homer’s Title II in June 2011
+$400.00
+Elaine’s state pension in June 2011
+$200.00
+Total Income in the Budget Month
+$600.00
+Less General Exclusion
+-$20.00
+Equals: FCI in Budget Month
+$580.00
+Couple’s FBR in August 2011
+$1011.00
+Less: FCI in Budget Month
+-$580.00
+Payment to Couple
+$431.00 ($215.50 each)

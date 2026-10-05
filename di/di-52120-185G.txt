@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 52120.185 - North Dakota Workers' Compensation (WC)
+Effective Dates: 08/24/2023 - Present | TN 87 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120185 (fetched 2026-10-04)
+
+G. How to process TT or PT cases
+North Dakota WSI receives a cross-match report that identifies workers receiving TT
+or PT payments who also receive Social Security benefits. When a match occurs, WSI
+contacts the servicing field office to verify the Social Security benefits. WSI then
+notifies the worker of the amount and effective date of the reverse offset. If the
+reverse offset is retroactive, WSI will establish an overpayment and suspend WC payments
+until recovery of the overpayment is complete.
+If the worker receives TT or PT WC payments:
+1.
+Do not impose offset.
+2.
+Enter “Y” under “REVERSE JURISDICTION INVOLVED (Y/N)” on the MCS WPCL screen (MSOM
+COMMON 001.003), ICF WCCD screen (MSOM ICFT2 031.012), and the appropriate START date.
+3.
+Diary the case for one year for possible future changes in the type or amount of WSI
+benefits.
+4.
+The State has no process for notifying us of any changes in benefits. WSI considers
+notifying us to be the claimant’s responsibility. If WSI receives a signed SSA-1709
+(Request for Workers’ Compensation/Public Disability Benefit Information) on file
+for the WSI claim, upon SSA’s request, WSI will fax a “Cost Paid Summary” to us. The summary shows all payments from date
+of inquiry to the present. The SSA-1709 on file does not expire. We encourage FO staff
+to obtain an SSA-1709 at the earliest point of contact. Send fax requests of the SSA-1709
+to WSI at 701-328-3820.
+5.
+If the State changes a “total” rating (TT or PT) to a “partial” rating (TP or PP),
+impose offset the date the “partial” rating begins.

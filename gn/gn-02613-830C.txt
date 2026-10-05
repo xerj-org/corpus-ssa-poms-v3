@@ -1,0 +1,298 @@
+SSA Program Operations Manual System (POMS) - GN 02613.830 - Requests Received at SSA Offices for Relief Under the <Italic>Fowlkes</Italic> Acquiescence Ruling (AR)
+Effective Dates: 07/18/2007 - Present | TN 37 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613830 (fetched 2026-10-04)
+
+C. Process – Beneficiary/ Claimant Requests Relief Under Fowlkes Based on SSA Special Readjudication Notice
+After it receives a precedential circuit court decision and determines that an Acquiescence
+Ruling (AR) may be required, SSA codes cases into the Civil Action Tracking System
+(CATS) that might be subject to readjudication if an AR is issued. (See GN 03501.001C.1.a. for a description of the AR readjudication process.) After SSA issues the AR, it
+sends a readjudication notice was sent to the beneficiaries identified via the CATS
+coding process. The notice informs them the beneficiaries that potential relief may
+be granted under the AR. An example of the readjudication notice can be found in GN 02613.856C.6.
+The one-time Fowlkes readjudication notice contained the following information:
+•
+the circuit court case name and the publication date of the Fowlkes AR,
+•
+the Second Circuit Court’s decision and the States to which it applies; and
+•
+instructions that explain how to request relief under the Fowlkes AR.
+SSA issued the one-time Fowlkes readjudication emergency message to advise SSA offices that the Fowlkes AR readjudication notices were sent and where to locate the one-time Fowlkes readjudication case processing instructions. Additional instructions for handling
+readjudication requests for relief can be found in GN 02613.830C.1.
+NOTE: All requests for readjudication should be processed at SSA field offices. If any
+readjudication requests are inadvertently received by the PSC or sent to the PSC,
+the readjudication request and any accompanying material should be redirected to the
+beneficiary’s resident field office for action per GN 02613.830C.1.
+1. Beneficiary Contacts SSA to Request Readjudication
+If the beneficiary contacts the FO about having the Fowlkes AR applied to their claim, then the FO will process the request as discussed in the following table:
+Tasks
+FO Actions on Readjudication Request
+1
+Obtain a statement from the beneficiary that mentions the Fowlkes AR or the circuit court decision and explains how either could change the prior fugitive
+felon determination or decision. The information from the beneficiary should be in
+the form of a statement per the instructions found in GN02613.830B.1.
+Annotate the CATS database per GN 02613.830C.4.a. as a responder to the readjudication notice. See also MSOM CATS 003.001 – CATS 003
+for additional systems information about CATS.
+2
+Process the request for readjudication as described in GN 02613.830B.1. and make the determination whether the beneficiary can be granted relief under the
+Fowlkes AR. (See GN 02613.810 for residence requirements for determining if Fowlkes AR relief may apply.)
+3
+Annotate the Fowlkes readjudication decision to the CATS system per the CATS coding instructions found
+in GN 02613.830C.4.d.
+NOTE: Readjudication may be requested at any time and it applies to beneficiaries currently
+entitled as well as those with pending claims (i.e., cases awaiting adjudication on
+administrative review or adjudicated cases in which the time to request administrative
+review has not expired). It also applies to beneficiaries with lapsed claims because
+a timely appeal was not pursued. The time limits for reopening do not apply to a request
+for readjudication under an AR. See GN 03501.015B.1.
+2. Readjudication Letter is Returned to SSA as Undeliverable
+The one-time Fowlkes readjudication notice will have the servicing SSA FO address as the return address
+on the envelope. If the readjudication notice is returned to the SSA FO as undeliverable,
+process the returned readjudication notice as indicated in the following chart:
+a. Searching for a Current Address to Re-mail the Readjudication Notice
+The following sources may provide a new address for the beneficiary when the Fowlkes readjudication notice is returned to SSA as undeliverable.
+Checking Sources for New Address Information
+FO Actions to Locate New Address and Re-mail the Notice
+MBR—Address field
+Query the MBR for a new address. If a more current address is found on the MBR, re-mail
+the readjudication notice to the new address on the MBR, changing any date appropriately
+by using the Document Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding instructions.
+SSR—Address field
+If a more current address is not found on the MBR, then check for a SID line on the MBR.
+When a SID line is present on the MBR, then you should query the SSR for a more current
+address.
+Check the change of address date on the SSR. Compare the change of address date on
+the SSR to the change of address date on the MBR. If an older address date appears
+on the SSR do not use the SSR address. Use the query (i.e., SSR or MBR) which contains
+the most current change of address date.
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using the Document Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding instructions.
+Direct Deposit field on MBR
+Query the MBR to determine whether the beneficiary receives direct deposit or check.
+Contact the individual's financial institution (FI) for a current address using the
+letter E3759 (Request to Financial Institution For Correct Beneficiary Address) in
+NL 00703.759 or DPS Locate Letter under “General” category (Beneficiary's Bank), or prepare a
+letter similar to the E3759. Also, when the claim number is not that of the person
+on the record, please verify according to the name of the person on the account or
+the account number. Fax or mail the E3759 or substitute letter to the FI. Under the
+Right to Financial Privacy Act, 12 U.S.C. 3413 (k), banks are permitted to disclose
+the information to SSA.
+Tickle/diary for 30 days.
+Input any new address furnished by the FI through POS (see MSOM T2PE
+003.002).
+CAUTION: Develop in-care-of addresses per GN 02605.005.
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using theDocument Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding instructions.
+United States Postal Service (USPS)
+Contact the United States Postal Service (USPS):
+•
+Send an SSA-L2001 to the USPS servicing the address of record.
+•
+Tickle/diary for 30 days.
+•
+Verify any addresses furnished by the USPS with the beneficiary.
+•
+Input COA through POS (see MSOM T2PE 003.002.) If direct deposit data is on the record,
+verify that the beneficiary wants payments to continue to be sent there.
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using the Document Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding instructions.
+Railroad Board Certified Cases (LAF E Cases)
+Contact the Railroad Board (RRB) for LAF E cases to see if RRB has updated address
+information.
+Input any new address furnished by the Railroad Board through POS (see MSOM T2PE
+003.002).
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using the Document Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding instructions.
+Directory Assistance, or Searching the Internet
+For all other cases, call directory assistance or check internet white pages in the
+city of the address of record. If a number is available:
+Make one attempt to contact the beneficiary.
+Input any new address furnished by the beneficiary through POS (see MSOM T2PE
+003.002). CAUTION: If the beneficiary states that the address of record is correct, input
+it with a slight variation (i.e., change “St.” to “Street” or “Box” to “BX”).
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using the Document Processing System (DPS).
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding
+b. Unable to Locate New Address—Beneficiary is in Current Pay or LAF S6-Develop Address
+Suspension
+If there is no new address information available after all the sources in GN 02613.830C.2.a. are exhausted, and the beneficiary is in current payment status or the beneficiary
+is already suspended LAF S6—Develop Address Suspension, then:
+•
+Send the due process notice in NL 00703.760 to the address of record. Tickle/diary for 15 days.
+NOTE: Skip this step if the beneficiary is already in LAF S6.
+•
+Suspend benefits (S6—Develop Address Suspension) when the due process period expires
+and no response is received. (See MSOM T2PE003.013. for additional information on
+this process.)
+NOTE: Skip this step if the beneficiary is already in LAF S6.
+•
+Annotate the Special Message field with the following information. “Fowlkes Readjudication Notice sent to BIC XX--Notice Returned Undeliverable”.
+•
+Annotate CATS that the readjudication notice was returned as “undeliverable.” Add
+the last date that the readjudication notice was returned to SSA to the CATS system.
+See GN 02613.830C.4.b. for CATS coding instructions.
+If the beneficiary responds to due process notice, then
+•
+Reinstate benefits from LAF S6 (Develop for Address Suspension) and input any new
+address furnished by the beneficiary through POS (see MSOM T2PE 003.002).
+CAUTION: If the beneficiary states that the address of record is correct, input it
+with a slight variation (i.e., change “St.” to “Street” or “Box” to “BX”).
+•
+Re-mail the readjudication notice to the new address, changing any date appropriately
+by using the Document Processing System (DPS).
+•
+Annotate CATS with the new address information. See GN 02613.830C.4.c. for CATS coding.
+•
+Delete the special message “Fowlkes Readjudication Notice sent to BIC XX--Notice Returned Undeliverable” from the Special
+Message Field on the MBR. See MSOM T2PE007.008 for information on deleting special
+message fields.
+c. Unable to Locate New Address—Beneficiary is in Non-Payment Status (Other than LAF
+S6—Develop for Address Suspension)
+If the beneficiary is not receiving monthly payments (LAF status is other than S6—Develop
+for Address Suspension), do not process the returned undeliverable readjudication notice further.
+•
+Annotate the Special Message field with the following information. “Fowlkes Readjudication Notice sent to BIC XX--Notice Returned Undeliverable”.
+•
+Annotate CATS that the readjudication notice was returned as “undeliverable.” Add
+the last date that the readjudication notice was returned to SSA to the CATS system.
+See GN 02613.830C.4.b. for CATS coding instructions.
+•
+Fax the undelivered readjudication notice to the PSC paperless system via an SSA-409.
+Annotate the SSA-409 with the following remark. "Fugitive Felon--Fowlkes Readjudication Notice Undeliverable--No New Address Available—No further action necessary."
+Fax the SSA-409 and the letter to the jurisdictional PSC.
+3. Beneficiary Does Not Respond to the Readjudication Letter
+Once SSA issues the one-time Fowlkes readjudication notice to the beneficiary, the beneficiary must respond and request
+readjudication if they think the Fowlkes AR may apply to their fugitive felon suspension period.
+If the beneficiary does not contact SSA to request readjudication under the Fowlkes AR, then SSA will not follow-up or recontact the beneficiary regarding the relief allowed
+under the Fowlkes AR.
+4. Civil Action Tracking System (CATS) Coding Instructions for Annotating Readjudication
+Information
+Do not code any newly discovered beneficiaries requesting relief under the Fowlkes AR to the CATS system.
+Annotate additional information to CATS for the readjudication period when the following
+situations exist:
+•
+the beneficiary requests (i.e., responds) readjudication based on receipt of the Fowlkes readjudication notice, or
+•
+the one-time readjudication notice is returned to SSA as undeliverable; or,
+•
+SSA locates a new address for the beneficiary and re-mails the readjudication notice
+to the new address, or
+•
+SSA makes a decision (i.e., affirmation that readjudication should apply or technical
+denial that readjudication does not apply) regarding the beneficiary’s request for
+readjudication.
+Logging onto CATS
+At the:
+•
+SSA’s Main Menu screen, enter “1” MANAGMENT INFORMATION SERVICES FACILITY/PROD REGION
+MENU
+•
+Support Menu screen, enter “M1” ADMIN/MI CICS
+•
+Log on Screen, enter you PIN and PASSWORD
+•
+MISF CICS MENU enter “01”
+You are now at the Civil Action Tracking System Main Menu
+Obtaining a CATS Query:
+At the:
+•
+Civil Action Tracking System Main Menu screen, enter “1”
+•
+Query Menu screen, enter “1” SSN/Claim Number/Name
+•
+SSN/Claim Number/Name Selection screen, annotate the Court Case identifier “FW” and
+annotate the “9-digit social security number” and hit “enter.”
+NOTE: The "9-digit social security number" can be either the BOAN or the number for the
+earnings record where benefits are being received.
+•
+SSN/Name Query List screen, annotate “P” under Select for a Personal Detail Query
+Screen or “C” for a Claim Detail Query Screen.
+a. Coding CATS for Beneficiaries Responding to the Readjudication Notice
+When the beneficiary contacts SSA and they request readjudication based on the Fowlkes AR readjudication notice, annotate this action to CATS as follows.
+At the:
+•
+Civil Action Tracking System Main Menu screen, enter “2” Request for Review/Address
+Responder Update
+•
+Request for Review/Address Responder Update screen, annotate the Court Case identifier
+“FW” and annotate the “9-digit social security number” and press “enter.”
+NOTE: The "9-digit social security number" can be either the BOAN or the number for the
+earnings record where benefits are being received.
+•
+Claimant Update Selection screen, annotate “S” under the Select field and press “enter.”
+•
+Address/Responder Update screen, annotate “Y” along side of the Response Code and
+the date (MMDDYYYY) the beneficiary contacted SSA to request readjudication along
+side of the Date field. Press the PF6 key. The following message will appear: “Zip
+Code Validation Complete, Press PF6 to Update Record.” Press the PF6 key to complete
+the transaction.
+b. Coding CATS for Undeliverable Readjudication Notice Mail
+If the readjudication notice is returned to the SSA FO as “undeliverable,” add this
+information to CATS as follows:
+At the:
+•
+Civil Action Tracking System Main Menu screen, enter “2” Request for Review/Address
+Responder Update
+•
+Request for Review/Address Responder Update screen, annotate the Court Case identifier
+“FW” and annotate the “9-digit social security number” and press “enter.”
+NOTE: The "9-digit social security number" can be either the BOAN or the number for the
+earnings record where benefits are being received.
+•
+Claimant Update Selection screen, annotate “S” under the Select field and press “enter.”
+•
+Address/Responder Update screen, annotate “U” along side of the Response Code and
+the date (MMDDYYYY) the undelivered readjudication notice was returned to the SSA
+FO along side of the Date field. Press the PF6 key. The following message will appear:
+“Zip Code Validation Complete, Press PF6 to Update Record.” Press the PF6 key to complete
+the transaction.
+c. Coding for CATS When SSA Locates New Address for the Beneficiary and Re-mails the
+Readjudication Notice to the New Address
+If the readjudication notice is returned to the SSA FO as “undeliverable,” and through
+development, SSA locates a new address for the beneficiary, add this information to
+CATS as follows:
+At the:
+•
+Civil Action Tracking System Main Menu screen, enter “2” Request for Review/Address
+Responder Update
+•
+Request for Review/Address Responder Update screen, annotate the Court Case identifier
+“FW” and annotate the “9-digit social security number” and add a “Y” at the prompt,
+“Was a Successful Contact Made to Obtain a New Address?:” and press “enter.”
+NOTE: The "9-digit social security number" can be either the BOAN or the number for the
+earnings record where benefits are being received.
+•
+Claimant Update Selection screen, annotate “S” under the Select field and press “enter.”
+•
+Address/Responder Update screen, over-type the existing address information on the
+screen with the new address information. Annotate “U” along side of the Response Code
+and the date (MMDDYYYY) the undelivered readjudication notice was returned to the
+SSA FO along side of the Date field. Press the PF6 key. The following message will
+appear: “Zip Code Validation Complete, Press PF6 to Update Record.” Press the PF6
+key to complete the transaction.
+d. Coding CATS for the Fowlkes Readjudication Decision
+After the SSA technician evaluates the beneficiary’s statement requesting readjudication
+under the Fowlkes AR per instructions in GN 02613.830B.1., the technician then makes a relief determination. The Fowlkes AR relief determination must be coded to CATS.
+At the:
+•
+Civil Action Tracking System Main Menu screen, enter “3” Request for Review/Address
+Responder Update.
+•
+Request for Review/Address Responder Update screen, annotate the Court Case identifier
+“FW” and annotate the “9-digit social security number”. Press “enter.”
+NOTE: The "9-digit social security number" can be either the BOAN or the number for the
+earnings record where benefits are being received.
+•
+Claimant Update Selection screen, annotate “S” under the Select field and press “enter.”
+•
+Transaction Selection Screen, enter “DE” at the Enter Code(s): prompt and press “enter.”
+•
+Transaction Update Screen, enter the Decision Date (date SSA made the Fowlkes AR relief determination). Enter Type of Decision: “A” Affirmation (use this code
+when relief will be granted) or “T” Technical Denial (use this code if the request
+for relief under the Fowlkes AR is denied). Enter “1” (1 – Initial) at the Level of Adjudication prompt. Hit the
+PF6 key to record the Fowlkes AR relief decision to CATS and to complete the transaction. The following message
+will appear: “Transaction(s) Accepted: DE” after the transaction is completed.

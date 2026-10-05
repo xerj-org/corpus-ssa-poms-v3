@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02310.046 - IRS Alert Development - General
+Effective Dates: 09/03/2010 - Present | TN 56 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310046 (fetched 2026-10-04)
+
+B. Procedure — Controlled Alerts
+1. Determine Appropriate Procedure
+•
+If the SSR and FO files indicate that alert data were not previously developed, follow
+the instructions in SI 02310.048.
+•
+If alert data were previously developed, follow the limited development instructions
+in SI 02310.047.
+2. Clearance
+a.
+Input any data necessary to reflect the results of the development on the SSR.
+b.
+Refer to the following sections for coding instructions:
+•
+IRS Indicator ( MS) field - SM 01301.950;
+•
+CG Field - SM 01301.785;
+•
+Earned Income ( EN) Field - SM 01305.101;
+•
+Unearned Income ( UM) Field - SM 01305.200; and
+•
+Resource ( RE) Field - SM 01305.400.
+c.
+If the 5B diary date is later than January 1, 1990, see SI 02310.005D.4. to determine if a manual Notice of Planned Action is required.
+d.
+FO's may wish to input information such as bank name or account number in the CG or
+UM field to avoid redevelopment of future alerts.

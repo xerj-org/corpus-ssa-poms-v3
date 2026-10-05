@@ -1,0 +1,176 @@
+SSA Program Operations Manual System (POMS) - GN 02607.832 - Recovery of Incorrectly Paid Prisoner Incentive Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607832 (fetched 2026-10-04)
+
+C. SSA-L4020 requesting return of the incorrectly paid IP
+The SSA-L4020 (Prisoner Incentive Payment (IP) Recoupment Notice) is a fillable form notice that
+you send to an incorrectly paid CI or MHI. The notice notifies the institution that
+they received an incorrect IP and that the CI or MHI needs to refund or return the
+IP.
+1. SSA-L4020 Prisoner Incentive Payment Recoupment Notice
+Use this form to request return of an incorrectly paid incentive payment from a CI
+or MHI.
+•
+Obtain the SSA-L4020 Prisoner Incentive Payment Recoupment Form from the inForm system.
+•
+Complete the fill-ins on the SSA-L4020 notice.
+For instructions on completing the SSA-L4020, see GN 02607.872C.2. in this section.
+Save a copy of the completed SSA-L4020 notice to mail to the incorrectly paid CI or
+MHI.
+•
+the Submit by email button at the bottom of the page to email the form to the two
+designated Central Office components. For information on the Submit by email button
+use, see GN 02607.832.B.1., step 4 in this section.
+For information on mailing the completed SSA-L4020, see GN 02607.832.B.1. step 3, in this section.
+2. Complete the SSA-L4020
+The chart provides directions to complete the SSA-L4020 that you send to CI or MHI
+that received the incorrect IP.
+Field on the SSA-L4020 Form
+Fill-in(s) for the SSA-L4020 Field
+Field Entries for the Top Right Portion of the SSA-L4020 Form
+Field Office Address or PC/OCO-ODO (Street Address, City State and Zip Code)
+Add your FO or PC/OCO-ODO address under the Social Security Administration line on
+the right-hand side of the form above the Facility ID No.
+Facility ID No.
+Add the six-position FID code for the incorrectly paid IP facility. Obtain the FACILITY
+ID code from the T16 PRISONER STATUS QUERY (P6QY) screen or the T2 PRISONER STATUS
+QUERY screen.
+Date
+Add five calendar days to the current date to allow for mailing time (the date entry
+= current date plus 5 calendar days for mailing time)
+Field Entries for the Top Left Portion of the SSA-L4020 Form
+Name of Incorrectly Paid Incentive Payee from the IPID Screen
+Go to the Incarceration Report and Controls Systems (IRCS) Incentive Payment Identification
+Query (QPID) screen to add the CIs or MHIs mailing address to the SSA-L4020. Use the
+INCENTIVE PAYMENT DATA section of the QPID screen to obtain the Incentive Payee name
+and address to mail the SSA-L4020.
+First and second lines of the address are the INCENTIVE PAYEE entry that is on the
+QPID screen. Add the Incentive Payee name to the SSA-L4020.
+Use the QPIDs INCENTIVE PAYMENT DATA payee and address information to mail the SSA-L4020
+because the CI or MHI provided the information contained in this section for an IP.
+This section also provides identification and contact information on the staff who
+have knowledge of the banking information for payment and receipt of a CIs or MHIs
+IPs.
+Street Address
+City, State, Zip Code from the IPID screen
+Third address line begins with the address data under the INCENTIVE PAYEE field. Add
+in the entire address including street number, street, city, state abbreviation, and
+zip code.
+Body of SSA-L4020 Notice
+Paragraph 2
+Description of the fill-ins
+F1-1
+MM/DD/YY (date printed on the correctional institutions incentive payment (IP) notice that
+contains the incorrect IP we must recoup). NOTE: We place a copy of each correctional institutions IP notice on the Online Retrieval
+System (ORS) when we pay an institution an IP. The IP notice provides the institution
+with information on the total IP deposit and it includes detailed information about
+each IP included in the deposit.
+F2-1
+$xxxx.00 (Dollar amount) (Total dollar amount of entire deposit made to the CIs or MHIs bank
+account for the month/year that we paid the incorrect IP.)
+F3-1
+$xxxx.00 (Dollar amount) (Amount of the incorrect IP)
+F4 (1-5) Select one choice and add as the fill-in for this field
+1--your institution confined our beneficiary for 30 continuous days or less
+2--your public institution confined our recipient for less than one full calendar
+month
+3--the prisoner in your institution was not our beneficiary
+4--the prisoner in your institution was not our recipient
+5--the incentive payment belongs to another correctional institution
+F5 (1-4) Select one choice
+1--our beneficiary’s early release from your institution
+2--our recipients early release from your institution
+3--the inmates actual identity
+4--the other correctional institutions misrouted incentive payment
+F6 (Incorrectly paid IP information)
+We will extract information for F6 for the incorrectly paid IP from the correctional
+institutions IP notice.
+Social Security Number: SSN on which we paid the incorrectly paid IP
+Include only the last four digits of the SSN: XXX-XX-9999
+Inmate ID: XXXXXXXXXX 10 numeric digits) If the inmate ID is less than 10 digits, add only
+the inmate ID information posted to the beneficiary’s or recipients PUPS record, or
+the inmate ID that is shown on the CIs or MHIs original incentive payment letter that
+is posted to ORS.
+Payment: $XXX.XX (either $400.00 or $200.00)
+Report Date: MM/DD/YY (e.g., 09/01/14)
+Receipt Date: MM/DD/YY (e.g., 09/30/14)
+Date Confined: MM/DD/YY (e.g., 08/02/14)
+NOTE: Due to personally identifiable information (PII) requirements, only include the
+last four digits of the beneficiary’s or recipients SSN on the SSA-L4020 for the Inmate
+ID data entry.
+Paragraph 4, bullet #2
+Description of the fill-in
+F7 Employer Identification Number (EIN)
+XX-XXXXXXX (9 numeric digits) EIN for facility/reporter (We obtain this information from IRCS
+on the Incentive Payment Identification Query (QPID) Screen.)
+3. Undeliverable mail SSA-L4020
+We may receive returned SSA-L4020 forms that the United States Postal Service (USPS)
+could not deliver to the address shown on the envelope. The USPS will return an undeliverable
+SSA-L4020 notice to an FO or PC based upon the return address printed on the envelope.
+If an FO or PC receives a returned SSA-L4020 form, the FO or PC will re-mail the returned
+SSA-L4020. Follow instructions in the chart to re-mail the SSA-L4020 to the CI or
+MHI:
+Steps
+Actions
+1
+Check for a recent address change on the IRCS Incentive Payment Identification Query
+Screen (QPID), specifically on the INCENTIVE PAYMENT DATA section. Review the screen
+and compare it against the contact information posted to the address on the SSA-L4020.
+If there was a recent change, follow the instructions in Step 6.
+If the mailing address on theSSA-L4020 and the QPID screen Incentive Payee address
+are the same, follow the instructions in Step 3.
+2
+If the USPS returns the SSA-L4020 with a forwarding address label on the envelope,
+follow the instructions in Step 3.
+3
+If no new address is on the QPID screen or you receive a forwarding address from the
+USPS, contact the INCENTIVE PAYMENT DATA CIs or MHIs contact person listed on the
+QPID screen. Use the daytime phone number on the QPID screen below the CONTACT NAME.
+Properly identify the CI or MHIs contact person from the facility’s QPID screen before
+asking for or verifying a current address to re-mail the SSA-L4020. If you obtain
+a current address, follow the instructions in Step 6.
+If direct contact with the INCENTIVE PAYEE is not successful, and you cannot obtain
+a new address for the CI or MHI, go to Step 4.
+4
+If direct contact with the CI or MHIs QPIDs contact is not successful, query the CIs
+or MHIs Internet website to find a better mailing address, or a telephone number to
+call and request a better mailing address.
+Once you obtain a better mailing address for the SSA-L4020, re-mail the notice with
+the current date to the address provided by your CI or MHI contact and continue to
+follow the instructions in Step 6.
+If the contact information on the QPID screen requires changes, email your FOPC to
+update the PUPS IPID to include the facility’s most current IP address and contact
+information that you obtained.
+Send a courtesy copy of your email message to the FOPC to ^IP Refunds, and OF.Debt.Management.Team@ssa.gov to notify these components of the change in the CI or MHIs SSA-L4020 mailing address.
+If you cannot locate a new address for the CI or MHI using the Internet, follow the
+instructions in Step 5.
+5
+If querying the CIs or MHIs Internet website is unsuccessful, send an SSA-L2001 (Address Information Request) to the USPS servicing the address of record.
+If the USPS provides you with a new mailing address for the CI or MHI, follow the
+instructions in Step 6.
+If USPS cannot provide you a new mailing address, follow the instructions in Step
+7.
+6
+Re-mail the notice with the current date plus five mailing days to the address provided
+by the QPID screen IP Contact.
+Email your Field Operations Prisoner Coordinator (FOPC) to update the PUPS Incentive
+Payment Identification Data screen (IPID) to include the most current IP address for
+the CIs or MHIs IP address and contact staff information, if required. For instructions
+on emailing your FOPC for the contact information, see GN 02607.990.
+Send a courtesy copy of your email message to the FOPC to ^IP Refunds, and Management.Team@ssa.gov to notify these components of the mailing address change on the SSA-L4020. Add the
+SSA-L4020 re-mailed date to your email. This date change will inform the Debt Management
+Team to revise their date for follow-up recontact of the incorrectly paid CI or MHI
+because of the re-mailing of the SSA-L4020 to the CIs or MHIs new address.
+7
+If all alternatives for locating a current mailing for a CI or MHI fails after pursuing
+steps 1 through 5 in this chart, email your FOPC, ^IP Refunds, and OF.Debt.Management.Team@ssa.gov to notify these components that you could not re-mail the SSA-L4020 to the CI or
+MHI. Explain what steps you took to locate a new mailing address for the CI or MHI
+and the outcome of your search for a better mailing address.
+In your email message state, Stop tracking the collection of the incorrectly paid
+IP until we can obtain a valid address for the CI or MHI (add the actual name of the
+incorrectly paid CI or MHI here).
+EXAMPLE:
+Stop tracking the collection of the incorrectly paid IP until we can obtain a valid
+address for ABC Jail.
+The Debt Management Team will stop pursuing recoupment of the incorrectly paid IP from the CI or MHI until we can
+locate a valid mailing address for the CI or MHI.

@@ -1,0 +1,505 @@
+SSA Program Operations Manual System (POMS) - DI 60099.080 - Benefit Offset National Demonstration (BOND) Notices
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099080 (fetched 2026-10-04)
+
+D. BOND universal text identifiers (UTI)
+1. BEN101
+a. Description
+The BEN101 paragraph is an introductory paragraph, letting beneficiaries know they
+have been selected to participate in the BOND Project.
+b. Language or fill-ins for BEN101
+*F1 (1) been selected to participate in the Benefit Offset National Demonstration
+(BOND) project.
+1.
+Fill-in (1)
+2.
+You have, Name has
+2. WDS017
+a. Description
+The WDS017 paragraph provides general description of BOND project. Use on all BOND
+notices. Use under caption CAP 56.
+b. Language or fill-ins for WDS017:
+The BOND project offers qualified individuals a more generous treatment of earnings
+than under the current rules. Provide a qualified individual an opportunity to work
+and earn over $(1) and benefit from having only $1 of benefits withheld for every
+$2 earned over this amount. Under current Social Security rules, the same qualified
+individual working and earning over $(2) generally has his or her benefits stopped.
+1. Fill-in (1)
+BOND yearly Amount, displayed in $$$$.cc format
+2. Fill-in (2)
+BOND yearly Amount, displayed in $$$$.cc format
+3. WDS017
+a. Description
+This UTI in a general paragraph.
+b. Language or fill-ins for WDS017
+The BOND project offers qualified individuals a more generous treatment of earnings
+than under the current rules. A qualified individual is provided an opportunity to
+work and earn over $(1) and benefit from having only $1 of benefits withheld for every
+$2 earned over this amount. Under current Social Security rules, the same qualified
+individual working and earning over $(2) generally has his or her benefits stopped.
+1. Fill-in (1)
+BOND yearly amount, displayed in $$$$.cc format
+2. Fill-in (2)
+BOND yearly amount, displayed in $$$$.cc format
+4. ERN084
+a. Description of UTI
+Use this UTI when the beneficiary’s earnings estimate is an initial estimate of earnings.
+(Do not use ERN084 if the estimated earnings is based on a revised estimate). Use
+under caption: CAP 1
+b. Language or Fill-ins for ERN084
+(1) current estimate of total earnings for (2) offset period this year is $(3).
+1.
+Fill-ins (1) and (2) will be systems generated. (Your, Name)
+2.
+Fill-in (3)
+Estimated earnings amount displayed in $$$$.cc format
+5. ERN085
+a. Description of UTI
+Use this UTI when the beneficiary’s offset period is for the entire calendar year
+and for revised estimates. Use under caption: CAP 1.
+b. Language or fill-ins for ERN085
+(1) revised estimate of total earnings for (2) offset period this year is $(3). (4)
+previously estimated total earnings of $(5) for this period.
+1.
+Fill-ins (1), (2), and (4) will be systems generated. (Your, Name)
+2.
+Fill-in (3)
+Revised estimate of total earnings for the offset period in $$$$.cc format.
+Fill-in (5)
+Previously estimated total earnings for the offset period displayed in $$$$.cc format.
+6. ALS190
+a. Description
+Use this UTI when the BOND beneficiary has requested a review.
+b. Language or fill-ins for ALS190
+If you think this information is not correct or you want to report any changes in
+(1) work plans or earnings, please get in touch with (2) benefits counselor at Abt
+Associates. Please call their toll-free number at 1-877-726-6309 (877-7BOND09) to
+report any changes. If you have a hearing or speech impairment, you may call their
+TTY number, 1-877-726-6390 (877-7BOND90).
+1.
+Fill-ins (1) and (2) will be systems generated. (your, name possessive)
+7. BRR078
+a. Description of UTI
+Use this UTI to advise an auxiliary beneficiary that benefits are not payable due
+to the BOND participant’s work and earnings. Use under caption: CAP 33.
+b. Language or Fill-ins for BRR078
+Because of (1) work and earnings, no benefits are payable to you at this time under
+the rules of the Benefit Offset National Demonstration (BOND) project. If (2) work
+or earnings change, we may be able to pay some benefits in the future.
+1.    Fill-in (1)
+Name of beneficiary, possessive
+2.    Fill-in (2)
+Name of beneficiary, possessive
+8. BRR079
+a. Description of UTI
+Use this UTI to advise an auxiliary beneficiary that benefits are now payable due
+to the BOND participant’s work and earnings. Use under caption CAP 35.
+b. Language or Fill-ins for BRR079
+Because of (1) work and earnings, benefits are payable to you at this time under the
+rules of the Benefit Offset National Demonstration (BOND) project. If (2) work or
+earnings change, some benefits may not be payable in the future.
+1.  Fill-in (1)
+Name of beneficiary, possessive
+2.  Fill-in (2)
+Name of beneficiary, possessive
+9. WDS018
+a. Description of UTI
+Use this UTI when the beneficiary’s offset period is for the entire calendar year.
+Use under caption CAP 1.
+b. Language or Fill-ins for WDS018
+(1) offset period this year is the entire calendar year.
+We determine how much to reduce (2) benefit payments for each month in the year under
+the $1 for $2 offset based on an estimate of BOND countable earnings for the year.
+To get this estimate, we use the estimate of total earnings for the year and subtract
+the estimate of the amount of allowable deductions for the year. The resulting amount
+is the estimate of BOND countable earnings for the year. Some allowable deductions
+include the following:
+•
+The amount of any sick or vacation pay,
+•
+The amount of any subsidy paid by an employer who pays more in wages than the actual
+value of the work, and
+•
+Amounts paid for items or services related to (3) disability that are needed to work.
+Some examples are prescription drugs, personal attendant, job coach, or a wheelchair.
+After allowable deductions, (4) (5) of BOND countable earnings for this year is $(6).
+Next, we subtract the BOND yearly amount from the estimate of the BOND countable earnings
+for the year and divide the remaining amount by two. We then divide that amount by
+12 to determine the monthly offset amount. The monthly offset amount is the amount
+that we reduce benefits for each month in the year under the benefit offset. Based
+on the (7) of (8) BOND countable earnings and the computations above, (9) monthly
+offset amount this year is (10).
+1.
+Fill-in (1), (2), (3), (4), (8), (9) will be systems generated (Fill-in (1): Your,
+Name possessive; Fill-ins (2), (3), (4), (8), (9): your, his, her).
+2.
+Fill-in (5)
+•
+Choice A: estimate
+•
+Choice B: revised estimate
+3.
+Fill-in (6)
+Previously estimated total earnings for the offset period in $$$$.cc format.
+1.
+Fill-in (7)
+•
+Choice A: estimate
+•
+Choice B: revised estimate
+2.
+Fill-in (10)
+Monthly offset amount in $$$$.cc format.
+10. WDS016
+a. Description of UTI
+Use this UTI when the beneficiary’s offset period is for partial year. Use under caption
+CAP 1.
+b. Language or fill-ins for WDS016
+(1) offset period this year is (2).
+We determine how much to reduce (3) benefit payments for each month in the offset
+period under the $1 for $2 offset based on an estimate of BOND countable earnings
+for that period. To get this estimate, we use the estimate of total earnings for the
+offset period and subtract the estimate of the amount of allowable deductions for
+that period. The resulting amount is the estimate of BOND countable earnings for the
+offset period. Some allowable deductions include the following:
+•
+The amount of any sick or vacation pay,
+•
+The amount of any subsidy paid by an employer who pays more in wages than the actual
+value of the work, and
+•
+Amounts paid for items or services related to (4) disability needed to work. Some
+examples are prescription drugs, personal attendant, job coach, or a wheelchair.
+After allowable deductions, (5) (6) of BOND countable earnings for the offset period
+this year is $(7).
+Since the offset period is less than the calendar year, we prorate the BOND yearly
+amount based on the number of months in the offset period and use that prorated amount
+to figure the benefit offset. We subtract the prorated BOND yearly amount from the
+estimate of BOND countable earnings for the offset period and divide the remaining
+amount by two. We then divide that amount by the number of months in the offset period
+to determine the monthly offset amount. The monthly offset amount is the amount that
+we reduce benefits for each month in the offset period under the benefit offset. Based
+on the (8) of the BOND countable earnings and the computations above, (9) monthly
+offset amount for the offset period this year is $(10).
+1. Fill-in (1), (3), (4), (5), and (9) will be systems generated (Your, Name).
+2. Fill-in (2)
+•
+Choice 1: MM/YYYY
+•
+Choice 2: MM/YYYY through MM/YYYY
+3.  Fill-in (6)
+•
+Choice A: estimate
+•
+Choice B: revised estimate
+4.  Fill-in (7)
+Amount of estimate or revised estimate in $$$$.cc format.
+5.  Fill-in (8)
+•
+Choice A: estimate
+•
+Choice B: revised estimate
+6.  Fill-in (10)
+Amount of estimate or revised estimate in $$$$.cc format.
+11. RCT053
+a. Description of UTI
+Use this UTI to remind the beneficiary to report any changes that may affect the BOND
+calculation. Use under caption CAP 15.
+b. Language or fill-ins for RCT053
+You must promptly report any changes that may affect (1) benefits. Failure to do so
+could mean you may have to repay any benefits not due. Let us know if:
+•
+(2) went to work since your last report or (3) to work in the future, or
+•
+You already reported (4) work, but duties or pay changed. (Remember to keep records
+of work and earnings such as pay statements from the employer, or
+•
+(5) doctor says (6) condition has improved even if (7) (8) work now, or
+•
+You applied for, start getting or have a change in the amount of (9) workers compensation
+or another public disability benefit, or
+•
+You start paying for work expenses related to (10) disability such as special transportation
+or the amount paid for these work expenses changes or you no longer pay for such expenses.
+(Remember to keep records and proof of payment for any work expenses.)
+Fill-ins (1), (2), (3), (4), (5), (6), (7), (8), (9), and (10) are systems generated.
+(Fill-ins (1), (6): your, name possessive; Fill-in (2): You, Name; Fill-in (3): you
+go, he goes, she goes; Fill-ins (4), (6), (9), (10): your, his, her; Fill-in (5):
+Your, Name possessive; Fill-in (7): you, he, she; Fill-in (8): return to, returns
+to).
+12. OPT 179
+a. Description
+Use this UTI as a paid versus payable.
+b. Language or fill-ins for OPT179
+We paid (1) $(2) for (3). Since we should have paid (4) $(5) for (6), we paid (7)
+$(8) (9) than (10) due.
+1.
+Fill-in (1) is system generated. (You, Beneficiary’s Name)
+2.
+Fill-in (2) is the MBR Paid amount
+3.
+Fill-ins (3) and (6) are MM/CCYY, MM/CCYY through MM/CCYY (date bene became offset
+eligible through end of current year)
+4.
+Fill-ins (4) and (7) are systems generated. (you, him, her)
+5.
+Fill-in (5) is the MBC that should have been paid
+6.
+Fill-in (8) is the amount of the underpayment or overpayment.
+7.
+Fill-in (9) is systems generated (more, less)
+8.
+Fill-in (10) is systems generated (you were, he was, she was)
+13. DIBC12, REFC05, REFC06
+a. These are paragraph headers.
+1.
+DIBC12 – Benefit Offset National Demonstration (BOND)
+2.
+REFC05 – If You Have Questions About the BOND Project
+3.
+REFC06 – If You Have Questions That Are Not About the BOND Project
+14. BEN105
+a. Description of UTI
+Use this UTI when a beneficiary is in BOND offset and a new BRI MBA is calculated.
+b. Language or fill-ins for BEN105
+We may have let (1) know earlier that we would increase (2) benefits to (3) per month
+due to the rise in the cost of living. We have refigured (4) benefits based on (5)
+participation in the benefit offset national demonstration project (BOND). This notice
+corrects the calculation to apply the cost of living increase to (6) original benefit
+before the reduction for BOND earnings. (7) new monthly amount (before deductions)
+is (8).
+1.
+Fill-ins (1), (2), (4), (5), (6), and (7) are automatically generated (Fill-in (1):
+you, your, Name; Fill-in (2), (4): your, Name possessive; Fill-in (5), (6): your,
+his, her; Fill-in (7): Your, Name possessive).
+2.
+Fill-in (3)
+3.
+BRI/MBR incorrect monthly benefit amount
+4.
+Fill-in (8)
+New offset monthly benefit amount after BRI correctly computed.
+15. BEN106
+a. Description of UTI
+Use this UTI when you have completed an End of Year Reconciliation and you need a
+paid versus payable.
+b. Language or fill-ins for BEN106
+Based on (1) earnings of $(2) for (3) we should have paid (4) $(5) that should have
+been paid for (6).
+1.
+Fill in (1) is automatically generated (your, Name possessive)
+2.
+Fill-in (2) is the end of year reconciliation BOND countable earnings amount.
+3.
+Fill-in (3) is the reconciliation year in CCYY format.
+4.
+Fill-in (4) is automatically generated (you, him, her)
+5.
+Fill-in (5) is the monthly benefit credited (MBC).
+6.
+Fill-in (6) is the dates of reconciliation (MM/CCYY, MM/CCYY through MM/CCYY).
+16. BEN107
+a. Description of UTI
+Use this UTI when you have completed an End of Year Reconciliation and no adjustment
+has been made.
+b. Language or fill-ins for BEN107
+This means we paid *F1correctly based on the evidence *F2provided for the reconciliation
+year.
+1.
+Fill-in (1) and (2) are automatically generated (Fill-in (1): you, Name; Fill-in (2):
+you, he, she).
+17. BEN108
+a. Description of UTI
+Use this UTI when you are explaining your End of year reconciliation calculation.
+b. Language or fill-ins for BEN108
+This (1) resulted from the difference in the yearly amount that (2) estimated *F3
+would earn during (4) and the actual amount that (5) earned, during that year. We
+determined the (6) after we recalculated (7) offset amount based on (8) actual BOND
+countable earnings.
+1.
+Fill-ins (1) and (6) are A- overpayment or B – underpayment.
+2.
+Fill-ins (2), (3), (5), (7) and (8) are automatically generated (Fill-in (2): you,
+Name; Fill-in (3), (5): you, he, she; Fill-in (7), (8): your, his, her).
+3.
+Fill-in (4) is the reconciliation year in CCYY format.
+18. BEN109
+a. Description of UTI
+Use this UTI when you need to notify a BOND beneficiary that his/her participation
+period is ending.
+b. Language or fill-ins for BEN109
+(1) been a participant in the benefit offset national demonstration (BOND) project.
+The special rules for the BOND project will no longer apply to (2) beginning (3).
+(4).
+1.
+Fill-ins (1) and (2) are automatically generated (Fill-in (1): You have, Name has;
+Fill-in (2): you, him, her).
+2.
+Fill-in (3) is the date their participation period ends in MM/CCYY format.
+3.
+Fill-in (4) is the reason their participation period is ending:
+a.
+You asked to be withdrawn from the project. If you are receiving benefit payments,
+your payments may stop the first month you do substantial gainful work
+b.
+He asked to be withdrawn from the project. If he is receiving benefit payments, his
+payments may stop the first month he does substantial gainful work.
+c.
+She asked to be withdrawn from the project. If she is receiving benefit payments,
+her payments may stop the first month she does substantial gainful work.
+d.
+You are no longer eligible for the project, because you have not completed the trial
+work period by September 30, 2017.
+e.
+He is no longer eligible for the project, because he has not completed the trial work
+period by September 30, 2017.
+f.
+She is no longer eligible for the project, because she has not completed the trial
+work period by September 30, 2017.
+g.
+Null (use BEN110 or BEN 111)
+19. BEN110
+a. Description of UTI
+Use this UTI when explaining why a beneficiary is ineligible for BOND. (Only used
+if F4 = A, B, C, D, E, or F requested in BEN 109)
+b. Language or fill-ins for BEN110
+(1) no longer eligible for the project because (2) (3). If (4) (you are, he is, she
+is) receiving benefit payments based on disability, (5) payments may stop the first
+month (6) substantial gainful work.
+1.
+Fill-ins (1), (2), (4), (5) and (6) are automatically generated (Fill-in (1): You
+are, Name is; Fill-in (2): you have, he has, she has; Fill-in (4): you are, he is,
+she is; Fill-in 5:your, his, her; Fill-in 6:you do, he does, she does)
+2.
+Fill-in (3) is the reason why the beneficiary is ineligible (A – F)
+a.
+A-had benefits terminated prior to the BOND start date of participation,
+b.
+B-participated in another demonstration project before,
+c.
+C-moved to a foreign country,
+d.
+D-received benefits paid by the railroad,
+e.
+E-elected to receive benefits not based on a disability,
+f.
+F-no longer met the BOND eligibility criteria
+20. BEN111
+a. Description of UTI
+Use this UTI when explaining why a beneficiary is ineligible for BOND. (Only used
+if F4 = G requested in BEN 109)
+b. Language or fill-ins for BEN111
+(1) participation period ends (2). Payments will end with the month (3) substantial
+gainful work after (4).
+1.
+Fill-ins (1) and (3) are automatically generated (Fill-in (1): Your, Name; Fill-in
+(3): you do, he does, she does).
+2.
+Fill-ins (2) and (4) are the month their participation period ends in MM/CCYY format.
+21. BEN112
+a. Description of UTI
+Use this UTI when explaining why a beneficiary is ineligible for BOND. (Only used
+if F4 = A, B, C, D, E, or F requested in BEN 109)
+b. Language or fill-ins for BEN112
+(1) participation period ends (2). Since (3) not demonstrated an ability to perform
+work at a substantial gainful activity (SGA) level, payments may end with in the second
+month following the month (4) an ability to perform work at an SGA level.
+1.
+Fill-ins (1), (3) and (4) are automatically generated. (Fill-in (1):Your- Name; Fill-in
+(3): you have, he has, she has; Fill-in (4): you demonstrate, he demonstrates, she
+demonstrates).
+2.
+Fill-in (2) is the month the participation period ends in MM/CCYY format.
+22. BEN113
+a. Description of UTI
+Use this UTI when you have done the final reconciliation on a BOND beneficiary.
+b. Language or fill-ins for BEN113
+The special rules for the BOND project will no longer apply to (1) after (2) participation
+period ends. If (3) benefit payments based on disability after that month, (4) payments
+will stop the first month (5) substantial gainful work.
+1.
+Fill-ins (1) – you, Name, (2) – your, his, her, (3) – you receive, he receives, she
+receives, (4) – your, his, her, and (5) – your do, he does, she does) are all automatically
+generated.
+23. BEN114
+a. Description of UTI
+Use this UTI when an auxiliary is not payable for the reconciliation period.
+b. Language or fill-ins for BEN114
+We cannot pay (1) benefits for (2) under the rules of the Benefit Offset National
+Demonstration (BOND) project. This is due to (3) work and earnings. This does not
+change any current benefits (4).
+1.
+Fill-ins (1) – you, Name; (3) – BOND beneficiary name possessive; and (4) – you receive,
+he receives, she receives; are automatically generated.
+2.
+Fill-in (2) is the sole month of offset in the reconciliation year (MM/CCYY) or the
+first and last month of offset period in the reconciliation year (MM/CCYY through
+MM/CCYY).
+24. BEN115
+a. Description of UTI
+Use this UTI when an auxiliary is payable for the reconciliation period.
+b. Language or fill-ins for BEN115
+(1) will soon receive a check for (2). This check is for benefits due to (3) for (4)
+under the rules of the Benefit Offset National Demonstration (BOND) project. (5) are
+due this check because of (6) work and earnings. This does not change any current
+benefits (7).
+1.
+Fill-ins (1) – You, Name; (3) – you, him, her; (5) – You, Name; (6) – BOND beneficiary
+name possessive; and (7) – you receive, he receives, she receives; are automatically
+generated.
+2.
+Fill-in (2) is the amount of the refund after reconciliation.
+3.
+Fill-in (4) is the sole month of offset in the reconciliation year (MM/CCYY) or the
+first and last month of offset period in the reconciliation year (MM/CCYY through
+MM/CCYY).
+25. BEN116
+a. Description of UTI
+Use this UTI to remind a BOND beneficiary to report current year estimate of earnings.
+b. Language or fill-ins for BEN116
+If (1) working and (2) not given us an estimate of (3) expected yearly earnings, please
+contact Abt Associates immediately. We show their contact information under the heading,
+“If You Have Questions About the BOND Project”. If (4) not give us an estimate, we
+may pay (5) incorrect benefit payments.
+1.
+Fill-ins (1-5) are automatically generated. (Fill-in (1): you are, Name is; Fill-in
+(2): have, has; Fill-in (3): your, his, her; Fill-in (4): you do, he does, she does;
+Fill-in (5): you, him, her)
+26. BEN117
+a. Description of UTI
+Use this UTI if a BOND beneficiary submits documentation for end of year reconciliation
+and there is no change in the benefit amount.
+b. Language or fill-ins for BEN117
+Thank you for providing us with information about (1) earnings for last year. (2)
+asked us to determine if there has been a change in the amount of benefits payable
+to (3) under BOND because of this information. Based on this evidence we have determined
+that there is no change to (4) monthly benefit amount for this period. This decision
+does not change any benefits (5) may be currently receiving.
+Fill-ins (1-5) are automatically generated. (Fill-in (1): you are, Name is; Fill-in
+(2): have, has; Fill-in (3): your, his, her; Fill-in (4): you do, he does, she does;
+Fill-in (5): you, him, her)
+27. BEN118
+a. Description of UTI
+Use this UTI if a BOND beneficiary submits documentation for end of year reconciliation
+and an overpayment or underpayment applies.
+b. Language or fill-ins for BEN118
+Thank you for providing us with information about (1) earnings for the last year.
+(2) asked us to determine if there has been a change in the amount of benefits payable
+to (3) under BOND because of this information.
+1.
+Fill-ins (1-3) are automatically generation. (Fill-in (1): your, Name possessive;
+Fill-in (2): You, He, She; Fill-in (3): you, him, her)
+28. BEN119
+a. Description of UTI
+Use this UTI if a BOND beneficiary submits a Request for Reconsideration.
+b. Language or fill-ins for BEN118
+We received a request (1).
+1.
+Fill-in (1) has five options:
+A = for an explanation.
+B = that we not collect the overpayment.
+C = that we review our decision.
+D = that we review our decision and not collect the overpayment.
+E = that we withhold a different amount.
+29. INFC50
+This caption states: What Happens When The Special Rules for BOND No Longer Apply?

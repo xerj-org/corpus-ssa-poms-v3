@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 00603.035 - Preeffectuation Review Contact (PERC) for Deferred Claims
+Effective Dates: 08/26/2008 - Present | TN 24 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603035 (fetched 2026-10-04)
+
+B. Procedure
+1. Complete Remaining Questions
+a. Non-MSSICS Processing
+If the application was filed on Form SSA-8001-BK (Application for SSI) or the application
+was filed on MSSICS but the claim is locked, obtain a supplemental Form SSA-8000-BK
+(Application for SSI) and all necessary related forms. (See SI 00604.001 for instructions on completing the SSA-8000-BK.)
+Ask questions on the SSA-8000-BK that were not asked before or that elicit information
+about factors subject to change. For example, do not ask about other names or social
+security numbers (SSNs), date of birth, place of birth, disability.
+b. MSSICS Processing
+Conduct the PERC via MSSICS if the claim on MSSICS is not locked. As long as the disability
+allowance has been posted, you will be guided automatically through the full claims
+path to answer the unanswered questions when you access the claim in UPDATE mode.
+If you are conducting the PERC in response to an early alert notification, change
+the application type to FULL to complete the claims path.
+CAUTION: Do not input the disability decision on the Disability Clearance page upon receipt
+of the early notification because the decision is not yet final.
+2. Review Previous Answers
+NOTE: Ask the SNAP questions again, if appropriate. For detailed information, see Screening
+Individuals for Supplemental Nutrition Assistance Program (SNAP) Eligibility or Application
+Status (SI 01801.010).
+a. Non-MSSICS Processing
+Compare information on the SSA-8000-BK to the SSA-8001-BK or the MSSICS record of
+the initial application. Resolve any conflicts.
+b. MSSICS Processing
+Review with the individual answers given previously to questions whose answers are
+subject to change. (For example, there is no need to review other names or SSNs, date
+of birth, place of birth, or disability.) Record any changes since the application
+was filed.
+3. Systems Input
+a. Non-MSSICS Processing
+Transmit the PERC Code and Date, to the PERC - Update (PC) field (SM 01005.660). See
+SI 00603.030 for the definition of PERC date. See SI 00603.033A.2. if the PERC date is more than 4 calendar months prior to the current month.
+b. MSSICS Processing
+Enter Y in answer to CLOSE OPEN EVENT on the DSSR screen and enter the INITIAL CLAIM
+DECISION on the DADJ screen.

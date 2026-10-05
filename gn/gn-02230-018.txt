@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02230.018 - Death Termination Outstanding Payments
+Effective Dates: 07/22/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230018 (fetched 2026-10-04)
+
+GN 02230.018 Death Termination Outstanding Payments
+AUDIENCE: BA, BATA, IES
+Incorrect Payments—Outstanding Checks
+The control of an outstanding check(s) for the month of death or any subsequent month
+is part of the “Death Termination” Program. If a beneficiary is terminated by this program, the amount of the outstanding
+check(s) is recorded on the MBR in the history field as terminated but paid. If the
+outstanding check(s) is returned and entered into the system, the IP is reduced by
+the amount of the returned check and history is corrected. However, in single-beneficiary-(no
+survivors)-on-the-account situations, where the date of termination (DOST) is 2 or
+more months prior to the current operating month, (COM) or the DOST is 1 or more months
+prior to COM, and the MBR contains a bank address, the case will be alerted with the
+remark “Prepare SF-1184.” In addition, the Death Termination Program will not create or annotate the OPA on
+the MBR for these cases. The above procedures should be used whenever a manual death
+termination is processed.
+If the outstanding check(s) has not been returned within 60 days, an MBR printout
+will be received. The folder will be examined to ascertain if the outstanding check
+or an equivalent refund is in file or the amount of the outstanding payment was withheld
+from a lump-sum or underpayment award. If the IP has been adjusted or refund made,
+correct payment history and the OPA field established on the MBR, if necessary, and
+return the folder to files. Where the folder does not indicate the return of the outstanding
+check, refund, or an adjustment of the IP, the appropriate check cancellation listing
+should also be examined before any further recoupment action is taken.
+Where the outstanding check(s) appear on these listings and no action has been processed
+to credit the returned check to the account, correct payment history and the OPA field
+on the MBR and return the folder to files. Where action has been taken to update the
+returned check to the MBR, no further action is necessary.
+Where all information in file indicates the checks(s) is still outstanding, the case
+will be handled as follows:
+The case will be referred to the exception and inquiries examiner. The exception and
+inquiries examiner will prepare an SF-1184 for the outstanding checks.
+Where a representative payee is involved, an overpayment has been made if the payee
+is not entitled to benefits, or adjustment against his benefits is not currently available,
+follow instructions in SM 00610.772, Non-Entitled Overpaid Persons, to establish an
+event on ROAR. Proceed with overpayment recovery in accordance with recovery procedures.
+In this instance, the SF-1184OP will not be prepared. This procedure is used for both
+EFT and direct payment.

@@ -1,0 +1,128 @@
+SSA Program Operations Manual System (POMS) - DI 13015.080 - Unable to Locate Medical Folder after Initial FO Search - Detective Work
+Effective Dates: 02/06/2024 - Present | TN 19 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015080 (fetched 2026-10-04)
+
+D. List of Helpful Hints in Narrowing the Search
+Once the above queries are obtained, CONSIDER the following:
+1.
+What is the application (or CPD) date of the file I am looking for?
+Has the individual filed for anything else since that date? (Look for a cross-reference
+SSN or a current or prior spouse's SSN on the FACT and SSID.) Could the file be attached
+or incorporated in a subsequent claim? The CPD material may be attached to or incorporated
+in a subsequent or prior claim. It is not uncommon in concurrent filings for the medical
+to remain in a technically denied (090) folder.
+2.
+Was another application filed under a different title or a different type of benefit?
+It is common for title XVI claimants to work in sheltered work and obtain later insured
+status for title II benefits. Where is the other half of the file (i.e., you have
+the title XVI but not the title II)? It is common for title II and title XVI folders
+to be intermingled. For example, a SSI recipient may have filed for title II, such
+as CDB benefits, which have been denied or terminated (medical could be in the title
+II folder). See DI 13015.055. Recall the title II folder following normal PCACS procedures.
+3.
+Has the claimant had involvement with other FOs? How recently did the folder location
+on the system last update?
+Has the individual moved since the folder location on the system was last updated?
+Check the TRANS field on the SSID or the history field on the MBR for Change of Address
+(COA) inputs. Review the address changes reflected in the Address Query of the QRSL.
+Contact all FOs not previously contacted, that may have had involvement with the claimant,
+to search that office for the file.
+4.
+Are the folder location and date – logical?
+For example, if the SSID indicates that the file should be in the DDS, but the date
+is very old. A DDSQ should be obtained for potential folder movement that is not reflected
+in the SSI case control system.
+5.
+Is there more than one file?
+Many times the system overlays the old folder location with the most recent folder
+location. Remember that there is only one CCTL line even though there may be numerous
+SSI records (e.g., the same CCTL line shows up on both RN 1x9 and RN 9x9). If the
+system does not indicate that the prior file is in storage, perhaps it is still in
+the FO where it was denied (XDO on RN1) or allowed. The DDSQ history section can be
+useful in these situations. Also see DI 13015.035C.2.b. for an offline SSI case control query (AR25).
+6.
+Was this an adoption or was initial application concurrent but Title II case denied?
+The disability determination may have been adopted from one title or type of benefit
+(i.e., HA to CDB) to another. Remember the title II (previously denied) folder could
+contain the medical evidence, if title XVI folder does not. If the title XVI file
+does not contain the medical evidence, search for and secure the title II folder.
+7.
+Could the file be under a different name?
+Check the names on the NUMI against the date of filing on the FACT or the application
+date on the SSID. Watch for names that are easy to misfile -- like two first names
+Howard Lee, which could be filed as Lee Howard. Watch out for names with spaces and
+dashes. Look for files under a woman's maiden name, previous married name, etc. Look
+for them under every "creative" way they could be filed.
+8.
+Are there other family members with something going on that might cause the file to
+be somewhere unusual?
+Watch for complicated family situations. Is there a spouse or ex-spouse involved?
+Consider if the folders may be joined. Are there auxiliary claimants (usually CDB
+and DWB) who have something going on that might cause the file for the entire family
+to be somewhere odd? (For example, a CDB CDR ongoing?) Is there anybody on the record
+who is overpaid?
+9.
+Did you obtain an OFFLINE query?
+If you know that the current location on the SSID is incorrect, consult the OFFLINE
+CCTL 8028/AR: 25. This query gives you up to the last six folder history locations
+on the system. See SM 01201.050 and SM 01201.110. Where was the file reading in the
+past? Is it logical that it might still be there?
+10.
+Did you check the HUN and FUN to be sure the file is NOT actually housed under the
+SSN of a spouse/parent?
+Check the HUN and FUN on the SSID and the prior record SSID to be sure the file is
+NOT actually housed under the SSN of a spouse or parent. If there is another number
+involved query that SSN and locate any files.
+Spouse FYI Search: Currently the SSI Control System (SSICS) only tracks the Housed
+Under Number (HUN) of the SSI case. A person who was a spouse when they filed, but
+is currently an individual, may have their DIB data filed in the HUN folder of individual
+that they were married to at the time of filing. In order to obtain the individual's
+DIB file, search prior records, and obtain AR33 requests for the HUN of any prior
+records.
+11.
+Did you check the SSID for a prior record, etc.?
+Check the RCRD EST line on the SSID and prior record SSID.
+What office established the records and when? Keep in mind that whenever a new record
+is established, the CFL automatically updates to the office code of the office doing
+the input that establishes the new record. This does not necessarily mean that they
+have the file. The file may actually still be in a former location (XDO code).
+12.
+What offices have been making inputs?
+Look at the transaction lines on the SSID to see what offices have been making inputs
+to the record. Maybe they have the file.
+•
+Check MSSICS. If this was a MSSICS case, you should check the WMS History query from
+the MSSI Menu to see possible additional prior locations.
+•
+Check MCS WMS history from MCS Menu and MCS Claims Development MCS Menu under the
+claimant's own SSN and all related SSNs for additional leads.
+•
+Check the MDW for other possible activities such as work issues, overpayments, personal
+conferences, etc. that may have required the folder.
+13.
+What about a PCACS query?
+Check PCACS for a diary. It may have clues to the location of the folder.
+14.
+Did you check the FACT?
+Check the FACT for a special message.
+15.
+Did you update MCS/PCACS as to folder movement?
+Since there is no longer a BDIQ, you need to be even more careful about keeping the
+MCS system up to date when you move a folder around. PCACS tracks folders once they
+have arrived in the Office of Central Operations (OCO) formerly known as the Office
+of Disability and International Operations (ODIO), the Program Service Centers (PSCs).
+Until OCO or the PSC establishes the case on PCACS, the PCACS query will be NIF. Once
+the PCACS record is established, FOs can use PCACS to reflect movement of the folder
+from their FO to DDS or to another FO, if the user makes PCACS input to the system. PCACS inputs by the FO will update the
+location of the file (if the file was reading in a FO location), but it will NOT change
+the date related to the movement, which can be misleading.
+16.
+Are you looking for a denial?
+Denials do not reach OCO/ODIO or PCs until at least six months after they are denied.
+This means there will be a long period of time where PCACS says, "SSN NOT FOUND".
+17.
+What might have happened to the original file?
+Apply common sense when looking for a medical folder and think through what might
+have happened to the CPD folder. If you have already searched in a location/component,
+unless you have a new lead, i.e., name change or another SSN, it is not cost effective
+to ask the component to look for the same file again.

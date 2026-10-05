@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 11010.300 - Routing Concurrent Disability Insurance Benefits Retirement and Survivor Insurance (DIB-RSI) Claims
+Effective Dates: 05/21/2009 - Present | TN 49 (08-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010300 (fetched 2026-10-04)
+
+A. Background
+Modernized Claim System Earnings Computation (MCS/ EC) processes concurrent Retirement
+Insurance Benefits/Disability Insurance Benefits (RIB/DIB) claims when a disability
+claim is a denial and there is an active Master Beneficiary Record (MBR) for A Beneficiary
+Identification Code (BIC). MCS/ EC processes a DIB allowance over a Retirement Insurance
+Benefit (RIB) allowance as long as the DIB Month of Entitlement (MOE) is the same
+or prior to the RIB MOE. The MCS claim creates segments allowing the Claims Representative
+(CR) to process both claims completely.
+In concurrent RIB/DIB claims where the DIB MOE is later than the RIB MOE:
+•
+Process the RIB claim through EC and the disability claim segments.
+•
+After the RIB and DIB claims have segmented, process the RIB only.
+•
+Go back to the DW01 (on the RIB segment) and XXXXXX out any issues pertaining to the
+DIB claim only.
+•
+Process the disability award using the Automated Determination of Award (A101); and
+if an exclusion exists, process an EF101.

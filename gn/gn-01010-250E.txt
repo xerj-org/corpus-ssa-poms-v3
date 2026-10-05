@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 01010.250 - Special Considerations for Processing Claims in the Field Office (FO)
+Effective Dates: 01/11/2012 - Present | TN 74 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010250 (fetched 2026-10-04)
+
+E. Procedures for other special conditions
+1. Worker’s Compensation (WC)/Public Disability Benefits (PDB) claims
+Input WC/PDB entries on the offset (WCCL) screen in MCS per DI 52155.001. For manually processed claims, see DI 52155.025. These entries are necessary whenever WC/PDB offset is involved or potentially involved so that you can establish the appropriate identification and control system for future
+action.
+2. Railroad (RR) certified claims
+For RR Certified claims that you can process via MCS EC, see RS 01602.000.
+For manually processed claims, identify RR Certified cases by entering the proper
+code on the RR Certification Factor on the Benefit Continuity Factor (BECF) screen
+for each beneficiary whose monthly benefit are certified by the Rail Road Board (RRB).
+NOTE: If the proper RR code does not propagates to the A101 screens, it must be input manually,
+see MSOM MCS 014.004.
+3. Title XVI windfall offset
+For instructions on the use of the Windfall (WF) Factor (FAC) code to withhold retroactive
+title II benefits pending a possible title XVI offset, see MSOM MCS 009.003 BECF and
+GN 02610.010.
+4. Claim abatements
+For instructions on claim abatement processing, see GN 01010.475. Suppress the notice
+if the abatement is due to death and the deceased claimant was the applicant.
+CAUTION: Only denial codes 67, 68 and 96 apply to abatements (see SM 00380.040 and SM 00510.195).
+Do not use any other codes for an abatement action.
+5. Pre-Effectuated withdrawals
+Approve pre-effectuated withdrawals in the FO. However, withdrawals received after
+the effectuation of benefit payments are post-entitlement actions that require PC
+approval. If the claimant is entitled to railroad or veterans benefits, see GN 00206.025. For conditional withdrawals, see GN 00206.055.
+CAUTION: Only reason codes 200 - 207 apply to withdrawals (see SM 00380.040). Do NOT use any other codes for a withdrawal.
+If the NH withdraws a retirement (RIB) claim and there are unprocessed auxiliary claims
+still pending that will be disallowed consequently, process the disallowance for the
+auxiliary claimant(s) using MCS EC (see MSOM MCS 009.013);
+6. Medicare-only claims with multiple disallowance codes
+For Medicare-only claims when insured status (I/S) is a factor of entitlement (e.g.,
+a BIC “T” or aged claimant - not a BIC “M), and the claimant does not meet the residency requirement, input the disallowance code
+for residency (i.e., 103) in the MCS Benefit Continuity Factors (BECF) screen. Additionally,
+use the special message (SP MSG) field in MONET to indicate the disallowance reason,
+see MSOM T2PE 007.001.
+Although the BECF screen in MCS allows up to three disallowance codes to be input,
+the system does not transmit derived codes to this screen. Therefore, if the claimant
+subsequently attains I/S and re-files a new claim, the MBR SP MSG annotation will
+provide a lead about the residency issue at a quick glance during initial contact
+with the claimant. Otherwise, an incorrect Medicare allowance could result and an
+unnecessary re-contact with the claimant may be required.
+For a list of denial codes and their priority, see SM 00380.090.
+CAUTION: Since the MCS action should process immediately, input the SP MSG action at the same
+time. However, if the disallowance action is delayed and the MONET action is processed
+before the MBR is established, an MBR no in file “NIF” exception will be generated
+to the FO. This exception will not reflect the input language.

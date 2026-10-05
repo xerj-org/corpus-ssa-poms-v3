@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - GN 00504.240 - Representative Payee or Name Change for a Group of Beneficiaries
+Effective Dates: 05/16/2025 - Present | TN 40 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504240 (fetched 2026-10-04)
+
+B. Procedure for when to change the payee legend or appoint a common representative payee
+1. No change in representative payee
+If you receive a request to change only the name or title of the official carrying
+out the representative payee responsibilities for the organization, or the address
+of the organization (i.e., the organization continues as payee), input the payee name
+change and legend change.
+EXAMPLE: The Shady Grove Nursing Home changes its name to the Shady Grove Care Center (same
+employer identification number (EIN)). This is not a change of payee situation, so
+management should only input a name change and legend change. For more information
+on how to input the change in the Electronic Representative Payee System (eRPS), refer
+to the instructions in MS 07420.003.
+2. Change in representative payee
+Use the following procedures for changing representative payees.
+a. Development of organizational representative payee
+•
+Interview the representative of the organization applying to be a common payee. You
+must conduct a face-to-face interview unless a phone or Video Service Delivery interview
+is permitted under GN 00502.113B.
+•
+Verify the applicant's identity in accordance with established verification procedures,
+GN 00502.117.
+•
+If conducting a face-to-face interview, print a copy of the Privacy Act Statement
+from the SSA-11, provide it to the applicant, and continue with the interview.
+If conducting a phone or VSD interview, read the following Privacy Act Statement to
+the applicant:
+Sections 205(a), 205(j), and 1631(a) of the Social Security Act allow us to collect
+your information, which we will use to determine your eligibility to serve as a representative
+payee. Providing this information is voluntary, but not providing the information
+may prevent us
+from assisting you. As law permits, we may disclose your information per routine
+uses in System of
+Records Notice 60-0089, 60-0222, and 60-0320; available at www.ssa.gov/privacy. Your
+information may
+also be used in computer matching programs to establish or verify eligibility for
+Federal benefit
+programs and to recoup debts under these programs.
+After reading the Privacy Act Statement, direct the applicant to SSA's website, www.ssa.gov, to download a copy of form SSA-11 (which includes the full, comprehensive Privacy
+Act Statement). If the applicant is unable to download a copy, mail a copy of the
+form to the applicant. If the applicant declines a mailed copy, continue with the
+interview.
+•
+Ask the applicant how the organization uses the benefits and the reason for the change.
+•
+Document on the report of contact screen (RC), or the Report of Contact Details screen
+in eRPS, that you explained the payee's duties, the field office's (FO) recommendation
+and reasons for appointing the applicant.
+•
+Complete only one SSA-11 and query the Pending Applications and Selected List screens
+in eRPS, (MS 07420.014 and MS 07420.017) to identify all beneficiaries affected by
+the change and their SSNs. Attach a list of the affected beneficiaries to the SSA-11.
+If the current payee is not in eRPS (e.g. a foreign payee who does not have an SSN
+or EIN), request the organization to provide a list of affected beneficiaries. Verify
+their eligibility.
+•
+If the organization is not in eRPS, establish the organization before entering the
+merger action through the Organizational/Institutional Rep Payee Overview screen function
+in eRPS (MS 07414.002).
+•
+Determine if any of the beneficiaries have legal guardians or higher preference payees.
+For information on using the payee preference list, see GN 00502.105.
+•
+Make the payee determination.
+•
+Send a manual advance notice about the new payee determination to each beneficiary
+involved. Create a diary in RPS and tickle for 15 days. For more information on sending
+an advance notice, see GN 00503.100.
+NOTE: eRPS processes the mass change, but eRPS will not automatically send the advance
+notice.
+b. Processing the payee change
+•
+At the end of the 15 days, the servicing FO inputs the change of representative payee
+action via the Merge Organization/Institution screen, per instructions in MS 07414.005.
+If the beneficiaries' address has changed, update the residence address via the Beneficiary
+Address Change Screen MS 07414.010.
+•
+Store a copy of the SSA-11 either in the Non Disability Repository for Evidentiary
+Documents (NDRED) using Evidence Portal (EP), or in eView using EP or the eView application,
+under the SSN of the first beneficiary on the list.
+•
+Annotate in the Make Note screen in eRPS the current organizational payee, describing
+the action, i.e., (merger/ownership change), any documentation collected, the date
+advance notices sent, and the SSN where the SSA-11 is electronically stored.
+NOTE: If the beneficiary contacts the FO and states that they have received the advance
+notice, understands their rights and agrees to the payee selection, you need not wait
+until the 15-day diary period, see GN 00503.100E.4.
+If the new payee is fee-for-service, notify the beneficiaries that the payee is authorized
+to collect a fee for its services GN 00506.140.

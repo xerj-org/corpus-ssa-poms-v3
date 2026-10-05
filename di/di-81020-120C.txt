@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 81020.120 - Subsequent Claim Filed While a Prior Claim or Appeal is Pending at the Appeals Council (AC)
+Effective Dates: 01/25/2017 - Present | TN 13 (08-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020120 (fetched 2026-10-04)
+
+C. DDS adjudication of subsequent claims
+DDS adjudicates the subsequent claim per normal case processing procedures with specific
+instructions found in DI 20101.025F New Application Filed or Reconsideration Requested While Hearing, Appeals Council
+(AC) Review, or Court Action Pending on Prior Application.
+1. Favorable determination on the subsequent claim
+If the DDS can make a fully favorable or partially favorable determination on the
+subsequent claim:
+•
+Enter “onset restricted to MM/DD/YY, AC appeal on prior claim,” in item 34 of the
+SSA-831 (Disability Determination and Transmittal) unless using the actual onset date
+(see DI 20101.025F.2.a. New Application Filed or Reconsideration Requested While Hearing, Appeals Council
+[AC] Review, or Court Action Pending on Prior Application);
+•
+Add a message without an expiration date to the CEF stating “FAVORABLE – The FO should
+immediately send an email to the Office of the Appellate Operations (OAO) per DI 12045.027D.1.b. New Claim or Appeal Filed While a Prior Claim or Appeal is Pending Before the Appeals
+Council (AC) – Title II or Title XVI”; and
+•
+Return the claim to the servicing FO or Office of Quality Performance (OQR).
+NOTE: If the DDS case processing system is at version 14.0, EFI automatically generates
+a message notifying the AC of the favorable determination, “A favorable determination
+was made on another case for this SSN (insert SSN).”
+2. Unable to make a favorable determination on subsequent claim
+If the DDS cannot make a favorable determination on the subsequent claim:
+•
+Prepare the determination in the usual manner, including the personalized disability
+notice (PDN);
+•
+Add a message without an expiration date to the CEF stating “UNFAVORABLE – Process
+any appeal request”; and
+•
+Return the claim to the servicing FO or OQR.
+NOTE: The AC does not need to be alerted of unfavorable determinations on subsequent claims,
+therefore, no message is sent to the AC from the DDS.

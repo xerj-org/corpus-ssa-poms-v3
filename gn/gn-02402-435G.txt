@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.435 - Coding Saudi Arabia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/06/2019 - Present | TN 157 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402435 (fetched 2026-10-04)
+
+G. Example of coding Saudi Arabia direct deposit
+The customer provides us with a signup form for Saudi Arabia containing the account
+number: SA0380000000608010167519
+•
+The first character of IBAN is “SA,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The next 2 characters of the IBAN represents the bank code.
+•
+The last 18 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as 720000005
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “E” designated for Saudi Arabia; and
+•
+Code the 16 digits of the 18-digit Account Number “0000006080101675”
+3. Obtain the following information
+•
+RTN 720000005
+•
+Checking
+•
+DAN: E0000006080101675
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000005
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: E0000006080101675
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 720000005
+•
+DAN CE0000006080101675

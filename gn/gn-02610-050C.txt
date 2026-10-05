@@ -1,0 +1,121 @@
+SSA Program Operations Manual System (POMS) - GN 02610.050 - Complex Offset Situations with Case Examples
+Effective Dates: 03/14/2013 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610050 (fetched 2026-10-04)
+
+C. Case type: Recomputing windfall offset when the recipient dies and nobody is eligible
+to receive the Title XVI underpayment.
+1. Determine the offset period when recipient dies
+The offset period ends with the month of death unless the offset end date is earlier
+than the month of death. Apply offset only in those months that SSI payments were
+paid to the recipient or other authorized recipient, or to a state as an Interim Assistance
+Reimbursement (IAR), or to recover an overpayment, or to pay an authorized representative
+fee. SSA considers that the recipient was paid SSI money in these situations.
+2. Recomputation of offset in situations with or without installment payments
+Consider all SSI money issued as part of an installment payment before the recipient
+death as subject to offset if shown as paid on the SSR. Any SSI money still held as
+an underpayment based on installment rules is considered not paid to the recipient
+and is therefore not subject to offset.
+Determine which months should not have been subject to windfall offset. See POMS GN 02610.022 and SM 01320.060 to determine the offset period. Adjust the offset using zeros for
+months before the DOD that should not be offset. Determine the amount of offset that
+should not have been deducted from the Title II PMA. Adjust the payments in the offset
+period so the correct amount of Title II benefits can now be paid on the Title II
+record.
+In a situation where the offset amount on the SSR that was deducted from the PMA is
+larger than the recomputed offset, record the recomputed offset figures in the remarks
+section of the SSR rather than in the offset fields on the SSR. Do not post the figures
+in the offset field on the SSR.
+Send an e4345 to the program center (PC) explaining why you recomputed and changed
+the offset period and what the results were. Explain that the excess amount of money
+deducted from the Title II PMA, is now due as a Title II underpayment.
+3. Examples of recomputing windfall offset cases when the recipient dies
+EXAMPLE 1: offset end date is later than date of death and IAR paid to a state.
+Prior to learning of death, SSR and MBR show:
+SSI DOE: 2/08 (E02 month)
+Title II DOE: 2/08 (1st payment is made in 3/08 for 2/08)
+WOBD: 3/08
+WOED: 12/08
+Regular monthly SSI payment amount: $443.00
+Regular monthly Title II benefit amount: $214.00
+Last month included in Title II PMA: 09/08
+Title II CMA paid in 11/08 (for 10/08)
+First regular monthly SSI payment paid in 11/08
+Offset information:
+Offset amount withheld from PMA: $1552.00 ($194.00 x 8 = $1552.00)
+Amount of retroactive SSI after offset: $3544.00
+IAR information used to determine amount paid to the state
+IAR period: 3/08 through 10/08
+State monthly interim assistance payment: $100.00
+Amount of total interim assistance paid to recipient and amount of IAR due state:
+$800.00
+Retroactive SSI information after IAR paid to state:
+Amount of SSI retroactive payment remaining after IAR amount paid to state: $2744.00
+Installment payment for 03/08 through part of 07/08 made in 11/08
+First installment payment is $1911.00 ($637.00 x 3 = $1911.00) for 03/08 through part
+of 07/08
+DOD: 11/19/08 (SSA learned of death on 12/20/08)—Revisions due to death:
+Revised windfall offset period
+WOBD: 03/08
+WOED: 11/08 (due to death in 11/08)
+Because recipient died in 11/08, the installment payment and first SSI monthly payment
+were returned.
+The office (PC or FO) that first learns of the date of death, will prepare an e4345
+with the date of death.
+If the PC first learns of the date of death, the PC will send the e4345 to the FO asking for a recomputation of the offset.
+If the FO first learns of the date of death, the FO will recompute the offset, and return the e4345 to the PC with the recomputation
+results.
+Offset computation currently on the SSR
+Type W: 03/08-10/08 $214.00
+Type A: 11/08-on $214.00
+Offset amount equals $194.00 for each month from 03/08-10/08.
+Offset amount withheld from PMA: $1552.00 ($194.00 x 8 months =$1552.00)
+1.
+FO procedure for EXAMPLE 1 Recompute the offset using the WOED equal to the DOD
+2.
+Use the $100.00 IAR amount as the offset amount for 03/08-10/08
+3.
+Adjust the offset amounts to:
+03/08-10/08: $100.00
+11/08- $0.00
+Adjusted total offset amount: $800.00 ($100.00 x 8 months = $800.00)
+4.
+Post recomputed offset amounts in the remarks section than the SSR.
+5.
+Determine the amount of SSI money to be returned to Title II account based on the
+DOD and the amount of SSI money actually paid for 03/08-10/08.
+$1552.00- original total offset amount
+$800.00- adjusted total offset amount
+$752.00 amount returned to Title II account
+EXAMPLE 2: Offset end date is earlier than date of death, one installment payment
+paid and no party eligible to receive the remaining underpayment
+SSR shows:
+Current Title II offset information for completed offset
+SSI DOE: 10/07 (E02 month)
+WOBD: 3/08
+WOED: 04/09
+First Title XVI installment paid 11/07 - 01/08
+DOD: 05/09
+Title XVI underpayment never released: 3/08 - 09/08
+MBR shows:
+Current Title II offset information for completed offset
+Title II DOE: 02/08 (first payment due in 03/08 for 02/08)
+Months no longer subject to offset: 03/08-09/08
+PC procedure for EXAMPLE 2:
+1.
+When the PC receives the e4345 from the FO, the PC will adjust the trust funds according
+to the instructions on the e4345.
+2.
+The PC will add the offset amount withheld from the Title II PMA to any retroactive
+Title II benefits on this account.
+FO procedure for EXAMPLE 2:
+1.
+Determine the offset amount withheld from Title II PMA for 03/08-09/08 since these
+months are no longer subject to offset.
+2.
+Prepare an e4345 to the PC explaining the payments for 03/08-09/08 are no longer subject
+to offset because these payments were never issued.
+3.
+Include on the e4345 the offset amount withheld from Title II PMA.
+4.
+Instruct the PC to transfer the amount from the general trust fund to the Title II
+trust fund and include the offset amount withheld from the PMA in any retroactive
+Title II benefits on this account.

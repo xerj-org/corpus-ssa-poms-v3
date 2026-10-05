@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 01703.420 - Processing Misrouted Claims in the Totalization Modules
+Effective Dates: 05/30/1996 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703420 (fetched 2026-10-04)
+
+C. Procedure - misrouted claim for U.S. benefits
+CA -Handle a misrouted claim for U.S. benefits as follows:
+1. RSI claim - Worker insured based only on U.S. coverage
+If the rerouted claim is a retirement or survivor claim, and the worker is insured based only on U.S. coverage only, and
+•
+it is detected in screening - route the claim to module 1 - 5 or the servicing PSC,
+as appropriate
+•
+it is not detected in screening - process the RSI award and include the appropriate
+totalization denial paragraph. Transfer the RSI folder to module 1 - 5 or the servicing
+PSC, as appropriate
+2. RSDI claim - Worker has less than six QCs
+If the misrouted claim is a retirement, survivor, or disability claim, for which the
+worker has less than six QCs, and it is detected in screening or later transfer the
+RSDI folder to module 1 - 5 or the servicing PSC, as appropriate
+3. Disability claim - Worker meets status based on U.S. coverage only
+If the misrouted claims is a disability claim in which the worker meets disability insured status based on U.S. coverage only and:
+•
+at least one claimant has a foreign address, send the folder to CDB or module 1 -
+5 for review and processing
+•
+no claimant has a foregin address, return the folder to the FO for proper routing
+if a disability determination has not been made. Send it to ODO or the PSC if a disability
+determination has been made.

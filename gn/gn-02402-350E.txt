@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.350 - Coding Slovenian Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/02/2016 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402350 (fetched 2026-10-04)
+
+E. Description of Slovenian IDD bank data
+The data for coding IDD for Slovenia will come from the International Bank Account
+Number (IBAN) provided to the beneficiary. The IBAN for Slovenia consists of up to
+19 characters. However, the bank data reflected on the MBR will reflect 20 characters.
+Technicians will use the IBAN to derive the RTN and DAN when processing an IDD request.

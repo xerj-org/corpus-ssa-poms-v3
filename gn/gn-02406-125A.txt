@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 02406.125 - Transmitting Reports of Nonreceipt, Loss, Theft, or Destruction -- Title II and Title XVI -- Recurring Checks and PMA Checks -- Normal and Dire Need Situations
+Effective Dates: 03/28/2000 - Present | TN 14 (04-00)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406125 (fetched 2026-10-04)
+
+A. Introduction
+This first section is provided to familiarize FO/PC/TSC personnel with the terminology
+used for nonreceipt (NRT, NC) inputs and the stop code that results from that action.
+These alpha codes (such as A, B, C, G, F) will appear on the PHUS and Q query record
+and are used in communications between SSA and DT.
+1. Title II Input Screens
+The PEN2 screen of POS has been modified to reflect nonreceipt reporting policy changes
+as a result of the court-approved Robinson/Reyf Settlement Agreement (GN 02406.002).
+Below is a description of the relationship between the nonreceipt selections on the
+PEN2 screen and the stop code that results from the input. Although this is a title
+II screen only, the “new definition” of the A, B, and C stop codes also applies to title XVI nonreceipt (see also GN 02406.001 and GN 02406.125A.2.):
+STEP
+ACTION
+NRT 1 =
+Nonreceipt of recurring or PMA check (loss, theft, or destruction of an unendorsed
+check). B-Stop. Courtesy disbursement check will be issued before the status of the original check is known. Most nonreceipt allegations will fall into this category.
+NRT 2 =
+Nonreceipt of recurring check. C-Stop. SSA wants the status of the original check
+reviewed before a replacement check is issued. Use when (1) claimant is known to have misused the nonreceipt reporting process OR
+(2) claimant is “unsure” if check was received; i.e., wants to confirm whether the check(s) was cashed before
+filing nonreceipt (GN 02406.002B.7, GN 02406.150).
+​
+The beneficiary reports being unsure if he received several checks within the last
+12 months. This is a situation where we want to know the status of the checks in question
+before replacing them.
+NRT 3 =
+Mass Loss. A-stop. DT will issue a courtesy disbursement check. See GN 02406.700 for instructions regarding true mass loss situations.
+​
+The A-stop should also be used for nonreceipt of title XVI type 2, 4 and 9 payments). However,
+the A-stop does not initiate a courtesy disbursement for these cases (A-stop is not
+converted to a B-stop). Therefore, the FO must issue an immediate AOTP (unless abuse
+is apparent, see GN 02406.205D. and GN 02406.207B.) and an IP if dire need is involved (GN 02406.205, GN 02406.207).
+NRT 4 =
+Loss, theft, or destruction of endorsed check. G-Stop. Although claimant has signed the check, if it has not been presented for payment,
+DT will return the credit and SSA will reissue the check. If the check is later presented
+for payment, FMS will debit SSA and send a claims package to SSA.
+For further explanation of nonreceipt input types, see SM 00609.215C.
+2. Title XVI Nonreceipt Screen Inputs and Resulting Stop Codes
+The alpha nonreceipt codes transmitted on the 719N screen correlate to the DT stop
+codes; i.e., nonreceipt code B (NC = B) is a B-stop; nonreceipt code C (NC = C) is
+a C-stop, etc. The DT response to the stop codes is the same as for title II inputs
+described in GN 02406.125A.1. Additional information about the codes and when they are used is located in MSOM
+BUSSR 003.012.

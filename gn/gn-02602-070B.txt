@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02602.070 - Identifying and Resolving Death Alerts
+Effective Dates: 09/15/2026 - Present | TN 116 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602070 (fetched 2026-10-04)
+
+B. Identifying types of alerts and action required
+The following table provides alert types and necessary actions required to clear the
+alert:
+DATS Alert Type
+Code
+Action(s) to Clear the Alert
+Listing Updated
+Death Information Processing System (DIPS)
+Third-party death verification required for beneficiary
+AD
+•
+Obtain verification per GN 02602.070C and manually clear the alert; or
+•
+System automatically clears the alert when death posts to the Numident.
+Daily
+State agency, other than the State Bureau of Vital Statistics
+BX
+Centers for Medicare & Medicaid Services
+CM
+Department of Veterans Affairs
+VA
+Office of Personnel Management
+OP
+Name does not match
+DN
+•
+Obtain verification per GN 02602.070C and manually clear the alert.
+Daily
+DIPS not used
+DX
+•
+Enter death information in DIPS.
+•
+No further action is required.
+Daily
+Numident (NUMI)
+Death is on the Numident, but not on the payment record(s).
+(none)
+•
+for actions on these alerts
+followGN 02602.070D .
+•
+Once all outstanding discrepancies between the Numident and payment record(s) are
+resolved, the Numident death alert automatically drops off the listing following the
+run.
+Last weekend of the month

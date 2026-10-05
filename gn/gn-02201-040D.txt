@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - GN 02201.040 - Collection of Title II/Title XVI Overpayments by Administrative Wage Garnishment
+Effective Dates: 05/25/2012 - Present | TN 45 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201040 (fetched 2026-10-04)
+
+D. Process – Controlling AWG Update Actions
+When AWG is active and employers are making payments, a variety of debt- and debtor-related
+events requiring AWG update can occur. For example, the debtor can request waiver,
+thus requiring AWG to stop. To the maximum extent possible, the ECO system automatically
+controls and monitors the need for AWG updates.
+The ECO system reacts to overpayment-related codes on the MBR/ROAR, SSR and within
+ECO to determine the appropriate update action. The system generates notices that
+either tell the employer what action to take or follow-up with the employer about
+a previous communication. The system generates notices intended to accomplish four
+purposes: (1) Stop AWG; (2) Resume AWG; (3) Change AWG amount; and (4) Follow-up with
+the employer.
+In addition, the ECO system automatically sends a copy of the Stop AWG, Resume AWG
+and the Change AWG amount notice which was sent to the employer.
+See GN 02201.042D.3. for instructions on situations where the employer does not stop, change, or resume
+garnishment payments.
+1. Stop AWG
+The Stop AWG notice is generic in that it just tells the employer to stop the garnishment.
+Due to disclosure policy, SSA does not inform the employer why the cessation is necessary.
+The ECO system generates a Stop AWG notice when the debtor:
+•
+Requests waiver;
+•
+Requests reconsideration of the overpayment determination;
+•
+Requests review of the debt;
+•
+Alleges hardship (and development of income/expenses is necessary);
+•
+Becomes subject to mandatory cross program recovery;
+•
+Files for bankruptcy or the debt is discharged in bankruptcy;
+•
+Pays debt in full;
+•
+Pays compromise amount;
+•
+Goes back into current pay;
+•
+Incurs a new debt that is in due process status;
+•
+Reduces the debt balance to less than $75;
+•
+Participates in a Ticket to Work Program;
+•
+Becomes subject to a higher priority garnishment order.
+If AWG payments continue after the Stop AWG notice is sent, SSA sends another Stop
+AWG notice to the employer. If payments continue after the second Stop AWG notice,
+the ECO system creates an alert for the PC to contact the employer.
+2. Resume AWG
+Due to disclosure policy, the Resume AWG notice is also generic. It tells the employer
+to resume garnishing the wages of an employee for whom SSA previously sent a Stop
+AWG notice. The ECO system automatically recognizes when all conditions are clear
+for the resumption of garnishment. The system then generates a Resume AWG notice.
+The ECO system monitors the case for subsequent garnishment payments after the Resume
+AWG notice is sent. If none are received, the system sends follow-up notices to the
+employer. If non-payment continues after the follow-up notices, the system generates
+an alert for the PC to contact the employer. (See GN 02201.042D.3. for instructions on contacting the employer.)
+NOTE:
+SSA will send a new AWG Employer Package when sending the Resume AWG notice to the
+employer.
+3. Change AWG Amount
+SSA changes the AWG amount when the debtor demonstrates hardship and when the debtor
+asks for a higher AWG amount. In both cases, the ECO system automatically recognizes
+the need for the Change AWG Amount notice based on inputs to DMS screens.
+The ECO system will send a follow up notice to the employer when the amount is changed
+after garnishment has started and garnishment payments are received for more than
+the agreed upon amount. If a second payment is received for more than the amount,
+an alert will be generated to the PC.
+See SM 00610.080B.2. and SM 01311.840B.2. for instructions on processing AWG alerts when the garnishment amount is greater
+than the agreed upon garnishment amount.
+4. Follow-Up Notice to Employer
+The ECO system automatically generates follow-up notices to the employer when the
+employer fails to resume AWG or change the AWG amount or stops sending garnishment
+payments with no explanation.
+If the employer does not respond to the AWG Employer Package, the system generates
+a notice telling the employer we have not received a response. The follow-up notice
+will contain another copy of the employer package.

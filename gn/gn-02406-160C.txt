@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02406.160 - Description and When to Use Department of the Treasury Forms FS-1133 and FS-3858
+Effective Dates: 04/02/2024 - Present | TN 126 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406160 (fetched 2026-10-04)
+
+C. Manual follow up on physical checks
+If the check is still outstanding, the technician should input a nonreceipt action
+to have Treasury issue a courtesy disbursement check, if the check is less than 12
+months old. If the check is more than 12 months old, follow limited payability procedures
+in GN 02401.905.
+Treasury will credit the amount of payment back into the SSA trust fund when the beneficiary
+or recipient returns a payment. The technician must exhaust all efforts to locate
+the credit for the physical check. This includes examination of all queries and documents
+in the processing centers or field offices. Additionally, access the Treasury Check
+Information System (TCIS) to obtain the necessary information concerning the credit.
+Treasury reclaims the money from the death of the beneficiary or payee. When the technician
+exhausts all efforts to locate the credit for the physical check, call Fiscal Service
+at (855) 868-0151 for assistance. A TCIS or Treasury contact will provide you with
+status and credit information. Use the information to post the credit via the SSA-4208
+(Limited Payability Determination). Take the following actions:
+IF
+THEN
+Treasury does not provide a document number for the SSA-4208...
+Input all sevens (7) in this field.
+Treasury states the credit is still outstanding...
+Determine if the accounts receivable system (ARS) still has a control for the credit.
+If so, note no action necessary (NAN) for the inquiry.
+The investigation is old...
+Treasury may have to recreate the record. When first contacting Treasury on older
+cases, Treasury may advise they have no record on their system. However, if payment
+history update screen (PHUS) shows the stop payment successfully processed (the Treasury
+department status code (TDSC) is not an exception code), explain the case is old and
+the record may have to be recreated. You must allow Treasury three workdays to recreate
+the record before calling back. Treasury will not contact you, recreated records stay
+online about two weeks, so it is important for you to follow up with Treasury after
+that three-day time frame.
+If a physical, document is required (such as a photocopy of check)...
+Call Treasury and request that they mail the document directly to you. Expect the
+document within 10 to 15 workdays. Request Treasury to place your name and module
+number on the outside of the envelope to ensure timely delivery, establish a 30-day
+diary.
+NOTE: It is never appropriate to use direct input as a method of follow-up on any successfully
+processed investigation. Contact Treasury at (855-868-0151) for assistance. Treasury
+will not supply information based upon the SSN. You must have the check symbol and
+check number available prior to making the call. If the investigation was within the
+last year, Treasury may provide the information immediately.

@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 00605.230 - Required Posteligibility (PE) Actions to Update the Supplemental Security Record (SSR)
+Effective Dates: 04/01/2011 - Present | TN 34 (04-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605230 (fetched 2026-10-04)
+
+B. Procedure for PE actions required to update the SSR
+1. DI diary set and no dedicated account exists
+When the system determines a dedicated account based on the payment amount and you
+determine that the past-due benefits did not meet the criteria for a dedicated account,
+(See GN 00605.215B.3., IMPORTANT), take the following actions:
+a.
+update the annual accounting NM field (REPY segment) to indicate an annual accounting
+was complete, following the instructions in SM 01301.635;
+b.
+transmit annual accounting conserved funds to the CF field (REPY segment), following
+the instructions in SM 01301.639; and
+c.
+delete the DI diary and clear the limited issue or scheduled redetermination via SSI
+Posteligibility Input (SSA-1719B) or Modernized Supplemental Security Income Claims
+System (MSSICS).
+2. DI diary set and a dedicated account review balance exists
+a.
+transmit the dedicated account balance to the BA field (DACT segment), following the
+instructions in SM 01301.637. The dollar amount should reflect the amount of money
+in the account at the end of the report period;
+NOTE: For the majority of cases, we derive the amount and date from the monitoring report.
+If a face-to-face interview with the payee is required to review financial records
+and receipts, you have the option (or it may be necessary) to review and record account
+information beyond the report period.
+b.
+update the annual accounting NM field (REPY segment) to indicate an annual accounting
+was completed, following the instructions in SM 01301.635;
+c.
+transmit the annual accounting conserved funds to the CF field (REPY segment), following
+the instructions in SM 01301.639;
+d.
+review the REMARKS field and delete irrelevant “dedicated account” remarks; and
+e.
+delete the DI diary and clear the limited issue or scheduled redetermination via SSA–1719B
+or MSSICS.
+3. DI diary set and dedicated account reviewed with a zero balance
+a.
+transmit a zero balance to the dedicated account balance (BA) field (DACT segment),
+following the instructions in SM 01301.637;
+b.
+update the annual accounting NM field (REPY segment) to indicate an annual accounting
+was completed following the instructions in SM 01301.635;
+c.
+transmit annual accounting conserved funds to the CF field (REPY segment), following
+the instructions in SM 01301.639;
+d.
+review the REMARKS field and delete irrelevant “dedicated account” remarks; and
+e.
+delete the DI diary and clear the limited issue or scheduled redetermination via 1719B
+or MSSICS.

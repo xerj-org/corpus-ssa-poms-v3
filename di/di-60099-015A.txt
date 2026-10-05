@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 60099.015 - BOND Participant versus BOND Beneficiary
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099015 (fetched 2026-10-04)
+
+A. BOND participant
+Benefit Offset National Demonstration (BOND) participants are those beneficiaries
+assigned to a stage 1 or stage 2-treatment group.
+1. Identifying a BOND participant
+a. Disability control file (DCF) coding
+Both BOND participants and BOND beneficiaries have a demonstration code designation
+of DD in the indicator field of the DEMO screen of the DCF. To view the BOND DCF DEMO
+screen, select #16 on the DCF MCDR screen.
+Trial work period (TWP) not complete
+If the TWP is not complete, a BOND participant will have only a start date coded for
+the participation period. The month after random assignment appears in the start date,
+and the end month of participation is blank. The start date is just a placeholder
+and may not be the correct start date since we cannot establish the participation
+period until the TWP is complete.
+TWP complete
+If a participant completes the TWP, the beginning and end dates of the participation
+period appear on the DEMO screen. Upon completion of the TWP, these dates show the
+actual participation period.
+b. eWork
+eWork recognizes the DCF DEMO coding. eWork allows normal processing of all BOND cases
+not requiring a cessation determination. If the case has been ceased in the past,
+eWork will prompt you to transfer that case to L5R OFFICE L5R NO LONGER OPERATING. For continuance decisions, a BOND header and paragraph are included in the final
+notice generated in eWork reminding the beneficiary he or she is a BOND participant.
+For instructions on transferring cases to L5R OFFICE L5R NO
+LONGER OPERATING, see DI 60099.030B.
+NOTE: A beneficiary can still be a BOND participant even if his or her benefits have actually
+terminated due to substantial gainful activity (SGA) prior to enrollment in BOND.
+A “terminated” participant can apply for a new period of disability or an expedited
+reinstatement (EXR) of disability benefits (if the application is within the time
+limit), serve the 24-month initial reinstatement period (IRP) and an additional trial
+work period (TWP), and then be potentially eligible for offset. In this event, the
+60-month participation period begins with the first month of the new extended period
+of eligibility (EPE), provided the participant completes the IRP and new TWP before
+September 30, 2017.
+IMPORTANT: When the claimants are making the EXR versus IC choice, they need to clearly understand
+how this will work if they pick EXR. They will not be eligible for the BOND offset
+computation until the 24-month IRP and TWP is completed, and their benefits are ceased
+due to SGA under normal rules. Since they must complete their new TWP by 09/30/2017
+to be eligible for BOND offset, if the 24-month IRP begins after 1/2015 they will
+never be able to use the offset.
+2. Identifying a BOND beneficiary
+A BOND beneficiary is a disability beneficiary who has been in offset under BOND rules.
+a. DCF coding
+A BOND beneficiary has the DCF DEMO screen coded with DD in the indicator field and
+a start and stop date of participation.
+b. Master Beneficiary Record (MBR) coding
+A BOND beneficiary’s MBR will have the following:
+•
+special message on the MBR reads as follows:
+“(BIC) IN BOND PROJECT, SPECIAL PROCESSING REQUIRED.,”
+•
+DD code in the DPI (Demonstration Project Indicator) field on the HISTDEMO line of
+the MBR,
+•
+the HISTDEMO group of the MBR shows the start and end date of the potential offset
+period. For more information on the HISTDEMO, see SM 00510.178, and
+•
+MBR HISTORY will contain one or more Z entries in the WIC field.

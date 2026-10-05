@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 01130.601 - Dedicated Accounts for Past-Due Benefits Due to Individuals Under 18 Who Have a Representative Payee
+Effective Dates: 08/03/2011 - Present | TN 127 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501130601 (fetched 2026-10-04)
+
+D. Procedure
+1. Verify file records
+The payee must provide the following information in order for a payment to be released
+into a required dedicated account. Verify, using the individual's records, that the
+following information is correct in the file:
+•
+name and address of financial institution;
+•
+account number;
+•
+account title;
+•
+type of account; and
+•
+amount of money in the account.
+Make an entry in the REMARKS field (R1 - R5) of the SSR per SI 01130.601D.4. or verify the accuracy of the existing entry and update as necessary.
+2. Funds used to open a dedicated account
+If a payee, after being informed of the requirement to establish a dedicated account
+for the receipt of past-due benefits, is required by the financial institution to
+use other funds to open an account, issue the manual notice per SI 02101.010E.2. (the payment notice) to inform the payee that they must withdraw the other funds
+used to open the account before the end of the month following the month that the
+past-due benefits are paid.
+NOTE: If the individual is blind or visually impaired, see instructions at NL 01001.010 for more information on the special blind or visually impaired notice options.
+EXAMPLE: A payee receives the notice requiring establishment of a dedicated account on September
+1. They visit a local bank and are told that a minimum deposit of $50 is required
+to open a new account. They deposit $50 and establish the dedicated account. They
+report the account information to the local FO. If the FO releases the payment on
+September 25th, the $50 used to open the account must be withdrawn before the end
+of October because it is not part of the past-due benefit amount and cannot be excluded.
+3. Optional deposits
+If, after receiving subsequent underpayments along with the appropriate notice, a
+payee reports that they made an optional deposit to the dedicated account, verify
+from the individual's records the amount and date of the deposit. Verify that the
+deposit exceeds one time the FBR. Revise the REMARKS field entry on the SSR per SI 01130.601D.4.
+4. Make REMARKS field (R1 - R5) input
+Enter “Dedicated Account, $,$$$$, MMYY” in the REMARKS field (R1 - R5) of the SSR
+where $$$$$represents the amount of funds in the account and MMYY is the month and
+year of the most recent reported balance.
+NOTE: You may also record the account number, bank name and other pertinent information
+as space allows.
+5. MSSICS screens
+Enter information about the dedicated account on the Financial Institution Accounts
+(RFIA) page. Specify the type of account (e.g. Checking, Savings, etc) and select
+the “Dedicated account” checkbox to code the account as a dedicated account. Select
+“Dedicated account funds” as the exclusion reason.

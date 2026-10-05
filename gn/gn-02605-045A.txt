@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 02605.045 - Mass COA Reported by USPS
+Effective Dates: 05/01/2012 - Present | TN 23 (12-04)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605045 (fetched 2026-10-04)
+
+A. Background
+The United States Postal Service (USPS) changes ZIP Codes or other address information
+that affect their customers. The USPS contacts the respective Field Office (FO) manager
+through a memorandum. USPS is an acceptable reporter for mass COAs and mass address
+problems requiring SSA action. In addition, valid Zip code changes are also conveyed
+through an interface between the Detailed Office/Organization Resource System (DOORS)
+(See MSOM DOORS 001.001) and USPS database. The FO forwards correspondence or additional information to SSA,
+OPSOS.
+The following describes causes for Mass COA actions.
+1. ZIP Changes
+•
+A ZIP Code made obsolete by USPS is replaced by a new ZIP Code.
+•
+A ZIP Code split into 2 or more additional ZIP Codes or addresses are adjusted to
+other ZIP Codes which result in a partial ZIP Code change. See SM 01005.100 for procedures
+to prevent or clear the Z7 alert/diary.
+2. City Name Change
+•
+The USPS changes a city name.
+3. Address Conversion
+•
+A rural route is converted to numbered streets.
+•
+PO Boxes are renumbered.
+•
+A street is renumbered.
+•
+A street name is changed.
+4. Erroneous Address Report
+•
+USPS reports address problem affecting a large number of beneficiaries.

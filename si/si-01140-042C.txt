@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 01140.042 - Determining Equity Value
+Effective Dates: 03/01/1999 - Present | TN 79 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140042 (fetched 2026-10-04)
+
+C. Example
+The Rounds, an aged couple, file for SSI in 1/90. Their countable liquid resources
+total $1,500. They also own nonhome real property with a CMV of $2,000, which would
+cause their total resources to exceed the $3,000 limit.
+However, there is a mortgage on the land with an outstanding principal balance of
+$800. Thus, the property's equity value ($1,200) currently permits eligibility.
+Payments on the mortgage reduce the outstanding principal balance by $80 a month.
+At that rate, the property's equity value will reach $1,520 in 5/90, and resources
+will exceed the limit.
+The FO makes the following CG field input: RE99, REAL, PROP, 2000, 1200, 0590. It
+also establishes a diary to recontact the couple in May.

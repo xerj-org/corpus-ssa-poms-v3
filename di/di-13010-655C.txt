@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - DI 13010.655 - The Query Earnings (QERN) Screen
+Effective Dates: 08/03/2011 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010655 (fetched 2026-10-04)
+
+C. Reading the QERN screen
+Use the QERN screen to query disability earnings related data for any record existing
+on the DCF. The social security number (SSN) controls these records since the earnings
+are associated with the beneficiary. The query screen displays a summary of up to
+12 occurrences of earnings data. Additional summary pages are displayed as needed.
+The fields are:
+•
+PAGE: Indicates the number of screens of information that are available for viewing
+for the record accessed up to a maximum of 30 pages.
+•
+DCF ID, Claimant Account Number (CAN), and NAME fields: provide the account number
+and name of the beneficiary record.
+•
+CURRENT ENTITLEMENT: Indicates the type of benefit the beneficiary receives (Title
+II, Title XVI, or concurrently entitled on both Title II and Title XVI programs).
+•
+DATE: Provides the month and year of the associated earnings reported.
+•
+ALLEGED EARNINGS: Provides the alleged earnings amount reported for the associated
+date and also provides an indicator of the program that earnings are associated with.
+•
+GROSS EARNINGS: Shows earnings prior to any deductions.
+•
+NET SE: Shows the self-employment earnings associated with the period. If the net
+self-employment is a loss, the field will show “(-)”.
+•
+VERIFIED: Indicates if the earnings amount in the GROSS or NET SE (SELF EMPLOYED)
+earnings fields have been verified. These fields are completed with “Y” or “N”.
+•
+SE HOURS: Indicates the number of hours the beneficiary worked in self-employment
+for the period.
+•
+WORK DET: Indicates the most recent work determination on the record you are querying.
+The work determination codes and their meanings are:
+CODE
+MEANING
+RELEATED POMS REFERENCE
+1-9
+The designated TWP month
+DI 13010.060
+S
+SGA month and for months of the grace period
+DI 10505.010
+N
+Non-SGA month
+DI 10505.015
+U
+Unsuccessful Work Attempts
+DI 24005.001
+O
+Non-service month during the TWP
+DI 13010.060
+E
+TWP completed (outside of the designated rolling 60-month period)
+DI 13010.060D
+I
+Non-SGA during the IRP for EXR cases
+DI 13050.066; DI 13050.067
+W
+SGA during the IRP for EXR cases
+DI 13050.035C.
+X
+Non-payment months during the IRP
+DI 13050.066A
+•
+NET EARNINGS: Provides the calculated difference of the gross earnings, (including
+SEI), less any earnings amount not counted.
+•
+MORE DETAIL: If you need more information on earnings, enter “Y” in this field to
+access the VERN screen in query mode only.

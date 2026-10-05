@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 52150.025 - Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset Ending Date
+Effective Dates: 12/11/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150025 (fetched 2026-10-04)
+
+B. RETAP selection for WC/PDB offset stop date
+RETAP uses information on the MBR to determine that WC/PDB offset should be removed.
+A RETAP selection processes offset removal for the following types of cases.
+1. Attainment of age 65
+If the DIB onset is 03/01/81 or later AND the MOET is 9/81 or later, the last possible
+month of offset is the month prior to attainment of age 65.
+NOTE: Full Retirement Age (FRA) now extends past age 65, but WC/PDB offset is removed at
+age 65.
+2. Attainment of FRA — December 19, 2015 or later
+Effective December 19, 2015 or later, the offset termination date extends from Age 65 and continues until FRA. See the 2015 Amendment in DI 52101.005. The amendment affects individual who attain Age 65 on December 19, 2015 or later.
+3. Reverse jurisdiction starts
+Certain States have reverse offset plans that begin in a month later than the first
+possible month of offset. When the reverse offset plan begins, WC/PDB offset is removed.
+The start date of the reverse offset depends on the State where the injury or illness
+occurred. See DI 52105.001 and the references for Florida, New Jersey, and Washington in that section.
+4. Lump sum (LS) proration ends
+The selection is sent to Title 2 Redesign (T2R) for processing.
+•
+WC/PDB offset stop date is posted;
+•
+Offset is removed; and
+•
+A notice is sent to the affected beneficiaries
+If T2R cannot process the action to completion, an exception is produced in the PC.

@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - SI 00530.150 - What if Individual Cannot Provide Warrant Information?
+Effective Dates: 04/24/2026 - Present | TN 21 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530150 (fetched 2026-10-04)
+
+B. Procedure individual reports warrant or court order, provides the name of the state,
+but effective dates are unknown
+1. Report received in connection with an application
+Use these procedures when an SSI applicant reports having an outstanding warrant or
+court order and knows the jurisdiction of the order, but does not know the effective
+dates.
+Ask if they are wanted for a crime that is a felony or has violated a condition of
+parole/probation since the effective date of the application.
+If yes, enter the filing date of the application in the Date Fled field and explain
+the entry in the Statement of Person remarks segment on the AWRF or AWRP screen.
+If no, show ? for each item that they do not know. This will cause the MSSICS Print
+App function to print the proper statement for the individual to sign. In the Statement
+of Person Remarks enter a remark to fit the case situation. EXAMPLE: BALTIMORE CITY COURT ISSUED A WARRANT FOR MY ARREST BECAUSE I VIOLATED A CONDITION
+OF MY PAROLE. I DO NOT KNOW WHEN THE WARRANT WAS ISSUED.
+Attempt to determine dates of ineligibility by contacting by phone or mail the agency
+or court responsible for the warrant.
+Enter the dates provided by the agency or court in the applicable fields on the AWRF
+or AWRP screens.
+If the agency or court is unable or unwilling to supply the information, place the
+applicant in payment status H70 and enter in Remarks on the SSR, INDIV REPTS WARRANT
+- [NAME OF WARRANT ISSUING AGENCY]; WARRANT INFO UNAVAILABLE; REFERRED TO OIG.
+Refer the case for further investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your District Office (DO)
+code. Include in your referral a remark to alert OIG that an SSI claim is being held
+pending their determination. Also include available information about the warrant
+and the purported crime. In a disability case delay the release of the medical information
+to DDS until it is clear that the individual is potentially eligible for some period
+of time unless it is a concurrent claim.
+2. Report received in connection with redetermination
+Use these procedures when an SSI recipient reports during a redetermination to having
+an outstanding warrant or court order and knows the jurisdiction of the order, but
+does not know the effective dates.
+a. Warrant effective since beginning of redetermination period
+Ask the recipient if they have an outstanding warrant or is in violation of parole/probation
+since the beginning date of the redetermination period. If yes, enter the pending
+file began date of the redetermination in the Date Fled or Date Violated Parole or
+Probation field and explain the entry in the Statement of Person Remarks on the AWRF
+or AWRP screen. If administrative finality permits, ask OIG to investigate the case
+to determine if a date earlier than the RZ begin date of ineligibility is applicable
+using the fugitive felon mailbox address, ^Fugitive Felon. In the Subject Line of
+the email, include your DO code.
+b. Warrant not in effect since beginning of redetermination period
+If the individual alleges having an outstanding warrant that has not been in effect
+since the beginning of the redetermination period, but cannot provide the information
+needed to enter a date in one of the applicable fields, show ? for each item that
+they do not know. This will cause the MSSICS Print App function to print the proper
+statement for the individual to sign.
+In the Statement of Person Remarks on the AWRF or AWRP screen enter a remark to fit
+the individual's situation. EXAMPLE: THE BALTIMORE CITY COURT ISSUED A WARRANT FOR MY ARREST BECAUSE I VIOLATED A CONDITION
+OF MY PAROLE. I DO NOT KNOW WHEN THE WARRANT WAS ISSUED.
+Attempt to determine a date by contacting the agency or court responsible for the
+warrant. Enter the dates provided by the agency or court in the applicable fields
+of the AWRF or AWRP screens.
+If the agency or court is unable or unwilling to supply the information, enter in
+Remarks on the SSR, INDIV REPTS FUG STATUS; NO WARRANT INFO AVAILABLE; REFERRED TO
+OIG.
+Refer the case for further investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your DO code. Include in
+your referral a remark to alert OIG that SSI payments are continuing pending their
+determination. Also include available information about the warrant and the purported
+crime.
+3. Other reports
+Use these procedures when processing a report of fugitive status that is not received
+in connection with an application for SSI or an SSI redetermination and the SSI recipient
+reports having an outstanding warrant or court order, knows the jurisdiction of the
+order, but does not know the effective dates.
+Attempt to determine a date by contacting the agency or court responsible for the
+warrant. Enter the dates provided by the agency or court in the applicable fields
+on the AWRF or AWRP screens.
+If the agency or court is unable or unwilling to supply the information, enter in
+Remarks on the SSR, INDIV REPTS FUG STATUS; NO WARRANT INFO AVAILABLE; REFERRED TO
+OIG.
+Refer the case for further investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your DO code. Include in
+your referral a remark to alert OIG that SSI payments are continuing pending their
+determination. Also include available information about the warrant and the purported
+crime.

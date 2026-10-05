@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 40525.075 - Step Three - Preparing Duplicate Folder for CDR Lost Folder/Medical Evidence
+Effective Dates: 11/12/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525075 (fetched 2026-10-04)
+
+B. Procedure
+1. PCACS shows no folder was created
+If the Processing Center Action Control System (PCACS) shows that no folder was created,
+the claim may be an electronic folder. Check eView to see if there is an electronic
+disability folder. If an electronic disability folder exists, discard the alert and
+read the ACR FIN. If no electronic disability folder exists, prepare a new yellow
+six-part Modular Disability Folder (if available), with an original bar code label.
+Send the folder and the alert to the FO. Read the ACR FIN.
+2. Search for medical folder – OCO/PSCs of jurisdiction
+For follow-up purposes and to reduce duplication of effort, document on the SSA-5002
+(see DI 40525.125) all your efforts to locate the folder(s). Circle/highlight pertinent data/information,
+e.g., on the NUMI circle/highlight any name change. Keep all reports of telephone calls, and other pertinent material and queries in file.
+NOTE: Even though the procedure in the remaining sub-chapters specifies which job disciplines
+are to perform certain functions, OCO/PSC/DRS management can assign these tasks to
+any job discipline. The assignments are at the discretion of the local management
+team.
+3. Special search unsuccessful – no folder (PCACS reads "AUXRH QUES QUES", or "AUXRH
+TEMP QUES" or " CAVES QUES QUES" or “PC1-6 QUES QUES”) - duplicate folder needed –
+CRT/FLC/DSE actions
+Take the following actions:
+a.
+If the search for the medical folder is unsuccessful (not to exceed 120 days), prepare
+a duplicate folder.
+b.
+Staple the direct release/mailer alert to the front of the folder. File the Special
+Search report with any attached documents in the duplicate folder.
+c.
+Record the duplicate folder to PCACS location MODXX DE BKLG (i.e., given to the OCO
+modules DEC/DE or to location DRS DE PROC in the PSC DRS).
+d.
+Forward the duplicate folder to the DSE employee or the DE/DEC.
+4. Special search unsuccessful – no folder (PCACS reads "AUXRH QUES QUES", or "AUXRH
+TEMP QUES", or " CAVES QUES QUES", or “PC1-6 QUES QUES) – duplicate folder needed
+– DSE or DE/DEC actions
+NOTE: If preparation and receipt of the duplicate folder exceeds fifteen working days,
+FOs may contact OCO/PSC DRS by phone for an update on the current status of the Title
+II folder.
+Take the following actions:
+a.
+Select number 32 (Continuing Disability Review File) from the SSA MAIN MENU and hit
+the “Enter” key.
+b.
+Key “01” (QUERY) and complete the SSN, key the BIC only if it is other than "A", and
+hit the “Enter” key.
+c.
+At the ECDR screen, hit the “Enter” key.
+d.
+At the QCDR screen, write down the most recently dated 3-digit “DESTINATION” code that is found under
+the EVENT area of the screen hit the “Enter” key.
+EXCEPTION: If the “DESTINATION” code is “732” ignore it and use the jurisdictional FO instead.
+e.
+If in the "remarks" screen, hit the "enter" key to get back to the MCDR screen.
+f.
+Once at the MCDR screen, key “03” (PC UPDATE) and complete the SSN, key the BIC only
+if it is other than "A", and hit the “Enter” key.
+g.
+At the ECDR screen, hit the “Enter” key.
+h.
+At the IPCA screen, in the "SELECT EVENT TYPE", key “01” to transfer the case.
+i.
+The cursor will MOVE to the "FOLDER RECONSTRUCTION ISSUE" field which should contain
+a "Q". Change the “Q” to an “L” and hit the “Enter” key.
+NOTE: If the "FOLDER RECONSTRUCTION ISSUE" field does not currently reflect a "Q", as indicated
+above, DSE or DE/DEC still ENTERS the "L", because the duplicate folder is going to
+be forwarded to the FO. An “L” in the "FOLDER RECONSTRUCTION ISSUE" field of the Disability
+Control File (DCF) indicates that the medical folder is lost.
+j.
+See the CHART in DI 40525.100 regarding PCACS entries.
+k.
+At the CDR PC INPUT Screen B (IPCB), key the most recent 3-digit Destination code
+previously noted (see DI 40525.075B.3.d.) and hit the “Enter” key.
+EXCEPTION: If the “DESTINATION” code is “732” ignore it and use the jurisdictional FO instead.
+DO NOT physically transfer the folder to DOORS location #732 because the location is not a storage facility.
+l.
+If you have other cases to update, return to the MCDR screen and take appropriate
+actions.
+m.
+If all DCF updates are completed, LOG OFF in the usual manner.
+n.
+Prepare an SSA-5526-U3 and route the duplicate folder to the FO. Advise the FO that
+a medical CDR interview is necessary and to follow DI 13015.080.
+o.
+Update PCACS to show the duplicate folder is being sent to the FO.
+NOTE: FOs will contact the DRS/Module Manager for any original or duplicate folder received,
+that has not been updated in PCACS to their location.
+p.
+Release the duplicate folder (SSNX with a third digit higher than "1") in accordance with regular module procedures.

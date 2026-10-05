@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02607.520 - PUPS Skeleton Records
+Effective Dates: 04/17/2023 - Present | TN 85 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607520 (fetched 2026-10-04)
+
+B. Process – semi-annual reruns of PUPS skeleton records
+1. Semi-annual rerun of skeleton records
+a. Creation of PUPS pending record
+Semi-annually, the Office of Systems runs a system scan of all skeleton records present
+on the PUPS database. The semi-annual runs identify new entitlements adjudicated after
+SSA received the inmate report. When the semi-annual run locates active title II/title
+XVI entitlement for the month of confinement or earlier on the PUPS skeleton, PUPS
+overwrites the skeleton record with a PENDING PUPS record and produces a PUPS alert.
+(See GN 02607.520A.2. for instances where PUPS will not create a PUPS skeleton record. See GN 02607.500C. for instances where PUPS will not create a PUPS PENDING record.)
+These alerts look like routine PUPS alerts. Process the alerts as indicated in the
+instructions in GN 02607.600. CO will notify the field via an emergency message when SSA will process each semi-annual
+review of the skeleton records. The most frequent missing inmate data elements from
+the PUPS skeleton records that become PUPS pending records are:
+•
+Blank receipt date,
+•
+Blank report date and blank receipt date,
+•
+Blank date of confinement,
+•
+Blank date of conviction,
+•
+Blank released date, and
+•
+Blank facility identification code (FID).
+See MSOM PRISON 003.001-14 for a description of skeleton records and how they are processed.
+NOTE: The Prisoner Tracking Management Information System for Workload Management (PTMI) listings identifies skeleton record alerts with an entry of SR under Type of Record.
+Access to the PTMI site is limited to SSA management personnel.
+b. Instances where PUPS will not create a PUPS PENDING record
+See GN 02607.500C. for instances where PUPS will not create a PENDING record when the semi-annual skeleton
+rerun is done.
+NOTE: If you develop a period of confinement indicated on the PUPS skeleton record at the
+time the claimant files for social security benefits, add the information from your
+development to the REMARKS section of the PUPS skeleton record. Also annotate other
+pertinent inmate data that you discovered during your development; e.g., facility
+identification code, released date, conviction date, etc., on the PUPS skeleton record
+for the period of confinement. See MSOM PRISON 003.001-14 for instructions on updating PUPS skeleton records.
+2. FO processing PUPS skeleton records
+Since skeleton records may have missing inmate information, FOs should tactfully approach
+beneficiaries/representative payees to obtain missing inmate information for these
+types of PUPS reports.
+NOTE:: PUPS will only retain one skeleton record for each claimant. The claimant may have
+had other periods of confinement before their eligibility/entitlement to social security
+benefits began that were not annotated to the PUPS database. Develop for all other
+possible periods of confinement for the claimant when developing for the period of
+confinement on the skeleton record.
+3. Developing for inmate identity discrepancies or missing inmate confinement date on
+skeleton rerun alerts
+Develop for identity discrepancies and missing confinement dates following instructions
+in GN 02607.600.

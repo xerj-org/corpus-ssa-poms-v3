@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - GN 02402.377 - Coding Romania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402377 (fetched 2026-10-04)
+
+F. Policy for coding Romania bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Romania using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership
+•
+account type
+•
+account number
+•
+beneficiary address - (no P.O. Box address allowed)
+•
+beneficiary phone number
+•
+country
+•
+enrollment status
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+reclamation country
+•
+IBAN
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code consists of 11 alphanumeric characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-2 country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+NOTE: If there is dire need or hardship involved, tell the beneficiary of the option of
+initiating payment via a paper check. Inform the beneficiary that the bank may charge
+for cashing the check. If the beneficiary chooses the option of paper check, the FBU
+documents the initial claim.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a RON account in Romania? If no, STOP.
+REASON: Beneficiaries in Romania can only receive IDD payments in RON accounts.
+If yes, go to step 4
+4
+The RTN is 710000044 for all IDD to Romania. SSA and KRBKC have designated 71 as the multi-country prefix
+for Romania IDD. The 4 in the RTN represents the U.S. check digit code for all IDD
+accounts in Romania. Therefore, there is no need to obtain the check digit code from
+Title II Interactive Comps.
+5
+Code the account type:
+•
+· “S” for savings, or
+•
+· “C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+Code the Depositor Account Number (DAN) for Romania as follows:
+•
+Start with a country code of Q designated for Romania
+•
+Code the Customer Account Number (up to 16 digits).
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.377F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

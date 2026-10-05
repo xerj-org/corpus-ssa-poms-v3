@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - SI 02310.052 - Pension Interface (5H Diary)
+Effective Dates: 01/25/2017 - Present | TN 57 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310052 (fetched 2026-10-04)
+
+A. Process
+1. Comparison
+The IRS match contains data about pensions, annuities and individual retirement accounts
+(IRA's). The match compares the SSN's shown on pension reports (Form 1099-R) with
+the SSN's contained on the SSR for eligible individuals and deemors.
+2. Types of Data
+The IRS data may constitute income (e.g., pension) or may indicate the existence of
+a resource (e.g., an IRA).
+3. Match Criteria
+The system compares the pension amount as reported to IRS with the type D, L, M, or
+P unearned income on the SSR and posts a 5H diary to the SSR for each record meeting
+the following criteria:
+•
+The initial date of eligibility is January of the tax year involved or earlier, and
+the IRS amount exceeds the amount on the SSR by $12 or more; or
+•
+The initial date of eligibility is later than January of the tax year and the SSR
+contains no type D, L, M, or P entries in the unearned income field.
+(See SM 02001.610 for systems processing.)

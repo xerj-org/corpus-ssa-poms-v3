@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02607.760 - Beneficiary Protests Suspension of Title II Benefits
+Effective Dates: 05/29/2009 - Present | TN 89 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607760 (fetched 2026-10-04)
+
+A. Procedure FO/PC/OCO-ODO Processing Beneficiary Contests Suspension Action
+See GN 03001.025 for general processing information on protests against advance notice of benefit
+reduction or suspension. See also GN 02210.006 for information on processing protested cases where overpayments are involved.
+1. SSA suspends benefits via PUPS
+SSA will generally take action to stop the beneficiary's title II benefits based on
+information that we received from a third party source; e.g., computer match, etc.
+The SSA technician inputs the suspension action through PUPS to suspend the title
+II benefit. PUPS will place the record in *PENDING until the due process period ends
+and then place the beneficiary in suspension.
+2. Beneficiary protests prisoner/NGRI suspension PUPS record is *PENDING/MBR shows LAF
+C
+If the beneficiary protests the suspension of their benefits before the end of the
+30 day due process period (the PUPS record is *PENDING and the MBR shows LAF C). Process
+the protest to the prisoner/NGRI suspension as indicated in GN 02607.760A.2.a.
+a. Actions necessary on PUPS record to post the protest and to stop the suspension of
+benefits
+FO or PC/OCO-ODO-BA Instructions:
+•
+Update the PUPS record with a type of action of “4 - PROTEST” and add the date the
+protest was received to the PUPS record.
+•
+Add REMARKS to the PUPS record to explain why the beneficiary is protesting the suspension.
+•
+Forward the case to FO CR or PC/OCO-ODO CA for evaluation of protest and determination
+of suspension or non-suspension.
+FO CR or PC/OCO-ODO CA Instructions:
+•
+Evaluate the protest received from the beneficiary/representative payee. If benefits
+should be suspended based on the protest received from the beneficiary without further
+development on the case, forward the case back to FO staff or PC/OCO-ODO BA to use
+the instructions in GN 02607.760A.2.b. to continue processing the suspension action.
+•
+If the protest received from the beneficiary/representative payee will require development,
+forward the case to FO for development and notify FO to see GN 02607.760B. for instructions on resolving the protest issues.
+NOTE: Do not update PUPS using any other Type of Action (e.g., “CLEAR CONTROL - NO SUSPENSION
+NECESSARY) until you have input the “4” PROTEST Type of Action through PUPS
+CAUTION: You cannot post two PUPS transactions in the same day. If you post the protest action
+in 1 day, you must wait until the next day to post the suspension action. Two PUPS
+transactions posted in the same day will cause an exception.
+b. Decision on the protest FO or PC/OCO-ODO processing instructions
+•
+If the suspension of the benefits is appropriate after the protest from the beneficiary
+is evaluated, let the T2R processing system continue processing the suspension action
+by re-inputting the Type of Action “1 – SUSPENSION” over the protest.
+•
+If the suspension of the benefits should not occur until the protest is fully evaluated,
+i.e., FO must develop for additional information, leave the PUPS record in *PENDING
+as indicated in GN 02607.760A.1.a. and process the protest per GN 02607.760B.
+NOTE: If SSA receives a timely protest, but does not process the protest until after the
+suspension occurs (the T2R suspension transaction is gone) the PUPS action will not
+trigger a reaction to reinstate the title II benefits. The PUPS action merely documents
+the fact that the beneficiary filed a protest. You must reinstate the benefits per
+GN 02607.760D.1.b.

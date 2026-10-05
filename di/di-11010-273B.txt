@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 11010.273 - Disability Claim or Appeal Filed Under a New Social Security Number (SSN)
+Effective Dates: 03/17/2026 - Present | TN 87 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010273 (fetched 2026-10-04)
+
+B. New SSN due to HALE
+If a claimant who obtained a new SSN under HALE criteria files a new disability claim
+or an appeal on an existing claim, it is important to handle the new claim or appeal
+with the utmost confidentiality. SSNs issued based on HALE have a special indicator
+code of “6” (SPIN 6) on the Numident record.
+NOTE: For instructions on confidentiality and interviewing, see GN 00203.001.
+1. FO disability interview
+For face-to-face interview requirements in HALE cases, see GN 00203.003.
+At the start of the interview, verify the claimant’s identity to establish that the
+claimant is the person alleged. Identity verification requirements ensure that we
+use correct information in a claim and protect the claimant's information and privacy.
+During the interview, verify with the claimant that the mailing address provided is
+a secure address to send notices regarding the claim. If the claimant does not have
+a secure address to receive mail, determine if the FO address can be used as indicated
+in GN 02401.050B.
+For additional instructions on FO disability interviews, see DI 11005.001.
+2. Disability case processing
+a. No prior filing under former SSN
+Process the claim electronically and add the HALE flag in EDCS. For instructions on
+adding case flags in EDCS and eView, see DI 81010.080B.
+b. Prior filing under former SSN
+EDCS cannot associate a claim filed under a claimant's former SSN with a new claim
+or an appeal filed under the claimant's new SSN.
+To process the new claim or appeal as an EDCS exclusion, convert the case to a paper
+folder and add the HALE flag to the top of the folder.
+View In PDF
+Print the documents from sections A, B, and D of the EDCS case and place the documents
+in the corresponding sections of the paper folder.
+Add a message, marked sensitive, to the EDCS case that was converted to paper explaining
+the reason for converting the case to paper and the date that the case was converted
+to paper.
+Add a Report of Contact (SSA-5002), marked sensitive, to the paper folder to document
+the reason for the conversion to a paper folder.
+For more information on processing EDCS exclusion cases, see DI 81010.030.
+For further instructions on identifying and documenting prior claims activity, see
+DI 11005.085 and GN 01010.030.

@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02406.705 - Determination for Mass Loss of Checks
+Effective Dates: 06/25/2024 - Present | TN 131 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406705 (fetched 2026-10-04)
+
+D. Declaration of mass loss
+DFPC declares a delivery delay as a mass loss. Depending on the number of checks involved,
+DFPC will:
+•
+advise OAIPO to input mass-loss nonreceipts (A-stops), or
+•
+invoke the Mass Loss Central Office Systems Replacement procedures.
+To avoid any confusion, please see the scenario in GN 02406.705D.1. and GN 02406.705D.2. in this section.
+1. Technician instructions for inputting mass-loss nonreceipts
+If the loss of checks does not include an entire zip code (consular code for foreign
+checks) or only involves a small number of checks, then OAIPO posts the information
+to SSAlerts. This action advises the field that we are aware of the mass loss and
+they must input the mass-loss nonreceipts.
+For this scenario, the SSAlerts message will read:
+MASS LOSS - TITLE II (or TITLE XVI) MASS-LOSS NONRECEIPT INPUT REQUIRED FOR ZIP CODES
+(or CONSULAR CODES):
+ST:XX 99999 99999 99999
+ST:XX99999 99999 99999
+Technicians input mass-loss nonreceipts (Type A) as people in the affected area allege
+nonreceipt of their regular monthly payments. This input prompts Treasury to issue
+a courtesy disbursement payment to the beneficiary or recipient. We do not consider
+previous double-check negotiation abuse when processing a mass-loss nonreceipt in
+this scenario, which is a consideration in other nonreceipt situations when we suspect
+abuse. Technicians must not wait 3 days before inputting a mass loss nonreceipt in
+this situation.
+If the beneficiary or recipient alleges dire need, they may be eligible to receive
+an Immediate Payment (IP). For more information on IPs, for Title II see RS 02801.010 or for Title XVI see SI 02004.100.
+2. Central Office Mass Loss Systems Input for replacement check
+If the mass loss affects an entire zip code(s) or an entire consular code(s), DFPC
+invokes the Mass Loss Systems Input for replacement check procedures. DFPC authorizes
+Systems to send a special mass-loss nonreceipt payment file to Treasury. Systems gathers
+each beneficiary or recipient's payment information within that zip code or consular
+code and places the data on the mass-loss file. Treasury creates and issues a replacement
+check for individuals in the special file regardless of a history of abuse. Treasury
+takes this action without input from the field. When DFPC invokes mass-loss procedures,
+technicians do not input nonreceipt actions.
+The purpose of a systems replacement mass loss declaration is for SSA Central Office
+to make the large volume of nonreceipt inputs using the special nonreceipt payment
+file. The payment file eliminates the need for FOs and TSCs to input large volumes
+of nonreceipts manually.
+If DFPC invokes the Central Office Mass Loss Systems Input for Replacement Check procedures,
+the SSAlerts message will read:
+CENTRAL OFFICE MASS LOSS SYSTEMS INPUT FOR REPLACEMENT CHECK - TITLE II (or TITLE
+XVI) -- NO MASS LOSS NONRECEIPT INPUT REQUIRED FOR ZIP CODES (or CONSULAR CODES):
+ST: XX 99999 99999
+ST: XX 99999 99999
+In this situation, if someone living in the affected zip code(s) alleges nonreceipt,
+advise them that Treasury has already initiated a replacement check for delivery within
+7–10 days. Explain the advantages of electronic payment.
+If the beneficiary or recipient alleges dire need, they may be eligible to receive
+an IP. For more information on IPs, see RS 02801.010 for Title II or SI 02004.100 for Title XVI.
+If a technician in the field inputs a regular nonreceipt before we became aware that
+the Central Office Mass Loss Systems Input for Replacement Check procedure applies,
+Treasury will issue only one replacement check. The second nonreceipt input will reject.

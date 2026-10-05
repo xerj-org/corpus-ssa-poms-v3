@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - SI 02310.063 - State Wage Record Match (S7 Diary)
+Effective Dates: 07/01/2008 - Present | TN 65 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310063 (fetched 2026-10-04)
+
+C. Description of the S7 alert
+The alerts/diaries from the OCSE match for overreported wages is designated as S7.
+An alert could only have one quarter's data. However, it is possible for an alert
+to have 2 quarters' data if the information is posted to the OCSE database after the
+previous quarter’s update.
+1.
+The system generates an alert, controlled by the Post Entitlement Operational Data
+Store (PE ODS) system and posts an S7 diary when:
+•
+A wage record is detected for a recipient, deemor, or essential person; and
+•
+The wage amount for a quarter is less than the SSR wage amount for that quarter by
+more than a certain tolerance. The tolerance for a recipient's wages is $250 for a
+quarter. The tolerance for a deemor's wages is $500 for a quarter.
+2.
+The alert is suppressed if:
+•
+The SSR already has an S7diary (in which case a new diary is not set, but a paper
+alert with updated information is sent); or
+•
+The wages are for a period prior to eligibility; or
+•
+The SSR had a payment status other than CO1, N01, or MO1 or E01 in the current quarter
+or in all months of the reporting quarter; or
+•
+When the wages are for a deemor, the SSR shows that the deemor was receiving income
+based on need (IBON) for any month of the quarter.
+3.
+Replace Lost Alert
+See the National SSI Alert System Page to get replacement alerts.
+4.
+Sample alert:
+S7-OCSE/SSI EN INCOME DISCREPANCY – SSR OVERAGE RUN DATE - MMDDYY
+FO HUN SURNAME TAN NAME TYPE
+289 000-00-0000 SMITH 000-00-0000 SMITH,B. DI
+DELOPS INC
+C/O THE FRICK CO
+P O BOX 283
+ST LOUIS 63166
+$351.00 QTR/YR=31998 STATE CODE=22
+DELOPS INC
+C/O THE FRICK CO
+P O BOX 283
+ST LOUIS 63166
+$327.00 QTR/YR=41998 STATE CODE=22
+a.
+The heading reads:
+•
+“S7 – OCSE/SSI EN DISCRPANCY – OVER REPORTED WAGES, and
+•
+The run date;
+NOTE: If the OCSE database did not include a surname for the employee. The alert shows at
+the top the statement “NOTICE: THIS ALERT WAS GENERATED WITHOUT A SURNAME MATCH”.
+b.
+The third line of the alert shows:
+•
+The FO code;
+•
+The housed-under number;
+•
+The recipient's surname;
+•
+SSN of the recipient;
+•
+The wage earner's name on the State/D.C./Federal agency record (surname and initial);
+and
+•
+The type of person (see Standard Response Data, SM 01601.430)
+c.
+The remaining lines of the alert show:
+•
+The names and addresses of the employers;
+•
+The amount of wages reported to the State/D.C. by the employer (or paid by the Federal
+Agency);
+•
+The quarter and year for which the wages were reported to the State/D.C. (or paid
+by the Federal Agency);
+•
+The code of the State/D.C. reporting the wages; “FA” if the employer is a Federal
+Agency
+•
+A note indicating whether a prior alert is pending.
+d.
+The alert displays the wages each employer reports. The first position of the quarter
+code indicates the calendar quarter of the wage report:
+1.
+= January through March;
+2.
+= April through June;
+3.
+= July through September; and
+4.
+= October through December.
+The last four positions of the quarter code indicate the century and year of the earnings.

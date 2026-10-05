@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - DI 60075.015 - Promoting Opportunity Demonstration (POD) Participants
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075015 (fetched 2026-10-04)
+
+1. Identifying a POD participant
+a. Disability Control File (DCF) coding
+POD participants have a demonstration code designation of DP in the indicator field
+of the DEMO screen in the DCF. They will also have a Start and Stop date of participation
+listed on the DEMO screen. To view the POD DCF DEMO screen:
+•
+Select: 32 from SSA MENU
+•
+Select: 16 from CDR SELECTION MENU (CDRMS)
+•
+Input the SSN and hit enter
+b. Master Beneficiary Record (MBR)
+POD participants who experienced at least one month of offset will have the following
+on the MBR:
+•
+special message:
+“HA IN POD PROJECT, SPECIAL PROCESSING REQUIRED. SEE DI 60075.000;”
+•
+DP code in the DPI (Demonstration Project Indicator) field on the HISTDEMO line;
+•
+HISTDEMO group shows the start and end date of the participation period. For more
+information on the HISTDEMO, see SM 00510.178; and
+•
+MBR HISTORY contains one or more Z entries in the WIC field.
+c. eWork
+eWork recognizes the DCF DEMO coding and provides an alert identifying the beneficiary
+as a POD participant on the following screens:
+•
+Initiate/Update Work Report
+•
+Initiate/Update Work Review
+•
+Initiate/Update Recon
+•
+Initiate/Update IC Evaluation
+•
+Query Work Development
+A POD participant’s record can be queried in eWork, however all forms/notices are
+restricted for the POD participation period.
+NOTE: Beneficiaries assigned to the control group will not have any of the identifiers
+above on the DCF, MBR, or eWork.

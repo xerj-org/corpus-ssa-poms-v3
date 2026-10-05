@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02402.250 - Allegations of Nonreceipt of International Direct Deposit (IDD) payments
+Effective Dates: 03/31/2022 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402250 (fetched 2026-10-04)
+
+A. Reasons for Nonreceipt allegations
+Because of internal controls included in the various stages of the International Direct
+Deposit (IDD) process, it is unlikely that IDD payments will be lost. In most instances,
+one of the following will have occurred:
+•
+The payment was not issued.
+•
+The payment was intercepted (see GN 02402.235).
+•
+The payment was rejected by the processor bank because of invalid bank data. (See
+GN 02402.240 for common errors in coding Canadian IDD.)
+•
+The RTN and/or DAN is not accurate.
+•
+The payment was received at the beneficiary's FI but has not been credited to the
+account.
+•
+The payment was credited by the FI earlier or later than expected.
+•
+The account to which the payment was sent via IDD is in the wrong currency for IDD
+to that country, which caused the payment to be rejected and returned by the processor
+FI or the beneficiary's FI.
+•
+For Canada, the RTN prefix may have been coded for a wrong currency. For a Canadian
+dollar account, it should be 51; for a U.S. dollar account, it should be 62. See GN 02402.300C.4.a. for a list of some ways to tell when the account is a U.S. dollar account at certain
+Canadian FIs.
+•
+If the missing payment is a PMA payment, it may have been sent after the End of COM
+and will be paid in the following month. (See GN 02402.225A.2.)
+•
+The payment to a beneficiary with a rep payee may have been rejected because the FIs
+in that country do not allow an account title such as “John Smith for Mary Smith.”
+•
+The beneficiary may have intended to have direct deposit to a U.S. bank, but presented
+a deposit slip as evidence of the bank data. Internal bank routing numbers on U.S.
+deposit slips mainly begin with 5, 6, or 7. Payments may then be sent to a country
+for which the two-digit country code is the same as the first two digits on the deposit
+slip.
+NOTE:
+IDD payments to most countries are made in local currency, not U.S. dollars. Therefore,
+a payment amount for a beneficiary in one of those countries will appear different from the information
+on PHUS.

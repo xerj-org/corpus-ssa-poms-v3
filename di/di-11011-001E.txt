@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 11011.001 - Applying Collateral Estoppel in Disability Claims
+Effective Dates: 07/12/2024 - Present | TN 6 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411011001 (fetched 2026-10-04)
+
+E. Processing of FO jurisdiction collateral estoppel cases
+1. Impairment and diary codes
+When applying collateral estoppel to adopt a prior disability determination or decision,
+review transmittal forms (e.g., SSA-831 (Disability Determination and Transmittal)
+or Case Processing and Management System (CPMS) disposition page) or systems queries
+(e.g., DDS Query (DDSQ), Master Beneficiary Record (MBR), or SSID) with information
+on the prior favorable disability determination or decision and enter the prior diagnosis
+code(s) and medical diary period when completing the adjudicative screens for the
+new claim allowance.
+2. EOD
+If the claimant meets the same statutory definition of disability (based on the collateral
+estoppel criteria in DI 11011.001A in this section) and the applicable nonmedical requirements during the period covered
+by the application, determine the EOD for the new claim. Generally, the EOD is the
+earliest date that the claimant meets both the definition of disability and the nonmedical
+requirements for entitlement to benefits under Title II or eligibility for payments
+under Title XVI during the period covered by the new application.
+Use the following table to determine the EOD for collateral estoppel cases
+Subsequent claim type
+EOD for the new claim is generally
+DIB
+The later of:
+• prior claim EOD, or
+• the date first insured (DFI).
+DWB
+The later of:
+• prior claim EOD, or
+• the controlling date.
+CDB
+The later of:
+• prior claim EOD, or
+• the last day of the month before the month of age 18 attainment.
+SSI Disabled Adult
+The protective filing date in the new claim.
+NOTE: If the applicable EOD from the above table does not establish entitlement, e.g.,
+the EOD would be after attainment of age 22 in a CDB initial entitlement case, collateral
+estoppel does not apply.
+IMPORTANT: The FO may not establish an EOD in the new claim earlier than the EOD in the prior claim. If there
+is a possibility of additional Title II entitlement before the prior EOD, follow the
+instructions in DI 11011.001F in this section.
+3. Additional claims system inputs
+a.
+Title II claims
+On the Modernized Claims System (MCS) decision input (DECI) screen, enter the listing
+code of “589”.
+For MCS exclusions, processing center (PC) action is required to update or establish
+disability data on the MBR for the new entitlement. When necessary, the FO will complete
+an electronic form 101 (EF101) for the new or amended award and enter “collateral estoppel, PC
+action necessary to manually establish listing code 589” on the EF101 Benefit Continuity Remarks/Notice (BCRN) screen.
+The FO completes a report of contact when applicable to document the determination
+for a CDB conversion (following instructions in DI 11020.135A.2) or delayed claim (following instructions in GN 01010.140E.1).
+b.
+Title XVI claims
+On the Disability page, select “adopt Title II disability determination” as the reason
+for not referring the case for a medical decision. This input will generate the medical
+diary reason (MDR) code of "V".
+NOTE: The FO is not required to create a new EDCS segment or SSA-831 for the collateral
+estoppel determination in claims under either title. The adjudicative decision screens
+completed in the appropriate claims processing system will serve as the signed determination,
+and the mainframe record will serve as documentation of the claims activity. For more
+information on adjudicative policy and standards, as well as examples of adjudicative
+screens, see GN 01010.001.
+4. Suspense issues
+If the prior claim is in temporary suspense status for non-disability reasons when
+the new claim is filed, attempt to resolve the payment suspense issue prior to completing
+processing of the new claim (e.g., if the prior claim is in “S8” suspense status for
+payee development, develop for a new payee or establish direct payment when necessary).
+•
+If the suspense issue on the prior claim is not resolvable when processing the new
+claim but will not result in a denial on the new claim, apply collateral estoppel
+to adopt the prior favorable disability determination or decision (if the criteria
+in DI 11011.001A in this section are met), and
+•
+If the suspense issue results in any period(s) of nonpayment status in the new claim,
+place the new claim payment status into the corresponding payment suspense for the
+applicable months, via the Title II suspension event (SUSP) screen or the Title XVI
+payment status page, prior to adjudication.
+For Title II benefit suspensions, see GN 02602.005.
+For Title XVI payment suspensions, see SI 02301.200.
+5. Pending CDR considerations
+Adopt the favorable disability determination or decision from a prior claim even when
+an initial medical CDR is pending for that claim. After processing the subsequent
+claim allowance, initiate a medical CDR on the new record and transfer the new CDR
+to the DDS to associate with the pending CDR.
+NOTE: Do not initiate a CDR based solely on an expired diary on the existing claim. A new
+claim does not in itself raise a CDR issue on the existing entitlement, even when
+there is an expired diary. For more information on FO procedures in medical CDR cases,
+see DI 13005.001.

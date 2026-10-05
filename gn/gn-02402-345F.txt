@@ -1,0 +1,124 @@
+SSA Program Operations Manual System (POMS) - GN 02402.345 - Coding Estonia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 05/09/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402345 (fetched 2026-10-04)
+
+F. Policy for coding Estonia IDD bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Estonia using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership
+•
+account type
+•
+account number
+•
+beneficiary address
+•
+beneficiary phone number
+•
+country
+•
+enrollment status
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+reclamation country
+•
+IBAN
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+1. Obtain the SWIFT-BIC code
+The SWIFT code consists of 8 to 11 alphanumeric characters. When an 8-digit code is
+given, it refers to the primary office:
+•
+First 4 characters - bank code (only letters);
+•
+Next 2 characters - ISO 3166-1 alpha-2 country code (only letters);
+•
+Next 2 characters - location code (letters and digits) (passive participant will have
+"1" in the second character); and
+•
+Last 3 characters - branch code, optional ('XXX' for primary office) (letters and
+digits).
+2. Process initial award
+Secure IBAN and SWIFT-BIC coding from the beneficiary at the time of filing. The FBU
+inputs an initial IDD claim if the beneficiary elects the option of direct deposit.
+All initial IDD claims that an FBU takes for Estonia require input into ITS.gov and
+an SSA system (MCS, MACADE) on the same day. You must complete all initial claims
+that the International Benefits Office (IBO) takes. You must input all initial claims
+involving Estonia IDD into ITS.gov and an SSA system (MCS, MACADE) on the same day.
+NOTE: If there is dire need or hardship involved, advise the beneficiary of the option
+of initiating payment via a paper check. Inform the beneficiary that the bank may
+charge for cashing the check. If the beneficiary chooses the option of paper check,
+the FBU documents and processes the initial claim.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update on the same day ITS.gov ;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a Euro account at an FI in Estonia?
+If no, STOP.
+REASON: Beneficiaries in Estonia can only receive IDD payments in Euro accounts.
+If yes, go to step 4.
+4
+To derive the RTN (a total of nine digits ) for Estonia:
+•
+Start with 66 (the multi-country prefix SSA and FRBKC have designated to use for Estonia
+IDD),
+•
+Code the two-digit bank code,
+•
+Code the two-digit branch code,
+•
+Code two filler zeros “00,” and
+•
+Code the check digit value of the RTN, which you will obtain through Title II Interactive
+Comps.
+NOTE: The final digit is the U.S. check digit Code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Estonia, code:
+•
+Start with “F”, the letter assigned to show that the FI is in Estonia; and
+•
+Code the 12-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.345F.
+You must access or ask a co-worker to update the required information into
+ITS.gov .
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

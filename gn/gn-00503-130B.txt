@@ -1,0 +1,185 @@
+SSA Program Operations Manual System (POMS) - GN 00503.130 - Final Notice
+Effective Dates: 04/15/2016 - Present | TN 15 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200503130 (fetched 2026-10-04)
+
+B. Procedure
+Since most payee decisions will be made in the field offices (FO), the FO will be
+responsible for sending the appropriate notices. Most notices reflected below are
+contained in the DPS.
+Use the following charts to determine what final notice to send to which recipient.
+(Instructions for advance notices are in GN 00503.100, MS 07412.008 and NL 00703.763)
+The T2R notice system automatically processes most title II postentitlement notices.
+However, some of these are “I” (incomplete) or “R” (review) notices that require the
+PC to complete specific information like an address. (See NL 00730.020C.) PCs should prepare and release these notices after receiving the T2R3 output.
+Obtain the necessary information by querying the MBR and/or eRPS. Drop file the T2R3
+output into the claims folder.
+NOTE: SSA-11 packages will no longer be routinely sent to the PC.
+Many title XVI notices involving initial appointment and changes of payee (i.e., payee-to-payee)
+are automated. In addition, the eRPS can be used to generate non-select notices to
+both adults and children. However, some actions still require manual notices.
+In the chart that follows, the “Type of Action” column provides information on whether
+the notice is systems generated (“automated”), produced by eRPS (ANSN) or must be
+prepared manually.
+BENEFICIARY IS AN ADULT — TITLE II
+Addressee
+Type of Action
+Notice Reference
+Legally Competent Beneficiary, including DACs
+Appoint/change a payee -
+postentitlement - automated; “R” if has guardian or payee does not have custody
+NL 00703.822 and/or
+NL 00730.136 including a copy of the notice sent to the new payee.
+​
+Appoint a payee - initial claim - automated; PC copies notice if processed via MCS/MACADE
+NL 00703.822
+​
+Pay the beneficiary directly (after having been paid through a payee) - automated
+NL 00730.136
+​
+Deny request for direct payment or continue same payee -eRPS
+NL 00703.825
+MS 07412.003
+Legally Incompetent Beneficiary, including DACs
+Appoint/change a payee -
+postentitlement - automated but “R” notice
+NL 00703.823
+NL 00730.136
+​
+Appoint a payee - initial claim - manual
+NL 00703.823
+​
+Deny request for direct payment eRPS
+NL 00703.827
+MS 07412.003
+New Payee
+Appoint a payee - initial claim - automated
+Award notice with payee language from NL 00730.136.
+​
+Appoint/change the payee - automated but “R” if LAF S7/S9
+NL 00730.136
+Legal Guardian
+Appoint a payee - legal guardian is not payee/applicant - manual
+NL 00703.824
+​
+Change from representative payment to direct payment -manual
+NL 00703.828
+​
+Same method of payment continues - legal guardian is not payee/applicant - manual
+NL 00703.826
+Former Payee
+Change payee or make direct payment - automated but “R” if DOS is less than 12 months
+NL 00703.821
+Unsuccessful Applicant ( eRPS will produce non-select notices)
+Any, except as noted below
+NL 00703.821
+MS 07412.003
+​
+Appoint payee — legal guardian/authorized representative is applicant
+NL 00703.824
+MS 07412.003
+​
+Make direct payment — legal guardian is applicant
+NL 00703.828
+MS 07412.003
+​
+Continue current payment method — legal guardian is applicant
+NL 00703.826
+MS 07412.003
+Authorized Representative
+Appoint a payee - initial claim -addressee is not payee - MCS produces notice if entered
+on chk/notc screen. PC must copy if processed via MCS/MACADE
+NL 00703.822
+​
+All post adjudicative actions other than when addressee is payee/ applicant - manual
+Copy of notice to beneficiary/payee.
+BENEFICIARY IS AN ADULT - TITLE XVI
+Addressee
+Type of Action
+Notice Reference
+Legally Competent Adult
+Appoint a payee - initial decisions -automated unless legal guardian/authorized representative
+who is not payee
+NL 00703.822 and
+NL 00804.185 including a copy of the notice sent to the new payee.
+Change a payee - automated
+NL 00703.822
+Pay the beneficiary directly (after being paid through a payee) - automated
+NL 00730.136
+NL 00804.185
+Deny request for direct payment - eRPS
+NL 00703.825
+MS 07412.003
+Same payee will continue - eRPS
+NL 00703.825
+MS 07412.003
+Legally Incompetent Beneficiary
+Appoint/change a payee -manual
+NL 00703.823
+Deny request for direct payment - eRPS
+NL 00703.827
+MS 07412.003
+New Payee
+Appoint payee - automated unless legal guardian/authorized representative
+NL 00804.185
+Change the payee - automated
+NL 00804.185
+Legal Guardian
+Appoint a payee — legal guardian is not payee
+NL 00804.185 (See separate instructions for former payee or unsuccessful applicant if legal guardian
+must be notified of those actions.)
+Change from payee to direct pay - eRPS
+Same method of payment
+continues - legal guardian is not applicant -manual
+NL 00703.828
+NL 00703.826
+MS INTRANETERPS
+Former Payee
+Any - automated (FO) must send SSA-623 if DOS is 12 or less months
+NL 00703.821
+Unsuccessful Applicant
+Any - eRPS
+See title II chart for references.
+Authorized Representative
+Appoint a payee - addressee is not payee/ applicant - automated
+Copy of notice sent to beneficiary/payee.
+BENEFICIARY IS A CHILD — BOTH TITLES
+Addressee
+Type of Action
+Notice Reference
+Beneficiary, not legally emancipated
+Appoint/change payee
+no notice needed
+Remove the child from direct payment - eRPS
+NL 00703.823
+MS 07412.003
+Change to direct payment - automated except: title II -“R” if guardian or payee does
+not have custody; title XVI -suppress and send manually if guardian or authorized
+representative in addition to payee
+NL 00730.136
+Deny request for direct payment - manual
+NL 00703.827
+Legally Emancipated Minor
+Any - manual unless initial appointment of payee or change to direct payment
+same as for an adult
+New Payee
+Any- same as for an adult
+same as for an adult
+Parent, Person Standing in the Place of a Parent, or Legal Guardian
+Appoint a payee -addressee is not the payee - manual unless title XVI and legal guardian
+is also parent
+NL 00703.824
+Make direct payment to the child - eRPS
+NL 00703.828
+MS 07412.003
+Retain current method - manual
+NL 00703.826
+Former Payee
+Any - same as for an adult
+same as for an adult
+Unsuccessful Applicant
+Any - include “parent, person standing in the place of a parent” with “legal guardian”
+situations
+same as for an adult
+Authorized Representative
+Any - same as for an adult
+same as for an adult

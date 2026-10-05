@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 13015.300 - Field Office (FO) Procedure to Vacate a Continuing Disability Review (CDR) Medical Cessation Determination
+Effective Dates: 07/31/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015300 (fetched 2026-10-04)
+
+B. Procedure for benefits not yet terminated
+1.
+Enter a date and remark on the Disability Control File (DCF) input remarks (IRMK)
+screen explaining that the cessation determination was vacated because the beneficiary
+was eligible for protection from medical CDR review (e.g., Ticket to Work in use –
+CDR completed in error)
+2.
+Return the case to the Disability Determination Services (DDS) with an explanation
+that the CDR cessation determination must be vacated, along with the reason to vacate
+the determination.
+a.
+If the cessation was processed as an eCDR, reactivate the case in the Electronic Disability
+Collect System (EDCS) to return it to the DDS. Add an SSA-5002 with the following
+language: “Inappropriate medical CDR cessation determination was processed. The beneficiary
+had CDR protection based on the individual's______ (example: Ticket to Work) status.
+Do not use any documentation contained in this file related to this CDR. Do not consider
+any medical evidence in file obtained for this CDR for future CDR/claim purposes.”
+b.
+If the case was a paper folder, include a paper SSA-5002 in the blue section of the
+modular disability folder, or on top of documents in a brown folder. The SSA-5002
+should state that the case is being returned to the DDS to vacate the prior medical
+CDR cessation determination.
+3.
+Use the Modify Medical Data (MMDS) screen in DCF to re-establish the prior medical
+information, found in the CDP folder. Over-key the zeroes with the information contained
+on the previous MMDS screen to re-establish the medical information, the previous
+CPD date, and the diary.
+4.
+For Title II cases, if the Master Beneficiary Record (MBR) has the disability cessation
+annotated, but not yet effectuated, contact the processing center (PC), following
+established regional procedures, to correct the MBR.
+5.
+For Title XVI cases, make the necessary corrections to the Supplemental Security Record
+(SSR).

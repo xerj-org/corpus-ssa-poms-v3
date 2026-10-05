@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 11005.072 - Field Office Disability Claims Process of Statutory Blind Allowances
+Effective Dates: 04/02/2026 - Present | TN 133 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005072 (fetched 2026-10-04)
+
+B. Established blind onset date
+1. DDS establishes two onset dates
+There may be cases where the DDS establishes two onset dates:
+a.
+A non-blind onset date and a later blind onset date: Item 15 of the SSA-831 will show
+the earlier (non-blind) onset date. DDS documents the later blind onset date in the
+SSA-831 remarks section for Title II determinations and in item 18B for Title XVI
+determinations. The later onset date does not propagate on the MCS DICL screen or
+the Title XVI Disability Clearance Data page.
+IMPORTANT: DDS leaves item 18B blank in Title II cases when a blind onset is preceded by a non-blind
+onset. Otherwise, MCS incorrectly calculates the date of entitlement (DOE) for payment
+based on the later onset. For this reason, the FO may need to review the SSA-831 to
+process the stat blind determination correctly.
+b.
+Two different onset dates for blindness (Title II DIB claims only) The earlier date
+signifies the onset of blindness (item 15 of the SSA-831) and the later date (item
+18B of the SSA-831) establishes the date the claimant is eligible to receive Title
+II payments based on the inability to perform SGA. This occurs when the claimant engages
+in SGA but later stops (prior to filing). The earlier onset establishes the start
+date of the freeze. The latter date (the adjusted blind onset date (ABOD)), controls
+the start of the 5-month waiting period and the date of entitlement (DOE) to DIB.
+The ABOD propagates onto the ABOD field of the MCS DICL screen.
+NOTE: The ABOD field on the MCS DICL screen contains a date later than the blind onset
+in item 15 (never earlier) when the claimant cannot be entitled to payment until a
+later date due to SGA.
+2. Title XVI blind onset date and SGA earnings
+Do not deny a Title XVI claim alleging blindness or a visual impairment based on SGA
+prior to a DDS stat blind determination. If the claimant meets all other income and
+resource requirements, forward the case to DDS for a blind determination. For information
+on SGA and Title XVI blindness requirements, see DI 11055.001C.2. Once DDS makes a stat blind determination, take the following action:
+•
+Stat blind favorable determination:
+If DDS establishes blindness, apply blind work expenses (BWEs) to the claimants earnings.
+For information on BWEs, see SI 00820.535.
+•
+Stat blind unfavorable determination:
+If the DDS cannot establish blindness, DDS will make an SGA (N33) denial determination.
+Process the denial determination.

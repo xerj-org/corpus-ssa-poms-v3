@@ -1,0 +1,162 @@
+SSA Program Operations Manual System (POMS) - SI 02220.020 - Cross Program Recovery (CPR) of SSI Overpayments from Monthly Title II Benefits
+Effective Dates: 01/17/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220020 (fetched 2026-10-04)
+
+A. Policy
+1. Authority for mandatory CPR
+Section 1147 of the Social Security Act, added by the Noncitizen Benefit Clarification
+and Other Technical Amendments Act of 1998, permits SSA to collect SSI overpayments
+owed by former recipients from any Title II benefits due them. As a result of the
+law, it is no longer necessary to get written permission from the SSI debtor in order
+for SSA to collect the debt from Title II benefits by CPR. SSA’s authority to conduct
+CPR was expanded by section 210 of the Social Security Protection Act of 2004.
+SSA’s regulations governing its CPR program are in 20 Code of Federal Regulations
+(CFR) Part 416, Subpart E, sections 416.572-416.575. Effective January 2005, section
+416.572 was revised and sections 416.573-416.575 were added to provide the Agency’s
+rules for its expanded use of mandatory CPR.
+SSA’s expansion of mandatory CPR under section 1147 as implemented in 20 CFR 416.572
+(effective January 2005) included the following changes: (1) SSA may impose mandatory
+CPR even when the debtor is repaying the SSI debt in regular monthly installments,
+and (2) SSA may use mandatory CPR to collect SSI debts from Title II underpayments
+at a rate higher than 10% of the amount payable in a month. For policy and procedure
+on expanded authority regarding underpayments, see CPR of SSI Overpayments from Title
+II Underpayments SI 02220.021.
+2. Criteria for automated mandatory CPR
+Selection of SSI debts for mandatory CPR from monthly Title II benefits is automatically
+made from the Recovery and Collection of Overpayments (RECOOP) system. For information
+on RECOOP, see MS
+01111.001. Following are the main criteria for automated selection of cases for CPR:
+a.
+The SSI debtor is not eligible for any cash payments under Title XVI or State supplementary
+payments that SSA administers; and
+b.
+The SSI debtor is receiving any Title II benefits; and
+c.
+The SSI debtor has an SSI debt under the control of the RECOOP system; and
+d.
+The SSI debtor is not repaying the SSI debt via regular monthly payments controlled
+by the RECOOP system (see NOTE SI 02220.020A.2.); and
+e.
+The SSI debt is on the latest SSI record; and
+f.
+The SSI debtor does not have a Title II debt being withheld from Title II benefit;
+and
+g.
+The SSI debtor does not have a pending waiver or reconsideration request on the debt;
+and
+h.
+The SSI debtor is not already repaying the debt by voluntary CPR; and
+i.
+The SSI debt must be a minimum of $2.00; and
+j.
+The SSI debtor is not an Ellender class member, see SI 02220.020A.8.
+NOTE: Even though SSA’s policy is to impose mandatory CPR when the debtor is repaying
+in regular monthly installments, the automated mandatory CPR system has not yet been
+changed to select debts being repaid in regular monthly payments. The system will
+be changed in a future enhancement, thus enabling the automated selection of such
+cases for CPR. Until then, CPR must be set up manually, see SI 02220.020C.
+3. Policy on non-recoop cases
+During the course of working SSI cases, you will identify SSI debts that were not
+selected for CPR by the automated process (i.e., the case was not controlled by RECOOP)
+but could still be subject to mandatory CPR. The policy is to impose CPR on those
+non-RECOOP cases meeting all of the criteria for collection from Title II benefits.
+Impose CPR after the initial 60-day due process period has expired following the date
+the initial notice of overpayment was sent. (For more detail about manual CPR, see
+SI 02220.020C.)
+4. Installment requests
+SSA policy is not to accept installment agreements when CPR is available. SSA will
+accept only full refunds and bonafide compromise payments. ( for instructions on handling
+debtor offers to repay debt in installments, see SI 02220.020D.2.)
+5. Debtor has an existing installment agreement
+SSA’s policy is to impose mandatory CPR regardless of whether the overpaid individual
+is repaying the debt in regular monthly installments. Whenever you identify an SSI
+overpayment that can be collected by mandatory CPR, follow the instructions for setting
+up the recovery in SI 02220.020C. If the SSI debt was caused by willful misrepresentation or concealment of material
+information, establish mandatory CPR at the highest possible rate as described in
+SI 02220.020C.3.
+NOTE: Until the automated CPR system is changed to select RECOOP cases with regular monthly
+installments, instructions in SI 02220.020C., Manual CPR for Non-RECOOP SSI Debts, will also apply to RECOOP cases with regular
+monthly installment payments.
+6. Reduction of Title II benefits and SSI eligibility
+Recovery of an SSI overpayment by mandatory CPR against Title II benefits will not
+serve as the basis for resumed eligibility for SSI payments.
+7. Rate of withholding
+In general, the law that authorizes mandatory CPR allows SSA to withhold 10 percent
+of the Title II benefit payable in a month as payment toward the SSI debt. In the
+following situations, we can withhold at a different rate:
+a.
+The SSI debtor (or spouse) engaged in willful misrepresentation or concealed material
+information that led to the overpayment; i.e., fraud or similar fault. In this case,
+the law authorizes 100 percent withholding (See SI 04070.020 for policy on imposing
+100 percent withholding due to an SSA finding of fraud or similar fault). Due to systems
+considerations, SSA's policy is to withhold the maximum amount that would result in
+a monthly benefit payment of $1.00 (see SI 02220.020C.3. for instructions on debts arising from fraud or similar fault);
+b.
+The SSI debtor requests and SSA approves a different rate of withholding (See SI 02220.026 for policy on handling a request for a different rate of withholding).
+c.
+The debt amount is less than 10 percent of the Title II monthly benefit payable (in
+this case ½ of the debt amount will be the withholding amount).
+8. Ellender court case
+The Ellender court case is a class action suit brought in the early 1980s regarding
+SSA's use of voluntary CPR in the State of New York. As a result of settlement activity
+in the Ellender case, SSA will not impose mandatory CPR against people who:
+a.
+Lived in the State of New York on October 26, 1982; and
+b.
+Were receiving Title II benefits on October 26, 1982; and
+c.
+Were former SSI recipients on October 26, 1982; and
+d.
+Received an SSI overpayment before October 26, 1982.
+SSA's systems will not have any automated coding to indicate that a debtor is a member
+of the Ellender class. However, the system has been programmed, to the maximum extent
+possible, not to select an SSI overpayment for mandatory CPR when the debtor meets
+the above criteria. For instructions on how to handle a person who alleges being a
+member of the Ellender class, see SI 02220.020D.10.
+NOTE: Except for those select cases in the Ellender class, CPR can now be used in all states.
+9. SSI debtor in payment status E01
+The policy is to use mandatory CPR to collect from SSI debtors in PSY E01 (eligible
+but no payment due). Since cases in PSY E01 are excluded from RECOOP, those SSI debtors
+who otherwise meet the criteria for mandatory CPR are not selected by the automated
+system. Consequently, impose manual CPR per instructions in SI 02220.020C.
+10. CPR for overpayments subject to the Treasury Offset Program (TOP), Administrative
+Wage Garnishment (AWG) and credit bureau reporting
+a. Overpayments subject to TOP/AWG
+The use of mandatory CPR supersedes the use of TOP/AWG to collect SSI overpayments.
+If an SSI overpayment has been selected for TOP/AWG and mandatory CPR is subsequently
+initiated, TOP/AWG activity will automatically stop. Initiation of mandatory CPR either
+by the automated system or by manual setup will halt any further TOP/AWG activity.
+You do not need to take any special action to stop or delay TOP/AWG processing. (See
+GN 02201.029 and SI 02220.012 for information on TOP. See GN 02201.040 through GN 02201.042 and SI 02220.018 for information on AWG.)
+Due to the timing of Treasury’s TOP processing cycles, it is possible for a TOP collection
+to occur after SSA initiates mandatory CPR. Unless an excess collection occurs due
+to the TOP offset, SSA’s policy is not to refund TOP collections that occur after mandatory CPR is initiated.
+b. Overpayments subject to credit bureau reporting
+Mandatory CPR will be used regardless of the debtor’s status with respect to credit
+bureau reporting. Once an individual’s indebtedness is reported to the credit bureau,
+the person’s debt will remain on the credit report. Collections via mandatory CPR
+will be automatically credited to the report, and the debt balance will decrease accordingly.
+(See GN 02201.032 and SI 02220.014 for information on credit bureau reporting.)
+11. When mandatory CPR stops
+Mandatory CPR will stop when:
+a.
+The individual goes into Title XVI current pay; or
+b.
+The individual begins receiving a State supplement that SSA administers; or
+c.
+The debt balance drops to zero; or
+d.
+The SSI debtor requests reconsideration or waiver on the SSI debt being collected
+from the Title II benefits; or
+e.
+The SSI debtor dies; or
+f.
+The SSI debtor's Title II ledger account file (LAF) code changes from LAF C (current
+pay) or LAF E (Railroad Board certified) to LAF T (terminated), LAF S (suspended)
+or LAF D (deferred). See SI 02220.020E.1. for instructions on how to process LAF code changes; or
+g.
+The individual incurs a Title II overpayment; or
+h.
+SSA receives a bankruptcy petition that names the SSI debtor; or
+i.
+The debtor is determined to be a member of the Ellender class.

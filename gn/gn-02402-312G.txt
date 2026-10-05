@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.312 - Coding Antigua and Barbuda Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 268 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402312 (fetched 2026-10-04)
+
+G. Example of coding Antigua and Barbuda direct deposit
+The customer provides us with a signup form for Antigua and Barbuda containing the
+account number: “1234567890112233445566.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000030; and
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “D” designated for Antigua and Barbuda; and
+•
+Code the 12-digit account number: 123456789011.
+3. Obtain the following information
+•
+RTN: 740000030
+•
+Checking
+•
+DAN: D123456789011
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000030 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: D123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 740000030
+•
+DAN- CD123456789011

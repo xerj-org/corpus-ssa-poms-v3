@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - GN 02215.115 - FO handling of compromise offers
+Effective Dates: 08/04/2026 - Present | TN 63 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202215115 (fetched 2026-10-04)
+
+C. Procedure
+1. Overpayment $2,000 or less
+The CR has the authority to accept or reject the offer without further review.
+a.
+Accept an offer of 80 percent of the debt amount (without financial development).
+b.
+Accept an offer which is at least 60 percent of the debt if:
+•
+The full debt cannot be recovered within 1 year by benefit withholding, and
+•
+Financial circumstances support the 60 percent offer.
+c.
+Accept an offer of less than 60 percent of the debt when financial evidence establishes that the debtor
+is unable to pay more and the amount offered is reasonable.
+When financial information is needed in the above situations, obtain the information
+from the debtor in accordance with GN
+02210.030B Document the Debt Management System (DMS) REMARKS (RMKS) screen.
+2. Overpayment exceeds $2,000 but is not over $20,000
+The CR, with the concurrence of an operations supervisor (or higher), has the authority to accept or reject the offer.
+a.
+Accept an offer which is at least 80 percent of the debt amount.
+b.
+Accept an offer which is at least 60 percent of the debt if:
+•
+The full debt cannot be recovered by benefit withholding within 3 years, and
+•
+Financial circumstances support the 60 percent offer.
+c.
+Accept an offer of less than 60 percent when:
+•
+The financial evidence establishes that the individual is financially unable to repay
+more than the amount offered, and
+•
+The amount offered is reasonable.
+Obtain financial information in accordance with GN 02215.115C.1. and document the
+RMKS screen accordingly.
+3. Overpayment exceeds $20,000
+Develop and document financial circumstances (see above) and forward the offer to the appropriate
+PC (the PCOCS on the MBR). If the debtor refuses to provide financial information,
+advise the PC accordingly. The PC will prepare all notices.
+4. Effectuating the FO decision
+Notify the person in writing of the decision and, if the offer is accepted, when the
+compromise amount is due. (See NL 00703.140 or NL 00703.141 for sample notice language.)
+Generally, the compromise amount is due in full within 30 days from the date of the
+notice. However, there could be circumstances which would require a different due
+date (e.g., the debtor has a certificate of deposit which will mature in 90 days.)
+a. When the FO Accepts a compromise offer:
+•
+Input the decision to the Record Compromise Decision (DRCD- MSOM DMS 006.012) screen.
+•
+If the debt is greater than $2,000, a second level review is necessary via the Review
+Compromise Approval (DRCW - MSOM DMS 006.013)
+NOTE: Input to the above screen(s) will generate a TC53 to post the write-off amount to
+ROAR and set a PC diary for 30 days or the diary date if one is input. Once the decision
+is final, send the proper notice.
+b. When the FO rejects a compromise offer
+•
+Input the decision to the DRCD.
+•
+Send the proper notice.
+c. When payment is received in the FO
+•
+Follow GN 02403.003 to input the remittance into DMS.
+•
+Follow GN 02403.020 to transfer monies to MATPSC.

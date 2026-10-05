@@ -1,0 +1,115 @@
+SSA Program Operations Manual System (POMS) - DI 81010.230 - Creating an EDCS Record for an Electronic Continuing Disability Review (eCDR)
+Effective Dates: 11/25/2019 - Present | TN 36 (08-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010230 (fetched 2026-10-04)
+
+A. EDCS case creation for adult or child CDR
+Review the CDR forms upon receipt. Prior to creating the eCDR, ensure that you know
+the date of the most recent favorable medical decision, known as the Comparison Point
+Decision (CPD) date, see DI 81010.215A and DI 28010.105. If the CPD folder is a paper Modular Disability Folder (MDF), obtain or thoroughly
+search for the CPD folder.
+1. Creating the initial eCDR
+Take the following actions to create an eCDR:
+•
+Enter the client’s (beneficiary/recipient) SSN or First and Last Name on the Disability
+Case Selection page and select “Search;”
+•
+Select the radio button for the closed CDR case for which the eCDR will be established
+and select “Create Case;”
+•
+On the Select Case Level page, select "CDR initial"
+•
+On the Confirm Case Creation page:
+–
+Select the type of disability report for the case (for example, Adult (454);
+–
+Enter the Comparison Point Decision (CPD) date;
+–
+Answer the question, “Have you worked since the CPD date?” with a Yes or No;
+–
+Answer the question, “Are you using a Ticket to Work?” with a Yes or No;
+–
+Click on “Create Case” button
+NOTE: See related instructions for Creating a Record for an Age 18 Disability Redetermination
+in the Electronic Disability Collect System (EDCS) DI 81010.232.
+2. Creating an eCDR Appeal
+Verify entitlement before loading a CDR into EDCS and double-check that there has
+been a determination before loading the appeal. Also, verify that the cessation has
+posted to the DCF before loading the appeal. These actions will help avoid unnecessary
+complications.
+For Title II CDR appeals, the FO technician enters the appeal directly into EDCS. EDCS collects appeal and
+Statutory Benefit Continuation (SBC) information. In an effort to prevent improper
+payments, EDCS automatically updates the Disability Control File (DCF) with case status
+movement, and medical determination. This information also updates the MBR with appeal
+data and sets the appropriate payment status.
+For Title XVI CDR appeals, the FO technician first enters the appeal through MSSICS in order for MSSICS appeal
+data to propagate in EDCS. EDCS will automatically update the DCF with case status
+movement, and medical determination information. If the FO technician is unable to
+establish the appeal in MSSICS, then the technician enters the appeal via Direct SSR
+Update. For Title XVI CDR appeals entered via Direct SSR Update, the FO technician
+enters the appeal directly into EDCS.
+For concurrent CDR appeals, the FO technician should first establish Title XVI appeal in MSSICS, and then enter
+Title II appeal information in EDCS. Processing the Titles in this order will ensure
+appeal information is captured for Title II and Title XVI in EDCS, and EDCS will then
+simultaneously send updates about case movement and medical determination to the DCF,
+and other mainframe systems.
+NOTE: If either title is an EDCS exclusion, please follow paper processing procedures. Do
+not use the Manual T16 Case Creation functionality in EDCS for CDR initial or appeal
+level cases.
+Take the following actions to create an eCDR appeal case:
+•
+Enter the client’s (beneficiary/recipient) SSN or First and Last Name on the Disability
+Case Selection page and select “Search;”
+•
+Select the radio button for the closed CDR case for which the eCDR appeal will be
+established and select “Create Case;”
+•
+On the Select Case Level, select CDR appeal adjudicative level (for example, CDR Reconsideration);
+•
+On the Associate New Case, EDCS will ask, Would you like your new case to be associated
+with the prior case listed above?,” select “yes;” and
+•
+Click “OK” button to create appeal.
+3. Creating EDCS case for a Medical Improvement Not Expected (MINE) or MINE-equivalent
+case
+MINE or MINE-equivalent CDR cases do not require completion of a Continuing Disability
+Review Report (SSA-454)
+Take the following actions to create a MINE or MINE-equivalent eCDR:
+•
+Review the case to determine if MINE or MINE - equivalent processing applies following
+instructions in DI 13005.022.C.1 through C.3.
+•
+Enter the Client's (beneficiary/recipient) SSN or First and Last Name on the Disability
+Case Selection page in EDCS and select “Search.”
+•
+Select the radio button for the closed case for which you intend to establish the
+eCDR and select “Create Case.”
+•
+Select “CDR Initial” from the “Select Case Level” screen.
+•
+Go to the “Form(s) Selection” screen, following “Form SSA-454-BK Continuing Disability
+Review Report,” select “Paper."
+•
+Link the appropriate Comparison Point Decision (CPD) folder (if electronic), see DI 81010.235.
+•
+Enter the CPD date on the “Confirm Case Creation” screen.
+•
+Complete the CDR information and EDCS SSA-3367 (Disability Report-Field Office) on
+the “Form(s) Selection” screen.
+•
+Add the form SSA-5002 (Report of Contact) to explain the basis for the FO's conclusion
+to process the case under MINE procedures.
+•
+Enter the remark, “MINE or MINE-equivalent CDR case process per DI 28040.000” on the Routing Form Remarks section of the EDCS Transfer page.
+•
+Transfer the case in EDCS to the appropriate DDS. Enter the following responses to
+the question: Is there a paper folder containing medical evidence for the last favorable
+determination?:
+a.
+Select “No” if the CPD is electronic.
+b.
+Select “Yes” if the CPD is paper. Mail paper CPD to the DDS.
+c.
+Select "Unable to Locate" if the FO cannot locate the CPD folder, for more information
+see DI 81010.242.
+NOTE: MINE or MINE-equivalent processing does not apply if the FO is unable to locate the
+CPD folder.

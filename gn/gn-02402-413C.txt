@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.413 - Coding Uruguay Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 136 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402413 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Uruguay will have a prefix of “71” at the beginning of the Routing
+and Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “V” assigned for Uruguay.

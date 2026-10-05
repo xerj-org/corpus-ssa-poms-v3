@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 45001.324 - Processing ESRD Medicare Claims With Railroad Retirement Board Involvement
+Effective Dates: 01/07/2016 - Present | TN 24 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001324 (fetched 2026-10-04)
+
+B. Determining how to process an award
+1. General
+If the claimant meets the requirements for entitlement to ESRD Medicare, it is then necessary to determine whether or not the claimant is currently
+entitled to Medicare under a Railroad Retirement Number (RRN). A claimant can have
+Medicare under an RRN only if he or she:
+a.
+is age 65 or over, or
+b.
+has been receiving a disability benefit from RRB for 24 months.
+If neither of these conditions exists and LAF code on the MBR is not “E,” process
+an award per the instructions in DI 11052.000. In most cases, the claimant’s ESRD Medicare will be established under his or her
+own SSN with a BIC of T. He or she will be billed for SMI premiums by SSA. This is
+true even when the claimant is receiving a monthly benefit from RRB, but is not yet
+entitled to Medicare. The only time SSA will not collect premiums is if the claimant
+is already entitled to Medicare under an RRN or if the LAF code on the MBR is “E.”
+(See section DI 45001.324D.)
+2. Determining if Medicare exists under an RRN
+A Medicare record may be established if an RRB claimant is age 64 and 8 months old
+or in the 20th month of disability benefit entitlement.
+Secure MBR and ESQ (entitlement systems query, i.e., health insurance record) printouts
+on the claimant’s own SSN or any other SSN’s involved, such as those indicated in
+the answer to item 9(c) of the CMS-43. If the claimant supplies a Railroad Retirement Number secure an ESQ on the RRN.
+Review the printouts to determine whether:
+a.
+Hospital Insurance Option Code (HOC) and/or Supplementary Medical Insurance Option
+Code (SOC) for the claimant is “P” on the MBR and LAF code indicates an allowance;
+or
+b.
+The ESQ on the RRN shows Medicare entitlement for the claimant; or
+c.
+The XCN field of the ESQ on the claimant’s SSN shows a cross reference to a Railroad
+Number (six or nine digit number preceded by one, two, or three alpha characters,
+e.g., WA xxxxxx; A xxxxxxxxx).

@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 13010.610 - The Disability Review Establishment (DRES) Screen
+Effective Dates: 11/27/2002 - Present | TN 15 (11-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010610 (fetched 2026-10-04)
+
+D. Procedure – Completing the DRES
+The DCF ID number, claimant account number, beneficiary name and Type of selection
+fields are propagated to the DRES from the ECDR screen. The office code field is also
+pre-filled.
+•
+In the SELECT CATEGORY field enter the category of the CDR to be established. Only
+categories associated with the selection type shown on the ECDR screen are shown on
+the DRES (for example, if a T2 Work was selected on the ECDR, the DRES will only list
+possible T2 work actions, SGA and TWP).
+•
+In the SELECT TITLE field enter the appropriate title (title II, XVI, or concurrent)
+on which an EXR request has been taken. The SELECT TITLE field on the DRES can only
+be entered when the ECDR screen was completed with a SELECT of 2, EXR.
+•
+Complete the REQUEST FOLDER field Y if requesting the folder.
+•
+The FOLDER RECONSTRUCTION ISSUE field will be pre-filled with an “N”. Change this
+to a “Y” when reconstructing the prior folder. All possible codes can be found in
+DI 13010.625D.4.
+•
+In the DIRECT RELEASE INITIATION DATE field enter the date the initial CDR notice
+was sent. This indicates that the CDR has been officially initiated. Use MMDDCCYY
+format.
+•
+The WORK BEGIN DATE and the WORK END DATE fields will only appear if the CDR type
+selected on the ECDR screen was 6, T2 WORK. Enter the WORK BEGIN DATE (MMCCYY) when
+adding a T2 Work CDR (this is a mandatory entry) based upon the information at the
+time the DRES is being entered (e.g., if the MEF shows earnings for the year 2002,
+lacking other information, enter a WORK BEGIN DATE of 012002.)

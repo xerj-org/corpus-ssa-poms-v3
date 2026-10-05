@@ -1,0 +1,301 @@
+SSA Program Operations Manual System (POMS) - GN 02613.885 - Inquiries about Martinez Settlement Relief Received at SSA
+Effective Dates: 08/16/2021 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613885 (fetched 2026-10-04)
+
+C. Determine if we processed relief
+Follow the instructions in this section to determine how to respond to inquiries.
+1. Review records of beneficiary or recipient listed on CATS
+Go to the applicable CCID code(s) in the chart and review the items indicated to determine
+what potential relief was due the beneficiary or recipient and if we processed relief.
+The following charts provide information on the CCIDs (F1, F2, F3, F4, F5, F6, and
+F7) that are on CATS.
+a. F1 TII Post-2006
+The following chart provides information on CCID code F1:
+Review of Records
+Relief Applied
+For F1 records:
+•
+Review the CO MSG1 field of the Master Beneficiary Record (MBR). If we applied post-2006
+relief to the record, the following information appears MARTINEZ COURT CASE POST-2006
+RELIEF APPLIES.
+•
+Review the FUGITIVE line on the MBR to determine if we processed the post-2006 relief.
+The FUGITIVE line addresses each felony warrant separately.
+•
+Review the HISTORY line of the MBR to see if resumption action removed the fugitive
+felon suspension annotation.
+•
+If the MBR FUGITIVE line does not show the warrant resumption data or good cause information,
+check the Processing Center Action Control System (PCACS) or Evidence Portal (EP)
+for TII Martinez processing actions or exceptions. For information about PCACS, see
+MSOM PCACS 001 through MSOM PCACS 014.
+•
+After you determine if Martinez relief was due and processed, see number 2 in GN 02613.885C.2.a. in this section.
+For F1 records:
+If the felony warrant is resolved, the FUGITIVE line of the MBR will show:
+•
+RESUMPTION DATE MM/CCYY (date of resumption action)
+•
+RESUMPTION RSN GOOD CAUSE
+•
+GOODCAUSE COURT DECISION
+•
+The HISTORY line of the MBR will no longer contain the coding of S9 and FUGFEL for
+the fugitive felon suspension period.
+•
+PCACS indicates a post-2006 resumption processing exception with a TOEL of FELRESU
+and a date of 12/21/09 or 12/22/09. PCACS will generate a TOEL of FELSRESU for the
+exception to the jurisdictional PC for MADCAP processing.
+•
+If the case is listed but not complete, follow processing instructions under number
+1 in GN 02613.885C.2.a. in this section.
+b. F2 TII Pre-2007
+The following chart provides information on CCID code F2:
+Review of Records
+Relief Applied
+For F2 records:
+•
+Review the CO MSG1 field of the MBR. If we selected the case for pre-2007 relief the
+following information appears: MARTINEZ COURT CASE PRE-2007 RELIEF APPLIES
+•
+Review the FUGITIVE data line on the MBR to determine if we processed the pre-2007
+relief. The FUGITIVE line addresses each felony warrant separately.
+•
+The HISTORY line of the MBR will retain the fugitive felon suspension information.
+•
+The O/U PAY data line of the MBR will show the Due Process Overpayment Type (DPOT) T2 FF/SUS/FEL,
+(Type of Event (TOE) 73), if this is a fugitive felon overpayment. The Due Process
+Overpayment Amount (DPO) should be identical to the amount that appears on the ROAR
+record as a fugitive felon overpayment event, TOE 73.
+•
+If the DPOT is other than TOE 73, see the instructions in GN 02613.868B.5. for information on consolidated overpayment balance reductions.
+•
+F2 cases went to the PCs for removal of the beneficiary's fugitive felon overpayment
+balance. The pre-2007 Martinez relief cases have a PCACS issue to alert the technician
+that the case is available for processing. PCACS contains the following information
+to identify the pre-2007 case:
+TOEL1: OPMT TOEL2: ISSUE TOEL3: ROAR TOEL4: MARTF2
+•
+Review the ROAR record to determine if a ROAR transaction removed the fugitive felon
+overpayment balance (T2 FF/SUS/FEL, TOE 73), or if a ROAR transaction reduced the
+consolidated overpayment balance by the amount of the T2 FF/SUS/FEL overpayment balance.
+•
+The Online Retrieval System (ORS) will contain a copy of the notice that ROAR sent
+to the beneficiary notifying them of the removal or reduction of the fugitive felon
+suspension overpayment.
+•
+After you determine if Martinez relief was due and processed, go to number 2 in GN 02613.885C.2.a. in this section.
+For F2 records:
+If the felony warrant is resolved, the FUGITIVE line of the MBR will show:
+•
+FUGITIVE WARRANT DATE-MM/DD/CCYY (date is 12/31/06 or earlier)
+•
+FELON STATUS-FELONY CHARGE or FELONY CONVICT
+•
+WARRANT SATISFIED DATE: MM/DD/CCYY (date is 12/31/06 or earlier)
+•
+WARRANT ENDED REASON: APPREHENDED or DISMISSED
+•
+The HISTORY line of the MBR will contain the coding of S9 and FUGFEL for the fugitive
+felon suspension period.
+•
+The O/U PAY line will not contain the T2 FF/SUS/FEL overpayment amount if the ROAR
+action removed this overpayment from the record.
+•
+The ROAR transaction reduces the O/U PAY consolidated overpayment balance TOE 33 MISCELLANEOUS)
+by the T2 FF/SUS/FEL overpayment amount.
+•
+PCACS TOEL will no longer appear once the ROAR action is processed and we remove the
+fugitive felon overpayment.
+•
+ROAR will show the following entries if a transaction was input to remove the fugitive
+felon overpayment balance:
+ROAR fugitive felon overpayment removal example:
+EVENT
+EI-03 TF-DI
+TOE-T2 FF SUS/FEL WAR
+JURIS-PCMOD STATUS-WAIVED
+HISTORY
+RUN DATE
+TRAN
+AMOUNT
+SRC
+10/18/10
+12
+$14236.80
+10/20/10
+53
+$14236.80
+1-PSC
+SOURCE-
+PC7
+CAT-10
+MARTINEZ
+DECISION
+ROAR consolidated overpayment reduction example:
+EVENT
+EI-03 TF-DI
+TOE-MISCELLANEOUS
+JURIS-PCMOD STATUS-Bene Adj
+HISTORY
+RUN DATE
+TRAN
+AMOUNT
+SRC
+10/18/10
+12
+$14236.80
+10/20/10
+53
+$14236.80
+1-PSC
+SOURCE-PC7 CAT-10-MARTINEZ DECISION
+10/20/10
+41
+$100.00
+SOURCE-420 WHLD-$100.00 COM-10/10 LST WH-6/11 SSC-2
+•
+Review the ROAR notice on ORS. The POSTING DATE for the notice will show 08/01/10
+or later and the REPORT ID for the notice will show NS2ROR01.
+•
+If the case is listed but not complete, follow processing instructions under number
+1 in GN 02613.885C.3.a. in this section.
+c. F3 TII Appeals
+The following chart provides information on CCID code F3:
+Review of Records
+Relief Applied
+For F3 records:
+•
+Review the CO MSG1 field of the MBR. If we selected the case for post-2006 Appeals
+relief for the record, the following information appears MARTINEZ COURT CASE TITLE
+II APPEALS.
+•
+Review the FUGITIVE data line on the MBR to determine if we processed the post-2006
+Appeals relief.
+NOTE: The FUGITIVE line addresses each felony warrant separately.
+•
+The Office of Disability Adjudication Review had to make a decision on the pending
+administrative appeal (ALJ or AC level appeal) before the case was sent for PC processing.
+If the case is on CATS, but the MBR FUGITIVE line does not show we processed the post-2006
+Appeals relief, check the Case Processing Management System (CPMS) or Appeals Review
+Processing System (ARPS) for the status of the administrative appeal.
+•
+After you determine if Martinez relief was due and processed, go to number 2 in GN 02613.885C.3.a.2. in this section.
+For F3 records:
+•
+If the appeal is decided and we already processed the appeal relief, SSA records will
+reflect the annotations illustrated in GN 02613.885C.1.a. in this section for post-2006 relief.
+•
+If the case does not qualify as an appeal case, and we already processed the pre-2007
+Martinez relief, SSA records will reflect the annotations for pre-2007 relief illustrated
+in GN 02613.885C.1.b. in this section.
+•
+If the case is listed but not complete, follow processing instructions under number
+one in GN 02613.885C.2.a. in this section.
+d. F4 or F6T16 Post-2006
+The following chart provides information on CCID codes F4 and F6:
+Review of Records
+Relief Applied
+For F4 or F6 records, review the CRZD field on the SSR for a RZ with a profile code
+of S and selection indicator of J or review the CG field on the SSR for a specific
+Martinez identifier.
+If the SSR shows:
+•
+A profile code of S and selection indicator of J along with a date in the RZC field
+means we completed the Martinez redetermination. Follow instructions in number 2 in
+GN 02613.885C.2.a. in this section.
+•
+A profile code of S and selection indicator of J, and the RZI field contains a date
+but the RZC field is blank, follow processing instructions in number 1 in GN 02613.885C.2.a. in this section.
+•
+A CG field on the SSR of NMRG, we referred the case for cleanup. To provide relief,
+follow processing instructions under number 1 in GN 02613.885C.2.a. in this section.
+e. F5 or F7 Title 16 Pre-2007
+The following chart provides information on CCID codes F5 and F7:
+Review of Records
+Relief Applied
+For F5 or F7 records, review the PRSN and OPDD fields on the SSR to determine if we
+provided relief:
+•
+In the PRSN field, verify the AP date equals 04/01/09, or
+•
+In the OPDD section, verify the TR1 field contains an NE, N, or NT TAC
+•
+An AP date that equals 04/01/09 or the TR1 field contains a NE, N, or NT TAC means
+we provided Martinez relief.
+NOTE: A review of multiple SSRs may be required to determine if we provided relief.
+•
+If we provided relief, follow instructions under number 2 in GN 02613.885C.2.a. in this section.
+•
+If we did not provide relief, follow processing instructions under number 1 in GN 02613.885C.2.a. in this section.
+2. Complete the review of the inquiry
+a. Inquirer on CATS
+If the reply from the ^Martinez Settlement mailbox shows there is a record of the
+inquirer on CATS, proceed as follows:
+1. Inquirer not given relief
+If we did not give the inquirer Martinez relief, process as indicated in the chart
+to determine what relief to provide, if any:
+Martinez Relief
+Processing Instructions
+Title II post-2006 relief
+GN 02613.865 Title II Post-2006 Martinez Settlement Relief Processing
+Title XVI post-2006 relief
+GN 02613.875 Title XVI Post-2006 Martinez Settlement Relief Processing
+EXCEPTION: Follow all processing instructions except complete an unscheduled RZ instead of a
+regular RZ. For additional information on unscheduled RZs, see SI 02305.022.
+NOTE: If there is a felony warrant in FFSCF with no corresponding N25 nonpayment period,
+refer the case to your Field Operations Fugitive Felon Coordinator (FOFFC) for guidance
+on providing relief. The list of FOFFC is in GN 02613.990.
+Title II pre-2007 relief
+GN 02613.868 Title II Pre-2007 Martinez Settlement Relief Processing
+Title XVI pre-2007 relief
+GN 02613.880 Title XVI Pre-2007 Martinez Settlement Relief Processing
+NOTE: If there is a felony warrant in FFSCF with no corresponding N25 nonpayment period,
+refer the case to your Field Operations Fugitive Felon Coordinator (FOFFC) for guidance
+on providing relief.
+2. Inquirer received relief
+If you determine that we gave the inquirer relief, tell the inquirer that we gave
+them Martinez settlement relief.
+Explain the type of Martinez relief and the date we processed the relief. We describe
+the types of Martinez relief in GN 02613.860B and GN 02613.860C.
+Provide the inquirer with copies of any notices we issued regarding the relief. The
+notices are available on the Online Retrieval Systems (ORS).
+b. Inquirer not on CATS
+If the reply from the ^Martinez Settlement Mailbox shows there is no record of the
+inquirer on CATS, check the Fugitive Felon System Control File (FFSCF) to determine
+if the inquirer has any warrants, after 1999 and before July 2011.
+Use the instructions in the chart to review the warrant information:
+Warrant Record on FFSCF
+Action
+Warrant offense code is 4901, 4902, 4999, 5011, 5012, 8101, 8102, or blank or 9999
+with an offense charge symbol of probation or parole violation
+•
+Explain that the warrant was not subject to Martinez relief.
+•
+Prepare a notice as illustrated in GN 02613.885D in this section.
+•
+Give the notice to the inquirer.
+•
+Send a copy of the notice to the ORS.
+Warrant offense code is not 4901, 4902, 4999, 5011, 5012, 8101, 8102, or blank or
+9999 with an offense charge symbol of felony
+•
+Process the Martinez settlement relief per the instructions under number 1 in GN 02613.885C.2.a. in this section.
+No warrant information on FFSCF and no period of fugitive felon suspension or non-payment
+on SSA records
+•
+Explain that Martinez relief does not apply.
+•
+Prepare a notice as illustrated in GN 02613.885D in this section.
+•
+Give the notice to the inquirer.
+•
+Send a copy of the notice to ORS.
+All other situations not identified above in this chart
+•
+Refer the SSN and the case information to your FOFFC. The FOFFC will review the case
+and determine the appropriate action for the inquiry. The list of FOFFCs is in GN
+02613.990.
+Send non-class members who have inquired about eligibility for Martinez settlement
+relief a Martinez Notice of Inquiry.
+The Martinez Notice of Inquiry is located in GN 02613.885D in this section.

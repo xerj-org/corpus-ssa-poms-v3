@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - SI 00601.025 - Oral Inquiry as Protective Filing
+Effective Dates: 09/22/2026 - Present | TN 82 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500601025 (fetched 2026-10-04)
+
+D. SSA-L991 notice used as documentation
+The Social Security Administration (SSA) uses an SSA-L991 notice to document a potential
+claimant's decision not to file for SSI payments only if they request it or choose
+not to file during their scheduled SSI appointment.
+If the potential claimant appears ineligible based on other factors of eligibility,
+indicate such in the notice.
+The SSA-L991 does not include protective filing dates, as closeout language was already
+provided either online or by an SSA technician.
+EXCEPTION: The SSA-L991 will contain closeout language if closeout language was not previously
+provided (e.g., online, verbally, manual closeout notice).
+Use the following chart to determine when to send the SSA-L991:
+If
+Then
+T2-only appointment or walk-in interview
+Oral inquiry applies only if the claimant is within 2 months of age 65 or older, or
+alleges disability or blindness AND the claimant's Title II benefits would not prevent
+him or her from receiving SSI or any State supplement.
+When appropriate, discuss SSI and enter the filing decision on the IDEN screen in
+MCS or the SSI Eligibility and Intent to File page in CCE.
+If the claimant does not want to file for SSI, close out the oral inquiry by sending
+an SSA-L991 including closeout language.
+NOTE: The response of "No" by itself does not replace the documentation requirement to provide
+the SSA-L991.
+T16-only or T2/T16 concurrent appointment or walk-in interview
+Closeout was provided at the time of scheduling the appointment.
+If the claimant changes his or her mind and does not want to file for SSI during the
+appointment, send an SSA-L991 stating the claimant does not want to file, but do not
+include closeout language.
+NOTE: For walk-in interviews, include closeout language in the SSA-L991 if none was previously
+provided.
+Claimant misses the appointment, cannot be recontacted, or the appointment cannot
+be rescheduled.
+No action is necessary - closeout was provided at the time the appointment was scheduled.
+SSA receives a written statement inquiring about SSI (with no prior closeout notification)
+If unable to contact the individual to take the claim or schedule an appointment,
+do not send an SSA-L991.
+Send a manual notice from the Document Processing System (DPS) (Closeout letter (General))
+to close out the protective filing created by the oral inquiry.
+Refer to T16 closeout language NL 00804.245
+Individual submits claim online
+Do not send the SSA-L991 to individuals who file a claim online, since closeout language
+was already provided on-screen.
+EXCEPTION: If you subsequently have contact with the claimant and they inform you that they have
+changed their mind and no longer want to file for SSI, document the pending claim
+and send the claimant an SSA-L991. In this situation, do not include closeout language
+in the SSA-L991.

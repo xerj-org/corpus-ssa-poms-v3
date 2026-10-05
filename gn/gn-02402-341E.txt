@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02402.341 - Coding Hungary Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/01/2024 - Present | TN 286 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402341 (fetched 2026-10-04)
+
+E. Process for reviewing and applying Hungary bank data
+1. Reviewing Hungary bank data
+Send completed enrollment forms to the U.S. Embassy in Budapest for review. The reviewer
+at the Embassy corrects any problems with the provided data and routes the form to
+the FBU in Warsaw, Poland for input into ITS.gov .
+NOTE: The Warsaw FBU, a “hub” office, assists with some of the work for Hungary.
+The Embassy in Budapest resolves any question about the validity of Hungary IDD data.
+2. Applying Hungary bank data to the MBR
+The FBU in Warsaw, Poland keys the full bank data into ITS.gov. FRBKC then sends a portion of the bank data to SSA through the Automated Enrollment
+(Quick$tart). The data takes at least 2 days to post to the MBR. Because the MBR does
+not have enough spaces in the RTN and DAN fields to accept all of the coding for Hungary,
+FRBKC does not send the final 2 digits of the IBAN (from the record in ITS.gov) to SSA.
+When the FBU in Warsaw receives the enrollment form for input within 3 days of the
+direct-deposit cutoff, the FBU also makes an input directly to the MBR.
+3. Applying the remainder of the bank data before payment
+When a payment for Hungary arrives, FRBKC checks the payment against the information
+for that beneficiary in ITS.gov . If the information matches, FRBKC adds the remaining characters to complete the
+IBAN. If the information does
+not match, FRBKC sends the payment information to the U.S. Embassy in Budapest to resolve
+the discrepancy.

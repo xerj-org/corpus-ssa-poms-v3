@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 05002.042 - Issuing a Corrected Benefit Statement as a Matter of Equity
+Effective Dates: 01/04/2024 - Present | TN 19 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0205002042 (fetched 2026-10-04)
+
+A. Policy for issuing amended benefit statements
+Even if the statement is correct, SSA will issue an amended benefit statement as a
+matter of equity and at the beneficiary’s request in the following situations.
+1. Beneficiary unable to return payment in that year
+SSA erroneously paid a beneficiary and the beneficiary is unable, for certain reasons,
+to return the incorrect payments to SSA in that year and the beneficiary:
+•
+did nothing to cause the erroneous payment; and
+•
+received the payment too late in December to return it to SSA, or they did not learn
+until the next year that payment had been made (payment sent to the bank and notice
+received the next calendar year); and
+•
+promptly returned the payment(s) to SSA. Consider repayment prompt if made in January.
+Consider repayment(s) made in February or March prompt only after the facts show an
+earlier repayment was not possible. Repayments after March 31 should not be considered
+prompt.
+2. SSA refused to accept repayment
+SSA erroneously paid a beneficiary and refused to accept repayment of a potential
+overpayment; and the beneficiary:
+•
+believed they would be overpaid during the taxable year;
+•
+attempted to repay benefits during that year, but SSA refused to accept it (e.g.,
+the beneficiary was told to await the receipt of the overpayment notice); and
+•
+repaid SSA in the current year.
+3. PSC action in COM 12 — beneficiary has prior month accrual amount (PMA) check in December
+The PSC processed an action in COM 12 (the current operating month) and the beneficiary
+received the PMA check in December.
+•
+PMA payment posts to PHUS with an ETD (effective tax date) equal to COM. The PMA check
+processed in COM 12 will have an ETD of December of the tax year. The problem is when
+the PMA check includes payments that have PRIOR YEARS involved. The PRORATION YEARS
+are posted on the PHUS, also. However, the prior year PHUS EVENTS have an Effective
+Tax Date (ETD) of January instead of December. Therefore, the PMA check will be on
+this year's tax statement but the prior year breakdown will be reflected on the next
+tax year's SSA-1099.
+EXAMPLE: P/E action is taken in COM 12/2005. A PMA Check is issued for $2500.00 that includes
+$1200.00 for the year 2004 and $300.00 for the year 2003.
+PHUS will show:
+•
+TRANS RPD 12/15/05 COM 12/05 SSC- MCS
+•
+EVENT- 042 PMA CHECK AMT- $2500.00 ETD 12/05
+•
+EVENT- 035 PRIOR YR1 AMT- $1200.00 ETD 01/06
+•
+EVENT- 036 PRIOR YR2 AMT- $ 300.00 ETD 01/06
+Since the actual check was received in December, the beneficiary may request a corrected
+SSA-1099 to show that amount in box 3 of the SSA-1099 for the year of actual payment.
+If beneficiary makes this request, the technician can correct the current and prior
+tax years via an SSA-1257 (PHUS Data Change) and complete the “TSY” block so the system
+will send the beneficiary a corrected SSA-1099.
+4. Evidence and Proofs
+Accept the allegation of the beneficiary in the absence of positive evidence refuting
+the allegation.
+5. SSA-1099-SM, Social Security Benefit Statement
+View In PDF

@@ -1,0 +1,157 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+F. Procedure for Division of Continuing Disability Reviews Support (DCDRS) decision logic
+and CDR mailer PSC review alerts
+1. Decision logic
+DCDRS retrieves the data files prepared by the NCC on the basis of receipt of data
+files from the WBDOC. The data are processed by DCDRS through a decision logic program.
+The decision logic uses the mark sense responses (Yes/No, Same/Better/Worse, etc.)
+to questions 1.a., 2, 3, 4, 5.a., and 6.a., the ANY CODES? codes, as well as the data
+used to select the cases for mailer processing, to decide what is the next appropriate
+action.
+a. Decision logic outcomes
+The logic provides front-end screening of all returned mailers. Mailers in which a
+clear decision can be made to do a full CDR or to defer a CDR are processed to completion
+by DCDRS. Approximately 80% of mailer electronic data files received by DCDRS can
+be processed directly to a deferral or DO CDR action. The rest require PC Review.
+b. DCDRS decision logic inputs
+DCDRS makes the appropriate input to update the DCF to reflect the results of decision
+logic processing.
+Mailers for which the decision logic cannot make a clear decision are forwarded to
+the PCs for review. Mailers are most often referred to the PC for additional review
+following WBDOC and Central Office processing. This workload is typically called PC
+Review, and involves approximately 20% of all mailers received in the WBDOC.
+2. Hard-paper mailers
+A significant additional workload consists of hard paper forms initiated by and returned
+to the PC. These forms are not scannable and cannot be processed to a data file by
+the WBDOC. Because no electronic data file exists for these mailers, they cannot be
+processed through DCDRS decision logic and must be reviewed manually. No CDR MAILER
+PSC review alerts are generated for these cases.
+3. CDR MAILER PSC REVIEW Alerts
+For each case requiring PC Review, DCDRS provides electronic files containing:
+1.
+an output CDR MAILER PSC REVIEW ALERT sheet, which includes the following information:
+•
+the alert generation run date;
+•
+the disabled individual's name and claim number;
+•
+whether the mailer is Title II-only, concurrent Title II/Title XVI, or Title XVI-only;
+•
+PCACS (Title II-only or concurrent Title II/Title XVI cases) or SSICCS (Title XVI-only)
+data, including folder location and date-in-location information;
+•
+servicing FO, State and DDS codes, FO city and state name; and
+•
+the case-specific alert message/recommended processing instructions;
+2.
+an electronic facsimile of the completed, scanned mailer; and
+3.
+a profile sheet that includes much of the data used to profile the case, including
+•
+name,
+•
+account number,
+•
+application date,
+•
+date of entitlement,
+•
+date of onset of disability,
+•
+diagnoses codes,
+•
+impairment data,
+•
+medical diary type as calculated by DCDRS (the OD-CALC MDR: field),
+•
+profile category (Low, Medium, or High),
+•
+recent earnings information, and
+•
+initial claim and prior CDR data.
+a. The two types of alerts
+Two types of alerts are generated;
+•
+PSC MAILER alerts, and
+•
+MISCELLANEOUS alerts.
+b. PSC MAILER alerts
+Alerts with the secondary title of PSC MAILER are generated when the actual mailer
+and any attachments must be used with the alert, facsimile, and profile sheet for
+mailer processing.
+c. Alert messages in PSC MAILER alerts
+One of seven messages is included on the alert. The messages specify who should review
+the case next. The possible messages are:
+1.
+TRANSLATION NEEDED. AFTER TRANSLATION AND REVIEW, THE DE/DEC/DC SHOULD CONSIDER THE
+RECOMMENDED DECISION, WHICH IS TO REFER THE CASE FOR A MEDICAL CDR. IF THE DE/DEC/DC
+CONCURS WITH THE RECOMMENDED DECISION, REFER THE CASE TO THE FO USING A SSA-5526-U2-OP2.
+2.
+TRANSLATION NEEDED. AFTER TRANSLATION AND REVIEW, THE DE/DEC/DC SHOULD CONSIDER THE
+AUTOMATED RECOMMENDED DECISION, WHICH IS TO REDIARY THE CASE. IF THE DE/DEC/DC CONCURS
+WITH THE AUTOMATED RECOMMENDED DECISION, REDIARY THE CASE AND DO NOT REFER TO THE
+FO.
+3.
+BET/DT REVIEW NEEDED. IF THE BET/DT DETERMINES THERE IS NO WORK ISSUE, AND NO OTHER
+ISSUE REQUIRING REVIEW BY A DE/DEC/DC, REFER THE CASE TO THE FO FOR A MEDICAL CDR
+USING A SSA-5526-U2-OP2.
+4.
+BET/DT REVIEW NEEDED. IF THE BET/DT DETERMINES THERE IS NO WORK ISSUE, AND NO OTHER
+ISSUE REQUIRING REVIEW BY A DE/DEC/DC, REDIARY THE CASE. DO NOT REFER THE CASE FOR
+A MEDICAL CDR AT THIS TIME.
+5.
+DE/DEC/DC REVIEW OF REMARKS/ATTACHMENTS NEEDED. IF THE DE/DEC/DC FINDS THAT THE REMARKS/ATTACHMENTS
+ARE NOT MATERIAL, FOLDER REVIEW IS NOT REQUIRED. IN THAT CASE, THE DE/DEC/DC SHOULD
+FOLLOW THE AUTOMATED RECOMMENDED DECISION TO REDIARY THE CASE AND NOT REFER THE CASE
+FOR A CDR AT THIS TIME.
+6.
+DE/DEC/DC REVIEW NEEDED. IF THE DE/DEC/DC FINDS THAT THE REMARKS/ATTACHMENTS ARE MATERIAL
+OR THAT FOLDER REVIEW IS REQUIRED, THE DE/DEC/DC SHOULD CONSIDER THE AUTOMATED RECOMMENDED
+DECISION WHICH IS TO REFER THE CASE FOR A MEDICAL CDR. IF THE DE/DEC/DC CONCURS WITH
+THE RECOMMENDED DECISION, REFER THE CASE TO THE FO USING A SSA-5526-U2-OP2.
+7.
+DE/DEC/DC REVIEW NEEDED. IF THE DE/DEC/DC FINDS THAT THE REMARKS/ATTACHMENTS ARE NOT
+MATERIAL, OR THAT FOLDER REVIEW IS REQUIRED, THE DE/DEC/DC SHOULD CONSIDER THE AUTOMATED
+RECOMMENDED DECISION WHICH IS TO REDIARY THE CASE. IF THE DE/DEC/DC CONCURS WITH THE
+RECOMMENDED DECISION, REDIARY THE CASE AND DO NOT REFER TO THE FO.
+In order of priority, the alert states that BET/DT review is required when translation
+is needed (examples 1 and 2).
+Next in priority, the alert states that BET/DT review is needed if the response to
+question 1 (work activity) is positive or if a code of 1 (or, in certain cases, 3),
+was input in response to the Remarks and/or Attachments boxes in the ANY CODES query
+(alert message examples 3 and 4).
+DE/DEC/DC review is required for all other PC review mailers (alert message examples
+5 through 7).
+The output alert sheet includes an automated recommended final action that reflects
+the decision the DCDRS decision logic would have made to defer/rediary or refer the
+case for a CDR. The reason PC Review is required is that the DCDRS decision logic
+action is made without consideration of what is in the relevant remarks and/or attachments.
+Review of the attachments or other information may warrant an action other than that
+suggested by the automated recommended final action. For this reason the PC reviewer
+must always consider the automated recommended final action but never think he or
+she must follow it.
+d. MISCELLANEOUS alerts
+The secondary title of MISCELLANEOUS alerts tells the DSE/FLC that the alert/facsimile/profile
+sheet attachment is sufficient for folderless processing of the case. Corresponding
+to mailers processed by the WBDOC as nonactionable, the actual mailer is not needed
+for processing nor does the mailer require subsequent forwarding for retention in
+the electronic or paper claim folder.
+e. Alert messages on MISCELLANEOUS alerts
+One of two messages is shown:
+1.
+DE/DEC/DC REVIEW NEEDED. SIGNIFICANT RESPONSES AND/OR RELEVANT REMARKS/ATTACHMENTS
+ARE PRESENT. IF THE DE/DEC/DC FINDS THAT THE RESPONSES AND/OR REMARKS/ATTACHMENTS
+ARE MATERIAL OR THAT FOLDER REVIEW IS REQUIRED, THE DE/DEC/DC SHOULD TAKE APPROPRIATE
+ACTION. IN DECIDING THAT ACTION, THE DE/DEC/DC SHOULD ALWAYS CONSIDER THE AUTOMATED
+RECOMMENDED DECISION WHICH IS TO REDIARY THE CASE. IF THE DE/DEC/DC CONCURS WITH THE
+AUTOMATED RECOMMENDED DECISION, DO NOT REFER THE CASE FOR A CDR.
+2.
+DE/DEC/DC REVIEW NEEDED. SIGNIFICANT RESPONSES AND/OR RELEVANT REMARKS/ATTACHMENTS
+ARE PRESENT. IF THE DE/DEC/DC FINDS THAT THE RESPONSES AND/OR REMARKS/ATTACHMENTS
+ARE MATERIAL OR THAT FOLDER REVIEW IS REQUIRED, THE DE/DEC/DC SHOULD CONSIDER THE
+AUTOMATED RECOMMENDED DECISION WHICH IS TO REFER THE CASE FOR A MEDICAL CDR. IF THE
+DE/DEC/DC CONCURS WITH THE RECOMMENDED DECISION, REFER THE CASE TO THE FO USING A
+SSA-5526-U2-OP2.

@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - GN 02402.384 - Coding Ethiopia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 243 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402384 (fetched 2026-10-04)
+
+F. Procedure for coding Ethiopia bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to SSA. When establishing or changing IDD bank data
+for Ethiopia, you can use an SSA system (i.e., Modernized Claims System (MCS), Manual
+Adjustment Credit and Award Data Entry (MACADE)). However, you must go to ITS.gov to enter the following information:
+•
+account number
+•
+account ownership;
+•
+account type;
+•
+beneficiary address; (no P.O. Box allowed)
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+bank branch name and address under bank contact information
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. SWIFT-BIC code obtained from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Initial award processing
+If you are working on an initial award, you must update ITS.gov using the bank account information prior to processing the award to ensure that the
+beneficiary receives payment. If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to SSA.
+3. Adding or updating bank data using SSA systems
+You must update ITS.gov on the same day if you use an SSA system to add or update bank data on the MBR (i.e.
+Post Entitlement Online System (POS), MACADE). Enter all POS direct deposit changes
+according to normal procedures. When coding IDD bank data in an SSA system for Ethiopia
+within four business days of the current operational month (COM) cutoff date, use
+the procedure outlined in the following chart:
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account an ETB account in Ethiopia? If no, STOP.
+REASON: Beneficiaries in Ethiopia can only receive IDD payments in ETB accounts.
+If yes, go to step 4
+4
+The RTN is 680000051 for all IDD to Ethiopia. SSA and FRBKC have designated 68 as the multi-country prefix
+for Ethiopia IDD. The “1” at the end of the RTN represents the U.S. check digit code
+for all IDD accounts in Ethiopia. Therefore, there is no need to obtain the check
+digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Ethiopia, code as follows:
+•
+Start with a country code of “I” designated for Ethiopia
+•
+Code the 13-digit Customer Account Number
+7
+You must take action on the same business day to update the full SWIFT into ITS.gov, along with the information listed in the introduction of GN 02402.384E in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

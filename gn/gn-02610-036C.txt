@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02610.036 - Recomputations of Title II Offset
+Effective Dates: 05/14/2013 - Present | TN 25 (06-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610036 (fetched 2026-10-04)
+
+C. PC procedure for processing recomputations
+Process recomputations according to instructions in the following table:
+STEP
+ACTION
+1
+Record in Section II. on the SSA-e4345, the revised offset data provided by the FO.
+2
+Compare the original offset amount to the newly computed offset amount. When comparing
+the two windfall offset amounts, remember to apply the $1.00 tolerance for changes
+to the monthly benefit credited (MBC) due to rounding, which can be found in SM 03045.910.
+3
+If the newly computed offset amount is less than the additional retroactive title II benefits payable due to the PE event:
+•
+Subtract the difference from any retroactive benefits due because of the PE event.
+•
+Subtract any collectible overpayment. For cross-program recovery of title XVI overpayment
+from title II underpayments, see SI 02220.021.
+NOTE: After subtracting these amounts, release the remaining title II benefits to the beneficiary.
+If the newly computed offset amount exceeds the retroactive title II benefits due as a result of the PE action:
+•
+Subtract the new offset amount from the title II overpayment.
+•
+Notify the claimant of any remaining overpayment.
+4
+Computing non-countable income (NCI) when recomputing the offset:
+a.
+Compute the amount of additional title II benefits withheld for months in the offset
+period.
+b.
+If the results of step 2 exceed the results of step 4.a., there is no additional NCI.
+Enter the NCI from the prior SSA-e4345 in Section II.C. of the new SSA-e4345.
+c.
+If the result of step 2 is less than the result of step 4.a., the difference is additional
+NCI. Add the new NCI to the NCI from the prior computation and enter in Section II.C.
+on the SSA-e4345.
+d.
+If there is no additional offset, add the additional title II benefits payable for
+months in the offset period to the NCI from the last offset computation. Enter this
+amount in Section II.C. on the SSA-e4345.

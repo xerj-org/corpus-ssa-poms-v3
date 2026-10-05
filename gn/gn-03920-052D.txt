@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 03920.052 - Pursuing Recovery of Excess Fees Paid to Representatives or Entities and Referrals for Ineligible for Direct Payment Entity (IDPE) List
+Effective Dates: 01/29/2025 - Present | TN 66 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203920052 (fetched 2026-10-04)
+
+D. Processing remittances by an entity
+If an FO or PC technician receives a remittance from an entity the technician:
+1.
+Checks the record to verify the full excess fee amount that we assessed and the amount
+that has been refunded.
+2.
+Processes the remittance. See the references below for remittance and returned fee
+payment processing instructions.
+3.
+Documents the pending status of the remittance in a RASR ROC for each related representative,
+if the Mid-Atlantic Program Service Center (MATPSC) Remittance and Accounting Unit
+(RAU) has not processed it.
+4.
+After MATPSC RAU processes the remittance for Title II claims, queries the remittance
+for manual DMS and PHUS annotation if an automated interface does not occur.
+5.
+Checks the IDPE list in RASR to determine whether there is an IDPE entry related to
+this excess fee. If the excess fee appears on the IDPE list, email the IDPE Coordinator
+Group and notify them of the amount remitted. Include proof of payment as an email
+attachment.
+6.
+If the entity does not have an active entry on the IDPE list, the technician creates
+an ROC in RASR for each related representative documenting the receipt and processing
+of the remittance.
+For more information on remittance and returned fee payment processing, see:
+GN 02403.006 Processing Remittances Received in the Field Office (FO)
+GN 02405.010 How to Process Unendorsed Title II Returned Treasury Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the Field Office
+GN 02405.100 How to Process Unendorsed Title XVI Returned Benefit Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the Field Office
+MS DMS 003.003 PC Remittance Input (REMI)
+MS DMS 003.008 Verif/Corr of FO Remittances (RFOV)

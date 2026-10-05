@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02613.770 - PSC Processing of T2 Suspension Exceptions from the POS/FFEL
+Effective Dates: 08/02/2022 - Present | TN 36 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613770 (fetched 2026-10-04)
+
+A. Procedure – FO/PSC processing of POS/FFEL T2 exceptions
+1. FO/PSC input suspension using POS/FFEL — T2 exception occurred
+If a T2 exception occurred from the FO or PSC POS/FFEL input, process the suspension
+using MACADE/MADCAP.
+NOTE: Developing Representative Payee Suitability -- Check RPS in each case where the beneficiary/claimant
+has an outstanding felony warrant to determine if they are serving as a representative
+payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to GN 00502.133.
+2. PSC processing for fugitive felon fax cases received from the FO
+•
+Process the suspense action based on the information shown on the T2 exception output.
+•
+Suspend the benefits S9 on the MBR via MADCAP/MACADE for the appropriate period of
+suspension. Add the RFST of “FUGFEL” for a fugitive felon suspension.
+•
+Developing Representative Payee Suitability --Check RPS in each case where the beneficiary/claimant
+has an outstanding felony warrant determining if they are serving as a representative
+payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to GN 00502.133.
+NOTE: The PSC will continue to be responsible for MADCAP/MACADE inputs.
+IMPORTANT: Query PCACS or Evidence Portal (EP) to see if the T2 processing action (ACR) is pending
+or query the THIS. Assume there is a T2 processing action (ACR) if an ACR is shown
+in PCACS or EP ; i.e., TOEL of STATUS FELSUS is present.

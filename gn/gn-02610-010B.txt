@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02610.010 - How to Identify Potential Windfall Offset Cases
+Effective Dates: 09/12/2025 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610010 (fetched 2026-10-04)
+
+B. Field office indicates windfall offset is involved
+To prevent overpayments, the field office (FO) should annotate cases that require
+windfall offset development for initial claims and amended awards by:
+•
+coding windfall involvement on the benefit continuity factors (BECF) screen in modernized
+claims system (MCS).
+•
+inputting a windfall (WF) factor (FAC) code on the beneficiary data BEN2 screen on
+an A101 (Determination of Award). For processing claims using the A101 process, see
+GN 01010.200 and GN 01010.220.
+•
+send an electronic record of manual title II offset computation (e4345) to notify
+the processing center (PC) of a manually computed windfall offset case. When providing
+manually computed offset information to each other, the PC and the FO must communicate
+using an e4345.
+NOTE: Use the electronic form (EF) 101 if you cannot process an award action on the A101.
+For processing claims using the EF101 process, see GN 01010.200.

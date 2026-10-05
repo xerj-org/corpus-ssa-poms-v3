@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 02607.820 - Requesting Manual Incentive Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607820 (fetched 2026-10-04)
+
+B. Processing manual incentive payments
+1. Requesting a manual payment
+If a manual incentive payment is necessary, FOs should contact the Field Operations
+Prisoner Coordinator (FOPC) and payment centers (PC/OCO-ODO) should contact the PC
+coordinator. Provide the following information to request a manual incentive payment:
+•
+Type of incentive payment (Title II, Title XVI, or Title II and Title XVI);
+•
+SSN of inmate;
+•
+Name of inmate;
+•
+Reporter Identification Code (RID);
+•
+Facility Identification Code (FID);
+•
+Amount of incentive payment (i.e., $200 or $400);
+•
+Date SSA received the inmate report;
+•
+Report date;
+•
+Date of confinement;
+•
+Date of conviction (for Title II incentive payments);
+•
+Date the Title XVI or Title II suspension should have occurred; and
+•
+Reason for the manual incentive payment (e.g., couple's case, force due, etc.).
+For the list of FOPCs and PC coordinators, see GN 02607.990.
+2. FOPC and PC procedures for processing manual incentive payment requests
+The FOPC and PC should take the following actions to process manual incentive payment
+requests:
+a.
+Evaluate the request for the manual incentive payment and determine if the request
+is valid.
+b.
+Verify that the MBR reflects the proper S7 payment status code and accompanying reason
+for suspense or termination (RFST) code or that the SSR reflects the proper N22 payment
+status code. SSA cannot make a manual incentive payment unless there is an S7 or N22
+period corresponding to the PUPS suspension.
+c.
+If the PUPS record shows *PENDING, you must close the PUPS record using the T2 Prisoner
+Update Screen (PU02) for Title II cases and the T16 Prisoner Update Screen (PU16)
+for Title XVI cases. Update the PUPS record with Type of Action 2- CLEAR CONTROL NO
+SUSPENSION NECESSARY. Add a Prisoner Remarks Screen (PRMK). Explain in REMARKS on
+the PRMK screen PUPS Suspension action excepted and we needed to close PUPS manually.
+Suspension of benefits is effective MM/DD/CCYY. Manual Incentive Payment is Needed.
+Referring PUPS record for manual incentive action.
+d.
+If the incentive payment request is valid and the MBR or SSR reflects the proper payment
+status, forward the manual incentive payment request with the information via email
+to ^LP
+ISP MIP
+Requests in Central Office.
+e.
+Central Office staff will review the manual incentive payment requests and authorize
+payment, if appropriate. Central Office staff authorizes release of manual incentive
+payments monthly.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 52165.001 - Using the Interactive Computations Facility (ICF) to Compute Workers' Compensation (WC) Public Disability Benefit (PDB) Offset and ICF Terms
+Effective Dates: 01/26/2017 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165001 (fetched 2026-10-04)
+
+A. Definitions - ICF terms
+1. Pre-adjudicate record
+The pre-adjudicate function in ICF does not allow the user to process an action to
+completion. It performs calculations and shows the effects of different WC data without
+affecting the beneficiary record. ICF #31 is always in pre-adjudicate format. ICF
+#32 and #34 give the option to save a record in a pre-adjudicate format. Only one
+pre-adjudicate record is housed in the system at any one time and will remain available
+for 18 months.
+2. Adjudicate record
+An adjudicate record in ICF allows you to process an action to completion. You can
+use ICF #32 or #34 to process adjudicate records. ICF #34 OREO requires referral to
+a Benefit Authorizer (BA)/Benefit Technical Examiner (BTE) in the processing center
+(PC) for processing.
+3. Propagation
+Propagation is the process that ICF programs allow you to use data from prior records.
+You can save data in ICF #31, #32, or #34 as a pre-adjudicate record and later pull
+this data in for use in an adjudicate record for final processing. All three functions
+allow you to propagate from prior pre-adjudicate, adjudicate, and shared data records.

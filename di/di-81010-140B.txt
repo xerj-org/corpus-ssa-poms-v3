@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - DI 81010.140 - Processing Field Office (FO) Determinations
+Effective Dates: 07/02/2021 - Present | TN 79 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010140 (fetched 2026-10-04)
+
+B. Using the “No Determination” function
+It is not necessary to complete a disability report, i.e. SSA-3368 (Disability Report
+– Adult) or SSA-3820 (Disability Report – Child) in EDCS for “No Determination” cases.
+However, if an EDCS record has been created an FO No Determination must be completed
+in EDCS to close out the case. FO No Determinations may be made on cases pending in
+the FO or in the DDS.
+1. “No Determinations” on cases pending in the FO
+To process a claim using the “No Determination” functionality for cases pending in
+the FO:
+•
+Select “Claims Action” on the EDCS tool bar at the top of the screen and select “No
+Determination”;
+•
+Select the reason for a Technical Denial;
+•
+Add any appropriate remarks;
+•
+Ensure the Paper Folder Indicators are correct (for more information on paper folder
+indicators, see Paper Folder Indicators (PFIs) - DI 81001.020); and
+•
+Select “OK” at the bottom of the screen.
+NOTE: For collateral estoppel determinations, select the "No Determination" reason “Disability
+Established/pending same issue."
+After completing the FO Determination page:
+•
+EDCS closes the claim as a “No Determination”; and
+•
+the Claims Actions screen displays the Determination or Disposition of the case along
+with the date of the last action taken on the claim.
+NOTE: If a case contains multiple claims and one of the claims requires a “No Determination”,
+the FO must, whenever possible, process the “No Determination” before transferring
+the EDCS case to the DDS. If not possible, add a message in eView or EDCS to alert
+the DDS of the reason for the delayed claim.
+2. FO “No Determinations” on cases pending in the DDS
+The FO can perform an FO Determination on a claim(s) when the case is:
+•
+pending at the DDS and not selected for review by OQR,
+•
+medically reactivated and not pending in OQR, or
+•
+a hearing level case when the case is still in the jurisdiction of the FO and has
+not been transferred to ODAR.
+NOTE: The FO cannot perform an FO Determination on Informal Remand (IR) claims.
+If an FO Determination is made on one claim prior to case transfer, and the other
+title of the concurrent claim is transferred to DDS, do not make an FO Determination on the claim pending at DDS if the original FO Determination
+needs to be reactivated. Convert the case to a paper folder and process per Certified
+Electronic Folder (CEF) Exclusions and Limitations - DI 81010.030C. For example:
+•
+A Number Holder (NH) files a concurrent claim and the FO makes an FO Determination
+on the Title II because the claimant is uninsured.
+•
+The FO transfers the Title XVI to DDS, but later finds LAG earnings which makes the
+NH insured.
+•
+The FO must not make an FO Determination on the Title XVI claim pending at DDS to allow for technical
+reactivation of the Title II claim.

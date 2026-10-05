@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - DI 81010.245 - Processing Electronic Continuing Disability Review (eCDR) Decisions
+Effective Dates: 03/16/2010 - Present | TN 30 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010245 (fetched 2026-10-04)
+
+A. Returns with a Medical Determination
+1. Cessations
+DDS returns all eCDR cessations to the FO. The transfer action will post to the EDCS
+actions page. Perform any system inputs required to process the cessation. Carefully
+review the Master Beneficiary Record (MBR) and Supplemental Security Record (SSR)
+to ensure that the cessation data is input accurately and correctly. On concurrent
+cases, be sure that the appropriate cessation action is accomplished on both titles.
+If there is a paper Comparison Point Decision (PCD) folder associated with the electronic
+CDR (eCDR) hold the paper CPD folder for the appeal period. If no appeal is filed
+return the paper CPD folder to the NRC or OCO for storage.
+2. Continuances
+DDS or OQP returns continuances to the FO only if action is needed on the case. DDS
+or OQP creates a message in eView detailing the action required by the FO for final
+adjudication.
+If there is a paper Comparison Point Decision (PCD) folder associated with the electronic
+CDR (eCDR) return the paper CPD folder to the NRC or OCO for storage after the necessary
+POS inputs.

@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02408.007 - Title II Paper Check Payment Issued to a Representative Payee after the Death of a Beneficiary
+Effective Dates: 04/22/2011 - Present | TN 78 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408007 (fetched 2026-10-04)
+
+B. Policy
+After the overpayment is posted to the MBR, the representative payee is sent a notice.
+The following provides policy for handling specific scenarios.
+1. Representative payee contacts SSA concerning overpayment notice
+If the representative payee indicates:
+•
+the check has not been cashed, but they no longer have the paper check in their possession
+(e.g. the check has been lost or destroyed), input an F-stop to obtain credit for
+the check. The F-stop ensures the unnegotiated check is not referred to the Treasury
+Offset Program/External Collection Operation (TOP/ECO) when the check remains unnegotiated.
+•
+the check has not been cashed, and they still have the paper check in their possession,
+follow GN 02405.006 to ensure proper cancellation/return of the check to credit SSA’s records. If the
+check is not returned, input an F-stop.
+•
+they cashed the check, the representative payee is responsible for the overpayment.
+If fraud is suspected, see GN 04111.025 for referral to OIG.
+2. Representative payee fails to contact SSA
+If the representative payee fails to contact us concerning the overpayment or does
+not return the check during the due process period, we will attempt to collect the
+overpayment via direct benefit withholding if they are entitled on our records. When
+the representative payee for a Title II benefit is not entitled on our records and
+has an eligible debt, the payee is loaded into the Non-Entitled Debtors (NED) database.
+We will attempt to recover the overpayment from representative payees by sending a
+billing notice and then using the TOP/ECO collection tools including Tax Refund Offset,
+Administrative Offset, Credit Bureau Reporting, Administrative Wage Garnishment, and
+Federal Salary Offset.
+NOTE: When a check remains unnegotiated after 12 months from the check’s issue date and
+no F-stop is input, we receive a limited payability credit from the Department of
+the Treasury for the unnegotiated check in the 13th month after the check’s issue date (for limited payability information, see GN 02401.901).
+The PC will apply the limited payability credit to the representative payee’s overpayment
+on the MBR by coding the SSA-4208, Reclamation Data Input form, with the RTC-B to
+change the RCLRN to B. This coding instructs the system to reduce the overpayment
+amount. If the payment center (PC) is unable to process the SSA-4208/exception, a
+MADCAP action is necessary to reduce the overpayment manually.
+3. For additional information
+•
+GN 02201.001 – Overpayments-General
+•
+GN 02201.009 – Notification of Overpayment.
+•
+GN 02201.000 – General Information Title II, Title XVI, and Title XVIII Overpayments - Part I
+•
+GN 02210.001 – Adjustment of Overpayments
+•
+SM 00610.040 – External Collection Operation (ECO)
+•
+SM 00609.885 – How to Complete Form SSA-4208 for Limited Payability Determination
+(LPD)
+•
+GN 02230.035 – Overview of Non-Entitled Debtors

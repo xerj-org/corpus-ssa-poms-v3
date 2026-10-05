@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - DI 13010.675 - The Verify/Update Earnings (VERN) Screen
+Effective Dates: 10/01/2012 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010675 (fetched 2026-10-04)
+
+E. Input fields
+1. Earnings information
+Document Title II earnings, work incentives, and work issue determination information
+in the following fields:
+NOTE: Negative inputs to the earnings and work incentive fields are not accepted.
+•
+GROSS: Gross wages from employment.
+•
+NET SE: Net earnings from self-employment field.
+•
+VRFD: Possible entries are Y (verified), N (not verified), and F (fraud).
+–
+N - The default value indicating earnings are not verified.
+–
+Y - Input Y if earnings information is verified or if no further development is necessary
+(e.g. verified Title XVI earnings from the SSR are used as Title II verification,
+or, enough information is available to average earnings without further development).
+–
+F - Input F to suspend payments for TWP months if the beneficiary has been convicted
+by a Federal court of fraudulently concealing work activity-see DI 13010.037 for detailed instructions. (NOTE: Only OCO, CSI should initiate or change an input of “F” in the DCF.)
+Other possible invalid entries are: C (conversion) and Q (questionable). These values represent conversion
+TWP data taken from the Master Beneficiary Record (MBR). Both entries represent verified
+data but are not valid entries.
+IMPORTANT: Verify all earnings information that you input to the VERN screen as the result
+of a final work issue determination. For procedures on the verification of earnings,
+see DI 10505.005C.
+•
+SE HOURS: Self- employment hours. Input the number of hours worked in self employment
+during the month.
+•
+AMOUNT NOT COUNTED: Input the amount of any applicable work incentives. May only be
+used if earnings information is present in the GROSS or NET SE fields.
+•
+TYPE: Type of work incentive information input in AMOUNT NOT COUNTED fields. Possible
+entries are:
+–
+WE- Impairment Related Work Expenses (IRWE). The amount of IRWE displayed in the AMOUNT
+NOT COUNTED field is deducted from the GROSS field if present, and from the NET SE
+field if there is no entry in the GROSS field.
+–
+SB- Subsidy (Title II only): The amount of subsidy displayed in the AMOUNT NOT COUNTED
+field is deducted from the GROSS field only.
+–
+SC- Special Conditions (Title II only): The amount of subsidy displayed in the AMOUNT
+NOT COUNTED field is deducted from the GROSS field only.
+–
+BE (Un-incurred Business Expenses): The amount of the unincurred business expenses
+displayed in the AMOUNT NOT COUNTED field is deducted from the NET SE field only.
+Plan to achieve Self-Support (PASS) and SI (Student Earned Income Exclusion) are applicable
+only to Title XVI. You can view them as “TYPE codes for Title XVI earnings information”
+on the VERN screen, but are not valid input entries.
+WORK DET: Work issue determination information. Possible entries are:
+CODE
+MEANING
+RELEATED POMS REFERENCE
+1-9
+The designated TWP month
+DI 13010.060
+S
+SGA month and for months of the grace period
+DI 10505.010
+N
+Non-SGA month
+DI 10505.015
+U
+Unsuccessful Work Attempts
+DI 24005.001
+O
+Non-service month during the TWP
+DI 13010.060
+E
+Expired TWP months; TWP completed (outside of the designated rolling 60-month period)
+DI 13010.060B
+I
+Non-SGA during the IRP for EXR cases
+DI 13050.066; DI 13050.067
+W
+SGA during the IRP for EXR cases
+DI 13050.035C.3
+X
+Non-payment months during the IRP
+DI 13050.066A
+NET EARNINGS and TOTAL fields are not input fields. They display the countable earnings
+after deduction as calculated by the gross earnings and work incentive information
+input on the VERN screen.
+a. Suspension of TWP months after fraud conviction
+The FRAUD DECISION DATE field, along with the VRFD field input of “F”, is used by
+OCO/Center for Security and Integrity (CSI) to suspend benefits during the TWP for
+beneficiaries who are convicted by a Federal court of fraudulently concealing their
+work activity. See DI 13010.037 for detailed instructions.
+NOTE: Do not over-key the “F” without proper documentation that the fraud conviction has been
+amended or reversed on appeal by the court. The input of “F” in the VRFD field effectuates a suspension action.
+2. Rules for input of TWP months
+The VERN screen contains edits to help ensure the integrity of the earnings information.
+Most earnings input edits pertain to the TWP. Rules for input of TWP months are:
+•
+TWP months must be in sequence.
+•
+Duplicate TWP months are not allowed.
+•
+Months one through nine must be within 60 months if the TWP was completed in or after
+01/92.
+•
+WORK DET code of “E” cannot be input for any month in or after TWP CMPL DATE
+•
+WORK DET codes of one through nine cannot be input for any month outside of the period
+of disability.
+•
+TWP months must be associated with GROSS or NET SE earnings entries or SE HRS above
+the appropriate TWP level.
+•
+You cannot input entries in the AMOUNT NOT COUNTED and TYPE fields during the TWP.

@@ -1,0 +1,318 @@
+SSA Program Operations Manual System (POMS) - GN 03940.025 - Processing Center (PC) Instructions for Processing Fee Agreements for Title II Claims at the Reconsideration, Hearing, or Appeals Council Levels of Review
+Effective Dates: 12/09/2024 - Present | TN 53 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940025 (fetched 2026-10-04)
+
+B. Favorable Hearing or Appeals Council level decision
+To confirm that the Administrative Law Judge (ALJ) or Administrative Appeals Judge
+(AAJ) who issued a fully or partially favorably decision approved or disapproved the
+fee agreement, look in the claim(s) file for a fee agreement approval or disapproval,
+which is generally attached to the ALJ or Appeals Council (AC) decision document.
+When direct fee payment is involved, see GN 03940.025C.
+NOTE: In certain circumstances, an attorney advisor in the Office of Hearings Operations
+is authorized to issue a fully favorable decision. In these cases, the attorney advisor
+also acts as the decision maker on the fee agreement if applicable.
+1. The decision maker correctly approved the fee agreement and the claim results in past-due
+benefits
+When the decision maker approved the fee agreement in a claim, take these steps:
+a.
+Verify through RASR that:
+•
+If the representative is an attorney, the representative is not sanctioned and is
+currently qualified to be an attorney representative, per GN 03910.020B.1.; or
+•
+If the representative is a non-attorney, the representative is not sanctioned and
+is eligible for direct fee payment, per GN 03920.018.
+•
+The eligible representative has not waived the fee or direct payment of a fee; and
+•
+If a representative has validly assigned direct payment of their authorized fee to
+an entity as per GN 03920.021, that entity is eligible to receive direct payment of fees and has not been placed
+on the IDPE list. For information on the IDPE list, see GN 03920.052.
+b.
+Effectuate the decision following the processing instructions in GN 03940.020C through GN 03940.020E.
+c.
+Send a copy of the award notice, including fee approval language, to the representative.
+d.
+Certify direct payment to the representative who is eligible or to an entity if there
+is a valid assignment, unless any qualified party or the decision maker requested
+administrative review.
+e.
+Release remaining past-due benefits to the claimant and any auxiliary beneficiaries,
+unless:
+•
+A windfall offset is pending for concurrent Title II and Title XVI claims, or
+•
+There is Federal court involvement. For court fees, refer to GN 03920.060.
+2. The decision maker correctly approved the fee agreement, and the claim does not result
+in past-due benefits
+Approval of a fee agreement is contingent on whether the claim results in past-due
+benefits. For the relevant fee agreement evaluation policy, see HALLEX
+I-1-2-12.
+Fee agreements can be processed only if the claim, for which the fee agreement was
+filed, was for entitlement and resulted in past-due benefits.
+Therefore, if the claim does not result in past-due benefits, send a notice advising
+the representative(s) and claimant, that the fee agreement cannot be processed, and
+the representative(s) must file a fee petition in order to charge and collect a fee.
+NOTE: If the representative assigned direct payment of their fee to an entity and we receive
+information or discover that the representative has died, send a copy of this notice
+to the entity’s point of contact (POC). For information on assignment of direct payment
+of fees, including the roles and responsibilities of a POC, see GN 03920.021.
+The notice must advise the representative(s), that:
+•
+We cannot act on the prior fee agreement approval and must rescind the approval.
+•
+The representative still needs to have our approval to charge and collect a fee; include
+paragraphs ATY817, ATYR03, and 160 in the notice with other required paragraphs and
+send a copy of the notice to the servicing FO in concurrent Titles II and XVI cases.
+Processing instructions:
+•
+NOT2 for Fee Agreement Type — Leave blank.
+–
+MCS will automatically code ATY04 to the DW01 when NOT2 "Fee Agreement Type" is blank.
+•
+NOT2 for FEE Agreement % — Leave blank.
+•
+NOT2 for FEE Agreement Amount — Leave blank.
+•
+NOT2 for Last Withholding Date Code the month before the month of adjudication, see
+GN 03920.030B.
+•
+On the DW01 screen, receipt in the automatic ATY04 with "XXXXXX."
+•
+Add a new issue for ATY00.
+–
+Add the remark "no past due benefits" next to the ATY00 issue.
+•
+Add an RPOC to the document disapproval of the fee agreement because no past-due benefits
+are involved.
+•
+The notice must advise the claimant and the representative that the representative
+must file a fee petition to charge and collect a fee.
+–
+NOT3 screen, add ATYR03.
+•
+Delete the automated 098/099 diary on the DECI screen, since there are no past-due
+benefits. SSA will not control cases that do not result in past-due benefits.
+•
+Add a special message to the record showing the representative's name and add the
+remark, "Case resulted in no past-due benefits, fee petition, fee paid by claimant."
+–
+After adjudicating the claim via MCS EC, the next day the technician will add a special
+message to the record showing the representative's name and remark, "Case resulted
+in no past-due benefits, fee petition, fee paid by claimant."
+–
+For cases adjudicated via MACADE, technicians will provide the special message to
+the BA.
+NOTE:
+These instructions apply to Title II only cases. For concurrent cases, the "Fee Agreement
+Type" should be coded as approved unless past due benefits for Title XVI are known.
+If there are no past due benefits for Title II and Title XVI, the "Fee Agreement Type"
+is coded using the instructions above.
+3. The decision maker disapproved the fee agreement
+When the decision maker disapproved the fee agreement in the claim, and a representative
+is eligible for direct payment of fees:
+•
+Effectuate the decision as a fee petition case;
+•
+Withhold 25 percent of the past-due benefits;
+•
+Do not include a paragraph stating the fee agreement is disapproved in the notice
+of award.
+The ALJ or AC decision notice contains language advising the claimant and representative(s)
+of the disapproved fee agreement and administrative review rights.
+4. Fee agreement was neither approved nor disapproved
+a.
+If the attorney adviser, ALJ, or AAJ did not make a determination on the fee agreement,
+do not delay effectuating the decision. Take the following actions:
+•
+Process the claim.
+•
+Verify through RASR that:
+–
+If the representative is an attorney, the representative is not sanctioned and is
+currently qualified to be an attorney representative, per GN 03910.020B.1.; or
+–
+If the representative is a non-attorney, the representative is not sanctioned and
+is eligible for direct fee payment, per GN 03920.018.
+–
+The eligible representative has not waived the fee or direct payment of a fee; and
+–
+If an eligible representative has validly assigned direct payment of their authorized
+fee to an entity as per GN 03920.021, that entity is eligible to receive direct payment of fees and has not been placed
+on the IDPE list.
+•
+Withhold 25 percent of past-due benefits if any representative on the claim is eligible
+for and did not waive direct payment or if there is Federal court involvement.
+•
+Request an incomplete notice in MCS. For instructions, see NL 00725.003.
+•
+Use the "neutral" language paragraphs regarding the representative's fees. For language,
+refer to GN 03940.075. Do not include the paragraphs mentioning the fee petition
+process in the notice.
+b.
+Contact the appropriate office depending on who issued the fully or partially favorable
+decision. Contact the Office of Hearing Operations (OHO) if an ALJ or Attorney Advisor
+issued the decision; or contact the Attorney Fee Branch (AFB) in the Office of Appellate
+Operations (OAO) if an AAJ issued the decision.
+In order to obtain a signed determination on the fee agreement:
+•
+Refer to the following chart to email a memo to the appropriate hearing office (HO)
+control box (cc the ALJ and the Hearing Office Director (HOD)) or OAO’s AFB with the
+date of the fully or partially favorable decision and a reference to the fee agreement
+in eView. Prior to sending a follow-up, review the claim(s) file to ensure the fee
+agreement determination has not been added. For sample language, see GN 03905.065B.3.
+•
+In the email, advise OHO or OAO’s AFB whether an exception to the fee agreement process
+exists and, if so, which one(s). For exceptions to the fee agreement process, see
+GN 03940.003D.
+•
+Document and report (by scanning into
+eView or otherwise adding
+to the claim(s) file) any contact with OHO or OAO, including emails about the
+status of the fee determination.
+•
+When you receive the determination on the fee agreement, proceed as instructed.
+Refer to the chart for contacts and diaries.
+PC Action
+ALJ (OHO)
+AAJ (OAO/AFB)
+Initial contact Diary for 7 days.
+•
+Send an email message to the HO control email box.
+•
+cc the ALJ and the HOD.
+•
+Use OHO Fee Contacts to obtain the HO control email box information and the name of the HOD.
+•
+Contact OAO's AFB by
+•
+email by sending an email message to ^DCARO OAO ATTY FEE BR.
+First follow-up
+Diary for 15 days.
+If you do not receive an acknowledgment:
+•
+Send a follow-up email to the HO control email box
+•
+cc the ALJ and the HOD.
+If you did not receive an acknowledgment, follow-up with an email:
+Second follow-up
+Diary for 30 days.
+•
+Send an email to the Regional Office (RO) control email box.
+•
+Cc the HOD, ALJ and HO control email box, see language in GN 03905.065B.3.
+•
+In the follow-up email, refer to the fee agreement and copies of earlier emails scanned
+to eView.
+•
+The OHO Fee Contacts provides RO control email box information, HO codes within the respective RO jurisdictions
+and a link to each HO's webpage and Office of Directory with the names of each office's
+HOD.
+Send a follow-up email to the AFB to ^DCARO OAO ATTY FEE
+BR.
+Third follow-up
+Diary for 30 days.
+(Continue to email reminders until you receive a decision on the fee agreement.)
+•
+Send an email to the Office of the Chief ALJ (OCALJ) at
+^DCDA
+OHO HQ OCALJ Delayed Fee Agreement Protest.
+•
+Ask OCALJ to follow up on the request.
+•
+Include the prior emails you sent to the HO and the RO in the email you send to OCALJ.
+•
+Send earlier emails to the AFB
+•
+Request they follow up.
+•
+Include a summary or documentation of previous follow-up actions and the PC contact
+name and phone number.
+5. The fee agreement was approved incorrectly
+Challenge the fee agreement approval if there may be a reason to find that the attorney
+adviser, ALJ, or AAJ incorrectly approved a fee agreement, such as:
+•
+The fee agreement does not meet the requirements of the Act, as explained in GN 03940.003B; or
+•
+An exception to the fee agreement process applies, as explained in GN 03940.003D.
+a. Instructions to contact OHO or OAO for the referral
+Take the following actions to process the claim and file a protest:
+•
+Process the claim for payment.
+•
+Verify through RASR that:
+–
+If the representative is an attorney, the representative is not sanctioned and is
+currently qualified to be an attorney representative, per GN 03910.020B.1.; or
+–
+If the representative is a non-attorney, the representative is not sanctioned and
+is eligible for direct fee payment, per GN 03920.018.
+–
+The eligible representative has not waived the fee or direct payment of a fee; and
+–
+If a representative has validly assigned direct payment of their authorized fee to
+an entity as per GN 03920.021, the entity is eligible to receive direct payment of fees and has not been placed
+on the IDPE list.
+•
+Withhold 25 percent of past-due benefits if any representative appointed on the claim
+is eligible for direct payment or if there is Federal court involvement.
+•
+Request an incomplete notice.
+•
+Use the "neutral" language paragraphs regarding the representative's fees. For language,
+refer to sections C through E in GN 03940.075.
+•
+Prepare a memorandum with the date of the fully or partially favorable decision. Include
+the PC contact name and phone number and fax the memorandum into eView folder B (Jurisdictional
+Documents/Notices section).
+Refer to the chart for contacts and diaries.
+PC Actions
+ALJ (OHO)
+AAJ (OAO)
+First contact
+Diary for 45 days
+(diary subject to local discretion)
+•
+Prepare a memorandum addressed to the ALJ's Regional Chief ALJ (RCALJ) at the RO.
+•
+For language, see GN 03905.065B.4.
+•
+Email the memo to the RO control email box. The OHO Fee Contacts provides RO control email addresses and hearing office codes within each RO jurisdiction.
+NOTE: If the ALJ who approved the fee agreement is also an RCALJ, email the memorandum
+and follow-ups to OCALJ (^DCDA
+OHO
+HQ OCALJ Delayed Fee Agreement
+Protest).
+•
+Email memorandum to the OAO's AFB
+•
+For language, see GN 03905.065B.5.
+•
+Email the memo to: ^DCARO OAO ATTY FEE BR
+First follow-up
+Diary for 15 days
+Send a follow-up email to the RO control email box, explaining that you have not received
+information regarding your request for action on the incorrectly approved fee agreement.
+Send a follow-up email, explaining that you have not received information regarding
+your request for action on the incorrectly approved fee agreement.
+Second follow-up
+Diary for 15 days.
+(Continue to email reminders until you receive a decision on the fee agreement.)
+Email OCALJ (^DCDA
+OHO
+HQ OCALJ Delayed Fee Agreement Protest) and ask that they follow up on the request. Include the prior emails you sent to
+the RO in the email you send to OCALJ.
+Email the AFB (^DCARO OAO ATTY FEE BR), and request that they follow up on the request. Include a summary and attach earlier
+emails, and the PC contact name and phone number.
+NOTE: When the decision maker approved a fee agreement, assume that the fee agreement was
+filed timely. As needed and when practical, copy contact emails to the Evidence Portal
+or eView.
+b. OHO or OAO reply to the referral
+1. The fee agreement determination was reversed
+When you receive a fee agreement determination reversal, diary the claim for 60 days
+for a party to file a request for administrative review or for receipt of a fee petition
+and fee authorization if the representative is eligible for direct payment.
+2. The fee agreement determination was affirmed
+When OHO or OAO affirm a fee, the OHO or OAO reviewer uploads a copy of the reviewer's
+determination into the A section of eView and emails a notice of the action to the
+PC contact.

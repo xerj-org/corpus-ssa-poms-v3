@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02406.200 - Failure to Receive a Courtesy Disbursement or Replacement Check -- Title II (Normal, Dire Need, and Abuse Situations)
+Effective Dates: 09/13/2013 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406200 (fetched 2026-10-04)
+
+B. Procedure for nonreceipt reported -- courtesy disbursement or replacement check -
+not issued
+When SSA did not issue a courtesy disbursement or replacement check:
+•
+Obtain a Payment History Update System (PHUS) query to confirm that the action on
+the original check was transmitted to Treasury and that the appropriate event (nonreceipt
+- 069) was created on PHUS.
+•
+Check to see if Treasury received the original nonreceipt action by reviewing the
+disposition code posted in either the interim disposition field (TDDC) or the final
+disposition field (TDSC) on the PHUS query for the nonreceipt in question.
+The TDDC field represents codes received from the Regional Financial Services (RFC)
+and the TDSC field represents codes received from Financial Management Service (FMS)
+in Philadelphia, PA. An entry in either field indicates the condition which caused
+the code to be generated and what action should be taken by the technician. For more
+information on Treasury disposition codes, see SM 00609.610B.
+•
+Take appropriate action based upon the disposition code. If the code indicates Processing
+Center (PC) action needed, the Field Office (FO) or Teleservice Center (TSC) will
+notify the PC via MDW for processing.
+•
+If reinput of the original nonreceipt was necessary, inform the beneficiary that the
+check should be received in 7 to 10 days.
+•
+Query the nonreceipt input in 4-9 days to ensure that it transmitted properly.
+•
+If the delay is causing a hardship or a public relations problem, see GN 02406.200D. for specific instructions.

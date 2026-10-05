@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.347 - Coding Lithuania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402347 (fetched 2026-10-04)
+
+G. Example of coding Lithuania bank data
+The customer provides us with a sign up form for Lithuania containing the following
+information: "LT121000011101001000".
+•
+The first two characters of a Lithuania IBAN LT, represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code these to the MBR.
+•
+The next five characters of the IBAN represent the five-digit bank code.
+•
+The next 11 characters of the IBAN represent the 11-digit account number.
+NOTE: When you input the RTN and DAN into an SSA system, you must omit the ISO country
+code of LT and the IBAN checks digits. When you input the IBAN into ITS.gov, you must enter the full IBAN in the IBAN field. ITS.gov will automatically remove the ISO characters when it translates the RTN and DAN.
+1. Derive the RTN
+•
+Code the prefix of 66(the multi-country prefix for Lithuania);
+•
+Code a filler zero 0 in position three;
+•
+Code the five-digit bank code 10000
+•
+Code the one-digit check digit code (i.e., 8) (obtained from the Title II Interactive
+Comps from the Main Menus 07/Sub Menu 16)
+•
+Code the type of account as a C for checking or an S for savings. If no indicated
+account type, use a C for checking.
+2. Derive the DAN
+•
+Use the letter H (for Lithuania); and
+•
+The 11-digit account number 11101001000
+3. Obtain the following information
+•
+RTN: 660100008
+•
+Checking
+•
+DAN: H11101001000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660100008 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H11101001000
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660100008
+•
+DAN- CH11101001000

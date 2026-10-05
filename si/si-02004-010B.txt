@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - SI 02004.010 - Issuing Emergency Advance Payments and Title XVI Immediate Payments
+Effective Dates: 09/18/2026 - Present | TN 18 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502004010 (fetched 2026-10-04)
+
+B. Procedure - Emergency advance payment
+Take these steps to process and issue an EAP.
+1. Computing the emergency payment amount
+Compute the individual’s EAP amount, using the SSI Retrospective Monthly (RMA) program
+or Form SSA-4968 (SSI RMA Payment Worksheet), refer to SI 02005.090. Once the EAP has been paid and recorded on the Supplemental Security Record (SSR),
+retention of the printout/SSA-4968 is no longer required. Determine the maximum EAP
+amount payable per SI 02004.001C.
+2. Processing the emergency advance payment
+Establish, approve, and transmit the EAP in the Modernized Supplemental Security Income
+Claims System (MSSICS). Refer to SM 01325.002 and MS 00303.008. After establishing
+and approving the payment on the applicable MSSICS screens, transmit the payment information
+to the TPPS.
+CAUTION: To allow issuance of a USDC from TPPS, establish, approve and
+transmit the EAP data to the SSR on the same day. Failure to do so will prevent the EAP information from propagating into TPPS and
+the information will not be sent to the SSR in the overnight batch process.
+Use the completed information in MSSICS to issue a USDC for an EAP. The cashier will
+use the instructions outlined in the TPPS User Guide to transfer the funds to a USDC.
+NOTE:
+When establishing an EAP, the system interfaces with the EAP database. An individual
+may receive one EAP per claim SI 02004.001B. If an EAP exists on the database already, another EAP will not be allowed to be paid.
+If an EAP does not exist on the database, then the EAP is approved and transmitted
+to the SSR. The database will be updated with the EAP information. An EAP will not
+be allowed if the current SSR has a prior payment issued. For information about the
+EAP database, refer to SM 01601.145.

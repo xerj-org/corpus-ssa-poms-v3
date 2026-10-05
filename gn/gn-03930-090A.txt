@@ -1,0 +1,151 @@
+SSA Program Operations Manual System (POMS) - GN 03930.090 - No Fee Petition or Fee Authorization Received by PC or FO when Diary Matures and We Are Withholding Past-Due Benefits – Non-Court Case
+Effective Dates: 12/18/2024 - Present | TN 36 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930090 (fetched 2026-10-04)
+
+A. Procedure - Case Decided at Initial and Reconsideration Levels
+The benefit authorizer (BA), claims technical expert (CTE), or other position designated
+in the processing center (PC) in a Title II claim or concurrent Title II and Title
+XVI claims, or the claims specialist (CS) in a Title XVI only claim is responsible
+for taking the following actions:
+1. Confirm That We Have Not Received a Fee Petition
+When the 60-day diary matures, and you have not received a fee petition, intent to
+file a fee petition, or fee authorization:
+•
+Review the file to determine if a fee petition, fee authorization, or intent to file
+a fee petition has been received; and
+•
+Review Paperless, the Processing Center Action Control System (PCACS), the Master
+Beneficiary Record (MBR), the Payment History Update System (PHUS), the Supplemental
+Security Record (SSR), and/or the Single Payment System (SPS) for any information
+regarding the fee petition and authorization (possible payment to the representative).
+In the processing centers (PCs), technicians will have an active action control request
+(ACR) for the fee petition authorization. In SPS, Payment Identification Codes (PIC)
+SA – SZ identify payments made from Title II; direct fee payments paid from Title
+XVI past-due benefits do not have a PIC.
+2. Consider Whether Services Have Ended
+If we have not received a fee petition, intent to file a fee petition, or fee authorization,
+check whether the representative's services have ended:
+•
+Verify that the full 60-day period has elapsed since all adjudicative actions were
+completed.
+•
+Consider whether there are outstanding issues that indicate the representative’s services
+in the case have not ended. If the representative’s services have not ended, diary
+the case (PCACS diary in the PC) for the time you estimate resolution will require.
+Continue withholding and do not proceed to GN 03930.090A.3. below (see GN 03910.060, When a Representative’s Appointment Ends).
+NOTE:
+Extend the diary period (PCACS diary in the PC) if an eligible Title XVI spouse’s
+benefits or protected auxiliary awards are processed after the number holder/eligible
+individual’s claim (allow 60 days from the date of notice on the spouse or auxiliary
+claim). See GN 03920.030, Representative’s Fee – Title II Past-Due Benefits, and GN 03920.031, Representative’s Fee – Title XVI Past-Due Benefits.
+3. Send 20-Day Notice
+After confirming the representative's services have ended, if there are no outstanding
+issues, take the following actions:
+a.
+Use RASR to send a 20-day closeout letter to the representative and a copy to the
+claimant. This notice will ask the representative to file, within 20 days, a fee petition
+or a written request for an extension of time if the representative intends to charge
+a fee, or to notify us if the representative is waiving the fee. If the representative
+has died and they assigned direct payment of their fee to an entity, send the notice
+in the Document Processing System (DPS) or AURORA titled, "Fee Petition 20-Day Closeout"
+to the entity's point of contact (POC), with a copy to the claimant. If the deceased
+representative did not assign direct payment of their fee, send the "Fee Petition
+20-Day Closeout" notice to the executor or other legal representative of the deceased
+representative's estate, with a copy to the claimant, after updating the deceased
+representative's registration information as described in GN 03913.010F.
+Also, advise the representative or other individual acting for the deceased representative
+pursuant to GN 03930.020A that:
+•
+We will release any withheld past-due benefits to the claimant if no fee petition
+or intent to file a fee petition is received within the 20-day period;
+•
+The release of withheld benefits does not deprive them of the right to petition if
+the representative or other individual later decides to charge a fee;
+•
+Attempting to collect a fee without obtaining our authorization could violate section
+206(a) and/or section 1631(d)(2) of the Social Security Act (42 U.S.C. 406(a) and/or
+1383) and the regulations; and
+•
+Any fee authorized based upon a fee petition filed after the 20-day period has expired
+and past-due benefits have been released will be the responsibility of the claimant
+to pay.
+NOTE:
+In concurrent Title II and Title XVI claims on which we have withheld Title XVI past-due
+benefits, revise E3808 to include the reference to 1631(d)(2) and 1383, as given in
+the bullet above. See DPS for a Title XVI notice.
+b.
+Inform the representative that they may submit a signed fee petition using Form SSA-1560
+or another writing that contains the information required by GN 03930.020D.3. Remind the representative of the need to provide a copy of the fee petition to the
+claimant before submitting it to us. For their convenience and for additional information
+about what is required, refer the representative to the electronic version of Form
+SSA-1560 (Petition for Authorization to Charge and Collect a Fee for Services Before
+the Social Security Administration) available at ssa.gov/representation/.
+c.
+Diary for 30 days for return to a CS. In the Office of Central Operations (OCO), the
+BA prepares a 30-day PCACS diary related to the existing “ATFEE FEEPAY” action control
+record (ACR) and routes the claims file to the development holding file (DHF PAY)
+for return to a CS.
+d.
+In the PC, if information reveals that the representative charged a fee without authorization
+in a possible violation of section 206(a) or 1631(d)(2) of the Act, the senior claims
+processing specialist (SCPS) or CTE will document any information, with assistance
+from the FO if necessary, and prepare a referral to the Office of the General Counsel
+(OGC) as a potential fee violation. These referrals are reviewed by the Operations
+Analysis Section (OAS) fee program analyst and forwarded to OGC for their review and
+potential action. For representatives, including entity POCs, refer suspected fee
+and non-fee violations to OGC following the instructions in GN 03970.017. If information suggests an entity collected or retained a fee without our authorization,
+follow the procedures in GN 03920.052D.
+4. Diary Matures or Reply Received
+When the reply is received or the diary matures, take the following action(s):
+•
+If the representative(s), or in the case of a deceased representative an entity's
+POC or other individual listed in GN 03930.020A, filed a fee petition, and the petition is received in the FO, forward the petition
+to the PC. In the PC, the CS/CTE follows GN 03930.095 through GN 03930.105 to evaluate services and determine a reasonable fee.
+•
+If the representative(s), or in limited circumstances, the POC or other individual,
+filed a request for an extension of time, proceed to GN 03930.090A.5.
+•
+If the representative filed a waiver of the fee or direct payment and no other representatives
+are seeking direct payment, refer the Title II case to the BA to release the withheld
+Title II past-due benefits using Manual Adjustment Credit and Award Data Entry system
+(MACADE) (special entry EA). Refer the Title XVI case to the CS to close out the FEE
+PETITION issue and release the underpayment (U TAC).
+•
+If the representative(s), or when the representative is deceased the POC or other
+individual listed in GN 03930.020A, has not filed a fee petition or otherwise complied with our instructions, refer
+the Title II case to the BA to release the withheld past-due benefits using MACADE
+(special entry EA). Refer the Title XVI case to the CS to close out the FEE PETITION
+issue on the Development Worksheet and release the underpayment (U TAC) from the SSR.
+In Title II cases, provide instructions to send the representative(s) a copy of the
+beneficiary notice. You may use E3818, found in NL 00703.818. In Title XVI cases, the system automatically issues a notice to the claimant with
+a copy to the representative(s). Do not send a copy of either notice to an entity's
+POC unless it is the minimum amount necessary for the POC to review it to resolve
+fee-related issues. For information that is not relevant or necessary to resolve fee-related
+issues, only disclose it if the claimant has expressly consented in writing on a Form
+SSA-3288 or other written consent that meets the requirements of GN 03305.003.
+5. Representative Requests Extension
+If the representative or, in the case of a deceased representative, the POC or other
+individual described in GN 03930.020A, filed a request for an extension of time within which to petition, take the following
+actions:
+a. Consider the Reasons Given
+Consider the reasons given, remembering that:
+•
+The representative should not petition for a fee until they have completed providing
+services for the claimant and any auxiliary beneficiary or spouse;
+•
+The representative may request and receive more than one extension of time;
+•
+In the case of a point of contact (POC) or other individual requesting an extension,
+the circumstances described in GN 03930.020 may have prevented them from filing earlier; and
+•
+Whether you grant an extension depends on the circumstances.
+b. Provide Written Notice to the Representative
+Provide written notice to the representative or other filer explaining the decision
+and rationale. If you decide not to grant the extension of time, state that the fee
+petition must be filed within 20 days of the date of your notice. In Title II or concurrent
+claims, send copies to the claimant and the servicing FO.
+c. Prepare a Diary
+In the PC, prepare a PCACS diary based on your decision. In the FO, change the follow-up
+date on the FEE PETITION ISSUE on the Development Worksheet.
+d. Reply Received or Diary Matures
+When you receive the reply or when the diary matures, follow GN 03930.090A.3.

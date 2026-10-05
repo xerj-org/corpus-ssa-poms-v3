@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 81020.035 - Document Management Architecture (DMA) Barcodes and Document Indexing
+Effective Dates: 01/23/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020035 (fetched 2026-10-04)
+
+B. Document Indexing
+Document indexing involves:
+•
+Storing the document in the correct CEF;
+•
+Filing the documents in the appropriate section of the CEF; and
+•
+Accurately identifying the document in the CEF without requiring the user to open
+the document to determine what it is (e.g., Medical Evidence of Record, Consultative
+Examination, SSA-3368 [Disability Report – Adult]).
+1. Automatic Indexing – DMA Barcode
+Automatic Indexing occurs when the received document includes a barcode. The barcode
+contains all of the necessary indexing information to place the document in the correct
+case and section of the CEF, and to accurately identify the document.
+2. Manual Indexing
+Manual Indexing is performed when evidence is scanned, but the DMA barcode is missing
+or deficient. Manual Indexing refers to keying the following indexing elements so
+the document is placed in the correct case, in the correct section of the CEF and
+is identified correctly:
+•
+Component Site Code (e.g., V40);
+•
+SSN of the claimant or the Number Holder (NH);
+•
+Document Type (see Document Types - DI 81020.040); and
+•
+Request ID.

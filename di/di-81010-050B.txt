@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - DI 81010.050 - Fields and Edits in the Electronic Disability Collect System (EDCS)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010050 (fetched 2026-10-04)
+
+B. Edits Function
+The Edits Function of EDCS checks data to ensure:
+•
+The data is entered in a valid format;
+•
+All required fields are complete; and
+•
+The data corresponds with data entered on other screens.
+EDCS checks for edits:
+•
+When a user selects the “Check Edits” button on the EDCS toolbar; and
+•
+During the EDCS transfer process.
+1. Collect Edits Screen
+The Collect Edits screen appears when the EDCS user:
+•
+Chooses to run the Edit Function; or
+•
+Attempts to transfer the case in EDCS and edits are found.
+EDCS identifies the incomplete field or incorrect data and the primary screen where
+it is located, and displays it on the Collect Edits screen. The edits are divided
+into two categories:
+a. Always Mandatory for Transfer
+These edits must be resolved prior to case transfer and cannot be overridden.
+b. Mandatory for Transfer
+The EDCS user must make every attempt to resolve these types of edits prior to case
+transfer. However, if resolution is impossible, an individual with a supervisory profile
+can override it. The supervisor must:
+•
+Enter EDCS using their own PIN; and
+•
+Select the override function appearing on the Collect Edits screen.
+NOTE: “Mandatory for Transfer” edits do not apply when transferring the case from FO to
+FO.
+2. Resolving Edits
+EDCS may identify edits as a result of incomplete or incorrect:
+•
+Propagated data; and/or
+•
+Keyed entries.
+a. Edits from Propagated Data
+Edits from propagated data occur if missing or incorrect data has been propagated
+from the mainframe systems. To resolve this type of edit:
+•
+Correct the missing or incorrect data on the mainframe system; and
+•
+Attempt to transfer the case. EDCS will allow case transfer if the edits are resolved.
+NOTE: EDCS automatically performs the repropagation function when transferring the case.
+Repropagation can also be performed manually prior to transfer to resolve the edit,
+as well. For more information on Data Repropagation, see DI 81010.035 – Data Repropagation.
+b. Edits from Keyed Entries
+Edits from keyed entries occur when incorrect or incomplete data is:
+•
+Keyed into the case; or
+•
+Omitted from the case.
+To resolve this type of edit, use the following instructions:
+•
+Return to the screen indicated in the edits legend;
+•
+Complete/correct the required information. Selecting the edit legend on the “Collect
+Edits” screen will result in EDCS returning you to the primary screen containing the
+incorrect/incomplete field; and
+•
+Select the “Check Edits” link from the toolbar again to verify the edit was resolved
+and correct any remaining edits.
+NOTE: The field requiring correction is not highlighted and may not be visible on the primary
+page (may appear on a secondary page), so before you leave the “Collect Edits” screen
+be sure to note what field requires correction.
+c. Edits from Internet Disability Reports (IDRs)
+Edits from IDRs are usually the result of unanswered questions. To resolve these edits:
+•
+Review the EDCS case for completeness; and
+•
+Contact the claimant for missing information and/or clarify entries to resolve the
+edits before attempting to transfer the case.

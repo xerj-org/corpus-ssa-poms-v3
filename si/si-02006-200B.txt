@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 02006.200 - Title II and Title XVI Offset Cases — Subtraction of Authorized Fees from Title II Retroactive Payments
+Effective Dates: 01/10/2018 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006200 (fetched 2026-10-04)
+
+B. Procedure — Determination of amount of representative fee
+1. Determine Type of Fee Arrangement (Petition or Agreement) and Status of Representative
+Refer to the AUTH segment, FST field of the supplemental security record (SSR) to
+determine whether the case is a fee petition or agreement case and the status of the
+fee processing. See SM 01601.490. If this information is not shown on the SSR, check
+the SPECIAL MESSAGE and ATTY FEE fields on the MBR and the claims clearance and appeals
+screens on MCS. If sufficient information is not on the MBR or MCS, then check the
+claims file for a copy of a fee agreement or a copy of an SSA-1560-U4 which is used
+to file for fee approval in a fee petition case.
+NOTE: If these records do not contain sufficient information, the field offce can also contact
+the representative's office directly.
+If none of these sources provide the facts that are needed, contact the MOD in the
+PSC/ODIO.
+2. Fee Petition Process
+a.
+SSA or a U.S. District Court must authorize the representative's fee under the fee
+petition process. The Office of Hearing Operations (OHO) (an ALJ or the Appeals Council),
+the District Court, and a PSC/ODIO can process the representative's petition for a
+fee.
+b.
+25% of the past-due Title II benefit is withheld for direct payment of the fee. Effective
+with determinations made July 1, 1991 and later, this 25% is calculated before any
+adjustment for windfall offset. The 25% withheld may exceed the specified dollar amount
+of the fee cap shown in GN 03940.003A.3.
+c.
+Beginning February 28, 2005, 25% of past due Title XVI payments will be withheld for
+direct payment of the fee. See GN 03930.000 for instructions in cases where 100% of the past due Title XVI payment may be withheld.
+The 25% withheld may exceed the specified dollar amount of the fee cap shown in GN 03940.003A.3.
+3. Fee Agreement Process
+a.
+A fee agreement is a written statement signed by the claimant and their appointed
+representative specifying the fee the representative expects to charge and collect
+and the claimant expects to pay for services the representative provides in pursuing
+the claimant's benefit rights in proceedings before SSA.
+b.
+The amount of the fee is limited to the specified dollar amount of the fee cap shown
+in GN 03940.003.A.3., or 25% of the past-due benefit for Title II and Title XVI, whichever is less.
+However, note that even when a fee agreement is in place the representative can request
+review and authorization of a higher fee. See GN 03940.001D.1.
+c.
+In concurrent claims, “past-due benefits”for fee determination purposes includes title II and title XVI past-due benefits.
+d.
+As with fee petition cases, 25% of the Title II and Title XVI past-due benefit is
+withheld. The 25% may exceed the specified dollar amount of the fee cap shown in GN 03940.003A.3. See GN 03940.000 for instructions in cases where 100% of the past-due Title XVI payment may be withheld.
+NOTE: A number of questions have been received concerning the propriety of adjusting title
+II income by the amount of a fee that has been calculated in part based on title XVI
+past-due benefits. It is appropriate to make this adjustment, since the fee is considered
+a single fee. Under the fee petition process, which was the only process available
+for many years, the authorized fee in concurrent cases makes no distinction between
+services performed for title II versus title XVI and is all used to adjust the title
+II income. Similarly, under the fee agreement process there is no distinction made
+in the authorized fee between services performed for title II versus title XVI, and
+the entire fee must be used to adjust the title II income. The fact that the amount
+of past-due title XVI benefits figures in the calculation of the authorized fee amount
+does not alter this requirement.

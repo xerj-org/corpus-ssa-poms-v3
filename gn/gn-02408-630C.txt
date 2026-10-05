@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - GN 02408.630 - SSA Contacts Last Withdrawers
+Effective Dates: 06/19/2018 - Present | TN 90 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408630 (fetched 2026-10-04)
+
+C. Process for Title XVI last withdrawers
+The Title XVI process is as follows:
+1.
+Treasury uploads the FMS-133 NOR form into the Treasury Check Information System (TCIS)
+for an electronic copy to be available for retrieval by the Office of Benefit Accounting
+and Systems Analysis (OBASA) Treasury Operations Branch (TOB) daily.
+2.
+OBASA reviews the FMS-133 retrieved from TCIS and analyzes the Supplemental Security
+Record (SSR).
+•
+If the recipient is deceased and money is not due SSA, OBASA will process an abandonment
+of reclamation to stop recovery efforts.
+•
+If the recipient is alive or the NOR is invalid due to an incorrect date of death
+and money is not due SSA, OBASA will process an abandonment of reclamation to stop
+recovery efforts.
+•
+If the recipient is deceased and money is due SSA, OBASA will post any remitted funds
+returned on the FMS-133 NOR to the SSR, establish a 180-day diary, and email the FMS-133
+NOR file to the field office (FO) of jurisdiction to contact the last withdrawer.
+3.
+After receiving the email from OBASA, FO technicians will mail either an e3595 or
+an overpayment notice to the last withdrawers to request repayment of any outstanding
+funds withdrawn from the account. For an example of the notice, refer to NL 00703.595.
+4.
+To determine which notice should be mailed:
+•
+For an example of the notice if the payment after death is not an overpayment, see
+NL 00703.595.
+•
+If the individual is receiving benefits, and the payment after death is an overpayment,
+see instructions on notifying individuals of Title XVI overpayments in SI 02220.010.
+5.
+Upon release of the E3595 or overpayment notice, the FO technicians create a 45-day
+diary for return of funds.
+•
+If the last withdrawer returns only part of the funds owed within the 45 days, the
+FO technician emails OBASA at OBASA.TOB@ssa.gov with the amount collected and enters the remittance in the Debt Management System
+(DMS) if not already posted to the SSR. For information on the field office remittance
+input, see GN 02403.003 and MSOM DMS 003.006. Do not waive any outstanding overpayment/payment(s) after death.
+Treasury will debit any funds still outstanding and still due to SSA from the FI’s
+federal reserve account via the FMS-135.
+•
+If the last withdrawer refunds all the money, the FO technician emails OBASA at OBASA.TOB@ssa.gov with the amount collected and enters the remittance in DMS if not already posted
+on the SSR. For information on how to complete an SSA 3969-U2 (SSI Remittance Register),
+see OS 00515.020. See also the information on when an individual refunds an incorrect
+EFT payment in GN 02408.670. Once the payment posts to the Overpayment Refund Data (OPRR) field of the SSR, the
+FO must request abandonment of reclamation from Treasury via SSA-1714 (Abandon Reclamation
+Request); see GN 02408.800.
+•
+If the last withdrawer does not refund any money owed within 45 days, the FO should
+take no additional action. After the 180-day OBASA diary matures, OBASA will complete
+the FMS-133 NOR, stamp “RECLAIM” in the top-middle portion of the form, and forward
+the completed form to Treasury.
+6.
+If any funds are still due, Treasury processes the FMS-133 NOR and debits the 45-day
+limited liability amount from the FI’s federal reserve account, returning the credit
+to OBASA via an FMS-135.
+7.
+OBASA posts any additional money collected on the FMS-135 to the SSR.
+8.
+OBASA reviews DMS and the SSR for any credits posted to avoid collecting funds twice.
+NOTE: It is important for FO technicians to inform OBASA of any additional amounts collected
+to avoid collecting the funds twice. See information on dual recovery in GN 02408.720.

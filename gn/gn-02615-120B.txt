@@ -1,0 +1,164 @@
+SSA Program Operations Manual System (POMS) - GN 02615.120 - Title II Clark Court Order Manual Processing
+Effective Dates: 06/25/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615120 (fetched 2026-10-04)
+
+B. Overpayment adjustments
+1. Overpayment relief processing
+a. Review payment records and determine the PPV overpayment amount
+To remove or reduce a beneficiary’s PPV overpayment when processing relief take the
+following actions.
+•
+Review the MBR, ROAR, FFSCF, and PHUS records to determine the correct PPV overpayment
+balance. For instructions for reviewing the MBR, ROAR, FFSCF and PHUS records, see
+GN 02615.120A.3 in this section.
+•
+Consider any previously waived overpayment amounts. For instructions on reviewing
+and calculating overpayments where we waived a prior overpayment, see GN 02615.115C.3.
+•
+Compare the PPV overpayment balance to the existing ROAR overpayment events and the
+MBR BOUD line. For instructions for comparing the PPV overpayment balance to the ROAR
+record, see GN 02615.120B.3 in this section.
+•
+Input the ROAR overpayment removal or reduction amount to eliminate the remaining
+PPV suspension overpayment and have ROAR generate an explanatory beneficiary notice.
+For instructions for removing the beneficiary’s PPV overpayment, see GN 02615.120B.2 in this section.
+NOTE: There is a priority order for applying terminations and nonpayment, reduction, deduction,
+and withholding events to monthly title II benefit amounts. For more information on
+the priority of applying terminations and nonpayment, reductions, and withholding
+events, see GN 02602.025
+After completing your review of the MBR, ROAR, FFSCF and PHUS, determine the PPV overpayment
+amount to remove from the beneficiary’s BOUD/ROAR record. For instructions on adjusting
+benefits due the overpaid beneficiary, see GN 02210.006. For instructions on preparing a Payment Worksheet (PWST) to determine the actual
+remaining PPV overpayment amount, see MSOM QUERIES 006.017.
+NOTE: Compute PPV overpayment amounts only for warrants that have an offense code of 5011,
+5012, 8101 or 8102.
+b. No PPV overpayment exists
+If no PPV suspension overpayment currently exists (e.g., all previously withheld PPV
+suspension benefits were released to the beneficiary and the PPV suspension overpayment
+balance is now $0.00, or the PPV overpayment was waived and no additional PPV suspension
+benefits are payable, or the beneficiary’s PPV suspension period was replaced by their
+prisoner suspension period, etc.) after completing your review of the MBR, ROAR, FFSCF,
+or PHUS records, add the following special message to the MBR: CLARK COURT ORDER -
+CLARK REVIEW COMPLETED. For instructions for adding a special message to the MBR,
+see MSOM QUERIES 006.026.
+If there is no further case processing needed (e.g., correction of the MBR to remove
+the S9 FUGFEL history, the ROAR record does not need correction, etc.) except for
+updating the FFSCF database with the GOOD CAUSE: CRT (i.e., good cause of Court),
+send the beneficiary a notice to explain your review of the PPV suspension and overpayment
+and that there is no additional relief payable. For an example of the notice and the
+paragraph to include in your notice, see GN 02615.160B.4.
+c. Adjusting the ROAR record
+If the PPV overpayment should remain on the record after you complete your MBR, ROAR,
+FFSCF, or PHUS records review (e.g., the PPV suspension overpayment balance is due
+to a pre-10/24/2006 PPV initial suspension or overpayment determination with no pending
+appeal on or after 10/24/2006), annotate your review results to the Special Message
+data field on the MBR (SP MSG). Add the following special message to the MBR: CLARK
+COURT ORDER - CLARK REVIEW PROCESSED.
+EXAMPLE:
+The beneficiary had two closed periods of PPV suspension, one closed period occurred
+in 1/05 to 05/05. We notified the beneficiary of their PPV suspension and overpayment
+of $1900.00 in our notice to them dated 12/30/2005. The beneficiary neither protested
+nor appealed our PPV suspension or overpayment decision. In 11/2006, we received another
+closed period PPV warrant that caused us to suspend the beneficiary’s benefits for
+05/2006 through 07/2006. We notified the beneficiary of this closed period suspension
+and overpayment of $900.00 in our notice to the beneficiary dated 12/23/2006. The
+beneficiary neither protested nor appealed the second closed PPV suspension period
+or their overpayment of $900.00. We posted the beneficiary’s overpayment for the first
+period of suspension to BOUD/ROAR with a TOE of “74” representing the PPV suspension
+overpayment. The beneficiary requested that we withhold the $1,900.00 using partial
+recovery at the rate of $10.00 per month. When the beneficiary incurred the second
+period of PPV suspension, ROAR added the additional $900.00 to the existing TOE 74
+overpayment event on ROAR. The combined balance for the PPV overpayment amounts on
+ROAR in 01/2013 is $1480.00. The second period of closed PPV suspension for 05/2006
+through 07/2006 qualifies for Clark relief. We took a MACADE/MADCAP action to correct
+the MBR HISTORY field to remove the second S9 FUGFEL period. A processing exception
+caused the action to incorrectly adjust the ROAR record. We subsequently prepared
+a Debt Management System (DMS) action to reduce the existing ROAR by $900.00 (the
+amount of the PPV overpayment for the Clark relief period) to $580.00, the remaining
+balance due for the first period of PPV suspension. DMS issued a letter explaining
+the removal of the second PPV overpayment of $900.00 to the beneficiary. The technician
+added the Special Message to the MBR showing, “CLARK COURT ORDER—REVIEW PROCESSED.”
+2. Removal of remaining PPV overpayment balance from ROAR (TOE 74- T2 FF SUS VIO/WAR
+Overpayment)
+Review the MBR and determine the following:
+•
+If you must correct the PPV suspension MBR HISTORY line (i.e., remove S9 HRFST of
+FUGFEL), pay relief for Clark PPV suspension periods, and correct (e.g., reduce or
+remove) the existing PPV overpayment amounts, use MACADE/MADCAP to process the Clark
+relief. For MACADE/MADCAP processing instructions, see GN 02615.120C in this section.
+•
+If you do not need to correct the HISTORY line on the MBR or pay past PPV suspension
+periods and your only processing action is to remove or reduce the PPV overpayment,
+take the actions outlined in the chart.
+Steps
+Actions
+1
+Remove or reduce the current PPV overpayment balance TOE 74-T2 FF SUS/FEL/VIO event
+on the ROAR/BOUD overpayment record using the DEBT MANAGEMENT SYSTEM (DMS) screens
+as instructed below:
+Civil Action Screen (DRCA),
+Choose “6” Debt Management from the SSA Main Menu screen.
+Choose “2” Debt Resolution from the Debt Management Menu (DMMU). Enter the Social
+Security number (SSN) and beneficiary identification code (BIC).
+On the Debt Resolution Menu (DRMU) enter the Debt Number. Enter “1” in SELECT for
+“Establish” mode. Then enter “20” for “Civil Action” in the SELECT THE DESIRED FUNCTION
+field.
+On the Civil Action screen (DRCA), DECISION TYPE and DECISION REASON enter “2” – CLARK.
+Enter the APPROVAL AMOUNT that you previously determined from your review of our payment
+records based on the instructions in GN 02615.120B in this section and press enter.
+An informational message will notify you that you must complete the Review Civil Action
+(DRWA) screen (you must do this for every case input on the DRCA). Press enter again.
+Move the case to the selected reviewer’s paperless queue designated by your office
+to authorize the input action.
+2
+The designated approving reviewer will log into the Personal Communications software
+(PCOM) with a different personal identification number (PIN) than the one used to
+input the DRCA screen. If the reviewer is satisfied with the proposed ROAR transaction,
+process the approval as follows:
+On the DRWA Screen,
+Choose “6” for Debt Management from the SSA Main Menu.
+Choose “2” for Debt Resolution from the DMMU screen. Enter the SSN and BIC.
+On the Debt Resolution Menu (DRMU), enter the Debt Number. Enter “2” in SELECT for
+“Update” mode. Then enter “21” Review Civil Action in the SELECT THE DESIRED FUNCTION
+field.
+On the DRWA screen, the DRCA information propagates to DRWA screen. Put a “Y” in the
+APPROVED BY REVIEWER FIELD and then press enter.
+3
+DMS sends an automated beneficiary notice to explain the PPV overpayment removal or
+reduction. For an illustration of the caption and paragraph that will appear on the
+notice, see GN 02615.160B.3.
+NOTE: If the beneficiary is deceased (i.e., LAF T1), DMS will only send a PPV overpayment
+removal or reduction notice if the beneficiary had a representative payee on their
+record at the time of death. If a deceased beneficiary does not have a representative
+payee, that notice is not used. For information on processing Clark relief for a deceased
+beneficiary, see GN 02615.135A.4.
+4
+Reprocess the PPV overpayment Debt Management input exceptions using the screens in
+the DMS. For instructions for resolving debt management exceptions, see SM 00610.410
+through SM 00610.420.
+5
+Add the MBR SP MSG: CLARK COURT ORDER—CLARK RELIEF PROCESSED to annotate that you
+completed your review and processing of the case.
+If the record has the CO MSG: CLARK COURT ORDER—CASE SELECTED FOR CLARK RELIEF AND
+MEDICARE REVIEW, do not add the SP MSG to the MBR. Next, process a Medicare review
+following instructions in GN 02615.140.
+NOTE: ROAR may have a fugitive felon Type of Event (TOE) 73 incorrectly entered instead
+of a PPV TOE 74. Examine the offense code on the FFSCF warrant record in conjunction
+with the ROAR TOE 74 record to make sure you are removing the correct overpayment
+balance for the matching warrant and that warrant’s corresponding overpayment period.
+3. Removal or adjustment of a remaining PPV overpayment balance from ROAR/BOUD consolidated
+overpayment event
+To determine the true remaining consolidated (i.e., combined) overpayment amounts,
+minus the benefits now payable for Clark relief and any previously waived overpayment
+amounts, you must compare all benefits paid on the record to those payable for the
+total consolidated overpayment period. Use a Payment Worksheet to determine the difference
+between what we actually paid a title II beneficiary and what we owe the beneficiary
+for the consolidated overpayment period. For instructions on processing a Payment
+Worksheet, see MSOM QUERIES 006.017.
+After determining the remaining consolidated overpayment amount, including the benefits
+now payable for Clark relief and previously waived overpayment amounts, remove or
+reduce the current consolidated overpayment balance to the new overpayment balance
+computed on your Payment Worksheet. If it is not necessary to correct MBR History,
+or correct the FUGITIVE line on the MBR, process the consolidate overpayment adjustment
+using the instructions in GN 02615.120B.1.c. in this section. If a MBR HISTORY correction to remove an S9 FUGFEL period and correct
+the FUGITIVE line is necessary, follow the instructions in GN 02615.120B.2. in this section.

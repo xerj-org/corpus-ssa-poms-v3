@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 11010.115 - Non-Medical Completion
+Effective Dates: 06/17/2016 - Present | TN 88 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010115 (fetched 2026-10-04)
+
+D. Procedure - non-medical completion exclusions
+The following situations describe exclusions to the non-medical completion process.
+1. Insured status is met within 1 year of Alleged Onset Date (AOD)
+Non-medical completion does not apply in non-traumatic onset cases when the claimant
+does not meet insured status as of the alleged onset date (AOD), but does meet it
+within 1 year prior to the AOD. Failure to adhere to this instruction may result in
+an inappropriate code 090 denial being generated. The DDS determination for these
+cases covers disability for the period within the 1 year before the AOD.
+NOTE: These are instances where code 90 is incorrectly derived for an NH insured under
+the special insured status provisions of the l983 amendments. These are non-medical
+completion exclusions.
+2. Statutory blindness claims
+Statutory blind cases are excluded from the non-medical completion process.
+3. Foreign claims
+The Division of International Operations (DIO), International Benefits Office (IBO)
+will review foreign claims under their jurisdiction to determine whether non-medical
+completion processing will apply or the case involves an exclusion to the non-medical
+completion process. For more information on adjudication of foreign claims, see GN 01010.255.
+Due to the DIO/IBO having adjudicative authority and the special processing involved,
+it is recommended that the domestic FO not use non-medical completion for any case
+containing a foreign address.
+4. Representative Fee Claims
+Representatives who are eligible for direct payment (i.e., attorneys or non-attorneys)
+must register via SSA-1699 as a condition of receiving direct fees from us. Registered
+representatives will appear on the Registration, Appointment and Services for Representatives
+(RASR) as eligible to receive direct payment and linked to the particular claimant
+after completing the direct payment information section of the SSA-1696 (required
+for each claim). Payments are processed in the Single Payment System (SPS). Instructions
+about SPS and when to use it can be found in SM 00834.001. Representative Fee claims
+are excluded from the non-medical completion process. The coding shown on Check/Notice
+(NOT2) Screen in the Claims Clearance path of the MCS claim is used to code Authorized
+Representative fees. The coding in the “last withholding date” (LWD) allows for correct
+computation of the retroactive benefits. In Title II cases, the LWD is the month before
+the month of adjudication. The DECI date should be the month after the LWD. Since
+the month of adjudication is not known until both the DDS and FO have made their respective
+inputs, this field cannot be accurately coded until the DDS returns the case and the
+FO completes the MCS EC processing.
+5. SSI offset involvement
+Cases with SSI offset (Windfall) involvement where there is outstanding development
+for proof of age; lag earnings and/or WC affecting the PIA, are excluded from the
+non-medical completion process.
+6. Prisoner or fugitive felon (FF) provisions
+To assist in the prevention of payments of past due monthly benefits to beneficiaries
+who may become subject to prisoner or FF suspension provisions, do not use the non-medical
+completion process. See details in GN 02612.020 No Social Security Benefits for Prisoners
+(NSSBP) Title II Field Office (FO) Processing.
+7. Medicare-Qualified Government Employment (MQGE)
+MQGE disability claims are exclusions to the non-medical completion process.
+8. Processing Disability Claims with WC/PD
+It is recommended that claims with potential WC/PDB offset not be processed using
+the Non-Medical Completion process (except in the deferred development WC/PDB situations
+described in DI 11010.030D).

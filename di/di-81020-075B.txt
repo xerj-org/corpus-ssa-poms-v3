@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 81020.075 - Field Office (FO) Determinations
+Effective Dates: 03/27/2009 - Present | TN 35 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020075 (fetched 2026-10-04)
+
+B. FO determination alert
+The “FO determination alert” notifies the DDS of the FO determination through their
+case processing system. For more information about CEF alerts, see Certified Electronic
+Folder (CEF) Alerts - DI 81020.080.
+1. FO determinations case data tab in eView
+To view the FO determination:
+•
+access eView,
+•
+enter the SSN on the Disability Folder Selection screen,
+•
+click on the Case Data tab, and
+•
+select “FO Determination(s)”.
+The following FO information is displayed:
+•
+Determination date,
+•
+Determination type,
+•
+Reason,
+•
+Name and phone number of the Claims Representative (CR) who made the determination,
+and
+•
+FO code and address.
+NOTE: The “FO Determination(s)” tab only appears if the FO has made a determination on
+the case.
+2. DDS actions
+After receiving the FO Determination alert, the DDS must immediately determine if
+all claims in the case have been closed. If the FO has not prepared an FO Determination
+on all claims in the case, the DDS continues processing the remaining claim(s) in
+the case. For those claims that have an FO Determination, the DDS will take the following
+actions:
+If the DDS has initiated substantive development:
+•
+resolve outstanding requests for information;
+•
+cancel pending Consultative Exam(s) (CE);
+•
+close the claim with a No Determination (ND) reason (For more information on ND reasons
+see DI 81020.127 Processing “No Determination” (ND) Claims); and
+•
+send the claim to case closure.
+If the DDS has not initiated substantive development:
+•
+transfer (TR) the claim to the FO that made the FO Determination; and
+•
+send the claim to case closure.
+NOTE: If the FO inputs an FO Determination on a claim(s) while a reactivated case is pending
+at the DDS, follow the above procedures.
+If the official folder is a paper Modular Disability Folder (MDF) or if a prior paper
+folder exists:
+•
+Prepare an EDCS Routing Form from eView “Print Forms”, with the annotation “CEF transferred
+to (receiving FO) for non-medical denial” in the remarks section of the EDCS Routing
+Form. For instructions on preparing the routing form, see DI 81010.087. Attach any paper MDF to the EDCS Routing Form; and
+•
+Mail the EDCS Routing Form with all attachments to the receiving FO.
+NOTE: If an outstanding Assistance Request (AR) exists, the assisting DDS office receives
+a notification alert of the FO Determination. The requested DDS will advise the assisting
+DDS office of cancellation of the AR, if applicable. If the DDS sends a closure transaction
+after the FO closes the claim, the closure transaction fails. However, the DDS can
+still add documents and images to the CEF.

@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02408.615 - Automated Electronic Funds Transfer (EFT) Reclamation Requests and Exclusions
+Effective Dates: 07/02/2021 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408615 (fetched 2026-10-04)
+
+C. Process when the system sends an automated reclamation request (E-Stop) to the U.
+S. Department of the Treasury (Treasury)
+1. Title II
+The Title II system orbits the reclamation request to see if the FI returns the payment(s).
+If the FI has not returned the payment(s) within 20 days, SSA sends an automated reclamation
+request (E-stop) to Treasury. The automated reclamation request shows the date of
+death and the outstanding payment(s) after death. Any incorrect payment(s) that the
+FI already returned are not included. The Payment History Update System (PHUS) shows
+the E-stop information sent to Treasury.
+IMPORTANT: The Title II system is limited to processing 50 reclamations through the automated
+system. If there were more than 50 payments issued after the death on a Title II record,
+an exception will be generated to the Processing Center (PC) technician for manual
+action. Reclamation requests for all of the payments must be input manually. For example,
+if there are 75 payments that need to be reclaimed, it will take the technician a
+minimum of two days to process the actions. Day one, payments 1 through 50 may be
+processed, and on day two, payments 51 through 75 may be processed. See Manual EFT
+Reclamation Requests in GN 02408.620C.1. and Non-Entitlement Due to Death Report in GN 02408.660.
+2. Title XVI
+If the FI has not returned the payment(s) within 30 days after the DNE is sent to
+the FI, SSA sends an automated reclamation request (E-stop) to Treasury based on the
+death information and the payment and return information on the Supplemental Security
+Record (SSR). The automated reclamation request shows the date of death and the outstanding
+payments after death. Any incorrect payments that were returned before the death was posted to the SSR are not included. However, a reclamation request does go out even if the payments were returned within the 30 days after the DNE was sent to the FI. The Treasury Status Query (UPTQ) screen shows the E-stop
+information sent to Treasury (see MS 00303.020).
+NOTE: For Title XVI, there is no limit on the number of reclamations that can be sent at one time.

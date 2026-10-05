@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.447 - Coding Iraq Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 03/03/2021 - Present | TN 185 (03-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402447 (fetched 2026-10-04)
+
+G. Example of coding Iraq direct deposit
+The customer provides us with a signup form for Iraq containing the account number:
+IQ98NBIQ850123456789012
+•
+The first character of IBAN is “IQ,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth through eight characters of the IBAN represents the bank code.
+•
+The ninth through eleventh characters of the IBAN represents the branch code.
+•
+The last 12 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 730000118
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “Z” designated for Iraq; and
+•
+Code the 12 digits Account Number “123456789012”
+3. Obtain the following information
+•
+RTN: 730000118
+•
+Checking
+•
+DAN: Z123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000118
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: K123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 730000118
+•
+DAN CZ123456789012

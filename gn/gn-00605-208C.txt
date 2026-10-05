@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 00605.208 - DI Diary and the Redetermination/Limited Issue Process
+Effective Dates: 01/15/2003 - Present | TN 15 (12-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605208 (fetched 2026-10-04)
+
+C. PROCEDURE
+1. Identify Cases Selected for FO Completion of Annual Accounting and Dedicated Account
+Monitoring
+a. Redeterminations
+Regardless of the redetermination profile code (See SI 02305.014), coordinate the redetermination and the annual accounting/dedicated account monitoring
+by reviewing the DIAR segment of a SSID for a DI diary.
+NOTE: FOs should resolve and clear the DI diary with the RZ if development is going to affect
+eligibility or payment amount.
+b. Limited Issues
+Identify the need for limited issue annual accounting/dedicated account monitoring
+development by a profile code of “X” and a unique selection indicator of “Z” in the CRZD segment of a SSID.
+2. Control of Dedicated Account Monitoring Cases Converted to Direct Pay
+The restrictions and monitoring of the dedicated account continue to apply when a
+child remains eligible for benefits after attaining age 18, is converted into direct
+payment, the former payee has maintained the dedicated account, and the funds are
+returned to SSA for direct deposit into a dedicated account solely in the beneficiary's
+name. However, the system cannot identify these cases at this time. For this reason,
+FOs should take the following actions:
+•
+reset the DI diary with a new maturity date before the redetermination or limited
+issue clearance is input to the system. Input a date which is 12 months from the month/year
+the FO deposited the returned funds into the dedicated account; and
+•
+clear the limited issue following the instructions in SM 01501.003.
+EXAMPLE: Former payee returned dedicated account funds on 8/15/ 98. The beneficiary was notified
+of the requirements to establish a dedicated account and the restrictions on the use
+of funds. The beneficiary provided the FO with required bank data, and the FO deposited
+(i.e., established pay flag 5 equals “X” ) the funds into the dedicated account on 10/22/98. The FO sets a future DI diary
+for 10/22/99 following the instructions in SM 01301.230 and clears the limited issue.
+NOTE: The restrictions and monitoring requirements no longer apply when the account is depleted
+or eligibility to benefits terminates.
+NOTE: MONITORING INSTRUCTIONS FOR AGE 18 BENEFICIARIES WILL BE ISSUED AT A LATER DATE.

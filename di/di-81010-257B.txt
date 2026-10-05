@@ -1,0 +1,148 @@
+SSA Program Operations Manual System (POMS) - DI 81010.257 - Electronic Continuing Disability Review (eCDR) Cessation Hearing Appeal
+Effective Dates: 09/01/2026 - Present | TN 93 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010257 (fetched 2026-10-04)
+
+B. FO responsibilities for eCDR ALJ hearings
+An individual may choose to appeal a cessation determination. The individual contacts
+the FO to complete the necessary hearing forms. In order to process the request:
+•
+follow instructions in Request for Administrative Law Judge (ALJ) Hearing DI 12010.001;
+•
+reviews MBR, SSR, and DCF, etc.; and
+•
+develops good cause for late filing per GN 03101.020 Good Cause for Extending the Time Limit to File an Appeal, if appropriate.
+REMINDER: Process requests for continuation of benefits per Processing Statutory Benefit Continuation
+(SBC) DI 12027.010 and obtain an SSA-792 (Statutory Benefit Continuation Election Statement) signed
+by the claimant.
+1. Completing eCDR hearing requests in EDCS
+Process eCDR hearings in EDCS and view them in eView.
+IMPORTANT: When the CDR is a Title XVI only or concurrent, before initiating the eCDR appeal
+in EDCS, the CS must use MSSICS to update the SSID to document the filing of the medical
+cessation appeal as well as the SBC election, if applicable. If Direct SSR update
+is required, the FO can manually enter the required fields in EDCS on the CDR Information
+and Claims Information pages.
+To process the eCDR hearing, EDCS users must open EDCS and establish a record by completing
+the following actions:
+•
+Select CDR Hearing from the Select Case Level screen;
+•
+Select OK button;
+•
+Enter the appeal filing date on the Confirm Case Creation screen, if it did not propagate
+from MSSICCS;
+•
+Select Create Case button;
+Key in the CDR information, the SSA-3367 (Disability Report-Field Office), and the
+SSA-3441 (Disability Report-Appeal) data in EDCS on the Form(s) Selection screen;
+NOTE: The Copy from Prior button in EDCS will be enabled if information is available to
+copy from prior level(s). For more information see Creating Electronic Disability
+Collect System (EDCS) Cases - DI 81010.020E.1.
+•
+Enter the reason for the appeal and limited data similar to the eCDR Initial CDR including:
+a.
+the SSN,
+b.
+claim type,
+c.
+name,
+d.
+address,
+e.
+statutory benefit continuation (SBC) information
+f.
+attorney representative name and address, and
+g.
+representative payee name and address;
+REMINDER: Verify and update the appropriate address, telephone number, and representative
+information on the mainframe before transferring the hearing in EDCS.
+•
+Obtain a paper HA-501 (Request for Hearing by Administrative Law Judge) or written
+statement signed by the claimant and one SSA-827 (Authorization to Disclose Information
+to the Social Security Administration (SSA)). Also obtain an SSA-3881 (Questionnaire
+for Children Claiming SSI Benefits) for SSI childhood disability claims. NOTE: Do not delay sending the eCDR hearing to the HO to obtain an SSA-3881 or an SSA-827;
+•
+Fax the front and back of the HA-501 or written statement signed by the claimant into
+the CEF, then dispose of the form per instructions in Storing Non-Medical Evidence
+in the Certified Electronic Folder DI 81010.135;
+NOTE: For SSI only appeals recorded in MSSICS, the FO may print the appeal request from
+MSSICS and fax a copy into the CEF. If one is provided, fax the SSA-827 to the CEF.
+For more detailed information about SSA-827 requirements for a hearing request, see
+Field Office Instructions for Obtaining Form SSA-827 - DI 11005.057.
+•
+Fax a good cause for late filing statement signed by the claimant into the CEF when
+appropriate;
+•
+Fax medical evidence submitted by the individual with the eCDR hearing request into
+the CEF per Faxing Documents into the Certified Electronic Folder (CEF) Using Barcodes
+DI 81010.090;
+•
+Fax any development regarding Statutory Benefit Continuation (SBC) (for example, Report
+of Contact, SSA-792, and any other documentation per Statutory Benefit Continuation
+(SBC) DI 12027.001 into the CEF. Dispose of the development per Storing Non-Medical Evidence in the
+Certified Electronic Folder DI 81010.135; and
+•
+Mail other forms (SSA-3881 and, SSA-821 (Work Activity Report-Employee), etc.) provided
+for the eCDR hearing to the HO. The HO scans the document into the CEF or sends the
+document to the contract scanner.
+2. Transferring the eCDR hearing in EDCS
+When transferring the eCDR request for hearing, the FO must:
+•
+Review the claim to resolve any edits;
+•
+Select the Transfer/Updates tab in EDCS;
+•
+Answer the paper folder indicator (PFI) question (NOTE: if an electronic CPD is linked
+to the eCDR, the PFI will default to No);
+•
+Ensure Title II Statutory Benefit Continuation (SBC) fields are completed
+•
+Transfer all parts of an eCDR, concurrent or multiple entitlements at the same time.
+•
+Mail all paper folder(s) associated with the case to the hearing office at the time
+of electronic transfer
+NOTE 1: The DCF CDRI screen automatically records the appeal(s) on the DCF after EDCS transfer.
+For more information on transferring the eCDR reconsideration, see MSOM CDR 001.025.
+NOTE 2: The EDCS automatic updates to the DCF are for appeal cases only, the FO must still
+add initial CDR case movement manually or through WAC
+3. Routing the paper folder or documents
+The EDCS routing form generates at the point of transfer if a paper folder is involved.
+(The CR has the option to print or cancel print of the routing form.)
+If a paper CPD folder was used to make the cessation determination:
+•
+Place the SSA-827 and any other relevant documents including medical evidence submitted
+by the individual in the paper folder;
+•
+Print and attach an EDCS routing form to the top of the folder; and
+•
+Send the folder to the HO.
+If the CPD folder is a CEF, attach the EDCS routing form to t any other relevant documents
+including medical evidence submitted by the individual and mail them to the HO.
+Do not print an EDCS routing form if there are no paper documents or forms (for example,
+SSA-827s, SSA-792s, etc.) being sent. For more information on routing SSA-827s, see
+Field Office Instructions for Obtaining Form SSA-827 DI 11005.057.
+4. FO processing of eCDR hearing decisions
+When the FO receives an alert on the EDCS Claims Actions page notifying them of the
+HO decision on an eCDR appeal:
+Title II only cases:
+•
+Review the MBR to ensure the applicable information received from EDCS and the DCF
+updated automatically.
+•
+No Post-entitlement Online System (POS) action is required.
+•
+Verify SBC termination, if applicable.
+•
+Ensure the MBR is updated within 5 days. If the MBR does not update in 5 days, technicians
+should proceed with manual action to update the MBR.
+Title XVI and Concurrent cases:
+•
+Review both the SSID and MBR to ensure medical cessation appeal determination automatically
+posted;
+•
+Verify the SBC benefits have ended for BOTH titled programs
+•
+No POS action is required for the Title II claim.
+•
+Ensure both the MBR and SSID are updated within 5 days. If the MBR and or SSID do
+not update in 3-5 days, technicians should proceed with manual actions to update the
+MBR and or SSID.

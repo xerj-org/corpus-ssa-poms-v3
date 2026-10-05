@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 02301.240 - Whereabouts Unknown (S06)
+Effective Dates: 07/16/2008 - Present | TN 55 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301240 (fetched 2026-10-04)
+
+A. Policy — Eligibility Suspension
+Undeliverable checks, mail, reports of change or a change of address (COA) indicate
+changes in a recipient's circumstances which may affect SSI eligibility or payment
+amount. A suspension of SSI eligibility for “whereabouts unknown” (payment status
+code S06) is proper when we cannot locate a recipient and determine his or her current
+SSI eligibility and correct benefit amount.
+IMPORTANT: Follow the instructions in this section as far as you can to locate a recipient
+before suspending benefits S06. An FO input of S06 in the PS field (or the Payment Status
+Page) or an FO returned check input using the Direct SSR Update in MSSICS will suspend
+SSI. (Note that the system will automatically process a record to S06 when the U.S.
+Treasury Department returns a check for an address reason.)
+NOTE: Do not use S06 for a representative payee address problem. Consider the need for a
+new payee as soon as it appears that a payee is missing or no longer acting on behalf
+of the recipient. Use direct payment when possible, GN 00504.105. Stop payments temporarily (S08) until you can find a new payee if direct payment
+is not permitted. (GN 00504.110).”

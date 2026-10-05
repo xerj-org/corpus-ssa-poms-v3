@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 00203.016 - iAppointments (iAppt)
+Effective Dates: 06/26/2026 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200203016 (fetched 2026-10-04)
+
+C. Internal functionality
+iAppt collects all data necessary to establish a protective filing and an appointment
+in eLAS. This data is not used to update the Integrated Client Database (ICDB), also
+known as CLIENT, until it is verified and it does not automatically correct Person
+Information (PI) or the Numident, when applicable. For more information about verifying
+the information, see GN
+00203.016D.2. in this section. The WKSH screen in eLAS contains the issue of UNVER to document
+that iAppt used “unverified” data to create the protective filing. Until the information
+is verified, corrected where applicable, and the pending issue is “receipted in,”
+this “unverified” data remains isolated from CLIENT. For more information on resolving
+data discrepancies between ICDB and the Internet, see e Internet, see GN
+00204.055H.4.
+1. Appointment types
+eLAS identifies protective filings established through iAppt on the Leads/Protective
+Filing Worksheet by displaying these claim types:
+•
+Retirement (iRIB);
+•
+Medicare only (iHISMI);
+•
+Disability (iDIB);
+•
+Supplemental Security Income Disabled Individual (iSSIDI); and
+•
+Supplemental Security Income Aged Individual (iSSIAI).
+2. eLAS appointment confirmation notices
+eLAS suppresses appointment confirmation notices for appointments made through iAppt
+to prevent unauthorized disclosure of Personally Identifiable Information (PII). Do not send any
+manual notices until the UNVER issue is properly resolved. For more information about verifying the information see GN
+00203.016D.2. in this section.
+3. Appointment rescheduling
+If the claimant wishes to reschedule an appointment originally made using iAppt, they
+must contact SSA. Appointments cannot be rescheduled using iAppt. The first four-appointment
+calendar pages in eLAS offers new appointments, not the fifth calendar. iAppt is the
+only access to the fifth calendar. The process of cancelling or rescheduling an appointment
+on the other calendar pages automatically restores the fifth calendar page’s appointment
+slots.
+4. Language preferences
+If the language preference is not English, iAppt places a remark on the RMRK screen
+in eLAS (**LEP: [language selected] Interpreter Needed**). If the language selected is American Sign Language (ASL),
+then a different remark will be generated on the RMRK screen indicating the user requires
+an ASL interpreter (**Deaf/Hard of Hearing: Sign Language Assistance Needed**). In
+addition, the selection of ASL will generate an email to the FO mailbox indicating
+the need to schedule an interpreter for the appointment. If the FO email is undeliverable,
+iAppt sends an email to the appropriate Area Director’s Office mailbox to ensure the
+FO is notified of the need to schedule an interpreter for the appointment.

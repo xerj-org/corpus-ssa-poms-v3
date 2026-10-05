@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 11036.001 - Amyotrophic Lateral Sclerosis – 5-Month and 24-Month Waiting Periods Waived – Field Office
+Effective Dates: 05/04/2022 - Present | TN 4 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411036001 (fetched 2026-10-04)
+
+B. Initial claims processing
+1. Terminal illness (TERI)
+An allegation or diagnosis of ALS meets the TERI case criteria. Follow TERI procedures
+in DI 11005.601D when processing the claim.
+NOTE: ALS cases are also priority cases under the Quick Disability Determination (QDD)
+and Compassionate Allowances (CAL) processes. For QDD policy see DI 11005.603 and for CAL policy see DI 11005.604.
+2. Electronic Disability Collect System (EDCS)
+Add the “ALS” and “TERI” EDCS flags to the claim prior to sending the case the Disability
+Determination Services (DDS).
+For instructions on EDCS flags, see DI 81010.080B. For EDCS exclusions, use the ALS paper flag available in DI 11036.002.
+3. Modernized Claims System (MCS)
+a. Additional Benefits (ADDB) screen
+Enter “1” (YES) to the question “Will Medicare Apply?” on the ADDB screen.
+Processing an allowance through MCS Earnings Computation (EC) in an ALS case will
+establish the hospital insurance (HI) start date equal to the later of the date of
+entitlement for disability benefit (DOED) or 07/2001. For general information on MCS
+EC processing, see GN 01010.205.
+b. Health Insurance (HIHI) screen
+Enter the appropriate supplemental medical insurance (SMI) election information on
+the Health HIHI screen.
+NOTE: MCS EC will automatically generate a SMI refusal paragraph (HIB152 as described
+in NL 00725.005) advising beneficiaries still in their initial enrollment period (IEP) who refuse
+SMI on their application that they still have a chance to elect SMI if they respond
+timely. However, if they do not respond timely and wish to enroll, they will have
+to wait for a general enrollment period (GEP) or file under the special enrollment
+period (SEP) provision if applicable.
+c. Adjudication through MCS EC
+MCS EC will automatically waive the 5-month and 24-month waiting periods for the claim
+when primary or secondary diagnosis code on the MCS Disability Allowance/Denial (DICL)
+screen equals 3350.
+Typically, the code of 3350 will propagate onto the DICL screen when the DDS makes
+a favorable disability determination based on a diagnosis of ALS. If the diagnosis
+code does not propagate, the FO identifies the code in item of 18 of the SSA-831 (Disability
+Determination and Transmittal) form or electronic equivalent and will manually enter
+the diagnosis code 3350 on the DICL screen.
+NOTE: The FO technician should carefully review the DDS provided diagnosis code in claims
+with ALS involved prior to adjudication and resolve any discrepancies to ensure waiver
+of the waiting period is properly applied.
+d. Exclusions from District Office Final Authorization (DOFA) or MCS EC
+adjudication
+For non-DOFA cases and other MCS EC exclusions, process the award via automated 101
+(A101) or electronic form 101 (EF101). For more information on FO adjudication procedures
+and processing of determinations, see DI 10005.020B.4.

@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.357 - Coding Croatian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 01/06/2023 - Present | TN 256 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402357 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Croatia will have a prefix of 66 at the beginning of the routing
+and transit number (RTN). The first letter of the depositor account number (DAN) field
+has the letter “Q” assigned for Croatia.

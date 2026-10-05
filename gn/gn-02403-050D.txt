@@ -1,0 +1,126 @@
+SSA Program Operations Manual System (POMS) - GN 02403.050 - Unverified Alert Process -- Remittances
+Effective Dates: 08/01/2022 - Present | TN 47 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403050 (fetched 2026-10-04)
+
+D. Procedure - FO
+Upon receipt of the DMS Receipt Alert Listing, the FO should complete steps 1 - 5
+below before contacting the MATPSC RAU. The remittance unit should not be contacted
+unless an image of the check is necessary to clear the unverified alert. In most cases
+the FO can resolve the alert through queries:
+NOTE: Be sure to document the FO investigation using the Remittance ID field of the Correct
+Field Office Receipt (RCFR) screen (Managers should use the Manager Correct/Delete
+FO Receipt (RMCR) screen) or the DMS Remarks screen if additional space is necessary,
+so there is a record of what the FO has done to resolve the discrepancy. For example,
+if the alerted remittance was processed and/or posted to ROAR or the SSR, enter the
+following information:
+•
+Block and item number from the remittance file query display; or
+•
+The date posted to ROAR from the history field for TC 31; or
+•
+The date posted to the Office of Program Development and Research (OPDR) field with
+a TR 1 of HU or HUU.
+If none of the above apply, record that lost check procedures were implemented or
+other action taken and date. The RMKI screen can be used to enter remarks about the
+action taken.
+1.
+Query the receipt numbers contained on the Unverified Listing by entering the Receipt
+Number on the Receipt File Query request screen (RCFR). This screen shows what the
+FO input into DMS. Print the queries for later reference.
+Look at the check number entered for the remittance. Does the check number begin with
+4 digits that represent a Regional Finance Center? The remittance could have been
+a returned benefit check (REASON = B) incorrectly entered as a regular remittance
+(REASON = O). These remittances should have been forwarded to Treasury for processing,
+not to MATPSC, see GN 02401.001.
+If the check was an unendorsed returned benefit check, then go to step 8 to clear
+the unverified alert. If the check was misdirected to MATPSC, they will have forwarded
+the check to Treasury. Otherwise, go to Step 2.
+2.
+If it can be verified that the remittance was processed by reviewing REQD and posted
+to the correct record(s) by reviewing the Master Beneficiary Record (MBR)/ROAR and/or
+Supplemental Security Record (SSR), then go to Step 8 to clear the unverified alert.
+Otherwise, go to Step 3.
+3.
+Query some of the other receipts input on the same Julian date using REQR. You can
+locate other receipts input on the same day by using RFQR and querying by FO code
+and date. (See MS
+01104.003, C and D for more information.) If other items were processed and verified by MATPSC,
+did their Remittance Amounts match those keyed on the Receipt File (RCFR)? It is possible
+that the unverified receipt's remittance was deposited but was accidentally included
+as part of another remittance transaction.
+If none of the receipts input on that day were verified by MATPSC, then go to Step
+9 to begin Lost in Transit procedures (GN 02403.155).
+If the investigation concludes that the remittance was processed but was credited
+to the wrong account according to the MBR/ROAR, RECOOP and /or SSR, then go to Step
+7 to instruct the jurisdictional Program Service Center (PSC) to take corrective action.
+NOTE: Review all available SSRs. Occasionally, remittances are credited to a prior terminated
+SSR (i.e., Record 3 of 5 - 3X5) instead of the most current SSR. When this happens,
+a technician will need to adjust the records (i.e., Create a manual OP on the SSR
+where the remittance is credited to eliminate the B4 underpayment dairy and post an
+N TAC on the most current SSR equal to the amount of the remittance).
+If you can verify that the remittance was processed by reviewing REQR and posted to
+the correct record(s) by reviewing the MBR/ROAR, RECOOP and /or SSR, then go to Step
+8 to clear the unverified alert.
+Otherwise, go to Step 4.
+4.
+Query the Receipt File using RFQR to determine the Number of Accounts originally input.
+It is possible that the Number of Accounts as input by the FO is different than that
+keyed by MATPSC. This could happen if one or more of the FO coupons was misplaced
+or lost either in the FO or once it arrived in MATPSC. This could mean that MATPSC
+credited the remittance to only one account rather than dividing it among multiple
+accounts.
+If you find that the remittance was not credited to all of original accounts, then
+go to Step 7 and instruct the jurisdictional PSC to take corrective action on the
+accounts that were not credited and to reduce the balance of the account that received
+credit for the whole remittance.
+If it is verified that the remittance was processed by reviewing REQR and posted to
+the correct records by reviewing MBR/ROAR, RECOOP and /or SSR, then go to Step 8 to
+clear the unverified alert.
+Otherwise, go to Step 5.
+5.
+Determine if the remittance was suspended. Query the Remittance File again by SSN,
+Name, and receipt Number using the Remittance File Query Request screen (REQR). (See
+MS 01103.023) If the Process code is S then the remittance was suspended; i.e., the remittance
+is on the Suspense File. If the remittance was suspended, it was not posted to the
+programmatic record, and it will not be shown on the Unverified Field Office Receipt
+Alert Listing unless it was received with an incorrect receipt number.
+If the remittance is found on the Suspense File, then go to Step 8 to clear the unverified
+alert, if necessary. The alert can be cleared even though the PSC has not yet removed
+the item from the Suspense File.
+Also, contact MATPSC with the receipt information so that they can take action to
+remove/correct the remittance from the Suspense File, see GN 02403.050E.
+Otherwise, go to Step 6.
+6.
+Query the MBR/ROAR or SSR or RECOOP (as appropriate) to determine if the remittance
+was posted. The remittance could have been posted manually by the PSC.
+If the remittance was posted to the correct account, then go to Step 8 to clear the
+unverified alert.
+Otherwise, go to Step 9 to begin the Lost in Transit procedures (See GN 02403.155).
+7.
+Query the MBR, ROAR, RECOOP and/or SSID to determine exactly what happened to the
+remittance.
+If you can determine there was an error processing the remittance, then contact the
+jurisdictional PSC's Debt Management Section through Modernized Development Worksheet
+(MDW) to request corrective action be taken to manually post the remittance(s) and
+correct the balance of the account(s) that incorrectly received credit for the remittance.
+(See GN 01070.420 and MS
+03901.001).
+NOTE: PC7 does not have a DMS unit. Use DOORS to search by Social Security Number (SSN)
+to find the PSC of jurisdiction.
+If the original account number entered on RFOR is found to be incorrect and does not
+match an existing record on ROAR or the SSR, then the remittance transaction will
+have created a remittance exception to MATPSC. For these items, contact the MATPSC
+Debt Management section rather than jurisdictional PSC.
+Form SSA-666, Adjustment in Trust Fund Accounts, will also need to be prepared by
+the jurisdictional PSC if the error involved a combination of Title II and Title XVI
+accounts.
+Go to Step 8
+8.
+Mark the receipt as verified by the FO Manager through an input to the Manager Clear
+Unverified FO Receipt (RMUR). (See MS
+01104.012). There is no need to keep documentation of the investigation.
+Once the receipt is marked as verified through RMUR, the receipt will no longer appear
+on the Unverified FO Receipt Alert Listing.
+9.
+If the remittance is not found by any of the above steps, the FO should start Lost
+in Transit Procedures to determine if the check was ever negotiated. (See GN 02403.155.)

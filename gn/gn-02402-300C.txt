@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 02402.300 - Coding Canadian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 287 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402300 (fetched 2026-10-04)
+
+C. Description of Canadian Bank Data
+Following is a description of the bank data for Canadian dollar accounts.
+1. MICR Line on a Check
+•
+The printed data (MICR line) at the bottom of a Canadian check consists of four groups
+of digits and special symbols, in the following
+order:
+•
+The check number, usually 3 digits, starting at the left side of the check. This is
+not to be coded for direct deposit. On checks from some banks, this information may be
+between other elements, rather than the first three digits.
+•
+The branch code (or transit number) of 5 digits followed by a dash. The dash is not to be coded for direct deposit.
+•
+The institution code of 3 digits. All Canadian institution codes contain 4 digits,
+but only the final three are shown on the MICR line. The initial zero (which is not
+shown on the MICR line but is shown in the “Direct Payment Routing No.” column in the Canadian Payments
+Association Directory) should never be coded for SSA's IDD to Canada. FRBKC puts in the lead zero automatically. If SSA
+codes a zero before the three-digit institution code, the final digit of the institution
+code will be read by the processor bank as the first digit of the depositor account
+number, and the institution code is read as an incorrect or invalid code. The payment
+will be rejected at the processor bank.
+•
+The Canadian account number, which may contain both digits and dashes. The account
+number dashes should not be coded. However, dashes are
+required for the following exceptions to the rule.
+EXCEPTION:
+The dash before the 7th digit must be coded for a Caisse Populaire account at institution # 815 or 829. All seven digits are shown in the MICR line, but the numbers at the top of the check
+contain the account (“folio”) number followed by the check serial number (check number
+14, for example). The beneficiary usually knows only the portion of the account number
+(folio) that is shown at the top of the check. This information contains no lead zeros
+and no check digit (the seventh digit). To make sure the beneficiary provides complete
+information during a phone interview, the interviewer should ask the beneficiary to
+read first the full MICR line and then the numbers at top right
+NOTE: The account number in the MICR line (following the institution number) may include
+all or a portion of the branch number at certain banks. If so, this must be included
+in the account number coding.
+2. Signup Form for Canada
+The completed Canadian signup form contains the branch code, institution code, and
+account number. It also tells whether this is a Canadian or U.S. dollar account. See
+GN 02402.300G. for an exhibit of the signup form.
+NOTE: No P.O. box addresses are allowed when enrolling individuals in IDD for Canada.
+3. Bank Data Characteristics
+The information in this section is given to help you:
+•
+avoid rejected payments for beneficiaries residing in Canada, and
+•
+correct the problem after a payment to an account in Canada is returned for incorrect
+routing or account information.
+a. U.S. Dollar Accounts
+The following table tells how to recognize a U.S. dollar account at some Canadian
+FIs.
+U.S. DOLLAR ACCOUNTS AT CANADIAN FIs
+INSTITUTION CODE
+FI NAME
+CHARACTERISTIC(S)
+001
+Bank of Montreal
+Account number starts with 4.
+003
+Royal Bank of Canada
+Routing number is 026004093.
+Account number starts with 4 or 8.
+004
+Toronto-Dominion
+The 5th digit of an 11-digit account number, or the 1st digit of a 7-digit account
+number, is 7.
+006
+National Bank of Canada
+The next to last digit is either a 5 or a 6.
+010
+Canadian Imperial Bank of Commerce
+Account number starts with 9, 02, 03, 04, or 05.
+016
+Hong Kong Bank of Canada
+Account number ends with 9.
+039
+Laurentian Bank of Canada
+Account number begins with 85 to 89.
+b. Other Characteristics of Account Numbers
+The following table describes characteristics of account numbers at certain Canadian
+FIs. Payments sent to these FIs will reject if the account numbers do not have these characteristics. However, many Canadian FIs are changing the format of
+their account numbers so that all or a portion of the branch number is coded before
+the actual account number. Information that is given to SSA in this format should
+be coded as given.
+OTHER CHARACTERISTICS OF CANADIAN ACCOUNT NUMBERS
+INSTITUTION CODE
+FI NAME
+CHARACTERISTIC(S)
+002
+Citibank (Scotiabank)
+Must have 7 (or 12) digits. Add zeros in front of the account number to equal 7 digits.
+006
+Banque Nationale du Canada
+(National Bank of Canada)
+Must have 7 digits. Add zeros in front of the account number to equal 7 digits.
+010
+Canadian Imperial Bank of Commerce
+Has 7 or 10 digits. Add zeros in front of the actual account number to equal 7 digits.
+809
+Credit Union Central of British Columbia
+Account number contains 9, 10, or 12 digits.
+815
+La Confédération des Caisses Populaires et D'Économie Desjardins du Québec
+Must have a dash before the 7th digit. Example: 023456-7. If fewer than 7 digits are
+given with no dash before the final digit, do not assume that the final digit is the
+7th.
+828
+Credit Union Central of Ontario Limited
+Must have a dash before the 7th digit. Example: 023456-7. If fewer than 7 digits are
+given with no dash before the final digit, do not assume that the final digit is the
+7th.
+829
+La Fédération des Caisses Populaires de l'Ontario Inc.
+Account number has 10 digits.
+865
+La Fédération des Caisses Populaires Acadiennes Limitée
+Must have 7 digits. Add zeros in front of the actual account number to equal 7 digits.
+Example: 00345-27.

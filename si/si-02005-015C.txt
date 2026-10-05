@@ -1,0 +1,254 @@
+SSA Program Operations Manual System (POMS) - SI 02005.015 - AI Diaries
+Effective Dates: 07/20/2017 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005015 (fetched 2026-10-04)
+
+C. Procedure
+1. Resolving AI Diaries
+a.
+Verify (through a query response) that COLA coordination was applied (that Title II
+income in the CM exceeds total Title II income in the BM).
+b.
+Obtain a query response from the payment history update system (PHUS) for each case
+that meets the above criteria to identify the one-time Title II increase to exclude
+from COLA coordination. (See SM 00630.010 for PHUS query response instructions.)
+c.
+If the PHUS query response is inadequate to identify the amount to exclude from COLA
+coordination, phone the appropriate processing center for a description of the Title
+II benefit. (Use the Overpayment Telephone (OPTEL) procedures in GN 01070.230.) This step is necessary because you cannot assume that the amount subject to COLA
+coordination equals the Title II income in the next month.
+d.
+Reduce the type “A” unearned income for the CM on the supplemental security record
+(SSR) by the amount of the one-time increase to be excluded. This action reduces the
+Title II income used in COLA coordination. If this will make the total Title II income
+in the CM less than the total Title II income in the BM, use the Title II income amount
+in the BM to compute the payment.
+Under “Verified Amount”, on the Social Security Benefit Page in MSSICS, enter the
+ongoing monthly Title II payment amount that includes the increased Monthly Benefit
+Credited (MBC) amounts for January and February. See MSOM INTRANETSSI 014.044 for
+input instructions. Enter “A” as the type in the “TYPE (A, S)” field. For non-MSSICS
+cases, transmit data using SSA-1719B (see SM 01305.280) with the revised type “A”
+unearned income amount.
+e.
+Transmit to the SSR type “ST” unearned income for the excluded amount in the CM. This
+action will prevent the excluded amount from being used in COLA coordination, while
+maintaining the amount of unearned income used to compute the SSI benefit for a later
+month.
+For MSSICS cases, select the “Show Income that is not subject to COLA Coordination”
+check box. Then enter the dates for the “Date from” and “Date To”, and enter in the
+“Amount” field the excluded amount. This will build type "ST" on the SSR. For non-MSSICS
+cases, post unearned income type "ST" and include the notation "T2N0COLACOOR" in the
+claim identification number segment of the unearned income history (UMIH) field on
+the SSR.
+f.
+Suppress the SSI underpayment notice the system would generate (see SM 01301.675)
+and issue a manual notice per SI 02005.015C.3.
+g.
+Delete the AI diary on the MSSICS UDIA screen (MSOM BUSSR 002.019)
+2. Example
+a. Rates
+•
+The FBR in 2002 is $545 per month
+•
+The FBR in 2001 is $531 per month
+b. Title II Income
+Nov
+Dec
+Jan
+Feb
+$350
+$350
+$394
+$360
+c. Amount Excluded from COLA Coordination
+Jan
+$36
+d. Amounts for COLA Coordination
+Nov
+Dec
+Jan
+Feb
+$350
+$350
+$358
+$360
+e. NOTE:
+Title II in January subject to COLA coordination ($358) does not equal the continuing
+Title II amount ($360). This is because the event that caused the $36 one-time increase
+in January also caused a monthly increase starting in February.
+f. CI for January Payment Computation
+$350
+Title II in November
++   8
+January Title II subject to COLA
+coordination-November Title II
+$358
+- 20
+General exclusion
+$338
+CI
+g. January Payment Computation
+$545
+FBR
+- 338
+CI
+$207
+Payment
+h. CI for February Payment Computation
+$350
+Title II in December
++10
+February Title II - December Title II
+$360
+- 20
+General exclusion
+$340
+CI
+i. February Payment Computation
+$ 545
+FBR
+- 340
+CI
+$ 205
+Payment
+j. March Payment Computation
+$ 545
+FBR
+- 374
+CI from January ($394-$20 general exclusion)
+$ 171
+Payment
+k. Summary
+The one-time Title II increase of $36 in January (as part of the $394) does not affect
+the benefit for January. It only affects the benefit for March.
+3. Manual Notice Requirement
+NOTE: Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+alleges being blind or visually impaired.
+a. Prepare Manual Notice
+A system-generated notice would incorrectly tell the person they are due more SSI
+based on a lower Title II income amount than they received, and “other income” they
+never received.
+Complete an SSA L8100-U2, “SSI Notice of Change in Payment,” following the guidelines
+in NL 00803.005. Use the sample paragraph and fill-ins in b. below in explaining the underpayment.
+b. Underpayment Paragraph Fill-ins
+“The reason we are sending (1) this money is that we counted too much of the Social
+Security benefits (2) got in (3) when we figured (4) SSI payment. We counted (5),
+when we should only have counted (6).”
+Fill-ins:
+(1)
+Choice 1 - you
+Choice 2 - them
+(2)
+Choice 1 - you
+Choice 2 - you and your spouse
+Choice 3 - they
+(3)
+the computation month (January or February) and year
+(4)
+Choice 1 - your
+Choice 2 - their
+(5)
+$$$.00 (amount of Title II income in the computation month)
+(6)
+$$$.00 (amount of Title II income used to compute the payment)
+4. SSI Notice of Change in Payment
+Social Security Administration
+Supplemental Security Income
+Notice of Change in Payment
+Office Address:
+Office Hours:
+Telephone Number:
+Social Security Number
+Date:
+CLAIMANT'S NAME
+STREET ADDRESS
+CITY/STATE ZIP CODE
+Dear Mr(s)____________
+*Type of Payment*
+Individual—Disabled
+We are writing to tell you about changes in your Supplemental Security Income payments.
+The following chart shows the SSI money due you for the months we changed. As you
+can see from the chart, we are only changing your payments for months in the past.
+The rest of this letter will tell you more about this change.
+Your Payments Will Be Changed As Follows:
+From Through Amount Due
+Each Month
+Information About Your Payments
+This action does not change your current payment amount.
+See Next Page
+SSA-L8100
+Page 2 of 4
+Your Payment Is Based On These Facts
+You had monthly income, which must be considered in figuring your eligibility as follows:
+•
+Your Social Security benefits— before deductions for Medicare premiums, if any— of
+$xxx.xx for November 2000 through December 2000 and $391.00 for January 2001.
+•
+Your wages of $xx.xx for November 2000, $xxx.xx for December 2000 and $xxx.xx for
+January 2001.
+You Can Review The Information in Your Case
+The decisions in this letter are based on the law. You have a right to review and
+get copies of the information in our records that we used to make the decisions explained
+in this letter. You also have a right to review and copy the laws, regulations and
+policy statements used in deciding your case. To do so, please contact us. Our telephone
+number and address are shown under the heading "If You Have Any Questions."
+Things To Remember
+•
+We may be in touch with you later about any payments we previously made.
+•
+This decision refers only to your claim for Supplemental Security Income payments.
+•
+This determination replaces all previous determinations for the above periods.
+If You Disagree With The Decision
+If you disagree with the decision, you have the right to appeal. A person who hasn't
+seen your case will look at it. That person will be an Administrative Law Judge. In
+the rest of our letter we'll call this person an ALJ. The ALJ will correct mistakes
+and look at any new facts you have before deciding your case. We call this a hearing.
+•
+You have 60 days to ask for a hearing.
+•
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show us that you did not get it within the
+5-day period.
+•
+You'll have to have a good reason for waiting more than 60 days to ask for a hearing.
+•
+You have to ask for a hearing in writing. We'll ask you to sign an SSA form HA-501,
+called "Request for Hearing." Contact one of our offices if you want help.
+SSA-L8100
+Page 3 of 4
+How A Hearing Works
+A hearing works like this.
+•
+The ALJ will tell you the time and place for the hearing.
+•
+The ALJ will explain the law in your case. The ALJ will state the known facts and
+tell you what has to be decided.
+•
+You can tell the ALJ why you think we're wrong. You can give the ALJ more facts. And
+you can bring people to say why you're right.
+•
+The ALJ can make people come to your hearing and bring important papers. You can question
+these people at your hearing.
+•
+We'll ask if you want to go to the hearing in person. If you say you want to go, you
+should attend if at all possible. If you change your mind or if you can't get to the
+hearing, you should tell us. You should know that your being there may help the ALJ
+decide your case.
+If You Want Help With Your Hearing
+You may want help from a friend, lawyer or someone else. There are groups that can
+find you a lawyer. Some can give you a free lawyer. We can give you the names of these
+groups.
+If You Have Any Questions
+For general information about Supplemental Security Income, visit our website at www.ssa.gov
+on the Internet. There, you will also find the law and regulations about Supplemental
+Security Income eligibility and SSI payment amounts.
+For general questions about SSI or specific questions about your case, you may call
+us toll-free at 1-800-772-1213, or call your local Social Security office at 1-508-427-5386.
+SSA-L8100
+Page 4 of 4
+If you call or visit our office, please bring this letter with you and ask for (CR).
+If you plan to visit an office, you may call ahead to make an appointment. This will
+help us serve you more quickly when you arrive at the office.
+Signature
+Office Manager
+SSA-L8100

@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 45605.001 - Amyotrophic Lateral Sclerosis - Waiting Periods Waived - Processing Center
+Effective Dates: 09/14/2016 - Present | TN 2 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445605001 (fetched 2026-10-04)
+
+F. Procedure - Post-entitlement processing Claimant currently within Serving 24-month
+Medicare waiting period who is now alleging ALS
+1. General post entitlement processing
+Send all fully favorable and partially favorable determinations that are EDCS exclusions
+from the DDS to the PC in a brown folder with an ALS coversheet (as exhibited in DI 11036.002) to clearly identify the case. The brown folder must include the completed form SSA-833-U3
+establishing ALS onset during the applicable waiting period.
+Send an unfavorable determination due to ALS after expiration of the 5-month DIB and
+24-month Medicare waiting period from the DDS to the PC for Manual Adjustment Credit
+and Award Data Entry (MACADE) input to update the DIG and SDIG to 3350 and the medical
+re-exam diary to 7 years to reflect a disability of ALS, see DI 23580.001
+Send an unfavorable determination when the claimant is not found to have ALS from
+the DDS to the field office (FO) for the appeals period.
+2. Receipt coding
+Receipt ALS cases in which the diagnosis changed during the Medicare waiting period
+as continuing disability review (CDR) cases;
+Enter CDR cases in the PC using the designations Type of Event Level (TOEL) 1 HISMI
+and TOEL 2 MISC ; then
+Forward the cases to the claims authorizer.
+3. Claims authorizer (CA)
+a. Fully Favorable and partially favorable ALS determinations
+•
+If the ALS onset date is later than the original disability onset date on the MBR,
+input special message ALS onset date MM/DD/YY - Medicare entitlement begins MM/YY.
+Query the disability control file (DCF) to determine the DIG and SDIG codes.
+•
+If the DIG or SDIG code on the DCF is 3350 (ALS), prepare an SSA-559 routing form
+to reflect the changed entitlement based on the ALS determination (e.g., DOED and
+Medicare entitlement month equal to ALS onset month) and then forward the case to
+the benefit authorizer (BA) for MACADE processing.
+•
+If the DIG or SDIG code on the DCF is other than code 3350 (ALS), prepare an SSA-559 routing form to reflect any changed Medicare
+and DIB entitlement (i.e., DOED and Medicare entitlement month equal to ALS onset
+month). Forward the case to the Disability Case Review Specialist (DCR) or the disability
+examiner (DE), as appropriate. Instruct the DPS/DE to correct the DIG and SDIG to
+3350 on the DCF, and send the case to the benefit authorizer (BA) for the necessary
+Medicare and DIB entitlement MADCAP action.
+b. Unfavorable ALS determinations
+Consider claimants found to have ALS after the 5-month DIB and 24-month Medicare waiting period has expired as unfavorable ALS
+determinations.
+The DDS sends these unfavorable determinations to the PC to update diagnosis and medical
+diary coding only, (waiver of the Medicare waiting period does not apply). No PC notice is required.
+•
+If the DIG and SDIG code on the DCF is 3350 (ALS), forward to the benefit authorizer
+(BA) via SSA-559 routing form and instruct the BA to update the DIG snd SDIG to 3350
+(ALS) and the medical re-exam diary to 7 years.
+•
+If the DIG and SDIG code on the DCF is other than 3350 (ALS), forward the case to the Disability Case Review Specialist (DCR)
+or the disability examiner (DE). Instruct the DPS/DE to correct the DIG and SDIG to
+3350 on the DCF and send the case to the benefit authorizer (BA) to update the DIG
+and SDIG to 3350 and the medical re-exam diary to 7 years.
+NOTE: Do not remove the ALS coversheet. Keep it in file.
+4. Benefit Authorizer (BA) responsibility
+Input the change in Medicare entitlement per MADCAP processing instructions.
+Update the DIG or SDIG to 3350 (ALS) and update the medical re-exam diary to 7 years.
+Send a Medicare notice via MACADE for fully favorable and partially favorable ALS
+determinations. Do not send a notice for unfavorable ALS determinations (i.e., no
+ALS onset established within the 24-month Medicare waiting period).
+Remove the ALS coversheet if all actions are complete.
+5. Notices
+a. Fully favorable determination
+In fully favorable determinations, the PC issues a DIB and Medicare entitlement notice
+via MACADE.
+DDS does not send a notice.
+b. Partially favorable determination
+In partially favorable determinations, i.e., onset of ALS is established later than
+alleged but still within 5-month DIB or the 24-month Medicare waiting period, the
+DDS sends a notice with appeal rights to the claimant including personalized disability
+language.
+The PC issues a separate notice via MACADE.
+c. Unfavorable Determination
+In unfavorable determinations, the DDS sends a denial notice with appeal rights.
+The PC does not send a notice.

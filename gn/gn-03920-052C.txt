@@ -1,0 +1,159 @@
+SSA Program Operations Manual System (POMS) - GN 03920.052 - Pursuing Recovery of Excess Fees Paid to Representatives or Entities and Referrals for Ineligible for Direct Payment Entity (IDPE) List
+Effective Dates: 01/29/2025 - Present | TN 66 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203920052 (fetched 2026-10-04)
+
+C. FO and PC instructions for recovering excess fee payments made to an entity
+1. Confirm that the excess fee meets the conditions for pursuing recovery from an entity
+When FO or PC technicians identify a potential excess fee issue, they must first ensure
+that the excess fee is one for which we will pursue recovery and that the excess fee was paid to the entity.
+For more information on the circumstances under which we will pursue recovery of an
+excess fee, see GN 03920.051B.
+2. Issue a notification of collection action to the entity’s POC, document the situation,
+and related procedures.
+If the excess fee issue meets the criteria for pursuing recovery and the fee in question
+was paid to an entity, the technician issues a Notification of Collection Action to
+Entity (MAO104). This notice can be created using the Document Processing System (DPS)
+or AURORA, and it should be addressed to the entity’s POC.
+The technician then documents the situation in RASR by recording an ROC in the Appointment-Related
+Report of Contact (ROCD) screen for each appointment associated with the excess fee
+issue. In cases involving multiple representatives, technicians must ensure that an
+ROC is created for each representative associated with the excess fee payment, even
+if they all assigned direct payment to a single entity.
+The ROC should include the following information:
+•
+The name and Employer Identification Number (EIN) of the entity involved;
+•
+The name and Rep ID of the entity’s POC;
+•
+The names and Rep IDs of any representatives involved, their dates of appointment,
+and the date(s) they assigned the right to direct payment of their fee to the entity,
+if applicable;
+•
+The amount of the excess fee payment;
+•
+The fee process involved (fee petition or fee agreement);
+•
+The past-due benefit period and amount (include amounts for the claimant and any affected
+auxiliaries);
+•
+The date of the fee authorization; and
+•
+A brief description of the excess fee issue.
+The technician then establishes the excess fee in the appropriate system and sets
+a 30-day diary to follow up on the refund request. For more information on establishing
+an excess fee and setting a diary, see GN 03920.052.B.6. and GN 03920.052.B.7.
+REMINDER: When following the instructions in GN 03920.052.B.7. to set a diary for entity-related fee issues, technicians must set a 30-day
+diary, not a 45-day one.
+3. Follow-up after the initial diary expires
+Once the initial 30-day diary has expired, the technician queries RASR and any other
+relevant system (e.g., DMS, MBR, MDW, PCACS) to determine whether the entity has refunded
+the entire excess fee.
+•
+If the entity has refunded the entire excess fee payment, the technician creates a
+new ROC in RASR for each related representative to reflect that full payment of the
+excess fee has been received.
+•
+If the entity has not refunded the entire excess fee payment, the technician proceeds
+to step 4.
+4. Issue a final notification of collection action to the entity’s POC and establish
+a second diary
+If the entity has not refunded the full excess fee payment by the expiration of the
+first 30-day diary, the technician issues a second, final recovery notice, Final Notification
+of Collection Action to Entity (MAO105). This notice can be created using DPS or AURORA,
+and it should be addressed to the entity’s POC.
+The technician then creates a new ROC in RASR for each related representative and
+sets a new 30-day diary to follow-up on the refund request. The technician reviews
+the prior ROC and ensures that the information listed in GN 03920.052C.2. was included in that ROC. If any information is absent, or if there is no prior
+ROC, the technician will include that information in the new ROC.
+In addition, the technician adds the following information:
+•
+The amount of the excess fee payment that has been refunded, if applicable;
+•
+The amount that has not yet been remitted.
+•
+The date the initial notification of collection action was issued; and
+•
+Any other relevant information related to the fee recovery process, including whether
+the entity’s POC has contacted us.
+5. Follow-up after the second diary expires
+Once the final 30-day diary has expired, the technician queries RASR and any other
+relevant system (e.g., DMS, MBR, MDW, PCACS) to determine whether the entity has refunded
+the entire excess fee.
+•
+If the entity has refunded the entire excess fee payment and RASR already contains
+ROCs documenting this for each related representative, the technician clears any pending
+diaries and takes no further action.
+•
+If the entity has refunded the entire excess fee payment, but RASR does not contain
+ROCs for each related representative documenting this, the technician creates an ROC
+for each related representative to reflect that the full payment of the excess fee
+has been received. The technician then clears any pending diaries.
+•
+If the entity has not refunded the entire excess fee payment, or has refunded only
+part of it, the technician proceeds to step 6.
+6. Refer the Entity-related Fee Issue to the IDPE Coordinator Group
+If the entity does not refund the full excess fee by the expiration of the second
+diary, the FO or PC technician should consult their manager for a potential referral
+to the IDPE Coordinator Group.
+The manager will confirm that:
+•
+We issued to the entity's POC both the "Notification Action to the Entity" and the
+"Final Notification of Collection Action to the Entity";
+•
+At least 30 days have passed since we issued the "Final Notification of Collection
+Action to the Entity"; and
+•
+We have not received a full refund of the excess fee.
+If the conditions above are met and the manager approves, the manager will:
+•
+Refers the entity to the IDPE Coordinator Group by sending an email to the IDPE Coordinator
+Group Mailbox. See the example email below.
+•
+Creates an ROC in RASR for each related representative with the following message
+“IDPE Referral made on [insert date].”
+•
+Closes any open diaries.
+The subject line of the referral email should be “IDPE Referral for [Entity name and
+EIN].
+The body of the email may be formatted as follows:
+Re: [Claimant Name and SSN]
+Good [Morning/Afternoon],
+We are referring [Entity Name, EIN] for potential action by the IDPE Coordinator Group.
+An excess fee of [Full Excess Fee] was paid to this entity on [Fee Payment Date].
+Based on the criteria in [Cite the applicable recoverable excess fee provision in
+GN 03920.051B], we identified this payment as an excess fee requiring recovery.
+We sent collection notices to the entity’s POC on [Date of First Collection Notice]
+and [Date of Final Collection Notice], but as of today, [Remaining Excess Fee] remains
+unremitted. Please see the information below for more details.
+[Include any information that is relevant to recovering the excess fee. This includes
+but is not limited to:
+•
+The claimant’s SSN and name;
+•
+The name and EIN of the entity involved;
+•
+An explanation of the excess fee payment;
+•
+The dates of the first and final notice collections notice; and
+•
+Any information that should have been documented in RASR ROCs, but was not. For more
+information, see subsection GN 03920.052C.2 and GN 03920.052C.4., above.
+Once the referral has been submitted, the IDPE Coordinator Group will not generally
+provide updates to the referring office. However, the IDPE Coordinator Group may contact
+the referring office as needed to resolve any question related to the referral.
+7. Responding to excess fee-related inquiries received after the issue has been referred
+to the IDPE Coordinator Group
+If an FO or PC technician receives an inquiry from an entity’s POC about an issue
+that relates to the IDPE list or other excess fee-related matters, the technician
+may access the IDPE list in RASR for information on an entity’s status and any unresolved
+fee issues.
+Technicians may provide any necessary information needed to resolve the excess fee
+matter, including but not limited to:
+•
+Claimants’ SSN;
+•
+IDPE status;
+•
+Ineligibility Start or End Date; and
+•
+Amount Owed.

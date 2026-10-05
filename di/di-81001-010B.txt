@@ -1,0 +1,206 @@
+SSA Program Operations Manual System (POMS) - DI 81001.010 - Commonly Used Acronyms and Terms in the Electronic Disability Guide (eDG)
+Effective Dates: 01/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481001010 (fetched 2026-10-04)
+
+B. Terms
+1. Case
+In the CEF, a case contains the following:
+•
+Adjudicative levels (Initial, Reconsideration, Hearing) for a single filing;
+•
+Claims the individual filed at that time; and
+•
+Data for each level.
+Development information, such as medical records, eForms, and Disability Determination
+Services (DDS) worksheets, is stored at each case level (Initial, Reconsideration,
+Hearing, etc.). A case can contain one or more claim type (Title II and/or Title XVI
+claim).
+2. Certified Electronic Folder (CEF) Cases
+If all claims for a case are established in EDCS there is a CEF. A paper folder is
+not created. The CEF:
+•
+Houses all documentation and evidence (medical and non-medical) needed to support
+the disability determination;
+•
+Collects information from SSA and DDS case processing system uploads and external
+sources (e.g., medical providers, claimants, representative, third parties, etc) using
+scanning, faxing or Electronic Records Express transport technologies;
+•
+Allows components to share disability case information without moving a paper folder
+among components;
+•
+Replaces the paper Modular Disability Folder (MDF).
+•
+Is not a case processing system.
+NOTE: The CEF is not the same as the electronic file used by the processing centers in
+their Paperless Processing Center (PPC) system to process disability actions. For
+more information on the CEF, see Certified Electronic Folder (CEF) Overview - DI
+81001.005.
+3. Claim
+A claim:
+•
+Represents the type of Title II or Title XVI disability benefits for which the claimant
+has filed; and
+•
+Is linked to a case.
+A case may contain more than one claim. Determination information (i.e., the decision
+notice, SSA-831, etc.) and closure data are stored at each adjudicative claim level.
+4. Contract Scanning
+Contract scanning is performed by a national scanning contractor to convert paper
+documents into electronic images that are stored in the CEF. For details, see Contract
+Scanning Procedures - DI 81020.045.
+5. Disability Case Adjudication and Review System (DICARS)
+DICARS is a system used by Office of Quality Performance (OQP) to:
+•
+Support processing functions; and
+•
+Track, process, report and transmit payment determinations.
+6. Document Management Architecture (DMA)
+DMA is the hardware and software used to create an object repository for storage and
+retrieval of electronic images used to create the CEF. DMA addresses SSA’s needs for
+document image:
+•
+Capture;
+•
+Indexing;
+•
+Routing;
+•
+Storage Retrieval; and
+•
+Management.
+Documents that were formerly stored in the paper folder as medical records, forms,
+audio cassettes, etc. are housed in the DMA, as well as eForms.
+7. DMA Viewer
+The DMA viewer is software that allows users to review, bookmark, and annotate documents
+in the CEF.
+Users access the DMA Viewer is accessed when opening a document in eView from the
+FO, DDS, Office of Disability Adjudication and Review (ODAR), or OQA legacy systems.
+8. Electronic Disability (eDib)
+eDIB is a business process that enables all disability claims adjudication components
+to electronically process cases with a CEF.
+9. Electronic Disability Collect System (EDCS)
+EDCS is an automated system that the FO’s use to:
+•
+Electronically collect information about a person's disabling condition;
+•
+Transfer data to the CEF; and
+•
+Replace the paper disability forms SSA-3367, SSA-3368, SSA-3820, and SSA-3441.
+For more information, see EDCS Overview - DI 81010.005.
+10. EDCS Folder Number
+The EDCS Folder Number is a unique identifying number that is assigned to a case when
+the FO creates it in EDCS. It appears on the EDCS routing form which is automatically
+generated in the FO and mailed to the receiving component when a case is transferred
+successfully. Using this number to search for a case takes the user directly to the
+case.
+11. Electronic Folder (EF)
+The EF is SSA’s electronic disability repository that stores the claimant’s disability
+file information. Although the EF exists, the official folder must be paper.
+12. Electronic Folder Interface (EFI)
+EFI is an interface between the CEF and the case processing systems which enables
+transactions that allow:
+•
+Messages and alerts to be sent to case processing systems;
+•
+Electronic cases to be transferred between processing locations and closed when processing
+is complete; and
+•
+Case processing systems to electronically send data to the CEF when case processing
+actions are complete.
+13. eForms
+The eForms software is an integrated package of forms used to document case related
+actions. It provides:
+•
+Data propagation from the case processing system to the eForm; so users do not have
+to reenter information.
+•
+The ability to electronically complete and sign forms; and
+•
+The ability to save eForms to the CEF as images.
+14. Electronic Records Express (ERE)
+ERE is the process in which medical sources, attorneys, and other third parties, etc.
+provide medical records to SSA in electronic format via the secure eData Services
+website located at http://www.ssa.gov/gso/gsowelcome.htm.
+15. eView
+eView is the way users access the CEF. It enables users involved in case processing
+to view and work within the CEF. For more information on eView, see eView Overview
+- DI 81005.005.
+16. Faxing
+Faxing is a process the DDS, FO and ODAR use to fax and index paper documents into
+the CEF.
+17. Front End Capture System (FECS)
+FECS is a component of the DMA software that captures and processes imaged documents
+and stores them based on the document type.
+18. Legacy Systems
+Legacy systems are the case processing systems used by SSA and DDS components to initiate,
+develop, review, and process disability determinations.
+DDS Legacy Systems include:
+•
+iLevy;
+•
+VERSA;
+•
+MIDAS;
+•
+The Analyst Case Processing System (ACPS) used by the New York DDS; and
+•
+The Cornhusker System used by the Nebraska DDS.
+SSA Legacy Systems include:
+•
+Modernized Claims System (MCS);
+•
+Modernized Supplemental Security Income Claims System (MSSICS);
+•
+Electronic Disability Collect System (EDCS)
+•
+Disability Case Adjudication and Review System (DICARS); and
+•
+Case Processing and Management System (CPMS)
+•
+Manual Adjustment, Credit and Award Direct Entry (MACADE)
+19. Meta-Data
+When a section in the Case Document Tab of eView is expanded, the column headers pertaining
+to documents in that section are displayed above the summary information about each
+document. This summary information is called meta-data.
+20. Modular Disability Folder (MDF)
+The MDF is the paper folder used to store evidence for processing disability determinations
+at all levels (appeals, post-entitlement actions, and storage) for all paper and non-certified
+electronic cases. For more information on the MDF, see General Overview of the MDF
+- DI 70005.005.
+21. Paper Cases
+The Modular Disability Folder (MDF) is the official folder for paper cases. Paper
+cases are created when a case:
+•
+Is a CEF Exclusion (see Certified Electronic Folder (CEF) Exclusions - DI 81010.030); or
+•
+A processing limitation occurs that removes a CEF from the electronic process leaving
+an Electronic Folder.
+Cases may originate as a CEF case at prior levels, but may require conversion to paper
+cases for various reasons
+22. Onsite Scanning
+On-site scanning is a process used by DDS and ODAR to scan and index paper documents
+into the CEF. For more information, see Onsite Scanning Procedures - DI 81020.050.
+23. Record of Change (ROC)
+A ROC:
+•
+Provides a history of changes made to the CEF and the information that was affected;
+•
+Shows the viewer the information in the CEF immediately prior to the change; and
+•
+Records who made the change and when the change was made.
+If a ROC exists on the case, eView will display a ROC folder icon. Selecting the ROC
+folder icon will display a list of ROC that have been recorded on the case
+For more information, see Case Data Tab - DI 81005.045.
+24. Scanning Contractor
+The scanning contractor is contracted by SSA to convert paper evidence into electronic
+images that are stored in the CEF. For more information, see Contract Scanning Procedures
+- DI 81020.045.
+25. Structured Data Repository (SDR)
+SDR is the information collected in EDCS which resides in a fixed database or field.
+26. Source Reference File (SRF)
+The SRF is a state-specific EDCS database of medical sources used by the FO to complete
+disability reports. For more information, see Source Reference File (SRF) - DI 81010.040.
+27. Trailer Material
+Trailer Material is any evidence received after a disability determination is made
+and the case is closed. For more information, see DI 81020.135 – Trailer Material and Receiving Medical Evidence of Record (MER) - DI 81010.125.

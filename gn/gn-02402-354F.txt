@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 02402.354 - Coding Egypt Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 02/13/2018 - Present | TN 256 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402354 (fetched 2026-10-04)
+
+F. Example of coding Egyptian direct deposit
+The customer provides us with a signup form for Egypt containing the following account
+number: "EG380019000500000000263180002"
+•
+The first character of IBAN is “EG,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth through eight characters of the IBAN represents the bank code.
+•
+The ninth through twelve characters of the IBAN represents the branch code.
+•
+The last 17 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code the prefix of 66 (the multi-country prefix for Egypt);
+•
+Code the two filler zeros “00”;
+•
+Code the four-digit bank code of “1004” based on FI name (see the listing in GN 02402.354G of Egyptian bank codes);
+•
+Code the one-digit check code, which is 8 in this example (obtained from the Title
+II interactive Comps from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no indicated
+account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “P” designated for Egypt; and
+•
+Code 16 digits of the 17-digit Account Number “0000000026318000”
+3. Obtain the following information
+•
+RTN: 660010048
+•
+Checking
+•
+DAN: P0000000026318000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660010048 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: P0000000026318000
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660010048
+•
+DAN- CP0000000026318000

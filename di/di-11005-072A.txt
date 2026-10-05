@@ -1,0 +1,154 @@
+SSA Program Operations Manual System (POMS) - DI 11005.072 - Field Office Disability Claims Process of Statutory Blind Allowances
+Effective Dates: 04/02/2026 - Present | TN 133 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005072 (fetched 2026-10-04)
+
+A. Title II and Title XVI statutory blindness allowances
+For statutory blind (stat blind) allowances, be alert to the following data.
+1. Diagnosis and listing codes for stat blind
+As of December 1, 2012, identify a favorable stat blind determination or decision
+by the following diagnosis and medical listing codes:
+•
+Diagnosis code (DIG) 3694, and
+•
+Medical listing code 2.02 or 2.03A for adults and 102.02A, 102.02B, or 102.03A for
+a disabled child.
+Prior to December 1, 2012, cases do not have this diagnosis code. Identify stat blind
+claimants on the SSA-831 (Disability Determination and Transmittal) or the SSA-833
+(Cessation or Continuance of Disability or Blindness Determination and Transmittal)
+by the medical listing codes in DI 11005.072A.1. in this section.
+2. Title XVI disability claim allowed and Title II disability claim technically denied
+Be alert to situations where there is a:
+•
+Title XVI stat blind allowance; and
+•
+Title II is technically denied for lack of insured status (090 denial code).
+If the field office (FO) discovers the Title XVI claimant meets stat blind insured
+status, reopen the denial and send the Title II claim to the Disability Determination
+Service (DDS) for a stat blind determination.
+IMPORTANT: Do not apply collateral estoppel.
+3. Verify correct inputs
+DDS determination propagates into the appropriate Modernized Claims System (MCS) screens
+and Title XVI data fields. Contact DDS if there is a question regarding the determination.
+For stat blind allowances, determination data propagates to the following screens:
+a.
+MCS DISABILITY ALLOWANCE/DENIAL (DICL) screen:
+•
+3694 DIG code,
+•
+Y stat blind indicator on DICL screen, and
+•
+An adjusted blind onset date (ABOD) if the claimant ceased substantial gainful activity
+(SGA) after onset of stat blindness.
+b.
+Title XVI Disability Clearance Data page:
+•
+3694 DIG,
+•
+Claimant is Blind (Y): Y,
+•
+if applicable, ensure the multi-category eligibility coded,
+•
+the Supplemental Security Record (SSR) individual recipient identification field (ID)
+will update to BI, BS, or BC. If the TMR is not changed, contact DDS for clarification.
+For Title XVI disability claims, enter blind work expenses (BWEs) as applicable on
+the Work Expenses-Blind Work Expenses intranet page and the Work Expenses- Impairment
+Related Work Expenses intranet page.
+For information on the screens referenced, see MSOM MCS 009.005, MSOM INTRANETSSI
+014.032 Work Expenses - Blind Work Expenses, and MSOM INTRANETSSI 014.033 Work Expenses
+- Impairment Related Work Expenses.
+REMINDER: Effective December 1, 2012, use 3694 DIG code in all stat blind allowances.
+NOTE: The DDS blind allowance determination for Title XVI updates the type of case indicator
+in the type of master record (TMR) and ID fields of the SSR from disabled to blind.
+If the TMR and ID fields do not update correctly, review the SSA-831, and contact
+DDS to correct the determination and input.
+4. Form SSA-831 in Title II and Title XVI stat blind allowances
+Situations may arise where the FO must review the DDS determination on the SSA-831.
+To identify a stat blind allowance on the SSA-831, depending on the details of the
+claim (Title II or Title XVI, adult or child, SGA or work comparability), DDS may
+annotate the following items:
+ITEM
+TITLE II
+TITLE XVI
+7
+FZ for blind freeze-only claims
+8
+BI, BS, or BC
+15A
+Stat Blind onset date unless there is another impairment with an earlier onset
+Left blank for blind only determinations
+If the non-blind onset date is before the blind onset date, item 15A shows the earlier
+onset date.
+16A or 16B
+3694 diagnosis code
+3694 diagnosis code
+18A
+Blind freeze only, NH continues to:
+engage in substantial gainful activity (SGA)
+or
+engage in comparable SGA (Age 55 or over)
+18B
+Under age 55 and:
+Unable to engage in SGA continuously.
+or
+Unable to engage in SGA for a continuous period of at least 12 months, but regained
+the ability to engage in SGA no more than 14 months before the month of filing.
+Age 55 or over and:
+Unable to engage in any SGA after the date in item 15.
+or
+Engaged in comparable SGA after the date in item 15 but subsequently stopped working.
+or
+Engaged in comparable SGA after the date in item 15 and subsequently changed to non-comparable
+SGA.
+or
+Unable to engage in comparable SGA for a period of at least 5 full calendar months
+but regained ability to engage in comparable SGA no more than 14 months before the
+month of filing.
+or
+Continued to engage in non-comparable SGA after the date shown in Item 15A. If so,
+the date shown is the first day of the latest of:
+a.
+The month of attainment of age 55;
+b.
+The first month of the 17-month period before the month of filing the application;
+or
+c.
+The first full month that the claimant met the statutory definition of blindness.
+Title XVI claimant found stat blind
+Date entered will be one of the following:
+Date of filing
+or
+Exact onset, if after month of filing
+or
+Exact date of medical onset if onset earlier than the month of filing.
+19
+Block A is checked when:
+•
+The claimants insured status expires after the date of adjudication and disability
+or blindness is not established through the date of the current determination.
+or
+•
+For a closed period case, when the period of disability ends earlier than the 14th
+month before the month of filing.
+DDS marks Block B when the claimant is found not disabled or blind on or before the
+date last insured (DLI) and the DLI is before the date of the current determination.
+DDS marks Block C in all childhood disability benefit (CDB) over age 55 cases.
+DDS will check Block A when disability or blindness cannot be established.
+22
+A1
+A61
+23
+2.02 or 2.03A for adults
+102.02A, 102.02B, or 102.03A for children
+2.02 or 2.03A for adults
+102.02A, 102.02B, or 102.03A for children
+34
+•
+Two onset dates established (one for disability and one for blindness);
+•
+Item 18 completed;
+•
+Item 27 completed or
+•
+For additional examples of when DDS annotates this field, see DI 26510.095.
+Remarks entered as appropriate. For additional examples of when DDS annotates this
+field, see DI 26510.095.

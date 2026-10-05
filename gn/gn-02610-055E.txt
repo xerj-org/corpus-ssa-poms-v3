@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - GN 02610.055 - Processing Administrative Law Judge (ALJ) Decisions in the Processing Center (PC) when Windfall Offset May be Involved
+Effective Dates: 02/22/2012 - Present | TN 34 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610055 (fetched 2026-10-04)
+
+E. CA/CTE procedure for processing Title II-only ALJ decisions when Title XVI claim is
+denied and not appealed
+If the claimant received a denial notice for the Title XVI claim, and did not file
+a timely appeal, no Title XVI payment is due. If the ALJ made a Title II-only decision,
+release the retroactive benefits without holding for windfall offset development.
+Before releasing the retroactive benefits, determine that no months of Title XVI eligibility
+on any prior record coincide with months of entitlement for the current Title II claim.
+Process the case as follows.
+1. MCS input screens
+If MCS does not generate an exception or processing limitation, take the following
+actions on MCS.
+•
+BECF Screen - Do not enter the “6” (Windfall Offset) in the “Select Miscellaneous Factor” field on the
+BECF screen. Remove the “6” if it propagates from a prior MCS segment.
+•
+Adjudicate the claim with no Title XVI coding and release the past-due benefits through
+MCS-EC.
+For information about the IDEN screen, see MSOM MCS 005.059. For information about
+the BECF screen, see MSOM MCS 009.003.
+2. MCS Earnings Computation (MCS-EC) trigger
+For the MCS exception “SSI RECIPIENT; NO WINDFAL OFFSET ON BECF” on the BECF Screen
+enter 'X' in "No Windfall Offset Applies" to bypass the exception.
+If you enter an 'X' in the 'NO WINDFALL OFFSET APPLIES' field on the BECF screen:
+•
+An edit of, ‘Reviewed T2 and T16 for Concurrent Entitlement? (Y/N)’ will appear;
+•
+A ‘NOSSI’ issue will be added to the DW01/DW02 screen;
+•
+Adjudicate the claim through MCS-EC.
+Note: You will be alerted if you select ‘MISCELLANEOUS FACTOR 6’, and ‘NO WINDFALL OFFSET
+APPLIES.
+For information about:
+•
+MCS-EC trigger, see MSOM MCSEC 001.001 and MSOM MCS 004.004;
+•
+MSC-EC exception messages, see MSOM MCSEC 001.036;
+•
+NOT3 screen, see MSOM MCS 009.010
+NOTE: An alternative process to posting the windfall offset code of “6” on the BECF screen
+can be followed. If the SSI claim was recently withdrawn and N12 is posted to the
+SSR, the Title II claim will process thru EC without generating the edit for the CS.
+If the CS/CTE holds the case for a day or two, the entire Title II retroactive benefit
+will be released immediately.
+3. A101 needed
+For MCS processing limitations or exceptions generated for reasons other than windfall
+offset, process the case as follows:
+•
+Remove the Title XVI windfall offset code “6” from the BECF screen on MCS and adjudicate
+the award with an A101.
+•
+Route the “APPEAL/DHEAR ACR” to the benefit authorizer/benefits technical examiner
+(BA/PETE).
+•
+Inform the BA/PETE that Title XVI offset does not apply and to release the past-due
+benefits immediately.
+•
+MACADE may require the input of the WOD field if the SISC field in the SID line of
+the MBR is other than “I” or “Y.” In this situation, complete the WOD screen with
+a Windfall Indicator (WIN) code of “D” without Non-countable (NCI) to avoid the115
+MACADE exception.
+•
+Inform the BA/PETE that a second day MACADE input is required to delete the WOD data
+from the MBR.
+For information on completing the A101, see SM 00880.252 and MSOM MCS 014.001.

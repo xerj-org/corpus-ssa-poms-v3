@@ -1,0 +1,115 @@
+SSA Program Operations Manual System (POMS) - GN 02408.020 - The F-stop Process
+Effective Dates: 05/15/2024 - Present | TN 78 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408020 (fetched 2026-10-04)
+
+B. Policy when F-stops are appropriate
+Use F-stops:
+•
+Primarily for checks.
+EXCEPTION: Use an F-stop for an electronic funds transfer (EFT) payment that is also part of
+the Treasury Offset Program (TOP), see GN 02408.405.
+•
+For Title XVI checks involving the death of a representative payee, see GN 02408.005B.
+•
+For Title II check payments issued to a representative payee after the death of a
+beneficiary, see GN 02408.007.
+•
+For stop-payment of checks issued when not due for reasons other than death.
+•
+In nonreceipt and stop-payment situations for Title XVI attorney fee checks.
+•
+For Title XVI nonreceipts when the system automatically generates an F-stop on a courtesy
+disbursement check (original check cashed).
+•
+For Title II nonreceipts when the Payment Center (PC) automatically generates or manually
+enters an F-stop on a courtesy disbursement check (original check cashed).
+•
+When the status of a check is needed and SSA does not wish to generate a replacement
+payment.
+•
+When checks are issued under an incorrect Social Security number (SSN).
+•
+To enable Treasury to reclaim funds if forgery is involved.
+•
+When nonreceipt of a due check is alleged after the beneficiary's death.
+•
+For nonreceipt of checks issued to non-beneficiaries (ex. attorneys and garnishment/levy
+(BIC X)).
+•
+To initiate the return of funds to SSA when a check is outstanding.
+•
+When nonreceipt is alleged on a non-recurring check.
+1. Check issued for an incorrect SSN
+When a check issues under an incorrect SSN and the payment records are corrected after
+the issuance of the check, follow these instructions.
+a. Title II
+The field office (FO), teleservice center (TSC), or processing center (PC) must take
+the following actions.
+Action
+FO/TSC
+Send a modernized development worksheet (MDW) to the PC (F-stop required on mm/dd/yyyy
+Payment - Check Issued For Incorrect SSN--XXX-XX-XXXX).
+PC
+Input an F-stop by using the Mid-America Program Service Center (MAMPSC) Data Input
+Web Application (SSA-4510), see MS 08204.003.
+b. Title XVI
+The TSC or FO must take the following actions.
+Action
+TSC
+Forward an MDW to the FO of jurisdiction (F-stop required on mm/dd/yyyy Payment -
+Check Issued For Incorrect SSN--XXX-XX-XXXX).
+FO
+Process an F-stop against the incorrect SSN. Select stop-payment reason 2 = not eligible
+for payment. For more information see MS 00303.017.
+2. Check is "not due" for reasons other than death
+When a check is issued and is "not due" (e.g., there has been a change of representative
+payee or the representative payee or beneficiary is declared legally incompetent),
+follow these instructions.
+a. Title II
+FO, TSC, or PC must take the following actions:
+​
+Action
+FO/TSC
+Send an MDW to the PC (F-stop required on mm/dd/yyyy Payment - Check is "Not Due"
+for Reasons Other Than Death).
+PC
+Input an F-stop by using the MAMPSC Data Input Web Application (SSA-4510), see MS
+08204.003.
+b. Title XVI
+TSC or FO staff must take the following actions.
+Action
+TSC
+Forward to the FO of jurisdiction to request an F-stop to be input.
+FO
+Input the F-stop. Select stop-payment reason 2 = not eligible for payment, see MS
+00303.017.
+3. "Due" payment after a beneficiary's or recipient's death
+After the death of a beneficiary or recipient, SSA may receive allegations that one
+or more due payments were not received before the date of death, follow these instructions.
+a. Title II
+The TSC, FO, or PC must take the following actions.
+ACTION
+TSC
+Forward an MDW to the PC of jurisdiction (F-stop required on mm/dd/yyyy Payment -
+"Due" Payment After a Beneficiary's Death).
+FO
+Complete underpayment development, see
+•
+GN 02301.500 SSA-1724 Claim for Amounts Due in the Case of a Deceased Beneficiary or
+•
+GN 02301.030 Underpaid Person Is Deceased.
+Forward an MDW to the PC of jurisdiction (F-stop required on mm/dd/yyyy payment -
+"Due" Payment After a Beneficiary's Death).
+PC
+Input an F-stop by using the MAMPSC Data Input Web Application (SSA-4510).
+b. Title XVI
+The TSC or FO must take the following actions.
+Action
+TSC
+Forward an MDW to the FO of jurisdiction (F-stop required on mm/dd/yyyy Payment -"Due"
+Payment After a Recipient's Death).
+FO
+Input the F-stop. Select stop-payment reason 2 = not eligible for payment, see MS
+00303.017.
+If applicable, complete underpayment development. For more information see SI 02101.006 SSI Underpayment Due - Individual Deceased - Surviving Spouse Not Member of an Eligible
+Couple.

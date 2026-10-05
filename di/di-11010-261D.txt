@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 11010.261 - Field Office Applying Prior Entitlement Months to the Medicare Waiting Period
+Effective Dates: 11/14/2018 - Present | TN 59 (11-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010261 (fetched 2026-10-04)
+
+D. Onset more than five years (seven years for DWB or CDB) after prior termination
+You cannot process these claims via NMC.
+1. FO claims processing
+a.
+Process the current claim using existing instructions.
+b.
+On the SSA-3367, annotate the Remarks section with:
+•
+“Medicare Waiting Period Determination Needed;” and
+•
+Diagnosis Code (DIG) from prior folder, Master Beneficiary Record (MBR), Disability
+Determination Services Query (DDSQ), or Disability Control File (DCF); and
+•
+Month of prior termination.
+c.
+Annotate EDCS (Electronic Disability Collect System) if you are sending a paper folder
+from a prior filing.
+d.
+Add the following message in eView: "Medicare Waiting Period Determination Needed"
+NOTE: If the MBR shows the most recent termination date before March 1, 1988, the procedures in this subsection DO NOT apply.
+2. Process the DDS favorable allowance
+When DDS returns the case, review Item 34 (Remarks) on the SSA-831, Disability Determination
+and Transmittal.
+a. Fully favorable allowance
+If the SSA-831 states: “Count prior months of benefit entitlement toward Medicare
+waiting period,” this is a fully favorable determination. Then,
+•
+Process the case via A101 or EF101 per SM 00850.535.
+•
+Complete the HI/SMI screens per SM 00850.535B.
+•
+Include the remark “Medicare DIB Re-entitlement Case” on the BCRN (BCF/Remarks/Notice)
+screen.
+•
+Route the claims folder to the appropriate processing center for follow-up awards
+processing.
+•
+Follow appropriate procedures for processing of the electronic folder.
+b. Partially favorable allowance
+If the SSA-831 states: “Do not count prior months of benefit entitlement toward the
+Medicare waiting period,” include paragraph HIB 190 in the notice segment of the BCRN
+screen in addition to any required notice paragraphs. This paragraph provides the
+language notifying the claimant that he or she needs a new Medicare waiting period.
+The DDS will provide the HIB 190 paragraph and fill-ins.
+REMINDER: The claimant can appeal the current determination if the current impairment is not
+the same as the prior impairment.

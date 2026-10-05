@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.328 - Coding Netherlands Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402328 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Netherlands will have a prefix of "71" at the beginning of the
+Routing Transit Number (RTN). The first letter of the Depositor Account Number (DAN)
+field has the letter “K” assigned for the Netherlands.

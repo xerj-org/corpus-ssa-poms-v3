@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02410.300 - Benefit Payment Offset (BPO)
+Effective Dates: 09/03/2013 - Present | TN 69 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410300 (fetched 2026-10-04)
+
+D. Process – SSA's BPO Process
+1. SSA computes and certifies payments without regard to BPO
+SSA computes and certifies its Title II payments to the Department of the Treasury.
+We do not check for delinquent debts owed to other Federal agencies, and we do not
+calculate the amount of the offset. After SSA computes and certifies its Title II
+payments, Fiscal Service identifies the existence of any Federal debt owed by any
+beneficiary, determines whether BPO applies and calculates the amount of the offset
+for each payment that is subject to BPO.
+2. SSA sends payment files to Fiscal Service
+SSA sends payment files to Fiscal Service each month. These files contain data about
+the beneficiary and the payment that includes, but it is not limited to, monthly benefit
+payments, the beneficiary's own account number (BOAN), the claim account number (CAN)
+and the BPO bypass code, if applicable. Fiscal Service uses this file in its automated
+processes to conduct BPO.
+3. SSA automatically includes BPO bypass code on payment files
+SSA's systems automatically identify payments that qualify for any of the BPO exemptions
+listed in GN 02410.300C.1 of this section. The system places a BPO bypass code on the person's payment record.
+(The person's payment record is an SSA systems-generated record sent automatically
+to Fiscal Service; it is not the Master Beneficiary Record (MBR).) The BPO bypass
+code tells Fiscal Service not to offset a Social Security payment.
+NOTE: If you identify a Title II case that involves one of the BPO exemptions, no manual
+action is required to input a BPO bypass code on the person's record. SSA's systems
+recognize the exemption situations and add the code to the person's record.

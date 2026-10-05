@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02401.901 - Limited Payability Policy for Title II and Title XVI
+Effective Dates: 05/28/2024 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401901 (fetched 2026-10-04)
+
+C. Title XVI Limited Payability (LP) alert process
+1. Six-month alert
+If a Title XVI check is uncashed 6 months after the issue date, the SSI system generates
+an L5 or L8 alert to the FO for investigation. For more information on the limited
+payability alert process, see GN 02401.904.
+2. Twelve-month Treasury notification
+If the Title XVI check is still uncashed 12 months after the issue date, the check
+is no longer valid. Treasury informs SSA that a credit is forthcoming, and the SSI
+system updates the UCI field on the SSR to show the status.
+3. Thirteenth-month alert
+In the 13th month after the issue date, Treasury will credit SSA with the funds. The
+Title XVI system generates a K5 alert to the FO for investigation, updates the UCI
+field on the SSR and sets a K5 diary.

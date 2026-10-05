@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - GN 02210.219 - Request for explanation of overpayment, reconsideration or waiver - dcr/ds actions
+Effective Dates: 05/09/2024 - Present | TN 86 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210219 (fetched 2026-10-04)
+
+A. Procedure
+1. General
+DCR - If during a telephone contact a representative payee of record or another person questions
+why they are being billed for a debt, make every effort to explain the overpayment.
+If a payee questions their liability, refer the matter to the DS.
+DS - Obtain, (through the FO, if appropriate) the name, address and telephone number (if
+possible) of the person actually overpaid and liable for refund.
+If the person has been billed properly, phone the person to resolve the matter.
+If they had improperly been asked to refund another person's overpayment:
+•
+Contact the person to apologize for the incorrect billing.
+•
+Correct ROAR/SSR to show the person having liability.
+•
+Refer the debtor's name and most recent address and telephone number to the DCR for
+preparation and release of a Basic bill for any balance due.
+2. Explanation request
+DCR - Make every effort to provide a satisfactory response using the MBR/SSR record. If
+unable to do so, proceed as follows:
+a. Title II debt
+•
+Suspend RECOOP billing.
+•
+Diary RECOOP for 30 days.
+•
+Refer to the DS.
+DS - If appropriate, call the module to obtain assistance. Otherwise, request the claims
+folder for resolution.
+b. Title XVI debt
+DS - Proceed as follows:
+•
+Call the FO and attempt to get an immediate answer.
+•
+If the information cannot be readily given over the phone refer to the FO to provide
+the explanation to the debtor.
+•
+Do not suspend billing or make any systems input until we have received a signed request.
+Billing should not be suspended pending receipt of the signed request.
+3. Reconsideration request
+DS - If the debtor wants reconsideration and the 60-day time limit has not expired or,
+after explaining the good cause requirement, the debtor alleges good cause, delete
+the debt from RECOOP control as follows:
+a. Title II
+Input the request to the Protest Request Screen in DMS (DRPR, MSOM DMS 006.003 ).
+b. Title XVI
+The SSA employee should send an administrative message to the servicing field office
+(FO) and tell the caller the Agency will:
+•
+Not stop recovery until we have received a signed request (SSA-561) or equivalent
+information, in writing with the individual's signature.
+•
+Refund any money withheld in the month the signed request is received.
+Billing should not be suspended unless a signed request is received.
+When the signed request is received, complete the MSSICS Overpayment Decisions (UOPD)
+screen by selecting APPEAL decision. (See MSOM BUSSR 004.008 .)
+•
+If no installment indicator (G TAC), complete the Appeal (UOAP) screen (See MSOM BUSSR 004.010 .)
+•
+If there is an installment indicator, complete the MSSICS Add/Change/Delete Overpayment
+Decisions (UODC) screen (See MSOM BUSSR 004.007 ) to change the RECOVER BY INSTALLMENTS decision (G TAC) and to post an appeal decision.
+In either of the above situations, refer the request to the FO for debtor contact
+to develop an appeal.
+4. Waiver request
+If the $2,000 waiver tolerance applies, follow GN 02210.220 for title II overpayments and GN 02250.350 for title XVI overpayments. If the tolerance is not applicable:
+a.
+Title II - Input the request to the DRPR and forward to the FO for appropriate development.
+b.
+Title XVI -
+Tell the caller the Agency will:
+•
+Not stop recovery until we have received a signed request (SSA-632) or equivalent
+information, in writing with the individual's signature.
+•
+Refund any money withheld in the month the signed request is received.
+Billing should not be suspended pending receipt of the signed request.
+When the signed request is received, add the waiver request to the record by completing
+the MSSICS Waiver (UOWV) screen (see MSOM BUSSR 004.009 ) and forward to the FO.

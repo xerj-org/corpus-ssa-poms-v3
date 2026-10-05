@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.390 - Coding Bangladesh Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402390 (fetched 2026-10-04)
+
+G. Example of coding Bangladesh direct deposit
+The customer provides us with a signup form for Bangladesh containing the following
+information: "12345678901234567890"
+1. Derive the RTN
+The technician enters the information for the RTN .
+•
+Code an RTN of 680000093
+•
+Code the type of account as a C for Checking or an S for Savings. If no account type
+indicated, use a C for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of O designated for Bangladesh; and
+•
+Code 16 digits of the Customer Account Number 1234567890123456
+3. Obtain the following information
+•
+RTN: 680000093
+•
+Checking
+•
+DAN: O1234567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000093 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: O1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 680000093
+•
+DAN- CO1234567890123456

@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.326 - Coding Jamaican Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402326 (fetched 2026-10-04)
+
+C. Multi-country contract
+Citibank is the processor FI for IDD to several Caribbean countries, including Jamaica.
+All Caribbean countries for which Citibank is the processor FI have a prefix of "70"
+at the beginning of the routing transit number (RTN) and an assigned letter in the
+first position of the depositor account number (DAN). The letter assigned for Jamaica
+is “M.”

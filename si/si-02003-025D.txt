@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - SI 02003.025 - IAR Payment Processing for Exception Cases and Proration Cases
+Effective Dates: 12/29/2023 - Present | TN 30 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003025 (fetched 2026-10-04)
+
+D. Procedure for payment to State when recipient dies or disappears
+•
+Pay the State via A-OTP; and
+NOTE: The system will generally accept only one A-OTP in death cases. If we issued an A-OTP
+and an additional payment is due, pay via manual OTP. However, a maximum of two A-OTPs
+can be issued on a deceased individual's record with surviving ineligible spouse and
+if a valid unpaid GR code is also on the record. For information about A-OTPs and
+surviving ineligible spouses, see SM 01901.154.
+•
+Record the date of death on the manual SSA-L8125; and
+•
+Send the SSA-L8125 to the State per SI 02003.040.

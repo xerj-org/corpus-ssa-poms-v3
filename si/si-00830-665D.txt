@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - SI 00830.665 - Individual Development Accounts (IDAs)--TANF Funded
+Effective Dates: 06/18/2001 - Present | TN 262 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830665 (fetched 2026-10-04)
+
+D. Procedure
+1. How to Verify TANF IDAs
+In both initial claims and redeterminations, use documents in the individual's possession
+to verify that the account is a TANF IDA. If such documents are not available, contact
+the TANF agency to verify that the account is a TANF IDA.
+2. MSSICS Input
+•
+On the IWAG screen, input the gross monthly earned income in the “Alleged Amount”
+or “Verified Amount” field, as appropriate. Input any amounts deposited into a TANF
+IDA in that month in the “Amount Not Counted” field. Enter “TANF IDA” and the applicable
+months in the “Reason Not Counted” field.
+•
+Use the IINT screen to input all interest received on the account each month. Input
+the total interest in the “Gross Amount” field and the “Amount Not Counted” field.
+Enter “TANF IDA” and the applicable months in the “Reason Not Counted” field.
+•
+On the RMEN screen, answer “yes” in the “Financial Institution Accounts” field.
+•
+On the RFIA screen, identify the type of account and then complete the screen as normally.
+In the “Alleged Value” or “Verified Value” field, input the balance in the account.
+In the “Excluded Amount” field, also input the balance in the account. In the “Exclusion
+Reason” field, list “TANF IDA” or “AFIA IDA”.
+3. Non-MSSICS Input
+•
+Enter in the EN field on the SSA-1719-B, the SSI PE update screens, or the SSA-450-SI,
+the individual's gross wages minus any contributions to a TANF IDA in that month.
+•
+Do not input any matching funds or interest earned on the TANF IDA.
+•
+Enter “TANF IDA” and the applicable months in the SSR Remarks field.
+4. After TANF Eligibility Ends
+The treatment of an IDA after an individual's TANF eligibility ends or after an individual
+moves from one State to another can vary from State to State. Follow regional instructions
+for State-specific rules regarding whether an account stops being an IDA after TANF
+eligibility ends or an interstate move occurs, and how to treat deposits and withdrawals
+after TANF eligibility ends or an interstate move occurs.
+5. Responding to Inquiries About TANF IDAs
+If an individual asks about the availability of TANF IDA's in their area, or about
+the IDA program's rules, use information in regional POMS instructions to determine
+whether TANF IDAs are available. If no regional instructions exist, refer them to
+the local TANF office.

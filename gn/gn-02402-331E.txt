@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02402.331 - Coding South African Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402331 (fetched 2026-10-04)
+
+E. Description of South African IDD bank data
+The data to code IDD for South Africa comes from banks determined by the FRBKC. The
+bank data on the MBR reflects up to 26 characters, including the country code of "M."
+South African bank data has the following characteristics:
+•
+A bank code of 8 digits, of which we use only the first 6 digits, and
+•
+An account number of up to 16 characters, including hyphens.
+•
+An @ symbol to signify the end of the account number. We do not use the @ symbol in coding the account number.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

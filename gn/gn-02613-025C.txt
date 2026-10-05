@@ -1,0 +1,325 @@
+SSA Program Operations Manual System (POMS) - GN 02613.025 - Good Cause Provisions
+Effective Dates: 08/03/2022 - Present | TN 33 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613025 (fetched 2026-10-04)
+
+C. Procedure
+1. Making a good cause decision
+•
+Annotate a good cause decision based on the warrant information received from the
+Fugitive Felon Matching Operation via the Fugitive Felon SSA Control File (FFSCF)
+warrant data base (see FFSCF information explained in GN 02613.100), other information in SSA’s records (see other information explained in GN02613.025B.2.c.
+and GN 02613.025B.2.d.), and evidence provided by the beneficiary (see beneficiary proof in GN 02613.025B.4.).
+•
+Prepare a good cause determination per GN 02613.025C.6.
+•
+If good cause cannot be found based on all available evidence on SSA records and the
+evidence or information provided by the beneficiary, process the good cause denial
+per GN 02613.025C.6.b.
+2. Evaluation of the fugitive felon warrant query (FFWQ) screen and the fugitive felon
+warrant status query screen (FFSQ) and other SSA records
+SSA’s records may contain information that may readily fulfill some good cause requirements.
+See GN 02613.025D. for the source of this information and the specific conditions that show the requirements
+are met. General information about these sources follows.
+a. Fugitive felon warrant data query screen (FFWQ) and the fugitive felon warrant status
+screen (FFSQ) from the fugitive felon SSA control file (FFSCF)
+FFWQ Screen (See MSOM PRISON 006.010 for descriptions of the field values on the FFWQ
+Screen.)
+•
+Warrant Date
+•
+Warrant Number
+•
+Warrant Issuing State
+•
+NCIC Number
+•
+OCA Number
+•
+Warrant Issuing Agency
+•
+Warrant Issuing Agency Phone Number
+•
+Offense Code
+•
+Offense Type
+•
+Offense Charge Symbol
+•
+EVS code (See also GN 02613.925 for the EVS code values.)
+FFSQ Screen (See MSOM PRISON 006.011 for a description of the field values on the
+FFSQ
+Screen.)
+•
+Felon Status
+•
+Warrant Status
+•
+OIG Subject Status
+•
+LEA Action Results
+•
+OIG Status Subject Date
+b. MBR
+•
+Check the medical diagnosis code if it is a disability claim. See GN 02613.910 for diagnostic codes used for good cause reasons.
+•
+Check the MBR for a REP PAYEE line to determine if beneficiary has a representative
+payee. (See GN 02613.025B.2.b. for discretionary good cause reasons.)
+•
+Verify if beneficiary has a period of prisoner suspension LAF S7 with RFST of “PRISON,”
+“MENTAL,” or “PREDTR,” for prisoner suspension on the MBR. This period of suspension
+may be a clue that the beneficiary was previously incarcerated for their underlying
+crime before they were granted probation/parole. If the LAF S7 period is subsequent
+to the warrant information, the warrant may no longer be active.
+c. PUPS
+If the unsatisfied warrant is for a probation or parole violation, check the PUPS
+record for information on the beneficiary’s original offense, if available. Determine
+the criminal offense and compare it to the list of offense codes in GN 02613.900. If the offense is listed in one of the categories in GN 02613.900, the offense for the underlying criminal charge is considered violent or drug related.
+If the offense is not listed in one of the categories listed in GN 02613.900, assume the underlying criminal offense before probation/parole was granted was not
+violent or not drug related. Check the PUPS record to determine if the warrant date
+precedes the prisoner suspension period. If so the warrant may have been satisfied
+when the beneficiary was arrested and confined.
+3. Underlying criminal offense for probation/parole violators
+For probation or parole violators, the NCIC offense code on the FFWQ screen on the
+FFSCF will generally be 5011 or 5012 which simply identifies the case as a probation
+or parole violation and does not specifically indicate the nature (i.e., nonviolent
+or not drug related) of the probation or parole violation offense. The type of probation
+or parole violation on the warrant will have to be determined per GN 02613.175C.
+If you cannot determine via the Offense Code and Type on the FFWQ, the PUPS record
+or other information in the SSA file or information received from OIG, the underlying
+criminal charge for the crime the beneficiary committed before they were granted probation/parole,
+SSA cannot make a determination about the nature of this crime (i.e., if the crime
+is nonviolent or not drug related). The beneficiary must provide evidence from the
+State, county or foreign country in which the crime was committed as to the classification
+of the crime (State or foreign criminal code category e.g., simple aggravated assault)
+nature of the crime (i.e. not violent or not drug related, etc.) in order to meet
+the burden for establishing good cause based on mitigating circumstances. If the beneficiary
+cannot obtain proof of the underlying charges for their crime, SSA may make a determination
+regarding the nature of the crime based on the State criminal code definitions for
+the crime per GN 02613.175 if the beneficiary can provide information on the classification of the crime.
+NOTE: For a probation or parole violator, the discretionary good cause does not require
+that the original crime be a felony, only that the underlying or original crime was
+not violent or not drug related.
+4. Beneficiary is deceased
+Outstanding warrant information for a deceased beneficiary will not be passed to the
+FFSCF for automated processing; i.e., an OPEN warrant. However, there may be instances
+where SSA discovers while reviewing the case because of other alert conditions, review
+of the warrant or inquiry from another individual on behalf of the beneficiary that
+the beneficiary is deceased. Actions necessary on the deceased beneficiary’s fugitive
+felon period are indicated below.
+Steps
+Actions
+1
+Review the MBR and ensure that the beneficiary is in T1or other terminated status.
+Evaluate whether good cause may apply to the criminal charges on the deceased beneficiary’s
+warrant. (See GN 02613.025B. for the good cause provisions.)
+2
+If:
+•
+Good Cause applies process per GN 02613.025C.6.a.
+•
+Good Cause does not apply or SSA cannot make this determination based on SSA records--Suspend
+benefits using the FFEL screen for the period of fugitive or probation/parole violation
+suspension before the date of death, if not already accomplished.
+3
+Complete the Fugitive Felon Warrant Due Process/Good Cause Screen (FFDG), enter a
+GOOD CAUSE or GOOD CAUSE DENIAL REASON on the FFSCF per MSOM PRISON 006.003.
+Update the FFWD screen to show the WARRANT STATUS “Closed” and the DATE WARRANT ENDED
+as the beneficiary’s date of death on the MBR. Enter REASON WARRANT ENDED as 2 = Dismissed.
+(See MSOM PRISON 006.006 for instructions on completing the FFWD screen.)
+4
+Do not send notice to a deceased beneficiary. If overpayment exists and a representative
+payee was contingently liable, send notice to the payee.
+5. Beneficiary resides in a long-term care facility
+•
+For good cause purposes, deem beneficiaries residing in a long-term care facility
+to be incapable even if they are their own payee. Develop the need for a payee (see
+GN 00502.133).
+•
+If the beneficiary leaves the long-term care facility and still does not have a representative
+payee, review the good cause determination. Because the beneficiary has been released
+from the long-term care facility, they may now have the capacity to resolve the warrant,
+or they may now be capable of managing their own payments or they may become legally
+competent and not in need of representative payee. SSA may now make a new determination
+based on whether the beneficiary currently meets the good cause requirements because
+of the change in their circumstances after leaving the long-term care facility.
+6. Documenting the determination
+If SSA determines that a beneficiary has good cause for not satisfying their outstanding
+felon or probation or parole violator warrant, good cause will be effective with the
+date the warrant was issued, 1/1/2005, or the date of entitlement to Title II benefits,
+whichever date occurs last.
+After evaluating the beneficiary’s good cause statement (See GN 02613.030C for further information regarding the good cause statement) and the accompanying
+beneficiary provided information and evidence and after reviewing any corroborating evidence or information contained in SSA records,
+the FFSCF must be updated with the good cause decision. The good cause decision must
+be annotated to the FFSCF in all cases where the beneficiary requested good cause
+whether the decision is to establish good cause or to deny good cause. If concurrent
+entitlement exists, the same good cause determination will apply to both Title XVI
+and Title II. Only one determination should be prepared.
+a. Good cause is found
+If SSA determines that a beneficiary does have good cause for not satisfying their
+outstanding felon or probation or parole violator warrant, good cause will be effective
+with the date the warrant was issued, 1/1/2005 or the date of entitlement to Title
+II benefits, whichever date occurs last.
+If good cause is found:
+•
+Update the FFDG Screen (GOOD CAUSE REASON field add a “Y “in the GOOD CAUSE ESTABLISHED
+field and enter a YES, GOOD CAUSE REASON: AAA, see GN 02613.930A. for good cause reasons) on the FFSCF per MSOM PRISON 006.003.
+•
+Update or add any warrant data on the FFWI screen that requires correction or completion,
+if necessary, per MSOM PRISON 006.004.
+•
+Use the following steps to annotate the EVID screen on the SHARED Process with the
+Good Cause Determination explaining the current circumstances and the reason(s) and
+evidence the beneficiary provides for requesting good cause and SSA’s justification
+for establishing good cause.
+Steps
+Actions
+Step 1
+From the Main SSA Menu (SC00), Select SHARED PROCESSES (#4), then enter the SSN and
+select ESTABLISH, and EVIDENCE (#1)
+Select Program #1
+Select Type # 3 (Unless this is a claims action, then select type #2)
+Document Submitted as Proof of the Following Event/Issues: Select “Other”
+Document Event Date: Enter the Date Good Cause Determination was Made
+Step 2
+Skip to Document Type: Enter “FF Good Cause Determination”
+Step 3
+Skip to Comments: Enter: “FF2 Good Cause Determination—Good Cause Applies Based on Mandatory Good Cause/Mitigating
+Good Cause Circumstances.”
+Step 4
+Input Your Personal identification information in the following fields:
+•
+Name
+•
+Position
+•
+Office Code
+and include the current date in the date field.
+NOTE: Go to Step #5. The reason for the good cause decision must be documented to reflect the specific
+reasons and evidence that was used to find good cause.
+Step 5
+Skip to the field “Additional Evidence” and Enter “Y.
+Provide the specific type of good cause you are granting the beneficiary (i.e., Mandatory
+good cause or Discretionary good cause). List evidence used to make good cause determination.
+Step 6
+If benefits are suspended S9, RFST of FUGFEL for the beneficiary and good cause now
+applies, benefits will be resumed retroactive to the date of suspension. See GN 02613.600. An automated T2 notice will be sent to the beneficiary based on the good cause reason
+annotated on the FFSCF.
+NOTE: If benefits were suspended before an approved good cause determination was made and
+the beneficiary establishes good cause, benefits will be resumed retroactive to the
+first month that fugitive felon suspension was applied. Process the resumption of
+benefits using the FFEL screen per GN 02613.600.
+CAUTION: The same good cause determination will apply to Title XVI and Title II if the cases
+are concurrent. Prepare only one determination.
+b. Good cause is not found
+If good cause has been requested and the FO cannot determine if good cause applies
+for the beneficiary because of insufficient evidence or the evidence or information
+provided by the beneficiary does not meet the standards to allow good cause to apply
+for the beneficiary; or, the beneficiary failed to supply SSA with evidence of good
+cause, then good cause is not found. Process the good cause denial as follows:
+•
+Beneficiary Protested Timely to Suspension, Protest is Shown In the FFEQ Screen--Beneficiary
+is in Current Pay
+Steps
+Actions on Records and Evaluation of Information on Records
+1
+Check the FFWQ screen on the FFSCF and determine who provided SSA with the warrant
+information. Check the WARRANT INFORMATION SOURCE.
+If the WARRANT INFORMATION SOURCE is: LEA Batch or OIG Initiated or FFAP Record, go
+to step 2.
+If the WARRANT INFORMATION SOURCE is: Third Party Report, go to step 5.
+2
+If T2 benefits are in LAF C and a protest was posted on the FFDG screen (DUE PROCESS
+MATURITY DATE) and PROTEST DATE are entered on the FFEQ screen, then
+Update the FFDG screen in the ENTER PROTEST DISPOSITION field with “2-PROTEST DENIED.”
+3
+Update the FFDG screen, Good Cause Determination field and enter a “N” in the GOOD
+CAUSE ESTABLISHED field, enter a GOOD CAUSE DENIAL REASON (see GN 02613.930B. for the GOOD CAUSE DENIAL code reasons) on the FFDG per MSOM PRISON 006.007.
+NOTE: Use code “QID” as the denial code if the reason for the good cause denial was based
+on the beneficiary not timely providing SSA with their good cause information/evidence.
+4
+After annotating the FFDG screen with the GOOD CAUSE DENIAL REASON and annotating
+that the PROTEST DENIED field, FFSCF will allow the T2 finder that is pending to continue
+processing the suspension action for the beneficiary.
+NOTE: An automated T2 suspension/overpayment notice will be generated based on the automated
+or manual suspension input when the T2 suspension action is processed.
+5
+If T2 benefits are in LAF C and a protest was posted on the FFDG screen (DUE PROCESS
+MATURITY DATE) and PROTEST DATE are entered on the FFEQ screen, then
+Update the FFDG screen in the ENTER PROTEST DISPOSITION field with “2-PROTEST DENIED.”
+And
+Also annotate the protest to the FFEL screen in POS.
+Go to step 6
+6
+Update the FFDG screen, Good Cause Determination field and enter a “N” in the GOOD
+CAUSE ESTABLISHED field, enter a GOOD CAUSE DENIAL REASON:AAA (see GN 02613.930B. for the GOOD CAUSE DENIAL code reasons) on the FFDG per MSOM PRISON 006.007.
+NOTE: Use code “QID” as the denial code if the reason for the good cause denial was based
+on the beneficiary not timely providing SSA with their good cause information/evidence.
+An automated T2 suspension/overpayment notice will be generated based on the automated
+or manual suspension input when the POS/FFEL screen is used for the suspension action.
+EXAMPLE:
+SSA sent an individual an advance notice of proposed suspension on 11/14/05 and the
+FFSCF posted a DUE PROCESS MATURITY DATE OF 12/19/05.
+The beneficiary protested their suspension on 11/25/05 and wanted to provide good
+cause for not satisfying their outstanding warrant.
+The SSA technician posted a PROTEST DATE OF 11/25/05 to the FFDG screen.
+The beneficiary re-contacted SSA on 11/29/05 and tried to provide good cause evidence
+but it was not sufficient to establish good cause.
+On 11/30/05, the SSA technician posted on the FFDG screen a PROTEST DISPOSITION 2=PROTEST
+DENIED and a GOOD CAUSE ESTABLISHED of “N” and a GOOD CAUSE DENIAL REASON OF QCD.
+After annotating the FFSCF, FFDG screen with the protest information, the T2 finder
+will process the suspension action when the DUE PROCESS MATURITY DATE of 12/19/05
+occurs.
+•
+Closed Period of Suspension, Beneficiary is in Current Pay—Fugitive Felon Suspension
+Applies for the Closed Period of Suspension
+Steps
+Actions on Records and Evaluation of Information on Records
+1
+NOTE: In this situation, the beneficiary was not given advance notice of proposed suspension.
+A PROTEST DATE and ENTER PROTEST DISPOSITION does not apply on the FFDG screen.
+If T2 benefits are in current pay and the beneficiary has a closed period of fugitive
+felon suspension, then
+go to Step 2.
+2
+Update the GOOD CAUSE DETERMINATION fields on the FFDG screen enter GOOD CAUSE ESTABLISHED
+“N”, enter a GOOD CAUSE DENIAL CODE (see GN 02613.930B for the appropriate GOOD CAUSE DENIAL code reasons) on the FFDG screen per MSOM PRISON
+006.007.
+NOTE: Use code “QID” as the denial code if the reason for the good cause denial was based
+on the beneficiary not timely providing SSA with their good cause information/evidence.
+3
+Check to make sure the T2 benefits are in LAF S9 on the MBR and an RFST of FUGFEL
+is annotated to the benefit line on the MBR for this closed period of suspension.
+Send a manual notice to inform the beneficiary of SSA’s initial determination that
+good cause was not found based on the information/evidence that they provided to SSA
+to establish good cause must be sent to them. See NL 00755.400 for information that must be included in the notice to the beneficiary.
+•
+Beneficiary Initially Awarded and Benefits Were Suspended Pending Good Cause Development
+(Claims Situation, See GN 02613.050B.2.)
+Or
+•
+Good Cause Has Not Been Found or Beneficiary Failed to Provide Evidence to Establish
+Good Cause—Beneficiary is in Suspension Status
+See GN 02613.030C for additional instructions on processing cases where the beneficiary failed to provide
+good cause within 90 days or the good cause request is denied.
+Steps
+Actions on Records and Evaluation of Information on Records
+1
+If T2 benefits are in suspension pending good cause evidence being received by SSA from
+the beneficiary and the diary time has expired for receipt of the evidence or SSA has received good cause evidence but the evidence did not establish good cause
+for not satisfying the warrant, then
+Go to Step 2.
+2
+Update the FFDG screen GOOD CAUSE DETERMINATION field enter a “N” in the GOOD CAUSE
+ESTABLISHED field , enter a GOOD CAUSE DENIAL REASON (see GN 02613.930B. for good cause denial codes) per MSOM PRISON 006.007, if not already completed.
+NOTE: Use code “QID” as the denial code if the reason for the good cause denial was based
+on the beneficiary not timely providing SSA with their good cause information/evidence.
+3
+Check to make sure the T2 benefits are in LAF S9 on the MBR and an RFST of FUGFEL
+is annotated to the benefit line on the MBR for this suspension.
+4
+A notice must be sent to the beneficiary notifying them of SSA’s initial determination
+that good cause was not established. Fugitive felon/probation or parole violator suspension
+will apply effective with the date of the warrant. See NL 00755.330 for the instructions and information about the notice that must be sent to the beneficiary
+for a good cause denial situation. See GN 02613.030C.1 for instructions on preparing a close-out notice when evidence is not submitted to
+SSA to establish good cause.

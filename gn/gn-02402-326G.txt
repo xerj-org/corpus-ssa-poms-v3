@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.326 - Coding Jamaican Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402326 (fetched 2026-10-04)
+
+G. Example of coding Jamaican direct deposit
+The customer provides the signup form for Jamaica containing the following information:
+•
+Bank code: 123
+•
+Branch code: 45678
+•
+Account Number: 123456789012
+1. Derive RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 70 (the multi-country prefix for Jamaica)
+•
+Code the filler zero “0”
+•
+Code the 3-digit bank code: 123
+•
+Code the first 2 digits of the branch code: 45
+•
+Code the U.S. check digit (obtained from the Title II interactive Comps from the Main
+Menus 07/Sub Menu 16)
+2. Derive the DAN
+The technician codes the DAN.
+•
+Use the letter “M” (for Jamaica)
+•
+The remaining 3 digits of the branch code: 678
+•
+The 12-digit account number 1234567891012
+3. Obtain the following information
+•
+RTN: 700123452
+•
+Checking
+•
+DAN: M678123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700123452
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M678123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700123452
+•
+DAN- CM678123456789012

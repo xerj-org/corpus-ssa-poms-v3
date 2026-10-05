@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - GN 02402.341 - Coding Hungary Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/01/2024 - Present | TN 286 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402341 (fetched 2026-10-04)
+
+F. Procedure for coding Hungary bank data
+IF…
+…THEN, on the chart below…
+1.
+You are in the Embassy in Budapest, Hungary,
+Follow the instructions in E.1.
+2.
+You are in the FBU in Warsaw, Poland, or in OEIO,
+Follow the instructions in E.2.
+3.
+You are in an FBU or consular office other than in Hungary or Poland,
+Follow the instructions in E.3.
+4.
+You are in a field office or regional office (RO) in the U.S.,
+Follow the instructions in E.4.
+1. E1. Instructions for the U.S. Embassy in Hungary
+U.S. Embassy in Hungary
+1.
+Is the beneficiary’s address on the MBR outside the U.S.?
+If yes, go to step 2.
+If no, return the form to the beneficiary. REASON: The MBR doesn’t accept IDD information
+if the beneficiary has a U.S. address.
+2.
+Is the beneficiary’s account a USD account at an FI in Hungary?
+If yes, go to step 3.
+If no, contact the beneficiary to get correct info. Go to step 3.
+3.
+Fax the correctly completed form to the FBU in Warsaw for input. STOP.
+2. E2. Instructions for the FBU in Poland, or OEIO
+​
+If...
+Then...
+1.
+The cutoff date is three or fewer days from today,
+Code the full IBAN to ITS.gov.
+Follow the steps in E3 to code the bank data to the MBR.
+2.
+The cutoff date is at least four days from today,
+Code the full IBAN to ITS.gov.
+Result: ITS.gov sends the information for the MBR to DIO through Automated Enrollment.
+You don’t need to code directly to the MBR. STOP.
+3. E3. Instructions for an FBU or consular office other than in Hungary or Poland
+If
+Then
+1.
+If the cutoff date is three or fewer days from today, OR if you are not certified to
+enter data on ITS.gov,
+Then go to Step 3.
+2.
+If the cutoff is four or more days from today, AND you are certified to enter data on
+ITS.gov,
+Then input the full IBAN to ITS.gov, and fax the enrollment form to the Embassy in Budapest (at the fax number on DOORS)
+for review, with a note that you have input the information to ITS.gov. You don’t
+need to input to the MBR. ITS.gov sends the correct information to the MBR through
+Automated Enrollment. STOP.
+3.
+Is the beneficiary’s address on the MBR outside the U.S.?
+If yes, go to Step 4.
+If no, return the form to the beneficiary. STOP. REASON: The MBR does not accept IDD
+information if the beneficiary has a U.S. address.
+4.
+Is the beneficiary’s account a USD account at an FI in Hungary?
+If yes, go to step 5.
+If this is a forint account, send the form to the Embassy in Budapest, Hungary, to
+contact the beneficiary for correct info. This must be a USD account in Hungary.
+If it is a bank account in another country, follow the directions for that country.
+STOP.
+5.
+Code the Type of Account (on the SSA screen) as Checking or Savings. If you don’t
+know the type of account, code it as Checking.
+6.
+To begin coding the Routing and Transit Number (RTN) field (9 digits total), start
+with 66, the multi-country prefix SSA and FRBKC have designated for Hungary IDD.
+7.
+Skip the first 4 characters of the IBAN, which consist of HU and two check digits.
+Code the next 6 digits of the IBAN, which are the first 6 digits of the bank and branch
+numbers.
+8.
+Code the U.S. check digit. Obtain the check digit from Title II Interactive Comps.
+9.
+Code the Depositor Account Number (DAN) field, starting with E, the letter assigned
+to Hungary in the group of countries using prefix 66.
+10.
+Code the next 16 digits of the IBAN. Do not code the final 2 digits.
+11.
+Are you certified to enter data on ITS.gov ?
+If yes, input the full IBAN information to ITS.gov, and fax the enrollment form to the U.S.
+Embassy in Budapest (using the fax number on DOORS) for their review. Tell them you
+have entered the information on both the MBR and ITS.gov.
+If no, fax the completed form to the Warsaw FBU for review and input to ITS.gov. Tell them
+you have entered the info on the MBR only. STOP.
+4. E.4. Instructions if you are in an FO or RO in the U.S.
+For FO or RO
+1.
+Print and complete the English version of the enrollment form for Hungary, SSA-1199-HU-OP1.
+If the beneficiary reads Hungary, allow the beneficiary to use the Hungary version,
+SSA-1199-HU.
+2.
+Fax the completed form to OEIO’s Paperless fax number at 1-877-385-0645 or 18773850645@barcode.ba.ssa.gov
+(Paperless PC8 e-fax). STOP.

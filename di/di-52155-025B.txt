@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 52155.025 - A101 Processing Claims with Workers' Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155025 (fetched 2026-10-04)
+
+B. MCS EC does not provide WC/PDB offset determination or determination is not correct
+1.
+Before starting the A101 complete the WC/PDB offset determination in the T2 Interactive
+Computation Facility (ICF) #32 WC/PDB: ADJUDICATE CLAIM or #34 WC/PDB: ONLINE RECORD
+ENTRY.
+NOTE: SEE DI 52165.001 for information on using ICF for WC/PDB offset determination. To use with an A101,
+the following entries are critical:
+•
+Answer “Y” to IS THIS COMPUTATION FOR AN A101/MANUAL AWARD? on the WCPA screen.
+•
+If auxiliaries are being adjudicated on the A101 use the WCSP and WCCH screens to
+provide that information.
+•
+Provide WC/PDB notice information on the WCNM screen to be used in connection with
+the A101.
+•
+Answer “Y” to ADJUDICATE WC/PDB CLAIM on the WCDA screen. When used in connection
+with an A101, this does not send the action to T2R for processing, but makes it available
+for MACADE.
+2.
+Prepare the A101 after the ICF #32 or #34 WC/PDB offset determination is adjudicated.
+NOTE:
+The WC/PDB Common screens are included in the A101 path.
+•
+When the NH is being adjudicated on the A101, enter “Y” in USE RESULTS FROM ICF on
+the A101 WRAC screen.
+•
+When only auxiliaries are being adjudicated on the A101, enter “Y” in WC/PDB OFFSET
+DATA ON ICF on the A101 ACCT screen.
+•
+The WC/PDB results screens and the MBEN screen will reflect the MBA information before
+offset.
+•
+The Benefit Authorizer/Benefit Technical Examiner (BA/BTE) will use the ICF #32 or
+ICF #34 screens to propagate WC/PDB offset results and benefit amounts after offset
+into MACADE when the A101 includes instructions to use ICF results.

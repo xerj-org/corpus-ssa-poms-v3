@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02406.201 - Nonreceipt of Title II Critical Payment System (CPS) Checks
+Effective Dates: 09/29/2017 - Present | TN 124 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406201 (fetched 2026-10-04)
+
+D. PC procedure for nonreceipt of CPS payments
+Use the instructions in the chart in this section to process CPS nonreceipts.
+IF
+THEN
+CPSM dire need situation, referred to PC, and RAI = I
+Input an F-stop on the missing payment.
+CPSM dire need situation, referred to PC, IP issued in FO created an overpayment,
+and RAI =A
+Adjust against subsequent benefits due.
+CPSO Payment, FO replaced payment through CPS, and RAI = I
+Input F-stop on missing payment.
+CPSO Payment and RAI = A
+•
+Replace missing payment through MACADE/MADCAP or OCO A- via instructions in SM 00630.242.
+•
+Input an F-stop on missing payment.
+CPSO Payment dire need situation referred to PC and RAI = I
+Input F-stop on missing payment.
+CPSO Payment dire need situation, IP issued in FO, referred to PC to pay balance,
+and RAI = A
+•
+Pay balance, if any, through MACADE/MADCAP or OCO A-.
+•
+Input F-stop on missing payment.
+NOTE: If double check negotiation (DCN) occurs due to an individual cashing the replacement
+and the original check, see GN 02406.300 and GN 02406.310.

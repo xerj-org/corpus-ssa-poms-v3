@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 81007.055 - Receiving the i3441 (Disability Appeal – iAppeals)
+Effective Dates: 01/10/2020 - Present | TN 3 (01-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007055 (fetched 2026-10-04)
+
+DI 81007.055 Receiving the i3441 (Disability Appeal – iAppeals)
+Refer to GN 03101.125 for Title II iAppeals procedures.
+Refer to SI 04005.035 for Title XVI iAppeals procedures.
+When an iAppeals request appears on an Internet Workload Management Information (iWMI)
+listing, propagate the iAppeals request to the Modernized Claims System (MCS). Submission
+of the i561 or i501 automatically establishes an appeal event in Modernized Supplemental
+Security Income Claims System (MSSICS). However, claims technicians must update MSSICS
+whenever changes, such as transfer to Disability Determination Services (DDS), occur.
+After establishing appeal events in MCS and MSSICS:
+•
+Create a case at the proper level of appeal in the Electronic Disability Collect System
+(EDCS) to propagate the i3441 to EDCS.
+•
+Review documents submitted via the iAppeals attachment utility.
+NOTE: Consider using the EDCS Preview Internet Documents page before case creation. The
+preview page allows the EDCS user to preview documents the iAppeals IU may have submitted
+via the iAppeals attachment utility. See DI 81010.137A.
+•
+Commit (add) the documents to the electronic folder or discard them as appropriate.
+See DI 81010.137.
+•
+Review the propagated i3441 for completeness.
+•
+Contact the Internet User to resolve discrepancies and collect any missing information.
+See DI 12005.005.
+•
+Document changes in the EDCS 3441.
+•
+If the claimant did not submit an e827, obtain a signed and dated SSA-827. Follow
+the procedure in DI 11005.057A.2. for reconsideration requests. Follow the procedure in DI 11005.057A.3. for hearing requests. If unable to obtain an SSA-827, follow the instructions in
+DI 12005.005D and DI 12005.005E.
+•
+If the claimant did not provide an additional third-party contact, obtain an additional
+contact only when contact with the claimant is needed for other development. If no
+other development is needed, annotate the following on the Remarks section: "Internet
+claim - no additional contact obtained." For more information, see DI 11005.022.
+•
+Transfer the claim to the DDS or hearing office when complete.

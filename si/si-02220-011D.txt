@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - SI 02220.011 - Reconciliation of Overpayment Debt on Terminated Records
+Effective Dates: 06/03/2021 - Present | TN 69 (06-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220011 (fetched 2026-10-04)
+
+D. Procedure - field office reconciliation processing
+1. Automated reconciliation by FO request
+Automated reconciliation of overpayments can only occur in the MSSICS environment.
+Request automated reconciliation through MSSICS, even on non-MSSICS cases, using the
+Direct SSR Update procedure described in MSOM BUSSR 004.017. Follow the detailed MSOM
+instructions.
+2. Manual reconciliation
+When automated reconciliation cannot occur, continue to manually reconcile the overpayment
+data on the terminated record and post the overpayment and notice data to the latest
+record. Instructions for manual reconciliation are found in SI 02220.025B.4., SM 01311.300, SM 01311.350, and SM 01311.385.

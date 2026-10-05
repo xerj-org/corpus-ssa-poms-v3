@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02330.065 - Effecting Payment of Excess Premiums
+Effective Dates: 01/08/1997 - Present | TN 1 (10-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202330065 (fetched 2026-10-04)
+
+B. Payment of excess Part B premiums
+When a deceased beneficiary, uninsured or insured, is due a Part B premium refund
+payable to a Social Security beneficiary on the same or different record, process
+the payment through the Manual Adjustment Credit and Award Data Entry (MACADE) system.
+On the payment history (HST) screen;
+•
+Use an "AA" special entry equal to the premium refund amount with the special indicator
+code (SIC) “PH” to relieve the payee of any tax liability.
+•
+Explain the refund in the enclosure notice block (ENB) by using the appropriate ADJ
+paragraph found in NL 00720.004.
+NOTE: When a manual adjustment credit and award process (MADCAP) action contains an “AA”
+entry with the “PH” SIC, a daily payment history update system (PHUS) alert with the
+“054 QUES CPDRD” exception will be generated. Correct the PHUS alert using instructions
+in SM 00630.254B and annotate the non-taxable payment with an EVNT 038 NONTAX PMT
+using instructions in SM 00630.238.
+Once SSA pays the survivor(s) the excess Part B premiums, remove any previously posted
+direct billing system (DBS) overage by using a CMS-1592 and entering the appropriate
+record identification code (RIC). For information on the CMS-1592, see SM 00711.200.
+For information on RIC descriptions, see SM 00711.220.

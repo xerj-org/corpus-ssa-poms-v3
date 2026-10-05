@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - SI 00835.400 - In-Kind Support and Maintenance (ISM) only to the<EndLine/> Claimant
+Effective Dates: 09/26/2023 - Present | TN 117 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835400 (fetched 2026-10-04)
+
+F. Examples of ISM only to the Claimant
+Example 1: Child, Subject to Deeming, Away at School
+Tom Smith, a 14-year old eligible child, is temporarily absent from their parents'
+home when Tom is away at school. Since Tom is subject to deeming from their parents,
+the ISM received from the permanent living arrangement (parents' home) and from the
+temporary living arrangement (school) is potentially countable. The claim specialist
+(CS) determines that Tom does not get any ISM in their parents' home. However, Tom
+receives food and shelter while at school and their parents do not pay for it. The
+CS determines that this is countable ISM and establishes that it has a value in excess
+of the PMV. ISM capped at the PMV amount is charged beginning with the month that
+Tom starts living at school. Tom began living at school on 09/15/16. On the SSI claim
+system, the CS inputs 09/15/16 on the Living Arrangement Change page (INTRANETSSI
+010.016) to establish a living arrangement iteration to document the value of the
+ISM only to the claimant. Using a date in September means that the SSI claim system
+will charge ISM for September. On the In-Kind Support and Maintenance page (INTRANETSSI
+010.015), the CS answers “yes” to the ISM question which reads “Does any person (not
+living with you) or any agency pay for any of your food or shelter items or provide
+you or your household (if applicable) with any food or shelter item (y/n):.” On the
+In-Kind Support and Maintenance Source page (INTRANETSSI 010.015), the CS indicates
+that the type of ISM is ISM only to the claimant and enters the actual value of the
+ISM in the monthly value field.
+When Tom returns home on 06/08/17, the CS will remove the ISM. Since Tom received ISM in June, the ISM will be removed
+starting in July. The CS inputs 07/01/17 on the Living Arrangement Change page to
+establish an iteration to delete the ISM as of July. CAUTION: If the CS inputs a June date on the Living Arrangement Change page, the SSI claim
+system will not charge ISM in June, which would be incorrect.
+Example 2: Eligible Individual Receives Gift of a House
+Martha Jones, an eligible individual, lives with their 3 children in a home owned
+by Martha's parents. On 12/15/16, Martha's parents deed the home to Martha as a gift.
+The CS determines that the gift of the home is ISM only to the claimant and charges
+the ISM in December (H type income capped at the PMV). On the SSI claim system, the
+CS inputs 12/15 /16 on the Living Arrangement Change page to establish a living arrangement
+iteration to count the ISM in December. The CS then establishes an iteration for January
+by inputting 01/01/17 on the Living Arrangement Change page and showing no ISM in
+January, since this gift of a house counts only in the month of December.

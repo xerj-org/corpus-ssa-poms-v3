@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 81007.020 - Elements Common to Internet Disability Reports (IDR)
+Effective Dates: 11/16/2023 - Present | TN 11 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007020 (fetched 2026-10-04)
+
+E. Multiple partials
+DI 081007.020D in this section outlines conditions under which the system might lock
+an IDR. When an IU discovers their current IDR partial locked, the IU must start a
+new partial. Whenever an IU starts a new IDR partial for the same SSN, the system
+generates a new reentry number for the new partial. The reentry number for any prior
+IDR is no longer valid. The information entered on any previous IDR remains on the
+database. However, the information held within the previous IDR(s) does not propagate
+to the new IDR. The IU must start the new IDR from the beginning.
+There is a limit to how many IDR partials with the same SSN can exist on the database.
+An IU can start up to three IDR partials, of the same type, per SSN. For example,
+an IU can start an i3820 for a child and up to two more afterward; only the most recently
+established partial is active. The system will reject any attempt to start a fourth
+IDR partial. The IU will receive a message page that they cannot establish a fourth
+partial. That page also directs the IU to contact the SSA 800 number or an FO for
+help.

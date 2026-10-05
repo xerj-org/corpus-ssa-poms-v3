@@ -1,0 +1,83 @@
+SSA Program Operations Manual System (POMS) - SI 02301.315 - Erroneous Payments and GK Payment Continuation
+Effective Dates: 06/11/2013 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301315 (fetched 2026-10-04)
+
+B. Definitions
+These definitions are only for identifying erroneous payments and determining how
+payment continuation may apply.
+1. Erroneous payment
+An erroneous
+payment is a multiple payment or a payment which is over the payment ceiling.
+2. Intervening changes
+Intervening
+changes are changes which occurred in the month before erroneous payments began over the
+payment ceiling.
+3. Multiple payment
+A multiple
+payment is a regular monthly SSI payment which SSA issued in addition to another regular
+monthly SSI payment for the same period and for the same recipient. Multiple payments
+can occur because of applications on different SSNs, records established on pseudo
+numbers and processing errors.
+4. Payment ceiling
+The payment
+ceiling is the highest possible SSI payment that a recipient can receive for a period. The
+payment ceiling is:
+•
+the Federal benefit rate (FBR) for an individual or couple ($446/ $669 in 1994) or the reduced SSI benefit rate for an individual or couple ($30/$60 in 1994), plus
+•
+the highest rate for any SSA administered State supplementary payments (based on category
+on the SSR), plus
+•
+any essential person increment.
+NOTE: The State living arrangement (L/A) codes on the SSR indicate the supplement category
+for aged, blind and disabled individuals and couples. The Federal and State L/A codes
+appear in the Computation History (CMPH) segment. Essential person flags appear in
+the Case Miscellaneous Data (CMSC) segment. To compute payment ceilings, use the Federal
+benefit rates and essential person increments in SI 02001.020 and the State supplement rates in SI 01415.001.
+EXAMPLE: Mary Perez is a disabled individual living in Los Angeles, California. Their record
+on the SSR for 1993 shows that they are living in a public shelter for January and
+February, they are living in the household of another for March and April, and they
+are in a Medicaid facility for May and continuing. These are the Federal and State
+L/A codes and the payment ceilings for each month:
+Period
+L/A Codes
+FBR
++
+State Rate
+=
+Payment Ceiling
+January,
+AZ
+446.00
+​
+0.00
+​
+446.00
+February
+​
+​
+​
+​
+​
+​
+March,
+BD
+446.00
+​
+179.43
+​
+625.43
+April
+​
+​
+​
+​
+​
+​
+May on
+DJ
+30.00
+​
+12.00
+​
+42.00

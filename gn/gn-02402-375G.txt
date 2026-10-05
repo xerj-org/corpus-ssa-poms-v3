@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.375 - Coding Pakistan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/14/2022 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402375 (fetched 2026-10-04)
+
+G. Example of coding Pakistan direct deposit
+The customer provides us with the IBAN PK36SCBL0000001123456702
+•
+The first two characters of a Pakistan IBAN are “PK,” which represents the International Organization for Standardization (ISO) country
+code and
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The next four characters of the IBAN represent the 4-digit bank code.
+•
+The last 16 characters represent the 16-digit account number.
+NOTE: The technicians should never code the IBAN ISO country code, the check digit, or
+the bank code to the MBR.
+1. Derive the RTN
+The technician must enter the following information for the RTN.
+•
+Code the RTN of 710000031
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician must code the DAN.
+•
+Start with a country code of P designated for Pakistan;
+•
+Code the 16-digit Account Number “0000001123456702”
+3. Technician must obtain the following:
+•
+IBAN PK36SCBL0000001123456702
+•
+Checking
+•
+RTN: 710000031
+a. POS coding reflects this information :
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000031
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: P0000001123456702
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information:
+•
+RTN-710000031
+•
+DAN- CP0000001123456702

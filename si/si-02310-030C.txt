@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - SI 02310.030 - E2 Diary - Potential Rental Subsidy Development Needed
+Effective Dates: 05/26/2026 - Present | TN 74 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310030 (fetched 2026-10-04)
+
+C. Rental Subsidy Edits
+Our systems have three rental subsidy edits.
+1. Edit 1
+This rental subsidy edit is to ensure the technician creates a new LA as of the regulation
+effective date for rental subsidy situations. The system will generate this edit on
+the Living Arrangement Change page when:
+•
+the LA Change on the Living Arrangement Change page is “No,” and
+•
+there is an LA period where:
+–
+the LA start date is earlier than 09/30/2024, and
+–
+the LA end date is later than 9/29/2024 or continuing, and
+–
+the address state on the Residence Address and Jurisdiction page is not NY, CT, IN,
+IL, TX, WI or VT, and
+–
+the rental subsidy amount on the Home Ownership and Rental Liability page is greater
+than $0.00.
+Edit Text: Review rental subsidy. Living arrangement period with a change date of
+09/29/2024 is required.
+2. Edit 2
+This rental subsidy edit to ensure the technician creates a new LA each January for
+rental subsidy situations. The system will generate this edit on the Living Arrangement
+Change page when:
+•
+the LA change on the Living Arrangement Change page is “No,” and
+•
+there is an LA period where:
+–
+the LA start date is less than or equal to 24 months prior to the current date, and
+–
+the address state on the Residence Address and Jurisdiction page is New York, Connecticut,
+Indiana, Illinois, Wisconsin, Vermont, Texas (eff. 5/96), or any of the remaining
+states, District of Columbia, or Northern Mariana Islands (eff. 09/30/2024), and
+–
+the rental subsidy amount on the Home Ownership and Rental Liability page is greater
+than $0.00, and
+•
+a COLA change occurred and there is no change date equal to 01/01/<CCYY> where CCYY
+is the LA start date year plus 1.
+Edit Text: New living arrangement period required for January <CCYY> for COLA
+update.
+3. Edit 3
+This rental subsidy edit is a "close event" edit and is to ensure the technician creates
+a new LA as of the regulation effective date for rental subsidy situations. The system
+will generate an edit on the Edit and Alert Messages page when:
+•
+CLOSE EVENT= Y on the Build SSR page and the technician submits the page, and
+•
+there is an LA period where:
+–
+the LA start date earlier than 09/30/2024, and
+–
+the LA end date is later than 09/29/2024 or continuing, and
+–
+the address state on the Residence Address and Jurisdiction page is not equal to New
+York, Connecticut, Indiana, Illinois, Wisconsin, Vermont, Texas, and
+–
+the rental subsidy amount on the Home Ownership and Rental Liability page is greater
+than $0.00.
+Edit Text: Cannot close event. Missing 09/30/24 living arrangement period for
+rental subsidy rule change.
+How to Update the Living Arrangement When You Receive a Rental Subsidy Edit
+Step
+Action
+1
+During all initial claims, RZs, and post-eligibility events if you receive either
+of the following edits:
+•
+Review Rental Subsidy. Living arrangement period with a change date of 09/29/2024
+is required.
+•
+Cannot close event. Missing 09/30/24 living arrangement period for rental subsidy
+rule change.
+Take the following steps:
+You must contact the claimant to create a new living arrangement effective 9/30/2024
+(using a change date of 9/29/2024).
+Verify the rental amount and CMRV and update as needed.
+Explain how the annual COLA and PMV changes can affect a recipient's payment amount
+if the required monthly rent or flat fee payment amount is greater than, but close
+to the PMV amount.
+The system will compute the rental subsidy using both the PMV and CMRV and will revise
+the rental subsidy amount as needed.
+2
+During all initial claims, RZs, and post-eligibility events if you receive the following
+edit:
+New living arrangement period required for January <CCYY> for COLA
+update.
+Take the following steps:
+You must contact the claimant to create a new living arrangement effective 01/01/CCYY
+(using a change date of 12/31/CCYY).
+Verify the rental amount and CMRV and update as needed.
+Explain how the annual COLA and PMV changes can affect a recipient's payment amount
+if the required monthly rent or flat fee payment amount is greater than, but close
+to the PMV amount.
+The system will compute the rental subsidy using both the PMV and CMRV and will revise
+the rental subsidy amount as needed.

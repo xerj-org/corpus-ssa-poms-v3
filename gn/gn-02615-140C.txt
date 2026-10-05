@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02615.140 - Medicare Relief for <Italic>Clark</Italic> Class Members
+Effective Dates: 01/04/2024 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615140 (fetched 2026-10-04)
+
+C. PC procedure to determine if the Clark class member gets the Medicare relief
+1. Steps to determine the processing date that benefits were suspended for PPV
+Step
+Action
+1
+Locate the Clark class member’s period of PPV suspension on the MBR. For information on determining
+if the beneficiary is a Clark class member, see GN 02615.110.
+2
+Check the data entries in the History Data Line of the MBR to determine the period(s)
+S9 with an HFRST of FUGFEL between 01/05 to the present.
+Check the following fields in the HISTORY data line:
+STATUS CODE--Position 3, Benefit Paid Designation (BPD) of this entry shows if the
+monthly benefit was:
+•
+paid, code “1,” or
+•
+not paid, code “0.”
+Reason for Suspension or Termination (SUS/TERM)--The code will be “9” with an HRFST
+of “FUGFEL.”
+Example of determining the processing date that benefits were suspended for
+PPV:
+The History Data Line shows S9 FUGFEL beginning 01/05 to present. However, the status
+code is 901 from 01/05 through 01/07, meaning benefits were paid. From 02/07 to present,
+the status code is 900 which means benefits were not paid. Therefore, the processing
+date that benefits were suspended is 02/07.
+3
+If there is no S9 FUGFEL period on the MBR, retrieve a prior MBR by selecting folder
+MBR RTUT MFR on the Online Retrieval System (ORS) to determine months benefits were
+suspended for PPV.
+2. Steps to determine if the Clark class member gets the Medicare relief
+Step
+Determination
+1
+When did Part B terminate for nonpayment, voluntary withdrawal, or when did the beneficiary
+refuse Part B?
+2
+Is the Step 1 date prior to the processing date the beneficiary was suspended for PPV?
+If yes, no Medicare relief, STOP;
+If no, continue to Step 3.
+3
+Does the Step 1 date fall within the period that the beneficiary was suspended for PPV, starting
+with the processing date that the beneficiary was suspended for PPV?
+If yes, continue to Step 6;
+If no, continue to Step 4.
+4
+Is the Step 1 date after the PPV suspension ended and the NON COVER RSN is PREM NON PAY?
+If yes, continue to Step 6;
+If no, continue to Step 5.
+5
+Is the Step 1 date within 2 months after the PPV suspension ended and the NON COVER RSN is ENROL
+WITHDRAW?
+If yes, continue to Step 6;
+If no, no Medicare relief, STOP.
+6
+Is there a concurrent suspension for the entire PPV period, e.g., prisoner?
+If yes, no Medicare relief;
+If no, Medicare relief applies.
+NOTE: Do not provide Medicare relief if the class member did not lose or refuse Medicare
+Part B entitlement during the Clark period in connection with nonpayment of benefits based on PPV.
+For example, if the class member lost Part B during the Clark period while suspended for some other reason like prisoner suspension, trial work
+period, or miscellaneous suspension, do not provide Medicare relief.

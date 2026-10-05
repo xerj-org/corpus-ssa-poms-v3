@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02607.705 - Suspending Title XVI Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607705 (fetched 2026-10-04)
+
+C. Suspending Title XVI payments using PUPS
+1. PUPS suspension procedure
+If the inmates SSR is non-MSSICS and none of the processing situations listed in GN 02607.705D in this section exist, suspend payments as follows:
+a.
+Update the following PU16 fields on the PUPS record warranting a suspension action:
+•
+SELECT TYPE OF ACTION--Enter 1 (SUSPEND BENEFITS);
+•
+ACTION EFFECTIVE DATE--Enter the suspension effective date;
+•
+CONFINEMENT DATE--Enter the confinement date;
+•
+FACILITY ID Update if not already present;
+•
+REMARKS--Explain the suspension action. You can also record case-related information
+about an individual on the PRMK screen and in the Remarks Data (RMKS) field of the
+SSR. For information on the RMKS field, see SM 01601.910; and
+•
+IF LOCALLY PREPARED NOTICE ISSUED, NOTICE DATE--If appropriate, suppress the systems
+generated notice and send a manual notice. If needed, change the recipients mailing
+and residence addresses on the PU16 screen, as explained in MSOM PRISON 003.008.
+b.
+Clear all other PUPS pending records by selecting TYPE OF ACTION = 2 (CLEAR CONTROL
+- NO SUSPENSION NECESSARY) on the PU16 screen. To issue a correct incentive payment,
+there must be only one PUPS record pending when you input the suspension.
+2. How PUPS processes suspension actions
+When you update the PU16 fields:
+a.
+PUPS builds an SSA-1719B suspension transaction and places an asterisk * immediately
+before the "PENDING" in the status field on the Prisoner Summary (PUST) screen. A
+"*PENDING" in the status field means that PUPS transmitted the suspension input but
+has not received feedback yet from the SSR that the N22 suspension has occurred. If
+the PUPS status remains PENDING after updating the PU16 fields, contact your FOPC;
+b.
+upon receipt of the N22 feedback, PUPS changes status from *PENDING to SUSPENSION,
+which clears the PUPS record; and
+c.
+the N22 feedback also triggers PUPS to determine whether an incentive payment IP is
+due a facility, compute the IP amount, and post the IP amount and the date paid to
+the P6QY screen. While PUPS issues automated IPs in most cases, some situations require
+a manual incentive payment. For information on situations requiring a manual incentive
+payment, see GN 02607.820.

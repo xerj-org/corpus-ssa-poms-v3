@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 00502.134 - Payee Applicant Has Poor Past Performance
+Effective Dates: 05/23/2023 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502134 (fetched 2026-10-04)
+
+B. Procedure - Applicant Has Poor Payee Performance
+The eRPS contains information about an individual's prior performance as payee, including
+indications of unsatisfactory performance (see GN 00502.132. If the eRPS shows the applicant has misused funds or is overpaid because they received
+and did not return payments after the death of the beneficiary, confirm the accuracy
+of this data by querying the associated MBR/SSR. If accurate, ask the payee why the
+obligation was not repaid. Ask them to repay or make arrangements to repay it now.
+1. Non-selection of Applicant with a Poor Past Performance
+An applicant whose past performance was unsatisfactory should generally not be appointed
+as payee. Take the following actions when you determine the applicant is not a suitable
+payee:
+•
+Complete the application in eRPS
+•
+Non-select the applicant using the Selection-Decision screen (MS INTRANETERPS 012.002)
+•
+Select Poor Past Performance as the Non-Select Applicant screen (MS INTRANETERPS 012.003).
+•
+Check “Send non-select notice to applicant” so eRPS
+sends the appropriate non-select notice.
+•
+Look for a new payee applicant and consider direct payment, if appropriate.
+2. When to Appoint an Applicant with a Poor Past Performance
+If you determine that there is no other suitable payee available, and direct payment
+is prohibited, and your investigation shows the applicant does not pose a risk to
+the beneficiary, you may decide the appointment of this applicant is in the best interests
+of the beneficiary. You must fully document your reasons for a selection of someone
+with poor past performance on the Make Note screen on the eRPS. A manager must approve
+the payee selection (see GN 00502.132 for more information). The manager must take action on the Approve Selection screen
+under “Manager Actions” from the eRPS overview screen (MS INTRANETERPS 012.006). Document
+the management’s approval on the Selection-Required Notes screen (MS INTRANETERPS
+012.007). Prepare a 3-month diary for an SSA-624-F5 evaluation using the Add New Issue
+screen in eRPS (MS INTRANETERPS 008.007) or another reliable diary control. For T16
+cases, use the diary code and date (DA) field to establish a UA diary on the SSR (see
+SM 01301.647). Conduct additional follow-up evaluations when you believe they are
+necessary. On the Rep Payee Details page, document the results of all follow-up evaluations
+on the Make Note screen (MS INTRANETERPS 015.002). You may withhold any accrued or
+conserved benefits until you have evaluated the payee's performance unless the funds
+are needed to meet current needs. See GN 00603.070 and GN 00502.186 for more information.
+CAUTION: Direct input of payee appointment will release all accrued benefits. Manual action
+by the PC is required to withhold accrued or conserved benefits.
+SPECIAL NOTE ON MISUSERS – A person who has a history of misuse cannot serve as payee unless they has repaid
+or has a plan to repay the misused benefits and a manager approves the selection.

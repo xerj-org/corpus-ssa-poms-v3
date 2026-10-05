@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - DI 81010.035 - Data Propagation
+Effective Dates: 09/23/2013 - Present | TN 84 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010035 (fetched 2026-10-04)
+
+B. Data propagation into EDCS when no current mainframe claim or appeal exists
+1. Exclusion Information Screen
+When no current MCS or MSSICS claim or appeal exists all available data from SSA’s
+other mainframe systems (i.e., NUMIDENT, and MBR) propagates into the MCS Exclusion Information page in EDCS.
+Once the case is created:
+•
+The name and date of birth propagates from the MBR into the MCS Exclusion Information
+screen in EDCS.
+•
+EDCS prompts you to complete other fields on the MCS Exclusion Information screen
+whenever a Childhood Disability Beneficiary (CDB) or Disabled Widow(er) Beneficiary
+(DWB) MCS Exclusion Claim is established. The MCS Exclusion Information screen requires
+you to enter information that would normally propagate into EDCS from the mainframe
+application.
+2. Changing propagated data
+Data that propagates from the MCS Exclusion Information screen into other EDCS screens
+cannot be over-keyed.
+To change incorrect data propagated from the MCS Exclusion page:
+•
+return to the MCS Exclusion page;
+•
+Correct the data; and
+•
+Continue with the EDCS screens.
+NOTE: The subsequent EDCS screens will be updated because the MCS Exclusion screen was
+corrected.
+EXCEPTION: Allegations of disabling conditions can be changed on any screen where they appear.
+Make sure that allegations in EDCS are spelled out correctly, not truncated or abbreviated.

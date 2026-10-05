@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - DI 13015.100 - FO - Processing Center Action Control System (PCACS) Coordination TII Direct Release Alerts
+Effective Dates: 05/21/2009 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015100 (fetched 2026-10-04)
+
+C. Procedure - No Title II Folder Received - FO Actions Based on PCACS and Disability
+Control File (DCF) Reads
+If no title II folder is received, the FO should proceed as follows:
+1.
+DO NOT make a repeat request to the Megasite or NRC for a folder, even if the folder/material
+does not contain the medical evidence used in the most recent prior favorable medical
+decision.
+EXCEPTION: If ODO/PSC determines the Title II folder is in a FO, they will forward the direct
+release alert to the Servicing FO. Retrieve the Title II folder and conduct the CDR interview.
+2.
+DO NOT consider a folder "missing" until a duplicate folder is received from ODO/PSC and
+the record is updated to the DCF. See DI 13015.060 ff.
+3.
+The following chart shows the more common PCACS TITLE II locations and FO actions:
+PCACS LOCATION
+FO ACTION
+REMARKS
+1. AUXRH QUES QUES or
+AUXRH TEMP QUES (Megasite "questionable"" location)
+DCF: "Q" posted in FOLDER RECONSTRUCTION FIELD
+FO IS ON HOLD FOR A MAXIMUM OF 120 DAYS – Awaiting the folder or duplicate folder from OCO/PSC.
+See DI 13015.060 – establish a CDRW (MSOM CDR 001.013 ) control at about 30-day intervals to check for status change in the “FOLDER RECONSTRUCTION”
+field.
+Do NOT request the folder through PCACS.
+See “NOTE:” in DI 13015.055.
+This read indicates that OCO has searched for the folder and could not locate it in
+that location. Allow 120 days for this process.
+2. CAVES QUES QUES
+(NRC "questionable" location)
+DCF: "Q" posted in FOLDER RECONSTRUCTION FIELD
+FO IS ON HOLD FOR A MAXIMUM OF 120 DAYS – Awaiting the folder or duplicate folder from OCO/PSC.
+See DI 13015.060 – establish a CDRW (MSOM CDR 001.013 ) control at about 30-day intervals to check for status change in the “FOLDER RECONSTRUCTION”
+field.
+Do NOT request the folder through PCACS.
+The NRC has searched for the folder and could not locate it in that location. Allow
+120 days for this process.
+3. PC 1-6 QUES QUES
+(PSC "questionable" location)
+DCF: "Q" posted in FOLDER RECONSTRUCTION FIELD
+FO IS ON HOLD FOR A MAXIMUM OF 120 DAYS – Awaiting the folder or duplicate folder from PSC.
+See DI 13015.060 – establish a CDRW (MSOM CDR 001.013 ) control at about 30-day intervals to check for status change in the “FOLDER RECONSTRUCTION”
+field.
+Do NOT request the folder through PCACS.
+The PSC has searched for the folder and could not locate it in that location. Allow
+120 days for this process.
+4. WITIHIN 120 DAYS After these “PCACS reads” are updated :
+AUXRH QUES QUES -
+AUXRH TEMP QUES
+CAVES QUES QUES
+OR
+PC 1-6 QUES QUES
+DCF: "L" posted in FOLDER RECONSTRUCTION FIELD
+OCO/PSC is preparing a "DUPLICATE" folder.
+TII ONLY: TICKLE for 15 working days when duplicate folder has been updated to the FO on PCACS, proceed per DI 13015.070.
+TII/TXVI: TICKLE for 15 working days when duplicate folder has been updated to the FO on PCACS, obtain title XVI folder per
+DI
+13015.055.
+IF FOLDER NOT RECEIVED, Contact OCO/PSC-DRS for current status and tickle file for
+receipt per DI 13015.060.
+5. DESTR DEST DEST
+(Destroyed)
+NO FO ACTION NECESSARY.
+The folder has been destroyed.
+The PC of jurisdiction will get the alert and is responsible for preparing a duplicate
+folder.
+Do NOT request the folder through PCACS.
+6. INTRN FOUT PTRN
+(In transit, files out, permanent transfer)
+For example, death cases, Age 54 transfers, folder misroute (i.e., wrong PC).
+IN TRANSIT: 0-75 DAYS:
+•
+If PCACS date (LOCDT) is less than 75 days –TICKLE the case for 15 working days and
+recheck to see if folder has been received and read in by the new PC.
+•
+If not received in the PC, diary for another 15 working days, recheck status, if no
+movement, repeat tickle till folder is receipted in or LOCDT date is more than 75
+days.
+•
+If folder is received in PC and PCACS changed accordingly, REQUEST the folder from
+the PC through PCACS.
+•
+If PCACS, not updated, proceed to 75 - 119 days.
+IN TRANSIT MORE THAN 75 DAYS - UP TO and including the 119th DAY:
+•
+If the TO LOCATION has not changed to the current PC, CALL the PC shown in the TO
+LOCATION to see if they have the folder.
+•
+If YES, have them send the folder to your FO.
+•
+If NO, it is their responsibility to start the OCO/PSC lost folder process in accordance
+with DI 40525.070 - DI 40525.075 ff.
+•
+At this point - FO has no further action until a Title II or duplicate folder is received.
+See DI 13015.060 ff.
+Do NOT request the folder through PCACS while the LOCATION shows INTRN FOUT PTRN. See EXCEPTION under FO Actions.
+The folder has been sent to the office shown in the TO LOCATION.
+​
+EXCEPTION: If the folder location shows it to be in transit for more than 119 days, ignore the above steps. Phone the PC shown in the “TO LOCATION” and request the
+folder. Tickle for 15 working days for receipt of the folder. Contact the DRS/Module
+Manager, if the folder is not received, to start the OCO/PSC lost folder process in
+accordance with DI 40525.070 - DI 40525.075 ff.
+​
+7. INTRN FOUT TTRN
+(In transit, files out, temporary transfer)
+[THIS MEANS THE FOLDER IS BEING SENT TO A LOCATION OTHER THAN A PC, e.g., FO, DDS,
+ODAR, etc.]
+Check the office shown in the TO LOCATION.
+•
+If the office shown is YOUR OFFICE, tickle file for 15 working days for receipt of
+the folder and wait.
+•
+At the end of the 15 working days, Contact the PC (if folder not received) to determine
+status. Depending on response you could be setting another tickle date for receipt
+of the file or contacting OCO/PSC for implementation of lost folder process per DI
+40525.000 ff.
+•
+If the office shown is NOT YOUR OFFICE, phone the office in the TO LOCATION (see FO
+exceptions in DI 13015.040D.,
+DI 13015.040E., and DI 13015.040F.) and ask them to forward the folder to you.
+•
+If they do not have the folder yet, ask them to forward it when they receive it.
+•
+In "INTRN FOUT TTRN" situations – It is the FO"s responsibility to make sure a title
+II folder is received in order to conduct the CDR interview, etc. If necessary the
+FO will contact OCO/PSC and have them start the lost folder procedures in DI 40525.070 -
+DI 40525.075 ff.
+•
+If the date shown in LOCDT is more than a year prior to the current date – contact OCO/PSC and have them start the lost folder procedures
+in DI 40525.070-DI 40525.075 ff.
+Do NOT request the folder through PCACS.
+The folder has been sent to the office shown in the TO LOCATION.
+8. MOD XX
+NO FO ACTION
+The PC of jurisdiction is responsible for sending the folder to the FO.
+Do NOT request the folder through PCACS.

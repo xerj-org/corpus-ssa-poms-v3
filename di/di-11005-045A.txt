@@ -1,0 +1,362 @@
+SSA Program Operations Manual System (POMS) - DI 11005.045 - Completing the SSA-3367 (Disability Report Field Office)
+Effective Dates: 09/22/2026 - Present | TN 140 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005045 (fetched 2026-10-04)
+
+A. FO completes the SSA-3367
+•
+Complete one entire paper form for multiple or concurrent EDCS exclusion claims.
+•
+Complete page 1, items 1 through 6 for each additional claim.
+•
+Complete the EDCS 3367 as detailed in DI 81010.025.
+1. IDENTIFYING INFORMATION (items 1-5)
+For data propagation into EDCS, see DI 81010.035. Complete the following information on the SSA-3367.
+a. Item 1: Name, Social Security number, sex, date of birth
+•
+Enter the number holders (NH) full name and social security number (SSN).
+•
+Enter the claimants full name, sex, date of birth, and SSN, if different from the
+NH.
+NOTE: The claimants information is required for auxiliary or survivor claims (for example,
+a disabled widow(er) beneficiary (DWB) filing on the deceased spouses record, or a
+disabled minor child (DMC) filing on a parents record).
+b. Item 2: Claimants Alleged Onset Date (AOD)
+Enter the AOD on the SSA-3367. The AOD is propagated from the mainframe into the EDCS
+3367.
+For MCS exclusion cases, enter the AOD on the EDCS MCS Exclusion Information page.
+For Manually Created T16 Claims, enter the AOD in the Disability Information section
+of the EDCS Manually Created T16 Information page.
+For claims established in the Modernized Claims System (MCS) and the Modernized Supplemental
+Security Income Claims System (MSSICS), the AOD propagates into EDCS and cannot be
+entered or changed by manual keying. To change an AOD in EDCS, make the AOD change
+in MCS or MSSICS first, then the revised AOD propagates into EDCS (see DI 81010.045). If the claim has been transferred to DDS, use the Update after Transfer utility
+(see DI 81010.095) to notify the DDS of any changes to the AOD.
+The AOD is the date the claimant alleges he or she became unable to work because of
+his or her medical condition, regardless of whether that date appears appropriate.
+See DI 25501.210.
+If the claimant never worked, enter the date he or she believes the condition(s) became
+severe enough to keep him or her from working as the AOD.
+If the AOD conflicts anywhere in the file (e.g., the AOD on the application is different
+from the date on the SSA-3368-BK (Disability Report - Adult)):
+•
+resolve the conflict with the claimant,
+•
+enter the date selected by the claimant, and
+•
+explain why the AOD conflicts and how it was resolved in the Remarks section on the
+SSA-3367
+c. Item 3: Potential Onset Date (see DI 25501.220 Potential Onset Date (POD)) (check type of claim(s) and enter potential onset date)
+To complete items 3 through 6, follow detailed instructions in subsection B. Form
+SSA-3367 supplemental instructions for specific claim types:
+•
+DIB and freeze claims with a non-blind DLI and an allegation of blindness, vision
+problems or low vision;
+•
+Medicare for Qualified Government Employment (MQGE) claims; and
+•
+DWB claims.
+The POD alerts the DDS examiner or administrative law judge (ALJ) of work issues,
+insured status, and other non-medical factors that may affect the established onset
+date (EOD). The POD is claim specific.
+NOTE: In EDCS, the Title II POD is a required field and will propagate from the prior level
+case to the new case (for example, from initial to recon), though the POD field will
+be editable.
+•
+Before transferring jurisdiction of a claim to the DDS or OHO, the FO must enter the
+POD for each Title II disability claim at each level of adjudication (except at the
+appeals council (AC) level). This includes:
+–
+claims at the initial level,
+–
+claims at the reconsideration level,
+–
+claims at the hearings level, and
+–
+escalated claims.
+NOTE: If the FO receives work activity information that affects the POD after the claim
+has been transferred to DDS, make a new POD determination and update the POD in EDCS.
+•
+The POD cannot be earlier than the date the claimant meets all non-medical requirements.
+•
+The FO does not have the capability to enter the POD on the 3367 in EDCS at the appeals
+council or federal court levels.
+•
+For most Title II claims, the POD is the earliest possible date that the DDS can establish
+onset based on non-medical factors. The POD may be the same as, earlier, or later
+than the AOD. For guidance on how to consider the POD in Title II claims, see the
+chart in DI 25501.220C.1.b.
+•
+Enter the POD for Title XVI supplemental security income (SSI) claims only if the
+POD is different from the protective filing date or the filing date. Some examples
+are:
+–
+The claimant performed SGA after the protective filing date or filing date (DI 11005.065A.3.)
+–
+The claimant has an SSI trust (SI 01150.121D.2.b.) and (SI 01120.203B.4.a.);
+•
+Consider the POD separately for each disability claim type in concurrent or multiple
+Title II claims.
+•
+For ALJ cases, enter the POD based on existing evidence in file. If there is undeveloped
+work activity, alert the ALJ to the existence of work activity which may affect the
+onset date, but do not initiate additional development unless requested to do so by
+the ALJ. See DI 12010.005 - Development of Administrative Law Judge (ALJ) Hearing Cases.
+NOTE: Be aware that the POD may be in a previously adjudicated period; including a period
+decided by an ALJ.
+If the FO sets a POD in a previously adjudicated period decided by an ALJ, the DDS
+does not have the authority to reopen the case but must consider whether reopening
+and revising a prior determination or decision is appropriate.
+The DDS only has authority to reopen if the prior determination is below the ALJ hearing
+level, see DI 27510.005C.1.
+•
+If the DDS determines reopening is appropriate, the DDS completes action on the subsequent
+claim and refers the prior and subsequent claims to the state or federal disability
+hearing unit (DHU) or the Office of Disability Operations (ODO) to consider reopening.
+See DI 27510.005C.2.
+•
+In some situations, the DDS can establish onset within the prior period without reopening.
+See DI 27510.005D and DI 27510.005E.
+IMPORTANT: For situations when a subsequent claim has been filed while there is a prior claim
+or appeal pending at the appeals council, review DI 51501.001 to determine if SSA can process the subsequent claim (for example, AC granted an
+exception to the subsequent disability application policy). If SSA can process the
+subsequent claim, follow the POD instructions in DI 12045.027C.1.e.
+d. Item 4: Reason for Potential Onset Date
+Check the appropriate block for the reason for the POD.
+•
+SSI application date (Title XVI only)
+•
+Date last insured (Title II only)
+•
+Date first insured (Title II only)
+•
+Controlling date (Title II only)
+•
+Alleged onset date (AOD) (Title II only)
+•
+Other (explain in item 5) (both Title II and Title XVI)
+For EDCS, check the Other block if the reason for POD is POD is the same as AOD.
+•
+Work before or after the AOD (check all that apply) (both Title II and Title XVI):
+–
+UWA;
+–
+SGA;
+–
+Not SGA;
+–
+SSA-823 in file
+IMPORTANT: You must complete Form SSA-823 (Report of SGA Determination - For SSA Use Only) in all claims that require an SSA-820-BK (Work Activity Report - Self-Employment) or an SSA-821-BK (Work Activity Report - Employee).
+For detailed information on work activity reports, see:
+•
+DI 10510.025 Documenting Self-Employment Cases Using the SSA-820-BK (Work Activity Report-Self-Employment)
+and the SSA-823 (Report of SGA Determination- For SSA Use Only)
+•
+DI 10505.035 Documenting Employment Cases Using Forms SSA-821-BK (Work Activity Report-Employee)
+and SSA-823 (Report of SGA Determination-For SSA Use Only)
+e. Item 5: Explanation for Potential Onset Date, when applicable
+If you check Other in Item 4, explain the reason for the POD, for example:
+•
+The POD and the AOD are inconsistent. Resolve and explain any inconsistencies in work
+activity or other non-medical factors that may affect the onset date.
+•
+The claimants work is clearly not SGA per DI 10505.003.
+•
+The date first insured (DFI) is the reason for the POD. Enter the DFI.
+•
+The POD is the same as the AOD.
+•
+The claimant has an SSI trust.
+2. Item 6: MISCELLANEOUS INFORMATION
+Provide the following information:
+•
+Enter the protective filing date on the SSA-3367. The protective filing date is propagated
+from the mainframe and displayed in eView Case Information (Data View) page.
+•
+Enter the non-blind DLI for DIB and Freeze claims.
+•
+For appeal level cases, update the non-blind DLI if additional earnings resulted in
+a change to the non-blind DLI.
+•
+Enter the blind DLI if the claimant is insured for blind benefits, and alleges blindness,
+a visual impairment, or low vision. For documenting claims involving potential blindness,
+see Remarks Section, 9.f.
+•
+Enter both the non-blind DLI and blind DLI if the claimant alleges physical impairments
+and a visual impairment.
+NOTE: It is possible that a claimant will be insured for blindness only and therefore,
+not be insured for non-blind benefits.
+•
+Enter the prescribed period and controlling date for DWB claims, see subsection B.3.
+For EDCS cases, review the prescribed period information on the Miscellaneous, DWB
+and Prior Filing Information page of the 3367, and verify that the propagated information
+is correct. For detailed guidance, see DI 11005.050.
+•
+Check yes or no for a closed period of disability case.
+See also:
+•
+DI 25510.001 Closed Period of Disability
+•
+DI 25510.010 Establishing a Closed Period of Disability and Protecting a Closed Period Freeze
+Under Title II
+•
+DI 25510.015 Closed Period of Disability Under Title XVI
+3. Item 7: PRIOR FILING INFORMATION Use Remarks, if additional space is needed
+NOTE: When EDCS establishes the certified electronic folder (CEF) for a new initial claim,
+prior CEF filing information automatically propagates in the EDCS 3367.
+List ALL prior filings with a medical determination or decision and SGA denials on
+the SSA-3367 (or the EDCS 3367). Use the Remarks section, if you need additional space.
+The DDS does not need filing information for technical denials (e.g., N13, N04, N18,
+090), unless there was a medical determination associated with the technical denial.
+NOTE: Only one entry is needed for the prior filing information. Enter information on the
+last adjudication level for a claim that may have been processed through an appeal.
+Indicate whether the claimant has a prior filing(s).
+If there is a prior filing provide the following information:
+•
+Type of prior claim(s);
+•
+SSN(s) of prior claim(s);
+•
+Date of last decision(s) (MM/DD/YYYY);
+•
+Level of last decision(s) (initial, reconsideration, etc.);
+•
+Outcome of last decision(s) (allowance or denial);
+•
+Location of prior folder; and
+•
+Prior folder requested; if yes include the date requested or no.
+For instructions on prior filings, see Prior Claims Activity in DI 11005.085.
+NOTE: If a prior period of disability ended in a termination due to failure to cooperate,
+the FO must alert the DDS.
+4. Item 8: PRESUMPTIVE
+Check the block(s) for any presumptive disability (PD) or presumptive blindness (PB)
+criteria that apply in SSI (Title XVI) claims.
+For a list of impairments that FOs are authorized to make PD and PB findings, refer
+to DI 11055.231 Field Office (FO) Presumptive Disability (PD) and Presumptive Blindness (PB) Categories
+Chart.
+Refer to detailed FO procedures on processing PD and PB claims in DI 11055.240.
+5. Item 9: OBSERVATIONS/PERCEPTIONS
+How was the interview conducted?
+Observations during face-to-face and telephone interviews are very valuable to adjudicators.
+Record the following information:
+•
+type of interview:
+–
+Teleclaim with claimant,
+–
+Face-to-face with claimant, or
+–
+No contact with claimant;
+•
+use of an interpreter or of bilingual staff during interview;
+•
+difficulties with any of the activities listed (check yes, no, or not observed/perceived);
+•
+description of the claimants behavior, appearance, grooming, or degree of limitations;
+and
+•
+any additional comments about your observations.
+6. Item 10: FO DEVELOPMENT
+Document any development initiated by the FO.
+For information about FO development, see
+•
+DI 11010.485 through DI 11010.495 for medical evidence
+•
+DI 22501.002B. for non-medical evidence.
+CAPABILITY/REMARKS
+7. Item 11: If medical evidence was brought in to the FO by the claimant, check here
+Indicate whether the claimant submitted medical evidence of record (MER) to the FO
+by checking the block.
+For EDCS cases, follow the procedures in DI 81010.125 - Receiving Medical Evidence in the Field Office. FOs must either fax the additional
+medical evidence into the electronic folder or forward the medical evidence to the
+DDS under cover of the EDCS routing sheet.
+8. Item 12: Is DDS capability development needed?
+If capability is questionable and you cannot make a capability determination, (e.g.,
+allegation of mental disorder(s) or noticeable abnormal behavior of the claimant),
+•
+ask the DDS to provide a capability opinion, and
+•
+explain in the Remarks section on the SSA-3367.
+While the DDS may provide an opinion regarding the evidence of capability, the FO
+is responsible for the final determination of capability. For more detailed information,
+see
+•
+DI 11055.215A Policy for an FO request for DDS capability development
+•
+GN 00502.040A.3 How much consideration should I give to medical evidence?
+9. Remarks Section:
+Use the Remarks section to:
+•
+add explanations, descriptions, expansion of the answers to questions, or
+•
+record other pertinent information about the claim for the DDS.
+a. Medicare for Qualified Government Employment (MQGE) claims
+Enter the following information:
+•
+When applicable, alert the DDS that a claimant filed an application with the Office
+of Personnel Management for an annuity based on disability, or is receiving an annuity
+based on disability; include the Civil Service annuity claim number, see DI 11035.010;
+•
+When forwarding MQGE only claims to the DDS for a disability determination, annotate
+MQGE claim for Medicare entitlement only;
+•
+If a claimant is potentially entitled to both MQGE and DIB benefits with different
+DFIs, DLIs, and PODs, alert the DDS to develop evidence based on multiple onset dates.
+Multiple Periods of Entitlement are EDCS exclusions per DI 81010.030; follow paper processing procedures.
+For MQGE policy and procedures, see:
+•
+DI 11035.001 Medicare for Qualified Government Employment (MQGE) Claims Based on Disability
+•
+DI 11035.005 Developing Medicare for Qualified Government Employment (MQGE) Claims Using the Electronic
+Disability Collect System (EDCS)
+•
+DI 25501.365 Established Onset for Medicare Qualified Government Employment (MQGE) Claims
+b. Consultative examination (CE) appointment
+If the claimant expects difficulties in keeping a CE appointment, document the reason.
+EXAMPLE: lack of transportation, home confinement due to disability, inability to read, no
+telephone to reach the claimant, or homelessness.
+c. Prisoner claims
+For applicable remarks to document prisoner claims, refer to:
+•
+DI 10105.094B.2 Documenting the SSA-3367
+•
+DI 23530.001B.1 FO actions upon receipt of referral
+d. Recontacting the claimant
+If re-contacting the claimant is difficult, document the reason, see DI 11005.001A.2.
+EXAMPLE: Telephone contact with a homeless claimant may be difficult, or a claimant may be
+on an extended trip and unavailable for contact.
+e. Curtailing completion of Form SSA-3368-BK (Disability Report Adult) or SSA-3820-BK
+(Disability Report Child)
+If you curtail completion of the SSA-3368-BK or SSA-3820-BK, explain why per DI 11005.020.
+f. Blindness claims
+In blindness, visual impairment, and low vision claims:
+•
+enter If the claimant is found statutorily blind, the blind DFI is MM/DD/YYYY.
+•
+you may need to provide two DFIs and two DLIs (non-blind and blind) if the claimant
+alleges both a physical impairment and blindness or a visual impairment, see DI 11005.071.
+g. Potential parents benefits claims
+If the DIB claimant alleges providing half support to a parent at the time of onset,
+enter the following statement: Potential Parents Benefits - Do not use the DIB expedient
+when establishing the EOD, see DI 25501.300.
+h. Fraud or Similar Fault cases
+Describe any fraud or similar fault issues, see DI 11006.010.
+i. Medicare Waiting Period cases
+If onset is more than five years after the prior termination, enter:
+•
+Medicare Waiting Period Determination Needed,
+•
+the diagnosis code from the prior entitlement, and
+•
+the month of prior termination.
+For more information, see DI 11010.261 Field Office Applying Prior Entitlement Months to the Medicare Waiting Period.
+j. COBRA cases
+Annotate COBRA case and the date the employee must notify the health plan administrator,
+see DI 11080.005.
+INTERVIEWER INFORMATION
+•
+Print the interviewers name, area code, and phone number.
+•
+Print the name of the person completing the form (if different from the interviewer).
+•
+Date the form.

@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - GN 02201.017 - Explanation of a Title II Overpayment
+Effective Dates: 11/15/2024 - Present | TN 77 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201017 (fetched 2026-10-04)
+
+D. PSC instructions
+If the PSC receives a direct request from the overpaid person or a request from the
+FO, stop recovery (if applicable) via Protest/Stop Recovery Request (PC) (DRPR) screen
+in DMS (MSOM DMS 006.003) using the “explanation” protest reason. Check ORS for any
+notices we previously sent to the overpaid person regarding the overpayment then take
+the following actions to provide the explanation and resume recovery:
+•
+Provide a thorough written explanation of the overpayment using the MBR/ROAR/PHUS,
+documentation located in Paperless, or OPWIZ on the PCOM OQA Toolbar.
+•
+Follow the notice standards located in GN 02201.009B.1.
+•
+Do not include any appeal rights in the explanation notice.
+•
+Use DMS or MACADE to resume collection in COM plus 3 months.
+•
+Annotate DMS remarks to say that you have provided an explanation of the overpayment
+and you are resuming collection. Include the date you sent the notice, your office
+code, and your name (or unit code).
+•
+Clear the MDW (if applicable).

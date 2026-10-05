@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - DI 81010.030 - Certified Electronic Folder (CEF) Exclusions and Limitations
+Effective Dates: 02/29/2024 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010030 (fetched 2026-10-04)
+
+D. Processing MPC EDCS Exclusions
+1. MPC EDCS Exclusions
+MPC exist when both an initial claim and a CDR or EXR case are pending for the same
+individual at the same time. For example, an individual could have a Age 18 Redetermination
+and a Title II Disability Insurance Benefits (DIB) or Childhood Disability Benefits
+(CDB) claim pending at the same time. Though most MPCs can be processed in EDCS, see
+DI 81010.031, there are some scenarios which are considered exclusions and must be processed as
+a paper folder. The following MPC scenarios are exclusions:
+•
+An initial claim and a CDR or EXR case with the same claim type and same SSN.
+Example: An initial DIB claim with a DIB EXR cannot be processed as an MPC in EDCS/eView because
+they have the same claim type (e.g. DIB).
+Reminder: Per DI 81010.232, if the child case should be an age 18 redetermination, change the claim type from
+DC/BC to DI/BI or DS/BS in the TMR field of the SSR before creating the case in EDCS.
+•
+Escalations/associations at the case level
+Example: A CDR reconsideration is currently pending, and it is determined the claimant is
+also eligible for an initial claim benefit. Since no initial claim is currently pending
+with the CDR, the initial claim case cannot be escalated to the reconsideration level
+in EDCS/eView. See DI 33015.060
+NOTE: Process escalated claims electronically, per DI 12045.010. For example, a reconsideration level MPC CDB CDR claim is pending in EDCS with a
+reconsideration level Disabled Individual (DI) initial claim. The claimant now qualifies
+for DIB and filed a DIB initial claim. Technicians will be able to escalate the new
+DIB initial claim to the reconsideration level since an initial claim already exists
+at that level. Refer to DI 12045.015 for escalating procedures when one case is pending at the Administrative Law Judge
+(ALJ)
+•
+Reconsideration on one MPC case while the other case is still pending at the initial
+adjudicative level
+Example: The DDS made an unfavorable decision on a CDR at the initial level and a new claim
+is still pending at the initial level. A reconsideration cannot be created in EDCS
+on the CDR case because the new claim case is still pending at the initial level.
+Both cases must be closed at the initial adjudicative level in EDCS before creating
+the reconsideration in EDCS.
+•
+New initial claim for the same type of benefit as a closed claim that is connected
+to an MPC claim.
+Example: An MPC was created as a CDB CDR with a DI initial claim (filing date of 08/01/2023).
+The CDB CDR was transferred to DDS, and then the FO either manually cleared or made
+an FO determination on the DI initial claim in EDCS. The cases remain connected since
+the clearance or determination on the DI claim occurred after the FO sent the CDB
+CDR cases to the DDS. The claimant files a new DI claim with a filing date of 10/01/2023,
+and the CDR is still pending at the DDS. The new DI claim with a filing date of 10/01/2023
+must be processed as an EDCS exclusion since a claim with the same claim type is already
+connected as an MPC.
+2. Processing of MPC Exclusions
+The FO technician can process MPC exclusions by establishing one case in EDCS, and
+the second case as paper. Though one of the cases can be worked electronically, both
+cases are still official paper folders. Adjudicating components (for example, DDS)
+must print all documents for at case closure and file them in the paper folder.
+NOTE: For MPCs, the DDS must print all documents at case closure because MPCs consists
+of two cases that are different case types (initial and CDR), and each folder should
+have its own documentation that supports the determination.
+To process MPC exclusions, follow the paper processing instructions below:
+•
+Enter the initial claim in EDCS and complete the disability forms, unless a CDR or
+EXR case is already pending at the DDS or OHO;
+NOTE: Certain CDB and Disabled Widow Beneficiary (DWB) cases do not require establishment
+of an MCS claim prior to creating an EDCS case. Supplemental Security Income (SSI)
+cases that cannot be established in MSSICS can be established in EDCS utilizing the
+Manual Title XVI creation functionality. For more information on conversion cases,
+see Childhood Disability Benefits (CDB) General - RS 00203.080 and DI 81010.020B.
+•
+Transfer the initial claim in EDCS. On the EDCS Transfer screen, check the paper folder
+indicator “A paper CDR is being processed together with this case”;
+•
+Complete CDR forms and MDF for the CDR;
+•
+Print the EDCS routing form to attach to the paper MDF. Annotate the EDCS routing
+form with the following remark to show that an EDCS Exclusion is associated with the
+case: “EDCS exclusion-associate paper CDR with EDCS initial case transferred on MM/DD/YYYY";
+and
+•
+Mail the paper MDF to the adjudicating office.
+•
+The DDS will return the electronic and paper portions of the case to the FO after
+adjudication.
+NOTE: If a CDR or EXR classification case is already pending at the DDS or OHO, and you
+are unable to add an MPC initial claim, create a paper MDF for the initial claim (see
+DI
+81010.030C in this section). Utilize the Update After Transfer functionality when creating the
+message for the EDCS case stating that a paper claim exists and inform the DDS that
+it is necessary to update the PFI in eView. Mail the paper MDF to the DDS or OHO for
+escalation or association as appropriate

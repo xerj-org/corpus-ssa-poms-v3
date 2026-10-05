@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 00904.235 - Use of administrative messages in OIO
+Effective Dates: 11/14/1997 - Present | TN 13 (11-97)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200904235 (fetched 2026-10-04)
+
+B. Procedure
+Complete the fields on the OIO Administrative Message screen as follows
+1. Transfer to field
+Leave this field blank since it is not active yet.
+2. List addressee routing indicators field
+Show the alpha routing indicator for each FSP listed in the “TO” field.
+Note:Routing indicators are shown in the Foreign Service Post Directory in the Telecommunications
+Routing Indicator Directory (TRID).
+3. To field
+Show the rank of the FSP to which the message is being sent. Since the Department
+of State's communications software requires a precise format and recognizes only two
+FSP acronyms, show either “AMEMBASSY” or “AMCONSUL.” After the rank, show the city in which the FSP is located.
+Show ATTN FBU or ATTN SSA DIVISION. as appropriate, so that message can be directed
+to the appropriate section in the FSP or VARO in Manila.
+Use single slash to separate the routing indicator from the FSP rank and city and
+double slashes to surround the attention portion of the “to” line. If there is more than one FSP, repeat the routing indicator for each office
+shown in this field.
+Show “INFO” before the indicator for any FSP which is to receive an informational copy.
+The following are examples of the proper format in this line.
+•
+Request to One FSP
+AMEMBASSY MANILA//ATTN SSA DIVISION//
+or
+AMCONSUL HERMOSILLO//ATTN FBU//
+•
+Request To Multiple FSPs
+RUEHGU/AMCONSUL GUADALAJARA//ATTN FBU//
+RUEHME/AMEMBASSY MEXICO CITY//ATTN FBU//
+•
+Request to One FSP with an Information Copy to the Regional Federal benefits Officer
+(RFBO)
+RUEHMD/AMEMBASSY MADRID//ATTN FBU//
+INFO RUEHRO/AMEMBASSY ROME//ATTN RFBO//
+4. From field
+Show “SOCIAL SECURITY ADMINISTRATION BALTIMORE.”
+5. Subject field
+Show the subject of the message (e.g., Request for Services, Followup to Request for
+Services, Response to Your Request Dated (date), etc.).
+6. Text field
+Enter the message. Always show the SSN and name of the NH and of the claimant, as
+well as the name and telephone number of the preparer in case the FSP needs to discuss
+the case.
+7. Transmit field
+If another page is needed to complete the message, enter “N” in the “TRANSMIT” field and press “enter” or “PF8” to page forward.
+To send the message, enter “Y” in the “TRANSMIT” field and press “Enter.”

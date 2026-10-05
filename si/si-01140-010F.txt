@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - SI 01140.010 - Resource Verification Requirements
+Effective Dates: 07/12/2012 - Present | TN 89 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140010 (fetched 2026-10-04)
+
+F. Examples of when tolerance does or does not apply
+1. Tolerance applies
+A claimant has a scheduled RZ in July 2025 and alleges the following resources:
+$200 Savings account designated for burial
+$400 Non-home real property
+$50 Checking account
+$100 Certificate of Deposit (CD)
+$300 CSV of countable life insurance
+= $1050 Total
+$350 Liquid resources
+Excludable burial funds in an FI account plus countable liquid resources (savings
+account for burial, checking account, and CD) do not exceed $400 (treat the $300 life
+insurance CSV, as well as the $400 in non-home real property, as a non-liquid resource).
+The liquid resource verification tolerance applies because the total amount of liquid
+resources (including the burial funds held in an FI account) is below $400. There
+is no need to verify the value of liquid resources.
+2. Tolerance does not apply
+The claimant from example 1 calls the office the following day and changes their allegation
+after checking their records. The claimant’s new resource allegations are:
+$400 Savings account designated for burial
+$400 Non-home real property
+$275 Checking account
+$200 CD
+$300 CSV of countable life insurance
+= $1,575 Total
+$875 Liquid resources
+The liquid resource development tolerance does not apply because the total amount
+of liquid resources (including the burial account, checking account, and CD) is $400
+or more.
+3. Tolerance does not apply
+Tracy and Jane Smith, a married couple living together, are both receiving SSI. During
+an RZ, they allege the following resources:
+Tracy
+Smith:
+$35 Cash
+$200 Joint checking account
+$500 CSV of countable life insurance
+Jane
+Smith:
+$20 Cash
+$100 Checking account
+$250 Savings account
+= $1105 Total
+$605 Liquid resources
+Liquid resource development during RZs may be subject to the $400 liquid resource
+development tolerance. However, in this example, it does not apply because the combined
+total amount of liquid resources in the form of cash and FI accounts is $400 or more.
+4. Applying the tolerance to other resources after FI verification during an initial
+claim
+During an initial claim for an aged individual, the SSI applicant alleges they have:
+$20 in a checking account, and
+$100 in a CD.
+The total liquid resource allegation is $120. Because the CS is processing an initial
+claim, the CS runs AFI to verify the FI account balance and conduct a geographical
+search, regardless of the amount of alleged resources.
+The AFI response verifies the checking account balance was $19, and no other accounts
+were found. After considering the verified FI account balance, liquid resources are
+valued at $119 ($19 in the checking account and the alleged $100 CD) and are still
+under the $400 tolerance. Therefore, the CS does not need to verify the CD value.
+If the AFI verification showed $350 instead of $19, the CS would need to verify the
+CD. Liquid resources would be valued at $450 ($350 in the checking account and $100
+CD) and the $400 liquid resource verification tolerance would no longer apply.
+5. Tolerance does not apply during an RZ with a resource-related diary
+During a scheduled RZ, the recipient alleges having no resources except for a Direct
+Express card with no more than $5 on it at the end of each month. However, there is
+a 5B diary associated with this RZ. When asked about it, the claimant alleges winning
+a $1,000 cash prize from the local radio station last year and spending it all within
+the month of receipt. Even though the recipient alleged resources are below the tolerance
+for the entire period of review, the presence of a 5B diary during an RZ or LI is
+an exception to the tolerance. The CS runs an AFI search following SI 01140.206E to
+verify the Direct Express card balance.

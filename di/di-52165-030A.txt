@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 52165.030 - Interactive Computations Facility (ICF) Workers’ Compensation/Public Disability Benefit (WC/PDB) Notices
+Effective Dates: 02/19/2016 - Present | TN 6 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165030 (fetched 2026-10-04)
+
+A. ICF WC/PDB general notice information
+Claims representatives (CRs), claims authorizers (CAs), and claims technical examiners
+(CTEs) are responsible for all WC/PDB data in ICF for awards and post-entitlement
+(PE) actions.
+NOTE: Access all ICF WC/PDB screens via the SSA MENU - MAIN, and select Item #7 - Title
+II/Interactive Comps.
+The ICF notice screens are:
+•
+WCNM (Notice Menu)
+•
+WCEP (Enclosure Notice Block - Primary)
+•
+WCDL (Dictated Notice Language - Primary)
+•
+WCNA (Auxiliary Notice Data)
+For screen displays and detailed instructions for completing each data field on the
+ICF notice screens, see MSOM ICFT2 033.001 through MSOM ICFT2 033.003.
+NOTE: ICF notice screens will not accept adjustment/overpayment paragraphs (for example,
+paragraph OPT163).
+1. ICF #32 “WC/PDB: Adjudicate Claim”
+The Title 2 Redesign (T2R) system processes ICF #32 (Adjudicate Claim) actions . The CR,
+CA, or CTE is responsible for coding all applicable notice information into ICF on
+the appropriate
+notice screens. If T2R does not generate a complete notice, the processing center (PC) uses the information
+input on the ICF notice screens to issue a notice through Aurora, a notice processing
+system available to PCs only. ( for more information about Aurora, see DI 52165.030F in this section.)
+2. ICF #34 “WC/PDB: Online Record Entry” operation (OREO)
+Use ICF #34 (OREO) in T2R or ICF processing limitation situations. OREO is a “fill-in-the-blank”
+approach, i.e., technicians manually compute offset and then enter their computation
+onto the appropriate ICF screens (entering both “input” and “results” data). This
+creates an electronic version of their manual WC/PDB computation. The CR, CA, or CTE is responsible for coding all applicable notice information into
+ICF on the appropriate notice screens.
+OREO transmits actions adjudicated in the field office (FO) to the PC with jurisdiction
+of the claim. OREO routes actions adjudicated in either the FO or the PC to a benefit
+authorizer (BA) or benefit technical examiner (BTE) for processing. The BA or BTE
+includes the ICF notice information in MACADE (the Manual Adjustment Credit and Award
+Data Entry system), and MADCAP (Manual Adjustment Credit and Award Processes) processes
+the MACADE .

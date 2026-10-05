@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 81010.137 - Receiving Documents Submitted through iAppeals
+Effective Dates: 12/28/2023 - Present | TN 70 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010137 (fetched 2026-10-04)
+
+G. Taking a no-determination action prior to FO transfer when the claim is the last pending
+claim in the case
+If, prior to FO transfer, the EDCS user must take a no-determination action on the
+last pending claim in a case:
+1.
+The user manually commits any Internet documents that should be retained in the electronic
+folder (e.g., medical evidence) before taking the no-determination action;
+2.
+EDCS disassociates any previously associated documents that have not been committed
+to the EF;
+3.
+All document updates, such as notes, document type changes, and retention actions
+remain with the document. EDCS will not reset the document updates to their original
+state;
+4.
+If a user accesses the case after the no-determination action, the Internet Documents
+page will be a read-only page;
+5.
+If the user accesses the Preview Internet Documents page after the no-determination
+action, the documents will appear in the search results under the document’s SSN;
+and
+6.
+Any documents the EDCS user previously committed to the case will be viewable in eView.
+Note: Disassociating documents when the last claim in the case is an FO determination
+allows the documents to be systematically associated to a new case, at case creation,
+if the new case has the same Internet Control ID as the disassociated documents. It
+also allows documents to be re-associated if an EDCS user reactivates the case.

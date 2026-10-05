@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - SI 00520.140 - Temporary Institutionalization (TI) Benefits
+Effective Dates: 09/08/2023 - Present | TN 57 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500520140 (fetched 2026-10-04)
+
+K. Procedure for manual systems processing for TI
+If any one of the exceptions in SI 00520.140J.2. (in this section) applies, proceed as follows:
+1.
+For exceptions a, b, c, and e, do not make an input to record the TI benefits eligibility
+determination (neither allowance nor denial).
+2.
+For exception e, if a TI benefit allowance decision has been input and a living arrangement
+change is necessary, prepare a manual notice.
+3.
+For exception d, input the TI benefit eligibility determination. Correct the M02 amount
+and issue a manual notice (the system will NOT compute payment or issue a notice. Unless a correction in input, the system will continue
+paying the prior force due amount.)
+4.
+For exception f, input the denial code (to be used for statistical purposes only)
+and process the case manually.
+5.
+If the TI benefits provision applies, ensure the system reflects the recipient's permanent
+living arrangement as of the first moment of the month before the month the institutionalization
+began (see SI 00520.140E.2. in this section).
+6.
+Diary the case for review at the beginning of the third month for which TI benefits could apply.
+7.
+If the TI benefits provision does not apply, but the special benefits provision for
+institutionalized 1619 eligible apply, see SI 00520.130.
+8.
+If neither the TI benefits provision nor the special benefits provision for institutionalized
+1619 eligible applies, see the information on the resolution date (RS) and TI field
+input instructions:
+•
+SM 01305.750 Temporary Institutionalization - Resolution Date (RS)
+•
+SM 01305.760 Temporary Institutionalization (TI)
+•
+SM 01005.750 Temporary Institutionalization - Resolution Date
+•
+SM 01005.760 Temporary Institutionalization
+9.
+Suppress systems generated notices and see information on TI notices in SI 00520.141.

@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 03940.050 - Title XVI - Field Office Processing of Fee Agreements on Favorably Decided Concurrent Title II and Title XVI Claims
+Effective Dates: 11/29/2024 - Present | TN 50 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940050 (fetched 2026-10-04)
+
+A. Procedure – General
+1. Preliminary Steps
+Before proceeding to the steps in GN 03940.050B, ensure that all the following events have occurred:
+•
+The representative information is correctly posted to the Supplemental Security Record
+(SSR) using the Direct SSR Authorized Representative (UATH) screen, and the Representative
+Fee Update Data (UFEE) screen (MSOM BUSSR 002.013, and MSOM BUSSR 002.014, respectively).
+•
+The Title XVI claim was paid.
+•
+The decision maker (see GN 03940.002) approved the fee agreement.
+•
+The claimant, if mentally incapable, has a payee.
+•
+The Title XVI CS knows the amount of the Title II portion of the fee.
+2. Fee Agreement Determination Pending
+If the claim was decided at the initial or reconsideration level and the Title II
+decision maker has not yet made a determination on the fee agreement, diary the claim
+for 45 days for the fee agreement determination.
+Do not delay effectuating payment. Code the Fee Situation on the UFEE screen as “1 = Unresolved Fee Agreement.” (See
+MSOM BUSSR 002.014)
+NOTE: The system automatically withholds 25 percent of the Title XVI past-due benefits
+or the remaining past-due benefits if that amount is less than 25 percent after we
+make any interim assistance reimbursement (IAR). This amount is withheld for direct
+payment of authorized fees in a Title XVI only claim or the Title XVI claim in a concurrent
+claim situation. Please note that the Title XVI past-due benefits withheld in a concurrent
+claim situation must be recalculated for representative fee purposes to consider Title
+II benefits due for the same period. To ensure that direct payment of an authorized
+fee does not exceed 25 percent of past-due benefits in a concurrent claim situation,
+calculate the Title XVI past-due benefits for representative fee purposes as if the
+Title II benefits had been timely, per the instructions in GN 03920.031B.2 prior to direct payment of an authorized fee. In addition, the system automatically
+releases the remaining Title XVI past-due benefits to the claimant after repaying
+IAR, withholding for authorized fees and collecting overpayments. This payment is
+subject to dedicated account and installment payment provisions – see SI 02101.010 and SI 02101.020.
+3. Fee Agreement Approved
+If the Title II CS or OHO or OAO decision makers approved the fee agreement, and the
+approval appears correct, determine whether you have information regarding the Title
+II fee amount. Go to GN 03940.050A.4 Title II Fee Amount Unknown, or GN 03940.050B Procedure - Title II Fee Amount Known, as appropriate.
+4. Title II Fee Amount Unknown
+If the Title II portion of the fee, including the
+auxiliary
+beneficiary's
+amount is unknown:
+•
+Leave the fee unresolved and diary the claim for 45 days; and
+•
+Send an interim notice advising the claimant and representative that we are deferring
+the fee amount determination until we complete the pending Title II claim, and that
+upon completing the Title II claim actions, we will send another notice advising them
+of the fee authorized under Title XVI.
+NOTE 1: An automated fee notice is produced explaining the situation if:
+•
+The Fee Status is resolved on the UFEE screen (see MSOM BUSSR 002.014),
+•
+The SSR reflects a field office (FO), Office of Hearings Operations (OHO), or Office
+of Appellate Operations (OAO) approval of the fee agreement, and
+•
+The Title II portion of the fee is unknown.
+If there are multiple representatives, and at least one did not assign direct payment
+of their fee to an entity or all did not assign to the same entity, prepare a manual
+notice. However, if there are multiple representatives who have all assigned direct
+payment of their fee to the same entity, the notice and payment is automated.
+NOTE
+2: Do not send copies of these notices or other protected information (e.g., claimant
+information) to the entity’s point of contact (POC) if there a valid assignment unless
+the information included is the minimum amount of information necessary for the POC
+to review to resolve fee-related issues. For information that is not relevant or necessary
+to resolving fee-related issues. For information that is not relevant or necessary
+to reslove fee-related issues, only disclose such information if the claimant has
+expressly consented on a Form SSA-3288 or other written consent that meets the requirements
+of GN 03305.003. For information on assignment of direct payment fees, including the roles and responsibilities
+of a POC, see GN 03920.021.
+NOTE 3: If the claim for the primary Title II beneficiary has been processed, the authorized
+Title II fee is less than the specified dollar amount of the fee cap as indicated
+in GN 03940.003B.3 (or any lower maximum fee specified in the fee agreement), and there is an auxiliary
+claim pending that would involve past-due benefits on which to base an additional
+Title II fee amount, leave the FEE SITUATION on the Representative Fee Update Data
+(UFEE) screen as "UNRESOLVED." Although this action will create a 2L diary, it will
+prevent the system from prematurely computing an incorrect Title XVI fee amount. When
+you know the amount of the Title II portion of the fee, including any auxiliary beneficiary’s
+amount proceed to GN 03940.050B.
+NOTE 4: The system automatically withholds 25 percent of the Title XVI past-due benefits
+or the remaining past-due benefits if that amount is less than 25 percent after SSA
+makes any interim assistance reimbursement. This amount is withheld for direct payment
+of authorized fees in a Title XVI only claim or the Title XVI claim in a concurrent
+claim situation. Please note that the Title XVI past-due benefits withheld in a concurrent
+claim situation is prior to offset of the Title XVI past-due benefits. To ensure that
+direct payment of an authorized fee does not exceed 25 percent of past-due benefits
+in a concurrent claim situation, offset the Title XVI past-due benefit per the instructions
+in GN 03920.031B.2 prior to direct payment of an authorized fee. In addition, the system automatically
+releases the remaining Title XVI past-due benefits to the claimant after repaying
+IAR, withholding for authorized fees. This payment is subject to dedicated account
+and installment payment provisions – see SI 02101.010 and SI 02101.020.

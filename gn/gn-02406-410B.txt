@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 02406.410 - Department of the Treasury, Bureau of the Fiscal Service (Fiscal Service), Check Claims Branch (CCB) Claims Package Processing
+Effective Dates: 01/27/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406410 (fetched 2026-10-04)
+
+B. Treasury actions on permanent stop inputs
+This section describes Treasury’s actions when you input a permanent stop for a missing
+check prior to negotiation.
+IF
+THEN
+A-stop input for a nonrecurring SSI (check type 2, 4 or 9--Title XVI only)…
+Treasury determines if someone cashed the missing check and reports to SSA the status
+of the check using a disposition code. Treasury will not issue a replacement check.
+If appropriate, SSA will replace the missing check via automated one-time payment
+(AOTP).
+A-stop input for a Mass Loss (Title II or Title XVI)…
+Treasury treats this as a B-Stop and issues a replacement check before knowing the
+status of the original check.
+B-stop…
+Treasury issues a courtesy disbursement check before knowing the status of the original
+check.
+C-stop…
+Treasury will first determine the status of the original check. If the original check
+is still outstanding, Treasury will “cancel the issue” and advise the Regional Finance
+Center (RFC) to issue a replacement check . Treasury will take no further action unless
+someone later negotiates the original check.
+F-stop
+Treasury determines the status of the original check. If the original check is still
+outstanding, Treasury cancels the outstanding check and returns a credit to SSA.
+NOTE: For more information on F-stop see GN 02408.020.
+G-stop
+Treasury determines the status of the original check. If the original check is still
+outstanding, Treasury will return the credit to SSA and reissue the check.
+NOTE: If a claimant reports a missing check and is confused about whether the check was
+endorsed or not, use a C-stop. This will obtain the status, and if appropriate, Treasury
+will replace the check.

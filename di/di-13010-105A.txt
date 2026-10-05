@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 13010.105 - Beneficiary Returns to Substantial Gainful Activity (SGA) Within One Year of the Onset Date - Title II
+Effective Dates: 03/02/2016 - Present | TN 72 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010105 (fetched 2026-10-04)
+
+A. Definitions of terms
+1. Date of the final determination
+The date of the final determination is the date on the disability award notice.
+You can view a copy of the notice of award in the Online Retrieval System (ORS). If
+the notice of award is not available in ORS, use the Modernized Claims System (MCS)
+clearance date to determine the date of the final determination.
+IMPORTANT: The date the DDS examiner signed the Form SSA-831 (Disability Determination and
+Transmittal) is not the final determination date.
+2. Onset date of disability award
+The onset date is the first day the claimant meets the definition of disability or
+statutory blindness as defined in the Social Security Act and regulations, see DI 25501.200.
+3. The established onset date (EOD)
+The EOD is the date an adjudicator determined a beneficiary meets Social Security
+Administrations (SSAs) definition of disability or statutory blindness and all the
+relevant entitlement or eligibility factors. The EOD is not the first month benefits
+are payable.
+You can find the EOD on the:
+•
+Form SSA-831 (Disability Determination and Transmittal) Item 15A, see DI 26510.010;
+•
+Master Beneficiary Record (MBR), date of disability onset (DDO) field in the disability
+data (DISB) segment; or
+•
+Disability Control File (DCF), on the Entitlement Selection (ESEL) screen, see MS
+CDR 002.005.
+See also:
+DI 25501.200 Overview of the Onset Policy
+DI 25501.300 through DI 25501.390 (Establishing Onset Date)
+DI 27505.001C Conditions for reopening a final determination or decision
+4. Return to SGA within one year of the onset date
+SSA defines return to SGA within one year (12 months) of the onset date on an exact
+year basis.
+a. Return to SGA within one year of the onset date met
+If a beneficiary returns to SGA before the first anniversary of the first day they
+met the statutory definition of disability, they have returned to SGA within one year
+of the onset date.
+EXAMPLE: The beneficiary onset date is January 17, 2013. If they return to SGA on or before
+January 16, 2014, then the beneficiary returned to SGA within one year of the onset
+date.
+b. Return to SGA within one year of the onset date not met
+If the beneficiary does not return to SGA until the day of the first anniversary of
+the first day they first met the statutory definition of disability or later, then
+they have not returned to SGA within one year of the EOD.
+EXAMPLE: If the same beneficiary returned to SGA on January 17, 2014 or later, then they have
+not returned to SGA within one year of the onset date.

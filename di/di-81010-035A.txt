@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - DI 81010.035 - Data Propagation
+Effective Dates: 09/23/2013 - Present | TN 84 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010035 (fetched 2026-10-04)
+
+A. Mainframe Data Propagation in Electronic Disability Collect System (EDCS)
+1. Source of propagated data
+Data propagates into EDCS from the following mainframe systems:
+•
+Modernized Claims System (MCS);
+•
+Modernized Supplemental Security Income Claims System (MSSICS);
+•
+Integrated Client Database (ICDB);
+•
+NUMIDENT;
+•
+Supplemental Security Record (SSR);
+•
+Appointment screens; and
+•
+Master Beneficiary Record (MBR).
+NOTE: Data propagates from MCS before any other mainframe systems. If an MCS claim does
+not exist, data propagates from the active MSSICS claim and other mainframe sources.
+Abbreviated applications (ABAPs) in MCS/MSSICS do not propagate information into EDCS.
+2. Type of data propagated
+Once the EDCS case is created, the following information propagates from the mainframe:
+•
+Name, date of birth, address, and telephone number;
+•
+Alleged onset date (AOD);
+•
+Date last insured (DLI);
+•
+Date first insured (DFI);
+•
+Attorney/Non-Attorney Representation;
+•
+Allegations of disabling condition;
+•
+Language preference; and
+•
+Authorized Representative.
+NOTE: EDCS no longer makes a distinction between Attorney/non-Attorney contact types in
+favor of Appointed Representative. The information displayed on this page is either
+propagated from MCS, the Appointed Representative Data Base (ARDB) or entered in EDCS
+by the user.
+REMINDER: The DLI and DFI will only be propagated to EDCS if the MCS EC Computation (# 2 and
+#21 on the MCS Main Menu) has been run before entering EDCS. In RIB/DIB claims, technicians
+must run the DIB MCS EC Computation as the last computation before entering EDCS to
+ensure the DIB DLI and DFI data propagates to EDCS.
+3. Changing propagated data
+Most propagated data in EDCS cannot be over-keyed, including the AOD. To change propagated
+information:
+•
+Correct the data in the mainframe (MCS, MSSICS, etc.); then
+•
+Open EDCS and repropagate the data (See Data Repropagation in Electronic Disability
+Collect System (EDCS) - DI 81010.045).
+EXCEPTIONS: Allegations of disabling condition and DLI’s can be over-keyed in EDCS and will not
+be replaced by MCS/MSSICS data if repropagation or transfer actions are taken, nor
+will the over-keyed EDCS data update to MCS/MSSICS. Make sure that allegations in
+EDCS are spelled out correctly, not truncated or abbreviated.
+To update the claim after transferring, see Using the Update-After-Transfer (UAT)
+Utility - DI 81010.095.

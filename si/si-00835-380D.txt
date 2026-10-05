@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - SI 00835.380 - Rental Subsidies
+Effective Dates: 09/24/2024 - Present | TN 123 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835380 (fetched 2026-10-04)
+
+D. Make a rental subsidy determination
+Effective 09/30/2024, follow these procedures for determining rental subsidies nationwide.
+1. Rental subsidy development
+a.
+If the verified monthly required rent equals or exceeds either the CMRV or the PMV,
+no further development is needed. No rental subsidy applies.
+b.
+If the monthly required rent is less than both the CMRV and the PMV, determine if
+rental subsidy exists or if there is another reason for reduced rent as follows:
+Ask the landlord if the reason the monthly required rent is less than the CMRV is
+any of the following:
+•
+rent control - obtain a copy of the most recent rent control document showing the maximum amount
+of rent chargeable to the tenant. If the landlord is charging that amount, enter the
+rent control maximum as the CMRV (see definition in B.1. above) on the Home Ownership
+and Rental Liability page and the system will determine that no rental subsidy exists;
+•
+the tenant performs servicesin return for shelter (see SI 00835.390, “Food, or Shelter that is Remuneration for Work but is Not Wages”); or
+•
+excludable public housing assistance makes up the difference between the CMRV and the amount of the monthly required rent
+the household must pay (see SI 00830.630, “Federal Housing Assistance”). Enter the CMRV as the monthly required rent.
+c.
+Absent one of the situations in D.1.b, immediately above, determine the amount of
+rental subsidy by subtracting the monthly required rent from the CMRV or PMV, whichever
+is less. The difference is the rental subsidy.
+d.
+The system will divide the rental subsidy by the number of household members to determine
+the individual’s share that will count as ISM under the PMV.
+2. Documenting rental subsidy within the SSI Claims System Path
+On the Home Ownership and Rental Liability page enter the following:
+a.
+The amount of the monthly required rent;
+b.
+The household member related to the landlord;
+c.
+The verification of rental liability and the method of contact; and
+d.
+The amount of the estimated CMRV, the verification, and the method of contact.
+EXAMPLE: The recipient pays $280 monthly required rent in October 2024. The landlord (who
+is the recipient’s child) verifies the monthly required rent and states that the CMRV
+is $410.
+The technician inputs the $280 monthly required rental on the House Ownership and
+Liability page and records the estimated CMRV as $410. Based on landlord contact,
+the technician updates the claim path and creates a DROC to document confirmation
+of the monthly required rent and estimated CMRV.
+Because the PMV ($334.33 in 2024) is less than the CMRV ($410), the system will compute
+the amount of the rental subsidy as $54.33, which equals the difference between the
+monthly required rent ($280) and the PMV ($334.33 in 2024).

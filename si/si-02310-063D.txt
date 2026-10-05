@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 02310.063 - State Wage Record Match (S7 Diary)
+Effective Dates: 07/01/2008 - Present | TN 65 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310063 (fetched 2026-10-04)
+
+D. Procedure for no development/limited development/full development
+1. When development is not required for S7 alert/diary
+You are not required to do any development for a wage alert if the earned income reported
+on the alert could not affect SSI eligibility or payment. You may delete the diary
+without making any contact to verify the amount of income or when it was received.
+In this case, do not transmit the earned income to the SSR.
+An example of this is when the earned income is for an ineligible parent, but the
+deeming allocations for ineligible children in the household would mean there could
+not be “deemed income” to the eligible child even if all the earned income were received
+in one month in the quarter.
+2. When you can do limited development for an S7 alert/diary
+See SI 02310.007A. for rules for Limited Development.
+3. When you must do full development on an S7 alert/diary
+If the criteria for “NO DEVELOPMENT” and “LIMITED DEVELOPMENT” do not apply, you must
+follow the instructions in SI 02310.007B. for FULL DEVELOPMENT.

@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - SI 02101.002 - Supplemental Security Income (SSI) Underpayment Due - Recipient Alive
+Effective Dates: 04/03/2024 - Present | TN 38 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101002 (fetched 2026-10-04)
+
+B. Process for releasing or withholding an underpayment
+1. Recipient is in current pay
+The SSI System will compute and pay an underpayment based on data the recipient or
+their representative provides. For an explanation of SSI System capabilities, see
+SM 01311.660. The SSI System will automatically release an underpayment of less than
+$15,000 unless:
+•
+The Supplemental Security Record (SSR) contains an overpayment collect decision;
+•
+The recipient’s authorized representative has requested direct payment of fees;
+•
+We are required to deposit the payment into a dedicated account;
+•
+We are withholding the underpayment (U TAC) on the Underpayment Processing screen
+in Direct SSR Update (UMEN); or
+•
+The total underpayment amount is less than $1.
+For underpayment withholding, see MS 00304.018, SM 01311.355, and SI 02101.002B. For direct payment of appointed representative fee provisions, see GN 03930.060.
+2. Recipient is ineligible for payment
+If a recipient is currently ineligible for payment, we may release the underpayment
+via an automated one-time payment (A-OTP). However, in some non-pay situations, the
+SSI System will automatically release the underpayment. For SSI System underpayment
+processing for certain payment status codes, See SM 01311.660.
+3. Withholding due underpayments (U TAC) to apply netting
+If the record is excluded from automated netting and manual netting is applicable:
+•
+Select the Underpayment Processing (UOUP) option from the Direct SSR Update (UMEN)
+screen;
+•
+Enter option “1” Hold Underpayment, which will build a U TAC on the SSR;
+•
+Follow the manual netting procedures in SM 01311.160, SM 01311.165, SM 01311.355,
+and MS 00304.018.
+NOTE: If you use the “1” “Hold Underpayment” option, automated netting will not take place.
+When you remove the U TAC, automated netting will take place as long as there are
+no exclusions.
+If the record is excluded from automated netting, follow the manual netting procedure.
+For examples of manual netting, see SM 01311.165, SM 01311.355, SM 01311.160, and
+MS 00304.018.

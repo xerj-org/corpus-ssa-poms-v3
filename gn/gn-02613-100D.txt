@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 02613.100 - Fugitive Felon SSA Control File (FFSCF)
+Effective Dates: 08/03/2022 - Present | TN 46 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613100 (fetched 2026-10-04)
+
+D. Procedure - coordinating fugitive felon and prisoner suspensions
+1. Title II only cases
+If the fugitive (LAF S9 an RFST FUGFEL) and the Prisoner Suspension (LAF S7, RFST
+OF PRISON, MENTAL OR PREDTR) are both processed simultaneously, process the PRISON
+suspension first. The Prisoner suspension must be processed before the fugitive suspension
+to automatically pay the incentive payment if one is due a participating correctional
+institution.
+If a T2 prisoner suspension and a T2 fugitive felon/probation or parole violator suspension
+are input simultaneously, the resulting suspension will be reflect an RFST of PRISON/MENTAL/PREDTR
+and LAF S7 or all overlapping fugitive felon S9 and prisoner suspension S7 months,
+if any overlap occurs.
+a. Beneficiary is arrested and confined in a correctional institution, but not convicted
+of a crime
+When a beneficiary is arrested by the law enforcement agency that issued the warrant
+and then is confined in a correctional institution awaiting trial, the fugitive felon
+suspension status ends with the month after the month of the beneficiary's arrest;
+i.e., the warrant is satisfied. Once the law enforcement agency that issued the warrant
+for the beneficiary's arrest, does in fact arrest the beneficiary, the warrant has
+then been satisfied.
+Continuing confinement in a correctional institution after the beneficiary's arrest,
+while they are awaiting trial, does not cause the beneficiary to be suspended for
+prisoner suspension. The beneficiary is not convicted of a criminal offense until
+they go to trial and is judged and sentenced for their crime. Once the beneficiary
+is convicted and sentenced to confinement for more than 30 consecutive days, prisoner
+suspension would apply from the date of conviction/confinement forward. For the prisoner
+suspension provisions, see GN 02607.000.
+b. Beneficiary is arrested and confined in a correctional institution, additional warrants
+are unsatisfied for the beneficiary
+When a beneficiary, who has more than one unsatisfied warrant, is arrested by the
+law enforcement agency that issued one of the unsatisfied warrants for the beneficiary,
+the warrant issued by the arresting law enforcement agency has been satisfied. The
+remaining unsatisfied warrants for the beneficiary remain unsatisfied until the beneficiary
+satisfies the remaining unsatisfied warrants. In this instance the beneficiary will
+be subject to the fugitive felon/probation or parole violator suspension provisions
+until the remaining unsatisfied warrants have been satisfied or good cause can be
+found for not satisfying the remaining unsatisfied warrants. For the fugitive suspension
+provisions, see GN 02613.010 and for the good cause provisions, see GN 02613.025.
+To determine if suspension will apply for each or the unsatisfied warrants, each remaining
+unsatisfied warrant will be evaluated per GN 02613.010 and GN 02613.025.
+2. Concurrent Title II/Title XVI case processing – fugitive felon or probation or parole
+violator suspension
+Concurrent Title II and Title XVI fugitive felon suspension case processing will be
+done independently of one another except when the beneficiary provides good cause
+and it is accepted.
+The T16 warrant information will be received through the FFAP system per GN 02613.100A.2.
+Process the warrant information per SI 00530.000.
+If theT16 beneficiary requests good cause, process per SI 00530.015.
+The T2 warrant will be received through the FFSCF system as indicated in GN 02613.100A.2.
+The T2 warrant information will be processed per GN 02613.100B.
+If the T2 beneficiary requests good cause, process the good cause information per
+GN 02613.025.
+Review of T16 or T2 Fugitive Felon or Probation or Parole Violator Suspension Cases
+Uncovers Entitlement on Other Title
+Under the old (pre-11/19/2005) fugitive felon or probation or parole violator warrant
+processing environment the matching criteria used against the MBR or SSR did not always
+identify concurrent entitlement when matching the warrant to each payment record system
+(i.e. the MBR or SSR). If you discover while reviewing the fugitive felon or probation
+or parole violator suspension that only one title in a concurrent (T2/T16) entitlement
+has been suspended due to fugitive felon or probation or parole violator suspension,
+you must process the fugitive felon or probation or parole violator suspension for the other
+title.
+NOTE: Only one good cause determination for the same warrant will be necessary for the
+concurrent beneficiary (Title II/Title XVI). Updating of the good cause determination
+will, however, be necessary on each separate title as well as updating payment issues
+for Title XVI. For the Title XVI good cause coding use FFAP, for Title II good cause
+coding use the FFSCF. If good cause is found, annotate a good cause determination
+for the concurrent good cause determination per GN 02613.025C.6.
+3. Concurrent Title II/Title XVI cases - fugitive felon or probation or parole violator
+suspension and prisoner suspension case processing
+When a beneficiary with an unsatisfied warrant is concurrently entitled and is arrested
+and subsequently convicted and confined, the Title II fugitive suspension and the
+SSI N25 fugitive felon status must be coordinated with the Title II prisoner suspension
+and the SSI N22 prisoner status, as practical.
+a. Step 1
+SSI Suspension processing:
+The N22 prisoner suspension and the Title II prisoner suspension must be processed
+first before the N25/Title II fugitive suspension so that prisoner incentive payments
+are made to the correctional institution.
+On MSSICS cases, separate inputs must be made to the PUPS system with an ACTION CODE
+of “6 - Change Information Only” and an effective date on the “PU16” screen in PUPS,
+and the MSSICS screens to post the proper living arrangement data to generate PS N22.
+See the PUPS Processing Guide for more information.
+NOTE: If the individual's benefits are already suspended due to incarceration or institutionalization
+(N22/N02), do not overlay with PS N25.
+Title II Prisoner Suspension processing:
+Process the Title II prisoner suspension per GN 02607.700.
+b. Step 2
+SSI N25 Fugitive Felon Suspension Processing
+Post the N25 only for the retroactive period that the individual was a fugitive before
+incarceration or institutionalization.
+Title II Fugitive Suspension
+Title II fugitive suspension should be processed per GN 02613.100.
+4. Developing representative payee suitability
+Check RPS in each case where the beneficiary/claimant has an outstanding felony warrant
+to determine if they are serving as a representative payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to GN 00502.133.

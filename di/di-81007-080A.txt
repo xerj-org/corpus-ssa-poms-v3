@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 81007.080 - Internet Workload Management
+Effective Dates: 04/18/2017 - Present | TN 4 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007080 (fetched 2026-10-04)
+
+A. Requesting the iWMI listing
+To request the iWMI Listing:
+1.
+Open PCOM and log on.
+2.
+Select Function “25” (WMS Listings) from the SSA Menu (MAIN).
+3.
+Select “6” (Internet Disability WMI) from the Listing Request Main Menu (RQST) and
+Type of Request “1.”
+4.
+On the Internet Disability WMI-FO Listing Menu select:
+•
+Route Response to either Screen or Printer;
+•
+Listing Type either Full or Abbreviated; and
+•
+Select the type of report listing - “1” (All), “2” (3368), “3” (3820) or “4” (3441).
+NOTE: If the user selects “4” (3441), the Internet Disability WMI-FO Selection Criteria
+Menu will appear. Select the Type of Appeal(s) to display or print. The choice “Unable
+to Determine” refers to i3441s submitted via a URL that does not match the individual’s
+notice title.
+•
+Select an Age Limit range from 001 to 999 days.
+•
+Select a Listing Sort Order.

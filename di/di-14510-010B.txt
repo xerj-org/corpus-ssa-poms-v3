@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 14510.010 - Disability Determination Services (DDS) Procedures for Cases Involving Participation in Vocational Rehabilitation (VR) or Similar Program
+Effective Dates: 02/29/2024 - Present | TN 12 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510010 (fetched 2026-10-04)
+
+B. Procedure to make a medical determination
+1. Continuance of disability
+If DDS determines a continuance of disability or blindness (or a beneficiary in an
+Age 18 Redetermination is found disabled under the adult standard for initial claims),
+make all systems inputs and release the case according to existing procedures.
+For CEF cases, process per DI 81020.200 through DI 81020.255.
+For routing CEF cases, process per DI 81020.250.
+2. Cessation of medical determination
+Process cessation cases per DI 81020.200 through DI 81020.255.
+CEF cases with a “Potential Section 301 Case” flag generate an alert to the FO via
+the EDCS Actions Page “CDR Cessation Added-Potential 301 Benefit Continuation.” For
+paper cases, the DDS alerts the FO of the cessation with the remark on the SSA-408,
+“Potential 301 benefits – handle per DI 14510.003C.”
+NOTE: Continuation of benefits under Section 301 does not apply when medical cessation
+is due to failure to cooperate (FTC) or whereabouts unknown (WU).
+a. Cessation notice
+Prepare and release the cessation notice according to existing procedures. Include
+the following paragraph in the cessation notice:
+“You may be eligible for continued payments even though your disability has ended
+if you are currently participating in an appropriate program of vocational rehabilitation,
+employment, training, educational, or other support services. We are sending your
+case to another office for a special decision about continued payments based on the
+information we have about your participation in such a program. You will be notified
+of that decision in another letter.”
+Place a copy of the notice in the paper or electronic folder.
+b. Title II cases
+Complete the SSA-833 (Cessation or Continuance of Disability or Blindness Determination and Transmittal)
+and enter the cessation date in item 9B. Do not enter the disability termination date.
+Check “301” case in item 9I. Enter “301 Case” in Remarks.
+c. Title XVI cases
+Complete the SSA-832 (Cessation or Continuation of Disability or Blindness Determination and Transmittal)
+and enter the cessation date in item 9B. Do not enter the disability termination date.
+Check “301” case in item 9I. Enter “301 Case” in Remarks.
+NOTE: For paper cases, fax a copy of the SSA-832 to the servicing FO with a cover sheet
+annotated “301 Case – Input VP diary per DI 14510.003D.2." (Refer to Detailed Office/Organization Resource System (DOORS) to obtain the FO
+fax number.)

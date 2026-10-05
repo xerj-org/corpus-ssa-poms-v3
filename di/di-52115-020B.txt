@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - DI 52115.020 - DOL Data Exchange Black Lung Part C Alerts
+Effective Dates: 08/07/2018 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452115020 (fetched 2026-10-04)
+
+B. BL Part C alerts prior to July 2007
+Prior to July 2007, the information shown on the alert was substantially the same.
+However, the data was placed in one long horizontal line on the output form without
+data field names, making it difficult to decipher. The top line of the alert contained
+the following data in this exact order:
+•
+SSN (positions 1-9)
+•
+CA (10-11)
+•
+DOL/SSA EXC (12-22)
+•
+Miner's name (last name-first 5 letters; first name-first initial) (23-29)
+•
+Date of Birth (30-33)-MMYY
+•
+Date of entitlement to Part C benefits (34-37)—MMYY
+•
+Miners' payment status (38-39)
+•
+Latest total family amount paid by DOL (includes separate payments to auxiliaries)
+(40-44)--$$$$c).
+•
+Date the latest total amount was paid (45-48)-MMYY.
+The second line of the alert contained the run date. For the so-called Notice Provision
+cases – cases where the Date of Onset of Disability is March 1, 1981 or earlier or
+the date of entitlement to disability insurance benefits (DIB) is September 1981 or
+earlier, (See DI 52170.040), this date would serve as the date of notice if the output provided SSA with the
+first notice.
+Example:
+123456789CADOL/SSA EXCPUBLIJOHNQ01480175NC112001291
+0192

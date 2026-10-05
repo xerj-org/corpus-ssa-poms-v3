@@ -1,0 +1,98 @@
+SSA Program Operations Manual System (POMS) - DI 52155.040 - Processing Disability Claims with a Federal Public Disability Benefit (PDB)
+Effective Dates: 09/09/2025 - Present | TN 3 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155040 (fetched 2026-10-04)
+
+B. Interpreting the Civil Service Data Screen (DCSD) in MCS Earnings Computation (EC)
+All initial disability (DIB) claims are matched against the Office of Personnel Management
+(OPM) annuitant database. If there is a match, the Civil Service Retirement System
+(CSRS) disability data will appear on the Civil Service Data screen (DCSD) (see MSOM
+MCS EC 001.011).
+NOTE: The OPM data only shows the most recent civil service (CS) amount being paid and
+its effective date (CS PAYMENT AMOUNT EFF field). If any previous amounts are needed,
+develop per DI 52130.001 – Types of Federal Public Disability Benefit (PDB) Payments.
+The table below describes the fields on the DCSD screen:
+Field
+Description
+Action
+Annuitant SSN
+SSN of the individual with CS data.
+Make sure it is the number holder (HA) with the CSRS involvement.
+SSA Claim Numbers
+Individual’s SSA claim number
+None
+CS Status
+Shows individual’s status on the OPM file.  Possible statuses are:
+PMT SUSPENDED
+ACTIVE
+ACTIVE BUT NO NET PAY PENDING CASE
+SPECIAL PAY CASE
+If other than Active, develop to OPM per DI 52130.001 prior to offsetting.
+CS ID
+Shows claimant’s OPM claim number followed by their first and middle initials and
+first six characters of the surname.
+Use CSRS claim number as the WC/PDB Claim Number in MCS Common Screens or ICF.
+DOB:
+Shows the Date of Birth present on the OPM file.  (May differ from MCS DOB)
+None. Follow normal proof of age procedures.
+CS DOE
+Shows the Civil Service date of eligibility.
+Use to determine exemption status.
+CS DIB
+“Y” appears in this field if the annuitant is receiving a Civil Service disability
+annuity.  “N” appears if the CS annuity is not disability.
+If “N” do not offset. Develop to OPM if any question arises.
+Offset may apply if “Y”.
+CS Months
+This field displays the total number of months on which the CS annuity is based.
+If the number of covered service months is known, use to determine if 85% covered
+service exclusion test is met.
+CS Annuity SSA COV
+“Y” appears in this field if the CS annuity is based on Social Security covered employment.
+An “N” appears if it is not.
+Develop to determine if the 85 percent covered service exclusion is met.
+CS Payment Amount EFF
+Shows the date of the last change and the amount of the payment
+If CSRS is offsettable, offset this amount.
+1.
+The details on the MCS EC DCSD screen are proof of the fact and amount of any federal
+pension.
+a.
+Verify any allegation that any of the propagated information is incorrect.
+b.
+Explain to the individual that we must offset using the gross amount of the pension
+before any deductions.
+2.
+If it appears the offset exclusions in DI 52130.001 may be met but a determination cannot be made from the DEQY alone, obtain proof of
+any alleged covered employment. Ask the beneficiary for OPM form SF-2801-1 (Certified
+Summary of Federal Service), which shows each federal agency and military branch worked
+for and may be used to verify any covered service shown.
+NOTE: Verify any federal service alleged but not shown on the SF 2801-1. Review the Detailed
+Earnings Query (DEQY) to certify that the earnings meet the covered service exclusion.
+3.
+If offset applies:
+•
+Complete the WC/PDB Common screens in MCS to impose PDB offset.
+•
+Code FM for the Source of Compensation on the WC/PDB Claim Data (WPCL) screen in the
+MCS path. See DI 52155.001 - Completing Modernized Claims System (MCS) Screens When Workers’ Compensation/Public
+Disability Benefit (WC/PDB) Is Involved.
+4.
+After processing a claim involving federal PDB through MCS EC, send an MCS diary or
+modernized development worksheet (MDW) to the PC indicating that the correct CSPDB
+indicator – 1 if offset applies or 2 if offset does not apply – needs to be input.
+MCS does not post the CSPDB indicator. For information on the CSPDB indicator, For
+more information on the CSPDB indicator, see DI 52130.025 - Field Office (FO)/Processing Center (PC) Input of the Civil Service Public Disability
+Benefit (CSPDB) Indicator).
+NOTE: If the initial claim is processed in the PC, the adjudicator will forward the case
+to the benefit authorizer (BA)/benefit technical examiner (BTE) via local procedures.
+5.
+If an ICF input is needed for an EF101 manual award or an A101 where offset applies
+and the WC/PDB data fails to propagate or MCS EC fails to produce a correct offset
+computation, take the ICF action first. Show the Type on the WC/PDB Offset – Claims
+(WCCL) screen in ICF as FM and code a CSPDB of 1 on the WC/PDB OFFSET – DISPOSITION
+(WCDA) screen.
+NOTE: Offset will still be imposed even if the WC/PDB Offset – Claim Data (WCCD) screen
+in ICF is coded with a “Y” to the question “Covered Service Excluded?” and the next
+field shows a percentage of covered service in excess of 85 percent. Neither these
+fields nor the CSPDB indicator are connected to the computation logic. Therefore,
+if offset does not apply, do not enter an ICF action.

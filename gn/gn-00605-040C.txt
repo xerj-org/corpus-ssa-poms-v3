@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 00605.040 - WBDOC Screening and Imaging Process
+Effective Dates: 06/06/2013 - Present | TN 18 (06-03)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605040 (fetched 2026-10-04)
+
+C. Process – Control Clearance, Input Conserved Funds
+The outcome of the WBDOC screening process is as follows:
+•
+Title II – the accounting record is deleted from the offline annual accounting system
+control file and conserved funds (see GN 00605.040B, Step 6) are posted to the offline conserved funds file.
+•
+Title XVI (and concurrent) – the NM field in the REPY segment of the SSR is updated
+with the report period end date (MM/YY), the AR diary in the DIAR segment is deleted,
+and reported conserved funds (see GN 00605.040B, Step 6) are posted in the CF field in the REPY segment.
+REMEMBER: The WBDOC clearance process updates the offline annual accounting control file and
+SSR to prevent follow-up activity (e.g., second requests). Accounting reports with
+unacceptable responses, etc., require PC or FO development.

@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - SI 01120.202 - Development and Documentation of Trusts Established on or After 01/01/00
+Effective Dates: 10/31/2017 - Present | TN 83 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501120202 (fetched 2026-10-04)
+
+F. Procedure for coding trusts
+1. Coding Medicaid trusts on paper
+Code a Q and the date of establishment of the trust in the Third-Party Liability (PT) field
+of the Supplemental Security Record (SSR) if the trust qualifies as a Medicaid Trust.
+2. Coding the CG field
+Code RE06 or RE07, as applicable in the CG (case characteristics) field to indicate a revocable or
+irrevocable trust, respectively. For a list of CG code entries, see SM 01301.820.

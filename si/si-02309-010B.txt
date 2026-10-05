@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02309.010 - Processing the Insured Status (KZ) Diary - Supplemental Security Income (SSI)
+Effective Dates: 09/26/2023 - Present | TN 30 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502309010 (fetched 2026-10-04)
+
+B. Exceptions to taking a Title II application
+You are required to take a Title II application to process the KZ diary, except when:
+1.
+The recipient receives a higher Title II benefit than the potential retirement insurance
+benefits (RIB) or disability insurance benefits (DIB) computation, and filing for
+a lesser RIB or DIB amount is not advantageous to the recipient (see SI 00510.001C);
+2.
+The current payment status has a non-pay code, including payment status code E01,
+suspense, or terminated status code (unless the case is in 1619(b) status); or
+3.
+A Title II application for the recipients only potential Title II eligibility is pending
+at the reconsideration, hearing, or Appeals Council Review level of appeal.
+4.
+The SSR indicates a technician correctly developed and documented a KZ diary, and
+the diary resets based on a semi-annual selection process. Ensure LAG earnings have
+been considered (DISCO, ICERS, etc.) and the DLI has not changed since the last Title
+II application.
+(Do not redevelop the KZ diary. Confirm the file is documented properly using Step 5 in SI 02309.010D in this section.)
+If any of the above exceptions applies, annotate the exception on the DDKZ screen
+(see MS 04422.012). For example, input Title II application not taken per SI 02309.010B. The
+recipient receives a higher Title II benefit than the potential retirement insurance
+benefits (RIB)
+or disability insurance benefits (DIB) computation, and filing for a lesser RIB or
+DIB amount is not
+advantageous to the recipient.
+CAUTION: You must consider whether RIB benefits were previously considered (beginning at age
+61 years and 9 months, or older) before taking no action to re-develop or clearing
+the reset diary.

@@ -1,0 +1,361 @@
+SSA Program Operations Manual System (POMS) - SI 00502.142 - Qualified Aliens Who Are Blind Or Disabled And Were Lawfully Residing In The U.S. On 8/22/96
+Effective Dates: 04/12/2018 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502142 (fetched 2026-10-04)
+
+F. Procedure - Processing Initial Claim for Claimant Age 65 or Older
+Use the following Step-Action chart to determine what development and adjudicative
+actions are necessary for aged aliens who are seeking eligibility under the condition
+for qualified aliens who are blind/disabled and were lawfully residing in the U.S.
+on 8/22/96. This chart includes procedures for aged aliens who--
+•
+Can be paid under the 7-year time-limited provision,
+•
+Need a medical allowance to be eligible,
+•
+Meet the requirements for payments based on presumptive disability/blindness.
+See SI 00502.142F for special procedures for handling aged couples cases under this provision. Refer
+to SI 00502.142G for the procedure for post-eligibility cases.
+Step
+Action
+1
+Does the aged alien claimant allege that they were lawfully residing in the U.S. on
+8/22/96 or that they entered the U.S. before 8/22/96?
+•
+If yes, continue with Step 2.
+•
+If, no, STOP. Eligibility is not possible under the exception condition for qualified aliens who
+are blind/disabled and were lawfully residing in the U.S. on 8/22/96.
+2
+Is the aged alien claimant potentially eligible under a time-limited category (e.g.,
+refugee, asylee, etc.) in accordance with SI 00502.106B?
+•
+If yes, continue with Step 3.
+•
+If no, skip to Step 9.
+3
+Did the alien submit acceptable documentary evidence, verified via an online SAVE
+request, that proves they are now in time-limited alien category, or, if currently
+LPR, was previously in a time-limited category? (See SI 00502.130 for acceptable documentary evidence.)
+•
+If yes, continue with Step 4.
+•
+If no, obtain documentary evidence of immigration status in accordance with SI 00501.130. Scan legible copies of both sides of the immigration document into the electronic
+folder (e.g., Evidence Portal, eView). If the document includes an Alien Registration
+Number (ARN or A#), enter the ARN in Person Information. Return the immigration document
+to the claimant. After receiving the SAVE response, update the status code on the
+record as appropriate and store a copy of the SAVE response in the electronic folder.
+Once the immigration status has been verified via SAVE, continue developing other
+eligibility requirements, as appropriate.
+Verify the document via online SAVE request, per SI 00502.115.
+Continue with step 4.
+4
+If the aged alien claimant is potentially eligible for SSI because they meet one of
+time
+limited categories based on documentary evidence and DHS verification
+via
+SAVE,
+take the following actions:
+a. Adjudicate the application as an aged claim; and
+b. If the aged alien claimant alleges
+disability/blindness,
+establish the systems record as follows:
+•
+Answer the appropriate disability/blindness questions on the Additional Client Data
+(ACLD) screen in MSSICS with “Y.”
+•
+MSSICS will build the type of claim as an Aged Individual (AI).
+•
+The Development Worksheet page will control the receipt of the DDS decision.
+•
+Send to the SSR via BTS (DSSR) and close the event. Payments will begin under the
+applicable time-limited eligibility category.
+NOTE:
+The SSR can reflect only one alien eligibility (AER) code at a time (SM 01005.642).
+The record of a refugee whose eligibility is limited to seven years (AR code = "F”)
+will show an AER code “1.” The record of an alien whose deportation or removal is
+being withheld (AR = "J”) will show an AER code “2.” For aged aliens with eligibility
+limited to seven years, the system will automatically build an AER code “8” (“aged
+alien requiring disability decision”) only for asylees (AR = "L”), Amerasian immigrants (AR = "3”), and Cuban/Haitian Entrants
+(AR = "X”) who allege being blind or disabled.
+c. Obtain the medical determination on a post-adjudicative basis using the
+following guidelines:
+•
+NOTE: If the individual who is age 65 or older is receiving Title II benefits, do not adopt
+a prior Title II disability determination (if one was made in the case). Instead,
+obtain a new disability decision for purposes of establishing alien eligibility under
+the provision for blind/disabled qualified aliens who were lawfully residing in the
+U.S. on 8/22/96.
+•
+When sending the claim to the DDS for a medical decision, include the following notation
+in the “Remarks” portion of the “Title II/Title XVI Information” screen in MSDCT or
+SSA-831-U3: “Title XVI Aged Alien – Blindness/Disability Alleged – Systems Limitation.”
+Refer to instructions in DI 11055.130 for preparing Form SSA-831-U3 (Disability Determination and Transmittal).
+IMPORTANT: When the Aged Alien “System Limitation” annotation is included on the SSA-831-U3
+and the DDS determines the individual is neither blind nor disabled, the DDS will
+prepare a write-up entitled “Information About the Disability Decision” that will
+provide the individual with a personalized explanation of the medical decision their
+case. The DDS will place the write-up in the medical folder and return the folder
+to the FO.
+d. Continue with Step
+5
+5
+After the initial claim based on the 7-year provision has processed, has the medical
+determination for the aged alien been received?
+•
+If yes, continue with step 6.
+•
+If no, follow up on status of pending medical determination. When determination has been
+received, continue with step 6.
+6
+Was the aged alien medically allowed by DDS?
+•
+If yes, continue with Step 7.
+•
+If no, skip to Step 8.
+7
+Process medical allowance for aged alien who is currently eligible based on 7-year
+provision as follows (post-entitlement):
+a. If MSSICS case, input as follows:
+•
+Update by establishing a “STAND ALONE PE EVENT.”
+•
+Complete the Disability Clearance page, including the appropriate Multi-category Eligibility
+Code.
+•
+Send to the SSR via BTS (DSSR) and close the event. This will build the transaction
+that will establish the multi-category code, as well as other disability data, on
+the SSR.
+b. If non-MSSICS case, input as follows:
+Transmit an SSA-1719B with the appropriate disability data per SM 01301.605 (Multi-category,
+or “CM” field) and SM 01305.855 (Date of Onset field).
+c. Prepare Manual Notice for MSSICS and Non-MSSICS cases as follows:
+Prepare a manual SSA-L8166, “SSI Important Information,” using the Document Processing
+System (DPS) if appropriate. Explain in the notice that:
+•
+Although the prior notice (initial claim award) indicated that the individual’s eligibility
+was limited to seven years, the individual is now eligible to receive SSI benefits
+without a time limit; (assuming all other factors of eligibility continue to be met);
+and
+•
+This is the case because the individual has been determined to be blind or disabled
+and was lawfully residing in the U.S. on 8/22/96.
+STOP! No further action is necessary.
+8
+Process medical denial for aged alien who is currently eligible based on 7-year
+provision as follows (post-entitlement):
+a. If MSSICS case, input as follows:
+•
+Update MSSICS by establishing a “STAND ALONE PE EVENT.”
+•
+Record in SSR Remarks (CRMK) the date and denial code of the DDS decision.
+•
+Receipt the Development Worksheet page for the medical decision.
+b. If non-MSSICS case, input as follows:
+•
+Transmit the date and denial code of the DDS decision via SSA-1719B in the Remarks
+field.
+NOTE: No other systems input is needed. The aged alien recipient’s SSI benefits will be
+suspended (N13) when the 7-year period expires, assuming the alien coding on the record
+shows no basis for eligibility past the 7-year period.
+c. Prepare a manual notice for both MSSICS and Non-MSSICS cases as follows:
+•
+Use an SSA-L8166-U-2, “SSI Important Information” from DPS.
+•
+Include the following special language in the notice:
+“We looked at your claim to see if you were disabled under our rules. We have decided
+that you are not disabled under our rules. Detailed information about our decision
+is shown on the
+attachment called “Information About the Disability Decision.” If you disagree with
+the disability
+decision, please read the information later in this notice about filing an appeal.”
+•
+Explain in the SSA-L8166 that the recipient’s current eligibility is not affected
+by the medical denial and can continue based on their current alien status through
+the end of the applicable 7-year period.
+•
+Mail the notice, along with the DDS write-up entitled “Information About the Disability
+Decision” (see “IMPORTANT” in Step 5c) to the aged alien recipient.
+•
+Since the medical decision is an initial determination, the decision is appealable.
+The DPS version of the SSA-L8166 has preprinted appeal rights.
+STOP! No further action is necessary.
+9
+For aged alien claimant where alien eligibility is not possible without disability
+allowance (i.e., alien cannot be eligible based on status in a 7-year category):
+Is the aged alien presumptively blind or disabled in accordance with the lists of
+impairment categories in DI 23535.010. (FO is authorized to make PD/PB decision) or DI 23535.010B.
+(DDS is authorized to make a PD/PB decision)?
+•
+If yes, continue with Step 10.
+•
+If no, skip to Step 12.
+NOTE: In general, an SSI claimant may receive six months of payments before the final determination
+of disability or blindness is made if
+•
+They are determined to be presumptively disabled or blind; and
+•
+They meet all other non-disability eligibility requirements.
+10
+For aged alien who meets presumptive disability or blindness impairment from Step
+9:
+Does the aged alien meet all of the non-disability eligibility requirements?
+•
+If yes, continue with Step 11.
+•
+If no, skip to Step 12.
+IMPORTANT: For the purpose of determining whether an aged alien can get PD or PB payments, consider
+the aged alien to meet all of the non-disability eligibility requirements” if—
+•
+They are currently a qualified alien based on appropriate documentary evidence of
+alien status (SI 00502.130) and DHS verification (if required in accordance with SI 00502.115); and
+•
+DHS verified that the aged alien was lawfully residing in the U.S. on 8/22/96; and
+•
+The aged alien meets all of the other non-disability factors of eligibility (e.g.,
+income, resources, residency, etc.).
+NOTE: Place the case in H80 until development for all factors is complete.
+11
+Aged alien who needs medical allowance to be eligible meets the requirements for payment
+based on presumptive disability/blindness:
+a. If MSSICS case:
+•
+Answer the appropriate disability/blindness question on the Additional Client Data
+(ACLD) screen.
+•
+Complete the Disability page with the "Presumptive disability or blindness checkbox"
+selected for Presumptive Disability and the appropriate Presumptive Onset Date.
+•
+Complete the Adjudicative Decision (DADJ) screen, send to the SSR via BTS (DSSR),
+and close the event.
+b. If non-MSSICS case, code the SSA-450SI input as follows:
+•
+TP of “AI” for age 65 or older;
+•
+CM (if Aged);
+•
+The appropriate AR (SM 01005.632), AQ (SM 01005.642), and ZX (SM 01005.645) fields;
+•
+Input a “DO” (Date of Onset) with “P” for presumptive disability;
+•
+Other necessary fields.
+STOP! No further action is necessary.
+12
+Take the following actions if alien eligibility is not possible without a disability
+allowance and presumptive disability/blindness is not involved:
+a. Obtain medical decision according to the following guidelines:
+NOTE: If the individual who is age 65 or older is receiving Title II benefits, do not adopt a prior Title II disability determination (if one was made in the case). Instead,
+obtain a new disability decision for purposes of the provision described in this section.
+•
+When sending the claim to the DDS for a medical decision, include the following notation
+in the “Remarks” portion of the “Title II/Title XVI Information” screen in MSDCT or
+SSA-831-U3: “Title XVI Aged Alien – Blindness/Disability Alleged – Systems Limitation.”
+Refer to instructions in DI 11055.130 for preparing Form SSA-831-U3.
+NOTE: When this annotation is included on the SSA-831-U3 and the DDS determines the individual
+is neither blind nor disabled, the DDS will prepare a write-up entitled “Information
+About the Disability Decision” that will provide the individual with a personalized
+explanation of the medical decision in their case. The DDS will place the write-up
+in the medical folder and return the folder to the FO.
+b. Undertake simultaneous development of non-disability factors of
+eligibility:
+•
+Obtain documentary evidence of immigration status in accordance with SI 00501.130 and verify the immigration status via SAVE. Scan legible copies of both sides of
+the immigration document into the electronic folder (e.g., Evidence Portal, eView).
+If the document includes an Alien Registration Number (ARN or A#), enter the ARN in
+Person Information. Return the immigration document to the claimant. After receiving
+the SAVE response, update the status code on the record as appropriate and store a
+copy of the SAVE response in the electronic folder. Once the immigration status has
+been verified via SAVE, continue developing other eligibility requirements, as appropriate.
+•
+Verify current qualified alien status via an online SAVE request, per SI 00502.115.
+•
+Develop whether the claimant meets all of the other non-disability factors of eligibility
+(e.g., income, resources, residency, etc.).
+•
+Do not defer development of the non-disability factors of eligibility in an aged alien’s
+case while the medical decision is pending.
+c. If MSSICS, establish the systems record as follows:
+•
+Answer the appropriate DISABLED/BLIND question on the Additional Client Data (ACLD)
+screen with “Y.”
+•
+Complete the Disability page and other pages in the SSI system.
+•
+Build the SSR but do not close the event. (If you close the event before a medical
+decision is posted, MSSICS will build an erroneous N13 denial.)
+•
+MSSICS will set up the case as an Aged Individual (AI) in H80 status.
+•
+MSSICS will automatically build the AER code of “8” (“aged alien requiring a disability
+determination”) on the SSR.
+•
+Hold the case until the disability decision is returned from the DDS.
+d. If non-MSSICS case, establish the systems record as
+follows:
+•
+Complete the SSA-450SI as usual, including TP of “AI,” AQ with code “8,” and PS of
+“H80.”
+•
+Do not include the DO, SA, or CM fields
+Continue with Step
+13.
+13
+Upon receipt of the medical decision from the DDS:
+Was the aged alien medically allowed by DDS?
+•
+If yes, continue with Step 14.
+•
+If no, skip to Step 15.
+14
+For aged alien claimant who was medically allowed, and medical allowance is needed
+for
+eligibility, do systems input as follows:
+a. If MSSICS case:
+•
+Update the existing MSSICS pending file with any new data.
+•
+Complete the Disability Clearance page if the DDS decision is not already recorded
+there, including the appropriate Multi-category Eligibility Code.
+•
+Send to the SSR via BTS (DSSR) and close the event.
+b. If non-MSSICS case, transmit an SSA-450SI with:
+•
+DLPS (to delete H80); and
+•
+Date of onset (SM 01305.855), medical data (SM 01305.900), and multi-category code
+(SM 01301.605).
+STOP! No further action is necessary.
+15
+For aged alien claimant who was medically denied, and a medical allowance was needed
+for
+eligibility, take the following actions to process the N13 denial:
+a. If MSSICS case:
+•
+Close the open event on the Build SSR (DSSR) screen.
+•
+Suppress the automated denial notice via the Update Notice Suppression (UNSP) in Direct
+SSR Update. (See instructions in MS 00302.018 for completion of the UNSP screen).
+•
+Since no information was entered on the Disability Clearance page, MSSICS will build
+the N13 denial on the DADJ.
+b. If non-MSSICS case:
+•
+Transmit a PR9 with DS N13.
+•
+Suppress the automated denial notice (NP field).
+c. Prepare a manual (N13) denial notice for both MSSICS and non-MSSICS
+cases using DPS as follows:
+•
+Complete the client information, then click “Document Selection” in the left-hand
+navigation window.
+•
+Search for the “SSA-L8030-U2 – ALIEN02 – MANUAL DENIAL – NOT ELIGIBLE ALIEN” or select
+“Initial Claims” and navigate to the notice.
+•
+When prompted, select the paragraph designated as “AGED PERSON DENIED – NOT DISABLED.”
+•
+From the “Group Selection” screen select “enclosure” and attach the DDS write-up entitled
+“Information About the Disability Decision” (see “IMPORTANT” under Step 5c of this
+table) to the notice.
+•
+Mail the notice and the write-up to the claimant.
+STOP! No further action is necessary.

@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 01010.010 - Modernized claims system (mcs) earnings computation (ec) screens
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010010 (fetched 2026-10-04)
+
+B. MCS processing considerations
+1. Adjudicative EC
+Use an adjudicative EC to process a title II claim to payment, disallowance, denial,
+abatement, or pre-effectuated withdrawal using MCS rather than MADCAP/MACADE.
+2. Pre-adjudicative EC
+A pre-adjudicative EC can help to identify and develop potential issues within a claim
+(e.g., consider an EC used as a trial benefit computation to be a pre-adjudicative
+EC).
+3. Archiving MCS EC screens
+MCS archives EC screens used to support the adjudicative determination as part of
+the claims segment. Once the adjudicator completes EC screens (either pre-adjudicative
+or adjudicative), the screens become part of the claims path and MCS archives them
+with the other MCS screens. MCS however, can only archive data from the latest requested
+EC.
+a. Claim effectuated via MCS
+The adjudicative EC screens overlay any formerly requested pre-adjudicative EC screen data and MCS archive only the latest adjudicative screens.
+b. Claim effectuated outside MCS
+If the adjudicator establishes the claim via MCS but it cannot be effectuated due
+to system limitations, the adjudicator must process the claim manually (i.e., automated
+101 (A101) or electronic form 101 (EF101)). The MCS system automatically archives
+the pre-adjudicative EC computation requested after transferring the claim to the
+processing center (PC). However, if the adjudicator requested more than one pre-adjudicative
+EC, MCS archives only the screens from the latest request. Therefore, ensure that the pre-adjudicative
+EC that supports the adjudicative determination is the last one requested.
+Note: It is essential to update completely all MCS EC screens prior to exiting MCS since MCS archives this
+data for possible future reference or propagation to another system (e.g., A101).

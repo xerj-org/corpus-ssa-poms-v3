@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - SI 02003.020 - Field Office Processing of IAR Authorizations
+Effective Dates: 08/29/2024 - Present | TN 25 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003020 (fetched 2026-10-04)
+
+C. Process for IAR authorizations in automated notification States
+1. Electronic interface notifies SSA of the authorization
+In an automated notification State:
+•
+the State sends the IAR authorization information to SSA through an electronic interface
+with the Supplemental Security Record (SSR);
+•
+the electronic interface sends information that the State has a valid authorization,
+the date the authorization was signed, and the date the State received the authorization;
+and
+•
+The system automatically posts a GR code to the SSR when the State IAR file interfaces
+with the SSR and matches an established SSI claim.
+2. PR-73 alert sent to the FO
+For an automated notification State:
+•
+the system automatically sends a PR-73 alert to the servicing FO when the date of
+the State GR code input precedes the SSI application date on the SSR;
+•
+the PR-73 alert shows the date the State received a signed authorization; and
+•
+if the PR-73 alert indicates a protective filing date that is earlier than the application
+date, redevelop the claim back to the protective filing date.
+For more information about the PR-73 alert, see SM 01015.090.

@@ -1,0 +1,303 @@
+SSA Program Operations Manual System (POMS) - SI 02101.020 - Large Past-Due Supplemental Security Income Payments by Installments – Individual Alive
+Effective Dates: 01/26/2024 - Present | TN 35 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101020 (fetched 2026-10-04)
+
+D. Process for releasing underpayments
+1. Current pay records
+For performing the prepayment review, follow the instructions in SI 02101.025. To release the underpayment after the prepayment review, use the Underpayment Processing
+(UOUP) screen through DIRECT SSR Update. For more information about the UOUP screen,
+refer to MS 00304.018. Choose the appropriate underpayment release code.
+After we make the IAR payment to the State, pay representative fees directly, and
+recover any prior overpayment. The system determines whether installment payments
+or dedicated accounts apply. The system also generates the appropriate notices if
+a dedicated account is required.
+2. Terminated records
+As long as an underpayment (UPX) remains on a record, the system does not automatically
+terminate the record. However, in cases where the record has terminated (e.g., T31,
+T32), manually control the case until we issue all past-due payments. If you erroneously
+terminate the record (T30, T33), manually control the case until we issue all past-due
+payments. If the individual is no longer eligible for SSI and is determined likely
+to remain ineligible for the next 12 months, refer to SI 02101.020B.2 in this section.
+The No Social Security Benefits for Prisoners Act of 2009 (NSSBP) prohibits paying
+SSI underpayments to individuals or terminated individuals who are prisoners, confined
+in a public institution based on a court order for a criminal act, fugitive felons,
+or probation or parole violators. For instructions on processing incarcerated claimants
+and individuals’ underpayments, refer to GN 02607.550, SI 00529.001, and SI 00529.020.
+3. Non-pay records
+The system issues installment payments in only a few non-pay situations when a record
+goes into non-pay status. Control and issue installment payments using the A-OTP process
+and send manual notices in any case where the system does not release the payment,
+unless the individual resides in a correctional facility. For instructions on processing
+incarcerated claimants and individuals’ underpayments, refer to SI 00529.001 and MS
+00303.007.
+4. Current pay – IAR, no IAR, direct representative fee payment, dedicated accounts or
+installments
+When SSA pays authorized representative fees directly, and a prior overpayment is
+on the record, the priority of payment order is:
+•
+IAR payment;
+•
+Direct representative fee payment;
+•
+Prior overpayment recovery.
+STEP
+ACTION
+1
+To determine if the past-due payment amount is correct, refer to the prepayment review
+process in SI 02101.025.
+Go to Step 6 for installments with no prepayment review.
+2
+•
+Complete the UOUP screen by selecting the appropriate code to indicate prepayment
+review is complete. Access the UOUP screen from Direct SSR Update. For more information
+about the UOUP screen, refer to MS 00304.018 and SM 01311.660.
+•
+Go to Step 3 if IAR involved; Step 4 for direct payment of representative fees; Step 5 for dedicated accounts with installments; Step
+6 for installment only cases.
+3
+IAR cases, the system:
+•
+Posts a UPV of ‘V' to the record;
+•
+Generates an email to the State and an eIAR accounting screen to complete with the
+amount of reimbursement due, and
+•
+When the State certifies the IA payment amounts, the system compares the IAR to the
+SSI amount due and releases the past-due payment following the priority of payment
+order. For Processing eIAR Field Office Intervention Cases, refer to SI 02003.022. For IAR Payment Processing for Exception Cases and Proration Cases, refer to SI 02003.025.
+•
+The system computes any remaining underpayment amount due and IF:
+•
+Direct representative fee payment apply, go to Step 4
+•
+Dedicated accounts with installments apply, go to Step 5 or
+•
+Installments only apply, go to Step 6.
+4
+Direct payment for representative fee cases:
+If there is no IAR involved or if IAR reimbursement was made to the State, and direct
+representative fee payment is involved (DP is ‘D’), but direct representative fee
+payment cannot be made yet because the fee status is unresolved, (FST is ‘U’, or in
+a concurrent case the system cannot yet compute the Title XVI fee), the system:
+•
+Posts an ‘A’ in the UPV field of the SSR;
+•
+Holds the underpayment until we issue the fee payment; and
+•
+Issues a notice explaining that if a fee is due, we will pay the representative directly.
+When the system issues the fee, or if the system determines that no fee is due, the
+system:
+•
+Removes the ‘A’ in the UPV field of the SSR
+•
+Issues a notice, explaining that we paid the fee or that there is no fee due.
+If dedicated accounts are involved, go to Step 5. If installments only are involved, go to Step 6.
+5
+In dedicated account cases, the system:
+•
+Posts a UPV of ‘B';
+•
+Sets an EA diary with a 30-day maturity date; and
+•
+Releases an automated notice to the payee
+Account opened:
+•
+FO A-OTPs first installment payment of 3 X (FBR+OSS) into dedicated account;
+•
+Removes EA diary;
+•
+Sets an IN diary with a 6 month maturity date;
+•
+Places a 4N entry in PMTH and ‘1' in pay flag 5; and
+•
+Generates an automated notice explaining the payment of the installment into the dedicated
+account.
+•
+Go to Step 8
+6
+For installment ONLY cases - no prepayment review required or prepayment review
+completed - the system determines if installments are required. If so, the system:
+•
+Issues the first installment to the individual of 3 X current (FBR + OSS);
+•
+Posts a UPV of 2 to the MPMT field;
+•
+Posts an ‘8' to pay flag 5 indicating the first installment made; and
+•
+Generates a notice, explaining the installment provisions and the installment amount.
+•
+Go to Step 7.
+7
+The system generates a second installment in 6 months and:
+•
+Posts a ‘9' to pay flag 5 if there is a final third installment pending; or
+•
+Posts a ‘Z' to pay flag 5 if this payment is final installment payment; and
+•
+Issues the appropriate notice, explaining the installment payment.
+8
+Dedicated account and next installment due
+When the IN diary matures, the system sends the FO an alert (I6) to issue the next
+installment into the dedicated account. In this case:
+•
+FO A-OTPs (using the UPSP Menu, UPOT screen) installment payment 3 X (FBR+OSS) into
+the dedicated account;
+•
+The system sets an IN diary with a 6 month maturity date if a third and final payment
+is due; and
+•
+The system places a 4N entry in PMTH and updates pay flag 5 with a ‘2' to show that
+the second installment was issued.
+•
+If this second installment was also the final payment, the system posts an ‘F' to
+pay flag ‘5'.
+•
+If a third and final installment is due, once the IN diary matures, the FO receives
+the I6 notifying them to issue the next installment into the dedicated account.
+•
+The FO issues the remaining underpayment (regardless of the amount) to the dedicated
+account.
+•
+The system places a 4N entry in PMTH and builds an ‘F' in pay flag ‘5'.
+•
+IN diary is deleted; and
+•
+Notices are automated
+5. Exception to installment provision - ineligibility likely for at least 12 months or
+medical condition likely to result in death within 12 months
+If the individual is likely to remain ineligible for SSI (or becomes ineligible during
+the installment process) or the medical condition will likely result in death within
+12 months:
+•
+Complete a prepayment review, if applicable, according to SI 02101.025.
+•
+Document the file on a Report of Contact showing the reason for issuing one payment
+rather than installments.
+•
+Select Option 5 on the UOUP screen to indicate the case meets an installment exception
+and the prepayment review is complete. The system releases the underpayment via the
+automated payment process. For more information about the UOUP screen, refer to MS
+00304.018.
+You can only use the UOUP screen to release underpayments when the current payment
+status code is C01, E01, S21, N04, N06, N19, N07, N08, N27 and N01 records meeting
+systems criteria.
+If an individual becomes ineligible during the installment process and is likely to
+remain ineligible for at least 12 months, or if the individual informs the FO that
+their medical condition will likely result in death within the next 12 months and
+requests the remaining past-due SSI payments, issue the remaining past-due amount.
+Examples of an ineligibility that is likely to continue for 12 months include, but
+are not limited to, continuing Title II income (N01), or a closed period of disability
+(N07). However, other circumstances could also provide a basis for such a conclusion.
+EXCEPTION: We cannot pay underpayments or retroactive Title XVI payments to claimants, individuals,
+or terminated individuals while they are residing in a correctional institution, confined
+in a public institution based on a court order for a criminal act (CPICO), a fugitive
+felon (FF), or in violation of probation or parole (PPV). For more information about
+the No Social Security Benefits for Prisoners (NSSBP) Title XVI Provisions, refer
+to SI 00529.001.
+For guidance when considering whether there is an expectation that an individual's
+medical condition will result in death within 12 months such as a terminally ill case
+(TERI), refer to DI 23020.045. When determining whether an individual is likely to remain ineligible for 12 months
+or more, consider the facts involved in the case.
+6. Exceptions to the installment limit - increased payment
+The first or second installment payment may be increased by the amount of the individual’s
+outstanding debt or expenses under the conditions described in SI 02101.020B.4.
+The amount by which we increase the payment cannot exceed these “approved” debts or
+expenses. The individual may request an increase to the installment payment at any time.
+Let the individual know what the exceptions are to the limit on the amount of the
+first and second installment payments during the PERC interview, and explain the kinds
+of outstanding debts or current or anticipated expenses that are acceptable expenses
+for increasing the installment.
+We will issue a notice to the individual that explains the debts and expenses that
+can increase the first and second installment payments.
+When the individual requests an increased installment payment because of outstanding
+debts or expenses as described in SI 02101.020B.4., record on a Report of Contact or SSA-5002 the individual or payee's:
+•
+Request for an increased installment payment amount; and
+•
+Allegation of the type and amount of debts or expenses as described in SI 02101.020B.4.
+Issue DPS notice Instal 05 - App/Disapp Request for Increased Payment.
+7. Dedicated account involvement
+When past-due payments greater than six times the FBR, plus any federally administered
+State supplement, are due an individual under age 18 who has a payee, in addition
+to requiring a dedicated account, the past-due payments must also be paid by installments.
+We pay all dedicated account cases by installments via direct deposit into a dedicated
+account. For the permitted expenditures and requirements of a dedicated account, refer
+to the instructions in GN 00602.140 and GN 00603.025. If an exception to installments applies as the described in SI 02101.020B.2, deposit the entire past-due amount into the dedicated account.
+8. Prior overpayment from other record – installment-only cases
+Prior overpayments are offset against the first, second and third (final) installment
+payment(s) automatically. Due to systems limitations, we cannot offset in all dedicated
+account or installment payment cases. If the system does not offset a prior overpayment,
+continue collecting the overpayment at the 10 percent rate.
+We cannot offset prior collectible overpayments against an installment payment until
+we directly pay any applicable authorized representative's fee. The priority of payment
+order when direct representative fee is involved is:
+•
+IAR,
+•
+direct representative fee payment; and
+•
+prior overpayment recovery.
+For more information administering representative fee provisions, refer to GN 03920.000. For more information about the fee petition process, refer to GN 03930.000. For more information about the fee agreement process, refer to GN 03940.000. For more information about the A-OTP process, refer to SM 01901.000.
+9. Subsequent overpayment during installment payment period
+If we are making installment payments and the technician inputs a change for a subsequent
+period that creates an additional overpayment, DO NOT OFFSET the overpayment against the installment payments.
+After all overpayment due process rights for the overpayment, including waiver issues,
+are complete, apply a collect decision to the record (D TAC), and recover the overpayment
+from any installment funds that have not been paid.
+If we have not completed due process, or the individual requests a waiver, issue the
+last installment payment timely and recover the overpayment via 10 percent withholding
+from continuing payments.
+10. Additional amounts due or excess payments during installment payment period
+Automated netting is part of the computational process. Netting takes place prior
+to placing the installment or dedicated account indicator on the record. However,
+once we place the installment or dedicated account indicator on the record, automated
+netting does not take place.
+When the individual receives installment payments and the technician inputs a change
+for a subsequent period in which higher payments are due for some months and lower
+payments are due for other months, allow the system to create a B3, unresolved overpayment
+diary, for months of excess payment and add the additional amounts due the individual
+to the installment total.
+After we release the overpayment notice and there is a collect decision on the record
+(D TAC), and installment funds remain, the system recovers the overpayment if the
+appeal period has not lapsed, or if there is a waiver request, we cannot recover from
+the installment payment. If these issues are not resolved before we make the final
+installment payment, recover the overpayment through 10 percent withholding from continuing
+payments.
+11. Subsequent past-due payments during installment payment period
+a. Dedicated account not involved
+When the individual receives installments and the technician inputs a change for a
+prior period that creates an additional past-due amount, the system adds the additional
+underpayment to the total remaining past-due payments we are issuing via installments.
+This generates an automated notice to the individual explaining the additional past-due
+amount.
+b. Dedicated Account Involved
+When we make installment payments into a dedicated account and input a change for
+a prior period that creates an additional underpayment that meets the requirements
+of an optional deposit, refer to SI 02101.010A.2. Add the additional underpayment to the total remaining past-due payments we are issuing
+via installments. The system generates an automated notice to the individual explaining
+the additional past-due amount.
+If the individual or the payee requests to be paid the additional underpayment prior
+to the next installment payment and they do not want it deposited into the dedicated
+account, the FO must make an A-OTP for that amount. If the individual or the payee
+requests the optional underpayment when we issue the next installment payment, we
+pay the optional payment separately to the individual by an A-OTP and the installment
+payment directly into the dedicated account by an A-OTP. An automated notice will
+release the installment payment; however, a manual notice is required for the optional
+payment.
+Example 1: We issued Jan's first installment payment to their financial account in January.
+In March, the FO technician input a corrected wage report for six months prior to
+Jan's month of payment effectuation that increased the amount of past-due SSI money
+due them by $2,500. The system added the $2,500 to the total past-due payments that
+we are issuing via installments, and issues an automated notice to Jan explaining
+the additional $2,500.
+Example 2: We issued Judy's first installment payment into their dedicated account in August,
+and the second installment payment into their dedicated account in February. In April,
+Judy's payee received a notice stating Judy was due an additional $1,000 in past-due
+SSI as a result of a correction to their unearned income for prior months. Judy's
+payee asked to have the additional past-due $1,000 paid to them, and not deposited
+into the dedicated account. The technician issued an A-OTP to the payee for $1,000
+on Judy's behalf and issued a manual notice explaining the additional $1,000.
+NOTE:
+Automated netting takes place prior to placing the dedicated account or installment
+indicator on the record. Once the indicator is on the record, automated netting does
+not occur as described in SI 02101.020D.10.

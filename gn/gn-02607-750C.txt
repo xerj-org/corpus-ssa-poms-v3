@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02607.750 - T2R Exceptions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607750 (fetched 2026-10-04)
+
+C. Procedure - FO processing of T2R exception cases
+1. FO processing of a prisoner/NGRI--PCACS established
+•
+Update PUPS (TYPE OF ACTION 6 - CHANGE INFORMATION ONLY) leave the PUPS record * PENDING
+status.
+•
+Annotate Remarks to the PUPS record, Suspension input, PCACS established, PC delay.
+•
+Diary the case for 15 working days after PCACS is established to ensure the case was
+properly closed on PUPS and the MBR is in LAF S7.
+•
+If MBR does not reflect LAF S7 when diary matures, send a 2790-FAX follow-up on the
+suspension action to the PC.
+•
+Transfer the PUPS record to the PC/OCO-ODO. See GN 02607.465 for instructions on transferring PUPS records, see GN 02607.465.
+•
+Follow the instructions in the 2790-FAX procedure; see GN 02607.995 for additional actions required if the MBR does not reflect the appropriate suspension
+action, see GN 02607.995.
+•
+After suspension is posted to MBR, the *PENDING status will change to suspension on
+PUPS. If the MBR shows suspension (LAF S7) but the PUPS status has not changed from
+*PENDING to SUSPENSION, contact your Field Operations Prisoner Coordinator (FOPC)
+before taking any further actions.
+2. FO processing--no PCACS issue exists
+If no PCACS ACR exists, there should still be a record on the Transaction History
+Summary Screen (THIS), but assume that T2R did not create a PCACS, PRISON, or PRISUS
+TOEL transaction and
+•
+Use the 2790-FAX procedure (see GN 02607.995 for processing instructions). (Wait 1 to 2 days after the advance notification period
+expires before faxing the PC);
+•
+Update PUPS (Type of ACTION 6);
+•
+Leave the PUPS record *PENDING;
+•
+Annotate Remarks Material faxed to the PC MMDDYY, T2R Exception;
+•
+Transfer the PUPS record to the PC/OCO-ODO. See GN 02607.465 for instructions on transferring PUPS records; and
+NOTE: To determine the last day of the due process period, use the PUPS query mode, the
+P2QY screen will indicate the ACTION PENDING UNTIL MM/DD/YYYY. The due process period
+expires this date. If this message is not present, then the case is no longer on the
+T2R processing system. If the T2R action excepts, the P2QY screen continues to reflect
+the ACTION PENDING UNTIL MM/DD/YYYY although the action is not on the T2R processing
+system.
+•
+After the suspension action is posted to the MBR, check to see if the incentive payment
+was automatically scheduled to pay. If not, request a manual incentive payment per GN 02607.820A.

@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 60099.050 - Benefit Offset National Demonstration (BOND) Stand-Alone System (BSAS)
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099050 (fetched 2026-10-04)
+
+C. BSAS processing logic
+1. Monthly offset amount is greater than monthly benefit amount (MBA)
+If the monthly offset amount is greater than the MBA, BSAS:
+•
+suspends benefits to the CDB, DWB, and Concurrent (SSI and HA) beneficiary and auxiliaries
+receiving benefits on this record, and
+•
+issues automated notices to the BOND beneficiary and auxiliaries explaining the reason
+for suspension.
+2. Monthly offset amount is less than the MBA
+If the monthly offset amount is less than the MBA, BSAS:
+•
+reduces benefits under the BOND rules, and
+•
+issues an automated notice to BOND beneficiaries.
+If the first month of offset is in the past, MADCAP:
+•
+automatically recovers any incorrect payments in full prior to paying the offset MBA
+for the current year, and
+•
+generates an overpayment notice for any prior years and automatically recovers any
+incorrect payments in full prior to paying the current year offset MBA.

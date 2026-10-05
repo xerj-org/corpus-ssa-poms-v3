@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 01010.400 - Claim Denials
+Effective Dates: 01/28/2014 - Present | TN 83 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010400 (fetched 2026-10-04)
+
+B. Considerations before denying a claim
+Before denying a claim, consider the possibility of entitlement to other types of
+benefits (e.g., the possibility that a child claimant may be entitled to benefits
+on more than one Number Holder's (NH) record as a stepchild or adopted child). In
+addition, be aware that a title XVI application is also an application for title II
+benefits that we must adjudicate (see Closeout – Failure to Cooperate Initial Claims
+in SI 00601.110).
+1. Options for denying a claim
+Consider the options for denying a claim only when:
+•
+all of the required evidence is in the claim file and you establish that the claimant
+is not entitled or eligible at the time of adjudication;
+•
+required evidence is missing, but entitlement or eligibility would not exist even
+if the claimant provides the required evidence; or
+•
+the evidence required is missing (e.g., relationship, insured status, age) and the
+claimant fails to submit such evidence (see Failure to Submit Essential Evidence in
+GN 01010.410 and Closeout – Failure to Cooperate Initial Claims in SI 00601.110).
+IMPORTANT: Consider correcting the numident (NUMI) record, if you are denying the claim for
+a factor of entitlement (i.e., relationship, insured status, age) and the claimant
+has the required evidence to process the SSNAP application at the time of filing.
+2. Claim denial for unresolved numident discrepancy
+The claim technician is responsible for verifying the applicant’s identity during
+the initial interview. However, when the applicant alleges different identity information
+from the NUMI record (e.g., first name, last name, DOB) it is their responsibility
+to provide proper evidence to correct or update our records, see Identity of Claimants
+in and Reviewing Age, Identity, Citizenship and Lawful Alien Status Evidence for an
+SSN Card in RM 10210.210.
+If the applicant is unable to provide the evidence required to resolve discrepant
+data, per GN
+00203.030D.,the technician must:
+•
+follow instructions to document the claim in GN 01010.410;
+•
+enter the denial code “065” on the benefit continuity factor (BECF) screen to deny
+the claim (see MSOM MCS 009.003); MCS automatically generates and releases the denial
+letter.
+3. Auxiliary claim’s denial due to NH withdrawal
+The NH's withdrawal nullifies the auxiliary claim; therefore, we must deny the auxiliary’s
+claim. If we approved the NH's request to withdraw, send a denial notice to the auxiliary
+claimant. This is required even if the auxiliary is living in the same household with
+the NH (see Processing Withdrawal (WD) Requests before Adjudication in GN 00206.011).
+4. Manual denial
+Use the Manual Adjustment Credit and Award Data Entry (MACADE) System to process Modernized
+Claims System (MCS) exclusions or limitation, which preclude using the earning computation
+(EC) process to deny or disallow the claim.

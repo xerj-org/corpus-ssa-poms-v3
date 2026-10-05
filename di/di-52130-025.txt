@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - DI 52130.025 - Field Office (FO)/Processing Center (PC) Input of the Civil Service Public Disability Benefits (CSPDB) Indicator
+Effective Dates: 07/30/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452130025 (fetched 2026-10-04)
+
+DI 52130.025 Field Office (FO)/Processing Center (PC) Input of the Civil Service Public Disability
+Benefits (CSPDB) Indicator
+The Office of Personnel Management (OPM) data match validates against the CSPDB indicator
+on the CIV SER line of the master beneficiary record (MBR) to determine whether a
+public disability benefit (PDB) offset currently applies to the Federal PDB. The data
+match uses the indicator to generate the appropriate post-entitlement alerts in the
+PC.

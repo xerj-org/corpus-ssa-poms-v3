@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - GN 02602.070 - Identifying and Resolving Death Alerts
+Effective Dates: 09/15/2026 - Present | TN 116 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602070 (fetched 2026-10-04)
+
+D. Resolving NUMI Alerts
+Before taking any actions to resolve a NUMI death alert, you must determine if the
+Numident or payment record(s) is incorrect. To make this determination, you must review all SSA records and queries.
+Once you have determined which record(s) is incorrect, use the table below to determine
+how to resolve the alert.
+NOTE: If Entry code (ETC): D = Death claim (filed before 3/72) shows on the Numident,
+see RM 10220.415.
+If…
+Then…
+You determine death is correctly posted to the Numident but not on the payment record(s).
+Determine if a termination action is pending.
+•
+If no transaction is pending, input the death to the appropriate payment record(s).
+•
+If a transaction is pending, suspend the payment record(s) pending death development.
+You determine the individual is alive and the payment record is correct but death
+was not removed from the Numident.
+Remove death from the Numident following GN 02602.055 and GN 02602.056.
+You determine both the Numident and payment record(s) are correct.
+No action required.
+NOTE: If an input, systems update, or record correction is completed after the last weekend
+of the month, the alert will remain in DATS until the next month’s run.

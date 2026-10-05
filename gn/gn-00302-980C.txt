@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - GN 00302.980 - Electronic Verification of Vital Events - Age
+Effective Dates: 08/17/2023 - Present | TN 38 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200302980 (fetched 2026-10-04)
+
+C. Procedure - Verification search results in a match/No match
+1. Verification search results in an exact match
+•
+For a claim, if the EVVE system returns the message that the search resulted in a match, document
+MCS/MSSICS/EVID according to the instructions in this section GN 00302.980D.
+•
+For an enumeration action, if verification of the BC is required per RM 10210.270 and the EVVE system returns the message that the search resulted in a match (i.e.,
+the BC is verified), process the SSN application if all other required evidence is
+submitted (RM 10205.185 and RM 10205.300). Document your actions following the instructions in GN 00302.980D.4.
+2. Verification search results in a no match
+If the EVVE system returns the message that the search resulted in a no match, be
+sure that you entered the data correctly into the EVVE system. If the data entered
+was incorrect, enter the data correctly into the EVVE system. If the new search results
+in a match, follow the instructions in GN 00302.980C.1. If the new search results in a no match:
+•
+For a claim, determine the reason for the no match, and follow the instructions in GN 00302.980C.3. – GN 00302.980C.7.; or
+•
+For an enumeration action, process the SSN application per RM 10205.320, Processing an SSN Application when
+Verifying Agency Responds the Document is Fraudulent.
+NOTE: An SSN applicant must submit the actual BC to SSA.
+3. Date of Birth is discrepant
+Determine whether the discrepancy is material using the instructions in GN 00302.160. If the discrepancy is not material, follow the instructions in GN 00302.240.
+If the DB is materially discrepant:
+•
+Obtain preferred evidence of age. See GN 00302.052 – GN 00302.056 for instructions about preferred evidence of age.
+•
+If preferred evidence of age does not exist, resolve the discrepancy using the instructions
+in GN 00302.165 – GN 00302.190; and
+•
+Prepare a written determination when required by the instructions in GN 00302.405 – GN 00302.430. Document the decision on the RPOC screen in MCS or on the Report of Contact page
+in the Consolidated Claims Experience (CCE). If they are unavailable, use the SSA-2038-F3
+(Date of Birth Determination) following the instructions in GN 00302.430 or the SSA-553 (Special Determination).
+4. Birth record established on or after age 5
+•
+Determine whether preferred evidence of age exists (see GN 00302.052 – GN 00302.056) and use it to establish the DB if applicable, or
+•
+If preferred evidence of age does not exist, develop other evidence of age according
+to the instructions in GN 00302.100.
+5. Death indicated on birth record/SSA records
+a. EVVE, allegation, and SSA records indicate NH is deceased
+If the EVVE system output indicates that a NH may be deceased, this agrees with the
+allegation that the NH is deceased, and SSA’s systems records (i.e., Numident, MBR,
+and/or SSR) indicate the NH is deceased, consider the BC to be verified. This situation
+may occur when developing POA for a deceased NH as required by GN 00302.005.
+b. EVVE indicates NH is deceased, SSA record disagrees
+If the EVVE system output indicates that a NH may be deceased, and SSA’s systems records
+(i.e., Numident, MBR, and/or SSR) indicate that the NH is alive:
+•
+Review all identifying information shown on the record (e.g., claimant or SSN applicant’s
+name, place of birth) to be certain that it is the claimant’s record and that all
+information was input into EVVE correctly;
+•
+Modify your search if the data entered was incorrect; and
+•
+If the EVVE system output still shows the NH as deceased and you suspect that the
+claimant may have assumed the identity of a deceased NH, develop possible fraud following
+the instructions in GN 04110.010.
+•
+If fraud is not suspected/detected, ask the claimant to obtain the birth record from
+the state bureau of vital statistics (BVS). This will provide the most current data
+from the BVS in cases in which the database has not yet been updated. See GN 00308.000 for instructions about requesting vital records.
+c. EVVE indicates NH is alive, SSA record disagrees
+•
+Review all identifying information shown on the record (e.g., claimant or SSN applicant’s
+name, place of birth) to be certain that it is the claimant’s record and that all
+information was input into EVVE correctly;
+•
+Modify your search if the data entered was incorrect; and
+•
+If the EVVE system output still shows the NH as alive and you suspect that the claimant
+may have assumed the identity of a deceased NH, develop possible fraud following the
+instructions in GN 04110.010.
+•
+If fraud is not suspected/detected, resolve erroneous death data on the Numident by
+following the procedure in GN 00304.100B.
+6. Name discrepancies
+If the EVVE system output indicates that the name does not match, develop the name
+discrepancy following the instructions in GN 00302.458 – GN 00302.470.
+7. Original certificate modified
+If the EVVE system returns a message that the data has been modified, follow the procedure
+in GN 00302.510G.
+NOTE: The output will not indicate which data elements were modified.

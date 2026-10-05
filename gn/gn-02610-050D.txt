@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02610.050 - Complex Offset Situations with Case Examples
+Effective Dates: 03/14/2013 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610050 (fetched 2026-10-04)
+
+D. Case type: Determining the windfall offset end date when the windfall offset covers
+more than one period of Title XVI eligibility
+1. Determining if there is more than one windfall offset period
+If the Title II entitlement period covers more than one Title XVI eligibility period,
+treat the periods as separate windfall offset periods. The Title XVI periods of eligibility
+must be based on separate applications and awards. When completed, the total windfall
+offset results are reported to the PC on e4345 by adding the results of the two separate
+windfall offset periods together.
+2. Counting Title II income when there is more than one windfall offset period
+Deduct the separate windfall offset amounts from the retroactive Title II benefits
+due the beneficiary. The PMA amount is equal to the total retroactive Title II benefits.
+Benefits received for months outside the offset period and included in the PMA amount
+are type A unearned income counted in the month of receipt. Any Title II money used
+in either of the offset periods that is payable to the recipient is non-countable
+income for income purposes.
+See GN 02610.005 C.12 for the definition of non-countable income.
+3. Effect of termination event on windfall offset end date
+When one of the periods of eligibility is terminated (payment status code N07, N08,
+N19, or T01), the offset end date is the month before the month of termination if
+no appeal is filed timely. See SI 02301.201 B. for explanations of terminations and suspensions. Do not use the thirteenth month
+as the end date.
+4. Effect of ineligibility event on windfall offset end date
+When Title II offset applies to a period of SSI suspension that is 12 consecutive
+months, the windfall offset end date is the 13th month after the suspension date.
+See SI 02301.201B to identify a situation where the recipient stays in suspense for 24 consecutive months (military-related
+recipients). When Title II offset applies to a period of SSI suspension that is 24
+consecutive), the windfall offset end date is the 25th month after the suspension date.
+EXAMPLE: Effect of ineligibility event on the offset period
+SSR shows:
+SSI eligibility from 3/07 to 6/07
+Ineligible (N01) beginning 7/07 (terminated in 7/08)
+No windfall offset data
+New SSR shows:
+SSI DOE: 10/08 (E02 month)
+Eligibility begins 10/08 and continues
+Title II award received that shows:
+DOE: 2/07
+First month T2 retro due: 03/07 (02/07 due to be paid in 03/07)
+Offset information:
+First Title XVI eligibility period
+WOBD: 3/07
+WOED: 7/08
+Second eligibility period
+WOBD: 10/08
+WOED: 01/09
+CMA is posted as type A in 12/08.
+02/09: first month that Title II income is shown as type A income

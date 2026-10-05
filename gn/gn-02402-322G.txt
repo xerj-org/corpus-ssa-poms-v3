@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.322 - Coding Finland Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402322 (fetched 2026-10-04)
+
+G. Example of coding Finland direct deposit
+The customer provides us with a signup form for Finland containing the following information:
+"FI2112345600000785".
+•
+The first 2 characters of the Finland IBAN are “FI”, which represents the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO country code or check digit to the MBR.
+•
+The next three characters of the IBAN represent the 3-digit bank code.
+•
+The last 11 characters represent the 11-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 71 (SSA designated prefix for IDD).
+•
+Code three zeros “000”
+•
+Code the three digit bank code “123”;
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the letter “G” for Finland
+•
+Code the 11-digit account number “45600000785”
+3. Obtain the following information
+•
+RTN: 710001238
+•
+Checking
+•
+DAN: G45600000785
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710001238 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: G45600000785
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-710001238
+•
+DAN- CG45600000785

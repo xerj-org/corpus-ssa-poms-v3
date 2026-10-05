@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02402.300 - Coding Canadian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 287 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402300 (fetched 2026-10-04)
+
+B. Description - Source of the Bank Information
+The data for coding may come from a check, a signup form for Canada (see GN 02402.300G.), or the equivalent information received by mail, phone, fax, or E-mail.
+If the interviewer does not have access to a check or a signup form completed by the
+FI when the beneficiary makes a request for direct deposit by phone, the interviewer
+should ask the beneficiary to read all the numbers from the bottom of the check (the
+MICR line).
+The interviewer should also ask for the check serial number at top right. This information
+is also included at the bottom of the check, so knowing the check number makes it
+easier to determine the actual bank data.
+For U.S. dollar accounts, the actual account number may be in small print above the
+words “PAY TO THE ORDER OF.” For a U.S. dollar account at a Caisse Populaire, the
+number may be in rather small print toward the upper right.
+When using a Canadian Payments Association Directory to find the bank data, the coder must use the information from the second column (“MICR
+Encoded No.”), not the first column (“Direct Payment Routing No.”).
+The beneficiary may have a Pre-Authorization Statement from the FI. This gives the
+full information.

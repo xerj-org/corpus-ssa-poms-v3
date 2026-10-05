@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 00603.004 - Simultaneous Development Application Process
+Effective Dates: 12/27/2023 - Present | TN 28 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603004 (fetched 2026-10-04)
+
+B. Procedure - initial simultaneous development
+1. Obtain application
+In claims which are initial simultaneous development, obtain an application on paper
+or on the MSSICS as outlined below.
+a. Paper application
+Obtain:
+•
+Form SSA-8000-BK (Application for SSI) completed per SI 00604.001;
+•
+supplementary forms such as Form SSA-8010-BK (Statement of Income and Resources) and
+Form SSA-8006-F4 (Statement of Living Arrangements, In-Kind Support and Maintenance);
+and
+•
+the necessary disability forms (DI 10105.085)
+b. MSSICS application
+•
+Select FULL for application type on the ACLM screen, and
+•
+obtain the necessary disability forms (DI 10105.085).
+2. Send disability folder
+Transfer the case to the DDS (or to the Great Lakes Program Service Center (GLPSC)
+DCR, DDS site code V32, for career railroad (RR) workers and dependent RR annuitants,
+as appropriate per DI 11010.280) and forward immediately unless it is being held per SI 00603.010C. to develop a questionable eligibility issue.
+3. Complete development
+Complete all development as soon as possible. However, when nondisability eligibility
+is questionable, you may develop only the questionable issue at first per SI 00603.010E.
+4. Systems input
+a. Paper application
+For paper applications, input H80 in the Payment Status (PS) field while development
+continues. When development is complete, delete the H80. (See SM 01010.055 for a description
+of H80.)
+b. MSSICS application
+For MSSICS applications, the payment status automatically becomes H80 when the full
+claim is shown as received on the Development Worksheet page.
+If and when all development is complete, enter “Y” in response to CLOSE OPEN EVENT on the BUILD SSR (DSSR) screen and then enter the
+INITIAL CLAIM DECISION on the DADJ screen.

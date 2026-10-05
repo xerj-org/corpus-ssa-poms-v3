@@ -1,0 +1,114 @@
+SSA Program Operations Manual System (POMS) - SI 00835.340 - Computation of In-Kind Support and Maintenance from Within a Household
+Effective Dates: 09/26/2023 - Present | TN 113 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835340 (fetched 2026-10-04)
+
+C. Procedure for computing inside ISM
+Follow the procedure in this section to compute inside ISM.
+1. Convert household expenses
+Convert household operating expenses, if applicable, in accordance with SI 00835.470 before computing inside ISM.
+If the claimant consumes all meals outside the household or purchases food separately,
+use only shelter expenses instead of total household operating expenses when computing
+inside ISM following instructions in SI 00835.020.
+If the claimant's LA basis is earmarked sharing, use total household operating expenses
+(food and shelter) to compute ISM from within the household, following instructions
+in SI 00835.170.
+Assume all other members of the household share in the food unless we obtain information
+that contradicts this. If another member of the household does not share in the food
+and the claimant does, then determine separate pro rata shares for food and shelter
+and add them together to determine the claimant's pro rata share.
+2. Determine contributions
+Determine contributions following the instructions in SI 00835.480. For instructions on contributions by an eligible child with an ineligible parent(s),
+eligible claimant with an ineligible spouse, and an eligible claimant with an essential
+person, see SI 00835.210. After determining the claimant's contributions, use the computation in SI 00835.340C.3 to compute the value of ISM from within the household.
+3. Computation of ISM for a claimant only
+Enter Total Household Operating Expenses
+Divide by Number of Household Members
+÷
+Claimant's Pro Rata Share
+=
+Deduct Claimant's Contribution
+-
+Actual Value
+=
+Compare the AV to the PMV for the claimant. The lesser amount is “H” income if the inside ISM is the only ISM received. NOTE: There is no $5 tolerance applicable to ISM subject to the PMV rule; even if the AV
+is less than $5, such ISM is chargeable.
+4. Computation of ISM for an eligible couple
+a. Standard computation
+Enter Total Household Operating Expenses
+Divide by Number of Household Members
+÷
+Pro Rata Share of Each Member of Couple
+Multiplied by 2
+x    2
+Combined Pro Rata Shares of Couple
+=
+Deduct Couple's Combined Contribution
+-
+Actual Value
+=
+Compare the AV to the PMV for the couple. The lesser amount is “H” income to the couple if no other ISM is received. NOTE: There is no $5 tolerance applicable to ISM subject to the PMV rule; even if the AV
+is less than $5, such ISM is chargeable.
+b. One member of the couple separately consumes or separately purchases food
+For purposes of computing the AV of food and shelter received by the couple when one
+member either separately consumes or separately purchases food, use the following
+procedure.
+•
+Determine the couple's combined pro rata shares for shelter using the computation
+in SI 00835.340C.4.a. in this section.
+•
+Determine the pro rata share of food for the member who takes meals in the household.
+Exclude the other member of the couple from household composition when computing this
+pro rata share of the food.
+•
+Add the couple's combined pro rata shares for shelter to the pro rata share of food
+consumed by the member who takes meals in the household.
+•
+Deduct the couple's combined contribution to the household expenses. The difference
+is the AV of food and shelter received by the couple from within the household.
+•
+Add the result to the AV of any other ISM received by the couple and compare to the
+PMV for a couple.
+NOTE: The VTR cannot apply to the couple when separate purchase of food exists. For information
+on separate purchase of food, see SI 00835.150.
+EXAMPLE: One Member of Eligible Couple Separately Purchases Food
+Bob and Ann an eligible couple, live with their adult child and family in a house
+the adult child owns. There are five household members. One member of the SSI couple
+has a special diet and buys all their own food. The FO finds that the SSI couple is
+separately purchasing their food, and therefore the VTR cannot apply to the couple.
+The eligible couple have income of $325 a month from which they give their adult child
+a general contribution of $175 a month. The household operating expenses are $960,
+consisting of $360 for food and $600 for shelter. When the SSI couple elects to rebut
+the PMV, the FO determines the AV of ISM received by the couple.
+The FO computes the pro rata share of shelter:
+Household Operating Expenses for Shelter
+$600
+Divided by 5 Household Members
+÷ 5
+Pro Rata Share of Shelter
+$120
+​
+× 2
+Combined Pro Rata Share of Couple
+$240
+Next, the FO computes Ann's pro rata share of food:
+​
+Household Expense for Food
+$360
+Divided by 4 Household Members (exclude Mr. Bob)
+÷ 4
+​
+$ 90
+Finally, the FO computes the AV of food and shelter received by the couple:
+​
+Pro Rata Share of Food
+$ 90
+Combined Pro Rata Share of Shelter
++240
+Total
+$ 330
+Less Contribution
+- 175
+AV
+$ 155
+Compare the AV to the PMV for an eligible couple and charge the lesser as income to
+the couple.

@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 81010.085 - Transferring Cases in the Electronic Disability Collect System (EDCS)
+Effective Dates: 11/22/2023 - Present | TN 81 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010085 (fetched 2026-10-04)
+
+A. Preparing the CEF for transfer
+The Certified Electronic Folder (CEF) is the official folder for the disability case.
+Do not prepare a paper folder unless one of the exclusions in Certified Electronic
+Folder (CEF) Exclusions and Limitations - DI 81010.030 applies.
+When transferring a CEF in EDCS to the Disability Determination Services (DDS) or
+to the Office of Disability Adjudication and Review (ODAR), the Claims Representative
+(CR) must take the following actions:
+•
+Receipt the application for benefits on the DWO1 screen in MCS and MSSICS;
+•
+Complete a pre-adjudicative earnings computation (EC) run in MCS so that the Date
+First Insured (DFI) will propagate to EDCS. If needed, repropagate or complete an
+Update After Transfer (UAT) for any updates/changes to EDCS;
+•
+Ensure all EDCS forms are complete and resolve any edits;
+•
+If a case has been marked as a Compassionate Allowance (CAL) case, determine if full
+non-medical development is needed;
+•
+Create eForms that do not require a claimant signature or completion, sign them electronically,
+and save them to the CEF;
+•
+Create eForms that do require a claimant signature and completion per eForms DI 81010.115 or Using Form Attestation for Work Activity Reports DI 81010.120, for forms using signature proxy;
+•
+Handle non-medical evidence per instructions in Storing Non-Medical Evidence in the
+Electronic Folder (EF) DI 81010.135;
+•
+Process medical evidence submitted by the claimant per Receiving Medical Evidence
+in the Field Office (FO) DI 81010.125;
+•
+Create bar codes for faxing material to the CEF per Faxing Documents into the Certified
+Electronic Folder (CEF) Using Barcodes DI 81010.090;
+•
+Annotate EDCS if sending or requesting a paper folder for a prior filing per Paper
+Folder Indicators (PFIs) DI 81001.020;
+•
+Ensure a valid, signed and dated SSA-827 (Authorization to Disclose Information to
+the Social Security Administration) is in the EF (see Field Office Instructions for
+Obtaining Form SSA-827 DI 11005.057); and
+IMPORTANT: It is imperative to use the correct document type bar code sheet if faxing a wet
+signed SSA-827 into the EF, before transferring any of the claims on the EDCS case.
+The Medical Evidence Gathering and Analysis through Health Information Technology
+(MEGAHIT) system sends the request only when the SSA-827 is in the EF at case transfer
+or is found within a predetermined time frame. For more information regarding health
+IT automated requests, see Receiving Evidence in Disability Determination Services
+(DDS) DI 81020.060
+NOTE: Adult claimants (age 18 or older) signing on their own behalf, child claimants (under
+age 18) signing on their own behalf, and individuals with the authority to sign on
+behalf of a child claimant have the option to electronically sign and submit Form
+SSA-827. For more information about the electronic signature process for Form SSA-827,
+see DI 11005.056.
+•
+Control auxiliary claim development on an auto-initiated case via the mainframe development
+worksheet or Workload Management Information (WMI) listing, or both.
+REMINDER: If a case is a CEF exclusion, the official folder is the paper Modular Disability
+Folder (MDF). Store all documents in the MDF and transfer it to the appropriate component
+per Statements and Other Documentation GN 00301.285. For further information, see Certified Electronic (CEF) Exclusions and Limitations
+DI 81010.030.

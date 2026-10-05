@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02613.500 - Reinstating Benefits
+Effective Dates: 08/03/2022 - Present | TN 35 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613500 (fetched 2026-10-04)
+
+B. Procedure – reinstating benefits using the FFEL screen
+1. FO/PC instructions for reinstating benefits from LAF S9 using POS/FFEL screen
+Use the POS system to reinstate benefits from LAF S9 to the beneficiary (for systems
+processing instructions for the FFEL screen see MSOM COMMON 005.035). To reinstate
+benefits follow the steps in this chart:
+Steps
+Actions
+1
+Annotate warrant disposition to the FFWD screen. In the update mode, enter the mandatory
+entries and then enter the WARRANT STATUS OF 2 = CLOSED and the DATE WARRANT ENDED
+(MMDDCCYY); Enter the REASON WARRANT ENDED 1 = APPREHENDED or 2= DISMISSED.
+NOTE: Enter in the REASON WARRANT ENDED field 1=APPREHENDED if the beneficiary was arrested
+by the law enforcement agency that issued the warrant and the arrest now causes the
+warrant to be satisfied, or 2= DISMISSED if the beneficiary had their warrant dismissed
+and the warrant is no longer outstanding.
+For an explanation when the warrant is dismissed but the criminal charges on the warrant
+are still outstanding see (GN 02613.010A.4. and GN 02613.010A.5.).
+NOTE: FFWD must be updated to avoid a processing exception of the FFEL reinstatement input.
+2
+From the POS path you:
+•
+select #5 (MISC SUSP/TERM/REINST) on the POS Selection List (PESL), and
+•
+select FUGITIVE FELON SUSPENSIONS AND REINSTATEMENTS (LAF S9) on POS Suspensions/Terminations
+and Reinstatements (PEST), or
+•
+enter in the TRANSFER TO field, FFEL and FFEL is in the path and was previously completed.
+3
+Add a date in the FFEL Warrant Satisfy Date field on the FFEL screen. This is the
+date (MM/CCYY) the warrant was satisfied. Reinstate benefits the month after the month
+the warrant is satisfied.
+4
+Check the MBR to make sure benefits are reinstated the month after the month the warrant
+was satisfied. If the MBR indicates the reinstatement did not process, check the THIS
+query in MFQ. If THIS indicates a processing exception, follow instructions in GN 02613.500C and GN 02613.500D.
+5
+An automated reinstatement notice will be sent to the beneficiary by the T2 Notice
+system if the case successfully processes through T2.
+2. Reinstating benefits when POS/FFEL does not work
+For additional information on POS/FFEL exclusion processing see (GN 02613.780B.).
+T2 exception cases occur when a reinstatement action input through POS/FFEL but does
+not properly reinstate benefits on the MBR. T2 exceptions are caused in different
+ways.
+Examples of some Systems processes resulting in a T2 Exception are:
+•
+Processing limitations found in (MSOM MCSEC 001.001); or,
+•
+An error exists on the Master Beneficiary Record (MBR).
+These types of T2 exceptions will be generated to the PC.
+3. POS/FFEL processing resulting in a T2 exception
+When FFEL reinstatement is input to POS, a T2 transaction is created. If an exception
+occurs:
+•
+T2 will not reinstate the benefit on the MBR;
+•
+It creates a PCACS Action Control Record (ACR) with Type of Event Level (TOEL). The
+TOEL Codes used in fugitive felon case processing are found in (GN 02613.770C.).
+When you input a Title II reinstatement action to the FFEL screen, T2 processes the
+reinstatement transaction and annotates the MBR that the beneficiary is in current
+payment status. If the MBR cannot be annotated with the reinstatement action, an exception
+is sent to the PC.

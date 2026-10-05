@@ -1,0 +1,143 @@
+SSA Program Operations Manual System (POMS) - DI 81020.127 - Processing “No Determination” (ND) Claims
+Effective Dates: 07/20/2021 - Present | TN 38 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020127 (fetched 2026-10-04)
+
+DI 81020.127 Processing “No Determination” (ND) Claims
+The Disability Determination Services (DDS) closes a claim with a “No Determination”
+(ND) reason when they:
+•
+cannot make a medical decision,
+•
+have done substantive work on the claim, and
+•
+do not expect to receive the claim back.
+NOTE:The DDS can ND a claim back to the Field Office (FO) when they receive a Medical Improvement
+Not Expected (MINE) or MINE-equivalent continuing disability review (CDR) that requires
+full CDR development by the FO. See DI 28040.215
+DDSs use the “No Determination” Decision code (See SM 06001.404 for a description
+of D831 decision codes) to close claims for a number of reasons. The ND code closes
+the case in the DDS system.
+Use the following chart to select the appropriate ND reason:
+Type of Claim
+ND Reason
+Scenario
+Result
+FO Alert Created
+Medically Reactivated Claim
+“Original Decision Not Changed”
+The claim was medically reactivated, but after development, DDS determines:
+•
+The original decision still applies; and
+•
+No SSA 831 data was changed.
+The claim status and jurisdiction returns to the same as it was before the medical
+reactivation.
+NO
+“Mistakenly Reactivated”
+The claim was medically reactivated by mistake. Should only be selected when there
+have been no changes at all to the claim. If non-decisional changes have been made,
+the user selects “original decision not changed”
+The claim status and jurisdiction returns to the same as it was before the medical
+reactivation.
+NO
+CDR
+Initial Claims Only
+“No CDR Issue”
+After receipting a CDR claim, the DDS determines that one of the screen-out reasons
+applies (per DI 28030.001E. and DI 28003.005) or the claimant dies.
+The claim is closed with jurisdiction at the FO.
+YES
+CDR Recons Only
+“PH Transfer to DH”
+The DDS is unable to make a favorable decision after the Pre-Hearing review (PH) and
+the case must be routed to the Disability Hearings Unit (DHU). (For more information
+on Pre Hearing Favorable Decision see DI 81020.255B.1.b.)
+NOTE: Enter the appropriate DDS as the destination.
+An electronic folder interface (EFI) download is created and the claim level changes
+to DH.
+The claim status is “pending” and jurisdiction to the specified office.
+NO
+CDR Recons Only
+“DH Transfer to PH”
+The DHU determines that a case needs to be returned for PH review. (For more information
+on DHU Processing see DI 81020.255B.2.b.)
+NOTE: Enter the appropriate DDS as the destination.
+An EFI download is created and the claim level changes to PH.
+The claim status is “pending” and jurisdiction to the specified office.
+NO
+CDR Recons at FDDS Only
+“DHU Quality Review - Disagree”
+The Federal DDS disagrees with a DHU decision and routes the case to the DHU.
+An EFI download is created and sent to the DHU.
+The claim status is “pending” and jurisdiction to the specified office.
+NO
+Title II DIB or DWB
+“Death in Waiting Period”
+The claimant dies during the waiting period. For a concurrent Informal Remand (IR)
+case, the Title II claim(s) uses the ND reason code “death in the waiting period”
+and the Title XVI claim(s) uses the ND reason code, “unable to make a fully favorable
+determination”.
+The claim is closed with jurisdiction at the FO. An IR claim is closed with jurisdiction
+at the originating Hearing Office (HO).
+YES
+Any Claim
+(except reopened claims)
+“FO Determination Requested”
+The DDS determines that a FO determination is needed (for example, the claimant has
+returned to work) and routes the claim to the FO.
+NOTE: For OQR returns when the controlled return is “Y” enter the OQR office as the destination
+after corrective action is complete. After review, OQR routes the claim to the FO.
+The claim status is “pending” with claim jurisdiction at the FO.
+YES
+“Send to Another Office”
+The DDS has performed substantive work on the claim but the claim must be routed to
+another office (e.g., the claimant moves to another state). Selecting this ND Reason
+allows the DDS to receive workload credit.
+NOTE: If the DDS has not performed substantive work, or if they expect to receive the case
+back, then use the Transfer decision code (DEC=TR).
+For reactivated claims, the DDS must cancel the reactivation before the claim can
+be
+sent to any office outside of the DDS state.
+Reminder: When sending cases to another disability case processing component for workload
+assistance and the final determination will be made by the receiving office, use the
+Transfer (TR) decision code rather than a No Determination (ND) decision code to ensure
+proper workload credit. For information on transferring cases for workload assistance
+see DI 81020.125 Electronic Case Routing Before Final Determination.
+An EFI download is sent to the designated office.
+YES
+“Stop Electronic Processing”
+The DDS determines that a prior claim needs to be reopened, so electronic processing
+must cease on the current CEF per Processing Reopenings on Certified Electronic Folders
+(CEF) - DI 81020.115
+NOTE: Enter the DDS as the destination and prepare a SSA-5002 (Report of Contact) and an
+electronic folder message.
+The claim status changes to “Transferred” with jurisdiction of the claim at the DDS
+office. The “Transferred” status means that electronic processing has stopped.
+Current Paper Folder Indicator must reflect paper
+NO
+Informal Remand
+Unable to Make a Fully Favorable Decision (UFFD)
+The DDS is unable to make a fully favorable allowance on the basis of evidence in
+file.
+The claim is returned to the originating HO.
+NO
+Hearing Office Recall (HORC)
+ODAR recalls the Informal Remand, or the DDS determines a fully favorable determination
+can be made on a CEF IR claim and a reopening of a prior paper folder is necessary.
+The claim is returned to the originating HO.
+NO
+Subsequent Claim Filed
+“Stop Processing Common Issue (DDS)”
+A new initial claim is filed and an appeal is pending at the Appeals Council or remanded
+to the Hearing Office. DDS action not needed on new initial claim.
+DDS stops working the new initial claim.
+YES
+NOTES:
+•
+ND reasons and resulting behavior may not be applicable to a claim during an Office
+of Quality Review (OQR) review.
+•
+Within the DDS legacy system, the ND reason code “close assistance request” may be
+provided for use only when closing an assistance request (AR). This ND reason code
+is for internal legacy system use and is not sent to the Electronic Folder. No other
+ND reason code is valid for closing an AR.

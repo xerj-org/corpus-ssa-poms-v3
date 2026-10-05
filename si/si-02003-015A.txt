@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - SI 02003.015 - SSI IAR Systems Process
+Effective Dates: 03/02/2005 - Present | TN 15 (07-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003015 (fetched 2026-10-04)
+
+A. Process - automated GR code input
+The system:
+•
+Posts a GR code to the SSR when a State IAR file interfaces with the SSR and matches
+an established SSI claim. (See SM 01005.623 - SM 01005.627)
+•
+Sends a PR-73 alert to the servicing FO when the date of the State GR code input precedes
+the SSI application date if the SSI payment has not been released. See SM 01015.090
+for processing a PR-73 alert.
+NOTE: The PR-73 reject shows the date the State received a signed authorization.
+•
+Sends an automated SSA-L8125 even if the retroactive payment is more than $5000.00
+(including cases with dedicated account and installment payment involvement) as long
+as the prepayment review is completed and the appropriate release code selected on
+UOUP screen.
+•
+Sends an automated IAR payment to the State even if the retroactive payment is more
+than $5000.00 as long as dedicated account and installment payment conditions are
+NOT met and the appropriate prepayment review option is selected on the UOUP screen.
+•
+Sends other notices to the State and or individual in accordance with SI 02003.030 and SI 02003.035.

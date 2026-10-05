@@ -1,0 +1,13 @@
+SSA Program Operations Manual System (POMS) - GN 02605.710 - Title II ZIP Code Flags – Change of Address (COA) and National Change of Address (NCOA)
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605710 (fetched 2026-10-04)
+
+A. Definition of Title II ZIP code flags
+The ZIP Code Flag is an alphanumeric code indicating the status of the ZIP Code on
+the Title II record. The ZIP Code Flag is used to indicate NCOA processing. The ZIP
+Flag Date generates automatically.
+An alpha character is used to exclude the ZIP from processing by the ZIP +4 software
+or to preclude a record from being selected for the next NCOA update cycle.
+A numeric code is used to indicate the results of ZIP +4 software action. This numeric
+code indicates the reason the ZIP+4 software was unable to verify the ZIP or determine
+the ZIP-Add-On data. Central Office generates it automatically.

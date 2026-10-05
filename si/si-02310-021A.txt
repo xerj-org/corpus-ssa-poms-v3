@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 02310.021 - Federal Benefit Interface – DOD
+Effective Dates: 12/16/2013 - Present | TN 40 (02-07)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310021 (fetched 2026-10-04)
+
+A. Process - general
+DOD benefit information is not electronically posted to the SSR. Changes are posted
+manually. For each case where the SSN matches on both the SSR and DOD record, we will
+send an alert to the FO that includes an extract of the DOD record (see SI 02310.021C). Effective March 2007, the alert will be generated directly to the printers in the
+field offices and placed on the Management Information Systems Facility (MISF).
+Only those cases in pay status CO1, MO1, MO2, EO1, and NO1 – 1619 cases will be alerted.
+The interface will produce alerts when the DOD pension amount agrees with the “Type
+L'” income on the SSR. In this situation, the FO does not need to take any action
+and may discard the alert. Alerts will include the following message: “FO personnel:
+Take no action and discard this alert if the DOD income matches the Type “L” income
+on the SSR. See SI 02310.021.”

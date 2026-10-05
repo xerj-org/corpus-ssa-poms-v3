@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 27516.001 - Field Office Res Judicata Development and Processing
+Effective Dates: 12/18/2024 - Present | TN 22 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0427516001 (fetched 2026-10-04)
+
+C. Processing an initial res judicata denial in the FO
+If all of the conditions in section DI 27516.001B1 are met, the claim is in the FO's jurisdiction. When res judicata applies to the
+subsequent Title II claim in the FO:
+1.
+Enter the “S1” denial code on the Benefit Continuity Factors (BECF) screen in the
+Modernized Claim System (MCS);
+2.
+Enter the decision status of “03” and the listing code of “243” on the Decision Input
+(DECI) screen; and
+3.
+Process via Earnings Computation (EC). Process via the Manual Adjustment Credit and
+Award Data Entry system (MACADE). If the S1 denial will not process through EC, see
+SM 00380.000.

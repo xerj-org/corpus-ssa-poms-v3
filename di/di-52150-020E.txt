@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 52150.020 - Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset First-Considered (OFC) Date and Offset Effective Date (OED)
+Effective Dates: 03/09/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150020 (fetched 2026-10-04)
+
+E. Offset first-considered date, offset effective date (OED), and reverse offset
+When reverse offset (also known as “reverse jurisdiction”) applies, the offset first-considered
+date or the OED can change and any increases in DIB can be affected. The following
+describes whether benefit increases during the reverse offset period are protected:
+1.
+If offset is considered for at least one month before the first reverse offset month:
+•
+SSA benefit increases during the reverse offset period are protected. Offset is considered
+but may not cause benefit reduction due to factors such as a high ACE or excludable
+expenses. Compute the ACE and TFB effective with the first month offset is considered.
+The ACE and TFB change only if the conditions in DI 52150.005 Total Family Benefits (TFB) or DI 52150.010 Average Current Earnings (ACE) apply.
+•
+Payments from the first WC award end during the period of reverse offset, and the
+NH then becomes entitled to additional WC payments based on a new WC award (due to
+a different injury/illness) during the period of reverse offset, a new offset first-considered
+date and OED for the second WC award is the month of age 62 attainment. The TFB and
+ACE are established effective with the month of age 62 attainment, and prior SSA benefit
+increases are not protected.
+2.
+If the first reverse offset month is the DIB MOET, monthly benefit increases during
+the reverse offset period are not protected. The TFB and ACE are established effective
+with the month of age 62 attainment.
+NOTE: This situation is a systems limitation. Show the start date of the current action
+and the offset first-considered month to be the month of age 62 attainment.  If the
+offset first-considered month is shown as the DIB MOE and an indication that reverse
+offset applies for all months prior to age 62 is shown, ICF erroneously considers
+the COLA increases prior to age 62 to be protected. For additional information, see
+Interactive Computations Facility (ICF) Resource Page for WC/PDB Offset Computations
+EXCEPTION: The recognized reverse offset plans in Florida, New Jersey, and Washington State
+continue through the month before age 62 attainment. SSA offset is effective at age
+62. See DI 52105.001- Reverse Offset Plans.

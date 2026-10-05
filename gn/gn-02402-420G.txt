@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.420 - Coding Fiji Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402420 (fetched 2026-10-04)
+
+G. Example of coding Fiji Islands direct deposit
+The customer provides us with a signup form for Fiji Islands containing the account
+number: "123456789011".
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+Code the RTN of 720000047
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+Start with the country code of “J” designated for Fiji Islands; and
+•
+Code up to 12 digit Customer Account Number “123456789011”
+3. Obtain the following information
+•
+RTN: 720000047
+•
+Checking
+•
+DAN: J123456789011
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000047 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: J123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN: 720000047
+•
+DAN: CJ123456789011

@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02410.305 - Federal Payment Levy Program (FPLP)
+Effective Dates: 04/22/2020 - Present | TN 68 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410305 (fetched 2026-10-04)
+
+D. Process – SSA's Role in the FPLP Process
+1. SSA computes and certifies payments without regard to tax levy
+SSA computes and certifies its Title II payments to Treasury as usual. We do not check
+for delinquent tax debts owed to IRS, and we do not calculate the amount of the levy.
+After SSA computes and certifies its Title II payments, Fiscal Service runs its matching
+process to identify the existence of a delinquent tax debt owed by a beneficiary and
+notifies IRS if a match occurs.
+2. SSA sends payment files to Fiscal Service
+SSA sends payment files to Fiscal Service routinely each month. These files contain
+data about the beneficiary and the payment that Fiscal Service uses in its automated
+processes to conduct tax levy through FPLP. This data includes, but is not limited
+to the:
+•
+monthly benefit payment;
+•
+beneficiary's own account number (BOAN);
+•
+claim account number (CAN); and
+•
+bypass code for payments excluded from levy, if applicable.
+3. SSA automatically includes bypass code on payment files
+SSA's systems automatically identify payments that qualify for the tax levy and exclude
+the payments listed in GN 02410.305C. The system places a bypass code on the beneficiary’s payment record when:
+•
+the beneficiary is receiving Title XVI payments;
+•
+the beneficiary is receiving Title II disability payments with a PIC A-H;
+•
+the beneficiary is undergoing partial withholding to recover a debt owed to SSA, or
+the beneficiary’s payment is being levied through the paper levy process; or
+•
+the beneficiary is receiving Title II payments with a PIC C, G, J, or K.
+The beneficiary’s payment record is an SSA systems-generated record sent automatically
+to Fiscal Service; it is not the Master Beneficiary Record (MBR). The bypass code
+tells Fiscal Service not to levy a Social Security payment.
+NOTE: No manual action is required to input a bypass code on the beneficiary’s payment
+record in order to exclude an SSA payment from levy under FPLP. SSA’s systems recognize
+the exclusions in GN 02410.305C and automatically add the code to (and remove the code from) the beneficiary’s payment
+record.

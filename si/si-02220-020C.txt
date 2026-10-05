@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - SI 02220.020 - Cross Program Recovery (CPR) of SSI Overpayments from Monthly Title II Benefits
+Effective Dates: 01/17/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220020 (fetched 2026-10-04)
+
+C. Process – manual CPR for non-recoop SSI debts
+1. Overview
+Since the automated system that performs mandatory CPR selects qualified SSI debts
+only under control of RECOOP, non-RECOOP debts must be manually coded on the SSR for
+CPR; i.e., the FO must add a RECOVER FROM Title II BENEFITS (K TAC) decision via the
+Overpayment Decisions (UOPD) screen in MSSICS, see MS
+00304.008.
+As with automated CPR, once the K TAC has posted to the SSR, the system generates
+the ROAR notice that informs the debtor about the reduction of Title II benefit as
+payment toward the SSI debt. Do not use the Manual Adjustment Credit and Award
+Data Entry (MACADE) system to process cross program recovery actions of any kind.
+You do not need to tell the debtor in advance and you do not need to obtain the debtor's
+approval for CPR. The notice produced by the ROAR system will serve as SSA's official
+notification (see the exhibit for an example of the notice).
+IMPORTANT: Until the automated CPR system is changed to select RECOOP cases with regular monthly
+installments, instructions in SI 02220.020C., Manual CPR for Non-RECOOP SSI debts, will also apply to RECOOP cases with regular
+monthly installment payments.
+NOTE: See SI 02220.025B.2.a. for identifying RECOOP cases, or look at the ARC in the MPMT data on the SSR to see
+if anything on the account is in RECOOP (ARC of 1, 2, 3, or 4). You can also look
+at the sequence level ARC in the second field of the OPSQ data, which tells when a
+sequence is in RECOOP jurisdiction.
+2. Instructions for setting up manual CPR
+a.
+Determine if the former SSI recipient meets all of the criteria for mandatory CPR.
+(See SI 02220.020A.2. for the criteria. Note that in these non-RECOOP cases, the criteria in SI 02220.020A.2.c. and SI 02220.020A.2.d. do not apply.) If the person meets all of the criteria, go to SI 02220.020C.2.b.
+b.
+Determine if the former SSI recipient's initial overpayment notice for the debt in
+question has been sent and that the 60-day due process period has expired without
+protest. If not, do not continue with CPR until it has and there is no pending protest
+activity. If the due process period has expired, and there is no pending protest activity,
+go to SI 02220.020C.2.c. and SI 02220.020C.2.d.
+c.
+Do not ask the former recipient to sign form SSA-730-U2, Request to Have Supplemental
+Security Income Overpayment Withheld From My Social Security Benefits. It is no longer
+necessary to get the person's permission to establish CPR of Title XVI debts from
+Title II benefits.
+d.
+Code the K TAC per instructions in SM 01311.255C. and MS
+00304.008.
+IMPORTANT: Post the RECOVER FROM Title II BENEFITS (K TAC) decision on the last day of the
+Title
+II COM via the Overpayment Decisions (UOPD) screen in MSSICS (for example, if January 24
+is the last day of the January COM). The K TAC posting causes the interface with the
+ROAR that, in turn, causes the ROAR notice to be generated and mailed to the debtor.
+The system will generate and date the ROAR notice telling the SSI debtor about CPR
+about 7 days after the January 24 posting of the K TAC; i.e., January 31. If the individual
+does not respond to the notice and the K TAC is not removed, the system will initiate
+CPR from the next Title II benefit payable for the February COM, due on March 3 (or
+on the appropriate cycled payment date). If you can't input the K TAC on the last day of the
+Title
+II COM, you must wait until the last day of the next
+Title
+II COM to input the K TAC.
+NOTE: Use the following Intranet site for Title II COM information Monthly System Calendar. Under Information, select PE Memo-Treasury, then select Current Report. Page down
+to the chart with PE Scheduling Event/Current Operating Month heading. Check the event
+list for “Last Day of COM.”
+e.
+Set up the CPR withholding amount in the dollar amount equal to 10 percent of the
+Title II monthly benefit payable, unless conditions in SI 02220.020C.2.f. or SI 02220.020C.3. exist. It must be a whole dollar amount.
+EXAMPLE: The SSI debt balance is $500. The Title II monthly benefit payable is $835. Ten
+percent of $835 is $83.50. Round up to $84 for the withholding amount.
+f.
+If the balance of the SSI debt is less than 10 percent of the Title II monthly benefit
+payable, calculate the CPR withholding amount by dividing the debt in half. Use the
+quotient as the withholding amount. It must be a whole dollar amount.
+EXAMPLE: The SSI debt balance is $51. The Title II monthly benefit payable is $750. Ten percent
+of the $750 is $75. Establish CPR withholding of $26. This satisfies the minimum 2
+withholding transactions for CPR as required by the system. The system will withhold
+$26 the first month and automatically adjust the 2nd month's withholding amount to $25. A total of $51 will be withheld.
+IMPORTANT: Due to systems limitations, set up CPR in a whole dollar amount of withholding that
+will result in a Title II monthly benefit amount of no less than $1.00.
+3. Willful misrepresentation or concealment of material information involved
+When a debt involves willful misrepresentation or concealment of material information
+by the debtor or the debtor’s spouse, SSA may withhold 100% of the monthly Title II
+benefit payable. However, due to systems limitations, SSI debts resulting from willful
+misrepresentation or concealment of material information by the debtor (or spouse)
+must be manually coded on the SSR for mandatory CPR. Determine that willful misrepresentation
+or concealment of material information exists when:
+•
+The Office of the Inspector General or the Department of Justice makes a determination
+that the debtor (or his/her spouse) committed fraud which caused the SSI debt; or
+•
+SSA determines that the debtor (or spouse) committed similar fault which caused the
+SSI debt (See SI 04070.020 for policy and procedures regarding similar fault).
+If the debtor (or spouse) engaged in willful misrepresentation or concealed material
+information that led to the overpayment, set up CPR in a whole dollar amount of withholding that will result in a Title
+II monthly benefit payment of no less than $1.00.
+Follow the instructions in SI 02220.020C.2.a. through SI 02220.020C.2.d. for setting up the mandatory CPR.
+When the balance of the SSI debt that resulted from willful misrepresentation or concealment
+of material information is less than the full Title II monthly benefit payable, CPR
+must be set up for the required minimum 2 withholding transactions. Also, due to systems
+limitations, set up CPR in a whole dollar amount of withholding that will result in
+a Title II monthly benefit amount of no less than $1.00.

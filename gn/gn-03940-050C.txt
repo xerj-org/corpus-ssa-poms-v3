@@ -1,0 +1,138 @@
+SSA Program Operations Manual System (POMS) - GN 03940.050 - Title XVI - Field Office Processing of Fee Agreements on Favorably Decided Concurrent Title II and Title XVI Claims
+Effective Dates: 11/29/2024 - Present | TN 50 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940050 (fetched 2026-10-04)
+
+C. Manual Processing When Representative or Entity Is Eligible for Direct Payment
+1. General
+In most concurrent Title II and Title XVI cases, the computations and notices for
+initial claims involving a fee agreement and direct payment of the authorized fee
+are fully automated.
+The fee calculation and direct payment of an approved fee are not fully automated
+in the following situations:
+•
+There is a prior overpayment (i.e., overpayment for a period outside the award period)
+that is greater than 75 percent of past-due benefits. (See GN 03940.050C.2)
+•
+Interim assistance reimbursement (IAR) cases with an overpayment for a prior period
+of eligibility where the sum of the IAR payment and the overpayment is greater than
+75 percent of past-due benefits. (See GN 03940.050C.2)
+•
+The claimant has multiple representatives, unless all representatives have assigned
+direct payment of their fee to the same entity. (See GN 03920.050D.2);
+•
+An eligible spouse's past-due benefits are included in authorizing the claimant's
+representative's fee. (See GN 03940.052); or
+•
+Start dated records (regardless if the start date month is earlier or later than the
+beginning of the past-due period subject to fees), force pay records, force due records,
+and post eligibility cases (i.e., disability cessation appeals).
+After determining the Title XVI portion of the fee to authorize based on the Title
+XVI past-due benefits, in conjunction with the Title II fee, follow the procedures
+in GN
+03940.050.C.2 or 3 to make direct fee payment in the above situations.
+NOTE: Concurrent cases which involve representative fees from Title II auxiliaries may
+now be automated. However, technicians must ensure that the correct total representative
+fee from the Title II past due benefits has posted to the SSR before automating.
+2. Prior Overpayment
+Refer to identified section of SM 01901.950C.4 for procedures in these situations:
+CASE SITUATION
+REFERENCE
+Prior overpayment, IAR involved
+SM 01901.950C.4.b
+Prior overpayment, No IAR involved
+SM 01901.950C.4.e
+In addition, if the claim also involves another exception to automated process listed
+in GN 03940.050C.1, refer to the procedures in GN 03940.050C.3.
+3. Manual Processing Steps
+Follow either of the next two subsections, when it is necessary to manually calculate
+the Title XVI fee amount, and the representative, or entity if there is a valid assignment,
+is eligible for direct fee payment. If the Title II fee is equal to or greater than
+the applicable specified dollar amount of the fee cap as indicated in GN 03940.003B.3 (or the maximum fee based on the fee agreement), go to GN 03940.050C.3.a. If the Title II fee is less than the specified dollar amount of the fee cap (or maximum
+fee based on the fee agreement), go to GN 03940.050C.3.b.
+a. Title II Fee Equal to the Maximum Specified Dollar Amount of the Fee Cap (or Maximum
+Fee Based on the Fee Agreement)
+NOTE: "Title II fee equal to the maximum specified dollar amount of the fee cap (or the
+maximum fee under the fee agreement)" refers to the total fee amount approved based
+on the Title II wage earner's and any auxiliary's past-due benefits.
+STEP
+ACTION
+NOTES
+1
+Because the Title II fee is the maximum allowed under the fee agreement, the Title
+XVI fee is 0.
+2
+If the Title II fee has been posted to the SSR, post the automated fee information
+to the SSR via UFEE using a Fee Status of 1 or 2 (fee agreement approved by FO or
+HO or OAO decision maker), and an Involved Claim Type of 1 (Concurrent).
+NOTE: The system will determine that no additional fee is due and process the remainder
+of the actions necessary, including issuing an automated notice.
+3
+If the Title II fee has not been posted to the SSR, post the manual fee information
+to the SSR via UFEE using a Fee Status of 8 (manually computed fee agreement) and
+Involved Claim Type of 1 (Concurrent), and the approved Manual Fee Agreement Amount.
+Issue a manual notice to explain that we cannot approve a Title XVI fee in addition
+to the approved maximum Title II fee that has been paid.
+b. Title II Fee Is Less Than the Maximum Specified Dollar Amount of the Fee Cap (or Maximum
+Fee Based on the Fee Agreement)
+STEP
+ACTION
+NOTES
+1
+Determine the SSI retroactive benefits amount.
+2
+Calculate the Title XVI past-due benefits for fee purposes and the Title XVI fee.
+In calculating the Title XVI fee, consider the Title II fee amount (i.e., the combined
+Title XVI and Title II fee cannot be greater than the current statutory fee cap (see
+GN 03940.003B.3)).
+See GN 03920.031.
+See GN 03940.050B.
+3
+Determine the amount available to pay by OTP to the representative as follows:
+SSI retroactive benefit amount (from Step 1)
+–
+IAR amount, if any
+Difference (amount available to pay by OTP to the representative)
+4
+Determine the amount to pay by OTP to the representative and the assessment, if any,
+as follows:
+Compare the Title XVI fee (Step 2) with the amount available (Step 3).
+–
+If Title XVI fee is greater than the amount available, use the amount available (Step
+3) to calculate any assessment and the amount to pay the representative or entity
+by OTP (amount available minus the user fee).
+–
+If Title XVI fee is equal to or less than the amount available, use the Title XVI
+fee amount (Step 2) to calculate any assessment and the amount to pay the representative
+by OTP (fee – assessment).
+See GN 03920.016D for a list of factors that impact the amount we will directly pay.
+See GN 03920.019 Assessment on Representatives Who Receive Direct Payment
+See GN 03920.025 if the claimant deposited money in an escrow account.
+5
+Determine the amount to pay by OTP to the claimant as follows:
+SSI past-due benefit amount (from Step 1)
+–
+Minus the IAR amount, if any
+–
+Minus the amount used to collect any user fee and pay the representative or entity
+by OTP (Step 4)
+–
+Minus
+prior
+collectible overpayment, if any
+Difference (amount to pay by OTP to the claimant)
+Consider installment/dedicated account provisions. See SI 02101.020 and SI 02101.010.
+See GN 03920.033 Representative’s Fee – Title XVI Past-Due Benefit Payable
+6
+Issue the OTP for any IAR
+7
+The following day, post the manual fee information to the SSR via UFEE using a FEE
+STATUS = 8 and the total of the Title XVI fee (Step 2) and the Title II fee. The SSR
+will display FST = M and FMA = the total of the Title XVI and Title II fees.
+8
+On the UPOF screen, issue the OTP to the representative or entity in the amount found
+in Step 4 and post user fee, if any.
+9
+Issue a manual fee notice
+See GN 03940.008, GN 03940.055 and GN 03940.070.
+Refer to SM 01901.950 One Time Payment (OTP) Processing for Direct Payment for Manual
+Fee Agreements and Fee Petitions for of Appointed Representatives.

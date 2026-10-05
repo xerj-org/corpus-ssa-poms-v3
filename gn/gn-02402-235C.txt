@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02402.235 - Intercepting Incorrect International Direct Deposit (IDD) Payments
+Effective Dates: 02/03/2016 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402235 (fetched 2026-10-04)
+
+C. Procedure for intercepted payments
+1. Bank Match rejects
+When you discover that a payment has been intercepted (or when you have requested
+an Intercept), make every effort to correct the direct deposit data. This is especially
+important when someone reports nonreceipt and you find that the payment has been returned.
+Examine the data to see what is needed. A Canadian payment may be lacking the institution
+number, for example. One digit may have been left out of a Polish account number,
+making it the incorrect length. The beneficiary may need to give you the full, correct
+data. The location of IDD coding instructions for each country is on a chart in GN 02402.220D.
+If the payment has not yet been returned for a nonreceipt case, you may be able to
+obtain the correct data when the beneficiary reports the problem. Then when the payment
+is returned, it will be sent correctly to the account.
+2. Payment Intercepted by request
+Follow the instructions in GN 02402.235B.
+Remove the intercept information from the record on ITS.gov as soon as there are no further
+incorrect payments to intercept. Otherwise, the beneficiary will continue not to be
+paid and will go into suspense for incorrect address when the payments are returned
+to SSA.
+3. Erroneous Death correction
+If you find death erroneously applied to the record, take the following actions:
+•
+go to enrollment status on ITS.gov;
+•
+remove the stop payment code and event date;
+•
+notify FRBKC to stop any IDD reclamation action on the case;
+•
+make all inputs to correct the erroneous death information on SSA's systems.

@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 81010.045 - Data Repropagation in Electronic Disability Collect System (EDCS)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010045 (fetched 2026-10-04)
+
+A. Overview
+Repropagation of data in EDCS:
+•
+Is a process similar to that of initial data propagation from SSA's mainframe systems.
+•
+Causes the system to check for data on the mainframe systems for the selected EDCS
+case.
+•
+Occurs automatically when the jurisdiction of the case is transferred, or you can
+choose to “REPROP” from the Case Disability Selection page in EDCS without transferring.
+•
+Is not apparent to the user if no changes have been made to the mainframe since original
+data propagation.
+•
+Updates some fields in EDCS, but does NOT replace EDCS entries if allegations of conditions
+and/or date last insured are changed in the mainframe.

@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02607.670 - Obtaining Missing Information on Reporters and Facilities
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607670 (fetched 2026-10-04)
+
+A. Procedure - obtaining information on reporters and facilities
+1. FO development actions for missing Facility Identification Codes (FIDs)
+Do not use these instructions to obtain missing FID codes for Federal Bureau of Prison cases.
+See GN 02607.790D. for processing 3BOP cases.
+A FID code is always required on the PUPS record in order to pay an incentive payment.
+2. Locating missing FID codes on PUPS Records/Alerts
+Take the following actions to determine the missing FID code on a PUPS record/alert
+(See GN 02607.530F for identifying blank FID codes):
+a.
+Identify the reporter that sent the inmate information to SSA. See MSOM PRISON 002.016
+to identify the reporter that sent in the inmate data based on the 4-digit Reporter
+Identification Code (RID) code annotated to the PUPS record. (A PUPS alert contains
+the actual name of the reporter in the REPORTER NAME field of the PUPS alert.)
+b.
+Once you identify the name of the reporter, contact the beneficiary to find out where
+they were last confined.
+c.
+If the beneficiary does not respond or cannot provide you with the information, contact
+the reporter to determine the name of the facility where the beneficiary was last
+confined. See MSOM PRISON 002.009 to obtain the contact information from the QARR
+screen in IRCS.
+d.
+If the reporter cannot provide the name of the facility, contact one of the other
+third party sources listed in GN 02607.680 to secure the name of the facility where the beneficiary was last confined.
+e.
+After exhausting all possible sources of contact to obtain the FID code for the inmate
+and you still cannot determine the missing FID, contact your Field Operations Prisoner
+Coordinator (FOPC) to assist in finding the missing FID code. The FOPC will provide
+you with the missing 6-digit code.
+f.
+Update the PUPS record with the correct 6-digit FID code and any other missing information
+that you obtained during your development. See MSOM PRISON 002.016 for determining
+the 6-digit FID code.
+3. PC/OCO-ODO development for missing or questionable Facility Identification Code (FID)
+on PUPS Alert/Record
+The PC/OCO-ODO will contact the FO to develop and resolve cases in which the facility
+identification code on the PUPS alert/record is missing or questionable. The PC/OCO-ODO
+will contact the FO that services the beneficiary's mailing address on the MBR to
+resolve the discrepancy.
+The FO will work any case that the PC/OCO-ODO forwards to the FO for development action
+to completion.

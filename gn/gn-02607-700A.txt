@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - GN 02607.700 - Suspending Title II Benefits To Prisoners, NGRIs, Incompetent to Stand Trial or Sexually Dangerous Persons By Using PUPS
+Effective Dates: 04/14/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607700 (fetched 2026-10-04)
+
+A. Procedure - completion of PUPS alert processing
+1. Processing of Suspension Actions
+After verifying the identity of the inmate, and determining that suspension of benefits is appropriate, the SSA employee should follow
+the chart below:
+STEPS
+ACTIONS
+1
+Determine the source of the inmate report.
+2
+Send advance notice to the beneficiary/representative payee, if appropriate. See GN 02607.970A. for the advance notice to send to the beneficiary based on the source of the inmate
+report. Mail advance notification to the beneficiary at the address of record on the
+MBR.
+NOTE: Do not change the mailing address of the beneficiary unless the beneficiary personally requests
+it.
+3
+Suspend benefits using PUPS. See GN 02607.700A.2. for PUPS automated processing exclusions.
+Suspend the benefits based on the source of the inmate report using PUPS (if no PUPS
+automated processing exclusions exist) per GN 02607.700B. and the instructions in GN 02607.700C.
+Select the Correct PUPS record to suspend benefits on per GN 02607.710.
+4
+Check the Reporter Identification Code (RID) and the Facility ID Code (FID Code) to
+make sure they are correct. Change the RID and FID codes, if necessary, to reflect
+the correctional or mental health institution that provided the conviction or commitment
+information to SSA. If the information came from a source that does not have a reporting
+agreement with SSA; e.g. a court system, social worker, newspaper report, non-correctional
+institution source, etc., code the RID code as "OTHR." See GN 02607.460 for instructions on accessing the IRCS screens to obtain RID and FID codes for reviewing
+PUPS alerts and changing the RID/FID codes.
+5
+If the conviction date is earlier than the date of confinement on the PUPS record, change the date of conviction to
+equal the date of confinement on the PUPS record. Annotate the correct date of conviction
+in the Remarks section on the PMRK screen for the PUPS record.
+NOTE: This step is necessary in order to pay the correct amount of incentive payment to
+the facility. PUPS calculates the title II incentive payment amount based on the conviction
+date and the SSA receipt date, not the confinement date and SSA receipt date as it
+does for title XVI PUPS records.
+6
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that would cause SSA to suspend the title II benefit.
+If the receipt date was annotated from the beneficiary's previous arrest (without
+a conviction), update the receipt date to equal the date that SSA learned of the conviction
+and confinement.
+7
+If there are multiple PUPS records for the same individual, assure that all other
+pending PUPS records are closed. See GN 02607.710A.2. for clearing other PUPS pending records.
+8
+Check to see if the beneficiary has possible title XVI entitlement and, if found,
+process per GN 02607.705
+9
+Determine if a manual incentive payment will be necessary to pay the institution for
+the inmate report. See GN 02607.820 for manual incentive payment information.
+2. PUPS Automated Processing Exclusions
+a. List of PUPS Automated Processing Exclusions
+Do not use PUPS to do a suspension if:
+•
+the suspension is for an earlier month and date of confinement than is currently posted
+to PUPS and the MBR and an incentive payment has been paid on this PUPS record; or
+•
+the suspension month is incorrect and must be changed to a later month/date of confinement
+than is currently posted to PUPS and the MBR.
+EXAMPLE: The beneficiary was convicted and confined on 3/15/00 and will be in jail for at
+least 10 years. The beneficiary was previously terminated on 12/99 (LAF T8). The suspension
+action to terminate the benefits T8 was not done until COM of 04/00. A new period
+of disability was established for the beneficiary and reentitlement to benefits began
+on 06/00. We are now processing the suspension action for S7 in COM 08/00.
+PUPS/SALT cannot properly process this type of suspension because the effective date
+falls within a period of non-entitlement, i.e., 12/99 - 05/00.
+b. Suspending Benefits When a PUPS Automated Processing Exclusion Exists
+See GN 02607.740 for instructions for suspending benefits when a PUPS Automated Processing Exclusion
+Exists.

@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.370 - Coding Bolivia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402370 (fetched 2026-10-04)
+
+G. Example of coding Bolivian direct deposit
+The customer provides us with a signup form for Bolivia containing the account number:
+"1234567890123456."
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 700000012
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “O” designated for Bolivia; and
+•
+Code the 16-digit account number “1234567890123456.”
+3. Obtain the following information
+•
+RTN: 700000012
+•
+Checking
+•
+DAN: O1234567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000012
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: O1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700000012
+•
+DAN- CO1234567890123456

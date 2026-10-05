@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02602.400 - Processing Reports of Divorce
+Effective Dates: 01/07/2014 - Present | TN 81 (08-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602400 (fetched 2026-10-04)
+
+C. Processing center (PC) instructions
+When the PC receives a report of divorce, the PC technician takes the following actions.
+1. Terminate a spouse due to divorce
+If a spouse is entitled on the record, who is younger than age 62 in the month of divorce:
+•
+Complete the BMAR screen to update the marital status per MS COMMON 005.007; and
+•
+Fax the divorce decree (if applicable) into NDRed. For more information on when proof
+of a marriage termination is required, see GN 00305.140.
+If the spouse is age 62 or older in the month of divorce, see RS 00202.005.
+If the Manual Adjustment Credit and Award Data Entry System (MACADE) requires a manual
+action to terminate the spouse:
+•
+Complete the BMAR screen to update the marital status per MS COMMON 005.007;
+•
+Fax the divorce decree (if applicable) into NDRed. For more information on when proof
+of a marriage termination is required, see GN 00305.140;
+•
+Readjust the rates of all remaining auxiliaries;
+•
+Post overpayments;
+•
+Annotate Debt Management System (DMS) remarks to document your actions; and
+•
+Send the necessary termination notice and include information regarding an overpayment,
+if applicable.
+2. Terminate a stepchild due to divorce
+If a stepchild is entitled on the record, who the NH did not legally adopt, complete
+the CREL screen to update the child end date of the relationship and reason per MS
+COMMON 005.012.
+If MACADE requires a manual action to terminate a stepchild:
+•
+Complete the CREL screen to update the child end date of the relationship and reason
+per MS COMMON 005.012;
+•
+Readjust the rates of remaining auxiliaries;
+•
+Post overpayments;
+•
+Annotate Debt Management System (DMS) remarks to document your actions; and
+•
+Send the necessary termination notice and include information regarding overpayment,
+if applicable.
+NOTE: Code the BMAR and CREL screens separately because they are independent of each other.
+For more information on the BMAR screen, see SM 03020.040.
+For more information on the CREL screen, see SM 03020.070.
+3. Allegation of adoptive relationship between the NH and stepchild
+If there is an allegation that the NH legally adopted a child who is entitled on the
+record as a stepchild:
+•
+Send a PCACS request for assistance to the FO for further development of the adoptive
+relationship;
+•
+Place the stepchild in S9 miscellaneous suspension pending development of adoptive
+relationship;
+•
+Send necessary suspension notice; and
+•
+Document your action via special message with the reason for S9 miscellaneous suspension.
+For more information regarding modes of requesting assistance, see GN 01070.228 and GN 01070.420

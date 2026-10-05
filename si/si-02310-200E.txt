@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - SI 02310.200 - Payroll Data Provider (PDP) Wages Received through the Payroll Information Exchange (PIE) - EE Diary
+Effective Dates: 03/26/2025 - Present | TN 71 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310200 (fetched 2026-10-04)
+
+E. Example of how to develop, document, and clear an EE diary when other wage diaries
+are present
+In August 2024, the technician initiates an LI for an EE diary. The SSI record also
+shows an S2 diary and a K6 diary. The technician develops the wages covered by the
+K6, S2, and the EE to close the LI as follows:
+Facts:
+•
+On the PDP Pending Wage page, the technician notes the EE diary was due to Incorporated,
+Inc, attempting to post wages for July 2024 in August 2024.
+•
+The only Wages page in the SSI Claims system shows alleged wages in November 2023
+for “Incorporated” with a continuing estimate but no EIN.
+•
+The DEQY and OCSS queries reveal undeveloped wages from a temporary staffing service
+back to the 4th quarter of 2023 with higher wage amounts than the Wages page indicates.
+•
+The NDNH query shows a hire date for two employers during this period—the temporary
+staffing service on 11/10/2023 and Incorporated, Inc on 7/10/2024.
+Development:
+The technician contacts the claimant to develop the wages. The claimant states that
+they went to work in November 2023 at Incorporated, Inc and reported it to SSA when
+it happened. Through this conversation, the technician determines the claimant was
+hired and paid through a Temporary Staffing service between 11/2023 and 7/2024. Even
+though the assigned worksite was Incorporated, the temporary staffing company was
+the claimant’s employer up until the second week of July 2024. The EE diary was created
+when the claimant was hired on permanently by Incorporated, Inc, an employer participating
+with a PDP, and the PDP transmitted earnings for July 2024 to SSA for the first time
+during the August 2024 run.
+The technician takes the opportunity to discuss the PDP exchange and reporting requirements,
+and ascertains that the claimant doesn’t have deductions or exclusions, like IRWEs
+or cafeteria plans, that would apply to the gross wages.
+The technician obtains pay stubs for the temporary service and posts verified earnings
+from November 2023 to the final pay stub in July 2024 on the existing wages page using
+the SSI Monthly Wage Verification system, correcting the employer information to show
+the temp service as the employer. These actions are sufficient to clear the K6 and
+S2 diary. To clear the EE diary, the technician selects the ‘Add” option to create
+a new Wages page from the PDP Pending Wage page for Incorporated, Inc and closes out
+the pending page.

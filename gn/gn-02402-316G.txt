@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.316 - Coding Belgium Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402316 (fetched 2026-10-04)
+
+G. Example coding Belgium IDD
+The customer provides us with a signup form for Belgium containing the following information:
+BE68539007547034
+•
+The first 2 characters of the IBAN are “BE”, which represents the International Organizational
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next three characters represent the bank code.
+•
+The last nine characters of the IBAN represent the account number.
+1. Derive the RTN as follows
+The technician enters the information for the RTN.
+•
+Code the prefix of “71” (SSA designated prefix for IDD).
+•
+Code the three filler zeros “000”
+•
+Code the three-digit bank code “539”;
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN as follows
+The technician codes the DAN.
+•
+Code the letter “B” designated for Belgium
+•
+Code the nine-digit account number “007547034”
+3. Obtain the following information
+•
+RTN: 710005398
+•
+Checking
+•
+DAN: B0075470-34
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710005398 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: B0075470-34
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 710005398
+•
+DAN- CB007547034

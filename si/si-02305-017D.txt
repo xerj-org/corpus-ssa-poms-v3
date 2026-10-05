@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 02305.017 - Release and Scheduling of RZ, LI, and Manual Deeming Case Workloads
+Effective Dates: 11/21/2023 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305017 (fetched 2026-10-04)
+
+D. Policy - Release Schedule for LIs without Priority Diaries
+1. Net Earnings from Self-employment
+Net earnings from self-employment (NESE) cases are released in April when the prior
+year's NESE tax records are available. See How to Verify Net Earnings from Self Employment
+(NESE), (SI 00820.220) through How to Estimate NESE for Current Taxable Year, (SI 00820.230) for processing instructions. These LIs are identified in the CRZD segment of a SSID
+by the selection indicator of C. There is no diary to identify these cases.
+NOTE: If a record containing NESE is selected for a higher priority RZ that cannot be delayed
+(profiles K or W) and cleared earlier in the fiscal year, it will be reselected in
+April as an LI for development of the NESE issue.
+2. Continuing Type F Income
+SSI recipient cases with continuing type F (TANF/Title IVE Foster Care) unearned income
+are released each month for LI development to terminate TANF on the record for the
+recipient. Processing instructions for different types of F income are located in
+Income Based on Need (IBON), (SI 00830.170); Aid to Families with Dependent Children (AFDC), (SI 00830.400) through Adoption Assistance, (SI 00830.415); Refugee Cash Assistance, Cuban and Haitian Entrant Cash Assistance and Federally
+Reimbursed General Assistance payments to Refugees, (SI 00830.645); Bureau of Indian Affairs General Assistance, (SI 00830.800) and Bureau of Indian Affairs Adult Custodial Care and Child Welfare Assistance Payments,
+(SI 00830.810).
+These cases are identified in the CRZD segment of an SSID by the selection indicator
+of F. There is no diary to identify these cases.
+IMPORTANT: To prevent multiple selections of the same case for development of continuing type
+F income, refer to LIs with Continuing Type F Income, (SI 02305.024), for input requirements.
+3. Payment Continuation Cases (Goldberg/Kelly)
+NOTE: Many N07/N08 cases previously paid manually via the GK process are controlled via
+the Statutory Benefit Continuation software and are in PS C01. These cases get the
+cost of living adjustment (COLA) increase without FO intervention and are eligible
+to be selected for RZs in the October big merge. LIs for cases being paid under manual
+GK procedures pending an appeal decision are released for development in November,
+December, and January of each fiscal year. Development includes determining:
+•
+If an appeal decision has been rendered on all issues and
+•
+Whether Goldberg Kelly payment continuation still applies.
+Benefit amounts must be recomputed and corrected based on an appeal decision, COLA
+and, if applicable other changes not under appeal per How to Correct the PPL During
+Appeal (Including COLA), (SI 02301.325), SSI Computations Title II/Title XVI COLA Coordination, (SI 02005.010), and Providing Due Process Notification for Title XVI Only Cases, (DI 28080.025). Payment continuation cases are identified in the CRZD segment of an SSID by the
+selection indicator of G. There is a K1 diary on the SSR to identify these cases.
+Apply the COLA, if applicable, and clear the LI by RZ field input.

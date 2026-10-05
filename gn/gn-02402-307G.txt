@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02402.307 - Coding Spanish Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402307 (fetched 2026-10-04)
+
+G. Example of coding Spanish direct deposit
+The customer provides us with a signup form for Spain containing the following information:
+ES9121000418450200051332
+•
+The first 2 characters of the Spain IBAN are “ES”, which represents the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO country code or check digit to the MBR.
+•
+The next four characters represent the bank code.
+•
+The next four characters represent the branch code (Sucural).
+•
+The next two characters represent the control code (Digitos de Control).
+•
+The last ten characters represent the 10-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of “58” (SSA designated prefix for IDD).
+•
+Code the 4-digit bank code “2100”;
+•
+Code the first 2 digits of the branch code “04” (Sucural)
+•
+Code the U.S. check digit code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the last 2 digits of the branch code: “18” (Sucural)
+•
+Code the 2-digit control code (Digitos de Control): “45”
+•
+Code the 10-digit account number: “0200051332”
+3. Obtain the following information
+In
+ITS.gov: IBAN: ES9121000418450200051332 SWIFT: Full code (example: BEPOIT21020)
+•
+RTN: 582100048
+•
+Checking
+•
+DAN: 18-45-0200051332
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 582100048 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 18-45-0200051332
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 582100048
+•
+DAN- C18450200051332

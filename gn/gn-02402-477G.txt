@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02402.477 - Coding Liechtenstein Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/12/2024 - Present | TN 280 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402477 (fetched 2026-10-04)
+
+G. Example of coding Liechtenstein  direct deposit
+The customer provides us with a signup form for Liechtenstein  containing the account
+number: “LI21088100002324013AA".
+•
+The first character of IBAN is “LI,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The next 5 characters of the IBAN represents the bank code.
+•
+The last 12 digits of the IBAN represent the account number.
+1. Derive the RTN
+•
+Code RTN as 750000127
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “P” designated for Liechtenstein; and
+•
+Code the 12 digits account number “0002324013AA”
+3. Obtain the following information:
+•
+RTN: 750000127
+•
+Checking
+•
+DAN: P0002324013AA
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000127 • ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: P0002324013AA
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 750000127
+•
+DAN CP0002324013AA

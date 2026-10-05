@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02402.304 - Coding Italian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/12/2018 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402304 (fetched 2026-10-04)
+
+G. Example of coding Italian direct deposit
+The customer provides us with a signup form for Italy containing the following information:
+"IT60X0542811101000000123456."
+•
+The first 2 characters of the Italy IBAN are “IT”, which represents the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The next digit is the Control Internal Number (C.I.N.).
+•
+The technician should never code the IBAN ISO country code, check digit, or C.I.N onto the MBR.
+•
+The next five characters of the IBAN represent the bank code.
+•
+The next five digits represent the branch code.
+•
+The last 12 characters represent the customer account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of “55” (SSA designated prefix for IDD)
+•
+Code the five-digit Bank Code Number “05428”
+•
+Code the first digit of the five-digit Branch Code “1”
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the last four digits of the branch code “1101”
+•
+Code the first 12-digit account number “000000123456”
+3. Obtain the following information
+In
+ITS.gov: IBAN: IT60X0542811101000000123456 SWIFT: Full code (example: BEPOIT21020)
+•
+RTN: 550542818
+•
+Checking
+•
+DAN: 1101-000000123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 550542818 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 1101-000000123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 550542818
+•
+DAN- C1101000000123456

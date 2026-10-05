@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02402.353 - Coding Samoa Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402353 (fetched 2026-10-04)
+
+F. Procedure for coding Samoan routing and account numbers
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Samoa using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership;
+•
+account type;
+•
+up to 13-digit account number;
+•
+bank address - NOTE: Enter the bank address in this format: WS/Town/Name. Start with the ISO country code for Samoa (WS);
+•
+beneficiary address - NOTE: Enter the beneficiary's address in this format: WS/Town/Name. Start with the ISO country code for Samoa (WS);
+•
+beneficiary phone number;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator.
+NOTE: Account number field should ONLY include the account number itself without leading
+zeroes or BSB code. The minimum number of digits for account number equals 7.
+1. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR will not accept the International Direct Deposit (IDD) information.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Samoa ? If no, STOP .
+REASON: Beneficiaries in Samoa can only receive IDD payments in WST accounts.
+If yes, go to step 4.
+4
+To derive the nine-digit RTN for Samoa:
+•
+Start with 66 (the multi-country prefix SSA and FRBKC have designated to use for IDD to Samoa),
+•
+Code the three filler zeros 000,
+•
+Code the three-digit bank code based on FI name after verifying accuracy against either
+the ITS.gov help file or the listing in GN 02402.353G of bank codes for Samoa.
+•
+Code the check digit code of the RTN, which you will obtain through Title II Interactive
+Comps.
+NOTE: The final digit is the U.S. check digit Code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the account type:
+•
+S for savings, or
+•
+C for checking.
+If the beneficiary does not indicate an account type, use a C for checking account.
+6
+To code the Depositor Account Number (DAN) for Samoa , code:
+•
+O is designated for Samoa,
+•
+up to 13-digit account number. If account number is less than 13 digits, add lead
+zeros (0) to make account number 13 digits.
+NOTE: SSA does not have IDD for U.S. dollar accounts in Samoa.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.453F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

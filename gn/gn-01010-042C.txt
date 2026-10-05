@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 01010.042 - Prior uncollected annual earnings test (AET) penalties
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010042 (fetched 2026-10-04)
+
+C. AET penalty exists
+If the PENALTY data line of the MBR shows that an uncollected AET penalty exists for
+a current claimant, do not process the subsequent claim thru MCS EC and take the following
+actions:
+•
+Process the claim manually by preparing an Automated 101 (A101) or an Electronic Form
+(EF101); and,
+•
+Annotate the Benefit Continuity Remarks/Notice (BCRN) screen with the remark “UNCOLLECTED
+AET PENALTY EXISTS - INITIATE RECOVERY FROM BIC     ” to alert the processing center
+(PC).

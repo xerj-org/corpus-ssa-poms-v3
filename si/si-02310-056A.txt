@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 02310.056 - Master Earnings File (MEF) Match (J3 and J5 Diaries)
+Effective Dates: 03/06/2009 - Present | TN 68 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310056 (fetched 2026-10-04)
+
+A. Description of MEF match
+1. Comparison or comparing the amount shown on the W-2 to the reported earnings
+The match compares the annual earnings amount as reported on Form W-2 or Schedule
+SE to the amount on the SSR for the tax year. The MEF data may constitute wages, net
+earnings from self-employment, or sheltered workshop payments. When the MEF data indicate
+significant overreported wages and if the wage amount on the SSR is more than what
+is reflected on the MEF, a J3 diary is set and controlled by PE ODS. A J5 diary is
+set if the wage amount on the SSR for a deemor or essential person is more than what
+is reflected on the MEF. The discrepancy can be determined by reviewing a Detailed
+Earnings Query (DEQY) printout and comparing it to the information posted to the SSR.
+The FOs must resolve the discrepancy, update the SSR, determine past and continuing
+SSI eligibility, and release any underpayments that may be due.
+2. Frequency of MEF match
+The initial release of MEF cases coincides with the first redetermination release
+of the fiscal year. A supplemental release is usually scheduled for March and September.

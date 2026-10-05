@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - DI 13050.065 - Title II and Title XVI Expedited Reinstatement (EXR) Medical and Technical Denials
+Effective Dates: 09/04/2024 - Present | TN 31 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050065 (fetched 2026-10-04)
+
+B. Procedure for EXR medical denial
+1. How to determine an EXR medical denial
+When the DDS makes an unfavorable medical determination on an EXR request, the determination
+will appear on the Electronic Disability Collect System (EDCS) Action Items list.
+The electronic folder will contain a denial notice with a Personalized Decision Notice,
+and an SSA-832 Title XVI Cessation or Continuance of Disability Determination and Transmittal, or
+SSA-833 Title II Cessation or Continuance of Disability Determination and Transmittal. If
+the EXR is an EDCS exclusion, the DDS will send the paper folder to the FO. The determination
+will not appear on the EDCS Action Items List. Determine the basis for the medical
+determination by reviewing the following items on SSA-832 or SSA-833:
+•
+Item 10 will have block D indicated, which shows “other”.
+•
+Item 11 will show code 28 for Title II not same as or related denial, 61 for Title
+XVI not same as or related denial, or normal CDR codes for MIRS denials-see DI 28084.015.
+2. Denial notice
+The DDS prepares and sends a denial notice with a Personalized Explanation to the
+claimant and any appropriate third party. The notice informs the claimant that they
+may file a new application for disability benefits, request a reconsideration of the
+EXR decision, or file a new EXR application. For information about appropriate Medicare
+language in denial notices, see DI 13050.070.
+NOTE: The request for reinstatement can be used as protective filing for a new application
+if the claimant chooses to file a new application.
+3. Provisional benefits
+Terminate provisional benefits (if currently being paid). The last month provisional
+benefits are payable is the month the DDS mails the EXR denial notice, provided the
+benefit is not subject to earlier termination for another reason. For termination
+reasons, see DI 13050.025A.2 and DI 13050.030A.2.
+a. Provisional benefits for Title II
+If the denial is for medical improvement, (item 11 of the SSA-833 indicates a MIRS
+denial):
+•
+Input a medical cessation through POS to stop provisional payments. For termination
+instructions, see MS 06303.024 and DI 13050.025J,
+•
+Use option 10=CESSATION to clear the EXR event from the Disability Control File (DCF),
+If the denial is coded “not the same as or related impairment” (item 11 of the SSA-833
+is 28)
+•
+Do not use POS to terminate provisional benefits, as the Dib line will update to reflect
+Medical Improvement and POS will also terminate the Extended Medicare (if in effect).
+A “not the same as” denial does not result in termination of Extended Medicare; instead,
+send a request to the program center (PC) to stop the provisional payments.
+To contact the PC of jurisdiction:
+Access the Detailed Office/Organization
+Resource System (DOORS) using the search SSN function to send an email to the appropriate PC module with the
+subject line "EXR Denial."
+•
+Use option 5, SSR/MBR/STOP CDR to close the EXR event on the DCF, per DI 13010.620.
+b. Provisional benefits for Title XVI
+To terminate provisional benefits for Title XVI, do the following:
+•
+Post payment status code N07 to the SSR. For termination instructions, see SM 01701.080
+and SM 01305.001O.6 and
+•
+Clear the EXR event within the DCF as a cessation, per DI 13010.620.
+4. Medicare and Medicaid
+Refer to HI 00801.165C and DI 13050.070 for the effect an unfavorable medical decision has on Medicare entitlement and SI 01730.010 for the effect on Medicaid.
+NOTE: If the DDS medically denies an EXR request on a concurrent claimant under the MIRS,
+initiate a medical CDR for the other title, per DI 13001.005A.8

@@ -1,0 +1,399 @@
+SSA Program Operations Manual System (POMS) - GN 02201.044 - Debtor Reactions to Collection of Title II Overpayments by Federal Salary Offset (FSO)
+Effective Dates: 11/15/2023 - Present | TN 70 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201044 (fetched 2026-10-04)
+
+B. Due process request
+1. Request for explanation of overpayment
+Upon receipt of a request for an explanation of the overpayment, proceed as follows:
+a. FO/TSC action
+If the debtor first contacts the FO/TSC for an explanation, use the MBR/ROAR/PHUS
+or Title II Overpayment (QROP) (MSOM QUERIES 006.024), accessed via Inquiry Response
+or Master File Query, to provide an explanation of the overpayment. Keep explanations
+generic and, if possible, provide explanations immediately. Document the explanation
+provided on DMS Remarks screen.
+If online queries contain insufficient information or unresolvable discrepancies,
+proceed as follows:
+•
+From the DMS menu, FO use the Protest/Stop Recovery Request (FO) screen (DRPF) (See
+MSOM DMS 006.019) and select “Explanation”.
+•
+TSC use the Protest/Stop Recovery Request (TSC) screen (DRPT) (see MSOM DMS 006.020)
+and select “Explanation”.
+•
+Refer the issue to the servicing PC through an MDW.
+•
+On the MDW show “Necessary Action – TOP/ECO Case – Do not Backlog”.
+•
+Record the action taken on DMS Remarks screen.
+•
+Include the debtor's current address and daytime telephone number, if different from
+the address and telephone number shown on our records.
+•
+If asked, advise the caller that he/she should receive a response within 30 days.
+b. PC action
+If the debtor first contacts the PC for an explanation, attempt to answer the question
+by using the MBR/ROAR/PHUS or QROP (MSOM QUERIES 006.024). Keep explanations generic
+to the extent possible. If online queries contain insufficient information or unresolvable
+discrepancies, from the DMS menu, on the Protest/Stop Recovery Request (PC) screen
+(DRPR) (See MSOM DMS 006.003), input “Explanation”, unless the FO/TSC has already
+input “Explanation” as in GN 02201.041B.1.a. Provide the explanation.
+Once the debtor has received a satisfactory explanation and requests no additional
+action, such as waiver, the PC's next action depends upon the status of the debt when
+the explanation was requested.
+•
+If the debt was written off (in terminated collection status) when the debtor requested
+an explanation, terminate collection by using the Terminate Collection screen (DFTE).
+(See MSOM DMS 007.003). Terminating collection will set the debt up for TOP and FSO
+selection in the next selection cycle.
+•
+If the debt was in RECOOP and was not written off when the debtor requested an explanation,
+input an installment agreement on the Record Installment Agreement screen (DRIN) (See
+MSOM DMS 006.014). This will resume billing and allow the debt to be selected for
+FSO and TOP.
+2. Request for waiver
+A request for waiver may be a formal request or may be implied. The request may be
+in various forms:
+•
+The SSA-632-BK, Request for Waiver and Recovery Questionnaire (See GN 02250.240 and GN 02250.400). This is the preferred form for requesting waiver because it elicits all information
+needed to make the waiver determination, or
+•
+A plea for relief in a letter to a PC or from a congressman, or
+•
+Verbal request to a field office, teleservice center, or Debt Management Branch employee,
+or
+•
+The tear-off portion of the SSA-3105 (See GN 02201.009).
+•
+A request for waiver within the 60-day period of the TOP/ECO notice (or within 30
+days of the FSO notice) will prevent FSO from being started. A request for waiver
+after FSO has begun will result in stopping FSO until the waiver decision is made
+a. TSC action
+If the TSC receives the request, proceed as follows:
+•
+Send an SSA-632-BK to the debtor.
+•
+In the upper right-hand corner of the SSA-632-BK, show “TOP/ECO Case”, the date and
+your office code.
+•
+Include a courtesy return envelope addressed to the FO that services the address on
+the FSO query or the debtor's current address, if different.
+•
+Advise the caller to complete the SSA-632-BK and return it to the servicing FO.
+•
+Record the action on DMS Remarks.
+•
+The TSC should input the informal waiver request to the Protest/Stop Recovery Request
+(TSC) (DRPT) screen. (See MSOM DMS 006.020).
+b. FO action
+If the FO receives the request and no Protest/Stop Recovery Request screen has been
+input:
+•
+The FO should input the waiver request to the Protest/Stop Recovery Request (FO) screen
+(DRPF). (See MSOM DMS 006.019).
+•
+Select protest reason “informal waiver” when the debtor indicates that he wants to
+file for waiver, but no signed SSA-632-BK (or equivalent information) has been received.
+•
+Select protest reason “initial waiver” when a signed SSA-632-BK (or equivalent information
+in a statement signed by the debtor) has been received.
+See GN 02201.021 for detailed instructions for processing the waiver request in the FO.
+c. PC action
+If the PC receives the request and no Protest/Stop Recovery Request screen has been
+input:
+•
+The PC should input the waiver request to the Protest/Stop Recovery Request (PC) screen
+(DRPR). (See MSOM DMS 006.003).
+•
+See GN 02201.023 for detailed instructions for processing the waiver request in the PC.
+•
+Within five business days, take the following action depending upon the status of
+the debt when the waiver was requested: (1) If the debt was written off (in terminated
+collection status) when the debtor requested a waiver, terminate collection by using
+the Terminate Collection screen (DFTE). (See MSOM DMS 007.003). Terminating collection
+will set the debt up for TOP and FSO selection in the next selection cycle. (2) If
+the debt was in RECOOP and was not written off when the debtor requested a waiver,
+input an installment agreement on the Record Installment Agreement screen (DRIN) (See
+MSOM DMS 006.014). This will resume billing and allow the debt to be selected for
+FSO and TOP.
+3. Right to inspect and copy records related to the debt
+The debtor has the right to inspect and copy SSA’s records related to the debt.
+a. PC/TSC Action
+•
+If a debtor should contact the PC or TSC and request to inspect or copy SSA's records
+about their debt, refer the debtor to their servicing field office.
+•
+Record the action taken on DMS remarks.
+b. FO action
+•
+Ask the debtor what records he or she wants to inspect and copy.
+•
+If the debtor does not know what records he/she wants to inspect and copy, then review
+on-line queries.
+•
+If necessary, obtain the claims file.
+•
+When the claims file is located, notify the debtor and process in accordance with
+GN 03360.020 Privacy Act Administration – Copying Records.
+•
+Record the action taken on DMS Remarks
+4. Request for review
+The law and regulations governing FSO allow the debtor to request a review of the
+debt. This review by SSA is an opportunity for the debtor to present evidence showing
+that he/she does not owe the debt or they do not owe the amount stated in SSA’s 30
+day notice. This review is not the same as reconsideration of the overpayment determination,
+in that SSA's decision does not have any further appeal rights. The debtor cannot
+appeal SSA’s decision on the request for review. See GN 02201.043A.6.a for more information.
+a. FO action
+•
+Inform debtor that the request for review must be in writing on either an SSA-795
+or equivalent.
+•
+Tell debtor that he/she can submit the request and any available evidence to the FO
+or mail it directly to MAMPSC –DMS at PO BOX 15531, Kansas City MO, 64106.
+If Debtor provides signed written request and evidence at the FO:
+•
+Advise debtor that he/she will receive a decision in the mail.
+•
+Input request to DRPR screen (DMS.006.003) for review of the debt and annotate DMS
+Remarks accordingly.
+•
+Annotate MBR or SSR Special Message Field —“FSO CASE, Debtor requests review”
+•
+Complete and print FSO overpayment track sheet posted to the KC Region’s RSI and SSI sites, with all applicable information: If there is no available appeal information, track sheet
+must at least include:
+–
+debtor’s name
+–
+debtor’s SSN
+–
+overpayment rational
+–
+folder location, when not available indicate unable to locate
+•
+Print Initial Overpayment Notice and/or any other OP notices available in the Online
+Retrieval System (ORS) (see MSOM ORS 005.001)
+•
+Photocopy all documentation and prepare a coversheet indicating: “FSO-CASE”/TOEL:
+OPMT/FSO REV.
+•
+Fax all documentation to MAMPSC-DMS paperless fax at 816-936-5470 for control. (See
+note below)
+•
+Prepare a paper folder with all the documentation and mail it to:
+Social Security
+Administration
+Office
+of Appellate
+Operations
+OCALJ
+6401 Security Blvd
+Baltimore, MD
+21235-6401
+– no later than next business day.
+•
+Retain copy of documents in the office pending file for 10 days.
+•
+Within the 10 days, query PCACS or Evidence Portal for FSO action pending in Paperless.
+If an action exists then material in FO holding file can be destroyed.
+•
+If there is no pending action for review on PCACS or Evidence Portal, call the MAMPSC-DMS
+(816-936-3212) to verify that the request for review was received. If not received,
+fax the documentation again and repeat the last three steps.
+NOTE: The Debt Management Section in MAMPSC is responsible for follow up with OCALJ on
+adjudication of all FSO reviews. MAMPSC-DMS will prepare detail local instructions
+for processing these cases.
+b. TSC/PC action
+•
+Inform debtor that the request has to be in writing.
+•
+Direct debtor to his/her local field office or have him/her mail any available evidence
+and signed statement to MAMPSC-DMS at PO BOX 15531, Kansas City MO, 64106
+5. Request for lower offset amount due to hardship
+A debtor whose pay is subject to FSO may, at any time, request a review of the amount
+or percentage withheld based on financial hardship. (See GN 02250.100 for more information.)
+IMPORTANT: SSA will not reduce the amount the federal employer withholds from someone's pay
+if the debt was caused by the debtor’s intentional false statement or willful concealment
+of or failure to furnish material information. (Willful concealment means an intentional,
+knowing and purposeful delay in providing or failure to furnish material information.)
+Do not take action on a request for lower offset amount due to hardship when the debt
+was caused by the debtor’s intentional false statement or willful concealment of or
+failure to furnish material information. (See GN 02201.055.)
+Do not honor any requests to lower the offset amount when the overpayment was caused
+for the reasons above.
+The procedure for handling a debtor's request for a lower withholding amount depends
+upon whether SSA can approve the request immediately, or SSA requires financial information
+from the debtor before deciding on the request. SSA's approval can be granted immediately
+when: (1) the person agrees to a withholding amount that is at least $10 per pay and
+which would recover the entire debt within 12 months, or (2) the person agrees to
+a withholding amount of at least $10 per pay that will recover the debt within 60
+months and the person can demonstrate that a higher amount would prevent the payment
+of ordinary and necessary living expenses.
+“Ordinary and necessary living expenses” include fixed expenses such as food, clothing,
+housing, utilities, maintenance, insurance, tax payments, medical, hospitalization
+and similar expenses, expenses for the support of others for whom the debtor is legally
+responsible, and other reasonable and necessary miscellaneous expenses which are part
+of the debtor’s standard of living. See GN 02201.044B.6. for instructions on processing immediate approvals of hardship requests.
+NOTE: A request for reduction of the offset amount due to hardship does not prevent or
+stop TOP or credit bureau reporting.
+6. Immediate approval of hardship request – FO/TSC/PC action
+The process for granting an immediate approval of a hardship request is the same for
+the TSC, FO and PC. Proceed as follows when granting immediate approval:
+•
+Negotiate the highest withholding amount but not less than $10 per pay. If the debtor
+alleges not being able to pay $10 per pay, explain that $10 is the minimum amount
+SSA can accept.
+•
+If the debtor offers to repay the debt at the rate of at least $10 per pay and that
+rate would recover the debt within 12 months, enter the negotiated amount or percentage
+on the FSO Update Offset Information (TRUF) screen. (See MSOM DMS 014.016). This will
+result in an automated notice to the debtor advising them of the reduced offset amount.
+•
+If the debtor offers to repay the debt at the rate of at least $10 per pay and that
+rate would recover the debt within 60 months, advise the debtor that SSA will grant
+the lower amount if answers to the following questions indicate hardship (i.e., expenses
+exceed income and assets):
+–
+What is the amount of your income (weekly or monthly)?
+–
+How much do you pay each week or month for ordinary and necessary living expenses?
+–
+Do you have a savings account, certificate of deposit (CD) or an individual retirement
+account (IRA)? If “yes” record the type of account and the value. If “no”, indicate
+“caller alleges no assets”.
+–
+Enter the negotiated dollar amount or percentage on the FSO Update Offset Information
+(TRUF) screen. (See MSOM DMS 014.016 for more detailed information about that screen.)
+The system will send an automated notice to the employer and the debtor advising them
+of the lowered offset amount
+7. Immediate approval not possible
+a. TSC/PC action
+Refer all requests for reduction in offset amount due to hardships that cannot be
+immediately approved to the MAMPSC DMS at 888-214-3640.
+NOTE: MAMPSC-DMS does not make this hardship determination. They will refer the case to
+the OCALJ.
+b. FO action
+Forward all hardships that cannot be immediately approved to OCALJ for determination.
+Follow instructions below:
+•
+Input hardship request on the TRSF screen (MSOM DMS014.015)
+•
+Annotate MBR/SSR Special Message Field—“FSO CASE, Debtor requested hardship.
+•
+Prepare Folder for the OCALJ and a Fact Sheet (SSA-5002) which includes:
+–
+debtor’s name
+–
+debtor’s SSN
+–
+rationale
+–
+folder location or indicate unable to locate
+–
+income and resources/expense determination
+•
+Print Initial Overpayment Notice and/or any other OP notices available in the Online
+Retrieval System (ORS) (see MSOM ORS 005.001)
+•
+· Photocopy all documentation and prepare a coversheet indicating: FSO-HARDSHIP CASE.
+•
+Fax all documentation to MAMPSC-DMS paperless fax at 877-311-8738 for control. (see
+note below)
+•
+Prepare a paper folder with all the documentation and mail it to Social Security Administration,
+Office of Appellate Operations, OCALJ 6401 Security Blvd, Baltimore, MD 21235-6401
+– no later than next business day.
+•
+· Retain copy of documents in an office pending file for 10 days.
+•
+Within the 10 days, query PCACS or Evidence Portal for FSO action pending in Paperless.
+If an action exists then material in FO holding file can be destroyed.
+•
+If there is no pending action for review on PCACS or Evidence Portal, call the MAMPSC-DMS
+(888-214-3640) to verify that the hardship request was received. If not received,
+re-fax material and re-file in FO holding file for another 10 days.
+NOTE: The Debt Management Section in MAMPSC is responsible for follow ups on final adjudication
+of FSO hardship cases referred to OCALJ.
+8. Request for reconsideration
+Debtors may attempt to request reconsideration of two different aspects of SSA's use
+of Federal Salary Offset: (1) the overpayment determination (fact/amount of the debt);
+and (2) the Agency's decision to use federal salary offset to collect the delinquent
+overpayment.
+9. Reconsideration of overpayment determination
+Debtors subject to Federal Salary Offset are beyond the 60-day period for requesting
+reconsideration of the overpayment determination (fact/amount of the debt). Consequently,
+the TOP/ECO notice that informs debtors about SSA's intent to use collection tools
+such as FSO, AWG, Treasury Offset Program and credit bureau reporting does not contain
+language offering the right to request reconsideration.
+In response to the FSO notice individuals might question the overpayment determination
+and request reconsideration on debts subject to FSO. Since overpayments subject to
+FSO are delinquent and by definition beyond the 60-day period for requesting reconsideration
+of the overpayment determination, these requests must first be handled in accordance
+with policy and procedure in GN 03101.020, Good Cause for Extending the Time Limit to File an Appeal.
+Proceed as follows when the debtor requests reconsideration of the overpayment determination:
+a. TSC action
+•
+Tell the debtor that he/she had 60 days from the date of SSA's initial notice of overpayment
+to request reconsideration of the overpayment determination.
+•
+Tell the debtor that he/she must show good cause for late filing in order for SSA
+to extend the time to appeal the overpayment determination. Good cause for late filing
+can be found by SSA when, for example, the person was seriously ill and was prevented
+from contacting SSA in person, in writing, or through a friend, relative, or other
+person. See GN 03101.020, Good Cause for Extending the Time Limit to File an Appeal for more information on
+what constitutes good cause for late filing.
+•
+Advise the debtor that he/she must submit a signed statement explaining the reason
+for the delay and documentation to support the explanation.
+•
+Provide the debtor with the address of the servicing FO, and tell the person to send
+or deliver the signed statement to that office.
+•
+Record the action taken on DMS Remarks
+IMPORTANT: Do not send the caller a form SSA-561-U2 (Request for Reconsideration).
+b. FO action
+•
+Obtain a signed statement from the debtor explaining the reason for the delay and
+obtain documentation to support the explanation.
+•
+Explain to the debtor that SSA will decide whether he/she has shown good cause for
+late filing and whether to extend the time or dismiss the appeal.
+•
+Prepare a Report of Contact (RC) on the late filing evaluating the debtor’s statement.
+•
+Forward request, statement, documentation and RC to the PC for good cause determination.
+•
+Record the action on the DMS Remarks
+IMPORTANT: Do not ask the debtor to complete a form SSA-561-U2 (Request for reconsideration).
+If the person insists on filing that form, accept it and input the request on the
+Protest/Stop Recovery Request (FO) screen (DRPF). (See MSOM DMS 006.019 for more detailed
+information about this screen).
+c. PC action
+•
+Make the determination on the issue of good cause for late filing.
+•
+If good cause for late filing is found, input the request on the DRPR screen if necessary.
+See MSOM DMS 006.003 for more detailed information about this screen.
+•
+Process the reconsideration determination according to instructions in GN 02201.025C.4., Overpayment-Reconsideration. If the reconsideration decision did not wholly reverse
+the initial overpayment determination, diary the case for resumption of FSO in 30
+days.
+•
+If good cause for late filing is not found, dismiss the request for reconsideration.
+•
+If the dismissed request for reconsideration was previously input to the DRPF/DRPR
+screen, input a denial to the Fact/Amount Appeal Disposition (DRAD) screen. See MSOM
+DMS 006.011 for more detailed instructions on this screen. The system will resume
+FSO activity.
+10. Reconsideration of SSA’s decision to use FSO
+SSA's regulations at 20 CFR 404.903 (and 416.1403 for title XVI cases) include FSO in the list of administrative actions that are not
+initial determinations. Therefore, the debtor has no right to a reconsideration request
+on SSA's decision to use FSO.
+TSC/FO/PC should proceed as follows when the person requests reconsideration of SSA's decision
+to use FSO:
+•
+Tell the person that SSA's regulations state that FSO is not an initial determination
+subject to appeals, and that we cannot act on any such request.
+•
+Tell the person SSA will continue to use FSO to collect the overpayment.
+IMPORTANT: Do not solicit a form SSA-561-U2 (Request for Reconsideration) regarding SSA's decision
+to use FSO.

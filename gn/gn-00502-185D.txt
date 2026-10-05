@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 00502.185 - Documenting Payee Selections/Non-Selections and Post-Entitlement Actions in eRPS
+Effective Dates: 06/16/2017 - Present | TN 71 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502185 (fetched 2026-10-04)
+
+D. Other processing reminders
+1. Use of “Payee Development” to clear claim
+For initial title II claims, selecting “Payee Development” on the Rep Payee Selection-Decision
+screen (MS 07412.002) will allow the claim to be adjudicated, but it will put the
+beneficiary in suspense status. Use the “Payee Development” clearance option only for claims where the beneficiary is legally incompetent or is under age 15. All legally
+competent adult beneficiaries are to be paid directly pending selection of payee.
+However, pay current benefits only while developing the payee issue (see GN 00504.105B.3.).
+2. Effect of non-selection determination
+Once you input a specific non-selection for an applicant, you cannot retrieve the
+application and reverse the determination. If you want to appoint as payee an applicant
+who has had a non-selection input, you will need to input a new application to establish
+that applicant as payee for the beneficiary.

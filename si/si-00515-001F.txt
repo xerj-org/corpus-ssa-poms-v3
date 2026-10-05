@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - SI 00515.001 - Requirement for Permission to Contact Financial Institutions for Supplemental Security Income (SSI) Eligibility
+Effective Dates: 07/26/2023 - Present | TN 10 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500515001 (fetched 2026-10-04)
+
+F. Processing events when an individual fails to provide financial permission
+1. Processing an initial claim when a claimant or deemor fails to give us financial permission
+If a claimant does not give us financial permission, they cannot be eligible for SSI
+benefits and we must deny the claim. If a deemor does not give permission, and good
+cause does not apply, the claimant is not eligible for benefits and we must deny the
+claim.
+NOTE:
+The good cause policy described in SI 00515.002 and SI 00515.003 does not apply to claimants. Develop “good cause” only when we cannot obtain financial permission from a deemor.
+a. Denying a MSSICS claim with N18
+If a claimant or deemor does not give financial permission, and good cause does not
+apply, deny the claim by taking the following actions:
+•
+Document on the Financial Institutions Permission page that permission was not given
+and good cause does not apply.
+•
+Record the date we sent the financial permission denial notice. The system will derive
+payment status code N18 automatically.
+•
+Input the reason for denial in the remarks section. 18 also represents a denial for
+failure to cooperate, see SI 00601.110.
+•
+Input “FAILURE TO GIVE FINANCIAL PERMISSION – CLAIMANT - MMDDYY” or “FAILURE TO GIVE
+FINANCIAL PERMISSION – DEEMOR – NAME – NO GOOD CAUSE - MMDDYY” in the remarks section
+of the Supplemental Security Record (SSR).
+•
+Suppress the automated notice and issue a manual financial permission denial notice.
+For more information, see SI 00515.001F.1.c. in this section. For more information on notice suppression, see SM 01301.675.
+•
+Send the notice to the Online Retrieval System (ORS).
+b. Denying a non-MSSICS claim with N18
+If a claimant or deemor does not give financial permission, and good cause does not
+apply, deny the claim by taking the following actions:
+•
+Manually input payment status code N18 in the Denial Code (DS) field on form SSA-450-SI
+(SSI Data Input and Determination).
+•
+Input the reason for denial in the remarks section.
+NOTE:
+N18 also represents a denial for failure to cooperate. (For more information, see
+SI 00601.110.)
+•
+Input “FAILURE TO GIVE FINANCIAL PERMISSION – CLAIMANT - MMDDYY” or “FAILURE TO GIVE
+FINANCIAL PERMISSION – DEEMOR – NAME – NO GOOD CAUSE - MMDDYY” in the remarks section
+of the SSR.
+•
+Suppress the automated notice and issue a manual financial permission denial notice.
+For more information, see SI 00515.001F.1.c. For more information on notice suppression, see SM 01301.675.
+•
+Send the notice to the ORS.
+c. Issuing a financial permission denial notice
+When denying a claim due to an individual’s failure to provide financial permission,
+use the manual notice entitled “Refused Financial Permission – Disapproved Claim (T16).”
+This notice is located in the Initial Claims section of DPS.
+2. Processing posteligibility events when a recipient or deemor fails to give us financial
+permission
+If a recipient does not give or cancels financial permission, suspend benefits effective
+with the month after the month in which the recipient receives the suspension notice.
+If a deemor does not give or cancels financial permission, and good cause does not
+apply, suspend the recipient’s benefits effective with the month after the month that
+the recipient receives the suspension notice. For instructions on undeliverable mail,
+see SI 02301.240.
+We allow 5 days for the recipient to receive the suspension notice. For example, we
+send the financial permission suspension notice on November 28 (November 28 + 5 days
+= December 3), we would suspend benefits in January since January is the month following
+the month the recipient received the suspension notice.
+NOTE:
+The good cause policy described in SI 00515.002 Good Cause - Harassment or Abuse and SI 00515.003 Good Cause - Failure to Cooperate, does not apply to recipients. Develop “good cause”
+only when we cannot obtain financial permission from a deemor.
+a. Suspending benefits with N05 during a MSSICS redetermination
+If a recipient or deemor does not give or cancels financial permission, and good cause
+does not apply, suspend benefits prospectively by taking the following actions:
+•
+Document on the Financial Institutions Permission page that permission was not given
+and good cause does not apply.
+•
+Document on a new Financial Institutions Permission page that the recipient or deemor
+cancelled their financial permission.
+•
+Record the date we sent the financial permission suspension notice. The system will
+derive payment status code N05 automatically.
+•
+Input the reason for suspension in the remarks section.
+N05 represents two other reasons for suspension. For more information, see SI 02301.220.
+•
+Input “FAILURE TO GIVE FINANCIAL PERMISSION – RECIPIENT - MMDDYY” or “FAILURE TO GIVE
+FINANCIAL PERMISSION – DEEMOR – NAME – NO GOOD CAUSE - MMDDYY” in the remarks section
+of the SSR.
+•
+Suppress the automated notice and issue a manual financial permission suspension notice
+as described in SI 00515.001F.2.c. in this section. For more information on notice suppression, see SM 01301.675.
+•
+Send the notice to ORS.
+b. Suspending benefits with N05 during a non-MSSICS redetermination
+If a recipient or deemor does not give or cancels financial permission, and good cause
+does not apply, suspend benefits prospectively by taking the following actions:
+•
+Manually input payment status code N05.
+•
+Input the reason for suspension in the remarks section.
+NOTE:
+N05 also represents two other reasons for suspension. For the use of payment status
+N05, see SI 02301.220.
+•
+Input “FAILURE TO GIVE FINANCIAL PERMISSION – RECIPIENT - MMDDYY” or “FAILURE TO GIVE
+FINANCIAL PERMISSION – DEEMOR – NAME – NO GOOD CAUSE - MMDDYY” in the remarks section
+of the SSR.
+•
+Suppress the automated notice and issue a manual financial permission denial notice
+as described in SI 00515.001F.2.c. in this section. For more information on notice suppression, see SM 01301.675.
+•
+Send the notice to the ORS.
+c. Issuing a financial permission suspension notice
+When suspending benefits due to failure to give financial permission, issue the manual
+notice entitled “Refused Financial Permission – Suspension (T16).” This notice is
+located in the Post Entitlement section of DPS.

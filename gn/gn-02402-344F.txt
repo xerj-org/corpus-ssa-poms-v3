@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 02402.344 - Coding India Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402344 (fetched 2026-10-04)
+
+F. Examples of coding India direct deposit
+Example 1
+Three days before the cutoff, DIO receives a completed enrollment form for India for
+a Rupee Savings Account. The IFSC is A12B025CT35 (bank code is A12B0 and branch code is 25CT35), and the account number is 67890.
+The technician processes the enrollment via POS, by completing the fields as follows:
+•
+Code an RTN of 660000000
+•
+Account Type field of “S”, for savings account
+•
+Dan of “I” (for India Rupee) A12B0 (the 5-character alphanumeric bank code), 25CT35 (the 6-character alphanumeric branch code), and 67890 (the first 5 digits of the account number
+The coding in POS will reflect the following information:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000000 ACCOUNT TYPE (C/S): S
+•
+DEPOSITOR ACCOUNT NUMBER: IA12B025CT3567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+The MBR will reflect the following information:
+•
+RTN- 660000000
+•
+DAN- SIA12B025CT3567890
+Since the MBR is able to house all of the bank info in this example, there is no need
+to update ITS.gov. The information coded on the MBR will interface with ITS.gov.
+Example 2
+Three days before the cutoff, DIO receives a completed enrollment form for India for
+a Rupee Checking Account. The bank is A12B0, the branch is 25CT35, and the account number is 6789012345.
+The technician processes the enrollment via POS by completing the fields as follows:
+•
+Code the RTN with 660000000;
+•
+The Account Type Field of “C”, for checking account; and
+•
+The DAN of “I” (for India Rupee), A12B0 (the 5-character alphanumeric bank code), 25CT35 (the 6-character alphanumeric branch code), and the first 5 digits of the account
+number of 6789012345.
+NOTE:
+You need to enter the bank information into ITS.gov on the same business day since
+the account number is over 5 digits long.
+The coding in POS will reflect:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000000 ACCOUNT TYPE: (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 1A12B025CT3567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+The MBR will reflect the following information:
+•
+RTN- 660000000
+•
+DAN- CIA12B025CT3567890

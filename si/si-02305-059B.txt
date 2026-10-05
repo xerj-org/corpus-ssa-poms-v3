@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - SI 02305.059 - Disposition of RZ and Limited Issue Case Development and Decision Data
+Effective Dates: 08/23/2016 - Present | TN 80 (02-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305059 (fetched 2026-10-04)
+
+B. Procedure – RZ or LI Results In No Change
+If the RZ or Limited Issue (LI) does not result in a change in payment or eligibility:
+•
+Clear any outstanding priority diaries on the SSR;
+•
+Update the CG or remarks field on the SSR via 1719B (SSI POSTELIGIBILITY DATA INPUT)
+or MSSICS;
+•
+Input disposition coding per SM 01501.003B or close the RZ event per MS 04425.001A.
+•
+Transmit any changes to the recipient's record via 1719B or Build Transaction SSR
+(BTS) in MSSICS;
+EXAMPLE: Changes in the telephone number and/or address information, information about excludable
+resources; etc.
+Remember that MSSICS documentation development screens are located in MS 04422.001 through
+MS 04422.018.
+NOTE:
+All high error profile (HEP) RZs should be completed in MSSICS whenever possible.
+The preferred method of completion for all eRZ cases transferred to the FO by the
+WBDOC is through MSSICS.

@@ -1,0 +1,161 @@
+SSA Program Operations Manual System (POMS) - GN 02610.050 - Complex Offset Situations with Case Examples
+Effective Dates: 03/14/2013 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610050 (fetched 2026-10-04)
+
+H. EXAMPLE: Determining Type A and W income amounts for windfall offset computations
+when CPS has paid Title II benefits in the windfall offset period
+This detailed example shows data from the MBR and SSR and completed e4345 screens
+with PC information used for the computation of windfall offset when the individual
+has received multiple CPS payments that are less than the monthly benefit payment
+(MBP) and greater than the MBP.
+Case facts:
+The PC sends the e4345 to the FO with the following information:
+CMA amount: $1189.40 paid in 05/08 for 04/08
+Retroactive Title II benefits withheld: $20,964.40 windfall total amount (WTA)
+The monthly breakdown does not include the CPS payments paid. These amounts are included
+in the remarks field on the e4345.
+View In PDF
+Monthly breakdown of retroactive RSDI withheld:
+Paid
+MBR Month Due
+Due
+Net Due
+Subtotal
+SSI Month Received
+$0.00
+10/06 – 11/06
+$1126.00
+$1126.00
+$2252.00
+11/06 – 12/06
+$0.00
+12/06 – 11/07
+$1163.00
+$1163.00
+$13,956.00
+01/07 – 12/07
+$0.00
+12/07 – 02/08
+$1189.00
+$1189.00
+$3567.00
+01/08 – 3/08
+$0.00
+03/08 – 03/08
+$1189.40
+$1189.40
+$1189.40
+04/08 – 04/08
+PC Contact/Remarks Section (e4345):
+CPS Payments Paid
+03/26/08: $ 999.00
+05/15/08: $ 999.00
+10/14/08: $2,000.00
+The following breakdown of unearned income shows how the PC figures are reflected
+on the SSR. The FO will adjust these amounts to complete the windfall offset computation.
+After completing the offset computation, the FO will complete Section II of the e4345
+and return the e4345 to the PC.
+SSR UMIH field includes CPS payments
+UMIH
+T
+UMP
+UMS
+UMA
+F
+UMI
+PV
+A
+0308
+0308
+999.00
+N
+999999999A
+71
+A
+0408
+0408
+.00
+N
+999999999A
+71
+A
+0508
+0508
+2188.40
+N
+999999999A
+71
+A
+0608
+0608
+1189.40
+N
+999999999A
+71
+A
+0708
+0908
+1189.40
+T
+999999999A
+71
+A
+1008
+1008
+3189.00
+T
+999999999A
+74
+A
+1108
+1208
+1189.00
+T
+999999999A
+71
+A
+0109
+0000
+1258.00
+C
+999999999A
+72
+FO adjustments to Type A Payment in UMIH field and of Type W unearned income for the
+same months:
+03/08: CPS payment = $999.00 which is less than the MBP
+03/08: Type A unearned income = $999.00
+03/08: Type W unearned income = $190.00 (the difference between
+the MBP of $1189.00 and the CPS payment of $999.00)
+04/08: Type A unearned income = $0.00
+04/08: Type W unearned income = $1189.40
+05/08: MBP of $1189.40 and a CPS payment of $999.00
+05/08: Subtract CPS payment ($999.99) from total Title II paid in 5/08
+($2188.40) = $1189.40
+The PC will not determine an underpayment or an overpayment on the record until the
+FO completes the windfall offset computation.
+The FO adjusts the PC information and inputs the result to the SSR
+WOBD: 11/06
+WOED:: 06/08
+05/08: Type A unearned income = $1189.40
+05/08: Type W unearned income = $0.00
+06/08: Type A unearned income = $1189.40
+06/08: Type W unearned income = $0.00
+07/08 - 09/08: Type A unearned income = $1189.40
+10/08: MBP of $1189.00 plus a CPS payment of $2000.00
+10/08: Subtract CPS payment ($2000.00) from total Title II paid in
+10/08 ($3189.00) = $1189.00 – 10/08: Type A unearned income = $1189.00 11/08 - 12/08:
+Type A unearned income = $1189.00
+01/09 continuing: Type A unearned income = $1258.00
+The PC will not determine an underpayment or an overpayment on the record until the
+FO completes the windfall offset computation.
+The FO uses these adjusted type W unearned income amounts, including 11/06 through
+02/08, for the windfall offset computation.
+Adjusted type W unearned income amounts including 11/06 through 02/08:
+11/06 - 12/06: $1126.00
+01/07 - 12/07: $1163.00
+01/08 - 02/08: $1189.00
+03/08 - 03/08: $190.00
+In 03/08, the $190.00 is the difference between the MBP of $1189.00 and the CPS payment
+of $999.00.
+04/08 - 04/08: $1189.40
+05/08 - 06/08: $ 0.00

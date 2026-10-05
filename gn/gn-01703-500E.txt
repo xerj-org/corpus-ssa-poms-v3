@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - GN 01703.500 - Totalization and HI/SMI Entitlement
+Effective Dates: 04/27/2016 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703500 (fetched 2026-10-04)
+
+E. Procedure - pepper alert
+The Exceptions and Inquiry Examiner and Claims Authorizer - Follow the instructions
+below.
+1. The Exceptions and Inquiry Examiner (EIE)
+EIE:
+If the totalization beneficiary is entitled to:
+a.
+no other benefit and lives in the U.S.
+•
+code a SOC of R, HOC of H, BCF SP, ENC. N* and summary line on the MBR
+•
+send an SSA-559 to the CA to develop the SMI election
+b.
+no other benefit and lives outside the U.S.
+•
+make the determination that beneficiary is not eligible for HI/SMI unless one of the
+situations described in A. above applies.
+•
+code a SOC of R, HOC of H, BCF SP, and show N.* and summary line.
+c.
+a nontotalization benefit also and lives in the U.S.
+•
+code a SOC of B, HOC of E, a DOEH, and A DOES (see SM 00805.300) along with the cross-reference
+account number (XRAN) and XRAN BIC.
+•
+code a SOC of Y if the claimant is 64 years and 11 months older. This coding which
+will establish HI entitlement results in automatic SMI enrollment and generates a
+notice of the right to refuse SMI. It should not be done earlier than 2 months prior
+to age 65.
+d.
+a nontotalization benefit also and lives outside the U.S.
+•
+code XRAN and XRAN BIC, ENC D if a notice is sent, otherwise code an N.*, SOC of R,
+HOC of E, DOEH, and BCF SP.
+•
+send the case to the CA to determine if the beneficiary who is entitled to HI (at
+age 65) based on entitlement to the nontotalization benefit wishes to enroll in SMI.
+e.
+another totalization benefit and lives in or outside the U.S., code a SOC of R, HOC
+of H, ENC N.* and summary line, and BCF SP.
+f.
+disability benefit including DAC and DWB and lives in or outside the U.S., code a
+HOC of H, and SOC of N.
+•
+If this coding is already on the MBR of the claimant for whom a PEPPER alert is received,
+check the age of the beneficiary.
+•
+If age 65 attainment is approaching, follow the instructions for processing totalization
+claims for which no entitlement to a benefit based only on U.S. coverage exists (lives
+in or outside the U.S).
+g.
+no other benefit but is covered under the RRB and lives in or outside the U.S., code
+a HOC of H and the applicable SOC (R or P) regardless of prior entitlement to HI/SMI
+at the RRB.
+REMEMBER: Code HI/SMI data no more than two months before the claimant's attainment of age 65.
+Be careful not to code this data too early as the system will not accept it.
+2. Claims authorizer
+Claims Authorizer:
+a.
+Determine if the totalization beneficiary is eligible for SMI and premium HI based
+on U.S. residence and U.S. citizenship or lawfully admitted alien status. See HI 00630.020 and HI 00805.005 for specific requirements and instructions. Remember that forms referred to in those
+references must be mailed.
+b.
+Obtain a HCFA-18, HCFA-4040 (formerly SSA-40A) or equivalent information to establish
+entitlement.
+c.
+Prepare an SSA-101-U3 to document the claims folder if the beneficiary establishes
+entitlement to SMI.
+d.
+Be alert for possible entitlement as a QRRB, ESRD, or MQGE and make the HI/SMI determination.
+See C. above for references.

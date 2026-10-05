@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 11052.015 - Processing End-Stage Renal Disease Medicare Claims Involving Insured Status Based on Medicare Qualified Government Employment
+Effective Dates: 05/31/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052015 (fetched 2026-10-04)
+
+B. ESRD case processing
+If the claimant meets insured status without considering GEQCs, process the claim
+under regular ESRD procedures. If we use government employment to determine if insured
+status is met, process the claim as in an initial claim with the following additional
+considerations:
+•
+Complete Form SSA-892, End-Stage Renal Disease (ESRD) Medicare Determination as outlined
+in HI 00801.308. If the claimant is the spouse or dependent child of the insured government employee,
+indicate the government employee's Social Security number (SSN) in item 4 and his
+or her name in item 6. We establish Medicare entitlement on the government employee's
+SSN followed by the appropriate government Medicare Beneficiary Identification Codes
+(BIC). Show “GEQC” in item 39 (this entry alerts the adjudicators to the SSN entry
+in item 4). See SM 00550.010, Beneficiary Identification Codes (BIC) and Payment Identification
+Codes (PIC).
+EXAMPLE: If a child is filing for ESRD Medicare using the father’s MQGE insured status, we
+do not establish the child as a BIC T on his or her own SSN. Instead, we establish
+the child as a BIC TC1 on the father’s SSN. The field office (FO) will still take
+the ESRD claim on the claimant’s SSN and prepare an A101.
+•
+When adjudicating ESRD Medicare awards using GEQCs for insured status, use the government
+worker’s SSN and process these cases via Earnings Computation (EC). On the MREQ screen
+(first screen of the earnings computation request), indicate “Y” to process as MQGE.
+Preparation of an A101 is necessary only when you base insured status on a spouse’s
+or parent’s GEQCs.
+•
+If the claimant receives a pension from the Office of Personnel Management (OPM),
+complete the Health Insurance-Supp Medical Insurance (HICL) screen in the clearance
+screen path in MCS to establish SMI premium deduction from the civil service pension.
+If OPM withholds premiums from the spouse’s civil service annuity, show a STAT of
+“S”; otherwise leave this field blank.
+Reference:
+DI 11035.010, FO Processing of Medicare for Qualified Government Employment (MQGE) Disability
+Claims

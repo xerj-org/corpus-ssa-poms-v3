@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - SI 00820.143 - Monthly Wage Reporting
+Effective Dates: 09/26/2013 - Present | TN 91 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820143 (fetched 2026-10-04)
+
+B. Glossary of terms for SSI wage reporting
+1. Alleged
+An “alleged” monthly wage amount is any:
+•
+monthly wage report an individual submits without evidence that does not meet the
+criteria for us to consider it “reported;” or
+•
+wage report submitted without evidence for a month other than the current month, or
+the month immediately preceding the current month.
+2. Automated wage reporting methods
+Automated wage reporting methods are electronic tools or systems that recipients,
+deemors, and representative payees may use to report monthly wages. These methods
+of wage reporting:
+•
+eliminate the need for field office (FO) intervention in processing most monthly wage
+reports; and
+•
+post wages to the SSI claim system (i.e., MSSICS or CCE) and the Supplemental Security
+Record (SSR) as “reported” wages.
+The SSA Mobile Wage Reporting application (SSAMWR), the SSI Telephone Wage Reporting
+system (SSITWR), and the myWageReport application (myWR) are all automated wage-reporting
+methods.
+3. Employer Identification Number (EIN)
+EINs are unique identification numbers assigned to employers by the Internal Revenue
+Service (IRS) for tax purposes. SSA uses EINs to record employer wage reports and
+associate an individual’s earnings with a particular employer. EINs are present on
+W-2 forms and may be included on pay stubs. Additionally, SSA records EINs on wage-related
+queries like the Detailed Earnings Query (DEQY) and New Hire Data Query (NDNH). Using
+the Alpha Access to the Employment Information File (AEQY), technicians may locate
+EINs using employer information.
+EINs are becoming increasingly important for automation in SSI wage reporting. For
+example, myWR requires an EIN match in the SSI claim system or eWork in order to display
+eligible employers to users. If the EIN field is not completed, myWR users will not
+be able to report wages for that employer. For this reason, technicians are encouraged
+to complete EIN fields on all Wages pages in the SSI Claim system (i.e., CCE) when
+establishing new employers and updating information for existing employers.
+See MS 08114.027 for more information about the Wages page.
+4. J3 diary
+The J3 diary detects discrepancies between the Master Earnings File (MEF) and the
+SSR where a recipient or deemor’s wage amount on the SSR is more than what the MEF reflects.
+The system generates an alert for over-tolerance discrepancies of more than $1,000
+annually.
+Refer to development instructions in SI 02310.056.
+5. J5 diary
+The J5 diary detects discrepancies between the MEF and the SSR where a deemor’s wage amount on the SSR is more than what the MEF reflects.
+The system generates an alert for over-tolerance discrepancies of more than $2,000
+annually.
+Refer to development instructions in SI 02310.056.
+6. Reported
+A “reported” monthly wage amount is submitted by a recipient, representative payee
+or deemor and is derived from pay stub wage information; the individual making the
+report need not submit the underlying pay stub(s) at the time of the report. The reported
+wage amount must be:
+•
+posted to the SSI claim system or the SSR before the recurring payment tape cutoff
+for the subsequent month; or
+•
+submitted using myWR, SSAMWR, or SSITWR on any day during the current reporting month.
+To consider wages “reported,” the submitted wage amount must include the total gross
+wages received for the current month or the month immediately preceding the month
+in which we receive the report.
+7. S7 diary
+The S7 diary detects discrepancies between the Office of Child Support Enforcement
+(OCSE) database and the SSR where a recipient or deemor’s wage amount on the SSR is
+more than what the OCSE reflects. The system generates an alert for over-tolerance discrepancies
+of more than $250 per quarter for recipients and $500 per quarter for deemors.
+8. SSI Monthly Wage Verification Application (SSIMWV)
+SSIMWV is an Intranet-based application that automates SSA staff's input of monthly
+wage reports submitted with pay stubs for electronic cases and cases outside of the
+SSI claim system (i.e., non-MSSICS or non-CCE).
+9. Verified
+A “verified” monthly wage amount is accompanied by evidence of wages (e.g., pay stubs).
+See SI 00820.130 for more information on wage evidence and SI 00820.135 for procedures on verifying wages.

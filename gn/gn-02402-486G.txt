@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02402.486 - Coding Benin Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402486 (fetched 2026-10-04)
+
+G. Example of coding Benin direct deposit
+The customer provides us with the signup form for Benin containing the account number:
+"12345678901122334455667788990"
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 730000134 ;
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technicians codes the DAN.
+•
+Start with a country code of "U" designated for Benin;
+•
+Code 16 digits of the up to 29-digit account number “1234567890112233”
+3. Obtain the following information
+•
+RTN: 730000134
+•
+Checking
+•
+DAN: U1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000134
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+b. The MBR reflects the following information
+•
+RTN-730000134
+•
+DAN- CU1234567890112233

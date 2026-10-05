@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 02402.358 - Coding Czech Republic Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402358 (fetched 2026-10-04)
+
+G. Example of coding Czech Republic bank data
+The customer provides us with a signup form for Czech Republic containing the following
+information: CZ6508000000192000145399.
+•
+The first 2 characters of a Czech Republic IBAN CZ, represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code these to the MBR.
+•
+The next 4 characters of the IBAN represent the 4-digit bank code.
+•
+The next 16 characters of the IBAN represent the 16-digit account number.
+NOTE: When using an SSA system to process a direct deposit enrollment to a FI in Czech
+Republic, you should omit the ISO country code of CZ and the IBAN check digits when
+composing the RTN. However, if you use ITS.gov to process the enrollment, you should
+type in the full IBAN in the IBAN field. ITS.gov automatically removes these characters
+when it translates the RTN and DAN.
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+the prefix of 66(the multi-country prefix for Czech Republic),
+•
+2 filler zeros 00 in position 3 and 4,
+•
+4-digit bank code 0800,
+•
+1-digit check digit code (i.e., 8) (obtained from the Title II Interactive Comps from
+the Main Menus 07/Sub Menu 16), and
+•
+type of account as a C for checking or an S for savings. If no indicated account type,
+use a C for checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+C (for Czech Republic), and
+•
+16-digit account number 0000192000145399.
+3. Obtain the following information
+•
+RTN: 660008008
+•
+Checking
+•
+DAN: C0000192000145399
+a. POS refelcts the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660008008 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: C0000192000145399
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR refelcts the following information
+•
+RTN-660008008
+•
+DAN- C0000192000145399

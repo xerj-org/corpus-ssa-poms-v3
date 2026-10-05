@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 00206.014 - Processing a Withdrawal (WD) Request made after Adjudication
+Effective Dates: 12/02/2022 - Present | TN 29 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200206014 (fetched 2026-10-04)
+
+C. PC actions for denying a request for WD application
+1. RIB claim with previous WD or past 12-month time limit
+Determine if the claimant is within 12 months of their current date of entitlement
+and has not previously withdrawn a RIB claim after adjudication.
+NOTE: Counting begins the first month after the current date of entitlement (DOEC) and
+ends with the last day of the 12th month. For example, if the DOEC were April 2013,
+then the 12 months would expire the last day of April 2014. Follow the steps below
+if the request is more than 12 months after the DOEC or the claimant previously withdrew
+a RIB claim:
+•
+deny the WD request. For notice of WD and appeal rights, see GN 00206.145;
+•
+add listing code *128 to the record;
+•
+add the following special message to the MBR: “WITHDR REC MM/DD/CCYY denied-over 12
+months or previous withdrawal”;
+•
+prepare a manual notice using Aurora exhibit notice E4019 (WD Denial) found in NL 00703.703;
+•
+resume monthly payments if benefits were suspended.
+2. Repayment not received
+If we do not receive repayment from the claimant within 45 days of the initial notification:
+•
+send 30-day final request notice E3702 as shown in NL 00703.702; and
+•
+diary the case for 30 days;
+•
+after the 30 days, resume payment under the prior award if the claimant has not made
+repayment, and
+•
+deny the WD. For notice of WD and appeal rights, see GN 00206.145.
+3. Partial payment was received or claimant alleges payments
+•
+If the claimant alleges that, they submitted payments but there is no record in our
+system, review all SSA records and evaluate if we received the payment but have not
+processed it yet. If your review determines that we did not receive payment, deny
+the WD.
+•
+If the claimant submitted a partial repayment, accept it but determine the reason
+they have not made full repayment. Prepare and send an acknowledgment notice stating
+the balance due, and re-diary for 15 days.
+•
+If the claimant does not submit the remaining payment due after the 15 days, deny
+the WD request, and refund any previous partial payment received. For notice of WD
+and appeal rights, see GN 00206.145.
+•
+If the claimant does submit the remaining payment due, follow instructions per GN 00206.014B.5 this POMS section.

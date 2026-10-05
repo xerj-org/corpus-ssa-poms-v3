@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 01010.250 - Special Considerations for Processing Claims in the Field Office (FO)
+Effective Dates: 01/11/2012 - Present | TN 74 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010250 (fetched 2026-10-04)
+
+D. Procedures for survivor claims
+Follow the instructions below when processing survivor claims.
+1. Duplicate Lump Sum Death Payment (LSDP) Claims
+Carefully question an individual who inquires about the LSDP to be sure that another
+individual has not filed or is not eligible, see RS 00210.010. Screen the Master Beneficiary Record (MBR) and the MCS record (cleared or archived),
+for a possible prior LSDP claim. If the applicant is entitled to the LSDP payment
+previously paid to another beneficiary, obtain an application using MCS, but process
+it via automated 101 (A101). Ensure to add the proper instructions for the processing
+center (PC) indicating overpayment recovery or benefit adjustment. For liability and
+recovery, see GN 02205.003. In situations where a LSDP award results in an adverse action, follow the instructions
+for adjudication of adverse claims found in GN 01010.320.
+2. Earnings exemption amounts in death cases
+For determining annual earnings test exempt amounts in the year of death, see RS 02501.025B.3.
+3. Claims involving survivor conversion and change of payee
+If, at the time of death, the number holder (NH) was payee for a spouse or child,
+the death termination program (TATTER) will not convert the auxiliary benefits to
+survivor benefits because there is no proper payee. If you select a new payee, input
+the change of payee action before processing the death termination action so the system converts the auxiliaries to
+survivors with no break in payment.
+4. Concurrent widow “D” and LSDP claims
+Ideally, you must process concurrent widow(er) and LSDP claims together as one action.
+However, if processing concurrently and Supplemental Security Income (SSI) windfall
+offset applies on the widow(er) award, process the LSDP separately to prevent it from
+the offset.
+Also, if the LSDP can be paid immediately to the Living in the Same Household (LISH)
+spouse but the widow(er) claim will be delayed (e.g., outstanding development, MCS
+exclusion, etc.), process the two claims independently. Send a notice to the claimant
+that includes universal text indicator (UTI) “CLOR05” advising that SSA will contact
+them later regarding the pending widow(er)'s award. Include the remark “LSDP-ONLY PROCESSED ON (DATE)” on the Benefit Continuity Remarks/Notice (BCRN) screen when processing the widow(er)
+claim via A101.
+NOTE: Do not consider the procedure above as partial award.

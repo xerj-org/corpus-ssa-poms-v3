@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - DI 52155.035 - Initial Determination Workers’ Compensation/Public Disability Benefit (WC/PDB) Notices
+Effective Dates: 06/01/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155035 (fetched 2026-10-04)
+
+B. Processing initial notices
+1. MCS EC System
+The MCS EC system automatically generates most WC/PDB paragraphs based on the information
+coded on the application screens. There are a limited number of WC/PDB paragraphs
+(known as universal text identifiers (UTIs)) that can be requested. UTIs are NL 00725.005 – MCS Universal Text Identifiers (UTIs). Instructions for completing MCS notices
+are in MSOM MCS 009.010 – Notice 3 (NOT 3) and MSOM ORS 002.003 – FO/PC Requested
+and Dictated Paragraphs.
+If additional information is needed in the notice, see DI 52155.0351.b. in this section.
+If dictated language needs to be added, see DI 52155.0351.c. in this section.
+a. Systems generated UTIs - WCP
+Paragraphs that begin with the prefix “WCP” are automatically systems generated based
+on offset data entered into MCS. See NL 00725.005 – MCS Universal Text Identifiers (UTIs).
+b. Requested UTIs - WCPR
+In MCS, UTIs that must be requested are identified with an “R” in the 4th position of the UTI (e.g., WCPR15). If an MCS EC claim requires additional notice
+information, select the Notice 3 (NOT 3) screen per MSOM MCS 009.010. Since these
+paragraphs are only generated upon request, fill-ins are required.
+NOTE: See MSOM ORS 002.003 – FO/PC Requested and Dictated Paragraphs for a list of requested
+UTI paragraphs and formatting rules. See NL 00725.005 for a list of generated UTIs to determine if a UTI must be requested.
+c. Dictated Language
+If the available UTIs do not fully explain the situation, use UTI COPD01 for MCS notice
+with the appropriate dictated language added on the NOT3 screen. NOTE: Using dictated language always generates an “R” or Review notice alert. Any notice
+with dictated language is reviewed in the processing center (PC) prior to release.
+See NL 00719.025 – Dictated Text (NOT) Screens for processing dictated text.
+2. A101/EF101
+The Claims Representative (CR)/Claims Authorizer (CA)/Claims Technical Examiner (CTE)
+is required to create the notice data for any WC/PDB ICF adjudicate input, regardless
+of whether it is a post-entitlement (PE) input, A101, or EF101. In non-MCS cases,
+all requested paragraphs and fill-ins are listed on an SSA-573 or coded via the ICF
+WC notice screens.
+a.
+All MADCAP paragraphs for WC/PDB begin with the letters “WCP.” Some WCP paragraphs
+are automatically generated (i.e., no input necessary) and some must be manually input.
+See NL
+00720.395 “WCP Workers’ Compensation” for all WC/PDB MADCAP paragraphs and the corresponding
+“Systems Generated” or “Requested” designation of each paragraph.
+b.
+Review all paragraphs to be sure all pertinent information is provided.
+c.
+Include numbered or completely dictated paragraphs, as needed.
+For A101 or EF101 cases, include in the ICF ENB required non-WC/PDB claims paragraph
+and all required “WCP” paragraphs (in this situation, code the paragraphs in ICF ENB,
+not the A101 or EF101 ENB).
+NOTE: Use the SSA-573 or the ENB but not both. See DI 52165.030 for information on ICF WC/PDB notices.
+d.
+The following tools are available to help find, select and code MADCAP paragraphs
+for the ICF ENB:
+•
+MADCAP Paragraph Title Scanner/ENB Propagator – Click here.
+•
+NOT Screen Processor – Click here. Use this tool to type or paste dictated language for the ICF Dictated Notice screen
+(WCDL).

@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - GN 02201.042 - Employer Issues Regarding Collection of Title II/XVI Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 08/22/2022 - Present | TN 62 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201042 (fetched 2026-10-04)
+
+C. Procedure - employer reports information that affects AWG
+1. Employer returns Employer Certification (SF-329D)
+The employer is required to complete and return the Employer Certification (SF-329D)
+to the PC of SSN jurisdiction within 20 days of receipt of the AWG Employer Package.
+Employers send certifications to the PC of SSN jurisdiction for Title II and Title
+XVI cases. The employer uses this form to report the debtor's employment status, so
+that SSA can monitor and control the next steps in the AWG process. See GN 02201.040B.5. for more information about the AWG Employer package, including the Employer Certification.
+NOTE: For copies of the Employer Certification, see the BFS’
+website.
+The Employer Certification has two possible responses regarding the person's employment
+status: (1) Debtor currently employed, and (2) debtor no longer employed. The responses
+are input to the appropriate DMS screens by the PC (as described below), thus enabling
+the ECO system to control the case for subsequent action.
+NOTE: If the employer enters “0” in section 3 of the SF-329D, the debtor does not have adequate
+earnings to garnish. The ECO system sets an automatic control to periodically check
+for earnings. If the debtor meets the criteria for AWG in a following year, the ECO
+system resumes activity by sending another AWG Employer Package to the appropriate
+employer.
+IMPORTANT: If the employer does not return the SF-329D or returns an incomplete form, no immediate
+action is required by the PC to followup with the employer. The ECO system sets controls
+for a series of automated follow-up actions. (See GN 02201.040B.5. for more information about the automated follow-up actions.)
+The PC's input depends upon the debtor's employment status as reported by the employer
+on the Employment Certification. Proceed as follows upon receipt of the Employer Certification:
+a. Debtor currently employed
+When item 2(a) of the SF-329D is checked by the employer, indicating that the debtor
+is currently employed, take the following actions:
+•
+Go to the AWG Employer Response (TRER) screen and enter all available contact information
+about the employer in the appropriate sections of the screen. (See MS 01114.010 for
+more detailed information about the screen.)
+•
+On the TRER screen, enter a “Y” in the Debtor is Currently Employed section.
+•
+Entering a “Y” in the TRER screen will automatically take you to the AWG Debtor Currently
+Employed (TREE) screen.
+•
+On the TREE screen, enter all available information about the garnishment amount,
+other garnishments and pay period frequency. (See MS 01114.011 for more detailed information
+about the screen.)
+•
+The preceding entries in the TRER/TREE screens will automatically set controls in
+the TOP/ECO system to look for garnishment payments within the next 35 days.
+b. Debtor not employed
+When item 2(b) of the SF-329D is checked by the employer, indicating that the debtor
+is not employed, take the following actions:
+•
+Go to the AWG Employer Response (TRER) screen and enter all available contact information
+about the employer in the appropriate sections of the screen. (See MS 01114.010 for
+more detailed information about the screen.)
+•
+On the TRER screen, enter an “N” in the Debtor is Currently Employed section.
+•
+Entering an “N” in the TRER screen will automatically take you to the AWG Debtor No
+Longer Employed (TREN) screen.
+•
+On the TREN screen, enter all available information about the employment termination
+date, termination reason or the date of the person was laid off (if applicable). (See
+MS 01114.012 for more detailed information about the screen.)
+Depending on the reason for termination or the date of any layoff, the ECO system
+will automatically set controls for any future action required for AWG. You do not
+need to take any further action regarding AWG.
+2. Employer reports going out of business
+Proceed as follows when the employer reports going out of business:
+•
+Go to the AWG Employer Response (TRER) screen and enter an “N” in the Debtor is Currently
+Employed section of the screen. Also, record the contact name and phone number on
+the TRER screen. (See MS 01114.010 for more detailed information on this screen.)
+•
+Entering an “N” in the TRER screen will automatically take you to the AWG Debtor No
+Longer Employed (TREN) screen.
+•
+On the TREN screen, enter “Employer no longer in business” in the Termination Reason
+section. (See MS 01114.012 for more detailed information about the screen.)
+•
+Take no additional actions regarding AWG. The ECO system will automatically take subsequent
+action to resume AWG when another eligible employer becomes available.

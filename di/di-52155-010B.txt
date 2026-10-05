@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 52155.010 - Modernized Claims System (MCS) Earnings Computation (EC) and Workers' Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155010 (fetched 2026-10-04)
+
+B. Claim Display
+This field allows the user to select the EC screens that display Claim Data that will
+be displayed in the MCS EC path. These screens provide data that is displayed on an
+individual claimant basis. Screens displaying WC/PDB information can be seen by selecting
+#1 or #4 in the Claim Display field of the MCR1/MCR2 screen.
+The WRBD screen provides claimant results data for the offset determination.
+•
+The amount the benefit is being reduced for WC offset is displayed in the WC ONLY
+OFFSET column.
+•
+If PDB offset is also involved, the total offset for both WC and PDB are displayed
+in the COMBINED OFFSET column.
+•
+Displays the benefit amount due the claimant after WC/PDB offset.
+The DBPH screen reflects what will appear in the HISTORY field of the MBR when the
+claim is processed through EC.
+•
+When the monthly benefit amount (MBA) is totally offset due to WC/PDB the full MBA
+will be reflected and the SUSTRM REASON WCOFFS will be shown.
+•
+The benefit amount after offset is reflected in the MBA field when partial offset
+applies.
+IMPORTANT: Review the offset computation results prior to triggering the claim. If the displayed
+results are questionable or obviously incorrect, do not process the claim via MCS
+EC. Instead, do the offset computation in ICF #32 and prepare an A101. For A101 instructions,
+see DI 52155.025
+The result of the WC/PDB offset processed in MCS EC is available for later use in
+the Workers' Compensation/Public Disability Benefit Data screens used by ICF by selecting
+#31, 32, 33 and 34 on IC00 (Title II Benefit Computation Menu).

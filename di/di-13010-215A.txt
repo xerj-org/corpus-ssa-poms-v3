@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 13010.215 - Procedure for Extended Period of Eligibility (EPE)
+Effective Dates: 09/14/2026 - Present | TN 96 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010215 (fetched 2026-10-04)
+
+A. Substantial gainful activity (SGA) during the extended period of eligibility (EPE)
+If you receive a work report or learn about earnings for a beneficiary who is in the
+EPE, begin development immediately. If earnings are SGA, make a determination to suspend
+or terminate benefits and follow due process requirements, per DI 13010.185.
+1. eWork processing the SGA decision
+Use eWork to process the SGA determination. The system assists in the evaluation of
+work and earnings, and takes into consideration applicable work incentives. The eWork
+system:
+•
+generates the appropriate notices, determination forms, routing sheet;
+•
+makes the input to the post-entitlement system (POS); and
+•
+establishes a future date for the end of the due process period.
+2. eWork exclusions
+If the case is an eWork exclusion, use the initial claim (IC) functionality in eWork
+to control development and produce all necessary forms for the determination.
+eWork will store the determination, and although the decision displays pending, the
+decision will not pend on any lists, and will not prevent another work review from
+being established.
+You must manually prepare the due process and final notices. For more information
+on due process notices, see DI 13010.185.
+NOTE:
+An IC determination prevents another office from establishing another IC review. For
+detailed instructions on processing through IC, see DI 13010.026.
+a. Disability cessation input
+If the determination results in suspension of benefits, field offices (FOs) will use
+the eWork DECEFFECT bar code to FAX the information to paperless for processing. The
+processing center (PC) will refer the case to the benefit authorizers (BA) staff for
+processing. For IC procedure, see DI 13010.026.
+b. Disability control file (DCF)
+Use the DCF to:
+•
+establish a title II work continuing disability review (CDR),
+•
+post the verified monthly earnings,
+•
+record the determination, and
+•
+clear the title II work CDR.
+For information on the DCF, see MSOM CDR Chapter 001, DI 13010.500, and DI 13010.600.
+3. Due process for preparing and releasing the notice
+eWork creates a due process notice and generates a tickle to allow the beneficiary
+time to respond. For eWork exclusions, follow instructions in DI 13010.026. When the time for responding to the due process notification expires, prepare a
+determination through eWork. Resolve any rebuttals prior to preparing the determination.

@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - GN 02602.578 - Termination of Entitlement for Title II Beneficiaries Who are Age 115 or Older
+Effective Dates: 10/28/2022 - Present | TN 95 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602578 (fetched 2026-10-04)
+
+B. Processing Center (PC) instructions
+The PC may receive an exception or processing limitation alert for selected age-115-or-older
+termination cases that T2R was unable to process successfully. These cases can except
+for a number of reasons and require manual processing. T2R does not automatically
+terminate entitlement for:
+•
+Beneficiaries with other claimants active on the record;
+•
+Dually or technically entitled beneficiaries with a discrepancy among records (information
+pertaining to date of birth (DOB), suspension, and termination; or
+•
+Beneficiaries in an active pay status on a dually entitled record.
+For more information on common age-115 termination exceptions and processing limitations,
+see SM 03020.380C.
+For more information on all entitlement and eligibility exceptions and alerts, see
+SM 03020.360.
+1. Resolving exceptions or processing limitations for age-115-or-older termination cases
+If you receive an exception or processing limitation:
+•
+Use Transaction History Query Response (THISR) to assist in case review. THISR should
+show that RETAP selected the case;
+•
+Use the date of birth on the MBR to identify beneficiaries age 115 or older;
+•
+Resolve the processing limitations or exceptions following normal policy guidelines
+as outlined in SM 03020.360; and
+•
+Terminate the age-115-or-older beneficiary effective the current operating month (COM)
+using LAF T9 and RFST AGETRM, if applicable.
+NOTE:Do not issue a notice or payments for the T9 AGETRM termination action. In addition,
+place Medicare for these beneficiaries in an inactive status.
+2. Developing for possible date of death when there are additional beneficiaries in an
+active payment status
+If there is an additional beneficiary on the Master Beneficiary Record (MBR) in an
+active payment status when developing for a date of death of an age-115-or-older beneficiary:
+•
+Obtain proof of death following normal policy guidelines in GN 00304.001 and GN 00304.005 through GN 00304.050;
+•
+Terminate benefits to the age-115-or-older beneficiary based on the verified date
+of death (T1 death termination) as outlined in GN 02602.051;
+•
+Fax proof of death into the Non-Disability Repository for Evidentiary Documents (NDRed)
+(see GN 00301.310) using the Evidence Portal (EP). For more information on EP, see MS 09701.001; and
+•
+Process the entitlement conversion for any survivors on the record, if applicable.
+3. Examples for exceptions or processing limitations
+a. Example of age-115 beneficiary dually entitled
+RETAP selected a primary Master Beneficiary Record (MBR) for Jane Smith (BIC A) based
+on:
+•
+Jane’s Beneficiary Identification Code (BIC) is not G,M,T, or TA;
+•
+She is 116 years old ; and
+•
+She has been in suspense for address (LAF S6) for eight continuous years on the selected
+record.
+T2R did not automatically terminate and produced the “Develop for POSS Death Age 115+
+NH and BENE Conversion to Survivor” A2I612 exception because on a secondary record,
+Jane is 114 years old (discrepancy with DOB on primary record).
+On the secondary record:
+•
+Jane is entitled as a BIC D;
+•
+She has been in suspense for address (LAF S6) for eight continuous years; and
+•
+There are no additional beneficiaries on this record in an active payment status.
+Resolve the DOB discrepancy following normal policy guidelines.
+If Jane meets the age-115 termination criteria, take a manual action to terminate
+her entitlement using LAF T9 and RFST AGETRM on both records.
+b. Example of age-115 beneficiary with additional beneficiary on the MBR in active payment
+status
+RETAP selected an MBR for John Doe based on:
+•
+John’s BIC is not G,M,T, or TA;
+•
+He is 118 years old; and
+•
+He has been in suspense for address (LAF S6) for 10 continuous years.
+T2R did not automatically terminate and produced the A2I612 exception because John
+has an additional beneficiary on the MBR in an active payment status.
+Develop for a possible date of death as outlined in GN 02602.578B2.
+4. Entitlement of age-115-or-older beneficiary terminated erroneously
+If an age-115-or-older beneficiary whose entitlement was erroneously terminated contacts
+SSA, see GN 02602.055.

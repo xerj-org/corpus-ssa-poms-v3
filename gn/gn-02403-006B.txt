@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 02403.006 - Processing Remittances Received in the Field Office
+Effective Dates: 10/03/2017 - Present | TN 59 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403006 (fetched 2026-10-04)
+
+B. Procedure for personal checks, bank checks, or money orders
+1. Interviewer actions
+When the interviewer receives personal checks, bank checks, or money orders, they
+must:
+a.
+Determine if the payment is acceptable per GN 02403.005. If it is acceptable, stamp “For Deposit Only, SSA,” or “For Deposit Only, CMS,”
+as applicable, and go to GN 02403.006B.1.b. in this section.
+•
+If the payment is not acceptable, return the unacceptable remittance to the remitter
+and request a replacement. Stop.
+•
+The mailroom or reception area personnel may have already stamped the remittance per
+GN 02403.004. For details on endorsement standards, see GN 02403.005C.
+b.
+Enter remittance into the automated system. Use RFOR Screen.
+•
+Be sure to include the correct BIC for Title II remittances; make sure the SSN is
+a valid number and keyed correctly; ensure that the Trust Fund is correct (“R” for
+RSI, “D” for Disability, and “S” for SSI). Never use “S” for an RSI or DI remittance.
+•
+For claimant representative or attorney fee refunds:
+a.
+If we paid fees prior to November 22, 2008, the Title II remittance Reason Code is “O” and the BIC is SA-SZ
+(match the authorized rep payment on the Special Payment System); there is no BIC
+for Title XVI returned standard fees.
+b.
+If we paid fees after November 22, 2008, the Title II remittance Reason Code should be “O” and the BIC
+is SA-SZ (match the authorized rep payment on the Special Payment System). The Title
+XVI Reason Code should be “X” and enter a Payment Identification Code (PIC) (RA-RZ)
+in the BIC field on the RFOR screen. You can find the PIC on the SSR query in Payment
+History in the PI column for the authorized rep payment, as indicated by an “A” in
+Pay Flag 5. (See MS 01101.001 and MS 01103.001).
+•
+When the FO receives conserved funds for a concurrently entitled person, use the Title
+XVI trust fund code.
+•
+For State Disbursement Unit (SDU) remittances:
+a.
+Most states receive garnishment payments via Electronic Funds Transfer (EFT). If they
+receive an incorrect garnishment amount from us, we instruct the SDUs to send these
+remittances to the MATPSC; however, some SDUs send garnishment remittances directly
+to the FO.
+b.
+When the FO receives a remittance from an EFT state, the FO should ensure that they
+credit the correct garnishment PIC. The FO should NOT credit the remittance to the garnished beneficiary.
+EXAMPLE: If the FO receives a remittance for X1, the FO should input the remittance for PIC
+X1. This produces a remittance exception in the PC. A technician in the PC familiar
+with garnishment payments will process the exception. For more information on garnishment
+and the X BIC, see GN 02410.225 and SM 00610.772B.5.
+Ask the remitter to verify the information on the receipt, including the SSN and amount.
+Give the receipt to remitter and immediately give the remittance and payment coupon
+to the remittance clerk for safekeeping. Make sure that you show the receipt number
+on all remittances.
+EXCEPTION: Include the Medicare number on check or money orders for Medicare monthly or quarterly
+premium payments. Include the SSN on checks or money orders for Medicare retroactive
+premium payments; the contract bank cannot process the payment without the SSN.
+NOTE: If remittance is a Medicare premium payment received without a bill, check the Enrollment
+Database (EDB) in the system. If the system has not generated a Supplemental Medical
+Insurance (SMI) award, prepare a note to MATPSC that there is no record in the system.
+For information on how to obtain an automated receipt, see MS 01103.006.
+2. Remittance clerk actions
+The remittance clerk receives remittances from the interviewer and must perform the
+following actions:
+a.
+As late in the business day as practical, obtain FO Remittance Transmittal (FORT)
+and Credit Card FO Remittance Transmittal (CCFORT) and associate remittances to it.
+For instructions on how to obtain FORT(s) and CCFORT(s), see MS 01104.007.
+b.
+If the remittance covers multiple accounts, enter the check or money order number(s)
+under the appropriate receipt number on the FORT.
+c.
+Complete the first SIGNATURE, TITLE, NAME lines on the FORT and CCFORT. If not generated
+by the system, also complete the PHONE lines.
+d.
+At the end of the day, hand carry FORT and CCFORT with related FO-generated payment
+coupons and payments to the remittance supervisor.
+3. Remittance supervisor actions
+The remittance supervisor receives all remittance related materials from the remittance
+clerk and must perform the following actions:
+a.
+Review each line item on the FORT and CCFORT and FO Daily Receipt Listing (FODRL)
+to ensure that they and the remittances are in complete agreement. For details concerning mailroom and reception area logs, see GN 02403.004.
+b.
+Record the details of any discrepancies and resolve them with the remittance clerk
+or interviewer.
+c.
+Complete the second SIGNATURE, TITLE, NAME, and, if not generated by the system, PHONE
+lines on the FORT and CCFORT.
+d.
+Place the FORT, CCFORT, FO-generated payment coupons, and remittances received that
+day in an envelope. Separate credit card payment coupons, and attach them to the CCFORT.
+Seal the envelope and mail to MATPSC the same day to the address shown on the FORT.
+If you cannot mail the day’s FORT and remittances the same day that the system produces
+the FORT, secure each and mail the next business day.
+NOTE: Maintain the FODRL in the FO for one year. For details concerning the FODRL, see
+GN 02403.021.
+IMPORTANT: Include no other material or correspondence in the envelope with the remittances.

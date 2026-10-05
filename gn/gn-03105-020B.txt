@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 03105.020 - Locating Missing Claims Folders
+Effective Dates: 10/23/2023 - Present | TN 11 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203105020 (fetched 2026-10-04)
+
+B. Procedure - Locating claims folders
+1. Locating electronic folders
+Conduct a search in eView and Evidence Portal (EP) to determine if an electronic folder
+exists.
+•
+For an overview of eView, see DI 81005.005.
+•
+For an overview of EP, see MS 09701.001.
+2. Locating paper folders
+Folder location information and the folder request function are available through
+the T2FLD and T16FLD macros in Query Master and Personal Communications (PCOM) toolbars
+(see the PCOM Toolbar Support site). Folder location information is also available in Workload Action Center (WAC).
+To request a paper folder from the processing centers (PC) or the Social Security
+Administration National Records Center (SSANRC) storage facility, use the following
+PCOM functions:
+•
+Processing Center Action Control System (PCACS) for a Title II folder. For information
+on PCACS, see MSOM MS 04901.001
+•
+SSI Data Inputs, 8028 (SSI Control System Input) – AR33 for a Title XVI folder. For
+information on AR33, see SM 01201.055. For information on SSA-8028 SSICS Transaction,
+see SM 01201.020.
+Use the following instructions from the Kansas City Region Intranet (KCNET) to request
+a paper folder directly through PCOM:
+•
+Title 2 Folder Requests
+•
+Title 16 Folder Requests
+If a query response shows there is no paper folder stored in the PC or SSANRC, consider
+searching:
+•
+previous names
+•
+claimant’s and representative payee’s previous addresses (the folder could be in a
+field office (FO) servicing a previous address)
+•
+cross-referenced Social Security numbers
+•
+concurrent folders
+•
+pending files in the FO
+•
+closed files in the FO
+•
+boxes awaiting shipment
+For additional guidance when searching for a prior paper folder for a medical case,
+see DI 13015.080.
+For more information on locating and reconstructing paper claims folders for hearings,
+see GN 03105.040.
+3. Unable to locate paper folders
+Document all queries that you used and all efforts that you made to locate the paper
+folder on an SSA-5002 (Report of Contact), Report of Contact (RPOC) screen, or Report
+of Contact page, whichever is appropriate.
+The Disability Determination Services (DDS) will determine whether an attempt should
+be made to reconstruct a paper Comparison Point Date (CPD) folder as explained in
+DI 13015.090.
+For more information on reconstruction of destroyed or missing paper claims folders,
+see GN 03105.010.

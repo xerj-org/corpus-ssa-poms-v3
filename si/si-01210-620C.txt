@@ -1,0 +1,176 @@
+SSA Program Operations Manual System (POMS) - SI 01210.620 - Special Blind Income Disregards - Recipient With Ineligible Spouse
+Effective Dates: 10/30/1995 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210620 (fetched 2026-10-04)
+
+C. Procedure
+1. Example
+A blind grandfathered recipient living in State X has an ineligible spouse and one
+minor ineligible child, who has no income. The blind recipient has the following income:
+•
+$250.00 wages
+•
+$35.00 BWE under State plan rules
+•
+$75.00 BWE under Federal SSI rules
+•
+$60.00 union pension
+The ineligible spouse has $375.00 in wages.
+The State plan income disregards used in the Example are typical. Actual disregards
+vary by State.
+2. Chart: Determining Eligibility and Payment Amount
+STEP
+1
+Compute SSI benefit using BCI of recipient only.
+Apply the applicable State plan income disregards (SI 01210.500) to the recipient's income only, and compute the SSI benefit using the individual
+Federal benefit rate (FBR).
+Unearned Income of Recipient
+$ 60.00  union pension
+-  7.50   general disregard
+$ 52.50  countable unearned income
+Earned Income of Recipient
+$250.00  wages
+- 85.00   earned income disregard
+$165.00
+÷     2   disregard of one-half of remainder
+$ 82.50
+-  35.00   BWE (State plan)
+$ 47.50  countable earned income
+​
+​
+​
+BCI of Recipient Only
+$ 52.50  countable unearned income
++47.50   countable earned income
+$100.00  BCI
+​
+​
+​
+Benefit Computation
+$368.00  individual FBR (1989)
+-100.00   BCI
+$268.00  SSI benefit
+2
+Compute SSI benefit using BCI from combined income of recipient and ineligible spouse .
+Apply the applicable State plan blind income disregards to the income of the recipient only.
+Add the spouse's income, without applying any disregards.
+Do not subtract any living allowance from the spouse's income unless provided for
+in State plan.
+Compute the SSI benefit using the couple FBR.
+Unearned Income of Recipient Only
+$ 60.00  union pension
+-  7.50   general disregard
+$ 52.50  countable unearned income
+Earned Income of Recipient Only
+$250.00  wages
+- 85.00   earned income disregard
+$165.00
+÷   2   disregard of one-half of remainder
+$ 82.50
+- 35.00   BWE (State plan)
+$ 47.50   countable earned income
+BCI of Recipient Only
+$ 52.50   countable uneared income
++47.50   countable earned income
+$100.00  BCI
+BCI for the Couple
+$100.00  BCI of recipient only
++375.00   spouse's income
+$ 475.00  BCI
+STEP
+ACTION
+EXPLANATION
+EXAMPLE
+​
+​
+​
+Benefit Computation
+$553.00  Couple FBR (1989)
+-  475.00   BCI
+$ 78.00  SSI benefit
+3
+Determine SSI benefit payable using BCI.
+Compare results of steps 1 and 2. Use the lower benefit amount.
+$ 78.00  step 2 result
+4
+Compute SSI benefit using CI/FR of recipient only
+Apply the SSI exclusions to the income of the recipient only , and compute the SSI benefit using the individual FBR.
+Unearned Income of Recipient
+$ 60.00  union pension
+- 20.00   general exclusion
+$  40.00  countable unearned income
+​
+​
+This is a required step in spouse-to-spouse deeming computations under Federal rules,
+per SI 01320.400C.2.
+Earned Income of Recipient
+$250.00  wages
+- 65.00   earned income exclusion
+$185.00
+÷   2   exclusion of one-half of remainder
+$ 92.50
+- 75.00   BWE (Federal)
+$ 17.50  countable earned income
+​
+​
+The system performs this computation, except for cases requiring a manual computation.
+CI/FR
+$ 40.00  countable uneared income
++17.50   countable earned income
+$ 57.50   CI/FR
+Benefit Computation
+$368.00  individual FBR (1989)
+- 57.50   CI/FR
+$310.50  SSI benefit
+STEP
+ACTION
+EXPLANATION
+EXAMPLE
+5
+Compute SSI benefit using CI/FR from combined income of recipient and ineligible spouse
+Apply the SSI exclusions to the income of the couple.
+Subtract allocation for ineligible children, if applicable.
+Compute the SSI benefit using the couple FBR.
+This is a required step in spouse-to- spouse deeming computations under Federal rules,
+per SI 01320.400 B.- C.1. Form SSA-8015 may be used (SI 01320.700-.720).
+Unearned Income of the Couple
+$ 60.00  union pension
+-  20.00   general exclusion
+$ 40.00  countable unearned income
+Earned Income of the Couple
+$ 375.00  spouse's wages
+-  185.00   ineligible child allocation
+$ 190.00
++250.00   recipient's wages
+$ 440.00
+-   65.00   earned income exclusion
+$ 375.00
+÷    2    exclusion of one-half of remainder
+$ 187.50
+-  75.00   BWE (Federal)
+$ 112.50  countable earned income
+​
+​
+The system performs this computation, except for cases requiring a manual computation.
+CI/FR
+$  40.00  countable unearned income
++112.50   countable earned income
+$  152.50   CI/FR
+Benefit Computation
+$553.00  Couple FBR (1989)
+-152.50   CI/FR
+$400.50  SSI benefit
+6
+Determine SSI benefit payable using CI/FR.
+Compare results of steps 4 and 5. Use the lower benefit amount. The system usually performs this comparison.
+$310.50  step 4 result
+STEP
+ACTION
+EXPLANATION
+EXAMPLE
+​
+7
+Determine SSI benefit and CI.
+Compare results of steps 3 and 6. Pay the higher benefit amount.(After gross income and BCI have been input, the system performs this comparison,
+except for cases in force due.)
+SSI Benefit
+$310.50  step 6 result

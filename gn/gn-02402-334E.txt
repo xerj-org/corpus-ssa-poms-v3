@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.334 - Coding Switzerland Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402334 (fetched 2026-10-04)
+
+E. Description of Switzerland IDD bank data
+The data for coding IDD for Switzerland will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN for Switzerland
+consists of 21 characters. However, the bank data reflected on the MBR will reflect
+23 characters including the country code of N for Switzerland. Technicians will use
+the IBAN to derive the RTN and DAN when processing an IDD request.

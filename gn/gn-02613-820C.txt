@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - GN 02613.820 - Receiving and Processing Warrant Information Under the Fowlkes Acquiescence Ruling (AR)
+Effective Dates: 12/04/2006 - Present | TN 37 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613820 (fetched 2026-10-04)
+
+C. Process – Other Issues Referred to OIG From The FFSCF Database
+1. EVS Code of “A” Cases –Beneficiary States They Do Not Have a Warrant
+•
+Continue to process all Enumeration Verification System (EVS) code of “A” cases for
+probation or parole violations warrant information (i.e., offense codes on the warrant of 5011 and 5012) as indicated in
+GN 02613.150C.
+•
+Process all felony warrant information for beneficiaries residing outside of the Second
+Circuit per GN 02613.150C.
+•
+Process all EVS code of “A” cases for felony warrant information for beneficiaries residing in the Second Circuit as indicated in GN 02613.820C.1.a. through GN 02613.820C.1.c.
+a. SSA FO Receives Report That the Felony Warrant Does Not Belong to the Beneficiary
+Residing in the Second Circuit-EVS Code of “A” Case—Beneficiary in Current Pay Status
+for beneficiaries residing in the Second Circuit who are disclaiming the warrant and
+the felony warrant has an EVS Code of “A”, process as indicated below:
+Step
+Action
+1
+BENEFICIARY IN CURRENT PAY WHEN PROTEST IS RECEIVED BY SSA (due process period has
+not expired yet):
+Update the (FFDG) screen on the Fugitive Felon System Control File (FFSCF) and enter
+a PROTEST DATE (the date the beneficiary contacted SSA to protest), go to Step 2.
+2
+Review the MBR and NUMIDENT to determine if the beneficiary SSN, name, and date of
+birth are the same on SSA records as they are on the (FFWQ). Check the warrant issuing
+State on the FFWQ against the MBR address.
+NOTE: If the States are different, there is a possibility that the beneficiary is not
+the individual reflected on the warrant.
+If the beneficiary alleges they were never in the State that issued the warrant or
+they allege they were not in that State around the time the warrant was issued, further
+investigation of the identity of the individual on the warrant is required, go to
+Step 3.
+Or
+If the beneficiary provided sufficient information or evidence when they contacted
+SSA to protest their suspension and the evidence proves that the beneficiary is not
+the individual on which the warrant was issued. Go to Step 7.
+3
+Refer the case to OIG via email to: ^Fugitive Felon. In the Subject Line of the email,
+include your District Office (DO) or Processing Center (PC) code. Provide the facts
+of the EVS code of A situation (see information to include in the email message per
+GN 02613.150B.1. Step 2 to OIG) and ask OIG to investigate the identity of the individual on the warrant.
+Go to Step 4.
+4
+OIG will email back to the SSA FO that submitted the request the results of its investigation.
+Go to Step 5.
+5
+If the warrant belongs to the beneficiary process per Step 6.
+If the warrant belongs to another individual and not the SSA beneficiary, process
+per Step 7.
+6
+Warrant belongs to the beneficiary and the beneficiary resides in the Second Circuit.
+On or after December 6, 2005, the Social Security Administration (SSA) will no longer
+suspend benefits to beneficiaries who reside in the Second Circuit (Connecticut (CT),
+Vermont (VT) or New York (NY)) only because they have an unsatisfied felony warrant
+for more than 30 continuous days for a crime, or attempted crime.
+Do not suspend benefits, go to the FFSCF, FFDG screen, and enter a PROTEST DISPOSITION
+1 = PROTEST APPROVED and a GOOD CAUSE ESTABLISHED “Y,” GOOD CAUSE REASON “DNH.”
+Add a Special Message Field to the MBR containing the following text:
+“Fowlkes AR Relief is Granted, effective MM/DD/YYYY for Warrant No. ########, Dated
+MM/DD/YYYY.”
+Do not prepare a Good Cause Determination.
+Based on the POS input, the T2R Notice System will send the beneficiary a notice.
+The T2R Notice will not send the beneficiary any information about the Fowlkes AR.
+The SSA FO will send another detailed notice to the beneficiary that we will explain
+the Fowlkes AR and why SSA will not suspend benefits. See GN 02613.856A for suggested language to use in this notice to the beneficiary.
+7
+If the warrant does not belong to the beneficiary residing in the Second Circuit,
+go to the FFSCF, FFDG screen, and enter a PROTEST DISPOSITION 1 = PROTEST APPROVED
+and a GOOD CAUSE ESTABLISHED “Y,” GOOD CAUSE REASON “MID.”
+Do not prepare a Good Cause Determination.
+The T2R Notice system will send the beneficiary a notice based on the POS input. See
+NL 00755.700 for suggested language that is used in this notice to the beneficiary.
+b. Beneficiary in the Second Circuit Is In Suspension Status When The Protest Is Received
+by SSA—Erroneous Suspension
+If the beneficiary, residing in the Second Circuit, is already suspended when SSA
+receives the timely protest against the Advance Notice of Proposed Suspension action
+(i.e., SSA inadvertently suspended the benefits), then process as indicated below:
+•
+Beneficiary Living in the Second Circuit is the Person on the Felony Warrant
+For instructions on resuming benefits from erroneous fugitive felon suspension status,
+see GN 02613.600.
+For additional processing instructions that must be used for Fowlkes AR case processing
+because the beneficiary is residing in the Second Circuit, refer to GN 02613.820C.1.a. Step 6.
+•
+Beneficiary is Not Person on the Felony Warrant
+For
+instructions on resuming benefits from erroneous fugitive felon suspension status, see GN 02613.600.
+2. PSC Processing of EVS Code of “A” Case – Beneficiary Resides in the Second Circuit
+If the PSC receives a report from a beneficiary, who resides in the Second Circuit,
+that the felony warrant does not belong to the beneficiary (i.e., see instructions
+in GN 02613.150C for EVS code of “A” cases), then refer the beneficiary protest and the felony warrant information to the SSA FO.
+The SSA FO that has jurisdiction over the beneficiary’s address on the MBR will take
+action on the report.
+Notify the SSA FO that the beneficiary resides in the Second Circuit and that the
+beneficiary is disclaiming the warrant (EVS code of “A” situation).
+Notify the FO to process the report per GN 02613.820C.1.

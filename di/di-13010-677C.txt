@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - DI 13010.677 - The Entitlement Selection (ESEL) Screen
+Effective Dates: 12/08/2009 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010677 (fetched 2026-10-04)
+
+C. Reading the ESEL screen
+The ESEL screen is a screen that contains disability entitlement information. Use
+this screen to select the specific claim you want to work with. The fields on this
+screen are:
+•
+UNIT: Provides the ownership code, or jurisdiction, of the record you are working
+from. This field may propagate from another screen, or you may overlay the field with
+a different unit code.
+•
+The DCF ID field- Provides the controlling social security number on the DCF database.
+•
+NAME: Identifies the name of the beneficiary.
+•
+CUR ENT: Identifies which program the beneficiary is currently entitled on (i.e.,
+Title II, Title XVI, or concurrently entitled on the Title II and Title XVI programs).
+•
+CAN: Identifies the claimant account number.
+•
+BIC: Identifies the beneficiary’s identification code (BIC).
+•
+DIB ONSET: The date disability began.
+•
+EXR MOE:. The beginning date for Expedited Reinstatement (EXR).
+•
+DOE: The date of entitlement for disability benefits based on Medicare entitlement.
+•
+TERM MTH: Identifies the month and year that the beneficiary’s record terminated.
+•
+TWP DATE: Identifies the completion date for the trial work period (TWP) for the selected
+CAN.
+•
+MTH: Identifies which TWP service month the selected claim is in. For example, there
+are only nine possible TWP service months; therefore, the field will display 1-9.
+•
+SEL: Select which claim you would like to work with by placing an “X” in the appropriate
+field.
+•
+DO NOT SELECT ANY CLAIM: If you choose not to select a claim from the CANs provided,
+input an “X”. By selecting this option, you will not have the ability to input work
+determination data or impairment related work expenses (IRWE) data on the subsequent
+VERN screen.

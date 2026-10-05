@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 02220.012 - Collection of Title XVI Overpayments by Tax Refund Offset (TRO)
+Effective Dates: 02/20/2025 - Present | TN 132 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220012 (fetched 2026-10-04)
+
+F. Process - undeliverable ECO notice
+Undeliverable External Collections notices the United States Postal Services (USPS)
+cannot deliver are handled differently than other returned SSA items.
+Most of these undeliverable notices are handled by the mail room in PC7 ODO by scanning
+the barcodes on the notices using the TRUN screen (see MS 01114.008). If scanning is not possible or the notices are returned to another location, the
+notices are input using the TRRN screen (see MS 01114.009).
+An undeliverable pre-offset notice is recorded on the ECO Master (see MS 01114.007) and will stop any referrals to Treasury, credit bureau reporting, and Administrative
+Wage Garnishment.
+If referral has already been made, an update is sent to Treasury to remove the debt
+from TOP. ECO will request an address from the Address Verification Contractor (see
+SI 02220.012A.4 in this section).

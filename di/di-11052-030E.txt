@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 11052.030 - Adjudication of Initial End-Stage Renal Disease Medicare Cases
+Effective Dates: 01/04/2016 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052030 (fetched 2026-10-04)
+
+E. Concurrent claims
+EC does not have the capability to process concurrent claims at the same time. Use
+the following steps to process concurrent claims.
+1. Concurrent ESRD and Disability Claim
+Establish and transfer DIB EDCS
+Trigger ESRD claim thru MCS (or an A101, if unable to process through MCS)
+2. ESRD and RIB Claim
+Trigger ESRD thru MCS.  The next day, trigger the RIB claim.
+If the ESRD claim won't trigger thru MCS, trigger the RIB claim.  Then process according
+to the instructions in DI 11052.030B in this section.
+3. DIB 090 denial /RIB/ESRD
+Deny DIB 090,
+Process ESRD claim thru EC,
+Trigger RIB Allowance.  If processed out of order, it results in additional actions
+and longer processing times.
+4. ESRD, RIB & DIB Claim
+Establish and transfer DIB EDCS.
+Trigger ESRD claim thru MCS.  If the ESRD claim won't trigger thru MCS, trigger the
+RIB claim.  Then process according to the instructions in DI 11052.030B in this section.
+Trigger RIB claim (the next day)
+IMPORTANT:
+If you process a non-medical completion (NMC) for the DIB claim before you trigger
+the RIB claim, the DIB claim DECI screen will lock up and the DIB claim will have
+to be manclrd and reloaded when the decision is received.
+5. ESRD and CDB Claim
+Establish and transfer CDB EDCS
+Trigger ESRD claim thru MCS (or an A101, if unable to process through MCS)
+6. ESRD Child, SUR/AUX Child Claim
+Trigger ESRD claim thru MCS
+If the ESRD claim won't trigger thru MCS, trigger the aux/sur child claim.  Then
+process according to the instructions in DI 11052.030B in this section.
+7. ESRD and DWB Claim
+Establish and transfer DWB EDCS
+Trigger ESRD claim thru MCS (or an A101, if unable to process through MCS)
+8. Hearing Pending on DIB - Claimant files for ESRD
+Take ESRD claim on paper
+Fax all documents into EDCS
+Prepare and Process an EF101

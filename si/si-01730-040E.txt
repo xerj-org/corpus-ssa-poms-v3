@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - SI 01730.040 - Assignment of Rights for Medicaid Eligibility
+Effective Dates: 12/12/2016 - Present | TN 10 (06-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501730040 (fetched 2026-10-04)
+
+E. Procedure — automatic assignment
+1. Paper Applications
+After explaining AOR, do not complete block 59(a) of the paper application in automatic
+assignment section 1634 States. Continue with the rest of block 59 and complete an
+SSA-8019-U2 (“Health Insurance Information Request”, SI 01730.045) when the claimant/beneficiary alleges third-party health insurance.
+2. MSSICS Applications
+In MSSICS claims, code BMEN with a “Y” to bring up the BHLT screen. Code BHLT (see MSOM INTRANETSSI 019.020) with an “A” for automatic.
+3. Post-Eligibility Situations
+In post-eligibility(PE) situations when there is no assignment of rights(AOR) coding on the SSR:
+•
+do not get a signed SSA-169 (“Assignment of Rights
+Statement”), instead,
+•
+read the AOR statement on the SSA-169 or the SSA-8000-BK to an individual, and
+•
+ask if the recipient has any third-party health insurance (not Medicare or Medicaid).
+(See SI 01730.045C.3. for guidance on redeterminations.)
+For MSSICS 4.4 and later, when a recipient moves into an automatic assignment State
+from a nonsection 1634 State, read the assignment of rights statement, code BMEN with
+a “Y” and BHLT (see MSOM INTRANETSSI 019.020) with an “A” for automatic.

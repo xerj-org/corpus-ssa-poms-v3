@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - DI 11015.020 - Crediting Months of SSI/SSP toward the Disability Waiting Period and Medicare Qualifying Period for Disabled Widow(er)’s Benefits (DWB)
+Effective Dates: 09/05/2025 - Present | TN 36 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015020 (fetched 2026-10-04)
+
+C. Example calculations of MOE and Medicare effective date for DWB claims using SSI/SSP
+credit months
+1. Example 1
+A disabled widow protectively files an application for DWB in 08/2009.
+While reviewing queries during your pre-claim development, it becomes apparent that
+she had received SSI from 09/2007 until 02/2008, at which time her eligibility ceased
+due to excess resources. Although this SSI record has terminated, you know to count
+all the months in the period until the month prior to DWB entitlement and to apply
+that credit to her DWB waiting period, should she be found disabled.
+After the DDS review, the onset is established as of 06/13/2008, the date of a new
+disability.
+Follow the steps as outlined above and proceed as follows:
+1.
+From reviewing the CMPH field of the SSR, 09/2007 is the first C01 month with a dollar
+amount other than zero. The crediting period begins here.
+2.
+Apply the SSI/SSP credit months beginning 09/2007. The “effective” waiting period
+is 09/2007 through 01/2008.
+•
+Since the MOE is restricted by the limits of retroactivity due to the protected filing
+date, the widow has already served her five-month waiting period prior to the retroactive
+scope of the application.
+•
+MOE: 08/2008
+3.
+Apply the SSI/SSP credit months beginning 09/2007 to the 24-month Medicare qualifying
+period. Her Medicare effective date is:
+09/2007 plus 24 months = 09/2009
+4.
+Record the information on the appropriate MCS screens.
+2. Example 2
+A disabled widow protectively files an application for DWB in 07/2007.
+She received SSI from 02/2001 until 12/2003 when her benefits terminated due to excess
+income.
+After the DDS review, the onset is established as of 01/03/2007, the date of a new
+disability.
+Follow the steps as outlined above and proceed as follows:
+1.
+From reviewing the CMPH field of the SSR, 02/2001 is the first C01 month with a dollar
+amount other than zero. The crediting period begins here.
+2.
+Apply the SSI/SSP credit months beginning 02/2001. The “effective” waiting period
+is 02/2001 through 06/2001.
+MOE: 01/2007
+3.
+Apply the SSI/SSP credit months beginning 02/2001 to the 24-month Medicare qualifying
+period. Her Medicare effective date is:
+•
+01/2007
+•
+Although there are 76 elapsed months creditable due to the SSI/SSP period, retroactivity
+is limited by the protected filing date and established onset date of 01/03/2007.
+4.
+Record the information on the appropriate MCS screens.
+NOTE: In this example, there is no requirement that the widow be under a disability “throughout”
+the full month. The law provides that entitlement to widow(er)’s benefits based on
+a disability begins with the first month after the waiting period in which he or she
+becomes so entitled. Under the special rule enacted by section 5103 of Public Law
+No. 101-508, the widow in this example had already served her waiting period by 07/2001.
+Assuming the other factors of entitlement are met (i.e., age, relationship, established
+onset prior to the end of the prescribed period), she became entitled to benefits
+for January 2007, the first month “in which” she was disabled.
+3. Example 3
+A disabled widow protectively files an application for DWB in 01/1991.
+Prior to sending the case to the DDS, your thorough review of her record indicates
+that she received SSI/SSP payments beginning in 01/1988. Although her SSI had since
+terminated, you know to count all months in the period until the month prior to DWB
+entitlement and apply that credit to her waiting period, should she be found disabled.
+After DDS’s review, the onset is established as of 10/04/1990, the date of a new disability.
+Follow the steps as outlined above and proceed as follows:
+1.
+From reviewing the CMPH field of the SSR, 01/1988 is the first C01 month with a dollar
+amount other than zero. The crediting period begins here.
+2.
+Apply her SSI/SSP credit months beginning 01/1988.
+Since the first possible month of entitlement under this provision is 01/1991, the
+MOE is 01/1991.
+3.
+Apply the SSI/SSP credit months beginning 01/1988 to the 24-month Medicare qualifying
+period. Despite having more than 24 creditable months, her Medicare effective date
+is limited by Section 5103 of Public Law 101-508 to 01/1991.
+4.
+Record the information on the appropriate MCS screens.
+4. Example 4
+A disabled widow protectively files an application for DWB in 01/1991.
+After DDS’s review, onset is established as of 06/01/1989 based on the adoption of
+a Title XVI medical/vocational allowance. The MOE can be no earlier than 01/1991,
+the effective date of Section 5103, because the DDS has entered “MOE restricted to
+01/91 - P.L. 101-508” in the remarks section of the SSA-831. For additional information
+concerning the disability standard for DWB purposes prior to the effective date of
+P.L. 101-508, see Definitions of Disability DI 00115.015A.
+Proceed as follows:
+1.
+From reviewing the CMPH field of the SSR, 06/1989 is the first C01 month with a dollar
+amount other than zero. The crediting period begins here.
+2.
+Apply her SSI/SSP credit months beginning 06/1989.
+MOE: 01/1991 (MOE cannot be before 01/1991 - SSI/SSP months have no effect.)
+3.
+Apply the SSI/SSP credit months beginning 06/1989 to the 24-month Medicare qualifying
+period. Her Medicare effective date is:
+06/1989 plus 24 months = 06/1991.
+4.
+Record the information on the appropriate MCS screens.
+5. Example 5
+An SSI recipient, with an established onset date of 06/01/1990, becomes entitled to
+disability insurance benefits (DIB) based on his date first insured of 04/1991.
+His wife passed away in 01/1992.
+During an SSI redetermination, he files a DWB application in 01/1993. Based on the
+adoption of the Title XVI determination, onset for DWB is established as 06/01/1990.
+Since he did not file until 01/1993, the DWB MOE is restricted by the date of death
+to 01/1992 (12 months retroactivity). Before this provision, considering only the
+DWB entitlement, Medicare would be effective 01/1994, based on a 24-month qualifying
+period.
+Proceed as follows:
+1.
+From reviewing the CMPH field of the SSR, 06/1990 is the first C01 month with a dollar
+amount other than zero. The crediting period begins here.
+2.
+Apply his SSI/SSP credit months beginning 06/1990.
+3.
+Considering his DWB entitlement only, the regular Medicare effective date is 01/1994
+after serving the 24-month qualifying period. However, after crediting SSI/SSP months
+to the qualifying period, the Medicare effective date becomes:
+06/1990 plus 24 months = 06/1992.
+4.
+Record the information on the appropriate MCS screens.
+NOTE: In this example, note the difference in Medicare effective dates because of the SSI
+credit months:
+•
+Effective date for Medicare after SSI credit months: 06/1992.
+•
+Effective date for Medicare due to DIB: 09/1993.
+Due to the DWB entitlement, the claimant will be entitled to Medicare fifteen months
+earlier than he otherwise would have been based solely on his DIB entitlement.

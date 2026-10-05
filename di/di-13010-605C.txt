@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 13010.605 - The CDR Development Worksheet (CDRW) Screen
+Effective Dates: 02/02/2018 - Present | TN 21 (08-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010605 (fetched 2026-10-04)
+
+C. Procedure – Manual Issues
+Use the standard phrases listed in MSOM CDR 001.013 for the ISSUE field when ever
+possible for manually created issues. These key words are suggested to establish consistency
+for both management information and ease of reference by other users.
+•
+The LOC, TYPE and REQUEST fields are systems generated. LOC is your office location,
+TYPE relates to the DCF type of action (i.e. EXR, T2, WORK) and REQUEST is the current
+date. Complete the F/UP, CLOSED, and COMMENTS fields with appropriate dates or comments.
+•
+Enter DDDDDD in the CLOSED field to delete an issue. Enter MMDDYY to close an issue
+with a date, and XXXXXX to close an issue without a date.
+•
+Enter any date greater than the system run date for the TICKLE date. If left blank,
+a default tickle date of 15 days will be established.

@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - DI 13015.265 - Special Instructions for Processing Overdue Medical Cessation and Uneffectuated Medical Cessation Cases
+Effective Dates: 10/02/2026 - Present | TN 29 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015265 (fetched 2026-10-04)
+
+D. Appeals of uneffectuated medical cessation determinations
+In processing the UMC workload, an issue was discovered concerning appeals filed on
+the cessation determinations. In many cases, the appeals were never processed. The
+appeals were not annotated to our mainframe systems and no actions were taken to process
+the appeals. When discovered, many of the appeal requests were very old. Therefore,
+special procedures apply for this category of UMC cases, but only if the delays in
+processing the appeals were caused by administrative error. If the processing delays were caused by normal workflow limitations (i.e., backlogs),
+the special procedures do not apply. To determine what caused the delays, review the folders and obtain pertinent queries
+(MBR, SSID, DDSQ, CPMS, etc.) to determine the particular circumstances involved in
+each case.
+Another issue was found concerning UMC cases with appeal decisions that were not effectuated (due to administrative error) at the time the decisions
+were made. Therefore, special procedures also apply for this group of UMC appeals
+cases.
+1.
+If an unprocessed appeal (on the UMC determination) is discovered in the file during the FO review of the
+UMC issue, document the folder with the Special Determination attached (EXH #2) and
+check the appropriate box. Do not establish the appeal in MCS/MSSICS. Initiate a new CDR (see DI 13015.265E).
+2.
+If a current appeal is received or pending in the FO (on the uneffectuated medical cessation determination), document the folder
+with the Special Determination attached (EXH #2) and check the appropriate box. Do not establish the appeal in MCS/MSSICS. Initiate a new CDR (see DI 13015.265E).
+3.
+If a current appeal is received or pending in the DDS on a UMC case, document the folder with the Special Determination attached (EXH#2)
+and return the case to the FO with the flag shown in Exhibit 3.
+4.
+If an appeal was filed on a UMC case, a decision was rendered, and the appeal decision was favorable, process as usual, according to established procedures. Update the UMCCC website appropriately
+(i.e., No Termination Required with an explanation of the appeal decision in remarks).
+5.
+If an appeal was filed on a UMC case and the appeal decision upheld the medical cessation determination, but benefits have not yet been terminated, do not terminate benefits. Document the folder with the Special
+Determination attached (EXH #2) and check the appropriate box. Initiate a new CDR
+(see DI 13015.265E).
+6.
+If an appeal was filed on a UMC case and the appeal decision upheld the medical cessation determination, benefits have already been terminated, but were not terminated at the time the appeal decision
+was made due to administrative error:
+a.
+If any type of protest is received (e.g., request for waiver of overpayment, new claim filed, etc.), reinstate benefits,
+pay any benefits withheld, document the folder with the Special Determination attached
+(EXH #2) and check the appropriate box. Initiate a new CDR (see DI 13015.265E).
+b.
+If no protest is received, no further action will be taken; do not attempt to identify cases already terminated.
+c.
+If benefits were terminated after an appeal decision and a new application was filed, reinstate benefits, pay any benefits withheld, document
+the folder with the Special Determination attached (EXH #2) and check the appropriate
+box. Initiate a new CDR (see DI 13015.265E) and treat the new application as a duplicate
+filing (see GN 00204.028, SI 00601.048 and/or DI 12045.027, as appropriate).
+7.
+If the Processing Center (PC) receives a pipeline UMC appeal case previously sent for termination action, they will return it to the FO for a
+new CDR.
+8.
+If the DDS/HO/AC receives a pipeline UMC appeal case that was previously sent for appeal processing, they will document the folder
+with the Special Determination attached (EXH#2) and return the case to the FO (for
+initiation of a new CDR).
+NOTE: These special UMC procedures do not apply once the DDS makes the new CDR determination.
+For example, if the new CDR determination (made after January 1, 2006) again results
+in a cessation determination, terminate benefits based on the new CDR cessation date
+and process any subsequent appeal.

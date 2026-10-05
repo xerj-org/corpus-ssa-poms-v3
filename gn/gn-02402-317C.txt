@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.317 - Coding British Virgin Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402317 (fetched 2026-10-04)
+
+C. Multi-country contract
+Citibank serves as the processor bank for IDD to several countries, including British
+Virgin Islands. All Caribbean countries for which Citibank is the processor bank have
+a prefix of 70 at the beginning of the routing number (RTN), and an assigned letter
+in the first position of the Depositor Account Number (DAN). The letter assigned for
+British Virgin Islands is "G".

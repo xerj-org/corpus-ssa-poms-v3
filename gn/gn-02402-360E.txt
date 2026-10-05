@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02402.360 - Coding Colombia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402360 (fetched 2026-10-04)
+
+E. Description of Colombian direct deposit data
+The data for coding Colombian IDD will come from banks that the FRBKC has determined
+can receive IDD payments. The FRBKC identified and listed the participating FIs on
+the International Treasury Services (ITS.gov) website as part of the ITS help file. If you do not have access to ITS.gov, you should refer to the listing in GN 02402.360H in this section to verify bank codes when processing direct deposit to Colombian
+banks.
+The IDD coding Colombia FIs will consist of up to 26 characters including the country
+code of U for Colombia. The account number contains:
+•
+a 9-digit RTN 6600BBBBX: where 66 is the country code field, position 2 and 3 are filler 00s, BBBB= 4-digit bank code,
+X = the check digit code; and
+•
+a DAN UAAAAAAAAAAAAAAAA, which consists of a country code of U for Colombia, followed by the account number
+(up to 16digits in length).
+NOTE: Account type can be defaulted to checking if there is no indication of whether the
+account is a checking or a savings account when enrolling in International Treasury Services
+(ITS.gov).
+NOTE: No P.O. box address is allowed when enrolling individuals into IDD for Colombia.

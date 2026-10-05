@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02607.975 - Enumeration Verification System (EVS) and Inmate Status Codes on PUPS Alerts and Records
+Effective Dates: 08/15/2023 - Present | TN 90 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607975 (fetched 2026-10-04)
+
+A. EVS codes on PUPS records and alerts
+EVS CODE
+DESCRIPTION OF CODE
+V
+Match on name, date of birth (DOB), and sex.
+L
+SSA located SSN with match on name, DOB, and sex.
+2
+Match on name and DOB only.
+3
+Match on name and sex only.
+4
+Match on name only.
+A
+SSN located on ALPHA search - name and DOB match.
+B
+SSN located on ALPHA search - name match only.
+E
+Manually corrected -- Input SSN did not verify. Located correct SSN by a manual process.
+F
+Auto corrected -- Input SSN did not verify. Auto-corrected the SSN by matching to
+previously corrected data.
+EVS automatically verifies incoming inmate records using the following tolerances:
+•
+Name verifies if both the surname and the first initial match.
+•
+DOB verifies if the year (EVS disregards the month and day) of birth on the input
+record matches with any year of birth on the corresponding SSA NUMIDENT record.

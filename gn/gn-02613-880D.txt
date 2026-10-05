@@ -1,0 +1,120 @@
+SSA Program Operations Manual System (POMS) - GN 02613.880 - Title XVI Pre-2007 Martinez Settlement Relief Processing
+Effective Dates: 05/06/2026 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613880 (fetched 2026-10-04)
+
+D. Remove the remaining fugitive felon overpayment (O/P) balance
+If a fugitive felon O/P exists on the current or any prior record with an offense
+code other than 4901, 4902, 4999, 5011, 5012, 8101, and 8102 during the period between
+January 1, 2000, and December 31, 2006, remove the remaining fugitive felon overpayment
+balance. Review all SSRs to determine the combined fugitive felon O/P amount.
+Do NOT repay the recipient any overpayment amounts already collected.
+Systems automatically removed as many of these O/P balances on September 28, 2010
+and April 23, 2011, by placing an NE TAC in the OPDD field on the SSR. If the NE TAC
+is present, no further action is required for the fugitive felon O/P issue, with one
+exception:
+If there was an uncollected civil monetary penalty, review the record to verify that
+the uncollected penalty is still on the SSR. The system is not able to differentiate
+between a civil monetary penalty and any other manually posted overpayment. There
+may be cases where the uncollected penalty needs to be placed on the record by the
+FO.
+For additional information on civil monetary penalties, see GN 02230.050 through GN 02230.070.
+The cases excluded from the automated process were located on a website that is no
+longer available.
+If the recipient contacts you requesting relief and the NE TAC is not present on the
+SSR, resolve the NE TAC exception, if needed, determine the amount of the fugitive
+felon O/P, and then N TAC the remaining O/P balance.
+1. SSRs without an NE TAC
+Any of the following four scenarios may be the result of an SSR without an NE TAC:
+a.
+there was no overpayment balance at the time of the systems write off.
+b.
+the case met the criteria that qualified for an automated write off, but the SSR contained
+one of the exceptions listed below:
+•
+Force Flag on the SSR
+•
+Excess decision
+•
+Embedded excess decision
+•
+SSR requires a single record cleanup
+•
+SSR has 25 sequences
+•
+The State due amount is higher than the State paid amount and the State has ended
+federal administration of Optional State Supplement.
+c.
+The case had multiple warrant (MMW Mixed Multiple Warrants) where there were periods
+that met the criteria for automated write off and periods that did not meet criteria
+for write off (F7 listing in CATS).
+d.
+The claimant contacts the FO before the automated write-off takes place.
+2. Action to resolve NE TAC exceptions on the SSRs
+Take the following action to resolve the NE TAC exceptions before removing the balance
+of fugitive felon O/P.
+a.
+Excess decision (OPX): remove the excess decision
+b.
+Embedded excess decision and single record cleanup: submit the record to vHelp (Primary
+Topic – SSI, Subtopic – Fugitive Felon/FFAP Database) for cleanup.
+c.
+Record has 25 sequences: force the record to reconcile, then perform the write off
+on the new record
+3. Determine the amount of the fugitive felon O/P
+Take the following actions to determine the amount of fugitive felon O/P to remove
+from the outstanding O/P balance.
+a.
+Check the Overpayment Sequence Data (OPSQ) on the SSR to determine if an overpayment
+exists.
+b.
+If an overpayment exists, query the full history of the record(s) containing an N25
+month by entering an H in the SSID = LIMIT: field on the Supplemental Security Income
+Queries (SSQM) screen.
+c.
+Check the Payment Status (PS) field located in the Computation History Segment (CMPH)
+on the SSR for all N25 months. Calculate the O/P for only the N25 months caused by
+felony offense code not covered by Martinez to determine the amount of the fugitive
+felon O/P.
+d.
+Compare the total fugitive felon O/P amount with the total O/P amount shown in the
+Overpayment Collect Decision (OPD) on the Miscellaneous Payment Segment (MPMT) line
+on the most recent SSR.
+•
+If the total outstanding O/P balance is greater than or equal to the fugitive felon
+O/P, remove the amount of the fugitive felon O/P, or
+•
+If the total outstanding O/P balance is less than the fugitive felon O/P, remove the
+total outstanding O/P balance.
+NOTE: The total outstanding O/P balance may include O/Ps caused by other SSI eligibility
+factors such as income or resources, which we must consider when determining pre-2007
+Martinez O/P relief.
+4. Reviewing Sequence Data for the removal of the fugitive felon O/P
+Once you have determined the amount of the fugitive felon O/P to remove, review each
+sequence data. Be cautious not to remove already collected debt. If a sequence has
+been partially collected, reduce the decision on the record to the amount already
+collected and use the N TAC to remove the remaining amount. Take the following steps
+to place an N TAC on the SSR.
+a.
+From the MSSI menu, select 2 for Update then 19 for Direct SSR Update (UMEN),
+b.
+On the UMEN screen, select Overpayment Menu (UOMN),
+c.
+On the UOMN screen, place Y for Sequence Actions and Decision Processing
+d.
+After entering the Y, you will be at the Sequence Selection (UOSS) menu. This menu
+lets you select a sequence(s) for which an action is to be completed.
+e.
+After selecting the sequence(s), the Add/Change/Delete Overpayment Decisions (UODC)
+screen displays O/P disposition decisions associated with the selected sequence(s).
+You can select to change or delete one or more of these decisions and add a new decision
+for the sequence. For additional information on the UDOC screen, see MSOM BUSSR 004.007.
+f.
+After selecting all required sequences, you will see the Overpayment Decisions (UOPD)
+screen. Select 6 Uncollectable and enter the amount of the O/P removal in the Decision
+Amount field. This action will place an N TAC on the OPDD segment of the SSR. For
+additional information on the UOPD screen, see MSOM BUSSR 004.008.
+g.
+Annotate the SSR with the following remark: Martinez settlement T16 pre-2007 overpayments
+removed.
+NOTE: If you are removing an O/P amount for more than $20,000, follow normal processing
+instructions stated in SI 02220.005.

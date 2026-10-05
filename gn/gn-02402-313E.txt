@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.313 - Coding Austria Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402313 (fetched 2026-10-04)
+
+E. Description - Austria bank data
+The data for coding IDD for Austria will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN will be 20
+characters (2 letters and 18 numbers). However, the bank data reflected on the MBR
+will be 21 characters. Technicians will use the IBAN to derive the RTN and DAN when
+processing an IDD request.

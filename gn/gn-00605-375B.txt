@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 00605.375 - Processing Cases When a Final Accounting is Not Required
+Effective Dates: 06/05/2013 - Present | TN 29 (03-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605375 (fetched 2026-10-04)
+
+B. Title XVI cases
+When processing a change of payee action, the FO must query the SSR to determine if
+a final accounting is required:
+•
+If the date in the REPY S: MMDDYY field on the SSR is 13 months or more from the month
+of input of the change of payee, a final accounting is not required.
+•
+If there is no REPY S field, look at the PRSN AP: MMDDYY field. If the date is 13
+months or more, a final accounting is not necessary.
+When a final accounting is not necessary, the FO inputting the payee change sends
+the final notice to the former payee, requesting the return of any conserved funds.
+The former payee is not required to complete the Representative Payee Report form.
+In cases in which a final accounting is not required, if the former payee:
+1.
+does not allege or return any conserved funds, and there is no reason to believe that
+money is being held, do not request completion of the Representative Payee Report
+form.
+2.
+does not report any conserved funds, but there is reason to believe that money belonging
+to the beneficiary is still being held, request a final accounting. Send the Representative
+Payee Report form along with the final notice.
+3.
+alleges conserved funds, follow the steps in GN 00605.370A. Compare the amount alleged to the amount of conserved funds actually returned. If
+the amount returned is consistent with the payee’s allegation and if it appears consistent
+with the prior accounting, recertify the conserved funds to the successor payee or
+beneficiary.
+See Details:
+•
+GN 00603.055 - Transfer of conserved funds.
+•
+NL 00703.354 - Conserved Benefits Entire Amount Paid to New Representative Payee or to the Beneficiary
+•
+NL 00703.356 - Conserved Benefits Monthly Installments Paid To New Representative Payee; and
+•
+SM 01301.639 - Conserved Funds (CF)

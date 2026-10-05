@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 22505.023 - Developing Medical Evidence of Record from Military Health Sources
+Effective Dates: 03/27/2017 - Present | TN 45 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0422505023 (fetched 2026-10-04)
+
+C. Procedure for using a User Trigger to request MER from the DoD
+1. How to initiate a User Trigger request
+To initiate a User Trigger request to obtain evidence from DoD:
+•
+Ensure the SSA-827 (Authorization to Disclose Information to the Social Security Administration) is
+correct and complete;
+•
+Use the Disability Case Processing System (DCPS) or the standalone web-based
+application;
+•
+Identify and select the Social Security Number;
+•
+Search the medical facilities list for “DoD Central Location” and select it;
+•
+Enter the requested date range; and
+•
+Click on the “Initiate Request” button to make the User Trigger request.
+NOTE: You will receive a confirmation notice in the EF blue section that a request has
+been submitted to DoD for processing. Allow 5 hours for the response.
+2. Reasons for DDS to initiate a User Trigger request
+There are several reasons why DDS may need to request DoD evidence using the User
+Trigger, including:
+•
+A HIT source was not originally identified by MEGAHIT;
+•
+A HIT source is identified after case transfer;
+•
+HIT MER in file needs to be updated;
+•
+A HIT response document indicates a time out error; and
+•
+Additional medical evidence is needed for dates outside of the initial MEGAHIT request
+timeframe.
+For more information on when to create a User Trigger request, see DI 22505.006C.1.

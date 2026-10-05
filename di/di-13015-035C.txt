@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - DI 13015.035 - Title XVI Medical Folder(s) - FO Location
+Effective Dates: 03/14/2016 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015035 (fetched 2026-10-04)
+
+C. Procedure
+1. Spouse search
+Currently the SSI Control System (SSICS) only tracks the Housed Under Number (HUN)
+of the SSI case. A person who was a spouse when they filed, but is currently entitled
+as an individual, may have their DIB data filed in the HUN folder of the individual
+that they were married to at the time of filing. In order to obtain the individual's
+DIB file, search prior records, and obtain AR33 requests for the HUN of any prior records.
+NOTE: Apply screen-out criteria listed in DI 13005.020 before searching for the medical folder.
+2. Queries to obtain for title XVI folder
+Obtain the following queries to determine the location of the title XVI folder:
+•
+The SSID online query, or
+•
+The SSI2 online query with the CCTL segment, and
+•
+The offline SSI case control query (SSA-8028, AR25).
+•
+See DI 13015.080 for additional queries and helpful hints.
+Keep all pertinent queries. Circle/highlight pertinent information, e.g., on the NUMI,
+circle/highlight any name change.
+a. The SSID or the SSI2/CCTL query.
+Both the SSID and the SSI2/CCTL show basic case control data; however, if the folder
+is not readily available and found obtain a SSID offline case control query (SSA-8028, AR25). Review all SSID's for all records
+for the SSN involved (e.g., RN1x3, RN2x3 and RN3x3). Look for other FOs who may have
+housed the folder at one time or another. Pay special attention to the XDO - Transmitting
+District Office code or RN1. The XDO Code is located in RCDR – Record Data line on
+a SSI query. The XDO may never have shipped the original folder to the SSANRC or to
+any other office.
+b. The offline case control query (SSA 8028; AR25).
+Obtain a Supplemental Security Income (SSI) offline query – Alert Response (AR) 25.
+The AR25 is an overnight query that provides up to six prior folder locations (SM
+01201.050 and SM 01201.110).
+c. EXAMPLE of 8028 offline query request.
+TA: A AH: SMITH, A AR:25 MV: MMDDYY AN: XXX XX XXXX
+If your review of the above queries indicates that another office (besides SSANRC/FRC)
+was involved, telephone and request them to conduct a search for the folder. See DI 13015.035B.3.
+3. How to search for title XVI folder – in FO of jurisdiction
+a.
+Search for folder by last name.
+b.
+Look at a NUMI for different names used since date of filing. If it is difficult to
+determine which last name is on the folder, search using ALL known last names.
+c.
+Search in all locations until all possibilities (see DI 13015.080) are exhausted, including any specialized units within your FO, e.g., Court Cases,
+Appeals, DAA, etc.
+d.
+Check your shipping lists: the folder may have been shipped but not yet read in. Most childhood cases should
+be in the FOs. Claims for children under age 19 are still SSI shipping exclusions
+per SM 01201.155A. Many of these cases have been stored in local FO alternative storage
+areas. Remember to document on the SSA-5002 (see DI 13015.250) that you have carefully searched in your own office first, including any local alternative storage areas, until all possibilities have been
+exhausted, including those overflow filing cabinets and folders awaiting shipment
+etc.
+e.
+Folder found: See DI 13005.030.
+f.
+Folder not found: See DI 13015.035B.3. and DI 13015.080.
+4. Unable to locate medical folder in FO of jurisdiction AR25 reflects other FOs
+a.
+Remember to document on the SSA-5002 that you have carefully searched in your own
+office first, including any local alternative storage areas, until all possibilities
+have been exhausted, including those overflow filing cabinets and folders awaiting
+shipment etc.
+b.
+Telephone and provide the other FO(s) with all potential names under which the folder
+could be filed.
+c.
+Advise them if there is something unusual/unique about the case, (e.g., DAA, Age 18,
+Low Birth Weight (LBW), etc.) that might help in the search. Childhood cases have
+been a shipping exclusion since mid-1995. Childhood cases may be stored in alternative
+storage areas.
+d.
+If the other FO cannot immediately locate the file, establish a tickle date in accordance
+with that FOs estimated time needed for a response to search request.
+NOTE: Establish tickle controls using the DCF worksheet (CDRW) located in MSOM CDR 001.013.
+e.
+Folder Found: Tickle for receipt.
+f.
+Folder Received in FO: See DI 13005.030.
+g.
+If unable to locate the folder(s), proceed to DI 13015.080.
+5. Document search for medical folder
+Document on the SSA-5002 (see DI 13015.250) all efforts to obtain the folder(s) for follow up purposes and to inform the next
+person/component who handles the case in order to reduce duplication of efforts.
+Keep all pertinent queries in file. Circle/highlight pertinent information, e.g.,
+on the NUMI circle/highlight any name change.

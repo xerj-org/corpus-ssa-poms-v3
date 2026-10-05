@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.378 - Coding Lebanon Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402378 (fetched 2026-10-04)
+
+G. Example of coding Lebanon direct deposit
+The customer provides us with a signup form for Mauritius containing the account number:
+LB62099900000001001901229114
+•
+The first two characters of a Lebanon IBAN are “LB,” that represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The fifth through eighth characters of the IBAN represent the four-digit bank code.
+•
+The last 20 digits of the IBAN represent the 20-digit account number.
+1. Derive the RTN
+The technicians enters the information for the RTN
+•
+Code the prefix of 68
+•
+Code two filler zeros “00”
+•
+Code the four-digit bank code, “0999”
+•
+Code the one-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+Start with a country code of C designated for Lebanon; and
+•
+Code the first 16 digits of the 20-digit Account Number “0000000100190122.”
+3. Obtain the following information
+•
+RTN: 680009997
+•
+Checking
+•
+DAN: C0000000100190122
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680009997 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: C0000000100190122
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-680009997
+•
+DAN- CC0000000100190122

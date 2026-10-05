@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - SI 02310.015 - Savings Security Instrument Match (SB Diary)
+Effective Dates: 09/18/2026 - Present | TN 76 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310015 (fetched 2026-10-04)
+
+E. Procedure - clearance
+For purposes of these instructions, the term savings securities includes both paperless
+book entry securities and paper U.S. savings bonds.
+1. Identify Records
+Identify records with SB diaries by accessing the PE ODS system. Obtain an SSID to
+determine to whom the savings security data apply.
+2. Contact Individual
+a. Confirm Ownership
+Contact the individual (i.e., recipient, payee, or deemor) according to the instructions
+in SI 02310.007B. to confirm instrument ownership.
+b. Individual Agrees with Savings Security Data
+Determine whether the recipient's total countable resources exceed the applicable
+limit. See SI 02310.015E.5. Do not contact BFS.
+c. Individual Denies Ownership
+If the value of the securities combined with other resources does not affect eligibility,
+take no action. If the value of the securities and other resources is material to
+eligibility, verify ownership with BFS per SI 02310.015E.3.
+3. Contact BFS
+a.
+Contact BFS for savings security instrument ownership information via an SSA-562-U3
+to FO 675 Minneapolis, MN. (See SI 02310.049B.6.e. for information to include on the SSA-562-U3.) BFS expects turnaround time for responding
+to a verification request to take between 2 and 3 weeks from the date they receive
+the request.
+b.
+Also send a dated SSA-8510 with a signature of the owner as it appears on the alert
+and a copy of the savings security interface alert.
+c.
+In deeming situations, obtain an SSA-8510 for each individual (except minor children)
+on the record.
+d.
+When a representative payee signs the SSA-8510, add the statement SSA records confirm
+that the person that signed this form is a representative payee for the beneficiary,
+and as such, is permitted to authorize disclosure.
+e.
+When the recipient is deceased, have the survivor sign the SSA-8510, and add the statement
+SSA records confirm that the person that signed this form is the [show relationship,
+such as widow or widower], and as such, is permitted to authorize disclosure.
+4. Receive BFS Response
+a.
+Accept the BFS record as evidence of ownership. (If the individual's name appears
+on the microfilm record, BFS will provide a copy of the record). See SI 02310.015B. regarding possession.
+b.
+If BFS reports that it has no record of security ownership for the individual, discontinue
+development of the alert. (See SI 02310.015E.6.b.)
+5. Verify Savings Security Values
+Determine retroactive monthly values by using the procedures in SI 01140.240 and any instructions from your regional office staff.
+6. Clear the Diary
+Record all ownership verification results to avoid contacting BFS more than once for
+verification of the same savings securities/savings bonds.
+a.
+Documentation - Individual Owns Savings Securities/Savings Bonds
+•
+Modernized Supplemental Security Income Claims System (MSSICS) Document information
+required on the Stock, Bond, or Mutual Fund (MS 08113.020) and DSAB (MS 04422.015
+Savings Bond Interface Development (DSAB)) screens. Input RE21 in the CG field via
+the CMSC screen (MS 04423.006 Miscellaneous Data (CMSC)).
+•
+Non-MSSICS Transmit ownership information and current redemption value in the REMARKS
+field of the SSR. (See SM 01301.841, SM 01601.910 and SI 01140.240C.5.). Input RE21 in the CG field (See SM 01301.785 SM 01301.820).
+EXAMPLE 1: RECIPIENT OWNS BOOK ENTRY SAVINGS SECURITIES - REDEMPTION VALUE $$$$.
+EXAMPLE 2: RECIPIENT OWNS PAPER U.S. SAVINGS BONDS REDEMPTION VALUE $$$$.
+b.
+Documentation - Individual Does Not Own and/or Does Not Have Access to Saving Securities/Savings
+Bonds
+•
+MSSICS - Document information required on the DSAB (MS 04422.015 Savings Bond Interface
+Development (DSAB)) screen.
+•
+Non-MSSICS Record your development in the remarks section of the SSR
+c.
+Individual Is/Was Ineligible
+•
+MSSICS - The system will post N04 to the record. MSSICS will look at the pending file
+and post applicable payment status codes based on the information contained in the
+pending file.
+•
+Non-MSSICS - Transmit payment status code N04 for the appropriate months to the SSR
+via SSA-1719B input. (See SM 01305.001.)
+d.
+Diary Clearance Input
+•
+MSSICS - Complete the DSAB screen and build transaction SSR. See SM 01301.205.
+•
+Non-MSSICS - Transmit diary deletion to the SSR via Direct SSR Update. See SM 01301.210
+and MS 00302.019 Update Diaries (UDIA).

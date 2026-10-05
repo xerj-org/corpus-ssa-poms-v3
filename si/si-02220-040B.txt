@@ -1,0 +1,142 @@
+SSA Program Operations Manual System (POMS) - SI 02220.040 - Supplemental Security Income (SSI) Overpayment - Recovery Through Bankruptcy Proceedings
+Effective Dates: 06/24/2022 - Present | TN 131 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220040 (fetched 2026-10-04)
+
+B. Procedure
+Filing a bankruptcy petition automatically stays (stops) all efforts to recover any
+debt that arose prior to the filing. This automatic stay is applied regardless of
+whether the debt(s) are listed in the bankruptcy petition.
+The automatic stay also applies to individuals whose debt is listed in the bankruptcy
+petition even if the debtor’s name is not listed in the petition.
+Example: A Title XVI child recipient has a debt listed in the bankruptcy petition, but is
+not shown as a debtor. All recovery efforts against the child’s debt must immediately stop.
+1. The Field Office (FO) is notified of bankruptcy proceedings
+Take the following actions when you are notified of bankruptcy proceedings.
+a.
+If you receive a report of a bankruptcy filing from a source other than the Bankruptcy
+Court, determine whether we are listed as a creditor. For instructions on making this
+determination, see GN 02215.190B.
+b.
+The effective date for stopping recovery efforts is the date the bankruptcy petition
+is filed in Bankruptcy Court.
+c.
+Stop all recovery efforts on all debts (overpayments) which occurred prior to the date the bankruptcy petition was filed.
+Stopping all recovery efforts includes stopping recovery efforts against an overpaid
+child or an overpaid eligible spouse regardless of whether the child or spouse is
+listed as a debtor in the bankruptcy petition.
+Take the following actions to suspend overpayment recovery.
+•
+For current pay cases delete the RECOVER BY CHECK ADJUSTMENT (D TAC) decision through the Add/Change/Delete
+overpayment Decisions (UODC) screen. For instructions on deleting recovery by check
+adjustment, see SM 01311.130 and MSOM BUSSR 004.007.
+•
+Post a BANKRUPTCY (MS TAC) decision through the Overpayment Decisions (UOPD) screen.
+For instructions on posting a MS TAC, see SM 01311.220 and MSOM BUSSR 004.008.
+•
+For non-pay cases, change the RECOVER BY INSTALLMENTS (G TAC) or RECOVER BY CHECK ADJUSTMENT decision
+through the Add/Change/Delete overpayment Decisions (UODC).
+•
+Post a BANKRUPTCY (MS TAC) decision through the Overpayment Decisions (UPOD) screen.
+For instructions on posting a MS TAC, see SM 01311.220 and MSOM BUSSR 004.008.
+d.
+Refund the amount recovered in the month the bankruptcy petition was filed and for any subsequent
+month(s). Use the A-OTP process to refund the recovered amount(s). For instructions
+on the A-OTP process see SM 01901.005, MSOM BUSSR 003.022 and MSOM BUSSR 004.007 through
+MSOM BUSSR 004.009.
+e.
+When the bankruptcy notice indicates that a Proof of Claim should not be filed, follow
+Regional instructions, otherwise, send the Regional Office (RO) a copy of the bankruptcy
+proceedings. Attach the file. The file contains any documents that may provide useful
+information and system records relating to the bankruptcy (e.g., the overpayment and
+other notice(s), current queries (some examples are the MBR, SSID, SEQY, New Hire,
+HA-04, CPMS), and the folder (including, but not limited to, MSSICS, MCS, Appeals
+Review Processing System (ARPS), Evidence Portal (EP)).
+f.
+For cases not sent to the RO, follow the instructions in SI 02220.050.
+2. Regional Office (RO) procedure
+When you receive a bankruptcy case from a FO, take the following actions.
+a.
+Determine whether any of the exceptions in GN 02215.195F to filing proof of claim apply.
+b.
+If a claim can be filed, prepare the following for the signature of the ARC MOS for
+referral to the U. S. Attorney:
+•
+A statement of indebtedness. Instructions on the preparation of a statement of indebtedness
+are in GN 02215.200;
+•
+and
+•
+The Bankruptcy Form 410. Obtain the form 410 and instructions for completing it here.
+Forward the letter of transmittal, the proof of claim, the statement of indebtedness,
+the notice of bankruptcy, and the financial information to:
+U.S. Department of Justice
+Central Intake Facility
+2 Constitution Square
+145 N Street, N.E., Room 5E.307
+Washington, DC 20002
+3. Actions while the bankruptcy petition is pending
+a.
+Refund of an overpayment is received
+The automatic stay of collection while a bankruptcy petition is pending prevents the
+acceptance of any refund received to repay any part (or all) of the debt in the bankruptcy
+petition.
+Never accept a refund.
+Refund any amount inadvertently accepted.
+Use the A-OTP process to refund the recovered amount(s). For instructions on the A-OTP
+process, see MSOM BUSSR 003.022 and MSOM BUSSR 004.007 through MSOM BUSSR 004.009.
+EXCEPTION: We may accept payments made through a trustee on an approved repayment plan for
+Chapter 13 bankruptcy petitions. For more information regarding Chapter 13 bankruptcy
+petitions and an overview of bankruptcy proceedings, see GN 02215.185.
+b.
+An underpayment is determined
+The automatic stay of collection while a bankruptcy petition is pending prevents the
+use of any underpayment to reduce any overpayment that is included in the bankruptcy
+petition in the month the petition is filed and any prior months.
+c.
+Waiver is requested
+A liable overpaid individual can request waiver of recovery of an overpayment at any
+time. For instructions on processing waiver requests, see GN 02250.002.
+If a request for waiver is received after the bankruptcy petition is filed, follow
+normal waiver development. Policy and procedures for processing a waiver request are
+in GN 02250.000.
+Regardless of the amount of the overpayment and regardless of whether you approve
+or deny the waiver do not post your decision. Instead:
+•
+Inform the RO of your decision for their review and concurrence.
+•
+Forward all documents relating to the waiver and your decision to the RO.
+•
+If the RO concurs, post and document your decision. Follow the procedures in GN 02250.000.
+d.
+A subsequent overpayment
+If subsequent to the date the bankruptcy petition is filed an overpayment occurs,
+recover this subsequent overpayment using normal recovery procedures. For recovery
+procedures, see SI 02220.000. However, if part of the subsequent overpayment covers pre-petition month(s) the
+pre-petition part of the overpayment is protected from recovery by the automatic stay
+provisions and cannot be recovered.
+4. The bankruptcy petition is dismissed or discharged
+Whether you can resume overpayment recovery efforts depends upon the terms of the
+discharge order. You cannot take any recovery action that is not allowed by the terms
+of the discharge order. The Bankruptcy Court’s order dismissing or discharging the
+petition is binding on us unless the Regional General Council files an objection.
+a.
+If the bankruptcy proceedings are dismissed or the discharge order exempts the title
+XVI debt from discharge (i.e. the debt either in whole or in part must be repaid),
+resume normal collection procedures. For recovery procedures, see SI 02220.000.
+•
+For current pay cases, complete the Overpayment Decisions (UOPD) screen and select RECOVER BY CHECK ADJUSTMENT
+to resume collection. For policy and procedures for the UPOD screen, see SM 01311.115
+and MSOM BUSSR 004.007.
+•
+For non-pay cases, complete the Update Sequence Data (UOSD) screen and select DELETE to delete the
+SUSPEND BILLING indicator M. For policy and procedures for the UOSD screen, see SM
+01311.421 and MSOM BUSSR 004.006.
+b.
+If the bankruptcy petition is discharged and the discharge order does not exempt the
+title XVI debt from discharge, the amount of the debt covered by order (i.e., the
+amount of the debt that arose prior to the date of filing of the bankruptcy petition)
+is uncollectible.
+N TAC the uncollectible overpayment following the instructions in SM 01311.280.
+c.
+Policy and procedures on filing an objection to the Bankruptcy Court’s order are in
+GN 02215.196.

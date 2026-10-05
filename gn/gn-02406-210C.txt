@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - GN 02406.210 - Nonreceipt of Interim Assistance Reimbursement (IAR)
+Effective Dates: 09/25/2019 - Present | TN 69 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406210 (fetched 2026-10-04)
+
+C. State agency contacts the FO alleging nonreceipt of an IAR payment
+If the State agency contacts the FO alleging nonreceipt of an IAR payment verify that
+the GRC = P or G in the Miscellaneous Payment Data (MPMT) segment of the SSR. If this
+is the case, then SSA sent the payment to the state agency.
+Follow the input instructions in section B above to transmit the allegation to Treasury.
+If the MPMT segment does not show a GRC of P or G, SSA sent the payment to the recipient
+and no further nonreceipt action is necessary.

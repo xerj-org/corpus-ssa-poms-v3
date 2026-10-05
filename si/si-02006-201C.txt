@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - SI 02006.201 - Special Considerations for Month of Actual Receipt of Retroactive Title II Benefits—PMA Month
+Effective Dates: 05/12/2009 - Present | TN 14 (03-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006201 (fetched 2026-10-04)
+
+C. Process - additional steps required
+1. Background
+In windfall offset computations, when a fee agreement has been approved, the representative's
+fee (both the portion determined based on the title II past-due benefit and the portion
+determined based on the title XVI past-due benefit) is used to reduce the title II
+income (GN 03940.050C.7).
+A problem can occur when the fee amount used to reduce the title II income exceeds
+the fee amountwithheld by the title II system. The problem will occur when this is true and the representative
+fee adjustment recomputation is completed before the title II prior month accrual
+(PMA) check is paid. Most of these cases will involve fee agreementsalthough it is possible for this problem to occur in fee petition cases. When the authorized fee in a fee petition case is known before the PMA is paid
+AND that fee exceeds the title II withheld amount, this problem can occur.
+Under the policy for windfall offset, some or all of the PMA check is noncountable
+income (NCI) for SSI eligibility/payment computation purposes since it has already
+been considered in the windfall offset computation. See GN 02610.005.C.12 for the definition of NCI.
+In such circumstances, the field office will reduce the title II income, starting
+with the first month of the income, by the amount of the representative's fee, delete
+the offset computation and transmit the new (reduced) “W” postings to the Supplemental Security Record (SSR). See SI 02006.200 ff. for a description of the method.
+The SSI system will use these new “W” postings to perform an offset computation and to determine the amount of NCI which will not be correct in the circumstances described.
+The NCI will be “short” by the amount of the nonwithheld representative's fee—generally, the portion determined
+based on the title XVI benefits and/or the amount withheld from the auxiliaries' PMAs.
+NOTE: The situation described here is in addition to the situation described in SI 02006.201.A. when some or all of the fee adjustment occurs before entitlement to SSI.
+2. Tolerances
+The procedure described below is notnecessary:
+•
+In fee agreement cases in which the fee withheld from the SSI recipient's Title II
+benefit is the specified dollar amount of the fee cap shown in GN 03940.003A.3, or
+•
+In any case in which the ongoing title II payment amount precludes SSI eligibility
+and the PMA is paid after the first full (unadjusted)* monthly title II check is paid, or
+•
+In fee petition cases where the authorized fee is no more than the title II withheld
+amount for the SSI recipient.
+*Adjustment of current monthly benefits can be necessary when total RSDI withheld
+is less than the total fee (title II +title XVI fee). If there is a remaining fee
+amount to be paid, then adjustment of benefits may be necessary.

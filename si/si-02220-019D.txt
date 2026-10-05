@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - SI 02220.019 - Debtor Reactions to the Collection of Title XVI Debts by Federal Salary Offset
+Effective Dates: 11/15/2023 - Present | TN 113 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220019 (fetched 2026-10-04)
+
+D. Other Reports That Could Affect FSO
+1. Debtor Alleges Non-receipt of the Overpaid Amount
+If a debtor alleges non-receipt of the overpaid amount, obtain an SSID and/or an Inquiry
+Response Query. If the query shows no record of non-receipt of the payment(s) in question,
+proceed as follows:
+TSC/FO/PC Action
+•
+If the debtor had a representative payee, explain that the payment(s) was sent to
+the payee and there is no indication that payment(s) was not received.
+•
+If there was no representative payee, explain that our records do not show any evidence
+of a non-receipt allegation at the time the initial overpayment notice was sent.
+•
+If the debtor insists that we provide a photocopy of the check(s) in question, explain
+that we will investigate but the debt will still be subject to TOP/ECO collection
+tools (Treasury Offset Program, credit bureau reporting, AWG and FSO).
+•
+If the investigation supports the non-receipt allegation and the debt is found not
+to exist, explain that SSA will repay any amounts collected by FSO and/or TOP, and
+will also delete the debt from the person's credit report.
+•
+If the investigation does NOT support the non-receipt allegation, and the debtor still
+maintains that he/she never received the overpayment amount, follow the instructions
+in SI 02220.019B.4., Request for Review.
+•
+Follow GN 02406.117 to handle the non-receipt allegation for a check and GN 02406.007 for a direct deposit
+payment (these references apply to Titles II and XVI payments). DO NOT make any systems
+input.
+2. Debtor Alleges Nonreceipt of FSO 30- Day Notice
+If the debtor alleges never receiving the FSO 30-day notice, proceed as follows:
+a. TSC/PC Action
+•
+Advise the debtor to submit a statement regarding non-receipt of the notice along
+with his/her current address and telephone number to the FO in person or by mail.
+•
+Provide the address and telephone number of the FO that services the debtor.
+•
+Explain to the debtor that applicable TOP/ECO collection tools (Treasury Offset Program,
+credit bureau reporting and AWG) will continue to apply unless we can confirm his/her
+allegation.
+b. FO Action
+•
+Get a statement from the debtor regarding non-receipt of the notice along with his/her
+current address.
+•
+Explain to the debtor that TOP/ECO will continue to apply unless we can confirm his/her
+allegation through a folder review.
+•
+If the claims folder is in the FO, check for an undeliverable notice and process according
+to the following instructions.
+c. PC Action - Undeliverable FSO 30-Day Notice Was Re-mailed
+Review the claims folder to determine if the notice was returned as undeliverable.
+If the FSO 30-day notice was re-mailed, take the following actions:
+•
+Tell the debtor the date the new notice was mailed.
+•
+Tell the debtor that the overpayment is still subject to collection by TOP/ECO tools.
+d. PC Action - Undeliverable FSO 30-Day Notice Was Not Re-mailed
+If a subsequent notice was not mailed, the debtor has the right to a full administrative
+review process. Take the following actions if the original notice was returned as
+undeliverable and a subsequent notice was not mailed:
+•
+Send an FSO 30-day notice to the debtor's current address and overlay the old notice
+date with the new notice date using the MSSICS Update Sequence Data (UOSD) screen
+Direct SSR Update (see MS 00304.006). If the debtor is in the FO, give him/her the
+FSO 30-day notice.
+•
+If there is a disposition code on the SSR, delete the old disposition code by completing
+the MSSICS Add/Change/Delete Overpayment Decisions Direct SSR Update (UODC) screen.
+(See MS 00304.007).
+•
+The new notice date will overlay the old and an unresolved overpayment will be computed.
+NOTE: The above actions will delete the debt from the Treasury Offset Program and from
+FSO until the debt becomes delinquent and meets all TOP/ECO selection criteria. The
+preceding actions will not, however, delete the debt from the credit bureau if it
+was previously reported as delinquent. Advise the debt management program analyst
+regarding the need to delete the debt from the credit bureau report.
+e. PC Action - No Evidence to Support Allegation of Non-receipt of Notice
+If there is no evidence to support the debtor's allegations about not receiving the
+notice or the FSO 30-day notice, take the following actions:
+•
+Advise the debtor (by telephone, if possible) accordingly.
+•
+Explain that since there is no evidence that the notice was returned as undeliverable
+by the post office, we must proceed on the assumption that the notice was received.
+•
+Document the DMS Remarks (RMKS) screen with the information about the debtor contact.
+NOTE: If the debtor alleges non-receipt of the initial TOP/ECO notice follow the instructions
+in GN 02201.030D.8.
+3. Report of Bankruptcy Proceeding
+Reports of bankruptcy proceedings on FSO cases are handled the same way as on all
+other overpayment cases. Proceed as follows when you receive a report that a bankruptcy
+petition is pending or that a debt has been discharged in bankruptcy:
+a. TSC Action
+•
+Tell the caller to submit the bankruptcy petition or discharge order to the servicing
+FO.
+•
+Provide the address and telephone number of the servicing FO.
+•
+Explain that all debt collection processes will continue until SSA receives and reviews
+the bankruptcy information and determines that recovery efforts should stop.
+•
+Explain that if the person provides the bankruptcy information within 60 days of the
+pre-offset notice, debt collection processes could be stopped.
+•
+Record the contact on DMS Remarks.
+•
+Do not make any input to stop FSO.
+b. FO/PC Action
+Follow the instructions in SI 02220.040 when you receive a notice of a bankruptcy proceeding.
+NOTE: Any suspend billing input code (other than “Delete”) on the Update Sequence Data
+(UOSD) Screen will automatically result in preventing or stopping FSO. (See MS 00304.006
+for more detailed instructions on this screen). Therefore, you do not need to make
+any special input to stop FSO.

@@ -1,0 +1,314 @@
+SSA Program Operations Manual System (POMS) - GN 02615.140 - Medicare Relief for <Italic>Clark</Italic> Class Members
+Effective Dates: 01/04/2024 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615140 (fetched 2026-10-04)
+
+F. PC procedure for Clark sequencing charts and Medicare paragraphs
+Include the following Medicare paragraphs (UTIs) in the order shown on the sequencing
+charts. Manually input the Medicare paragraphs specific to Clark. Clark Medicare paragraphs do not automatically generate via MADCAP. They are only available
+to request manually via the Manage text (AURORA) processing system.
+The following lists contain the sequencing for Medicare paragraphs in the MADCAP Clark relief notices. Place all Medicare paragraphs under caption HIBC01. An “R” indicates
+a required paragraph, while an “O” indicates an optional paragraph. Below the sequencing
+charts are the manual paragraphs with fill-ins.
+1. Sequencing chart for Medicare Part B award action
+UTI Number
+Required or Optional
+HIBC01
+R
+HIB272
+R
+HIB005
+R
+HIB220
+O
+HIB221
+O
+HIB039
+O
+HIB273
+R
+HIB276
+O
+HIB277
+O
+HIB279
+O
+HIB280
+O
+HIB002
+R
+HIB052
+R
+HIB186
+R
+2. Sequencing chart for GEP enrollment with premium surcharge
+UTI Number
+Required or Optional
+HIBC01
+R
+HIB274
+R
+HIB005
+R
+HIB273
+R
+HIB278
+O
+HIB276
+O
+HIB277
+O
+HIB279
+O
+HIB280
+O
+MHP069
+O
+3. Sequencing chart for GEP enrollment with no premium surcharge or third-party buy-In
+UTI Number
+Required or Optional
+HIBC01
+R
+HIB275
+R
+HIB273
+R
+HIB276
+O
+HIB277
+O
+HIB279
+O
+HIB280
+O
+4. Clark Medicare paragraphs
+HIB272
+We enrolled __F1__ in Medicare Part B (medical insurance) starting __F2__. We did
+this because __F3__ a class member of the Clark court case. We enrolled certain Clark class members who refused or stopped their medical insurance while their benefits
+were suspended. We explain below how __F4__ can choose an earlier enrollment date.
+We also explain how __F5__ can refuse this medical insurance.
+Fill-ins:
+F1-1 - you
+F1-2 - Beneficiary Name
+F2 - Current Operating Month - MM/CCYY
+F3-1 - you are
+F3-2 - they are
+F4-1 - you
+F4-2 - they
+F5-1- you
+F5-2- they
+HIB273
+We are offering __F1__ the option to get medical insurance coverage__F2__ back to
+an earlier date. __F3__ may choose this coverage starting with the date that it stopped
+or __F4__refused it while __F5__ benefits were suspended.
+Fill-ins:
+F1-1 - you
+F1-2 - Beneficiary Name
+F2-1 - for Beneficiary Name
+F2-2 - NULL
+F3-1 - You
+F3-2 - They
+F4-1 - you
+F4-2 - they
+F5-1 - your
+F5-2 - their
+HIB274 – Removed or reduced late enrollment penalty
+__F1__ a class member of the Clark court case. We enrolled certain Clark class members in Medicare Part B (medical insurance). __F2__ already enrolled in
+medical insurance starting __F3__. __F4__ paid a late enrollment penalty for __F5__
+medical insurance. We removed the penalty for the months connected with being a Clark class member.
+Fill-ins:
+F1-1 - You are
+F1-2 - Beneficiary Name is
+F2-1 - You are
+F2-2 - Beneficiary Name is
+F3 - SMI entitlement date – MM/CCYY
+F4-1 - You
+F4-2 - They
+F5-1 - your
+F5-2 - their
+HIB275
+__F1__ a class member of the Clark court case. We enrolled certain Clark class members in Medicare Part B (medical insurance). __F2__ already enrolled in
+medical insurance starting __F3__.
+Fill-ins:
+F1-1 - You are
+F1-2 - Beneficiary Name is
+F2-1 - You are
+F2-2 - Beneficiary Name is
+F3 - SMI entitlement date – MM/CCYY
+HIB276 – Beneficiary in suspended or deferred status beyond this calendar year/benefits
+terminated but eligible to enroll in Medicare Part B, VSMI involved.
+If __F1__ medical insurance to start earlier, __F2__ can choose to have it start in
+__F3__. If __F4__ this earlier date, we will reduce __F5__ current monthly premium
+to __F6__. We can reduce__F7__ premium because of a rule that protects people from
+premium increases. If __F8__ choose the earlier date, __F9__ current monthly premium
+will be __F10__.
+To start __F11__ medical insurance earlier, __F12__ must do the following things within
+60 days after the date of this letter:
+Tell us in writing that __F13__ medical insurance starting __F14__, and
+Pay us $__F15__. This amount covers the premiums due from __F16__ through __F17__.
+If it would be hard for you to pay the premium amount in a lump sum, please ask us
+about other ways to pay the premium.
+Fill-ins:
+F1-1 - you want your
+F1-2 - they want their
+F2-1 - you
+F2-2 - they
+F3-1 - SMI termination date – MM/CCYY
+F3-2 - First month of SMI eligibility – MM/CCYY
+F4-1 - you choose
+F4-2 - they choose
+F5-1 - your
+F5-2 - their
+F6 - Monthly VSMI premium amount – $$$.¢¢
+F7-1 - your
+F7-2 - their
+F8-1 - you do not
+F8-2 - they do not
+F9-1 - your
+F9-2 - their
+F10 - Current Standard monthly premium amount – $$$.¢¢
+F11-1 - your
+F11-2 - their
+F12-1 - you
+F12-2 - they
+F13-1 - you want
+F13-2 - they want
+F14-1 - SMI termination date – MM/CCYY
+F14-2 - First month of SMI eligibility – MM/CCYY
+F15-1 - Amount of premiums due from SMI termination date through month before COM
+or 3rd-party buy-in – $$$$.¢¢
+F15-2 - Amount of premiums due from first month of SMI eligibility through month before
+COM or 3rd-party buy-in – $$$$.¢¢
+F16-1 - SMI termination date – MM/CCYY
+F16-2 - First month of SMI eligibility – MM/CCYY
+F17 - Month - MM/CCYY
+HIB277 – Beneficiary in suspended or deferred status beyond this calendar year/benefits
+terminated but eligible to enroll in Medicare Part B, VSMI not involved.
+If __F1__ medical insurance to start earlier, __F2__ can choose to have it start in
+__F3__. To start __F4__ medical insurance earlier, __F5__ must do the following things
+within 60 days after the date of this letter:
+Tell us in writing that __F6__ medical insurance starting __F7__, and
+Pay us $ __F8__. This covers the premiums due from __F9__ through __F10__.
+If you would find it hard to pay the premium amount you would owe in a lump sum, please
+ask us about other ways to pay the premium.
+Fill-ins:
+F1-1 - you want your
+F1-2 - they want their
+F1-3 - you want their
+F2-1 - you
+F2-2 - they
+F3-1 - SMI termination date – MM/CCYY
+F3-2 - First month of SMI eligibility – MM/CCYY
+F4-1 - your
+F4-2 - their
+F5-1 - you
+F5-2 - they
+F6-1 - you want
+F6-2 - they want
+F7-1 - SMI termination date – MM/CCYY
+F7-2 - First month of SMI eligibility – MM/CCYY
+F8-1 - Amount of premiums due from SMI termination date through month before COM or
+3rd-party buy-in – $$$$.¢¢
+F8-2 - Amount of premiums due from first month of SMI eligibility through month before
+COM or 3rd-party buy-in – $$$$.¢¢
+F9-1 - SMI termination date – MM/CCYY
+F9-2 - First month of SMI eligibility – MM/CCYY
+F10 - Month – MM/CCYY
+HIB278
+Because we removed the late enrollment penalty, __F1__ paid us too much money for
+__F2__ medical insurance premiums. We will use the extra money to reduce __F3__ next
+premium bill(s).
+Fill-ins:
+F1-1 - you have
+F1-2 - they have
+F2-1 - your
+F2-2 - their
+F3-1 - your
+F3-2 - their
+HIB279 – Beneficiary in Current Pay, Suspense, or Deferred status due to come out this calendar
+year – VSMI not involved.
+If __F1__ medical insurance to start earlier, __F2__ can choose to have it start in
+__F3__. To start __F4__ medical insurance earlier, __F5__ must do the following things
+within 60 days after the date of this letter:
+Tell us in writing that __F6__ medical insurance starting __ F7__, and
+Pay us $__F8__ or tell us we can withhold this amount from __F9__ check. This covers
+the premiums due from __F10__ through __F11__.
+If __F12__ would find it hard to pay the premium amount __F13__ would owe in a lump
+sum, please ask us about other ways to pay the premium.
+Fill-ins:
+F1-1 - you want your
+F1-2 - they want their
+F2-1 - you
+F2-2 - they
+F3-1 - SMI termination date – MM/CCYY
+F3-2 - First month of SMI eligibility – MM/CCYY
+F4-1 - your
+F4-2 - their
+F5-1 - you
+F5-2 - they
+F6-1 - you want
+F6-2 - they want
+F7-1 - SMI termination date – MM/CCYY
+F7-2 - First month of SMI eligibility – MM/CCYY
+F8-1 - Amount of premiums due from SMI termination date through June/Year of GEP Enrollment
+or Month/Year of 3rd-party buy-in – $$$$.¢¢
+F8-2 – Amount of premiums due from first month of SMI eligibility through June/Year
+of GEP Enrollment or Month/Year of 3rd-party buy-in – $$$$.¢¢
+F9-1 - your
+F9-2 - their
+F10-1 - SMI termination date – MM/CCYY
+F10-2 - First month of SMI eligibility – MM/CCYY
+F11 - Month/year of GEP enrollment or 3rd-party buy-in – MM/CCYY
+F12-1 - you
+F12-2 - they
+F13-1 - you
+F13-2- they
+HIB280 – Beneficiary in Current Pay, Suspense, or Deferred status due to come out this calendar
+year – VSMI involved.
+If __F1__ __ _ medical insurance to start earlier, __F2__ can choose to have it start
+in __F3__. If __F4__ this earlier date, we will reduce __F5__ current monthly premium
+to __F6__. We can reduce __F7__ premium because of a rule that protects people from
+premium increases. If __F8__ choose the earlier date, __F9__ current monthly premium
+will be __F10__.
+To start __F11__ medical insurance earlier, __F12__ must do the following things within
+60 days after the date of this letter:
+Tell us in writing that __F13__ medical insurance starting __ F14__, and
+Pay us $__F15__or tell us we can withhold this amount from __F16__ check. This covers
+the premiums due from __F17__ through __F18__.
+If it would be hard for you to pay the premium amount in a lump sum, please ask us
+about other ways to pay the premium.
+Fill-ins:
+F1-1 - you want your
+F1-2 - they want their
+F2-1 - you
+F2-2 - they
+F3-1 - SMI termination date – MM/CCYY
+F3-2 - First month of SMI eligibility – MM/CCYY
+F4-1 - you choose
+F4-2 - they choose
+F5-1 - your
+F5-2 - their
+F6 - Monthly VSMI premium amount – $$$.¢¢
+F7-1 - your
+F7-2 - their
+F8-1 - you do not
+F8-2 - they do not
+F9-1 - your
+F9-2 - their
+F10 - Current Standard monthly premium amount – $$$.¢¢
+F11-1 - your
+F11-2 - their
+F12-1 - you
+F12-2 - their
+F13-1 - you want
+F13-2 - they want
+F14-1 - SMI termination date – MM/CCYY
+F14-2 - First month of SMI eligibility – MM/CCYY
+F15-1 - Amount of premiums due from SMI termination date through June/Year of GEP
+Enrollment or Month/Year of 3rd-party buy-in – $$$$.¢¢
+F15-2 - Amount of premiums due from first month of SMI eligibility through June/Year
+of GEP Enrollment or Month/Year of 3rd-party buy-in – $$$$.¢¢
+F16-1 - your
+F16-2 - their
+F17-1 - SMI termination date – MM/CCYY
+F17-2 - First month of SMI eligibility – MM/CCYY
+F18 - Month/year of GEP enrollment or 3rd-party buy-in – MM/CCYY

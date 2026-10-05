@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - GN 03940.053 - Title II - Fee Agreements – Processing the Assessment
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940053 (fetched 2026-10-04)
+
+F. Procedure – PC Actions
+Refer to GN 03920.019F for an explanation of the SPS processing default in situations identified as requiring
+an override.
+1. SPS Assessment Override Unnecessary – DOFA MCS EC Award with a Notice Alert and Non-DOFA
+A101/EF101 Award
+Except in those situations identified in GN 03920.019F, SPS correctly calculates and deducts the assessment when we pay a fee. When the
+case is an initial award processed through MCS, with one representative or entity
+receiving direct payment, MCS automatically includes ATY016 in the notice. For initial
+award non-MCS cases that do not require override, request UTI ATY016.
+2. SPS Assessment Override Unnecessary – Multiple Representatives
+When multiple representatives or entities who are eligible for direct payment are
+involved, input code “01” (multiple representatives) in the Attorney Payment Indicator
+field on the ATT screen through MACADE, which will generate a PCACS alert. This input
+is not necessary if there are multiple representatives who all assigned direct payment
+to the same entity. When you receive the PCACS alert, but not before, process the
+payments in SPS (see SM 00834.200). SPS will divide the assessment equally between
+or among the representatives who receive direct payment.
+Request UTI ATY065 to explain the assessment deduction.
+3. SPS Assessment Override Necessary – SSA Pays Additional Fee Based on Past-due Benefits
+Withheld from any Auxiliary Beneficiary (PIC B, C, or both)
+Follow the procedure in GN 03940.053F.6 to override the SPS-calculated assessment. Manually calculate the assessment at 6.3%
+of the fee amount payable or the flat rate cap based on the annual cost of living
+adjustment, if lower. See GN 03920.019 for an explanation of the policy.
+Request UTI ATY016 to explain the assessment deduction applied to the additional fee
+payment.
+4. SPS Assessment Override Necessary – Auxiliary Beneficiary (PIC B or C) Appointed Their
+Own Representative and Direct Payment Previously Made on the Same SSN
+Follow the procedure in GN 03940.053F.6 to override the SPS-calculated assessment. Manually calculate the assessment at 6.3%
+of the fee amount payable or the flat rate cap based on the annual cost of living
+adjustment, if lower. See GN 03920.019F for an explanation of the policy.
+Request UTI ATY016 to explain the assessment deduction.
+5. SPS Assessment Override Necessary – We Paid a Fee on PIC A, D, E, or W and Later Makes
+Additional Fee Payment Resulting from a More Favorable Decision on the Same or a Prior
+Application
+Follow the procedure in GN 03940.053F.6 to override the SPS-calculated assessment. Recalculate to deduct from the current
+fee payment no more than the difference, if any, between the flat rate cap based on
+the annual cost of living adjustment and the assessment previously collected. See
+GN 03920.019F for an explanation of the policy.
+Request UTI ATY066 or ATY071 to explain the assessment deduction or why no assessment
+was deducted.
+6. Override SPS Assessment Calculation
+To override the SPS-calculated assessment, take the following MADCAP/SPS Online (manual)
+actions:
+•
+Refer to the SPS or PHUS query, as necessary, to determine whether there has been
+a previous assessment.
+•
+Manually calculate the correct assessment.
+•
+For MADCAP actions ONLY, input code “03” (standard user fee does not apply) in the
+MACADE Attorney Payment Indicator field on the ATT screen to put a hold on the fee
+payment (see SM 00834.200).
+•
+The next day, access the SPS Payment Transaction Menu (SPPT) and in the Choose Option
+field, select 2 – “Update,” to update a previously established representative fee
+record in payment held status. (This takes you to the Attorney Fee Payment (also for
+eligible non-attorney payment) (APAY) screen.)
+•
+On the APAY screen, if multiple representatives or entities eligible for direct payment
+are involved, enter the number of representatives in the “Number of Attorneys” field,
+which will have been pre-filled with “01.” (The completed APAY screen leads to the
+Payment Action (PACT) screen.) Also change the “Repeat (Y/N) of “N” to “Y” except
+for the last APAY action, to allow SPS to display another APAY screen after the Payment
+Action. (Do NOT include a non-attorney who is eligible for direct payment in the “Number
+of Non-attorneys” field.)
+•
+On the PACT screen, override the calculated assessment in the “User Fee” field (9-M)
+with the manually calculated assessment; select Payment Action 1, Issue Check.
+•
+Return to SPPT screen. The SPPT screen appearance indicates that the fee will be paid
+that evening.
+Refer to MS 05701.001 and SM 00834.000 for guidance on using SPS.

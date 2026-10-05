@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - SI 02310.100 - SSI Duplicate Payment Project
+Effective Dates: 12/09/2025 - Present | TN 72 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310100 (fetched 2026-10-04)
+
+D. Procedure — FOs
+For those cases on the control list for which you are the servicing FO, locate the
+case control sheets, the SSIDs and NUMIDENT data for each case control number. Send
+any misdirected cases to the correct servicing office with a copy of the control list
+and the case materials.
+1. Duplicate Record/Payment Made
+Develop each case for your office as shown below:
+For those cases that appear to involve duplicate records on which payment has been
+made on both records, check all pertinent FO records/files or contact the individual(s)
+or representative payee to confirm that the two records pertain to the same individual.
+Terminate the incorrect record using payment status code T20 (see SM 01305.001O.27.) and include the correct SSN in the Multiple Social Security Number (M1) field.
+On the correct record input the incorrect SSN from the T20 record in the (M1) field
+(see
+SM 01301.665). Develop any overpayment.
+NOTE: If the SSN on the T20 record was also issued to the individual through the enumeration
+process, input the SSN to the MA field as well as the M1 field.
+2. Duplicate Record/No Payment Made
+For those cases that involve duplicate records, but no payment has been made on one
+or both records, terminate the incorrect record using payment status code T50 (see
+SM 01801.100 - SM 01801.120) to prevent issuance of duplicate payments.
+NOTE: If the duplicate record contains a MSSICS pending file that has not been archived,
+clear the file by using MANCLR MSSICS prior to input of PSY T50 (See MSOM MSSICS 004.011 Manual Processes).
+3. Records Belong to Different Individuals
+If the records belong to different individuals, take no further action and destroy
+the case material.

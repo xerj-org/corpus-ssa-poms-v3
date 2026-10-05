@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - DI 28005.031 - Determining If a Representative Payee Sought Medically Necessary and Available Treatment for the Child When Conducting a Continuing Disability Review (CDR) for a Title XVI Disabled Child (DC)
+Effective Dates: 04/14/2023 - Present | TN 17 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428005031 (fetched 2026-10-04)
+
+C. Detailed discussion of treatment scenarios
+If the evidence shows that a medical source prescribed treatment, but it was not obtained
+for the child, the rules on FTFPT in DI 23010.006 apply in determining whether to recommend to the FO that it develop a more suitable
+payee. Follow the rules in DI 23010.011C4, which discusses special Title XVI issues for individuals under age 18 and determine
+whether a change of payee may be necessary.
+The following sub-sections provide an overview of the difference scenarios and entries
+on the SSA-832-C2-U3 and the National Disability Determination Services System (NDDSS).
+1. In treatment or show treatment provision does not apply
+a. Child received medically necessary treatment
+For those cases in which the evidence shows that the child is and has been receiving
+treatment prescribed by a medical source for the disabling condition(s), consider
+the treatment to be medically necessary and available.
+Provided the payee is and has been making a good-faith effort to follow the requirements
+of the treatment, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "In treatment."
+•
+Item 34, enter list code "281."
+b. Child is under 18 years of age and does not have a payee
+If a child under the age of 18 has no payee and we find that the show treatment provision
+does not apply, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "Show treatment provision does not apply."
+•
+Item 34, enter list code "281."
+We may still decide if FTFPT without good cause applies, see DI 23010.007D.
+c. Child obtains age 18 and case is an age-18 redetermination
+If a child attains age 18 and the case is an age-18 disability redetermination (rather
+than a Title XVI child CDR), and we find that the "show treatment" provision does
+not apply, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark- "Show treatment provision does not apply."
+•
+Item 34, enter list code "281."
+2. No treatment issue
+a. Child's medical source does not prescribe treatment and treatment is not necessary
+•
+If the child's medical source has not prescribed any treatment, assume that the impairment
+is not amenable to treatment or additional treatment is not necessary, or
+•
+If the child's medical source does not prescribe treatment and the MC/PC determines
+that treatment is not necessary and not available for any other reason, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "No treatment issue."
+•
+Item 34, enter list code "282"
+b. Child does not have a medical source and treatment is not necessary
+If the child has no medical source and the MC/PC determines treatment is not necessary
+and available for any other reason, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "No treatment issue."
+•
+Item 34, enter list code "283"
+c. Condition(s) not amenable to treatment or treatment not medically necessary
+There will be certain instances, such as with some palliative treatments in cases
+of terminal illness or some cases of profound intellectual disability, for which it
+would be reasonable to conclude that there would be no or negligible improvement or
+restoration of function with treatment. In such cases, even if treatment is prescribed
+by a medical source, it is proper to conclude that no treatment is medically necessary
+for the child. In the event that the MC/PC cannot make these judgments from the evidence
+in file and the child does not have a medical source, a telephone call by the adjudicator
+to another source (e.g., educational personnel, public and private social welfare
+agency personnel, or other non-medical sources), should be sufficient to obtain this
+information. Do not purchase additional evidence for the sole purpose of making this
+determination.
+In instances where an impairment(s) is deemed not amenable to treatment or treatment
+is not medically necessary as deemed by the MC/PC, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "No treatment issue."
+•
+Item 34, enter list code "283."
+3. Medically necessary treatment prescribed but not obtained
+a. Treatment unavailable or other good cause (e.g., treatment prescribed but not obtained
+- good cause demonstrated)
+This scenario applies when the evidence shows that the payee attempted to get the
+treatment that was prescribed by a medical source for the child or independently sought
+treatment from a medical source but was not able to obtain the prescribed treatment
+for good cause (see DI 28005.031A.3.).
+This scenario also applies to experimental treatment modalities or treatment that
+is not generally available as medically necessary treatment. Do not consider experimental
+treatment modalities or treatment that is not generally available as medically necessary
+treatment. If the payee chooses not to have the child undergo such treatment, even
+if recommended by a medical source, the above scenario applies and no further development
+is necessary.
+If, due to good cause as discussed in DI 23010.011C., the payee has not sought or obtained the treatment for the child, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "Treatment unavailable or other good cause."
+•
+Item 34, enter list code "284."
+b. Treatment prescribed and medically necessary- good cause NOT found
+If the payee has not sought or obtained the medically necessary treatment and there
+is no good cause for the failure, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark "Treatment medically necessary – Good cause not found."
+•
+Item 34, enter list code "285."
+Follow instructions for payee development, see DI 28005.031B.4.b.
+4. Treatment medically necessary and available - no medical source and condition requires
+medically necessary treatment
+If the payee did not take the child for medically necessary treatment and the child
+does not have a medical source, the MC/PC will make a medical judgment to determine
+whether any generally accepted medical treatment would improve or restore the child's
+functioning, as discussed in DI 28005.031A.2.a. above. Whenever it is determined that treatment is medically necessary and available
+but not obtained, then:
+Enter the following on the SSA-832-C2/U3:
+•
+Item 24, enter remark " Treatment medically necessary and available."
+•
+Item 34, enter list code "286."
+Follow payee development guidelines and documentation requirements discussed in DI
+28005.031B.4.b.

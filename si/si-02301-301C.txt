@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 02301.301 - Overview of Goldberg/Kelly (GK) Processing
+Effective Dates: 10/14/2004 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301301 (fetched 2026-10-04)
+
+C. Process - Systems Cutoffs
+This section describes the monthly systems cutoffs to consider when inputting a change
+to reduce a future month's benefit. The cutoff dates vary each month and appear in a monthly
+systems processing schedule. See SM 01701.010 about payment tape cutoffs and computation
+periods for processing SSI records.
+1. The GK Notice Cutoff
+The GK notice cutoff occurs around the 7th to 9th day of each month. This is generally
+the last day that the FO can input a change to reduce the following month's benefit and have the
+system issue an automated GK notice. After this day, there is not enough time left
+to produce and mail an automated notice at least 15 days before the first day of the
+following month.
+2. The GK Temporary Period
+The GK temporary period begins the day after the GK cutoff and ends with the recurring tape cutoff. During this period, the system can reduce the following
+month's benefit only if a GK notice is issued timely and due process data (DPD) is
+entered. The system will build the required DPD entries for adverse actions processed
+through MSSICS. The advance GK notice can be produced online or manually. For adverse
+actions processed outside MSSICS, the FO inputs the GK status code and other DPD entries
+with the change and produces an online GK notice or issues a manual GK notice. If
+the DPD entries are not included with the 1719B transaction when issuing a manual
+notice, the system will issue an automated GK notice and reduce benefits for the month
+after the following month. See EXCEPTION.
+EXCEPTION: When the FO inputs the changes to S06, S07, S08 or N19 on the SSI record, the system will
+stop the following month’s benefit and will issue the automated notice as long as
+the FO makes these inputs before the recurring payment tape (treasury) cutoff.
+NOTE: The DPD entries are built automatically by the system when the adverse action is processed
+in MSSICS during the GK temporary period.
+3. The Recurring Payment Tape (Treasury) Cutoff
+The recurring cutoff date precedes the Treasury Check Generation Run which is processed
+on the third Saturday of each month. The Friday preceding the third Saturday of each
+month is the recurring payment tape (Treasury) cutoff date and occurs around the 15th
+to 21st day of the month. After this day, the system cannot reduce the following month's benefit.
+For more information regarding the Recurring Payment Tape cutoff, see SM 01305.515A.
+NOTE:
+In order for claimants to receive due process, notices must be mailed at least 15
+days prior to the end of the month. Notices can be handed to claimants 10 days prior
+to the end of the month and still meet the due process requirements required by law.

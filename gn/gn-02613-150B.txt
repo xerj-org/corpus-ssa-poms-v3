@@ -1,0 +1,181 @@
+SSA Program Operations Manual System (POMS) - GN 02613.150 - Receiving and Processing Warrant Information
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613150 (fetched 2026-10-04)
+
+B. Procedure for warrant reports received in SSA field offices (FO)
+1. Warrant information from first (self-reports) and third-party conventional reporters
+(non-law enforcement reports)
+Send warrant information received in SSA FOs from a first-party or a third-party conventional
+reporters (except for walk-in reports received from law enforcement officers or agencies)
+to OIG for investigation and verification of the warrant before taking any adverse
+action or non-payment action on the warrant. For information on a first-party or a
+third party conventional reporter, see GN 02613.150A.1., in this section.
+SSA FO Workflow Process for FO Received Warrant Reports
+The chart explains the workflow process for a warrant report from a first-party or
+a third party conventional reporter (except for walk-in reports received from law
+enforcement officers or agencies).
+Steps in Process
+Actions In Process
+1
+SSA FO receives a report or information about a warrant from a first party or a third
+party conventional reporter. For information about sources of reports or reporters,
+see GN 02613.150A.1., in this section.
+2
+SSA FO verifies the identity of the individual using SSA records (e.g., NUMIDENT or
+ALPHIDENT) and locates Title II entitlement to benefits using the Master Beneficiary
+Record (MBR). For instructions on verifying the identity of the claimant, see GN 00203.020.
+Warrant information received in the FO that needs verification should be emailed to
+the Office of the Inspector General (OIG), Fugitive Felon Program Manager at SSA.
+The email address is: ^Fugitive Felon. In the Subject Line of the email, include your District Office (DO) or Processing
+Center (PC) code.
+The email message must contain the following information:
+•
+SSN (mandatory)
+•
+Name (mandatory)
+•
+Date of Birth of Fugitive (mandatory)
+•
+Place of Birth of Fugitive (if available)
+•
+Parent's Name (if available)
+•
+Sex: (mandatory)
+•
+Warrant Number (if known)
+•
+Date Warrant Was Issued (if available)
+•
+County/State Where Warrant Was Issued (if available)
+•
+Name and Address of the Agency that Issued the Warrant (if available)
+•
+Date of Crime (if available)
+•
+Nature of Crime (if available).
+NOTE:
+Request OIG to provide the Originating Agency Identifier (ORI) of the warrant issuing
+agency.
+3
+OIG conducts a criminal history search based on the information contained in the email
+from the FO. If they uncover a criminal history for the individual, OIG then checks
+for warrants. OIG responds to the warrant verification request via email to the requesting
+FO. If the FO does not receive a response after two weeks, refer the case to the Field
+Operations Fugitive Felon Coordinator (FOFFC) for follow-up action.
+If a warrant is discovered, OIG provides the warrant number; the date the warrant
+was issued, the county or State that issued the warrant and the name, ORI number,
+and the address of the agency that issued the warrant, and any other pertinent warrant
+information. Go to step
+4.
+If OIG emails SSA and states they cannot locate a warrant for the individual, discontinue
+development. No further action is taken by the FO to try and identify the warrant
+for this individual. Do not add the warrant information to the FFSCF database. Stop.
+4
+FO verifies the SSN and establishes the warrant information via the Warrant Information
+(FFWI), and Personal Information (FFPI) screens in FFSCF. (Access FFPI in Update mode).
+For instructions on coding the warrant information to the FFSCF, see MSOM PRISON 006.004.
+Go to
+step 5.
+5
+Send the Advance Notice of Proposed Suspension if the beneficiary is in current payment
+status, and fugitive felon or probation or parole violator suspension causes ongoing
+Title II benefit suspension. For a simulation of the Advance Notice of Proposed Suspension,
+see NL 00755.200 and GN 02613.940A. Tickle for 15 days via Modernized Development Workload system (MDW) for the due process
+period. When the due process period matures and no protest has been received, go to
+step 6.
+Or,
+If the beneficiary is in nonpayment status, suspension, terminated or deferred status;
+or, if the beneficiary has satisfied their warrant, no Advance Notice of proposed
+suspension is required. No advance notice is also required for first-party reports.
+Go to Step 6.
+6
+Suspend benefits using the FFEL POS suspension screen per SM 03020.370 (Fugitive Felon
+Suspension and Reinstatement (FFEL) and MSOM COMMON 005.035 Fugitive Felon Suspension
+and Reinstatement (FFEL).
+7
+T2 notice systems send a fugitive felon suspension overpayment notice to the beneficiary.
+2. Warrant information FOs receive from law enforcement agencies (LEA) or officers (LE)
+a.
+Information a law enforcement (LE) officer gives to an SSA FO, requesting assistance
+in locating a Social Security beneficiary, may lead to the identification of a beneficiary,
+as a person with an unsatisfied warrant. While a request from the LE must be in writing
+for the SSA FO to provide information, a verbal request may be used as a lead to develop
+a possible fugitive suspension action. For the allowable disclosure policy information
+given to law enforcement agencies, see GN 03312.115.
+b.
+When the LE officer contacts the SSA FO for information about a beneficiary identified
+as a fugitive, search SSA records to determine whether the individual being sought
+or reported is a beneficiary. Ask the LE official to provide confirming evidence (i.e.
+warrant, court order or other court decision) of the request for information. If the
+LE official does not have supportive evidence, ask for the name and address of the
+agency that has jurisdiction and holds the records or information needed for verification.
+The FO contacts the other agency that has jurisdiction for the warrant to determine
+the existence of the warrant.
+c.
+Examine the legal documents provided by the LE agency to verify that the individual
+is a fugitive, as defined in GN 02613.001B. Examples of acceptable evidence are:
+•
+Order, decision or other document issued by a court;
+•
+An arrest warrant or order; or
+•
+Decision of a court, parole board, or other appropriate agency finding the claimant
+has violated a condition of probation or parole; and
+•
+Some kind of verification that the warrant is still active.
+d.
+Warrant reports received from LE agencies, or officers directly in the FOs are authenticated
+and verified by the warrant issuing agency that issued the warrant. If the LE officer
+requesting information from SSA belongs to the warrant-issuing agency that issued
+the warrant, these warrants do not need further referral with OIG.
+e.
+FO verification process of fugitive felon warrant information received from law enforcement
+officers are explained in the chart:
+STEPS IN PROCESS
+ACTION
+1
+Verify the LE officers credentials (identification, badge, etc.) and that they belong
+to the agency that issued the warrant, or is acting on behalf of that agency.
+2
+Verify name of fugitive on warrant using SSA records (e.g., NUMIDENT, ALPHIDENT, etc.)
+to locate or verify SSN and name of SSA beneficiary. For instructions on verifying
+the claimants identity, see GN 00203.020.
+3
+Obtain MBR, SSR or RPS to determine if entitlement exists on either Title II or Title
+XVI, or as a representative payee on RPS.
+If entitlement exists, go to step 4. If entitlement does not exist, notify the LE agency or officer that the fugitive
+is not a beneficiary.
+Check RPS to determine if the individual is a representative payee. This applies only
+for felony warrants, not for probation or parole violator warrants. Verify that the
+Offense code on the warrant is not a probation or violation code (e.g., 5011 or 5012).
+If the warrant is a felony warrant and the person identified on the warrant is a representative
+payee for a social security beneficiary, process the warrant, per GN 00502.133 (Payee Applicant is a Felon or Fugitive or Has Been Convicted of Other Criminal Act).
+4
+Add the warrant information to the FFSCF database. For instructions on establishing
+warrant information to the FFSCF, see MSOM PRISON 006.004. Since the warrant report
+came directly from the issuing warrant agency, the warrant is active, therefore, do
+not refer the warrant to OIG for verification.
+5
+Send the Advance Notice of Proposed Suspension, if the beneficiary is in current payment
+status, and the initial determination is that the beneficiary is a fugitive felon,
+or probation or parole violator causes ongoing Title II benefit suspension. For instructions
+on preparing the Advance Notice of Proposed Suspension Notice, see NL 00755.200.
+Tickle for 15 days via MDW for due process period. When due process period expires,
+go
+to step 6.
+Or,
+If the beneficiary is in nonpayment status (i.e., terminated, suspension or deferred)
+or the beneficiary's warrant is satisfied, go to step 6.
+6
+Suspend benefits using the FFEL POS suspension screen, per SM 03020.370 and MSOM COMMON
+005.035, if appropriate.
+7
+Automated suspension or closed period of suspension notices with overpayment information
+is generated based on the FFEL suspension action.
+NOTE:
+All actions on Title II cases that also involve Title XVI entitlement (concurrent
+entitlement) should be coordinated with the appropriate FO technician working on the
+Title XVI suspension for the beneficiary and vice-versa. Update the program entitlement
+on the FFWI screen to show all SSA entitlements for the fugitive felon. Since there
+is no direct interface between FFSCF and FFAP, changes to one system should be updated
+on the other. For update that may be needed to FFAP, see SI 00530.205.

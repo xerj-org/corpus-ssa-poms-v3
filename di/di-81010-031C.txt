@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 81010.031 - Multiple Pending Cases (MPC) in the Electronic Disability Collect System (EDCS)
+Effective Dates: 04/28/2025 - Present | TN 85 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010031 (fetched 2026-10-04)
+
+C. Procedure for MPC appeals
+MPC appeals will function the same as initial level cases processed as MPCs. Each
+appeal must be created separately. It is a best practice to create the appeal on the
+initial claim first, so that any existing i3441 data can be pulled in and copied to
+the other case.
+1.
+It is possible that the claimant only appeals one of the MPC cases. For instance,
+if the CDR decision was a continuance but the initial claim was a denial, the claimant
+may wish to file an appeal on only the initial claim. In this case, create only the
+applicable appeal in EDCS. The appeal will no longer be an MPC and the 'Disability
+Case Selection' page will not contain the MPC indicators in the MPC column.
+2.
+If an appeal is created on both cases then at case creation of the second case, the
+appeal will be an MPC and will contain the same MPC indicators as the initial level
+case.
+3.
+Data entered in the SSA-3441 for the first case will copy over to the second case
+as long as the SSA-3441 is completed before the second case is created.
+EXCEPTION: The ‘About You’ section and the ‘Person Completing the Report’ do not copy
+NOTE: Data is copied from the first case to the second case only when the second case is
+created. Any changes made after the creation of the second case will need to be added
+manually to both cases.

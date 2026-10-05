@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - DI 55002.045 - Inputting A Correction or Update
+Effective Dates: 07/15/2024 - Present | TN 4 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002045 (fetched 2026-10-04)
+
+B. Examples of situations in which a corrective action can be taken
+1. Example 1 – Title II beneficiary lives in ticket location and mail goes to a non-ticket
+location
+If a title II beneficiary resides in a ticket location (see DI 55002.005C.8.) and the mailing address for the beneficiary, the representative payee, or legal
+guardian is a non-ticket location, make an entry via the Post-Entitlement Online System (POS)
+(see MSOM T2PE 003.002) to reflect the State and County Code for the beneficiary's current residence address.
+2. Example 2 – benefits in suspense for incorrect address information
+If an individual's benefits are in suspense status for address reasons, update the
+beneficiary's address via POS.
+3. Example 3 – MBR does not display a childhood disability beneficiary's BOAN
+If the MBR does not display a childhood disability beneficiary's BOAN, input the BOAN
+or process a valid SS-5.
+4. Example 4 – requesting the PC to use CDR (IPCA) screen to reflect a favorable medical
+CDR decision in a Title II MIE diary continuance case
+If a Disability Determination Services Query (DDSQ) (see SM 06002.020 and SM 06002.200)
+shows that a title II beneficiary with a MIE diary has had a favorable CDR decision
+after the CDR release date and the decision is not reflected on the DCF, the PC with
+jurisdiction must be requested to make the appropriate DCF input and the case must
+be transferred to location 732 so that the next scheduled CDR date can be established.
+•
+When requesting the DCF update, the FO may either contact the PC directly, per established
+regional procedures, or ask the Regional Center for Disability Programs to do so.
+When transferring the case to location 732, the FO should explain the transfer by
+annotating the remarks screen of the DCF with the following: “DDS decision: continuance, dated mmddyy . Next medical diary date: mmyy." The FO can obtain the “DDS decision” from the DEC field of the DDSQ, the “DDS decision
+date” from MSD field of the DDSQ, and the “next medical diary date” from the MR field
+of the DDSQ.
+5. Example 5 – posting DDSQ information in a Title XVI case with a MIE diary
+If a DDSQ shows that a title XVI recipient with a MIE diary has had a favorable CDR
+decision after the CDR release date and the decision is not reflected on the SSR or
+DCF, post the DDSQ information to the SSR and the DCF will then be updated automatically.

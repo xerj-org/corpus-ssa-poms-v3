@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 01010.205 - Modernized Claims System (MCS) Earnings Computation (EC) Processing
+Effective Dates: 05/17/2018 - Present | TN 22 (05-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010205 (fetched 2026-10-04)
+
+C. Procedure for adjudicating District Office Final Authorization (DOFA) and non-DOFA
+claims
+The section below describes the required screens for Title II DOFA and non-DOFA claim
+processing.
+1. DOFA Claim
+Complete the Earnings Computation Approval (DAPP) screen when adjudicating and effectuating
+a DOFA claim in the Field Office (FO) via MCS EC, see MS MCSEC 001.034.
+2. Non-DOFA Claim
+When processing a non-DOFA claim in the FO, annotate the appropriate non-DOFA reason
+on the decision (DECI) screen in MCS and transfer the claim to the Processing Center
+(PC) of jurisdiction by entering a processing (PROC) code of “N” on the interface
+(INTE) screen. This action creates a “record request” for the PC to review and process
+the claim. For more information on Non-DOFA cases and processing, see GN 01010.027.

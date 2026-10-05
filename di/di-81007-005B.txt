@@ -1,0 +1,113 @@
+SSA Program Operations Manual System (POMS) - DI 81007.005 - Internet Disability Report (IDR) Intake Overview and Commonly Used Acronyms, Reports, and Terms
+Effective Dates: 02/04/2014 - Present | TN 1 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007005 (fetched 2026-10-04)
+
+B. Glossary
+1. Acronyms
+a.
+IDR – Internet Disability Report – an Internet version of a paper disability report;
+b.
+IU – Internet User – An individual who starts, completes, or submits an IDR (for example,
+the claimant, friend, or representative);
+c.
+iWMI – Internet Workload Management Information (iWMI) system. IDRs that IUs submit to
+SSA appear on the iWMI list. FO technicians and FO management query the iWMI listings
+to determine what work from the Internet needs processing.
+2. Disability reports
+a.
+SSA-3368-BK – Disability Report – Adult – paper version
+b.
+i3368 – Adult Disability Report – Internet version
+c.
+SSA-3820-BK –Disability Report – Child – paper version
+d.
+i3820 – Child Disability Report – Internet version
+e.
+SSA-3441-BK – Disability Report – Appeal – paper version
+f.
+i3441 –Disability Appeal – Internet version
+3. Terms
+a. Active file
+The active file houses IDR data that IUs can manipulate. The IU can leave and reenter
+the IDR to add, delete, or modify information an unlimited number of times. IU access
+to the IDR ends when the system locks the IDR. The system locks the IDR when the IU
+submits the IDR or the system archives the IDR.
+b. Archive
+Archive is an automated process that removes an IDR from the active file database
+and moves it to a separate, long-term database (inactive file) for storage. The system
+archives IDRs after:
+•
+removal from the iWMI listing; or
+•
+30 days have passed since the expiration of the protective filing period for i3368s
+and i3820s; or
+•
+90 days after the IU started an i3441.
+EDCS cannot propagate archived IDRs into EDCS. Until purged, the FO can use the Internet
+Query Facility to query or print the archived IDR. EDCS users cannot make archived
+data “active.”
+c. Finally transmitted IDR
+The IU finally transmits the IDR to SSA by selecting the “Submit” button at the end
+of the IDR. After an IU transmits an IDR to SSA, the system locks the record. The
+IDR data becomes available for propagation to EDCS. IUs cannot reenter the IDR to
+add or edit information after they finally transmit the IDR.
+d. Inactive file
+The inactive file stores IDRs marked for purging. FO personnel can view or print IDRs
+held in the inactive file, but the IDRs in the inactive file are not available for
+propagation into EDCS. IDRs not manually marked for deletion, and IDRs propagated
+to EDCS but not transferred to DDS or ODAR, move to the inactive file at pre-determined
+periods automatically. The timing depends on the type of IDR and whether the IDR is
+a partial or finally transmitted IDR.
+e. Incomplete IDR
+An incomplete IDR is an IDR the IU transmits (submits) to SSA without having answered
+every item the IDR screen path presents to the IU. IDRs do not require IUs to input
+every bit of information we may ultimately require for transfer to the disability
+determination service (DDS) or ODAR, but they must provide a certain minimum amount
+of the information. For example, users who report having a doctor must enter the doctor’s
+first and last name, and the doctor’s city and state; however, the IDRs do not require
+the doctor’s complete address.
+f. Internet query facility
+The Internet query facility is a tool field office personnel can use to obtain information
+about submitted iClaims and Internet Disability Reports (IDR). Information about and
+from unsubmitted iClaims and IDRs is available if the claimant’s social security number
+is known. More information is available in DI 81007.070.
+g. Locked IDR
+A locked IDR is an IDR for which the reentry number no longer works (see DI 81007.005B.3.i. in this section). IUs cannot reenter a locked IDR to add or edit information. There
+are several reasons the system will lock an IDR. For example, when an IU submits an
+IDR, the system locks that IDR.
+h. Partial
+A partial is an IDR or iClaim the IU has started but not submitted to SSA. As long
+as a partial has an active reentry number, the IU can reenter and work on it an unlimited
+number of times.
+i. Purged IDR
+An IDR permanently deleted from the database is a purged IDR. The system automatically
+purges an IDR when:
+•
+The IDR has been propagated to EDCS and the FO transfers the case to the DDS;
+•
+The IDR has been propagated to EDCS and the FO closes the case after determining a
+medical determination is not necessary;
+•
+The FO uses the Internet Query Facility to query for the IDR and selects the “Delete
+This Report” option; or,
+•
+The IDR has been in the archived in the inactive file for 120 days.
+j. Reentry number
+After IUs create a partial (IDR or iClaim), they receive a reentry number. The IDR
+system generates reentry numbers randomly. Only the IUs know their reentry numbers.
+SSA employees cannot look up or identify reentry numbers. IUs who lose their reentry
+numbers must start their IDRs over from the beginning.
+IUs who do not create, complete, and submit an IDR in one session can leave their
+partial and use the reentry number to return later to continue.
+k. Set of records
+A set of records is a group of IDRs of the same type, for the same SSN, and the same
+protective filing date. For example, an IU may start an i3820, abandon it, and start
+a new i3820 within 30 days of the first. Since the IU started the second i3820 within
+the protective filing period (60 days for Title XVI) of the first i3820, the system
+treats the two records as a set; the system will archive or purge the two IDRs together.
+l. Submit
+Submit is the final online transaction the IU takes to deliver an IDR to SSA. When
+an IU selects the “Submit” button at the end of the IDR, the IU finally transmits
+the IDR to SSA electronically. This action locks the IDR.
+m. Submission
+A submission is an IDR the IU has finally transmitted to SSA.

@@ -1,0 +1,146 @@
+SSA Program Operations Manual System (POMS) - DI 13004.005 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 09/22/2016 - Present | TN 2 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413004005 (fetched 2026-10-04)
+
+L. Procedure - PC processing of the CDR mailer form
+1. Hard paper mailer forms
+A significant additional PC workload consists of hard paper forms initiated by and
+returned to the PC. WBDOC cannot scan and process these forms to a data file. DCDRS
+decision logic cannot process these forms because no electronic data file exists for
+these mailers and the PCs must manually review them. We do not generate CDR MAILER
+PSC review alerts, facsimiles or profile sheets for these cases.
+In addition, processing of undeliverable hard paper forms may be required.
+2. Processing nonresponder alerts
+PC personnel receive systems notification (a nonresponder alert) when a response (a
+confirmation file) is not received to the 1st-request and 2nd-request mailer forms within a specified time frame, see DI 13004.005H.3. (in this section). The PC processes the nonresponder alert as follows.
+a. DIRCON
+WBDOC use the telephone for DIRCON to complete form SSA-455. The PC follows the PC
+DIRCON procedures in GN 01070.305 and GN 01070.315. We make two DIRCON attempts; do not count busy signals as attempts. WBDOC use the
+form SSA-5002 to record the results of DIRCON.
+b. DIRCON is successful
+If DIRCON is successful, the PC processes the mailer to a deferral action, as described
+in DI 13004.005L.9.a. (in this section), or DI 40502.001J.4; or a DO CDR action, as described DI 13004.005L.9.b. (in this section), or DI 40502.001J.4.
+c. DIRCON is unsuccessful
+If DIRCON is unsuccessful because the individual cannot be located or is located but
+refuses to cooperate, the servicing FO process the case as a “DO CDR” to, see DI 13004.005L.9.b. (in this section), or DI 40502.001J.4.
+In addition to the DCF input described in DI 13004.005L.9.b. (in this section) and DI 40502.001J.4., the PC annotates in the special message field (SP MSG 1) on the MBR, or the remarks
+section of the CDR PC Input Screen B (IPCB, see MS CDR 001.006 ) of the DCF, that
+the beneficiary was a nonresponder and the case is being referred to the FO to initiate
+a full CDR per DI 13005.000. We annotate the DCF by entering a “Y” after REMARKS on the PC Input Screen (IPCB).
+This takes the user to the CDR Remarks Input (IRMK) screen see MS CDR 001.009. The user then enters the nonresponder information on
+the IRMK screen.
+REMEMBER: The mailer form process is not a CDR. Consequently, an inability to locate an individual
+to complete a mailer form, or an individual's refusal to provide responses to questions
+on the mailer form is not a basis for a cessation or suspension action under the PCs'
+whereabouts unknown (WU) or failure to cooperate (FTC) procedures of the CDR process.
+It is, however, a basis to refer the case to a FO to initiate a CDR. We may apply
+the FOs' WU or an FTC procedure in DI 13015.001 through DI 13015.025 to an initiated CDR.
+3. DIRCON to resolve unanswered questions or conflicting responses
+DIRCON may also be required to obtain answers to questions, or to resolve conflicting
+responses.
+4. Folderless processing of completed forms
+The review performed in the PC is usually a folderless process. The PC reviewer considers
+the beneficiary's responses on the mailer, any other documents that may have been
+submitted (e.g., a medical report), the contents of the profile sheet, see DI 40502.095, Exhibit 1, and any on-line information to determine if a CDR is appropriate.
+Rarely, it may be necessary to obtain the claim folder to complete the PC review.
+5. Sorting mailers received from the WBDOC
+The PCs sorts the actionable mailers received from the WBDOC in anticipation of receipt
+of the decision logic alert/facsimile/profile sheet output.
+6. Receipt of the alert, mailer form facsimile and profile sheet
+For each mailer received for PC Review through DCDRS decision logic, an alert, a facsimile
+of the mailer, and a profile sheet (see DI 40502.095, Exhibit 1) are generated.
+The facsimile of the mailer form includes questions, answers, and any relevant remarks of less
+than 30 words or 200 characters. However, a portion of the mailers received at the
+WBDOC has lengthy relevant remarks, work information, relevant attachments or require
+translation. The WBDOC identifies these mailers as “actionable” forms and WBDOC ships
+these mailers to the PCs in specially labeled containers. We cannot generate a useful
+facsimile for these cases. Instead, actionable mailers require association with the
+profile sheet and paper alert before processing.
+The profile sheet contains much of the data used by DCDRS to identify and profile the case. The profile
+sheet includes the disabled individual's name, account number, application date, date
+of entitlement, date of onset of disability, diagnoses codes, impairment data, medical
+diary type as calculated by DCDRS (the OD-CALC MDR: field), profile category (Low,
+Medium, or High), recent earnings information, and initial claim and prior CDR data.
+7. Review of the alert
+a. The purpose of the alert
+The next action is determined by reviewing the alert. Each alert includes a message
+that specifies whether translation is needed, and whether review by a Benefit Earnings
+Technician (BET) (PC-7)/Disability Technician (DT) (PCs 1-6), or by a Disability Examiner
+(DE), Disability Examiner Consultant (DEC) or Disability Consultant (DC) is needed.
+Each message also includes a recommended final action.
+b. Actionable mailer alert
+Receipt of an alert may tell the Development and Support Examiner (DSE) (PC-7)/Folder Location Clerk (FLC) that before the next action they need to associate an actionable mailer with the
+electronically generated output. The DSE and FLC put the documents in a holder and refer them for review based on the specific alert message.
+c. Work activity alert
+Some alerts will state that BET/DT/Earnings Reviewer (ER) review is needed if the
+response to question 1 (work activity) is “Yes,” if earnings information is provided,
+or if a code of “1” (or, in certain cases, “3”) was input by the WBDOC in either of
+the first two “ANY CODES?” boxes.
+d. Translation is needed
+On the alerts that state, a need for review because translation is required. The WBDOC
+identifies the need for translation and passes that information through the DCDRS
+decision logic by entering the appropriate code in the ANY CODES? boxes. The BET/DT/ER
+refers the holder to the appropriate translator.
+e. When no work activity is reported and no translation is needed
+DE/DEC/DC/Disability Processing Specialist (DPS) review is required for all other
+PC review mailers.
+f. The automated recommended final action
+The alert message includes an “automated recommended final action.” It reflects the
+action the DCDRS decision logic would have made (to defer and rediary, or refer the
+case for a CDR) without consideration of what is in the untranslated remarks, other
+remarks, or in the attachments.
+NOTE: Review of the mailer form, remarks on the form, and any attachments may warrant an
+action different from the “automated recommended final action”.
+8. PC review decisionmaking
+Following translation -- the BET/DT/ER make decisions on referred cases with reports of work and earnings,
+see DI 40502.001I.2.c.
+The DE/DEC/DC/DPS conduct a review of the responses to the 6 questions, any remarks
+and attachments to most of the mailers and all other mailer forms not requiring BET/DT
+review that are referred.
+Note that the reviewers do not consider the response (or no response) to question
+“5” on the hard paper mailer form SSA-455 regarding interest in a referral for rehabilitation
+services; the reviewers only considered the responses (or missing responses) to the
+other questions.
+The reviewers uses the following to decide whether a deferral action or a referral
+for a full medical CDR is appropriate: the responses and the documentation with the
+mailer form; online data (e.g., MBR query response; Supplemental Security Record (SSR) query responses; Summary Earnings Query (SEQY); and Detailed Earnings Query (DEQY) query responses) the beneficiary may submit, and the information contained on the
+profile sheet.
+For a thorough description of PC decisionmaking, see DI 40502.001I. and DI 40502.001J.
+9. PC input and related actions to reflect deferral or DO CDR action
+The DE/DEC/DC/DPS updates the DCF to reflect the result of the completed review.
+a. Deferral action
+The DE/DEC/DS/DPS makes the appropriate input to the DCF (see DI 40502.001J.3.), which generates an automated notice (Continuing Disability Review (CDR) Deferral
+Notice, see NL 00705.355) which is mailed to the beneficiary (or representative payee), and sets a new medical
+reexamination diary date for full medical CDR deferrals.
+The DCF will show EVENT 013 “T2 CDR DEFERRED BY PC,” “T2/T16 CDR DEFERRED BY PC,”
+or “T16 CDR DEFERRED BY PC.”
+We use the medical diary reason (MDR/MR) code to reset the medical reexamination diary date at the time of case selection
+for mailer form processing. Note that if the MDR/MR was oris blank, we use the default
+MDR/MR value of “3” and a medical reexamination diary 36 months in the future is set.
+When we obtain the claims folder, in the unusual situation, to do the PC review, we
+return the claims folder to the appropriate folder storage facility (the Caves, Megasite,
+WBFSO, etc.). A Processing Center Action Control System (PCACS) input (for title II
+claims folders) or Supplemental Security Income Case Control System (SSICCS) folder
+transfer input (for title XVI claims folders) is done to reflect the movement of the
+claims folder.
+b. DO CDR/full medical CDR referral action
+If we do a DO CDR action, as is more fully described in DI 40502.001J.4., we refer the case to the FO to notify the beneficiary and the representative payee,
+if any, that we have initiated a CDR.
+Title II cases - In Title II cases, if a full medical CDR is needed, update the mailer in DCF to
+DO CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+Title XVI cases - In Title XVI cases, if a full medical CDR is needed, update the mailer in DCF to
+DO CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+The DCF will show EVENT 009 “T2 CDR INITIATED BY PC,” “T2/T16 CDR INITIATED BY PC,”
+or “T16 CDR INITIATED BY PC.”
+c. CDT coding on the SSA-5526-U2-OP2
+The current version of the SSA-5526-U2-OP2 (Request for Assistance Disability) initiated
+after FY 1999 does not have pre-printed Continuing Disability Review Type (CDT) codes for mailer form cases. For DO CDR actions involving mailer forms initiated
+FY 2000 or later, print the appropriate CDT code in the CDT section of the SSA-5526-U2-OP2 or route slip. The possible CDT codes are:
+40 – CDR mailer released in FY 2000
+41 – CDR mailer released in FY 2001
+42 – CDR mailer released in FY 2002
+43 – CDR mailer released in FY 2003
+44 – CDR mailer released in FY 2004 or later
+A complete list of CDT codes is in SM 06001.120B.11. It is important that the PC use the correct CDT code when referring the DO CDR action
+to the FO, and it is equally important that the FO use the correct CDT code when the FO refers the
+CDR to the DDS.

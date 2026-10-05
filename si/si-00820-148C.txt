@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - SI 00820.148 - Automated Wage and Employment Information from Payroll Data Providers (PDP) Received through the Payroll Information Exchange (PIE)
+Effective Dates: 03/25/2025 - Present | TN 99 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820148 (fetched 2026-10-04)
+
+C. PIE process
+1. Request
+At the beginning of each month, prior to the Goldberg-Kelly Notice Cutoff, we request
+wage and employment information for the prior month from the PDP for individuals who
+have an active authorization. The PDP returns wage and employment information through
+PIE for individuals whose employer(s) participate in the PDP service.
+NOTE:
+As part of this automated exchange, we will request wage and employment information
+for the prior month's wages ONLY. This data will accumulate in the Wage and Employment
+Information (WEI) repository for as long as we have an active authorization.
+2. Receive
+Information received through PIE automatically post to records and may also be accessed
+manually through the WEI repository. The WEI repository is accessed from IMAIN and
+displays results based on search criteria for wage and employment information provided
+by a technician, see MS 09601.001 and MS 09601.002. This information is used for matching
+purposes in the SSI Claims system to determine whether to post the wage and employment
+information to the Wages page on the appropriate record. For SSI cases, wages update
+to the record before the Goldberg-Kelly Notice Cutoff date each month.
+IMPORTANT: When taking claims, processing redeterminations, or handling wage-related workloads,
+be sure to complete the Employer Identification Number (EIN) field on the Wages page
+accurately for all active employers listed in the SSI Claims system, see SI 00820.143B.3.
+3. Automate
+As part of PIE’s automated process, the SSI Claims system attempts to match employer
+information to an individual’s record. The EIN from the PDP attempts to match to any
+EIN on an individual’s SSI Claims system Wages pages for SSI and concurrent cases.
+a.
+Successful Match
+When a successful match occurs, (i.e., the SSI Claims system record contains a Wages
+page with a matching EIN):
+•
+The Wages page that contains income or wage data with a matching EIN automatically
+updates with the wage information received from the PDP through PIE.; and
+•
+The wages will be submitted to the Supplemental Security Income record (SSR) to affect
+payment prior to the Goldberg-Kelly Notice Cutoff. In adverse action cases, the system
+automatically sends the Notice of Planned Action including information about appeal
+rights, payment continuation, and any applicable Fair Credit Reporting Act (FCRA)
+disclosures. See Overview of Goldberg/Kelly (GK) Processing, SI 02301.301.
+b.
+No Match Between SSI Claims system Wages Page and EIN
+When the SSI record contains a Wages page without a matching EIN, a PDP Pending Wage
+page and an EE diary are created.
+For more information on the EE diary, see MS 08114.123.
+For instructions on how to process the EE diary when there is an unsuccessful EIN
+match, see SI 02310.200.
+NOTE:
+As common practice, technicians should review Wage pages and verify that the EIN is
+on the record to prevent future PDP Pending Wages pages and EE diaries from being
+created.
+c.
+New Employment
+When we receive wages for records that do not contain any Wages pages:
+•
+A new Wages page is created using the information from the PDP;
+•
+The Work Expenses and Substantial Gainful Activity pages are added with a page status
+of "Unfinished" where applicable. The technician must complete these pages with the
+appropriate information;
+•
+The Quarterly Wages Summary page will be added; and
+•
+The wages will be submitted to the SSR to affect payment prior to the Goldberg-Kelly
+Notice Cutoff. In adverse action cases, the system automatically sends the Notice
+of Planned Action including information about appeal rights, payment continuation,
+and any applicable Fair Credit Reporting Act (FCRA) disclosures. See Overview of Goldberg/Kelly
+(GK) Processing, SI 02301.301.
+d.
+Force Due or Manual Deeming
+When we receive wages for the records with Force Due or Manual Deeming present:
+•
+The PDP Pending Wage Report page is added with a reason of "Force Due" or "Manual
+Deeming" (as appropriate);
+•
+The appropriate issue is added to the Development Worksheet; and
+•
+The technician needs to review the claim and take the appropriate action(s) to post
+the wages.
+NOTE:
+Individuals are still required to report monthly wages for employers that do not participate
+with the PDP. This includes any employer who stops participating with the PDP service.
+When appropriate, encourage individuals to submit their wages using other electronic
+wage reporting methods to report wages for any employer that does not subscribe to
+a PDP's service. For more information on available reporting methods, see SI 00820.144.
+4. Notify
+We will notify the individual when their wage reporting requirements change through
+an automated notice. This notification is based on whether we receive wage and employment
+information from the PDP through PIE.
+•
+Reduced Reporting
+The system will send an automated notice informing the individual that they no longer
+need to report their wage and employment information for a particular employer(s)
+if we receive it through PIE. Recipients and representative payees are still required
+to report wages from all other employers. They should also report, for all employers,
+wage and employment information we would not receive through PIE, such as work expenses
+related to their medical conditions.
+•
+Increased Reporting
+The system will send an automated notice informing the individual that they must begin
+reporting their wage and employment information again for a particular employer(s)
+if we stop receiving that information through PIE for three consecutive months. This
+notice is sent in instances where a reduced reporting notice was previously issued.
+NOTE:
+For force due or manual deeming cases, the notice will be sent when the recipient
+is placed in another active pay status (for example C01 or N01) and the Wage page
+and the SSR are updated with PDP wage information through automation. Technicians
+do not send a manual reduced wage reporting notice for force due or manual deeming
+records.

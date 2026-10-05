@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - DI 13010.090 - Processing a Trial Work Period (TWP) Determination
+Effective Dates: 07/20/2017 - Present | TN 84 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010090 (fetched 2026-10-04)
+
+B. TWP not completed
+1. Documenting work activity in eWork
+Unless an exclusion applies, use eWork to develop, control, document and effectuate
+all work activity determinations for disabled beneficiaries.
+When you determine that the beneficiary has not completed 9 TWP months:
+•
+eWork completes all necessary forms, and prints the appropriate beneficiary notices;
+•
+The earnings are “pushed” to the Verified Earnings (VERN) screen on the DCF;
+•
+the eWork system sets an automatic INVTWP issue on the CDR development worksheet (CDRW)
+screen of the DCF for the projected end of the TWP; and
+•
+eWork closes the DCF T2 work CDR as “SSR/MBR STOP CDR.
+If the beneficiary is not currently working, enter Ds in the closed field of the INVTWP
+issue on the CDRW to delete the issue.
+See also:
+DI 13010.020 Work Reports
+DI 13010.025 Field Office (FO) and Processing Center (PC) Responsibility in Work Issue Continuing
+Disability Reviews (CDRs)
+MSOM CDR 001.013 CDR Development Worksheet (CDRW)
+2. Documenting work activity on the DCF for eWork exclusion cases
+If you are unable to use eWork due to a systems limitation, use the IC process in
+eWork and manually establish the T2 work CDR on the DCF.
+NOTE: The IC process in eWork does not establish a DCF event, or post verified earnings.
+When a beneficiary has worked but has not completed the TWP:
+•
+Establish the TWP work review action on the DCF using the Disability Review Establishment
+Screen (DRES).
+•
+Select the appropriate claim on the Entitlement Selection (ESEL) screen. From the
+ESEL screen, you are directed to the disability data information on the Entitlement
+Summary (ESUM) screen.
+•
+Document the monthly earnings determinations on the DCF using the Verify/Update Earnings
+(VERN) screen. Use the CDR Remarks Input (IRMK) to document any pertinent remarks.
+•
+Close all completed issues on the CDRW screen.
+•
+Complete the CDR FO Input (IFOA) screen to close the TWP action. Input: SELECT EVENT
+TYPE 5, SSR/MBR STOP CDR.
+•
+eWork prepares an SSA-899 (Continuing Disabilty Review). For more information on the
+SSA-899, see DI 13010.175.
+•
+If the case is an eWork exclusion, use DPS to prepare and send an SSA-L1013 notice
+of the TWP determination.
+For more information on how to complete specific DCF screens, see MSOM CDR 001.007
+through MSOM CDR 001.016.
+See also:
+•
+DI 13010.605 The CDR Development Worksheet (CDRW) Screen
+•
+DI 13010.610 The Disability Review Establishment (DRES) Screen
+•
+DI 13010.677 The Entitlement Selection (ESEL) Screen
+•
+DI 13010.679 The Entitlement Summary (ESUM) Screen
+3. Annotating TWP development issue on the DCF
+If this is the first TWP action and the CDRW does not show a previous INVTWP issue:
+•
+The DCF automatically posts an INVTWP issue to the CDRW for the month after the ninth
+TWP month.
+•
+Return to the CDRW screen and enter D's in the closed field of the INVTWP issue if
+you do not want a future diary established (e.g., the beneficiary is not working on
+a regular basis). This action deletes the issue. For more information on the CDR Development
+Worksheet (CDRW) screen, see DI 13010.605.
+4. Work continues and TWP matures less than 3 months from the current operating month
+(COM)
+Perform a medical file review (MFR) in accordance with DI 40510.040.
+If a medical issue exists, follow DI 13010.012D to determine if protection from a medical review based on work activity applies.
+5. Routing decisional documents
+Fax all eWork documentation and any supporting work development into eView or Evidence
+Portal (EP). For a list of documents see DI 13010.025B.

@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.398 - Coding Cambodia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 244 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402398 (fetched 2026-10-04)
+
+G. Example of coding Cambodia direct deposit
+The customer provides us with a signup form for Cambodia containing the account number:
+"123456789012"
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 680000158
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “X” designated for Cambodia; and
+•
+Code the 12-digit Customer Account Number “123456789012”
+3. Obtain the following information
+•
+Checking
+•
+DAN: X123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000158
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: X123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 680000158
+•
+DAN CX123456789012

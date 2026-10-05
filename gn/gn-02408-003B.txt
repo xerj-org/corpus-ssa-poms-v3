@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02408.003 - Stop-Payment Chart for E, F, and W-Stops Input on Title II and Title XVI Checks and EFT Payments
+Effective Dates: 11/20/2024 - Present | TN 88 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408003 (fetched 2026-10-04)
+
+B. Stop Payment Descriptions
+The following chart gives a brief description of each stop-payment:
+Stop Code
+Description of E, F, and W- Stops
+E-stops (Reclamation Request)
+Checks and Electronic Fund Transfers (EFT)
+Non-entitlement due to death/no rep payee
+Applies to Title II and Title XVI checks and EFT payments issued after death.
+E-stop is usually an automated process when the date of death is posted to the record
+and the stop-payment action goes to Treasury.
+When a death input is processed, E-stops are automatically systems generated for checks
+and EFT payments issued after death, unless the E-stop must be input manually (see
+Manual E-stop Process GN 02408.012).
+E-stops for checks have a 12-month limit during which SSA can reclaim funds
+An E-stop enables SSA to direct Treasury to reclaim funds when a check is cashed after
+the death of the beneficiary or recipient and to return improper EFT funds deposited
+to the deceased beneficiary/recipient’s bank account.
+F-stops
+Non-entitlement other than death
+Social Security Administration (SSA) uses the F-stop to determine the status of a
+check without issuing a replacement check. The F-stop is used when SSA issues a Title
+II or Title XVI check that is not due. When SSA transmits an F-stop, Treasury will
+investigate the check in question. For more information on appropriate scenarios to
+use the F-stop, see GN 02408.020.
+W-stop
+Checks and EFT
+Title II ONLY
+Non-entitlement - death of rep payee
+W-stop is a Title II stop code used only for the death of the representative payee.
+A rep payee date of death input generates stop-payments (W-stop) on any Title II payments
+issued after a payee’s death.
+W-stops post to the Payment History Update System (PHUS) as E-stops.
+For EFTs, Treasury returns funds to SSA after reclamation from a financial institution
+(FI) for reissue to the new payee.
+For checks, Treasury cancels checks issued after a payee’s death and returns credit
+to SSA for reissue to the new payee or reclaims from the FI if checks were cashed.

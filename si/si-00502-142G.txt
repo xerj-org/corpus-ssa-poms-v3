@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - SI 00502.142 - Qualified Aliens Who Are Blind Or Disabled And Were Lawfully Residing In The U.S. On 8/22/96
+Effective Dates: 04/12/2018 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502142 (fetched 2026-10-04)
+
+G. Procedure—Special Systems Processing Instructions for Couples Cases
+If both members of the couple cannot be adjudicated on the same day, then the configuration
+of the claim dictates the processing path required:
+1. Both Members Are Aged and Both Require Medical Decisions
+a. Aged Couple: Initial Application
+Input the case according to the following chart:
+MSSICS
+Non-MSSICS
+•
+Complete all screens as usual for aged alien couple.
+•
+Send to the SSR but do not close the event. (Closing the event will place the case in N13 as a denial) which is not appropriate.
+•
+The system will establish the couple record with PSY of H80 (H80 means that an issue
+is pending).
+Complete the two SSA-450SI's with--
+•
+TP of AI for the aged individual and AS for the aged spouse,
+•
+AQ with code "8" for both, and
+•
+PS H80.
+•
+Include the “DO,” “SA,” and “CM” fields.
+See SM 01005.140 for the “DO” coding,
+SM 01005.220 for the “SA” coding, and SM 01005.330 for the “CM” coding.
+b. Aged Couple: One Member of Couple is Determined to Be Blind/Disabled—Initial Allowance
+Upon receipt of the allowance for the payable spouse:
+•
+T50 the couple record, since the system cannot perform a Special Routine Eliminating
+Waiting (SREW) computation for an aged couple. One member of the couple would be in
+C01 status while the other is in H-80. See SM 01701.005 and SM 02101.035 for more
+information about the SREW computation.
+•
+Manually clear the MSSICS claim per MS 04404.011, if needed.
+•
+Establish an eligible AI with an ineligible spouse (XS) record via 450S input. DO NOT Start Date.
+•
+Include AQ "8" (SM 01005.642) and the appropriate CM code for “AI” (SM 01005.330).
+•
+Follow subsection SI 00502.142G.1c or SI 00502.142G.1.d once the decision is received for the waiting spouse.
+c. Aged Couple: Claimant in Current Pay - Favorable DDS Decision Received for “Ineligible
+Spouse” - Post Action
+Take the following actions if the ineligible aged spouse is later determined to be
+blind/disabled, and is thus eligible:
+​
+​
+MSSICS
+Non-MSSICS
+•
+Seed the record (AI/IS) into MSSICS.
+•
+Answer all questions in MSSICS for the ineligible spouse.
+•
+Complete the Disability Clearance Page for the ineligible spouse.
+•
+MSSICS will set the record up and correctly pay as an eligible couple.
+•
+T33 the individual with ineligible spouse (AI/IS) record.
+•
+Start date a couple (AI/AS) record as an allowed couple.
+d. Aged Couple: Unfavorable DDS Decision Received for Ineligible Spouse—Ineligible Spouse
+Not Blind/Disabled—Post Action
+If the spouse is medically denied and is therefore an ineligible alien, take the following
+actions:
+•
+Seed the aged individual with ineligible spouse (AI/XS) record into MSSICS if not
+already in MSSICS.
+•
+Process the denial for the ineligible spouse through MSSICS. MSSICS will correctly
+build the N13 denial.
+•
+Record in "Remarks" on the SSR the date and denial code of the DDS decision for the
+ineligible spouse.
+•
+CAUTION: Do not overkey the N13 denial coding in this situation.
+•
+SDSP does not need to be in the first position. This entry must be present at the
+time the SD record is initially established to get workload credit.
+2. Payable Member is Aged and Eligible Without a Medical Decision, Needed Medical Decision
+for Spouse Under 65 is Pending
+Adjudicate the aged alien as an individual and T33/SD the record when the disability
+decision is received for the spouse, regardless of whether it is a denial or approval.
+Once the record is start dated, any funds due the spouse for a prior period will need
+to be paid by A-OTP. The aged member can be adjudicated as an allowance while the
+disability decision is pending for the spouse. This will result in a SREW computation.
+3. Disabled Member (Under Age 65) Approved First and Aged Member Still Awaiting Medical
+Decision
+Due to systems limitations with alien cases, set up record as an individual to pay
+the person currently eligible and then start dated once a decision is received for
+the second party.
+4. Both Members Disabled (and Under Age 65)
+Due to systems limitations with alien cases, set up record as an individual to pay
+the person currently eligible and then start dated once a decision is received for
+the second party.

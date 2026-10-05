@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - SI 00832.316 - *Relief to Eligible Couples Under Anderson v. Sullivan
+Effective Dates: 11/19/1996 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500832316 (fetched 2026-10-04)
+
+E. Procedure — cases with overpayments
+Deem the overpaid person without fault and deem recovery to be against equity and
+good conscience with respect to any overpayments caused by the January 28, 1992 Anderson
+court order. Do not issue a notice of overpayment.
+Follow the procedure in the list below:
+1.
+Is there an active record (i.e., payment status C01, E01, or suspense)?
+•
+If yes, go to 2.
+•
+If no, issue the form letter displayed in SI 00832.317
+C. Waive recovery of the overpayment by completing the overprinted report of contact
+in SI 00832.317 E. below. Skip to 8.
+2.
+Does the class member still receive an augmented protected pension?
+•
+If yes, input the verified amount of the veteran's portion of VA income effective
+with the current calendar month and a CG code of “AND2 MMYY”. Issue the form letter displayed in SI 00832.316 C. at the time of input so the recipient receives it before the automated Notice of
+Planned Action. Go to 3.
+•
+If no, input a CG code of “AND2 MMYY”. Issue the form letter displayed in SI 00832.317 C. Complete the overprinted report of contact in SI 00832.317 E. Skip to 8.
+3.
+Complete the overprinted report of contact in SI 00832.317
+E. to document the FO case file.
+4.
+Will your input cause the case to go into suspense (payment status N01)?
+•
+If yes, go to 5.
+•
+If no, skip to 8.
+5.
+Suppress the automated overpayment notice in the same input used to post verified
+VA income. (Do not suppress the automated Notice of Planned Action.)
+6.
+Query the SSR to establish the amount of the overpayment reflected on the SSR as a
+result of this input after the income correction input has processed.
+7.
+Input a waiver determination and suppress the waiver notice. (See SI 00832.001D.3. for waiver determination inputs.)
+8.
+Complete a copy of the Anderson Case Report displayed in SI 00832.317 D. STOP.

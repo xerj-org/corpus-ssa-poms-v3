@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.378 - Coding Lebanon Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402378 (fetched 2026-10-04)
+
+E. Description of Lebanon IDD bank data
+The data for coding IDD for Lebanon comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The full length of the IBAN for
+Lebanon consists of 28 characters. However, the bank data on the MBR consists of 27
+characters including Lebanon’s country code of C.

@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02309.003 - Attainment of Age 18 - KB Diary - Supplemental Security Income (SSI)
+Effective Dates: 09/17/2026 - Present | TN 31 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502309003 (fetched 2026-10-04)
+
+C. Clearing an RZ with a KB diary
+1. What actions to take when clearing an RZ with a KB diary
+Take the following actions to clear an RZ with a KB diary:
+•
+For cases in the SSI Claims system, complete the RZ and input a living arrangement
+change to update the Type of Master Record (TMR) to DI/BI. REMINDER: the living arrangement change date must be equal to MM/DD/YY of the recipients 18th
+birthday. Document the student status on the Household Composition and Student Data
+pages.
+•
+For cases that are not within the SSI Claims system, transmit RZ completion via an
+SSA-1719b input. At the same time, input Student Indicator (SY) and Type of Record
+(TY) to update the TMR to DI/BI, see SM 01305.770.
+Additionally, complete a disability redetermination within the year after the recipient
+attains age 18.
+DDS employees, see DI 23570.000.
+FO employees, see DI 11070.001 through DI 11070.006.
+Use the Disability Control File (DCF) and the Post Entitlement Operational Data Store
+(PE ODS) to determine when the disability redetermination is scheduled.
+Coordinate the RZ and the disability redetermination where appropriate.
+See also:
+SM 01305.780 SY Field - Student Indicator
+SM 01501.250 Overview of Redetermination Related Diaries and Alerts
+2. What actions to take when the recipient's date of birth is incorrect
+If the recipient's date of birth is incorrect on the SSR and the recipient is not
+yet age 18, correct the date of birth. This action will resolve the diary and clear
+the profile K RZ in the next monthly merge run.

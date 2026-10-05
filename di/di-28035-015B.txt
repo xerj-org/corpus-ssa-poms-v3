@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - DI 28035.015 - Disability Determination Services (DDS) Identification of the Comparison Point Decision (CPD) Date
+Effective Dates: 11/15/2021 - Present | TN 4 (02-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428035015 (fetched 2026-10-04)
+
+B. Review queries to locate the CPD date
+The adjudicator will review the following processing systems and queries to locate
+and document the CPD date of the most recent favorable medical determination.
+1. Disability Control File (DCF) MS 00501.018 Query Medical Information Data Screen (QMID)
+The adjudicator will review the DCF Query Medical Information Data screen to determine
+the:
+•
+Date of the last medical review;
+•
+Diagnosis codes;
+•
+Next medical diary date; and
+•
+Basis for the diary date.
+2. Queries
+The following queries may have necessary information to determine the proper CPD.
+a. Master beneficiary record (MBR) SM 00510.000
+The adjudicator will review the following fields:
+•
+INSURED – Displays type of claim and date of filing
+•
+BENEFIT – Displays DOEI – date of entitlement initial
+•
+BENE ENT – CUR ENT CODE - Displays type of currently entitled benefit
+•
+DIB - Disability Insurance Benefits
+•
+DDO - Date of Disability Onset
+•
+DIG - Diagnosis Code - Mental or physical impairment that resulted in a disability
+•
+DOED - Date of entitlement to disability
+b. Supplemental Security Record (SSR) SM 01601.000
+The adjudicator will review the following fields:
+•
+CCTL – TMR – Master Record Type (DI, DS, DC, etc.)
+•
+DIAR – MR – Medical Review Diary
+•
+DISB – DSA - Date to State Agency
+•
+DDO - Date of Disability Onset
+•
+DIG - Diagnosis Code
+•
+DPM - Permanent Disability Indicator
+•
+CDR - CDR Event and Code
+c. DDS Query (DDSQ) SM 06002.200
+The adjudicator will review the following fields:
+•
+DEC – Decision
+•
+BAS – Basis
+•
+OND – Onset Date
+•
+DSI – Primary Diagnosis
+•
+DIA – Medical Diary Date
+•
+ESD – Examiner Signature Date
+•
+MSD – Medical Signature Date
+•
+SDI – Secondary Diagnosis
+•
+MLN – Medical Listing Number
+•
+SCD – State Cleared Date

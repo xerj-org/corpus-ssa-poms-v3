@@ -1,0 +1,284 @@
+SSA Program Operations Manual System (POMS) - SI 01310.208 - Computing Payments and Using a Worksheet in Deeming Waiver Cases
+Effective Dates: 09/13/2016 - Present | TN 39 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501310208 (fetched 2026-10-04)
+
+E. Examples
+1. Disabled child ineligible under the deeming rules—no state supplement
+Mary Jane Smith is a disabled 2-year- old child who lives at home with their parents
+since Mary Jane came home from the hospital in April 1990. Mary Jane has received
+SSI since February 1990. In May and June 1990, Mary Jane's parent James Smith earned
+$1,600 each month. In July, James received a promotion and began receiving a monthly
+salary of $2,800. Katrina. Smith went to the field office (FO) at the end of July
+to report the change. Katrina alleged that Mary Jane was eligible for Medicaid under
+a State home care plan.
+Neither Katrina Smith nor Mary Jane has any income. There are no other children in
+the household. No optional State supplement is paid in their State. An SSI query shows
+that Mary Jane is a disabled child, that Mary Jane was paid SSI benefits of $30 (personal
+needs allowance) in February and March, $386 in April, May and June, $49 in July,
+and Mary Jane will be paid $49 in August.
+The FO takes the following actions:
+Step
+Action
+1
+Computes eligibility for July 1990 based on the change in James Smith's earnings.
+Mary Jane is ineligible based on parental deemed income effective July.
+2
+Verifies Mary Jane's eligibility for Medicaid under a State home care plan according
+to regional POMS instructions.
+3
+Determines that Mary Jane is eligible to receive a $30 SSI benefit under the waiver
+of parental deeming provision for the month of July 1990.
+EXPLANATION:  Although initially Mary Jane was found ineligible because of parental deemed income,
+Mary Jane is eligible based on section 8010. Mary Jane's payment is computed using
+only their own income in July. (July is the budget month because Mary Jane was ineligible
+in Step 1.) Since Mary Jane has no income, the benefit amount due is $30.
+4
+Determines that for August 1990 and continuing, Mary Jane is also due $30.
+5
+Issues the appropriate manual notice.
+6
+Makes a system input to force pay Mary Jane's SSI record at a continuing rate of $30
+monthly beginning August 1990.
+7
+Develops an overpayment for July and posts it to the SSR (SM 01311.140).
+2. Eligibility under deeming rules fluctuates— state supplement involved
+Katie Ryan is a 2-year-old disabled child living in Massachusetts with their two parents,
+and a 4-year-old ineligible brother. Katie has received SSI benefits for the past
+18 months, first while hospitalized, and now at home with Katie's family. In May 1990,
+Katie was allegedly placed in the Massachusetts Home Care for Disabled Children Program
+(a State home care plan).
+Katie's only income is a cash gift of $25 given to Katie on their birthday in June.
+Katie's parent Jane and brother have no income. Katie's parent Edward Ryan works and
+earns $958.50 every 2 weeks. In April and May, Edward was paid $1,917 each month.
+In June, Edward is paid $2,875.50 (three paydays). In July Edward will be paid $1,917
+(two paydays).
+The Massachusetts State supplement for a child living in the parents' home is $114.39.
+The State supplement for the personal needs allowance is $42.80.
+The FO takes these actions:
+Step
+Action
+1
+Determines Katie's eligibility for June 1990 based on Edward Ryan's wages and Katie's
+own unearned income. Katie is ineligible.
+2
+Verifies Katie's eligibility for Medicaid under a State home care plan.
+3
+Determines that Katie is eligible to receive a $67.80 SSI benefit under the waiver
+of parental deeming provision for June 1990.
+EXPLANATION:  Katie is ineligible because of parental deemed income. However, Katie is eligible
+under the parental deeming waiver. Katie's payment is computed using only their own
+countable income in June ($25 - $20 = $5). June is the budget month because Katie
+was ineligible in Step 1. Katie is due $67.80 ($25 Federal +42.80 State).
+4
+Determines that Katie is eligible for July 1990 based on deemed parental income. The
+SSI payment based on parent-to-child deeming would be $39.39.
+EXPLANATION:  In July, there is $481 deemed income. The budget month is July, because application
+of the usual rules in June resulted in ineligibility for an SSI benefit. Therefore, beginning in July, when there is a resumption of eligibility
+under the usual rules (i.e., parental deemed income and resources do not preclude
+eligibility), a transitional computation cycle begins.
+5
+Determines that Katie is eligible to receive a $72.80 SSI benefit under the parental
+deeming waiver provision for July 1990.
+EXPLANATION:  Since Katie is eligible in the computation month based on the usual rules, the FO
+must compare the payment due under the usual rules ($39.39) to the payment under the
+deeming waiver. Under the waiver provision, Katie is due $72.80. (Katie has no income
+in the budget month, which is the same as the budget month from step 4.)
+6
+Issues the appropriate manual notices.
+7
+Force pays the case at a monthly continuing rate of $72.80 ($30 Federal +$42.80 State).
+MONTHLY DEEMING WORKSHEET      Katie Ryan
+Name
+(Parent-to-Child Deeming Waiver)         001-00-4567
+SSN
+1.
+Compute SSI eligibility based
+a.
+Computuation Mo./Yr.
+6¦90
+​
+on parent-to-child deeming
+​
+​
+​
+​
+rules (income and
+b.
+— Child is eligibile.
+​
+​
+resources).
+​
+Go to 2.
+​
+​
+​
+c.
+-x- Child is ineligibile.
+​
+​
+​
+​
+Go to 3.
+​
+2.
+Compute SSI payment
+a.
+Budget Month
+Mo./Yr.
+​
+based on parent-to-child
+​
+​
+​
+​
+income demming rules. (Use
+b.
+Enter unprorated
+​
+​
+income from the budget month.)
+​
+total payment:
+$
+​
+​
+​
+Go to 3.
+​
+3.
+Compute SSI payment using:
+a.
+Budget Month
+6¦90
+•
+personal needs allowance
+(if 1.b. is checked, BM = 2.a. If 1.c. is checked, BM = 1.a.)
+•
+child's own income from
+budget month
+Federal Personal
+Needs Allowance
+$30
+​
+​
+b.
+Child's countable Income from BM =
+-    5
+​
+​
+c.
+Federal payment or excess countable income
+25
+​
+​
+d.
+Federally-administered optional State supplement
++  42.80
+​
+​
+e.
+Payment based on deeming waiver
+$  67.80
+STOP HERE IF CHILD IS INELIGIBLE IN STEP 1
+4.
+If child is eligible in step 1, compare 2.b  to 3.e.  Enter the higher benefit.
+Pay this amount...
+$
+MONTHLY DEEMING WORKSHEET    Katie Ryan
+Name
+(Parent-to-Child Deeming Waiver)      001-00-4567
+SSN
+1.
+Compute SSI eligibility based
+a.
+Computuation Mo./Yr.
+7¦90
+​
+on parent-to-child deeming
+​
+​
+​
+​
+rules (income and
+b.
+-x- Child is eligibile.
+​
+​
+resources).
+​
+Go to 2.
+​
+​
+​
+c.
+— Child is ineligibile.
+​
+​
+​
+​
+Go to 3.
+​
+2.
+Compute SSI payment
+a.
+Budget Month
+7¦90
+​
+based on parent-to-child
+​
+​
+​
+​
+income demming rules. (Use
+b.
+Enter unprorated
+​
+​
+income from the budget month.)
+​
+total payment:
+$ 39.39
+​
+​
+​
+Go to 3.
+​
+3.
+Compute SSI payment using:
+a.
+Budget Month
+6¦90
+•
+personal needs allowance
+(if 1.b. is checked, BM = 2.a. If 1.c. is checked, BM = 1.a.)
+•
+child's own income from budget month
+Federal Personal
+Needs Allowance
+$30
+​
+​
+b.
+Child's countable Income from BM =
+0
+​
+​
+c.
+Federal payment or excess countable income
+30
+​
+​
+d.
+Federally-administered optional State supplement
++  42.80
+​
+​
+e.
+Payment based on deeming waiver
+$  72.80
+STOP HERE IF CHILD IS INELIGIBLE IN STEP 1
+4.
+If child is eligible in step 1, compare 2.b  to 3.e.  Enter the higher benefit.
+Pay this amount...
+$  72.80

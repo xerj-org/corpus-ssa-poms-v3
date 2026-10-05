@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 00204.035 - Deemed Filing
+Effective Dates: 01/04/2017 - Present | TN 166 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204035 (fetched 2026-10-04)
+
+C. Procedure for applying deemed filing for DOB January 2, 1954 or later
+When a claimant files for benefits, you must explore their eligibility for other benefits
+and determine if deemed filing applies to any current or past due benefits, for the
+claimant or the spouse or ex-spouse named on the claimants application.
+IMPORTANT: When a spouse or divorced spouse becomes eligible for benefits based on a claimant’s
+filing and entitlement to retirement or disability benefits, determine if the spouse
+or ex-spouse is a Supplemental Security Income (SSI) recipient and eligible for spouse’s
+or divorced spouse’s benefits. If eligible, follow SI 00510.001 Filing for other Benefits as the spouse or ex-spouse is required to file an application
+for spouse’s or divorced spouse’s benefits to maintain his or her SSI eligibility.
+Follow the procedures outlined in SI 00510.021 and SI 00510.025 for issuing an SSA-L8051 to the spouse and monitoring for compliance. If the spouse
+or ex-spouse is not an SSI recipient, no further action is required.
+1. Application for RIB or AUXSPO benefits
+When a claimant files for RIB or AUXSPO benefits and eligibility exists for both benefits:
+•
+Secure an application for both benefits;
+•
+Determine the month of election for the first benefit; and
+•
+Process the second benefit with a MOET equal to the first month the claimant becomes
+eligible for the second benefit.
+NOTE: If the claimant filed for RIB or AUXSPO benefits online, you must determine if another
+application is required.
+2. Application for Widow(er)s Insurance Benefits (WIB)
+When a claimant entitled to RIB files for WIB and you determine that deemed filing
+applies to past due AUXSPO benefits:
+•
+Use the WIB application to award the past due AUXSPO benefits when the benefits are
+under the same earnings record; or
+•
+Secure an AUXSPO application to award past due AUXSPO benefits when the benefits are
+under a different earnings record.
+•
+Select a MOET that equals the first month the claimant was eligible for the additional
+AUXSPO benefits.
+3. Deemed filing date
+When applying deemed filing, the MOET for the deemed filers claim must be the first
+month they are eligible for the second benefit. When adjudicating the claim, MCS may
+generate an adjudicative edit message because the month of election does not correspond
+with the filing date. In this situation, use the deemed filing date as the protective
+filing date for processing purposes. The deemed filing date is the first day of the
+MOET. For example, if the MOET is 05/2016, the deemed filing date would be 05/01/2016.
+For more information on adjudicative messages, see MS 03511.007. For information on
+using the protective filing date in MCS, see MS 03509.013 Decision Input (DECI) and
+MS 03509.014 File Date Determination Screen (FDDS).
+4. Deemed filing documentation
+An adjudicator is responsible for documenting the claim to clarify aspects of a claim
+that may not be apparent to others reviewing the file. Use the RPOC screen in MCS
+to document aspects of deemed filing that may not be evident when reviewing the claim,
+such as:
+•
+Reason(s) for denying a RIB or AUXSPO claim when the claimant is deemed to file for
+that benefit,
+•
+Reason for using the deemed filing date for a RIB or AUXSPO claim.

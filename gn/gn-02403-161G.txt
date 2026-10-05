@@ -1,0 +1,395 @@
+SSA Program Operations Manual System (POMS) - GN 02403.161 - Social Security Electronic Remittance System (SERS) for Programmatic and Conserved Funds Remittances
+Effective Dates: 11/18/2024 - Present | TN 60 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403161 (fetched 2026-10-04)
+
+G. Procedures for handling unique scenarios or inquiries received in the FO
+SERS will allow FOs to process Title II and Title XVI remittances to overpayments
+and debts that exist on the ROAR or SSR, which can include a conserved fund a misused
+fund debt.
+SERS will allow FOs to process all other conserved fund remittances in the Conserved
+Funds store.
+FOs can process checks and money orders via mail-in or walk-in.
+The following scenarios may occur that require further action when using the SERS
+application. See the following charts for appropriate action.
+1. When SERS returns an error, follow this chart
+If
+Then
+There is a Title II or Title XVI overpayment or debt on the MBR or SSR, but the web
+service does not display the item on the SERS storefront;
+Ensure that the input of the SSN is correct on the SERS storefront. If not, input
+the correct SSN.
+The correct SSN is entered and the web service still does not display the overpayment
+or debt on the SERS storefront;
+Follow the current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+(See limitations in GN 02403.161G in this section.)
+The SERS application is not working or temporarily out of service;
+Follow the current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+The SERS application indicates the web service is not responding or the response contains
+no debts and indicates an error was encountered when retrieving debts;
+Follow the current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+2. When there is more than one debtor, debt, or payment method, follow this chart
+If
+Then
+The remitter would like to make one payment for multiple debts;
+Example 1: John Doe wants to make one payment for his own debt and his two children (on his
+own record and for another person on the same record).
+Example 2: A nursing home is paying multiple debts in a single payment for multiple beneficiaries.
+The technician will query each debtor SSN separately,
+1.
+Select the debts for that SSN,
+2.
+Enter a payment amount, and
+3.
+Submit to the SERS shopping cart.
+For each additional SSN, the technician will return to the Query SSN screen and follow the same process as above until the technician has added all SSNs
+to the SERS shopping cart before completing and submitting the SERS order.
+NOTE:
+If a single SSN has multiple programmatic debts, then SERS will retrieve the debts
+pulled from the web service and display them individually.
+NOTE:
+A debt for an auxiliary beneficiary on a wage earner’s record (e.g. dependent child,
+spouse, or widow) will be displayed under the beneficiary’s own SSN within SERS.
+The remitter would like to make multiple payments for one debt using the same payment
+method (i.e. two checks or money orders with differing amounts);
+Example: John Doe wants to make two payments for his own debt with two different money order
+amounts. He wants to pay $1,000.00 with one money order, and $25.00 on another money
+order.
+Process each transaction separately. SERS can only process one payment at a time.
+IMPORTANT:
+Do not process more than one payment at a time in SERS because it will create an error
+in the system.
+The remitter would like to make a payment in FULL for all of the debts returned on
+the SSN;
+Example: John Doe has a Title II disability overpayment of $100, a Title II retirement overpayment
+of $200, and a Title XVI overpayment of $500, and he would like to repay all in full
+with a single payment of $800.
+The web service will retrieve the multiple debts, and SERS will display each individual
+debt.
+The technician will take the following actions:
+1.
+Select all applicable debts,
+2.
+Enter the amount that the remitter wants to pay for each debt,
+3.
+Select Add to Cart.
+For this example, the technician should enter $100, $200, and $500 for a total of $800 for John Doe.
+*NOTE:
+The total of the order must equal the amount of the total payment.
+3. When an input error occurs after completing and submitting the SERS order, follow
+this chart
+If
+Then
+You mistakenly selected the wrong SSN, BIC, or Established Date and applied the remittance amount on the check or money order incorrectly
+Example 1: Jane Doe remitted a check for $50.00 for her Title XVI overpayment. However, you
+selected Jane’s Title II overpayment, and submitted her order.
+Example 2: John Doe (xxx-xx-1234A) remitted a $150.00 money order for his Title II overpayment.
+However, you selected the wrong SSN (xxx-xx-1235A) input $150.00 and submitted the
+order under SSN xxx-xx-1235A.
+•
+Access the SERS store (Programmatic or Conserved Funds) and select the Orders tab to display the Order Tracker.
+•
+Search for the order with the incorrect input.
+•
+Click the “Submit/Update Incorrect Order” button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Send a Modernized Development Worksheet (MDW) for corrective action to the PC of jurisdiction
+and include:
+–
+Wrong SSN with BIC or Establishment date;
+–
+Correct SSN with BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+You mistakenly input the programmatic remittance amount incorrectly
+Example: Jane Doe provided a $100.00 check to repay her Title II debt, but you mistakenly
+input the remittance into SERS for $10.00.
+•
+Access the SERS programmatic application and select the Order Tracker.
+•
+Search for the order with the incorrect input.
+•
+Click the “Submit/Update Incorrect Order” button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help
+Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requester or take additional
+action(s).
+You mistakenly input a programmatic remittance that SERS cannot process, and should
+have been processed through DMS
+Example: Jane Doe sends a $200.00 check for her monthly Medicare premium. Mary also has a
+Title II overpayment. You mistakenly used SERS to apply her $200.00 Medicare premium
+against her Title II debt.
+•
+Access the SERS Programmatic store and select the Orders tab.
+•
+Search for the order with the incorrect input.
+•
+Click the “Submit/Update Incorrect Order” button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requester to take additional
+action(s).
+You mistakenly entered a remittance in the SERS Conserved Funds store instead of the
+SERS Programmatic store.
+NOTE:
+You should always check the Programmatic store to see if there is a debt returned
+before entering a remittance in the Conserved Funds store.
+•
+Access the SERS Conserved Funds store and select Orders tab to display the Order Tracker.
+•
+Search the order with the incorrect input.
+•
+Click the "Submit/Update Incorrect Order" button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click submit.
+•
+Send an MDW for corrective action to the PC of jurisdiction and include:
+–
+SSN with BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+You mistakenly input a non-programmatic, standard fee remittance into the SERS programmatic
+store or the SERS Conserved Funds store.
+Example: A Law Firm remits a check for $43.00 requesting a copy of an electronic folder for
+their client, John Doe. John also has a Title XVI overpayment. You mistakenly processed
+the check that was from the law firm requesting a copy of an electronic folder in
+SERS Programmatic store against Mr. Doe’s Title XVI overpayment.
+•
+Access the correct SERS store and select the Orders tab.
+•
+Search for the order with the incorrect input.
+•
+Click the “Submit/Update Incorrect Order” button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requestor to take additional
+action(s).
+You mistakenly input a programmatic remittance in the standard fees SERS store.
+Example: John Doe has a Title XVI overpayment and would like to repay his overpayment via
+check. However, you mistakenly submit his check requesting a Detailed Earnings Query
+(DEQY) in the SERS standard fee store.
+•
+Access the SERS store (Programmatic or Conserved Funds) and select the Orders Tab.
+•
+Search for the order with the incorrect input.
+•
+Click the “Submit/Update Incorrect Order” button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by-case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requestor to take additional
+action(s).
+You erroneously entered a returned unendorsed Treasury check for a deceased beneficiary
+in the SERS Conserved Funds store.
+NOTE:
+A Treasury check (endorsed or unendorsed) for a deceased beneficiary cannot be processed in the SERS Conserved Funds store. You must process this through DMS
+as a returned unendorsed benefit payment for death of the recipient.
+•
+Access the SERS Conserved Funds store and select the Order Tracker .
+•
+Search for the order with the incorrect input.
+•
+Click the "Submit/Update Incorrect Order" button for the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click submit.
+•
+Send an MDW for corrective action to the PC of jurisdiction and include:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+You input the remittance correctly into the SERS application, but scanned the wrong
+check or money order, and you have the correct check or money still in hand.
+Example: You created an order for Jane Doe, and scanned the wrong check for her order. The
+check was for Jack Smith, who was also repaying an overpayment. However, Jane Doe’s
+check is in your possession, and has not been scanned.
+•
+Do NOT shred the check or money order.
+•
+Process a new order with the correct check or money order.
+NOTE:
+Once your process the correct check or money order, the record will reflect two transactions.
+The first transaction is for the incorrect check or money order processed from the
+original order that you will submit as incorrect, and a second transaction will be
+from the correct check or money order.
+•
+Access the SERS Order Tracker
+•
+Search for the order(s) with the incorrect input.
+•
+Click on the “Submit/Update Incorrect Order” button on the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requester to take additional
+action(s).
+For this example, Jane Doe will have two credits on her record with one being incorrect. The corrected
+action will be to remove the incorrect credit, and transfer it over to Jack Smith’s
+record.
+You input the remittance correctly into the SERS application, but scanned the wrong
+check or money order, and you shredded the correct check or money order without scanning
+the check or money order.
+Example: You created an order for Jane Doe, and scanned the wrong check for her order. The
+check was for Jack Smith, who was also repaying an overpayment. However, Jane Doe’s
+check was shredded, and you cannot scan or process the actual check that she remitted.
+Treat the shredded check or money order as a lost remittance, and follow current instructions
+in GN 02403.150 and GN 02403.155.
+•
+If you can secure a second remittance, process the correct check or money order in
+SERS under the correct SSN.
+NOTE:
+Once your process the second check or money order, the record may reflect two transactions;
+this will depend on timing to take corrective action on the record. The first transaction
+is for the incorrect check or money order processed from the original order that you
+will submit as incorrect, and a second transaction will be from the correct check
+or money order.
+•
+Access the correct SERS store (Programmatic or Conserved Funds) and select the Orders tab.
+•
+Search for the order(s) with the incorrect input.
+•
+Click on the “Submit/Update Incorrect Order” button on the incorrect SERS order.
+•
+Enter a note explaining why the order is incorrect and click Submit.
+•
+Contact the SERS Help Desk with the:
+–
+SSN;
+–
+BIC or Establishment date;
+–
+SERS order number; and
+–
+Corrective action you are requesting.
+NOTE:
+These requests will be handled on a case-by case basis. After reviewing the requested
+corrective action, the SERS Help Desk will determine what next steps are needed to
+correct the record. For some cases, they may reach out to the requester to take additional
+action(s).
+4. When there are scenarios that are not listed in the previous charts, follow this chart
+If
+Then
+The remittance is not related to an overpayment or debt displayed in SERS;
+Example: John Doe would like to make a payment for his monthly CMS premium.
+Follow current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+NOTE:
+It is possible that a FO can receive many different types of remittances in one day
+(e.g. CMS premiums and attorney fees). When this event occurs, ensure that you process
+the remittances using the current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+The remitter would like to cancel his or her check or money order transaction. The
+transaction has been submitted in SERS, an order was created, and the cancellation
+request is not due to an SSA error.
+Example: John Doe returns to the FO with his receipt and requests a refund and cancellation
+of the transaction. He explains he needs the funds for a personal matter, and want
+to cancel that payment.
+The technician explains to the remitter that SERS transaction was final.
+The remitter would like to cancel his or her check or money order transaction after
+the transaction has been submitted in SERS, and the
+cancellation request is a result of an SSA error.
+Example: John Doe requests to make a $50.00 payment for his Title XVI debt. The FO erroneously
+processes a $500.00 payment. John Doe requests a refund or cancellation of the transaction
+because the amount entered was incorrect.
+Obtain his or her contact information,
+Review the transaction and obtain approval from the claims representative or equivalent
+approval;
+•
+Access the correct SERS store (Programmatic or Conserved Funds) and select the Orders tab.
+•
+Search for the order(s) with the incorrect input.
+•
+Click the " Submit/Update Incorrect Order' button for the incorrect SERS Order.
+•
+Enter a note explaining why the order is incorrect and click submit.
+Add remarks within DMS and include SERS order number, date, amount, and Title (i.e.
+Title II or Title XVI); and
+Forward the request, and a copy of the receipt to the SERS for assistance. The SERS
+Help
+Desk will coordinate with headquarters components to resolve.
+The remitter would like to return conserved funds using a U.S. savings bond,
+Follow current procedures in GN 02403.015 since SERS cannot process U.S. savings bonds.
+SERS returns debts to the SERS Programmatic store but also indicates that the web
+service encountered some errors.
+Example: John Doe has three different debts on his MBR and SSR and wants to make a payment
+for all three, but SERS only displays two debts.
+Review the returned debts to the Programmatic store with the remitter and process
+through SERS.
+For all other debts not retrieved by the web service and not displayed in SERS, follow
+the current procedures in GN 02403.000 through GN 02403.160 and process through DMS.
+5. Teleservice (TSC) Transaction Query Application
+The TSC Transaction query application was created to assist the TSC’s Customer Service
+Representatives (CSR) with answering inquiries related to remittances processed via
+SERS. The TSC Transaction query application provides information about orders that
+SERS processed and includes a note when a SERS order is incorrect.

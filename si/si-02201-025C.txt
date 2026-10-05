@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - SI 02201.025 - Supplemental Security Income (SSI) Overpayment: Notifying Overpaid Individuals
+Effective Dates: 12/12/2024 - Present | TN 23 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502201025 (fetched 2026-10-04)
+
+C. Procedure for production of manual overpayment notices
+1.
+If the system cannot produce an AONS notice, it posts a B3 diary to the Supplemental
+Security Record (SSR), indicating that you must manually produce and issue an initial
+notice of overpayment. To determine which manual overpayment notice to use, refer
+to SI 02220.010.
+NOTE:
+For some cases that require a manual notice, a technician can make an input to correct
+the case. This will allow AONS to issue notices for new overpayments. Refer to SM
+01310.305.
+Exception: If a case with a B3 diary is under RECOOP control the FO does not need to take any
+action to resolve the B3 diary when the unresolved overpayment is not on the new overpayments
+list or the SSI overpayment diary follow up list, refer to SM 01311.633C.
+2.
+Prepare an overpayment notice in the Document Processing System (DPS). On the National
+tab, select Notice of Overpayment (Refund or w/h from T16/T2). Print and issue the notice to the individual. Send a copy of the notice to the Online
+Retrieval System (ORS).
+NOTE:
+You may use the Web
+SSI Overpayment Notices Program to prepare the overpayment notice. Whether using the Web SSI Overpayment Notices
+Program or DPS to prepare the overpayment notice, you must print and send the notice
+to ORS (a 2-step process). If you are unable to send the notice to ORS, fax a copy
+into the Evidence Portal (EP).
+3.
+Resolve all overpayment diaries. For instructions on issuing manual notices to resolve
+specific overpayment diaries, including B3 diaries, refer to SM 01311.631 through
+SM 01311.647.

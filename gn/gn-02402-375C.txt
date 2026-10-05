@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.375 - Coding Pakistan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/14/2022 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402375 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI for Pakistan has a prefix of 71 at the beginning of the Routing
+Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “P” assigned for Pakistan.

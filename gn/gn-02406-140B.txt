@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - GN 02406.140 - Request for Non-certified Photocopies of Checks
+Effective Dates: 01/08/2013 - Present | TN 35 (02-17)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406140 (fetched 2026-10-04)
+
+B. When not to obtain a non-certified photocopy
+1. If a nonreceipt action or an SF-1184 stop payment action is appropriate
+Do not obtain a check photocopy when a nonreceipt action or an SF-1184 stop payment
+action is appropriate. Properly transmitting a nonreceipt or stop payment action is
+the most efficient way to determine what to the missing payment and resolve the problem.
+It also avoids limited payability situations. For more information on nonreceipt and
+stop payment actions, see GN 02406.003 and GN 02406.001.
+2. Claimant unsure about receipt of check
+If a claimant is “unsure” if he or she received a check 12 months or less in the past
+and wants to confirm whether they cashed or signed the check, input a nonreceipt C-stop
+payment after status. After inputting the C-stop, explain that if someone cashed the
+check, the claimant will receive a photocopy of the check with a claims package to
+review. The claimant must return the package to the Department of the Treasury (Treasury)
+in order for the handwriting analysis to take place. Assure the claimant that if someone
+has cashed the check in question, Treasury will not issue a payment until he or she
+has an opportunity to examine the photocopy. After the handwriting analysis, if the
+check is still due, we will replace the payment after we receive a credit from Treasury.
+For more information on a C-Stop action, see GN 02406.150.
+3. There is a “Timely” allegation of nonreceipt
+Do not obtain a check photocopy for any timely nonreceipt or stop payment situation
+if the check issue date was 13 months or less in the past. The only EXCEPTION to this
+rule occurs when the Office of Inspector General (OIG) or another agency requests
+certified copies for checks (e.g., L-stop for certified copies).
+Only allegations of nonreceipt within 12 months of the check issue date are “timely”
+by law. Input a permanent stop code through the 13th month when the claimant made timely allegations.
+The Returned Check Action (REACT) program will produce a code “252 exception” for a stop payment or nonreceipt action performed on a check issued 13 months or
+more prior to the input date. When you receive exception output or Treasury responds
+with an FMS-3859 (Claims Disposition Notice) (or its equivalent), immediately obtain
+a check photocopy from TCIS.
+NOTE: For more information on OIG certified photocopy requests, see GN 02406.145
+4. Timely nonreceipt received but 14 months have elapsed
+After the 13th month, Treasury’s system will not accept a permanent stop code. However,
+in a timely nonreceipt situation 14-15 months after the issue date (this might occur with a timely reporting
+of nonreceipt that rejects and goes undetected until after 12 months have passed),
+contact FMS at 855-868-0151. Treasury can input a stop code that their system will
+accept and produce the necessary claims package. However, the code will not show up on PHUS or the Q query.
+NOTE: Put a special message on the Master Beneficiary Record (MBR) or Supplemental Security
+Record (SSR) indicating you reached out to Treasury to input a stop code.
+5. If an additional copy of a check is necessary
+For information on how to request an additional copy of a check, see GN 02406.140D in this section.

@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - DI 13015.110 - Hints on Reading PCACS Queries
+Effective Dates: 01/18/2001 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015110 (fetched 2026-10-04)
+
+B. Explanation of PCACS Fields
+1. SSNX
+The SSN suffix (SSNX) is a 5-position numeric that identifies the control record being
+displayed on the query line. It is generally shown after the SSN. The SSNX is also shown on the folder label. Note folders established by
+PC 1 - 6 will probably be set up as “01” not “11”.
+a. How to Read the SSNX
+The following chart gives information about how to read the SSNX.
+•
+Digit 1 - The PC that established the action (this may not be the jurisdictional PC.)
+•
+Digits 2 and 3 - The number of the action/folder/diary in the order established. For
+example, if PCACS shows SSNXs 60101 and 60201, SSNX 60101 was established before 60201.
+•
+Digits 4 and 5 - The type of record involved. For the purposes of these instructions,
+the information shown here is for Folder Control Records (FCR).
+b. Types of Folders on PCACS Query
+The following chart shows the various types of folders you may see on a PCACS query.
+(Digits 4 & 5 of the SSNX.)
+SSNX
+FOLDER TYPE
+BIC
+PC CREATING**
+01
+RIB
+A, D, C, W
+PC1-6
+11
+DIB
+HA
+PC7 only
+12
+DWB
+W
+PC7 only
+13
+CDB
+C
+PC7 only
+21*
+TEMP
+All BICs
+All PCs
+41
+SSI
+SD
+PC7 only
+51*
+ESRD
+K
+PC7 only
+52
+Medicare-DWB
+T
+PC7 only
+61*
+BLACK LUNG (SSA)
+L
+PC7 only
+62*
+BLACK LUNG (SSA)
+L
+PC7 only
+*NOTE: DO NOT request temporary (SSNX of 21), or ESRD (SSNX of 51), or Black Lung (SSNX of 61 or
+62) folders through PCACS.
+**Even though the PC creating SSNX is PC7, the folder may be in any of the folder storage sites or PCs.
+2. Full Query Indicator
+This field gives access to all available information about one or more FCRs.
+a.
+Enter an "X" at the beginning of the query line of each requested record. There is
+no limit to the number of records you can select.
+b.
+You cannot have an entry in the SSNX [1] field if this field is completed. The system
+will not accept an entry in both fields.
+NOTE: When multiple query lines are selected, the full query responses are displayed on
+the screen (when ROUTE RESPONSE TO = "1") or sent to the printer (when ROUTE RESPONSE
+TO = "2") in their order of appearance on the SQRY screen.
+3. TOEL1/TOEL2
+This represents the type of work being processed.
+4. LOCATION
+This represents the current location of the folder.
+5. LOCDT
+This field shows the date the folder moved to its current location.
+6. DISPLAY MORE RECORDS
+This field will appear when there are other control records related to the queried
+FCR that are not displayed on the screen.
+7. PCACS FACSIMILE: FQY1 Screen
+The Folder Query (FQY1) screen is the first response screen presented when a full query of a folder control
+record (FCR) is requested. This screen displays established information about a particular
+control record. The FQY1 screen is followed by the FQY2 screen, which is a continuation
+of this screen.
+===========================================================

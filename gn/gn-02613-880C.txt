@@ -1,0 +1,172 @@
+SSA Program Operations Manual System (POMS) - GN 02613.880 - Title XVI Pre-2007 Martinez Settlement Relief Processing
+Effective Dates: 05/06/2026 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613880 (fetched 2026-10-04)
+
+C. How to process Title XVI (T16) pre-2007 Martinez cases
+1. Records in current pay (C01) status
+If the criteria in GN 02613.880A. in this section are met, review the current C01 record to determine if the Application
+Date (AP) field located in the Person Related Segment Identifier (PRSN) field or the
+Date of Disability Onset (DDO) located in the Disability Data Line (DISB) is equal
+to April 1, 2009 or later.
+a. AP date earlier than April 1, 2009
+If the AP is earlier than April 1, 2009, no action is necessary on this Supplemental
+Security Record (SSR).
+b. AP date after April 2009
+A case in PSY C01 with an AP date of May 1, 2009 or later requires a medical determination
+from April 1, 2009 to the month prior to the AP date of the current C01 record to
+provide the earliest E02 month.
+NOTE: Do not take a new application or medical determination for cases with an AP date
+in the month of April 2009, since it will not result in a change in payment.
+To obtain a DDS determination on an existing C01 record, follow instructions in DI 52520.005C.2. For EDCS referrals, follow instructions in DI 52520.005C.3. For non-EDCS referrals, follow instructions in DI 52520.005C.4.
+If a recipient filed claims between April 1, 2009, and the month prior to the C01
+record and the claims include both medical and technical denials, only obtain a medical
+determination on the technically denied claims.
+EXAMPLE 1: The current C01 record has an AP date and DDO date of August 2009; the recipient
+filed one prior claim with an AP date of December 2008 (technically denied N25). For
+Martinez relief, request a medical determination for the period of April 2009 to July
+2009.
+EXAMPLE 2: The current C01 record has an AP date and DDO date of January 2010; the recipient
+filed two previous claims between January 1, 2009 and December 2009. Claim 1 AP dated
+January 2009 (technically denied N25), Claim 2 AP dated September 2009 (medically
+denied). For Martinez relief, request a medical determination for the period of April
+2009 to August 2009.
+If a recipient filed claims between April 1, 2009, and the month prior to the C01
+record and the claims include ONLY technical denials, take the following action:
+•
+reactivate the last claim in eView,
+•
+include an SSA-5002 identifying this case as a Martinez settlement case and request
+a medical determination for the Martinez period, and
+•
+flag the case as Court.
+Information on Technical Reactivations is located in DI 81010.110.
+NOTE: DDS may reopen a claim prior to April 1, 2009 but the Martinez relief only applies
+to AP date or DDO date on or after April 1, 2009.
+c. Receiving a DDS medical determination
+If you receive a favorable medical determination, terminate the current C01 record.
+Start date the new record with the current operating month (COM) and select the appropriate
+AP date. Issue an automated one-time payment (A-OTP) for the Martinez relief period
+as stated in GN 02613.880C.1.d. in this section.
+For a closed period of Martinez relief, you may not need to terminate the current
+record. Calculate the payment due for this closed period and issue a payment via an
+A-OTP.
+If you receive an unfavorable medical determination for the Martinez period, annotate
+the current C01 SSR Not disabled for Martinez Pre-2007 relief period.
+d. Issuing a payment via A-OTP
+If the AP and DDO are on or after April 1, 2009, take the following action to issue
+a payment for the eligible months (i.e., no payment made for N01, N04, etc.) by the
+A-OTP process:
+•
+Calculate the monthly payment amount from May 1, 2009 through the E02 month on the
+terminated record. Include the new E02 month of April 1, 2009 in your calculation.
+Take into consideration income and state supplement payments when computing payments
+shown on the SSR. For assistance in computing the amount of an OTP, refer to SM 01901.200.
+EXAMPLE: There is a favorable medical determination for the Martinez period. The AP date and
+DDO is April 1, 2009. The current C01 records AP date, DDO, and E02 month is August
+2009. The technician terminates the current record and establishes a start date record
+following instructions in GN 02613.880C.1.c in this section. The E02 month is now April 2009 and months paid via an A-OTP are
+May through August 2009 (August 2009 is the E02 month on the previous record).
+•
+Go to the MSSICS main menu, select 2 for Update then 19 for Direct SSR Update (UMEN).
+•
+Select Payment Menu on the UMEN screen, then 5 for Special Payments (UPSP).
+•
+Select 1 on the UPSP screen to Establish, then 3 for One Time Payment (UPOT).
+•
+Select Payment Reason as 6 for All Other Payment Reasons on the UPOT screen, then
+enter the Payment Range followed by verifying the address information on the One Time
+Payment Address (UPOA) screen.
+•
+Following the UPOT screen, enter the payment data beginning with the earliest month
+on the UPOA screen. A Claims Representative (CR) or above will approve and transmit
+the data to the SSR. For additional information on the One Time Payment Amount (UPOP)
+screen, see MSOM-BUSSR 003-024.
+After transmitting the A-OTP, review all SSRs for a fugitive felon suspension or denial
+between January 1, 2000, and December 31, 2006, to determine if a fugitive felon O/P
+exists by following instructions in GN 02613.880B, step 2 in this section. If a NE TAC is present in the overpayment field on the SSR,
+no further action is required. For information on stopping collection of the O/P and
+removing the remaining fugitive felon O/P balance, see GN 02613.880D in this section.
+If the recipient contacts us more than 6 months after the date of the Martinez notice,
+see GN 02613.880E in this section for additional processing instructions.
+e. An appeal filed on the Martinez period
+If an appeal is filed during the Martinez period and the initial request sent to DDS
+was via a paper folder, all appeals remain as a paper folder.
+If an appeal is filed during the Martinez period and the initial request was electronic,
+normal processing procedures apply when filing an appeal.
+Information for processing reconsiderations on a medically denied initial disability
+claim for electronic and paper folders is located in DI 12005.005.
+f. Updating the FFSCF when a new application is filed
+For a recipient filing a new application with a protective filing date of April 1,
+2009, you must update the Martinez warrant(s) on the Fugitive Felon Warrant Disposition
+(FFWD) screen in the Fugitive Felon System Control File (FFSCF). Updates are not required
+for the Fugitive Felon Automated Process (FFAP) or in MSSICS.
+Take the following steps to update FFSCF:
+•
+Select Update from the Fugitive Felon Warrant Main Menu (FFMN) to access FFWD.
+•
+On the FFWD, select 1 (Felony Charge/Outstanding Warrant) for Select Fugitive Felon
+Status question.
+•
+Enter 2 (Closed) for Warrant Status.
+•
+Enter 03312009 as the date the warrant ended.
+•
+Enter 2 (Dismissed) as the reason the warrant ended.
+If you do not find good cause for late filing recipients seeking to file a new application
+with the April 1, 2009 protective filing date, AFTER 6 months from the date of the September 10, 2010 or May 20, 2011 notice, follow the
+same steps to close out the warrant on FFSCF except the date the warrant ended should
+be the month prior to the application date (AP).
+Additional information on the FFWD screen is located in MSOM PRISON 006.006.
+2. Records in terminated status
+If the criteria in GN 02613.880A in this section are met, take the following action to initiate payments:
+a.
+Complete an application following instructions in DI 52520.005C.2. For EDCS referrals, follow instructions in DI 52520.005C.3. For non-EDCS referrals, follow instructions in DI 52520.005C.4. Place ZZZ in the first three positions of the unit field to identify Martinez cases
+and to exclude from processing time statistics. We must receive a favorable medical
+decision with a DDO equal to or after April 1, 2009, and the recipient must meet all
+other SSI eligibility factors in order to receive Martinez relief. If the DDO is after
+April 1, 2009, relief may begin no earlier than the actual disability onset date.
+b.
+If you receive a favorable medical decision and the recipient meets all other eligibility
+factors, place the record in C01.
+c.
+Review all records for an existing overpayment caused by a fugitive felon suspension
+or denial between January 1, 2000, and December 31, 2006, by following the instructions
+in GN 02613.880B, step 2 in this section. For information on stopping collection of the overpayment
+and removing the remaining fugitive felon balance, see GN 02613.880D in this section.
+NOTE: If the recipient is alleging an onset date earlier than April 1, 2009, we can accept
+their allegation but we can only pay for eligible months beginning with April 1, 2009
+under Martinez.
+If the recipient contacts us more than 6 months after the date of the Martinez notice,
+see GN 02613.880E in this section for additional processing instructions. Check the National 800 Number
+System to confirm if a lead may have been established for the recipient before determining
+the recipient is outside of their 6-month period.
+3. Concurrent cases
+A recipient filing a new application with a protective filing date of April 1, 2009
+may also be eligible for Title II (T2) benefits under Martinez. Use the following
+information as guidance for processing your case:
+a.
+Master Beneficiary Record (MBR) is in current pay (LAF C) status. Verify the new T16
+initial claim has the correct T2 benefit amount on the Social Security (ISSA) screen
+when completing the Pre-effectuation Review Contact (PERC). Use normal processing
+procedures when a concurrent claim exists.
+b.
+T2 claim is currently pending at the Disability Determination Services (DDS) for a
+medical decision; transmit the T16 portion of the case to DDS via Electronic Disability
+Collect System (EDCS). Inform DDS a medical determination is needed by using the Update-After-Transfer
+(UAT) utility. For additional processing instructions, see DI 81010.095D, Using the Update-After-Transfer (UAT) Utility.
+c.
+T2 claim has a prior favorable medical determination or decision and the new T16 disability
+application is within the same period and disability, adopt the T2 medical decision
+if all other conditions for adoption are met. For various scenarios when the T2 application
+involves Trial Work Period (TWP), a Continuing Disability Review (CDR) is pending
+at DDS or the Disability Quality Branches (DQB), or when a visual impairment is alleged,
+see DI 11011.000, Collateral Estoppel.
+d.
+T2 claim has an appeal pending and the T16 application shares an overlapping period
+with the T2 claim and the same medical issue, seek to escalate the T16 claim to the
+appropriate appeals level. Additional information on escalating and consolidating
+claims can be found in DI 11055.025, Pending Title XVI and Title II Claims at Different Levels of Appeal in Common-Issue
+Cases.
+e.
+Annotate the SSR with the following remark: Martinez settlement T16 pre-2007 New application
+with protective filing of 4/1/2009.

@@ -1,0 +1,154 @@
+SSA Program Operations Manual System (POMS) - GN 02605.055 - Title II Undeliverable Mail — Change of Address (COA)
+Effective Dates: 05/26/2023 - Present | TN 43 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605055 (fetched 2026-10-04)
+
+B. Procedure for undeliverable mail that requires development
+Follow the steps below to obtain the beneficiary’s current address. Make sure to annotate
+the Special Message field on the Master Beneficiary Record (MBR) with all your efforts
+to locate the beneficiary and the outcome of your development. For more information
+on the special message field of the MBR, see SM 00510.075.
+1. Query the MBR or SSR
+If benefits are terminated or suspended on the MBR, destroy the undeliverable mail
+even if it meets the criteria for undeliverable mail that requires development as
+previously described.
+If a more current address is found on the MBR, remail the notice using an appropriate
+cover letter (i.e., Undeliverable Mail Cover Letter found in the Document Processing
+System (DPS) or Aurora).
+If a more current address is not found on the MBR, check for a Supplemental Security
+Income (SID) Data Line on the MBR. For more information on the SID, see SM 00510.510
+. Query the Supplemental Security Record (SSR) when a SID line is present for a more
+current address.
+•
+On the Supplemental Security Income Queries (SSQM) screen key in “ADDR” on the Segment
+Request Identifiers line (see MS 05203.006).
+•
+When the record is displayed, look for the address change date (ACD) field.
+•
+If this date is later than the ADDR Updated field on the MBR, accept the Supplemental
+Security Insurance (SSI) address as the most current address for the beneficiary.
+If a more current address is found, update the MBR via the Post Entitlement Online
+System (POS) (see MS 06303.002), and remail the notice using an appropriate cover
+letter (i.e., Undeliverable Mail Cover Letter found in DPS or Aurora).
+2. Contact the beneficiary by phone
+If you do not find a better address on the MBR or SSR, review both records to see
+if the beneficiary has a phone number. If the beneficiary has a phone number, attempt
+to contact the beneficiary or the beneficiary’s representative payee by telephone
+at least twice, at different times of day. If contact is made, follow these steps:
+•
+Identify yourself and the office from which you are calling;
+•
+Be sure the beneficiary or the beneficiary's representative payee understands what
+information you need and why you need it. Generally explain SSA must have a current
+address so that we can contact them about Social Security related matters, claims,
+or benefits;
+•
+Do not encourage the individual to ask any questions but be as receptive as possible
+to questions raised. If the individual asks for information about entitlement or benefit
+payments, follow instructions in GN 00203.020 to establish the individual’s identity.
+After you have established the individual’s identity, you may disclose information
+about entitlement or benefit payments as permitted under the Freedom of Information
+Act and the Privacy Act. For information on disclosure, see GN 03305.001 and GN 03360.005
+. If you are unable to verify the individual, do not reveal any Personally Identifiable Information (PII) beyond the beneficiary’s name.
+If contact is not made, when possible, leave a message.
+CAUTION: When leaving a message, be careful not to disclose any PII beyond the beneficiary’s
+name or any information that is not permitted under the Freedom of Information Act
+and the Privacy Act. For example, leave a generic message saying: “It is important
+that Melissa Walker responds to our request for information by XX/XX/XX. Please call
+us back or come into a local field office at your earliest convenience.” Do not say
+anything specific such as “I’m calling about your Social Security check”. The fact
+that a beneficiary is receiving benefits from Social Security is PII and is not necessary
+information that needs to be disclosed to locate the beneficiary.
+3. Contact the beneficiary’s financial institution or the USPS or both
+If you do not find a current address on the MBR or SSR and are unable to reach the
+beneficiary or representative payee by phone, review both records to see if the beneficiary
+has direct deposit. If the beneficiary has direct deposit, contact the financial institution
+(FI) and the USPS. If the beneficiary does not have direct deposit, contact the USPS
+only.
+Follow these steps to contact the FI and USPS:
+•
+Contact the beneficiary’s FI (if receiving direct deposit) and the USPS at the same
+time;
+•
+Prepare the letter E3759, Request to Financial Institution For Correct Beneficiary
+Address in (NL 00703.759), or the Locate Letter (Beneficiary’s Bank) under “General” category in DPS, or prepare
+a letter similar to the E3759 to send to the FI;
+•
+Fax or mail the E3759 or substitute letter to the FI. Under the Right to Financial
+Privacy Act, 12 U.S.C. 3413(k), banks are permitted to disclose the information to
+SSA;
+•
+Prepare and send SSA-L2001, Address Information Request, to the USPS servicing the
+address of record.
+•
+You may use DPS to print both notices.
+CAUTION: Develop in-care-of addresses per (GN 02605.005).
+•
+Diary the case for 30 days.
+NOTE:
+It is not necessary to contact Comerica, if Direct Express is involved.
+4. If a new address is obtained from FI or USPS
+Input any new address furnished by the FI or USPS through POS, see MS 06303.002. Redate
+and remail the notice using an appropriate cover letter (i.e., Undeliverable Mail
+Cover Letter found in DPS).
+If the USPS replies to the SSA-L2001 that the address of record is good and they still
+deliver the beneficiary’s mail to that address, follow GN 02605.055B.5.
+NOTE:
+If the beneficiary is also receiving Title XVI benefits and the new address does not
+match the SSR, PSC and TSC technicians must send a Request for Assistance or Modernized
+Development Worksheet (MDW) to the servicing FO to alert them of the new address and
+that the SSR needs to be updated via the SSI Claims System. FO technicians must update
+the new address via the SSI Claims System.
+5. FI and USPS cannot furnish a current address
+If the FI and USPS cannot furnish a current address and the beneficiary is in LAF
+C (Current Payment Status) take the following actions:
+•
+Repeat step one above, checking the MBR, SSR, or both one more time prior to suspending
+benefits.
+•
+Suspend benefits with LAF S6 using POS (MS 06303.013) and use MONET (MS 06307.008)
+to annotate the Special Message field on the MBR with all your efforts to locate the
+beneficiary and the outcome of your development with the FI and USPS.
+EXAMPLE: MBR Special Message - “A’s overpayment notice dated 01/20/99 returned as
+undeliverable, unable to obtain current address after MBR/SSR search, two phone calls,
+and FI and USPS contact, suspending benefits effective MM/DD/YY.”
+•
+Discard the undeliverable mail if the notice is stored in the Online Retrieval System
+(ORS); or
+•
+If the notice is not stored in ORS, fax the notice to the Non-Disability Repository
+for Evidentiary Documents (NDRed) using the Evidence Portal (EP). See GN 00301.310 for the link to the NDRed application. For more information on EP, see MS 09701.001.
+NOTE:
+If the case involves disability benefits, consider the procedures in DI 13010.160 and SM 03020.050. If the case involves a continuing disability review (CDR), also
+refer to instructions in DI 13015.013, DI 28075.005, DI 40525.001, and DI 13015.011. If you received a first or third-party report that a beneficiary’s whereabouts are
+unknown, use S-9 to suspend benefits. See GN 02602.320 for more information.
+If the MBR shows the record is other than LAF C (i.e., LAF D, U, N, ND, etc.) take
+the following actions:
+•
+Annotate the Special Message field on the MBR;
+EXAMPLE: MBR Special Message - “T’s notice of award dated 01/20/09 returned as undeliverable,
+unable to obtain current address.”
+•
+Discard the undeliverable mail if the notice is stored in ORS; or
+•
+If the notice is not stored in ORS, fax the notice to NDRed using the Evidence Portal
+(EP).
+6. Beneficiary or representative payee responds to efforts to locate
+If the beneficiary or the beneficiary’s representative payee responds to our efforts
+to locate them, update their address per instructions in GN 02605.001 and send the
+returned mail to their current address.
+7. Beneficiary or representative payee responds to suspense action
+If the beneficiary or the beneficiary's representative payee responds to the suspense
+action, follow these steps:
+a.
+Reinstate benefits immediately by inputting the new address. If the beneficiary or
+the beneficiary's representative payee states that the address of record is correct,
+input it with a slight variation (i.e., change “St.” to “Street” or “Box” to “BX”).
+See NL 01501.000 for examples.
+b.
+Update the address with direct deposit data to continue direct deposit. Follow instructions
+in MS 06303.002 if cancellation or new direct deposit data is involved.
+c.
+Redate and remail the notice using an appropriate cover letter (i.e., Undeliverable
+Mail Cover Letter found in DPS or AURORA).
+d.
+Do NOT delete any prior Special Messages related to undeliverable mail efforts.

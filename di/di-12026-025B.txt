@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - DI 12026.025 - Field Office (FO) Processing Guidelines for Requesting a Reconsideration in a Medical Continuing Disability Review (CDR) Determination
+Effective Dates: 08/12/2026 - Present | TN 19 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412026025 (fetched 2026-10-04)
+
+B. System inputs to document the reconsideration appeal
+The FO must record information in the system to document the appeal and any SBC information.
+For more information about SBC system inputs, see DI 12027.010C. Depending upon the claim type, use the following instructions to record a CDR appeal:
+1. Title II
+For Title II cases, the FO must complete the following:
+a.
+Document the CDR appeal information, including SBC election, in EDCS.
+NOTE:
+A post-entitlement online system (POS) input is no longer necessary.
+b.
+In EDCS, complete and transfer the CDR appeal to DDS or the Disability Hearing Unit
+(DHU). The Disability Control File (DCF) and Master Beneficiary Record (MBR) automatically
+update as a result of the EDCS transfer.
+c.
+Upon receipt of the CDR appeal determination from the DDS or DHU, review the MBR to
+ensure the applicable information was received from EDCS and the DCF updated automatically.
+Verify the SBC termination, if applicable. The MBR should automatically update within
+five days.
+NOTE:
+The FO will place a tickle for five days on the CDR Development Worksheet (CDRW) in
+the DCF to establish a control to ensure the SSR and MBR are updated.
+d.
+If the MBR does not automatically update in five days, verify that the DIBCESS issue
+is pending on PCACS and follow-up with the PSC as necessary. Refer to GN 01070.440 for follow-up timeframes.
+NOTE: If there is no DIBCESS issue on PCACS, or no exception on the THIS query, the FO
+should submit a DCF Problem Report through their usual channels. If manual actions
+are necessary to terminate the SBC payments, refer to DI 12027.090.
+2. Title XVI
+For Title XVI cases, the FO must complete the following:
+a.
+Use MSSICS to update the Supplemental Security Record (SSR) to document the filing
+of the medical determination appeal as well as the SBC election, if applicable.
+NOTE:
+If a direct SSR update is required, the FO can use the manual T-XVI case creation
+process in EDCS to manually enter the required fields in EDCS on the CDR Information
+page.
+b.
+Use EDCS to review and ensure that the appeal and the SBC election data propagated
+successfully from MSSICS. In EDCS, the appeal data should mirror the information that
+was entered in the MSSICS appeal data.
+c.
+In EDCS, complete and transfer the medical determination appeal to DDS or DHU.
+d.
+Upon receipt of the medical determination from the DDS or DHU, review the SSR to ensure
+applicable information was received from EDCS and updated the DCF. Review the SSR
+for pertinent fields (for example, PSY or DIAR) that trigger automated cessation,
+if applicable.
+NOTE:
+The FO will place a tickle for five days on the CDRW in the DCF to establish a control
+to ensure the SSR is updated.
+e.
+Review the SSR to ensure the SBC benefits are properly terminated, if appropriate.
+f.
+If the SSR does not automatically update in five days, the FO must proceed with manual
+actions to update the SSR. To manually update the SSR, see DI 12026.025C.2 in this section.
+3. Concurrent (Title II and Title XVI)
+For concurrent (Title II and Title XVI) cases, the FO must complete the following:
+a.
+First, use MSSICS to document the medical determination appeal data on the SSR prior to
+entering EDCS.
+NOTE:
+If the case is a concurrent appeal, the FO must first complete MSSICS prior to opening
+the appeal in EDCS.
+b.
+Review EDCS to verify the concurrent establishment of the appeal segments. Proceed
+with addressing additional appeal questions that will capture the Title II appeal
+data.
+c.
+In EDCS, complete and transfer the medical determination appeal to the DDS or DHU.
+Ensure both the Title II and Title XVI segments are included in the case transfer.
+d.
+Upon receipt of the medical determination from the DDS or DHU:
+1.
+Review both the SSR and MBR to ensure medical appeal determination automatically posted;
+and
+2.
+That SBC benefits have ended for both titled programs.
+NOTE:
+No POS action is required for the Title II claim.
+e.
+The MBR and SSR should both update within five days.
+NOTE:
+The FO will place a tickle for 5 days on the CDRW in the DCF to establish a control
+to ensure the SSR and MBR are updated.
+f.
+If the SSR does not automatically update in five days, the FO must proceed with manual
+actions to update the SSR. If the MBR does not automatically update in five days,
+verify that the DIBCESS issue is pending on PCACS and follow-up with the PSC as necessary.
+Refer to GN 01070.440 for follow-up timeframes.
+NOTE:
+Title II updates: If there is no DIBCESS issue on PCACS, or no exception on the THIS
+query, the FO should submit a DCF Problem Report through their usual channels. If
+manual actions are necessary to terminate the SBC payments, refer to DI 12027.090.
+4. System input exclusions
+If there is a system input exclusion for a Title II case, the FO must complete the
+actions in DI 12026.025C.2 in this section to record the appeal information. For a Title XVI system exclusion,
+the FO must attempt to seed the cases that are outside of MSSICS, see MS 00302.001.
+If the seeding attempt is unsuccessful, the FO should attempt to load the appeal using
+a direct SSR update. For manual DCF inputs and screen displays, see CDR 001.000, CDR
+001.014, CDR 001.025 and CDR 001.026.

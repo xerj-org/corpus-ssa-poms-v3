@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 02305.021 - Recipients' Failure to Respond - RZs and LIs
+Effective Dates: 07/02/2026 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305021 (fetched 2026-10-04)
+
+B. Procedure Recipient Fails to Respond to a FO Request
+Use extreme caution before suspending recipients because of their failure to respond
+to FO requests for information/evidence. If recipients (including 1619 eligible)/rep
+payees do not respond within 15 calendar days from the date of the FO written request
+or within 5 calendar days after an appointment date on a request, take the following
+actions:
+STEP
+ACTION
+1
+Obtain a SSID and a SMSG MBR Query. (See MS 05206.026), any in-office records, or
+staff knowledge on the case that may indicate the recipient has special needs that
+may have been overlooked when scheduling an appointment or mailing out an RZ form
+for completion and return.
+EXAMPLE: Look for coding in the ID, DB, DISB, CG, and/or LPW fields on the SSID.
+2
+Were there any intervening actions taken on the case since the FO request?
+EXAMPLE: A FO other than the servicing FO conducted an RZ as the result of a walk-in.
+IF YES, determine the appropriate action to take.
+IF NO, go to step 3.
+3
+See SI 02301.235E through SI 02301.235I for procedures on following-up on our requests for information. The individual has
+30 days to submit the requested information. If all follow-up attempts are unsuccessful,
+go to step 4.
+4
+Suspend recipients for failure to provide information (payment status code N20) per
+instructions in SI 02301.235A.
+NOTE: Inputting the N20 suspense code will cause the RZ to drop off the SUMS/PEODS and
+the SSR. This will occur in the second RZ merge run after it is placed in nonpay.
+Do not input an RZ completion code via 1719B if the case is suspended for failure
+to
+provide
+information. To close out an open MSSICS RZ event when the RZ has been removed from the SSR because
+of nonpay payment status input a manual clearance. If the MSSICS RZ or LI event is
+not manually cleared, the RZ will remain pending on SUMS/PEODS and will continue to
+count as a pending RZ for the FO even though it is no longer pending on the SSR. It
+will become an “abandoned” RZ if the MSSICS pending file is not locked by the manual clear action.

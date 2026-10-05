@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - GN 01703.240 - Processing Initial U.S. Claims in OIO Modules
+Effective Dates: 06/02/2014 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703240 (fetched 2026-10-04)
+
+C. Procedure - CAPS exclusion
+If a CAPS exclusion applies, adjudicate the claim via MACADE. (The CA action depends
+on the status of the foreign coverage record.)
+1. Foreign coverage record has been requested by FSP or Border DO
+If the foreign coverage record has been requested by the FSP or border DO:
+a.
+If the FO or IBO prepared Form SSA-3428-U2 (Determination of Disallowance Coding Sheet),
+review the form to ensure that paragraph MX02 is present.
+b.
+If the FO or IBO neglected to prepare Form SSA-3428-U2, process the denial via MACADE
+and designate the appropriate notice and paragraphs.
+c.
+Input the SSA-3428-U2 via MACADE
+d.
+Complete e4962 via TDCP.
+e.
+Diary for receipt of the foreign coverage record.
+f.
+Develop for any missing evidence.
+g.
+Send the folder to typing.
+2. Foreign coverage record requested
+If the foreign coverage record has not been requested:
+a.
+If the FO or IBO prepared Form SSA-3428-U2 (Determination of Disallowance Coding Sheet),
+review the form to ensure that paragraph MX02 is present.
+b.
+If the FO or IBO neglected to prepare Form SSA-3428-U2, process the denials via MACADE
+and designate the appropriate notice and paragraphs.
+c.
+Input the Form SSA-3428-U2 via MACADE
+d.
+Complete e4962 via TDCP.
+e.
+Develop for any missing evidence.
+f.
+Send the folder to typing.
+g.
+After typing, subsequently route the claim to the BET for completion of e2960 via
+TDCP requesting the foreign coverage record and any other needed information as specified
+in each country's specific subchapter.
+h.
+For Italian and German agreement cases, provide the BET with the dates or number of
+weeks for which coverage information should be requested.
+3. Foreign coverage record in file
+If the foreign coverage record is in file:
+a.
+If the FO or IBO prepared the SSA-3428-U2, do not input the form but leave it in the
+folder as documentation.
+b.
+If the claim is for retirement or survivor benefits, prepare an award (SSA-101-U3)
+or disallowance (SSA-3428-U2) and designate appropriate notices and paragraphs. (See
+GN 01703.245 for adjudication of U.S. totalization claims and NL 00711.305 for notices)
+c.
+If the claim is for disability benefits, determine if disability insured status is
+met and follow the instructions in GN 01703.245.B for processing the claim.
+d.
+Include RSI denial language in the totalization award or denial notice if the FO or
+IBO did not deny the nontotalization claim.
+e.
+If an award is prepared, route to the BA for processing and then to typing
+f.
+If a disallowance is prepared, input the SSA-3428-U2 and route to typing.
+g.
+Complete e4962 via TDCP.

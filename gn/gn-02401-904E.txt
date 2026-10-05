@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02401.904 - Field Office Processing of Limited Payability (LP) Alerts for Title XVI Cases
+Effective Dates: 05/14/2019 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401904 (fetched 2026-10-04)
+
+E. When we cannot locate an SSI recipient or payee
+When we cannot locate an SSI recipient, or payee, update the SSR.
+•
+select the UCI of "I" (payment unresolved); and
+•
+select "N" in the release payment field on the Payment History -- Limited Pay UPLP
+screen.
+The SSR UCI field will change from a code of ‘I” to a code of ‘M’.
+See details:
+MSOM BUSSR 003.006 Payment History - Limited Pay (UPLP)

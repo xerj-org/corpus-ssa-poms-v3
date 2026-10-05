@@ -1,0 +1,311 @@
+SSA Program Operations Manual System (POMS) - DI 60099.055 - OCO Centralized Unit Responsibilities
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099055 (fetched 2026-10-04)
+
+A. Processing limitation alert through the processing center action control system (PCACS)
+BSAS creates a PCACS alert when it cannot adjust a beneficiary’s benefit for the Benefit
+Offset National Demonstration (BOND) Project. An action control record (ACR) created
+in Paperless shows the type-of-event-levels (TOELs) of the work involved. New TOELs
+created for BOND are:
+TOEL 1 TOEL 2 TOEL 3 TOEL 4 FILE ID
+DISAB BENOFF BSAS ALERT BONDALRT
+DISAB BENOFF BSAS PROCLIM BONDLIMT
+The following table lists the processing limitations, exceptions, and alerts of the
+BOND stand-alone system. ID’s from 100-199 are processing exceptions, 200-299 are
+processing limitations, and 300-499 are processing alerts:
+ID
+Description
+100
+SSN not participant
+101
+Change in dual-entitlement status
+102
+PRIOR DEMO data
+103
+NO OFFSET
+104
+PIN FROM BDS NOT IN TOP SECRET
+105
+No ADC date
+106
+ADC date greater than Random Assignment Date
+107
+Invalid TAC Code
+108
+DE Utility returned single entitlement on prior DE case
+109
+Incomplete T2DOED data
+110
+Missing match in Case Processing
+111
+BRI – Change in dual entitlement status
+112
+D/E Incomplete T2DOED data
+113
+BRI Incomplete T2DOED data
+114
+BRI D/E Incomplete T2DOED data
+115
+End Date of Participation Missing
+117
+Start Date of Offset in the Next Year
+118
+Claimant Ineligible
+119
+Cessation not due to SGA
+120
+Potential dual entitlement
+121
+Current year termination
+122
+Prior year termination
+123
+DE Utility Exclusion
+124
+AUX – Missing DOEC Date
+125
+D/E – ADC Conflict
+126
+DD code on MBR prior to earnings estimate
+138
+BRI, Missing match in Case Processing
+139
+EOYR Missing match in Case Processing
+140
+EOYR COM Block/NCI MEF Issue
+141
+EOYR – No end date of participation
+142
+EOYR Incomplete T2DOED date
+143
+EOYR Participation in another Demo
+144
+EOYR Blink Indicator Mismatch
+145
+EOYR U/P Development Needed
+146
+EOYR Prior DEMO date
+147
+EOYR outstanding processing exception present
+148
+EOYR Aux – Missing DOEC date
+149
+EOYR Potential dual entitlement
+150
+EOYR Current Year Termination
+151
+EOYR Prior Year Termination
+152
+EOYR DE Utility Exclusion
+153
+EOYR DE Utility returned SE for prior DE case
+154
+EOYR Change in dual-entitlement status
+155
+EOYR No ADC Date
+200
+DE Utility Bypass
+201
+MACADE/MADCAP action pending
+202
+Triple Entitlement
+203
+WC OFFSET
+205
+D/E-Reduction in MBA for HA
+206
+D/E combined checks
+207
+CDB SUR-D/E LEMBA not equal to MBA
+208
+CDB life – D/E LEMBA not equal to MBA
+209
+GPO Offset
+210
+BPP/PBP Coding
+212
+DWB – D/E LEMBA not equal to MBA
+213
+HA MBA deduction involved
+214
+CDB MBA and deduction involved
+215
+DWB MBA and deduction involved
+216
+LESSDO
+217
+PARREC
+218
+Invalid LAF code
+219
+Embedded period of suspense
+220
+D/E-PARREC
+225
+Failed MACADE Transaction for DE
+226
+Failed MACADE Transaction
+227
+BRI Triple entitlement
+228
+BRI WC Offset
+229
+BRI D/E combined checks
+230
+BRI GPO Offset
+231
+BRI BPP/PBP Coding
+232
+BRI HA MBA deduction involved
+233
+BRI CDB MBA deduction involved
+234
+BRI DWB MBA deduction involved
+235
+BRI LESSDO
+236
+BRI PARREC
+237
+BRI Invalid LAF Code – Pre BRI Calculation
+238
+BRI Invalid TAC Code
+239
+BRI New potential WEP entitlement
+240
+BRI Unable to compute new SAMBA/LEMBA
+241
+BRI Unable to determine LFMBA/LEMBA
+242
+BRI More than 2 active claim numbers on MPL
+243
+BRI Outstanding processing limitation not corrected
+245
+BRI MACADE action pending
+246
+Start Date of Participation Error
+247
+Invalid LAF Code – After BRI Calculations
+248
+BRI D/E – DWB MBA deductions involved
+249
+BRI D/E – CDB MBA deductions involved
+250
+BRI D/E – New Potential WEP Entitlement
+252
+BRI D/E – Invalid TAC Code
+253
+BRI – In Suspense for LAF other than SQ
+254
+Aux RFD does not match LAF
+255
+DE - Invalid LAF Code
+256
+BRI Failed MACADE Transaction
+257
+BRI Failed MACADE Transaction for DE
+258
+BRI – Beneficiary is in offset, but TAFO is 0
+264
+EOYR Aux RFD does not match LAF
+265
+EOYR Dual Entitlement involved
+266
+EOYR Dual Entitlement Case
+267
+EOYR Triple Entitlement
+268
+EOYR WC offset
+269
+EOYR GPO offset
+270
+EOYR BPP/PBP coding
+271
+EOYR Multp months with same PBP code for same date
+272
+EOYR HA MBA deduction involved
+273
+EOYR CDB MBA deduction involved
+274
+EOYR DWB MBA deduction involved
+275
+EOYR Embedded period of suspense
+276
+EOYR Case characteristics preclude auto processing
+277
+EOYR Outstanding EOY processing limitation present
+279
+EOYR Failed MACADE Transaction
+280
+EOYR HST line exceeded
+281
+EOYR Varying WIC, RFD, or RFST in EOYR period
+291
+EDOP Failed MACADE - Transaction
+292
+EDOP Final Notice Needed
+293
+EDOP Prior DEMO data
+294
+EDOP No ABN field
+295
+EDOP DE Case Final Notice
+296
+EDOP Final Notice LAF Code
+297
+EDOP HA MBA deduction involved-Final Notice Needed
+298
+EDOP CDB MBA deduction involved-Final Notice Needed
+299
+EDOP DWB MBA deduction involved-Final Notice Needed
+301
+Develop entitlement to benefits for auxiliaries
+302
+BRI Develop entitlement to benefits for auxiliaries
+303
+Auxiliary limit exceeded
+304
+AUX – Embedded period of suspension
+305
+Address exceeds maximum output
+310
+EOYR DEV AUX ENT - LAF S TO C
+311
+EOYR Partial year suspension for some AUXs
+312
+EOYR Aux term during EOYR Period
+313
+EOYR AUX limit exceeded
+314
+EOYR AUX-embedded period of suspense
+329
+EDOP Develop entitlement to auxiliaries
+330
+EDOP DE Case Final Notice
+400
+Special message limit exceeded
+401
+Invalid BIC
+402
+New Estimate - LAF SQ to SQ
+403
+OPDR - Manual transmission of MUL screen require
+404
+D/E Case with CDR field value other than E
+405
+Code DEMO data on MBR
+406
+DE Utility returned a term date
+407
+No change in LAF SQ with new estimate
+408
+New Estimate – DE LAF SQ to S7
+410
+EOYR AEE needed beneficiary LAF S7
+411
+EOYR DD DEMO/SMG BLANK
+900
+Generic Rule Error for Earnings
+901
+BRI - Generic Rule Error
+902
+EOYR - Generic Rule Error

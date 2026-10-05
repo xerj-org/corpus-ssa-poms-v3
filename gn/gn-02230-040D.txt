@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - GN 02230.040 - Non-Entitled Debtors (NED) – Collection of Overpayments from Representative Payees of Deceased Title II Beneficiaries
+Effective Dates: 10/31/2017 - Present | TN 14 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230040 (fetched 2026-10-04)
+
+D. Process
+1. Overview of systems process
+The NED database currently controls and records overpayments made to representative
+payees of deceased title II beneficiaries, as well as on the ROAR system. As a result,
+TOP/ECO selects these NED cases and uses the appropriate debt collection tools to
+recover the debt from the overpaid representative payee.
+2. Identification of NED representative payees
+NED debts are automatically established on the NED database. Based on the post entitlement
+(PE) actions that terminate benefits to the beneficiary because of death, the beneficiary
+must have had a representative payee who is an individual with an SSN, and not an
+organizational representative payee.
+In future releases, NED will expand the type of debts targeted to include all LDOs
+in MSOM DMS 001.001C, except Medicare (TOE 29), title XVI Cross Program Recovery (TOE
+31), Civil Monetary Penalty (TOE 61), and title VIII Cross Program Recovery (TOE 64).
+The NED database records debts as active or inactive:
+•
+An active status in NED means that there is an overpayment balance that can be pursued
+from the non-entitled debtor. An active status could result from events such as the
+posting of an additional overpayment to the deceased beneficiary’s record, repayment,
+or other resolution.
+•
+An inactive status in NED means that the overpayment has been reduced to zero or that
+the overpayment can no longer be pursued. For more information about NED processing,
+see SM 00610.090.
+3. Interface with the Recovery and Collection of Overpayment Process (RECOOP)
+The NED database interfaces with the RECOOP billing system. This interface allows
+RECOOP to extract data from the NED database for billing purposes. RECOOP reads the
+NED database, and when necessary updates address information on the records, and sends
+bills to the most recent address for the payee. For more information about the data
+interface between RECOOP and the NED database, see SM 00610.095.
+4. Interface with the Treasury Offset Program/External Collection Operation (TOP/ECO)
+A systems interface has been established between the NED database and the ECO system.
+NED does not pass any data to ECO. However, ECO does extract data from the NED database.
+See SM 00610.097 for more information about the data interface between TOP/ECO and
+the NED database.
+NED inactivates the ECO record of the deceased beneficiary, which allows for creation
+of a new ECO record for the liable party (e.g. representative payee) under the same
+SSN/BIC. Therefore, all updates to ECO will be against the current ECO record for
+the liable party.
+NOTE:
+The NED’s domestic address and phone number can be directly changed in the NED database
+via the NEDA screen, which provides ECO with the current address. However, this change
+will not interface with or update the MBR. For more information about the DMS NED
+process and screens, see MSOM DMS 012.001 through MSOM DMS 012.006.
+5. NED in current pay
+In some cases, after selection, the NED payee is found to be in current pay or becomes
+entitled to Social Security benefits on an account (either his or her own account
+or someone else’s). This can occur in two circumstances:
+•
+Systems limitations in the NED selection process, and
+•
+Entitlement begins after NED selection
+ECO looks for entitlement beginning 90 days after NED establishment. If the NED payee
+is in current pay on another account, the system generates a one-time alert via the
+Processing Center Action Control System (PCACS). The NED Alert A - Debtor in Current
+Pay on Another Account is generated in the Debt Management Section of the Processing
+Center of jurisdiction. For more information about the NED Alert, see SM 00610.070.
+There will be no alert if the NED payee s in current pay on a title XVI record. Recovery
+of title II overpayment from monthly title XVI benefits is a manual process; for the
+recovery procedures, see SM 00610.820 and SM 01311.320.
+NOTE:
+The Processing Center (PC) should take action to establish benefit withholding by
+using the Establish Offset (OLP) (DROL) screen per instructions in MSOM DMS 006.016
+. Input to the DROL screen results in deleting the debt from the ROAR record of the
+deceased beneficiary, establishing the debt on the claim account number on which the
+NED is entitled, and starting benefit withholding in the specified amount and month.

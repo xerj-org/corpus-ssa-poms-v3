@@ -1,0 +1,134 @@
+SSA Program Operations Manual System (POMS) - GN 02201.055 - Overpayment Recovery after Fraud Conviction
+Effective Dates: 12/24/2014 - Present | TN 27 (02-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201055 (fetched 2026-10-04)
+
+C. Procedure
+1. Case returned from OIG after prosecution
+OIG returns the files to the appropriate Regional and OCO addresses. The file should
+contain the Judgment and Commitment orders. Review the prosecution documents to determine
+if the court ordered restitution to SSA and if so, the individual’s probation period.
+If this information is not in file, contact OIG to obtain the documentation.
+Examine the file to determine whether an overpayment notice has been sent. If not,
+send an overpayment notice reflecting the full amount of the overpayment (as determined by SSA). (This amount may be different from
+the amount of court-ordered restitution.)
+If appropriate, explain in the overpayment notice that, even though the court-ordered
+restitution is less than the overpayment, the overpaid person is liable for repayment
+of the full amount of the overpayment. Exclude language regarding waiver rights from
+the overpayment letter to the person convicted of fraud. If a waiver request has already
+been filed, indicate that waiver is no longer available because the fraud conviction
+precludes a finding of “without fault.”
+If the overpayment notice has already been sent and the court-ordered restitution
+is less than SSA's overpayment amount, send a second notice explaining that:
+a.
+regardless of the amount of restitution ordered by the court, the overpaid person
+is liable for repayment of the full amount of the overpayment (as determined by SSA);
+and
+b.
+waiver is no longer available because the fraud conviction precludes a finding of
+“without fault.”
+Include waiver rights in overpayment letters to other individuals whose overpayments
+result from the fraudulent actions. Because a fraud conviction precludes a finding
+of “without fault,” this section provides an exception to Developing a Request for
+Waiver GN
+02250.200. If the representative payee requesting waiver on behalf of auxiliaries is convicted
+of fraud for the action that caused those auxiliaries to be overpaid, restrict the
+request for waiver to recovery from the auxiliaries.
+2. Court-ordered restitution applies
+Establish a ROAR diary control. If the probation period is for one year, prepare a
+60-day diary. If the probation period is for two years or more, prepare a one-year
+diary. When the diary matures, review ROAR to determine if payments are being received.
+3. No payments posted
+Contact the Financial Litigation Unit (FLU) of the appropriate U.S. District Court.
+If the FLU is not identified in the documents returned to SSA, input the following:
+http://www.justice.gov/usao/districts/. If the court is receiving payments but has not yet distributed the funds to SSA,
+determine when SSA can expect disbursement.
+If the FLU indicates that no payments have been received and sufficient time from the sentence date has elapsed, contact the assigned Probation
+Office to determine if a repayment schedule has been established with the individual.
+The address and telephone number for the Probation Officer can be found on the court
+documents in the file OIG returned to SSA. Maintain a 60-day diary until the Probation
+Officer has established the schedule of payments and the court has received the first
+payment. Document all contacts with the FLU and the Probation Office, including names
+and telephone numbers.
+4. Monitoring the receipt of restitution funds
+Establish a ROAR control by generating a TC91. The Diary Alert should be generated
+every 6 months during the length of the probation period.
+a. ROAR diary alert matures
+When the diary matures, review the overpayment record. If the court-ordered refunds
+are being made, re-diary for the next 6 months. Continue to re-diary every 6 months
+for the duration of the probation period.
+If the ROAR record indicates that payments are not being received, review the file
+to determine if initial contact was made with the FLU and the Probation Officer. If
+contact was not made, follow GN
+02201.055C.5. in this section.
+If contact was previously made, re-contact the FLU to determine if the court has received
+refunds that have not been sent to SSA. If the FLU indicates no pending refunds, re-contact
+the Probation Officer. The U.S. District Court is responsible for enforcing collection
+when the individual is still on probation. Keeping in contact with the Probation Officer
+helps to ensure that individuals continue to make the refund payments.
+Determine if the case should be returned to the court for non-compliance of the restitution
+order if:
+•
+the Probation Officer is uncooperative; or
+•
+SSA is unsuccessful in getting the payments via the Probation Officer.
+b. Critical restitution cases
+It is important that SSA fully monitor court-ordered restitution refunds during the
+probation period because collecting the overpayment becomes more difficult after the
+court has no further influence over the individual. Therefore, it becomes a “Critical Court Ordered Restitution Case” when the probation period ends within 14 months or less and:
+•
+No payment has been made; or
+•
+Monthly refund payments are past due (i.e., the most recent payment was made at least
+60 days prior to the current date).
+The above cases are time sensitive. Immediately contact the FLU and the Probation
+Officer. If contact does not result in timely refunds, request referral of the case
+back to the U.S. Court for non-compliance of the sentencing order.
+5. Probation period expires
+When the probation period has expired, the court no longer has the authority to enforce
+repayment of the overpayment to SSA. However, the Department of Justice (DOJ) keeps
+the case open for 20 years. Contact DOJ to request civil action against the convicted
+individual to collect the debt ordered by the court. . For instructions on contacting
+DOJ in Title II and Title XVI cases, see GN 02215.150, GN 02215.170, and SI 02220.035. If DOJ closes the case, resume normal recovery actions.
+6. Benefits become payable after fraud conviction
+If any benefit payments become due after conviction, withhold them at the full monthly
+benefit payment until the overpayment is recovered. However, do not withhold more
+than the overpayment. At the time the “E” Protest Code and “Y” Fraud Indicator are
+removed, automated recovery efforts will begin. Of course, apply the usual exceptions
+to pursuing full recovery:
+a.
+If the debtor is deceased and the estate is less than the overpayment amount, limit
+recovery to the amount of the estate (for information on the liability of the estate,
+see GN 02215.050 - GN 02215.070);
+b.
+If a U.S. Attorney (or Central Justice) accepts a compromise settlement, accept the
+settlement as full payment of the debt (see Authority to Make Compromise Settlements
+GN 02215.100A.).
+7. Liability — Overpayments on the same earnings record
+Charge an individual convicted of fraud with responsibility for repaying SSA all benefits overpaid (as determined by SSA, including those paid to any auxiliary) if
+all of the following apply:
+•
+The convicted person's fraudulent action caused the
+auxiliary(ies) to be overpaid;
+•
+Recovery from the auxiliary(ies) is not possible (e.g., the auxiliary has died or
+was granted waiver);
+•
+Recovery from the convicted person has not been inadvertently waived; and
+•
+The court specifically ordered the convicted person to repay the auxiliaries' overpayments.
+In so doing, the court may either order repayment of an amount that equals the overpayments
+to all persons or the court may stipulate that the convicted person must repay the
+overpayment of each person overpaid because of the fraudulent action.
+If all of the above conditions are met,
+•
+Send the convicted person a notice requesting refund of the total overpayment amount
+and, when appropriate, proposing adjustment on the same earnings record. Advise that SSA is looking to the convicted person for repayment of the family's overpayment(s)
+in accordance with the court order. Provide the date of the court order.
+•
+Update ROAR to reflect the waiver for the auxiliary(ies) and the increase in the convicted
+person's overpayment liability amount (see ROAR SM 00610.000, and Overpayment Recovery
+after Fraud Conviction SM 00610.785).
+If the convicted person dies, consider recovery from his or her estate in accordance
+with Liability of Deceased’s Estate GN 02215.050.
+If recovery from the convicted person was inadvertently waived, make no further recovery
+efforts. However, any voluntary refunds are acceptable.

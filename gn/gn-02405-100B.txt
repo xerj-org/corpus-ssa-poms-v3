@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - GN 02405.100 - How to Process Unendorsed Title XVI Returned Benefit Checks and Unendorsed Claimant Representative Attorney Fee Checks Received in the Field Office
+Effective Dates: 09/15/2017 - Present | TN 13 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202405100 (fetched 2026-10-04)
+
+B. Interviewer Procedure
+Process returned Title XVI benefit checks in accordance with the table below:
+Step
+Action
+1
+Access the Treasury Check Information System (TCIS) or Treasury Check Verification
+Query (TCVQ) screen to determine the claim number of the beneficiary.
+See instructions on how to access the TCVQ screen MS 05203.022.
+IMPORTANT: DO NOT write the SSN on the check.
+2
+Determine why the check was returned. If necessary, contact the remitter, the person
+who sent the check, to determine the reason for the check return.
+•
+If yes, the check was returned for a valid reason (See Exhibit E below), go to step 3.
+•
+If no, the check was returned in error, or you cannot determine the reason for the return,
+contact the remitter, to determine the return reason. If the remitter does not respond,
+contact the recipient or their representative payee. If the check was returned in
+error, mail it to the recipient or the representative payee. If you are able to determine
+the reason the check was returned, go to step 3
+REMINDER: Do not process payments mailed to the FO for delivery to the recipient per GN 02401.050, or
+Redirected checks sent to the FO in representative payee non-responder situations,
+per GN 00605.085
+as returned checks or refunds.
+3
+Immediately stamp the check “NOT NEGOTIABLE” below the address on the check, if not
+yet stamped by mailroom personnel.
+REMINDER: Do not write or stamp below the solid line, which extends the full length of the check.
+Doing so causes problems with Treasury's optical scanning equipment.
+4
+Determine if the returned check represents an emergency advanced payment (EAP) or
+a Treasury-issued immediate payment (IP) check, see RS 02801.010.
+•
+If yes, go to step 5.
+•
+If no, go to step 6.
+NOTE: If the returned IP is a Third-Party Draft issued from the FO, follow instructions
+in GN 02403.016.
+5
+Annotate the check (in red) “SSI ADVANCE PAYMENT” or “IMMEDIATE PAYMENT,” followed
+by the FO code in the upper left corner of the check.
+Go to step 7. (The Office of Finance does not need the reason for the return.)
+6
+Code the reason for the return (see Exhibit GN 02405.100F) and the date of the event that caused the beneficiary not to be entitled to the
+payment, if appropriate.
+Write the date in (MM/YY) format on the lower left portion of the check to the right
+of the Statue of Liberty imprint and above the solid line that extends the full length
+of the check.
+7
+Recording the check:
+•
+Enter the check information into DMS, per MSOM DMS 003.006 and MSOM DMS 003.007
+•
+Write the automated receipt number in the blank space below the check number and above
+the money amount.
+NOTE: Do not enter the attorney PIC in DMS.
+REMINDER: Prepare an SSA-1395-BK manual receipt when DMS is not accessible.
+References:
+MSOM DMS 001.001 and MSOM DMS 003.001 for DMS input coding.
+MSOM DMS 003.006 and MSOM DMS 003.007 for instructions on generating an automated
+receipt.
+8
+Give the remitter the remittance receipt produced by DMS.
+9
+Access the Payment Menu and update the payment history, per MSOM BUSSR 003.004.
+10
+Hand carry the coded check to the remittance clerk for safekeeping.

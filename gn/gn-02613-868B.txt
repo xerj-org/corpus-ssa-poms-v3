@@ -1,0 +1,249 @@
+SSA Program Operations Manual System (POMS) - GN 02613.868 - Title II Pre-2007 Martinez Settlement Relief Processing
+Effective Dates: 03/16/2012 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613868 (fetched 2026-10-04)
+
+B. PSC pre-2007 overpayment processing
+1. Identification of the pre-2007 overpayment processing workload
+The pre-2007 Martinez relief cases will have a Processing Center Action Control System
+(PCACS) issue to alert the technician that the case is available for processing. The
+PCACS for the pre-2007 Martinez cases will contain the following information to identify
+the case:
+TOEL1: OPMT TOEL2: ISSUE TOEL3: ROAR TOEL4: MART2
+2. Pre-2007 overpayment collection relief processing
+In order to remove or reduce a beneficiary’s fugitive felon overpayment:
+•
+review the MBR, the Recovery Overpayment Accounting Record (ROAR), the Fugitive Felon
+System Control File (FFSCF), and the Payment History Update System (PHUS) records
+carefully to determine the correct outstanding fugitive felon overpayment balance.
+You can find the instructions for reviewing the MBR, ROAR, FFSCF and PHUS records
+in GN 02613.868.B.3. (in this section);
+•
+compare the fugitive felon overpayment balance to the existing overpayment events
+on the ROAR record and the BOUD on the MBR. You can find the instructions for comparing
+the fugitive felon overpayment balance to the ROAR record in GN 02613.868.B.4 (in this section);
+•
+input the overpayment removal or reduction amount to ROAR to eliminate the remaining
+pre-2007 fugitive felon suspension overpayment on SSA’s records and also have ROAR
+generate a notice to the beneficiary of the action. The instructions for removing
+the fugitive felon overpayment from the beneficiary’s record is in GN 02613.868.B.5. (in this section).
+3. Review of SSA payment records
+The following chart provides instructions for reviewing SSA payment records to determine
+the outstanding balance on the fugitive felon overpayment. Review every payment record
+listed below and record your findings in order to determine the total outstanding
+overpayment amount for the fugitive felon suspension period.
+The chart provides information on the SSA records and data elements you must review
+in order to determine the fugitive felon suspension overpayment balance:
+SSA Payment Record
+Review of SSA Payment Record
+Result of Review
+Master Beneficiary Record (MBR) query
+CO MSG1 data line will include information about the type of Martinez relief that the beneficiary
+is due.
+Confirm that the special message data line states: “MARTINEZ COURT CASE PRE-2007 RELIEF
+APPLIES.”
+FUGITIVE data line will show warrant information.
+Check the data entries in this data field to determine the:
+•
+date of the warrant,
+•
+type of warrant (you will also need to verify the 4-digit offense code for the warrant
+on the FFSCF database), and
+•
+current status of the warrant. This should show a WARRANT SATISFY date entry (the
+date should be 12/31/06 or earlier) and a SATISFIED RSN entry indicating an overpayment
+collection for pre-2007 processing.
+NOTE: For pre-2007 cases where the beneficiary is deceased (i.e., LAF T1) or in terminated
+status (e.g., T4, T6, etc.), the WARRANT SATISFY date entry and SATISFIED RSN entry
+will remain blank. The pre-2007 warrant status will remain “open.” Do not closeout
+the warrant as “satisfied” when the beneficiary dies or terminates.
+HISTORY data line will reflect a history of payment changes to the record.
+Check the data entries in this line to determine the period(s) S9 with an HFRST of
+FUGFEL between 01/05 – 12/06. (This is the timeframe for qualifying for pre-2007 Martinez
+relief.)
+Check the following fields in the HISTORY data line:
+STATUS CODE--Position 3, Benefit Paid Designation (BPD) of this entry shows if the
+monthly benefit was paid, code “1;“or, not paid, code “0.”
+Reason for Suspension or Termination (SUS/TERM)--The code will be “9” with an HRFST
+of “FUGFEL.”
+Monthly Benefit Credited (MBC)-- MBC is the monthly title II benefit due after any
+appropriate dollar rounding (considering a deductible of SMI premium) BUT prior to
+the actual collection of any obligation of the beneficiary (including SMI premium).
+Determination of any overpayment or underpayment amount and check amount will be based
+on the credited amount.
+O/U PAY data line shows the most recent overpayment occurrence on the record and the reason
+for the overpayment.
+Check the data line to confirm a fugitive felon suspension overpayment.
+The Due Process Overpayment Type (DPOT) T2 FF/SUS/FEL, (Type of Event (TOE) 73), will
+show if this is a fugitive felon overpayment. The Due Process Overpayment Amount (DPO)
+should be identical to the amount that appears on the ROAR record as a fugitive felon
+overpayment event.
+If the DPOT is other than TOE 73, you will remove or reduce the overpayment amounts
+as indicated in the instructions in GN 02613.868B.5 (in this section).
+Eliminate or reduce this O/U PAY amount when you process the ROAR transaction to remove
+or reduce the fugitive felon suspension overpayment from the record.
+Recovery Overpayment Accounting Record (ROAR)
+BENEFIT data line
+Identify the total current balance due for all overpayments for the beneficiary stated
+on the BBAL-$$$$$ data line.
+EVENT data line
+Find the Event Identifier (EI) for the fugitive felon overpayment (e.g., 01, 02, etc.).
+Find the Type of Event (TOE) for the fugitive felon overpayment on the EVENT data
+line, (e.g., T2 FUF SUS/FEL WAR, PRIS SUS NON-MENT, OTHER OR CONSOLIDATED LDO, etc.).
+Find the STATUS for the fugitive felon overpayment. Determine from the STATUS code
+entry the current recovery effort for the fugitive felon overpayment (e.g., BEN ADJ,
+DUE PROCESS, etc.).
+HISTORY data line
+Identify the entries in the data line to determine when the fugitive felon overpayment
+amount was annotated to the ROAR record:
+•
+RUN DATE
+•
+TRANS
+•
+AMOUNT
+Fugitive Felon System Control File (FFSCF)
+Fugitive Felon Warrant Data (FFWQ)Screen
+Review the following data fields on this screen to determine if you need to distinguish
+the suspension for this warrant from other warrants that may be annotated for this
+beneficiary:
+•
+WARRANT DATE
+•
+OFFENSE CODE (Remove overpayments for offense codes other than 4901, 4902, 4999, 5011, 5012, 8101 or 8102)
+•
+WARRANT NUMBER
+•
+NCIC NUMBER
+•
+WARRANT FILE REPORT DATE
+Payment History Update Query (PHUS)
+TRANS data line
+The PHUS retains the entire Transaction line as a permanent record of actual payment
+history.
+If you need more information on the TRANS data line of the PHUS query, see SM 00545.275.
+After completing your review of the MBR, ROAR, FFSCF and PHUS, determine the amount
+of the fugitive felon overpayment to remove from the beneficiary’s BOUD/ROAR record.
+If no fugitive felon suspension overpayment exists (i.e., the fugitive felon suspension
+overpayment balance is $0.00) after you complete your review of the MBR, ROAR, FFSCF,
+or PHUS records, annotate the results of your review of the case to the Special Message
+data field on the MBR (SP MSG 1). Add the following special message to the MBR: “Review
+of Martinez Pre-2007 Period Done, MM/DD/CCYY. No FF O/P Bal Remains.” The instructions
+for adding a special message to the MBR are in MSOM QUERIES 006.026.
+If the fugitive felon suspension overpayment should remain on the record after you
+complete your review of the MBR, ROAR, FFSCF, or PHUS records (e.g., the fugitive
+felon suspension overpayment balance is due to a probation/parole violation warrant),
+annotate the results of your review to the Special Message data field on the MBR (SP
+MSG 1). Add the following special message to the MBR: “Review of Martinez Pre-2007
+Period Done, MM/DD/CCYY. FF O/P Bal Remains--Not Martinez Eligible.”
+NOTE: There is a priority order for applying terminations and nonpayment, reduction, deduction,
+and withholding events to monthly Title II benefit amounts. For more information on
+the priority of applying terminations and nonpayment, reductions, and withholding
+events, go to GN 02602.025.
+If you must remove the pre-2007 fugitive felon suspension overpayment from BOUD/ROAD:
+•
+The instructions for removing the fugitive felon overpayment from BOUD/ROAR for the
+TOE 73 identified overpayment are in GN 02613.868B.4 (in this section).
+•
+The instructions for removing the fugitive felon overpayment from BOUD/ROAR for consolidated
+overpayment events are in GN 02613.868B.5 (in this section).
+4. Removal of remaining felon overpayment balance from ROAR (TOE 73- T2 FF SUS FEL/WAR
+Overpayment)
+Once you have determined the total remaining overpayment amount to remove from the
+beneficiary’s BOUD/ROAR record, take the actions outlined in the chart below.
+NOTE: Do not correct the benefit history in the HISTORY data field of the MBR. The monthly
+benefits will remain in ledger account file status of “S9” with an HRFST of “FUGFEL”
+for the fugitive felon suspension closed period.
+Take the following actions to remove the remaining fugitive felon overpayment balance
+from ROAR/BOUD:
+Steps
+Actions
+1
+Remove the current fugitive felon overpayment balance TOE 73-T2 FF SUS/FEL/WAR event
+on the ROAR/BOUD overpayment record using the DEBT MANAGEMENT SYSTEM (DMS) screens
+as instructed below:
+Civil Action Screen (DRCA)
+•
+Choose “6” Debt Management from the SSA Main Menu screen.
+•
+Choose “2” Debt Resolution from the Debt Management Menu (DMMU). Enter the SSN and
+BIC.
+•
+On the Debt Resolution Menu (DRMU) the Debt Number. Enter “1” in SELECT for “Establish”
+mode. Then enter “20” for “Civil Action” in the SELECT THE DESIRED FUNCTION field.
+•
+On the Civil Action screen (DRCA), DECISION TYPE and DECISION REASON are both pre-filled
+with “1” Enter the APPROVAL AMOUNT that you previously determined from your review
+of SSA records based on the instructions in GN 02613.868.B.3 (in this section) and press enter.
+•
+An informational message will notify you that the Review Civil Action (DRWA) screen
+must be completed (this is necessary for every case input on the DRCA). Press enter
+again.
+Move the case to the selected reviewer’s paperless queue designated by your office
+to authorize the input action.
+2
+The designated approving reviewer will log into PCOM with a different PIN than the
+one used to input the DRCA screen. If the reviewer is satisfied with the proposed
+ROAR transaction, process the approval as follows:
+On the Review Civil Action Screen (DRWA)
+•
+Choose “6” for Debt Management from the SSA Main Menu.
+•
+Choose “2” for Debt Resolution from the Debt Management Menu (DMMU) screen. Enter
+the SSN and BIC.
+•
+On the Debt Resolution Menu (DRMU), enter the Debt Number. Enter “2” in SELECT for
+“Update” mode. Then enter “21” Review Civil Action in the SELECT THE DESIRED FUNCTION
+field.
+•
+On the DRWA screen, the information that was input on the DRCA will be propagated.
+Put a “Y” in the APPROVED BY REVIEWER FIELD and then press enter.
+3
+The DEBT MANAGEMENT SYSTEM will send an automated notice to the beneficiary to explain
+the removal of the fugitive felon overpayment. The paragraphs that will appear on
+the notice are in GN 02613.869B.2.
+NOTE: If the beneficiary is deceased (i.e., LAF T1), ROAR will only send a notice of the
+fugitive felon overpayment removal or reduction, if the beneficiary had a representative
+payee on their record at the time of death.
+4
+You must reprocess all Debt Management input exceptions using the screens in the Debt
+Management System (DMS). The instructions for resolving debt management exceptions
+are in SM 00610.410 through SM 00610.420.
+NOTE: Type of Event (TOE) 73 may have been incorrectly used for a probation and parole
+violator suspension overpayment (TOE 74) on ROAR. Carefully examine the offense code
+on the warrant in conjunction with the TOE 73 annotated to the ROAR record to make
+sure you are removing the correct overpayment balance for the correct warrant and
+that warrant’s corresponding overpayment period. To review the offense codes on a
+warrant, see the instructions in GN 02613.868B.3. in this section.
+5. Removal of remaining felon overpayment balance from ROAR/BOUD for consolidated overpayment
+events
+a. Comparing the fugitive felon overpayment balance and the consolidated overpayment
+event amount
+To determine the amount for pre-2007 Martinez relief you must compare the outstanding
+fugitive felon suspension balance to the ROAR/BOUD balance. First, determine the amount
+of monthly benefits paid to the beneficiary for the fugitive felon suspension period
+that caused the fugitive felon overpayment. Based on your review of the SSA records
+according to GN 02613.868B.3. (in this section), compute the amount of monthly benefits paid during the closed
+suspension period and compare this amount to the ROAR/BOUD overpayment record amount.
+NOTE: Compute overpayment amounts only for warrants that have an offense code other than 4901, 4902, 4999, or probation or parole violation warrants with offense codes of
+5011, 5012, 8101 or 8102 when computing the removable fugitive felon overpayment.
+Compare the total amount of monthly benefits paid to the beneficiary for the fugitive
+felon suspension period to the ROAR/BOUD overpayment balance for the consolidated
+multiple overpayment event (this consolidated overpayment event includes the fugitive
+felon overpayment).
+•
+If the outstanding ROAR/BOUD consolidated overpayment balance is greater than or equal
+to the computed overpayment for the fugitive felon suspension period, you will remove
+the amount of the computed fugitive felon suspension overpayment from ROAR.
+•
+If the outstanding overpayment balance remaining on ROAR is less than the fugitive
+felon suspension period, you will remove the entire consolidated overpayment balance
+on the ROAR record.
+b. Removal of overpayment from ROAR/BOUD for fugitive felon overpayment
+Do not correct the benefit history in the HISTORY data field of the MBR. The monthly
+benefits will remain in ledger account file status (LAF) of “S9” with an HFRST of
+“FUGFEL” for the fugitive felon suspension closed period. Process the removal based
+on the instructions in GN 02613.868B.4. (in this section) and follow steps 1-4.
+6. Multiple warrants
+Review and process each outstanding warrant suspension determination independently
+based on the date of the SSA initial or administrative review decision made on each
+warrant decision.

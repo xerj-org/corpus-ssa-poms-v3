@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.335 - Coding Trinidad and Tobago Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402335 (fetched 2026-10-04)
+
+E. Description of Trinidad and Tobago IDD bank data
+The data to code IDD for Trinidad and Tobago comes from banks determined by the FRBKC.
+The bank data on the MBR reflects up to 21 characters including the country code of
+R, the 3-digit bank code, 5-digit branch code, and 12-digit account number.

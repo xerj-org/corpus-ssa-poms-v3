@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 02201.003 - Determining a Title II Overpayment Amount
+Effective Dates: 10/13/2023 - Present | TN 72 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201003 (fetched 2026-10-04)
+
+A. Overpayment amount and time frame
+The overpayment amount is the difference between the amount we paid and the amount
+we should have paid to a beneficiary. This includes the lump sum death payment (LSDP).
+For more information regarding the LSDP, see RS 00210.010.
+The overpayment period begins with the first month for which there is a difference
+between what was paid and what was payable. The overpayment period generally ends
+with the month before the current operating month (COM). This period is also known
+as the retroactive period.
+The retroactive period is not limited to a single month or a single year. For example,
+a retroactive period can cover March 2009 through December 2012 (i.e. multiple months/years).
+We must take into account all payments we issued for months in the retroactive period
+and all amounts due for months in that period to determine if an individual is overpaid
+as well as determine the overpayment amount.
+In order to determine what we actually paid, look at the individual’s Payment History
+Update System (PHUS) record. Keep in mind, the PHUS record was not available until
+1984 and continuing. For cases prior to 1984, you might have to use the Master Beneficiary
+Record (MBR) history or paper output. For additional information about the PHUS record,
+see SM 00545.000.
+In some situations, we withhold a Title II benefit payment to recover a prior Title
+II overpayment, and the amount we withheld turns out not to be due the individual.
+In this case, although the actions taken may establish a new ROAR record, the prior
+overpayment remains outstanding. There are also situations when we withhold a Title
+II benefit payment to recover a Title XVI overpayment via Cross Program Recovery,
+and the amount we withheld turns out not to be due the individual. In this case, the
+amount used to reduce or recover the Title XVI overpayment is now a Title II overpayment.
+EXAMPLE: In May 2015, we are recovering Sharon’s $2,000 overpayment by withholding their entire
+$100 monthly payment. In September 2015, we retroactively suspended Sharon’s benefits
+effective May 2015. Because we were withholding Sharon’s monthly benefit payment to
+recover their overpayment, we would not create a new overpayment. Instead, the $2,000
+overpayment remains outstanding.

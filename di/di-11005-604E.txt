@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 11005.604 - Processing Compassionate Allowances (CAL) in the Field Office (FO)
+Effective Dates: 07/17/2026 - Present | TN 139 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005604 (fetched 2026-10-04)
+
+E. CAL identified or removed after FO transfer
+After FO transfer, an electronic alert will be sent to the FO when CAL is added to
+a case not previously identified as CAL, or removed from a case previously identified
+as CAL.
+1. CAL indicator added after transfer
+If the FO receives an EDCS Action Item that a case has been added to CAL processing
+while it is pending at the DDS, the FO takes the following action(s):
+•
+If a deferred application was taken and the case is later identified as a CAL case,
+the FO must re-contact the claimant within one workday to complete a full application;
+•
+Annotate CAL as an issue on the MCS DW01 or CCE Development Worksheet page with a
+tickle date of 20 days. For appeals, a 20-day tickle is not needed; and
+•
+Initiate full non-medical development.
+2. FO receives a report of a CAL condition after transfer
+If the FO receives a report of what appears to be a previously unreported CAL condition
+(from the claimant or representative) while the claim is at the DDS, the FO will take
+the following actions:
+•
+Send an Update-After-Transfer (UAT) message via EDCS to the DDS concerning the allegation
+of a possible CAL condition. See DI 81010.095 Using the Update-After-Transfer (UAT) Utility.
+•
+If the condition alleged by the claimant also qualifies as a TERI case, add an electronic
+TERI flag. See DI 81010.080 Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS).
+•
+Consider PD/PB payments for Title XVI cases. For PD/PB instructions, see DI 11055.230
+and DI 11055.240.
+•
+Update the MCS DW01 or CCE Development Worksheet page with CAL as an issue and set
+a tickle for 20 days for initial claims.
+•
+If a deferred application was taken, re-contact the claimant within 1 workday to complete a full application.
+•
+Initiate full non-medical development.
+3. Case is removed from CAL processing
+At times, staff at the DDS, DQR, hearings, or Appeals Council level may remove a case
+from the CAL fast-track process. When a case is removed from CAL processing as described
+in DI 23022.055A, the system sends an automatic message in eView, as follows:
+"Case has been removed from the Compassionate Allowance process because <insert reason>."
+If the FO receives an EDCS Action Item that a case has been removed from CAL processing,
+update the MCS DW01 or CCE Development Worksheet page CAL issue receipt line with
+the date the Action Item was received and add the remark "Removed from CAL."

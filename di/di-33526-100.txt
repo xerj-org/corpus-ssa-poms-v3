@@ -1,0 +1,735 @@
+SSA Program Operations Manual System (POMS) - DI 33526.100 - Impairment Codes in Numeric Sequence
+Effective Dates: 03/19/2025 - Present | TN 2 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0433526100 (fetched 2026-10-04)
+
+DI 33526.100 Impairment Codes in Numeric Sequence
+Use the following table to determine the impairment descriptor connected to a specific
+impairment code:
+Impairment Codes in Numeric Sequence
+Impairment Code
+Body System
+Diagnostic Categories
+0000
+20
+None Established (No Medical Evidence in File)
+0110
+03
+Pulmonary Tuberculosis
+0420
+13
+Cancer Treated by Bone Marrow or Stem Cell Transplantation
+0430
+14
+Symptomatic Human Immunodeficiency Virus (HIV) Infection
+0440
+14
+Asymptomatic Human Immunodeficiency Virus (HIV) Infection
+0460
+14
+Progressive Multifocal Leukoencephalopathy
+0930
+04
+Cardiovascular Syphilis
+1170
+08
+Chronic Infections of the Skin or Mucous Membranes
+1180
+03
+Mycotic (Fungal) Infections
+1350
+03
+Sarcoidosis
+1380
+11
+Post-polio Syndrome
+1390
+14
+Opportunistic Infections Associated with HIV Infection
+1410
+13
+Cancer of Tongue
+1420
+13
+Cancer of Salivary Glands
+1500
+13
+Cancer of Esophagus
+1510
+13
+Cancer of Stomach
+1520
+13
+Cancer of Small Intestine, Including Duodenum
+1530
+13
+Cancer of Colon, Rectum or Anus
+1550
+13
+Cancer of Liver and Intrahepatic Bile Ducts
+1560
+13
+Cancer of Gallbladder and Extrahepatic Bile Ducts
+1570
+13
+Cancer of Pancreas
+1590
+13
+Cancer of Other and Ill-Defined Sites Within the Digestive Organs and Peritoneum (Abdomen)
+1620
+13
+Cancer of Trachea, Bronchus, or Lung
+1630
+13
+Cancer of Pleura
+1640
+13
+Cancer of Mediastinum
+1700
+13
+Cancer of Maxilla, Orbit, or Temporal Fossa
+1710
+13
+Cancer of Connective and Other Soft Tissue
+1720
+13
+Malignant Melanoma
+1730
+13
+Cancer of Skin
+1740
+13
+Cancer of Breast
+1760
+14
+Pulmonary Kaposi Sarcoma
+1780
+13
+Cancer of Skeletal System
+1790
+13
+Cancer of Uterus
+1800
+13
+Carcinoma of the Cervix
+1830
+13
+Cancer of Ovary and Other Uterine Adnexa
+1840
+13
+Cancer of Vulva or Vagina
+1850
+13
+Cancer of Prostate
+1860
+13
+Cancer of Testis
+1870
+13
+Cancer of Penis
+1880
+13
+Cancer of Bladder
+1890
+13
+Cancer of Kidney, Adrenal Glands, or Ureters
+1900
+13
+Cancer of Eye
+1910
+13
+Cancer of Nervous System
+1920
+13
+Neuroblastoma
+1930
+13
+Cancer of Thyroid Gland
+1940
+13
+Cancer of Other Endocrine Glands and Related Structures
+1950
+13
+Soft Tissue Tumors of Head and Neck
+1980
+13
+Metastatic Cancer from Unknown Primary Site
+1990
+13
+Cancer of Unspecified Site
+2000
+14
+Primary Effusion Lymphoma
+2020
+13
+Lymphoma
+2030
+13
+Multiple Myeloma
+2070
+13
+Leukemia
+2250
+11
+Benign Neoplasm of Brain and Other Parts of Nervous System
+2380
+14
+Multicentric Castleman Disease
+2390
+13
+Cancer of Unspecified or Unknown Nature
+2460
+09
+All Disorders of Thyroid Gland (Except Cancer)
+2480
+20
+Diagnosis Established – No Predetermined List Code of Medical Nature Applicable
+2500
+09
+Diabetes Mellitus
+2520
+09
+All Disorders of Parathyroid Gland (Except Cancer)
+2530
+09
+All Disorders of Pituitary Gland (Except Cancer)
+2550
+09
+All Disorders of Adrenal Glands (Except Cancer)
+2630
+05
+Growth Failure Due to Any Digestive Disorder
+2630
+14
+HIV Wasting Syndrome (Secondary Diagnosis for HIV-0430)
+2720
+04
+Hyperlipidemia
+2730
+13
+Macroglobulinemia or Heavy Chain Disease
+2740
+14
+Gout
+2770
+03
+Cystic Fibrosis
+2780
+20
+Obesity
+2820
+07
+Hemolytic Anemias (Including Sickle Cell Thalassemia, and Variants)
+2840
+07
+Hematological Disorders with Bone Marrow/Stem Cell Transplantation
+2850
+14
+Pulmonary Lymphoid Hyperplasia (PLH)
+2860
+07
+Thrombosis and Hemostasis Disorder (Including Hemophilia)
+2890
+07
+Bone Marrow Failure (Including Myelofibrosis and Granulocytopenia)
+2940
+12
+Neurocognitive Disorders
+2950
+12
+Schizophrenic, Paranoid and Other Psychotic Disorders
+2960
+12
+Depressive, Bipolar and Related Disorders
+2990
+12
+Autism Spectrum Disorders
+3000
+12
+Anxiety and Obsessive-Compulsive Disorders
+3010
+12
+Personality Disorders
+3030
+12
+Substance Addiction Disorders (Alcohol)
+3040
+12
+Substance Addiction Disorders (Drugs)
+3060
+12
+Somatic Symptom Disorders
+3070
+12
+Eating Disorders
+3090
+12
+Trauma- and Stress-Related Disorders
+3120
+12
+Impulse Control Disorders
+3138
+12
+Oppositional Defiant Disorder
+3140
+12
+Attention Deficit/Hyperactivity Disorder
+3150
+12
+Development and Emotional Disorders of Infants and Toddlers
+3152
+12
+Learning Disorder
+3153
+12
+Speech and Language Impairment
+3180
+12
+Intellectual Disorder
+3195
+12
+Borderline Intellectual Functioning
+3210
+01
+Arachnoiditis
+3220
+14
+Meningitis
+3250
+03
+Lung Transplant
+3300
+10
+Cerebral Degenerations Usually Manifest in Childhood
+3300
+11
+Cerebral Degenerations Usually Manifest in Childhood
+3310
+11
+Cerebral Degenerations
+3320
+11
+Parkinson's Disease
+3330
+11
+Huntington Disease
+3350
+11
+Amyotrophic Lateral Sclerosis
+3358
+11
+Motor Neuron Disorders Other than ALS
+3360
+11
+Spinal Cord Disorders
+3370
+11
+Disorders of Autonomic Nervous System
+3400
+11
+Multiple Sclerosis
+3430
+11
+Cerebral Palsy
+3450
+11
+Epilepsy
+3460
+11
+Primary Headache Disorder (Including Migraine)
+3480
+11
+Coma or Persistent Vegetative State
+3490
+11
+Other Disorders of the Nervous System
+3540
+11
+Carpal Tunnel Syndrome
+3570
+11
+Peripheral Neuropathy
+3580
+11
+Myoneural Disorders
+3590
+11
+Muscular Dystrophies and Other Myopathies
+3610
+02
+Retinal Detachments and Defects
+3620
+02
+Other Retinal Disorders (Including Diabetic Retinopathy)
+3650
+02
+Glaucoma
+3660
+02
+Cataract
+3680
+02
+Visual Disturbances
+3690
+02
+Low Vision
+3694
+02
+Statutory Blindness
+3750
+04
+Heart Transplant
+3780
+02
+Strabismus and Other Disorders of Eye Movements
+3860
+02
+Disorders of Vestibular System
+3880
+02
+Other Disorders of Ear
+3890
+02
+Hearing Loss Not Treated with Cochlear Implantation
+3910
+04
+Acute Rheumatic Heart Disease
+3950
+04
+Diseases of Aortic Valve
+3980
+04
+Chronic Rheumatic Heart Disease
+4010
+04
+Essential Hypertension
+4020
+04
+Hypertensive Cardiovascular Disease
+4030
+04
+Hypertensive Vascular and Renal Disease
+4100
+04
+Acute Myocardial Infarction
+4130
+04
+Angina Pectoris Without Ischemic Heart Disease
+4140
+04
+Chronic Ischemic Heart Disease With or Without Angina
+4160
+03
+Chronic Pulmonary Hypertension
+4160
+04
+Chronic Pulmonary Hypertension
+4240
+04
+Valvular Heart Disease or Other Stenotic Defects or Valvular Regurgitation
+4240
+14
+Valvular Heart Disease or Other Stenotic Defects or Valvular Regurgitation
+4250
+04
+Cardiomyopathy
+4270
+04
+Cardiac Dysrhythmias (Arrhythmias)
+4280
+04
+Heart Failure
+4380
+11
+Vascular Insult to the Brain
+4410
+04
+Aneurysm of Aorta or Major Branches
+4430
+04
+Peripheral Vascular (Arterial) Disease
+4460
+14
+Systemic Vasculitis (Periarteritis Nodosa and Allied Conditions)
+4510
+04
+Phlebitis and Thrombophlebitis
+4540
+04
+Varicose Veins of Lower Extremities
+4590
+04
+Other Diseases of Circulatory System (Venous Insufficiency)
+4690
+05
+Small Intestine Transplantation
+4750
+05
+Liver Transplantation
+4860
+14
+Pneumonia
+4910
+03
+Chronic Bronchitis
+4920
+03
+Emphysema
+4930
+03
+Asthma
+4940
+03
+Bronchiectasis
+4960
+03
+Chronic Respiratory Disorders
+5010
+03
+Asbestosis
+5050
+03
+Pneumoconiosis
+5160
+14
+Lymphoid Interstitial Pneumonia (LIP)
+5180
+03
+Respiratory Failure
+5190
+03
+Other Disorders of the Respiratory System
+5280
+05
+Pancreas Transplantation
+5300
+05
+Diseases of Esophagus
+5330
+05
+Peptic Ulcer (Gastric or Duodenal)
+5350
+05
+Gastritis and Duodenitis
+5530
+05
+Hernias
+5550
+05
+Inflammatory Bowel Disease (IBD)
+5690
+05
+Other Disorders of Gastrointestinal System
+5710
+05
+Chronic Liver Disease
+5780
+05
+Gastrointestinal Hemorrhage
+5793
+05
+Intestinal Failure
+5799
+05
+Need for Supplemental Daily Enteral Feeding via Gastrostomy, Duodenostomy, or Jejunostomy
+(Under Age 3)
+5810
+06
+Nephrotic Syndrome
+5830
+06
+Complications of Chronic Kidney Disease
+5850
+06
+Chronic Kidney Disease with Dialysis
+5880
+06
+Chronic Kidney Disease
+5950
+06
+Interstitial Cystitis
+5990
+06
+Other Disorders of the Urinary Tract
+6080
+06
+Disorders of the Male Genital Organs
+6290
+06
+Disorders of the Female Genital Organs
+6490
+20
+None Established (Medical Evidence in File But Insufficient to Establish Diagnosis)
+6940
+08
+Bullous Disease
+6950
+08
+Ichthyosis
+6960
+08
+Dermatitis
+7050
+08
+Hidradenitis Suppurativa
+7090
+08
+Other Disorders of the Skin and Subcutaneous Tissues
+7100
+14
+Diffuse Diseases of Connective Tissue (Including Systemic Lupus Erythematosus, Systemic
+Sclerosis (Scleroderma), Polymyositis and Dermatomyositis, Undifferentiated and Mixed
+Connective Tissue Disease, Sjögren’s Syndrome)
+7140
+14
+Inflammatory Arthritis
+7150
+01
+Osteoarthrosis and Allied Disorders
+7160
+01
+Other and Unspecified Arthropathies
+7200
+14
+Ankylosing Spondylitis or Other Spondyloarthropathies
+7210
+01
+Lumbar Spinal Stenosis
+7240
+01
+Disorders of the Skeletal Spine
+7280
+01
+Disorders of Muscle, Ligament and Fascia
+7300
+01
+Osteomyelitis, Periostitis and Other Infections Involving Bone
+7330
+01
+Other Disorders of Bone and Cartilage (Osteoporosis)
+7370
+01
+Curvature of Spine
+7400
+10
+Anencephalus and Catastrophic Congenital Abnormality or Disease
+7410
+11
+Spina Bifida (Meningomyelocele)
+7420
+14
+Microcephaly
+7460
+04
+Symptomatic Congenital Heart Disease
+7500
+05
+Congenital Anomalies of Upper Alimentary Tract
+7530
+06
+Congenital Anomalies of Urinary System
+7590
+08
+Genetic Photosensitivity Disorders
+7580
+10
+Down Syndrome
+7590
+20
+Other Congenital Anomalies
+7649
+19
+Low Birth Weight – Weight 1200 - 2000 grams
+7650
+19
+Low Birth Weight – Weight under 1200 grams
+7800
+03
+Sleep-Related Breathing Disorders
+7810
+12
+Tic Disorders
+7830
+19
+Failure to Thrive (Growth Disorder)
+7840
+02
+Speech Disorder
+7840
+11
+Speech Disorder
+7850
+04
+Growth Failure Due to Any Chronic Cardiovascular Disorder
+7860
+03
+Growth Failure Due to Any Chronic Respiratory Disorder
+7870
+05
+Growth Failure Due to Any Digestive Disorder
+7880
+06
+Growth Failure Due to Any Chronic Renal Disease
+7950
+14
+Absolute CD4 Count 50 or Less
+7960
+20
+Disabling Impairment Previously Established – Current Evidence Insufficient to Establish
+Impairment
+8030
+01
+Fracture of Skull Without Intracranial Injury
+8060
+11
+Fracture of Vertebral Column with Spinal Cord Lesion
+8180
+01
+Fractures of Upper Limb
+8270
+01
+Fractures of Lower Limb
+8290
+01
+Other Fractures of Bones
+8390
+01
+Dislocations – All Types
+8480
+01
+Sprains and Strains – All Types
+8540
+11
+Traumatic Brain Injury
+8690
+20
+Internal Injury
+8790
+20
+Other Open Wounds, Except Limbs
+8840
+01
+Open Wound of Upper Limb (Soft Tissue Injury)
+8940
+01
+Open Wound of Lower Limb (Soft Tissue Injury)
+9050
+01
+Amputation Due to Any Cause
+9070
+11
+Late Effects of Injuries to the Nervous System
+9330
+20
+Chronic Fatigue Syndrome
+9480
+08
+Burns
+9490
+01
+Burns (NOS)
+9620
+02
+Hearing Loss Treated with Cochlear Implantation
+9960
+06
+Kidney Transplant

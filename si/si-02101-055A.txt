@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - SI 02101.055 - Releasing SSI Underpayments of $50,000 or More
+Effective Dates: 09/24/2001 - Present | TN 7 (09-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101055 (fetched 2026-10-04)
+
+A. Process
+The SSI system cannot issue a single payment for $50,000 or more. Multiple payments
+are required to reduce the pending UP to less than $50,000. The method of payment
+(installment, A-OTP, force due, M-OTP) is decided based on data on the record being
+processed.
+For installment payments, after the appropriate code has been entered on the UOUP
+screen (see MSOM BUSSR 004.018), the system will issue the correct installment payments even when the total UP is
+$50,000 or more.
+NOTE: If the third and final installment payment is $50,000 or more, an AOTP should be used
+to reduce the underpayment below $50,000. When the UP is reduced below $50,000, the
+system will release the remaining underpayment. See SM 01311.660 and SM 01311.670
+.

@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02408.665 - Financial Institution (FI) Returns Incorrect Payments to SSA
+Effective Dates: 04/21/2025 - Present | TN 90 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408665 (fetched 2026-10-04)
+
+B. Process for Title XVI
+1. Treasury Status Query (UPTQ) does not reflect return
+When the FI returns a payment in response to a Title XVI reclamation, UPTQ may or
+may not reflect the return, depending on how the return was processed by Treasury.
+However, the return is posted to the Supplemental Security Income Record (SSR) in
+either PMTH or OPRR. For Treasury Status Query information, see MSOM BUSSR 003.020.
+2. Division of Benefit Certification and Systems Analysis (DBCSA) action
+The returned funds are not automatically posted to the SSR. Treasury sends an FMS-133
+to DBCSA in Central Office. DBCSA codes a 3969 and sends it to the Office of Disability
+and International Operations (ODIO) for keying. When the return is not applied to
+the record in a timely manner, another attempt may be made to reclaim the money, resulting
+in dual recovery.
+3. SSR shows returned funds
+When a Title XVI payment after death is returned and posted, the amount of the returned
+funds is shown either in the OPRR (overpayment refund) TR1 field on the SSR as a “TU”
+or “TB” or in payflag 1 of PMTH as a:
+•
+slash (/) (recurring payment returned by Treasury only),
+•
+S (regular daily payment [underpayment] returned by FO only),
+•
+T (special supplemental payment returned by Treasury only), or
+•
+U (OTP returned by Treasury only).
+For additional codes, see SM 01601.835.

@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - DI 81010.137 - Receiving Documents Submitted through iAppeals
+Effective Dates: 12/28/2023 - Present | TN 70 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010137 (fetched 2026-10-04)
+
+B. Processing Internet Documents within an EDCS Case
+When an EDCS user opens EDCS and creates a case at the reconsideration or hearing
+level of appeal, EDCS will associate any documents submitted by IUs through the iAppeals
+service.
+1. The Internet Documents page
+To view documents submitted by the IU via iAppeals, select the Internet Documents
+page. The Internet Document page displays the same columns and headers described in
+DI 81010.137.2. for the Preview Internet Documents page.
+a. Internet documents submitted with the current appeal request
+The Internet Documents page will display all the documents submitted by an IU through
+the Internet. It will also display any previously saved document retention actions
+(retain or discard) regardless of whether any Internet data is present.
+b. Internet documents submitted from other filings
+It is possible that EDCS will find documents from other filings that contain the same
+SSN. For example, EDCS may find a document submitted for an earlier appeal request.
+EDCS will display any such document in a separate table on the Internet Documents
+page. If the document has not been associated with any other case, the EDCS user can
+add the document to the current case by selecting the Add to Case button in the table
+next to the document.
+2. Reviewing the Internet documents
+Review the documents displayed on the Internet Documents page to determine whether
+to file them in the electronic folder.
+a.
+Select the documents available for review;
+b.
+Open the document(s) in the DMA viewer by selecting the link in the Document Type
+column or by selecting the “Open Selected” button;
+c.
+Review the selected documents in the DMA viewer; and
+d.
+Make sure that the SSN associated with each document matches the SSN used for the
+document search.
+e.
+The EDCS user can manipulate the documents within the DMA viewer. The user can:
+1.
+View the document;
+2.
+Rotate the document;
+3.
+Print the document;
+4.
+Save the document; and
+5.
+Delete pages if the document has more than one page.
+f.
+The user cannot delete an entire document.
+3. Retaining Internet documents
+Follow the instructions in DI 81010.137A.4.
+4. The SSN in a document does not match the SSN used for the search
+Follow the instructions in .DI 81010.137A.5.
+5. The Internet user selected the wrong document type at submission
+Follow the instructions in DI 81010.137A.6.
+6. Document details when submission status equals failed
+Follow the instructions in DI 81010.137A.8.
+7. Internet user submitted multiple documents as one document
+When the IU combines documents and submits them as one document, the EDCS user should
+separate the documents. To separate the documents, the EDCS user should:
+a.
+Select the Internet Documents page;
+b.
+Select the Update Details hyperlink for the document that requires splitting;
+c.
+Select the Retain button. EDCS enables the Send to the EF button. If the EDCS user
+hovers over the Send to EF button, the tooltip displays, “Documents sent to the Electronic
+Folder (EF) are viewable through eView’s Case Documents tab and can be split into
+multiple documents, if desired;”
+d.
+Select the Send to EF button to commit the document to the case;
+e.
+EDCS displays a warning message, “Are you sure you want to send the document to the
+Electronic Folder (EF)? Documents in the EF are viewable through eView’s Case Documents
+tab;”
+f.
+Select OK. EDCS tells DMA to move the committed document to the permanent DMA location
+and copies the document metadata (e.g., document type, receipt date, claim type, etc.)
+to the case in the EF. After commitment to the EF, the document will no longer appear
+on the Internet Documents page;
+g.
+Open the case in eView and select the Case Documents tab;
+h.
+Find the committed document;
+i.
+Open it in the DMA viewer;
+j.
+Cut the pages that need to be separated from the original document and paste them
+into a new document; and
+k.
+Update the new document’s attributes window as necessary (SSN, Document Type, and
+Site Code).
+1.
+If the update changes the SSN, eView will not associate the new document with the
+current case.
+2.
+If the update does not change the SSN, eView will associate the new document with
+the current case and display it on the Case Documents tab.
+8. EDCS user selects a deleted case on the Disability Case Selection page
+When an EDCS user selects a deleted case from the search results listed on the Case
+Selection Page, EDCS un-associates all the documents associated with that case. However,
+any updates made to the document prior to the case selection remain with the document
+(e.g., notes, retention actions, document type changes). All disassociated, uncommitted
+documents will appear on the Preview Internet Documents page. Documents that had been
+committed to the case prior to its deletion will not appear on the Preview Internet
+Documents page.

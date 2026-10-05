@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 01010.042 - Prior uncollected annual earnings test (AET) penalties
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010042 (fetched 2026-10-04)
+
+B. Determining if a penalty exists
+Obtain and review the following queries to determine if an uncollected AET penalty
+exists:
+•
+Special Message (SP MSG) Query;
+•
+Query Response Overpayment (QROP) Query;
+•
+Master Beneficiary Record (MBR) Query.
+If AET penalty information is not present in any of these queries, or if the O/P type
+is other than AET, take no further action. An uncollected AET penalty does not exist.

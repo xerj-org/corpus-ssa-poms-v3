@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - GN 05002.100 - Railroad Certification Cases
+Effective Dates: 08/21/2024 - Present | TN 23 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0205002100 (fetched 2026-10-04)
+
+B. Process for handling railroad retirement certification cases
+The process for handling inquiries from beneficiaries whose payments were certified
+by the RRB is explained in this section.
+1. FO handling
+When the beneficiary alleges the benefit statement is incorrect, FO staff or an 800
+Number Agent refers the case to the appropriate PSC (see GN 05002.046 for how to refer).
+2. PSC handling
+The PSC processes RRB certified payment cases through the normal PSC process. The
+PSC technician gives these cases the highest priority because the tax computation
+information is needed timely.
+a.
+Try to answer the inquiry without the folder, whenever possible.
+b.
+If you cannot answer the inquiry without the folder, associate the inquiry with the
+folder.
+c.
+If you need additional information from RRB, complete a Dual SSA/RRB SSA-1099 and
+1042S Worksheet at GN 05002.310.
+Complete Parts I and III in all cases. Annotate items that do not apply with “N/A”.
+SM 00630.040E Process - Building the SSA-1099/1042S Remarks - explains how the PHUS
+event codes determine the amounts shown on the benefit statement. This procedure provides
+the guidelines for technicians in calculating the amounts shown on the benefit statement.
+The Dual SSA/RRB SSA-1099 and 1042S Worksheet has been formatted the same way. To
+build the benefit statement, both the MBR and PHUS records are used. PSC technicians
+use the following POMS references to determine the amount for each item in Part III:
+•
+Part III.A (Amount Withheld for Attorney Fees) - SM 00630.249 EVENT 049 LEGAL DED.
+Also, see SM 00630.040E.6.
+•
+Part III.B (Lump Sum Death Payment) - SM 00630.241 EVENT 041 LUMP SUM.
+•
+Part III.C (Voluntary Federal Income Tax Withheld) - SM 00630.350 through SM 00630.356.
+•
+Part III.D (Remittances Received - Cash, Money Order, or Personal Check) - SM 00630.219
+EVENT 019 DIR REMT. Also, see SM 00630.040E.18.
+•
+Part III.E (Benefit Payment Offset – Treasury) - SM 00630.344 Event 144 RECUR T-BPO.
+Also, see SM 00630.343.
+•
+Part III.F (Total Amount Withheld Due to WC Offset) - SM 00630.221 EVENT 021 WORK
+COMP; SM 0630.227 EVENT 027 DELETE PWC; SM 00630.259 EVENT 059 PY1 WC; SM 00630.307
+EVENT 107 PY2 WC; SM 00630.309 EVENT 109 PY3 WC; SM 00630.316 EVENT 116 WC FCPMT;
+SM 00630.317 EVENT 117 WC NWFCPMT; SM 00630.319 EVENT 119 PY4 WC; AND SM 00630.325
+EVENT 125 OTY WC.
+d.
+The beneficiary is notified:
+•
+of SSA's need to contact RRB for additional information;
+•
+that a reply by telephone or mail will be forthcoming when a response from RRB is
+received; and
+•
+of the need to request an extension for filing their tax returns.
+e.
+Each PSC designates one individual as the RRB coordinator.
+f.
+Module personnel forward all completed Dual SSA/RRB SSA-1099 and 1042S Worksheets
+to the designated PSC RRB coordinator.
+g.
+After ensuring they have completed Parts I and III of the form, the PSC RRB coordinator
+can forward the worksheet to RRB via e-mail to request completion. In the body of
+the e-mail to RRB, technicians should provide the RRB claim number and the SSN/BIC
+to identify who the request is for. RRB staff will complete the worksheet and return
+it to SSA via email, using the RR-4 cover sheet. For retirement cases, e-mail the
+worksheet to: RSB-InquiriesfromSSA@rrb.gov. For survivor cases, email the worksheet to: SBD-SurvivorBenefitsDivisionGroupMailbox@rrb.gov.
+h.
+The RRB responds directly to the PSC RRB coordinator who makes the referral.
+i.
+The PSC will respond to the beneficiary's inquiry and, if necessary, correct the PHUS
+and issue a corrected benefit statement. NOTE: Because there may be a lag between when RRB pays and what the PHUS record shows,
+ensure that if any benefits were payable in another year, and not in the year the
+PHUS shows, that information gets placed to the next year’s PHUS record.

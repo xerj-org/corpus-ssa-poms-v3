@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - GN 02402.341 - Coding Hungary Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/01/2024 - Present | TN 286 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402341 (fetched 2026-10-04)
+
+G. Examples of coding Hungary direct deposit
+1. Example 1
+A week before the cutoff for direct deposit, the FBU in Warsaw receives a completed
+enrollment form for a checking account in Hungary. The bank data is as follows:
+HU12345678123456789012345678
+The FBU codes the full information in ITS.gov . In 3 days, the following information appears on the MBR, having been sent from
+FRBKC through Auto Enroll.
+RTN: 663456787
+DAN: CE1234567890123456
+(The system has placed the C in the DAN field because the FBU selected Checking in
+Type of Account. The technician must never code a "C" in the DAN field.)
+2. Example 2
+Three days before the cutoff date for direct deposit, DIO receives an enrollment form
+from Mr. L. in Hungary. The form contains the following information:
+Information provided
+Olvashatóan töltse ki az IBAN számot az alábbi négyzetekben. Minden négyzetbe kerüljön számjegy.
+(Translation: Print the IBAN number in the blocks below. All of the blocks must be filled.)
+H
+U
+1
+2
+3
+4
+5
+6
+7
+8
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+The DIO technician begins the RTN field with 66, then skips the first 4 characters of the IBAN (HU12), and codes the next 6 digits of the IBAN, 345678. They add the U.S. check digit, 7, at the end, making the RTN 663456787.
+The technician then begins the DAN field with E, the letter assigned for Hungary, followed by the next 16 digits of the IBAN, 1234567890123456. They do not code the final 2 digits of the IBAN.
+The DAN on the MBR is now E1234567890123456.
+The technician then codes the full information from the enrollment form to ITS.gov and faxes the enrollment form to the Embassy in Budapest for a post-input review.
+They also send a note informing the Embassy of both the inputs to the MBR and in ITS.gov.
+3. Example 3
+DIO receives a completed form 10 days before the cutoff. Only 22 digits are shown
+on the form. Since it is more than 4 days before the cutoff, the module faxes the
+form to the U.S. Embassy in Budapest for a pre-input review. The Embassy corrects
+the form and faxes it to the FBU in Warsaw for input to ITS.gov . The FBU in Warsaw inputs the corrected data. 3 days later, the information is on
+the MBR.
+NOTE: The FBU in Warsaw is the “hub” office that assists with some of Hungary's work.
+4. Example 4
+Ms. P, who lives in Hungary, is visiting a friend in the U.S. She mentions that she
+wishes she could have her Social Security payments sent to her bank account, as her
+friend does. The 2 individuals contact the local SSA office. Mr. T says he can have
+the form for Ms. P at the front desk. The receptionist gives Ms. P the form in English,
+and Ms. P completes it. Mr. T then faxes the completed form to the Paperless fax number
+at DIO.

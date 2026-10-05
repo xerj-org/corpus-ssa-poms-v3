@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 13050.075 - Representative Payee
+Effective Dates: 06/06/2017 - Present | TN 2 (02-06)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050075 (fetched 2026-10-04)
+
+C. Procedure
+1. No Payee Is Needed At Time Expedited Reinstatement (EXR) is Requested
+a. No Payee Is Shown on the Existing MBR
+When the MBR showing the termination of disability entitlement does not indicate a
+payee, input the provisional benefits action the same day.
+b. Payee Is Shown on the Existing MBR
+Input a payee-to-self change as a post-entitlement (PE) action on the Claimant Entitlements
+screen in the eRPS system (see MS INTRANETERPS 009.018). Suppress the notice to the
+former payee on the Selection-Decision screen (see MS INTRANETERPS 013.002). Input
+the provisional benefits action the same day.
+2. Payee is Needed At Time EXR is Requested
+a. Payee On the MBR is Acceptable
+Input the provisional benefits action and once the reinstatement request has updated
+to the MBR (i.e., the provisional benefits have started), complete a questionnaire
+in eRPS to reactivate the payee relationship. The MBR update showing provisional benefits
+in pay status may be posted the next day.
+b. Payee On the MBR Must Be Changed
+Using eRPS, complete a payee application as a PE event on the Claimant Entitlements
+screen (see MS INTRANETERPS 009.018), select the payee and suppress the notice to
+the former payee on the Selection—Decision screen (see MS INTRANETERPS 012.002). Input
+the provisional benefits action the same day.
+c. No Payee is Shown On the Existing MBR
+Complete a payee application in eRPS as a PE event on the Claimant Entitlements screen
+(see MS INTRANETERPS 009.018) and select the payee, then input the provisional benefits
+action the same day (see DI 13050.075).
+d. Case is an Exception or Exclusion
+Notify the appropriate OCO/PC of the need for a payee. Follow the instructions in
+DI 13050.025I.3. In the MISC field of the MDW type “EXPEDITED REINSTATEMENT – EXCEPTION/EXCLUSION
+CASE – PAYEE INVOLVED SEE RPS.”
+NOTE: If payee development is still pending after 15 days from the date the EXR request
+was filed consider direct payment in accordance with GN 00504.105.

@@ -1,0 +1,197 @@
+SSA Program Operations Manual System (POMS) - SI 00835.482 - Loans of In-Kind Support and Maintenance
+Effective Dates: 10/01/2024 - Present | TN 125 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835482 (fetched 2026-10-04)
+
+F. Procedure for developing living arrangements in loan situations for deferred claims
+and other claims that require a PERC
+When taking a deferred development application, it is not necessary to set an RT diary,
+since the PERC will be used to fully develop the individual’s anticipated living arrangements
+for the period after the loan of ISM ends.
+When conducting a PERC for a claim with a loan of ISM, it is necessary to close out
+the loan of ISM, develop the living arrangements for the period covered by the loan,
+and determine what the individual’s ongoing living arrangement will be after SSI benefits
+start. For more information on when a PERC is required, see SI 00603.031.
+1. Determine whether the loan of ISM is bona fide
+If the loan determination has not already been made, determine whether the alleged
+loan of ISM is bona fide, and document the file. Absent evidence to the contrary,
+assume that the loan of ISM covers the entire period from the application filing date
+through the last day of the month of the PERC.
+2. Develop the living arrangements for the period covered by the loan of ISM
+a. Loan is not bona fide
+If the loan of ISM is not bona fide, develop the living arrangements and count ISM
+using normal ISM rules for the entire period (i.e., back to the filing date). No special
+procedures are required.
+b. Loan is bona fide and covers the pro rata share of household expenses
+If the individual has a bona fide loan of ISM and alleges that the loan covers the
+pro rata share, follow these steps to determine the individual’s living arrangements
+for the period covered by the loan of ISM:
+1.
+Determine that the loan covers the household expenses for the period covered by the
+loan if the individual alleges that the loan covers the pro rata share and the lender verifies the claimant’s allegation;
+2.
+Document the file with the individual’s allegation under the Remarks section on the
+Household Expenses and Contributions page within the SSI Claim path and the lender’s
+statement on a Report of Contact page;
+3.
+Determine that the individual is in FLA/A with no ISM starting from the application
+filing date through the end of the month of the PERC;
+4.
+Do not develop household expenses for this period; and
+5.
+Develop the individual’s anticipated living arrangements following the instructions
+in SI 00835.482F.3. (in this section).
+c. Loan is bona fide and does not cover the pro rata share of household expenses
+If the individual and lender do not allege that the bona fide loan covers the full
+pro rata share, follow these steps to determine whether the individual has received
+countable ISM:
+1.
+Develop household operating expenses back to the month of application. For information
+about household expenses, see SI 00835.465;
+2.
+Compute the individual's pro rata share. For information on sharing and the pro rata
+share, see SI 00835.160;
+3.
+Determine whether the loan of ISM (plus any cash contribution) covers the value of
+the food or shelter, or both, received (If it does not, the difference is countable
+ISM);
+4.
+Process the inside ISM development normally in SSI Claim cases;
+5.
+Input the monthly loan amount (plus any additional cash) in the MONTHLY LOAN AMOUNT
+field on the Household Expenses and Contributions page or Household of Another page;
+6.
+Input any cash contribution in the AMOUNT CLAIMANT CONTRIBUTES field. The SSI Claim
+System correctly computes the ISM and determines whether the one-third reduction rule
+(VTR) or presumed maximum value rule (PMV) applies; and
+7.
+Develop the individual’s anticipated living arrangements following the instructions
+in SI 00835.482F.3. (in this section).
+3. Determine the living arrangement for the month after the loan of ISM ends
+Based on the policy that the loan of ISM applies through the month of the PERC, the
+new living arrangement period will begin on the first day of the month after the month
+of the PERC. Use these instructions to establish the new living arrangement period
+in The SSI Claim System.
+For cases that will go from FLA/A with no ISM (during the loan period) to:
+•
+FLA/A with no ISM for the month after the loan ends, input the last day of the PERC
+month as the date of change on the Living Arrangement Change page;
+•
+FLA/B for the month after the loan ends, input the last day of the PERC month as the
+date of change on the Living Arrangement Change page; or
+•
+FLA/A with H type ISM income for the month after the loan ends, input the first day
+of the month after the PERC month as the date of change on the Living Arrangement
+Change page.
+4. Developing the new living arrangement period
+Take the following steps to develop the individual’s anticipated living arrangement
+as of the month following the month of the PERC:
+a.
+Use the Living Arrangement Change page to create a new living arrangement period as
+explained in SI 00835.482F.2. (in this section);
+b.
+On the Household Expenses and Contributions page, enter “N” to indicate there is no
+loan agreement. This closes out the loan of ISM issue for the new living arrangement
+period;
+c.
+Document the individual’s anticipated living arrangements including the anticipated
+contribution and the household living expenses on the appropriate SSI Claim page;
+d.
+Inform the individual that they are responsible for paying the agreed upon contribution
+amount starting the month after the month of the PERC. Also inform the individual
+that they must report to SSA if they do not start contributing the agreed upon amount;
+and
+e.
+Verify with the householder the household expenses and the amount of the agreed upon
+contribution. Document the householder’s response on a Report of Contact page. When
+the householder’s verification of the expenses and the agreed upon contribution is
+received, development of the living arrangement is complete.
+NOTE: If the agreed-upon contribution amount is equal to or exceeds the pro rata share,
+the individual is in FLA/A with no ISM. If the agreed-upon contribution is less than
+the pro rata share, the individual is receiving ISM (VTR or PMV).
+EXAMPLE 1: Individual is FLA/ A with no ISM for the loan period and will be FLA/ A
+with
+no ISM for the new living arrangement period
+Facts of the case:
+•
+01/15/2010 - William filed for SSI, alleging that they have lived in their sibling's
+home since 11/07/2009, and that they receive food and shelter from their sibling that
+is covered by a loan agreement.
+•
+07/12/2010 - During the PERC, William establishes that they have a bona fide loan
+agreement with their sibling to repay their share of the food and shelter, so there
+is no countable ISM for the period covered by the loan of ISM, which ends the last
+day of the PERC month.
+The CS:
+•
+uses the last day of the PERC month, (07/31/2010) as the date of change on Living
+Arrangement Change page;
+•
+establishes a new living arrangement period for William for the living arrangement
+after the loan of ISM ends;
+•
+completes the SSI Claim pages and documents William’s agreed contribution amount;
+•
+documents the householder’s statement verifying the household expenses and the claimant’s
+allegation;
+•
+determines that William’s expected contribution (as verified by the householder) equals
+or exceeds the pro rata share; and
+•
+determines that the individual is in FLA:A with no ISM. No further development is
+needed.
+EXAMPLE 2: Individual is FLA/ A with no ISM for the loan period and will be in FLA/
+B
+for the new living arrangement.
+Facts of the case:
+•
+01/15/2010 – Kristen filed for SSI, alleging that they have lived in their sibling’s
+home since 11/07/2009 and that Kristen receives food and shelter from their sibling
+that is covered by a loan agreement.
+•
+07/12/2010 - During the PERC, Kristen established that they have a bona fide loan
+agreement with their sibling to repay their share of the food and shelter, so there
+is no countable ISM for the period covered by the loan of ISM, which ends the last
+day of the PERC month.
+The CS:
+•
+uses the last day of the PERC month (07/31/2010) as the date of change on the Living
+Arrangement Change page;
+•
+establishes a new living arrangement period for Kristen;
+•
+completes the SSI Claim pages and documents Kristen’s contribution amount;
+•
+documents the householder’s statement verifying the household expenses and the amount
+that Kristen will be required to contribute toward household expenses (NOTE: In this case, Kristen’s anticipated contribution will be less than the pro rata share
+of the expenses); and
+•
+determines that Kristen’s contribution does not equal or exceed their pro rata share
+and that Kristen is in FLA:B as of 08/01/2010. No further development is needed.
+Example 3: Individual is in FLA/ A with no ISM for the loan
+period and will be in FLA/ A with H type income in the new living
+arrangement
+Facts of the case:
+•
+01/15/2010 - Jessie filed for SSI, alleging that they live with their sibling in an
+apartment for which Jessie has rental liability and that receives food and shelter
+from their sibling that is covered by a loan agreement.
+•
+07/12/2010 - During the PERC, Jessie established that they have a bona fide loan agreement
+with their sibling to repay their share of the food and shelter, so there is no countable
+ISM for the period covered by the loan of ISM, which ends the last day of the PERC
+month.
+The CS:
+•
+uses the last day of the PERC month (07/31/2010) as the date of change on the Living
+Arrangement Change page;
+•
+establishes a new living arrangement period for Jessie for the living arrangement
+period after the loan of ISM ends;
+•
+documents the sibling’s statement verifying the household expenses and the amount
+that Jessie contributes toward household expenses (NOTE: In this case, Jessie’s anticipated contribution will be less than theirpro rata share
+of the expenses); and
+•
+determines that Jessie’s contribution does not equal or exceed their pro rata share
+and that Jessie is in FLA/A with H type income as of 08/01/2010. No further development
+is needed.

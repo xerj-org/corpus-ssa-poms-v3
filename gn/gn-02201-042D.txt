@@ -1,0 +1,247 @@
+SSA Program Operations Manual System (POMS) - GN 02201.042 - Employer Issues Regarding Collection of Title II/XVI Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 08/22/2022 - Present | TN 62 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201042 (fetched 2026-10-04)
+
+D. Procedure - employer uncooperative or non responsive
+1. Employer refuses to honor the AWG order
+TSC/FO/PC employees proceed as follows when the employer refuses to honor the AWG
+Order:
+•
+Tell the employer that noncooperation could result in a lawsuit by the Government
+against the employer.
+•
+Tell the employer they can be held accountable for any amount they refuse to withhold
+from the disposable pay. The employer can also be held liable for attorney fees, cost
+of the lawsuit and (in the court's discretion) punitive damages.
+•
+Advise the employer that SSA will annotate its records about the employer's refusal
+to cooperate.
+•
+Go to the AWG Employer Response (TRER) screen and enter a “Y” in the Employer refuses
+to Cooperate section and enter available contact information about the employer. (See
+MS 01114.010 for more detailed information about the screen.)
+•
+On DMS Remarks, enter the following words: “Employer contacted on (fill-in mm/dd/yyyy)
+and refused to honor AWG order.” If the employer explains why he or she refuses, briefly
+describe the reason in DMS Remarks.
+2. Employer does not respond to the AWG order
+The ECO system checks for an employer response to the AWG order about 35 days after
+the original AWG Employer Package was sent. If there is no response, the ECO system
+automatically follows up twice, at 15-day intervals. (See GN 02201.040B.5.c. for more information about how the ECO system controls and monitors unresponsive
+employers.)
+If the employer does not respond after the automated followups, the ECO system generates
+a Processing Center Action Control System (PCACS) alert to the Debt Management Section
+(DMS) of the PC of jurisdiction. The alert has the legend, “No Employer Response or
+SF-329D Received.” The DMS must take action to follow up with the employer to inquire
+about AWG payments. (See SM 00610.080 for more detailed information about the PCACS
+alerts generated for follow-up action in the AWG program.)
+Take the following action when handling the PCACS alert for unresponsive employers:
+•
+Go to the ECO Master Query which is accessible from the External Collection Operation
+Menu (TRMU). (See MS 01114.007 for more detailed information about the ECO Master
+Query.)
+•
+Identify the name and address of the employer to whom the original AWG Employer package
+was sent. If the AWG Information contains an employer contact name and telephone number,
+call the person. Follow the instructions in GN 02201.042D.2.a.
+•
+If the query does not contain an employer contact name and telephone number, attempt
+to obtain the telephone number using the applicable skip tracing resources listed
+in GN 02210.213B.3. If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the instructions in GN 02201.042D.2.b.
+a. Employer contacted
+•
+Tell the employer you are calling about SSA's AWG order regarding the employee, and
+explain that SSA has not received the required Employer Certification (SF-329D).
+•
+Go to the AWG Employer Response (TRER) screen and enter the applicable response by
+the employer. (See MS 01114.010 for more information about the screen.)
+•
+If the employer refuses to honor the AWG order, follow the instructions in GN 02201.042D.1.
+b. Employer not contacted
+•
+Go to the AWG Employer Response (TRER) screen and enter a “Y” in the Employer refuses
+to Cooperate section. (See MS 01114.010 for more detailed information about the screen.)
+•
+On DMS Remarks, enter the following words: “Employer telephone number not available
+or did not respond to calls. Follow-up action stopped.”
+•
+Take no additional action regarding AWG. The ECO system will automatically check for
+a new employer.
+3. AWG mail to employer returned as undeliverable
+The AWG process results in the mailing of two types of notices to employers: (1) the
+AWG Employer Package, and (2) notices telling the employer to stop, change or resume
+garnishment for a variety of reasons. See GN 02201.040B.4. for more information about the AWG Employer Package and GN 02201.040D for more information about the notices telling employers to stop, change or resume
+garnishment.
+a. Undeliverable AWG employer package
+Undeliverable employer packages are returned to central office, where they are scanned
+in an automated operation. The scanning operation results in the posting of undeliverable
+transaction 7001 to ECO. The ECO system then checks the ECO Master file and the Employer
+Identification File (EIF) to see if a more recent address has been updated. If so,
+the system automatically resends the mail to the updated address. If no new address
+is found, ECO looks for a new employer and if one is found, it sends an AWG Employer
+Package to them.
+If no new employer is found, the system creates a PCACS alert with the legend “ECO-AWG
+Alert H - Undeliverable AWG Package.” The alert is sent to the Debt Management Section
+of the PC of jurisdiction. (See SM 00610.080 for more information about processing
+AWG alerts.) Proceed as follows when processing the alert:
+•
+Go to the ECO Master Query which is accessible from the External Collection Operation
+Menu (TRMU). (See MS 01114.007 for more information about the ECO Master Query.)
+•
+Review AWG Information to determine if the AWG status is other than active. If it
+is other than active, no additional action is required.
+•
+If the AWG status is still active and no updates to the address have been made, attempt
+to contact the employer.
+•
+If necessary, attempt to obtain the telephone number using the applicable skip tracing
+sources listed in GN 02210.213.
+•
+If you contact the employer, follow the instructions in GN 02201.042D.2.a.
+•
+If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the instructions in GN 02201.042D.2.b.
+b. Undeliverable stop garnishment notice
+SSA must stop garnishment in a variety of situations, e.g., debtor requests review,
+waiver, hardship and development is required before a decision can be made. When a
+debtor request requiring the cessation of garnishment is input to the system, ECO
+changes the AWG status to “suspended.” This changed status results in the ECO system
+automatically sending a Stop Garnishment notice to the employer.
+Undeliverable Stop Garnishment Notices are also returned to central office, where
+they are scanned in an automated operation. The scanning operation results in the
+posting of the undeliverable employer notice transaction 7005. The ECO system then
+checks the ECO Master File and the Employer Identification File (EIF) to see if a
+more recent address has been updated. If so, the system automatically resends the
+mail to the updated address. If no new address is found, ECO produces a PCACS alert
+with the legend, “ECO-AWG Alert G-Undeliverable Stop Garnishment Notice.” The alert
+is sent to the Debt Management Section of the PC of jurisdiction. (See SM 00610.080
+for more information about the AWG alerts.) Proceed as follows when processing the
+alert:
+•
+Go to the ECO Master Query which is accessible from the External Collection Operation
+Menu (TRMU). (See MS 01114.007 for more information about the ECO Master Query.)
+•
+Review AWG Information to determine if the AWG status was changed to “Active” after
+the alert was generated. If so, no further AWG action is necessary. Assume that the
+reason for stopping AWG has been resolved.
+•
+If the AWG status is still “Suspended” or “Inactive,” contact the employer and tell
+him or her to stop sending garnishment payments until notified by SSA.
+•
+If necessary, attempt to obtain the telephone number using the applicable skip tracing
+sources listed in GN 02210.213.
+•
+If you contact the employer, follow the instructions in GN 02201.042D.2.a.
+•
+If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the instructions in GN 02201.042D.2.b.
+c. Undeliverable change garnishment amount notice
+SSA changes AWG amounts in two situations: (1) debtor requests and is granted a lower
+AWG amount due to hardship and (2) debtor requests a higher AWG amount. See GN 02201.041B.5. and GN 02201.041B.6. for processing Title II cases and SI 02220.018B.5. and SI 02220.018B.6. for processing SSI cases.
+Undeliverable Change Garnishment Amount Notices are returned to central office, where
+they are scanned in an automated operation. The scanning operation results in the
+posting of the undeliverable employer notice transaction 7005. The ECO system then
+checks the ECO Master File and the Employer Identification File (EIF) to see if a
+more recent address has been updated. If so, the system automatically resends the
+mail to the updated address. If no new address is found, ECO produces a PCACS alert
+with the legend, “ECO-AWG Alert E-Undeliverable Change Garnishment Amount Notice.”
+The alert is sent to the Debt Management Section of the PC of jurisdiction. (See SM
+00610.080 for more information about the AWG alerts.) Proceed as follows when processing
+the alert:
+•
+Go to the ECO Master Query which is accessible from the External Collection Operation
+Menu (TRMU). (See MS 01114.007 for more information about the ECO Master Query.)
+•
+Review the ECO Master Query to determine if the AWG status changed after the alert
+was generated.
+•
+If the AWG payment changed to “Inactive” or “Suspended,” no further action is necessary.
+•
+If the last garnishment payment received (transaction 7010) equals the current garnishment
+amount shown on the ECO Master Query, no further action is necessary.
+•
+If the AWG payment does not equal the current garnishment amount shown on the ECO
+Master Query, contact the employer and tell him or her to change the AWG amount to
+the amount shown on the ECO Master Query.
+•
+If necessary, attempt to obtain the telephone number using the applicable skip tracing
+sources listed in GN 02210.213.
+•
+If you contact the employer, follow the instructions in GN 02201.042D.2.a.
+•
+If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the instructions in GN 02201.042D.2.b.
+d. Undeliverable resume garnishment notice
+SSA must resume garnishment in a variety of situations, e.g., waiver denied, request
+for review of the debt denied, request for reconsideration of the overpayment determination
+denied. Based on inputs to the Debt Management System, the ECO system automatically
+changes the AWG status to “Active,” resulting in the automated mailing of a Resume
+Garnishment Notice to the employer.
+Undeliverable Resume Garnishment Notices are also returned to central office, where
+they are scanned in the automated operation. The scanning operation results in the
+posting of the undeliverable employer notice transaction 7005. The ECO system then
+checks the ECO Master file and the Employer Identification File (EIF) to see if a
+more recent address has been updated. If so, the system automatically resends the
+mail to the updated address. If no new address is found, ECO produces a PCACS alert
+with the legend, “ECO-AWG Alert F-Undeliverable Resume Garnishment Notice.” The alert
+is sent to the Debt Management Section of the PC of jurisdiction. (See SM 00610.080
+for more information about the AWG alerts). Proceed as follows when processing the
+alert:
+•
+Go to the ECO Master Query which is accessible from the External Collection Operation
+Menu (TRMU). (See MS 01114.007 for more information about the ECO Master Query.)
+•
+Review the ECO Master Query to determine if the AWG status changed to inactive or
+suspended after the alert was generated.
+•
+If so, then no further action is necessary because a subsequent event occurred that
+required stopping garnishment.
+•
+If the AWG status is active and no payment have been received since the date of the
+alert, then contact the employer to tell him or her that garnishment should be resumed.
+•
+If necessary, attempt to obtain the telephone number using the applicable skip tracing
+sources listed in GN 02210.213.
+•
+If you contact the employer, follow the instructions in GN 02201.042D.2.a.
+•
+If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the instructions in GN 02201.042D.2.b.
+4. Employer stops garnishment before debt balance reduced to $75.00
+If the employer stops sending in garnishment payments, an AWG remittance Past Due
+alert will be generated in the PC. Proceed as follows when you receive the AWG Remittance
+Past Due alert:
+•
+Review the ECO data on the Collection Query attached to the query to determine if
+an AWG remittance has been received since the alert was created.
+•
+If a transaction code 7010 has been posted to ECO, no additional action is needed.
+•
+If a transaction 4111 (Non-ECO Remittance) has been received within that time period,
+it is possible that this is the garnishment payment but it was incorrectly identified
+when it came in via the remittance process. If the technician can determine that this
+is the missing garnishment payment, no additional action is needed.
+•
+If an AWG remittance has not been posted, contact the employer by telephone to report
+that a remittance has not been received.
+•
+If necessary, attempt to obtain the telephone number using the applicable skip tracing
+sources listed in GN 02210.213.
+•
+If you make contact, remind the employer to continue sending the garnished wages with
+the scannable coupons each pay period until SSA notifies the employer to terminate
+collections, OR the employer's obligation to pay the employee ends, OR the employer
+receives a Garnishment Order for family support (i.e., you receive a garnishment order
+with priority). The employer should contact SSA when this happens.
+•
+If the employer reports any changes, input the information via the AWG Employer Response
+(TRER) screen.
+•
+Document the telephone contact with the employer's name and telephone number on the
+DMS Remarks screen.
+•
+If you cannot obtain a telephone number, or after three calls to the known telephone
+number you do not get a response, follow the directions in GN 02201.042D.2.b.
+NOTE: No action is necessary if technician, after examination of the record, determines
+AWG alerts are being caused by delayed remittance processing.

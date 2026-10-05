@@ -1,0 +1,181 @@
+SSA Program Operations Manual System (POMS) - SI 00520.920 - Processing Prerelease Claims
+Effective Dates: 09/11/2024 - Present | TN 63 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500520920 (fetched 2026-10-04)
+
+A. Procedure for processing SSI prerelease claims
+1. Initiating the prerelease procedure
+Upon receipt of a prerelease referral (see SI 00520.930 Exhibit 2 for a model prerelease referral), obtain all information and forms required
+for an initial claim, reinstatement, or change in living arrangements. Obtain a signed
+release from the individual allowing the field office (FO) to discuss the case with
+the institution's staff. Use the form SSA-3288 (Consent for Release of Information)
+for all prerelease claims except those involving individuals housed in a Federal Bureau
+of Prisons (BOP) facility. For those claims, use the modified form SSA-3288 located
+in SI 00520.930, Exhibit 3 instead.
+Add completed forms and referrals to the Evidence Portal (EP) for documentation purposes.
+2. Processing applications with or without an agreement
+Process an application under the prerelease procedure without regard to whether an
+agreement exists with the institution. For more information about prerelease agreements,
+see SI 00520.910.
+3. Using simultaneous development for prerelease claims
+Do not use deferred development with prerelease applications. Use the simultaneous
+development procedures in SI 00603.002C.4, but do not adjudicate the claim. Place it in payment status code H80 pending the
+DDS medical decision.
+4. Determining the proper applicant and potential need for a representative payee
+If the institution files on behalf of the individual, determine who the proper applicant
+is and, if necessary, develop for a representative payee.
+5. Timeframes for processing claims under the prerelease procedure
+If the referral does not list an anticipated release date, obtain a statement from
+the institution with the approximate date the individual will be released. Record
+the statement on a Report of Contact page. Apply the prerelease procedure using the
+following timeframes:
+a. Claimants housed in non-BOP institutions
+•
+Apply prerelease procedures to aged claims when the individual’s expected release
+date will be within 30 days.
+•
+Apply prerelease procedures to disability claims when the individual’s release date
+will be within 30 days of the estimated time for getting a medical decision from the Disability Determination
+Services (DDS). For example, if the DDS processing time averages about 90 days, the
+FO can take the claim 120 days before the scheduled release date of the claimant.
+b. Claimants housed in BOP institutions
+•
+Apply prerelease procedures to aged claims received within 30 days prior to the individual’s scheduled date of release from BOP custody or 30 days
+prior to the home confinement placement date.
+•
+Apply prerelease procedures to disability claims received within 120 days prior to the individual’s scheduled date of release from BOP custody or 120
+days prior to the home confinement placement date.
+REMINDER: When the application is received earlier than the allowed timeframe for processing
+a claim under the prerelease procedure, deny the application.
+6. Determining potential eligibility before sending prerelease claims to DDS
+a. All disability claims
+Before sending an SSI disability prerelease claim to the DDS, determine whether the
+claimant is potentially eligible for SSI based on the claimant’s anticipated income,
+resources, and living arrangement upon release. However, for purposes of establishing
+the claim in the Consolidated Claims Experience (CCE) (formerly MSSICS), the residence
+address is the institution where the individual resides.
+Following this general rule, input SSI prerelease claims into the system following
+instructions in MS 08110.007. For cases unable to be entered into the CCE, see SM 01005.420, SM
+01005.422, SM 01005.424, and SM 01005.430 for coding the RA, RY, RT, and ZC fields on form SSA-450-SI (SSI Data Input and Determination).
+b. Additional Step for BOP conditional release and BOP skilled nursing care cases
+There are special processing rules (outlined in SI 00520.920A.6 in this section) for holding medically-approved BOP conditional release and BOP skilled
+nursing care cases for extended periods of time before adjudicating the claim.
+For these claims, BOP instructs the claimant to add a comment within the SSI application’s
+REMARKS section (or to provide a verbal statement if they are filing over the phone)
+indicating that their case is a conditional release or skilled nursing care case.
+•
+Add special remarks to identify these cases - Add the following remark on the SSID and Development Worksheet page before sending
+the case to the DDS: “BOP conditional
+release/skilled nursing case. Special adjudication required if medically approved
+by DDS. See SI
+00520.920A.6.b.” This alerts the FO technician who receives a medically approved BOP conditional release/skilled
+nursing care case that the special processing rules apply.
+•
+Exclude these cases from processing time - On the Development Worksheet page, input unit code “ZZZ” for the first 3 digits
+in the UNIT field to exclude processing time. Build the SSR to create a new record.
+7. Holding adjudication of aged claims and disability claims after obtaining a favorable
+DDS disability determination
+For procedure on medical development for prerelease claims, see SI 00520.920B in this section.
+a. For all aged prerelease claims
+1.
+Ask the institution for the expected release date, and advise the institution that
+we cannot pay SSI until we verify the release date and new living arrangements.
+2.
+If the anticipated release date is not within 30 days of the application date, advise
+the institution that we will deny the claim.
+3.
+If the anticipated release date is within 30 days of the application date, hold the
+initial claim until release. Input payment status code H10 (living arrangement change
+in process) pending verification of the claimant’s release. For more information on
+inputting payment status code H10, see SM 01301.545C.
+4.
+Re-contact the institution for an update if the claimant is still in the institution
+after the anticipated release date before taking action to deny the claim as N02 (resident
+of a public institution) or N22 (inmate of a penal institution).
+b. For all disability prerelease claims except BOP conditional release and BOP skilled
+nursing care cases
+Once the FO receives a favorable medical decision from the DDS, follow these steps:
+1.
+Contact the institution promptly to:
+•
+Ask the institution for the expected release date; and
+•
+Advise the institution that we cannot pay SSI until we verify the release date and
+the new living arrangements.
+2.
+If the anticipated release date is not within 30 days of getting the favorable DDS
+decision, advise the institution that the FO will deny the claim.
+3.
+If the anticipated release date is within 30 days of getting the favorable DDS decision,
+hold the initial claim until release. Input payment status code H10 (living arrangement
+change in process) pending verification of the claimant’s release. For more information
+on inputting payment status code H10, see SM 01301.545C.
+4.
+Re-contact the institution for an update if the claimant is still in the institution
+after the anticipated release date before taking action to deny the claim as N02 or
+N22.
+c. Exception/Special processing instructions for BOP conditional release and BOP skilled
+nursing care cases
+Contact the institution to notify them of the favorable medical decision. Follow the
+instructions below for conditional release cases and skilled nursing care cases.
+1.
+Conditional Release cases: Hold medically approved cases for up to 180
+days before adjudicating. (This is an exception to existing SSI adjudication policy in SI 00601.080.) The BOP cannot request a release hearing before a Federal judge for the BOP inmate
+until there is a favorable medical allowance, which signals a funding source (i.e.,
+SSI/Medicaid) for the individual once released. The additional time will give BOP
+sufficient time to locate a facility to place the inmate, to present the release plan
+to the judge, and for the judge to approve the release from the BOP facility.
+Within the Development Worksheet page, add a new issue labeled "Prerelease" and a
+tickle date for 180 days. At the end of the holding period, follow up with the BOP
+institution to see if the claimant has been placed. If they have not, issue a technical
+denial of N22.
+2.
+Skilled nursing care cases: Hold medically approved cases for up to 180
+days before adjudicating. (This is an exception to existing SSI adjudication policy in SI 00601.080.) The BOP is unable to contact skilled nursing facilities for placement of the inmate
+until there is a favorable medical allowance. The additional time will allow BOP sufficient
+time to find the individual permanent placement in a skilled nursing facility before
+they release the inmate from the BOP facility.
+Within the Development Worksheet page, add a new issue labeled "Prerelease" and a
+tickle date for 180 days. At the end of the holding period, follow up with the BOP
+institution to see if the claimant has been placed. If they have not, issue a technical
+denial of N22.
+REMINDER: Within the Development Worksheet page, leave unit code “ZZZ” as the first 3 digits
+in the UN field to exclude processing time.
+d. Appeal of technical denial - All prerelease claims
+If a technical denial occurs after the favorable medical decision, the claimant has
+60 days to request an appeal.
+•
+If the claimant is released within 60 days and requests reconsideration, use the recent
+favorable medical decision to complete the claim after processing the reconsideration,
+following instructions starting in GN 03102.100.
+•
+If the 60-day appeal period has expired, and there is no good cause, take a new application
+and determine if the prior Title XVI medical decision can still be used or if a new
+medical decision is necessary, following instructions in DI 11055.077.
+8. Adjudicating prerelease claims upon release
+When the institution releases the individual, contact the individual to verify the
+release, update the address and living arrangements, adjudicate the claim, and initiate
+payment.
+For BOP prerelease claims, BOP will also advise the individual that they must contact
+SSA upon their release to give us this information.
+9. Processing prisoner reinstatements under prerelease
+We cannot reinstate SSI benefits until after the institution releases the prisoner.
+However, the FO and the institution should do prerelease development appropriate to
+reinstatements, so we can reinstate benefits more quickly after the prisoner’s release.
+For example, the FO can:
+•
+provide the institution with information about what documents the FO needs to process
+a reinstatement;
+•
+set up an appointment for an interview shortly after the release; and
+•
+encourage close cooperation between the institution, the prisoner, and the FO to avoid
+unnecessary delays.
+The institution can:
+•
+provide the FO with the prisoner’s new address;
+•
+provide documents to verify the prisoner’s release; and
+•
+encourage the prisoner to respond immediately to any FO requests for information,
+and not to miss any interview appointments. For instructions about SSI reinstatements
+for prisoners, see GN 02607.875.

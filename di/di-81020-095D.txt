@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 81020.095 - Annotations, Bookmarks, and Categories (ABCs)
+Effective Dates: 02/02/2011 - Present | TN 5 (08-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020095 (fetched 2026-10-04)
+
+D. Categories
+1. Description of categories
+The DMA Viewer is used to categorize pages of the documents in the CEF. The categorized
+pages are used by the DDS case processing system when Consultative Examinations (CE)
+are ordered and when request for medical records are sent to providers.
+DDS users can categorize pages of an imaged document in the DMA Viewer. The categories
+are:
+•
+Physical,
+•
+Mental,
+•
+Mental and Physical, and
+•
+MER 827.
+2. Using categories
+a. DMA viewer
+Pages categorize as Physical, Mental, or Mental and Physical are generate as background
+material and mailed to the CE provider along with the request letter and payment voucher.
+For instructions regarding information that should be furnished to the CE provider,
+Refer to DI 22510.017B.
+NOTE: There may be documents that should not be sent to the CE source and care should
+be exercised in categorizing these.
+The DMA Viewer is also used to categorize the SSA-827 (Authorization to Disclose Information
+to the SSA) as MER 827. The SSA-827 generates along with the medical evidence request
+(MER) letter and is mailed to the provider.
+NOTE: Categories can only be set on the current case. They cannot be set on prior files
+even if those cases are CEFs. For information on adding documentation from a prior
+CEF, see Prior Folder Material - DI 81020.030.
+b. eView
+The eView user may obtain a list of documents with categorized pages associated with
+them for the case by selecting “Categories” from the Case Documents tab. The user
+may filter the list by category (e.g., Mental, Physical, Mental and Physical, or MER
+827) by selecting the category type from the drop down list. The user can also sort
+the categories text alphabetically or select multiple categories and open them all
+at the same time in the DMA Viewer.
+3. Electronic assistance requests (AR)
+If the DDS receives an electronic AR for a CE, the requesting office is able to set
+categories, for CE background material, as well as, add a bookmark and annotation
+to the documents in the CEF. For more information about Electronic Assistance Requests
+(AR), see DI
+81020.100.

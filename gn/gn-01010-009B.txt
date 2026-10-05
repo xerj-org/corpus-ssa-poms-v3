@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 01010.009 - Certified and uncertified earning records (e/r)
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010009 (fetched 2026-10-04)
+
+B. Policy about uncertified E/Rs
+In limited situations, an adjudicator may use an uncertified E/R to document entitlement,
+disallowance, or non-entitlement. You can use an uncertified E/R for earnings assessment
+purposes. If for any reason, the adjudicator doubts its validity, obtain a certified
+E/R using the instructions in MSOM MCSEC 001.005.
+Important: Never use an uncertified E/R to document non-entitlement on any social security number
+(SSN) due to lack of insured status, per GN 00204.004.
+1. List of uncertified E/Rs
+The following is a list of uncertified E/Rs.
+•
+MCS pre-adjudicative EC screens with an existing issue involving the Office of Earnings (OEO) or other unresolved earnings issue;
+•
+A pre-adjudicative BEST with an existing issue involving the OEO or other unresolved earnings issue;
+•
+Summary Earnings Query (SEQY) (see SM 00345.902 and MSOM QUERIES 003.004);
+•
+Detailed Earnings Query (DEQY) (see SM 00344.001 and MSOM QUERIES 003.005);
+•
+Personal Earnings Benefit Estimate System (PEBES) Online Response (see MSOM QUERIES
+007.002);
+•
+Disability Insured Status Calculator Online (DISCO); or
+•
+Online Computational Earnings (OCE) program in the Interactive Computation Facility
+(ICF) (see MSOM ICFT2 024.001).
+2. Interactive computation facility (ICF) online computational earnings (OCE)
+The ICF OCE program (function #24), like the EC, draws its earnings information from
+the Master Earnings File (MEF). However, the OCE is not acceptable as a certified
+E/R because:
+•
+it is possible to manipulate earnings data on the MEF;
+•
+no traceable record-of-change screen exists;
+•
+no access to prior entitlement, railroad or MS data files exists; and
+•
+no automatic OEO resolution exists for earnings or Quarters of Coverage (QC) problems.
+See MSOM ICFT2 024.002 and MSOM ICFT2 024.001 for additional information about the
+ICF OCE.

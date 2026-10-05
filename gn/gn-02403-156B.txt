@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02403.156 - Money Orders Received from Bankrupt Money Order Companies
+Effective Dates: 04/21/2026 - Present | TN 65 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403156 (fetched 2026-10-04)
+
+B. Procedure Money order company declared bankruptcy
+Whenever a field office (FO) becomes aware that a money order company has declared
+bankruptcy, or taken some other action which renders the money orders worthless, the
+FO takes the following actions:
+•
+Immediately notifies the regional office, which will then send the information about
+the bankruptcy to Finance and Management (Accounting) in Baltimore,
+•
+Transmit the material to Accounting via email, if possible, using the OPRP Inquiry
+Site,
+•
+Accounting will issue an appropriate NEWS item; and
+•
+Stop accepting money orders from that company.
+In those cases where the Mid-Atlantic Payment Service Center (MATPSC) learns about
+the problem with the money order company after a money order has been accepted, MATPSC
+will notify Accounting through the OPRP inquiry website shown above, and forward the
+returned remittance and a photocopy of the Field Office Remittance Transmittal (FORT)
+to the FO.
+The FO takes the following actions:
+•
+Notify the remitter that the money order was not acceptable, and request a replacement
+remittance.
+•
+If the remitter submits a replacement remittance, issue a new receipt, and forward
+the payment to the MATPSC via a new FORT.
+•
+Delete the original receipt in DMS, see MS(sens)01104.011, after cross-referencing it to the remittance ID field of the new receipt.
+•
+Provide the remitter with as much information as available, so the remitter may file
+a claim against the money order company.
+•
+If the remittance is for an installment, extend the remitter's installment agreement
+time-frame an additional month. See MS(sens)1106.014.
+The Social Security Administration (SSA) may not give credit for the returned remittance
+if it was purchased by the debtor; however, if SSA purchased the money order to process
+a cash remittance, credit the debtor's account and file a claim against the company
+to recover the purchase price of the money order.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - SI 02305.095 - Developing Earned Income Redeterminations (RZs)
+Effective Dates: 10/02/2026 - Present | TN 108 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305095 (fetched 2026-10-04)
+
+G. Procedure automated netting
+The system will, in most cases, automatically compute the net amount for all periods
+where there are excess payments and additional amounts due for the period(s) under
+review. If the net result is an overpayment, the system will create an overpayment
+sequence for the period under review. The system will, in most cases, notify the individual
+of the net result either by sending a post eligibility notice (and issuing an underpayment)
+or by sending an initial overpayment notice. If the system cannot perform automated
+netting and/or cannot send an automated notice, it will set a B3 diary.
+If the system cannot perform automated netting and/or cannot send an automated notice,
+the (FO) is required to manually net the period under review and/or issue the appropriate
+initial overpayment notice or underpayment notice (and underpayment). See SI 02201.015 and SI 02220.015
+For cases requiring manual netting:
+•
+Input a U TAC. (See SM 01311.355)
+•
+Net the excess payment(s) against any additional amount due. (SI 02201.015, SI 02220.015A.5., SI 02220.015B.1; and SM 01311.165)
+•
+If there is no net underpayment, develop any net overpayment per SI 02220.001, SI 02201.005 and SM 01311.360E.

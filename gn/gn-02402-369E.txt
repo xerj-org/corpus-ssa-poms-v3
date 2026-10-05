@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.369 - Coding Albania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 285 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402369 (fetched 2026-10-04)
+
+E. Description of Albanian IDD bank data
+The data for coding IDD for Albania will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN for Albania
+consists of up to 28 characters. However, the bank data reflected on the MBR will
+reflect up to 27 characters. Technicians will use the IBAN to derive the RTN and DAN
+when processing an IDD request.

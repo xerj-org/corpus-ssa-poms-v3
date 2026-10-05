@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.374 - Coding Martinique Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 247 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402374 (fetched 2026-10-04)
+
+E. Description of Martinique IDD bank data
+The data to code IDD for Martinique comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by their FI. The IBAN will be 27 characters. However,
+the bank data reflected on the MBR will consist of 26 characters. Technicians will
+use the IBAN to derive the RTN and DAN when processing an IDD request.

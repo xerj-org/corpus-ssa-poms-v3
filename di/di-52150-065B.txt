@@ -1,0 +1,110 @@
+SSA Program Operations Manual System (POMS) - DI 52150.065 - Complex Lump Sum (LS) Awards and Settlements
+Effective Dates: 08/01/2023 - Present | TN 39 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150065 (fetched 2026-10-04)
+
+B. LS Awards involving a commuted value of future periodic payments
+1. Definition of commuted periodic payments
+Commutation awards are typically an order by a WC judge for a LS payment paid in lieu
+of future periodic payments to compensate the individual for a work-related injury
+or illness. The commuted amount is merely a change in payment of part or all of a
+worker’s future WC benefits from that designated in the original WC award. The commuted
+amount can be a lower total WC amount than designated in the original settlement,
+and/or may hasten the time-frame for payment of future WC payments due. A commutation
+award can specify payment in a variety of ways.
+2. Processing a commutation order
+Apply the following to any award involving a commuted value of future periodic payments:
+a.
+Impose offset based on the commuted WC amount.
+b.
+If the award involves an LS, use all three proration methods described in DI 52150.060 to compute offset and select the most advantageous method.
+c.
+If the award does not specify a proration rate based on the commuted value of the
+award but specifies an exact time-frame that the commuted amount will be paid, prorate
+the commuted value of the award over the entire specified period as described in the
+example in DI 52150.065B.3. in this section.
+d.
+If the award does not provide an exact time-frame, but does provide the specific commuted
+amounts to be paid, offset at the specified amount as described in the example in
+DI 52150.065B.4. in this section.
+3. Processing a commutation order involving a specified period
+In the following example, the commutation order does not provide a specified rate
+based on the commuted value. Therefore, the proration rate is derived using the remaining
+time-frame and commutation amount. The commuted WC amount (and offset computation)
+are spread out over the entire period specified.
+EXAMPLE:
+The NH receives a letter dated 09/25/2005 and it shows the following:
+•
+Date of Maximum Medical Improvement: 04/24/2005
+•
+Period of Award: 04/24/2005 to 04/14/2009
+•
+Number of Weeks of Compensation: 207.36
+•
+Weekly Compensation Rate = $282.28
+•
+Effective Date of Pay Rate: 11/01/2003
+•
+After cost of living adjustments (COLAs), weekly compensation: $289
+•
+First payment and the period covered: $5,614.86 for the period 04/24/2005 through
+09/06/2005
+•
+Continuing Payment every four weeks: $1,156
+The letter also states the NH has the option to an LS of $49,995.67 in payment of
+compensation representing a commuted value of future payments due for the remainder
+of the award payable from 10/05/2005 to 04/14/2009. If the NH did not opt for the
+commuted value, the remaining value of their original WC award is $53,156.18, as follows:
+$59,927.04 = $289.00 x 207.36 weeks
+-     5,614.86 (paid 04/24/05 through 09/06/2005)
+- $1,156 (paid 09/07/05 through 10/04/2005)
+$53,156.18 (balance to be paid by 04/14/2009)
+The difference between the $53,156.18 remaining balance of the original WC settlement
+amount and the commuted value of $49,995.67 for future payments is $3,160.51.
+This commutation award specifies a total commuted amount and the time-frame it represents,
+but there is no rate specified in the commutation order. Therefore, we must prorate
+the commuted value ($49,995.67) over the entire period remaining in the award (10/05/05
+to 04/14/09) to determine the appropriate periodic rate.
+NOTE: The alternative of using the previous weekly periodic rate of $289 against the commuted
+figure would cause the proration to end approximately 11 weeks earlier than the 04/14/2009
+end date specified and, therefore, would not conform to the specified period of the
+award.
+The following calculations are required to determine the weekly rate of the commuted
+$49,995.67 amount:
+•
+Determine the number of days from 10/05/2005 through 04/14/2009 (1288)
+•
+Divide the commuted value of $49,995.67 by the number of days remaining in the specified
+period (compute to 3 decimal places and round to the nearest penny):
+$49,995.67 divided by 1288 = $38.817 daily rate
+•
+Multiply the resulting figure by 7 to determine the weekly rate: $38.817 X 7 = $271.719
+rounded to the nearest penny = $271.72
+•
+$271.72 is the weekly rate used to compute offset for $49995.67 over the 10/05/2005-04/14/2009
+time-frame specified in the commutation award.
+4. Processing a commutation order that does not specify a time-frame
+In the following example, the commutation agreement does not specify a particular
+time-frame the commuted award represents. It does provide the specific amounts to
+be paid (i.e., a WC lump sum, then the remaining commuted amount to be paid via specific
+monthly amounts).
+EXAMPLE:
+•
+The NH receives weekly WC of $170 and subsequently requests an LS commutation of $85,000.
+•
+The commutation is approved, but the claimant elects to receive the benefits in accordance
+with an agreement for payment of proceeds. This agreement provides an initial LS payment
+of $25,000 less $17,000 for the attorney. It also states the NH will receive $1,000
+per month for 60 months with payments beginning the month after the approval of the
+commutation petition.
+In order to best reflect the actual payment amounts and how they will be paid, offset
+will be based on the $25,000 LS prorated at $170 per week with excludable attorney
+expenses of $17,000, and periodic payments of $1,000 per month for 60 months. This
+example does not specify a particular time-frame the WC payments represent, and since
+the first payment under the commutation order is the lump sum, the start date for
+the LS is the day after the previous weekly WC of $170 stopped (per the order of priority
+in establishing the LS start date in DI 52150.060D.2.). The subsequent $1,000 periodic payment start date is the month after the approval
+of the commutation petition. If the lump sum proration and subsequent $1,000 periodic
+payments overlap, a manual computation using Informational/Certified Earnings Records
+(ICERS) is necessary. ICF cannot accurately compute offset when periodic WC/PDB payments
+and lump sum prorations overlap, or when one lump sum proration period overlaps another
+lump sum proration period.

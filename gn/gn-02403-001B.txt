@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 02403.001 - Overview of Field Office Remittance Process
+Effective Dates: 03/10/2026 - Present | TN 64 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403001 (fetched 2026-10-04)
+
+B. Process for automated receipts
+All funds received in an FO require a DMS automated receipt. When the FO receives
+a remittance it will send to MATPSC for deposit, DMS generates a coupon, which the
+FO sends to the MATPSC. The coupon bears the receipt number and other pertinent information
+the MATPSC uses to credit the account with the payment.
+For information on the DMS remittance process input, query, and request screens, see
+MS 01103.001.
+If the remittance clerk or the alternative is unavailable, any employee, excluding FO management, may request FORTs, CCFORTs or FODRLs.
+The following is the process for issuing DMS-produced receipts for funds received
+in the FO and for the control of money through the FORT, CCFORT, and the FODRL:
+1.
+The interviewer (claims, service, or field representative) enters the remittance information
+via the Field Office Remittance Input (RFOR) screen.
+For more information on the RFOR screen, see MS 01103.006.
+If the remitter has a Recovery and Collection of Overpayment Process (RECOOP) Coupon
+(bill stub), enter the bill number in the bill number field of the RFOR screen. Once
+entered into the RFOR screen, FOs should destroy the RECOOP/Recovery of Overpayments,
+Accounting, and Reporting (ROAR) coupon the debtor may have brought to the FO. DMS
+will produce a forwarding instruction sheet for other funds received (standard fees).
+IMPORTANT: Verify if the mailed remittance and payment coupon is a claimant representative fee
+refund, and then input the information into DMS. The coupon will not have a scan line
+if it is a Title XVI claimant representative fee refund.
+For information on how to input the remittance into DMS, see MS 01103.006.
+2.
+DMS produces an automated receipt. The interviewer provides the automated receipt
+to the remitter.
+3.
+The interviewer provides the remittance to the remittance clerk.
+4.
+The Correct Field Office Receipt (RCFR) screen performs any subsequent correction
+to a receipt for other than the remittance amount and credit amount. For more information
+on the RCFR screen, see MS 01103.022. The check and money order scanner in MATPSC
+relies on the data contained in the scan line of the payment coupon. For more information
+on the scan line, see MS 01103.007H.24. If you correct the receipt, ensure that you
+include the most recent coupon with the remittance.
+NOTE: For corrections to remittance and credit amount fields or deletions of FO receipt
+items, only FO management (staff assistant, supervisor, management support specialist,
+operations officer, and manager) may make the corrections or deletions using the RMCR
+screen. For more information on the RMCR screen, see MS DMS 004.011.
+5.
+At the end of the business day, the remittance clerk requests the DMS-generated FORT,
+CCFORT and the FODRL. These automated forms list all remittances where DMS issued
+an automated receipt for that business day. DMS generates a FORT and CCFORT for remittances
+the FO will forward to the MATPSC. If you are processing standard fees, you must manually
+prepare a Form SSA-414-U3 (Fee Transmittal Register). For fee processing instructions,
+see GN 02403.012. For remittances received after DMS generated the day’s FORT, DMS allows FOs to change
+the receipt date. For information on how to change the receipt date, see MS 01104.007.
+6.
+On a daily basis, the remittance clerk reconciles all remittances and provides all
+materials to the remittance supervisor.
+7.
+The remittance supervisor verifies the remittance clerk's work, reconciles all automated
+receipts issued that business day, and sends all remittances to the appropriate location
+the same day. If the FO cannot mail the day’s FORT and remittances on the same day,
+secure them and mail the next business day.

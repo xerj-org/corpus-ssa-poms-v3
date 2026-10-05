@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02403.025 - Processing Remittances After Field Office Remittance Transmittal (FORT) Has Been Requested
+Effective Dates: 04/02/2019 - Present | TN 30 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403025 (fetched 2026-10-04)
+
+B. PROCEDURE - REMITTANCES RECEIVED AFTER FORT HAS BEEN REQUESTED
+Handle the remittance in accordance with the following instructions:
+1. Interviewer
+a.
+Check to see if remittance can be processed using Social Security Electronic System
+(SERS) per GN 02403.161 if not, go to step b.
+•
+If yes, process as instructed through SERS. As these remittances are not included
+in the daily FORT, any remittances processed through SERS will not effect FORT printing.
+•
+If not, go to step b.
+b.
+Stamp the check "For Deposit Only, SSA" or "For Deposit Only, CMS.
+c.
+Is remitter still in the office?
+•
+If Yes, enter the remittance into the system and give the receipt to the remitter. Go to
+GN 02403.025B.2.
+•
+If No, give the remittance to the remittance supervisor to keep in a secure location for
+input with the next day's remittances. See GN 02403.025B.2.
+2. Remittance Supervisor
+Are the day's remittances still in the office?
+a.
+If Yes,
+•
+Generate a new FORT.
+•
+Discard the old FORT.
+•
+Send all the remittances (and replacement FORT) to Mid -Atlantic Program Service Center
+(MATPSC). See address below:
+Social Security Administration
+P O Box
+3430
+Philadelphia, PA 19122-9985
+b.
+If No,
+•
+If the check has been remitted, use DMS to change the receipt processing date by accessing
+the Change Field Office Receipt Date (RCRD) screen (see MS 01104.007). Change the
+receipt date to the next business day, and the remittance will be automatically included
+among all other remittances on the next date. Hold the remittance overnight in a secure
+location.
+•
+If the check has not been remitted, hold the remittance for input with the next day's
+remittances.
+•
+Mail the late remittance to MATPSC, along with the next day's remittances.

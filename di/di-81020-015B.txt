@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 81020.015 - Electronic Claim Receipt Process
+Effective Dates: 11/28/2023 - Present | TN 37 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020015 (fetched 2026-10-04)
+
+B. Receipting electronic claims
+For FO actions when transferring an electronic claim to DDS, see DI 81010.085, Transferring Cases in EDCS.
+To receipt electronic claims, the DDS:
+1.
+Accepts jurisdiction if the claim was received by the appropriate office. Do not accept
+jurisdiction if the EFI download indicates a current paper folder exists for the claim
+and the paper folder has not been received.
+2.
+Rejects jurisdiction of the claim for the following reasons and examples:
+Reject Reasons
+Examples of when to use
+“Fld/Paper Not Recd in 30 days”
+The paper documents associated with the Certified Electronic Folder (CEF) (e.g., EDCS
+Routing Form) or the current paper folder is not received within 30 days.
+“Incorrect Jurisdiction”
+The claim was sent to an incorrect office. The DDS adds a message to the CEF if further
+explanation is needed.
+“Incorrect Claim Type”
+The claim type is incorrect (e.g., CDB-R should have been CDB-D).
+“Incorrect Claim Level”
+The FO denies an initial level claim because a claimant failed to complete and return
+SSA-827s. The claimant later completes and returns the SSA-827s and the FO sends a
+reconsideration level claim to the DDS when an initial medical decision is needed.
+“827 Invalid or Not Recd”
+The DDS does not receive any complete paper SSA-827s or there is not an image of a
+complete SSA-827 in the CEF. For appeal exceptions, see DI 12005.005D.
+NOTE: Do not reject a claim without an SSA-827, if there is medical evidence in file. For
+additional information, see DI 11018.005E .
+“Incomplete File”
+Something that is necessary to adjudicate the claim is missing from the CEF (e.g.,
+no SSA-3368 [Disability Report - Adult]). The DDS adds a message to the CEF to indicate
+what is needed.
+“Requested by FO”
+The FO requests the claim back prior to case receipt.
+“FO Action Needed”
+FO action is necessary before the DDS can process the claim. The DDS adds a message
+to the CEF to explain what action is needed.
+To reject jurisdiction, the DDS
+•
+enters one of the reject reasons;
+•
+adds a message to the CEF to explain the reason for the rejection; and
+•
+forwards any documents and paper folders to the appropriate office.
+NOTE: Do not reject jurisdiction of an electronic reconsideration claim if the SSA-3441
+(Disability Report – Appeal) is not included in the CEF. These cases are identified
+by an alert on the Alerts and Message tab in eView titled “5002: 3441 not received”
+along with the description, “See Case Documents tab for detailed information”. Under
+the Case Documents tab there is a SSA-5002 documenting the reason for appeal and the
+FO attempt(s) to obtain the 3441. (See DI 81020.025A, Processing Electronic Reconsideration Cases).
+3.
+Processes the EFI Download. EDCS creates an EFI download for each claim established.
+All claims that have an EDCS Routing Form should also have an EFI Download. If no
+EFI Download is available, see DI 81020.005, Electronic Folder Interface (EFI) Download. NOTE: Paper folders can have EFI downloads if one claim was entered in EDCS but one claim
+is an EDCS exclusion.
+4.
+Do NOT change the claim type. The only time it is acceptable to change the claim type
+is when making a DI into a BI, a DC into a BC, or a DS into a BS.
+5.
+Reviews eView and the DDS case processing system for any flags and messages to determine
+if priority handling is required.
+6.
+Ensures the Paper Folder Indicators (PFI) are correct (see DI 81020.010, Paper Folder Indicators (PFI)).
+7.
+Receipts and assigns the claim.
+8.
+Processes the claim following current procedures.

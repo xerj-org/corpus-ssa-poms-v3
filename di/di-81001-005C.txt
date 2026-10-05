@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 81001.005 - Electronic Disability (eDib) and the Electronic Folder (EF)
+Effective Dates: 09/11/2020 - Present | TN 8 (09-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481001005 (fetched 2026-10-04)
+
+C. Types of electronic disability case processing folders
+1.
+Certified electronic folder (CEF)
+The CEF is the official electronic folder. No Modular Disability Folder (MDF) exists
+for the current filing. In CEF cases:
+•
+Users enter all claims associated with the case in EDCS;
+•
+The CEF stores all case medical documentation. The CEF also stores non-medical documentation
+related to the case.
+•
+Disability Determination Services (DDS) and Office of Hearings Operations (OHO) post
+final disability determinations and decisions, including decisional documents and
+notices issued by the DDS or OHO.
+NOTE:
+The CEF may not contain all documents that comprise the official folder. Non-medical
+documentation may exist in other SSA systems such as Modernized Claim system (MCS),
+electronic Representative Payee system (eRPS), Online Retrieval System (ORS), etc.
+While the information stored on other SSA systems is part of an individual's record,
+it is not part of the disability EF unless it appears as a document in the eView Case
+Document section of the EF.
+Both ORS and Queries pages can be accessed and viewed from the links in eView Case
+Documents section of the EF; however, if DDS or OHO use documentation from these systems
+pages, the ORS documents must be added and queries must be saved or imported into
+the EF. Please see DI 81005.050B.
+2.
+Electronic Folder
+An EF is a case that consists of at least one claim that is an EDCS exclusion. The
+user must create a paper MDF. Although the official folder is paper, we can partially
+process the case electronically. The FO may create the case in EDCS to collect information
+(Disability Report, Work Report, etc.) and other components (DDS, OHO, etc.) may use
+the EF to collect and store documents.
+At case closure, the adjudicating office converts the folder to paper and files the
+document in the appropriate sections of the MDF.
+A case may originate as a CEF, but may require conversion to paper for various reasons.
+For more information on EDCS exclusions and limitations, see DI 81010.030.
+3.
+Paper Folder
+The MDF is the official folder for paper cases. We establish a paper case when:
+•
+At least one claim in a case is a CEF Exclusion (see DI 81010.030 for more information on CEF exclusions); or
+•
+A processing limitation occurs that removes a CEF from the electronic process, leaving
+an EF.

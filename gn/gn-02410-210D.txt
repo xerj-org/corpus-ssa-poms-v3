@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02410.210 - Processing Paper Garnishment Orders in the Field Office or Processing Center
+Effective Dates: 11/19/2012 - Present | TN 70 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410210 (fetched 2026-10-04)
+
+D. Processing North Dakota Child Support Enforcement Agency's Child Support Deduction
+Order
+North Dakota's Child Support Enforcement Agency (CSE) issues two types of Child Support
+Orders—the Income Withholding Order (IWO) and the Child Support Deduction Order.
+1. Income Withholding Order (IWO)
+Income withholding orders withhold a specified amount from the beneficiary's monthly
+Social Security benefit payment. The address to send these EFT payments is in COGS
+under ND 000001:
+ND SDU
+P.O. Box 7280
+Bismarck ND 58507-7280
+•
+Enter the remittance number located on the second page of the North Dakota IWO as
+the COGS REMITTANCE ID.
+•
+Enter the case identifier located on the first page of the IWO to COGS as the ORDER
+ID for Social Security to track separate orders.
+•
+Use a lead zero when entering the remittance number as the COGS CASE ID if a second
+case has the same remittance number.
+•
+Use two lead zeros when entering the remittance number as the COGS CASE ID if a third
+case has the same remittance number.
+2. Child support deduction order
+A child support deduction order is issued to SSA when the CSE is aware that the number
+holder (NH) is due a lump sum payment and a portion of, or the entire PMA payment
+should be withheld. North Dakota law requires that we hold amounts seized by a Child
+Support Deduction Order for 30 days before payment by the Child Enforcement Agency.
+This provides the noncustodial parent the chance to contest the seizure.
+•
+Establish Child Support Deduction Orders separately from the normal IWO in COGS.
+•
+North Dakota CSE revises the Child Support Deduction Order to SSA to add information
+to the top of the form as follows:  Lump Sum – Special Order – Payment to go to the
+Special Account PO Box 7425 in the form of a paper check.
+Enter Deduction Order Remittance Number (“DO“) plus the noncustodial parent’s remittance
+identifier (e.g., DO1234), as the case number.
+Send these paper check payments to the following address, located in COGS under ND
+000002 , see SM 00832.200, Processing of the Garnishment System Menu (OGSM), Function
+5=QUERY PAYMENT/NOTICE ADDRESS INFORMATION):
+ND SDU-Special Account
+P.O. Box 7425
+Bismarck ND 58507-7425
+NOTE:
+Because North Dakota is an Electronic Funds Transfer (EFT) State, manually type this
+payment address in COGS. Do not select the 000002 address for payment. For instructions
+on EFT State processing, see GN 02410.210G.
+The payment address is included on each IWO and Deduction Order issued by the North
+Dakota SDU.

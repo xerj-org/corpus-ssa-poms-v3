@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 02406.300 - Original and Courtesy or Replacement Check Cashed – Double Check Negotiation (DCN) – Potential Overpayment
+Effective Dates: 04/26/2013 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406300 (fetched 2026-10-04)
+
+C. Procedure - Program Center Action - Title II
+1. General
+The process modules in PSC 1-6 or the RAU in ODO receives debit/credit information
+and claims packages for each debit/credit listed (except for C-stops where Treasury
+sends the claims packages directly to the claimant). The claims packages are forwarded
+to the appropriate module for the following action:
+a.
+Record the overpayment using the DMS, SMED screen.
+b.
+Send an overpayment notice to the payee providing the proposed recovery action and
+the right to reconsideration, waiver, personal conference, or a different rate of
+adjustment (or refund by installment). Refer to GN 02210.000.
+c.
+Begin recovery of the overpaid amount following normal recovery procedures.
+d.
+File the blank FMS-1133, check photocopies and the FMS-3858 for future use if claimant
+protests the overpayment.
+e.
+Annotate PHUS via SSA-1257-U2 with the amount of the courtesy disbursement/replacement
+check (see SM 00630.210).
+f.
+After 60 days, if an appeal is not received or an overpayment is not protested, add
+the phrase, “DCN Abuse - Input as C-stop through mm/yy” in the SPMSG field. Additional
+DCN abuse should not occur during this period; however, if it does, change the date
+to reflect the new 24-month period.
+EXAMPLE: A claimant incurs a DCN in July, 2006. Because the claimant has abused the system,
+the warning statement should be put in Remarks/Special Message field as: "DCN Abuse
+- Input as C-stop through July, 2008." Any non-receipt allegations made from July
+2006 through July, 2008 will be input as a C-stop; allegations beginning in August
+2008 can be input as a B-stop.
+2. Beneficiary deceased before DCN resolved
+When a DCN occurs, Treasury sends claims packages for both checks. Ideally, the claimant
+would look at the check photocopies and would either deny signing one or both checks
+or would admit to the overpayment. Since the claimant died before the DCN was resolved,
+the reason for the forgery determination now is to determine if an underpayment exists
+and to see if there is someone entitled to receive it (see GN 02301.030 – Underpaid Person is Deceased), or determine if forgery was involved. Below are
+several scenarios and instructions to process each:
+a.
+Deceased and no protest made to overpayment:
+•
+See GN 02201.013 for collection efforts.
+b.
+Deceased and protest was alleged prior to death:
+•
+Do not record/post the overpayment (if not already on the record).
+•
+If the FMS-1133 is already filled out by the beneficiary or can be completed by an
+individual eligible to receive an underpayment:
+•
+Show the exact date of death and attach one or more specimens of the deceased beneficiary’s
+signature and the check photocopy. Retain copies of the claims package and documentation.
+•
+Return the FMS-3858 and completed FMS-1133 to Treasury’s Questioned Documents Branch
+(QDB) for their investigation to:
+Department of the Treasury
+Bureau of the Fiscal Service
+P.O. Box 51318
+Philadelphia, PA 19115–6318
+•
+Once QDB makes a determination, Treasury sends a claims disposition notice to the
+PC/DBCSA/ODO. If forgery was established, the money will be reclaimed from the presenting
+bank; and
+•
+If appropriate, pay underpayment to person eligible to receive it. See GN 02301.001.
+c.
+If the FMS-1133 has not been completed by the beneficiary and there is not an individual
+eligible to receive the underpayment who could fill out the FMS-1133:
+•
+Prepare a cover note of explanation providing the date of death of the beneficiary.
+Indicate that no one is available to complete the FMS-1133, and that we are requesting
+a forgery determination.
+•
+Attach one or more specimens of the deceased beneficiary’s signature to the note and
+the check photocopy. Do not send the FMS-1133 or the FMS-3858. This will only confuse the issue and will likely result in the package being returned
+because it is incomplete.
+•
+Send the signature specimens and check photocopy to Treasury’s Questioned Documents
+Branch at:
+Department of the Treasury
+Bureau of the Fiscal Service
+P.O. Box 51318
+Philadelphia, PA 19115–6318
+d.
+Establish a 60-day diary for Treasury processing of the case. If no response is received
+within 60 days, prepare an FMS-3864 and follow up with DT on the disposition of the
+claim. CP&R can also be queried for the status/call Treasury’s general inquiries number
+at 855-868-0151.
+e.
+If a completed FMS-1133 was not possible and only the note of explanation with the
+check photocopy and signature specimens were sent to Treasury’s QDB (in GN 02406.300C.2.c.), Treasury’s response to SSA will be by letter. If forgery is determined, no reclamation
+can be done because a completed FMS-1133 (the instrument needed to reclaim from the
+bank) was not available. Therefore, if an underpayment is due an eligible survivor,
+the money should be paid but Treasury will not reimburse SSA.
+f.
+If there was no forgery, an overpayment exists. See GN 02201.013 for collection efforts.
+3. Beneficiary protests the overpayment
+See GN 02406.310 for information on reconsideration of an overpayment resulting from a DCN.

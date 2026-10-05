@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 01210.200 - Special Blind Income Provision - Comparing Eligibility and Payment Amount Under Federal and State Plan Rules
+Effective Dates: 01/06/1999 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210200 (fetched 2026-10-04)
+
+B. Definitions
+1. Blind countable income (BCI)
+Blind countable income (BCI) is the result of applying State plan disregards to a
+converted blind recipient's gross monthly income.
+NOTE: BCI is input to (and displayed on) the system as type K unearned income. But BCI
+is not actually unearned income and the system does not treat it as such. See D. below.
+2. Countable income under federal rules (CI/FR)
+Countable income under Federal rules (CI/FR) is the result of applying SSI exclusions
+to gross monthly income. It is the sum of Federal countable income (FCI) and the value of the one-third reduction (VTR), if applicable.
+3. Countable income (CI)
+Countable income is the lesser of BCI and CI/FR.

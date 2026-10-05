@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02402.396 - Coding Montenegro Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 244 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402396 (fetched 2026-10-04)
+
+G. Example for coding Montenegro direct deposit
+The customer provides us with a signup form for Montenegro containing the account
+number information: "ME25505000012345678951".
+•
+The first two characters of a Montenegro IBAN are “ME,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The fifth through seventh characters of the IBAN are the Bank Identifier.
+•
+The eight through twentieth characters represent the thirteen-digit account number.
+•
+The last two digits of the IBAN represent the check digit for the account number.
+The technicians should never code the IBAN ISO country code, the Bank Identifier,
+or the check digits to the MBR for Montenegro.
+1. Derive the RTN
+The technician enters the information for the RTN :
+•
+Code the RTN of 700000054
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+To technician codes the DAN:
+•
+Start with a country code of W designated for Montenegro; and
+•
+Code digits of the Customer Account Number “0000123456789”
+3. Obtain the following information:
+•
+RTN: 700000054
+•
+Checking
+•
+DAN: W0000123456789
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000054
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: W0000123456789
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-700000054
+•
+DAN-CW0000123456789

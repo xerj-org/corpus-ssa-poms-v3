@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - DI 13015.035 - Title XVI Medical Folder(s) - FO Location
+Effective Dates: 03/14/2016 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015035 (fetched 2026-10-04)
+
+B. Process - disability control file (DCF)
+The Disability Control File (DCF) controls most medical direct release reviews initiated
+by Central Office (CO). (See Modernized Systems Operations Manual (MSOM) Chapters
+185 for more detailed procedures on the DCF). The DCF determines folder location through
+the Current Folder Location (CFL) field reflected on the Supplemental Security Record
+(SSR) at the time the case is initially selected for a CDR. If a selected direct release
+medical review reflects a CFL of either the National Records Center (SSANRC) (i.e.,
+LOO) or the Federal Records Center(s) (FRCs) (i.e., L86-L99, etc.), the DCF will automatically request the title XVI folder(s) and all related material stored in these locations. When the CFL is other than SSANRC/FRC,
+the DCF sends the direct release alert to the FO of jurisdiction (generally the DIS
+– Servicing DO Code displayed in the ADDR – Mailing Address Segment Identifier of
+a Supplemental Security Income (SSI) query).
+1. Initial title XVI direct release CDR received in FO
+Under the current initial DCF direct release process, the FO receives a paper direct
+release alert on its dedicated printer for each title XVI case for which medical folder
+retrieval is the FO"s responsibility. In addition, the FO can determine its most recent
+direct releases using the Office of Information Management (OIM) workload management
+system (WMS) screens found as function "25" on the SSA Main Menu. (See MSOM CDRWMI
+003.001 - MSOM CDRWMI 005.001 for more detailed procedures on identifying new direct
+releases in the WMS system.)
+NOTE: In the future, we plan to enhance the OIM WMS system and eliminate the "paper" direct
+release alerts by providing users with WMS screens to manipulate and control their
+new direct releases.
+2. Initial title XVI direct release CDR received in SSANRC
+SSANRC simultaneously retrieves all claims folder(s) and related posteligibility (PE)
+material/folder(s) stored in the SSANRC or the FRCs, and forwards it in one folder to the FO of jurisdiction. The SSANRC consolidates all the folder material into one
+folder by removing extraneous folder jackets and drop-filing their contents into the
+remaining folder. Prong-filed material remains together, and loose material is stapled
+or rubber-banded. Also, when necessary, a large folder is securely rubber-banded on
+the outside or an accordion folder is used to consolidate large quantities of claims
+and PE material.

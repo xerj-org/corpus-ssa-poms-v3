@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 52165.005 - Workers' Compensation/Public Disability Benefits (WC/PDB) Offset Data on the Master Beneficiary Record (MBR)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165005 (fetched 2026-10-04)
+
+A. WC/PDB MBR data fields
+The MBR contains the data that is used to calculate WC/PDB offset, as well as, the
+displayed results of that calculation.
+There are five WC/PDB ACCOUNT Data Lines on the MBR
+1.
+ACE - See SM 00510.095
+2.
+INJURY - See SM 00510.096
+3.
+PER PMT - See SM 00510.097
+4.
+WCPDBDET - See SM 00510.099
+5.
+WCPDBOFF - See SM 00510.100
+NOTE: Each affected individual beneficiary has an OFFSET Data Line on the MBR - see SM
+00510.490.

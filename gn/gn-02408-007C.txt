@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02408.007 - Title II Paper Check Payment Issued to a Representative Payee after the Death of a Beneficiary
+Effective Dates: 04/22/2011 - Present | TN 78 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408007 (fetched 2026-10-04)
+
+C. Procedure for an F-stop input
+Reminder: An F-stop can only be input within 12 months from the check’s issue date; otherwise,
+REACT will create an exception.
+Input an F-stop on a paper check issued to a representative payee after the death
+of a beneficiary to obtain credit for the check:
+•
+FO/TSC: Send an Modernized Development Worksheet (MDW) to the servicing PC to request that
+an F-stop be input. Provide the SSN, BIC, payment date, payment amount and reason
+for the F-stop input.
+•
+PC: Input F-stop via RSDHI using PESP (MSOM RSDHI 002.005) input screens or by using
+the SSA-4510 Stop Payment Request Input Form (MSOM INTRANETMAMPSCDI 004.003) screen.

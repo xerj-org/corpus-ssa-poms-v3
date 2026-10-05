@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02402.381 - Coding Tunisia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402381 (fetched 2026-10-04)
+
+G. Example of coding Tunisia direct deposit
+The customer provides us with a signup form for Tunisia containing the account number:
+TN5910006035183598478831.
+•
+The first two characters of a Tunisian IBAN are “TN,” which represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The fifth and sixth characters of the IBAN represent the bank code.
+•
+The seventh through ninth characters represent the branch code.
+•
+The next 13 characters represent the account number.
+•
+The last two digits are check digits.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 68
+•
+Code a filler zero “0”
+•
+Code the two-digit bank code, “10”
+•
+Code the three-digit branch code “006”
+•
+Code the 1-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of “F” designated for Tunisia; and
+•
+Code the “0351835984788” digit account number
+3. Obtain the following information:
+•
+RTN: 680100067
+•
+Checking
+•
+DAN: F0351835984788
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680100067 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: F0351835984788
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-680100067
+•
+DAN- CF0351835984788

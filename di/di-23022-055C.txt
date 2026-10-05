@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 23022.055 - Adding and Modifying Compassionate Allowances (CAL) Status; Removing and Reinstating CAL and Quick Disability Determinations (QDD) Status
+Effective Dates: 11/16/2021 - Present | TN 71 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022055 (fetched 2026-10-04)
+
+C. Modifying a CAL indicator for fast-track processing
+DDS, OQR, and OHO can modify a case in CAL processing.
+The following chart includes examples for modifying CAL cases (but not limited to):
+When to Modify CAL Cases
+Examples
+Revise or correct conditions
+Claimant alleges Large Intestine Cancer. MER shows diagnosis as Small Cell Cancer
+of the Large Intestine
+Allegation of another CAL condition
+DDS receives a report from claimant or FO of a CAL condition that was not included
+in the initial claims allegations on the SSA-3368-BK Disability Report—Adult or SSA-3820-BK
+Disability Report—Child.
+Evidence of another CAL condition
+DDS discovers another CAL condition in the MER.
+The DDS can modify CAL conditions by removing the incorrect CAL condition and adding
+other CAL condition(s). Upon successfully modifying the CAL conditions, the electronic
+folder interface (EFI) sends the following message to both eView and the DDS legacy
+system: “Case has been updated with the following Compassionate Allowance conditions:
+<insert reason>.”

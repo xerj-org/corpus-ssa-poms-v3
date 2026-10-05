@@ -1,0 +1,178 @@
+SSA Program Operations Manual System (POMS) - GN 00502.040 - Developing Medical Evidence of Capability
+Effective Dates: 03/25/2025 - Present | TN 103 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502040 (fetched 2026-10-04)
+
+A. Medical evidence of capability
+Medical evidence of capability is evidence of a medical nature that sheds light on
+a beneficiary’s ability to manage or direct the management of benefits. When a beneficiary’s
+capability is questionable, you must develop for medical evidence following the instructions
+in this section. You must store all medical evidence used in the capability determination
+in the Non-Disability Repository for Evidentiary Documents (NDRed) under the beneficiary's
+claim number using the Evidence Portal (EP) or in eView under the Beneficiary's Own
+Account Number (BOAN) using EP or the eView application.
+Although a major factor, medical evidence is not the definitive, determining factor
+of capability. You must evaluate medical evidence, along with lay evidence (see GN 00502.030), in order to make a sound capability determination.
+1. Types of medical evidence
+Medical evidence is a statement offered by a physician, psychologist, or other qualified
+medical practitioner (medical source), based on their evaluation, examination, or
+treatment of the beneficiary, which provides a meaningful assessment on the beneficiary’s
+ability to manage or direct the management of benefits. All medical evidence used
+for making the capability decision must be submitted by a medical source who conducted
+the examination or a person authorized to provide such certifications (e.g., a medical
+records librarian).
+The SSA-787, Medical Source Opinion of Patient’s Capability to Manage Benefits, is the preferred
+vehicle for obtaining medical evidence of capability. However, you may use other forms
+and summary reports from the medical source instead of the SSA-787, if:
+•
+The medical source (physician, psychologist or other qualified medical practitioner)
+noted in the other form or summary report that they have knowledge of the claimant's
+medical condition as it relates to the beneficiary's ability to manage or direct the
+management of funds;
+•
+It includes a basis for their assessment, e.g., observations, medical records, diagnostic
+tests, patient self-report, family member's report; and
+•
+It is dated.
+For instructions for medical evidence that is less than one year old, follow GN 00502.040A.2.a.
+For instructions for medical evidence that is over one year old, follow GN 00502.040A.2.b
+For instructions when there is no medical evidence, follow GN 00502.040B.
+For instructions on documenting medical evidence in eRPS, see MS 07409.017.
+NOTE: For information on using the disability listing 12.05A as medical evidence, see
+GN 00502.040A.9.
+2. Age of medical evidence
+a. Medical evidence less than one year old
+In every case when capability is questionable, you must develop for the most up-to date medical evidence based on an evaluation, examination,
+or treatment that occurred within the last year by following GN 00502.040A.3.
+b. Medical evidence over one year old
+If the beneficiary has not had an evaluation, examination, or treatment by a medical
+source within the past year, and there is an SSA-787, other form, or summary report that is over one year old and already in Social Security
+Administration (SSA) records, use this as medical evidence in your capability determination,
+per GN 00502.040A.11.
+IMPORTANT: If an SSA-787, other form, or summary report over one year old is used, it must meet the criteria
+listed in GN 00502.040A.1.
+3. Obtaining medical evidence less than one year old
+If the beneficiary had an evaluation, examination, or treatment by a medical source
+within the past year, you must obtain a signed and dated SSA-827 Authorization to Disclose Information to the Social Security Administration. You
+must send the SSA-787 and SSA-827 directly to the medical source to obtain medical evidence that is less than one year
+old. Follow instructions for completing the SSA-827 in DI 11005.055.
+The beneficiary or representative (someone who can act under State law in making decisions
+related to beneficiary health care) must sign the SSA-827, or an alternative Health Insurance Portability and Accountability Act (HIPAA)-compliant
+authorization form, to disclose medical information. If the beneficiary refuses to
+sign the form, and has no representative, and there is no older evidence in SSA records,
+per GN 00502.040A.2.b, you must develop capability using other evidence, per GN 00502.040B.
+If the beneficiary decides to undergo an evaluation, examination, or obtain treatment
+on their own volition, ask the beneficiary to notify SSA after the examination. Then
+mail a SSA-787, and signed and dated SSA-827, to the medical source. If the beneficiary is unwilling to undergo an evaluation,
+examination, or treatment, do not compel them to do so solely to obtain medical evidence
+of capability.
+If you receive the SSA-787, but you question the authenticity, follow GN 00502.040A.5.
+For an incomplete SSA-787, other form, or summary report, follow GN 00502.040A.6.
+IMPORTANT: If you receive a completed other form or summary report back from the medical source,
+i.e., not the SSA-787, you can accept it, but only if it fits the criteria in GN 00502.040A.1.
+4. Medical source does not mail the less than one year old medical evidence directly
+to SSA
+The medical source may mail or fax the completed SSA-787, other form, or summary report, directly back to SSA. Accept the original document
+or photocopy. If the medical source provided the completed SSA-787, other form, or summary report to the beneficiary instead of SSA, follow the instructions
+in GN 00502.040A.5.
+IMPORTANT: If you question the authenticity of the SSA-787, other form, or summary report, follow GN 00502.040A.5.
+REMINDER: If the medical evidence is not the SSA-787, but another form or summary report, you can only accept it if it also fits the criteria
+in GN 00502.040A.1.
+For an incomplete SSA-787, other form, or summary report, you must follow GN 00502.040A.6.
+5. Authenticity of the less than one year old SSA-787, other form, or summary report
+questioned
+If you question the authenticity of the SSA-787, other form, or summary report, you must contact the medical source, or medical source’s
+representative, to confirm its authenticity and verify the contents. You must document
+the details of contacts with medical sources as follows:
+a. Case established in the electronic Representative Payee System (eRPS)
+A representative payee (payee) application is taken or will be taken, whether the
+application is denied or approved or there is an established beneficiary’s case in
+eRPS:
+On the Beneficiary Details page, using the “Add Report of Contact” link, complete
+the RPOC. In the “Subject” section, write “MEDICAL EVIDENCE CONFIRMATION” before adding
+your details in the “Report” section, see MS 07416.002.
+b. Case not established in eRPS
+Follow these procedures for all beneficiary cases not established in eRPS.
+EXAMPLE: The state Disability Determination Services (DDS) suggested there may be a possibility
+the beneficiary needs a payee. However, you do capability development and determine
+the beneficiary is capable (therefore, there is no payee application) or the payee
+applicant does not have an SSN and the beneficiary has no established case in eRPS:
+•
+Title II or Concurrent -- Complete the Report of Contact (RPOC). In the “Report” section,
+write “MEDICAL EVIDENCE CONFIRMATION” before adding your details (see MS 03508.007).
+•
+Title XVI -- Complete the Report of Contact page. In the “Report ” section write “MEDICAL
+EVIDENCE CONFIRMATION” before adding your details (see MS 07416.002).
+NOTE: If you are unable to establish a Report of Contact in the system, use the paper Form
+SSA-5002 (Report of Contact) for your documentation and store in NDRed using EP or in eView
+using EP or the eView application.
+You must:
+•
+Store a copy of the SSA-5002 in NDRed under the beneficiary's claim number using EP or in eView under the BOAN
+using EP or the eView application; and
+•
+Note in your “Report of Contact” in eRPS, MCS, or Consolidated Claims Experience (CCE)
+that you stored the medical evidence and any other paper medical evidence used in
+your capability determination, in NDRed or eView.
+6. Incomplete, less than one year old medical evidence
+If you receive an incomplete SSA-787, other form, or summary report, directly from a medical source, contact the medical
+source of the evidence for confirmation. If the medical source confirms providing
+the incomplete evidence, redevelop by sending an SSA-787 and SSA-827 to this medical source. The confirmation may be from the medical source who provided
+the SSA-787, other form, or summary report, or the medical source’s representative.
+You must document the details of your contact with the medical source, per GN 00502.040.A.5.
+7. SSA is asked to pay for medical evidence
+SSA does not pay for medical evidence used solely to decide capability. If the medical
+source requests payment for medical evidence of capability, do not honor the request.
+Explain that since we will not use the evidence in deciding entitlement, SSA cannot
+pay for it. If the medical source refuses to provide the evidence without payment
+and there is no other medical evidence available per GN 00502.040A, develop capability using other evidence, per GN 00502.040B.
+8. DDS provides an opinion regarding a beneficiary’s capability
+In disability cases, DDS often gives an opinion regarding the beneficiary’s capability.
+DDS is not responsible for making capability determinations.
+DDS opinion is lay evidence of capability; it is NOT a determination on
+capability.
+DDS is responsible for providing an opinion regarding a claimant’s capability to manage
+their disability benefits when the field office (FO) identifies a case where it is
+likely that a claimant may be incapable or where DDS medical development indicates
+the claimant may be incapable, per DI 23001.001. While the DDS provide an opinion regarding the evidence of capability, the FO is
+responsible for the final determination of capability. DDS does not complete medical
+development solely to resolve an issue of capability, per DI 23001.005.
+If you are referring your case to the DDS for a disability determination, you can
+request DDS assistance in obtaining medical evidence of capability by following the
+instructions in:
+•
+DI 11055.215 Resolving Representative Payee Issues;
+•
+DI 11005.045 Completing the SSA-3367;
+•
+DI 23001.001 Disability Determination Services (DDS) Capability Opinion; and
+•
+DI 23001.005 Disability Services (DDS) Procedures for Developing Capability.
+In cases where DDS initiates capability development, the DDS enters its opinion in the remarks section of the Forms SSA-831-U3 (Disability Determination and Transmittal),
+SSA-832-U3 (Cessation or Continuance of Disability or Blindness Determination and
+Transmittal) for Title XVI, or the SSA-833-U3 (Cessation or Continuance of Disability
+or Blindness Determination and Transmittal) for Title II.
+If the file contains a completed SSA-831-U3, SSA-832-U3, or SSA 833-U3 from the DDS
+with no opinion on capability, do not seek a DDS opinion on capability even if you
+have doubts about the beneficiary’s capability. Develop capability using other information.
+If you do not need a disability determination, or if the DDS indicates on the Form
+SSA-831-U3 (Disability Determination and Transmittal) that capability is unresolved,
+contact the medical source for medical evidence of capability.
+9. Disability listings and medical evidence
+Disability listings appear on the SSA-831-U3, in item 23. They may be referred to
+in Administrative Law Judge or Appeals Council decisions. A disability allowance under
+disability listing 12.05A is medical evidence only of incapability and you must consider
+the medical evidence along with lay evidence to conduct a full capability determination.
+For more information on DDS procedures for developing capability, see DI 23001.005.
+10. Obtaining medical evidence from the Department of Veterans Affairs (VA)
+If the medical source works at a VA facility, include a signed and dated SSA-827 with your request (e.g., your request may be the SSA-787).
+11. Weighing the medical evidence obtained in a capability determination
+It is important to use good judgment to weigh the value of the medical evidence before
+you make a capability determination based on it. For example, a medical statement
+of capability from a consultative examiner or another medical source based on limited
+contact with the beneficiary is less convincing than a statement from the beneficiary’s
+own medical source.
+Likewise, a medical statement based on an evaluation, examination, or treatment of
+more than one year ago is not as valuable as medical evidence that is less than one
+year ago. To arrive at a sound and well-reasoned capability determination, you must
+carefully evaluate the medical evidence obtained for each case, along with all other
+evidence (namely, lay evidence, see GN 00502.030.)

@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 13015.005 - Failure to Cooperate-Insufficient Evidence Decision (FTC) Suspension Procedures for Continuing Disability Reviews (CDR)- Field Office (FO)
+Effective Dates: 10/21/2024 - Present | TN 26 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015005 (fetched 2026-10-04)
+
+B. FO FTC actions to suspend benefits
+Once the FO has taken the steps outlined in DI 13005.025, documented development actions, and determined that the streamlined FTC procedures
+apply as explained in DI 13015.001A, take the following steps to input the FTC suspension. The FTC suspension action
+cannot be earlier than 35 calendar days (45 days for special handling situations)
+from the date of the initial CDR notice.
+IMPORTANT: For Title XVI CDRs, follow N20 suspension procedures in SI 02301.235. Only office management can establish the N20 suspension code after confirmation that
+required actions were taken.
+Note:
+Prior to suspending Title XVI payments ensure appropriate Goldberg/Kelly due process
+notice has been issued.
+Generally, offices use the Workload Action Center (WAC) to submit medical CDR FTC
+suspensions into the Disability Control File (DCF). Steps 1 and 2 below are the manual
+DCF steps if the action is not taken through WAC.
+1.
+Record the FO FTC determination on the DCF by selecting #4 on the IFOA screen Failure
+to Cooperate and the FO of jurisdiction in the "Office Responsible for Next Action"
+field. Refer to DI 13010.620 CDR FO Input (IFOA) Screen, MSOM CDR 001.001 Disability Control File (DCF) Overview,
+and MSOM CDR 001.007 CDR FO Input Screen (IFOA) for detailed input procedures.
+2.
+Enter the remark "MED CDR FTC" in the DCF remarks section, see MSOM CDR 001.009 CDR
+Remarks Input Screen (IRMK) for more information.
+3.
+For Title II add a special message to the MBR: "MED CDR FTC LAF S0 suspension on mm/dd/yy"
+4.
+For Title XVI enter the remark "N20 on mm/dd/yy- MED CDR FTC" by using the SSR Remarks
+screen (CRMK).
+Allow two days for the transaction to process. The DCF FTC input places benefits in
+non-payment status (LAF S0 for Title II/ PS N20 for Title XVI).
+If the FTC suspension processed correctly, the MBR or SSID will show "DEV CDR" and
+"Suspense Reason=FTC-Medical". With this coding present on the MBR or SSID, the termination
+should occur automatically in the 13th month. If the suspension action did not process,
+see instructions by title below.
+If the beneficiary or recipient does not cooperate during the 12-month suspension
+period, disability benefits will terminate effective with the 13th month. The disability
+determination service (DDS) does not make a medical determination. Statutory benefit
+continuation does not apply.
+Title II
+Benefits automatically suspend (LAF S0) when the DCF input processes effective with
+the first month that does not cause an overpayment. If the DCF input fails to suspend
+benefits:
+•
+Do not attempt to re-enter the suspension. The DCF exception generates a Paperless
+action for the processing service center (PSC) to input a manual MACADE suspension
+action. Verify the Processing Center Action Control System (PCACS) has a suspension
+action pending for the PSC.
+•
+After 15 days, query the record to ensure the PSC's manual action processed and that
+notice was sent to the beneficiary. This may require a follow-up contact to the PSC
+via the Modernized Development Worksheet (MDW). Follow GN 01070.440D.2 for follow-up procedures.
+Note:
+In addition to the LAF code of S0, the DEVCDR line with suspension reason
+FTC-Medical and suspension month start date will appear on the MBR when the FTC suspension input
+processes. The presence of the DEVCDR line starts the 12-month suspension count and
+is how the record establishes a termination action on the 13th month.
+Title
+XVI
+•
+If the DCF transaction did not suspend payments, input an N20 suspension in MSICCS
+to suspend effective with the first month that does not cause an overpayment. For
+more information on N20 suspension see SI 02301.235 Failure to Provide Information (N20), and
+•
+The suspension notice automatically generates to the beneficiary or recipient and
+Title II auxiliaries when the transaction processes. Always query ORS to verify that
+the transaction issued a notice. If a notice was not sent, send a manual notice.

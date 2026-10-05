@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - GN 03940.025 - Processing Center (PC) Instructions for Processing Fee Agreements for Title II Claims at the Reconsideration, Hearing, or Appeals Council Levels of Review
+Effective Dates: 12/09/2024 - Present | TN 53 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940025 (fetched 2026-10-04)
+
+A. Favorable reconsideration level decision
+The field offices (FO) or the PCs make fee agreement determinations at the reconsideration
+level. The FO decision maker must approve or disapprove the fee agreement at the time
+of the favorable decision. If the FO decision maker does not approve or disapprove
+the fee agreement, the PC decision maker must do so. See also:
+• GN 03940.002 Fee Agreement Decision Maker
+• GN 03940.003 Fee Agreement Evaluation
+1. Documenting the fee agreement determination
+Document the fee agreement determination on a Form SSA-553 (Special Determination) or another designated form. Include the specific rationale
+for the fee agreement approval or disapproval. For sample language of a fee agreement
+determination, see GN 03905.065B.1.
+Ensure that there is an active representative flag for an electronic folder or annotate
+and attach the Form SSA-1128 (Representative Involved) if there is a paper claim(s) file.
+2. Receiving the claim in the PC for processing
+The FO forwards the favorable reconsideration determination with the fee agreement
+to the PC when the FO cannot complete the processing action. The PC follows the procedures
+in GN 03940.020D to process the claim.
+The PC Claims Specialist (CS) or other staff member designated by the PC annotates
+the "Special Message" fields of the Master Beneficiary Record (MBR).
+•
+To input the special message, access the "Special Message" screen through MONET (or
+MACADE) and select standard special message 52. Process standard special message 52
+to the MBR. Special message 52 will display: "APPOINTED REPRESENTATIVE(S) INVOLVED
+– SEE RASR, APPREP, AND APPFEE DATA LINES FOR ADDITIONAL INFORMATION."
+3. Processing a claim with an approved fee agreement and the claim results in past-due
+benefits
+a.
+Verify through the Registration, Appointment, and Services for Representatives (RASR)
+database that:
+•
+If the representative is an attorney, the representative is not sanctioned and is
+currently qualified to be an attorney representative, per GN 03910.020B.1.; or
+•
+If the representative is a non-attorney, the representative is not sanctioned and
+is eligible for direct fee payment, per GN 03920.018.
+•
+The eligible representative has not waived the fee or direct payment of a fee; and
+•
+If an eligible representative has validly assigned direct payment of their authorized
+fee to an entity, that entity is eligible to receive direct payment of fees and has
+not been placed on the Ineligible for Direct Payment Entity (IDPE) list. For information
+on assignment of direct payment of fees, see GN 03920.021. For information on the IDPE list, see GN 03920.052.
+b.
+Process the non-District Office Final Authorization (non-DOFA) claim through Modernized
+Claims System (MCS) or A101 or EF101, per the procedures in GN 03940.020E.
+c.
+Withhold 25 percent of the past-due benefits or the amount of the authorized fee,
+if known, if the representative is eligible for and has not waived the fee or direct
+payment.
+d.
+Prepare an Action Control Record (ACR) when a direct fee payment is involved, unless
+an ACR controlling the award and action was previously created.
+4. Processing a claim that results in no past-due benefits
+•
+NOT2 for Fee Agreement Type - Leave blank.
+–
+MCS will automatically code ATY04 to the DW01 when NOT2 "Fee Agreement Type" is blank.
+•
+NOT2 for Fee Agreement% - Leave blank.
+•
+NOT2 for Fee Agreement Amount - Leave blank.
+•
+NOT2 for Last Withholding Date - Code the month before adjudication, see GN 03920.030B.
+•
+On the DW01 screen, receipt in the automatic ATY04 with "XXXXXX."
+•
+Add a new Report of Contact (RPOC) to document disapproval of the fee agreement because
+no past-due benefits are involved.
+•
+The notice will advise the claimant and the representative(s) that the representative(s)
+must file a fee petition(s) to receive authorization to charge and collect a fee.
+–
+For cases adjudicated via MCS earnings computation (EC), no additional notices are
+required. MCS will generate the correct notice.
+–
+For cases not adjudicated via MCS EC, include representative notices on the A101/EF101
+in the remarks/notice fields and include an ATYR15. Choose fill-in choice D.
+•
+Delete the automated 098/099 diary on the DECI screen. Since there are no past-due
+benefits, we will not control for cases that do not result in past-due benefits.
+•
+One day after adjudicating the claim via MCS EC, the technician will add a special
+message to the record showing the representative's name and adding a remark: "Case
+resulted in no past-due benefits, fee petition, fee paid by claimant."
+•
+For cases adjudicated via MACADE, technicians will provide the special message to
+the Benefit Authorizer (BA).
+NOTE: These instructions apply to Title II-only cases. For concurrent cases, code the "Fee
+Agreement Type" as approved unless past-due benefits for Title XVI are known. If there
+are no past-due benefits for Title II and Title XVI, the "Fee Agreement Type" is coded
+using the instructions in this subsection.

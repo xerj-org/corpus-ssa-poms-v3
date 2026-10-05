@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 11020.061 - Routing Multiple Title II Claims
+Effective Dates: 04/20/2026 - Present | TN 7 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411020061 (fetched 2026-10-04)
+
+B. End Stage Renal Disease (ESRD) Claim Involved
+Stand-alone claims for ESRD benefits are currently exclusions to EDCS processing.
+However, in situations where a Certified Electronic Folder (CEF) exists, or a CEF
+will be created for another disability claim (Title II and/or Title XVI), fax the
+ESRD information into the CEF. This eliminates the need to create and send a paper
+ESRD folder to Program Center (PC) -7.
+1. ESRD-only case (No CEF exists)
+Process ESRD-only cases according to current procedures. (See HI 00801.300 District Office Final Authorization (DOFA) of ESRD Medicare Awards and Disallowances).
+REMINDER: Route the CMS-2728-U3 End State Renal Disease Medical Evidence Report and brown folder
+to PC7. PC7 is the only PC that processes ESRD claims.
+2. ESRD claim and existing certified electronic folder (CEF) case
+If there is an existing CEF (pending or closed), the field office (FO) verifies ESRD
+entitlement and processes the claim according to current procedures. Additionally,
+the FO will:
+•
+Complete the End Stage Renal Disease (ESRD) Medicare Determination Form SSA-892-U2
+per HI 00801.308 Preparing the SSA-892-U2.
+•
+Create a barcode coversheet for Form SSA-892-U2 using document type code 0113-ESRD
+Medicare Determination.
+•
+Create a barcode coversheet for Form CMS-2728-U3 using document type code 0114-ESRD
+Medical Evidence Report.
+•
+Fax both the SSA-892-U2 and the CMS-2728-U3 into the CEF using the barcode coversheets
+per DI 81010.090 Faxing Documents into the Certified Electronic Folder (CEF) Using Barcodes.
+•
+Prepare and fax Form SSA-3601 Claims Routing Form to PC7 via the Paperless Processing
+Center (PPC) system using FAX number 410-597-0939.
+NOTE: This alerts the PC that there is an issue pending; the faxed Form SSA-3601 should
+display the proper TOEL CLAIM ESRDINT and a remark Manual Action Required.
+•
+Input the adjudicative decision and PC7 jurisdiction on the Decision Input (DECI)
+screen.
+NOTE: Use Non-Earnings Computation (EC) Clearance when transferring the MCS segment to PC7
+for manual processing of the ESRD award.
+In some cases, a CEF exists for a claimant in a terminated status (e.g., LAF-T8 or
+X7). If the FO can process the ESRD award action to completion (LAF change to U) via
+MCS EC, skip the 5th and 6th bullets shown above as no PC7 MACADE action is required.
+3. Concurrent ESRD and Title II/Title XVI claims
+A claim for CDB, which is within the jurisdiction of DDS, may be filed concurrently
+with an ESRD claim. In this situation, photocopy the medical evidence obtained in
+connection with the ESRD claim and include it in the file being forwarded to the DDS.
+Route concurrently filed Retirement and Survivors Insurance (RSI) claims that do not
+require disability determinations separately to the appropriate PCs in the usual manner.
+If an ESRD claim is taken concurrently with a Title II and/or Title XVI claim, the
+FO will:
+•
+Establish the disability claim(s) in Modernized Claims System (MCS) and/or Modernized
+SSI Claims System (MSSICS).
+•
+Establish the Title II and/or Title XVI cases in EDCS.
+•
+Transfer the MCS and/or MSSICS, and EDCS disability claim(s) for medical determination.
+•
+Verify ESRD entitlement, process the claim according to current procedures, and follow
+the additional steps outlined in this section at DI 11020.061B.2.
+REMINDER: Process the ESRD award via MCS-EC once you secure all requirements and evidence.
+Do not delay the ESRD award action pending DDS determination of the disability claim.
+NOTE: There is no requirement to create and send a paper folder to PC7 if you can input
+the ESRD documents to a CEF.
+References:
+•
+DI 11010.255 Sending Initial Disability Insurance Benefits (DIB), Freeze Claims to the Disability
+Determination Services (DDS)
+•
+HI 00801.233 Medical Evidence of ESRD - Form CMS-2728-U3

@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 81005.045 - Case Data Tab
+Effective Dates: 01/10/2013 - Present | TN 4 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005045 (fetched 2026-10-04)
+
+B. Forms View
+The forms view:
+•
+Displays the disability report data by case level and report number, as it existed
+at the time the case was successfully transferred from the field office (FO);
+•
+Represents disability and medical reports that closely resemble paper documents; and
+•
+Lists the major sections of the report and allows the user to view all the information
+as it was entered in EDCS.
+Each time a legacy system user adds, modifies, or approves a determination, the EF
+creates a transaction that contains this information.
+After an FO or Disability Determination Services (DDS) makes a determination, the
+user can select (by level, claim, and date) and view the SSA-831 (Disability Determination
+and Transmittal) from the navigation tree in the left pane of the screen. eView stores
+the SSA-831 in two places in the EF:
+•
+As an image in the Case Documents sections of eView under Section A; and
+•
+As formatted data in the Case Data section.
+NOTE:
+Because multiple versions of an SSA-831 can exist, FOs and other components should
+take actions based on the most recent imaged document of the form SSA-831 found under
+Section A of “Case Documents” tab of the EF.

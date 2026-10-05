@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.355 - Coding Argentina Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 10/12/2022 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402355 (fetched 2026-10-04)
+
+G. Example of coding Argentinian direct deposit
+The customer provides us with a signup form for Argentina containing the account number:
+1234567890123456.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN “660000042”
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+To technician codes the DAN.
+•
+Start with a country code of "A" designated for Argentina; and
+•
+Code the 16-digit account number “1234567890123456”
+3. Obtain the following information:
+•
+RTN: 660000042
+•
+Checking
+•
+DAN: A1234567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 681234564
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: R1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660000042
+•
+DAN- CA1234567890123456

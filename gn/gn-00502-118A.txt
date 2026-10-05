@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 00502.118 - Verifying and Updating EINs for Organizational Payees
+Effective Dates: 05/23/2023 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502118 (fetched 2026-10-04)
+
+A. Background
+The Internal Revenue Service (IRS) assigns an Employer Identification Number (EIN)
+to identify a business entity for tax reporting purposes. Because of varying conventions
+in tax reporting practices, in some large organizations, (notably some state governmental
+entities); one EIN is used by all components of the organization. Thus, separate state
+institutions may use the same EIN. Conversely, some large organizations have been
+assigned several EINs, one for each part of the organization.
+This section describes how field office management identify and process organizational
+EIN issues in eRPS.
+IMPORTANT: Field office management must establish, update, and terminate organizational payee
+records. Claims representatives (CR’s) should not take actions establishing, updating,
+or terminating organizational payee records.

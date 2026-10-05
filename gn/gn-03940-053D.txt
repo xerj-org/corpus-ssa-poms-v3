@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 03940.053 - Title II - Fee Agreements – Processing the Assessment
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940053 (fetched 2026-10-04)
+
+D. Process – Approved Fee Agreement
+SPS processing of the assessment differs depending on the PIC cluster.
+1. PICs A, D, E, and W – MCS and MADCAP Initial Awards
+When we directly pay a representative, or entity eligible for direct payment, based
+on an approved fee agreement, SPS:
+•
+applies the flat rate cap based on the annual cost of living adjustment in calculating
+the assessment and deducting it from the fee amount payable directly to the representative
+or entity, regardless of any user fee payments already on the SPS database (i.e.,
+SPS will apply the flat rate cap based on the annual cost of living adjustment without
+regard to any earlier assessment); and
+•
+imposes the flat rate cap based on the annual cost of living adjustment on the first
+fee we pay directly to a representative or entity.
+NOTE: GN 03940.053D.3 describes situations in which we are paying fees to two or more representatives.
+Except for situations identified in GN 03920.019F, no manual intervention is necessary to make direct payment and deduct the capped
+assessment for initial awards processed through MCS or MADCAP. MCS will automatically include the ATY016
+paragraph in the claimant's notice and complete the fill-ins to explain the assessment.
+For claims processed through MADCAP, the universal text identifier (UTI) for the notice
+language is now ATY016. (Refer to NL 00720.050 for the fee notice assessment language.)
+2. PICs B and C – MCS and MADCAP Initial Awards
+When SPS processes direct payment to a representative or entity in conjunction with
+a B or C award, it will withhold only the difference between the flat rate assessment
+cap based on the annual cost of living adjustment and the assessment paid amounts
+on the SPS database, not to exceed 6.3 percent of the fee amount paid from any auxiliary's
+past-due benefits. (Refer to GN 03940.053F.3 if we paid a portion of the fee from the primary claimant's past-due benefits before
+September 1, 2004.)
+Refer to GN 03920.019F for situations in which the SPS-calculated assessment must be overridden because
+the automated SPS process will deduct an incorrect assessment amount.
+It is necessary to include language in the fee notice to correctly reflect the assessment
+situation. When all fee actions on the claim are processed and we previously withheld
+an assessment on that claim, in the fee notice, use:
+•
+ATY066, when we previously assessed less than the flat rate cap based on the annual
+cost of living adjustment (see NL 00720.050); and
+•
+UTI ATY071, when we previously assessed the maximum fee (see NL 00720.050).
+3. Payments to Two or More Representatives
+When we simultaneously pay two or more representatives based on an approved fee agreement,
+including in situations where one or more of the representatives validly assigns direct
+payment of their fee to an eligible entity or entities, the representatives share
+the fee equally. SPS divides the assessment by the number of representatives receiving
+direct fee payment and deducts that amount from each direct fee payment. Multiple
+representative cases must be processed by SPS Online. UTI ATY065 explains the assessment
+in the fee notice (see NL 00720.050). If all representatives assign direct payment to the same entity, the user fee will
+be automatically deducted once from the payment to the entity. Manual processing will
+not be required.
+EXAMPLE: We favorably decided the claim and approved the fee agreement signed by two representatives
+in the same firm. The claimant's past-due benefits totaled $10,800 and the fee under
+the approved agreement was $2,700. We authorized each representative to charge and
+collect $1,350 ($2,700 divided by 2). If the flat rate cap based on the annual cost
+of living adjustment is less than 6.3% of $2,700, the flat rate cap based on the annual
+cost of living adjustment applies. The representatives share the assessment equally
+(i.e., each receives one-half of the total direct payment amount less one-half of
+the assessment). We pay $1,350 less one half of the flat rate cap based on the annual
+cost of living adjustment to each representative. UTI ATY065 explains the assessment
+in the fee notice (see NL 00720.050). If both representatives had assigned direct payment to the same entity, we would
+automatically pay the entire amount to the entity less the user fee.
+4. Situations Requiring Override of the Automated Assessment
+Some situations require manual intervention to override SPS's automated assessment
+calculation and deduction. These situations are identified in GN 03920.019F.

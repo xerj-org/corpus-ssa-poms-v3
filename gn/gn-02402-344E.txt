@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 02402.344 - Coding India Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402344 (fetched 2026-10-04)
+
+E. Procedure for coding India bank data
+The FRBKC relies on SSA to provide them with the entire bank information to ensure
+correct posting of payments to a customers’ bank account. If the information is incomplete,
+the FRBKC rejects the payment and returns it to SSA. The preferred method for coding
+bank data for direct deposit in India is through ITS.gov. However, DIO technicians
+can use the procedure outlined below to code IDD of Title II benefits to the MBR for
+accounts in India if:
+•
+the direct deposit cutoff is within 4 days, or
+•
+you are unable to code the information directly into ITS.gov .
+You cannot use ITS.gov if the direct deposit cutoff is within 4 days. Technicians
+must use an SSA system to code the data directly to the MBR.
+NOTE:
+Any time an account number is longer than 5 digits, DIO must also input the bank information into ITS.gov.
+STEP
+ACTION
+1.
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2.
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+•
+If yes, go to step 3
+•
+If no, STOP.
+REASON: The MBR does not accept IDD information if the beneficiary has a U.S. address. You
+must change the U.S. address to the beneficiary's address outside the country, and
+input the direct deposit the following day.
+3.
+The Routing Transit Number (RTN) is 660000000 for India. It contains the:
+•
+Multi-country prefix of “66” for India IDD;
+•
+U.S. check digit code of “0” at the end of the RTN for all IDD accounts in India.
+No need to obtain the check digit code from Title II Interactive Comps.
+4.
+Code the account type (on the SSA screen) as Checking or Savings. There is no default
+in India. SSA needs to know specifically whether the account is a Checking or Savings
+accounts.
+5.
+For the first character of the DAN field, code an “I” for an India Rupee account.
+NOTE:
+SSA does not have IDD for U.S. dollar accounts in India.
+6.
+Code the IFSC (see GN 02402.344C) and the entire account number.
+NOTE:
+Code only the first 5 digits of the account number to the MBR. If the account number
+has more than five characters, you will also need to input the entire account data
+into ITS.gov on the same
+business day on the same business
+day. The FRBKC cannot ensure that the payment will deposit to the correct account without
+the full account number.

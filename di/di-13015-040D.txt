@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - DI 13015.040 - Folder in SSANRC, FRC, DDS, or ODAR Locations - FO Actions
+Effective Dates: 12/09/2013 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015040 (fetched 2026-10-04)
+
+D. Procedure - When Not to Request Files from SSANRC
+DO NOT REQUEST files from SSANRC if they are reading:
+•
+L47 = Folder Meets Destruction Criteria/Folder Destroyed
+•
+L50 = Unable to locate (UTL) in SSANRC
+•
+L51 = UTL in the FRC
+•
+Folder in DDS Location (e.g., Snn) – unless there is also an FRC code (Lnn) indicating
+a folder is in SSANRC/FRC.

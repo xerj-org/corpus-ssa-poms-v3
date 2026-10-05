@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - SI 02003.024 - Processing eIAR Proration Cases
+Effective Dates: 11/19/2010 - Present | TN 29 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003024 (fetched 2026-10-04)
+
+C. Procedure for identifying eIAR proration cases
+1. FO processes SSI claim allowance
+The FO adjudicates the SSI claim or PE reinstatement to establish a UPV: V on the
+SSR. At this point, eIAR will transmit a message to notify the State to input IA payment
+amounts for the months of the reimbursement period. For more information about UPV:
+V, see SM 01311.660.
+2. State reviews its IA payments to the SSI claimant
+Upon receiving notification of the SSI allowance, the State IAR technician must review
+the State’s IA payments made to the SSI claimant before inputting these payments on
+the eIAR system. Prorated payments affect processing the case as follows:
+•
+If there are no prorated IA payments, the technician can proceed to input the IA payments in eIAR
+system and eIAR will process the case to completion.
+•
+If the State made any prorated payments to the SSI claimant during the IAR reimbursement
+period, the technician must call SSA’s IAR regional coordinator to notify SSA that
+the State made a prorated payment.
+3. SSA’s IAR regional coordinator reviews the SSI claim
+SSA’s IAR regional coordinator will review the SSI claim to determine if SSA will
+pay prorated SSI benefits for any month in the IAR reimbursement period.
+•
+If no prorated SSI payments will be paid, the claim can be processed to completion on eIAR
+and the regional coordinator will advise the State technician to proceed with inputting
+the IA payments on the eIAR system.
+•
+If any SSI payment will be prorated, but not in the same month that the State paid a prorated benefit, the claim can be processed
+to completion on eIAR and the State technician can input the IA payments on the eIAR
+system.
+•
+If an SSI payment and a State IA payment will be prorated for the same month, the regional coordinator will notify the State technician that the case cannot
+be processed on the eIAR system and that manual processing by SSA is required.
+4. SSA’s IAR regional coordinator notifies FO about proration case
+The IAR regional coordinator will notify the servicing FO by email or telephone that
+the FO will need to process an IAR proration case manually.

@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - DI 52150.060 - Prorating a Workers’ Compensation/Public Disability Benefit (WC/PDB) Lump Sum Settlement
+Effective Dates: 08/01/2023 - Present | TN 36 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150060 (fetched 2026-10-04)
+
+F. Systems proration of the LS
+1. MCS earnings computation (EC)
+Follow instructions in DI 52155.010 to process WC/PDB LS actions involving an MCS claim.
+2. ICF
+Prorate the LS through the ICF unless a program limitation applies. Follow instructions
+in DI 52165.001 - Interactive Computations Facility (ICF) for Workers’ Compensation/Public Disability
+Benefit (WC/PDB) Computations.
+NOTE: Future proration end dates computed via MCS or ICF WC/PDB are propagated to the MBR.
+When the future date matures, RETAP selections and alerts enable the T2 process to
+adjust the WC/PDB automatically or alert the PC to complete the adjustment action.

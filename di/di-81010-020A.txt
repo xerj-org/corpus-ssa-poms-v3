@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 81010.020 - Creating Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 02/02/2024 - Present | TN 82 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010020 (fetched 2026-10-04)
+
+A. Establishing mainframe claim prior to creating EDCS case
+Before the technician creates an EDCS case, the Modernized Claims System (MCS) or
+Modernized Supplemental Security Income Claims System (MSSICS)/Consolidated Claims
+Experience (CCE) should be used to establish an:
+•
+Initial claim,
+•
+reconsideration request, or
+•
+hearing request.
+For creating EDCS cases for Appeals Council (AC) requests, see DI 81010.150.A.3.
+NOTE: For exceptions to establishing mainframe claim prior to creating an EDCS case, see
+DI 81010.020B in this section.
+When establishing a case in EDCS:
+1.
+Always establish the case under the claimant’s own Social Security Number (SSN).
+a.
+If there is no previously established case in EDCS for an SSN, EDCS displays a dialog
+box saying “NO EDCS CASE FOUND” on the Select Case Level screen.
+b.
+If one or more cases have previously been established in EDCS for an SSN, EDCS displays
+the:
+•
+Claimant’s name,
+•
+certified electronic folder (CEF) indicator,
+•
+date of birth,
+•
+date the case was established in EDCS,
+•
+claim or appeal level (initial, reconsideration, hearing, or Appeals Council),
+•
+claim type,
+•
+office code and type, and
+•
+status for each prior folder.
+2.
+EDCS cases are classified as either "initial" or "continuing disability review " (CDR)
+cases. Select the correct classification and the adjudicative level you want to establish.
+The adjudicative level must match the claim level established on the mainframe.
+On the Select Case Level screen, the technician can select MCS exclusion claim, see
+DI 81010.020B.1 in this section. For MSSICS/CCE exclusions, if no mainframe claims are detected,
+then EDCS will allow the technician to manually create a TXVI claim, see DI 81010.020B.2 in this section.
+The EDCS case is associated with the pending mainframe application. If subsequent
+application(s) to the mainframe are added or changes are made on the mainframe to
+a claim after the case is transferred to another component, perform an Update After
+Transfer (UAT) using the EDCS UAT utility. For more information regarding the UAT
+utility, see DI 81010.095.
+NOTE: For processing partially electronic cases, (e.g., case where one claim type can be
+established in EDCS, but a different claim type is an EDCS exclusion) refer to DI 81010.030C.

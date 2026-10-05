@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - GN 02613.450 - Protest of Suspension and Deferral of Overpayment Recovery
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613450 (fetched 2026-10-04)
+
+F. Process - FO instructions - resuming benefits when POS/FFEL does not work
+T2 exception cases occur when a resumption action input through POS/FFEL but does
+not properly resume benefits on the MBR. T2 exceptions are caused in different ways.
+Some examples are found in (GN 02613.600B.1).
+1. Some systems processes resulting in a T2 exception
+•
+Processing limitations found in MSOM MCSEC 001.001; or,
+•
+An error exists on the Master Beneficiary Record (MBR).
+These types of T2 exceptions will be generated to the PSC.
+2. POS/FFEL processing resulting in a T2 exception
+When FFEL resumption is input to POS, a T2 transaction is created. If an exception
+occurs:
+•
+T2 will not resume the benefit on the MBR;
+•
+It will create a PCACS Action Control Record (ACR) with Type of Event Level (TOEL).
+The TOEL Codes used in fugitive felon case processing are found in (GN 02613.770C).
+When you input a Title II resumption action to the FFEL screen, T2 processes the resumption
+transaction and annotates the MBR that the beneficiary is in current payment status.
+If the MBR cannot be annotated with the resumption action, an exception is sent to
+the PSC.

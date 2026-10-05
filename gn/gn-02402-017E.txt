@@ -1,0 +1,114 @@
+SSA Program Operations Manual System (POMS) - GN 02402.017 - Handling Overpayments Attributed to Alleged Fraud and Other Unauthorized Redirection of Payments
+Effective Dates: 08/22/2022 - Present | TN 307 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402017 (fetched 2026-10-04)
+
+E. Processing Centers handling overpayments attributed to treasury credits or remittances
+where SSA issued a CPS to replace the redirected payments
+If SSA receives a Treasury credit or remittance and SSA issued a CPS to replace the
+redirected payment, select from the below applicable scenarios and follow it's instructions:
+A non-cleared CPS and no overpayment posted on the record:
+1.
+Clear the CPS via Manual Adjustment Credit Award Data Entry (MACADE) system using
+a CP entry of 0.00.
+2.
+If PHUS does not reflect a 170 event for the CPS payment, manually post the 170 event
+to PHUS via the SSA-1257.
+3.
+Manually post the non-entitled debtor overpayment for the redirected payment amount.
+4.
+On the next business day, make sure the overpayment posted correctly to the ROAR and
+review the PHUS to verify the 170 event posted.
+5.
+Review the credit, remittance, or Inter-governmental Payment and Collection (IPAC)
+documentation to determine the amount of the returned credit.
+6.
+Apply the credit or remittance to the overpayment with subscript of "X" via DMS RRRE
+screen per MS
+01103.020.
+a.
+If the credit received was for the full amount of the overpayment, then annotate the
+*119 listing code and send the action control record (ACR) to FIN.
+b.
+If SSA only received a partial credit, allow the 90-day diary to control the case,
+and then send the ACR to files (FIN/FIN).
+c.
+If the 90-day diary matures and there is no additional guidance nor did SSA receive
+an additional remittance or credit, then annotate the case with the listing code 119
+for alleged Direct Deposit Fraud Cases, per GN
+01040.005B.5 and MS
+04905.010. Terminate the collection activity for the overpayment, and send the ACR to FIN.
+A cleared CPS and no overpayment posted on the record:
+1.
+Follow steps in C.2.a. in this section and manually post the overpayment for the CPS
+related to the redirected payment.
+2.
+If PHUS does not reflect a 170 event via the SSA-1257.
+3.
+On the next business day, review ROAR to make sure the overpayment posted correctly
+and PHUS for the 170 event, and continue to follow C.2.a. through C.8 in this POMS.
+4.
+Review the credit, remittance, or IPAC documentation to determine the amount of the
+returned credit.
+5.
+Apply the credit or remittance to the overpayment with subscript of "X" (via DMS ROAR
+Remittance Exception (RRRE) screen) per MS
+01103.020.
+6.
+On the next business day, review the record to make sure that the remittance posted
+correctly.
+7.
+If credit received for the full amount of the overpayment, then annotate the *119
+listing code and send the ACR to FIN.
+8.
+If SSA receives a credit or remittance and issued a CPS, and there is an existing
+overpayment on the record due to an unauthorized Direct Deposit change, take the following
+actions:
+a.
+Clear CPS via MACADE with CP of 0.00.
+b.
+Review the credit, remittance, or IPAC documentation to determine the amount of the
+returned credit.
+c.
+Manually apply the credit to the ROAR overpayment with a subscript of "X" using DMS
+RRRE screen.
+d.
+On the next business day, review the ROAR field to determine if the case processed
+correctly.
+e.
+Determine the case's processing status and follow these applicable steps:
+IF
+THEN
+If an overpayment still exists (the balance remains and it is not from some other
+type of overpayment),
+Diary the case for 90 days via the DRDY screen; do not diary any other overpayments
+on the record
+If the 90-day diary matures and there is no additional guidance or any additional
+remittance or credit
+Annotate the case with the listing code 119 for Alleged Direct Deposit Fraud Cases
+(see GN
+01040.005 and MS
+04905.010. Terminate collection activity for the overpayment, and send the ACR to FIN.
+If SSA applied the amount of the unauthorized redirected payment to the wrong overpayment
+listed under the ROAR section
+Adjust the overpayment and follow subsection GN
+02402.017D.2.c. to repost a new overpayment with a subscript of "X.
+If SSA receives an IPAC credit greater than the alleged missing benefit payment and
+the remarks field indicates that possible fraud is involved, but there is no O/P or
+CPS record on the MBR
+Take the following actions:
+1.
+Review the IPAC documentation.
+2.
+Review the applicable records and queries (i.e., MBR, PHUS) to determine the origin
+of the remittance and if the beneficiary had a fraudulently redirected payment or
+payments.
+3.
+After reviewing the record for the IPAC received, release any underpayment to the
+beneficiary.
+NOTE: If the FO receives a case involving Title II and not Title XVI, they should contact
+the PC via Modernized Development Worksheet (MDW) or Request for Assistance (RQFA).
+If the case is concurrent, resolve all actions for the Title XVI case, than contact
+the PC for the Title II case actions to be taken. In addition, the name input for
+the NED should remain as FIRST NAME: DIRECT MIDDLE NAME: DEPOSIT LAST NAME: FRAUD. Do not change the name of the debtor to reflect the alleged bank account owner shown
+in the Teletrace response. Also, do not charge the alleged bank account owner an overpayment
+unless instructed to do so by PIRFP or OIG.

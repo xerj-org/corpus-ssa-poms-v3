@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - SI 00515.010 - Processing Certain Financial Permission Cases When a Deemor Refuses Permission and the Claimant Turns Age 18
+Effective Dates: 05/27/2026 - Present | TN 12 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500515010 (fetched 2026-10-04)
+
+E. Processing initial claims when a deferred application is filed
+When processing cases that meet the criteria in SI 00515.010C in this section, follow these procedures to maintain the original protective filing
+date and to provide benefits accordingly.
+IMPORTANT: Do not use MSSICS to build the SSR for these cases as an N18 denial (i.e., failure to cooperate
+or failure to give permission to contact financial institutions) will result and erroneously
+deny the claim for the life of the application.
+Use the following procedures when a deferred application is filed using either MSSICS
+or an SSA-8001-BK (Application for Supplemental Security Income) and SSA-8010-BK (Statement
+of Income and Resources).
+1. Actions to take before sending the claim for a disability determination
+Explain to the deemor that financial permission is an eligibility requirement for
+SSI benefits.
+Document the deemors refusal to provide financial permission as follows:
+•
+Print a copy of the Financial Permission Request - Deemor (T16) letter from the General
+section of DPS. Have the deemor read and sign the document, indicating their refusal
+to provide financial permission. For more information related to obtaining the financial
+permission, see SI 00515.001.
+•
+Document the deemors refusal to provide financial permission on the EVID screen.
+Do not lock the MSSICS pending file for a deferred application unless the claim is
+medically allowed. For more information on how to adjudicate medical allowances for
+deferred applications, see SI 00515.010E.2. in this section.
+NOTE: Systems changes released on November 21, 2009, made the Financial Institutions Permission
+screen (AFIP screen) a mandatory screen when completing a deferred application.
+2. Actions to take when the claim is returned from the DDS
+If the claim is medically denied, use MSSICS to build the SSR and post the medical
+denial. No further action is needed. DDS will generate the medical denial notice.
+Take the following actions if the claim is a medical allowance.
+a. Complete a PERC
+•
+Lock the MSSICS pending file.
+•
+Complete a PERC using an SSA-8000-BK, (Application for Supplemental Security Income)
+and SSA-8010-BK. For more information about completing a PERC, see SI 00603.035.
+IMPORTANT: Input the original protective filing date in the Application Date (AP) field.
+b. Build the SSR with payment status code N05
+Take the following actions to build the SSR with a payment status code of N05:
+•
+Input the updated claims information and medical allowance information using the SSA-450-SI
+procedures found in SM 01005.000.
+•
+Input FAILURE TO GIVE FINANCIAL PERMISSIONDEEMOR NAME NO GOOD CAUSE - MMDDYY in the
+remarks section of the SSR.
+•
+Input payment status code N05 in the PS field of the SSA-450-SI for each month of
+the protective filing period occurring prior to, and including, the month of age 18
+attainment.
+•
+The system will properly post payment status E02 in the earliest of: the month after
+the month of age 18 attainment, or, the first month after attainment of age 18 that
+the recipient meets all eligibility criteria.
+•
+Record the completed PERC in the Pre-effectuation Review Contact (PERC)/Update (PC)
+field of the SSA-450-SI. For more information about using the PC field, see SM 01005.660.
+IMPORTANT: Only input the PC field if you are transmitting payment status code N05 in the same
+input. Failure to input payment status N05 during the same transmission may result
+in the claim being erroneously paid for months when the deemor refused to provide
+financial permission.
+c. Issue a manual notice of award
+Suppress the automated notice using the NP field on the SSA-450-SI and issue a manual
+notice of award using the procedures in NL 00801.010. For additional information about using the NP field to suppress automated notices,
+see SM 01005.535.

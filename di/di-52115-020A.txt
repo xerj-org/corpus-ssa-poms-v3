@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - DI 52115.020 - DOL Data Exchange Black Lung Part C Alerts
+Effective Dates: 08/07/2018 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452115020 (fetched 2026-10-04)
+
+A. Department of Labor (DOL) Black Lung (BL) Part C Alerts Beginning July 2007
+These alerts generate periodically when a match is done between the records of the
+DOL's Division of Coal Mine Workers Compensation and the Master Beneficiary Record
+(MBR).
+1. Fields shown on the DOL BL Part C alert
+The table below shows all of the fields on the alert.
+Field
+Description
+SSN
+Shows the Social Security Number (SSN) on which the match was found.
+Miner’s Name
+Shows the name of the miner.
+Date of Birth
+Shows miner’s birth date. (The first three fields are used to verify that the case
+is a true match.)
+Date of Entitlement To Part C Benefits
+Shows the first date for which BL Part C may be paid.
+Miner’s Payment Status
+Shows one of the following codes:
+NC-Current Pay
+NS-Suspense
+NT-Terminated
+NA- Suspended for Address
+NN-Awarded but revised to non-entitlement
+Last Total Family Amount Paid
+Shows the entire payment to the family. This amount should include any dimes and should
+not be rounded down. (Offset this gross amount)
+Date Last Amount Paid
+Shows the month paid – (Like SSA benefits, BL Part C is paid one month behind.) This
+field will not show a true date in non entitlement situations. In suspense cases,
+shows the effective date of suspense
+Alert Category
+Shows the reason for the alert:
+•
+Category 1(CA1) workers’ compensation (WC) Type (formerly Offset Code (OFC)) not present.
+•
+Category 2 (CA2)
+WC Type present and in current payment status (i.e. The ledger account file (LAF) on the MBR is C.)
+•
+Category 3 (CA3)
+•
+WC Type present and in suspense for WC offset (the MBR LAF is SW)
+2. Offsetting BL Part C based on alerts – due process
+The processing center (PC) takes the following actions:
+•
+Process BL Part C Alerts as third party reports. If the adjustment action causes an
+overpayment, due process is required prior to any action. Follow GN 03001.025 - Processing Third Party Reports.
+•
+Offset the gross amount of BL Part C as shown in the Last Total Family Amount Paid.
+•
+If the proof in file is greater than one year old, develop for any changes in BL family
+composition between the last proven rate and the month of the alert and apply offset
+using the BL Part C actual payment rates shown on DOL’s website at http://www.dol.gov/owcp/dcmwc/benefits_part_c.htm
+•
+Process via Interactive Computations Facility (ICF) (PDB) showing the Type as “BL”.
+•
+If the miner alleges not receiving any BL Part C or disputes the payment rate shown
+on the alert, contact the WC Carrier, Responsible Miner Operation (RMO) or DOL as
+appropriate, to verify the payment amount and do not offset until the protest is resolved.
+•
+Send an interim response advising the miner that if the protest is successful, benefits
+will not be reduced.
+If development confirms that the miner is receiving or did receive BL Part C, impose
+offset via the Interactive Computation Facility (ICF WC/PDB) showing the Type as “BL”.
+3. Action needed when BL Part C suspended – Miner’s Payment Status field shows “NS” or
+“NA”
+The PC takes the following actions:
+•
+Contact DCMWC in Washington D.C. by fax (202)-693-1395 or call the local DCMWC office
+per DI 52115.015C.3. to ascertain the reason for suspension. Always include the miner’s SSN when sending
+a fax. If DOL states that the benefits are suspended for address, do not provide the
+MBR address. PC staff with online access to Agency Query System (AQS) for FECA information
+can verify the address on DOL records against the MBR. (If they are the same and the
+DOL payment is suspended for address then address development may be required. Do
+not take action to suspend benefits pending the development.)
+•
+Remove offset for any month BL Part C is suspended for any reason other than address.
+NOTE: Consider what effect, if any, the event causing suspension of the BL Part C might
+have on the disability insurance benefits (DIB).
+•
+Set a 90-day diary for suspended BL Part C to resume.
+•
+Verify resumption of the BL Part C when the 90-day diary expires.
+4. Action needed when BL Part C terminated – Miner’s Payment Status field shows “NN”
+or “NT”
+BL Part C usually terminates only if the miner dies or the allowance is reversed to non-entitlement. The PC will:
+•
+Contact DOL's OWCP in Washington D.C. by fax (202)-693-1395 or the local DCMWC office
+as above to ascertain the reason for termination.
+•
+If Part C BL entitlement has been reversed to non-entitlement, remove the offset that
+is due to BL Part C regardless of whether the overpaid BL Part C is reimbursed.
+•
+If the miner is appealing the reversal, remove offset and set a 6-month diary for
+re-contact.
+•
+Obtain a repay statement and input a Special Message to indicate that the repay statement
+is in file.
+•
+If the appeal is successful and BL Part C is reinstated, reimpose offset and charge
+DIB overpayment accordingly.
+5. Action needed when miner’s payment status is “NC” but last total family payment amount
+= $0.00
+One possible reason for this inconsistency is that the RMO is making the payments.
+Develop to the DOL, DCMWC regional office per DI 52115.015 for the reason these codes were displayed in such a manner.
+6. Alerts that do not require action
+Any alert that meets any of the following criteria may be sent directly to files after
+adding a comment showing no action is necessary:
+•
+Current DIB onset prior to 6/2/1965;
+•
+HA in LAF T8 prior to the date of entitlement to BL Part C; or
+•
+Notice cases where the offset terminated at age 62 and no other type of WC/PDB is
+involved. See DI 52170.040 for Notice Case information).

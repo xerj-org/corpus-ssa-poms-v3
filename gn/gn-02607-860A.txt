@@ -1,0 +1,117 @@
+SSA Program Operations Manual System (POMS) - GN 02607.860 - Processing Title II Benefit Reinstatements
+Effective Dates: 08/15/2023 - Present | TN 90 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607860 (fetched 2026-10-04)
+
+A. Post-entitlement Operating System (POS) processing of reinstatements
+These instructions supplement the input instructions in MSOM COMMON 005.027 and MSOM
+PRISON 003.006. The field office (FO) will take the following actions when reinstating
+benefits to beneficiaries in prisoner suspension.
+•
+Reinstate benefits using POS, the Prisoner Suspensions and Reinstatement (PRSN) screen,
+by selecting Option 5 of the Post Entitlement Selection List (PESL), and then selecting
+PRISONER SUSPENSIONS AND REINSTATEMENTS (LAF-S7) on the POS Suspensions/Terminations
+and Reinstatements (PEST) screen. If your review of the beneficiary’s record identifies
+an overpayment with a future due process recovery date, do not use POS if your input
+also involves an underpayment. Refer these reinstatements to the PC for processing.
+NOTE: Only input a reinstatement month that equals the current operating month (COM) or
+earlier. If the reinstatement effective month is later than COM, hold the POS input
+until the reinstatement COM to avoid a Daily Update Master Accounting System (DUMAS)
+exception that could delay benefits.
+•
+If a Prisoner Update Processing System (PUPS) record exists, PRSN will automatically
+initiate a mini-path to PUPS. Update the T2 Prisoner Update Screen (PU02) with the
+RELEASED DATE (the TYPE OF ACTION of 5 for REINSTATEMENT is pre-filled).
+NOTE: If there is no PUPS record, such as when the original suspension action occurred
+prior to 1995, you will get an alert message of “PUPS NIF”. Do not attempt to create
+a PUPS record. Continue processing through POS even though it will generate a processing
+exception that will require PC intervention.
+•
+Press ENTER on the PU02 screen and the Prisoner Remarks Screen (PRMK) displays next.
+Annotate the PRMK screen with information on the beneficiary’s official release document(s)
+that supports reinstatement, the results of your review of the document(s), and the
+date you faxed the release document(s) into NDRED. At the end of your remark, add
+your first initial and last name, your unit designation, and the current date. For
+more information on reinstating benefits using PUPS, see MSOM PRISON 003.006.
+NOTE: Effective May 18, 2013, you must enter the release information on the PRMK screen
+if you are entering a RELEASE DATE entry on the PU02 screen. You cannot continue with
+your reinstatement action if you do not add the beneficiary’s release information
+on the PUPS PRMK screen.
+•
+Press ENTER on the PRMK screen, then you will return to the POS PRSN screen. Complete
+any overpayment fields.
+For additional processing information on cases with existing Bene Over/Under Payment
+Data (BOUD) or Partial Recovery Field on the MBR, see MSOM COMMON 005.027. DO NOT use POS to reinstate benefits retroactively if there is an overpayment with a BOUD
+field and a future due process recovery date (DPRD) if your input also involves an
+underpayment. See MSOM COMMON 005.027 for additional information when you have an
+existing BOUD or Partial Recovery Field on the MBR for the beneficiary.
+•
+Press ENTER to trigger the reinstatement action. Query the Transaction History Query
+Response (THISR), Option 4 on the Master File Query (MFQ), to see if an exception
+exists, using instructions on the THISR in SM 00514.001.
+NOTE: FO technicians must initiate the reinstatement using the POS/PUPS input even if the
+case is a processing exclusion that will require action by the PC.
+•
+Check the MBR after two days to verify that the action reinstated benefits. If the
+action did not process, prepare a tickle via the Modernized Development Worksheet
+(MDW) to check the case again in 30 days. For processing instructions if the reinstatement
+has not occurred after 30 days, see GN 02607.860B in this section.
+1. PUPS processing of the reinstatement action
+For further information on the POS/PUPS automated systems reinstatement functions,
+see MSOM COMMON 005.027.
+2. Exclusions to POS automated reinstatement processing
+For the list of simple and complex exclusions to POS automated reinstatement processing,
+see MSOM T2PE 003.001J.
+3. POS exclusion processing
+a. FO input of POS/PUPS reinstatement
+When the system cannot process the FO reinstatement input in POS/PUPS, POS will create
+an online message, “T2 REINSTATEMENT EXCLUSION ACTION SENT TO PC FOR PROCESSING.”
+Check the THISR to see if a POS exclusion exists for your action. POS will generate
+a Processing Center Action Control System (PCACS) issue to notify the PC of the reject.
+The PC will process the reinstatement using Manual Adjustment, Credit and Award Processes
+(MADCAP). The PC receives the generated output to correct all PRSN reinstatement data
+necessary to complete a MADCAP action.
+b. PC input of POS/PUPS reinstatement action
+When the PC uses POS/PUPS to process a prisoner reinstatement and a processing exclusion
+occurs, the PC technician will see the message, “UNABLE TO PROCESS - MACADE/MADCAP
+ACTION NECESSARY.”
+For processing instructions on a POS reinstatement exclusion, see GN 02607.860B in this section.
+4. Action when the FO or PC denies the request for reinstatement
+a. FO denies reinstatement request
+If you determine that you cannot reinstate the beneficiary's benefits, and all development
+is complete, prepare a special determination. Include the reasons for denying reinstatement;
+e.g., the identity of beneficiary is questionable, the beneficiary submitted fraudulent
+release papers, or the beneficiary’s release is not official. Sign the determination
+using your first initial and last name and add your unit designation and the current
+date. Fax your signed and dated determination under the cover of a Form SSA-2790 (Prisoner
+Fax Request) to the Paperless Processing Center (PPC) number for the PPC with jurisdiction.
+On the form, notify the PPC that you attached a special determination denying the
+beneficiary’s prisoner reinstatement and request PPC review of the special determination.
+Indicate on the Fax Form if you faxed any documents into NDRED. The PPC is responsible
+for reviewing FO special determinations. For general instructions on preparing a special
+determination, see GN 01010.365.
+b. PC actions when FO denies the reinstatement request
+Use the Processing Center Action control System (PCACS) to control the special determination
+and take the following actions:
+•
+Review the information the FO provided and the PUPS record (including the remarks).
+This allows you to familiarize yourself with the facts of the reinstatement denial
+and any other case characteristics that may affect the content of the denial notice.
+•
+If you concur with the FO determination, prepare a notice to the beneficiary explaining
+why we denied their reinstatement request, and include reconsideration and appeal
+language in the notice. Send a copy of the denial notice to the Online Retrieval System
+(ORS). For instructions on reviewing a FO special determination, see GN 01010.375.
+•
+Fax the special determination into the Non-Disability Repository for Evidentiary Document
+(NDRED), using the “Other” document type. This action verifies that you agree with
+the FO’s decision and provides documentation that is accessible to FO employees for
+future review.
+•
+Add remarks to the PUPS PRMK screen to explain the reinstatement denial decision.
+After the remark add the initial date of the FO denial determination, also include
+your first initial and last name, your SSA unit designation code, and the current
+date.
+NOTE: If you do not agree with the FO’s decision to deny reinstatement of benefits, explain
+your decision on the PRMK screen in PUPS. Email the FO the reasons you disagree with
+the special determination’s justification for not reinstating benefits. The FO must
+then take action to obtain additional information or process the reinstatement.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02615.185 - Supplemental Security Income (SSI) Clark Relief Appeals
+Effective Dates: 01/09/2018 - Present | TN 10 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615185 (fetched 2026-10-04)
+
+B. Determining the type of appeal
+To determine the type of appeal that exists on the Supplemental Security Record (SSR),
+review the following:
+1. Medical appeal exists and involves a PPV suspension period
+A medical appeal exists if the Appeals Segment Identifier (APPE) field on the latest
+SSR shows a Reason (RSN) code of DI. If a medical appeal exists on the latest SSR,
+and there is a PPV suspension period on that or any earlier SSR, see the chart for
+the action required to resolve the appeal in GN 02615.185C in this section. If a case does not have a medical appeal pending, but has a PPV
+suspension period that meets the class definition, we identified these cases as C3
+or C4 in CATS. Process the case following instructions in GN 02615.180.
+2. Non-medical appeal exists that may involve a PPV issue
+A non-medical appeal exists if the RSN code is other than DI. If the APPE field on
+the SSR shows RSN = OT, OP, or blank, determine if the appeal is on a PPV issue by
+checking the Evidence Portal (EP) for reconsideration appeals, the Case Processing
+and Management System (CPMS) for hearing level appeals, or the Appeals Review Processing
+System (ARPS) for Appeals Council cases. The Clark case characteristic in CPMS or ARPS is CALC. If the PPV issue has a pending appeal
+or has a posted appeal decision in the DSN field on the SSR, follow instructions in
+GN 02615.185D in this section. For a list of DSN codes, see SM 01601.685.

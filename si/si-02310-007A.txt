@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - SI 02310.007 - Processing Alerts from Computer Matches
+Effective Dates: 06/23/2008 - Present | TN 43 (06-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310007 (fetched 2026-10-04)
+
+A. Procedure for limited development
+1. Screening
+Use the following chart when you receive an alert generated from a computer matching
+operation to determine whether limited development applies:
+Step
+Action
+1
+Obtain a Supplemental Security Income Display (SSID).
+2
+Compare the interface data with the data on the SSID and any FO files or records pertaining
+to the individual. See SI 02310.005B. for definitions of files and records.
+3
+Use limited development (See SI 02310.007A.2.) if the data were previously developed, and full development (See SI
+02310.007B.) if the data were not previously developed.
+NOTE: Exercise judgment in determining whether SSR coding indicates that the alert data
+were previously developed. The coding should be sufficient to establish that it refers
+to the same income/resource or other issue as the alert and must be consistent with
+the data on the alert.
+NOTE 2: Always apply Access to Financial Institutions (AFI) procedures when a resource related
+diary is present on a redetermination or limited issue. See SI 01140.206 for electronic
+bank verification procedures.
+Examples of SSR coding which indicate prior development include:
+•
+Direct deposit to the same bank account shown on an IRS alert;
+•
+An interest posting showing the name of the bank or account number which corresponds
+to the data shown on an IRS alert;
+•
+An earned or unearned income posting which agrees with the income shown on the alert;
+and
+•
+Case characteristic (CG) codes such as REO1 or RE4O or a message in the Remarks field
+which indicates ownership of the resources reflected on the alert.
+2. Limited development
+See SI 02310.047 regarding limited development of tax data.
+When requiring limited development for a diary generated from a computer matching
+operation, and all documentation can be recorded in the MSSICS path, there is no need
+to document the disposition of the development on paper.
+The MSSICS instructions for documentation can be found in Chapter 145 of the Modernized
+Systems Operations Manual (MSOM). The MSOM sections that pertain to the various computer
+matching diaries are:
+•
+Development Documentation (DDOC), MSOM MSSICS 022.012 (for the K6, K7, J3, J5, I8
+and 3D);
+•
+IRS Interface Development (DIRS), MSOM MSSICS 022.013 (for the 5B);
+•
+Pension Interface Development (DPEN), MSOM MSSICS 022.014 (for the 5H);
+•
+Savings Bond Interface Development (DSAB), MSOM MSSICS 022.015 (for the SB);
+•
+State Wage Match Development (DSWM), MSOM MSSICS 022.016 (for the S2);
+•
+State Wage Match Development (DORW), MSOM MSSICS 022.028 (for the S7).
+•
+Unemployment Interface Development (DUEM), MSOM MSSICS 022.017 (for the U5);
+•
+TXIX Facility Interface Development (DXIX), MSOM MSSICS 022.018 (for the D8).
+If requiring limited development for diaries not contained in MSSICS, follow these
+procedures:
+If the decision that the data were previously developed was based on . . .
+Then document the file . . .
+FO file(s)
+by consolidating the current and prior file.
+FO record(s)
+with a copy of the record or an SSA-5002 (RC) which states that the FO record shows
+prior development.
+NOTE: If the FO record is an annotated tax data alert, do not place a copy of the alert
+in file.
+SSR coding
+with an RC stating the rationale for the decision or an annotated SSID.

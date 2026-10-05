@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - GN 02613.865 - Title II Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 10/07/2016 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613865 (fetched 2026-10-04)
+
+C. Processing of post-2006 TII Martinez class members who have a representative payee
+1. Policy
+Current policy requires that before reinstating benefits to a representative payee
+following a period of suspense of six months or more, SSA must contact the representative
+payee on the beneficiary’s record. Determine the beneficiary’s current situation and
+the representative payee’s continued suitability to serve as representative payee.
+The instructions for developing a suitable payee are in GN 00504.160. Contact the beneficiary to verify that the representative payee and beneficiary
+still have a relationship that suggests this representative payee is still suitable.
+2. Identification of Martinez settlement cases with a representative payee
+The Office of Systems identified title II post-2006 Martinez cases and automated the
+payment for most cases. Beneficiaries in S9 FUGFEL status, who have representative
+payees on the MBR, had their payment status converted from S9 FUGFEL to S8 RPFUGF
+effective with the current operation month (COM). T2R placed any payable retroactive
+benefits due for the period of S9 FUGFEL in the Special Pay Accrual (SPA) field on
+the MBR pending development of the suitability of the current representative payee
+for the beneficiary.
+SSA identified and monitored the Martinez settlement cases involving representative
+payees by using the S8 Tracking Application. The Office of Systems identified monthly
+cases that were in S8 status on the MBR and posted them to the Management Information
+Services Facility (MISF). The New York Regional Office’s management information (MI)
+staff extracted the data and posted it to the S8 Tracking Application (website). Each
+FO is responsible for monitoring the website and resolving cases in its jurisdiction.
+Once we removed the beneficiary or recipient from S8 status, we did not identify the
+case in the next month's run.
+3. Process for developing continuing suitability of representative payee
+Process the S8 alerts as follows:
+Step
+Action
+1
+•
+Review the MBR to verify that the beneficiary or recipient is still in S8 status.
+Check to be sure that there are not open events on the MBR in the FUGITIVE or PRISON
+data lines. If the beneficiary is still in S8 and there are no open events on the
+MBR in the FUGITIVE or PRISON data lines, then go to step 2.
+•
+If there is an open event in the FUGITIVE data line or the PRISON data line, leave
+the beneficiary in S8 status and do not develop for continuing suitability of the
+current representative payee until the open event on the MBR for the FUGITIVE or PRISON
+data line is closed.
+•
+If the payment status is now current pay and we released the retroactive payments,
+no action is necessary.
+2
+Query the Representative Payee System (RPS) to determine the status of the record.
+3
+If there is a current pending representative payee (RP) application, process it to
+completion.
+If you approve the payee application, once the RPS system updates the new RP information
+to the MBR, the payment system will automatically release the underpayment to the
+new RP.
+If you deny the payee application, go to step 4.
+4
+If there is no current pending RP application in the RPS system:
+•
+Review the information to make sure there are no negative indicators that would suggest
+the payee of record is no longer suitable to serve.
+•
+Use the information from the MBR, contact the payee of record to determine if they
+still have a relationship with the beneficiary and to obtain the current residence
+of the beneficiary.
+•
+Contact the beneficiary to verify the beneficiary and representative payee relationship.
+•
+Consider whether the beneficiary continues to need a payee or not. You can locate
+the instructions in GN 00502.020A.
+•
+If the need for a representative payee continues and you determine that the current
+representative payee is suitable, document your findings in the Relationship Special
+Text (RLST) screen of the RPS. See MSOM RPS 002.022. Reinstate the TII benefits using
+the instructions in GN 00504.160C.2.
+•
+If the need for a representative payee continues and you determine that the current
+representative payee is not suitable, or there is no longer a relationship with the
+beneficiary or the current representative payee does not know the whereabouts of the
+beneficiary, develop for a new representative payee per GN 00502.100.
+•
+Record on the RP Report of Contact (RPRC) screen (MSOM RPS 003.006) the results of
+the investigation and the recommendation.
+•
+Develop for a successor payee, as necessary.
+Processing of a new RP within the RPS system updates the MBR and automatically releases
+the underpayment.
+5
+If you are unable to find a suitable representative payee and direct payment is not
+permissible, leave the beneficiary in S8 status while you continue efforts to locate
+a suitable representative payee.
+Document your efforts in the Special Message field of the MBR (MSOM T2PE 007.008)
+or institute direct payment per GN 00504.105 and GN 00504.185.
+6
+If you determine that a representative payee is no longer necessary, secure a Request
+to Be Selected as a Payee Application, SSA-11, from the beneficiary.
+Follow instructions in GN 00504.105.
+Once this action processes through RPS, the system automatically releases the underpayment.
+4. Reinstating monthly TII benefits from suspension
+Instructions for reinstating monthly TII benefits from representative payee development
+suspension are in GN 00504.160C.2.

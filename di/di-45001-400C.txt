@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 45001.400 - Processing Center (PC) 7 Instructions for Medicare Part B Immunosuppressive Drugs Coverage (Part B-ID)
+Effective Dates: 01/13/2023 - Present | TN 8 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001400 (fetched 2026-10-04)
+
+C. Processing a Part B-ID disenrollment
+Disenrollment request can be identified by TOELs HISMI PBIDTRM.
+Request for disenrollment may be taken over the telephone by the Office of Disability
+Operations Teleservice Center, or the beneficiary may complete form CMS-1763
+Request For Termination Of Premium Hospital And/Or Supplementary Medical Insurance.
+If the form CMS-1763 is completed or received by the field office, staff will upload
+the form into PC7’s paperless system for processing.
+Review to ensure the request is complete by:
+•
+Reviewing the record to determine if the individual reported other health coverage
+and chose a future termination date. You may input that termination date, so long
+as it is within 6 months in the future; and
+NOTE: We cannot process terminations more than 6 months in the
+future.
+•
+Reviewing the record to determine if the individual did not report other coverage
+or did not specify a termination date. The date of termination is the first day of
+the month following the month after we discover the individual has other health coverage
+or after the request is filed.
+Example: If an individual files a Part B-ID disenrollment request May 2023 and does not indicate
+a termination date then the date of termination would be June 2023.
+•
+Once the request is reviewed, the BA may input the action via MACADE. See SM 00850.800
+•
+The following day, review the action to ensure the MBR updated.

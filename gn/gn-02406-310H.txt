@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02406.310 - Request for Reconsideration of DCN Overpayment or Forgery Determination
+Effective Dates: 05/10/2024 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406310 (fetched 2026-10-04)
+
+H. Action when “Second Appeal” determination is returned in the PC or FO
+1. Treasury determines check was not forged
+Take the following steps.
+STEP
+ACTION
+1
+Send a notice of reconsideration to the claimant based on Treasury's decision that
+check(s) was not forged. Explain that Treasury's forgery determination is final and
+binding.
+2
+Reinstate overpayment recovery. For Title II, annotate PHUS via SSA-1257-U2 action
+code (AC-2) with the amount of the check. For Title XVI, use the UOPD screen in MSSICS
+to remove the MT-TAC.
+3
+Recovery should begin COM+1.
+2. Treasury determines check was forged
+STEP
+ACTION
+1
+Send a reconsideration determination to the beneficiary/recipient.
+2
+For Title II, prepare an SSA-1257-U2, AC-1 to null the event code 010 previously annotated
+to the PHUS record. Then input a transaction code of 25 to ROAR (reconsideration approval).
+3
+For Title XVI, delete any manual diary set but leave the MT-TAC in place as recovery
+is inappropriate.

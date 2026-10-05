@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 80830.076 - Pre-effectuation (PER) Review
+Effective Dates: 02/06/2006 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0480830076 (fetched 2026-10-04)
+
+DI 80830.076 Pre-effectuation (PER) Review
+In the Office of Quality Assurance (OQA) the Disability Examiners (DE) from the Division
+of Disability Quality Operations (DDQO) review Administrative Law Judge (ALJ) allowance
+decisions before the action is effectuated to detect and correct erroneous allowance
+decisions. The case is selected in the Case Processing and Management System (CPMS).
+At the time of case selection a “DO NOT PAY” message is generated to the MBR to prevent
+effectuation of the claim until the review is completed. If the DDQO agrees with the
+ALJ decision, the claim is forwarded to the appropriate Processing Center (PC). In
+a future release the claim will be routed electronically to the servicing PC from
+the PER Review System.
+Until the automated process is implemented, the DDQO Support Staff will fax a SSA-559
+to the PC for Title II decisions and will take the ‘DO NOT PAY’ message off the MBR.
+The SSA-559 will identify the case as a fully electronic disability case, and bear
+the appropriate TOEL combination (APPEAL/HEARING for PC 1-6 and 8, APPEAL/DHEAR for
+PC7). See DI 80830.110B., Example 1 – DDQO Dispatch. The SSA-559 will be indexed in the Paperless Processing
+Center (PPC) system and routed to the appropriate component for action.

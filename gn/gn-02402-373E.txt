@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.373 - Coding Latvia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 247 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402373 (fetched 2026-10-04)
+
+E. Description of Latvia IDD bank data
+The data to code IDD for Latvia comes from the International Bank Account Number (IBAN)
+provided to the beneficiary from their FI. The IBAN for Latvia consists of 21 characters.
+However, the bank data reflected on the MBR will reflect 24 characters including the
+country code of G for Latvia.

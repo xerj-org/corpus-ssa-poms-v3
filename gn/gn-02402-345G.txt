@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 02402.345 - Coding Estonia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 05/09/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402345 (fetched 2026-10-04)
+
+G. Example of coding Estonia IDD
+The customer provides us with a signup form for Estonia containing the following information:
+"EE382200221020145685".
+•
+The first 2 characters of the IBAN are “EE”, which represents the International Organizational
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO code or the check digit to the MBR.
+•
+The next two characters of the IBAN represent the two-digit bank code.
+•
+The next two digits represent the branch code.
+•
+The last 12 characters represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code the prefix of 66
+•
+Code the two-digit bank code, “22”
+•
+Code the two-digit branch code, “00”
+•
+Code a two filler of zeros; “00”
+•
+Code the one-digit check code (i.e., 7) (obtained from Title II Interactive Comps
+from Main Menu 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Use the letter “F” (for Estonia); and
+•
+The 12-digit account number “221020145685”.
+3. Obtain the following information
+•
+RTN: 662200002
+•
+Checking
+•
+DAN: F221020145685
+a. POS refelcts the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 662200002ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: F221020145685
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-662200002
+•
+DAN-CF221020145685

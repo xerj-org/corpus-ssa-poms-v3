@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 52140.001 - Field Office (FO) Responsibilities for Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 06/03/2010 - Present | TN 10 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140001 (fetched 2026-10-04)
+
+C. Processing initial claims involving WC/PDB offset
+If the claimant is found disabled, the FO should review and update WC/PDB information
+and process disability claims involving WC/PDB as
+follows:
+1.
+Prior to processing the claim, review the folder (paper or electronic), the MCS screens,
+EP, and eView to determine if a technician has already requested WC/PDB proof or to
+check that proof/evidence is already in the claimant's file. A technician should initially
+request this evidence at the time of the initial claim interview. Proof should be
+current.
+NOTE: We consider WC/PDB evidence of periodic payments as "current" if the proof/evidence is no more than one year old. To count this period, review the date posted on the WC/PDB evidence in the file
+as the starting point.
+2.
+Request updated proof/evidence if the proof in the file is more than one year old. See DI 52145.001F for sources of verification, such as the NH, attorney, or other appropriate sources,
+and DI 52145.001D for what is considered acceptable proof. Technicians must contact the claimant first
+before contacting the NH's attorney, legal representative, or other appropriate sources.
+3.
+Provide the claimant 10 business days (plus 5 days for mail) to respond to the request
+for WC/PDB proof. Technicians should also concurrently follow the verification procedures
+in DI 52145.001F for proof within 10 business days if the claimant will not provide verification.
+Utilize all methods of direct contact, including telephone, when requesting proof
+of WC/PDB.
+NOTE: If there is WC/PDB evidence in the file that is "not current" (i.e., over one year
+old), use the most recent WC/PDB evidence available to process the claim and document
+your attempts to obtain current WC/PDB evidence in the RPOC or MCS RMKS screen.
+4.
+If the claimant does not provide WC/PDB proof/evidence or if you cannot obtain WC/PDB
+proof/evidence after following the verification procedures in DI 52145.001F within 10 business days (plus 5 days for mail) and all other attempts to obtain proof/evidence
+from sources have been documented:
+•
+Update the MCS screens with the State maximum rate at the time of the WC/PDB injury
+or illness as outlined in DI 52150.045.
+•
+Include paragraph WCPR27 on the NOT3 screen in MCS to inform the beneficiary that
+we will use the State maximum rate to determine offset until we receive proof/evidence
+of WC/PDB. See NL 00725.470 for the fill-ins for the WCPR27 paragraph.
+•
+If the beneficiary has an attorney or non-attorney representative, include the necessary
+neutral language paragraphs to the beneficiary and their representative regarding
+the fee for representation per GN 03940.075. Enter a "Y" in the Incomplete field at the bottom of the NOT3 screen to allow the
+PC to add additional language as appropriate.
+•
+Establish a 42 (WC/PDB) diary on the Decision Input (DECI) screen in MCS with a 30-day
+tickle on the Diary (DIAR) screen for the PC to follow up on the response to your request for proof/evidence.
+If WC/PDB proof is obtained:
+1.
+Update the WC/PDB information in the Modernized Claims System/Earnings Computation
+(MCS/EC) screens. See DI 52155.001.
+2.
+Adjudicate the claim via MCS/WC per DI 52155.010.
+3.
+Adjudicate and prepare the offset computations using the Interactive Computation Facility
+(ICF) screens for the WC/PDB action before coding the claim via A101 if the MCS/EC
+WC/PDB computation is incorrect or cannot process the offset computation. When preparing
+an EF101, adjudicate the ICF screens for the WC/PDB action before coding the EF101.
+For MCS/EC processing, see DI 52155.010; for A101 processing, see DI 52155.025; and for EF101 processing, see DI 52155.030.
+4.
+Process and adjudicate subsequent auxiliary claims per DI 52155.015.

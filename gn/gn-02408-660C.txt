@@ -1,0 +1,167 @@
+SSA Program Operations Manual System (POMS) - GN 02408.660 - Non-Entitlement Due to Death (NED) Report
+Effective Dates: 04/26/2013 - Present | TN 82 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408660 (fetched 2026-10-04)
+
+C. Procedure for how to use the NED report
+The RO/PC checks PACER to view the listed EFT items on the NED report and decides
+whether to reclaim them.
+1. Highlighted payment is not due
+The RO/PC must include the highlighted payment with the reclamation because the payment
+was not due. This action cannot be taken on this screen/report. The RO/PC must exit
+the report and input the E-stop in SSA’s system manually for that payment.
+Manually input prior monthly accrual (PMA) amounts not due AND reclaimable in the
+special payment amount/overpayment (SPA O/P) field on the Master Beneficiary Record
+(MBR).
+2. Highlighted payment is due
+When the RO/PC does not wish to include the highlighted payment with the reclamation
+request because the payment is due, press F4. F4 triggers PACER to release the reclamation
+without the highlighted payment.
+3. NED report contains highlighted payments for the same beneficiary/recipient
+When the NED report contains some highlighted payments that are due and some that
+are not for the same beneficiary/recipient, take the following action in this order:
+a.
+For the highlighted payments that are not due, exit the report and manually input the E-stop for those payments.
+b.
+Wait 48 hours.
+c.
+Check the NED report to see if the payments with the newly input E-stops are now listed
+on the report to be reclaimed; i.e., they are no longer highlighted. If so, proceed
+with the next step. If not, check the report the next day.
+d.
+For the highlighted payments that are due, press F4 to send the reclamation request to Treasury. These due payments will not
+be reclaimed.
+IMPORTANT: The NED report containing payments requiring action for the beneficiary or recipient
+is only available in PACER for 60 days. Take any necessary action before that deadline.
+After 60 days, BFS transmits the reclamation request to the FI.
+4. Title XVI
+The RO checks to see if the recipient is deceased on the SSI record (SSR).
+IMPORTANT: To be accurately interpreted, apply this table from top to bottom. If you skip an
+earlier step, you may take the wrong action.
+IF:
+AND IF:
+THEN:
+1
+The SSR shows that one or both of the following is true:
+•
+This is a couple’s case, or
+•
+The deceased recipient had a representative payee,
+__
+The RO presses F4 to release the reclamation without the payment(s). The FO recovers
+the payments from the other member of the couple or from the representative payee.
+2
+There is no date of death (DOD) on the SSR,
+There is no Title II record, OR
+There is also no DOD on the Title II record,
+The RO presses F4 to release the reclamation without the payment(s). (Can occur when
+there is an erroneous death on the record.)
+3
+There is no DOD on the SSR,
+The Title II record shows a DOD,
+The RO asks the FO to resolve the discrepancy. If the DOD is correct and the NED shows
+highlighted payments requiring a decision, the RO should determine whether the payment(s)
+should be sent for reclamation.
+•
+If yes, input an E-stop manually.
+•
+If no, press F4 to release the reclamation without the payment(s).
+4
+There is a DOD on the SSR,
+The Title II record agrees with the SSR,
+The RO compares the DOD on the record with the one on the NED report. If the DOD is
+correct and the NED shows highlighted payments requiring a decision, the RO should
+determine whether the payment(s) should be sent for reclamation.
+•
+If yes, input an E-stop manually.
+•
+If no, press F4 to release the reclamation without the payment(s).
+5
+The DOD on the SSR matches the DOD on the NED,
+The date of issue of the payment on the SSR (for a type 2 or 4 payment), or the payment date (for a recurring payment), is on or before the DOD,
+The payment is due and should not be reclaimed. The RO presses F4 to release the reclamation without the payment(s).
+NOTE: It is important to be alert for early payment dates. If the payment is due, do not reclaim.
+6
+The DOD on the SSR matches the DOD on the NED,
+The date of issue of the payment on the SSR (for a type 2 or 4 payment), or the payment date (for a recurring payment), is after the DOD,
+The payment is not due. The RO/FO does a manual E-stop for this payment.
+NOTE: It is important to be alert for early payment dates. If the recipient is alive for
+any portion of the early payment date, the money is due and should not be reclaimed.
+7
+A highlighted payment listed on the NED is due,
+Other highlighted payments that are not due are listed on the NED for that recipient,
+The RO/PC...
+•
+inputs a manual E-stop on the payments not due;
+•
+waits at least 48 hours.;
+•
+checks the NED to ensure the payments that SSA input E-stops are listed but no longer
+highlighted; and
+•
+returns to the NED report and presses F4 to release the reclamation request without
+the one due payment.
+8
+A highlighted payment listed on the NED is on a prior SSI record,
+The payment is due,
+The RO presses F4 to release the reclamation without the payment.
+5. Title II
+The PC checks to see if the beneficiary is deceased on the MBR.
+IMPORTANT: To be accurately interpreted, apply this table from top to bottom. If you skip an
+earlier step, you may take the wrong action.
+IF:
+AND IF”
+THEN:
+1
+The MBR shows that one or both of the following is true:
+•
+The beneficiary’s spouse is entitled on the same record (including LAF-AD entitlement)
+also has direct deposit to the same account, OR
+•
+The deceased recipient had a representative payee,
+__
+Because SSA does not wish to reclaim this payment(s), the PC presses F4 to release
+the reclamation without this payment(s).
+2
+There is no DOD on the MBR,
+There is no Title XVI record, OR
+there is also no DOD on the Title XVI record,
+The PC presses F4 to release the reclamation without this payment(s). This can occur
+when an erroneous death was previously posted to the record.
+3
+The DOD on the MBR matches the DOD on the NED,
+The DOD is after the end of the month for which the payment is made; OR
+the DOD is on or after the early payment date for this payment,
+The payment is due and should not be reclaimed. The PC presses F4 to release the reclamation request without this payment.
+NOTE: It is important to be alert for early payment dates.
+4
+The DOD on the MBR matches the DOD on the NED,
+The item highlighted is a PMA payment that includes benefits for a period of time both before and after the DOD,
+The PC exits the report and inputs a manual E-stop on this payment. Treat the portion
+of the PMA payment that is due as an underpayment.
+Manually input PMA amounts that are not due AND are reclaimable to the SPA O/P field
+on the MBR
+5
+The DOD on the MBR matches the DOD on the NED,
+The DOD is before the end of the month for which the payment is due, OR
+The DOD is before the early payment date of the payment,
+The PC exits the report and inputs a manual E-stop on this payment.
+NOTE: It is important to be alert for early payment dates. If the payment is due, do not reclaim.
+Manually input PMA amounts that are not due AND are reclaimable to the SPA O/P field
+on the MBR
+6
+A highlighted payment listed on the NED is due,
+Other highlighted payments that are not due are listed on the NED for that recipient,
+The PC
+•
+exits the NED report and does a manual E-stop input for the payments not due;
+•
+waits at least 48 hours;
+•
+looks at the NED report to see that the payments for which E-stops were input are
+no longer highlighted; and
+•
+if so, presses F4 to release the reclamation request without the one payment that
+is due.
+•
+Manually input PMA amounts that are not due AND are reclaimable to the SPA O/P field
+on the MBR

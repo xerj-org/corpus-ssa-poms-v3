@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02403.050 - Unverified Alert Process -- Remittances
+Effective Dates: 08/01/2022 - Present | TN 47 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403050 (fetched 2026-10-04)
+
+E. MATPSC contacts
+In most cases, the FO should be able to resolve an Unverified Alert through the use
+of queries. MATPSC will only be able to help if you require an image of the check
+to resolve the alert. Also, remember that MATPSC can only help with remittances that
+have been negotiated and have an RCN that begins with a 2 or 7. Also use the following
+instructions to contact MATPSC when the remittance is found on the Suspense File and
+needs to be removed, as well as when a remittance exception is found which requires
+correction.
+Send an e-mail request to ^PH PA MATPSC Unverified Alerts. When making a request, give include the following information:
+•
+Account Number (SSN),
+•
+Receipt Number,
+•
+Amount of the remittance, and
+•
+The date the FO entered the remittance into DMS
+MATPSC will typically respond timely to management by email. If unable to resolve
+the problem immediately, MATPSC will prepare a PCACS ACR (Action Control Record) with
+the TOELs of OPMT REMIT and the location of PC2 DMS CSC PROC. This will let you know
+that the problem has been received and is in process. If MATPSC does not respond after
+two weeks, the problem is not resolved, and the ACR has been cleared, have the technician
+re-contact MATPSC's Debt Management Section via e-mail; clearly identify the contact
+as a first follow-up.
+If after another week the MATPSC still does not respond, have the technician's manager
+contact MATPSC's Remittance Unit manager at the number found in DOORS. This should
+rarely be necessary.

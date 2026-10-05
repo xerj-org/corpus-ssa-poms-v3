@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - GN 02615.120 - Title II Clark Court Order Manual Processing
+Effective Dates: 06/25/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615120 (fetched 2026-10-04)
+
+D. Reinstating or resuming Title II benefits for the PPV suspension period
+1. PC instructions for resuming or reinstating benefits from LAF S9 FUGFEL status using
+MADCAP/MACADE
+Steps
+Required Actions
+1
+Use MADCAP/MACADE to reinstate benefits. (For systems FFEL screen processing instructions,
+see MSOM COMMON 005.035.)
+From the FFSCF:
+Annotate the new warrant disposition to the PPV WARRANT DUE PROCESS/GOOD CAUSE (FFDG)
+screen.
+In the update mode, enter the mandatory entries and then enter the: GOOD CAUSE DETERMINATION
+section of the screen:
+GOOD CAUSE ESTABLISHED(Y/N): Y
+IF YES, GOOD CAUSE REASON: CRT
+GOOD CAUSE DECISION DATE (mmddccyy): 99999999 (place the current date in this date
+field)
+REMARKS: CLARK COURT ORDER—CLARK RELIEF PROCESSED or CLARK RELIEF AND MEDICARE RELIEF
+PROCESSED, if your reinstatement action also includes processing Medicare relief.
+NOTE: You must update the FFDG screen to avoid a processing exception of the FFEL reinstatement
+input. Instructions for updating the FFSCF are in PRISON 006.001.
+2
+From the MACADE path:
+Select #6 (ENTITLEMENT AND ELIGIBILITY MENU) on the TRANS-TO MENU and select #31 FUGITIVE
+FELON (FFEL) on the ENTITLEMENT AND ELIGIBILITY MENU, or
+Enter ENT in the TRANS- TO field and select #31 (FFEL).
+3
+On the MACADE FFEL screen:
+a. LAF S9 FUGFEL status
+In the update mode, enter the mandatory entries and then enter on the
+RESUMPTION OF BENEFITS section the following:
+RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH: Y
+ENTER RESUMPTION REQUEST REASON: 3 GOOD CAUSE
+IF RESUMPTION REQUESTED FOR GOOD CAUSE, ENTER GOOD CAUSE REASON: CRT
+b. Closed period suspension
+Remove from the FFEL screen, the existing “WARRANT SATISFIED” date and “SATISFIED
+REASON” entries.
+Enter on the RESUMPTION OF BENEFITS section the following:
+RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH: Y
+ENTER RESUMPTION REQUEST REASON: 3 GOOD CAUSE
+IF RESUMPTION REQUESTED FOR GOOD CAUSE, ENTER GOOD CAUSE REASON: CRT
+4
+Add a Payment History (HST) screen to the MACADE/MADCAP action to release the benefits
+that were in S9 FUGFEL for the PPV suspension period and to start continuing monthly
+benefit payment, if appropriate. For information on the summarization rules for post-adjudicative
+actions, see SM 00848.010B.2.
+5
+If the beneficiary is eligible for Medicare relief, see the instructions in GN 02615.140 for additional MACADE/MADCAP coding that is necessary for completion of this processing
+action.
+6
+Add additional notice information to the MADCAP notice regarding the Clark Class Order
+to the notice. Include paragraph FUG118 to the notice. For an exhibit of the Clark
+Court Order relief language, see GN 02615.160B. For information on processing requests for special notices for blind or visually
+impaired claimants, beneficiaries, and representative payees, see TC 00101.021.
+Also take the following actions:
+•
+Add this SP MSG to the MBR: CLARK COURT ORDER--CLARK RELIEF PROCESSED or CLARK COURT
+ORDER--CLARK RELIEF AND MEDICARE RELIEF PROCESSED, as appropriate.
+•
+Release the Clark underpayment without regard to the presence of a Windfall Offset
+data (WOD) line on the MBR.
+•
+Do not prepare a PPV good cause determination.
+•
+If a suspended beneficiary has a representative payee, do not release retroactive
+benefits if the suspension was for three or more months. For instructions on continuing
+suitability payee development, see GN 02615.115D.
+•
+Do not pay retroactive payments to beneficiaries who are prisoners as defined in EM-10013
+SEN or while they are subject to fugitive felon nonpayment. For instructions on processing
+retroactive payments, see GN 02615.115C.1.
+2. Alternative processing for reinstating benefits when FFEL excepts—FO Instructions
+Check the MBR to make sure the system reinstated the benefits effective with the first
+month the PPV warrant stopped the benefit. If the MBR indicates the reinstatement
+did not process, check the THIS query in MFQ. If THIS indicates a processing exception,
+follow instructions in GN 02613.500C and GN 02613.500D.
+NOTE: In some instances, applying Clark relief to a record will not allow monthly benefits
+to begin because there is a higher priority suspension event that may supersede the
+PPV suspension (e.g., prisoner suspension LAF S7, no child-in-care suspension LAF
+S4, etc.). You must still close out the FUGITIVE line on the MBR for PPV warrants
+to ensure unauthorized future PPV suspensions actions will not occur. For more information
+about higher priority suspension actions, see the instructions in GN 02602.025.

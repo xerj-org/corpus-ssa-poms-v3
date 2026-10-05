@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - SI 02301.305 - Online Goldberg Kelly (GK) Notices
+Effective Dates: 07/26/2023 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301305 (fetched 2026-10-04)
+
+B. Description of online GK notices
+1. Features of the online GK notices
+Online Goldberg Kelly notices are produced upon request during the GK temporary period.
+Producing the GK notice online eliminates many problems associated with having to
+produce a manual notice during the GK temporary period, which falls between the Goldberg
+Kelly Notice cutoff (usually between the 7th and 9th) and the recurring payment tape (Treasury) cutoff (usually between the 15th and 21st of the month).
+The following features are included with the online GK notices:
+•
+the time (Eastern Standard) the notice was produced is in the upper right hand portion
+on the notice.
+•
+the date on the notice is the date it is produced
+•
+the notice is printed in the field office
+•
+the notice is stored in the Online Retrieval System (ORS); and
+•
+the notice will appear in the Notice Data (NOTC) segment on the SSR.
+2. Producing an online GK notice
+An advance online GK notice is produced upon request during the GK temporary period
+when adverse actions are input through MSSICS to update the Supplemental Security
+Record (SSR). The FO can print these notices in their local field office which can
+be either handed or mailed to the SSI recipient.
+Producing the GK notice online eliminates the need to produce a manual notice and
+prevents potential overpayments.
+IMPORTANT NOTE: For SSI recipients who have a Braille or Data CD preference there is no longer an
+option to invoke the on-line GK process and users will not be presented with the MSSICS
+DBGK screen. The person will receive their regular notice and a Braille or Data CD
+notice from our vendors. These notices will be received too late for us to reduce
+the following month's payment; therefore consider good cause criteria when the individual
+alleges not receiving the Adverse Action Notice in their preferred format. (See GN 03101.020)

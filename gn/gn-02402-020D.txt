@@ -1,0 +1,247 @@
+SSA Program Operations Manual System (POMS) - GN 02402.020 - Reimbursement Process Due to Alleged Fraud and Other Unauthorized Redirection of Reoccurring Payments
+Effective Dates: 08/25/2025 - Present | TN 308 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402020 (fetched 2026-10-04)
+
+D. Instructions for Handling Treasury Responses After EFT Claim is Sent
+The following chart explains the ENR Status Codes, as well as, the actions and the
+explanations to provide to the beneficiary, recipient, or representative payee.
+ENR Disposition Chart
+ENR Status
+Description
+Action
+How to handle inquiries: Explain the following
+Payment Returned (ENR Match and TeleTrace (TT) Status Payment Returned)
+Treasury has returned the redirected payment in full.
+If there is an overpayment on the record due to a duplicate payment, reduce or recover
+the overpayment with the returned funds.
+Title II- If we have not repaid the beneficiary, the PC technician will issue the
+funds to the beneficiary using the DR or RC Special Entry in Manual Adjustment Credit
+Award Data Entry (MACADE).
+Title XVI - Office of Benefit Accounting and System Analysis (OBASA) posts remittances
+for partial payments to the Overpayment Refund Data (OPRR) segment of the Supplemental
+Security Record (SSR) with a DOC of 534 and updates the credit for a full remittance
+to the appropriate payment in the payment history (PMTH) segment.
+If the beneficiary, recipient, or representative payee received a replacement payment(s):
+Explain we have updated the record and there is no further action for them to take.
+If they did not receive replacement payment, explain that they should receive the
+payment within 10 business days.
+Comerica as seen in TCIS Claim Details tab (ENR Match and RTN is Comerica, enrollment
+was erroneously established).
+Treasury has contacted Comerica for return of the redirected payment.
+Refer to GN 02406.008 for guidance related to nonreceipt of a Direct Express card
+payment.
+Refer to GN 02406.008 for guidance related to nonreceipt of Direct Express card payment.
+Claim Form Sent
+(Full payment not returned from FI)
+The ENR Status Date shown in TCIS or the paperless alert shows the date Treasury sent the EFT Claim Form to the beneficiary.
+No action is required at this time.
+The beneficiary, recipient, or representative payee states that they have an EFT Claim
+Form. Instruct them to complete the form within 30 days and to return to the address
+shown on the bottom of page 1 of the EFT Claim Form.
+Undeliverable resent referral (Form returned undeliverable and new address is on the
+Master Benefit Record (MBR) or SSR)
+Treasury resent the EFT Claim Form to the beneficiary, recipient, or representative
+payee. The TCIS Resent Date shows the date Treasury resent the form. The individual
+has 30 days to return the form.
+No action is required at this time.
+The beneficiary, recipient, or representative payee states that they have an EFT Claim
+Form. Instruct them to complete the form within 30 days and to return to the address
+shown on the bottom of page 1 of the EFT Claim Form.
+Undeliverable NOT resent (Form returned undeliverable and NO new address is on the
+MBR or SSR)
+Treasury sent the EFT Claim Form to the beneficiary, recipient, or representative
+payee. The Post Office has returned the form to Treasury because of an invalid address.
+Treasury does not resend the form.
+Check to see if address has been recently updated. If the
+address is updated:
+•
+Print the EFT Claim Form from TCIS and send to the beneficiary, recipient, or representative
+payee’s new address.
+•
+If TCIS ENR Status shows “Reprint Date: MM/DD/YYYY” for the claim form, an SSA technician
+may have already resent the form. Verify the form is not currently present in the
+EF or NDRED before reprinting.
+•
+If the address has not been recently updated:
+•
+Develop for current address GN
+02605.055.
+•
+If unable to contact beneficiary, recipient, or representative payee to update address,
+continue to follow GN
+02605.055 Section B.
+Phone Call Requests
+•
+Verify the Title II and Title XVI address on the record.
+If the address is correct:
+•
+Print the EFT Claim Form from TCIS and send to the beneficiary, recipient, or representative
+payee’s address.
+•
+Explain that they should receive the form within 10 business days.
+•
+Instruct them to complete the form within 30 days and return to the address shown
+on the bottom of page 1 of the EFT Claim Form.
+If the address is incorrect: IMPORTANT: If there is a (Direct Deposit Fraud Block (DDFP) on the record, follow GN
+02402.023.
+If there is no DDFP block on the record:
+•
+Verify their identity and change the address.
+•
+Print the EFT Claim Form from TCIS and send to their new address.
+•
+Explain that they should receive the form within 10 business days.
+•
+Instruct them to complete the form within 30 days and return to the address shown
+on the bottom of page 1 of the EFT Claim Form.
+•
+In-Office Requests Verify the Title II or Title XVI address on the record.
+If the address is correct:
+•
+Print the EFT Claim Form from TCIS and have them complete the form.
+•
+Mail the form to the address shown on the bottom of page 1 of the EFT Claim Form.
+If the address is
+incorrect:
+•
+Verify their identity and change the address.
+•
+Print the EFT Claim Form from TCIS and have them complete the form.
+•
+Mail the form to the address shown on the bottom of page 1 of the EFT Claim Form.
+Incomplete Resent (Form returned incomplete)
+The beneficiary, recipient, or representative payee submitted an incomplete EFT Claim
+Form. The TCIS Resent
+Date shows the date Treasury resent the EFT Claim Form. Treasury sends a Denial Notice
+and a blank EFT Claim Form to the beneficiary, recipient, or representative payee.
+The beneficiary, recipient, or representative payee must return the form within 30
+days.
+No action is required at this time.
+Customer states that they have a Denial Notice. Treasury sends the Denial Notice because
+they submitted an incomplete EFT Claim Form. Instruct the beneficiary, recipient,
+or representative payee to complete the form within 30 days and to return to the address
+shown on the bottom of page 1 of the EFT Claim Form.
+No Response (No response)
+Beneficiary, recipient, or representative payee has not returned the EFT Claim Form
+within 60 days.
+Upload Treasury response into the EF or NDRED.
+If there is an overpayment on the record due to a duplicate payment, the overpayment
+recovery process begins (see Section F).
+NOTE: The overpayment recovery process begins 60 days after Treasury mailed the original
+EFT Claim Form. See ENR Claim Details Tab in TCIS.
+•
+Customer did not return the EFT Claim Form and therefore may be overpaid.
+•
+Explain that we can provide the EFT Claim Form.
+•
+If the claimant states that they will complete the form, print the EFT Claim Form
+from TCIS and mail or hand them the form.
+TII - Place the overpayment in protest status of “E” (explanation). TXVI - Stop overpayment
+collection with an NT TAC. (See GN 02402.017 for further instructions.) Previous instructions involved the use of the MO TAC (SM 01311.220) which created a BZ diary. Correct any MO TAC input with NT TAC if it meets the criteria
+in this section.
+Approved - Debit Notice Sent (Claim form is returned complete and Treasury has the
+authority to debit the FI.)
+Treasury received the EFT Claim Form and submitted it to the FI. NOTE: The FI has
+30 days to respond.
+No action is required at this time.
+Treasury has received the beneficiary, recipient, or representative payee’s EFT Claim
+Form and Treasury will make a determination within 30 days.
+Denied - Payee received payment (The beneficiary, recipient, or representative payee
+returned the completed EFT Claim Form)
+Treasury received the EFT Claim Form and determined the beneficiary, recipient, or
+representative payee received the payment. Treasury sends a denial notice.
+Upload Treasury status to the EF or NDRED. If there is an overpayment on the record
+due to a duplicate payment, the overpayment recovery process begins.
+Explain that Treasury determined that they deposited their funds into the correct
+account and that they received the payment. Explain that they should contact Treasury
+regarding the Denial Notice. The Denial Notice will have the contact number included
+for questions.
+Denied - Benefited from Payment (The beneficiary, recipient, or representative payee
+returned the completed EFT Claim Form)
+Treasury received the EFT Claim Form and determined the beneficiary, recipient, or
+representative payee benefited from the payment. Treasury sends a denial notice.
+Upload Treasury status to NDRED. If there is an overpayment on the record due to a
+duplicate payment, the overpayment recovery process begins (see section F).
+Explain that Treasury determined that the beneficiary, recipient, or representative
+payee deposited their funds into the correct account and that they benefited from
+the payment. Explain that they should contact Treasury regarding the Denial Notice.
+Denied - Someone Else Benefited (The beneficiary, recipient, or representative payee
+returned the completed EFT Claim Form)
+Treasury received the EFT Claim Form and determined the beneficiary, recipient, or
+representative payee authorized someone to use their personal information to receive
+the payment. Treasury sends a denial notice.
+Upload Treasury status to NDRED. If there is an overpayment on the record due to a
+duplicate payment, the overpayment recovery process begins (see section F).
+Explain that Treasury determined that the beneficiary, recipient, or representative
+payee deposited their funds into the correct account and an authorized person benefited
+from the payment. Explain that they should contact Treasury regarding the Denial Notice.
+Appeal – Pending (The beneficiary, recipient, or representative payee submitted an
+appeal)
+Treasury received the EFT Claim Form and denied the original claim. The beneficiary,
+recipient, or representative payee has submitted an appeal through Treasury.
+Upload Treasury status to the EF or NDRED. TII- If there is an overpayment on the
+record due to a duplicate payment and SSA has begun recovery, then place the overpayment
+in protest status of “E” (explanation).
+TXVI - Stop overpayment collection with an NT TAC.
+Treasury has received the beneficiary, recipient, or representative payee’s appeal.
+We will take no further action on collection of the debt until Treasury makes a determination
+on the appeal.
+Appeal – Denied (Appeal submitted, reviewed and denied.)
+Treasury received the appeal and made a determination to deny the claim.
+Upload Treasury status to the EF or NDRED. If there is an overpayment on the record
+due to a duplicate payment, the overpayment recovery process begins (see section F).
+Treasury has received the beneficiary, recipient, or representative payee’s appeal
+and denied the claim. If they wish to protest the overpayment, mail or hand them the
+appropriate appeal forms. see GN 02201.021, GN 02201.025, GN 02210.030, GN 02406.310, SI 02220.001, SI 02260.001, SI
+02220.017
+Financial Institution Debit Process
+ENR Status
+Description
+Action
+How to handle inquiries: Explain the following
+FI Debit (FI Responds authorizing debit)
+SSA receives credit from FI
+For actions necessary Title XVI, see SI
+02201.007 Section C
+If the beneficiary, recipient, or representative payee received a replacement payment:
+•
+Explain that we have updated the record and there is no further action for them to
+take.
+If they did not receive replacement payment:
+•
+Explain that they should receive the payment within 10 business days.
+Auto debit (FI does not respond within 30 days)
+SSA receives credit from FI
+For actions necessary Title XVI, see SI
+02201.007 Section C
+If the beneficiary, recipient, or representative payee received a replacement payment:
+•
+Explain that we have updated the record and there is no further action necessary for
+them to take.
+If they did not receive replacement payment:
+•
+Explain that they should receive the payment within 10 business days.
+FI Protest-Denied (Protest is denied) See section J., Exhibit 2.
+SSA receives credit from FI
+For actions necessary Title XVI, see SI
+02201.007 Section C
+If the beneficiary, recipient, or representative payee received a replacement payment:
+•
+Explain that we have updated the record and there is no further action for them to
+take.
+If they did not receive replacement payment:
+•
+Explain that they should receive the payment within 10 business days.
+FI Protest (FI Responds with protest)
+SSA is awaiting Treasury response on FI protest.
+No action is required at this time.
+We are awaiting a Treasury response.
+FI Protest – Approved (Protest approved)
+Treasury received FI protest and determined that the beneficiary, recipient, or representative
+payee benefited from the payment. Treasury sends a denial notice.
+Treasury determined that the beneficiary, recipient, or representative payee benefited
+from the payment. Upload Treasury status to the EF or NDRED. If there is an overpayment
+on the record due to a duplicate payment, the overpayment recovery process begins.
+Explain that Treasury determined that the beneficiary, recipient, or representative
+payee deposited their funds into the correct account and that they benefited from
+the payment. Explain thatthey should contact Treasury regarding the Denial Notice.

@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 52150.090 - Taxation of Benefits when Workers' Compensation/Public Disability Benefit (WC/PDB) Offset is Involved
+Effective Dates: 07/14/2026 - Present | TN 52 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150090 (fetched 2026-10-04)
+
+D. Social Security report of WC/PDB for taxation purposes
+The IRS treats WC and PDB payments differently for tax purposes. The entity paying
+the WC does not report the WC payments as taxable income. Therefore, for taxation
+purposes, we are required to include the Social Security amounts withheld due to WC offset in the total amount of Benefits Paid on the SSA-1099 or SSA-1042S.
+We do not include amounts withheld due to PDB offset on the SSA-1099 or SSA-1042S because the
+entity paying the PDB already reported the payments as taxable income.
+You must code the offset type(s) accurately on the document used to adjudicate the
+offset determination because:
+•
+the offset computation programs use that data to calculate the entries in the OFFSET
+data fields on the Master Beneficiary Record (MBR).
+•
+the Payment History Update System (PHUS) builds the amount attributable to WC from
+the OFFSET data fields of the MBR for the annual SSA-1099 or SSA-1042S.
+•
+incorrect data in the OFFSET data fields of the MBR results in an incorrect SSA-1099
+or SSA-1042S.
+NOTE: If the total amount payable after offset exceeds the disabled workers monthly benefit
+amount (MBA), the worker receives their full MBA, and we equally distribute the excess
+amount payable after offset to the auxiliary beneficiaries (with some exceptions,
+e.g., a divorced spouse). In these situations, only the auxiliary beneficiaries SSA-1099
+or SSA-1042S includes offset information.

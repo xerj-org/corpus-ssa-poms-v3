@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02607.750 - T2R Exceptions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607750 (fetched 2026-10-04)
+
+B. Procedure - T2R exceptions
+When you input a title II suspension action to the PUPS record, T2R processes the
+PUPS suspension transaction in the future when the action matures (15 or 35 days after
+the notice date on the PUPS record depending on the due process period chosen on the
+PUPS record). When the due process period ends, T2R changes the LAF on the MBR to
+S7 and annotates the RFST of PRISON, MENTAL or PREDTR to the MBR in the BENEFIT DATA
+field. The PUPS record receives feedback from the MBR that the beneficiary is in LAF
+S7 and closes the PUPS record as a SUSPENSION.
+If the MBR cannot be annotated with the suspension action, an exception is sent to
+the PC. See GN 02607.750A. in this section for a description of T2R exceptions.
+The PUPS screens will continue to show *PENDING when the transaction did not work.
+See GN 02607.750C.1. in this section for more information on *PENDING cases.

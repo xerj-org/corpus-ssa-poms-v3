@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - GN 00304.100 - Use of Numident Death Data
+Effective Dates: 06/15/2022 - Present | TN 40 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200304100 (fetched 2026-10-04)
+
+B. Procedure
+1. Erroneous death information on Numident
+a.
+Resolve potentially inaccurate death data discovered on the Numident (e.g., in connection
+with enumeration, claims development, pension fund verification) as follows:
+•
+For erroneous death terminations, (claims and non-claims), follow instructions in
+GN 02602.055 (for title II benefits) and GN 02602.055 (for title XVI benefits).
+•
+If the fact of death is being questioned and the source of the death information was
+the State Death Match program, i.e. the Source of Death (SSD) field on the Numident
+shows a code 01-65 or 97, obtain a copy of the death certificate to resolve the issue
+as outlined in GN 02602.070C and GN 02602.056C.
+•
+If the fact of death is being questioned and the source of the death information was
+a verified EDR report (as described in GN 00304.100B.3.) or other than a State Death Match program (the SSD field on the Numident shows a
+code other than 01-65 or 97), establish the identity of the individual to resolve
+the issue as outlined in GN 02602.070C.
+IMPORTANT: Conduct a face-to-face interview, except in the situations described in GN 02602.055.
+See the instructions in RM 10210.405 through RM 10210.430 for acceptable evidence of identity.
+•
+If only the date of death is being questioned, but the difference is material, and
+the source is other than the State Death Match Program, request evidence to support
+the change. (See GN 00304.005 through GN 00304.015 for information on acceptable evidence.)
+NOTE: A material difference is one that will affect either entitlement dates or payment
+amounts.
+b.
+Document erroneous death information cases as follows:
+•
+In claims and non-claims situations, complete the Evidence (EVID) screen as instructed
+in GN 02602.055 if an administrative error is involved or an erroneous report of death
+is involved.
+•
+Document changes to the Numident with a Form SSA-721 or a death certificate.
+c.
+Once the issues have been resolved and documented following instructions in the previous
+sections, make necessary corrections or deletions as follows:
+•
+Correct the Numident file using the Death Information Processing System (DIPS), and
+•
+Make any necessary corrections to payment records following instructions in GN 02602.070C and SI 02301.315 if there is an incorrect date of death on the payment records.
+IMPORTANT: Correcting the payment record will not automatically correct the Numident. You must
+take both actions.
+d.
+If the NH states that erroneous death information from the Numident was used by a
+private agency (such as a mortgage company or a credit agency), the FO will take the
+following steps in addition to those shown in GN 00304.100B.1.a. through GN 00304.100B.1.c.
+•
+Check the Numident for a death record to determine if the SSA record is correct or
+incorrect. If incorrect and the person is alive, delete the information from the Numident by using DIPS .
+•
+Send a notice signed by the FO manager to the NH that we have corrected the Numident
+(see Exhibit 1A. in GN 00304.115) or that our records are correct (see Exhibit 1B. in GN 00304.115), and
+•
+Advise the NH that if they make a written request; i.e., sign the tear-off on Exhibit
+1A. or 1B. in GN 00304.115, we will notify the agency (Exhibits 2A. and 2B. in GN 00304.115) which used erroneous information so they can correct their records.
+•
+Notify the agency that used the erroneous data when the tear-off is received.
+2. Death data on the Numident
+If death data shown on the Numident cannot be used as preferred proof of death for
+initial claims as indicated in GN 00304.100A, use the following guidelines for claims development where the claimant is not aware
+that the NH may be deceased or needs guidance on where to look.
+a.
+If the source of the fact of death was other than the State Death Match program (the
+SSD field on the Numident shows a code other than 01-65 or 97):
+•
+Tell the claimant we have a report of death.
+•
+Tell the claimant the date and source of the death data.
+•
+Advise the claimant that the source of the death data is not 100% reliable and therefore
+cannot be used as evidence of death.
+•
+Suggest the claimant start the search for evidence of death by contacting the reporting
+agency.
+b.
+If the source of data is the State Death Match program (the SSD field on the Numident
+shows a code 01-65 or 97), obtain a copy of the death certificate from the State.
+Until you have verification of death from a source other than the State Death Match Program, DO NOT DISCLOSE ANY INFORMATION TO THE CLAIMANT REGARDING NH'S DEATH. DO NOT DISCLOSE
+TO THE CLAIMANT THAT SSA HAS A REPORT OF DEATH. See instructions in GN 03315.010A.2. for policy with regard to disclosure of the fact of death when the only source of
+that information is the State Death Match program.
+3. Death data on the Numident as preferred proof of death
+Use the information on the Death Data Numident as preferred proof of death when the
+requirements in GN 00304.100A. are met.
+a.
+The date of death on the Numident has been verified based on an EDR report when the:
+•
+Source of Death (SSD) code equals 01 - 65, or "97" and
+•
+Proof of Death (POD) field code equals "P," and
+•
+EDR field code equals "Y, (NOTE: If this code equals O , it should be considered a
+proven EDR death) and
+•
+Comments field states: "EDR Death Report."
+b.
+The data of death on the Numident is based on preferred proof of death when the:
+•
+Proof of Death (POD) field code equals P, and
+•
+Source of Death (SSD) equals 70, 72, or FO.
+See RM 10235.025 for an exhibit of the Death Data Numident Query Response. Resolve
+any potentially erroneous death data on the Numident per instructions in GN 00304.100B.1.

@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02408.022 - Automated F-Stop Process for Checks Only
+Effective Dates: 10/20/2022 - Present | TN 63 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408022 (fetched 2026-10-04)
+
+A. Background
+For alleged nonreceipt cases where SSA inputs a B-stop, the Department of the Treasury
+issues a courtesy replacement check payment. For Title XVI, when the original check
+is subsequently cashed, the SSI system automatically places an F-stop on the courtesy
+replacement check payment. For Title II, when the original check is subsequently cashed,
+an alert goes to the Field Office (FO) and an automated F-stop action occurs in the
+Program Service Center (PSC) on the courtesy replacement check payment. If an automated
+F-stop is not possible, the PSC will input a manual F-stop action (For more information
+see GN 02408.025).
+NOTE: The F-stop prompts a status of the payment. For F-stop actions, Treasury sends a claims
+package to the beneficiary or recipient. Treasury also makes the claims package available
+in the Treasury Check Information System (TCIS).

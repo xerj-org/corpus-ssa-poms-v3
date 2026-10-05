@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - DI 81010.145 - Processing Reconsideration Requests of Field Office (FO) Determinations
+Effective Dates: 08/04/2026 - Present | TN 92 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010145 (fetched 2026-10-04)
+
+C. Title XVI Claims -- MSSICS Processing
+Do not use the language in Procedure When a Nondisability Denial Is Reversed SI 00603.011B.2., that says For a reopening that can be processed on MSSICS, choose DENIED CLAIM REOPENING
+from the SSI Menu (MSSI) and complete the full path. Use the following instructions.
+When a claim has been denied by the FO for failure to cooperate (N18) or another non-medical
+reason (N01, N04, etc.), and the denial is reversed based on an actual or implied
+reconsideration request, document the file with the special determination and the
+interim notice described in Processing a Reconsideration Request of an Initial Denial
+Based on Non-medical Issues - DI 12005.010.
+NOTE: When a claimant, denied for failure to cooperate, later submits the requested development,
+e.g., signed SSA-827s, within the appeal period, treat it as an implied request for
+reconsideration.
+If a DDS medical decision is required, you will have to update the existing denied
+claim with the appropriate appeal information, and establish a new MSSICS claim.
+1. DAY 1
+Open an appeal event to record the appeal information, and complete these screens
+with the following information:
+•
+ACAD - Enter an appeal level of RECONSIDERATION.
+•
+AISS Choose the appropriate appeal issue. For an N18 denial, enter an appeal issue of
+OTHER, and type in N18 next to EXPLAIN.
+•
+AJAS Leave the APPEAL STATUS as 1' PENDING IN APPEAL CONTROLLING OFFICE.
+•
+Consolidated Claims Experience (CCE) Development Worksheet
+- Enter a receipt date for the RECON REQ issue.
+•
+AJAS - After receipting in the RECON REQ issue on the CCE Development Worksheet, complete
+the APPEAL STATUS with '5' - DECISION EFFECTUATED.
+•
+ADIS - Enter DECISION TYPE as '1' - FULLY FAVORABLE, and enter the date of the interim
+notice in FULLY OR PARTIALLY FAVORABLE EFFECTUATION NOTICE DATE.
+•
+Build the SSR. The establishment of the APPE segment on the denied SSR will provide work credit
+for processing the SSI reconsideration, and the presence of the EFT date will prevent
+the appeal from pending on the WMI Appeals List.
+2. DAY 2
+Input a MANUAL CLEARANCE (2/12) to the denied record.
+REMINDER: Day two will be Tuesday after a weekend, or the second workday after a holiday.)
+Establish a new claim in MSSICS using the same application date. You may propagate
+the information from the MSSICS pending file that you just MANCLRd. Be sure to annotate
+REOPENED PRIOR CLAIM on CMSC to exclude the record from statistics. When you build
+the SSR, MSSICS will terminate the denied record and establish a new SSR in PSY:H80,
+unless you do full development and adjudicate the claim to pay.
+By following the steps shown above, you will establish a new claim that will be controlled
+on the SSI WMI I/C PENDING list, and in the event the claim is allowed, most notices
+will be automated by the system. Your office will also receive work credit for an
+SSI RECONSIDERATION when you build the APPE segment to the prior SSR.

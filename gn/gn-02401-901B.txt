@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02401.901 - Limited Payability Policy for Title II and Title XVI
+Effective Dates: 05/28/2024 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401901 (fetched 2026-10-04)
+
+B. Limited Payability (LP) credit policy
+Treasury identifies and records checks submitted to the government for payment. In
+the 12th month after issue, Treasury gathers information on checks not submitted for
+payment (determined to be “uncashed”). In the 13th month, Treasury furnishes SSA with
+LP credits. The credits contain identifying information and represent the funds for
+“uncashed” checks.
+NOTE: Treasury sends SSA an LP credit when they have no record that the check was cashed. Treasury credits or reimburses the SSA Trust Fund or the General Fund with the amount
+of the “uncashed” check.
+1. Title II process
+Treasury sends SSA an LP credit file and the agency creates the PHUS EVENT 169 UNNEG
+CK on PHUS with a RCLRN of “B”, “C”, “N”, or “I”. The RCLRN codes indicate the type
+of action taken on the credit. For more information on the RCLRN codes, see SM 00545.300.
+In addition to the LP file, the returned check program creates and sends an LP notice
+to the beneficiary or recipient. The LP notice can contain up to three check iterations
+that they may need to review.
+2. Title XVI process
+The Title XVI system receives the LP credit on a file sent from Treasury, posts it
+to the Unnegotiated Check Indicator (UCI) segment of the PMTH field on the SSR, and
+generates a K5 diary to the field office (FO). The UCI field in the PMTH segment on
+the SSR shows the status of the LP credit.

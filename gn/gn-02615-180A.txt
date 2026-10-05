@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+A. Information on selected SSI cases
+Systems selected, for relief processing, the SSI records meeting the class member
+criteria listed in GN 02615.100. The records selected have a warrant offense code in the Fugitive Felon SSA Control
+File (FFSCF) as listed in GN 02615.100B.1. All SSI class members selected for relief require a Redetermination (RZ) or a re-opening
+of the affected initial SSI application for reinstatement or effectuation of payments.
+Schedule and process an RZ, following instructions in GN 02615.180C in this section.
+1. Locating selected records
+You can locate class members with active records in Starz and Stripes the Next Generation
+(SSTNG) and Workload Listings RZ/LI (MI Central). Processing instructions for SSTNG
+cases are in GN 02615.180D in this section. SSTNG did not include class members with terminated records. Processing
+instructions for non-SSTNG cases are in GN 02615.180E in this section.
+2. Determining processing category in the Civil Action Tracking System (CATS)
+The selected class members may potentially be eligible for Clark relief on title II (T2), title XVI (T16), or both. Review the following to determine
+the processing category of your case:
+a.
+If the SSR indicates that we selected the case for Clark relief, refer the cases to
+the ^Clark Order mailbox with the Subject: CATS to determine the processing category
+or categories of selected class members. The email reply from the mailbox will provide
+the Court Case Identifier (CCID) indicating the processing category for each case
+as shown in GN 02615.100D. If the SSR does not indicate that we selected the case for Clark relief, follow instructions
+in GN 02615.190C.2.
+b.
+A class member with multiple CCIDs is a concurrent case. Process these cases according
+to instructions in GN 02615.180F in this section.
+3. Reviewing warrant periods identified with a CCID of C4
+Some selected cases may contain multiple or overlapping warrant periods which we identified
+as C4 in CATS. Use the following as guidance, if the case has:
+a. Multiple periods that contain an N25 suspension month
+•
+Review the Office of Inspector General (OIG) Subject Status Date on the Fugitive Felon
+Warrant Status (FFSQ) screen on the FFSCF. Consider the parole or probation violation
+(PPV) warrant with a status date of October 24, 2006, or later as eligible for Clark. For more information on FFSCF, see GN 02613.100; or
+•
+If the FFSCF does not provide an OIG status date on the PPV warrant, review the full
+history of the current and any prior Supplemental Security Record (SSR) to identify
+the N25 suspension month(s). Locate the initial determination notice in the Online
+Retrieval System (ORS) by searching the entire corresponding N25 suspension period.
+For example, if the N25 suspension period is 01/09 through 03/09, locate the Notice
+of Planned Action in ORS using 01/01/09-03/31/09 in the Posting Date fields. Confirm
+that the notice date of the initial determination is October 24, 2006, or later.
+•
+If the notice date of the initial determination is October 24, 2006, or later, provide
+relief for the N25 period.
+•
+If the notice date of the initial determination is before October 24, 2006, and no
+appeal exists on the N25 suspension period, do not provide relief. If an appeal exists
+on the N25 suspension period, see GN 02615.185.
+b. Overlapping periods for different warrants
+If there are overlapping periods for different warrants, and one of the warrants includes
+an offense code for 4901, 4902, or 4999, that warrant takes precedence. Do not provide
+Clark relief for the N25 suspension months based on a code of 4901, 4902, or 4999.

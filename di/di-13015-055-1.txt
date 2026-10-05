@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 13015.055 - FO Retrieving The Title II and Title II Portion of the Concurrent TII/TXVI CDR Folder/Medical Evidence
+Effective Dates: 07/27/2023 - Present | TN 17 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015055 (fetched 2026-10-04)
+
+1. Prior Title II Folder or Wrong Title II Folder Received
+There are situations in which an FO may need to obtain a Title II folder. These situations
+are usually related to disability issues, such as CDRs, appeals and reopening. (See
+MSOM CDR 001.014 the Disability Control File (DCF) informational screen (CDRWI)). Enter
+a “Y” in the prior folder block of the CDRI to
+establish a tickle control for receipt of your folder.
+Retrieve the proper Title II CDR medical folder ONLY in the following situations:
+•
+the folder received from the Megasite/Caves/PSC is not a medical folder ; or,
+•
+the folder received from the Megasite/Caves/PSC is for the wrong claimant, for example
+HA folder received and the childhood disability benefits (CDB) is due the CDR; or,
+•
+the folder received has the wrong account number (WAN); or,
+•
+the Title II folder is in a FO (see DI 13015.040E. and DI 13015.040F.)
+•
+the SSI recipient previously filed for Title II, such as CDB benefits, which have
+been denied or terminated. Look for the medical evidence, which could be housed in
+the Title II denied folder.
+•
+The Megasite/Caves storage facilities will not associate folders from other locations.
+For example, if processing center action control system (PCACS) shows a folder in
+an operational site, such as, PSC module location, a folder in a Caves location, a
+folder in PC7 AUXRH location, the Caves will pull and send only the Caves location
+folder but not the other two. In these cases, the FO must retrieve the folders if
+the Megasite/Caves folder does not contain the current medical evidence. Recall the
+Title II folder, following normal PCACS procedures.
+NOTE: Beginning February 2000, OCO began mailing feedback letters to offices that request
+folders through the PCACS folder request facility. The goal is to provide timely information
+about the status of a folder request.
+Successfully locating a folder often requires detective work. Use all resources available
+to avoid time-consuming and costly folder reconstruction. See DI 13015.080A. - DI 13015.080C. for helpful hints that can also be applied to TII folders.

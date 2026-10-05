@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - GN 01040.005 - Establishment of Diaries and Listings
+Effective Dates: 08/08/2023 - Present | TN 12 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201040005 (fetched 2026-10-04)
+
+B. Procedure - MCS
+1. MCS Screens
+When you adjudicate a claim via MCS, enter the appropriate diary and/or listing code
+on the Decision Input (DECI) screen and MCS automatically creates a control on PCACS.
+The DECI screen is the second of three possible screens within this path. The first
+screen is the File Date Determination Screen (FDDS) followed by the DECI screen and
+finally the Diary Screen (DIAR), which follows when a diary code is displayed on the
+DECI screen. The DIAR is a new MCS screen that is used to record up to 4 diary codes
+along with the due dates and descriptive reasons for establishment. This screen allows
+you to enter free-format text to explain the reason for the diary, providing more
+diary detail and represents an enhancement to the diary process.
+2. Signature Proxy or Alternative Signature
+Effective 10/14/05, it is no longer necessary to complete a Modernized Development
+Worksheet to alert the processing center that a Listing Code applies to the case.
+The Processing Center Action Control System (PCACS) will now create an Electronic
+Control Record (ECR) when a listing is received in PCACS and there is no paper associated
+with the listing. The ECR is a placeholder in PCACS that allows transactions (such
+as Listing Code updates) to be processed for accounts that have no paper folder associated
+with them.
+3. A101/EF 101
+When additional diaries are needed, annotate the appropriate diary/listing code and
+reason in the REMARKS field on the BCF/Remarks/Notice (BCRN) screen. Additional actions
+may also be indicated on the routing sheet; however FOs can use the Report Of Contact
+(RPOC) screen to include additional information. The instruction to the BA to check
+the RPOC screen should be annotated in REMARKS on the BCRN screen.
+4. Post-adjudicative Actions
+The Postadjudicative Routing form, SSA-409, is used to forward post-adjudicative material
+to the PSC. The SSA-409 replaces the Claims Routing form, SSA-3601, for routing post-adjudicative
+actions and can be used to notify the technician that they must take action on the
+material forwarded. If cancellation of a diary is the only PSC action needed, do not
+check additional blocks.  However, if additional action is required, check one of
+the numbered blocks. Currently only the PSC has the capability to establish post-entitlement
+diaries or cancel post-entitlement diaries. Fax the SSA-409 request for action to
+the PSC via the applicable paperless fax number.
+5. Listings
+MSOM PCACS 005.010 contains detailed instructions for adding and/or deleting listing
+codes for post-entitlement cases.
+1.
+From the SSA MENU MAIN, enter # 26 (PC Action Control System) in the SELECT THE DESIRED
+FUNCTION field and press ENTER. This will take you to the PCACS MAIN MENU (PMEN) screen.
+2.
+On the PMEN screen, the OFFICE CODE generated should be the office code to which you
+are assigned. Entries in this field will be in blue and cannot be overkeyed.
+3.
+In the UNIT field, enter a Unit identifier just as you would when using any other
+function in PCOM.
+4.
+In the ENTER SELECTION field, enter #17 (LISTINGS), in the SSN field enter the SSN.
+Press ENTER. This will take you to the LIST screen, which is used to add or delete
+listing codes.
+5.
+The LIST screen will show all listing codes (if any) are already on PCACS for the
+SSN. The cursor on the LIST screen will automatically be placed in the first listing
+code field. If there is already a listing code in this field, tab to the next available
+blank field to add a new listing code.
+NOTE: There are spaces for three listing codes. If all three spaces are filled with other
+listing codes, you must exit PCACS and send an MDW 2560 to the PSC with additional
+instructions.
+Do not enter listing codes in the spaces below the top line on the LIST screen. This
+will assign the listing code to a particular folder, which is incorrect since a listing
+code applies to the entire account.
+Enter the appropriate listing code for your situation in the 4-position field. It
+is important that you type an asterisk (*) as the first position followed by the 3-position
+listing code. If you do not type the * before the listing code you will receive the
+EDIT - LISTING CODE INDICATOR MUST EQUAL CSITE OR *.

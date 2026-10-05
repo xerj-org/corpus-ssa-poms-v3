@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - SI 00530.025 - Deferral of Overpayment Recovery
+Effective Dates: 01/25/2024 - Present | TN 18 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530025 (fetched 2026-10-04)
+
+C. Procedure
+Title XVI overpayments that result from a PSY of N25 suspension require a manual notice
+because these cases are excluded from the Automated Overpayment Notice System (AONS).
+(Refer to SM 01310.305)
+The system sets a B3 diary when it detects a new overpayment with a reason of payment
+status N25. A manual overpayment notice will need to be issued once a determination
+on the disposition of the charges on the unsatisfied warrant have been made by the
+appropriate court system or administrative governing body. The Notice of Planned Action
+to suspend payment for N25 will continue to be issued unless the user suppresses the
+regular notice. Continue to monitor the B3 diaries that are due to an N25 suspension
+for resolution.
+Once an individual has satisfied the felony warrant, they may be placed in payment
+status N22. These cases will not pass the N25 overpayment to RECOOP as long as the
+notice date is not input.
+On the Notice Suppression Screen in MSSICS, the user has the option of suppressing
+the regular notice, the AONS notice or both the regular and the AONS notices. (Refer
+to MSOM MS 00302.018 ).

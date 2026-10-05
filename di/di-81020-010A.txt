@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 81020.010 - Paper Folder Indicators (PFI)
+Effective Dates: 01/23/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020010 (fetched 2026-10-04)
+
+A. General
+Most disability claims are established in the Electronic Disability Collect System
+(EDCS). For a majority of these claims, the Certified Electronic Folder (CEF) is the
+agency’s official record. Sometimes, a CEF exclusion exists, so a paper folder must
+be created for the entire case. (See Certified Electronic Folder (CEF) Exclusions
+- DI
+81010.030, for more information about CEF exclusions). In order to tell what kind of folder
+has been created for each disability claim, eDib displays PFIs.
+PFIs inform case processing components if:
+•
+The official folder for the current filing is paper or a CEF; and
+•
+To expect a paper folder for the current filing or a prior filing when the case is
+transferred.
+It is extremely important that the PFIs are set correctly. Receiving offices reject
+jurisdiction of an electronic case if they do not receive a paper folder within the
+present number of days established for their office by the Regional Office (RO) when
+the PFI indicates a paper folder for the current claim is being sent (see Electronic
+Folder Interface (EFI) Download - DI 81020.005B.).
+NOTE: For eCDR PFIs, see Transferring the Electronic Continuing Disability Review (eCDR)
+- DI 81010.240B. and Receipting an eCDR -DI 81020.205E.

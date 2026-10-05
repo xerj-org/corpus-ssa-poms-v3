@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 00204.048 - Processing Month of Elections (MOEL) Exceptions
+Effective Dates: 01/03/2017 - Present | TN 123 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204048 (fetched 2026-10-04)
+
+D. Procedure for processing MOEL T2R exceptions based on the MOEL option code
+NOTE: For full definitions of each option code, see GN 00204.041.
+1.
+Records with a MOEL option code “A”
+Step 1: Determine the beneficiary’s earliest possible date of entitlement (EPDOE) and apply
+the AET.
+Step 2: Are any benefits payable in the year of enforcement using the EPDOE?
+•
+If no, move the MOEL to:
+•
+January of the following year and annotate the record with “MOE change not confirmed,”
+or
+•
+the month of FRA, if the beneficiary’s MOEL is in the year of FRA and annotate the
+record with “MOE changed and confirmed.”
+•
+If yes, go to step 3 to determine the adjusted MOEL.
+Step 3: Are there NSMs?
+•
+If no, the adjusted MOEL is the beneficiary’s EPDOE or January of the enforcement year,
+whichever is later.
+•
+If yes, are any benefits payable before the first NSM?
+•
+No – the adjusted MOEL is the beneficiary’s first NSM.
+•
+Yes – the adjusted MOEL is the beneficiary’s EPDOE or January of the enforcement year,
+whichever is later.
+Step 4: Is the current MOEL equal to the adjusted MOEL?
+•
+If yes, do not move the current MOEL and annotate the record with “MOE confirmed.”
+•
+If no, calculate the total amount of benefits payable after the appropriate AET charge
+off from the:
+•
+current MOEL up to, but not including, the month of FRA; and
+•
+adjusted MOEL up to, but not including, the month of FRA.
+Step 5: Compare the total benefits payable from the current MOEL with the total amount of
+benefits payable from the adjusted MOEL as determined in Step 4.
+Step 6: Are the total benefits payable using the current MOEL equal or higher than the total
+benefits payable using the adjusted MOEL?
+•
+If yes, do not move the current MOEL and annotate the record with “MOE confirmed.”
+•
+If no, move the NH MOEL to the adjusted MOEL and annotate the record with “MOE changed
+and confirmed.” If there are auxiliaries on the record, refer to section E of this
+chapter to determine the MOET or whether contact is needed.
+2.
+Records with MOEL option code “B”
+Step 1: Apply the AET using the current MOEL and charge off the excess earnings as per current policy rules in RS 02501.095. If the beneficiary is due only a partial payment in December of the enforcement
+year, no action is needed.
+Step 2: Is the beneficiary due a partial payment in the month before FRA that does not result
+in a permanent reduction?
+•
+If no, move the MOEL to the FRA month and annotate the record with “MOE changed and confirmed.”
+•
+If yes, move the MOEL to the month that allows the partial payment and annotate the record
+as “MOE changed and confirmed.” If there are auxiliaries on the record, refer to GN 00204.048E in this section to determine the AUX MOET or if contact is needed.

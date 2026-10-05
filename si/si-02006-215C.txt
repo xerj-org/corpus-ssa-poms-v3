@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - SI 02006.215 - Record Corrections, Payments, and Notices
+Effective Dates: 06/01/2009 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006215 (fetched 2026-10-04)
+
+C. MSSICS 4.4 Support for Attorney Fee Recomputation
+Effective 5/27/97, in some cases, use MSSICS to trigger an automated windfall offset
+computation using type “W” amounts adjusted for the attorney fees. In situations in which the PSC/ODIO asks
+the FO to recalculate the offset amounts because the attorney fee plus the calculated
+FOA/SOA exceed the total retroactive Title II benefits, use the CWIN screen and the
+ISSA screen to trigger an automated computation using the adjusted Title II amounts.
+This procedure can be used only if the following conditions exist:
+•
+The Title II retroactive benefits have not been released, (i.e., a 6W diary is present).
+•
+There is an active MSSICS pending file.
+•
+For MSSICS cases that were seeded, the windfall period cannot begin before the Seed
+Date.

@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - GN 02610.050 - Complex Offset Situations with Case Examples
+Effective Dates: 03/14/2013 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610050 (fetched 2026-10-04)
+
+G. Case type: Computing windfall offset when the Critical Payment System (CPS) has paid
+Title II benefits in the windfall offset period.
+1. CPS payments paid in Title II/Title XVI windfall offset period do not affect windfall
+offset period.
+Payments made through CPS do not affect the definition of a windfall period. CPS payments
+are shown on the SSR as type A unearned income. The offset period:
+•
+begins the later of the month of eligibility to SSI or the month after the month of
+entitlement to Title II; and
+•
+ends 2 months after the month the last Title II benefit included in the prior month
+accrual (PMA) payment would have been paid.
+For more information about the windfall offset period, see GN 02610.022.
+For more information about CPS payments, see SM 00635.001.
+2. Income treatment of CPS payments
+CPS payments are shown on the SSR as type A unearned income. When the FO issues CPS
+payments while windfall offset is pending, adjustments may be required to the:
+•
+total RSDI withheld (WPA);
+•
+type A income on the SSR; or
+•
+type W amounts used in the windfall offset computation.
+3. When to process offset cases involving CPS payments
+Process Title II or Title XVI offset cases when:
+•
+Title II payments have been established through regular current monthly accrual (CMA)
+payments; or
+•
+the appropriate suspense or termination code is input to the MBR; or
+•
+the FO is no longer paying CPS payments.
+4. CPS payment equals the Title II monthly benefit payment (MBP) in a month in the windfall
+period
+When a CPS payment equals the MBP, post the CPS payment as type A unearned income
+in the month received and post type W unearned income equal to zero for the same month.
+Subtract the CPS amount from the total retroactive Title II benefits in the windfall
+offset (WPA).
+5. CPS payment is less than the monthly benefit payment (MBP) in a month in the windfall
+period
+When a CPS payment is less than the correct Title II MBP, post the CPS payment as
+type A unearned income in the month received and post the additional monthly amount
+due as type W unearned income for the same month. Subtract the CPS amount from the
+total retroactive title II benefits withheld for windfall offset (WPA).
+6. CPS payment larger than the monthly benefit payment for a month in the windfall period
+When a CPS payment is larger than the MBP, post the CPS payment as type A unearned
+income in the amount of the MBP in the month received.
+When the PC sends the CPS information on the e4345, the FO will:
+•
+post the amount of the type A unearned income equal to the MBP in the UMIH field on
+the SSR;
+•
+post the type W amount as $0 for the same month; and
+•
+subtract the CPS amount from the total retroactive title II benefits withheld for
+windfall offset (WPA).
+The PC does not determine an underpayment or an overpayment until the FO completes
+the windfall offset computation.
+7. CPS payment is issued in a month outside of the windfall period while windfall offset
+computation is pending
+When a CPS payment is issued in a month outside the windfall period and the windfall
+offset computation is still pending, the PC does not determine an underpayment or
+an overpayment until the FO completes the windfall offset computation. The type A
+unearned income on the SSR should reflect only the MBP for that month. The type A
+unearned income posted may require an adjustment if the MBR interface has included
+the CPS payment in the type A unearned amount. Make no adjustment to the WPA for CPS
+payments issued in months outside of the windfall period.

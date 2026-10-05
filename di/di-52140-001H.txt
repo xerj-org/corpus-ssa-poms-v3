@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - DI 52140.001 - Field Office (FO) Responsibilities for Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 06/03/2010 - Present | TN 10 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140001 (fetched 2026-10-04)
+
+H. Establishing controls for WC/PDB in the FO
+When the next follow-up will be less than 6 months from the date the FO initially identifies the issue that needs to be controlled,
+use the Modernized Development Worksheet (MDW) tickle dates to control for future
+follow-ups. For instructions for establishing the MDW, see MS 03901.003.
+If the next follow-up will be due 6 months or more from when the control was initially established, responsibility then transfers to
+the Processing Center (PC) and the control will be set up using a Processing Center
+Action Control System (PCACS) diary, see MS 04902.001.
+1. Follow-up timeframes
+Determine the specific timeframe based on the status of the WC/PDB claim:
+•
+When the claimant alleges filing a WC/PDB claim but the decision is pending, use the
+MDW to control for further follow-ups by the FO and establish a tickle date not to
+exceed 6 months in the future based on a reasonable estimate of the expected decision
+date. For instruction for establishing the MDW, see MS 03901.003.
+•
+When the tickle date matures, verify the status of the claim (e.g., checking all files
+to see if the NH provided a status on the WC/PDB claim, contacting the NH for the
+status, following the verification procedures in DI 52145.001F for status of the pending claim if the NH cannot provide the status). Continue to
+control, as needed, based on the updated expected decision date until the WC/PDB claim
+is final.
+•
+When the claimant has provided some WC/PDB evidence, but additional evidence is needed
+to correctly compute the offset, use an initial tickle date 60 days in the future
+with two additional 30-day follow-ups, as needed, to obtain the proof.
+•
+When the next follow-up due date is more than 6 months in the future, the FO updates
+the MDW and transfers jurisdiction to the PC.
+•
+In all cases, if you do not receive a response from the NH, attorney, or from other
+appropriate sources (see DI 52145.001F.3) after a reasonable effort to secure proof, send a due process notice per DI 52140.001I.
+•
+Set a 30-day control to adjudicate the WC/PDB action and to impose full offset by
+using the applicable State maximum rate (see DI 52150.045) if we do not receive a response.
+2. Initial Claims
+a. Follow-up date is 6 months or less in the future
+Maintain control in the FO by using the MCS DW01/DW02 screens (if you expect a decision
+within 4 months) or by MDW tickle control as follows:
+•
+Establish an MDW using the appropriate unit code. For instructions on establishing
+the MDW, see MS 03901.003.
+•
+Use CATEGORY T2WC on the line with the tickle date.
+•
+Request the RMKS screen and provide complete information stating the reason for the
+control.
+b. Follow-up date is more than 6 months in the future
+Establish the diary (e.g., diary code 042) using MCS DECI and DIAR screens as follows:
+•
+If the expected decision date is over 6 months in the future, key over the diary date
+generated on the DECI screen with the correct expected decision date.
+•
+Complete the DIAR screen with an explanation of why we are establishing the diary
+(Example: “Expected decision date is more than 6 months in the future.”).
+3. Post-entitlement (PE) actions
+a. The PE action being established is 6 months or less in the future
+The FO establishes an MDW tickle date for its own field office to process the future
+necessary action per DI 52140.001H.1 in this section.
+b. Diary date being established is more than 6 months in the future
+Send an MDW request to the servicing PC to establish the diary as follows:
+•
+Key over the FO field with the correct PC and enter NEW in the unit field.
+•
+On the request line, use “T2WC diary” as the ISSUE and “2560” as the CATEGORY. For
+instructions for establishing the MDW, see MS 03901.003.
+•
+Enter today’s date in the REQUEST field, tomorrow’s date in the TICKLE field, and
+“see remarks” in the REMARKS field.
+•
+Request the RMKS screen. On that screen, include “Please establish diary in PCACS,
+diary due date (MM/DD/YYYY).” Also, provide a complete explanation regarding the need
+for establishing the diary.

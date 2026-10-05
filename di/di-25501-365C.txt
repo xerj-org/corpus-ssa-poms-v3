@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 25501.365 - Established Onset for Medicare Qualified Government Employment (MQGE) Claims
+Effective Dates: 10/21/2021 - Present | TN 32 (10-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0425501365 (fetched 2026-10-04)
+
+C. Component instructions for Medicare qualified government employment (MQGE) claims
+1. Field office (FO)
+•
+Generally, the DLI will propagate from the Modernized Claim System (MCS) into the
+Electronic Disability Collect System (EDCS). If the DLI does not propagate, enter
+the most recent DLI in the space provided and check the Date Last Insured box on the
+EDCS screens (see DI 81010.025A.1.) or in items 3 and 4 of the paper SSA-3367-F5.
+•
+Enter the POD in the EDCS-3367.
+•
+Enter the following statement in the “Explanation for Recommended Onset Date, When
+Applicable” box on the EDCS screens or in item 5 on the paper SSA-3367: “Possible
+Later DLI for Medicare purposes only due to claimant being a Medicare Qualified Government
+Employee.” (The DDS will contact you if they cannot establish disability before the
+DLI and request a MQGE DLI.)
+•
+EDCS will identify the claim as an MQGE claim once the claims representative indicates
+the claim is MQGE on the IND2 screen in MCS. If the claim is a concurrent DIB/MQGE,
+create a message in EDCS identifying the claim as a concurrent DIB/MQGE case.
+2. Disability Determination Services (DDS)
+Take the following actions after the FO determines the claimant’s AOD, POD, DFI, and
+DLI.
+a.
+Secure sufficient medical and non-medical evidence that supports the earliest possible
+EOD based on technical factors including the DFI and the POD.
+b.
+Establish the earliest possible EOD based on the claimant’s POD and the medical and
+other evidence in file using the policy stated in DI 25501.365A in this section. The EOD cannot be earlier than the DFI or later than the DLI.
+c.
+If the FO provided only a DIB DLI and you cannot establish onset before the DIB DLI:
+•
+contact the FO to determine the MQGE DLI. Document your conversation on an SSA-5002
+(Report of Contact) form, and
+•
+determine if you can establish onset on or before the MQGE DLI.
+d.
+If you know the month of the EOD, but you do not know the specific day, establish
+the EOD on the last day of the month. However, if the AOD/POD is the first day of
+the month in which you establish onset, you must fully develop the claim to determine
+the exact EOD.
+NOTE: In some instances, you may need to consider the severity of the claimant’s condition
+(in the absence of SGA) before the DFI, to evaluate the 12-month duration period.
+e.
+If the actual onset of disabling severity predates the DFI, on the SSA-831 (Disability
+Determination and Transmittal), take the following actions:
+•
+Enter the EOD in item 15A.
+•
+Enter the following statement, “Item 15A is based on date first insured. Impairment(s)
+was of disabling severity for purposes of the duration requirement as of [enter the
+date],” in item 34.
+NOTE: The EOD as of the DFI is fully favorable. See the second bullet in DI 25501.280A.2.

@@ -1,0 +1,343 @@
+SSA Program Operations Manual System (POMS) - GN 00210.805 - Same-Sex Relationships - <Italic>Ely</Italic> District Court Decision - Processing Claims, Appeals, and Reopening Requests for Widow(er)'s Benefits
+Effective Dates: 04/09/2025 - Present | TN 65 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200210805 (fetched 2026-10-04)
+
+F. Processing instructions for claims, appeals, and requests to reopen
+1. Initial claims
+•
+Take the claim in MCS.
+•
+Enter “527” in the last 3 positions of the Unit Code on the Development Worksheet
+(DW01) in MCS. This code will help identify these cases. If a pending claim already
+has "626" and a letter in the first 4 positions of the Unit Code, delete the "626"
+and letter coding before entering "527" in the last 3 positions. For new cases, do
+not enter "626" and a letter in the first 4 positions of the Unit Code as you normally
+would for a same-sex relationship claim per GN 00210.020A. When a claim is coded with a "527", the instructions in this POMS section supersede
+and replace the instructions in GN 00210.020A regarding the unit type code for same-sex relationship claims.
+•
+Advise the claimant that we need more information to determine if we can treat the
+9-month duration of marriage requirement as satisfied based on the decision in Ely
+v.
+Saul.
+•
+Follow instructions in GN 00210.805C, D, and E in this section to develop evidence and determine whether the couple would
+have been married for at least 9 months but for an unconstitutional State law prohibition
+on same-sex marriage.
+•
+Prepare a RPOC in MCS that clearly states the rationale for determining that the surviving
+spouse either does or does not qualify for widow(er)’s benefits pursuant to Ely, i.e., explain your reasons for concluding that the couple would or would not have
+been married for at least 9 months if no unconstitutional State law prohibiting same-sex
+marriage had existed.
+NOTE: If you are unable to make a determination based on the evidence provided, submit
+the claim for a legal opinion following instructions in GN 01010.815.
+a. The couple would have been married for at least 9 months but for an unconstitutional
+State law
+If, based on the information provided and evidence obtained, you determine the couple
+would have been married for at least 9 months but for an unconstitutional State law
+prohibiting same-sex marriage, process the application recognizing the claimant as
+a surviving spouse and accept the allegation of the date on which they would have
+married for purposes of establishing a marriage date and:
+•
+Change the date of the couple’s marriage on the NH Marriage (NMAR) and Beneficiary
+Marriage (BMAR) screens in MCS to the date on which the claimant would have married,
+if the couple had been permitted to do so under State law.
+NOTE: If you determine that the couple would have been married for at least 9 months, but
+the information provided does not establish any specific date on which they would
+have been married, enter a date that is exactly 9 months earlier than the date of
+the NH’s death.
+•
+Enter listing code “527” on the Decision Input (DECI) screen in MCS.
+•
+Review the claimant’s record to determine whether the claimant is currently receiving
+other benefits. If the claimant is awarded widow(er)’s benefit under this POMS section
+and is currently receiving other benefits, see GN 00210.805F.1.c in this section.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice and adjudicate
+the award using standard procedures.
+•
+If the claimant is deceased and an underpayment is due, see GN 02301.030 through GN 02301.075 for instructions on how to process the underpayment.
+b. Couple would not have been married for at least 9 months but for an unconstitutional
+State law and claimant is entitled to additional consideration pursuant to Ely
+If you determine the claimant is entitled to additional consideration pursuant to
+Ely and the couple would not have been married for at least 9 months but for an unconstitutional
+State law prohibiting same-sex marriage, follow these instructions:
+•
+Obtain secondary review of the claim from either a member of management or CTE.
+•
+If the management official or CTE concurs with your determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the surviving spouse does not qualify for benefits under Ely
+v.
+Saul.
+NOTE: If the management official or CTE disagrees with the determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the surviving spouse qualifies for benefits under Ely
+v.
+Saul. To resolve conflicting rationales, contact Regional Office (RO) support staff for
+additional guidance. If the final determination is the surviving spouse qualifies
+for benefits under Ely
+v.
+Saul, see GN 00210.805F.1.a in this section.
+•
+Do not change the date of the couple’s marriage on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “527” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the claim using standard procedures.
+c. Couple would not have been married for at least 9 months but for an unconstitutional
+State law and claimant is not entitled to additional consideration pursuant to Ely
+If you determine the claimant is not entitled to additional consideration pursuant
+to Ely (see GN 00210.805D.1, D.2, and D.3 in this section) and the couple would not have been married for at
+least 9 months but for an unconstitutional State law prohibiting same-sex marriage,
+follow these instructions:
+•
+Do not obtain a secondary review.
+•
+Do not change the date of the couple’s marriage on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “527” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice
+•
+If the claim will be processed via Automated 101 (A101) or an Electronic Form 101
+(EF101), use the claim report of contact (RPOC), the A101 Benefit Continuity Remarks/Notice
+(BCRN) or the EF101 remarks continued (EFBCRN) screens to alert the PC that Ely processing instructions in this section must be followed.
+•
+Adjudicate the claim using standard procedures.
+d. Adjudicating a claim where an individual eligible for widow(er)’s benefits under Ely is receiving other benefits
+If a claimant eligible for widow(er)’s benefits under Ely is currently receiving other benefits, determine whether an award of widow(er)’s
+benefits would affect (1) the claimant’s eligibility for those other benefits, or
+(2) the monthly benefit amount the claimant is receiving.
+•
+Consider benefits that were available to the claimant at the time of their prior application(s).
+•
+Consider prior filings when presenting the claimant with the possible options available
+because of the eligibility for widow(er)’s benefits under the NH’s record.
+•
+Consider entitlement to AUXSPO benefits during the established period of marriage
+to the deceased NH and apply deemed filing as appropriate per GN 00204.035.
+•
+Present options that consider prior filings, deemed filing, monthly benefit amounts,
+retroactive payments, delayed retirement credits (DRC), Government Pension Offset
+(GPO), and the Supplemental Security Income (SSI) requirement to file for other program
+benefits.
+If you determined that a claimant and the NH would have been married for at least
+9 months but for an unconstitutional State law prohibiting same-sex marriage, the
+claimant may file for the benefits that they would have been entitled to as a spouse.
+While current regulations and policy limit withdrawals of Retirement Insurance Benefits
+(RIB) to one approved RIB withdrawal per lifetime, because of the court’s decision
+and the agency’s agreement to end litigation, we will permit withdrawal requests by
+claimants who are awarded widow(er)’s benefits. In these cases, we will:
+•
+allow a claimant eligible for widow(er)’s benefits pursuant to Ely who is receiving RIB on their own record to submit a withdrawal request more than
+12 months after the first month of entitlement on their own record;
+•
+not count an approved withdrawal of a previous RIB claim toward the limit of one approved
+RIB withdrawal in the claimant’s lifetime; and
+•
+require that all other criteria in GN 00206.005A be met, including repayment of all benefits received.
+NOTE: These instructions also apply to awards resulting from an appeal or request to reopen.
+2. Appeals
+•
+Confirm that the initial claim was denied using denial code 31 (Does not meet the
+duration of marriage requirement).
+•
+Load the appeal in MCS.
+•
+Enter “527” in the last 3 positions of the Unit Code on the DW01 in the MCS. This
+code will help us identify these cases. If the claim already has "626" and a letter
+in the first 4 positions of the Unit Code, delete the "626" and letter coding before
+entering "527" in the last 3 positions. When a claim is coded with a "527", these
+instructions supersede and replace the instructions in GN 00210.020B regarding unit type code for same-sex relationship claims.
+•
+Advise the claimant that we need more information to determine if we can treat the
+9-month duration of marriage requirement as satisfied based on the decision in Ely
+v.
+Saul since they were not married for 9 months prior to their spouse’s death, which is
+a requirement for entitlement to widow(er)’s benefits.
+•
+Follow instructions in GN 00210.805C, D, and E in this section to develop evidence and determine whether the couple would
+have married earlier but for an unconstitutional State law prohibition on same-sex
+marriage.
+•
+Prepare a RPOC in MCS that clearly states the rationale for determining that the surviving
+spouse either does or does not qualify for benefits under Ely
+v.
+Saul. Explain your reasons for concluding that the couple would not have married in time
+to meet the 9-month duration of marriage requirement, even if no unconstitutional
+State laws prohibiting same-sex marriage had existed.
+a. Reconsideration - initial determination reversed
+For claims that are pending at the reconsideration level of the administrative review
+process, if reversing a denial of benefits based on the decision in Ely:
+•
+Change the date of the couple’s marriage on the NMAR and BMAR screens in MCS to the
+date on which the claimant alleges they would have married if they had been permitted
+to do so under State law and if supported by the information and evidence provided.
+NOTE: If you determine that the couple would have been married for at least 9 months, but
+the information provided does not establish any specific date on which they would
+have been married, enter a date that is exactly 9 months earlier than the date of
+the NH’s death.
+•
+Enter listing code “527” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Effectuate the reversed determination following standard procedures.
+b. Reconsideration - Initial determination affirmed and claimant is entitled to additional
+consideration pursuant to Ely
+If you determine the claimant is entitled to additional consideration pursuant to
+Ely and the couple would not have been married for at least 9 months but for an unconstitutional
+State law prohibiting same-sex marriage, follow these instructions:
+•
+Obtain secondary review of the claim from either a member of management or CTE.
+•
+If the management official or CTE concurs with your determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the couple does not qualify for benefits under Ely
+v.
+Saul.
+NOTE: If the management official or CTE disagrees with the determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the couple qualifies for benefits under Ely
+v.
+Saul. To resolve conflicting rationales, contact RO support staff for additional guidance.
+If the final determination is the surviving spouse qualifies for benefits under Ely
+v.
+Saul, see GN 00210.805F.2.a in this section.
+•
+Do not change the date of the couple’s marriage on the NMAR and BMAR screens in MCS.
+•
+Enter listing code "527" on the DECI screen in MCS.
+•
+Enter a "Y" next to "Incomplete" on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the appeal using standard procedures.
+c. Reconsideration - Initial determination affirmed and claimant is not entitled additional
+consideration pursuant to Ely
+If you determine the claimant is not entitled to additional consideration pursuant
+to Ely and the couple would not have been married for at least 9 months but for an unconstitutional
+State law prohibiting same-sex marriage, follow these instructions:
+•
+Do not obtain a secondary review.
+•
+Do not change the date of the couple’s marriage on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “527” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the appeal using standard procedures.
+d. Hearing Requests
+•
+Confirm that the initial claim and reconsideration were denied using denial code 31
+(Does not meet the duration of marriage requirement).
+•
+Follow established procedures for sending non-medical appeals to the Office of Hearings
+Operations.
+•
+Ensure that the comment “Ely court case” is included in the subject line of any email correspondence.
+•
+FO will add comment “Use court characteristic ELY1 to identify as Ely District Court Decision Case” to any email correspondence.
+3. Requests to reopen
+These instructions apply to surviving spouses of same-sex marriages who question a
+prior final determination or decision in which their claim for widow(er)’s benefits
+was denied for failure to meet the 9-month duration of marriage requirement.
+NOTE: If the claimant is deceased and someone contacts SSA on their behalf, see GN 00210.805F.3.c in this section.
+Because these prior final determinations or decisions may have been based on unconstitutional
+State laws prohibiting same-sex marriage, reference GN 04010.020A and GN 04020.080 on how to reopen such claims.
+•
+Ensure we denied the initial claim using denial code 31 (Does not meet the duration
+of marriage requirement).
+•
+Load a new segment in MCS. On the RMKS screen, include a statement from the widow(er)
+that he or she thinks the prior determination was incorrect. For inquiries made on
+behalf of a deceased claimant, include a statement from the individual who contacted
+SSA.
+•
+On the DW01 in MCS, enter "527" in the last 3 positions of the Unit Code to identify
+these cases. If the claim already has "626" and a letter in the first 4 positions
+of the Unit Code, delete the "626" and letter coding before entering "527" in the
+last 3 positions. When a claim is coded with a "527", the instructions in this POMS
+section supersede and replace the instructions in GN 00210.020A regarding the unit type code for same-sex relationship claims.
+•
+Advise the claimant or individual who contacted SSA on behalf of a deceased claimant
+that we need more information to determine if we can treat the 9-month duration of
+marriage requirement as satisfied based on the decision in Ely
+v.
+Saul.
+•
+Follow instructions in GN 00210.805C, D, and E in this section to develop evidence and determine whether the couple would
+have married earlier but for an unconstitutional State law prohibition on same-sex
+marriage.
+NOTE: If you are unable to make a determination based on the evidence provided, submit
+the claim for a legal opinion following instructions in GN 01010.815.
+a. Couple would have been married for at least 9 months but for an unconstitutional State
+law prohibition on same-sex marriage
+If, after developing the evidence, you determine that the couple would have been married
+for at least 9 months but for an unconstitutional State law prohibition on same-sex
+marriage:
+•
+Reopen the claim pursuant to GN 04010.020A and GN 04020.080.
+•
+Prepare a RPOC in MCS that clearly states the rationale for determining that the surviving
+spouse qualifies for benefits under Ely
+v.
+Saul. Explain your reasons for concluding that the couple would have been married for
+at least 9 months if no unconstitutional State law prohibiting same-sex marriage had
+existed.
+•
+Follow the instructions in GN 00210.805F.1.a in this section (The couple would have been married for at least 9 months but for
+an unconstitutional State law).
+•
+If the claimant is deceased and an underpayment is due, see GN 02301.030 through GN 02301.075 for instructions on how to process the underpayment.
+b. Couple would not have been married for at least 9 months but for an unconstitutional
+State law prohibition on same-sex marriage
+If, after developing the evidence, you determine that the couple would not have been
+married for at least 9 months but for an unconstitutional State law prohibiting same-sex
+marriage:
+•
+Do not reopen the claim.
+•
+Prepare a RPOC in MCS that clearly states the rationale for determining that the surviving
+spouse does not qualify for benefits under Ely
+v.
+Saul. Explain your reasons for concluding that the couple would not have been married
+for at least 9 months, even though an unconstitutional State law prohibiting same-sex
+marriage existed.
+•
+Refer the case to a member of management or CTE for a secondary review of your determination
+not to reopen the prior denial, before sending any notice.
+•
+If the management official or CTE concurs with your determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the surviving spouse does not qualify for benefits under Ely
+v.
+Saul.
+NOTE: If the management official or CTE disagrees with your determination, the management
+official or CTE will prepare a RPOC in MCS that clearly states the rationale for determining
+that the surviving spouse qualifies for benefits under Ely
+v.
+Saul. To resolve conflicting rationales, contact RO support staff for additional guidance.
+REMINDER: If the relationship began on or after June 26, 2015, or the NH died after June 26,
+2017, the secondary review is not needed.
+•
+If the determination is that the surviving spouse does not qualify for benefits under
+Ely
+v.
+Saul, manually clear the claim.
+•
+Prepare and send the “Ely Class Action - Refusal to Reopen” notice via Document Processing
+System (DPS), which includes Universal Text Identifiers (UTI) CAS023 and CAS020. For
+UTI language, see GN 00210.805H in this section.
+c. If the claimant is deceased and someone contacts SSA on their behalf based on the
+Ely decision
+•
+If that person provides the deceased claimant’s name and SSN, and would be eligible
+to receive an underpayment on the deceased claimant’s record, see GN 02301.030. and follow the instructions in GN 00210.805.F3 in this section.
+•
+If that person would not be eligible to receive an underpayment on the deceased claimant’s
+record (see GN 02301.030), explain to them that we can take another look at the deceased person’s claim if
+someone who would be due an underpayment on the deceased person’s record contacts
+us.

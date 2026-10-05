@@ -1,0 +1,110 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+C. RZ case processing
+When preparing an RZ for the selected cases, follow normal medical and non-medical
+eligibility rules when applying Clark relief. In order to provide Clark relief, consider the following in your review.
+1. Preparing for an RZ appointment
+This section provides guidance on completing the RZ and situations to consider when
+processing relief.
+a.
+Provide the recipient 60 days from the issuance date of the RZ appointment letter
+to contact us. If the recipient does not initially respond, send one follow up letter
+15 days from the issuance date of the RZ appointment letter. Use the standard follow-up
+notice located in either the document processing system (DPS) or SSTNG. For instructions
+on issuing the RZ appointment letter, see GN 02615.180C.2 in this section.
+b.
+When possible, consider telephone appointments. A face-to-face RZ is not required.
+c.
+If a record shows a completed RZ for the period that Clark relief might apply, complete a new RZ for all N25 months when you determine eligibility
+for Clark relief.
+d.
+If you initiate a Clark RZ and the recipient does not cooperate with your requests for evidence, follow procedures
+in SI 02301.235.
+e.
+If a case requires an Age 18 Disability Redetermination, send the class member a Clark RZ appointment letter and Adult Disability Starter kit. For additional instructions
+on processing an Age 18 RZ, see DI 52522.001.
+If a class member responds:
+•
+Complete a RZ for the potential Clark relief period through the present.
+•
+Send the case to DDS for an adult disability determination following the instructions
+in DI 52522.001.
+•
+After you send the medical information to DDS for a medical determination, mark the
+case complete.
+•
+Close out the PPV warrant in the FFSCF following instructions in GN 02615.180C.3 in this section.
+If the class member does not respond:
+•
+Send an SSA-L991 (SSI Informal Denial) with Clark language. For an example of this notice, refer to GN 02615.160.
+•
+Annotate the SSR with the remark, Clark Court Order Non-Responder
+f.
+For cases with an appeal pending on the latest SSR or posted October 24, 2006, or
+later for either a medical or a non-medical issue, see GN 02615.185.
+2. Preparing the Clark RZ appointment letter
+Send all selected class members a Clark RZ appointment letter by following these steps:
+a. SSTNG
+•
+On the Letter Options screen, select RZ/LI Interview/Forms.
+•
+Select First Request.
+•
+On the Initial Fill-Ins screen, Status will automatically identify the case as a Clark
+Court Case and include the Clark language.
+•
+Select Save and Print. The printed letter will automatically include the Clark language.
+b. Non-SSTNG
+•
+Send a manual Clark RZ appointment letter from DPS.
+•
+The letter is located in the Post Entitlement category and titled T-16 Clark Redetermination
+Appointment Notice.
+•
+Send a copy of the RZ appointment letter to the Online Retrieval System (ORS).
+3. Recording the Clark relief
+Annotate the FFSCF, Fugitive Felon Automated Processing (FFAP) website, and the Modernized
+SSI Claims System (MSSICS) for all cases whether or not you provide Clark relief.
+a. FFSCF
+To annotate the FFSCF:
+•
+Access FFSCF from the SSA main menu, by following instructions in MSOM PRISON 001.002.
+•
+On the FFDG (Fugitive Felon Warrant Due Process/Good Cause) screen within the FFSCF,
+enter CRT (court) as the Good Cause reason and use the decision date of 04/13/2012
+(date of final Clark court order). In the remarks section, enter Clark Court Order. For FFDG inputs, see
+MSOM PRISON 006.007.
+b. FFAP
+To annotate the FFAP website:
+•
+Access the FFAP system.
+Click the corresponding Good Cause View button on the OI-5D Listing Screen.
+Select CRT from the Good Cause Code drop-down list on the Good Cause Screen.
+•
+Click the Submit Good Cause Info button to enter the decision.
+c. MSSICS
+To annotate MSSICS:
+•
+On the Parole Probation Violation Warrant (AWRP) screen, enter N for Warrant Selected/Issued
+in Error. For information on the AWRP screen, see MSOM MSSICS 008.024.
+•
+In the Good Cause field, enter 1 to show good cause was established.
+4. Referring cases to the DDS
+Refer the following cases to the DDS using the instructions in DI 52522.001.
+a.
+Subsequent medical denial on a new initial claim after the recipients record terminated
+due to N25 suspension;
+b.
+A closed period of Clark relief prior to a subsequent medical denial;
+c.
+Reopened N25 technically denied claim. For types of technically denied claims, see
+DI 52522.001A.1.; or
+d.
+An age 18 medical redetermination. For processing instructions, see GN 02615.180C.1.e in this section.
+5. Cases with subsequent medical determinations made at other appeal levels
+If a case has a previous medical allowance with a subsequent unfavorable medical determination,
+send a request to DDS, Office of Hearings Operations (OHO), or the Appeals Council
+(AC) and request that they vacate the unfavorable medical determination using instructions
+in DI 52522.001.

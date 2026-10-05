@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02402.430 - Coding Arab Emirates Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/25/2023 - Present | TN 231 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402430 (fetched 2026-10-04)
+
+G. Example of coding bank data for United Arab Emirates
+The customer provides us with the IBAN AE070331234567890123456
+•
+The first two characters of a United Arab Emirates IBAN are “AE,” that represents
+the International Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The fifth through seventh characters of the IBAN represent the three-digit bank code.
+•
+The last 16 digits of the IBAN represent the 16-digit account number.
+NOTE:
+The technicians should never code the IBAN ISO country code or the check digit to
+the MBR.
+1. Derive the RTN
+The technician must code the RTN as follows:
+•
+Code an RTN of 730000079
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+Code the DAN for United Arab Emirates
+•
+Start with the country code of “L” designated for United Arab Emirates; and
+•
+Code the 16-digit Account Number “1234567890123456”
+a. You must obtain this information
+•
+RTN: 730000079
+•
+Checking
+•
+DAN: L1234567890123456
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000079
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN: 730000079
+•
+DAN: CL1234567890123456

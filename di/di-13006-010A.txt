@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - DI 13006.010 - Field Office (FO) Actions to Identify Age-18 Redetermination Cases
+Effective Dates: 11/16/2021 - Present | TN 1 (11-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413006010 (fetched 2026-10-04)
+
+A. Identifying cases that require an age-18 redetermination
+The FO should use the procedures below to review and identify cases that require an
+age-18 redetermination.
+1. Disability Control File (DCF)
+The Office of Systems loads age-18 redetermination cases into the DCF and create a
+continuing disability review (CDR) alert, see MSOM CDR 001.001. The cases will appear
+on the jurisdictional FO’s pending medical CDR list.
+2. Stars and Stripes the Next Generation (SSTNG)
+The FOs can identify recipients that require an age-18 redetermination using the SSTNG
+website. For example, if a recipient is in SSTNG for an age-18 critical birthday redetermination
+(RZ), the FO will need to conduct the age-18 redetermination interview at the same
+time as the RZ interview. For additional information on RZs, see SI 02305.016.
+3. Supplemental Security Record (SSR)
+The FOs can determine when a recipient is due for an age-18 redetermination by reviewing
+the Diary Screen (DIAR) segment of the Supplemental Security Record (SSR) query for
+an attainment of age 18 (KB) diary, see SI 02309.003.
+NOTE: A case is eligible for selection as an age-18 redetermination no earlier than two
+months prior to attaining age 18.
+4. Review the claim folder
+Review the claim folder to determine if the Disability Determination Services (DDS)
+or the Office of Hearings Operations (OHO) made a medical determination or decision
+using the adult sequential evaluation after the recipient attained age 18. Usually,
+the date of the favorable disability DDS determination is an appropriate indicator
+if:
+•
+the date of the DDS determination is before the date the person attained age 18, assume
+the DDS did not apply the adult criteria; or
+•
+the DDS determination was on or after the date the person attained age 18, review
+the Remarks section on the form SSA-831, see DI 26510.095.
+In addition, the Type of Master Record (TMR) data on an SSR query reply should reflect
+the change from disabled child (DC) to disabled individual (DI) status (For example,
+“TMR:DC, DI-mm/yy,” where mm/yy are the month and year following the month and year
+in which the individual attained age 18), see DI 81010.232. If the FO is uncertain whether the DDS applied the adult criteria, the FO should
+contact the regional office (RO) disability coordinator, see DI 13005.020I.3.

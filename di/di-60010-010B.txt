@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - DI 60010.010 - Youth Transition Exploration Demonstration (YTED) Participants
+Effective Dates: 02/06/2026 - Present | TN 6 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460010010 (fetched 2026-10-04)
+
+B. Procedures
+1.
+For YTED participants who apply for benefits
+The waiver will not affect initial claims, and SSA will consider income and resources
+as it normally does. The YTED participant list will include only individuals with
+current entitlement to SSI benefits, not those filing an initial claim.
+FO technicians input the project participation information into CCE during the initial
+claim.
+a.
+Create Report of Contact (DROC)
+Document the DROC with the following information:
+•
+YTED participant
+•
+YTED start date (date of YTED enrollment)
+•
+YTED evidence submitted by claimant
+•
+YTED POMS DI 60010.000
+b.
+SSR Special Message Page Inputs
+•
+These procedures are only for participants coded as YTED.
+•
+Update YTED MMYY in the Case Characteristics Code (CG) field (where MMYY is the start
+month of YTED enrollment). For example, YTED 0925 would indicate that the claimant
+enrolled in YTED in September 2025. The CG field must be 4 characters.
+NOTE:
+Every YTED participant must have this entry. It is important for the demonstration
+research that the CG field is not overlaid by a subsequent input.
+•
+Update the following in the Remarks field, "YTED waiver case - special income exclusions
+– See DROC - retain this remark until 12/31/2028."
+2.
+For SSI recipients who participate in YTED
+On a monthly basis, the FOP contact sends the project participation list to FO technicians.
+They should input the information into the SSR Special Message page and DCF. Follow
+the SSR Special Message page instructions listed in DI
+60010.010B.1.b and DCF input instructions below:
+DCF Input
+•
+Select Option 32 from SSA Main Menu in PCOM.
+•
+Select Option 16 from CDR Selection Menu (MCDR).
+•
+Input DY in the Demo Indicator Field. DY is the demonstration code for YTED.
+•
+Input the MMDDYYYY in the Participation Start Date field where the MMDDYYYY is the
+month, day, and year the individual enrolled in the YTED.
+•
+Input the MMDDYYYY in the Participation Stop Date field where the MMDDYYYY is the
+month, day, and year the participant is no longer eligible for the YTED waivers. All
+participations terminate on December 31, 2028. Exceptions may include voluntary withdrawal
+or death. Mathematica will notify the SSA when it learns of withdrawals.

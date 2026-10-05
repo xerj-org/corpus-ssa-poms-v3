@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 01704.910 - Final Disposition of Folders
+Effective Dates: 01/19/1999 - Present | TN 2 (09-85)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201704910 (fetched 2026-10-04)
+
+B. Routing RSDI folders with TSC D3 or TSC E1
+Examine the RSDI folder to determine if even one beneficiary lives outside the United
+States. It may be necessary to review the applications if the award form shows a bank
+address.
+1.
+If any presently entitled beneficiary has a foreign address, send the RSDI folder
+to the correct INTPSC M1-M6 based on the following terminal digits:
+Terminal Digit
+Module
+00-16
+M1
+17-33
+M2
+34-50
+M3
+51-67
+M4
+68-83
+M5
+84-99
+M6
+2.
+If all presently entitled beneficiaries have domestic addresses, check the PIC on
+the Form SSA-2417, SSA-101-U3 or SSA-3428-U2:
+a.
+If it is a life case, the PIC is “HA” and the “HA” is under age 59, route the folder first to a BA and then to a records analysis clerk
+(RAC). Annotate routing form, “Transfer to ODO.”
+b.
+If it is a survivor case or a life case with a PIC “A” or “HA” and the “HA” is 59 years old or older, route the folder first to a BA and then to a RAC. Annotate
+the form, “Transfer to PC (show name of PC).” Determine the correct PC from the following jurisdiction chart:
+Area
+Numbers
+Serviced By
+001-134
+Northeastern Program Service Center
+135-222
+Mid-Atlantic Program Service Center
+232-236
+577-584
+268-302
+Great Lakes Program Service Center
+316-399
+700 Series
+223-231
+Southeastern Program Service
+Center
+400-428
+587
+303-315
+Mid-America Program Service
+Center
+429-500
+505-515
+525
+501-504
+Western Program Service Center
+516-524
+526-576
+586

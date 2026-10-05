@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 13010.215 - Procedure for Extended Period of Eligibility (EPE)
+Effective Dates: 09/14/2026 - Present | TN 96 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010215 (fetched 2026-10-04)
+
+B. Reinstate or deny reinstatement of benefits during the EPE
+1. Allow reinstatement
+If earnings fall below SGA during the EPE, resume benefit payments if the beneficiary
+meets all other factors of entitlement. Use eWork to:
+•
+Establish, control, document findings, and clear the CDR.
+•
+Assist in the evaluation of earnings and any applicable work incentives.
+•
+Input the decision to the post-entitlement system (POS). The system effectuates payment
+and non-payment months (if a DIBCESS exclusion prevents eWork from applying a direct
+input, follow instructions in DI 13010.215B.1.b. in this section).
+a. eWork exclusion applies
+If an eWork exclusion applies:
+•
+You can still use eWork to develop, document and prepare an SSA-833-U3 (Cessation
+Or Continuance Of Disability Or Blindness Determination and Transmittal).
+•
+Use the DCF to document findings, input earnings, and clear the CDR (for more information
+on the DCF, see DI 13010.500 The Disability Control File (DCF) and MSOM CDR 001.001).
+•
+Clear the DCF as a cessation.
+b. Effectuating the POS exclusion and Fax sheet procedure
+Use the following procedure for any case that you cannot process using eWork:
+•
+Use the paperless bar coding application to create the barcode eWork DECEFFECT Effectuation
+of eWork decision. The fax creates an action control record (ACR) in the processing
+center action control system (PCACS) for the PC to resolve.
+•
+Send the SSA-833-U3 and any supporting documentation associated with the case along
+with a FAX to the PC.
+•
+After faxing work CDR information for action, also fax the documentation into the
+appropriate Repository (Evidence Portal (EP) or eView), following instructions in
+GN 00301.325.
+•
+If the decision was not effectuated, monitor by using the PCACS. Check PCACS or Paperless
+ROQS within 5 days to ensure that the PC has received the fax and PCACS (or PPL ROQS)
+shows an action pending.
+•
+Check the MBR payment history, DIB line, and the SSA-833 (Cessation or Continuance
+of Disability or Blindness Determination and Transmittal) to determine if the PC updated
+the MBR. If the action has not processed, follow up with the PC of jurisdiction. PC
+contact information is located in KCNET.
+For more information on DECEFFECT, go to the KCNet Handling eWork's DECEFFECT Tickle Guide.
+In DI 13010.025 Field Office (FO) Responsibilities in Work Continuing Disability Reviews (CDRs) under
+B(4)
+If the PC is unable to suspend, terminate, or reinstate benefits in POS, refer the
+case to the BA staff for processing.
+eWork produces the following FAX COVER SHEET:
+FAX COVER SHEET
+DIB/CESS EXCLUSIONS
+SSN: __ __ __ - __ __ - __ __ __ __ BIC(s): _____________
+TOEL1 = STATUS
+TOEL2 = DIBCESS
+ROUTE TO BA PROC LOCATION
+FAX TO PROCESSING CENTER:
+___ (PC 1) NEPSC 877-385-0640
+___ (PC 2) MATPSC 877-385-0644
+___ (PC 3) SEPSC 877-310-6767
+___ (PC 4) GLPSC 877-311-5797
+___ (PC 5) WNPSC 877-310-7807
+___ (PC 6) MAMPSC 877-311-8738
+___ (PC 7) OCO 877-385-0643
+___ (PC 8) OIO 877-385-0645
+FROM FIELD OFFICE: (location) ______________________________
+(code) ____________
+For further information about this claim please contact:
+(name) ____________________________
+(phone) __ __ __ - __ __ __ - __ __ __ __
+2. Deny reinstatement
+If the beneficiary is still performing SGA, or stopped performing SGA outside of the
+EPE re-entitlement period, deny a request for reinstatement, and follow the same procedures
+as referenced in DI 13010.215B in this section.
+If the beneficiary is outside of the EPE reinstatement period, they may file a new
+claim, or a claim for expedited reinstatement (EXR). For more information on filing
+considerations, see Filing ConsiderationsExpedited Reinstatement versus Initial Claim,
+DI 13050.020.
+Do not provide due process if you are denying reinstatement, because the beneficiary
+is not currently receiving benefits. In addition, you are not required to complete
+a payment action. There is no need to complete a DIBCESS input.
+We cannot reinstate benefits if earnings fall below SGA after the end of the EPE,
+unless a revision of a previous cessation to a continuance is appropriate.
+Be alert to the possibility of an unsuccessful work attempt if SGA stops after a short
+period, or in situations where the MBR has erroneously terminated: verification of
+employment confirms that SGA ended before the DBC on the MBR. The decision to terminate
+should be reopened if it is erroneous.

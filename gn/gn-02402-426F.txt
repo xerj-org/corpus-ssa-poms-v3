@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - GN 02402.426 - Coding Aruba Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402426 (fetched 2026-10-04)
+
+F. Policy to code bank data for Aruba
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us. When you use our system to establish or change
+IDD bank data for Aruba (e.g. Modernized Claims System (MCS), Manual Adjustment Credit
+and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+•
+account ownership;
+•
+account type;
+•
+account number;
+•
+bank name;
+•
+bank address; (no P.O. box address allowed)
+•
+beneficiary address;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+NOTE:
+The bank, branch, account number radio button is required.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code consists of the following 8 to 11 alphanumeric characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+Prior to processing an initial award, you must update ITS.gov with the bank account information to ensure that the beneficiary receives his or her
+payment. If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to us.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using our system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the chart in this section when you process within four business days of the current
+operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Aruba? If no, STOP.
+REASON: Beneficiaries in Aruba can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+The RTN is 730000095 for all IDD in Aruba. SSA and FRBKC have designated “73” as the multi-country prefix
+for Aruba IDD. The “5” at the end of the RTN represents the U.S. check digit code
+for all IDD accounts in Aruba. Therefore, there is no need to obtain the check digit
+code from Title II Interactive Comps.
+5
+Code the account type:
+• “S” for savings, or
+• “C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Aruba, code:
+• “R” designated for Aruba
+• to the first 16-digits of the 29-digit Account Number
+7
+You must take action on the same business day to enter all the information into ITS.gov as listed in the introduction of GN 02402.426F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+FRBKC rejects the payment and returns it to us when we do not send all required information.

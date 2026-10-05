@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 13050.095 - Program Service Center (PSC) Procedures for Expedited Reinstatement (EXR)
+Effective Dates: 02/02/2018 - Present | TN 6 (02-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050095 (fetched 2026-10-04)
+
+B. Procedure for EXR and provisional benefits
+1. Provisional benefit actions
+The FO initiates provisional benefits through the Post Entitlement Online System (POS). In
+the event that POS cannot process the Provisional Payment action, a Termination, Attainment,
+Transfer and Termination (TATTER) exception generates in the Paperless System. The
+TATTER exception generates in paperless under Type of Event Level (TOEL) DIPROV PAYMENT. For POS exclusion cases, the FO will contact the PSC as indicated in DI 13050.025I.3. The PSC reviews the TATTER exception or the request to process an exclusion and performs
+a cursory review of the record. This review consists of verifying:
+•
+Provisional benefit eligibility
+•
+Provisional benefit start date
+•
+Primary Insurance Amounts (PIAs) and Family Maximums
+If the PSC determines that the information is correct per DI 13050.025, the PSC will update the record for any changes to the PIAs and family maximums and
+initiate provisional benefits via MACADE per SM 00856.200. If the PSC determines that
+the information is not correct, the PSC will contact the FO using Detailed Office/Organization
+Resource System (DOORS) to obtain the servicing FO’s email address and request the
+information from the FO. The PSC will use the high priority procedures in GN 01070.400 through GN 01070.440 to follow up on requests to resolve any discrepancies.
+The FO also initiates actions to terminate provisional benefits through POS as indicated
+in DI 13050.025 J. In the event that POS cannot process the termination action, a TATTER exception will
+generate in the Paperless System. The TATTER exception generates in paperless under
+the TOEL DIPROV TERM. The PSC reviews and processes the TATTER exception according to SM 00856.300B.2.
+2. Procedure when the PSC receives the EXR award from the FO
+EF-101s transferred from the FO generate into the PSC paperless system under the TOEL
+CLAIM / EF101, CRIT, or QDD. The PSC performs a review under DOFA procedures. If there are any discrepancies,
+the PSC will use DOORS to obtain the servicing FO’s email address and request the
+information from the FO. The PSC will use the high priority procedures in GN 01070.400 through GN 01070.440 to follow up on requests. The PSC will process the award actions as follows:
+•
+Stop provisional benefits, if necessary, and process the disability reinstatement,
+adjusting for provisional benefits paid and Medicare entitlement per, SM 00856.300
+and SM 00856.400. Consider the Medicare reinstatement action as a new initial enrollment
+period (IEP) and apply equitable relief provisions as appropriate per, HI 00801.166.
+•
+Ensure the EXR entitlement updated with a new DIB line on the MBR. This new line should
+include a date of entitlement to disability (DOED) showing the first month the person
+is due benefits under EXR. The disability date of onset (DDO) is the last day of the
+month prior to the DOED. Ensure there is a disability award code (DAC) of “F,” which
+indicates an EXR case per, SM 00856.300B.1.
+•
+Send the reinstatement notice to the beneficiary using the Document Processing System
+(DPS) notice E3956. For notices, see NL 00703.956.
+•
+Close the EXR event on the disability control file (DCF) as a continuance per DI 13010.625 immediately after verifying the month of entitlement on the SSA-833 Cessation or Continuance of Disability or Blindness Determination and Transmittal
+– Title II is the correct date to process to the MBR.
+3. Procedure when the PSC receives the EXR award from the Office of Hearings Operations
+(OHO)
+An EXR determination is an initial determination that is subject to the administrative
+and judicial review (appeals) process as indicated in DI 13050.085. The PSC receives favorable administrative law judge (ALJ), Appeals Council and US
+District Court decisions involving EXR from OHO for review and processing. The PSC
+records incoming favorable decisions with TOEL APPEAL/ DHEAR or APPEAL/ COURT. The PSC reviews these decisions and takes the following actions:
+•
+Completes the SSA-833 for the EXR entitlement,
+•
+Reviews the record to determine if there is any SGA after the EXR Month of Entitlement
+(MOE),
+•
+Prepares an EF-101 for EXR entitlement according to DI 13050.060, and
+•
+Processes the claim to payment as indicated in DI 13050.095B.2.
+If the PSC determines that there are errors in an ALJ decision, the PSC will follow
+the instructions in DI 42010.075 to contact the hearing office to request an amended decision or protest the decision
+per DI 42010.080.

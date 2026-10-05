@@ -1,0 +1,231 @@
+SSA Program Operations Manual System (POMS) - SI 02005.010 - SSI Computations - Title II/Title XVI COLA Coordination
+Effective Dates: 08/08/2008 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005010 (fetched 2026-10-04)
+
+D. Examples
+1. Title II Income Only
+a. Rates
+•
+The Federal Benefit Rate (FBR) in 2001 is $531 per month.
+•
+The FBR in 2002 is $545 per month.
+b. Title II Income
+Nov Dec Jan Feb
+$200 $200 $205 $205
+c. Eligibility Test
+Passes; Countable Income (CI) never exceeds FBR.
+d. CI for January
+$205  January Title II
+-$200 Title II in November
++ 5  COLA increase
+$205
+- 20 General exclusion
+$185 CI
+e. Payment Computation for January
+$545 FBR
+-185 CI
+$360 Payment
+f. CI for February
+$205 February Title II
+-$200 Title II in December
++ 5 COLA increase
+$205
+- 20 General exclusion
+$185 CI
+g. Payment Computation for February
+$545 FBR
+-185 CI
+$360 Payment
+2. Other Income, OSS Involvement
+a. Rates
+•
+The FBR in 2001 is $531.
+•
+The OSS level in 2001 is $182.
+•
+The FBR in 2002 is $545.
+•
+The OSS level in 2002 is $205.
+b. Income
+​
+Nov
+Dec
+Jan
+Feb
+Title II:
+$370
+$370
+$380
+$380
+Earned :
+$500
+$510
+$520
+$520
+c. Eligibility Test
+•
+Federal ineligibility --In January and February, CI exceeds the FBR. CI is $587.50
+in January and February.
+•
+OSS eligibility --In each month, excess income is less than the OSS level.
+d. CI for January
+$370 Title II in November
++10 January Title II increase
+$380
+- 20 General exclusion
+$360 Countable unearned income
+$500 Earned income in November
+- 65 Exclusion
+$435
+÷2
+$217.50 Countable earned income
+$360 +217.50 = $577.50 CI
+e. Payment Computation for January
+e. Payment Computation for January
+$545.00 FBR
+-577.50 CI
+$ 32.50 Excess Income
+$ 205.00 OSS level
+- 32.50 Excess income
+$ 172.50 OSS for January
+f. CI for February
+$370 Title II in December
++10 February Title II ($380) - December Title II ($370)
+$380
+- 20 General exclusion
+$360 CI
+$510 Earned income in December
+- 65 Exclusion
+$445
+÷2
+$222.50 Countable earned income
+$360 + 222.50 = $582.50
+g. Payment Computation for February
+$545.00 FBR
+-582.50 CI
+$ 37.50 Excess income
+$ 205.00 OSS level
+- 37.50 Excess income
+$ 167.50 OSS for February
+3. Couple Case
+a. Rate
+•
+The couple FBR in 2001 is $796
+•
+The couple FBR in 2002 is $817
+b. Income
+​
+Nov
+Dec
+Jan
+Feb
+His Title II:
+$310
+$310
+$320
+$320
+Her Title II:
+$145
+$145
+$151
+$151
+His union pension:
+$0
+$ 60
+$ 60
+$60
+Eligibility Test – Federal eligibility; CI never exceeds the FBR. (CI $511.00 in January
+and $511.00 in Feb.)
+c. CI for January
+$455 Title II in November
++16 January Title II - November Title II
+$471
+- 20 General exclusion
+$451 CI
+d. Payment Computation for January
+$817 FBR
+- 451 CI
+$366 Couple's benefit
+÷2
+$183 Each member's benefit
+e. CI for February
+$455 Title II in December
++16 February Title II - December Title II
++60 Union pension in December
+$531
+- 20 General exclusion
+$511 CI
+f. Payment Computation for February
+$817 FBR
+- 511 CI
+$306 Couple's benefit
+÷2
+$153 Each member's benefit
+4. Spouse-to-Spouse Deeming
+a. Rates
+•
+The individual FBR is $545.
+•
+The couple FBR is $817.
+b. Title II Income
+​
+Nov
+Dec
+Jan
+Feb
+Eligible individual
+$250
+$250
+$262
+$262
+Ineligible spouse
+$210
+$210
+$216
+$216
+c. Eligibility Test
+Federal eligibility (See SI 01320.400B.)
+d. Payment Computation for January
+•
+BM is November.
+•
+Use individual's $250 Title II in November.
+•
+Use individual's Title II increase from November to January: $12
+•
+Do not use ineligible spouse's $6 increase.
+•
+Do computation in SI 01320.400C.
+e. Payment Computation for February
+•
+BM is December.
+•
+Use individual's $250 Title II in December.
+•
+Use individual's Title II increase from December to February: $12.
+•
+Do not use ineligible spouse's $6 increase.
+•
+Do computation in SI 01320.400C.
+5. Payment Computation for Recipient Subject to the PMV
+Payment Computation for January
+Eligible individual has unchanging pension of $200.00 and full PMV since October
+$200.00 pension for November
++ 201.66 (January rate of PMV
+401.66
+- 20.00 general exclusion
+381.66 CI
+$545.00 FBR
+-381.66
+163.34 amount due
+6. Payment Computation for recipient subject to VTR
+Payment Computation for January
+Eligible Individual has unchanging pension of $200.00 and on-going VTR since October
+$200.00 Nov. pension
+- 20.00 General Exclusion
+180.00
++ 181.66 VTR - January rate
+361.66 CI
+$545.00 FBR
+- 361.66 CI
+183.34 amount due

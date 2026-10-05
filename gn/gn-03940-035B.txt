@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 03940.035 - Field Office (FO) and Processing Center (PC) Processing of Fee Agreements on Delayed Auxiliary Claims
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940035 (fetched 2026-10-04)
+
+B. Procedure
+If one or more auxiliary beneficiary claim is pending when we process the primary
+claimant's award (and the claimant's past-due benefits do not yield the maximum fee
+based on the approved fee agreement), we generally do not know the total past-due
+benefits. However, do not
+wait for the
+pending auxiliary claim(s) to be adjudicated before
+acting
+on the fee
+agreement. These claims require special handling because the actions are not fully automated.
+1. Preliminary Fee Calculation
+Process the fee agreement based on the known past-due benefits at the time of the
+award.
+a.
+Calculate the fee amount using the primary claimant's and any non-delayed auxiliary
+beneficiary's past-due benefits amount(s) (see GN 03940.020).
+b.
+Record the fee amount in the claim(s) file.
+c.
+Review the Representative Appointment, Services, and Registration (RASR) application
+to determine if the representative is eligible for direct fee payment. See GN 03940.020E.1. for guidance in interpreting the entry.
+d.
+Enter information via the APPREP/APPFEE data (ARA/ARB screens) and withhold via the
+AD special entry on the MACADE history screen for initial claims and post-entitlement
+or eligibility actions. This data passes to the attorney fee data line of the Master
+Beneficiary Record (MBR).
+e.
+Annotate the MBR Special Message field that an additional fee may be authorized when
+the auxiliary claim(s) is adjudicated (see MS
+06307.008).
+f.
+Prepare a notice with the appropriate fee agreement paragraphs. Replace the fee agreement
+amount paragraph, as the case requires. These are the MADCAP and MCS paragraphs for
+delayed auxiliary claims:
+•
+ATYR20: Fee amount Title II claim only - NH only – delayed auxiliary claim(s) pending
+or expected - NH's award notice
+•
+ATYR22: Fee amount Title II claim - only NH and any non-delayed auxiliary beneficiaries
+- delayed auxiliary claim(s) pending or expected - NH's award notice
+•
+ATYR24: Fee amount concurrent Title II and Title XVI claims offset information pending
+– NH only – delayed auxiliary claims pending or expected - NH's award notice
+•
+ATYR26: Fee amount concurrent Title II and Title XVI claims - offset information pending
+- NH and non-delayed auxiliary beneficiaries - delayed auxiliary claims pending or
+expected - NH's award notice
+Refer to NL 00725.005 for MCS paragraphs. Also refer to GN 03940.080, Fee Agreement Process – Title II – Delayed Auxiliary Claim(s) Paragraphs.
+g.
+Send the notice(s) to the claimant, any non-delayed auxiliary beneficiary, and a copy
+to the representative. Refer to GN 03316.110 for instructions on disclosure to auxiliary claimants and beneficiaries about a primary
+claimant and to GN 03316.105 for instructions on disclosure without consent to a primary claimant about an auxiliary
+filing on their record. Also send an e-mail message to the Office of Hearings Operations
+(OHO) or Office of Appellate Operations (OAO) decision maker to notify the decision
+maker of the authorized fee amount and that a copy of the award letter is available
+in the Online Retrieval System (ORS), if the decision maker requested to be notified.
+Use the global address list in outlook to locate the decision maker’s email address.
+NOTE: To request the notification for the purpose of possibly requesting administrative
+review, the OHO or OAO decision maker will flag the claim and provide an e-mail address
+to which to send the notification. Refer to Hearings, Appeals, and Litigation (HALLEX)
+manual I-1-2-45 for the initial procedures an OHO or OAO decision maker will follow to request administrative
+review of the fee amount.
+h.
+Withhold 25 percent of past-due benefits or the amount of the authorized fee, if known,
+when the representative has not waived their fee or direct payment of the fee and
+is eligible for direct payment. Withhold 25 percent if there is Federal court involvement.
+i.
+Certify direct payment to the representative who is eligible for direct payment or
+to an eligible entity if there is a valid assignment if no one has requested administrative
+review (or once we complete the review if one was requested). See GN 03920.016B. for more information about eligibility for direct payment.
+2. Subsequent Fee Calculation(s)
+After we adjudicate the delayed auxiliary claim(s), take the following actions:
+a.
+Authorize a fee based on any auxiliary's past-due benefits. However, to ensure we
+do not authorize a fee in excess of the statutory maximum indicated in GN 03940.003B.3 (or any lower maximum fee specified in the fee agreement) consider the fee amount
+already authorized based on the primary claimant's and any non-delayed auxiliary beneficiaries'
+Title II past-due benefits. Also, as stated in GN 03940.015C., in concurrent cases check to ensure that a Title XVI fee amount was not inadvertently
+authorized early (i.e., before the entire Title II fee amount was known). If a Title
+XVI fee amount was inadvertently authorized early, also consider that amount in determining
+how much has been authorized toward the statutory maximum indicated in GN 03940.003B.3 (or any lower maximum fee specified in the fee agreement). The amount of the Title
+XVI fee is recorded in the T16$ field on the AUTH segment of the Supplemental Security
+Record (SSR). If direct payment was made, the Title XVI amount passes to the Single
+Payment System (SPS).
+Refer to GN 03920.035 for withholding and proration policy and procedures.
+NOTE: The fee authorization based on any delayed auxiliary beneficiary’s past-due benefits
+is a reopening of the initial fee authorization. We are not establishing a new fee
+event. The primary claimant and any auxiliary beneficiaries are bound by the primary
+claimant’s fee agreement. Technicians must update the APPREP field on the MBR for
+the primary claimant to reflect the updated past-due benefits total for all individuals
+bound by the primary claimant’s fee agreement.
+b.
+When the representative is eligible for direct payment and the amount withheld from the primary claimant's past-due Title II benefits (or, in
+concurrent cases, Title XVI benefits) was less than the maximum fee amount provided
+in the approved fee agreement, withhold 25 percent of any auxiliary beneficiary’s
+past-due benefits or the amount of the authorized fee, if known, towards direct payment.
+If there is Federal court involvement, withhold 25 percent of any auxiliary beneficiary’s
+past-due benefits.
+c.
+Prepare a notice with the appropriate fee agreement paragraphs.
+d.
+Send the notice to any auxiliary beneficiary and a copy to the representative. If
+the claim is flagged, also send an e-mail message about the fee authorization to the
+OHO or OAO decision maker.
+e.
+If the representative is eligible for direct payment and has not waived a fee or direct
+payment or there is an eligible entity with a valid assignment, certify direct payment
+to the representative or to the entity if no one has requested administrative review
+(or once we complete the review, if one was requested).
+f.
+If all auxiliary beneficiaries are not members of the same household, adjust any non-delayed
+auxiliary beneficiary's benefits based on the proration of the fee amount.
+g.
+Disburse any remaining past-due benefits withheld to the claimant and any auxiliary
+beneficiary unless there is Federal court involvement. For any auxiliary beneficiaries
+that are not a member of the same household as the claimant, follow the steps in GN 03930.070B to determine how to release the remaining past-due benefits.
+h.
+Notify the primary claimant and all auxiliary beneficiaries of your proration action.
+NOTE: PC staff must inform the FO of the newly authorized fee through the MDW screen,
+so the FO can correctly account for the total fees’ effect on the windfall offset.

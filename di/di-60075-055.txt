@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 60075.055 - Promoting Opportunity Demonstration (POD) Benefit Rate Increase (BRI)
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075055 (fetched 2026-10-04)
+
+DI 60075.055 Promoting Opportunity Demonstration (POD) Benefit Rate Increase (BRI)
+SSA performs a BRI run, usually each December, to update Title II benefits by applying
+a cost of living adjustment (COLA) to the primary insurance amount (PIA) and the monthly
+benefit amount (MBA). A POD participant whose benefits were in offset during the BRI
+run will not get the full COLA increase because SSA applies the COLA to the offset
+MBA and not the full MBA amount.
+Therefore, the POD Automated System (PAS) recalculated the MBA by applying the COLA
+increase to the full MBA and then refigured the POD offset amount. The PAS triggered
+a manual adjustment credit and award data entry (MACADE) action to process the new
+MBA and issued a notice explaining the increase in benefits. The PAS conducted the
+POD BRI process approximately one (1) week after the national BRI process.
+PAS has been decommissioned and no longer runs a POD BRI process. All POD offset in
+the participation period is final and should not be adjusted.

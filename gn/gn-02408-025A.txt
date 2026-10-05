@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02408.025 - Manual F-Stop Process for a Courtesy Check Issued Due to a Nonreceipt Claim
+Effective Dates: 09/11/2026 - Present | TN 96 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408025 (fetched 2026-10-04)
+
+A. Process for Inputting Manual F-stops on Courtesy Checks
+The following provides guidance for processing a manual F-stop on courtesy checks
+issued due to a nonreceipt claim.
+1. Title II
+For alleged nonreceipt cases where SSA inputs a B-stop, the Department of the Treasury
+issues a courtesy replacement check payment. If the original check is subsequently
+cashed and no automated F-stop occurs on the courtesy replacement check, the Program
+Service Center (PSC) will enter a manual F-stop action.
+The PSC receives a PREPARE 1184 REACT alert. The PSC will input a manual F-stop action
+via the RSDHI using Stop Payment Request (PESP) input screens (MSOM RSDHI 002.005)
+or by using the SSA-4510 Stop Payment Request Input Form (MSOM INTRANETMAMPSCDI 004.003)
+screen. For PC processing instructions, see SM 00609.001B.2.
+2. Title XVI
+The Field Office (FO) and Teleservice Center (TC) must take appropriate action when
+receiving nonreceipt allegations on underpayment checks (Type 2) and One-Time Payments
+(Type 4). If someone cashes the alleged missing original type 2 or type 4 check payment,
+the FO will enter a manual F-stop action on the replacement payment Automated One
+Time Payment (A-OTP) using the SSI Claims Systems Direct SSR Update.
+NOTE: Before taking the F-stop action on the A-OTP, the FO must follow all steps outlined
+in GN 02406.205C for processing nonreceipt allegations for type 2 and type 4 payments.

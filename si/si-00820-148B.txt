@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 00820.148 - Automated Wage and Employment Information from Payroll Data Providers (PDP) Received through the Payroll Information Exchange (PIE)
+Effective Dates: 03/25/2025 - Present | TN 99 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820148 (fetched 2026-10-04)
+
+B. Collecting wage and employment authorization for new participants
+1. General information about collecting wage and employment authorizations
+Before we receive wage and employment information from a PDP, we must obtain authorization
+from the recipient, deemor, or ineligible child. See Wage and Employment Information
+Authorization MS 09401.002. Providing authorization is voluntary and not an SSI eligibility
+requirement. For more information on the authorization to receive wage and employment
+information, see GN 00204.150.
+2. Special considerations for wage and employment authorizations when appeals are involved
+The system will only request information for recipients, deemors, and ineligible children
+who have an active authorization during the monthly PIE run. In cases where a claim
+is denied for any reason and terminates in the SSI Claims system, the authorization
+will effectively end if it is beyond the appeals period for the claim (i.e., 60 days
+plus 5 mailing days). Due to a system limitation, authorization may also end in the
+system if a reconsideration is not requested or processed by the end of the calendar
+month in which a denial posts to the record. Handle wage and employment authorizations
+during appeals as follows:
+For reconsideration requests:
+•
+If a reconsideration is filed and the request is processed within the same calendar
+month that the denial posts, the authorization remains active. No additional steps
+are required to record authorization.
+•
+If a timely reconsideration is filed after the calendar month in which the denial
+posts but within the appeal period (60 days plus 5 mailing days), input authorization
+manually when the appeal is loaded. However, technicians do NOT need to contact the
+recipient, deemor, or ineligible child to request authorization again. In these cases,
+the original authorization is only inactive due to a system limitation and the original
+authorization itself remains active from the time the request for reconsideration
+is processed until the Agency makes a final adverse decision on the claim.
+For all other appeal requests:
+•
+For hearings before an administrative law judge, appeals council requests, and court
+reviews filed and processed within the appeal period (60 days plus 5 mailing days),
+the authorization remains active until the Agency or a court makes a final adverse
+decision on the claim. No additional steps are required to record authorization.
+•
+For late filing of an appeal (after 60 days plus 5 mailing days), the authorization
+will end after the appeal period expires. Contact the individual to request a new
+authorization. The Wage and Employment Information Authorization (WEIA) questions
+automatically appear in the SSI Claims system path.
+When appeals are involved, there may be a gap in wage and employment information received
+until we reload or obtain authorization again. If the appeal is filed after the calendar
+month in which the denial posts and eventually approved, the technician must use other
+wage verification methods to request wage evidence for any months we did not receive
+information from PIE. For more information on evidence of wages, see SI 00820.130.

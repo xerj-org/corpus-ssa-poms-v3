@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - DI 13050.045 - Expedited Reinstatement (EXR) Title II Interview
+Effective Dates: 07/16/2026 - Present | TN 35 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050045 (fetched 2026-10-04)
+
+A. Procedure for screening for Title II EXR eligibility
+To be eligible for EXR the claimant must meet the eligibility requirements listed
+in DI 13050.001B.1. Review the following sources of information to determine if the claimant's prior
+entitlement terminated due to the performance of substantial gainful activity (SGA).
+1. Master beneficiary record (MBR)
+Query the MBR to determine if the claimant was previously entitled to a disability
+benefit under Title II (i.e., disabled number holder, disabled surviving spouse, or
+disabled child).
+If entitlement has terminated, determine the reason for termination.
+A combination of three of the following MBR entries, along with a Ledger Account File
+(LAF) code of T6, T8, U, or X7, indicates entitlement terminated due to the performance
+of SGA:
+•
+BENEFIT Line - reason for suspension/termination (RFST) coding of DIBCES.
+•
+DIB Line - Cessation Disability Reason-code of E (CDR-E).
+NOTE: A medical cessation which occurs after an SGA cessation may overlay the CDR-E code
+with CDR-M coding. CDR-M coding is not conclusive evidence that benefits did not terminate
+due to SGA. Further, a medical cessation occurring after an SGA cessation does not
+preclude potential eligibility for EXR.
+•
+DIB Line - A difference between the extended period of eligibility begin date (EBD)
+and the disability benefit cessation (DBC) dates of three or more years.
+•
+DIB Line - An entry in the extended period of eligibility Medicare begin date (EMD)
+field that is at least 78 months earlier than the Medicare Part A termination date
+(or 24 months earlier if the Part A termination date is prior to 10/1/00).
+•
+HI-DIB Line - A Medicare Part A termination date more than 78 months (or 24 months
+if termination date is prior to 10/1/00) after the applicant's disability cessation
+date (ADC).
+•
+HISTORY Line - an RFST of EPESGA in the SUSP/TERM field, followed by DIBCES in subsequent
+lines.
+•
+SP MSG – A special message with information relating to SGA cessation and termination.
+2. Other queries and systems
+Review other sources of information to verify that termination was due to SGA, rather
+than medical or other reasons:
+•
+Work CDR application – compare the most recent decision with the DIB line and History data on the MBR.
+•
+Disability Control File (DCF) – query the most recent T2 WORK event (#6 on the ECDR screen) to see if the decision
+was a cessation.
+•
+eView or
+Evidence
+Portal
+(EP) – search eView or EP for a SSA-833.
+NOTE: Be alert to situations in which the claimant stopped performing SGA within the extended
+period of eligibility, and to the possibility of reopening an erroneous decision.
+If you determine that benefits terminated due to work, review the most recent Work
+CDR determination. In these cases, do not pursue EXR, but instead pursue reopening
+of the prior decision to reinstate benefits.
+3. EXR filing period
+Determine if the EXR request is within 60 months (five years) of the previous benefit
+termination. Add 59 months to the DBC month reflected on the DIB line to determine
+the end of the 60-month period. For further information about the EXR request period
+and consideration of good cause for late filing, refer to DI 13050.010. Also, consider the protective filing guidelines in DI 13050.015.

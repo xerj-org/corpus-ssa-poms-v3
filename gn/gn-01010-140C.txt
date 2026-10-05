@@ -1,0 +1,158 @@
+SSA Program Operations Manual System (POMS) - GN 01010.140 - Delayed Claims
+Effective Dates: 08/08/2023 - Present | TN 93 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010140 (fetched 2026-10-04)
+
+C. Procedure to establish delayed claims
+There are two categories of delayed claims. The procedure for processing delayed claims
+depends on whether or not the auxiliary or survivor claimant or their proper applicant
+filed a valid application. Follow these instructions to establish a delayed claim.
+1. To delay the claim with a valid application, take the following steps
+a.
+Establish an application in the Modernized Claims System (MCS) with data provided
+by the proper applicant.
+b.
+Enter a decision status (DEC STAT) code of “08 DELAY” on the Decision Input screen
+(DECI) in MCS.
+c.
+Enter the applicable diary code on the DECI screen in MCS to diary for the outstanding
+evidence, per GN 01040.010, and explain the development that is pending in the diary reason field on the Diary
+Screen (DIAR) in MCS.
+d.
+Establish a diary date of 60 days, or later, if you expect development to last more
+than 60 days. For additional information on the DIAR Screen, see MS MCS 009.015.
+e.
+Add paragraph “ENTR26” on the Notice 3 Screen (NOT3) in MCS, see NL 00725.225 and MS MCS 03509.010.
+f.
+Process the claim through MCS Earnings Computation (EC).
+g.
+If the claim will not process through EC, see GN 01010.140C.3. in this section.
+2. To delay the claim with no valid application and a protective filing only, take the
+following steps
+a.
+Establish an application in MCS with available information provided by the NH or other
+applicants, when possible. Use actual or alleged data. If the claimant’s SSN is unknown,
+key in “?” or “NONE” in the claimant SSN (CL SSN) field on the MCS Systems Menu Screen
+(MENU).
+b.
+Entering a “?” in the CL SSN field on the MCS MENU Screen will generate the Claimant
+SSN Unknown (CLUNK) issue on the DW01 or DW02 Screen. Resolve the issue by following
+the Management Override (MOVR) instructions found in MS MCS 011.010.
+c.
+Input placeholder information to advance through the MCS screens. Do not use a fictitious
+Social Security Number. Use the Alpha-Index Query (ALPH) to locate an auxiliary or
+survivor’s SSN; for additional information see MS QUERIES 003.003.
+d.
+Enter a “?” or “NONE” in the claimant SSN field on the RSDHI Claims Application Screen
+(APPL) in MCS, if the claimant’s SSN is unknown. For additional information on the
+APPL Screen, see MS MCS 005.009.
+e.
+Receipt in the application issue in the receipt field (REC) on the MCS Development
+Worksheet Screen (DW01). Do not enter “X’s” in the application issue receipt field.
+f.
+Enter “X’s” in the attestation issue (ATTEST) receipt field (REC) on the DW01. Do
+not enter the date in the attestation issue (ATTEST) receipt field (REC).
+g.
+Add the following remark to the Remarks Screen (RMKS) in the MCS application screen
+path, “THIS IS NOT A VALID APPLICATION. A PROTECTIVE FILING DATE OF MM/DD/YYYY HAS
+BEEN ESTABLISHED FOR (NAME OF CLAIMANT). NO CLAIM HAS BEEN FILED AND NO INFORMATION
+HAS BEEN ATTESTED TO. 6 MONTH CLOSEOUT NOTICE SENT ON MM/DD/YYYY.” Store a copy of
+the claim in the Online Retrieval System (ORS) via the Print and Store Screen (PRST),
+see MS MCS 008.001.
+h.
+Enter a decision status (DEC STAT) code of “08 DELAY” on the Decision Input (DECI)
+screen in MCS.
+i.
+Enter diary code “023”on the DECI screen in MCS to indicate we are developing for
+an auxiliary or survivor claim, and explain that development is pending for a delayed
+claimant’s application in the diary reason field on the Diary (DIAR) screen in MCS.
+j.
+Establish a diary date of 6 months to correspond with the date on the protective filing
+closeout notice stored in ORS, see GN 01010.140C.4.b. in this section.
+k.
+Consider the need for a payee, per GN 00502.070, and enter payee information on the Notice 1 Screen (NOT1). If the payee is unknown,
+key “UNKNOWN” in the applicant name field on the APPL Screen in MCS.
+l.
+Complete the representative payee fields on the NOT1 Screen in MCS. If the payee is
+unknown, key “?” for the payee name and applicant SSN on the NOT1 Screen.
+m.
+Suppress the notice by entering “Y” (YES) in the SUPPRESS (Y/N) field on the MCS Notice
+3 Screen (NOT3).
+n.
+Process the claim through MCS Earnings Computation (EC).
+o.
+If the claim will not clear through EC, see GN 01010.140C.3. in this section.
+p.
+Add a Special Message to the MBR via Miscellaneous Online Edited Transactions (MONET),
+once the MBR is established, stating, “BIC XX PROTECTIVE FILING ONLY (MM/DD/YYYY).
+OBTAIN VALID APPLICATION. CLOSEOUT SENT MM/DD/YYYY”
+3. To process an Automated 101 (A101)
+a.
+Complete the A101 following instructions in MS MCS 014.001;
+b.
+Enter “Y” in the DELAYED CLAIMAINT field on the Beneficiary Data Screen (BENE) of
+the A101;
+c.
+Include the delayed auxiliary or survivor claimant(s) on the Monthly Benefits Screen
+(MBEN) when you compute the benefit amounts, if the family maximum is involved;
+d.
+Enter “BIC [insert BIC] – Delayed” in the REMARKS field of the Beneficiary Claim Remarks Notice Screen (BCRN).
+Specify in the remarks if the delayed claim is a valid application or no valid application
+with a protective filing only;
+e.
+Enter the diary code(s) in the REMARKS field on the BCRN screen; and
+f.
+Enter notice information in the NOTICE field of the BCRN screen for claims with a
+valid application. Suppress the notice for delayed claims with no valid application
+based on a protective filing only.
+4. Field Office (FO) actions after processing the delayed claim
+a. After you process the delayed claim with a valid application
+•
+Establish a Modernized Development Worksheet (MDW) to your FO to monitor the delayed
+claim until you process it to completion.
+•
+Set a tickle of 15 days for the outstanding evidence (i.e., proof of age, medical
+decision, etc.) unless the expected completion date is later.
+•
+Follow-up 15 days after the claimant fails to respond to the initial development request.
+When the claimant fails to submit essential evidence, see GN 01010.410.
+b. After you process the delayed claim with no valid application and a protective filing
+only
+1.
+Determine if we sent a protective filing closeout notice or if other evidence is available
+in our records that we disposed of the protective filing or writing (e.g., special
+messages on the MBR, ORS, Evidence Portal (EP), eView, MCS segments, and paper folders).
+2.
+If we have not sent a closeout notice, prepare a closeout notice in the Document Processing
+System (DPS) and send the notice to the delayed claimant, their payee, or the applicant
+who listed the claimant per GN 00204.012C. Store the notice in ORS. If the individual’s address is unknown, follow the instructions
+in GN 00204.012F.2.
+3.
+Add a closeout issue of “T2CO” on the DW01 or DW02 Screen and receipt in the closeout
+issue with the date we sent the closeout. Enter the name of the delayed claimant to
+whom we sent the closeout in the REMARKS field corresponding to the T2CO issue on
+the MCS DW01 or DW02 Screen.
+4.
+Establish an MDW to your FO to monitor for receipt of the application.
+5.
+Set a tickle of 6 months to correspond with the closeout date on the 6-month closeout
+notice.
+6.
+When the 6-month closeout period expires and we have not received the application,
+document the Report of Contact Screen (RPOC) in MCS to note that we did not receive
+a valid application from the protected auxiliary or survivor. If MCS is archived,
+prepare a Report of Contact (Form SSA-5002) explaining that we did not receive a valid
+application from the protected auxiliary or survivor claimant and fax it into the
+Non-Disability Repository for Evidentiary Documents (NDRed) via EP.
+7.
+Fax the prepared SSA-5002 to the PC Paperless repository via EP. Include the necessary
+disallowance data shown in the example in SM 00842.019E.8. and instruct the PC to:
+•
+Recalculate the monthly benefit amounts for the remaining beneficiaries on the record;
+•
+Release any underpayment due to the remaining beneficiaries on the record;
+•
+Send the Action Control Record (ACR) to the benefit authorizer (BA) to process a disallowance;
+and
+•
+Provide the denial code and information needed to complete the Beneficiary Denial/Disallowance
+Screen (DNY) in MACADE. Refer for details SM 00842.019E.8.

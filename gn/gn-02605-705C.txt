@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02605.705 - Erroneous ZIP Code Processing – Change of Address (COA)
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605705 (fetched 2026-10-04)
+
+C. Procedure for ZIP code error
+If the address is properly verified and keyed and the ZIP Code determined by the ZIP
++4 software is still in error, input a 9-digit ZIP or use a systems override to input
+the correct ZIP as follows:
+1. Title XVI
+Input the ZIP Code override using the S0 field as instructed in SM 01005.100 and SM
+01301.365.
+2. Title II
+•
+Key a 9-digit ZIP Code of a ZIP Code Flag via MONET, ZIP Code maintenance data screen
+(ZIPM) to correct an erroneous ZIP Code on the MBR.
+•
+Use a ZIP Code override (ZIP Code Flag) only after all attempts to correct the address
+spelling and format proved unsuccessful. (For additional information on Title II ZIP
+Code Flags, see GN 02605.710).
+•
+Notify the Regional Office (RO) staff responsible for the ZIP Code workload, if the
+address verified as correct and the ZIP Code determined by the ZIP +4 software was
+incorrect. Provide the RO with account numbers and address data.

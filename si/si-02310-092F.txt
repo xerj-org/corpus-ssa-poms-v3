@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - SI 02310.092 - Processing Title XVI Federal Bureau of Prison PUPS Alerts
+Effective Dates: 06/19/2015 - Present | TN 73 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310092 (fetched 2026-10-04)
+
+F. Procedure - BOP inmate status code values
+1. Inmate status codes on 3BOP PUPS alerts effective 04/02/2002
+INMATE STATUS CODE
+BOP INMATE STATUS CODE DESCRIPTION
+SSA GENERAL DESCRIPTION OF INMATE STATUS CODE
+Y
+CONVICTED,
+SENTENCED TO MORE THAN 12 MONTHS.
+Convicted--Individual has been convicted of a crime (e.g., felony or misdemeanor) and is confined
+to a correctional institution.
+C
+CONFINED BUT NOT CONVICTED
+Confined but not convicted--Individual is confined in a correctional institution but has not been convicted
+of a crime.
+P
+PAROLE VIOLATOR
+Parole or probation violator--Individual has violated parole or probation. An official determination has been made
+to return the individual to confinement at a correctional institution.
+2. Inmate status codes on 3BOP PUPS records or alerts for 04/01/2000 through 04/3/2002
+INMATE STATUS CODE
+PUPS 3BOP RECORD/ALERT INMATE STATUS CODE
+DESCRIPTION
+GENERAL DESCRIPTION
+Y
+CONVICTED, SENTENCED TO MORE THAN 12 MONTHS.
+Convicted -- Individual has been convicted of a crime (e.g., felony or misdemeanor) and is confined
+to a correctional institution.
+N
+CONVICTED, SENTENCE LENGTH IS UNKNOWN
+Convicted-- Individual may have been convicted with a sentence of 12 months or less. Reporter
+unable to verify length of sentence for the crime.
+S
+CONVICTED, SENTENCED TO 12 MONTHS OR LESS.
+Convicted -- Reporter confirms crime carries a sentence of 12 months or less.
+D
+NOT
+CONVICTED, (Pre-trial Inmates, Individuals awaiting medical/mental
+examinations, etc.)
+Confined but not convicted-- Crime carries possible sentence of more than 1 year, but Reporter may be unable to
+determine the length of the sentence.
+3. Inmate status codes on 3BOP PUPS records or alerts for 03/01/1997 through 03/31/2000
+INMATE STATUS CODE
+PUPS 3BOP RECORD/ALERT INMATE STATUS CODE
+DESCRIPTION
+GENERAL DESCRIPTION
+Y
+CONVICTED, SENTENCED TO MORE THAN 12 MONTHS
+Convicted-- Individual has been convicted of a crime with a sentence more than 1 year or crime
+carries possible sentence of more than one year.
+N
+CONVICTED, SENTENCE LENGTH IS UNKNOWN
+Convicted--Individual may have been convicted with a sentence of 12 months or less. Reporter
+unable to verify length of sentence for the crime.
+S
+CONVICTED, SENTENCED TO 12 MONTHS OR LESS.
+Convicted-- Reporter confirms crime carries a sentence of 12 months or less.
+D
+NOT
+CONVICTED,
+(Pre-trial Inmates, Individuals awaiting
+medical/mental examinations, etc.)
+Confined but not convicted-- Crime carries possible sentence of more than 1 year, but Reporter may be unable to
+determine the length of the sentence.

@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.436 - Coding French Polynesia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/21/2023 - Present | TN 232 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402436 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in French Polynesia has a prefix of 72 at the beginning of the Routing
+Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “M” assigned for French Polynesia.

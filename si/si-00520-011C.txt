@@ -1,0 +1,140 @@
+SSA Program Operations Manual System (POMS) - SI 00520.011 - Determination of Applicability of $30 Payment Limit
+Effective Dates: 04/16/2013 - Present | TN 54 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500520011 (fetched 2026-10-04)
+
+C. Policy for determining when the $30 payment limit applies
+1. General policy for determining when the $30 payment limit applies
+The Federal SSI benefit is limited to a maximum of $30 per month for an eligible recipient
+(or $60 per month for certain couples situations as described in this section), minus
+any countable income, when the recipient is a resident throughout a month in a public
+or private medical treatment facility, and any
+of the following applies:
+•
+Medicaid, including an HMO or other private provider on behalf of an recipient for
+whom Medicaid is paying the premium, pays or is expected to pay over 50 percent of
+the cost of care for that month; or
+•
+Medicare Part A pays or is expected to pay over 50 percent of the cost of care for
+that month, and the Part A coverage was purchased for the recipient under a State
+plan approved under Title XIX of the Social Security Act (i.e., “State buy-in”). See
+example 2 in this section for additional information.
+•
+For children under age 18, any health insurance policy issued by a private provider
+pays or is expected to pay over 50 percent of the cost of care for that month; or
+•
+For children under age 18, a combination of Medicaid and any health insurance policy
+issued by a private provider pays or is expected to pay over 50 percent of the cost
+of care for that month. NOTE: We will refer to the term “any health insurance policy issued by a private provider”
+as “private health insurance.”
+IMPORTANT: The benefit rate for an eligible couple when both members are in medical treatment
+facilities, is $60 per month when the conditions in SI 00520.011C.1 are met and they have not separated, i.e., they intend to return to their prior living arrangement
+(regardless of the length of their stay in the facility).
+EXAMPLE 1-- Child with private insurance: Matthew, a disabled child, was born at Tall Oaks Multi-Care Center on 10/04/18.
+Matthew remained in the hospital until 01/05/19, when Matthew went home to live with
+their parents. Private health insurance paid for more than 50 percent of the cost
+of Matthew's care for the months of October and November. For December and January,
+a combination of private health insurance and Medicaid paid more than 50 percent of
+the cost of care. Matthew is eligible for the $30 reduced benefit (plus any applicable
+state supplemental payment) for November and December. Deeming of Matthew's parents'
+income and resources begins in February, the month following the month Matthew comes
+home from the hospital. E02 applies for October, FLA-D for November and December,
+FLA-A for January, and FLA-C for February. See the policy for when to deem from a
+parent at SI 01310.145B.
+EXAMPLE 2 — State buy-in Medicare Part A pays the cost of care:
+Wilson entered a hospital on 11/28/18 for surgery. On 01/07/19, the doctor released
+Wilson to go back home. When Wilson reported these changes to SSA, the Claims Specialist
+(CS) contacted the hospital and determined that Medicare Part A paid for more than
+50% of the cost of the care at the hospital.
+Because the HI data line on the MBR indicated that Wilson’s Part A Medicare was “Premium
+HI,” the CS checked SM 00510.280 and SM 00510.295 and determined that Wilson’s Medicare
+coverage was through State buy-in. Because Wilson was in the hospital for the entire
+month of December, Medicare paid more than 50 percent of the cost of Wilson's care,
+and the State buy-in program purchased Wilson's Medicare coverage, the CS determined
+that the $30 dollar payment limit applied to Wilson for December.
+On the SSI Claims system 'Institution Residence' page, the CS answers “yes” to the
+question, “ MEDICAID, OR MEDICARE PART A WITH STATE BUY-IN, PAYS MORE THAN 50%”. The
+CS completes a Report of Contact page to verify the admission and release dates, and
+documents that Medicare paid over 50 percent of the cost of Wilson's care. On the
+Report of Contact page, the CS also summarizes their determination that the $30 payment
+limit applies for December due to State buy-in of Medicare. For more information on
+the Institution Residence page, see MS 08110.009.
+NOTE: If the CS identifies a recipient who has Medicare Part A due to State buy-in, and
+was put in FLA/A instead of FLA/D, see the rules for administrative finality in SI 04070.010.
+2. Policy on Medicaid Home and Community Based Services programs when determining when
+the $30 payment limit applies
+Medicaid payments made under a home or community based services waiver (as defined
+by Title XIX of the Social Security Act) usually do not result in imposing the $30
+payment limit, even if the Medicaid payment is over 50 percent of the cost of care.
+For more information on waivers in these situations, see SI 00520.510D. For information about an exception to this policy, see the second bullet of SI 00520.011C.4.
+3. Policy on exceptions to “throughout a month” for the purpose of determining when the
+$30 payment limit applies
+There are several exceptions to the requirement in SI 00520.011C.1. that residence in the facility must be throughout a month in order for the $30 payment
+limit to apply.
+a.
+The $30 payment limit applies if a recipient:
+•
+spends part of a month in a public institution where SSI eligibility would be precluded
+if there throughout a month, and
+•
+spends the rest of the month in a public or private medical treatment facility where
+the $30 payment limit would apply if there throughout a month (i.e., the Medicaid
+payment exceeds 50 percent of the cost of care in that facility during that month;
+or for children under age 18, Medicaid or private health insurance payments or both
+exceed 50 percent of the cost of care in that facility during that month).
+In such situations, the $30 payment limit applies regardless of:
+•
+the order of the types of institutionalization;
+•
+whether one facility is involved (e.g., different section of a multiple purpose facility,
+SI 00520.001B.10.);
+•
+whether two or more institutions of the same type are involved (e.g., two different
+Medicaid-certified medical treatment facilities and one public non-Medicaid facility);
+or
+•
+whether the absence from the public institution is temporary (i.e., 14 days or less).
+EXAMPLE: Jody is a resident of Belvedere State Hospital Center, a public institution, where
+Medicaid does not make any payments toward the cost of their care. On 12/16/18, Jody
+entered West County Hospital for surgery. Jody remained at West County until 01/08/19,
+when Jody returned to the state hospital. Jody remained at the state hospital throughout
+the rest of January and continued to reside there. During Jody's stay at West County,
+Medicaid paid over 50 percent of the cost of care in that facility for both the month
+of December and the month of January. Therefore, Jody is eligible for the $30 reduced
+benefit (plus any applicable state supplemental payment) for December and January.
+b.
+Medicaid certification or decertification of a facility can result in exceptions to
+the throughout a month requirement, as follows:
+The $30 payment limit applies when:
+•
+a recipient is in a public medical treatment facility throughout a month; and
+•
+the facility is either certified or decertified for Medicaid during the month, and
+•
+the Medicaid payment exceeds 50 percent of the cost of care in the facility during
+that month; or
+•
+for children under 18, Medicaid or private insurance, or both payments exceed 50 percent
+of the cost of care in the facility during that month.
+The $30 payment limit does not apply for the month of certification or decertification
+if for the balance of the month the institution is a private facility (except for
+cases where children are already subject to the $30 payment limit because of private
+health insurance payments).
+For more information about Medicaid certification and decertification, and how they
+affect the $30 payment limit, see SI 00520.700.
+4. Policy on additional situations where $30 limit applies
+The $30 payment limit also applies:
+•
+to certain recipients who are ineligible for Medicaid payment of their institutional
+care because they have transferred a resource (see SI 00520.012);
+•
+to certain severely disabled children who are living at home and who qualify for Medicaid
+under a state “home care” plan and who would not be otherwise eligible for SSI under
+the regular parental deeming rules. (See SI 01310.201B.3.)
+5. Policy on exceptions to $30 limit due to temporary institutionalization (TI) and 1619
+cases
+We discuss exceptions to the $30 payment limit in SI 00520.140, “Temporary Institutionalization Benefits,” and SI 00520.130, “Special Benefits for Institutionalized 1619 Eligibles.”
+6. Policy on state supplementation for children in $30 limit cases
+Children under age 18 who are subject to the $30 payment limit because of private
+health insurance payments (i.e., Medicaid alone does not pay over 50 percent of the
+cost of their care) will receive the Optional State Supplement (OSS) amount that would
+apply to them if they were not subject to the $30 payment limit.

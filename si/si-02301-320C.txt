@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02301.320 - How to Pay the PPL
+Effective Dates: 01/11/1999 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301320 (fetched 2026-10-04)
+
+C. Process
+FOs input the required DPD entries explained in SM 01305.555 to pay continuing benefits
+at the PPL. To pay past benefits due based on the PPL, FOs must use OTP procedures
+explained in SM 01901.001. This chart describes the process based on systems cutoffs:
+When inputting the GK data...
+then the system will pay the PPL starting...
+and the FO must pay...
+the first day of the month through the recurring cutoff
+the following month in a first-of-the month payment (recurring payment)
+by A-OTP any benefits due for past months based on the PPL.
+after the recurring cutoff through the supplemental tape (or A-OTP) cutoff *
+the following month in a supplemental payment
+​
+REMINDER: Supplemental payments are dated the first-of-the month.
+after the supplemental tape (or A-OTP) cutoff*
+the month after the following month
+by M-OTP any increase due for the following month
+PLUS
+any benefits due for past months based on the PPL.
+NOTE: FOs may use an A-OTP when it might pay faster than an M-OTP because of a reject, nonreceipt, returned check
+or input at the end of the month to pay the PPL.
+*The supplemental tape cutoff and the A-OTP cutoff usually occur on the same day around
+the 22nd of each month. After this day, the system processes an A-OTP input, but the
+payment is not issued until the beginning of the following month. An M-OTP occurs
+“outside” the system and is the only way to issue a payment after the supplemental cutoff and
+by the next regular monthly payment.

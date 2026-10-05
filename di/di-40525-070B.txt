@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 40525.070 - Step Two - OCO/PSC - Special Search - Next 120 Days in Operations
+Effective Dates: 12/23/2003 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525070 (fetched 2026-10-04)
+
+B. Procedure - updating the Disability Control File (DCF)
+Once an alert is received in the OCO/PSC module/DRS of jurisdiction for a special
+folder search, update the DCF file to reflect that the special search procedures are underway.
+NOTE: Even though the procedure in the remaining sub-chapters specifies which job disciplines
+are to perform certain functions, OCO/PSC/DRS management can assign these tasks to
+any job discipline. The assignments are at the discretion of the local management
+team.
+1. Query – first
+DE or DEC in each OCO module and by DRS in the PSC will first query the DCF as follows:
+a.
+Select number 32 (Continuing Disability Review File) from the SSA MAIN MENU and hit
+the “Enter” key.
+b.
+Key “01” (QUERY) and complete the SSN, only key the BIC if it is other than "A" and
+hit the “Enter” key.
+c.
+Next is the CDR ENTITLEMENT SCREEN (ECDR). ECDR tells you whether the case is a “TII
+Direct Release CDR” or a “TII/TXVI Direct Release CDR”, as well as the LAF status
+on all entitlements. Hit the “Enter” key.
+d.
+Next is the CDR QUERY SCREEN (QCDR). Write down the most recently dated 3-digit “DESTINATION” code found under the EVENT
+area of the screen. (This will assist you in later steps (2f below) of the update process.) Hit the “Enter”
+key.
+EXCEPTION: If the “DESTINATION” code is “732” ignore it and use the jurisdictional FO instead.
+Do not physically transfer the folder to DOORS location #732 because the location is not a storage facility.
+e.
+If there are no remarks, the DCF will bring you back to the initial screen that you
+completed in "a" above. If you are in "remarks" hit the "enter" key to get back to
+the initial screen.
+2. Update – second
+Next the DE or DEC in each OCO module and by DRS in the PSC updates the DCF as follows:
+a.
+Key “03” (PC UPDATE) and complete the SSN, only key the BIC if it is other than "A"
+and hit the “Enter” key.
+b.
+At the ECDR screen, hit the “Enter” key.
+c.
+At the CDR PC INPUT (IPCA) screen, in the "SELECT EVENT TYPE", key “01” to transfer
+case.
+d.
+The cursor will MOVE to the "FOLDER RECONSTRUCTION ISSUE" field (which is always pre-filled
+with "N"). Change the “N” to a “Q” and hit the “Enter” key.
+NOTE: A "Q" entry in the DCF FOLDER RECONSTRUCTION field means the folder was not in the location shown on PCACS and its physical location
+is in question. A "Q" in the DCF FOLDER RECONSTRUCTION field indicates that the OCO/PSC is still searching for the title II medical CDR folder in other locations.
+e.
+See DI 40525.070C. and the CHART in DI 40525.100 regarding PCACS entries.
+f.
+At the CDR PC INPUT Screen B (IPCB), key the most recent 3-digit Destination code
+previously noted (see DI 40525.070B.1.d.) and hit the “Enter” key.
+g.
+EXCEPTION: If the “DESTINATION” code is “732” ignore it and use the jurisdictional
+FO instead. Do not physically transfer the folder to DOORS location #732 because the location is not a storage facility.
+h.
+If you have other cases to update, return to the MCDR screen and take appropriate
+actions.
+i.
+Once DCF updates are completed, close out and route the direct release CDR alert(s)
+to the technician responsible for undertaking special search procedures at your site.

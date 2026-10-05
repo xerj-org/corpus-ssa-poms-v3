@@ -1,0 +1,13 @@
+SSA Program Operations Manual System (POMS) - GN 02402.317 - Coding British Virgin Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402317 (fetched 2026-10-04)
+
+E. Description of British Virgin Islands Bank Data
+The data for coding IDD for the comes from banks determined by the FRBKC. The bank
+data on the MBR consists of 22 characters including the British Virgin Islands country
+code of "G".
+•
+A bank code of 9 digits (a zero, a 3-digit bank code, and a 5-digit branch code);
+and
+•
+An account number of up to 12 characters.

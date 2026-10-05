@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.481 - Coding Togo Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/12/2024 - Present | TN 280 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402481 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Togo will have a prefix of “72” at the beginning of the Routing
+and Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “V” assigned for Togo.

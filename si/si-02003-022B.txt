@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - SI 02003.022 - Processing eIAR Field Office Intervention Cases
+Effective Dates: 05/14/2012 - Present | TN 13 (11-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003022 (fetched 2026-10-04)
+
+B. Description of FO Intervention Process
+Here is a description of the FO intervention process:
+1.
+the CR adjudicates the SSI claim and inputs the allowance;
+2.
+the CR performs a prepayment review if needed;
+3.
+the system sets the UPV to V to hold the underpayment;
+4.
+the State IA agency inputs the IA payment information which triggers a computation;
+5.
+if the system cannot compute the amount of SSI due for all months, the system selects
+the case as a FO intervention case;
+6.
+the system sets an I9 diary on the SSR and sends an I9 alert to notify the FO that
+intervention is needed to complete the IAR reimbursement.
+7.
+The CR:
+•
+reviews the SSR to determine any months that require a manual SSI payment computation;
+•
+inputs the required information about the claim using the screens under the Special
+Payments Menu (UPSP) in Direct SSR Update (UMEN);
+•
+inputs on the UPSP screen that an A-OTP is required, and inputs on the One Time Payment
+screen (UPOT) that the reason is “interim assistance reimbursement;”
+8.
+The system pre-fills the One Time Payment Amount screen (UPOP) with the months for
+which the State is requesting reimbursement and the SSI federal and State SSI benefit
+amount due for any months that the system can compute correctly.
+9.
+The CR:
+•
+completes the UPOP screen by inputting the SSI federal and State amounts due for the
+months in the IAR period that the system cannot pre-fill;
+•
+inputs on the UPOP screen the amounts of SSI, if any, already paid to the claimant
+for any months in the IAR period that the system cannot pre-fill;
+•
+reviews and changes any of the SSI federal and State amounts due for months in the
+IAR period where the manual SSI computation results in an amount different than the
+amount the system pre-fills;
+•
+completes the “Prorate Day” column on the UPOP screen in situations where proration
+is required.
+10.
+The system:
+•
+determines the amount of reimbursement and pre-fills the One Time Payment Address
+(UPOA) screen with the name, address, and direct deposit routing number for the IAR
+agency;
+•
+alerts the CR that a 2-PIN approval is required and displays the Simulated SSR.
+11.
+The CR confirms that the Simulated SSR is accurate, obtains the 2-PIN approval, and
+sends data to the SSR, which enables eIAR to complete the case and pay the State the
+reimbursement.

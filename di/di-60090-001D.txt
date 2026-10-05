@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 60090.001 - The 4-State Benefit Offset Pilot Demonstration (BOPD)
+Effective Dates: 06/18/2007 - Present | TN 1 (06-07)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460090001 (fetched 2026-10-04)
+
+D. Procedure - transferring DCF Development Worksheet VY Issues for Ticket to Work cases
+to OCO
+The Ticket to Work Program Manager uses a batch process to pass gross earnings for
+ticket users to the Office of Systems, which then posts the earnings to the DCF as
+alleged earnings. This action may create a systems-generated T2VY (verify earnings)
+issue on the DCF Development Worksheet (CDRW) for the servicing FO. (See DI 55030.010 and DI 13010.605)
+If a systems-generated VY issue of the TYPE TICKET is received in the FO for a BOPD
+participant, review the MBR for the special message or the DCF for the D3 demo indicator.
+If present, transfer the T2VY issue to OCO (see DI 55030.030) by over-writing the data in two fields of the appropriate issue line of the CDRW
+screen:
+•
+LOC field: Enter “PC7”
+•
+UNIT field: Enter “CPS”
+Annotate remarks "DEMO—D3 Offset/erngs verify/Wrk Determinations needed"). OCO will
+be responsible for verifying the earnings, making work determinations and posting
+the verified earnings information on the VERN screen. Continue to transfer the VY
+issues while the beneficiary is a BOPD participant. In addition, inform your AWIC
+of this action.

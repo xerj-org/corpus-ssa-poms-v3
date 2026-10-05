@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02305.100 - General Rules for Developing Resources - RZs
+Effective Dates: 08/03/2017 - Present | TN 88 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305100 (fetched 2026-10-04)
+
+B. Procedure – general
+NOTE: Effective 11/18/2006 permission to contact financial institutions must be requested at all
+RZs initiated by FOs.
+Open a RZ with recaps in MSSICS and use the appropriate screens (including the AFIP
+screen) to complete the RZ.
+Assume that permission has previously been collected if:
+•
+The initial claim was filed 11/18/2006 or later, or
+•
+A redetermination has been completed by the FO 11/18/2006 or later. (See SM 01501.002C.8.
+for a description of the redetermination disposition codes found in the CRZD segment
+of the SSR). The only exception to this assumption is if the completed redetermination
+was opened in MSSICS prior to 11/18/2006. In this case it cannot be assumed that the
+financial permission question was asked, because the AFIP screen will only appear
+in the MSSICS path for events opened 11/18/2006 and later.
+Develop the value of resources owned by or deemed to the recipient unless the tolerance
+in SI 02305.100C. or SI 02305.100D. applies. See SI 01140.010 for guidelines on general post-eligibility verification requirements.
+If an individual alleges ownership of a resource that SSA records do not reflect,
+ask the individual if they acquired the resource in the period of review and, if so,
+the date they acquired the resource. Develop all aspects of the resource beginning
+with the month after the month the resource was acquired, subject to any applicable
+tolerances.
+Develop the equity value of a resource (liquid or nonliquid) when an individual alleges
+a debt against the resource and the difference between the equity and Current Market
+Value (CMV) would mean the difference between eligibility and ineligibility see SI 01140.042, Determining Equity Value.
+EXCEPTION: See SI 01130.200 regarding the value of an automobile.

@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - DI 81007.035 - Receiving the i3368
+Effective Dates: 11/16/2023 - Present | TN 12 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007035 (fetched 2026-10-04)
+
+A. The i3368 appears on the iWMI listing or the field office (FO) receives a cover sheet
+If an i3368 appears on an iWMI listing or if the FO receives a cover sheet, determine
+whether the iClaim has been propagated to the Modernized Claims System (MCS).
+•
+Check whether the claimant received a medical denial within the past 60 days. If yes,
+contact the claimant to determine whether they want to pursue an initial claim or
+an appeal.
+•
+Propagate the iClaim to MCS if not already propagated.
+1. MCS or MSSICS claim exists
+If a claim exists in MCS or the Modernized Supplemental Security Income Claims System
+(MSSICS):
+•
+Create a case in EDCS to propagate the i3368 to EDCS.
+•
+Review the propagated i3368 for completeness;
+•
+Contact the claimant, proper applicant, or third party contact to resolve discrepancies
+and collect any missing information.
+•
+Document changes in the EDCS 3368.
+NOTE:
+Complete the SSA–3369 in EDCS when necessary. See DI 11005.025.
+•
+Obtain a signed and dated SSA-827 - Authorization To Disclose Information To The Social
+Security Administration - if the claimant did not submit one electronically; and
+•
+Transfer the claim to the Disability Determination Services (DDS) when complete.
+It is not possible to propagate the i3368 to EDCS if a case for the claimant is already
+pending at the DDS (e.g., the claimant filed an earlier Title XVI claim). If a case
+for the claimant is already at the DDS, take the following actions:
+•
+Request an Internet query and print a copy of the i3368. See DI 81007.070C.
+•
+Compare the information on the i3368 to the EDCS 3368; and
+•
+Use the update-after-transfer (UAT) function in EDCS to record discrepancies or additional
+information not in file. For details on the UAT, see DI 81010.095.
+2. MCS or MSSICS claim do not exist
+Unless the i3368 is a pipeline case (i.e., the user established the i3368 partial
+prior to 01/24/2014), it is not possible for the user to start an i3368 until submitting
+an iClaim. If the claim does not exist in MCS, take the following actions:
+•
+Check an Internet query to confirm the claimant submitted an iClaim. For information
+about Internet queries, see DI 81007.070;
+•
+If the Internet query shows that there is an iClaim submission for the claimant, open
+MCS and propagate the iClaim;
+•
+If the i3368 is a pipeline case, and there are no MCS or MSSICS claims, contact the
+claimant or proper applicant to take the claim in MCS or MSSICS, as appropriate;
+•
+If unsuccessful in obtaining a claim, follow the closeout procedures in GN 00204.012; and
+•
+Follow the procedures in DI 81010.020. for establishing a case in EDCS after establishing a claim in MCS or MSSICS.
+NOTE:
+Keep pipeline i3368s for the proper retention period outlined in GN 00204.010G. Follow closeout procedures in GN 00204.012C.

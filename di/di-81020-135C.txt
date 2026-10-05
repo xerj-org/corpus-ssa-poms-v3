@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - DI 81020.135 - Federal Quality Review (QR)
+Effective Dates: 08/05/2022 - Present | TN 29 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020135 (fetched 2026-10-04)
+
+C. OQR Quality Review Office Selection
+The OQR review office is no longer limited to the regional OQR office when the current
+case is a CEF and no prior paper folders are attached. It is very important that the
+DDS verifies the current Paper Folder Indicator (PFI) and the prior PFI are accurate
+before they close a case so the appropriate OQR review office is selected. For more
+information about PFIs, see Paper Folder Indicators (PFI) - DI 81020.010.
+1. CEF – Prior PFI is Blank
+•
+The OQR review office is not limited to the regional OQR office. In some situations,
+OQR transfers these CEF cases from one office to another. When this occurs, NDDSS
+may not display the final OQR review office code.
+•
+After OQR transfers the case, eView displays the current office with jurisdiction.
+NOTE: When returning a QR case to the DDS, the Electronic Folder Interface (EFI) download
+contains the correct OQR review office code. If the DDS needs to return the case to
+the OQR review office, they must return it to the OQR office that is in the EFI download.
+2. Current or Prior Paper Folder Processed Electronically
+•
+The OQR review office is limited to the regional OQR review office.
+•
+The DDS forwards the paper folder to the appropriate office using the following destination
+codes:
+Region 1
+BOSTON
+R41
+Region 2
+NEW YORK
+R46
+Region 3
+PHILADELPHIA
+R47
+Region 4
+ATLANTA
+R40
+Region 5
+CHICAGO
+R42
+Region 6
+DALLAS
+R43
+Region 7
+KANSAS CITY
+R45
+Region 8
+DENVER
+R44
+Region 9
+SAN FRANCISCO
+R48
+Region 10
+SEATTLE
+R49
+Region 11
+BALTIMORE
+R50
+NOTE: For Quick Disability Determination (QDD) cases use overnight mail.
+3. Prior Paper File Received in DDS While OQR is Reviewing Case
+If the DDS receives a prior paper folder and OQR currently has jurisdiction of the
+CEF, the DDS:
+•
+Adds a message to the CEF indicating that a prior paper folder was received during
+the OQR Review process and is being mailed to OQR. The OQR office is responsible for
+updating the Prior PFI; and
+•
+Mails the paper folder to the OQR reviewing component that has jurisdiction of the
+CEF. For Quick Disability Determination cases, use overnight mail.

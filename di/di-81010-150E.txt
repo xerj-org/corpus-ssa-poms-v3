@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 81010.150 - Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System (EDCS)
+Effective Dates: 11/16/2023 - Present | TN 73 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010150 (fetched 2026-10-04)
+
+E. SSA-3441 (Disability Report – Appeal) not received
+Claimants may file a request for reconsideration or hearing but refuse or fail to
+provide the necessary forms and/or additional evidence to support the request. Follow
+instructions in FO Reconsideration Development of Request for Reconsideration - GN 03102.300 for requesting evidence.
+If an SSA-3441 is not received and the appeal can be processed in EDCS select the
+“3441 not received” option on the Form(s) Selection page. The CR is required to document
+the attempts made to obtain the 3441 on the “Transfer” screen before sending the case
+to the DDS or Office of Disability Adjudication and Review (ODAR) for review.
+1. Documenting attempts to obtain a SSA-3441
+After entering the reconsideration or hearing on the mainframe, complete the following
+steps on the “Transfer” screen to document your attempt(s) to obtain a 3441:
+a.
+Select “I am transferring this case with no SSA-3441”;
+b.
+Enter the date of the letter mailed to the claimant attempting to collect the 3441;
+NOTE: When transferring the case to ODAR you are not required to enter the date of the
+letter mailed to the claimant attempting to collect the 3441.
+c.
+Enter any additional information relevant to your attempt(s) to obtain the 3441; and
+d.
+Transfer the case to DDS or ODAR.
+2. Case Documentation when the 3441 is not received
+EDCS adds an alert titled “5002: 3441 not received” along with the description, “See
+Case Documents tab for detailed information”. Under the Case Documents tab in eView
+a SSA-5002 documenting the reason for appeal and your attempt to obtain the 3441 is
+added.
+3. Receiving the SSA-3441 after EDCS transfer
+If an SSA-3441 is received after the FO transfers the case to DDS/ODAR:
+•
+Create a barcode coversheet and fax the SSA-3441 into the Certified Electronic Folder
+(CEF) per Faxing Documents into the Certified Electronic Folder (CEF) Using Barcodes
+- DI 81010.090; and
+•
+Add a message to the CEF, without an expiration date, showing “Claimant 3441 received
+MM/DD/YY faxed into CEF.” See Alerts, Flags, and Messages in the Electronic Disability
+Collect System (EDCS) - DI 81010.080.

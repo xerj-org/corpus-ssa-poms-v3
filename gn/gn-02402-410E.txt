@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.410 - Coding Georgia Bank Data on the Master Beneficiary Record (MBR))
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402410 (fetched 2026-10-04)
+
+E. Description of Georgia IDD bank data
+The data for coding IDD for Georgia comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The full length of the IBAN for
+Georgia consists of 22 characters. However, the bank data on the MBR consists of 27
+characters including the country code “X” designated for Georgia.

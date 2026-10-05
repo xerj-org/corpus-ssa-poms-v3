@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+I. Procedure for PC processing of nonresponders
+PC personnel receive systems notification (a nonresponder alert) when the beneficiary
+fails to respond to the initial and follow-up mailing. Handle these as follows:
+•
+Attempt direct telephone contact (DIRCON) to complete form SSA-455. Follow the PC
+DIRCON procedures in GN 01070.305 and GN 01070.315.
+•
+Make 2 DIRCON attempts; do not count busy signals as attempts. Document the results
+on form SSA-5002 or other appropriate documentation.
+•
+If DIRCON is successful, process the mailer to a deferral or DO CDR action per DI 40502.001J.3. (deferral) or DI 40502.001J.4. (DO CDR).
+If a folder review was done (e.g., to review work activity information in the folder),
+and a deferral action follows, return the claim folder(s) to storage with appropriate
+PCACS/SSICCS input(s).
+If DIRCON is unsuccessful because the individual cannot be located or is located but
+refuses to cooperate, process the case as a DO CDR to the servicing field office per
+DI 40502.001J.4.
+Update the DCF by following these steps:
+1.
+Select the IPCA screen;
+2.
+Select item #2 INITIATE CDR; the IPCB screen appears;
+3.
+Enter the Detailed Office/Organization Resource System (DOORS) location of the servicing
+FO in the TRANSFER CASE OFFICE RESPONSIBLE FOR THE NEXT ACTION field;
+4.
+Enter Y next to REMARKS; and
+5.
+Enter a message that the mailer is being sent to the FO.
+In addition to the instructions in DI 40502.001J.4., annotate in the special message field on the MBR (CIP M), or the CDR Remarks Input
+Screen (IRMK) by selecting Y in the Remarks section of the CDR PC Input Screen B (IPCB,
+see MSOM CDR 001.006) of the DCF, that the beneficiary was a non-responder and the
+case is being referred to the FO to initiate a full CDR per DI 13005.000. Avoid using the DCF codes that indicate a whereabouts unknown or failure to cooperate
+suspension/cessation action has been taken.
+REMEMBER: The mailer is not a CDR. Consequently, an inability to locate an individual to complete
+a mailer, or an individual's refusal to provide responses to questions on the mailer
+is not a basis for a cessation or suspension action under the whereabouts unknown or failure
+to cooperate provisions of the CDR process (DI 40525.001). It is, however, a basis to refer the case to a FO to initiate a CDR.

@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02613.865 - Title II Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 10/07/2016 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613865 (fetched 2026-10-04)
+
+A. Processing Center (PC) post-2006 resumption exception processing
+1. Post-2006 exception relief processing
+Some automated resumption actions excepted or resulted in a Title II Redesign (T2R)
+processing limitation (PROC LIM) thereby requiring manual processing. When an exception
+occurred, the class member’s case went to Processing Center Action Control System
+(PCACS) with a FELRESU TOEL date of 12/21/09 or 12/22/09. For information about PCACS,
+refer to MSOM PCACS 001.001 - PCACS 014.008.
+PCs should make it a priority to process the PCACS cases with TOEL of FELRESU. If
+the field office (FO) determines a Martinez case requires immediate action by the
+PC, the field office should use the Manager-to-Manager system to notify the PC. PCs
+should make every effort to prioritize Martinez cases in Manager-to-Manager and work
+them immediately.
+NOTE: In some instances, a higher priority suspension event may supersede the fugitive
+felon suspension issue (e.g., prisoner suspension LAF S7, etc.) You must still close
+out the FUGITIVE data line on the Master Beneficiary Record (MBR) for offense codes
+other than 4901, 4902, 4999, 8101, 8102, 5011, or 5012 to ensure unwanted future fugitive
+felon suspensions actions will not occur. You will find more information about higher
+priority suspension actions in GN 02602.025.
+2. Multiple warrants
+Review and process each outstanding warrant suspension determination independently
+based on the date of the SSA initial or administrative review decision made on each
+warrant decision.
+NOTE: The Martinez settlement does not affect SSA policies and procedures on cases involving
+unsatisfied arrest warrants for violation of probation or parole. You can find a list
+of the warrant offense codes that are not covered by the Martinez settlement retroactive
+relief process in GN 02613.885B.4.
+3. No social security benefits for prisoners
+A new provision of the Social Security Act prohibits paying retroactive payments to
+recipients or beneficiaries while they are subject to nonpayment because of prisoner
+suspension, fugitive felon suspension (offense codes 4901, 4902, or 4999), or for
+violating a condition of their probation or parole (offense codes 5011, 5012, 8101,
+or 8102). For all initial claims and post entitlement Martinez relief actions, review
+the Prisoner Update Processing System Data (PUPS) or the Fugitive Felon System Control
+File (FFSCF) to determine the recipient’s or beneficiary’s status prior to releasing
+any retroactive benefits. Refer to EM-10013 SEN, No Social Security Benefits for Prisoners,
+for instructions.
+4. Applying other statutory suspension events
+There is a priority order for applying terminations and nonpayment, reduction, deduction,
+and withholding events to monthly title II benefit amounts. For more information on
+the priority of applying terminations and nonpayment, reductions, and withholding
+events, go to GN 02602.025.
+5. Prior overpayment waiver approvals
+Carefully review the ROAR segment of the MBR to check for prior overpayment waiver
+approval actions for fugitive felon (TOE 73) suspension overpayments incurred after
+01/01/07. Do not release any retroactive benefits for the fugitive felon suspension
+period insofar as we have previously waived an uncollected overpayment.

@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - GN 02201.041 - Debtor Reactions to Collection of Title II Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 02/22/2021 - Present | TN 69 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201041 (fetched 2026-10-04)
+
+C. Procedure - debtor offers to repay
+1. Full refund
+a. TSC Action
+•
+Tell the caller we will accept the full refund by check, money order or credit card
+and advise the caller of the current balance of the debt.
+•
+Tell the caller to make a check or money order payable to the “Social Security Administration” and to include the CAN/HUN on the payment. If the person wants to repay by credit
+card, follow the instructions in GN 02210.153 Paying by Credit Card - Teleservice Center (TSC) Procedure.
+•
+Tell the caller to send the check or money order to: MATPC, P.O. Box 3430, Philadelphia,
+PA 19122.
+•
+Advise the caller that AWG will continue until we receive the full payment. Any amounts
+withheld in excess will be returned to the debtor.
+•
+Annotate DMS Remarks with the offer to repay in full.
+b. FO Action
+•
+Follow the instructions in GN 02403.006 Processing Remittances Received in the FO.
+•
+If the person is present in the FO, tell him/her that SSA will notify the employer
+to stop garnishment.
+c. PC Action
+•
+Follow the instructions in GN 02210.214, Debtor Willing to Repay.
+Note: When the full repayment is posted to the debtor's record, the TOP/ECO system will
+automatically notify the employer to stop garnishment. The system will also notify
+Treasury to stop withholding tax refunds or other Federal payments, and it will update
+the person's credit record if applicable.
+2. Installment payments
+Regular monthly installment payments will prevent AWG from becoming active. Installment
+payments will not stop AWG once the employer package is mailed and the debt is active
+in AWG.
+Since AWG is an enforced collection that guarantees the recovery of some or all of
+the debt, we want to prevent manipulation of the system by people who do not make
+good faith offers to repay. AWG is also a complex process requiring communication
+among the debtor, the employer and SSA. Therefore, to prevent repeated efforts to
+stop and resume this complex process, we have decided that installment payments after
+AWG has begun will not stop that collection method.
+IMPORTANT: In any discussion with a person who wants to make installment payments in the hope
+of stopping garnishment, advise the person that installment payments will not stop
+garnishment if AWG is already active. SSA will still accept the payments but garnishment
+will continue.
+If AWG has not been activated, stress to the person that regular monthly payments
+are required to prevent SSA's use of garnishment. Any lapse in regular payments can
+result in SSA's use of garnishment.
+a. TSC Action
+•
+Attempt to negotiate a rate of repayment which would permit full recovery within 12
+months.
+•
+If that is not possible, try to establish a rate of repayment which will permit full
+recovery within 60 months.
+•
+If that is not possible, minimum payments of at least $10 per month are required unless
+there are unusual circumstances (e.g., title XVI recipient).
+•
+If you negotiate an agreement (person agrees to pay back $10 per month or more): (1)
+Complete a DRIN screen (MSOM DMS 006.014 ) to reflect the negotiated agreement. (2)
+Tell the caller to send the payment(s) in the envelope that was provided with the
+overpayment notice. (3) If the caller does not have the envelope, give him/her the
+address for sending in remittances: MATPC, P.O. Box 3430, Philadelphia, PA 19122.
+(4) Record the action taken on DMS Remarks.
+•
+If the person wishes to pay back less than $10 per month and/or unusual circumstances
+apply: (1) Refer to the FO via MDW. (2) Advise the caller someone from the FO will
+contact him/her. (3) Record the action taken on DMS Remarks.
+b. FO Action
+•
+Follow the instructions in GN 02210.180B.1.
+•
+Tell the person that an immediate payment, followed by regular monthly payments, could
+result in the prevention of SSA's use of garnishment.
+•
+If the person is present in the FO and makes a payment, process the remittance per
+instructions in GN 02403.006.
+c. PC Action
+•
+Follow the instructions in GN 02210.214B.
+•
+Tell the person that an immediate payment, followed by regular monthly payments, could
+result in the prevention of SSA's use of garnishment.
+3. Debtor makes a compromise offer
+If the debtor makes a compromise offer, proceed as follows:
+a. TSC Action
+•
+Advise the caller to contact the servicing FO to arrange a compromise settlement.
+•
+Give the caller the name, address and telephone number of the FO that services his/her
+current address.
+•
+Document the request for compromise offer on the DMS Remarks.
+•
+Do not make any input to stop AWG withholding.
+b. FO Action
+•
+Follow the instructions in GN 02215.115, FO Handling of Compromise Offers.
+•
+Tell the debtor that AWG will continue unless we receive the compromised amount.
+c. PC Action
+•
+Follow the instructions in GN 02210.215, Debtor Offers to Compromise.
+•
+Use the Protest/Stop Recovery Request (PC) (DRPR) screen and select “Compromise Offer
+Made” unless the case was referred from the FO and the input has already been made (see
+MSOM DMS 006.003 ) OR if an immediate decision is not possible.
+•
+The PC should post the decision on the compromise offer on the Record Compromise Decision
+(DRCD) screen. (See MSOM DMS 006.012 ).
+•
+Tell the debtor that AWG will continue unless we receive the compromised amount.

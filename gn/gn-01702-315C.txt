@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 01702.315 - Processing Totalization Insured-Status Notices in Claims for U.S. Benefits
+Effective Dates: 02/07/2017 - Present | TN 2 (03-04)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201702315 (fetched 2026-10-04)
+
+C. Process
+MCS will produce an award or disallowance notice disposing of the claim. The notice
+will contain language explaining the decision on the Totalization aspects of the claim
+as follows:
+1. NH has less than 6 QC's
+MCS produces a disallowance notice which advises that we have denied the claim because
+the NH does not meet insured status and we cannot consider foreign coverage because
+the NH has less than 6 QCs. If claimant has less than 6 QCs, process denial for Title
+II.
+2. NH has at least 6 QC's but is NOT insured
+MCS produces an initial disallowance notice which advises that we have denied the
+claim because the NH does not meet insured status but that we have requested the foreign
+coverage record and will issue a final notice after we receive it.
+NOTE: Failure to process the initial denial in these cases means field office (FO) processing time will continue to accrue pending receipt of the foreign coverage record
+and final adjudication by OIO.
+3. NH insured based on U.S. QC's alone
+MCS produces an award notice which advises that we have not considered the foreign
+coverage because the NH meets insured status based on U.S. coverage alone.
+If claimant has at least 6 QCs but is not fully insured based solely on U.S. work,
+process a Title II initial denial (code 090 in MCS) and forward claim to the appropriate
+OEIO module.
+When the NH has at least 6 QCs but not enough to be insured, OEIO will request the
+coverage record from the foreign country. Upon receipt of the foreign record, OEIO
+will convert the foreign credits to QCs, adjudicate the claim and send a final award
+or disallowance notice, as appropriate, to the applicant.

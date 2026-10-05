@@ -1,0 +1,566 @@
+SSA Program Operations Manual System (POMS) - GN 02402.220 - List of International Direct Deposit (IDD) Countries and references for updating the Master Beneficiary Record (MBR)
+Effective Dates: 08/15/2023 - Present | TN 309 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402220 (fetched 2026-10-04)
+
+B. Description - International Direct Deposit (IDD) RTN prefix codes
+1. Table - RTN prefix codes
+The two-digit IDD RTN prefix is different for each country or contractor bank. The
+first digit of the prefix is always a “5,” “6,” or “7,” which identifies the payment
+method as IDD.
+The two-position RTN prefix codes currently in use are as follows:
+Prefix
+Country/Contractor Bank
+50
+United Kingdom
+51
+Canada – Canadian dollar accounts.
+(See 62 for U.S. dollar accounts.)
+52
+Germany
+53
+Norway
+54
+Ireland
+55
+Italy
+56
+France
+57
+Sweden
+58
+Spain
+60
+Portugal
+61
+Australia
+62
+Canada – U.S. dollar accounts.
+(See “51” for Canadian dollar accounts.)
+63
+Mexico
+64
+Panama
+65
+Greece
+66
+Citibank Multi-country Contract 2
+68
+South Korea
+68
+Indonesia
+70
+Citibank Multi-country Contract
+71
+Bank of Scotland Multi-country Contract
+2. Table - multi-country codes
+The following table lists the multi-country codes currently in use. These countries,
+included under multi-country contracts, are identified by a combination of the two-digit
+prefix and the first character of the DAN.
+MULTI-COUNTRY CODES
+PREFIX
+LETTER
+COUNTRY
+66
+A
+Argentina
+66
+U
+Colombia
+66
+Q
+Croatia
+66
+C
+Czech Republic
+66
+W
+Dominica
+66
+K
+Ghana
+66
+J
+Jordan
+66
+X
+Kenya
+66
+G
+Latvia
+66
+B
+Brazil
+66
+R
+Belize
+66
+P
+Egypt
+66
+F
+Estonia
+66
+E
+Hungary
+66
+L
+Iceland
+66
+I
+India
+66
+Y
+Japan (Yen accounts)
+66
+H
+Lithuania
+66
+M
+Luxembourg
+66
+O
+Samoa
+66
+D
+Slovakia
+66
+V
+Slovenia
+66
+S
+Singapore
+66
+Z
+Suriname
+66
+T
+Turkey
+66
+N
+Nauru
+68
+M
+Bosnia Herzegovina
+68
+G
+Bulgaria
+68
+X
+Cambodia
+68
+E
+Costa Rica
+68
+U
+Chile
+68
+I
+Ethiopia
+68
+A
+Indonesia
+68
+C
+Lebanon
+68
+Y
+Liberia
+68
+L
+Macedonia
+68
+R
+Morocco
+68
+D
+Nigeria
+68
+V
+Palestine
+68
+P
+Paraguay
+68
+Q
+Russia
+68
+H
+Sierra Leone
+68
+B
+South Korea
+68
+K
+Taiwan
+68
+Z
+Tanzania
+68
+F
+Tunisia
+68
+W
+Vietnam
+68
+J
+Malaysia
+68
+N
+Laos
+68
+O
+Bangladesh
+68
+S
+Sri Lanka
+70
+U
+Martinique
+70
+O
+Bolivia
+70
+A
+Anguilla
+70
+B
+Antigua & Barbuda
+70
+D
+Bahama Islands
+70
+E
+Poland
+70
+F
+Barbados
+70
+G
+British Virgin Islands
+70
+H
+Cayman Islands
+70
+J
+Dominican Republic
+70
+V
+Ecuador
+70
+X
+Georgia
+70
+K
+Grenada
+70
+L
+Haiti
+70
+Y
+Honduras
+70
+M
+Jamaica
+70
+W
+Montenegro
+70
+Z
+Nicaragua
+70
+N
+Sint Maarten
+70
+P
+St. Vincent & the Grenadines
+70
+R
+Trinidad & Tobago
+70
+S
+St. Lucia
+70
+T
+St. Kitts & Nevis
+70
+Q
+Peru
+70
+I
+Philippines
+71
+Y
+Brunei
+71
+I
+China
+71
+O
+Cape Verde
+71
+S
+Albania
+71
+W
+Guatemala
+71
+X
+Eritrea
+71
+E
+Monaco
+71
+P
+Pakistan
+71
+Q
+Romania
+71
+C
+San Marino
+71
+X
+Solomon Islands
+71
+A
+Austria
+71
+B
+Belgium
+71
+D
+Cyprus
+71
+F
+Denmark
+71
+G
+Finland
+71
+H
+Hong Kong
+71
+J
+Malta
+71
+U
+Montserrat
+71
+K
+Netherlands
+71
+L
+New Zealand
+71
+M
+South Africa
+71
+N
+Switzerland
+71
+R
+Israel
+71
+V
+Uruguay
+72
+H
+Bahrain
+72
+I
+Bonaire
+72
+W
+Cameroon
+72
+D
+El Salvador
+72
+J
+Fiji Islands
+72
+M
+French Polynesia
+72
+A
+Marshall Islands
+72
+C
+Micronesia
+72
+K
+Moldova
+72
+U
+Mongolia
+72
+N
+Myanmar
+72
+O
+Nepal
+72
+G
+Palau
+72
+F
+Qatar
+72
+E
+Saudi Arabia
+72
+T
+Tonga
+72
+L
+Turks and Caicos
+72
+Z
+Uganda
+72
+Y
+Armenia
+72
+V
+Togo
+73
+A
+Algeria
+73
+R
+Aruba
+73
+N
+Bermuda.
+73
+P
+Curacao
+73
+B
+Gambia
+73
+E
+Guinea
+73
+W
+Guyana
+73
+Z
+Iraq
+73
+Q
+Macao
+73
+M
+Senegal
+73
+H
+Sudan
+73
+T
+Thailand
+73
+I
+Ukraine
+73
+L
+United Arab Emirates
+73
+J
+Yemen
+73
+G
+Zimbabwe
+74
+H
+Andorra
+74
+J
+Bhutan
+74
+Q
+Botswana
+74
+S
+Comoros
+74
+M
+Cote D’Ivoire
+74
+Z
+Djibouti
+74
+I
+East Timor
+74
+Y
+Lesotho
+74
+S
+Libya
+74
+X
+Madagascar
+74
+F
+Malawi
+74
+L
+Maldives
+74
+N
+Mauritania
+74
+P
+Mauritius
+74
+O
+Niger
+74
+B
+New Caledonia
+74
+A
+Papua New Guinea
+74
+W
+Rwanda
+74
+G
+Vanuatu
+74
+V
+Zambia
+75
+J
+Azerbaijan
+75
+G
+Kuwait
+75
+D
+Democratic Republic of Congo
+75
+D
+Republic of Congo
+75
+P
+Liechtenstein
+75
+K
+Kyrgyzstan
+75
+H
+Oman
+75
+I
+Seychelles
+75
+L
+Turkmenistan
+75
+R
+Gabon
+75
+S
+Burkina Faso

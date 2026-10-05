@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 60090.012 - Determining Amount of Offset
+Effective Dates: 07/10/2008 - Present | TN 4 (07-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460090012 (fetched 2026-10-04)
+
+F. Procedure - end of year reconciliation
+The earnings and any other information needed for end of year reconciliation will
+be sent via secure email by the states to OCO CPS. CPS will establish an ACR and route
+the information to the DE.
+1. DE Procedures
+The DE will review the documentation provided by the state and determine the amount
+of countable earnings (monthly gross earnings minus any work incentive deductions)
+for the offset period. When the correct offset MBA based on actual countable earnings
+has been determined, route the ACR to the BTE to reconcile. Calculate the correct
+offset MBA using the following charts:
+a. Partial Year Offset
+Partial Year Offset Calculation Worksheet
+First month of offset: ____________
+Number of months in the offset period: ________
+Step 1
+Determine total countable earnings (monthly gross earnings minus any work incentive
+deductions) for the offset period
+$
+Step 2
+Determine prorate SGA (number of months in the offset period x monthly SGA amount)
+$
+Step 3
+Subtract the amount determined in Step 2 from the amount determined in Step 1.
+$
+Step 4
+Divide the amount determine in Step 3 by 2 (for $1 for $2)
+$
+Step 5
+Divide the amount determined in Step 4 by the number of months in the offset period
+(rounding up to the nearest dime)
+$
+Step 6
+Subtract the amount determined in Step 6 from the current MBA to determine Offset
+MBA.
+$
+b. Full Year Offset
+Step 1
+Determine total countable earnings (gross earnings minus work incentive deductions)
+for the year
+$
+Step 2
+Monthly SGA x 12
+$
+Step 3
+Subtract the amount determined in Step 2 from the amount in Step 1
+$
+Step 4
+Divide the amount determined in Step 3 by 2 ($1 for $2)
+$
+Step 5
+Divide the amount determined in Step 4 by 12, (rounding down to the nearest dime)
+$
+Step 6
+Subtract the amount determined in Step 7 from the current MBA
+$
+2. BTE procedures
+When the ACR is received, review the PHUS, MBR, and/or information in file to determine
+the amount of benefits actually paid during the offset period based on the estimated
+earnings and IRWE information.
+To reconcile: subtract amount actually paid from amount that should have been paid.
+If the figure is positive, beneficiary is underpaid. If the figure is negative, beneficiary
+is overpaid.
+If beneficiary is underpaid;
+•
+Pay the amount due by using an AA entry on the HST screen.
+•
+Release an adjustment notice-code an A18, G in the ENB, and include the following
+dictated language:
+“Because you are participating in the Benefit Offset Demonstration, we will continue
+to pay you by reducing your benefit $1.00 for every $2.00 you are earning over the
+substantial gainful level.”
+If the beneficiary is overpaid, follow the steps outlined in DI 60090.015E.

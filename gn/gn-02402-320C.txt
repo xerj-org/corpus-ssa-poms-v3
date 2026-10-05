@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.320 - Coding Denmark Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402320 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processor bank in Denmark will have a prefix of 71 at the beginning of the routing
+number (RTN) and an assigned letter in the first position of the Depositor Account
+Number (DAN). The letter assigned for Denmark is “F.”

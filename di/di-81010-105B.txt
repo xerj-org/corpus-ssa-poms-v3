@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 81010.105 - Deleting or Manually Clearing Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 09/19/2024 - Present | TN 80 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010105 (fetched 2026-10-04)
+
+B. Manually Clearing EDCS Cases
+EDCS Cases can only be Manually Cleared by a member of FO staff with a management
+profile. Manually Clearing a claim is a disposition which stops all further electronic
+processing of the claim. A Manually Cleared claim does not allow the user to reestablish
+a record for the same filing and prevents linking of the claim as a comparison point
+decision (CPD) folder for any future CDRs unless the folder contains one case that
+has a medical allowance or continuance. For further guidance, refer to EDCS - Delete,
+Clear, Determine Flowchart in the PDF below:
+View In PDF
+NOTE: Manually clearing cases in EDCS does not clear claims from MCS/MSSICS.
+1. Before Inputting a Manual Clearance
+a. Case is Pending at the Disability Determination Services (DDS) in EDCS
+If the case was pending at the DDS:
+•
+Obtain a Disability Determination Services Query (DDSQ); and
+•
+Verify that the case has been closed and is pending at your FO.
+b. Case is Pending at the Office of Disability Adjudication and Review (ODAR) in EDCS
+If the case was pending at the ODAR, verify that:
+•
+The case has been closed on case processing and Management System (CPMS); and
+•
+Your FO has jurisdiction of the case.
+c. Case Closure Documents
+Check eView and verify that the proper closure documents (i.e., SSA-831, PDN, and
+DDS worksheet) from the DDS or ODAR are imaged in the Certified Electronic Folder
+(CEF). If not, management personnel must request DDS or ODAR add these documents to
+the CEF prior to inputting the Manual Clearance. It is imperative for proper processing
+that the closure documents are in the CEF before the Manual Clearance is input.
+NOTE: If the case is not a CEF, ensure the paper copies of the closure documents are also
+contained in the paper Modular Disability Folder (MDF).
+2. Manually Clearing the Case
+To manually clear the case:
+•
+Select the Manual Clearance button on the Disability Case Selection page;
+•
+Select one of the following reasons for manual clearance from the drop down box:
+–
+“FO did not transfer the EDCS report to DDS”
+The FO failed to timely transfer the EDCS report to the DDS and the National Disability
+Determinations Service System (NDDSS) shows the case was receipted.
+–
+“FO did not transfer the EDCS report to ODAR”
+The FO failed to timely transfer the EDCS report to ODAR and ODAR has posted their
+decision to the Case Processing and Management System (CPMS) and the CPMS status shows
+the case is closed.
+–
+“DDS decision, transaction failure, EDCS segment still open”
+DDS inputs the disability decision and closes the case on NDDSS but EDCS still shows
+the case is open.
+–
+“ODAR decision, transaction failure, EDCS segment still open”
+ODAR inputs the disability decision and closes the case on CPMS but EDCS still shows
+the case is open.
+–
+“Applicant wants to withdraw a claim”
+–
+"MPC created in error"
+The FO disconnects two cases of a Multiple Pending Case (MPC) when both are pending
+at the FO.
+–
+“Other”
+If none of the listed reasons apply, select “Other” and enter the rationale for manual
+clearance in the dialogue box (up to 50 characters).
+•
+Select the "OK” button.
+Once manually cleared:
+•
+The case closes; and
+•
+“Manually Cleared” appears under claim status.
+NOTE: The jurisdiction does change for a manually cleared claim.

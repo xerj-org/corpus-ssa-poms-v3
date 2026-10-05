@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02402.017 - Handling Overpayments Attributed to Alleged Fraud and Other Unauthorized Redirection of Payments
+Effective Dates: 08/22/2022 - Present | TN 307 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402017 (fetched 2026-10-04)
+
+D. Handling overpayments identified in the "O/U PAY" field
+If there is an overpayment in the O/U PAY field of the beneficiary, rather than on
+the ROAR under the NED record, then processing may have occurred incorrectly. To handle
+these cases, take the following actions:
+Field Office (FO) Staff
+1.
+Contact the Processing Center (PC) via an MDW to request the following:
+a.
+Follow steps in GN 02402.017C.2.a to properly establish the overpayment in ROAR with the subscript of "X."
+b.
+Delete any O/U PAY amount pertaining to the alleged direct deposit fraud.
+Processing Center (PC) Staff
+After requested action is completed:
+1.
+Review the ROAR field to determine if the case processed correctly.
+2.
+Once verified, contact the FO via telephone and send an MDW to notify the field office
+of the following:
+a.
+The PC established a ROAR overpayment and updated the DMS remarks.
+b.
+The name, SSN, and overpayment amount of the alleged victim of the unauthorized Direct
+Deposit changes.

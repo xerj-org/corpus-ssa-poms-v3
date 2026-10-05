@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02602.051 - Processing Reports of Death Using the Death Information Processing System (DIPS)
+Effective Dates: 05/05/2023 - Present | TN 98 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602051 (fetched 2026-10-04)
+
+F. EDR Delete transactions
+Completing an EDR Delete transaction is the same as completing a Delete transaction
+in section (E), except that deleting the death information on the Numident when the
+source is EDR requires 2-PIN clearance. You must alert your management that their action is required to complete the EDR Delete transaction.
+If you do not obtain a 2-PIN clearance for your EDR Delete transaction on the same day, the record will not process and you will have to resubmit the entry into DIPS.

@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 14510.007 - Field Office (FO) Procedures for Section 301 Cases after Office of Disability Operations (ODO) Determination
+Effective Dates: 11/01/2024 - Present | TN 17 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510007 (fetched 2026-10-04)
+
+G. Procedure when Section 301 payments terminate
+When a beneficiary completes or stops participating in the program, benefits terminate
+effective the month after the month of completion, or the month after the month participation
+stopped.
+EXAMPLE: If the beneficiary completes the VR or similar program during October 2023, payments
+terminate effective November 2023.
+1. Title II cases
+ODO sends the required notices, updates the remarks on the MBR and terminates benefits.
+If ODO does not receipt the DCF tickle, the FO will complete this action.
+2. Title XVI cases
+ODO releases the termination notice, annotates the DCF, and sends an email to the
+FO requesting immediate action to terminate benefits with the effective date.
+The FO processes the termination with a two-day action:
+Day 1 - Use MSSICS Direct SSR Update:
+•
+Delete the VP diary;
+•
+Transmit the MG code of T with the disability cessation date (if not already on the
+record) using the Continuing Disability Review (UDCR) Screen;
+•
+Input a Remark indicating the period of Section 301 eligibility and termination date;
+and
+•
+Suppress all notices per SM 01301.675.
+Input ensures the correct cessation date shows on the record.
+Day 2 - Use SSI Data Inputs – SPE1 (PE Single Input):
+•
+Input N07/N08 per SM 01305.001 or an SZ code of N per SM 01301.450 for the month benefits terminate per ODO's instructions (See also SM 01305.005 to determine the code, message, and action required for each payment status (PS)
+field reject and alert); and
+•
+Suppress all notices.
+Input ensures the correct months of payment after cessation are shown on the record.
+NOTE: Check all inputs for the proper C01 and N07 months to ensure the overpayment or the
+underpayment is correct.
+ODO reviews the SSR for the N07/N08 input. ODO will follow up by email if the FO has
+not updated the diary within 15 days.

@@ -1,0 +1,200 @@
+SSA Program Operations Manual System (POMS) - DI 52170.030 - Manual Proration of Lump Sum Awards
+Effective Dates: 12/17/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452170030 (fetched 2026-10-04)
+
+E. Examples of LS proration methods
+For the following example the same lump sum will be prorated using each of the three
+methods. Here are the details of the lump sum settlement:
+Gross Lump Sum $49,000
+Excludable Attorney Fees: $5,000.00
+Excludable Future Medical Expenses: $4500.00
+Lump Sum Start Date: March 17, 2006.
+Prior Periodic Payment Rate: $275.00/wk (1191.90 monthly)
+No proration rate is specified in the award.
+1. Method A
+Step 1: Divide the excludable expenses by the weekly rate, resulting in a number of weeks.
+Do not offset for this number of weeks beginning with the LS start date.
+Formula
+Result
+Description
+$5,000.00 attorney fee
++ 4,500.00 future medical
+$9,500.00
+Total excludable expenses
+$9,500.00 expenses
+$ 275.00 weekly rate
+34.55
+Weeks of expenses plus remainder
+03/17/2006 plus 34 weeks
+11/09/2006
+Do not offset from 03/17/2006 through 11/09/2006
+Step 2: Use the expense remainder to reduce WC/PDB for the first week offset is resumed.
+Formula
+Result
+Description
+34 weeks x $275.00
+$9,350.00
+Total amount of full weekly proration
+$9,500.00 total expenses
+- 9,350.00 charged off in full weeks
+$150.00
+Expense remainder to be charged off week of 11/10-11/16/2006
+Step 3: To compute the monthly WC amount for November 2006, we would take the regular monthly
+rate of $1191.60 and subtract out the expenses we are excluding for that month.
+Formula
+Result
+Description
+$275.00 weekly rate
+7
+$39.29
+Daily rate
+$39.29 daily x 9 days (11/01-11/09)
+$353.61
+First part of the computation
+$353.61 + $150.00 expense remainder
+$503.60
+November 2006 expenses (round to next lower dime)
+$1191.60 monthly WC
+- 503.60 expenses
+$688.00
+November 2006 WC
+Step 4: Divide the LS by the weekly proration rate to arrive at the total number of weeks
+to prorate the lump sum.
+Formula
+Result
+Description
+$49,000 LS
+$275.00 weekly rate
+178.18
+178 weeks of proration, plus a remainder
+03/17/2006 plus 178 weeks
+08/13/2009
+Ending date of last full week of proration
+178 weeks x $275.00 weekly rate
+$48,950.00
+Total amount of full weekly proration
+$49,000.00 LS
+- 48,950.00 charged off in full wks.
+$50.00
+LS remainder
+Step 5: To figure the WC for the last month of proration, compute the daily rate times the
+number of days of offset and add the LS remainder. August 2009 would look as follows:
+Formula
+Result
+Description
+$39.29 daily rate x 13 days (08/01-08/13)
+$510.77
+First part of the computation
+$510.77 + $50.00 LS remainder
+$560.70
+August 2009 WC (round to next lower dime)
+2. Method B
+Step 1: To figure the WC for the last month of proration, compute the daily rate times the
+number of days of offset and add the LS remainder. August 2009 would look as follows:
+Formula
+Result
+Description
+$49,000.00 lump sum
+$ 275.00 weekly rate
+178.18
+178 weeks of proration, plus a remainder
+03/17/2006 plus 178 weeks
+08/13/2009
+Ending date of last full week of proration
+Step 2: Divide the LS, less excludable expenses, by the total LS. Round to three decimal
+places. NOTE: Always round down to three decimal places despite the number in the fourth decimal place.
+Formula
+Result
+Description
+$49,000.00 lump sum
+- 9,500.00 expenses
+$39,500.00
+Net lump sum
+$39,500.00 net lump sum
+49,000.00 lump sum
+.8061 -- rounds to 80.6%
+Reduced weekly rate
+Step 3: Multiply this percentage by the weekly rate, resulting in a reduced weekly rate.
+Formula
+Result
+Description
+$275.00 full weekly rate
+x 80.6%
+$221.65
+Reduced weekly rate
+Step 4: There will usually be a remainder to be applied to the final week of proration.
+Formula
+Result
+Description
+$221.65 reduced weekly rate
+x 178 weeks
+$39,453.70
+Total amount of full weekly proration
+$39,500.00 lump sum
+- 39,453.70 charged off in full weeks
+$46.30
+LS remainder
+Step 5: To figure the WC for the last month of proration, compute the daily rate times the
+number of days of offset and add the LS remainder. (If the LS remainder raises the
+monthly WC/PDB amount higher than the previously established monthly rate, use the
+previously established rate and carry the remainder into the following month.) August
+2009 would look as follows:
+Formula
+Result
+Description
+$221.65 reduced monthly rate
+7
+$31.66
+Reduced daily rate
+$31.66 x 13 days (08/01-08/13)
+$411.58
+First part of the computation
+$411.58 + $46.30 LS remainder
+$457.80
+August 2009 WC
+The established monthly rate (221.65 x 13/3) is $960.40 so there is no need to carry
+the LS remainder into September 2009.
+3. Method C
+Step 1: Reduce the LS by the amount of excludable expenses prior to the proration.
+Formula
+Result
+Description
+$49,000.00 LS
+- 9,500.00 excludable expenses
+$39,500
+Net lump sum
+Step 2: Divide the net lump sum amount by the weekly proration rate to determine the number
+of weeks to prorate the LS.
+Formula
+Result
+Description
+$39,500.00 LS
+$275.00 weekly rate
+143.64
+Number of weeks to prorate LS plus remainder
+03/17/2006 plus 143 weeks
+12/11/2008
+Ending date for full weeks of LS
+Step 3: Figure the LS remainder by multiplying the number of weeks times the weekly rate
+and subtracting that number from the net LS.
+Formula
+Result
+Description
+143 weeks x $275.00 weekly rate
+$39,325.00
+Amount charged off with all the full weeks of WC
+$39,500.00 Net LS
+- 39,325.00 charged off in full wks.
+$175.00
+LS Remainder
+Step 4: To figure the WC for the last month of proration, compute the daily rate times the
+number of days of offset and add the LS remainder. December 2008 would look as follows:
+Formula
+Result
+Description
+$39.29 daily rate x 11 days (12/01 – 12/11)
+$432.19
+First part of the computation
+$432.19 + $175.00 LS remainder
+$607.10
+December 2008 WC (round to next lower dime)

@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - SI 02201.015 - SSI Netting/Offsetting Overpayments Against Underpayments
+Effective Dates: 10/18/2023 - Present | TN 16 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502201015 (fetched 2026-10-04)
+
+D. Procedure - manual netting
+1. Case is excluded - system unable to net
+If the case is excluded from automated netting because the system is unable to perform
+netting the FO manually net the period under review and issue the appropriate initial
+overpayment notice.
+2. Case is excluded - system unable to send the notice
+a.
+Prepare and send the appropriate initial notice of overpayment.
+•
+Show all months of the period under review and the result of netting the additional
+amounts due and the excess payment amounts from the “net” overpayment sequence.
+•
+Use the language in SI 02201.015E. (or the language in DOCS).
+•
+Enter the Notice Date through the UOSD screen – see MSOM BUSSR 004.006 .
+b.
+Add a RECOVER BY CHECK ADJUSTMENT decision on the UOPD screen, see MSOM BUSSR 004.008 and SM 01311.105.
+c.
+If the “net” result is an underpayment, go to the UOUP screen and enter the appropriate
+code to release the underpayment, MSOM BUSSR 004.018 . You must release the underpayment, add a notice date, and add a Recover by Check
+Adjustment decision at the same time, see SM 01311.165.
+d.
+For complete manual netting instructions, see SM 01311.165.

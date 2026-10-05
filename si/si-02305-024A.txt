@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - SI 02305.024 - Limited Issues (LIs) with Continuing Type "F" Income
+Effective Dates: 11/02/2006 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305024 (fetched 2026-10-04)
+
+A. Introduction
+Cases with a redetermination (RZ) profile code of "X" and a selection indicator of
+"F" are selected for LI development because the record indicates continuing type "F"
+income. However, if one of the following codes appear in the UMI field of the unearned
+income data (UMIH) segment of the Supplemental Security Record (SSR), these cases
+are not selected for LI development:
+•
+IRFG, IBIA, IOIA, or IIBN is in the first four positions of the UMI field of the UMIH
+segment of the SSR; or
+•
+TANFC or MULTI is in the first five positions of the UMI field of the UMIH segment
+of the SSR.

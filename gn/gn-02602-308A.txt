@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02602.308 - Processing Form SSA-1588-SM (Beneficiary Recontact Report) Nonresponders and RETAP Alerts
+Effective Dates: 10/12/2023 - Present | TN 103 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602308 (fetched 2026-10-04)
+
+A. RETAP actions for nonresponders
+The automatic process for mailing a follow-up mailing to nonresponders occurs as follows:
+1.
+Send an initial form to all eligible young surviving spouses. The young surviving
+spouse has 90 days to complete and return the form.
+2.
+Send the young surviving spouse a follow-up notice marked “final request” if we do
+not receive a response to the initial mailing.
+3.
+Allow the young surviving spouse an additional 90 day period to return the completed
+form.
+4.
+Send a S9 RECONT Suspension Notice if the young surviving spouse does not return the
+completed form after the second 90 days have elapsed (180 days total).
+NOTE: The BENEFIT line on the Master Beneficiary Record (MBR) will display a reason for
+suspension or termination (RFST) of RECONT.
+5.
+Place the young surviving spouse in suspense ledger account file (LAF) S9 RECONT.
+6.
+Send a termination notice and terminate benefits (LAF T3 REMARR) if the young surviving
+spouse does not return the form or contact us within 60 days of the suspension notice
+(we are now at 240 days from the initial request).
+7.
+Terminate benefits LAF T3 RECONM.
+8.
+Adjust the benefit rates to the remaining auxiliaries receiving benefits on the record
+if applicable.
+For more information about the automated systems features, see MSOM COMMON 005.028.
+The RFST code appears on the BENEFIT line on the MBR. For information on the BENEFIT
+data line, see SM 00510.175C.11. If we suspended or terminated benefits due to failure
+to return the Beneficiary Recontact Report Form, the RFST field will display RECONT
+(suspension) or RECONM (termination).
+NOTE: Residents of Puerto Rico receive the form in both English and Spanish.

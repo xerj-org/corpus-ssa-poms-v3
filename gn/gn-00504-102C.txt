@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 00504.102 - Representative Payees Identified by the Fugitive Felon Match
+Effective Dates: 08/11/2023 - Present | TN 35 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504102 (fetched 2026-10-04)
+
+C. Process for eRPS/FF match alert
+If you receive a eRPS/FF match alert, you must initiate action to replace or suspend
+that payee. For advance notice requirements, see GN 00504.102E.
+REMEMBER: Advance notice requirements can be satisfied during a personal contact with the
+payee as you develop for a new payee or by sending a letter.
+1. New payee found
+To find and develop a suitable payee, refer to GN 00502.100. If you are able to quickly locate and secure an application from a suitable payee,
+process the application using procedures provided in MS 07401.001. However, before
+processing the selection of the new payee, manually terminate the fugitive felon payee's
+relationship in the eRPS for reason “OTH” and specify “FUGITIVE FELON” (refer to MS
+07410.003).
+2. No payee found
+If you are unable to quickly locate a successor payee, consider direct payment to
+the beneficiary as provided in GN 00504.105. If direct payment is prohibited and you are unable to locate a suitable successor
+payee, suspend benefits. For T2 cases, suspend using the Develop for Rep Payee (DPYE)
+screen, reason “fugitive felon”. For T16 cases, suspend for reason S08 (payee not
+qualified) and add a statement in the remarks field of the Supplemental Security Record
+(SSR) that the payee was suspended due to the fugitive felon provisions.

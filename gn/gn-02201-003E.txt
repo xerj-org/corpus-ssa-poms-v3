@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02201.003 - Determining a Title II Overpayment Amount
+Effective Dates: 10/13/2023 - Present | TN 72 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201003 (fetched 2026-10-04)
+
+E. Calculating the overpayment
+In general, when you have to calculate the overpayment amount manually, look at what
+we paid the individual for a given period based on the Payment History Update System
+(PHUS) record if applicable or a prior Master Beneficiary Record (MBR) if this is
+a pre-PHUS case. In addition, include certain deductions as a “paid” amount (e.g.
+attorney fee, garnishment, Medicare premiums, windfall offset, monies withheld to
+recover a prior overpayment, etc.). We include these items as monies paid to the individual
+because we are paying someone else on their behalf.
+Below is a list of paid event codes to look for on the individual’s PHUS record:
+•
+010 DUP CHECK,
+•
+014 RECUR,
+•
+042 PMA CHK,
+•
+049 LEGAL DED,
+•
+146 GARNISH, etc.
+For additional PHUS paid event codes, see SM 00630.145, SM 00630.346, and SM 00630.249.
+NOTE:
+Based on special situations (e.g. fraud cases), we might not include Medicare premiums
+or other specific paid events in the overpayment calculation as we normally do. Therefore,
+follow the applicable special case instructions.
+Compare what we paid the individual to what we should have paid the individual and
+the excess amount paid is the overpayment amount. Take into account any returned checks
+or refunds. In general, you compute paid vs. payable beginning with the point of change.
+There will be instances where you might have to compute paid vs. payable beginning
+with the individual’s date of entitlement (DOE).
+NOTE:
+NOTE: For information about processing amended awards and windfall offset that involve
+an overpayment, see SM 00815.200.

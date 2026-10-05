@@ -1,0 +1,345 @@
+SSA Program Operations Manual System (POMS) - SI 02005.090 - SSA-4968 - SSI RMA Payment Worksheet
+Effective Dates: 07/09/2012 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005090 (fetched 2026-10-04)
+
+A. Procedure — general
+Use the nationally approved personal computer software available for RMA computations
+unless the system is not available. In that event, use this worksheet to compute payments.
+Do not use the software or complete this worksheet for spouse-to-spouse deeming. Instead,
+complete Form SSA-8015 (see SI 01320.710) or SSA-3123 (see SI 01320.430) or use the deeming mask. (See MSOM ICFT16 003.001).
+NOTE: The entries which are not addressed are self-explanatory.
+1. Completion of the SSA-4968 Except for Eligible Couples
+a.
+Complete the Federal Living Arrangement (FLA) Code(s) portion using one of the following
+FLA codes that apply for the computation month (CM).
+FLA Codes
+A —
+Living in Own Household
+B —
+Living in the Household of Another (i.e., subject to the value of the one-third reduction
+(VTR))
+C —
+Child Living in Household of Parent(s)
+D —
+Living in a Title XIX Institution (subject to $30 pay cap)
+b.
+Complete Parts 1. through 4. to compute the claimant's total countable income (CI) for each CM.
+Part 1: Unearned Income (UMC)
+•
+Compute the countable unearned income for the month. (See SI 00835.001, SI 00830.001, and SI 01320.001).
+•
+If any amount includes a fraction of a cent, express this amount to three places to
+the right of the decimal point (see SI 02001.010).
+•
+In items A. through E., enter unearned income that is subject to the $20 monthly general
+exclusion.
+NOTE: Effective for benefits payable for 01/95 and after — for the first 2 months in which
+a COLA is in effect, the PMV will be equal to one-third the new FBR (as increased
+by the COLA) plus $20 and will be used in the payment computation. (For benefits payable
+for months prior to 01/95, the PMV increased when the FBR increased because the PMV
+was based on the FBR (one-third the FBR plus $20).)
+Item H:
+If the general exclusion exceeds item F., enter 0 in item H. Include the excess in
+item 2.D. if the claimant received earned income for the month.
+Item I:
+Enter the total income based on need (IBON) (which is not subject to $20 general exclusion).
+​
+NOTE: Effective 04/88 certain IBON is counted only in the month of receipt. (Item I has
+separate entry lines for IBON which falls under regular RMA rules or as income counted
+prospectively.)
+Item L:
+If item K. is greater than item J., enter 0 in item L. Include the excess in item
+2.K. if the claimant received earned income for the month.
+​
+NOTE: The amount in item L. is the UMC —the countable unearned income in the month.
+Part 2: Countable Earned Income (ENC)
+•
+Compute the countable earned income for the month. (See SI 00820.001).
+•
+If any amount in this segment includes a fraction of a cent, express this amount to
+three places to the right of the decimal point.
+Item C:
+If item B. is greater than item A., enter 0 in item C.
+Item D:
+Enter the unused portion, if any, of the $20 general exclusion from item 1.H. in item
+D.
+Item E:
+If item D. is greater than item C., enter 0 in item E.
+Item G:
+If item E. is less than or equal to $65, enter 0 in item G.
+Item H:
+Enter the Impairment Related Work Expenses (IRWE) exclusion.
+Item I:
+If item H. is greater than item G., enter 0 in item I.
+Item K:
+Enter the sum of any work expenses for the blind and any remainder of the PASS exclusion
+from item 1.L. in this item.
+Item L:
+If item K. is greater than item J., enter 0 in item L.
+​
+NOTE: The amount in item L. is the ENC —the countable earned income in the month.
+Part 3: VTR
+Enter the appropriate value of the VTR for the CM. (See SI 00835.900 and SI 00835.901 for VTR amounts).
+NOTE: Benefits Payable for months Prior to 01/95 — The VTR increased when the FBR increased. Under RMA, the VTR usually did not affect
+payment until 2 months after the month it was received.
+Effective for Benefits Payable for 01/95 and after — For the first 2 months in which a COLA is in effect, the new FBR (as increased by
+a COLA) will be used to determine the value of the VTR for the payment computation.
+Thus, the VTR will be coordinated whenever there is a COLA. (See SI 02005.001E.4.)
+Do not enter the presumed maximum value (PMV) of in-kind support and maintenance (ISM)
+in this part. Enter PMV in item SI 02005.090A.1.b.
+Part 4: CI
+Use Part 4 to determine the claimant's total countable income (CI) for the month.
+Add Parts 1L., 2L., &3 together for total CI.
+c.
+Use Part 5 to compute the claimant's eligibility for a Federal SSI payment for the
+month based on income.
+Part 5: Federal Eligibility
+Item A:
+Enter the computation month FBR. Do not enter the payment limit associated with “FLA-D.”
+Item B:
+Obtain this figure from Part 4.
+Item C:
+Subtract Item B from Item A and:
+•
+If item A. is greater than or equal to item B., the claimant is eligible for a Federal
+SSI payment for the month.
+•
+If item A. is less than item B., the claimant is not eligible for a Federal SSI payment
+for the month. Place a “-” (minus sign) in front of the result to indicate that the result is excess CI.
+Item D:
+If the claimant is eligible for a Federal SSI payment for the month, enter “E” in item 5.D. and continue with item 5.E.
+If the claimant is ineligible for a Federal SSI payment for the month, and there is
+no OSS involvement, enter “N” in item D., skip item 5.E. through item 6.F. and enter O in item 6.G.
+If the claimant is ineligible for a Federal SSI payment for the month but there is
+optional State supplementary (OSS) involvement, enter “N” in item 5.D. and go to Part 7. to determine OSS eligibility.
+Item E:
+Enter the budget month flag (BMF) from the chart below in item 5.E.
+IF:
+THEN: Enter the BFM as:
+The BM is the same as the month being computed
+0
+The BM is the month prior to the month being computed
+1
+The BM is 2 months prior to the month being computed
+2
+d.
+Use Part 6 to compute the claimant's Federal payment amount.
+Part 6: Federal Payment Computation
+Item A:
+Determine the BM based on the BMF from item 5.E. or item 7.D., as applicable and enter
+the date (e.g., 07/94).
+Item B:
+Enter the BM's CI from Part 4 or SSIRD (less any IBON subject to prospective monthly
+accounting; IBON which is subject to prospective accounting and which is received
+in the CM will be entered in item D).
+Item C:
+If the CM is January or February, and COLA coordination applies (see SI 02005.010 and SI 02005.015), enter any increase in Title II income.
+NOTE: Be sure that the $20 general exclusion has been used up.
+Item D:
+If the rules for prospective accounting for IBON apply, enter the amount of IBON received
+in the CM in this item. See SI 02005.025.
+Item E:
+Add item 6.B. with item 6.C. &item 6.D., together, and enter the total countable income.
+Item F:
+Enter the CM's FBR or the FLA-D payment limit. Include any essential person increment
+(see SI 00501.100.)
+Item G:
+Subtract item E. from item F. (If the claimant is federally ineligible, no Federal
+SSI benefit is due.) Therefore, if the Federal eligibility code (FEC) is N and item
+F. is greater than or equal to item E., enter 0 in item G.
+​
+If the FEC is N and item F. is less than item E., subtract item F. from item E. and
+enter the result in item G. Place a “-” (minus sign) in front of the result to show that no Federal payment is due and that
+there is excess income.
+​
+If the FEC is E and item F. is greater than or equal to item E., subtract item E.
+from item F. and enter the result in item G.
+​
+If the FEC is E and item F. is less than item E., subtract item F. from item E. and
+enter the result in item G. Place a “-” (minus sign) in front of the result to show that no Federal payment is due and that
+there is excess income.
+​
+NOTE: If the result in item G. is 0 or more than 0, it is the Federal amount due, the FAM.
+If the result is a negative amount, it is the amount of excess income.
+​
+If the claimant is potentially eligible for State supplementation for the month, continue
+the computation with Part 7. on the reverse of the worksheet.
+​
+If the claimant is not potentially eligible for State supplementation for any of the
+months listed at the top of the worksheet, go to Part 9.
+e.
+Use Part 7 to compute the claimant's eligibility for an Optional State Supplementary
+(OSS) payment for the month based on income.
+Part 7: Optional State Supplement Eligibility
+Optional State Supplement Code(s):
+Enter the optional State supplement code which applies for each CM.
+Item C:
+•
+If there is an additional income disregard (only in Maine), refer to regional instructions.
+•
+If there is no additional income disregard, compare item B. to item A.
+•
+If item A. is greater than item B., the claimant is eligible for an OSS payment for
+the month; enter eligibility code “E” in item C. and enter the BMF in item D. (if you have not already determined the BMF
+in item 5.E.).
+•
+If item A. is less than or equal to item B., the claimant is not eligible for an OSS
+payment for the month enter eligibility code “N” and do not enter a BMF in item D.
+Item D:
+•
+Enter the BMF in item D. if the claimant is eligible for an OSS payment and the BMF
+has not already been entered in item 5.E.
+•
+If the SEC is “E,” go back and complete Part 6 if not previously completed.
+​
+NOTE: The FEC may be “N,” but completion of Part 6 is necessary to determine the OSS payment.
+f.
+Use Part 8 to compute the OSS payment due for the month.
+Part 8: Optional State Supplement Payment Computation
+If the claimant is not eligible for an OSS for the month, enter 0 in item D.
+Item A:
+If the claimant is eligible for an OSS, enter the BM in item A.
+Item D:
+If there is an additional income disregard (only in Maine), refer to regional instructions.
+If there is no additional income disregard, subtract item C. from item B. Enter the
+result in item D. If item C. is greater than item B., enter 0 in item D.
+g.
+Use Part 9 to compute a prorated benefit, if applicable.
+Part 9: Proration Item E:
+If the FAM (from 6.G. or 6.H.) is 0, enter 0 in item E. Otherwise, divide item C.
+by item D. and enter the result in item E.
+RESULT: The prorated FAM due for the month.
+Item F:
+If the claimant is not due an OSS, go to Part 10.
+h.
+Use Part 10 to compute the claimant's eligibility for a mandatory minimum State supplementation
+(MMSS) payment for the month based on income.
+Part 10: Mandatory Supplement Eligibility
+Item A:
+If you have an entry for item B. (“VTR for MSS Purposes” as explained in SI 02005.084B.2.), do not include “VTR” (from Part 3) here.
+Item B:
+See SI 02005.084D.2.
+Item F:
+Compare Item D. to Item E. and:
+•
+If item E. is greater than item D., the claimant is eligible for an MMSS payment for
+the month. Enter eligibility code “E” and proceed to Part 11.
+•
+If item E. is less than or equal to item D., the claimant is not eligible for an MMSS
+payment for the month. Enter eligibility code “N” and 0 in item 11.F.
+i.
+Use Part 11 to compute the MMSS payment due for the month.
+Part 11: Mandatory Supp. Payment Computation
+If the claimant is not eligible for an MMSS for the month (see item 10.F.), enter
+0 in item F. Do not complete item A. through item E.
+Item D:
+Enter the FAM (the Federal payment due for the month) from item 6.G. or item H. (or
+9.E. if prorated) in item D. If the amount has a minus sign, enter 0 in item D.
+​
+NOTE: The amount in item F. is the MMSS payment due.
+j.
+Use Part 12 to compute the total payment due the claimant.
+Part 12: Total Payment
+Item A:
+Enter the OSS (from item 8.D. or item 9.H., as applicable) or the MMSS (from item
+11.F.), whichever is greater.
+Item B:
+Enter the FAM from item 6.G. or item H. (or 9.E., if prorated). If the FAM has a minus
+sign, enter 0.
+​
+NOTE: Result in item C. is the total payment due for the month.
+2. Completion of the SSA-4968 for Eligible Couples
+a. Eligible Couple Living Together in CM
+Parts 1, 2, 3, and 4: Combine the income of both members of the couple and enter the total amount in each
+item.
+Part 5: Follow the instructions in SI 02005.090A.1.c.
+Part 6: Enter the CM couple FBR/couple FBR limit (i.e., FLA-D amount) in item F.
+(see SI 02005.050 if one or both members of the couple are temporarily absent from home in a Title
+XIX facility). Follow the instructions in SI 02005.090A.1.d. to complete items A. through item E. Divide the result of item G. by 2 and enter
+the result in item H.
+NOTE: This is the FAM (or excess income) for each member of the couple.
+Part 7: Enter the CM OSS level for the couple in item A. and follow the rest of the instructions
+in SI 02005.090A.1.e.
+Part 8: Follow the instructions in SI 02005.090A1.f. In item C., enter any excess income from item 6.H. Divide the result of item 8.D.
+by 2 and enter the result in item E.
+NOTE: This is the OSS for each member of the couple.
+Part 9: NOTE: In most cases when the members of the eligible couple are living together, the Federal
+and State payments to each member of the couple will be the same and the computation
+can be shown in one column on the worksheet. However, in some cases, the amount of
+the Federal and State payments to each member of the couple will not be the same because
+of proration (See SI 02005.007).
+If only the eligible individual is subject to proration, enter the FAM for one member
+of the couple from item 6.H. in item A. and the OSS for one member of the couple from
+item 8.E. in item F. Follow the other instructions in SI 02005.090A.1.g.
+NOTE: Item E. is the prorated FAM and item H. is the prorated OSS for the eligible individual.
+If only the eligible spouse is subject to proration, make no entry in Part 9 in the
+column being used to display the rest of the computation. In the next column, enter
+the same CM. Make no entry in this column for Parts 1 to 8. In Part 9, show the proration
+computation for the eligible spouse.
+NOTE: No entry in the first column indicates that the eligible individual is not subject
+to proration. An entry in the next column indicates that the eligible spouse is subject
+to proration.
+If both members of the couple are subject to proration and the number of benefit days
+for both is the same, enter the FAM for one member of the couple from item 6.H. in
+item A. Enter the OSS for one member of the couple from item 8.E. in item F. Follow
+the other instructions in SI 02005.090A.1.g.
+NOTE: Item E. is the prorated FAM and item H. is the prorated OSS for each member of the
+couple.
+If both members of the couple are subject to proration and the number of benefit days
+is not the same for both, prorate the benefit of the eligible individual in the column
+being used for the CM. Prorate the benefit of the eligible spouse in the next column.
+Part 10: If only the eligible individual has a MIL and is potentially eligible for an MMSS,
+enter the SCI or FCI for the eligible individual in item A. (The FCI will be one-half
+of the FCI shown in item 4. for the couple.) In item C., enter one-half of the result
+in item 5.C. for the couple. Follow the other instructions in SI 02005.090A.1.h. If only the eligible spouse has a MIL and is potentially eligible for an MMSS, make
+no entry in Part 10 in the column being used to display the rest of the computation.
+In the next column, enter the same CM. Make no entry in Parts 1 to 9. In Part 10,
+show the MMSS computation for the eligible spouse.
+NOTE: No entry in the first column indicates that the eligible individual is not potentially
+eligible for an MMSS. An entry in the next column indicates that the eligible spouse
+is potentially eligible for an MMSS.
+If both members of the couple have a MIL and are potentially eligible for an MMSS,
+determine the eligibility of the eligible individual for an MMSS in the column being
+used for the CM. Determine the eligibility of the eligible spouse in the next column.
+Part 11: Enter the FAM from item 6.H. in item D. Follow the other instructions in SI 02005.090A.1.i. Show the computation for the eligible individual in this column and the computation
+for the eligible spouse in the next column.
+Part 12: NOTE: If proration does not apply and there is no MMSS due for either member of the couple,
+the OSS and the FAM for each member of the couple will be the same.
+Follow the instructions in SI 02005.090 A.1.j. using the OSS from item 8.E. and the FAM from item 6.H. (The total payment will be
+the total payment due for each member of the couple).
+NOTE: If proration does apply but the number of benefit days for both members of the couple
+are the same and there is no MMSS involvement, the OSS and the FAM for each member
+of the couple will be the same.
+Follow the instructions in SI 02005.090A.1.j. using the OSS from item 9.H. and the FAM from item 9.E. (The total payment will be
+the total payment due for each member of the couple).
+NOTE: If proration applies and the number of benefit days for both members of the couple
+is not the same or if there is an MMSS due, the total payment will, in most cases,
+not be the same for both members of the couple. Follow the instructions in SI 02005.090A.1. and enter the data for the eligible individual in this column. In the next column,
+enter the computation for the eligible spouse.
+b. Eligible Couple Separates — Effective 10/01/90
+If members of an eligible couple separate, effective the month after the month of
+separation they become eligible individuals (without spouses). Compute the payment
+for each as eligible individuals (without a spouse), using only the eligible individual's
+own income from the budget month, which remains 2 months prior to the month for which
+payment is being computed.
+c. Eligible Couple Not Living Together in CM, Prior to 10/01/90
+If members of the eligible couple are not living together in the CM, one is in FLA-D
+and the other is not in FLA-D in the CM, compute the payment for each as if they were
+eligible individuals.
+If the members of the eligible couple are not living together in the CM but have the
+same FLA and OSS living arrangement variations, follow SI 02005.090A.1.
+If the members of the eligible couple are not living together in the CM, one is in
+the household of another and the other is in their own household, use the special
+PMV in the computation. (See SI 02005.031.) Use two columns to compute the benefit. Enter the CM in both columns. Complete
+Parts 1-5 using only the first column and using all of the income of the couple (other
+than the special PMV). On an RC, compute the FAM or excess income for each member
+of the couple and write the results in item 6.E. Show the FAM or excess income for
+the eligible individual in the first column and the FAM or excess income for the eligible
+spouse in the second column.
+If there is OSS involvement and the OSS level is not the same for both members of
+the couple, compute the OSS for the eligible individual in the first column and the
+OSS for the eligible spouse in the second column. In item 8.C., enter the amount of
+the combined excess income of the couple that applies to the eligible individual and
+the amount which applies to the eligible spouse.
+NOTE: Two Part 12 entries will be required since the total payment will not be the same
+for both members of the couple.

@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 52150.055 - Protected Increases and Breaks in Workers’ Compensation/Public Disability Benefit (WC/PDB) Payments, Offset and Entitlement
+Effective Dates: 04/05/2018 - Present | TN 35 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150055 (fetched 2026-10-04)
+
+B. Protected increases and WC/PDB offset - changes in Disability Insurance Benefits (DIB)
+entitlement, DIB benefit amounts, or family composition
+1. Subsequently entitled auxiliary - protected increases and WC/PDB offset
+If one or more auxiliaries are entitled on or before the first possible month of offset,
+and another auxiliary is subsequently entitled in a later month, the newly awarded
+auxiliary is entitled to share in any protected increases as if they were entitled
+in the first possible month of offset.
+2. Subsequent period of Social Security DIB (break in DIB entitlement) – WC/PDB offset
+Protected increases in a prior period of DIB are not protected for a subsequent period
+of DIB. In such cases, compute offset for the new period of DIB as if it were an initial
+DIB claim; i.e., compute a new average current earnings (ACE) and total family benefits
+(TFB). This applies even if the new period of DIB begins the month after the prior
+period of DIB ends.
+For expedited reinstatement (EXR) cases, see the “NOTE” in DI 52150.055C.2. in this section and DI 52160.001 - Expedited Reinstatements with WC/PDB.
+3. SSA benefit increase in or before the first possible month of WC/PDB offset
+Benefit increases that result from a recalculation of the primary insurance amount
+(PIA), a recomputation of the PIA, or a combined family maximum (CFM) are protected
+only if the increase is effective at least one month after the first possible month
+of offset. If the increase is effective retroactive to the first possible month of
+offset or earlier, recompute offset from the first possible month of offset.
+4. Combined Family Maximum (CFM) and WC/PDB offset
+a. CFM applies in or before first possible month of offset
+If a CFM applies in or before the first possible month of offset, use the auxiliary
+rates computed from the CFM to determine the total family benefit (TFB).
+b. CFM applies after first possible month of offset
+If a CFM becomes applicable in a month after the first possible month of offset, benefit
+increases that result from the CFM are protected during the period the CFM applies.
+The Interactive Computation Facility (ICF) cannot accurately compute offset if a CFM
+exists. Manual computations are necessary using the following forms:
+•
+SSA-2455 “Offset Worksheet – Disability Insurance Benefits” (see DI 52170.010) - use when there is no change in the WC/PDB rate after a triennial redetermination
+of the ACE applies;
+•
+SSA-2454 “Offset Worksheet – Triennial Redetermination Previously Applied” (see DI 52170.020) - use if, during the period the CFM applies, a triennial redetermination of the
+ACE applies and there is a subsequent change in the WC/PDB rate.
+NOTE: Complete an ICF function 34 (OREO) Datasheet to show the results of the manual computations.
+c. CFM terminates
+To determine the amounts payable after offset, effective the CFM termination month,
+recompute offset from the first possible month of offset up to and including the CFM
+termination month for the remaining auxiliaries (as if the CFM never existed).
+NOTE: If there is a decrease in the DIB monthly benefit amount (i.e., a decrease in the
+MBA due to the January 1981 CFM limit), the benefits after offset decrease accordingly.

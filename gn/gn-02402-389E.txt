@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.389 - Coding Laos Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/02/2023 - Present | TN 245 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402389 (fetched 2026-10-04)
+
+E. Description of Laos IDD bank data
+The data for coding IDD for Laos comes from banks determined by the FRBKC. The bank
+data for Laos consists of 29 characters. However, the bank data on the MBR will reflect
+27 characters including the country code of N.

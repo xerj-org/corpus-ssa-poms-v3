@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02607.465 - Transferring Prisoner Update Processing System (PUPS) Records
+Effective Dates: 09/10/2015 - Present | TN 33 (09-15)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607465 (fetched 2026-10-04)
+
+C. FO and PC actions for transferring a PUPS record
+1. Technician actions
+To prepare a PUPS record for transfer, provide management with:
+•
+the reason for the transfer; and
+•
+the 3-digit servicing office code for the receiving FO or PC.
+NOTE: Transfer Title XVI PUPS PENDING records only to the servicing FO for the title XVI
+recipient's mailing address on the Supplemental Security Record (SSR). Transfer Title
+II PUPS PENDING records to either the servicing FO or servicing PC based on the beneficiary's
+mailing address on the Master Beneficiary Record (MBR).
+2. Management actions
+To transfer a PUPS record:
+a.
+Verify the 3-digit office or location code for the receiving office. We determine
+the correct servicing office by using the mailing address of the beneficiary on the
+MBR for currently entitled beneficiaries and the mailing address of the Title XVI
+recipient on the SSR. If a new Title II claim is pending in the Modernized Claim System
+(MCS), the correct servicing office is the office of MCS jurisdiction.
+b.
+Select TYPE OF ACTION: "6” (Change Information Only) on the Prisoner Summary (PUST)
+screen. (For information on the PUST screen, see MSOM PRISON 003.004).
+c.
+Over-key the existing 3-digit office code with the 3-digit code for the receiving
+office in the ALERT GENERATED TO field on the T2 Prisoner Update (PU02) or the T16
+Prisoner Update (PU16) screen. (For information on the PU02 screen, see MSOM PRISON
+003.006. For information on the PU16 screen, see MSOM PRISON 003.008).
+d.
+Add remarks to the Prisoner Remarks (PRMK) screen to:
+•
+show the receiving office’s location code;
+•
+explain why you are transferring the PUPS record; and
+•
+provide any additional information that may assist the next technician in working
+the record.
+For information on the PRMK screen, see MSOM PRISON 003.010. For the remarks needed
+for PUPS automated processing exclusions, see GN 02607.740. For remarks needed for T2R exceptions, see GN 02607.750.
+e.
+Notify the receiving office of the transfer. When transferring the PUPS record to:
+•
+A PC, prepare an SSA-2790 (Prisoner Fax Request) following instructions in GN 02607.995.
+•
+An FO, prepare a Modernized Development Worksheet (MDW). Include the date of the transfer
+and the number of days the PUPS record was pending on the date of transfer. (For information
+on the MDW, see MSOM MS MDW 001.001.)

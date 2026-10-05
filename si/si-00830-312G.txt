@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - SI 00830.312 - VA Payment Adjustment for Unreimbursed Medical Expenses
+Effective Dates: 05/17/2012 - Present | TN 265 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830312 (fetched 2026-10-04)
+
+G. Procedure for manual notices
+1. Issuing a manual notice
+In the following situations, issue a manual notice to explain to the recipient what
+effect medical expenses have on the SSI determination:
+a.
+For initial claims notices, follow general instructions in NL 00802.001.
+b.
+For post-eligibility notices, follow general instructions in NL 00803.001.
+2. Situation 1 – initial claim
+a. Description
+You are allowing an initial claim, but verification of VA money paid for medical expenses
+is outstanding.
+b. Actions
+Take the following actions:
+1.
+Suppress the systems-generated notice.
+2.
+Issue a manual SSA-L8025-U2 (Notice of Award).
+3.
+Include INCM01 as the last paragraph in NL 00804.175 under the caption “Information About Your Payments.”
+3. Situation 2 - underpayment
+a. Description
+After the occurrence of Situation 1 – initial claim, verification is received from
+VA that the claimant's VA payment includes money for unreimbursed medical expenses.
+The claimant is due an underpayment or an underpayment and an increase in the recurring
+payment amount.
+b. Actions
+Take the following actions:
+1.
+Input the corrected VA income per SI 00830.312F.8. in this section.
+2.
+Suppress the automated notice.
+3.
+Issue a manual SSA-L8100-U2 (SSI Notice of Revised Determination) for an underpayment,
+or an SSA-L8151-U2 (SSI Notice of Change in Payment) for an underpayment and an increase in a recurring payment.
+4.
+Include the paragraphs under INCM02 in NL 00804.175 under the caption “Why Your Payments Changed.”
+5.
+Include paragraph INCM03 in NL 00804.175 under the caption “Your Payment is Based on These Facts” and the stock paragraph
+1231 for income facts.
+4. Situation 3 – verification from the VA
+a. Description
+After the occurrence of Situation 1 – initial claim, verification is received from
+VA that the claimant's VA payment does not include money for unreimbursed medical
+expenses.
+b. Actions
+Take the following actions:
+1.
+Issue a manual SSA-8166-U2 (SSI Important Information).
+2.
+Use the paragraphs under INCM04 as the text of the notice in NL 00804.175.
+5. Situation 4 – post-entitlement case
+a. Description
+You have a post-entitlement case under force pay control. The amount of a monthly
+VA payment that includes money for unreimbursed medical expenses changes, causing
+an increase or decrease in the SSI benefit.
+b. Actions
+Take the following actions:
+1.
+Issue a manual SSA-L8151-U2 (Notice of Change in Payment) for an increase or a manual
+SSA-L8155-U2 (SSI Notice of Planned Action) for a decrease.
+2.
+Include the paragraphs under INCM05 in NL 00804.175 under the caption “Why Your Payments Changed.”
+3.
+Include paragraph INCM06 in NL 00804.175 under the caption “Your Payment is Based on These Facts” and the stock paragraph
+1231 for income facts.

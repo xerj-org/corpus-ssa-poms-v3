@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 02402.395 - Coding Serbia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 244 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402395 (fetched 2026-10-04)
+
+G. Example of coding Serbia direct deposit
+The customer provides us with a signup form for Serbia containing the following information:
+"RS35260005601001611379".
+•
+The first character of IBAN is “RS,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never
+code the IBAN country code or check digit to the MBR.
+•
+The next 3 characters of the IBAN represents the bank code.
+•
+The next 13 characters of the IBAN represent the account number.
+•
+The last two digits depict the check digit for the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of “68”
+•
+Code three filler zeros, “000” Code the three-digit bank code, “260”
+•
+Code the one digit check code (i.e. 7). Obtian from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16.
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of "T" designated for Serbia; and
+•
+Code the 13-digit account
+3. Obtain the following information:
+•
+RTN: 680002607
+•
+Checking
+•
+DAN: T0056010016113
+a. The coding in POS reflects the following:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680002607
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: T0056010016113
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information:
+•
+RTN- 680002607
+•
+DAN- CT0056010016113

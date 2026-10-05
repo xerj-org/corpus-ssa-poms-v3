@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - DI 52120.195 - Ohio Workers Compensation (WC)
+Effective Dates: 08/26/2026 - Present | TN 154 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120195 (fetched 2026-10-04)
+
+B. Ohio WC lump sum payments
+Ohio pays two types of lump sum payments. They issue Lump Sum Settlements (LSS) and
+Lump Sum Advances (LSA). An LSS is a standard lump sum award. An LSA must be requested
+by an individual, after an award for PT WC or a Scheduled Award has been made and
+causes a reduction in the payable weekly rate for a specific length of time.
+1. Lump Sum Settlements (LSS)
+When processing offset for an LSS award attempt to obtain the actual settlement papers.
+The settlement document will show most of the information needed to correctly process
+the offset including excludable expenses, specified rates, and specified periods.
+A printout from the State showing a weekly rate might not be the correct rate with
+which to prorate the lump sum. If you are using the latest periodic rate to prorate
+the LSS, use the full declared rate, not a reduced rate.
+The printout usually reflects the attorney as the payee and not the injured worker.
+The attorney will retain a portion of the benefits equal to the attorney fee and write
+a check to the injured worker for the remainder of the funds. Documentation of the
+LS award and attorney expenses is needed.
+NOTE: "DLS" shown in a settlement document refers to a "DWRF Lump Sum Settlement". Do not
+include this amount for offset purposes. The payments represent future DWRF payments.
+Ohio commonly terminates benefits and then awards large retroactive checks representing
+payments from the past. These checks are not lump sum settlements and should be offset
+as periodic payments for the period they represent.
+2. Lump Sum Advances (LSA)
+An LSA is an advance of future payments to an injured individual to help provide financial
+relief from expenses such as attorney fees or general household expenses. The individual
+can apply for an LSA after being awarded for PT or a Scheduled Award. The most common
+issuance of an LSA is to cover attorney fees.
+See also, DI 52150.065C for more information concerning Lump Sum Advances.
+a. PT WC lump sum advances
+The money paid to an injured individual through an LSA is withheld from future payments
+until the money has been repaid.
+•
+Effective with 12/01/2004 the injured individual can choose a period for repayment
+of 5 years, 10 years, 20 years, or life expectancy. After the LSA has been repaid
+the individuals benefit is returned to the original rate.
+•
+For an LSA prior to 12/01/2004 the individual receives a permanent rate reduction
+and their benefit never increases to the original rate.
+To process an LSA accurately in ICF or MCS, input the declared rate from the original
+award, and then determine whether or not to exclude the amount of the reduction from
+offset. If the LSA is for attorney fees or other excludable expenses, then input the
+declared rate and exclude the expenses from offset. If the LSA is made for expenses
+that are not excludable from offset, such as an individuals personal household expenses,
+then offset at the original declared rate. When an LSA is paid, we apply standard
+procedures to determine if expenses are excludable from offset.
+NOTE: Ohio awards will show "LSAAF to indicate "Lump Sum Advance Attorney Fee". The abbreviation
+of "LSAAF" indicates the LSA was for an attorney fee. No further development is needed
+and this amount may be excluded. If the award does not indicate the LSA is for an
+attorney fee; you must follow normal procedure to verify that the LSA was for an excludable
+expense prior to excluding the amount from offset.
+See Excludable Expenses in DI 52150.050.
+Example 1:
+•
+Injured individual awarded declared rate $250 per week PT WC.
+•
+Individual applies for LSA to cover $5,200.00 in attorney fees.
+•
+The individual elects to repay LSA over 5 years.
+•
+Individual receives $230 per week.
+Offset Inputs:
+Input the declared rate the individual has of $250 per week and exclude $20 per week
+as an attorney fee excludable expense. After 5 years has expired the attorney fee
+is repaid. The individual will again receive the original declared rate. Remove the
+excludable expense and offset for the full $250 per week.
+Example 2:
+•
+Injured individual awarded declared rate $250 per week PT WC.
+•
+Individual applies for LSA of $5200 to pay necessary personal household expenses that
+do not qualify as an excludable expense.
+•
+The individual elects to repay LSA over 5 years.
+•
+Individual receives $230 per week.
+Offset Inputs:
+Input the individuals declared rate of $250 per week and do not exclude the $20 per week.
+b. PP WC lump sum advances
+PP Scheduled Loss awards do not allow an LSA in the form of a partial advance, but
+rather any advance must be for the remainder of all benefits due the injured individual.
+The claim will be fully paid and considered closed if an LSA is granted.
+The same rules apply to PP WC as for PT WC when determining the reason for the advance
+and for determining excludable expenses.

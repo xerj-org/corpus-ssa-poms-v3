@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - DI 11052.020 - Adjudication Considerations for Initial End-Stage Renal Disease Case Processing
+Effective Dates: 05/31/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052020 (fetched 2026-10-04)
+
+F. Remarks for SSA-3601 (Claims Routing Form)
+When processing award or denial via A101 or EF101, ESRD claims require additional
+remarks. Consider the following remarks:
+1. Mandatory remarks
+a.
+Route to Benefit Authorizer for Processing - Priority Handling
+b.
+“See SSA-5002 in file for notice.” On the SSA-5002, Report of Contact, request the
+necessary paragraphs or dictated language (MH-16 (if Medicare entitlement is based
+on transplant), or MH-17 (if Medicare entitlement is based on dialysis));
+c.
+See CEF for documentation (if you have faxed anything into CEF)
+2. Conditional remarks
+Use the following remarks if they apply to the situation:
+a.
+Annotate ESRD Medicare entitlement dates (if earlier than HI/ SMI currently on the
+MBR). Include the following information:
+•
+The remark “ESRD CLAIMANT” Establish on SSN/BIC
+•
+R-HI - (coverage start date)
+•
+R-SMI - (coverage start date), if the claimant elects SMI, or “R-SMI – Refused”
+•
+The date dialysis began or the transplant date (including the date of hospitalization
+in preparation for transplant), whichever results in the earlier entitlement;
+•
+“See SSA-5002 for Buy-in effective date” if buy-in applies;
+•
+If beneficiary's SMI premium is higher than base SMI rate, include the remark “ADJUST
+SMI PREMIUM TO BASE RATE EFF  (MOE TO SMI based on ESRD)”
+•
+If R-SMI is elected but aged SMI or D-SMI was previously refused, withdrawn, or terminated
+for premium non-pay - Include the remark “CONCURRENT SMI – PROCESS PER SM 00850.600”
+b.
+If you are sending an age 22-26 claim to ODO that required a disability determination
+by the Disability Determination Services (DDS), include the following information:
+•
+Non-DOFA – Manual Award Action Required
+•
+TOEL “CLAIM ESRDINT”
+•
+Uninsured ESRD claimant AGE 26 OR OVER; BIC T (or BIC TC)
+•
+Filing for ESRD based on insured status of mother / father SSN XXX-XX-XXXX
+•
+See disability documents attached. Determination of disability prior to age 22 completed
+by the DDS.
+References:
+•
+HI 00801.201C.3.c & d., R-HI Insured Status
+•
+DI 45001.005, Processing ESRD Claims

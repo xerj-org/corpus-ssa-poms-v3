@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+B. DCF functionality
+•
+Controls medical and work issue actions and provides disability related data based
+on the beneficiary’s own account number (BOAN).
+•
+Provides disability related data on various disability entitlements (Title II and
+Title XVI).
+•
+Controls and allows entry for work determinations for multiple entitlements.
+•
+Controls CDRs, effective 08/29/2009, in a pre-determined priority order (i.e., a disabled
+beneficiary (HA) is a higher priority than a child’s (C1) record).
+•
+Propagates wages to selected entitlement; codes may be entered for separate entitlements
+(i.e., beneficiary may have two periods of disability, and the trial work period (TWP)
+months may only apply to one of those entitlement periods).

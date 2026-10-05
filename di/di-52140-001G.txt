@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - DI 52140.001 - Field Office (FO) Responsibilities for Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 06/03/2010 - Present | TN 10 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140001 (fetched 2026-10-04)
+
+G. Processing a claim when a WC/PDB LS award or settlement is involved
+When the NH receives a WC/PDB LS settlement, prorate the settlement amount over a
+period of time to determine the offset amount.
+1.
+Follow the proration procedures in Prorating WC/PDB Lump Sum Settlement in DI 52150.060.
+2.
+Enter the LS figures into MCS. If you can trigger the claim through MCS, include the
+applicable LS proration paragraph in NL 00725.470 on the NOT3 (MS 03509.010) screen because LS proration paragraphs are not system-generated
+in MCS. If MCS/EC can process the WC/PDB offset computation, but you cannot process
+through MCS due to a processing limitation or exception, verify that the MCS computation
+is correct.
+•
+If the MCS computation of the WC/PDB offset is correct, this information propagates to the A101 and subsequently propagates into Manual
+Adjustment, Credit and Award Processes (MADCAP).
+•
+If the MCS/EC computation is not correct, compute the offset via ICF first, before adjudicating the A101 as described in DI 52155.025. If an EF101 is required for processing the award, compute the offset via ICF first,
+before adjudicating the EF101 as described in DI 52155.030.
+3.
+Fax the WC/PDB proofs and documentation to the EF (eView) or the EP. If the action
+is complete and the proofs are successfully faxed and verified in the EF (eView) or
+the EP, return the evidence to the claimant per GN 00301.275. Documents from sources other than the claimant can be destroyed unless the return
+was requested by the individual who submitted the documents, see GN 00301.322.
+4.
+If the case requires additional PC action, fax the WC/PDB proofs to Paperless via
+the Store Evidence function in the EP.
+5.
+If the LS data properly updates to the MBR, do not prepare a diary to remove the offset.
+A Regular Transcript Attainment and Selection Pass (RETAP) alert generates in the
+PC selecting the ending date of the LS and passes the data to the Title II Redesign
+(T2R) system for automatic termination of the offset.
+NOTE: Exercise caution in situations when attorneys, non-attorney representatives, or claimants seek assistance
+in preparing a WC settlement prior to the WC court approving the settlement. For example,
+bringing a draft to the FO of a proposed WC settlement and the individual asking what
+the effect, if any, such a settlement would have on the NH's benefits or asking specific
+questions regarding the proration terms used in the award. We can supply basic information
+regarding how WC/PDB offset is computed, (e.g., the higher of 80% of the average current
+earnings (ACE) or the amount of Total Family Benefit (TFB) payable in the first month
+of offset), and we can refer the inquiring individual to our WC/PDB offset procedures
+in DI 52100.000 (available online). However, we do not assist the attorney, non-attorney representative,
+or claimant in determining a specific weekly rate low enough to avoid offset.

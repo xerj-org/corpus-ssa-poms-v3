@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - DI 13015.013 - Whereabouts Unknown (WU) Determinations and Reinstatement Procedures for a Continuing Disability Review (CDR) – Field Office (FO)
+Effective Dates: 01/06/2020 - Present | TN 22 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015013 (fetched 2026-10-04)
+
+A. WU procedures
+1. FO development
+Follow the procedures in DI 13005.025 Field Office (FO) Actions to Initiate a Continuing Disability Review (CDR), for contacting
+the beneficiary or recipient and:
+a. Check the Master Beneficiary Record (MBR), Supplemental Security Record (SSR),
+and other FO records for address and telephone information.
+b. Attempt phone contact with the beneficiary or recipient, any authorized person
+on the record, and auxiliaries (Title II only) who are receiving benefits. Leave a
+message if unable to speak with the beneficiary, recipient, or other contact.
+c. Send an SSA-L2001, Address Information Request to the United States Postal Service (USPS) servicing
+the mailing address of record unless USPS has returned mail as "undeliverable" or
+"moved/left no forwarding address" and, at the same time,
+d. Send a letter to the financial institution on record to request a current address
+when direct deposit is involved.
+e. Attempt to contact any interested party that may have contact with the beneficiary
+or recipient based on leads in the folder, such as the payee (if one has been designated),
+relatives, friends, landlord, employers, shelters for the homeless, city and state
+welfare agencies, and any medical sources and institutions to which the beneficiary
+or recipient was previously admitted to. Pursue any available leads.
+f. Document all efforts to locate the beneficiary or recipient. Record all efforts
+to locate the beneficiary or recipient on a SSA-5002 Report of Contact and save in eView for electronic cases, or Evidence Portal (EP)
+for non-electronic claims and filed in the modular disability folder.
+g. For special handling situations, follow the contact procedures in DI 13005.025C.2.
+Documentation must include:
+•
+The event that initiated the CDR;
+•
+All efforts made to contact the beneficiary or recipient, including the dates and
+results. For example, document contacts with the USPS, financial institutions, relatives,
+employers, etc. (retain copies of the requested letters in the folder); and
+•
+Justification for the determination and cessation month (Title II) or suspension (Title
+XVI).
+Refer to GN 02605.055 Title II Undeliverable Mail-Change of Address for undeliverable correspondence and
+SI 02301.240 Whereabouts Unknown (S06) for more information.
+2. All efforts to locate beneficiary or recipient exhausted
+a. Title II medical issue
+After the FO has made all efforts listed above in DI 13015.013A.1 and the beneficiary or recipient's whereabouts continue to be unknown, the FO will:
+•
+Send a due process notice to the last known address. (see DI 13015.095 Exhibit--CDR Due Process Letter for a sample notice).
+•
+If after 15 days from the date of the notice the beneficiary or recipient does not
+contact the FO, prepare form SSA-833 (Cessation or Continuance of Disability or Blindness
+Determination and Transmittal- Title II) cessation determination.
+–
+Enter a "W" in Item 11 of the SSA-833 immediately following "Reason for Cessation"
+and
+–
+Enter paragraph T23 in Item 29 of the SSA-833. See NL 00720.355 Terminations for paragraph language.
+•
+Annotate the IFOA screen in the DCF indicating WU, see MSOM CDR 001.007 CDR FO Input
+Screen (IFOA).
+•
+Input the cessation via the Post-Entitlement System (POS). See MSOM T2PE 003.024 Disability
+Cessation (PEC1).
+•
+Enter the remark "MED CDR WU" in the DCF remarks. See MSOM CDR 001.009 MSOM CDR Remarks
+Input Screen (IMRK).
+•
+Close out any WU pending tickle on the DCF.
+Exception: Paper modular disability folders- If the paper file is not in the FO's possession,
+do not prepare the SSA-833. Send the due process notice and suspend benefits via POS.
+Forward the materials to the Program Service Center (PSC) with an SSA-882 and the remark "Whereabouts Unknown".
+b. Title II work issue
+Whenever possible, prepare a work issue determination based on available evidence
+as outlined in DI 13015.005E.1. If the work determination does not result in a termination, proceed with the WU cessation.
+c. Title XVI medical issue
+For WU in a Title XVI case, the FO will:
+•
+Suspend payment by placing the case in pay status S06. The system automatically generates
+the Notice of Planned Action (SSA-L8155) to the recipient's mailing address on the
+SSR.
+•
+If the recipient's whereabouts remain unknown after 12 months of suspension, eligibility
+terminates. Ensure the SSR indicates terminated status and update the DCF by annotating
+a STOP CDR. Enter a remark on the CDR Remarks Input Screen in the DCF such as "T16
+Whereabouts Unknown case. Unable to locate the beneficiary after 12 months of suspension."

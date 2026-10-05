@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02613.870 - Title II Martinez Settlement —Medicare, CDRs, Deceased Beneficiaries Incarceration and Questionable Mailing Addresses
+Effective Dates: 01/05/2024 - Present | TN 40 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613870 (fetched 2026-10-04)
+
+A. Case Processing Issues
+In addition to payments, you need to determine if several other issues may apply when
+processing a Martinez settlement case.
+1. Medicare Part B
+Martinez class members who lost their Medicare Part B (medical insurance) entitlement were
+given special enrollment rules under certain conditions. If you receive any inquiries
+for Medicare entitlement from Title II post-2006 Martinez class members, send the
+inquiry information via email to ^Martinez
+Settlement. In the subject line of your email message, state “Martinez Medicare Inquiry.” In
+the body of your email, explain in detail the circumstances regarding the beneficiary’s
+request for Medicare entitlement.
+2. Missed continuing disability reviews (CDRs) during suspension
+The Martinez settlement does not impact our statutory requirement to schedule CDRs
+at selected intervals. The instructions for the CDR review process are in DI 28001.000.
+After we resume monthly benefits, the beneficiary or recipient is added to the pool
+of cases that can be selected for CDRs during the regular CDR review operation. For
+information on the CDR diary, see DI 26525.001.
+3. Deceased beneficiaries or recipients
+Any Martinez payment relief due to deceased SSI recipients (PSY T01) or to deceased
+RSDI beneficiaries (LAF T1) are paid in accordance with normal processing instructions
+in SI 02101.003 and GN 02301.030, respectively.
+4. Underpayments released to correctional institution addresses
+If a correctional institution returns a Martinez resumption check, follow current
+procedures on Returned Checks located in SM 01315.010 and How to Return a Check to
+the Department of the Treasury in SM 01315.015.
+5. Questionable mailing addresses on the MBR for Martinez Class members
+The automated resumption process may not release the retroactive payment because of
+the prior non-payment LAF status of the beneficiary (e.g., LAF S7, LAF S4, or T8,).
+Title II Redesign (T2R) generates a Summary Process Alert for program service center
+(PSC) technician review.
+•
+Examine the alert carefully along with the MBR.
+•
+Review the beneficiary’s mailing address on the MBR to determine if the address where
+we will issue the check is questionable. Generally, the beneficiary’s mailing address
+is the address where they reside or their own post office (PO) box (or the residence
+address or PO box of their representative payee).
+•
+If the address appears questionable (e.g., similar to a correctional institution address
+you found on the Incarceration Control System (IRCS) database), verify the beneficiary’s
+mailing address before releasing the retroactive payment. The instruction for developing
+for a questionable mailing address is in GN 02605.005B.
+Release to the beneficiary the underpayment that is in the Special Payment Amount
+(SPA) field on the Special Payment (SPC PAY) data line on the Master Beneficiary Record
+(MBR) after reviewing the address information and the other factors affecting continuing
+eligibility to Social Security benefits that could change this payment. The information
+about the Summary Process Alert is found in GN 02613.870B.1 of this section.
+6. Blank or 9999 Offense Codes on a Fugitive Felon System Control File (FFSCF) warrant
+Instructions for processing cases where the warrant information on the FFSCF database
+shows that an offense code is “blank” or is “9999” and the offense charge symbol shows
+either “felony” or “probation or parole violation” are found in the chart in GN 02613.875A.1.a. bullet 3.

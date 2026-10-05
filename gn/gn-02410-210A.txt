@@ -1,0 +1,160 @@
+SSA Program Operations Manual System (POMS) - GN 02410.210 - Processing Paper Garnishment Orders in the Field Office or Processing Center
+Effective Dates: 11/19/2012 - Present | TN 70 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410210 (fetched 2026-10-04)
+
+A. Processing a garnishment order
+Initial input of garnishment orders is primarily the job of the field office (FO).
+Processing Centers (PC) process garnishment orders served directly to them along with
+Court Ordered Garnishment System (COGS) alerts and exceptions.
+NOTE: The Workload Support Unit (WSU) should refer garnishment orders to the local FO or
+PC for processing.
+When you receive a paper garnishment order for a beneficiary who does not live within
+your service area, do not forward it. You must process the misdirected order through
+COGS.
+IMPORTANT: Review COGS carefully to ensure withholding has not already processed as the electronic
+income withholding order (e-IWO) process captures three types of rejected e-IWO exceptions
+from COGS. For more information on e-IWO, see GN 02410.224.
+1. Reviewing the garnishment order
+For a garnishment order that is more than a year old, contact the issuing State to
+verify that the order is currently in effect before taking action. Input of an order
+older than one year will result in a COGS alert. See SM 00832.900, List of Processing
+Center Action Control System (PCACS) Alert Codes and How to Process.
+a.
+Verify the correct case number or docket number.
+b.
+Make sure that the order is to enforce, amend, or terminate child support, alimony,
+or court ordered victims restitution.
+If the intent of the order is not clear, contact the garnisher, the garnisher’s representative
+or the issuing court to get a certified copy of the order for child support, alimony,
+or court ordered victim restitution.
+If the garnishment order is not for child support, alimony, or court ordered victim
+restitution, return the order to the court including the notice in NL 00703.728.
+NOTE:
+For processing instructions on Court Ordered Victim Restitution garnishment orders,
+see GN 02410.223. For processing instructions on Electronic Income Withholding Orders (eIWO), see
+GN 02410.224.
+Make sure that the order meets the laws of the issuing State. The garnishment order
+must be valid according to the law of the State issuing the order. To find State requirements,
+develop through the State Disbursement Unit (SDU) contacts at the Office of Child Support
+Services
+State Income Withholding Contacts and Program Information site.
+c.
+Base garnishment withholding on the State law where the garnished beneficiary lives.
+•
+Garnishment orders for child support are for monetary support, health care, arrearages
+or reimbursement, and may include other related costs and fees, interest and penalties,
+income withholding, attorney's fees, and other relief.
+•
+Garnishment orders for alimony can include separate maintenance, alimony while the
+litigation is pending, maintenance, spousal support, attorney's fees, interest, and
+court costs.
+•
+An income withholding order (IWO) for garnishment is signed only if an individual
+State or tribal law requires a signature. Most states have eliminated the signature
+requirement from their State statutes, although the IWO form includes a signature
+line for those states that still require it. To find State requirements, develop through
+the State Disbursement Unit (SDU) contacts at the Office of Child Support
+Services
+State Income Withholding Contacts and Program Information site.
+NOTE:
+We will not change current garnishment to withhold requested fees in response to changes
+in State law (e.g., Maine’s Notice to Employers) without a new or amended order. If
+the State in question wants SSA to collect an additional fee from a child support
+obligor, the State must provide SSA with a new or amended withholding order, specifying
+the fee amount to withhold, for each individual from whom the State wants SSA to collect
+a fee.
+d.
+If there is any question about the garnishment order meeting State law, send the question
+to the regional office (RO). The RO sends the question to the Office of the General
+Counsel (OGC) for guidance. OGC will tell you what action to take on the garnishment
+order.
+e.
+When you send a question to the RO, input COGS to withhold benefits, but code the
+payover field as “N” pending receipt of the reply. See SM 00832.250, COGS Processing
+of the Garnishment Payment Process (OGPP) Screen.
+If the OGC reply states the garnishment order is proper, the field office will send
+a Modernized Development Worksheet (MDW) to the appropriate PC to change the payover
+to “Y”, to release any withheld garnishment payments to the garnisher as directed
+in the order. See SM 00832.340, COGS Processing of the Manual Adjustment (OGMA) Screen.
+If the OGC reply states the garnishment order is not proper, take action to repay
+the withheld amount. See SM 00832.340, COGS Processing of the Manual Adjustment (OGMA)
+Screen. Return the order to the court or SDU using the notice in NL 00703.728.
+NOTE:
+Exercise caution when establishing a COGS record for Rhode Island. A single vendor
+processes payments for both the Connecticut SDU and the Rhode Island SDU; however,
+the addresses and bank accounts are different for each.
+When you receive a Rhode Island garnishment order with money payable to the Rhode
+Island SDU, code Rhode Island as the state when establishing the COGS record—Do NOT
+input Connecticut. Direct Deposit information for Rhode Island will route the payment
+to the Connecticut SDU and the notices will be routed to the correct Rhode Island
+address. Only manually input the payment address listed on the Income Withholding
+Order when issuing paper checks.
+2. Identifying the garnished beneficiary
+To avoid an incorrect garnishment, you must carefully review the order to take action
+against the correct beneficiary’s benefits.
+a.
+Make sure the garnishment order includes the name of the garnished Title II beneficiary.
+In cases where beneficiaries with the same name are involved (e.g., Jr., Sr.), make
+sure you are garnish the correct person.
+b.
+Establish the garnishment order on the correct claim account number (CAN), beneficiary’s
+own account number (BOAN), and beneficiary identification code (BIC).
+c.
+If the order does not provide enough information (e.g., full name and SSN) to identify
+the garnished person or you cannot find the SSN using the ALPHIDENT, return the order
+to the court or the SDU using the notice in NL 00703.728, using paragraph 3728B.
+3. Determining the payment status
+Use the Master Benefit Record (MBR) to check the payment status of the garnished beneficiary.
+a.
+If there is an MBR for the beneficiary in any Ledger Account File (LAF) status (current,
+terminated, deferred, suspense, etc.) or if a Modernized Claims System (MCS), iClaim,
+Consolidated Claim Experience (CCE) claim or an appeal is pending, process the order
+in COGS.
+b.
+When a beneficiary with an active garnishment in COGS changes to any non-payment LAF
+(deferral, suspense, or termination), do not terminate garnishment on COGS without a garnishment termination order from the court or the SDU. COGS will control
+all pending garnishment orders when the beneficiary returns to current pay.
+NOTE:
+If the beneficiary is deceased, see GN 02410.225E.1.
+c.
+If there is no MBR present for the beneficiary and there is no MCS claim or appeal
+pending, do not input to COGS. Return the order using the notice in NL 00703.724.
+NOTE:
+Establishing a garnishment withholding cannot cause an overpayment to the garnished
+beneficiary. Only withhold garnishment from a current prior month accrual (PMA) or
+current month accrual (CMA) payment. This includes garnishment of title II lump sum
+death payments, title II misused benefits, and title II conserved benefits. Do not
+garnish excess Supplemental Medical Insurance (SMI) premiums or Medicare benefits.
+Do not apply garnishment retroactively to benefits.
+4. Notification of garnishment
+You must send notification within 15 days of receipt of the order. If you input the
+garnishment to COGS within 15 days of receipt of the order, COGS issues the appropriate
+notices.
+a.
+If there is a delay in working the garnishment order or if the garnishment order concerns
+a LAF E case (Railroad Board certification), send the manual notice in NL 00703.710 or NL 00703.711 to the issuing entity.
+b.
+The notice address must be different from the payment address in COGS when the payment
+is to an individual, i.e., LEGEND 1 on the Notice Address (OGNA) screen is to an individual
+(MSOM SPECPAYSYS 003.007). For example, you must issue garnishment payments for alimony
+to the ex-spouse or an attorney’s address.
+c.
+Never use the ex-spouse or attorney’s address as the notice address in COGS. The notice address in COGS must be to the court or SDU that issued the order. If you
+use the ex-spouse or the attorney’s address as the notice address in COGS instead
+of the address for the court or SDU, COGS will generate a notice to the garnished
+beneficiary showing the ex-spouse or the attorney’s address. This is a disclosure
+of personally identifiable information (PII) and can create a dangerous situation
+by providing the garnished beneficiary with their ex-spouse’s address.
+5. Storing the garnishment order
+After you complete the COGS input, fax or upload each garnishment order separately
+into the Evidence Portal (EP). For auxiliary and survivor cases, use the payment SSN,
+not the BOAN. Once you fax or upload the garnishment order, review it for accuracy
+and content in the EP. After you verify that you have a good image, destroy the original
+document. For more information on EP, see MS 09701.000.
+•
+Do not send the original garnishment order to the PC.
+•
+Do not include MBR, Payment History Update System (PHUS), or other queries with your
+fax or upload.
+•
+See EP for the fax cover sheet.

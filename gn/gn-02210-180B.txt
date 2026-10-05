@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02210.180 - Collection of Title II Overpayments by Installments
+Effective Dates: 11/13/2025 - Present | TN 90 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210180 (fetched 2026-10-04)
+
+B. Procedure
+1. FO action
+•
+Do not obtain an SSA-634.
+•
+Negotiate a rate of repayment which would permit recovery within 1 year.
+•
+If not possible, negotiate a rate which would permit recovery within 60 months.
+•
+If still not possible, negotiate a rate that is as high as the debtor can manage but no less than $50 per month except for rare instances (e.g., an AFDC recipient at fault
+for causing the overpayment can only afford to repay $5.00 per month).
+•
+Input the installment rate to DMS through the Record Installment Agreement screen (DRIN)
+MS
+01106.014. ROAR will be updated overnight.
+2. PC action
+If a request to refund by installments is received/processed in the PC, ensure input to ROAR/ the Recovery and Collection of Overpayment Process (RECOOP) system,
+if appropriate.
+If an overpayment not under the Recovery and Collection of Overpayment Process (RECOOP) system control is
+reduced through installment payments to below the $30 tolerance GN 02201.013C.2.:
+•
+Send a single reminder notice (SSA-L2513-C1 if the overpayment is established on ROAR).
+•
+Discontinue collection action if refund is not made. Do not ask the FO to assist in
+collecting an overpayment of less than $30.

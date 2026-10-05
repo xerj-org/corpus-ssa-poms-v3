@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - GN 02402.375 - Coding Pakistan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/14/2022 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402375 (fetched 2026-10-04)
+
+F. Procedure for coding Pakistan bank data
+The FRBKC relies on us to provide complete bank data to ensure correct posting of
+payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Pakistan, using an SSA system (e.g.,
+Modernized Claims System (MCS), or Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account type;
+•
+account ownership;
+•
+bank name;
+•
+bank address;
+•
+beneficiary address; (no P.O. box address allowed)
+•
+computerized or smart national identity card (ex. “CNIC 1234567890123” or “SNIC 1234567890123”);
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+NOTE: Technicians must annotate the entire middle name instead of the initial in the payee
+legend field on the MBR.
+•
+IBAN;
+•
+payee indicator;
+•
+phone number; and
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+If the beneficiary does not have a CNIC or SNIC, then enter his or her passport number
+in the “Beneficiary ID” field (Use the prefix of “Passport #). If the beneficiary
+is a minor child, use the B-Form or Child Registration Certificate (CRC). If the B-form
+or CRC is unavailable, request the CNIC or SNIC of the parent or guardian.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code for Pakistan contains 8 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+2. Process initial award
+You must update ITS.gov using the bank account information prior to processing the initial award to ensure
+the beneficiary receives payment. If the complete bank account information is not
+in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data using an SSA system
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a PKR account in Pakistan? If no, STOP.
+REASON: Beneficiaries in Pakistan can only receive IDD payments in PKR accounts.
+If yes, go to step 4
+4
+The RTN is 710000031 for all IDD to Pakistan. It contains the:
+•
+Multi-country prefix of “71” for Pakistan IDD.
+•
+U.S. check digit code of “1” at the end of the RTN for all Pakistan IDD.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” savings, or
+•
+“C” checking.
+If no indicated account type, use a “C” for checking account.
+6
+Code the depositor account number (DAN) for Pakistan as follows:
+•
+“P” for Pakistan
+•
+16-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information as listed in GN 02402.375F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to SSA.

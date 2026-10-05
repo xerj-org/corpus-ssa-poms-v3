@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+D. Processing cases in SSTNG
+The cases in SSTNG are in current pay status (C01) or other non-payment status codes.
+Start the RZ review period with the earliest N25 period caused by a PPV warrant subject
+to Clark relief through the present. Use the following as guidance for processing these cases:
+1. Identifying RZs
+The Clark class members with active records are included in the March RZ release with a selection
+date of April 1, 2013. We identified these RZs with a profile code of S and selection
+indicator of H in the Case Redetermination Data segment (CRZD) field on the Supplemental
+Security Record (SSR).
+2. No Clark relief available
+If during your review you discover no Clark eligibility, i.e., for the N25 suspension period, the recipient had too much income
+(N01) or the N25 suspension period does not match a PPV warrant, still complete an
+RZ for the appropriate review period and release the system generated notice or prepare
+a manual notice in DPS. Add a remark to the SSR Clark Relief Not Granted and input
+CRNG (Clark Relief Not Granted) in the Case Characteristic Data (CG) field.
+3. Completing the RZ
+If the recipient responds to the RZ appointment letter, provide Clark relief, as appropriate, and post the following message on the SSR: Clark Court Order
+Relief Processed. In most cases, the system generates a notice that informs the recipient
+of the relief they will receive. If not, prepare any applicable manual notice and
+save to ORS.
+4. Appointment letter non-responders
+If after sending the 15-day follow-up letter, the recipient still does not respond
+within 60 days of the issuance date of the appointment letter, take the following
+action, as appropriate:
+a. Post office did not return the appointment letter
+•
+Place the record in Failure to Cooperate (N20) if it is in a pay status code that
+you can overlay with N20 following instructions in SI 02301.235. For the pay status overlay chart, see SM 01305.001H; or
+•
+If you cannot overlay the pay status with N20, e.g., cessation of disability (N07),
+annotate the SSR with the remark, Clark Court Order Non-Responder; and
+•
+Input CRNG in the CG field on the SSR.
+b. Post office returns the appointment letter
+•
+Try to locate the recipient following normal procedures in SI 02301.240C.
+•
+If unable to locate the recipient, annotate the SSR for MSSICS and non-MSSICS cases
+with Clark Court Order Non-Responder and follow N20 instructions in GN 02615.180D.4.a. in this section.
+•
+If you locate the recipient, provide relief following instructions in GN 02615.180D in this section.
+c. Recipient contacts SSA after we place the record in N20
+•
+Develop the reason for not responding to the initial appointment and follow-up letters,
+e.g., out of the country, new address;
+•
+Reinstate the recipient as soon as you determine eligibility; then
+•
+Complete a RZ for the Clark period following instructions in this section.

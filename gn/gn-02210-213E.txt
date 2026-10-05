@@ -1,0 +1,135 @@
+SSA Program Operations Manual System (POMS) - GN 02210.213 - Skiptracing
+Effective Dates: 08/25/2008 - Present | TN 23 (09-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210213 (fetched 2026-10-04)
+
+E. Procedure - unable to locate debtor
+1. Title II debt
+DCR - Check the Query Response Selection List (QRSL, MSOM QUERIES 006.002 ) to determine if other persons are currently receiving benefits on the same record.
+ALSO CHECK THE COLLECTION QUERY TO DETERMINE IF THE DEBTOR HAS BEEN SELECTED FOR TOP
+(SEE MSOM DMS 014.007 FOR DESCRIPTION OF COLLECTION QUERY). Proceed as follows:
+a.
+Other person(s) receiving benefits living at the aame address as the debtor (SFU)
+Refer to the Debt Specialist (DS) to take appropriate action regarding recovery from
+the other person(s).
+b.
+Other person(s) receiving benefits living at a different address from the debtor (MFU)
+- debtor selected for TOP (GN 02201.029), and Credit Bureau Reporting if Applicable (GN 02201.032)
+•
+Diary the case for 1 year in order to give TOP and credit bureau reporting a chance
+to yield collections.
+•
+Annotate the RMKS screen with the reason for the diary.
+•
+When the diary matures, obtain a Collection Query to see if the debt is still in TOP.
+Take action as follows:
+If debtor is still in TOP, continue to rediary for 1-year intervals until debtor is
+deleted from TOP.
+If debtor is deleted from TOP, refer to DS to take appropriate action regarding recovery
+from other person(s) receiving benefits in MFU.
+c.
+Other person(s) receiving benefits living at a different address from the debtor (MFU)
+- debtor Not Selected for TOP/ECO and Credit Bureau Reporting
+Terminate collection via the DFTE screen (MSOM DMS 007.003). Debts on which recovery
+action has been terminated will be selected for TOP if they meet all criteria.
+Diary the case for 60 days in order to determine if debtor was selected for TOP and
+credit bureau reporting (if appropriate).
+•
+If the debtor is selected for TOP/ECO, follow GN 02210.213.E.1.B.
+•
+If debtor not selected for TOP/ECO rediary the case for one year.
+•
+If after one year, the debtor still has not been selected for TOP/ECO refer the case
+to the DS to determine why the case was not selected and/or to take appropriate action
+regarding recovery from other person(s).
+Note: Keep in mind that cases with certain characteristics will not be selected for TOP
+and credit bureau reporting. Do not diary cases which will not be selected for TOP
+or credit bureau reporting. Instead, follow step 1.c. above. Cases will not be selected
+if:
+•
+The debtor is in LAF “S” or any LAF other than “T, U, X, N or P”;
+•
+The debt was established before the debtor attained age 18;
+•
+The debt shows an indication that DOJ is involved, such as a TC-31, TC-32 or TC-70;
+•
+The person being billed is a representative payee;
+•
+The debt is a overpayment type of event (TOE) 16, 29, or 31;
+•
+The debtor is deceased.
+The preceding criteria are not all-inclusive. If you have questions about a case,
+consult with the subject matter expert in your office as determined by local practices.
+d.
+Other person(s) not receiving benefits and debt is $20,000 or less
+DCR -Terminate collection via input to the Terminate Collection Screen (DFTE, MSOM DMS 007.003 ) and update the RMKS screen.
+e.
+Other person(s) not receiving benefits and debt is between $20,001 and $100,000
+DCR - Refer to DS
+DS - Proceed as follows:
+•
+RSI cases and DI cases under PSC jurisdiction - Prepare an SSA-553 in accordance with
+current operation instructions. Forward to the Assistant Regional Commissioner for
+Processing Center Operations (ARC, PCO) for approval to terminate collection.
+Upon return of approval, terminate via the DFTE screen and update the RMKS screen.
+•
+DI cases under OCO jurisdiction - Prepare a Transfer Jurisdiction Screen (DFTJ, MSOM
+DMS 007.009 ) and route to the Director, OCO with the following information:
+“Unable to locate debtor. Further DCU efforts against debtor not warranted. Debt is
+between $20,001 and $100,000. Take action to obtain authority to discontinue collection
+efforts in accordance with current operating instructions. Upon approval, terminate
+collection.”
+f.
+Other person(s) not receiving benefit and debt exceeds $100,000
+DCR - Refer to DS
+DS - Proceed as follows:
+•
+RSI cases and DI cases under PSC jurisdiction- Forward to Central Justice for authority
+to discontinue collection efforts in accordance with GN 02215.235B.2.b.
+•
+Make appropriate input to the Record DOJ Referral (DFRF, MSOM DMS 007.008 ) screen.
+•
+DI cases under OCO jurisdiction - Prepare a DFTJ screen and route to the Director,
+OCO with the following information:
+“Unable to locate debtor. Further DCU efforts against debtor not warranted. Debt exceeds
+$100,000. Take action to obtain authority from Central Justice to terminate collection
+efforts in accordance with GN 02215.235B.2.b.”
+2. Title XVI debt
+a. Debt is $20,000 or Less
+DCR - Complete the MSSICS Overpayment Decisions (UOPD) screen by selecting UNABLE TO LOCATE/OUT
+OF COUNTRY decision (See SM 01311.200 and MSOM BUSSR 004.008 ). The system will build an M TAC in the OPDD segment and will delete the debt from
+RECOOP/SSR control.
+b. Debt is between $20,001 and $100,000
+DCR - Refer to DS
+DS - Proceed as follows:
+•
+Prepare an SSA-553 in accordance with current operating instructions.
+•
+Forward to the Assistant Regional Commissioner for Processing Center Operations (ARC,
+PCO) or Assistant Regional Commissioner for Management Operations and Systems (ARC,
+MOS) whichever is appropriate, for approval to terminate collection. Referrals from
+the FOs should be referred only to the ARC, MOS and referrals from the PSCs should
+be referred only to the ARC, PCO.
+•
+Complete the MSSICS Overpayment Decisions (UOPD) screen by selecting UNABLE TO LOCATE/OUT
+OF COUNTRY decision (See MSOM BUSSR 004.008 ) so that the system will build a M TAC in the OPDD segment of the SSR when the approved
+SSA-553 is returned.
+c. Debt exceeds $100,000
+DCR - Refer to DS
+DS - Proceed as follows:
+•
+Complete the MSSICS Overpayment Decisions (UOPD) screen by selecting UNABLE TO LOCATE/OUT
+OF COUNTRY decision (See MSOM BUSSR 004.008 ) to close out billing.
+•
+If no installment indicator is present (G TAC in the OPDD segment), complete the MSSICS
+Update Sequence Data (UOSD) screen for suspend billing by selecting TRANSFER TO FIELD
+OFFICE/MISCELLANEOUS REASON. (See MSOM BUSSR 004.006 .), or
+•
+If there is a G TAC in the OPDD segment, complete the MSSICS Add/Change/Delete Overpayment
+Decisions (UODC) screen (see MSOM BUSSR 004.007 ) to delete the G TAC and suspend billing by selecting TRANSFER TO FIELD OFFICE/MISCELLANEOUS
+REASON on the Update Sequence Data (UOSD) screen. (See MSOM BUSSR 004.006 .)
+•
+Prepare a DFTJ screen and route to the appropriate FO with the following information:
+“Unable to locate debtor. Further DCU efforts against debtor not warranted. Debt exceeds
+$100,000. Forward to Central Justice for authority to discontinue collection efforts
+in accordance with GN 02215.235B.2.b. Discontinue collection against the debtor. Use the MSSICS Overpayment Decisions (UOPD)
+screen selecting REFERRAL TO DEPARTMENT OF JUSTICE decision (see MSOM BUSSR 004.008 ) and the system will build an L TAC in the OPDD segment.

@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02605.710 - Title II ZIP Code Flags – Change of Address (COA) and National Change of Address (NCOA)
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605710 (fetched 2026-10-04)
+
+C. Policy for NCOA processing
+ZIP flags of “L”, “P” and “X” are used to indicate NCOA processing. NCOA processing
+will automatically generate these flags.
+A ZIP flag of “L” indicates a letter was sent to the beneficiary notifying either
+him or her that we will automatically change his or her address in 45 days or asking
+him or her to call-in and verify the new address received from the USPS.
+NOTE: The system will change the “L” to a “P” when the new address data updates to the MBR.
+A ZIP flag of “P” indicates that the address on the MBR was changed based on information
+received from the USPS NCOA database.
+A ZIP flag of “X” indicates that the beneficiary called us and requested that we not
+change his or her old mailing address. The “X” will preclude the case from being selected
+for the next NCOA match.

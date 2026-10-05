@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 81010.100 - Electronic Disability Collect System (EDCS) Actions Page
+Effective Dates: 08/07/2025 - Present | TN 89 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010100 (fetched 2026-10-04)
+
+A. EDCS Actions Page - Overview
+The EDCS Actions Page alerts the Field Office (FO) if FO action is needed on a Certified
+Electronic Folder (CEF) due to actions taken by the component with jurisdiction (e.g.,
+Disability Determination Services (DDS), Office of Hearings Operations (OHO), Disability
+Case Review (DCR), Office of Quality Review (OQR)). The two types of alerts that appear
+on the EDCS Actions Page are:
+•
+Electronic Assistance Requests (ARs); and
+•
+Action Items (AIs).
+1. Accessing the EDCS Actions Page
+The EDCS Actions Page is the first page that appears after opening EDCS for the first
+time each day. To return to the actions page at any time, select the EDCS Actions
+link on the Disability Case Selection Screen.
+2. Viewing ARs and AIs
+ARs and AIs can be sorted and viewed by:
+•
+Office;
+•
+Unit code;
+•
+Date of the AR or AI; or
+•
+A combination of the three.
+3. Assigning ARs and AIs
+When a new AR or AI is received, it is automatically:
+•
+Assigned to the unit code propagated from the mainframe; and
+•
+Stored in the EDCS database.
+The unit code updates only when information is re-propagated from the mainframe during:
+•
+Case transfer;
+•
+Update-After-Transfer (UAT);
+•
+Manual re-propagation done by the user.
+ARs and AIs can be:
+•
+Reassigned to another unit; or
+•
+Transferred to another office.
+NOTE: Items may appear without a unit code assigned or with a unit code that is not used
+in that particular office. A member of FO management, or other designated person,
+must review EDCS Actions Page daily to assign ARs and AIs that:
+•
+Do not have a unit code; or
+•
+Have a unit code that is not used by anyone in that office.

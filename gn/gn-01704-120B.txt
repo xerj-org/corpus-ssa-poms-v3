@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 01704.120 - Totalization Status Code (TSC)
+Effective Dates: 07/30/2014 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201704120 (fetched 2026-10-04)
+
+B. Disallowance
+DI - Used to indicate that a totalization claimant is not insured and that his U.S.
+totalization claim has been denied because he has less than six U.S. QC's.
+D2 - Used to indicate that a totalization claimant is not insured and that his U.S.
+totalization claim has been denied because he has at least six U.S. QC's but is still
+not insured considering foreign periods of coverage.
+D3 - Used to indicate that a totalization claimant is denied because he is insured
+without considering his foreign earnings. (This code is not applicable under the Italian
+agreement.)
+D4 - Used to indicate that a totalization claimant is insured but is denied for some
+other reason; e.g., person is not retirement age or cannot prove relationship to the
+NH.

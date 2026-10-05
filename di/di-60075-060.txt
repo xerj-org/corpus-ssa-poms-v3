@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 60075.060 - Promoting Opportunity Demonstration (POD) End of Year Reconciliation (EOYR)
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075060 (fetched 2026-10-04)
+
+DI 60075.060 Promoting Opportunity Demonstration (POD) End of Year Reconciliation (EOYR)
+During the year, the POD Automated System (PAS) calculated the POD offset amount based
+on monthly reported earnings and IRWE. In the following year, the PAS performed an
+EOYR to compare the earnings reported to actual earnings on the master earnings file
+(MEF), taking into consideration any earnings paid prior to or after POD participation.
+If the total earnings on the MEF did not match the total reported earnings for the
+offset year, PAS calculated an underpayment (U/P) or overpayment (O/P). PAS automatically
+handled U/Ps and O/Ps via a manual adjustment credit and award date entry (MACADE)
+action. The MACADE action properly coded the offset MBA for the reconciliation year,
+and generated a notice explaining the U/P or O/P.
+The PAS performed partial year computations for participants randomly assigned after
+February, or whose last month of participation is prior to December. PAS ran the final
+EOYR for all POD participants in 2022. After the final EOYR ran, PAS was decommissioned.

@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02406.125 - Transmitting Reports of Nonreceipt, Loss, Theft, or Destruction -- Title II and Title XVI -- Recurring Checks and PMA Checks -- Normal and Dire Need Situations
+Effective Dates: 03/28/2000 - Present | TN 14 (04-00)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406125 (fetched 2026-10-04)
+
+B. Procedure
+1. Title II - Missing Check is 12 Months Old or Less
+a.
+Is dire need involved? (See RS 02801.001 for definition of dire need.) If yes, go to GN 02406.125C.
+b.
+If no, transmit nonreceipt on the PEN1 and PEN2 screens using one of the following
+stop codes: (See MSOM 003.012 )
+•
+Select NRT = 1, B-Stop, for nonreceipt of an unendorsed check, regardless of whether
+it is a current month check, prior month check, or PMA. A courtesy disbursement check
+will be issued before status of the original check is known. Allow 7 to 10 calendar
+days for delivery of the courtesy disbursement check. Or
+•
+Select NRT = 2, C-Stop, for nonreceipt of an unendorsed check where SSA wants DT to
+determine the status of the original check before a replacement is issued. Allow up
+to 5 weeks for delivery of a replacement check or claims package (see also GN 02406.170).
+If the missing check was cashed, DT will send the claims package directly to the claimant.
+If forgery is determined, DT will issue a settlement check.
+When payee is known to have misused the nonreceipt reporting system, or when the caller
+is uncertain whether a check issued within the last 12 months was received. (See GN 02406.150.)
+•
+Select NRT = 3, A-Stop, for nonreceipt in mass loss situations (see GN 02406.700). The A-Stop for a recurring check identifies nonreceipts in a mass loss situation.
+The A converts to a B when it transmits to DT and DT replaces the check before status
+of the missing original is known.
+•
+Select NRT = 4, G-Stop for lost or stolen, endorsed check. If this check is presented
+for payment, a claim for nonreceipt will be denied since claimant stated he or she
+signed the check. If the original check has not been cashed, DT will not issue a replacement
+check but will credit SSA for the funds. SSA will then reissue the payment to the
+payee, if appropriate (see GN 02406.125E.).
+c.
+Explain to the claimant/payee that if the original check is received and the courtesy
+disbursement or replacement check is also received, one of them must be returned to
+SSA; otherwise, an overpayment will occur for which he or she will be responsible.
+2. Title XVI - Missing Check is 12 Months Old or Less
+a.
+Is dire need involved? (See RS 02801.010 for requirements to qualify as a dire need situation.) If yes, see GN 02406.125D. If no:
+b.
+Transmit the nonreceipt via the 719N using the same stop codes found in GN 02406.125B.1, with adjustment for title XVI; e.g., NC = B, NC = C, NC = A, NC = G. See MSOM BUSSR.003.012,
+How to Complete the 719N Mask.
+c.
+Use NC = A for nonreceipt of nonrecurring title XVI checks (OTP-type 4, underpayment-type
+2, and replacement-type 9). In this instance, the check is not replaced but rather
+status of the missing check is transmitted to SSA (GN 02406.205 and GN 02406.207).
+d.
+Explain to the claimant/payee that if the original check is received and the courtesy
+disbursement or replacement check is also received, one of them must be returned to
+SSA; otherwise, an overpayment will occur.
+Nonreceipt procedures for nonrecurring title XVI checks may be found at GN 02406.205 (type 2 and 4) and GN 02406.207 (type 9).

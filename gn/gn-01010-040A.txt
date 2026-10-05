@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 01010.040 - Underpayments (U/P) and Overpayments (O/P) on Prior Claims
+Effective Dates: 08/29/2014 - Present | TN 96 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010040 (fetched 2026-10-04)
+
+A. Policy for reconciling prior records with O/P and U/P
+The adjudicator is responsible for identifying any U/P or O/P on a prior claim and
+for determining whether the new claimant is eligible to receive any benefits or qualifies
+for O/P liability.
+You must determine if there is an O/P by a prior beneficiary on the current claim
+or on any related social security number (SSN) by examining the following queries:
+•
+The Query Response Overpayment (QROP);
+•
+The Special Message (SP MSG) queries inquiry response (I/R);
+•
+The Master Beneficiary Record (MBR);
+•
+The Recovery of Overpayment, Accounting and Reporting (ROAR); and
+•
+The Supplemental Security Income query four (SSI4) overpayment unresolved (OPU) field
+of Miscellaneous Payment Data (MPMT) line if a prior title XVI claim is present
+Note:
+There are separate queries for title II and title XVI claims. See MSOM QUERIES 006.024
+for title II overpayments and MSOM QUERIES 006.025 for title XVI overpayments.

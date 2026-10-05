@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.412 - Coding Montserrat Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 194 (06-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402412 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Montserrat will have a prefix of “71” at the beginning of the
+Routing and Transit Number (RTN). The first letter of the Depositor Account Number
+(DAN) field has the letter “U” assigned for Montserrat.

@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - DI 81007.070 - Internet Query Facility
+Effective Dates: 01/28/2014 - Present | TN 1 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007070 (fetched 2026-10-04)
+
+C. Accessing IDRs through IQF queries
+1. To query IDRs
+•
+Select #4 (Shared Processes) from the SSA Menu (MAIN) screen in PCOM; and
+•
+Enter the SSN, select either 2 (Update) or 3 (Query) and select #5 Internet from the
+Shared Process Menu (SPMN) screen.
+•
+On the Internet Query Facility Menu, select 1 (Internet Disability Reports).
+•
+On the appropriate Internet form menu, select the case to be displayed (Complete or
+Partial) and function 1 (Query).
+To print the query response, enter an “X” in the field, “Print These Screens.” Entering
+an “X” in the field on any screen, will print the entire query response.
+2. Query responses
+a. Query response common to all IDRs
+The Internet report query response contains the following fields:
+•
+Claimant's SSN, NAME, DATE OF BIRTH, ADDRESS, and PHONE number;
+•
+START and SUBMISSION dates - IDR creation date and submission date, if submitted.
+3. IDR-specific query response
+The query response for each IDR contains information specific to the IDR. For example,
+the i3820 displays information about the person completing the i3820, that person’s
+relationship to the child, and whether the child lives with that person. See MSOM
+MS Internet 001-003 for a complete description of each query.
+Claims technicians can query CICS to print copies of IDR partials and submissions.
+Do not routinely print an IDR and scan it into the Electronic Disability Collect System (EDCS). There is no need to do that when the EDCS user has propagated the IDR into
+EDCS.
+IDRs partials and IDRs submitted for cases that are EDCS exclusions are available
+for printing through the IQF.
+4. How to print an IDR through the IQF
+Take the following steps to print an IDR:
+•
+Open a session in PCOM.
+•
+On the MAIN Menu, select function number 4, Shared Processes, to open the Shared Process
+Menu.
+•
+On the Shared Process Menu (SPMN), enter the SSN, select 2=Update or 3=Query, and
+select function 5=Internet to open the Internet Query Facility Menu.
+•
+Select 1=Internet Disability Reports on the Internet Query Facility Menu (AEQY) to
+open the Internet Disability Reports Status (IDRS) screen.
+•
+The IDRS screen displays entries for all IDRs, both partials and submissions. Select
+the desired entry. On the Internet Form Menu, select the case to be displayed (Complete
+or Partial) and Function 2 (print entire Internet form number).

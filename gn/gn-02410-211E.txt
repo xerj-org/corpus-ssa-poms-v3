@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02410.211 - Processing Foreign Garnishment Orders
+Effective Dates: 07/29/2014 - Present | TN 51 (10-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410211 (fetched 2026-10-04)
+
+E. Foreign exchange rate
+We apply the exchange rate for foreign currency to orders received from FRCs to post
+the U.S. currency rate in COGS.
+NOTE: Post the U.S. dollar equivalent for the date that the garnishment order was signed when you process the order in COGS.
+Take the following steps in relation to the foreign exchange rate:
+•
+Verify the exchange rate by using the online currency converter website, Currency Converter | OANDA (OANDA Corporation). The U.S. currency amount will be entered in COGS as the garnishment
+amount.
+•
+Annotate the date of the exchange rate, the source for the exchange rate, and the
+exchange rate amount on the Report of Contact in the claims path (if available) or
+on the Evidence (EVID) screen in Shared Processes.

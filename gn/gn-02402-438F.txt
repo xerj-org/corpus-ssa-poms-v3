@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - GN 02402.438 - Coding Myanmar Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/21/2019 - Present | TN 192 (05-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402438 (fetched 2026-10-04)
+
+F. Procedure for coding Myanmar bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Myanmar using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership
+•
+account type;
+•
+account number
+•
+beneficiary address;
+•
+beneficiary phone number;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+reclamation country;
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. Obtain Swift-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters, and a maximum of 11 characters:
+•
+first four characters - bank code (alpha only);
+•
+next two characters - ISO 3166-1 alpha 2 country code (alpha only);
+•
+next two characters - location code (alpha and numeric) (passive participants have
+"1" in the second character); and
+•
+last three characters - branch code, optional ('XXX' for primary office) (alpha and
+numeric).
+2. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial
+award to ensure that the beneficiary receives payment. If the complete bank account
+information is not in ITS.gov when the payment processes, the payment rejects and
+returns to our agency.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Myanmar? If no, STOP.
+REASON: Beneficiaries in Myanmar can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+The RTN is 720000128 RTN for Myanmar. It contains the:
+•
+Multi-country prefix of “72” for Myanmar IDD;
+•
+U.S. check digit code of “8” at the end of the RTN for all IDD accounts in Myanmar.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Myanmar, code:
+•
+“N” is designated for Myanmar,
+•
+16 digits of the 29-digit account number,
+7
+You must take action on the same business day to enter into ITS.gov all the information
+listed in GN 02402.438F.
+You must access ITS.gov or ask a co-worker to update the required information into
+ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

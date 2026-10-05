@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 52150.050 - Workers’ Compensation/Public Disability Benefits (WC/PDB) with Excludable Expenses
+Effective Dates: 08/22/2016 - Present | TN 37 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150050 (fetched 2026-10-04)
+
+J. ICF limitations and periodic payment excludable expense deductions
+Use caution in ICF with excludable expenses associated with periodic payments. ICF
+allows expense entries on both the WCEE -WC/PDB OFFSET - PERIODIC PAYMENT EXCLUDABLE
+EXPENSES and WCPP - WC/PDB OFFSET - PERIODIC PAYMENTS screens for the same injury
+or illness. Do not deduct the same expense twice.
+The WCEE screen is designed for a one-time deduction of an expense. The WCPP screen
+is designed for ongoing periodic expenses for deduction from continuing payments. Entries
+on both screens should only occur where the case calls for it (an award that says
+$800 expenses from retroactive periodic payments and 15 percent excludable expenses
+starting on a specific day after the retroactive period). Do not enter the same expenses
+on both screens.
+NOTE: Although the WCEE screen includes an excludable expense START and STOP date in MMDDYY format, ICF ignores
+the:
+•
+START day and excludes expenses starting with the first day of the month and year input. This
+can result in incorrect computations; and
+•
+STOP date if one is entered.
+For coding limitations and workarounds, see the Interactive Computations Facility (ICF) Resource Page for WC/PDB Offset Computations .

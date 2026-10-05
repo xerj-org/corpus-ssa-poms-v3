@@ -1,0 +1,313 @@
+SSA Program Operations Manual System (POMS) - SI 00502.302 - Aliens Whose 7-year Eligibility Period Ended August 22, 1996, through October, 1, 2008, and who SSA Manually Reinstated
+Effective Dates: 01/22/2026 - Present | TN 66 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502302 (fetched 2026-10-04)
+
+A. Procedure for developing eligibility for an extension
+1. Contact the alien
+a.
+Send an SSA-L8003 (Supplemental Security Income Request for Information) to contact
+the alien and arrange to have them submit the documentation not obtained at the time
+of reinstatement, including medical information if appropriate. Use the following
+language as a guide:
+“When we started your SSI payments again, we told you that we were going to re-contact
+you to verify that you were eligible to receive the benefit extension. Please call
+our office to schedule an appointment. The phone number is at the top of this letter.
+When you come in, please bring your immigration documents or citizenship application
+receipt and this letter with you.”
+b.
+Send a follow-up request after 15 days. Process the follow-ups according to the guidelines
+in SI 02306.020 and ask the alien to respond within 30 days.
+c.
+Suspend benefits using N13 effective with October 1, 2008, (or the reinstatement date
+if it is later than October 1, 2008) if the alien does not respond after 30 days,
+d.
+Process any overpayment under current guidelines in SI 02201.005.
+2. Verify extension eligibility
+Review the AR field in the Supplemental Security Record (SSR) PRSN segment and any
+other relevant immigration documentation to determine the alien’s eligibility for
+the benefit extension. If the AR field is not a “J”, “X”, “F”, “L”, or “3”, the alien
+is NOT eligible for the extension. Update the AR field if it is incorrect.
+Be alert to situations where the record is miscoded.
+3. Verify citizenship status
+a. Extension rules
+The extension does not apply to current U.S. citizens because they are not subject
+to the 7-year eligibility period affected by this law. Therefore, if the alien attained
+citizenship prior to October 1, 2008, they are not eligible for the three-year extension.
+However, a naturalized U.S. citizen whose benefits ceased may be eligible again for
+SSI if they file a new application. If they previously received SSI benefits, and
+are within their 12-month suspension period, they may be eligible without the need
+for a new application.
+b. Alien is a citizen
+If the alien is now a citizen:
+•
+verify per GN 00303.300,
+•
+conduct a redetermination per SI 02305.022, and determine whether benefits are payable from October 1, 2008 on,
+•
+record the citizenship data on the Alien Status page if the case is in MSSICS, or
+T33 and start date via an SSA-450S and code the AR field is “C” if the case is not
+in MSSICS, and
+•
+resume benefits under current guidelines in SI 00501.400.
+If the alien is ineligible prior to becoming a U.S. citizen, consider the ineligibility
+period as an overpayment and process in accordance to SI 02201.005. Payments will resume when the alien re-attains eligibility.
+If the alien is not a citizen, follow the procedures in SI 00502.302A.3.c. in this section to determine if the alien qualifies for the three-year benefit extension.
+c. Alien alleges having a pending citizenship application
+If the alien alleges having a pending citizenship application, verify the status of
+the application as follows:
+1.
+Obtain the original DHS Form I-797 C, (Notice of Action) which is the receipt for
+the citizenship application. The I-797 C must contain the Notice Date, Case Type,
+USCIS Alien file number (A#), Application Number, application Received Date and Priority
+Date. The notice must show the case type as “N-400 Application for Naturalization.”
+2.
+Technicians may accept other official correspondence from the United States Citizenship
+and Immigration Service (USCIS) as proof if it contains a receipt number, the A-file
+number, date application received, and provides details on the status of the application.
+3.
+Query Case Status
+Online (CSOL) to verify the DHS Form I-797:
+•
+Enter the receipt number (labeled “application number” found in the upper left corner
+of the I-797, third row down) in the current case status block. The receipt number
+is a 13-character number (a 10-digit number preceded by a three letter code).
+•
+Input the entire letter-number combination as shown on the receipt.
+4.
+If the online response highlights one of the following application statuses:
+•
+Acceptance
+•
+Initial Review
+•
+Request for Evidence
+•
+Testing and Interview
+•
+Decision
+•
+Post-decision Activity
+•
+Document Production or Oath Ceremony
+a.
+document the Evidence Screen (EVID) screen with the appropriate statement, (for example,
+“Citizenship application or swearing in ceremony pending”), the pending application
+date, the receipt number, the action code, and the A-file number, and
+b.
+continue with the procedures in SI 00502.302A.5. in this section.
+NOTE: These statuses indicate that the citizenship application is pending or may be “in
+suspense” while USCIS reviews another matter. Treat the citizenship application as
+pending, even if the USCIS temporarily suspended development.
+5.
+If the online response returns a reply showing “Your case cannot be found at this time
+in My Case Status. Please check your receipt number and try again. If you need further
+assistance
+please call the National Customer Service Number at 1-800-375-5283” this indicates that the USCIS may have rejected the application for one of the following
+reasons:
+•
+incorrect application fee submitted,
+•
+application not timely filed,
+•
+applicant does not meet the 3 or 5 years minimum LPR requirement, or
+•
+applicant filed more than 3 months prior to meeting the residency requirements, or
+•
+it’s been only ten business days or less since the applicant filed and the application
+has not been logged onto the USCIS CSOL system.
+•
+there is no record of filing, or the receipt may be counterfeit.
+a.
+If less than ten days elapsed since filing, obtain a copy of the I-797 or input the
+information shown in SI 00502.302A.3.c.1. in this section onto the Evidence Screen (EVID) screen to verify at a later time.
+b.
+If ten days or more elapsed since filing, continue with the procedures in SI 00502.302A.4. to determine if the alien qualifies for the two-year benefit extension.
+If the alien does not allege having a pending citizenship application, follow the
+procedures in SI 00502.302A.4. to determine if the alien qualifies for the two-year benefit extension.
+4. Verify alien status and obtain the good faith declaration
+If the alien has not filed for citizenship, does not have an I-797, or you cannot
+verify that the citizenship application is pending via the USCIS website:
+a.
+Advise the alien that SSA can pay them for up to two years, but no later than September
+30, 2011, if they sign a good faith declaration to pursue U.S. Citizenship and meet
+one of the eligibility factors for the benefit extension. To determine eligibility,
+see SI 00502.301A.
+b.
+Check the AR field in the PRSN segment on the SSR.
+•
+If the AR field is “X”, the alien was admitted as a Cuban/Haitian and may be eligible
+for the benefit extension. For the definition of Cuban/Haitian for SSI purposes, see
+SI 00502.108.
+•
+If the AR field is “J”, “F”, “L”, or “3”, query SAVE to determine if the alien’s status
+was adjusted to LPR. If the SAVE query does not provide verification, and the alien
+alleges adjustment to LPR, institute secondary verification with DHS by following
+procedures in SI 00502.115.
+c.
+Determine if the alien meets LPR time frames
+•
+If the alien has been LPR for fewer than 6 years as of October 1, 2008, and has not
+had that status rescinded, they may be eligible for the extension.
+•
+If the alien filed for adjustment to LPR within 4 years of the date they began receiving
+SSI and such status is pending, they may be eligible for the extension.
+•
+Document the Evidence Screen (EVID) screen with “Good Faith Established”, the LPR
+adjustment or pending adjustment date, and the A-file number.
+d.
+Explain the provisions of the Kaplan class action settlement in SI 00502.301C.5. to the alien. You may also give the alien the Internet address for USCIS, at www.uscis.gov/portal/site/uscis.
+e.
+Check the date of birth on the SSR
+•
+If the alien is under age 18 as of October 1, 2008, they may be eligible for the extension
+and are not required to sign the good faith declaration.
+•
+If the alien is 18 or older as of October 1, 2008, they must sign the good faith declaration.
+f.
+Print the good faith declaration from Forms Inventory Control System
+(FICS) , read the declaration to the alien and have them sign it. Electronic versions of
+the SSA-795 are acceptable if a MSSICS file is open and you copy the language onto
+the Person Statement page.
+g.
+Explain the necessity for the declaration using this language: “You must be trying
+or plan to become a U.S. citizen to get the 2-year extension. If you can’t qualify
+for citizenship now, you must be planning to become a U.S. citizen if and when the
+law allows you to do so. If you do not sign this statement for any reason or you cannot
+sign the statement because you are not planning to become a U.S. citizen then we will
+not be able to pay you the benefits for the two additional years.”
+h.
+Fax the form into the appropriate repository (eDIB (eView) or NDRed in the Evidence
+Portal) along with a copy of the immigration document. Return the originals to the
+person.
+i.
+If the alien qualifies for the two-year benefit extension, continue with the procedures
+in SI 00502.302A.5. in this section. If the alien does not qualify for the two-year benefit extension,
+stop their benefits as of the date the alien was no longer eligible for the extension.
+The later of October 1, 2008, or the date of reinstatement or continuance. See the
+procedures in SI 00502.302A.7. in this section. Process any overpayment using current guidelines in SI 02201.005.
+5. Develop other non-medical factors of eligibility
+The FO should have completed a redetermination (RZ) prior to reinstating benefits
+if the record terminated (T30, T31, T33). If the FO did not conduct an RZ, conduct
+an unscheduled RZ per SI 02305.022.
+If the SSR was in N13 suspense when the FO reinstated benefits, no RZ was needed.
+However, the FO should have updated income and resources at that time.
+6. Determine if medical review is needed
+a.
+If the alien is age 55 or older, assume that they continue to be disabled unless there
+is subsequent evidence to the contrary (e.g., a medically denied Title 2 disability
+claim). Continue payments without obtaining any additional documentation of continuing
+disability.
+b.
+If the alien is a DI/DS or BI/BS and under age 55 and was not previously eligible
+as a disabled child, check the medical reexam (MR) diary date (shown in the DIAR segment
+on the SSR; see SM 01601.595 Disability Data – DISB).
+NOTE: If the SSR was Start Dated (SD) to reinstate the claimant, the technician should
+have brought the MR diary on the terminated SSR forward to the SD record. If this
+was not done, add the MR diary date to the SD record.
+•
+If the MR diary is a future date, assume the alien continues to be disabled. Continue
+without any additional documentation of continuing disability.
+•
+If the medical reexam diary date matured, ask the alien if their disability continues.
+Obtain the answers to the questions on the SSA-455. (see exhibit DI 13004.020).
+•
+If the alien answers question 1 “no,” question 2 “same” or “worse,” and question 3
+“no,” the alien continues to be disabled. Continue without any further documentation.
+Fax a copy of the SSA-455 into eDIB. If the alien answers question 3 “yes” or in some
+other way suggests they may no longer be disabled, continue payments and initiate
+a medical continuing disability review (CDR).
+–
+Establish the CDR on the DCF, see MSOM CDR 001.016.
+–
+Obtain an SSA-454, Continuing Disability Review Report, and sufficient SSA-827s, Authorization
+to Disclose Information to the Social Security Administration.
+–
+Obtain the folder containing medical evidence for the last favorable medical decision.
+–
+Establish eCDR, per DI 81010.230.
+–
+Send the case to the DDS for a medical decision as priority per current instructions
+on CDR processing DI 13005.001.
+–
+When DDS makes the decision, process as any other CDR. Continue or cease payments
+effective with the medical cessation date as appropriate.
+c.
+If the alien was eligible as a disabled child (DC) and is now over age 18, continue
+payments and initiate the age 18 redetermination.
+•
+Establish age 18 Redetermination on DCF, per MSOM CDR 001.016.
+•
+Locate the Comparison Point Decision (CPD) folder containing medical records for last
+favorable medical decision.
+•
+Obtain an SSA-3368 and sufficient SSA-827s.
+•
+Establish EDCS eCDR and transfer to the DDS. For instructions, DI 81010.230.
+•
+When the DDS makes the disability determination, process as any other CDR. Continue
+or cease payments effective with the medical cessation date as appropriate.
+7. Systems processing
+MSSICS Case in C01:
+•
+Update the Alien Status page with the time limited extension information as follows:
+When page 3 of Alien Status page enters path, if the claimant has attained age 18
+as of 10/01/08, and may be potentially eligible for an extension, answer COLLECT TIME
+LIMITED INFORMATION is Y.
+•
+Follow the progression of questions as they appear on the screen. Answer each according
+to relevance. Continue through the MSSICS path and then build to the SSR:
+If the claimant is eligible for an extension based on the answers and dates contained
+within page 3 of Alien Status Page, the system will built the appropriate AER (Alien
+Eligibility Reason) value to the SSR. This value controls the extension eligibility
+period, allowing the system to properly identify when the claimants extension period
+would end.
+If the claimant is NOT eligible for an extension based on the answers or dates contained
+within page 3 of Alien Status page, the system will build the appropriate Pay Status
+of N13.
+•
+Notices should be suppressed when building to the SSR, and a manual notice generated.
+MSSICS Cases in M02:
+•
+When page 3 of Alien Status page enters path, if the claimant has attained age 18
+as of 10/01/08, and may be potentially eligible for an extension, answer COLLECT TIME
+LIMITED INFORMATION is Y.
+•
+Follow the progression of questions as they appear on the screen. Answer each according
+to relevance. Continue through the MSSICS path and then build to the SSR:
+If the claimant is eligible for an extension based on the answers and dates contained
+within page 3 of Alien Status page, the system will built the appropriate AER (Alien
+Eligibility Reason) value to the SSR. This value will control the extension eligibility
+period, allowing the system to properly identify when the claimants extension period
+would end.
+If the claimant is NOT eligible for an extension based on the answers or dates contained
+within page 3 of Alien Status page, the system will build the appropriate Pay Status
+of N13.
+Non-MSSICS Case M02:
+Day one:
+•
+Terminate the record if eligible for the extension, move to day 2
+•
+If not eligible for extension:
+–
+M02 to zero for the appropriate months, both prospectively and retroactively if applicable.
+The System will compute the overpayment amount.
+–
+Develop overpayment if necessary.
+–
+Place REMARK on SSR with details of denial
+Example: Denied N13. Retroactive to MMDDYY.
+Leave all prior P.L. 110-328 remarks for future reference.
+NOTE: The System will terminate force pay records. After 12 months the record will go
+into T31.
+Day two:
+•
+Use CCM as start date
+•
+Enter correct ZX field value (AER code) that corresponds with conditions of reinstatement.
+After the system establishes the start dated record, seed the case into MSSICS.
+Update the Alien Status page with the time limited extension information.
+If the alien is eligible for the benefit extension, the system will establish the
+SSR with an AER (Alien Eligibility Reason) value to control for the extension. The
+system will put the case into N13 at the end of the claimant’s extension period.
+NOTE: If the appropriate AER code is not entered, the alien may not appear eligible for
+the benefit extension; the system would then build the appropriate status of PSY N13.

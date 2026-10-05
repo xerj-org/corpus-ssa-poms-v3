@@ -1,0 +1,124 @@
+SSA Program Operations Manual System (POMS) - GN 03930.032 - Direct Payment to the Representative or Entity Under the Fee Petition Process for Title XVI and Certain Title II Concurrent Cases and Windfall Offset Calculation
+Effective Dates: 12/09/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930032 (fetched 2026-10-04)
+
+B. FO Procedures for Releasing Past-Due Benefits
+After receiving the fee authorization from the PC, OHO, or OAO, the CS reviews the
+authorization and the claim for issues that might preclude or delay payment of the
+authorized fee. For examples of these issues (e.g., another representative petitions
+for a fee and is due direct payment, or a party requests administrative review), see
+GN 03930.060C. In concurrent claim situations, if the CS identifies an issue that precludes direct
+payment from the Title II withheld benefits, the CS notifies the PC of the issue.
+If the representative and entity, if there is a valid assignment as per GN 03920.021, are eligible for direct payment and there is no issue, the CS must release the fee
+and past-due benefits payments per GN 03930.032B.1. and GN 03930.032B.2. in this subsection.
+NOTE: If a court case or a court fee is pending, technicians must not recover any overpayment
+or release any remaining past-due benefits to the claimant until we process the court
+fee. For additional information about releasing withheld past-due benefits to the
+claimant, see GN 03930.060 and SI 02101.002A.
+1. Direct Payment of the Authorized Fee in Title XVI Only Claims
+Under the fee petition process, all Title XVI representative fee payments are manual.
+Take the following actions when the authorized fee is for a Title XVI only claim:
+a.
+Issue the representative or eligible entity, if there is a valid assignment (see GN 03920.021), an automated one-time payment (A-OTP) in the amount of the authorized fee (up to
+a maximum of 25 percent of the past due benefits) less the assessment and the amount
+that another source paid (e.g., trust or escrow account), if applicable. For information
+about processing the A-OTP, see SM 01901.950. For instructions on processing the fee
+assessment, see GN 03930.033.
+NOTE: The Title XVI system forwards the record of the fee payment and fee assessment (user
+fee) to the Single Payment System (SPS).
+For examples of releasing the past-due benefits for direct payment of the authorized
+fee and to the claimant, see GN 03930.060D.1. through GN 03930.060D.4.
+b.
+Prepare and send the appropriate manual fee notice to the representative and claimant
+using the Document Processing System (DPS). For Model Fee notice language, see GN 03905.090.
+c.
+Close out the fee petition issue on the applicable Development Worksheet as appropriate.
+d.
+When necessary, remove the U TAC or bypass if the UPV code in the Supplemental Security
+Record (SSR) is set to A or B. (For specific instructions on inputting the UTAC, refer
+to GN 03930.030 or Underpayment Processing per MS 00304.018). This action automatically recovers
+any applicable overpayment, releases the balance of withheld funds, if any, to the
+claimant, and sends notices to the claimant and the representative. Also, consider
+the following situations before releasing the underpayment to the claimant:
+•
+Overpayment balance
+If you are processing a case that involves an overpayment balance, ensure that the
+overpayment decision posts to the SSR. If it does not, post it. For instructions on
+posting overpayment decisions, see MS 00304.001.
+•
+Installment payment
+If you are processing a case that involves an installment payment, manually calculate
+the installment payment amount, pay the next installment if due, and send manual notice
+of the actions to the claimant and representative. For additional information about
+installment payments, see SI 02101.020.
+•
+Dedicated account
+If you are processing a case that involves a dedicated account, see SI 02101.010.
+•
+Large underpayment diaries
+For instructions on resolving large underpayment diaries, refer to SM 01311.661 and
+SM 01311.669.
+2. Concurrent Claims: Fee Adjustment of Countable Retroactive Title II Windfall Offset
+When a claim is a concurrent Title II and Title XVI claim, you may need to make a
+windfall-offset computation. For more information on windfall offset, refer to SM
+03045.910 and SM 00815.001. In concurrent cases for fee petitions, you may need to
+compute the windfall offset computation twice when a PC adjudicates a Title II claim
+but we have not yet authorized the representative’s fee. The first windfall offset
+computation (prior to receiving the fee authorization document) allows the PC to release
+the Title II past-due benefits avoiding further delay. The FO does the second computation
+when it receives the fee authorization document from the PC, OHO, or OAO. The second
+computation accounts for the representative’s fee as an expense of obtaining income.
+a. Fee Adjustment of Title II Countable Retroactive Income When the Authorized Fee is
+Known
+If you have the fee authorization from the PC, OHO, or OAO:
+•
+Complete the windfall offset, if necessary.
+•
+Deduct the entire authorized fee from the retroactive Title II benefits beginning
+with the earliest months the Title II retroactive benefits are payable. We make no
+distinction between services performed for Title II or Title XVI. We use the total
+fee to adjust the Title II income.
+NOTE: Under the fee petition process, the authorized fee may exceed the amount that we
+withheld and directly paid to the representative or entity (we only withhold 25 percent
+of the past-due benefits). For instructions on deducting authorized fees from retroactive
+Title II income, see SI 02006.200 and SI 02006.202. For instructions regarding expenses of obtaining income, see SI 00830.100.
+b. No Fee Adjustment of Title II Countable Retroactive Income When the Authorized Fee
+is Unknown
+1.
+Authorized Fee is Unknown
+Complete the windfall offset, if necessary, to avoid an unnecessary delay in release
+of any retroactive Title II benefits. For representative fee processing instructions,
+see MS 00302.014.
+2.
+Fee Authorization Received from the PC, OHO, or OAO After Windfall Offset is Completed
+Re-compute the windfall offset computation, if necessary. Deduct the entire authorized
+fee from the retroactive Title II benefits beginning with the earliest months the
+Title II retroactive benefits are payable. If the fee authorizer designated part of
+the fee to the Title XVI claim specifically, do not use it to decrease the Title II
+income.
+c. Direct Payment of the Authorized Fee on Concurrent Title II and Title XVI Claims
+When processing direct payments of authorized fees for concurrent claims, follow these
+steps:
+1.
+Determine the Portion of the Authorized Fee Paid from Title II Past-Due Benefits
+Query SPS (see APQY screen as the SPPT screen will not show if direct payment of the
+fee was assigned to an entity) to determine the amount of the fee paid to the representative,
+or eligible entity if there is a valid assignment, from the claimant's (and the claimant's
+auxiliaries') past-due benefits and the amount of the assessment collected from the
+direct fee payment. For instructions on obtaining an SPS query, see MS 05701.003.
+Usually, in fee petition cases, the fee authorizer sets one fee for the representative’s
+services in connection with both Title II and Title XVI claims and does not designate
+a portion of that fee for one of the two claims. However, if the fee authorizer designates
+part of the authorized fee to services provided in connection with the Title XVI claim,
+pay that part of the fee from the withheld Title XVI past-due benefits per GN 03930.032B.1. above.
+2.
+Directly Pay the Title XVI Portion of the Fee
+Query SPS (see APQY screen as the SPPT screen will not show if direct payment of the
+fee was assigned to an entity) to determine if the payment to the representative or
+entity, if there is a valid assignment, from the Title II past-due benefits was less
+than the authorized fee. Issue an A-OTP to the representative or entity, if there
+a valid assignment, with the lesser of the balance of the authorized fee or the amount
+withheld less the assessment (if applicable). If we paid the entire fee from the Title
+II past-due benefits, release the Title XVI past-due benefits following the instructions
+in GN 03920.032B.1. in this subsection. We cannot issue any fee from Title XVI past-due benefits even
+if there is an UPX on the SSR.

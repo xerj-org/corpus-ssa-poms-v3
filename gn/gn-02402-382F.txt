@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - GN 02402.382 - Coding Bulgaria Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 311 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402382 (fetched 2026-10-04)
+
+F. Procedure for coding Bulgaria bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account.
+If the information is incomplete, the FRBKC rejects the payment and returns the funds
+to SSA.
+When establishing or changing IDD bank data for Bulgaria, you can use an SSA system
+(i.e. Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry
+(MACADE)).
+However, you must go to ITS.gov to enter the following:
+•
+account ownership;
+•
+account type;
+•
+beneficiary address;
+•
+beneficiary ID (Beneficiary date of birth required in the “Beneficiary ID” field in
+the format DDMMYYYY);
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+IBAN;
+•
+payee indicator;
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+NOTE: The 13th character of the Bulgarian IBAN cannot be an “8” for beneficiary payments.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code consists of the following 8 to 11 alphanumeric characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+Secure the full IBAN and SWIFT-BIC coding from the beneficiary at the time of filing.
+If you are working on an initial award, you must update ITS.gov using the bank account information prior to processing the award to ensure the beneficiary
+receives payment.
+If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to SSA.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update on the same day ITS.gov;
+•
+enter all POS direct deposit changes according to normal procedures;
+Use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a Euro (EUR) account in Bulgaria?
+If no, STOP.
+REASON: Beneficiaries in Bulgaria can only receive IDD payments in EUR accounts.
+If yes, go to step 4
+4
+The RTN is 680000035 for all IDD to Bulgaria. It contains the:
+•
+multi-country prefix of “68” for Bulgaria IDD;
+•
+U.S. check digit of “5” for all IDD accounts in Bulgaria.
+No need to obtain the check digit code from Title II Interactive
+Comps.
+5
+Code the Type of Account as:
+•
+“S” for savings; or
+•
+“C” for checking.
+If no indicated account type, use a “C” for checking account.
+6
+Code the Depositor Account Number (DAN) for Bulgaria as follows:
+•
+Start with a country code of "G" designated for Bulgaria
+•
+Code the eight-digit Customer Account Number.
+7
+You must take action on the same business day to enter all the information into ITS.gov listed in the introduction of GN 02402.382F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

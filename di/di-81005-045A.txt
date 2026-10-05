@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 81005.045 - Case Data Tab
+Effective Dates: 01/10/2013 - Present | TN 4 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005045 (fetched 2026-10-04)
+
+A. Case Data View
+The case data view:
+•
+Displays the disability data in logical groups based on categories of information
+(for example, Contacts, Medical Sources, Tests, Medications);
+•
+Displays a list of the categories of related information in a concise format;
+•
+Enables the user to select and view all the information from EDCS and any information
+added to the electronic folder (EF) that pertains to the selected category (for example,
+Case Information, Allegations, Sources); and
+•
+Displays all the data by case level, including data and changes on the mainframe and
+propagated to eView through the Update-After-Transfer (UAT) process. For details on
+UAT, see DI 81010.095.
+EDCS annotates the Case Information Screen in Case Data View when an internet disability
+report (IDR) existed but did not propagate into EDCS. In the Client and Onset Dates
+section of the Case Information screen, eView displays the type of IDR that failed
+to propagate into EDCS along with the reason that the form could not propagate.

@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - DI 11052.005 - Developing Initial End-Stage Renal Disease Medicare Cases
+Effective Dates: 08/18/2026 - Present | TN 6 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052005 (fetched 2026-10-04)
+
+B. Obtain a completed ESRD claim
+Obtain a completed claim for ESRD Medicare either electronically via the Modernized
+Claims System (MCS) using the claimant's own Social Security number (SSN) or on paper
+form CMS-43. If you obtain a completed paper form CMS-43, enter the ESRD claim into
+MCS immediately.
+NOTE: Always establish the ESRD claim using the claimant's own SSN even if they are not
+insured on their own record.
+The following are ESRD-specific inputs for the MCS application screens:
+MCS Application Screens
+Screen
+Instruction
+APPL (MSOM MS 03505.009)
+CLAIM TYPE: 8 (ESRD) - Applies to all claimants filing for ESRD whether based on their own insured status
+or based on the insured status of a parent or spouse.
+IDEN (MSOM MS 03505.059)
+DISABLED IN LAST 14 MONTHS - If the claim is for ESRD only, answer N. If the claimant is also filing a disability
+claim, answer Y.
+IDN2 (MSOM MS 03505.060)
+Cross-reference SSN: If the claimant is currently entitled on another SSN, enter that SSN.
+ADDB (MSOM MS 03505.012)
+WILL MEDICARE APPLY: For all ESRD claims, answer this question with either 1-YES or 3-ALREADY ENROLLED
+ON ANOTHER SSN. If you answer 2-NO, MCS generates the following inter-screen edit:
+"INVALID ENTRY - WILL MEDICARE APPLY (ADDB) MUST BE 1 OR 3 FOR THIS CLAIM TYPE, CLAIM
+TYPE = ESRD."
+NMAR (MSOM MS 03505.037)
+If the claimant is filing for ESRD based on their spouse's insured status, enter the
+spouse's date of birth on this screen. MCS generates the following inter-screen edit
+when the date of birth is missing: "BIRTHDATE (NMAR) MUST CONTAIN DATA IF FILING ON
+SSN OF SPOUSE (ESRD)."
+HIKD (MSOM MS 02003.005)
+This screen collects information about kidney dialysis and kidney transplant. Complete
+this screen to process an allowance. Resolve any discrepancies in dates provided by
+the claimant's allegation and the information found on form CMS-2728. Only complete
+the section(s) that apply. You can establish a dialysis record, a transplant record,
+or both, as applicable. NOTE: Form CMS-2728 provides important start and stop dates for dialysis, transplant, and
+self-dialysis that you will need in order to complete this screen.
+ESRD (MSOM MS 03505.029)
+This screen captures ESRD filing information. FILING ON SSN OF: Complete this section if the claimant is not insured and filing under the insured
+status of a spouse or parent.
+HIHI (MSOM MS 02003.002)
+This screen captures Medicare enrollment data. CAUTION: See DI 11052.001G if the claimant has group health plan (GHP) coverage.
+IMPORTANT: ESRD - Medicare Part B supplemental medical insurance (R-SMI) covers most
+of the dialysis expenses ESRD patients incur. If the claimant decides it is advantageous
+to refuse Part B, as discussed in HI 00801.091D.3, they may choose to postpone filing for R-SMI. If an R-HI claimant elects to decline
+R-SMI, then, before awarding R-HI, you must explain the effects of such a decision
+and document the case file to show that the claimant understands the consequences
+of their action. Pages 13 and 14 of the CMS pamphlet, Medicare Coverage of Kidney
+Dialysis and Kidney Transplant Services (CMS-10128), explains (in easy-to-understand
+terms) GHP coverage and the requirement to have R-HI at the time of transplant in
+order for Medicare to pay for immunosuppressive drugs.
+TYPE OF ACTION: Enter to enroll in or refuse ESRD Medicare Part B (R-SMI). Other options also available
+are to withdraw, cancel withdrawal, or waive equitable relief. Options 1 and 2 are
+the most common at the initial claim level.
+EQUITABLE RELIEF REQUESTED (Y/N): Enter "Y" if you make an entry in the SMI OPTION field at the bottom of the screen.
+ESRD OPTIONS: If there are more than six months of retroactive entitlement to R-HI, the claimant
+can elect R-SMI effective: the first month of R-HI, the month of filing, or the month
+of processing.
+BENEFICIARY RESTRICTED HI ENTITLEMENT MONTH (MMYY): This field is optional. Enter the calendar month and year HI entitlement is to begin
+for premium-free HI.
+SELECT SMI OPTION ONLY IF PROCESSING DATE IS MORE THAN 5 MONTHS AFTER THE FIRST POSSIBLE
+MONTH OF ENTITLEMENT - SMI OPTION: Complete this section only if the claimant does not want to (or is unable to) pay
+premiums back to original date of entitlement. Your choices are, application month
+or processing month. Because a claimant awarded R-HI retroactively may have difficulty
+paying the R-SMI premium arrearage, SSA will allow the claimant to choose their R-SMI
+entitlement month. Equitable relief provisions apply to an R-SMI premium arrearage
+of six months or more. If you enter an SMI entitlement month, refer to DI 11052.020B to determine whether you also enter "Y" in the EQUITABLE RELIEF REQUESTED field.
+DECI (MSOM MS 03509.013)
+PC 7 has jurisdiction of all ESRD claims. If the PC JURIS field displays a different
+PC or office, update this field to PC 7. An MCS earnings computation processing limitation
+requires the FO to prepare an A101.
+NOTE: Process ESRD applications by attestation per GN 00201.015, Alternative Signature Methods.
+Reference:
+HI 00801.248, Effect of Immunosuppressive Drug Coverage on Filing for R-HI and R-SMI

@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 23022.030 - Identifying and Receipting Compassionate Allowances (CAL) and Quick Disability Determinations (QDD) Cases
+Effective Dates: 04/06/2018 - Present | TN 24 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022030 (fetched 2026-10-04)
+
+A. Electronic identification
+1. Electronic Disability Collect System (EDCS)
+When the field office (FO) transfers a case in EDCS, the selection software determines
+whether the case qualifies for CAL fast-track processing; and, the predictive model
+(PM) identifies cases for QDD fast-track processing. When a case is identified as
+a CAL or QDD, an EDCS onscreen message prompts the FO to complete full non-medical
+development in MSSICS and MCS. The FO must select OK to close the message box to proceed
+with the transfer.
+NOTE:
+The selection software for CAL and the PM for QDD does not consider cases that are
+fully paper (i.e. all claims in the case are EDCS exclusions). The FO must establish
+at least one of the claims in EDCS for the selection software to consider the case
+for CAL, or for the PM to consider the case for QDD. The official folder may be a
+Certified Electronic Folder (CEF) or a paper Modular Disability Folder (MDF).
+If the Disability Determination Services (DDS) identifies CAL criteria for a fully
+paper claim, the DDS and FO follow normal expedited claim procedures, such as those
+used for terminal illness (TERI) cases.
+2. DDS case processing systems
+All CAL and QDD cases have an associated Electronic Folder Interface (EFI) download.
+The EFI download contains a data element that identifies the case as CAL, QDD, or
+both. The DDS case processing system recognizes the CAL and QDD indicators on the
+EFI, propagates them to the DDS case processing system screens, and uses them for
+special processing logic.

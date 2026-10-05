@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02402.358 - Coding Czech Republic Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402358 (fetched 2026-10-04)
+
+E. Description of Czech Republic direct deposit data
+The data for coding Czech Republic IDD will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN will be 24
+characters. However, the IDD coding for Czech Republic bank data consists of 26 characters,
+including the country code of C for Czech Republic.
+When using the IBAN to code direct deposit to Czech Republic, compose the data as
+follows:
+•
+a 9-digit RTN 6600BBBBX: where 66 is the country code field, positions 3 and 4 are always 0, BBBB = 4-digit
+bank code, X = the check digit code; and
+•
+a 17-digit DAN CAAAAAAAAAAAAAAAA, which consists of a country code of C, for Czech Republic, followed by a16-digit
+account number.
+NOTE: Account type when enrolling in International Treasury Services
+(ITS.gov) can be defaulted to checking if there is no indication of whether the account is a
+checking or a savings account.

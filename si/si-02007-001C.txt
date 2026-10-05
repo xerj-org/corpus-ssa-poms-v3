@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - SI 02007.001 - Interim Benefits in Cases of Delayed Final Decisions - SSI
+Effective Dates: 04/23/2026 - Present | TN 15 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502007001 (fetched 2026-10-04)
+
+C. Procedure for starting interim benefits
+Step
+Action
+1
+The ALJ makes a favorable disability/blindness decision
+2
+The AC decides on its own motion to review the ALJ's decision or decides to reopen
+the decision.
+3
+About 100 days after the ALJ decision, the AC will send the servicing FO and/or the
+processing center with jurisdiction an information sheet titled Potential Interim
+Benefit Case. This information sheet gives detailed information about the case. See
+SI 02007.010A. for an exhibit of the sheet.
+•
+If there are potential Title II interim benefits, the AC will send the information
+sheet to the appropriate Processing Center (PC);
+•
+If there are potential SSI interim benefits, the AC will send the information sheet
+to the servicing FO with the required information;
+•
+If there are potential Title II and SSI interim benefits (concurrent cases), the AC
+will send the information sheet to the FO and PC.
+4
+The FO conducts a PERC to determine eligibility and payment based on nondisability
+factors. See SI 00603.030. Interim benefits begin with the month in which the 110th day falls; therefore, you do not have to establish the payment amount for all months,
+only for the beginning month of interim benefits forward.
+•
+If a Title XVI only case, attempt to complete processing within 10 working days of
+receiving the e-mail from AC.
+•
+Compute payments using the transitional computation cycle (TCC). See SI 02005.005. The month in which the 110th day falls is the first month of the TCC. There is no
+E02 month. There is no proration of benefits based on the 110th day; the person is
+due unprorated benefits for the month in which the 110th day falls.
+•
+If the claimant is ineligible for SSI benefits for the first month for which interim
+benefits could be made (the month in which the 110th day falls), find the first month
+after the month the 110th day falls and which the person could be paid and proceed from there.
+•
+Do not pay federally administered state supplementary payments.
+•
+If concurrent, include in countable income any Title II interim benefits. The FO will
+count the Title II payments as income for SSI purposes. SSI interim benefits must
+not begin until payment of Title II interim benefits. See DI 42010.210 for a description of procedures the PC follows to coordinate the generation of title
+II interim benefits with SSI interim benefits.
+•
+The person may be eligible for income and resource exclusions related to disability
+or blindness, such as the exclusion for blind work expenses, and the exclusion of
+income or resources for a plan for self-support.
+5
+The FO follows these steps:
+•
+Stop the interim benefit payment from going to the state as interim assistance reimbursement
+(IAR). Check the supplemental security record (SSR) for a pending IAR indicator (a
+grant reimbursement code (GRC) of R or F). For active cases, delete the indicator
+via the Interim Assistance Reimbursement & Excluded Statistics page. For non-MSSICS
+cases, delete the indicator via PR9 per SM 01005.623.
+•
+Pay SSI interim benefits through the force due (M02) process per MS 00302.006.
+•
+Enter a FORCE DUE BEGIN DATE on the Force Due Control (UFDC) screen equal to the first
+month in the computation history to ensure that an erroneous underpayment is not released.
+See MS 00302.004.
+•
+On the Collect Force Due Amounts (UFDU) screen, enter zero Federal and State due amounts
+for months prior to the first month of interim benefits. Enter the Federal SSI due
+amount and a zero State due amount for the first month of interim benefits. The system
+will continue to pay monthly benefits until the record is terminated or the due amount
+is reduced to zero. See MS 00302.005.
+•
+On the REMARKS section of the SSR, add the following language: M02 REQD INTERIM BENEFIT
+PAYMENTS EFFECTIVE XX/XX/XXXX (date payments will start) UNTIL FINAL ALJ DECISION
+MADE//UNIT CODE-FO CODE-XX/XX/XXXX (date the remark is added).
+6
+The FO sends a notice if interim benefits are payable or not payable. For notice language
+see SI 02007.015.

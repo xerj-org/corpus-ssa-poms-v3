@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 00204.048 - Processing Month of Elections (MOEL) Exceptions
+Effective Dates: 01/03/2017 - Present | TN 123 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204048 (fetched 2026-10-04)
+
+G. Procedure for manually processing T2R exceptions involving a blank MOE CONFIRM CODE
+value
+A blank MOE CONFIRM CODE on the MBR is an indication that we have not made a MOEL
+determination or we processed the claim prior to the Automated Job Stream 3 (AJS3)
+to T2R conversion. Follow the steps below when a record has a blank MOE CONFIRM CODE
+on the MBR:
+1.
+Identify the current MOEL Option code (see GN 00204.041C);
+2.
+Review all SSA records to determine if we took any MOEL actions prior to the T2R conversion.
+3.
+Follow instructions in this section to evaluate the MOEL if no action has been taken
+to confirm the MOEL
+4.
+If an MOEL review was previously completed, annotate the MBR with the correct MOE
+confirm code.

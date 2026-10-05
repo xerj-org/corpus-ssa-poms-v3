@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02402.424 - Coding Micronesia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/07/2018 - Present | TN 121 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402424 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Micronesia
+The customer provides us with a signup form for Micronesia containing the account
+number: “12345678901122334455667788990.”
+1. Derive the RTN
+Enter the information for the RTN.
+• Code the RTN of 720000063
+• Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Micronesia.
+• Start with the country code of “C” designated for Micronesia; and
+• Code 16 digits of the 29-digit account number “1234567890112233”
+a. You must obtain the following:
+• RTN: 720000063
+• Checking
+• DAN: C1234567890112233
+b. The POS coding reflects this information
+• DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000063 ACCOUNT TYPE (C/S): C
+• DEPOSITOR ACCOUNT NUMBER: C1234567890112233
+• CANCEL DIRECT DEPOSIT (Y):
+• DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+• RTN- 720000063
+• DAN- CC1234567890112233

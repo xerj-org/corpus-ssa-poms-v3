@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 00605.205 - Systems Selection and DI Diary Set
+Effective Dates: 10/27/2014 - Present | TN 15 (12-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605205 (fetched 2026-10-04)
+
+B. Process
+1. Systems selection criteria
+Listed below is a summary of the selection criteria used to identify representative
+payees with dedicated accounts:
+•
+The case is not terminated or in payment status S06, or S08; and
+•
+The dedicated account balance field in the DACT segment of the SSR is greater than
+zero, or
+•
+(PMTH) Pay flag 5 equals X, 1, 2, or F and the payment was made during the 12-month report period, or
+NOTE: Pay flag 5 equals X (implemented 11/97) represents past-due benefits which met dedicated account criteria
+and FO deposited into a dedicated account. Indicators 1, 2, and F (implemented 9/98) represent large past-due benefits which met Dedicated Account-Installments
+criteria and FO deposited into a dedicated account.
+•
+(PMTH) A one-time payment exceeding 6 times the current Federal Benefit Rate (FBR)
+plus any federally administered State Supp was released during the 12-month report
+period and at the time this payment was made the beneficiary was under age 18.
+2. DI diary set
+For records which meet the selection criteria described in GN
+00605.205B.1. the system will set annually, a DI diary in the DIAR segment of the SSR in October
+of the current FY with the date the diary will mature (e.g., DI: 03/ 01/99) for annual accounting and dedicated account monitoring. The DI diary will be associated with scheduled redeterminations or selected as a limited
+issue if the beneficiary is not eligible for a redetermination. Although the diary
+is set in October, it will not be selected as a limited issue until the month before
+the month the diary matures.
+NOTE: Systems will not set an AR diary to indicate annual accounting for cases with dedicated
+accounts.

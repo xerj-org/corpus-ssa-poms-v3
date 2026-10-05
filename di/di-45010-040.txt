@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 45010.040 - Preparation for R-HI/R-SMI Systems Terminations
+Effective Dates: 01/23/1990 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445010040 (fetched 2026-10-04)
+
+DI 45010.040 Preparation for R-HI/R-SMI Systems Terminations
+Terminations of ESRD Medicare eligibility will be processed via the Post-Entitlement
+Premium Payment and Enrollment (PEPPER), the Miscellaneous Correction Program (MISCOR),
+or the Manual Adjustment, Credit and Award Processes Programs (MADCAP).
+Generally the PEPPER program will be utilized to:
+A.
+annotate a future HI/SMI termination date,
+B.
+initiate immediate termination processing if the ESRD cessation is equal to or earlier
+than the current operating month (COM).
+The MISCOR facility will be used in situations in which HI/SMI eligibility will continue,
+subsequent to ESRD Medicare termination, under the disability or aged provisions of
+the law.
+In those instances where PEPPER or MISCOR in unable to process the ESRD Medicare termination,
+the MADCAP program will be utilized to terminate HI/ SMI entitlement.
+In addition to preparation of determination Form SSA-892-U3 (see DI 45010.030) and notice assignment Form SSA-865 (or SSA-573 if more appropriate), prepare (in
+duplicate), HIB/SMIB Data Enrollment Card Coding Sheet, Form SSA-1598 (see DI 45001.109) (except in equitable relief or closed periods). This form is the PEPPER input vehicle
+for coding ESRD Medicare terminations. It should be prepared even though processing
+may ultimately be necessary through MISCOR or MADCAP. Complete only the following
+items of the SSA-1598:
+1.
+CAN—Account number
+2.
+BIC—All BIC's are valid
+3.
+TOA—Type of Action Code will be “F” in all situations
+4.
+Decision Code will be “S” for a termination
+5.
+DOF—Date of filing. This date represents the ESRD Medicare termination date and will
+be shown as six characters (MM/01/YY). When the ESRD Medicare termination date is
+in the future, the input DOF will be annotated to the Future Withdrawal or Termination
+Date (FWTD) field of the MBR. When the ESRD Medicare termination date is equal to
+or earlier than COM, the input DOF will initiate an immediate PEPPER debit-credit
+to terminate the ESRD Medicare coverage. When coding the DOF, the date may be COM
+or earlier for immediate termination action; or COM +1 month or later for future termination
+actions. However, the date may never exceed COM +37.
+6.
+Reintroduction Code—If an existing FWTD must be changed to an earlier date, and X
+should be annotated in the Reintroduction Code block of the SSA-1598. When this code
+is present, and the input DOF is earlier than the MBR FWTD, but not earlier than COM
++1, the MBR FWTD will be changed to reflect the input DOF. If the input DOF is earlier
+than COM +1 and earlier than the MBR FWTD, immediate credit/debit processing will
+ensue to terminate renal HI /SMI.

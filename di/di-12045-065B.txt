@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 12045.065 - Career Railroad Retirement Board (RRB) Cases When Claimant Files an Appeal
+Effective Dates: 09/17/2013 - Present | TN 12 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412045065 (fetched 2026-10-04)
+
+B. Claimant files a request for hearing
+If a claimant files a HA-501 (Request for Hearing by Administrative Law Judge), and
+the claimant is a career railroad worker or the disabled dependent survivor of a career
+railroad worker, see DI 44001.105A the FO must:
+1.
+Establish the appeal in MCS/MSSICS using the Appeals Program (Banana) or manually
+enter information into the appeal screens.
+2.
+Establish the appeal in EDCS, unless the claim is an EDCS exclusion. Add the following
+message in either EDCS or eView (see DI 81010.080).
+This claimant is a career railroad worker or the disabled dependent survivor of a
+career railroad worker and coordination with the Railroad Retirement Board (RRB) may
+be necessary. We sent copies to the GLPSC-DCR in Chicago for RRB coordination. GLPSC-DCR
+will send ODAR copies of all medical or vocational evidence, as well as disability
+determinations from RRB.
+3.
+For forms required for filing a hearing, see DI 81010.150C.
+4.
+Send copies of the HA-501 and SSA-636 to GLPSC-DCR.
+5.
+Transfer the case to the Office of Disability Adjudication Review (ODAR) for a disability
+decision.
+If the claim is an EDCS exclusion, the FO must:
+1.
+Prepare an SSA-636-U3 and add the following in the Remarks section of the SSA-636:
+"This claimant is a career railroad worker or the disabled dependent survivor of a
+career railroad worker and coordination with the Railroad Retirement Board (RRB) may
+be necessary. We sent copies to the GLPSC-DCR in Chicago for RRB coordination. GLPSC-DCR
+will send ODAR copies of all medical or vocational evidence, as well as disability
+determinations from RRB.
+2.
+Send copies of HA-501 and SSA-636 to GLPSC-DCR.
+3.
+Associate HA-501 and SSA-636 with the folder and forward to ODAR for a disability
+decision.
+NOTE: To process an iAppeals i501, see GN 03101.125.

@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - DI 13015.265 - Special Instructions for Processing Overdue Medical Cessation and Uneffectuated Medical Cessation Cases
+Effective Dates: 10/02/2026 - Present | TN 29 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015265 (fetched 2026-10-04)
+
+E. How to adjudicate uneffectuated medical cessation Determinations made before January
+01, 2006
+NOTE: UMC cases are eCDR exclusions.
+Adjudicate UMC determinations made before January 01, 2006 as if the medical cessation
+determination had never been made. Follow established policy and procedures for initiating
+a new medical CDR, (i.e., obtain a new SSA-454 and SSA-827s).
+When contacting the beneficiary/recipient to establish the new medical review, explain
+why we are doing a new CDR, using language similar to the following:
+We previously told you we were going to stop your disability payments because you
+were no longer disabled. However, the payments were not stopped at that time due to
+an administrative error. Therefore, we are not going to stop your payments (or, if
+payments have already been stopped, we are going to reinstate your payments).
+We are going to take another look at your case to see if you are still disabled. If
+we determine you are still disabled according to our rules, your payments will continue.
+If we again determine that you are no longer disabled according to our rules, your
+entitlement will end as of the date of the new determination, not the earlier cessation
+date we previously told you about. You will be notified of the new determination before
+your benefits are stopped.
+Provide a complete explanation of our actions, depending on the particular case situation.
+For example, if the person was previously determined to be overpaid due to the cessation,
+inform him/her that the overpayment no longer exists.
+1. FO initiation of CDRs on the DCF
+The new CDRs for these UMC cases will not be initiated on the Disability Control File (DCF) as is normally done for an Automated Direct Release
+(ADR) run. The prior CDR for many of these cases may still be open on the DCF (i.e.,
+the cessation determination was never posted); the DCF does not allow a second medical
+CDR to be initiated while the first medical CDR is still open. In other situations,
+the prior CDR was processed prior to the conversion to the DCF (11/02) and is not
+reflected on the DCF. Because these UMC cases cannot be released via the ADR process,
+the folders for these cases will not be automatically sent to the FO. The FO must manually request the folders. (See DI 13015.055, DI 13015.060, DI 13015.070, DI 13015.080, and DI 13015.090.) After obtaining the folder, manually establish the new CDR on the DCF as follows:
+a. If the prior medical CDR is still open on the DCF:
+•
+Close the CDR by annotating the prior cessation determination (see
+•
+MSOM CDR 001.007 CDR FO Input Screen (IFOA)
+•
+Enter this remark on the IRMK screen: UMC case cessation determination set aside per
+DI 13015.265 (see MSOM CDR 001.009 CDR Remarks Input Screen (IRMK)
+•
+Manually establish the new CDR via the DRES screen (see MSOM CDR 001.016 Disability Review Establishment Screen (DRES) )
+b. If the prior CDR is closed (or was never established) on the DCF:
+•
+Manually establish the new CDR via the DRES screen (see MSOM CDR 001.016 Disability Review Establishment Screen (DRES)
+•
+Enter this remark on the IRMK screen: UMC case cessation determination set aside per
+DI 13015.265 (see MSOM CDR 001.009 CDR Remarks Input Screen (IRMK))
+NOTE: If the new CDR is not established on the DCF prior to transfer to the DDS, the new
+DDS CDR determination will not update the DCF.
+2. Transfer case to DDS
+When the CDR package is complete and ready for transfer to the DDS, place the flag
+shown in Exhibit 1 on top of the folder and send the case to DDS for adjudication.
+DO NOT clear the UMCCC at this point; the UMCCC should not be cleared until after
+the new DDS CDR determination is made and effectuated.
+View In PDF
+View In PDF

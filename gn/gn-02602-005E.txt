@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02602.005 - Post-Entitlement Changes that Affect Payment of Title II Benefits
+Effective Dates: 02/09/2021 - Present | TN 108 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602005 (fetched 2026-10-04)
+
+E. Disposition Requirements
+Unless another POMS section specifies the documentation and disposition requirements
+for your PE action, post remarks to support your action within the PE method used
+to update the record, e.g., PCACS remarks, DMS remarks, etc. This action documents
+any determinations made and may prevent another technician from having to re-work
+the case.
+1. FO requirements
+The FO technician must document their action on the case. The documentation must include:
+•
+A remark to support the action taken or reason for not taking an action,
+•
+The technician's identifier (unit code, name, or initials), and
+•
+The date.
+NOTE: Some PE systems, such as POS, automatically add the technician's name and the date.
+2. PC requirements
+Most PE actions in the PC are accompanied by an ACR in Paperless. Each technician
+who takes action in a case must document the action and disposition of the ACR. "Action"
+and "disposition" include sending the ACR to an end-of-line read (FIN/FIN) without
+systems input. The Paperless disposition of the technician's action must include:
+•
+A brief description of the action taken (for example: "Notice released," "MACADE with
+1 letter," or "Action controlled by ACR SSNX____," etc.);
+•
+The technician's identifier (name or initials); and
+•
+The date.
+NOTE: Paperless e-forms electronically add the technician's name and date.
+When the disposition is "No Action Necessary" (NAN), include an explanation of why
+there was no action necessary by attaching a Claims Folder/Material Transmittal (Form SSA-559) within Paperless ACR.
+If the technician's action will clear multiple ACRs, the technician must post a disposition
+on all ACRs, including:
+•
+The controlling one, i.e., the one going to the Payment Holding File (PHF) in MACADE;
+•
+The non-controlling ACR(s), i.e. the one(s) going directly to FIN, indicating "ACR
+worked in conjunction with SSNX_____"; and
+•
+Any duplicate ACRs. Send duplicate ACRs to FIN with a comment "Duplicate ACR/Action
+being controlled by ACR SSNX_____."
+IMPORTANT: Only send duplicate ACRs to FIN when taking action on the controlling one.

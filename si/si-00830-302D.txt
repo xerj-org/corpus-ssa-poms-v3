@@ -1,0 +1,109 @@
+SSA Program Operations Manual System (POMS) - SI 00830.302 - Veterans Affairs (VA) Pension Payments
+Effective Dates: 01/12/2018 - Present | TN 245 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830302 (fetched 2026-10-04)
+
+D. Procedure for systems coding
+1. SSI Consolidated Claims Experience
+a. Pension payments based on need
+To code VA pension payments on the SSI claims system, select “Yes” for “Department
+of Veterans Affairs” on the Income Selection page for the following types of VA pension
+payments:
+•
+Improved disability pension,
+•
+Protected disability pension,
+•
+Surviving spouse improved death pension,
+•
+Surviving spouse-protected death pension, or
+•
+Surviving child improved death pension.
+On the VETERANS AFFAIRS PAYMENT (IVAB) page, select the appropriate VA pension payment
+types from the drop-down list:
+•
+Pension – Base on Need
+•
+Other VA Payment – Based on Need
+Enter the:
+•
+“Name of beneficiary” field - First name, middle initial, and last name of the beneficiary.
+If the name of the beneficiary is unknown, select the “Unknown” checkbox.
+•
+“ID” field - Veterans Affairs Payment claim number in the “ID” field. If the ID is
+unknown, select “Unknown.”
+•
+Monthly Values, if available:
+Date From
+Date To
+Alleged Amount (of the VA pension payment)
+Verified Amount (of the VA pension payment)
+Court Ordered or IV-D Support Amount
+Double Counting Overpayment Recovery Amount
+Double Counting Applies
+Other Deduction Amount
+Unknown
+Countable Amount
+Actions
+•
+If any of the required fields in Monthly Values are not available, select “Unknown”
+checkbox.
+For more information on the IVAB page, see MS INTRANETSSI 014.052.
+b. Pension payments not based on need
+Select “Yes” for “Department of Veterans Affairs” on the Income Selection page for
+the following types of VA pensions payments:
+•
+Medal of Honor pension, or
+•
+Special Act of Congress pension
+On the IVAB page, select from the following VA pension payment types from the “TYPE”
+drop-down list:
+•
+Pension – Medal of Honor, or
+•
+Pension – Special Act of Congress
+Enter the:
+•
+“Name of Beneficiary” field - First name, middle initial, and last name of the beneficiary.
+If the name of the beneficiary is unknown, select the “Unknown.”
+•
+“ID” field - Veterans Affairs Payment claim number in the “ID” field. If the ID is
+unknown, select “Unknown.”
+•
+Monthly Values, if available:
+Date From
+Date To
+Alleged Amount (of the Medal of Honor or Special Act of Congress pension payment)
+Verified Amount (of the VA pension payment)
+Court Ordered or IV-D Support Amount
+Double Counting Overpayment Recovery Amount
+Double Counting Applies
+Other Deduction Amount
+Unknown
+Countable Amount
+Actions
+•
+If any of the required field in Monthly Values are not available, select “Unknown”
+checkbox.
+For more information on the IVAB page, see MS INTRANETSSI 014.052.
+2. Non-SSI Claims System
+a. Pensions based on need
+On the SSA-1719B (Supplemental Security Income Post-Entitlement Input) or SSA-450-SI (SSI Data Input and Determination), enter “E” for the unearned income type, the amount
+of the VA pension payment, and the appropriate unearned income identification for
+the following VA pension payments types:
+•
+Improved disability pension,
+•
+Protected disability pension,
+•
+Surviving spouse improved death pension,
+•
+Surviving spouse-protected death pension, or
+•
+Surviving child improved death pension.
+NOTE: Protected disability and surviving spouse-protected death pensions are not subject
+to legislative cost-of-living increases. For a discussion on how to code the UM claim
+identification field for legislative increases, see SM 01305.296D.
+b. Pensions not based on need
+On the SSA-1719B or SSA-450-SI, enter “C” for the unearned income type, the amount
+of the VA pension payment, and the appropriate unearned income identification for
+the Special Act of Congress pension.

@@ -1,0 +1,334 @@
+SSA Program Operations Manual System (POMS) - GN 02410.210 - Processing Paper Garnishment Orders in the Field Office or Processing Center
+Effective Dates: 11/19/2012 - Present | TN 70 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410210 (fetched 2026-10-04)
+
+G. COGS processing instructions for Electronic Funds Transfer (EFT) states
+1. Payment address and bank data
+Most States have converted to EFT. Only one standard payment address displays on the
+Payment/Notice Address Lookup screen (OGPN). Select Code 000001 for all payments sent
+to the SDU. This propagates the necessary information into the payment address field
+and the bank data field.
+NOTE:
+If you manually type in the address of the SDU, a paper check issues to the address
+input. If you manually type in both the address and the bank data, the payment goes
+to the bank in the wrong format. The State will not have enough information to post
+the payment correctly. See the note at GN 02410.210A.1.e. concerning Rhode Island payment address coding.
+2. FIPS codes
+Some EFT States require a Federal Information Processing Standard (FIPS) code. The
+FIPS code refers to the assigned code of the Child Support enforcement entity receiving
+the Child Support payments. If the FIPS code is the same for the entire State, COGS
+propagates the FIPS code when the bank data propagates.
+NOTE:
+Florida and Michigan have multiple FIPS codes. You must manually enter a FIPS code
+whenever the standard address is Florida (FL) or Michigan (MI) and displays no FIPS
+code on the Payment Address (OGPA) screen.
+See the following lists for the Florida and the Michigan FIPS codes:
+Florida FIPS Codes by County
+County
+Code
+County
+Code
+Alachua
+12001
+Lake
+12069
+Baker
+12003
+Lee
+12071
+Bay
+12005
+Leon
+12073
+Bradford
+12007
+Levy
+12075
+Brevard
+12009
+Liberty
+12077
+Broward
+12011
+Madison
+12079
+Calhoun
+12013
+Manatee
+12081
+Charlotte
+12015
+Marion
+12083
+Citrus
+12017
+Martin
+12085
+Clay
+12019
+Monroe
+12087
+Collier
+12021
+Nassau
+12089
+Columbia
+12023
+Okaloosa
+12091
+Dade
+12025
+Okeechobee
+12093
+Desoto
+12027
+Orange
+12095
+Dixie
+12029
+Osceola
+12097
+Duval
+12031
+Palm Beach
+12099
+Escambia
+12033
+Pasco
+12101
+Flagler
+12035
+Pinellas
+12103
+Franklin
+12037
+Polk
+12105
+Gadsden
+12039
+Putnam
+12107
+Gilchrist
+12041
+Santa Rosa
+12113
+Glades
+12043
+Sarasota
+12115
+Gulf
+12045
+Seminole
+12117
+Hamilton
+12047
+St. Johns
+12109
+Hardee
+12049
+St. Lucie
+12111
+Hendry
+12051
+Sumter
+12119
+Hernando
+12053
+Suwannee
+12121
+Highlands
+12055
+Taylor
+12123
+Hillsborough
+12057
+Union
+12125
+Holmes
+12059
+Volusia
+12127
+Indian River
+12061
+Wakulla
+12129
+Jackson
+12063
+Walton
+12131
+Jefferson
+12065
+Washington
+12133
+Lafayette
+12067
+Michigan FIPS Codes by County
+County
+Code
+County
+Alcona
+26001
+Lake
+26085
+Alger
+26003
+Lapeer
+26087
+Allegan
+26005
+Leelanau
+26089
+Alpena
+26007
+Lenawee
+26091
+Antrim
+26009
+Livingston
+26093
+Arenac
+26011
+Luce
+26095
+Baraga
+26013
+Mackinac
+26097
+Barry
+26015
+Macomb
+26099
+Bay
+26017
+Manistee
+26101
+Benzie
+26019
+Marquette
+26103
+Berrien
+26021
+Mason
+26105
+Branch
+26023
+Mecosta
+26107
+Calhoun
+26025
+Menominee
+26109
+Cass
+26027
+Midland
+26111
+Charlevoix
+26029
+Missaukee
+26113
+Cheboygan
+26031
+Monroe
+26115
+Chippewa
+26033
+Montcalm
+26117
+Clare
+26035
+Montmorency
+26119
+Clinton
+26037
+Muskegon
+26121
+Crawford
+26039
+Newaygo
+26123
+Delta
+26041
+Oakland
+26125
+Dickinson
+26043
+Oceana
+26127
+Eaton
+26045
+Ogemaw
+26129
+Emmet
+26047
+Ontonagon
+26131
+Genesee
+26049
+Osceola
+26133
+Gladwin
+26051
+Oscoda
+26135
+Gogebic
+26053
+Otsego
+26137
+Grand Traverse
+26055
+Ottawa
+26139
+Gratiot
+26057
+Presque Isle
+26141
+Hillsdale
+26059
+Roscommon
+26143
+Houghton
+26061
+Saginaw
+26145
+Huron
+26063
+Sanilac
+26151
+Ingham
+26065
+Schoolcraft
+26153
+Ionia
+26067
+Shiawassee
+26155
+Iosco
+26069
+St. Clair
+26147
+Iron
+26071
+St. Joseph
+26149
+Isabella
+26073
+Tuscola
+26157
+Jackson
+26075
+Van Buren
+26159
+Kalamazoo
+26077
+Washtenaw
+26161
+Kalkaska
+26079
+Wayne
+26163
+Kent
+26081
+Wexford
+26165
+Keweenaw
+26083

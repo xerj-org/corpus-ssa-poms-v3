@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - SI 02101.010 - Past-Due Benefits Payable - Individual Alive Under Age 18 with Representative Payee - Dedicated Account Required
+Effective Dates: 04/13/2026 - Present | TN 40 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101010 (fetched 2026-10-04)
+
+C. Procedure
+1. IAR involvement – underpayment $15,000 or more
+If the past-due benefits are equal to or greater than $15,000, the FO must complete
+the underpayment prepayment review as described in SI 02101.025. Use the Underpayment Processing (UOUP) screen through Direct SSR Update. For more
+information on the UOUP screen, refer to MS 00304.018.
+Once the FO completes the prepayment review, select option 4 = Release
+Underpayment/Prepayment Review Completed or Title II Offset Involved from the UOUP screen. If the FO does not complete the prepayment review through the
+UOUP screen, the case will not be automated. If the case is automated, the system
+generates:
+•
+An underpayment verification code (UPV) of ‘V’;
+•
+A request that the State submit its request for reimbursement for IA within 25 days
+through the eIAR website.
+Once the State submits the request, the system will compute and issue the reimbursement
+amount, and process the remaining underpayment according to the priority of payment
+rules. If the system cannot issue the reimbursement automatically, it will post an
+I9 diary to the record which requires FO intervention;
+NOTE:
+The system will not set the E1 alert or the EA diary until the IAR is resolved.
+•
+An E1 alert to the FO for the payee to establish a dedicated account; and
+•
+An EA diary indicating need for account establishment.
+The system then determines whether the remaining underpayment requires a dedicated
+account and whether installments are required and changes the UPV field from a ‘V’
+to ‘2’ or ‘B.’ When the payee has established the dedicated account, the past-due
+benefits should be direct deposited into the account by A-OTP, per SM 01311.660 and
+MS 00304.018.
+NOTE:
+For past-due benefits less than $15,000 with IAR involvement, the system also determines
+whether a dedicated account is required after the State and or direct payment of representative
+fees has been paid. If a dedicated account is still required, the system generates
+an alert and diary for the establishment of the account and benefit payment.
+Once the account is established, follow the procedures in SI 02101.010C.3. in this section.
+The system releases the underpayment in installments, if required if a dedicated account
+is not required after IA reimbursement and or direct payment for representative fees.
+For an overview of the SSI underpayment system process, refer to SM 01311.660.
+When there is a prior collectible overpayment on the record and there is direct payment
+of authorized representative fees, the systems priority of payment order is:
+•
+IAR payment
+•
+Direct Payment of Representative Fee
+•
+Recovery of Prior Overpayment
+2. No IAR involvement and no direct payment of representative fee
+If the past-due benefits require a prepayment review, the FO should follow instructions
+in SI 02101.025. After the prepayment review, use the UOUP screen to release the underpayment using
+the appropriate option. Refer to MS 00304.018 and SM 01311.661.
+The system determines if a dedicated account with installments applies. It sets the
+UPV to ‘B’ and issues an automated notice to the payee informing them to set up a
+dedicated account. The system also sets an EA diary with a 30-day maturity date. If
+the diary matures, the system generates an E1 alert to notify the FO that the payee
+must establish a dedicated account. The system sends follow-up alerts every 15 days
+thereafter until we issue an A-OTP to the dedicated account, resolving the diary.
+NOTE:
+If no prepayment review is necessary but the record requires a dedicated account,
+the system sets the UPV to ‘B’ and sets appropriate diaries and alerts, as explained.
+The system also generates the appropriate notices.
+3. Payee establishes dedicated account
+Once the payee establishes a dedicated account for an individual who is disabled and
+provides the FO with the required information for the account (the name and address
+of the financial institution, the routing number, account number, account title, type
+of account, and the amount of money deposited to open the account), the FO should:
+•
+Have the payee or individual in direct pay sign and date the SSA-552 “Dedicated Account
+Use of Funds Statement.” A PDF version of the SSA-552 is available on the inFORM Library website to print. The SSA-552 is also available online. An individual payee with a
+my Social Security account can complete and submit the form through Upload Documents,
+located in the my Social Security individual payee portal. A technician also can initiate
+the request to complete and submit the SSA-552 electronically utilizing the Upload
+Documents task in the Technician Experience Dashboard (TED); a link to complete, sign,
+and submit the SSA-552 Electronically in Upload Documents will be sent directly to
+the payee by email or text.
+NOTE:
+For instructions on completing the SSA-552 statement, refer to GN 00602.140F.
+•
+Input the financial institution information (routing number, account number, etc.)
+using the One-Time Payment Address (UPOA) screen. For A-OTP rules for records with
+direct deposit to the dedicated account, refer to SM 01901.160.
+The dedicated account cannot be the same financial account to which we issue the regular,
+recurring SSI payment. If the bank account input on the A-OTP matches the bank account
+on the SSR in the DRDP segment of the SSR, the system will issue a UP reject. Refer
+to SM 01901.160 for A-OTP rules for records with direct deposit. Use the Special Payments
+Menu (UPSP) from the Direct SSR Update to establish an A-OTP from the One-time Payment
+(UPOT) screen (Option 2) to direct this payment to the new dedicated account. This
+does NOT affect the regular, recurring SSI payment information on the SSR.
+4. Payee establishes dedicated account - subsequent underpayments
+After the payee has established a dedicated account, the amount of a subsequent underpayment
+determines whether we must deposit, may deposit, or may not deposit it into the dedicated
+account.
+•
+If the subsequent underpayment may be deposited, the system releases the underpayment
+and notice with language stating that it may be deposited into the dedicated account.
+•
+If the subsequent underpayment is equal to or greater than 3 X FBR+OSS, it is paid
+in installments.
+•
+If we have begun installments, we will add any ‘new’ underpayment to the next installment.
+The system releases a notice that explains the new underpayment and instructs the
+payee to contact the field office if they want the money paid directly to them.
+5. Payee does not establish a dedicated account
+If, after 30 days from the original notice explaining the requirement for a dedicated
+account, the payee has not established the account, follow instructions in “Determining
+the Need for a Successor Payee” GN 00504.100. Once the EA diary matures, the system generates an E1 alert to the FO to notify
+them that the record is still waiting for a dedicated account. The system generates
+follow-up alerts every 15 days until the EA diary is resolved.

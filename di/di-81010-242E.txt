@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 81010.242 - Unable-to-Locate (UTL) Paper Comparison Point Decision (CPD) Folder
+Effective Dates: 12/15/2023 - Present | TN 68 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010242 (fetched 2026-10-04)
+
+E. Delayed receipt of paper CPD folder
+1. If the CPD paper folder is found or later received by the FO and the initial CDR
+case is pending at DDS, OHO, or OAO, the CS must send the CPD folder to the DDS, OHO,
+or OAO where the case is pending. In such cases, the CS should:
+•
+Create a message in eView stating: The prior CPD paper folder has been located and
+is being mailed by the FO to the DDS,OHO, or OAO on MM/DD/YYYY.
+•
+Attach an SSA-408 (Route Slip) to the CPD paper folder addressed to the DDS, OHO,
+or OAO and include the following: CPD paper folder found; please associate with CDR
+sent MM/DD/YYYY.
+•
+Mail CPD paper folder to DDS, OHO, or OAO.
+2. If the CPD paper folder is found or later received by the FO and the DDS has made
+a final determination, return the folder to the DDS as it may change the determination.
+In such cases, the CS should:
+•
+Contact the DDS, DCR, or FDU before sending the medical reactivation. The DDS, DCR,
+or FDU must agree with the FO to medically reactivate the claim. See DI 81020.117.
+•
+Reactivate the closed CDR case in EDCS/eView, and add form SSA-5002 stating, "CPD
+paper folder found and CDR case previously closed. CDR case reactivated by FO on MM/DD/YYYY.
+Please review for possible reopening and close reactivated case when completed."
+•
+Transfer the CDR case in EDCS.
+•
+Attach an SSA-408 to the CPD paper folder addressed to the DDS and include the following
+remark: CPD paper folder found and CDR case previously closed. Case reactivated by
+FO on MM/DD/YYYY. Please review for possible reopening and close reactivated case
+when completed.
+•
+Mail CPD paper folder to DDS.
+The DDS should process a reactivated CDR case utilizing existing procedures and policies.
+For CDR reopening overview, see DI 28501.001. For due process for CDRs, see DI 28080.001.
+3. If the CPD paper folder is found or later received by the FO, and there is an appeal
+pending, the CS must send the CPD folder to the DDS, OHO, or OAO where the appeal
+is pending, see DI 13015.092. In such cases, the CS should:
+•
+Create a message in eView stating: "The prior CPD folder has been located and is being
+mailed by the FO to the DDS, OHO, or OAO on MM/DD/YYYY."
+•
+Attach an SSA-408 to the CPD paper folder addressed to the DDS, OHO, or OAO and include
+the following remark: "CPD paper folder found; please associate with CDR appeal sent
+on MM/DD/YYYY."
+•
+Mail CPD paper folder to DDS, OHO, or OAO.
+4. If the CPD paper folder is found or later received by the FO and OHO or OAO has
+made a final decision, return the folder to the hearing office or Appeals Council
+as it may change the decision. In such cases, the CS should:
+•
+Add form SSA-5002 in eView with a message stating, "CPD paper folder found and CDR
+decision made on MM/DD/YYYY. Hearing Office or Appeals Council must reactivate closed
+CDR case, and review for possible reopening and close reactivated case when completed."
+•
+Attach an SSA-408 to the CPD paper folder addressed to OHO or OAO and include the
+following remark: "CPD paper folder found and CDR decision made on MM/DD/YYYY. Hearing
+Office or Appeals Council must reactivate closed CDR case, and review for possible
+reopening and close reactivated case when complete."
+•
+Mail CPD paper folder to the hearing office or Appeals Council as appropriate.
+OHO and OAO should follow current reactivation procedures, and refer to their reopening
+and due process policies.

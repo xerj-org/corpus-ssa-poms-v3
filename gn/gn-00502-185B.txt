@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 00502.185 - Documenting Payee Selections/Non-Selections and Post-Entitlement Actions in eRPS
+Effective Dates: 06/16/2017 - Present | TN 71 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502185 (fetched 2026-10-04)
+
+B. Documentation procedures for processing payee selections and non-selections in eRPS
+1. Documenting the eRPS “Make Note” screen while in the application
+Document information related to the payee selection or non-selection by taking the
+following steps:
+a.
+Choose the Add Note link, per Make Note in MS 07415.002;
+b.
+From the “Note Type” drop down choose one of the following:
+•
+Bene Capability Determination (for information about documenting the beneficiary’s
+capability determination on the Bene Capability Determination Note Type, see
+GN 00502.065);
+•
+Rep Payee Applicant (criminal history, barred crime information, justification for
+payee selection/non-selection);
+•
+Rep Payee/Bene Relationship(custody); or
+•
+Other.
+c.
+Document the pertinent information in the “New Note” box; and
+d.
+Hit the “Save Note” button.
+2. Storage of information documented
+Using the Note Type options on the eRPS “Make Note” screen while in the application,
+the following happens:
+a.
+Rep Payee Applicant Note Type: eRPS saves your documentation in the notes of the Summary section of the application
+and propagates your documentation to the Rep Payee Details tab, so the determination
+is always associated with the payee’s eRPS record. You can view this information in
+the Notes section of the Application Summary page, per Application Summary in MS 009.022,
+and in the Rep Payee Details notes, per View Notes in MS 07415.003.
+b.
+Rep Payee/Bene Relationship Note Type: eRPS saves your documentation in the notes of the Summary section of the application.
+You can view documentation from the “Rep Payee/Bene Relationship” Note Type in the
+Notes section of the Application Summary page, per Application Summary in MS 07409.022,
+and on the Relationship Details notes, per View Notes in MS 07415.003.
+IMPORTANT: If the “Other” Note Type is used to document notes, the documentation will only be
+viewable in the notes of the Summary section of the application. You can view this
+information in the Notes section of the Application Summary page, per Application
+Summary in MS 07409.022.
+3. Payee applicant's suitability questioned
+Use the “Rep Payee Applicant” Note Type on the eRPS Make Note screen whenever a question
+concerning the applicant's suitability is raised but you decide to appoint the applicant
+as payee. In addition, prepare a 3-month diary using the Add New Issue screen in the
+eRPS (MS 07408.007) or other reliable source to follow-up on the payee's performance.
+4. Documenting for a Post-Entitlement (PE) action
+You must document new information that may affect the future suitability determinations
+on the Make Note screen under the Representative Payee Details Page in eRPS. Document
+new information about the payee/beneficiary relationship on the Make Note screen (MS
+07415.002) under the Relationship Details Page.

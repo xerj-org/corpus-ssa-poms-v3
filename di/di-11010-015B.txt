@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 11010.015 - Earnings Computation (EC) Earnings Record (E/R) Requests
+Effective Dates: 06/15/2015 - Present | TN 49 (08-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010015 (fetched 2026-10-04)
+
+B. Procedure--limitations and exceptions
+EC has limitations and exceptions that restrict its ability to process all claims
+to completion. However, even if it cannot process the claim to completion, use EC
+to obtain a certified E/R, used for processing an A101 or EF101- Determination of
+Award. See Earnings Computation Screens – Overview - MSOM MCSEC 001.001.
+Use the following steps:
+1.
+Attempt to obtain an E/R from EC. By attempting to adjudicate the claim using EC first,
+even when an A101 is necessary, more information propagates from the Modernized Claims
+System (MCS) claim screens to the A101 screens, and fewer entries need to be manually
+entered on the A101.
+2.
+In addition, double check the information EC provides and make sure the computation
+is correct. See Introduction to Computation of Monthly Benefits - RS 00615.001.
+3.
+If EC does not produce a record of earnings, obtain a certified E/R through the Informational
+Certified Earnings Record System (ICERS). See Informational/Certified Earnings Records
+System – Overview - MSOM ICERS 001.001 for a discussion of ICERS.
+4.
+In some cases, you may receive a certified record of earnings from EC or ICERS which
+does not contain a computation. Use the Interactive Computation Facility (ICF) in
+conjunction with the certified earnings information to produce a Primary Insurance
+Amount (PIA) computation.

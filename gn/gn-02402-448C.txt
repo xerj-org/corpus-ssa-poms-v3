@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.448 - Coding New Caledonia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/25/2023 - Present | TN 231 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402448 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in New Caledonia will have a prefix of “74” at the beginning of
+the Routing and Transit Number (RTN). The first letter of the Depositor Account Number
+(DAN) field has the letter “B” assigned for New Caledonia.

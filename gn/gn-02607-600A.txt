@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02607.600 - Developing Prisoner Update Processing System (PUPS) Records and Alerts
+Effective Dates: 05/12/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607600 (fetched 2026-10-04)
+
+A. Development requirements for PUPS alerts
+1. Field office (FO) actions
+a. PUPS information to develop and verify
+Before taking action on a PUPS record or alert, develop and verify the following as
+needed:
+•
+inmate identity per GN 02607.600B.;
+•
+confinement period per GN 02607.600C.;
+•
+conviction date for a Title II beneficiary;
+•
+representative payee status. Check the Representative Payee System (RPS) to determine
+whether the inmate serves as a representative payee. If so, investigate the continued
+suitability of the inmate serving as a payee per GN 00504.103; and
+•
+missing inmate data per GN 02607.530.
+b. Updating concurrent (Title II and Title XVI) cases
+In concurrent cases, each title will have its own pending PUPS record. Complete all
+development and update each record separately. For more information on handling concurrent
+cases, see GN 02607.780.
+c. Federal Bureau of Prison (BOP) alerts
+For unique BOP alert development requirements, see GN 02607.792.
+d. Documenting PUPS development
+Document the results of your development on the PUPS Prisoner Remarks (PRMK) screen.
+For more information on the PRMK screen, see MSOM PRISON 003.010.
+2. Payment center (PC) actions
+a. PUPS alert distribution to PCs
+PUPS distributes an inmate alert to the servicing PC when:
+•
+the Enumeration Verification System (EVS) verified the inmate’s identity;
+•
+the reporter provided confinement and conviction dates;
+•
+the inmate has been confined for at least 30 days; and
+•
+the reporter provided a facility identification (FID) code.
+For more information on how PUPS distributes alerts, see GN 02607.410C. For more information on FID codes, see MSOM PRISON 002.001.
+b. PC processing of alerts
+When there is no questionable or missing inmate information on an alert, suspend benefits
+following instructions in GN 02607.700. However, transfer the PUPS alert to the servicing FO when you find that:
+•
+the inmate’s identity is questionable;
+•
+there is missing or questionable confinement information or FID code; or
+•
+the date of confinement is 1 year or more in the past. NOTE: Verifying the confinement period of these alerts helps to eliminate erroneous suspensions
+resulting from incorrect facility reports or from old skeleton record alerts. (For
+information on skeleton records, see GN 02607.520.)
+Request the FO to develop for the questionable or missing information and to process
+the alert. Update the PRMK screen with the questionable or missing information needing
+development.
+For information on transferring PUPS PENDING records, see GN 02607.465.

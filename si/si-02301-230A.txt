@@ -1,0 +1,12 @@
+SSA Program Operations Manual System (POMS) - SI 02301.230 - Voluntary Termination (N19)
+Effective Dates: 08/30/2023 - Present | TN 78 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301230 (fetched 2026-10-04)
+
+A. Process
+FOs input N19 in the PS field on the SSR to terminate benefits at the request of a
+recipient, their legal guardian or representative payee. See SM 01305.001 and SM 01301.450
+for coding the PS field in non-MSSICS cases and MS 08125.008 for coding the Payment
+Status page for MSSICS cases.
+NOTE: N19 is an exception to systems GK processing. This means that FOs can input N19 through
+the day of the monthly recurring payment tape cutoff to stop the following month's
+benefit and have the system automatically issue the notice. See SI 02301.301 about systems processing based on certain monthly cutoff dates.

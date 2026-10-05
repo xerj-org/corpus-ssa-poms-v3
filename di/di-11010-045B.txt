@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 11010.045 - Claimant Cannot Be Contacted or Whereabouts Unknown or Claimant Does Not Wish to Pursue Title II Claim
+Effective Dates: 04/20/2026 - Present | TN 90 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010045 (fetched 2026-10-04)
+
+B. Claimant cannot be contacted or whereabouts unknown
+1. Unable to contact claimant
+When, despite all reasonable efforts, the claimant cannot be contacted, record all
+efforts to contact him/her, and evaluate the claim on the basis of evidence in the
+official folder.
+2. Claimant's whereabouts unknown
+Record all efforts to locate the claimant on a Report of Contact (RC) in the official
+folder or the RPOC screen in MCS.
+3. Processing the claim
+Forward the claim to the DDS or other appropriate component for a medical determination
+if there is medical evidence in the file. If the claim is subsequently allowed, see
+Suspension Events(SUSP) - MCS 009.016and Entitlement and Eligibility Processing -
+Overview - SM 03020.001 for instructions on field office (FO) direct input of suspension
+events. Establish a diary to control address development. Do not input RPD data in
+the Rep Payee field of Modernized Claims System (MCS) when benefits are suspended
+because the number holders (NHs) address is unknown. See Handling Unknown Address
+Claims -GN 01010.300B.1. Using these procedures allows processing through Earnings Computation (EC), the preferred
+method. If those instructions cannot be followed, process the claim by preparing an
+Automated 101 (A-101) (Determination of Award) and transfer the claim to the Program
+Service Center (PSC) so the allowance can be recorded while placing the claimant in
+suspense status. Advise the PSC via RPOC; BCRN and/or SSA-3601 (Claims Routing Form)
+to place the NH in suspense status S-6 (address unknown). See Handling Unknown Address
+Claims - GN 01010.300.
+If the claim is not sent to DDS or other appropriate component for a medical decision,
+disallow for lack of medical evidence, code 000M5 or 000M6.

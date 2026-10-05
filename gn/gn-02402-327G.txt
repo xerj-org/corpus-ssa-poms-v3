@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02402.327 - Coding Maltese Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402327 (fetched 2026-10-04)
+
+G. Example of coding Maltese direct deposit
+The customer provides us with a signup form for Malta containing the following information:
+"MT84MALT011000012345MTLCAST001S"
+•
+The first 2 characters of the IBAN are “MT”, which represents the International Organizational
+for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits. The technician should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next 4 characters represent the bank account number.
+•
+The next 5 characters represent the bank number.
+•
+The last 18 characters represent the account number.
+1. Derive the RTN
+The technician codes the information for the RTN.
+•
+Code the prefix of 71 (SSA-designated prefix for IDD).
+•
+Code the 4-digit bank code: “MALT”
+•
+Code the first 2 digits of the branch code: “01”
+•
+Code the U.S. check code (i.e., 8) (obtained from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the letter “J” for the country code
+•
+Code the last digits of the branch code: “100”
+•
+Code the first 13 digits of the 18-digit account number “0012345MTLCAS”
+3. Obtain the following information
+•
+IBAN: MT84MALT011000012345MTLCAST001S
+•
+SWIFT: Full code (example: BEPOIT21020)
+•
+RTN: 71MALT018
+•
+Checking
+•
+DAN: J1000012345MTLCAS
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 71MALT018
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: J1000012345MTLCAS
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 71MALT018
+•
+DAN- CJ1000012345MTLCAS

@@ -1,0 +1,421 @@
+SSA Program Operations Manual System (POMS) - SI 02220.020 - Cross Program Recovery (CPR) of SSI Overpayments from Monthly Title II Benefits
+Effective Dates: 01/17/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220020 (fetched 2026-10-04)
+
+D. Procedure – handling debtor requests during mandatory CPR
+1. Debtor requests rate of withholding other than 10 percent
+In the automated CPR system, the default withholding rate is 10 percent of the monthly
+benefit payable. Since the ROAR notice that informs the SSI debtor about the planned
+reduction of the Title II benefit extends the right to request a different rate of
+withholding, some debtors will contact SSA about arranging a different rate of withholding.
+The former SSI recipient may request a different rate of withholding at any time.
+Follow the guidelines in SI 02220.026 for determining the new rate of withholding and when it will begin.
+After you determine the new rate of withholding from the Title II benefit, follow
+existing instructions in MS 01106.015
+for changing the rate of withholding via the debt management system (DMS) DROA screen
+Enter a Start Date (MMYY) of the month following the month of input (e.g., if you
+input a rate change on January 15, the Start Date would be February).
+NOTE: System limitations necessitate using the DMS DROA screen for these withholding rate
+changes. FO's have been given access to this screen.
+IMPORTANT: When the withholding rate is changed via DMS, the amount reflected in the K TAC
+may not be accurate. Check ROAR to find out what the true withholding amount is.
+2. Debtor offers to repay in installments
+If the debtor offers to repay the SSI debt in installments rather than by mandatory
+CPR, tell the debtor:
+a.
+SSA will accept either a full and immediate refund of the SSI debt or a legitimate
+compromise settlement; and
+b.
+SSA will not accept repayment by installments when CPR is available; and
+c.
+CPR will continue until the SSI debt is collected or otherwise resolved.
+3. Debtor offers to repay full refund
+If the debtor offers to repay the SSI debt in full rather than continue to incur CPR,
+tell the debtor that we will accept the full refund by check, money order or credit
+card. Advise the debtor as to the current balance of the debt.
+a. FO instructions
+Handle full refunds in accordance with instructions in GN 02403.001.
+b. PC instructions
+Handle full refunds in accordance with instructions in GN 02210.214A., steps 1-3.
+IMPORTANT: Do not take any action to stop the CPR. If the debtor repays the entire debt, the
+system will reduce the debt balance to zero and automatically stop the cross program
+withholding. If the debtor fails to repay as promised, CPR will continue without interruption.
+Explain that due to the timing of the automated CPR system, the debtor's future Title
+II benefit payment may still be reduced for one more month. If an excess collection
+occurs, tell the debtor SSA will refund the excess recovery amount.
+4. Debtor offers compromise settlement
+If a debtor undergoing CPR offers a compromise settlement, consider the offer. Use
+the same guidelines that apply for overpayments being collected by intra-program withholding.
+a. FO instructions
+Follow the guidelines in SI 02220.030 and SI 02220.031 (sensitive instructions) for processing compromise offers.
+b. PC instructions
+Follow the guidelines in GN 02215.105 and GN 02215.120 for processing compromise offers.
+NOTE: See SM 01311.290 and MS
+00304.008 for systems input.
+5. Debtor involved in bankruptcy proceedings
+If a debtor undergoing CPR has a pending bankruptcy petition that names the SSI debtor
+for the Title XVI debt, stop the recovery efforts effective with the month the bankruptcy
+petition was filed (See SI 02220.040C.). Delete the K TAC (See SM 01311.261). If the debt is in RECOOP, suspend billing
+by selecting BANKRUPTCY DECISION PENDING on the Update Sequence Data (UOSD) screen
+in MSSICS (MS
+00304.006).
+a. FO instructions
+Follow the guidelines in GN 02215.190B.2.a., GN 02215.195 and SI 02220.040C.1.
+b. PC instructions
+Follow the instructions in GN 02215.195.
+If or when a dismiss
+order is received, remove the suspend billing indicator by selecting DELETE on the
+Update Sequence Data (UOSD) screen. The debt will then be put back into RECOOP and
+become eligible for selection for automated CPR. If the debt is not in RECOOP, resume
+CPR in accordance with instructions in SI 02220.020C.
+If or when a
+discharge order is received, remove the suspend billing indicator by selecting DELETE on the
+Update Sequence Data (UOSD) screen. Delete the overpayment from RECOOP. Post an uncollectable
+debt indicator (N TAC) to the SSR by selecting UNCOLLECTABLE on the Overpayment Decisions
+(UOPD) screen (See MS 00304.008). The discharge order bars the Agency from pursuing recovery of any prebankruptcy
+debt.
+6. Debtor alleges he/she does not owe the debt or owes a different amount
+The ROAR notice about the proposed CPR gives the debtor the opportunity to request
+that we review our finding and to present evidence that he/she does not owe the debt
+or owes an amount that is different than the amount stated in the notice. The evidence
+can be a cancelled check, remittance receipt from SSA, an acceptable document showing
+the debt was waived or other valid document. If the circumstances indicate that the
+debtor wants SSA to review the overpayment
+determination, rather than the
+current status
+of the debt, see SI 02220.020D.7. and SI 02220.020D.8.
+a. Debtor requests review within 30 days of ROAR notice
+If the debtor requests review within 30 days of the date of the ROAR notice, stop
+the CPR until a determination is made about the debt. Take the following actions when
+the debtor requests review within 30 days:
+•
+Accept Form 561 or equivalent when the debtor requests a review (See GN 03102.000 for Title II reconsideration instructions); and
+•
+Tell the debtor SSA will stop the CPR and refund any money that was withheld due to
+CPR on or after receipt of the signed request: and
+•
+Tell the debtor SSA will review the information in our records and any evidence submitted
+by the debtor and provide a written determination after the review; and
+•
+Stop the CPR by deleting the K TAC (Follow the instructions in SM 01311.261); and
+•
+If the debt is in RECOOP, Select OVERPAYMENT DEVELOPMENT PENDING on the Update Sequence
+Data (UOSD) screen (MS
+00304.006) in MSSICS to build a suspend billing code of E on the record (See SM 01311.421 and
+SM 01311.423).
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+Refer the information in SSA's records and any evidence submitted by the debtor to
+the appropriate employee for a determination whether the debt still exists and the
+correct amount of the debt.
+If the
+amount of the debt shown on the notice is
+correct:
+•
+Notify the debtor in writing that after review of the evidence, the amount shown on
+the notice is correct; and
+•
+Input the decision: and
+•
+Resume CPR only after 30 days (plus 5 days for mailing) have passed from the date
+of the reconsideration determination. If the debt is not under control of RECOOP,
+set it up for CPR in accordance with instructions in SI 02220.020C.; or
+•
+If the debt is in RECOOP, select DELETE on the Update Sequence Data (UOSD) screen
+(MS
+00304.006) in MSSICS to delete the suspend billing code of E from the SSR (See SM 01311.423C.).
+The automated system will set the debt up for recovery at the next monthly systems
+selection.
+If the
+debt no longer exists (e.g., was waived, repaid, discharged in
+bankruptcy):
+•
+Notify the debtor in writing that the debt no longer exists; and
+•
+Correct the systems records to show that the debt was paid in full or no longer exists.
+If
+the amount of the debt shown on the notice is incorrect:
+•
+Notify the debtor in writing of the correct amount of the debt; and
+•
+Correct the systems records to show the correct amount; and
+•
+Resume CPR only after 30 days (plus 5 days for mailing) have passed from the date
+of the reconsideration determination. If the debt is not under control of RECOOP,
+set it up for CPR in accordance with instructions in SI 02220.020C.; or
+•
+If the debt is in RECOOP, select DELETE on the Update Sequence Data (UOSD) screen
+(MS
+00304.006) in MSSICS to delete the suspend billing code of E from the SSR (See SM 01311.423C.).
+The automated system will set the debt up for recovery at the next monthly systems
+selection.
+IMPORTANT: The determination on the debtor's request for review is a reconsideration determination.
+Therefore, the notice that SSA sends to the debtor must include language explaining
+the right to a hearing before an administrative law judge.
+b. Debtor requests review within 31-60 days from ROAR notice
+If the debtor requests review after the 30-day period expires, take the following
+actions:
+•
+Accept Form 561 or equivalent when the debtor requests a review (see GN 03102.000 for reconsideration instructions); and
+•
+Tell the debtor SSA will stop the CPR and refund any money that was withheld due to
+CPR on or after receipt of the signed request; and
+•
+Tell the debtor SSA will review the information in our records and any evidence submitted
+by the debtor and provide a written determination after the review; and
+•
+Stop the CPR by deleting the K TAC (See SM 01311.261 for instructions on deleting
+the K TAC); and
+•
+If the debt is in RECOOP, select OVERPAYMENT DEVELOPMENT PENDING on the Update Sequence
+Data (UOSD) screen (MS
+00304.006) in MSSICS to build a suspend billing indicator of E. (See SM 01311.421 and SM 01311.423.);
+and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+Refer the information in SSA's records and any evidence submitted by the debtor to
+the appropriate employee to determine whether the debt still exists and the correct
+amount of the debt.
+If
+the amount of the debt shown on the notice is
+correct:
+•
+For processing instructions, see the section enTitled “If the amount of the debt shown
+on the notice is correct” in SI 02220.020D.6.a.
+If the debt no longer exists (e.g., was waived, repaid, discharged in bankruptcy):
+•
+For processing instructions, see the section enTitled “If the debt no longer exists
+(e.g., was waived, repaid, discharged in bankruptcy)” in SI 02220.020D.6.a.
+If the amount of the debt shown on the notice is incorrect:
+•
+For processing instructions, see the section enTitled “If the amount of the debt shown
+on the notice is incorrect” in SI 02220.020D.6.a.
+IMPORTANT: The determination on the debtor's request for review is a reconsideration determination.
+Therefore, the notice that SSA sends to the debtor must include language explaining
+the right to request a hearing before an administrative law judge.
+c. Debtor requests review after 60 days from the ROAR notice
+If, after 60 days, the debtor requests review because he/she alleges not owing the
+debt or alleges owing an amount that is different than the amount stated in the ROAR
+notice, develop good cause for late filing. Make a determination as to whether the
+person had good cause for late filing (See GN 03101.020). If a good cause determination can't be made right away, take the following actions
+when the debtor requests a review beyond the 60-day time limit:
+•
+Tell the debtor SSA will stop the CPR and refund any money that was withheld due to
+CPR on or after receipt of the signed request; and
+•
+Stop the CPR by deleting the K TAC per instructions in SM 01311.261; and
+•
+Select OVERPAYMENT DEVELOPMENT PENDING on the UOSD screen (MS
+00304.006) to build a suspend billing code of E on the record (See SM 01311.421 and SM 01311.423
+for more information about the suspend billing codes); and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+See SI 02220.020D.6.d. or SI 02220.020D.6.e. for further instructions once a good cause determination is made.
+d. Good cause is established
+If good cause is established according to guidelines in GN 03101.020, review the information in SSA's records and any evidence submitted by the debtor
+and determine whether the debt still exists and the correct amount of the debt.
+If the amount of the debt shown on the notice is correct:
+•
+For processing instructions, see the section enTitled “If the amount of the debt shown
+on the notice is correct” in SI 02220.020D.6.a.
+If the debt no longer exists (e.g., was waived, repaid, discharged in bankruptcy):
+•
+For processing instructions, see the section enTitled “If the debt no longer exists
+(e.g., was waived, repaid, discharged in bankruptcy)” in SI 02220.020D.6.a.
+If the amount of the debt shown on the notice is incorrect:
+•
+For processing instructions, see the section enTitled “If the amount of the debt shown
+on the notice is incorrect” in SI 02220.020D.6.a.
+IMPORTANT: The determination on the debtor's request for review is a reconsideration determination.
+Therefore, the notice that SSA sends to the debtor must include language explaining
+the right to request a hearing before an administrative law judge.
+e. Good cause is not established
+Follow the instructions in GN 03101.020 when good cause is not established. If CPR was stopped, resume CPR according to instructions
+in SI 02220.020D.7.f.
+7. Debtor requests reconsideration of the fact or amount of the original debt (the overpayment
+determination)
+Some debtors may still request reconsideration of the overpayment determination. Accept
+form SSA-561-U2 or equivalent when the debtor asks for reconsideration of the fact
+or amount of the original overpayment.
+a. Debtor requests reconsideration within the time limit
+In most cases involving CPR, the time period for requesting reconsideration has already
+expired. If, however, the debtor requests reconsideration within 60 days of the date
+of the initial overpayment notice, take the following actions:
+•
+Tell the debtor SSA will review the information in our records and any evidence submitted
+by the debtor and provide a written determination after the review; and
+•
+Stop the CPR by deleting the K TAC (Follow the instructions in SM 01311.261); and
+•
+Input the reconsideration request on the Appeal (UOAP) screen in MSSICS (See MS
+00304.010); and
+•
+Post the appeal to the APPE segment of the SSR per MS
+00302.007; and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+Adjudicate the request for reconsideration per instructions in GN 03102.000. For additional instructions on processing reconsideration approvals and denials,
+see SI 02220.020D.7.e. through SI 02220.020D.7.f.
+b. Debtor requests reconsideration beyond the time limit
+If a debtor requests reconsideration of the fact or amount of the original overpayment
+after the 60-day time limit has expired, develop good cause for late filing (See GN 03101.020). If a good cause determination cannot be made immediately, take the following actions
+when the debtor requests reconsideration beyond the time limit:
+•
+Tell the debtor SSA will stop the CPR and refund any money that was withheld due to
+CPR on or after receipt of the signed request; and
+•
+Stop the CPR by deleting the K TAC (Follow the instructions in SM 01311.261); and
+•
+Input the reconsideration request on the Appeal (UOAP) screen in MSSICS (See MS
+00304.010); and
+•
+Post the appeal to the APPE segment of the SSR per MS
+00302.007; and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request.
+•
+See SI 02220.020D.7.c. or SI 02220.020D.7.d. for further instructions once a good cause determination is made.
+c. Good cause is established
+Adjudicate the request for reconsideration per instructions in GN 03102.000. For additional instructions on processing reconsideration approvals and denials
+see SI 02220.020D.7.e. through SI 02220.020D.7.f.
+d. Good cause is not established
+Follow the instructions in GN 03101.020 when good cause is not established. If CPR was stopped, see SI 02220.020D.7.f. for instructions on resuming CPR.
+e. Reconsideration approval (initial determination revised or reversed)
+•
+Notify the debtor in writing of the correct amount of the debt (See GN 03102.425 for information about the reconsideration notice of determination); and
+•
+Correct the systems records to show the correct amount of the debt; and
+•
+Input the determination in MSSICS on the Appeal (UOAP) screen; and
+•
+Post the appeal to the APPE segment of the SSR per MS
+00302.007; and
+•
+If a new debt balance (other than zero) exists after the reconsideration approval,
+resume CPR only after 30 days (plus 5 days for mailing) have passed from the date
+of the reconsideration determination; and
+•
+If the debt is not under control of RECOOP, set it up for CPR in accordance with instructions
+in SI 02220.020C.; or
+•
+If the debt is under control of RECOOP, the automated system will set the debt up
+for recovery at the next monthly systems selection.
+f. Reconsideration denial (initial determination affirmed)
+•
+Notify the debtor in writing per instructions in GN 03102.425A.; and
+•
+Input the determination in MSSICS on the Appeal (UOAP) screen; and
+•
+Post the appeal to the APPE segment of the SSR per MS
+00302.007; and
+•
+Resume CPR only after 30 days (plus 5 days for mailing) have passed from the date
+of the reconsideration determination; and
+•
+If the debt is not under control of RECOOP, set it up for CPR in accordance with instructions
+in SI 02220.020C.; or
+•
+If the debt is under control of RECOOP, the automated system will set the debt up
+for recovery at the next monthly systems selection.
+8. Debtor requests a hearing or appeals council review on the overpayment determination
+(fact or amount of the original debt)
+•
+If the debtor requests a hearing or Appeals Council review on the fact or amount of
+the overpayment, handle the request according to instructions for SSI hearings. See
+SI 04030.000 for Administrative Law Judge hearings and SI 04040.000 for Appeals Council reviews.
+•
+In any event, do not take action to stop the CPR nor to refund
+any money already withheld from the Title II benefit as payment toward the SSI debt.
+•
+Input the hearing request on the APPEAL (UOAP) screen in MSSICS (See MS
+00304.010).
+•
+Post the appeal to the APPE segment of the SSR per MS
+00302.007.
+•
+Follow instructions in SI 02220.020D.7.e. through SI 02220.020D.7.f. for effectuating the hearing or Appeals Council decision.
+9. Debtor requests waiver
+The ROAR notice that tells the debtor about the proposed CPR explains waiver rights.
+The debtor may request waiver at any time. If a request for waiver is received, obtain
+an SSA-632-BK in accordance with current instructions in GN 02250.002.
+Advise the debtor that CPR remains in effect until SSA receives a signed SSA-632-BK
+(or its equivalent). When you receive the signed document, take the following actions:
+a. Debtor requests waiver within 30 days from ROAR notice
+•
+Tell the debtor SSA will stop the CPR and refund any money that was withheld due to
+CPR on or after receipt of the signed request; and
+•
+Stop the CPR by deleting the K TAC in accordance with instructions in SM 01311.261;
+and
+•
+Input the waiver request on the Waiver (UOWV) screen in MSSICS (See MS
+00304009; SM 01311.421 and SM 01311.423); and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+Adjudicate the waiver request per instructions in GN 02250.002.
+b. Debtor requests waiver after 30 days from ROAR notice
+•
+Tell the debtor SSA will stop CPR and refund any money that was withheld due to CPR
+on or after receipt of the signed request; and
+•
+Stop the CPR by deleting the K TAC in accordance with instructions in SM 01311.261;
+and
+•
+Input the waiver request on the Waiver (UOWV) screen in MSSICS (See MS
+00304.009; SM 01311.421 and SM 01311.423); and
+•
+Refund any money withheld due to CPR on or after receipt of the signed request; and
+•
+Adjudicate the waiver request per instructions in GN 02250.002.
+c. Waiver approval
+•
+Process a full waiver approval in accordance with instructions in SM 01311.423C.3.
+and SM 01311.423C.4.
+•
+If you waive part but not all of the overpayment, see SM 01311.423C.5. for instructions
+for screen input. See SI 02220.020D.7.f. bullets 3-5 for more instructions about resuming collection efforts via CPR for the
+amount of the overpayment not waived.
+d. Waiver denial
+•
+Follow waiver procedures in GN 02270.015B.3.c.; and
+•
+Input the waiver denial via the MSSICS Waiver (UOWV) screen; and
+•
+Resume CPR only after 30 days (plus 5 days for mailing) have passed from the date
+of the notice of waiver denial; and
+•
+If the debt is not under control of RECOOP, set it up for CPR in accordance with instructions
+in SI 02220.020C.2.; or
+•
+If the debt is under control of RECOOP, the automated system will set the debt up
+for recovery at the next monthly systems selection.
+10. Debtor alleges being member of Ellender class
+Take the following actions only when a debtor alleges being a member of the Ellender class:
+•
+Review the system records to determine if the debtor received an SSI overpayment before
+October 26, 1982; and
+•
+If yes, review the system records to determine if the debtor was receiving Title II
+benefits on October 26, 1982; and
+•
+If yes, ask the debtor if he/she lived in the State of New York on October 26, 1982;
+and
+•
+If yes, ask the debtor for proof of his/her New York State residency for the above
+period. (Acceptable proof includes, but is not limited to, New York State and local
+income tax returns, property tax bills, documents from the motor vehicle administration,
+and utility bills.)
+If the debtor meets all the criteria above, find that he/she is a member of the Ellender
+class. Take action to stop the CPR and to refund any money withheld.
+NOTE: Annotate in Remarks on the SSR and the DMS that this debtor is a member of the Ellender
+class. Also notify the Program Staff in the Regional Office so the SSN can be added
+to the list of numbers excluded by the automated selection process in RECOOP.
+If the debtor does not meet all the criteria above, find that he/she is not a member
+of the Ellender class. Explain that CPR will continue.
+IMPORTANT: The finding that a debtor does or does not meet the criteria for the Ellender class
+is not an initial determination subject to additional appeals.

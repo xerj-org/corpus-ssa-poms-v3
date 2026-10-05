@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - SI 00515.001 - Requirement for Permission to Contact Financial Institutions for Supplemental Security Income (SSI) Eligibility
+Effective Dates: 07/26/2023 - Present | TN 10 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500515001 (fetched 2026-10-04)
+
+C. Procedure for requesting financial permission
+1. Initial claims
+a. Obtain financial permission
+Take the following actions to obtain financial permission during initial claim events:
+•
+When processing a deferred or full application, request financial permission from
+all claimants and deemors during initial claims.
+•
+When processing a PERC where the claimant turns age 18 after the date of filing but
+before you adjudicate the case, collect permission from the claimant after they turns
+age 18 and indicate the date you collected the permission on the Financial Institutions
+Permission (i.e., AFIP) page.
+•
+When adjudicating a claim taken prior to November 18, 2006, do not assume financial
+permission is present in the case. Proceed to obtain permission from the claimant
+and deemor, if any.
+NOTE: The Financial Institutions Permission page became available in the SSI Claims system
+path for events opened November 18, 2006 and later.
+•
+To document financial permission when the claimant is deceased and there is an underpayment
+pending, follow instructions in SI 00603.033B.4.
+b. Do not obtain financial permission
+Do not request financial permission when processing abbreviated applications. This
+issue will not appear in the abbreviated application path in the MSSICS.
+2. Redeterminations
+You must request permission to contact financial institutions for all redeterminations
+that require contact with the recipient and where documentation of previously given
+financial permission does not exist. Obtain permission from recipients and deemors
+on high, middle, low-error profile and unscheduled redeterminations, including those
+received in the field office (FO) after transfer from the Wilkes-Barre Direct Operations
+Center (WBDOC).
+a. Procedure for redeterminations
+Assume that we received financial permission where:
+•
+the initial claim was filed November 18, 2006 or later, or
+•
+the FO completed a redetermination on November 18, 2006 or later. For a description
+of the redetermination disposition codes found in the Case Redetermination Data (CRZD)
+segment of the Supplemental Security Record (SSR), see SM 01501.002C.8. The only exception
+to this assumption is if the FO opened the completed redetermination in MSSICS prior
+to November 18, 2006. In this case, we cannot assume that we asked the financial permission
+question, because the Financial Institutions Permission page only appears in the SSI
+Claims system path for events opened November 18, 2006 and later.
+NOTE: The financial permission question is not asked in redeterminations that the WBDOC
+complete.
+b. Age 18 related diaries and redeterminations
+Request financial permission when processing redeterminations where a recipient turned
+age 18, or there is a KB diary present. During these redeterminations, collect permission
+from the recipient or legal guardian after the date the recipient turned age 18 and
+record the date you collect the permission.
+3. Limited issues
+When processing resource-related limited issues, ensure financial permission is present
+in the Financial Institutions Permission page. If the recipient turned age 18 since
+the last time we collected permission from a parent or legal guardian, collect permission
+from the recipient or legal guardian and record the date you collect the permission
+on the Financial Institutions Permission page.
+NOTE:If the Financial Institutions Permission page does not appear in the limited issue
+SSI Claim system path, and financial permission was not previously documented, obtain
+and document financial permission. To collect permission, access the Financial Institutions
+Permission page from the Person Status page or under the navigation menu under the
+General Identification tab.

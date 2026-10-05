@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 81010.100 - Electronic Disability Collect System (EDCS) Actions Page
+Effective Dates: 08/07/2025 - Present | TN 89 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010100 (fetched 2026-10-04)
+
+E. FO Action on Claims Rejected by OHO
+OHO can take an action to reject jurisdiction of a case and send it back to an FO
+through the Case Processing Management System (CPMS). This action triggers a reject
+message of Claim Rejected to FO on the EDCS Actions Page and Reject on the eView Claims
+Action History Page. In concurrent claims, when OHO finds that the claim should include
+only one program, they reject the incorrect Title II or Title XVI claim per OHOs Electronic
+Business Process.
+NOTE: FO staff do not make a determination on hearing level cases nor manually clear the
+rejected claim in concurrent claims. In concurrent claims, when OHO rejects one claim
+but keeps the other, the FO cannot manually clear the rejected claim because a manual
+clearance closes both claims rather than just the rejected claim.
+When the FO receives an AI from OHO rejecting jurisdiction of a case in a concurrent
+claim, the FO must:
+•
+Review the action item on the EDCS action page and determine why OHO rejected the
+claim;
+•
+Submit a vHelp request to allow RO staff to open a Service Now ticket to close the
+rejected claim. When Systems closes the rejected claim, its status displays as Transferred
+and a message of CO System Adjustment is on the Claims Action History Page;
+•
+If the rejected claims next level of review is reconsideration, but the claimant submitted
+a request for hearing in error, process the claim per the instructions in GN 03103.120 and SI 04030.020.

@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.348 - Coding Slovakia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402348 (fetched 2026-10-04)
+
+E. Description of Slovakia IDD bank data
+The data for coding IDD for Slovakia will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from FI. The IBAN will be 24 characters.
+However, the bank data reflected on the MBR will be comprised of 26 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.

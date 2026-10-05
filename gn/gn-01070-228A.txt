@@ -1,0 +1,222 @@
+SSA Program Operations Manual System (POMS) - GN 01070.228 - Modes of Requesting Assistance
+Effective Dates: 10/15/2018 - Present | TN 30 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201070228 (fetched 2026-10-04)
+
+A. Methods to request assistance
+There are five ways that an office can request assistance from another office. Listed
+in the order of preference, they are:
+1.
+District Office Telephone Procedure (DOTEL)—All offices may use this process.
+2.
+Processing Center Action Control System (PCACS)—This method is only for PSCs use.
+3.
+Modernized Development Worksheet (MDW)--All components may use this method.
+4.
+Electronic E562 –All offices may use this method, if the program is available within the region.
+5.
+Manager -to-Manager (M2M) web application –Managers in Field Offices, Processing Centers, and National 800 Number Network (N8NN)
+sites may use this method.
+Regardless of the means you use for a request, always provide priority handling to high priority requests.
+Note: Request assistance after the requesting office attempts to obtain the information
+by direct contact. (For instructions on use of DIRCON, see GN 01070.305).
+1. DOTEL
+DOTEL provides intercomponent telephone contact in initial entitlement and certain
+post-entitlement situations. DOTEL is the most expedient means of requesting help
+from another office. The basic feature of DOTEL is the use of the telephone to request
+assistance and the priority handling provided by the responding office. For this reason,
+we restrict the use of DOTEL. (For FO procedure on DOTEL, see GN 01070.200 and for PC procedure on DOTEL, see GN 01070.400).
+NOTE: If you do not receive the information requested, during the initial DOTEL call,
+always determine the mode of response before terminating the DOTEL call.
+2. PCACS
+For instructions on completion and use of PCACS, see MSOM PCACS 001.001.
+3. MDW
+After completing the initial call or making the initial request, establish the issue
+on the MDW screen, if it is not in use by another office. In addition to the instructions
+below, refer to the MDW guidelines found in TC 29001.030.
+a.
+Establish the type of action in the last three positions of the “UNIT” field. (Use
+the first three positions as the unit identifier for the person responsible for the
+action). For a list of MDW codes, see GN 01070.228A.3.e. in this section.
+b.
+In the “MISC” field, establish the type of request, the name, job position, PC MOD,
+or FO name and telephone number of the assisting claims authorizer (CA). Use the following
+format:
+MISC:
+“DOTEL”, ASST CA JOHN GEORGE,PC2,MOD 8,215-555-1122
+“ROUTINE”, ASST CR M JENKINS, A96 WESTMINSTER MD,410-555-3322
+c.
+Describe the required evidence or the issue to resolve in the “Issue” field. Show
+any additional data about the issue in the “Remarks” field (see MS 03901.003). Use
+the following format:
+ISSUE
+REMARKS
+POA
+Baptismal
+d.
+Show the “TICKLE” date based on the follow-up schedule in GN 01070.440 or on the mutually agreed upon date.
+e.
+The following list shows MDW unit field codes:
+Code
+Explanation
+001
+RSI APPLICATIONS
+002
+RSI NONDISABILITY DEPENDENT APPLICATIONS
+003
+DIB APPLICATIONS
+004
+DI NONDISABILITY DEPENDENT APPLICATIONS
+005
+RSDI MEDICAL CDR
+006
+RSDI WORK CDR
+007
+SSI AGED APPLICATIONS
+008
+SSI B/D APPLICATIONS
+009
+SSI REDETERMINATION (LOW & MIDDLE)
+010
+SSI REDETERMINATIONS (HIGH)
+011
+BL CLAIMS (SSA)
+012
+BL CLAIMS (DOL)
+013
+RSDHI RECONSIDERATION
+014
+SSI RECONSIDERATION
+015
+RSDHI HEARINGS
+016
+SSI HEARINGS AND APPEALS
+017
+RSDHI CLASS ACTIONS
+018
+SSI CLASS ACTIONS
+019
+SSI APPEAL EFFECTUATION
+020
+SSI ZEBLEY B/D APPLICATIONS
+021
+SSI ZEBLEY REDETERMINATION (HIGH)
+022
+SSI ZEBLEY RECONSIDERATION
+023
+SSI ZEBLEY HEARINGS & APPEALS
+024
+SSI ZEBLEY CDR
+025
+RSDI CHANGE OF PAYEE
+026
+SSI CHANGE OF PAYEE
+027
+RSDI R/P ACCOUNTING
+028
+SSI R/P ACCOUNTING
+029
+HI
+030
+SMI
+031
+RSDI PAYMENT AND CHECKS
+032
+SSI PAYMENT AND CHECKS
+033
+RSDI O/P ACTIONS/DECISIONS/COLLECTIONS
+034
+SSI O/P ACTIONS/DECISIONS/COLLECTIONS
+035
+EARNINGS DISCREPANCY
+036
+RSDI EARNINGS EFFECTUATION
+037
+STUDENT ACTIONS
+038
+SSI CHANGE OF ADDRESS
+039
+ASSISTANCE REQUEST
+040
+CLAIMS LEADS
+041
+CONGRESSIONAL INQUIRIES
+042
+ATTORNEY WORKLOADS
+098
+OTHER RSDI CHANGES
+099
+OTHER SSI CHANGES
+4. Electronic 562
+The electronic 562 is available in regions I through X and the Foreign Service Posts.
+Instructions for the completion and use of the electronic E562 are available here.
+5. Manager-to-Manager (M2M) web application
+The Manager-to-Manager web application is a two-way communication tool designed to
+provide a systematic process to address inquiries that require priority attention.  Managers in Field Offices, Processing Centers, and National 800 Number Network (N8NN)
+sites may initiate inquiries. Address all inquiries within five (5) business days.
+If you cannot complete a request within that time, provide an interim reply.
+Using Manager-to-Manager to request PC assistance
+The manager accesses the Manager-to-Manager application, located on the Management Resource Kit, based on PC jurisdiction. Within the application, each PC has its own webpage, with
+links set up according to that PC’s component protocol.
+The manager follows the directions on the appropriate webpage and completes the web
+form. Click “SEND” to forward the request directly to a mailbox monitored by the appropriate
+PC component. The manager receives an acknowledgement of receipt from this mailbox.
+a. Limiting requests from FOs to PCs
+You should limit request from FOs to PCs to high priority requests, including:
+•
+Terminal illness (TERI cases) including any allegation of diagnosis of AIDS
+•
+Homicidal, suicide, or potentially violent behavior threats
+•
+Dire need situations including eviction or homeless situations
+•
+Cases with potential adverse public relations
+•
+The third or subsequent follow-up development requests between managers as required
+by GN 01070.440
+•
+Other cases as required by POMS (e.g., Martinez cases, per GN 02613.865A.)
+b. Limiting requests from PCs to FOs
+You should limit request from PCs to FOs to priority requests, including:
+•
+Terminal illness (TERI cases) including any allegation of diagnosis of AIDS
+•
+Homicidal, suicidal, or potentially violent behavior threats
+•
+Dire need situations including eviction or homeless situations
+•
+Cases with potential adverse public relations
+•
+High priority requests, as defined in GN 01070.400B.
+•
+The third or subsequent follow-up development requests between managers, as required by GN 01070.440
+c. Limiting requests from N8NN sites to PCs or FOs
+You should limit request from N8NN sites to PCs or FOs to priority requests, including:
+•
+Terminal illness (TERI cases), including any allegation of diagnosis of AIDS
+•
+Homicidal, suicidal, or potentially violent behavior threats
+•
+Dire need situations including eviction or homeless situations
+•
+Cases with potential adverse public relations
+Note: Limiting use to the situations listed in GN 01070.228A.5.a. through GN 01070.228A.5.c. ensures that we give proper attention to these critical cases.
+d. Examples of inappropriate manager-to-manager inquiries
+Inappropriate manager-to-manger inquiries include:
+•
+Routine contacts to fix coding on the MBR, (i.e., with no critical or dire need implications)
+including Death Information Processing System (DIPS) alerts
+•
+To change address or bank data
+•
+To release retro funds on Windfall offset cases unless they involve Dire Need or Public
+Relations issues
+•
+To inquire about the status on previously submitted MDWs
+•
+To inquire about the status of inquires on pending actions
+•
+To request overpayment explanations or correction of overpayment amounts
+•
+To request technical advice
+•
+To process claims that have a future Month of Entitlement

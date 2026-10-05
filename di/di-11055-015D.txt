@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 11055.015 - Processing an SSI Initial Disability Application
+Effective Dates: 09/03/2009 - Present | TN 94 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411055015 (fetched 2026-10-04)
+
+D. Building the Supplemental Security Record (SSR)
+1. Electronic application
+MSSICS initiates a process referred to as Build Transaction SSR (BTS). The BTS process builds the application information to the SSR, producing the Supplemental
+Security Income Display (SSID) query for the SSI claim.
+Reference:
+MSOM BUSSR 001.002 Build Transaction SSR (BTS)
+2. Paper application
+When the SSI claim is an exclusion from processing in MSSICS, use Form SSA-450SI (SSI
+Data Input and Determination) to transmit the application information needed to produce
+the SSID query for the SSI claim.
+References:
+•
+SM 01005.000 Input Instructions for completing the SSA-450SI fields
+•
+SM 01010.010 Processing an Abbreviated Application Data Input Form (SSA-462)

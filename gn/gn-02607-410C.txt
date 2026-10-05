@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - GN 02607.410 - SSA’s Prisoner Systems and Matching Operation
+Effective Dates: 06/19/2015 - Present | TN 94 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607410 (fetched 2026-10-04)
+
+C. Distribution and jurisdiction of PUPS alerts
+1. PUPS record jurisdiction and alert generation
+When the matching operation creates a PUPS record, it assigns jurisdiction of the
+record to the PC or FO servicing the beneficiary's or recipient's address on the MBR
+or SSR. When receiving inmate information via electronic transmission, PUPS will generate
+a one-time alert to the servicing FO or PC. That FO or PC is responsible for working
+the alert to completion. For information on processing Title II PUPS alerts, see GN 02607.600. For information on processing Title XVI PUPS alerts, see GN 02607.705.
+When receiving inmate information non-electronically, the FO manually enters inmate
+information into PUPS and that FO retains jurisdiction of the PUPS record until it
+resolves the case or transfers the PUPS record to another FO for processing. PUPS
+does not generate an alert for an FO created PUPS record.
+For information on FO manual inmate report processing, see GN 02607.460. For information on transferring PUPS pending records from one SSA servicing office
+to another, see GN 02607.465.
+However, there is no “ownership” of a PUPS record. Any office can access the record
+and enter data. If the FO that initially entered the inmate information into PUPS
+has the information necessary to process the alert, it may resolve the case rather
+than transferring it to the servicing FO.
+2. PUPS alert distribution
+When generating alerts, PUPS distributes them to servicing FOs and PCs as follows:
+TYPE OF ALERT
+ALERT
+DISTRIBUTION
+Title II and
+•
+EVS code = V or L;
+•
+date of confinement is 04/01/00 or later;
+•
+a date of conviction is present;
+•
+Inmate Status Code is “Y”;
+•
+Facility ID code is present; and
+•
+Confinement date is at least 30 days prior to the processing date on the PUPS alert.
+PC/OCO-ODO
+Title II and
+•
+EVS code = V or L;
+•
+date of confinement and/or the date of conviction is blank or "0000;"
+•
+inmate status code is other than “Y”; and
+•
+the confinement or conviction date is less than 30 days prior to the processing date.
+FO
+Title II and
+EVS code = 2, 3, 4, A, B, E, or F.
+(All of these alerts have identity mismatches.)
+FO
+Concurrent
+All alerts distributed based on SSR mailing address only.
+FO
+Title XVI
+All alerts distributed based on SSR mailing address.
+FO
+For a description of the EVS codes, see GN 02607.975.

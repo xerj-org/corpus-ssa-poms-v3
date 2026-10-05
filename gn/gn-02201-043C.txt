@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02201.043 - Collection of Title II/Title XVI Overpayments by Federal Salary Offset (FSO)
+Effective Dates: 03/09/2016 - Present | TN 26 (09-06)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201043 (fetched 2026-10-04)
+
+C. Process – controlling FSO update actions
+SSA provides weekly automated updates to Treasury. When FSO is active, a variety of
+debt and debtor-related events requiring FSO update can occur. For example, the debtor
+can request waiver of collection, thus requiring FSO to become inactive in ECO unless
+and until SSA denies the waiver request. To the maximum extent possible, the ECO system
+automatically controls and monitors the need for FSO updates.
+The ECO system reacts to overpayment-related codes input to the MBR/ROAR, SSR and
+within ECO to determine the appropriate update action. The Collection Query that is
+attached to the MBR and SSR identifies activity and information pertaining to the
+debt and debtor. (See MSOM DMS 014.007 for a description of the Collection Query.)
+1. Inactivate FSO
+The ECO system automatically inactivates FSO when the debtor:
+•
+requests waiver;
+•
+requests reconsideration of the overpayment determination;
+•
+requests review of the debt;
+•
+alleges hardship (and development of income/expenses is necessary);
+•
+goes back into current pay;
+•
+becomes subject to mandatory cross program recovery;
+•
+files for bankruptcy or the debt is discharged in bankruptcy;
+•
+pays debt in full;
+•
+pays compromise amount;
+•
+goes back into current pay;
+•
+incurs a new debt that is in due process status;
+•
+participates in a Ticket to Work and Self-Sufficiency Program; and
+•
+becomes subject to a higher priority offset, such as child support or tax debt.
+2. Reduce FSO amount
+SSA reduces the offset amount when the debtor demonstrates hardship. The ECO system
+sends a record to BFS to annotate the lower offset amount. See GN 02201.044B.5. for information on debtor requests for hardship.

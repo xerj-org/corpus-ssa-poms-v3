@@ -1,0 +1,126 @@
+SSA Program Operations Manual System (POMS) - GN 00204.027 - Title II Application Open Because of Title XVI Filing
+Effective Dates: 07/23/2012 - Present | TN 152 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204027 (fetched 2026-10-04)
+
+B. Policy - Determining Whether The Title II was Adjudicated
+1. General Assumption
+Assume that the Title II claim was NOT adjudicated unless you have evidence to the contrary. Evidence to the contrary may
+include (but is not limited to):
+•
+a Master Beneficiary Record (MBR) indicating that a Title II claim was adjudicated
+and/or a MCS record that shows a Title II claim was filed and denied (i.e., a disallowance
+notice was issued) but was not updated to the MBR,
+•
+the notice data (NOTC) field of a SSID query where the notice history shows that either
+paragraph 1598 or 1599 was issued (see SM 01601.670 for information on the NOTC field),
+•
+a copy of a notice on the Online Notice Retrieval System (MSOM ORS 003.001-1) that
+shows either paragraph 1598 or 1599 was issued (see NL 00804.245 for paragraph 1598 language; paragraph 1599 was replaced by paragraph 1598 in January
+1991, but contained similar language),
+•
+a copy of a manual Field Office (FO) or Disability Determination Service (DDS) notice
+that includes either paragraph 1598 or 1599, or
+•
+a copy of a Title II denial notice resulting from a Title II application that was
+filed after the SSI application but the denial was never updated to the MBR.
+If you determine that a prior Title II application is no longer open based on any
+item on this list other than the first bullet, be sure to document the Modernized
+Supplemental Security Income Claims System (MSSICS) or the SSID through the Report
+of Contact page in the SSI System or the Remarks field on the SSID. Be sure to indicate
+why an open application is not being pursued to avoid duplicate development in the
+future. This is particularly important when your decision is based upon any of the
+following:
+•
+a previous Title II denial notice that is not posted to the MBR, or
+•
+an indication of paragraph 1598 or 1599 in the NOTC field of the SSID since this field
+can only house the five most recent notices sent. As a result, the entry showing paragraph
+1598 or 1599 may not be available at a later date, or
+•
+a notice stored in the Online Retrieval System (ORS), since these notices are only
+retained for 7 years.
+NOTE: It is not necessary to obtain prior files to search for any of the items listed. If
+the evidence listed (or any other evidence shows that the Title II aspects of the
+SSI application were properly adjudicated) is readily available, the evidence may
+be used to establish that the application was adjudicated. Otherwise, assume the application
+remains open.
+2. Policy - 12/1/98 to 4/17/02
+From 12/1/98 to 4/17/02, the Program Operations Manual System (POMS) permitted adjudicators
+to assume that the Title II aspects of a SSI claim were adjudicated in certain cases
+through the release of the blanket paragraph as noted in the chart below:
+SSI Conversion/Adjudication
+Assumption
+SSI conversion cases (see GN 00204.027A.2.)
+No open Title II application
+SSI adjudication 1/1/74 – 9/30/86 (see GN 00204.027A.3.)
+Open Title II application
+SSI adjudication 10/1/86 – 4/17/02
+Title II adjudicated
+The use of these developmental assumptions (which included the input of closeout indicator
+(CLST) in the case characteristics code (CG) field for the period 10/1/86-5/94) was
+effective with the 12/98 POMS release and was discontinued in 4/02 after coding problems
+on the Social Security Record (SSR) were discovered. The coding problems have not
+been fully resolved and therefore, provide misleading information in some cases.
+To determine the SSI adjudication date, adjudicators should use the date in the Initial
+Decision Date (IDD) field found in the Record Data (RCRD) segment of the SSID. If
+there is a start date record, prior records should be obtained. The date in the IDD
+field on each prior record is the adjudication date for the application to which that
+record applies. A start date record can be identified by the code **88888C in the
+IDD field.
+NOTE: A date will be generated in the Decision Reversal Date (IDDR) field found in the
+RCRD segment of the SSID when an appeal is effectuated to reverse a prior denial decision.
+However, the entry in the IDDR field cannot be used as the adjudication date.
+If the adjudication date cannot be obtained from the entry in the IDD field on the
+SSR (or from other evidence such as is shown in GN 00204.027B.1.), adjudicators must use the date of filing of the SSI application (which is readily
+available) to make an assumption as to whether Title II was adjudicated.
+See GN 00204.027B.3. before reopening any Title II determinations made from 12/1/98 through 4/17/02 where
+a prior open application may have been an issue.
+3. Reopening Title II Determinations That Did Not Consider an Open Application
+Adjudicators may encounter situations where a Title II determination made after the
+date of the SSI application did not consider an open Title II application. Before
+reopening the Title II determination to establish an earlier month of entitlement
+date based on the open application, consider whether the determination was correct
+based on the POMS instructions in place at the time it was made using the following
+bullets as a guide:
+•
+If a Title II determination was made at any time from 12/1/98 through 4/17/02 and the adjudicator assumed that
+no earlier open application existed, that determination was correct when made based
+on the POMS in place at the time (provided the earlier SSI claim was adjudicated after
+9/30/86). The determination is not subject to reopening based on error on the face
+of the evidence. Reopening may be possible based on one of the other Title II administrative finality rules. See
+GN 04001.010, GN 04010.030 and GN 04020.080 for the policy on reopening within 1 year, 4 years and unrestrictive reopening respectively.
+For example, if you receive new evidence to indicate possible entitlement at the time
+of the prior Title II determination and no more than 4 years have elapsed since the
+date of that determination, reopening may be possible per GN 04010.030. In a case involving attainment of insured status, reopening may also be possible
+per GN 04020.070.
+EXAMPLE: A claimant began receiving SSI benefits at age 20 in 6/97. Their parent died in 1/99;
+they contacted SSA in 12/00 to file for child's benefits. No redeterminations were
+conducted between 6/97 and 12/00. The FO assumed (per the POMS in place in 12/00)
+that the earlier Title II claim (based on the Title XVI application) had been adjudicated
+and awarded child's benefits back to 6/00. At the time of the Title II determination
+(12/00), the POMS said to assume the Title II aspects of the earlier SSI claim (adjudicated
+after 9/30/86) had been adjudicated. Therefore, the 12/00 determination was correct
+when made based on the POMS in place at the time and is not subject to reopening based
+on error on the face of the evidence.
+•
+Prior to 12/1/98 and again after 4/17/02, POMS said to assume the Title II aspects
+of an earlier SSI claim had not been adjudicated (regardless of when the SSI claim was adjudicated). Therefore, all
+Title II determinations made during those periods should have considered an earlier
+open application. If they did not and an open application existed, they are subject
+to reopening at any time based on error on the face of the evidence (GN 04020.080).
+Reopen the Title II determination (if possible, under the rules of administrative
+finality) if the Title II application was adjudicated incorrectly (e.g., Title II
+entitlement existed but was overlooked when the Title XVI application was processed
+or lag earnings were not considered). See GN 04001.010, GN 04010.020 and GN 04020.080 for the policy on reopening within 1 year, 4 years and unrestrictive reopening respectively.
+EXAMPLE: A claimant began receiving SSI benefits at age 20 in 6/89. Their parent died in 1/96;
+they contacted SSA in 12/97 to file for child's benefits. The FO awarded child's benefits
+retroactively to 6/97. At the time of the Title II determination (12/97), the POMS
+said to assume the Title II aspects of the earlier SSI claim had not been adjudicated (even though the process of generating an adjudicative paragraph
+by coding CLST in the CG field of the SSID was in place from 10/86-5/94). Therefore,
+unless there is evidence to show that the 6/89 Title II claim had been adjudicated
+previously, the 12/97 Title II month of entitlement (MOE) determination is subject
+to reopening and revision based on error on the face of the evidence (provided the
+requirements in GN 04020.080 are met).
+NOTE: When Title II was properly adjudicated based on the filing of the Title XVI application,
+consider whether a later Title XVI redetermination (RZ) can establish a protective
+filing date for Title II benefits. See GN 00204.015 for when a redetermination (RZ) serves as a protective filing for Title II benefits.

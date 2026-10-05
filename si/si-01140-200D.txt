@@ -1,0 +1,167 @@
+SSA Program Operations Manual System (POMS) - SI 01140.200 - Checking and Savings Accounts
+Effective Dates: 09/10/2026 - Present | TN 89 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140200 (fetched 2026-10-04)
+
+D. Procedures for initial claims and post-eligibility
+1. Informing individuals of reporting responsibilities
+Advise individuals of their reporting responsibilities as follows:
+•
+Individuals must report any bank account on which their name appears, regardless of
+any special purpose of the account or whose money is in it; and
+•
+We may use electronic account verification or other forms to obtain information from
+any bank or FI to verify the allegations when needed to determine their eligibility.
+2. Obtain the financial permission before verifying financial account balances
+Determine whether the recipient or deemor has granted SSA permission to request financial
+account balance information per SI 00515.001. Financial permission may be collected:
+•
+electronically during claim events and redeterminations;
+•
+within application forms (e.g., SSA-8000, SSA-8203); and
+•
+on the SSA-4641 (standard form).
+Once given, financial permission is recorded in the SSI claims system on the Financial
+Institutions Permission page (see MS 08108.020). For instructions on electronic financial
+institution verification, see SI 01140.206C.
+3. Account balance information
+The FI may show the opening balance for the first day of a given month or the closing
+balance for the last business day of the previous month. Accept either; the amount
+will be the same.
+4. Curtailing development of account balances
+Do not verify account balances under any of the following circumstances:
+•
+The tolerance for verifying liquid resources applies and the individual is not rebutting
+ownership of funds in a joint account. For the liquid resource tolerance, see SI 01140.010C. For joint accounts, see SI 01140.205C;
+NOTE:
+The tolerance does not apply when processing initial claim allowances.
+•
+Advance filing applies (e.g., pre-release cases, claims for youth transitioning out
+of foster care). Develop FI account balances when processing these allowances to payment
+(i.e., during the pre-effectuation review); or
+•
+The individual alleges countable resources in excess of the resource limit, and is
+ineligible for or declines conditional benefits.
+5. Documentation of FI accounts
+In addition to the account balances, document all of the following on the Financial
+Institution Accounts page:
+•
+The name and address of the FI;
+•
+The account number(s); and
+•
+The exact account designation.
+6. When we do not count early payment deposits or excludable funds in first of month
+balances
+When deductions and exclusions from an FI account balance are material to eligibility,
+the value of an FI account is the first of the month (FOM) balance less applicable
+exclusions or deductions. Development is "material to eligibility" when applying deductions
+and exclusions means the difference between eligibility and ineligibility. For example,
+applying the resource exclusion for Federal tax refunds (SI 01130.676) to an FI account is material to eligibility when the recipient’s resources exceed
+the resource limit by an amount equal to or less than the retained tax refund and
+applying the exclusion would result in the person's eligibility.
+In any month where account balances contribute to an excess resources determination,
+screen for potential deductions and exclusions. Apply them when material to eligibility.
+Review the case according to the following procedures to determine the appropriate
+FI account value.
+a. Early deposits and recurring deposits of SSI payments and Federally-administered state
+supplements
+When material to eligibility, determine whether the FOM account balance includes an
+SSI payment and any applicable federally administered State supplement. SSI payments
+may be included in the account balance due to an early deposit of a benefit payment
+(EDB) or when a normal SSI payment paid on the first of the month is made available
+early by the FI. You can find information about SSI EDBs by reviewing the list of
+EDB months found at SM 01315.005.
+NOTE:
+Even when SSA makes benefit payments on the first of the month when due, some financial
+institutions regularly make recurring benefit deposits available to the account holder
+in advance of the payment date. We count the payments as received in the month the
+payment is due, even if it is available a day or two early.
+Other evidence of EDBs or regular SSI payments being included in the FOM balance includes:
+•
+bank statement showing an early deposit; or
+•
+other FI records or evidence showing the FI's history or policy of making recurring
+deposits available early.
+For each month where FI account values contribute to an excess resource determination
+and SSI is received as an EDB or regular payment via direct deposit:
+•
+Deduct the value of the SSI payment and any Federally-administered State supplement
+from the FOM account balance using the "Excluded Amount" column on the Financial Institution
+Account page.
+•
+Select the exclusion reason “Early RSDI or SSI payment”. For more information on the
+Financial Institution Account page, see MS 08113.017.
+•
+Document the file with the allegation of the early deposit and actions taken to exclude
+the early payment from the FOM resource balance using the file documentation notes
+section on the Financial Institution Account page in the SSI Claims system or a Report
+of Contact.
+NOTE:
+While direct deposit situations are the most common application of the EDB exclusion,
+direct deposit is not a requirement to exclude early payments. For example, early
+delivery of a payment check that is held as cash or subsequently deposited into an
+account is subject to the same exclusion if the early payment amount is included in
+the FOM resource balance.
+b. Early deposit of State-administered state supplements
+Many States administer their own State supplement programs and issue recurring payments.
+In contrast to Federally-administered supplements issued by SSA, payments under State-administered
+plans are not included in monthly SSI payments. If you become aware of an early-deposited
+State-administered supplementary payment amount that is included in the FOM balance
+and is material to eligibility, take the following actions:
+•
+Ensure the State supplementary payment amount is documented on the Other State, Local,
+or Tribal Assistance page in the SSI Claims system and that any early-deposited benefit
+is shown as received in the month of normal receipt. For more information on the Other
+State, Local, or Tribal Assistance page, see MS 08114.019.
+•
+Use the 'Excluded Amount' column on the Financial Institution Account resource page
+to exclude the State-administered supplement amount from the reported FOM resource
+balance in the month of normal receipt. For exclusion reason, select "Other" from
+the drop-down list and type in "early deposit of State Supplement payment."
+•
+Document the file with the allegation of the early deposit and actions taken to exclude
+the early payment from the FOM resource balance using the file documentation notes
+section on the Financial Institution Account page in the SSI Claims system or a Report
+of Contact.
+c. Early deposit of other recurring income
+Be alert to situations in which other regular benefits or payments (e.g. Title II
+benefits, regular wages, etc.) are received outside of the month of normal receipt
+(i.e. normal receipt date falls on a weekend or holiday or an FI makes a recurring
+deposit available early). If you become aware of an early-deposited payment that is
+included in the FOM balance and is material to eligibility, take the following actions:
+•
+Develop and document the income by following the applicable policy for the income
+type.
+•
+Take action to count the income as received in the month of normal receipt.
+•
+Use the 'Excluded Amount' column on the Financial Institution Account resource page
+to deduct the payment from the FOM resource balance in the month of normal receipt.
+For Title II benefits, select the exclusion reason “Early RSDI or SSI Payment.” For
+all other income types, select "Other" from the drop-down list and type in "early
+deposit of recurring payment."
+•
+Document the file with the reason the payment was received outside the normal payment
+schedule and the actions taken to apply the exclusion using the file documentation
+notes section on the Financial Institution Account page in the SSI claim system or
+on a Report of Contact.
+For general information on when income is counted and how income and resource counting
+policies interact in early deposit situations, refer to SI 00810.030B and SI 01110.600B.3, respectively.
+d. Discovering a previously undeveloped FI account after eligibility has been established
+If you discover a previously undeveloped checking or savings account after you establish
+eligibility, develop account balances and interest for the period that a determination
+can cover under the rules of administrative finality. For more information on administrative
+finality, see SI 04070.000.
+If you suspect fraud or similar fault, see SI 04070.020.
+e. Interest payments
+When interest verification is required per SI 00830.500, develop according to the following:
+•
+For AFI verifications, select the "Interest" check box when submitting the verification
+request using the eAFI subsystem and e4641 website.
+•
+For paper SSA-4641 requests, check the box in Part Four of the SSA-4641 that reads,
+"Unless this box is checked, do not provide interest paid or credited during each
+month."
+•
+For bank statements or other FI evidence, you may need to add up the interest received
+in a given month, as many FI statement periods cover multiple months.

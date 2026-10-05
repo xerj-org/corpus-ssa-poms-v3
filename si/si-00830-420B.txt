@@ -1,0 +1,98 @@
+SSA Program Operations Manual System (POMS) - SI 00830.420 - Child Support Payments
+Effective Dates: 07/25/2016 - Present | TN 211 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830420 (fetched 2026-10-04)
+
+B. Child support on behalf of an SSI child
+1. Treatment of child support as income
+To treat child support payments made on behalf of an SSI child:
+•
+When an eligible child receives child support payments (including arrearage payments),
+the payments are unearned income to the child. For information on an SSI child, see
+SI 00501.010.
+NOTE: Child support continues to be unearned income to the child in situations where the
+child and the parent, to whom the support is paid to, no longer live in the same household.
+•
+When an absent parent makes a child support payment for an eligible child, exclude
+one-third of the amount. This exclusion does not apply when determining the income
+of ineligible children in a deeming computation.
+For information on the ineligible child allocation, see SI 01310.110D.
+To treat child-support payments made on behalf of a deceased SSI child:
+•
+Child support payments (including arrearage payments) made on behalf of a deceased
+SSI child are unearned income to the parent or other person who receives them.
+•
+The one-third child support exclusion does not apply.
+2. Food or shelter received as in-kind child support
+Exclude one-third of the amount of child support that an eligible child receives in
+the form of food or shelter from an absent parent as income. The remaining two-thirds
+are in-kind support and maintenance (ISM) subject to the presumed maximum value (PMV).
+For more information on computing ISM from outside a household, see SI 00835.350C.
+EXAMPLE: Absent parent provides ISM to child: Joe Smith's father provides all Joe’s food as part of the child support agreement.
+In November 2011, Joe's father gives food with a value of $600.
+Exclude $200 of that amount from income. The remaining $400 is subject to the 2011
+PMV, which is $224.66. Charge (the lesser of the two) $224.66 to Joe as ISM in the
+month of November.
+Any in-kind child-support payment that is not for food or shelter (e.g., for health
+insurance) is not income to the child. However, deduct court-ordered support payments
+made for any purpose (e.g., for health insurance) from the deemor's income.
+3. Child support and deeming
+a. Treatment of child support for specific deemors
+Exclude the income used by an ineligible spouse, ineligible parent, ineligible child,
+or eligible alien to make court-ordered or Title IV-D support payments. Deduct the
+court-ordered or Title IV-D support payments from the parent's income prior to deeming
+by selecting deductions on the parent’s applicable Income Selection page (e.g., Child
+Support page) and enter the amount of the support on the page. The system deducts
+the support amount from the ineligible parent’s countable income.
+For more information on excluding the income used by specific deemors to make support
+payments, see SI 01320.145.
+b. Treatment of child support when a child’s household changes
+The child may leave the home of the custodial parent, or begin living with an absent
+parent, or the absent parent may begin living in the household of the child and custodial
+parent. For purposes of deeming, change of status is effective with the month following
+the month the change occurs. For more information on deeming policies when a child’s
+household changes, see SI 01320.550.
+If the child lives in a household and receives child support payments from a parent
+in that same household, do not consider the parent absent. The support is unearned
+income (type “SS”) to the child. The one-third exclusion does not apply to these payments
+because the one-third child support exclusion only applies to payments from an absent
+parent. On the SSI Claims System Child Support page, “Court ordered-parent in household”
+and the system does not apply the one-third child support exclusion.
+EXAMPLE 1: A parent who was absent moves into household with eligible child and custodial
+parent
+A mother who was absent moves into the same household with the father and their children.
+She continues to give the father a child support payment each week as required by
+the court order.
+The payments are type “SS” unearned income to the children. The one-third exclusion
+does not apply to these payments. On the Child Support page, select “Court ordered-parent
+in household” as the “Type” of income the person receives from the drop-down list.
+Begin deeming the mother's income in the month following the month the parent and
+children begin living in the same household. Deduct the court-ordered child support
+from the mother’s income prior to deeming by selecting deductions on the mother’s
+applicable income page and enter the amount of the court-ordered child support on
+the Child Support page. The system does not include the amount of the court-ordered
+child support in the deeming computation.
+EXAMPLE 2: Child lives with both parents and father contributes to household
+Both parents and their children live in the same household. The father works and gives
+the mother a money each week to help run the household and pay for the family's needs.
+Do not charge income to the mother or children due to this exchange of money. However,
+include the support amount in the father's deemed income.
+EXAMPLE 3: Child lives with both parents and mother contributes to household
+Both parents and the child live in the same household. The mother works and uses her
+income to pay the rent, utilities, other bills, and provide for her family's other
+needs.
+The amount of money the mother spends to support her family is included in her income
+that is subject to deeming. Do not charge the mother’s contribution as support income
+to the father or child.
+4. Child support paid to the State child support enforcement agency under Title IV-D
+When a child is in the custody of the State (i.e., in foster care), and the State
+collects child support and keeps the money, the support payment from the parent is
+not income to the child. Consider the support payment a reimbursement to the State
+for the foster care payment. Also, child support collected and retained by the State,
+as reimbursement for prior Temporary Assistance for Needy Families (TANF) payments,
+is not income to the child.
+A custodial parent or other person may ask the child support enforcement agency to
+collect child support payments from the absent parent, and the child support agency
+may give the custodial parent or other person the support they collect. Treat the
+support the same as if the non-custodial parent sends the support payment directly
+to the custodial parent or other person.
+For more information on the treatment of child support as income, see SI 00830.420B.1. in this section.

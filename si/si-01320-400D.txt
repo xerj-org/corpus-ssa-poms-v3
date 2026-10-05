@@ -1,0 +1,130 @@
+SSA Program Operations Manual System (POMS) - SI 01320.400 - Deeming of Income from an Ineligible Spouse
+Effective Dates: 10/30/2009 - Present | TN 30 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501320400 (fetched 2026-10-04)
+
+D. Examples of spouse-to-spouse deeming rules
+The following examples illustrate application of the spouse-to-spouse deeming rules
+in the eligibility computation. The same rules apply in the budget month to determine
+the amount of the SSI payment. It is possible for eligibility to be based on the couple
+computation using income in the current month, while payment is determined based on
+the individual's own income received in the budget month.
+1. No deemed income after allocation
+In September 2024, Anne, an eligible individual, lives with their ineligible spouse
+and their ineligible child. Anne is eligible for SSI based on their own income. Anne's
+spouse only receives $677 unearned income per month. The ineligible child has no income
+at all. First allocate to the ineligible child $472 (the difference between the FBR
+for a couple and the FBR for an individual). Then subtract the $472 allocation from
+the ineligible spouse's $677 unearned income, leaving $205. Since the $205 remaining
+income is not more than $472, which is the difference between the FBR for a couple
+and the FBR for an individual in September, no income is deemed to Anne. Instead,
+compare only Anne's own countable income with the FBR for an eligible individual ($943
+in September 2024) to determine whether Anne is eligible. If Anne's own countable
+income is less than or equal to the FBR, Anne is eligible. To determine the amount
+of Anne's payment, determine the countable income, including any deemed income from
+the ineligible spouse in July, and subtract this income from the FBR for September.
+2. Spouse has earned and unearned income after ineligible child allocation
+In August 2024, Jack, a disabled individual, lives with their ineligible spouse and
+ineligible child. Jack and the ineligible child have no income. Jack's spouse has
+earned income of $715 a month and unearned income of $662 a month. First, allocate
+$472 to the ineligible child. Subtract the $472 allocation from the ineligible spouse's
+$662 unearned income, leaving $190 in unearned income. Since the total remaining income
+($190 unearned plus $715 earned) is more than $472, which is the difference between
+the FBR for a couple and the FBR for an individual in August, combine Jack and their
+spouse's income and compute countable income the same as for an eligible couple. Apply
+the $20 general income exclusion to the unearned income, reducing it to $170. Then
+apply the earned income exclusion ($65 plus one-half the remainder) to the ineligible
+spouse's earned income of $715, leaving $325. Combine the $170 countable unearned
+income and $325 countable earned income and compare it ($495) with the 2024 FBR for
+a couple ($1415), and determine that Jack is eligible. Since Jack is eligible, the
+amount of their payment is determined by subtracting Jack's countable income in June
+(including any deemed income from the ineligible spouse) from August's FBR for a couple.
+3. Both eligible individual and ineligible spouse have income
+In December 2024, Harold, a disabled individual, lives with their ineligible spouse,
+who earns $680 per month. Harold receives a pension (unearned income) of $395 a month.
+Since the ineligible spouse's income is greater than $472, which is the difference
+between the FBR for a couple and the FBR for an individual in December, deem all of
+the ineligible spouse's income to be available to both, and compute the combined countable
+income for the couple. Apply the $20 general income exclusion to Harold's $395 unearned
+income, leaving $375. Then apply the earned income exclusion ($65 plus one-half the
+remainder) to the ineligible spouse's $680, leaving $307.50. The total countable income
+($682.50) is less than the $1415 December FBR for a couple, so Harold is eligible
+based on deeming. Since Harold is eligible, determine the amount of their payment
+based on Harold's income (including any deemed from the ineligible spouse) in October.
+4. Spouse-to-spouse deeming and noncitizen allocation
+David is a noncitizen whose sponsor is John Clark. John Clark's spouse, Quinn, is
+an SSI recipient. The Clarks have two dependent children who are ineligible children
+for SSI purposes. The income received in December 2024 is:
+John Clark's earned income
+$1830.00
+Quinn Clark's Title II benefits
+$739.00
+David's pension
+$ 95.00
+Clarks' older child's unearned income
+$ 115.00
+First, a sponsor-to-noncitizen deeming computation is done, following procedures in
+SI 01320.950.
+Sponsor-to-Noncitizen
+Deeming
+Income of sponsor and spouse
+$2569.00
+Sponsor allocation
+$943.00
+Allocation for spouse
+$471.50
+Dependent allocation for child
+$471.50
+Dependent allocation for child
+$471.50
+Total allocation amount
+$2357.50
+-2357.50
+Deemed income
+211.50
+David's pension
++95.00
+David's unearned income
+$ 306.50
+General exclusion
+- 20.00
+David's countable income
+$ 286.50
+Next, a spouse-to-spouse deeming computation is done to determine eligibility for
+Quinn Clark.
+Spouse-to-Spouse Deeming
+As an individual, Quinn Clark's countable income of $719 ($739 - $20 general exclusion)
+is less than the 2024 individual FBR of $943. Quinn Clark is also eligible using the
+couple FBR as follows:
+John Clark's earned income
+$1830.00
+Allocation for children
+-829.00
+(2 x $472, minus $115)
+Noncitizen allocation ($472 minus $95)
+-377.00
+John Clark's remaining earned income
+$624.00
+NOTE: Because David is eligible for SSI, use the noncitizen allocation.
+Combined Incomes:
+Quinn Clark's unearned income
+$739.00
+General exclusion
+- 20.00
+Remaining unearned income
+$719.00
+John Clark's remaining earned income
+$624.00
+Earned income exclusion
+- 65.00
+Remainder
+$559.00
+½ remainder
+- 279.50
+Countable earned income
+$ 279.50
+Countable unearned income
++719.00
+Couple's CI
+$998.50
+Quinn Clark is eligible after deeming because the countable income of $998.50 in December
+2024 does not exceed the 2024 couple FBR of $1415.

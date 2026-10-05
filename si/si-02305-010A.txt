@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02305.010 - Scheduled RZs
+Effective Dates: 09/05/2019 - Present | TN 95 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305010 (fetched 2026-10-04)
+
+A. Policy
+1. Scheduling Criteria
+RZs are scheduled for recipients in current payment status and in N01 payment status
+who are 1619(b) eligible.
+Scheduled RZs are based on an error profiling system that determines the case's likelihood
+of a change in circumstance.
+RZs are required to reinstate benefits and pay any withheld benefits for class members
+in the Martinez court case settlement . (For information on Title XVI Post-2006 Martinez
+Settlement Relief Processing, see GN 02613.875). The profile code is “S” (High Error Profile) and the selection indicator in the
+case redetermination data (CRZD) field on the SSR is “J” . (For parts of the CRZD
+Segment on the SSID Record, see SM 01501.002.)
+2. Frequency
+Following is the frequency with which RZs are scheduled:
+•
+Annually if a change in circumstance is likely.
+•
+Once every 6 years if a change in circumstance is unlikely.
+NOTE: The once every 6 years RZs will not be selected in FY 2008.
+RZs are not scheduled if the recipient is in a medical institution and limited to
+a $30 payment cap, unless there is likelihood of ineligibility or erroneous payments.
+RZs are not scheduled for Title VIII, Special Veteran Benefits (SVB) cases.
+3. Medicare Part D Subsidy Redeterminations
+Instructions on the selection and processing of Medicare Part D Redeterminations are
+located in HI 03050.011.
+4. Who Conducts RZs
+Field office personnel conducts RZs.

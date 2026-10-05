@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02607.500 - Processing Claims When a Prisoner Update Processing System (PUPS) Record Exists
+Effective Dates: 04/14/2015 - Present | TN 85 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607500 (fetched 2026-10-04)
+
+C. Processing a PUPS alert for a deceased beneficiary or recipient
+When the PUPS alert date of conviction or confinement is later than the date of death,
+the PUPS record may indicate that:
+•
+another confined individual is using the deceased’s identity;
+•
+we incorrectly identified the deceased as the reported inmate; or
+•
+the beneficiary or recipient is alive and is, or was, confined in a correctional institution
+or mental health facility.
+Resolve any discrepancies between the date of conviction or confinement in PUPS and
+date of death shown on the MBR or SSR.
+1. Developing the date of conviction or confinement
+When the date of conviction or confinement is later than the date of death, develop
+as follows:
+•
+use the facility identification (FID) code in PUPS to identify the reporter;
+•
+contact the reporter to verify conviction or confinement dates and inmate identity
+(name, date of birth, sex, race and SSN) following instructions in GN 02607.600. Inquire about other dates of confinement. To verify information for the Federal
+Bureau of Prisons (RID: 3BOP) inmates, follow instructions in GN 02607.790D and SI 02310.092;
+•
+update PUPS to reflect all periods of confinement that overlap periods of Title II
+entitlement or Title XVI eligibility that we can reach under the rules of administrative
+finality. (For information on administrative finality, see GN 04001.000.)
+Periods of confinement before a Title II beneficiary’s death could affect payment
+of auxiliary benefits (e.g., adjustments may be necessary to satisfy an overpayment;
+or when the prisoner is an auxiliary, we may increase payments to other auxiliaries
+per GN 02603.040 and GN 02607.001); and
+•
+clear the PUPS record if the deceased was not the confined person. (For information
+on clearing erroneous PUPS records, see GN 02607.710.
+2. Developing the date of death
+Verify the date of death by checking for proof of death on the MBR, SSR, and the NUMIDENT.
+For information on use of the NUMIDENT, see GN 00304.100.
+If the MBR, SSR, or NUMIDENT show that we have proof of the date of death, you do
+not need further development for the date of death.
+If the MBR, SSR, or NUMIDENT does not show proof of date of death, develop the death
+report following GN 02602.050B. If the beneficiary or recipient is alive, correct the MBR, SSR, and NUMIDENT. Consider
+whether to suspend benefits based on the prisoner information before reinstating benefits.
+3. Resolving discrepancies between date of conviction or confinement and date of death
+a. Date of conviction or confinement is before the date of death
+If the deceased’s date of conviction or confinement is before the date of death and
+we have proof of the date of death, take any necessary action on the report of confinement.
+b. Date of conviction or confinement is equal to or later than the date of death
+If the deceased’s date of conviction or confinement is equal to or later than the date of death, and we have proof of the date of death, contact
+the reporter to verify the inmate’s identity as instructed in GN 02607.500C.1. in this section.

@@ -1,0 +1,168 @@
+SSA Program Operations Manual System (POMS) - GN 00502.133 - Payee Applicant is a Felon or Fugitive or Has Been Convicted of Other Criminal Act
+Effective Dates: 06/23/2017 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502133 (fetched 2026-10-04)
+
+B. Procedure for Prohibiting an Applicant from Serving as a Payee
+1. Felony under Sections 208, 811, or 1632(a)
+Sections 208, 811, or 1632(a) of the Social Security Act define and provide penalties
+for Social Security fraud. Crimes described in these sections are felonies and include:
+•
+making any false statement or representation about earnings, factors of entitlement
+to or payment of benefits and factors in determining disability;
+•
+concealing knowledge of events affecting entitlement to or payment of benefits;
+•
+misuse of benefits;
+•
+Social Security number fraud; and
+•
+violation of disclosure laws.
+When taking an application in eRPS, you will get the alert message “RP convicted under
+Sec 208/811/1632.” This remark indicates the applicant was convicted under one or
+more of these statutes. If you receive this remark, take the following actions in
+the order below:
+•
+do not collect any additional information and complete the payee application to non-select
+the payee applicant;
+•
+non-select this applicant on the Rep Payee Selection-Decision screen (MS 07412.002);
+•
+use “Other barred crime” as the reason for non-selection (MS 07412.003);
+•
+Use the Rep Payee Applicant “Note Type” on the Make Note screen to document the 208,811,
+or 1632(a) criminal information;
+•
+Check box to send non-select notice to applicant; and
+•
+find a new (more suitable) payee candidate or consider direct payment, if appropriate.
+If the applicant leaves before attesting to the application, use the Rep Payee Applicant
+“Note Type” on the Make Note screen to document the circumstances of the interview
+and your findings regarding criminal history and use “incomplete” as the non-select
+reason.
+eRPS will not allow you to select an applicant with these violations. If the applicant
+insists the information is incorrect, contact your Regional Office.
+REMEMBER: The Social Security Act prohibits anyone from serving as payee if they were ever
+convicted of a violation under section 208, 811, or 1632(a). This prohibition is permanent;
+that is, if an individual was ever convicted under one of these statutes, they are
+barred from serving as payee for life. There are no exceptions to this rule.
+2. Payee with an unsatisfied felony warrant
+If during the application process, the applicant responds that they have an unsatisfied
+felony warrant take the following action in the order below:
+•
+Determine if the warrant is for offense code 4901, 4902, or 4999;
+•
+Non-select applicants with such warrants on the Selection-Decision screen (MS 07412.002);
+•
+Use “Other barred crime” as the reason for non-selection(MS 07412.003);
+•
+Use the Rep Payee Applicant “Note Type” on the Make Note screen to document the unsatisfied
+warrant information;
+•
+Check box to send non-select notice to applicant; and
+•
+Find a suitable payee candidate or consider direct payment, if appropriate.
+If the applicant leaves before attesting to the application, use the Rep Payee Applicant
+“Note Type” on the Make Note screen to document the circumstances of the interview
+and your findings regarding criminal history and abate the application.
+If the offense is for something other than codes 4901, 4902, or 4999, you must determine
+whether this is a viable applicant, despite their criminal activity.
+If the applicant alleges misunderstanding the question or providing an incorrect response,
+update the application with the correct response (while the application is still pending).
+If the applicant states that the warrant is satisfied or if the warrant is for an
+offense other than 4901, 4902, or 4999, obtain the appropriate documentation. For
+information on proof a warrant is satisfied see GN 02613.500A.2.
+3. Representative Payee committed Representative Payee related fraud (RP committed RP
+related fraud)
+When taking an application in the eRPS, you may get an alert, “RP committed RP related
+fraud.” This remark advises you that the applicant was convicted of fraud directly
+related to their payee duties and is barred from serving as payee for life. There
+are no exceptions to this rule. Some of the crimes associated with this alert are:
+•
+misuse;
+•
+conversion of benefits;
+•
+perjury; and
+•
+theft;
+If you see this alert, take the following actions in the order below:
+•
+Non-select this applicant on the Rep Payee Selection-Decision screen (MS 07412.002);
+•
+Use “Other barred crime” as the reason for non-selection (MS 07412.003);
+•
+Check box to send non-select notice to applicant;
+•
+Use the Rep Payee Applicant “Note Type” on Make Note screen (MS 07415.002) to document
+that we bar the applicant from serving as a payee; and
+•
+Develop for a suitable payee or pay the beneficiary directly, if appropriate.
+If the applicant leaves before attesting to the application, use the Rep Payee Applicant
+“Note Type” on the Make Note screen to document the circumstances of the interview
+and your findings regarding criminal history and use “incomplete” as your non-select
+reason.
+If the applicant disagrees with the information we have related to this alert, contact
+the Regional Office (RO).
+4. Payee applicant convicted of other crimes barring them from being a payee
+If during the application process, you discover the applicant has a felony conviction
+of any of the twelve crimes described in GN 00502.133A.4 in this section, take the following steps to “non-select” the payee applicant in
+the order below:
+•
+Do not take any additional information and complete the payee application process
+(taking the application, printing the application and, having the applicant attest);
+•
+Non-select this applicant on the Selection-Decision screen, see MS 07412.002;
+•
+Select “Criminal Policy” as the non-selection reason on the Non-Select Applicant screen,
+see MS 07412.003;
+•
+Use the Rep Payee Applicant “Note Type” on the Make Note screen to document the barred
+crime information; and
+•
+Develop for a suitable payee or payee the beneficiary directly, if appropriate.
+If the applicant leaves before attesting to the application, see GN 00502.113D.1.
+The following are examples of possible situations that you may encounter. In each
+of these situations, we barred the payee applicant from serving as payee.
+•
+Example 1
+Matt comes into the local field office (FO) to become payee for their neighbor and
+friend whom they have known for over 20 years. During the application process, Matt
+answers yes to being in prison for more than one year. They also answer yes to the
+felony conviction question. You question them about the felony conviction and the
+prison time. Matt explains in 1970 they received an armed robbery conviction and served
+5 years in prison. Matt cannot serve as payee for their neighbor because they were
+convicted of one of the barred crimes in GN 00502.133A.4 in this section and does not meet one of the exceptions.
+•
+Example 2
+Jane is currently payee for two unrelated individuals. They come in the local FO to
+become payee for their aunt, who has Alzheimer’s, and now lives with them. During
+the application process, Jane answers yes to the felony conviction question. They
+explain their conviction was from committing forgery to pass a series of bad checks.
+SSA bars Jane from serving as payee for their aunt.
+Furthermore, since the field office became aware of Jane’s criminal history, the field
+office will remove them as payee for the two unrelated individuals. The field office
+will need to find a new payee or determine if the beneficiary is capable and can be
+paid directly. Jane can no longer serve as payee and cannot be selected as payee because
+they were convicted of one of the barred crimes in GN 00502.133A.4 in this section and does not meet one of the exceptions.
+•
+Example 3
+Joe is the custodial court-appointed legal guardian for their parent and currently
+serves as their parent's payee. They come in to the local field office to become payee
+for their niece, who recently moved in with them. Prior to interviewing Joe, you retrieve
+a PUPS query and discover they were in prison for 1 year from 1997 to 1998. During
+the application process, you discuss the prison history with Joe. They explain their
+conviction was from filing a fraudulent food stamps application. SSA bars Joe from
+serving as payee for their niece because they do not meet the exceptions in GN 00502.133A.4 in this section; however, they may continue to serve as payee for their parent because
+they are their custodial court appointed legal guardian which is one of the exceptions.
+•
+Example 4
+George comes in to the FO to become payee for their spouse, who recently went into
+a nursing home due to Alzheimer’s. During the eRPS application process, you conduct
+a criminal background check on George. You notice they received a sexual assault conviction
+40 years ago. You question George about their conviction and they indicate they were
+convicted of the sexual assault during their first year of college. George cannot
+serve as payee for their spouse because they was convicted of a crime listed in GN 00502.133A.4 in this section and does not meet one of the exceptions.
+5. Representatives or healthcare providers barred under section 1136
+If you receive information on a representative or healthcare provider convicted of
+any violation under Title XVIII of the United States Code contact your regional office.
+The RO should contact CO for further processing instructions.

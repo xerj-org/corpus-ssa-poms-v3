@@ -1,0 +1,102 @@
+SSA Program Operations Manual System (POMS) - DI 52150.070 - How Changes in Family Composition Affect Workers' Compensation/Public Disability Benefits (WC/PDB) Offset
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150070 (fetched 2026-10-04)
+
+D. Example
+In this situation, the 80% ACE is the applicable limit in the initial computation
+of offset. Compute 03/2007 offset as follows:
+PIA – 03/2007
+$655.40
+MAX
+$794.30
+HB2, HC1, HC2
+$ 46.30 (each)
+TFB
+$794.30
+80% ACE
+$880.00
+WC
+$593.30
+80% ACE
+$880.00
+Monthly WC
+- 593.30
+HA Payable
+$286.70
+HB2, HC2, HC1 Payable
+$ 0.00
+HB2, HC1, and HC2 are in total offset, each having offset of $46.30. A COLA is due
+12/07.
+PIA – 12/2007
+$670.40
+MAX
+$812.50
+HB2, HC1, HC2
+$ 47.30 (each)
+TFB
+$794.30
+80% ACE
+$880.00
+WC
+$593.30
+12/2007
+HA Payable
+$301.70
+HB2, HC2, HC1 Payable
+$ 1.00
+$670.40 minus $655.40 = $15.00 protected increase due HA.
+$ 47.30 minus $ 46.30 = $ 1.00 protected increase due auxiliaries.
+HA Payable
+Auxiliary Payable
+$ 286.70
+$ 0.00
++ 15.00
++ 1.00
+$ 301.70
+$ 1.00
+HC2 terminates leaving two remaining entitled auxiliaries 06/2008.
+If T2 is unable to process the termination and adjustment, a manual adjustment credit
+and award data entry (MACADE) action is required in the PC.
+Because the ACE remains the applicable limit, the maximum is payable both before and
+after the auxiliary termination and equal shares of the maximum remain payable to
+the remaining auxiliaries, so use of the expedient would be acceptable in this situation.
+The BA/BTE would redistribute the amount after offset that was payable in 05/2008
+to the remaining auxiliaries.
+$3.00 divided by 2 yields $1.50 each due HB2 and HC1 after offset effective 06/2008
+If T2 is able to process the termination action to completion, it recalculates the
+offset as follows:
+Redistribute the MAX.
+$ 794.30
+$ 812.50
+$142.10
+($ 71.00 each)
+- 655.40
+- 670.40
+- 138.90
+(- 69.40 each)
+$ 138.90
+$ 142.10
+$ 3.20
+($ 1.60 each)
+Despite the fact that there are now only two auxiliaries, only the $3.20 protected
+increase is payable to the auxiliaries.
+$3.20 divided by the 2 remaining auxiliaries yields $1.60 payable to HB2 and HC1.
+PIA – 12/2007
+$670.40
+MAX
+$812.50
+HB2, HC1
+$ 47.30 (each)
+TFB
+$794.30
+80% ACE
+$880.00
+WC
+$593.30
+06/2008
+HA Payable
+$301.70
+HB2, HC1 Payable
+$ 1.60
+Although the two methods yield results that differ by $.10, either result is acceptable
+under the equivalency rules found in RS 00601.010 - Equivalency and Tolerance Rules

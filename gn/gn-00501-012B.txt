@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - GN 00501.012 - Determining the "Rep Payee Type" of an Applicant or Payee
+Effective Dates: 07/17/2026 - Present | TN 10 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200501012 (fetched 2026-10-04)
+
+B. Identifying Rep Payee Type
+Identifying the Rep Payee Type is generally simple. However, there are uncommon situations
+where a payee that appears to be a business is actually an individual, not an organization.
+Conversely, a business with a single owner and no employees may still qualify as an
+organizational payee. The business structure of the payee determines whether it should
+be classified as an individual or organizational Rep Payee Type.
+NOTE:
+Contact the FO manager with any questions about EIN, organization name, or business
+structure, see GN 00502.118.
+1. Individual
+An individual applicant or payee is generally a person applying or serving as payee
+based on their personal relationship with the beneficiary, such as a parent, spouse,
+or child.
+Sole proprietorship, general partnership, or limited partnership: With businesses owned by individuals that are sole proprietorships, general partnerships,
+or limited partnerships, identify the payee as an individual. These business structures
+do not provide liability protection; therefore, we treat these as individuals because
+we can hold the owners personally liable for the business’s debts. Checking a state’s
+business registry can assist in determining a payee’s business structure. While we
+require all organizational payees to have an employer identification number (EIN),
+some sole proprietorships, general partnerships, and limited partnerships may also
+have EINs.
+NOTE:
+If an individual payee has a business, conduct a search in eRPS in case any erroneous
+organizational payee record of that business should be corrected. If there is a record
+of misuse by the organization, see the NOTE in GN 00604.061C.5.
+Example:
+Gardein Guardians is a small business providing guardianship services for several
+beneficiaries. The owner, Sheila Gardein is applying to be payee for the beneficiaries.
+Sheila’s previous employer, Local Legal Associates, provided funding for Gardein Guardians,
+and Sheila calls them her “silent partner,” because Local Legal Associates has no
+active role in the business operations. Gardein Guardians has two employees, and the
+guardianship paperwork shows that Gardein Guardians has an EIN. The field office (FO)
+technician asks Sheila whether the business is incorporated or registered as an LLC.
+Because Sheila never filed with the State to incorporate the business, the FO technician
+chooses the “Individual” Rep Payee Type on the eRPS application Introduction screen.
+The FO technician adds a Rep Payee Applicant note (MS 07415.002) to keep a record
+of the business name and EIN.
+2. Organization
+An organizational applicant or payee is a corporation, institution, agency, or other
+organizational entity. Applicants apply as agents, representatives, or officials of
+organizations. eRPS uses the organization’s ZIP Code plus a sequence number to create
+the Organization ID unique identifier. FO managers record and verify the organization's
+EIN in eRPS. If a payee or applicant claims the business is incorporated, but it does
+not have an EIN in the EIF (see MS 05205.004 EIF Access (AEQY)), does not appear to
+be incorporated, or has a name that does not match the EIF record, the FO manager
+requests IRS documentation or other documentation that shows the business is incorporated
+or otherwise legally registered with the State, per GN 00502.118.
+a. Entities with limited liability
+Certain business structures separate a business from the individuals who own and operate
+it. Establishing businesses in this way provides the owners with limited liability,
+i.e., the individual owners are protected from personal liability for the debts of
+the business. For corporate entities, this process is known as incorporation. For
+other entities with business structures such as limited liability companies (LLCs)
+or limited liability partnerships (LLPs), the process is simply called formation.
+FO managers code entities with limited liability as organizations in eRPS, see GN 00502.112. The EIN is the tax ID for IRS purposes and may be needed for debt collection procedures.
+These organizational payees include:
+•
+corporations (whose names often end with “Inc.,” “Corp.,” or “Ltd.”),
+•
+non-profit corporations,
+•
+religious organizations,
+•
+professional associations (whose names often end with “P.A.” or “P.C.”),
+•
+cooperatives,
+•
+limited liability companies (LLCs, including LLCs with only one business owner), and
+•
+limited liability partnerships (LLPs).
+b. Federal, State, and local government entities
+Government agencies include organizations, such as VA hospitals, departments of social
+services, and state foster care agencies.

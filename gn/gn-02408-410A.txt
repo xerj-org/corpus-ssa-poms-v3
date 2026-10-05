@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02408.410 - Recovering Electronic Funds Transfer (EFT) Payments Unable to be Reclaimed
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408410 (fetched 2026-10-04)
+
+A. Background
+Sometimes the Social Security Administration (SSA) is unable to reclaim on EFT payments
+issued to a deceased beneficiary's bank account because of the Department of the Treasury's
+(Treasury) Bureau of the Fiscal Service (BFS) reclamation processing requirements.
+For example, BFS can not process reclamations on EFT payments issued prior to October
+1, 2013 due to a limitation in Treasury's Payments, Claims, & Enhanced Reconciliation
+(PACER) system. PACER will not display payment data paid prior to January 1, 2014,
+that does not have a claim, return, or reclamation. Therefore, Treasury is unable
+to process a request for reclamation for any payment paid prior to January 1, 2014,
+if the payment has no prior claim on it.
+In addition, SSA cannot reclaim on EFT payments when we have previously processed
+a reclamation against the beneficiary's account due to system limitations. For example,
+if BFS reclaims Jane Doe's payments from January 2022 through March 2022 due to death
+and we find out Jane died in October 2021, Treasury cannot process a subsequent reclamation
+on the payments made after death in November and December 2021. When a subsequent
+reclamation action is identified, technicians should follow local processing center
+instructions.

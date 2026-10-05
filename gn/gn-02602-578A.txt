@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02602.578 - Termination of Entitlement for Title II Beneficiaries Who are Age 115 or Older
+Effective Dates: 10/28/2022 - Present | TN 95 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602578 (fetched 2026-10-04)
+
+A. Overview of the age 115 or older termination process
+Effective September 2015, the Social Security Administration (SSA) implemented an
+automated process in which the Regular Transcript Attainment and Selection Pass (RETAP)
+application selects records for which the Title II beneficiary is:
+•
+Age 115 or older;
+•
+In any current continuous suspense for seven years or more; and
+•
+Entitled on a record where there are no other beneficiaries in a non-terminated status
+younger than the age of 115.
+The Title II Redesign (T2R) system automatically selects and terminates entitlement
+to beneficiaries meeting the criteria in this section on a monthly basis using Ledger
+Account File (LAF) T9 and Reason for Suspension or Termination (RFST) of AGETRM.
+For more information on this automated process, see SM 03020.380B.
+NOTE:T2R does not issue a notice or payments for the T9 AGETRM termination action. In addition,
+T2R places Medicare for these beneficiaries in an inactive status.

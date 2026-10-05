@@ -1,0 +1,96 @@
+SSA Program Operations Manual System (POMS) - GN 02402.410 - Coding Georgia Bank Data on the Master Beneficiary Record (MBR))
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402410 (fetched 2026-10-04)
+
+F. Procedure to code Georgia bank data
+The FRBKC relies on us to provide complete bank data to ensure correct posting of
+payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us. When you establish or change IDD bank data
+in one of our systems for Georgia (e.g. Modernized Claims System (MCS), Manual Adjustment
+Credit and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+•
+account number;
+•
+account ownership;
+•
+account type;
+•
+beneficiary address; (no P.O. box address allowed)
+•
+country;
+•
+enrollment status;
+•
+first and last name of beneficiary;
+•
+payee indicator;
+•
+International Bank Account Number (IBAN);
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+·Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+•
+·Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+You must update ITS.gov with the bank account information before you process the initial
+award to ensure the beneficiary receives payment. If the complete bank account information
+is not in ITS.gov when the payment processes, the payment rejects and returns to us.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using one of our systems (e.g. Post Entitlement
+Online System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the chart in this section when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a GEL account in Georgia?
+If no, STOP.
+REASON: Beneficiaries in Georgia can only receive IDD
+payments in GEL accounts.
+4
+The RTN is 700000067 for all IDD to Georgia. It contains the:
+•
+Multi-country prefix for Georgia IDD of “70.”
+•
+U.S. check digit code for all IDD accounts in Georgia is “1” (at the end of the RTN).
+Do not obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” savings, or
+•
+“C” checking.
+If no account type, use a “C” for checking account.
+6
+Code depositor account number (DAN):
+•
+“X” for Georgia
+•
+16-digit account number
+7
+You must enter all the information on the same business day into ITS.gov as listed in GN 02402.410F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+FRBKC rejects the payment and returns it to us when we do not send all required information.

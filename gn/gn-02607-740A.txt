@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 02607.740 - PUPS Automated Processing Exclusions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607740 (fetched 2026-10-04)
+
+A. Background - identification of PUPS exclusions
+Title II has two PUPS automated processing exclusion situations that require special
+processing:
+•
+Correcting the month/year of suspension to an earlier date of suspension on the MBR
+and the corresponding PUPS record to an earlier date when there has already been a
+suspension processed for the same period of conviction/confinement with an incorrect
+suspension date and an incentive payment was paid on this PUPS record for the original suspension action;
+or
+•
+Correcting the month/year of suspension to a later date of suspension on the MBR and
+the corresponding PUPS record where there has already been a suspension processed
+for the same period of conviction/confinement with an incorrect suspension date.
+Do not use PUPS to input the suspension action for these two exclusions. Refer the
+exclusion to the PC/OCO-ODO using the 2790-FAX procedure, see GN 02607.995 for instructions on completing this form. Inputting these types of cases through
+PUPS will result in erroneous posting actions and possible improper payment of incentives.
+NOTE: For suspension purposes, the date of conviction is equal to the date of the inmate's
+conviction by a criminal court (i.e., date the court made the sentencing determination);
+a guilty plea is accepted (i.e., date the court made the sentencing determination);
+parole or probation is officially revoked (i.e., date the parole board or agency governing
+the parole or probation made their official determination); a court issues an order
+of confinement to a mental institution for an individual who has been declared not
+guilty by reason of insanity (NGRI), an individual incompetent to stand trial or an
+individual suffering from a similar mental defect; or an individual who is declared
+a sexually dangerous person (i.e., date of the official court determination to remand
+the inmate to the institution); or, the date the inmate starts physically residing
+in a correctional facility or mental institution (i.e., date of confinement on PUPS
+record) after their conviction or court ordered confinement. Choose whichever date
+is later if the dates are different when determining when to suspend the beneficiary's
+title II benefit. See GN 02613.001B.3 for the definition of the term conviction.

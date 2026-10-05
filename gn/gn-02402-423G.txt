@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.423 - Coding Marshall Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/07/2018 - Present | TN 121 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402423 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Marshall Islands
+The customer provides us with a signup form for Marshall Islands containing the account
+number: “12345678901122334455667788990.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 720000076
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Marshall Islands.
+•
+Start with the country code of “A” designated for Marshall Islands; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+a. You must obtain the following:
+•
+RTN: 720000076
+•
+Checking
+•
+DAN: A1234567890112233
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000076 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: A1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN- 720000076
+•
+DAN- CA1234567890112233

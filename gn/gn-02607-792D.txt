@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - GN 02607.792 - Processing Title II 3BOP PUPS Alerts or Records
+Effective Dates: 09/11/2014 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607792 (fetched 2026-10-04)
+
+D. Procedure Processing Development Information to Resolve Case Processing
+1. Processing Development Information
+a. Resolution of Action After Development Completed for Missing Inmate Data:
+Contact for Source of Development Request
+Response on Development Request
+Action on Development
+Beneficiary or representative payee
+Provides missing inmate information or resolves discrepancy
+Send advance notice per GN 02607.970 and suspend per GN 02607.700 - GN 02607.750.
+Third party source
+Provides inmate information or resolves discrepancy.
+Send advance notice per GN 02607.970 and suspend per GN 02607.700 GN 02607.750.
+Beneficiary or Representatives Payee
+Cannot or will not provide SSA with missing information or help to resolve discrepancy.
+See processing guide in GN 02607.792A.1. in this section for instructions.
+Third party source
+Cannot or will not provide SSA with missing information or help to resolve discrepancy
+See processing guide in GN 02607.792A.1 in this section for instructions.
+NOTE: Use the facility code, located on IRCS, to respond to inquiries about a beneficiary's/recipient's
+benefits. You may also use the name of the BOP correctional facility when preparing
+notices to the beneficiary/recipient to inform them of the reported place of incarceration.
+b. Title II Suspension Processing Guide For Missing Inmate Information--04/01/00 and
+Continuing
+If contact was made with the beneficiary, representative payee, or other third party
+as identified in GN 02607.792A.1.b in this section and they cannot supply the required missing inmate information, process
+as follows:
+INCOMING INMATE DATE
+INMATE STATUS CODE
+ACTION TO BE TAKEN ON MISSING/INCOMPLETE INMATE DATA
+Date of Conviction is blank or
+Date of Parole/Probation Revocation is Blank
+Y, S, N, P
+Deem the date of conviction to be equal to the date confinement (deemed date of conviction).
+Determine if the inmate will remain confined for more than 30 continuous days from
+the date of confinement (deemed date of conviction). If yes and more than 30 continuous
+days is not met, diary via MDW for 31 days from the date of confinement (deemed date
+of conviction).
+After diary matures, send 30-day advance notification and input suspension through
+PUPS per GN 02607.700.
+Post the deemed date of conviction to the PUPS record.
+Input the suspension effective with the date of conviction.
+Post REMARKS to the PUPS record to explain that SSA deemed the date of conviction
+for this record based on this procedural reference.
+Date of conviction is blank or all zeroes
+D, C
+Do not suspend. Close out the PUPS Alert "No Suspension Necessary." Individual has
+not been convicted of a crime.
+NOTE: BOP will send a new inmate record to SSA when the inmate has been convicted and sentenced.
+Date of conviction is valid date (i.e., MM/DD/
+YYYY)
+Y, S, N, P
+(code was already received by SSA as "D" or "C")
+Determine if more than 30 continuous days has passed from the date of conviction.
+If not, diary via MDW for 31 days from the date of conviction.
+After diary matures, send 30-day advance notification and input suspension through
+PUPS. (See GN 02607.970 for the type of advance notification to send the beneficiary. See GN 02607.972 for the exhibit notices to send the beneficiary.)
+Facility ID code is blank
+Y, S, N, D, C or P
+See GN 02607.792D.2 in this section for determining missing Facility ID codes.
+2. Determining the Missing FID code on a 3BOP Alert
+If the FID code is blank on the PUPS alert, take the following steps to locate the
+SSA 6-digit FID code to annotate to the PUPS record.
+STEPS
+ACTION
+1
+Check the PURS screen on the PUPS record to locate the 3-digit BOP Facility ID Code.
+2
+Use the internet and go to BOP's web page at http://www.bop.gov/. Scroll down until you find "Federal Bureau of Prisons Facilities." Click on this
+item.
+3
+Go through the list of BOP facilities on the internet site until you find the facility
+with the same 3-digit code on the PUPS record. Write the facility's name and address
+down for reference.
+NOTE: PUPS will display the 3-digit BOP facility code on the PURS screen for SSN you are
+working on.
+4
+Use IRCS to locate the 6-digit SSA code that corresponds to the BOP facility's name
+and address. (See MSOM PRISON 002.016 for instructions on locating FIDS and RIDS on
+IRCS.)
+Go to the QRI2 screen in IRCS to view the SSA 6-digit FID codes and the names of the
+facilities corresponding to these codes.
+NOTE: You will see most of the 3-digit BOP facility codes on the QRI2 screen before the
+name of the corresponding BOP correctional facility. This will assist you in finding
+the BOP facility more easily.
+5
+Verify that the name of the BOP facility you have located is correct by querying IRCS
+using the 6-digit SSA FID code you located from the QRI2 screen. (See MSOM PRISON
+002.016 for instructions on locating FIDS and RIDS on IRCS.)
+6
+Add the correct 6-digit SSA FID code to the PUPS record when you are updating the
+PUPS record with the suspension or other required action.
+NOTE: Do not call the Bureau of Prisons for information about their facilities or for additional
+inmate information. If you cannot locate a FID for a BOP facility, contact your Field
+Operations Prisoner Coordinator (FOPC) for assistance. See GN 02607.990 for a list
+of the FOPCs.

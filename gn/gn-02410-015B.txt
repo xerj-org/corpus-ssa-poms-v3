@@ -1,0 +1,90 @@
+SSA Program Operations Manual System (POMS) - GN 02410.015 - Voluntary Tax Withholding (VTW)
+Effective Dates: 01/15/2020 - Present | TN 47 (01-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410015 (fetched 2026-10-04)
+
+B. Policy for VTW benefit withholding
+1. Withholding from Title II monthly payment amount
+Title II beneficiaries may request SSA to withhold a percentage of their monthly payment
+amount (MPA) each month to help meet their Federal income tax liability for the current
+tax year. The MPA is the amount received after all deductions, withholding, or benefit
+offset(s).
+A request for VTW applies to both current month (CMA) and prior month accrual (PMA)
+payments of title II benefits.
+NOTE: Direct all questions regarding tax liability to the Internal Revenue Service.
+2. Eligibility for VTW
+All Title II beneficiaries may request VTW. Only the beneficiary or his or her representative
+payee can make the request for VTW. All requests for VTW must include the beneficiary's
+own social security number (BOAN).
+NOTE: The following are not subject to VTW:
+•
+Title XVI payments,
+•
+Black Lung payments,
+•
+Lump Sum Death Payments,
+•
+returned check reissuances, or
+•
+benefits due before January 1984.
+3. VTW for Railroad Retirement Board (RRB) benefits
+Beneficiaries certified by the Railroad Board (RRB) can request VTW. We can accept
+a VTW request for RRB certified cases. The RRB does not have to contact us before
+approving a request for VTW.
+NOTE: Inform beneficiaries certified by the Railroad Board that they may wish to check
+with RRB prior to electing VTW because VTW from Title II benefits can cause an overpayment
+of RRB benefits.
+4. VTW withholding rates
+Only accept a request for the current withholding rates for VTW of 0 percent, 7 percent,
+10 percent, 12 percent, or 22 percent only. The IRS sets withholding rates for VTW.
+Do not input other percentages or flat dollar amounts. For IRS Form W-4V (Voluntary Withholding Request) see GN 02410.017A.
+NOTE: Code a 0 percent withholding rate to:
+•
+permanently or temporarily stop withholding; or
+•
+elect a future withholding date.
+For VTW coding on the Voluntary Tax Withholding (VTWH) screen see Example 3 in GN 02410.017A.4. and MSOM MCS 009.012.
+5. VTW withholding amount
+The requester must state the percentage(s) he or she wants withheld for VTW.
+If requested, calculate the dollar amount a particular percentage of his benefit represents
+and round the resulting amount to the nearest dime.
+Box 6 of the SSA 1099 (Social Security Benefit Statement) and the Description of Box
+3 show the benefit amount deducted for VTW. For information on how we reflect VTW
+amount deducted on Form SSA-1099, see GN 05002.016.
+NOTE: Whenever the MPA changes, we automatically recompute the VTW.
+6. Effective date(s) for VTW requests
+a. Immediate VTW request
+For requests for an immediate VTW effective date, withhold payments effective with
+the earliest current operating month (COM) we can process the request.
+If the request specifies a past effective date, or we cannot input it due to a change
+in the COM, withhold payments effective with the next COM.
+b. Future VTW request
+If the beneficiary or his or her representative payee would like a future effective
+date, instruct them to add the requested date to item 6 of IRS Form W-4V.
+NOTE: We can input future VTW effective dates for months through December of the next calendar
+year. However, the W-4V does not have a specified place to annotate a future effective
+date.
+c. Retroactive VTW request
+Do not accept retroactive VTW effective dates.
+NOTE: The effective date relates to the COM we update the Master Beneficiary Record (MBR)
+for VTW. For example, if we post VTW for the February COM, it applies to any CMA or
+PMA issued in the February COM.
+7. Discontinuing VTW
+If the beneficiary wants to stop or suspend VTW, or elects a future withholding date,
+code a 0 percent withholding rate.
+8. Benefit termination and reentitlement
+a. Correct termination
+When benefits terminate, VTW stops. If the beneficiary later becomes reentitled, we
+require a new VTW request.
+b. Incorrect termination
+If we resume benefits after an erroneous termination, resume the VTW based on the
+existing request.
+9. Benefits suspended or deferred
+Accept a VTW request from a beneficiary in deferred status. If we cannot immediately
+honor a beneficiary's request for VTW because of deferred benefits, the system holds
+the request until we can pay benefits.
+Do not accept a VTW request from a beneficiary that is in suspense status.
+If we suspend or defer benefits after VTW begins, the system defers withholding until
+benefit payments resume.
+10. Determining overpayment when VTW applied
+If we subsequently determine an overpayment for months when VTW applied, we will include
+the money withheld in the overpayment amount. The notice explains this to the beneficiary.

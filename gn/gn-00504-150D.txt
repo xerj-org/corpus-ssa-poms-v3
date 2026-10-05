@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 00504.150 - FO Processing of S8/S08 Alerts
+Effective Dates: 02/28/2011 - Present | TN 37 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504150 (fetched 2026-10-04)
+
+D. Change in Suspense Reason
+1. Whereabouts Unknown
+If you are unable to locate the beneficiary, update the suspense reason to reflect
+the reason for non-payment.
+For title XVI cases, change the suspense reason from S08 to S06 (refer to SI 02301.201B2 and SI 02301.240).
+For title II cases involving a disability wage earner (HA) who is NOT due or overdue
+a continuing disability review (CDR) (refer to POMS DI 13015.005) and the case contains one or more auxiliaries in current pay status, change the HA’s
+LAF code to S-9 with a RFST of “MISCEL”, retroactive to the first month of suspension.
+This will require a two-step input process in the same transaction. Use the DPYE to
+reinstate (end) the S-8 period retroactive to the first month of suspension and then
+use the MISC screen (MS 00705.025) to suspend S-9 retroactive to the original date
+of suspension. Add a special message to the MBR “whereabouts unk/payee may be needed”.
+Establish a MDW to recall the case when the CDR date matures so the payment can be
+updated (to S-0 status) at that time.
+For all other title II cases involving a disabled beneficiary (due or over due for
+a CDR or no auxiliaries involved or a missing DAC), change the LAF code to S-0. Refer
+to DI 13010.160 and SM 03020.050. This will require a two-step process as part of the same transaction.
+Use the DPYE screen (MS 00705.020) to reinstate (end) the S-8 period retroactive to
+the original date of suspension (DOST). Use the CDIB screen (MS 00705.008) to suspend
+benefits S-0 retroactive to the original suspense (S-8) date.
+For all title II cases involving a non-disability beneficiary, change the LAF code
+from S-8 to S-9 RFST “WHEREU”. This will require a two- step input process in the
+same transaction. Use the DPYE screen to reinstate (end) the S-8 period effective
+with the current operating month (COM). Use the WHRU screen to input the S-9 RFST
+action effective COM (MS 00705.034)
+2. Adoption
+If your investigation reveals that the child has been adopted and the adoptive parents
+indicate they no longer want this child to receive benefits, the case should be treated
+as a waiver of benefits for title II benefits (GN 02409.001 and GN 00504.260) or a Voluntary Termination for title XVI (SI 02301.230). Both of these actions require that the parent sign a statement indicating why they
+want to do this and that they understand the consequences.  For the title II record,
+change the LAF status to S-9, RFST of “WAIVER.” Again this will take two input actions
+one to end the S-8 period (DPYE) and the second to initiate the S-9, RFST of “WAIVER”
+(MS 00705.031). For the title XVI, change the PSY code to N19 (refer to SI 02301.230).
+When the adopted parents refuse to sign a waiver, or any statements, the FO should
+document via RPOC and/or MDW and add a special message to the MBR/SSR. Leave the record
+in S-8/S-08 status and continue looking for an alternative payee.

@@ -1,0 +1,191 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+G. Procedure for Processing Center (PC) processing of the mailer
+1. Folderless processing
+The review performed in the PC is almost always a folderless process. The PC considers
+both the beneficiary's responses on the mailer, any other documents that may have
+been submitted (e.g., a medical report), the contents of the profile sheet (DI 40502.095, Exhibit 1), and any online information to determine if a CDR is appropriate.
+Rarely, it may be necessary to obtain the claim folder. In the early years of the
+CDR mailer PC review process, it was necessary to provide information to DCDRS when
+a folder review was done. It is no longer necessary to report to DCDRS when a folder review is done.
+2. Sorting actionable mailers
+Actionable mailers received from the WBDOC are sorted in anticipation of receipt of
+the decision logic alert/facsimile/profile sheet output.
+3. Receipt of the alert, mailer facsimile, and profile sheet
+For each mailer received for PC Review, an alert, a facsimile of the mailer, and a
+profile sheet are generated (see DI 40502.095, Exhibit 1).
+The facsimile of the mailer includes questions and answers and any relevant remarks of less than
+30 words or 200 characters. In many cases, you can use this facsimile in place of
+associating and reviewing the actual mailer. However, a portion of the mailers received
+at the WBDOC have lengthy relevant remarks, work information, relevant attachments,
+and/or require translation. They are identified as actionable mailers in the WBDOC.
+The WBDOC images the actionable mailers without attachments and passes them to the
+NCC. The NCC downloads the images into each PCs Paperless Processing Control system;
+the images appear as SSA455PFProngfile on the Completed side of the paperless, awaiting
+association with the electronic data file.
+The actionable mailers with attachments are boxed in special boxes and are shipped
+to the PCs in specially labeled containers. A useful facsimile cannot be generated
+for these cases. Instead, processing actionable mailers require review of the profile
+sheet and paper alert before processing.
+The profile sheet contains much of the data used by DCDRS to identify and profile the case, including
+the disabled individual's:
+•
+name,
+•
+account number,
+•
+application date,
+•
+date of entitlement,
+•
+date of onset of disability,
+•
+diagnoses codes,
+•
+impairment data,
+•
+medical diary type as calculated by DCDRS (the OD-CALC MDR: field),
+•
+profile category (Low, Medium or High),
+•
+recent earnings information, and
+•
+initial claim and prior CDR data.
+Every mailer case is classified as a High, Medium, or Low profile. The word High,
+Medium, or Low is printed on the profile sheet. An H, M, or L is also provided in
+the third field of the second scanline on the front of the mailer or the facsimile.
+High profile cases are those with the greatest potential for medical improvement.
+Low profiles are those with the least potential for medical improvement.
+4. Review of the alert
+Review the alert to determine the next action.
+a. PSC MAILER alerts
+For PSC MAILER alerts, one of seven messages is included on the PSC MAILER alert.
+The seven messages are listed in this section at DI 40502.001F.3.c.
+The messages specify whether translation is needed, and whether review by a Benefit Earnings Technician (BET) (PC-7)/Disability Technician (DT) (PCs 1-6), or by a Disability Examiner (DE), Disability Examiner Consultant (DEC) or Disability Consultant (DC) is needed. Each message also includes a recommended final action.
+In those PSCs that do not scan actionable mailers into paperless, receipt of a PSC
+MAILER alert tells the DSE/Folder Location Clerk (FLC) of the need to associate an actionable mailer with the electronically generated output
+before the next action is done. The documents are put in a holder and referred for
+review based on the specific alert message.
+Work activity is reported - The alert states that BET/DT review is needed if the response to question 1 (work
+activity) is positive or if a code of 1 (or, in certain cases, 3) was input in response
+to the Remarks and/or Attachments boxes in the ANY CODES? query.
+Translation is needed - BET/DT review is required when translation is needed. The BET/DT refers the holder
+or paperless action control record (ACR) to the appropriate translator.
+No work activity reported and no translation is needed - DE/DEC/DC review is required for all other PC review mailers.
+b. MISCELLANEOUS alerts
+For MISCELLANEOUS alerts, only one of two messages is generated. Both state that review
+by a DE/DEC/DC is needed, but differ as to the recommended action. The two messages
+are listed in this section at DI 40502.001F.3.e.
+c. The automated recommended final action
+The output alert sheet includes an automated recommended final action. It reflects
+the action the DCDRS decision logic would have made (to defer and rediary, or refer
+the case for a CDR) without consideration of relevant remarks on the form or relevant
+information submitted as attachments to the form.
+NOTE: Review of the mailer, remarks on the form, and any attachments, and/or information
+obtained from other sources (e.g., the DCF) may warrant an action different from the
+automated recommended final action. The recommended automated decision is provided
+as a guide but is not binding on the PC reviewer.
+5. PC review decision making
+Following translation, cases with reports of work and earnings are referred to the
+BET/DT for resolution (see DI 40502.001I.2.c.). Most of these mailers, and all other mailers not requiring BET/DT review, are referred
+to a DE/DEC/DC, who conducts a review of the responses to the six questions, any remarks,
+and attachments.
+Use the following information to determine whether to refer the case for a full medical
+CDR:
+•
+the beneficiary's responses and the documentation that may be submitted with the mailer;
+•
+online data (e.g., a DCF query response, MBR query response, Supplemental Security
+Record (SSR) query responses, Summary Earnings Query (SEQY) and Detailed Earnings Query (DEQY) response), and
+•
+the information contained on the profile sheet.
+If you make a DO CDR action, refer the case to the FO to notify the beneficiary and
+the representative payee, if any, that a CDR is being initiated.
+After the review is completed, update the Disability Control File (DCF) to reflect the result of the review.
+If a full medical CDR is deferred, input of the deferral action causes an automated
+notice to be generated and mailed to the beneficiary (or representative payee) and
+the case is rediaried for later review (see DI 40502.001J.3. in this section).
+Use the medical diary reason (MDR/MR) at the time of selection to reset the medical reexamination diary date. The MDR/MR
+is an alpha for MIE diary types, 3 for MIP diaries, 5 or 7 for MINE diaries. It is
+usually provided in field 1 of scanline 2 on the front of the mailer or the facsimile,
+and is also on the profile sheet in the OD-CALC MDR: field.
+If no code is provided in the scanline or on the profile sheet, query the DCF and
+use the MEDICAL RE-EXAM REASON provided on the most current QMID screen.
+For Title XVI cases, if no information is posted to the most recent QMID screen, querying
+the MG segment of the SSR may provide a diary reason.
+NOTE:
+If no code is provided anywhere, use the default MDR/MR value of 3.
+a. DO CDR/Full Medical CDR referral action
+In Title II cases, if a full medical CDR is needed, update the mailer in DCF to DO
+CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+In Title XVI cases, if a full medical CDR is needed, update the mailer in DCF to DO
+CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+b. FO action upon receipt of the DO CDR referral
+Upon receipt of the claims folder, examine the folder to determine if it should be
+discontinued under the screen out criteria provided in DI 13005.020.
+If it is not screened out/discontinued, determine if it can be processed under the
+MINE or MINE-equivalent procedures, see DI 13005.022.
+If it can be processed under the MINE or MINE-equivalent procedures, refer it to the
+servicing DDS for processing under DI 28040.000.
+If it cannot be processed under the MINE or MINE-equivalent procedures, notify the
+beneficiary and representative payee, if any, that a CDR is being initiated and conduct
+a CDR interview.
+6. DCF input for processed mailers
+When a mailer is sent, the DCF is annotated with a 001 EVENT. The QCDR screen of the
+DCF shows a date followed by T2 INITIAL MAILER SENT, T2/16 INITIAL MAILER SENT, or
+T16 INITIAL MAILER SENT in the EVENT column.
+When the next mailer selection is done (currently, every four months for Title II-only
+and concurrent Title II/Title XVI cases, and every six months for Title XVI-only cases),
+any case with 001/T16 INITIAL MAILER SENT as the most recent event, and that event
+is more than 90 days old, is selected to receive a second-request mailer. When selected
+for a second-request mailer, a date and an event of T2 SECOND MAILER SENT, T2/16 SECOND
+MAILER SENT, orT16 SECOND MAILER SENT is posted to the DCF QCDR screen. At the same
+selection, cases with the most recent posted event of SECOND MAILER SENT, and that
+event that is more than 150 days old, are alerted as nonresponders and an event code
+of T2 NONRESPONDER REVIEW, T2/16 NONRESPONDER REVIEW, orT16 NONRESPONDER REVIEW is
+posted to the DCF QCDR screen.
+When a case is pending PC Review, an event of T2 PC MAILER REVIEW, or T2/16 PC MAILER
+REVIEW, orT16 PC MAILER REVIEW is posted to the DCF.
+Periodically, if the PC MAILER REVIEW is not cleared, the system generates and posts
+a T2 PC MAILER FOLLOW-UP, or T2/16 PC MAILER FOLLOW-UP, or T16 PC REVIEW FOLLOW-UP
+alert event.
+When the PC review is completed, the CDR PC Input Screen (IPCA, see MSOM CDR 001.005)
+in the DCF is selected and one of the following event types is selected:
+IPCA SCREEN EVENT TYPE
+FULL CDR NEEDED
+RESPONSE TO VR INQUIRY?
+2 = INITIATE CDR
+Yes
+No/No Response
+3 = INITIATE CDR-VR REQUESTED
+Yes
+Yes
+4 = DEFER CDR
+No
+No/No Response
+5 = DEFER CDR-VR REQUESTED
+No
+Yes
+7. Integrity sampling and flipped cases
+Each year, a small, but statistically sufficient, random sample of cases that have
+been reviewed by the PC are selected for integrity sampling. Regardless of the action
+decided and input by the PC reviewer, the case is referred to the FO for a full medical
+CDR.
+Integrity sampling is controlled on the DCF. It occurs after the PC reviewer makes
+a deferral or DO CDR input, and, when necessary, inputs a subsequent DO CDR action
+and alerts the case to the FO for a CDR. As a result, the flip process is essentially
+invisible to the PC reviewer.
+Integrity sampling is done to provide real world outcomes that allow the Agency to
+monitor the accuracy of the statistical analyses (profiling) that identify which cases
+are appropriate for CDR mailer processing. The integrity sample is not intended, and
+is too small, to measure the accuracy of an individual PC reviewer's decision-making.
+Because of the small size of the integrity sample, and because integrity sampling
+is essential to permit accurate auditing of the mailer process, it is critical that
+no one with access to the DCF take any action to change a flipped case back to a deferral.
+8. PCACS/SSICCS Input
+Update PCACS to show folder movement and clear any mailer action control record for
+Title II cases. In the unusual Title XVI case in which the claims folder has been
+obtained, input an NDDSQ SSA-4648 to reflect referral of the claims folder to the
+field office or storage site.

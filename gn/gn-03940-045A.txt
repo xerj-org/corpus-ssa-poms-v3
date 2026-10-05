@@ -1,0 +1,72 @@
+SSA Program Operations Manual System (POMS) - GN 03940.045 - Title XVI — Field Office Processing of Fee Agreements — General
+Effective Dates: 03/21/2023 - Present | TN 50 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940045 (fetched 2026-10-04)
+
+A. Favorable Decision(s) — Systems Controls
+1. Title XVI Only – Claims Specialist (CS) Actions
+In Title XVI only claims, after completing the procedures described in GN 03940.010, take the following actions:
+a.
+Ensure that the representative data is correctly posted in the Registration, Appointment,
+and Services for Representatives (RASR) application and to the UATH (see MS 00302.013)
+screen and the UFEE screen (see MS 00302.014).
+NOTE: If there is more than one representative, code the "Multiple Authorized Representatives"
+field on the UFEE screen "Y." See MS 00302.014
+b.
+Check RASR to determine if a representative has not waived their fee and is eligible
+for direct payment of the fee (see GN 03920.016. Refer to GN 03920.018 for specific policy on direct payment to non-attorney representatives). For non-attorney
+representatives, if not previously recorded, record the following based on the type
+of case being processed on the Development Worksheet or MDW screen:
+ISSUE — EDPNA (stands for "eligible for direct payment non-attorney")
+REC — Input date of verification
+REMARKS — Based on information on the list, type "Elgble for Direct Pymnt" (or "EDP"),
+"Not elgble for direct pymnt" (or "NEDP"), or "Not on list."
+If a representative has validly assigned direct payment of their authorized fee to
+an entity as per GN 03920.021, determine if that entity is eligible to receive direct payment of fees by querying
+RASR to ensure that the entity has registered and not been placed on the Ineligible
+for Direct Payment Entity list.
+c.
+If the non-attorney stated they are eligible for direct payment, but they are not,
+advise the representative that we cannot make direct payment. Model language to include
+in the fee notice follows:
+You advised your client, (Beneficiary's name), and indicated on the signed Form SSA-1696
+(Claimant's Appointment of a Representative) [or written notice of appointment (only
+for appointments established before December 9, 2024, see GN 03910.040A.2. NOTE)] that you are eligible for direct payment. Under Titles II and XVI of the Social
+Security Act, certain non-attorney representatives have the option to have their authorized
+representatives' fees withheld and paid directly from a claimant's past-due benefits.
+However, [Select the appropriate conclusion]
+•
+you do not meet all the qualifications to be eligible for direct payment,
+•
+you did not meet all the qualifications to be eligible for direct payment until after
+we effectuated the favorable decision on your client's claim, or
+•
+you failed to maintain your eligibility for direct payment.
+Accordingly, we will not pay any authorized fee directly to you. You must look to
+the claimant for payment of the fee authorized in this case.
+Refer to GN 03920.018E.2. for possible referral to the Office of the General Counsel.
+d.
+Ensure that the fee agreement is associated with the claim(s) file.
+2. Concurrent Title II and Title XVI
+a. Title II CS Actions
+•
+Complete the procedures in GN 03940.010.
+•
+Provide a copy of the fee agreement to the Title XVI CS.
+b. Title XVI CS Actions on All Concurrent Cases
+•
+Ensure that the representative data has been correctly posted in RASR as well as the
+UATH screen and the UFEE screen. The representative's status on the UATH screen and
+on the UFEE screen should correspond to the status recorded on the Title II system
+and RASR.
+•
+If RASR reflected that a representative was not eligible for direct payment, we did
+not pay the Title II portion of the fee to the representative. If you determine that
+the representative was eligible for direct payment when the decision was effectuated
+and did not waive their fee on the Title II claim, pay the representative, or the
+entity, if there is a valid assignment of direct payment, directly from the Title
+XVI past-due benefits and notify the Title II CR to follow the failure to withhold procedures
+in GN 03920.055.
+NOTE: When the non-attorney representative is eligible for direct payment, the NOT2 screen
+will show “Eligible for Direct Pay Non-Attorney (MS 03509.009).”
+•
+Associate the fee agreement with the claims(s) file.

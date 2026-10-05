@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - GN 03930.066 - Title II - Fee Petitions – Processing the Assessment
+Effective Dates: 12/09/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930066 (fetched 2026-10-04)
+
+F. Procedure – PC Actions
+The BA, BTE, PETE, or fee reviewer, or other designated PC position certifies direct
+payment to the representative, or entity if there is a valid assignment per GN 03920.021, after we authorize a fee for administrative-level services based on a fee petition,
+or to the court attorney after the court authorizes a fee. In addition to following
+the procedures in GN 03930.060, the BA, BTE, or PETE must ensure that we collect the correct assessment amount and
+provide notice.
+As explained in GN 03930.066D, some situations require manual input to override the SPS automated assessment calculation
+and deduction.
+1. Notices
+SPS calculates and deducts the assessment correctly in fee petition or court authorized
+fee cases when:
+There is one representative and one fee payment.
+There are multiple representatives, including those who assigned direct payment of
+their administrative fee, and we authorized each the same fee amount.
+In these situations, as the PC technician, you must:
+•
+Identify the appropriate assessment paragraph to be included in the fee payment notice
+that goes to the claimant and the representative or court attorney (refer to the notice
+chart in GN 03920.019K.); and
+•
+Provide the variable fill-in information.
+2. Override SPS Assessment Calculation
+For more information to determine when you must override the automated assessment
+calculation and deduction, refer to GN 03930.066D.
+To override the SPS-calculated assessment, take the following MADCAP/SPS Online (manual)
+actions:
+•
+Refer to the SPS or PHUS query, as necessary, to determine whether there has been
+a previous assessment.
+•
+Manually calculate the correct assessment.
+•
+For MADCAP actions ONLY, input code “03” (standard assessment does not apply) in the
+MACADE Attorney Payment Indicator field on the ATT screen to put a hold on the fee
+payment (see SM 00842.016).
+•
+The next day, access the SPS Payment Transaction Menu (SPPT) and in the Choose Option
+field, select 2 – update, to update a previously established representative fee record
+in payment held status. (This takes you to the Attorney Fee Payment (APAY) screen.)
+•
+On the APAY screen, if multiple representatives are involved, enter the number of
+representatives; the “Number of Attorneys on the SSN” field will not be pre-filled.
+(The completed APAY screen leads to the Payment Action (PACT) screen.)
+•
+On the PACT screen, override the calculated assessment in the “User Fee” field (9-M)
+with the manually calculated assessment; select Payment Action 1, Issue Check.
+•
+Return to SPPT screen. The SPPT screen appearance indicates that the fee will be paid
+that evening.
+Refer to MS 05701.001 and SM 00834.000 for guidance on using SPS.
+If you have prorated and reduced the assessment deducted from a previously paid fee
+because you are paying an additional fee to another representative or entity with
+a valid assignment after an authorization based on a fee petition or to a court attorney
+after a court award, take the following additional actions:
+•
+Authorize a check or EFT in the amount of the assessment reduction to be issued to
+the representative who received the previous fee payment or authorize an EFT in the
+amount of the assessment reduction to be issued to the entity with a valid assignment.
+•
+Update PHUS to correct the assessment for the previous payment.
+•
+Send an explanatory notice to the representative who received the previous payment.
+Refer to GN 03930.066D.2.b. for sample language.

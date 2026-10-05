@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 11015.025 - Field Office (FO) Action on a Disabled Widow(er)’s Benefit (DWB) Claim after Disability Determination Service (DDS) Completion
+Effective Dates: 05/04/2011 - Present | TN 35 (08-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015025 (fetched 2026-10-04)
+
+A. Processing an allowance
+1. Determine applicability of SSI/SSP credit toward the waiting period
+If a disabled widow(er) beneficiary is currently eligible for, or previously received
+Supplemental Security Income (SSI) or federally administered State Supplemental Payments
+(SSP), you may credit each month in that period toward the 5-month waiting period
+for cash benefits as well as the 24-month Medicare qualifying period.
+Reference:
+DI 11015.020 – Crediting Months of SSI/SSP toward the Disability Waiting Period and Medicare Qualifying
+Period for Disabled Widow(er)’s Benefits (DWB)
+2. Adjudicate the claim
+DWB cases are district office final authorization (DOFA) cases, unless excluded under
+normal exceptions. You cannot use a non-medical completion input to process DWB's.
+a. Modernized Claim System (MCS) Earnings Computation (EC)
+Always attempt to process the claim via MCS EC first.
+NOTE: Do not change the established onset date solely to permit MCS processing
+b. Automated 101 (A101)
+If the case is an allowance for monthly benefits and cannot be processed via MCS EC,
+prepare an A101.
+NOTE: If there are SSI/SSP months credited toward the waiting period, include the remark
+“SSI/SSP months for DWB, see RPOC in MCS” on the BCRN screen of the A101.
+c. Electronic Form 101 (EF101)
+If you do not use MCS for the award, or when processing an amended award, use the
+EF101.
+NOTE: If there are SSI/SSP months credited toward the waiting period, include the information
+on the EFBCRN screen of the EF101, as instructed in DI 11015.020B.5.

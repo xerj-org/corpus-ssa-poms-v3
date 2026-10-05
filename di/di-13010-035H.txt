@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 13010.035 - The Trial Work Period (TWP)
+Effective Dates: 03/09/2016 - Present | TN 66 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010035 (fetched 2026-10-04)
+
+H. TWP in simultaneous entitlement to DIB, DWB, or CDB benefits
+A beneficiary is entitled to one TWP during a period of entitlement. When a beneficiary
+is simultaneously entitled to two or more Title II disability benefits, they are entitled
+to a separate TWP on each entitlement. If we credit TWP service months on one record
+before the claimant became entitled on another record, the TWP months cannot be charged
+to the subsequent record.
+Consequently, the beneficiary could be in a separate work incentive status (e.g.,
+a TWP on one record and Extended Period of Eligibility (EPE) on another) if the entitlement
+dates differ, and they worked between entitlement dates; or, we could find different
+total service months used on different entitlements.
+Example: A disabled beneficiary is a parent with child in care (BIC E), and has Medicare (they
+are disabled and over 50, but has a child in their care). They work and use TWP or
+EPE months. When their youngest child is no longer eligible for benefits, we convert
+them to a higher benefit payment (from BIC E to BIC W - disabled widow). Consider
+this transition as one period of disability based on their entitlement as an E who
+is deemed disabled for Medicare DI 25501.360. TWP or EPE months from their E entitlement apply when they are converted to W DI 13010.035H.
+The Disability Control File (DCF) presents summary information for dual-entitlement
+claims, and claims with multiple TWPs. Find the summary information for a particular
+claim on the Entitlement Summary (ESUM) Screen (see MSOM CDR 002.006). Use eWork on
+all entitlements; the eWork system propagates the earnings information onto the VERN
+screen onto the DCF.
+NOTE: For Medicare Qualified Government Employees (MQGE): If an MQGE becomes insured for
+disability benefits, they are subject to the same disability evaluation and reviews
+as a beneficiary who is entitled to disability based on insured status. For more information
+on MQGE disability claims, see DI 11035.001.

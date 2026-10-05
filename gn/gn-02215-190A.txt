@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - GN 02215.190 - Debtor Involved in Bankruptcy Proceedings - FO Procedure
+Effective Dates: 03/23/2023 - Present | TN 47 (03-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202215190 (fetched 2026-10-04)
+
+A. Policy
+SSA is subject to contempt citations if collection efforts occur after bankruptcy
+notification. Consequently, whenever the FO receives notice of a bankruptcy proceeding
+immediate action must always be taken.
+B .Procedure
+1. Receiving notice
+Upon receipt of notice of bankruptcy proceedings, immediately determine (via. MBR,
+ROAR, and SSR queries) the nature of the debt (title II, title XVI) and whether more
+than one overpayment exists.
+Effective December 1, 2003, bankruptcy courts implemented a new procedure whereby
+initial bankruptcy notices sent to creditors bear the debtor’s full SSN. Any subsequent bankruptcy documents (discharges,
+motions, etc) will only have the last 4 digits of the SSN. If the material received
+does not have the full SSN, check the Public Access to Court Electronic Records (PACER); see GN 03930.091A.2. If the full SSN is not there, attempt to obtain it by using any or all of the following
+sources:
+•
+RECOOP’s name source
+•
+ALPHA search
+•
+The interim trustee, attorney of record or the person filing the bankruptcy petition
+If the full SSN is obtained but the MBR/ROAR/SSR queries result in a “NIF,” query
+the Master Representative Payee File (MRPF) to determine if the debtor may be a payee
+for an individual with an existing overpayment. You can obtain the SSN on which an
+overpayment may exist.
+a. Chapter 7
+If a Chapter 7 notice is received from the court, assume that SSA has been listed
+as a creditor. If aware of a Chapter 7 filing by other than a notice from the court,
+verify the filing via PACER and obtain a copy of the notice of bankruptcy proceedings. Since the automatic stay
+in a Chapter 7 bankruptcy prohibits the collection of any debt that arose before the
+filing of the petition, stop recovery of all overpayments received by the debtor before
+the date the bankruptcy petition was filed (GN 02215.185C.1.b.). Stop recovery efforts in accordance with GN 02215.185B.2..
+b. Chapter 13 or 12
+If a Chapter 13 (or 12) notice is received, stop recovery for any debt(s) that arose
+before the filing of the bankruptcy petition in accordance with GN 02215.185B.2., and
+•
+If a copy of the wage earner or farmer plan is not included with the petition, use PACER to ascertain the length of the plan (i.e., 3 or 5 years) and
+•
+If multiple debts, check PACER to see which debt(s) is listed on the bankruptcy petition.
+•
+If aware of a Chapter 13 (or 12) bankruptcy filing by other than a notice from the
+court, contact the interim trustee (if known) or court to ascertain whether or not
+SSA is listed as a creditor and the specific SSA debt involved. Request a copy of
+the notice of bankruptcy proceedings including a copy of the wage earner plan.
+2. Stopping recovery and notifying PC/RO
+a. Title XVI overpayment
+Stop efforts to obtain refund and, if appropriate, adjustment actions (SI 02220.040B).
+Forward the notice to the ARC, MOS with the following information:
+•
+The date that the 60-day period after the first creditor's meeting will expire, and
+•
+The date when the 180-day time period for filing a proof of claim will expire, and
+•
+Any title II identified and the PC involved.
+b. Title II overpayment
+Stop recovery efforts and input the Record Bankruptcy Petition (DFBP) screen in DMS
+with a Proof of Claim code of “3,” see MSOM DMS 007.006.
+Alert the PC to the bankruptcy filing. Advise the PC of the following:
+•
+The type of bankruptcy (e.g., Chapter 7, 12 or 13);
+•
+If Chapter 7, whether or not the notice precludes filing a proof of claim;
+•
+If Chapter 13 (or 12), whether or not SSA is a creditor and, if so, the specific SSA
+debt involved and the length of the plan;
+•
+The date that the 60-day period after the first creditor's meeting will expire;
+•
+The date that the 180-day period for filing a Proof of Claim (GN 02215.185C.5.) will expire;
+•
+The bankruptcy case number; and
+•
+The name of the bankruptcy judge;
+•
+Any title XVI debt brought to the attention of the RO.
+Fax the bankruptcy notice to the paperless folder in the appropriate PC. Also fax
+the bankruptcy notice to NDRed or eDIB as appropriate.
+Annotate the DMS remarks with the same information regarding the bankruptcy filing.
+Follow regional instructions regarding sending the bankruptcy filing information to
+your regional office.
+3. Expediting handling
+If the 180-day time period for filing a Proof of Claim (GN 02215.185B.5.) will soon expire or has already expired, proceed as follows:
+•
+Call the ARC, MOS the same day the notice is received, and
+•
+Send a copy of the notice and a current MBR or SSR if title XVI, to the Office of
+the General Counsel (OGC) through ARC, MOS, Attention: Center for Programs Support.
+Advise OGC of the action being taken and by whom (e.g., petition will be sent to GLPSC
+for proof of claim); and
+•
+Advise the PC of these actions when forwarding the notice of bankruptcy to the PC.

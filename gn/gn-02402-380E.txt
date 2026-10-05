@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.380 - Coding Costa Rica Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402380 (fetched 2026-10-04)
+
+E. Description of Costa Rica IDD bank data
+The data to code IDD for Costa Rica comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The IBAN for Costa Rica consists
+of 22 characters. However, the bank data reflected on the MBR consists of 25 characters
+including Costa Rica’s country code of “E.”

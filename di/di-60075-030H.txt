@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 60075.030 - Field Office (FO), Processing Center (PC), and National 800 Number Network (N8NN) Responsibilities under the Promoting Opportunity Demonstration (POD)
+Effective Dates: 02/01/2018 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075030 (fetched 2026-10-04)
+
+H. Special processing scenarios
+These instructions will assist you when you encounter situations where special processing
+applies:
+Scenario
+Alert
+Action
+Attempting to create a Work Review in eWork during the POD participation period Start
+and Stop date.
+POD Participant – The beneficiary is currently in the POD program. Access to eWork
+–
+Initiate/Update Work Review is restricted. Refer beneficiary to the POD Call Center
+888-771-9188.
+PC User:
+If you are attempting to set this case up in eWork because of the continuing disability
+review enforcement operation (CDREO), annotate the Action Control Record (ACR) “NAN-POD
+participant.” Send the ACR to FIN FIN.
+Clear the Enforcement via the CDR PC Input (IPCA) screen on the DCF using 8=SSR/MBR
+CONDITIONS-STOP CDR. Annotate to the DCF remarks that the CDR was stopped due to POD
+participation.
+FO User:
+Clear the Enforcement via the CDR FO Input (IFOA) screen using 5=SSR/MBR/STOP CDR.
+Annotate to the DCF remarks that the CDR was stopped due to POD participation.
+Attempting to initiate an IC evaluation in eWork during the POD participation period.
+POD Participant – The beneficiary is currently in the POD program. Access to eWork
+–
+Initiate/Update IC Evaluation is restricted. Refer beneficiary to the POD Call Center
+888-771-9188.
+The IC function of eWork is not a work around for the restricted Initiate/Update Work
+Review screen. All work CDRs during POD are restricted.
+A FO or PC user attempts to save new information for a protected POD month in an eWork
+Short Path, or attempts to reopen a month in the protected period from a prior review
+on the Earnings Details Screens during a post-POD work CDR.
+Work Review Summary Screen will display:
+***Prior POD Beneficiary***
+The information you changed is in the Short Path period. The EPE events (e.g. EPE
+Begin Month, Cessation, Reinstatements, and Suspensions) during
+the Short Path period are based on the months previously entered. This period contains
+months within
+a protected POD demonstration period and cannot be reopened.
+Do not attempt to input earnings related information after the month of the last work
+CDR decision in eWork and prior to and during the POD period. Only input earnings
+after the STOP date of POD participation.

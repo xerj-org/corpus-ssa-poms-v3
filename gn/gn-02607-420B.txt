@@ -1,0 +1,90 @@
+SSA Program Operations Manual System (POMS) - GN 02607.420 - Incarceration Reporting and Control System (IRCS)
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607420 (fetched 2026-10-04)
+
+B. Changing existing reporter or facility information
+Both the FOPCs and FO employees (at the FO managers discretion) may update most reporter
+and facility information on IRCS. However, Central Office (CO) must make the reporter
+and facility information changes listed in GN 02607.420B.4. in this section.
+1. Establishing an additional facility for an existing reporter
+a.
+To access the IRCS update screens, on the PSMU screen, select:
+•
+FIELD OFFICE: enter the office code associated with the PIN used to log onto the system;
+•
+MODE: 1 (ESTABLISH);
+•
+FUNCTION: 3 (FACILITY); and
+•
+REPORTER ID: XXXX (RID for the facility you are adding to IRCS).
+For information on the PSMU screen, see MSOM PRISON 001.003.
+b.
+Enter the new facility’s identification information on the IFID screen as instructed
+in MSOM PRISON 002.006 and the facility’s incentive payment information on the IPID
+screen as instructed in MSOM PRISON 002.007.
+CAUTION: If you use PF3 to back out of IRCS before you transmit the IPID screen, none of
+the input screens will process.
+2. Updating existing reporter information
+a.
+To access the reporter update screens, on the PSMU screen, select:
+•
+FIELD OFFICE: enter the office code associated with the PIN used to log onto the system;
+•
+MODE: 2 (UPDATE);
+•
+FUNCTION: 2 (REPORTER); and
+•
+REPORTER ID: XXXX.
+b.
+The screens used to update reporter information will depend on the change(s) needed.
+Update or change existing reporter information on one or more of the following screens:
+•
+IAID;
+•
+IRID; and
+•
+IRI2.
+If the reporter is changing to a non-reporter, do not make changes to any of these
+screens. Instead, contact the FOPC who will forward the new reporter information to
+CO for input. For more information on CO required changes, see GN 02607.420B.4. in this section.
+3. Updating existing facility information
+FOs are responsible for periodically reviewing and updating IRCS information for correctional
+facilities in their service area. To view IRCS information about an existing facility,
+access the Facility Identification Query (QFID) screen on IRCS. For information on
+the QFID screen, see MSOM PRISON 002.013.
+The screens used to update facility information will depend on the change(s) needed.
+a.
+To access the facility update screens, on the PSMU screen, select:
+•
+FIELD OFFICE: enter the office code associated with the PIN used to log onto the system;
+•
+MODE: 2 (UPDATE);
+•
+FUNCTION: 3 (FACILITY); and
+•
+FACILITY ID: XXXXXX.
+b.
+Update facility identification data using the IFID screen.
+c.
+Update a facility’s incentive payment eligibility and contact data using the IPID
+Screen. In some situations, FOs cannot make changes to the incentive payee and bank
+data fields on the IPID screen as explained in GN 02607.420C.2. in this section.
+4. CO required changes
+Only CO may make the following changes to IRCS:
+•
+change an institution from a reporter to a non-reporter;
+•
+change a facility to participating or non-participating in the prisoner reporting
+program;
+•
+transfer a FID from one reporter to another reporter;
+•
+deactivate or delete erroneous RIDs and FIDs; and
+•
+reactivate RIDs and FIDs.
+If an established relationship between a reporter and a facility changes, contact
+your FOPC. If deactivating a facility and that facility has the FEEDBACK indicator
+checked on the IAID screen, remove the FEEDBACK indicator before contacting the FOPC.
+After development, the FOPC will contact CO to correct IRCS.
+For more information on deactivating, deleting, or correcting RIDs and FIDs, see MSOM
+PRISON 002.017.

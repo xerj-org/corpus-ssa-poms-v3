@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - SI 00830.312 - VA Payment Adjustment for Unreimbursed Medical Expenses
+Effective Dates: 05/17/2012 - Present | TN 265 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830312 (fetched 2026-10-04)
+
+F. Procedure for development and documentation of VA unreimbursed medical expense payments
+1.  Examine documents
+If documents in file show that VA considered unreimbursed medical expenses, go to
+SI 00830.312F.3. in this section. If not, go to SI 00830.312F.2. in this section.
+2. Question the individual
+Question the individual following these steps. You need not document responses:
+Step
+Action
+1
+Did the individual or any member of their family report any income (other than SSI)
+to VA?
+•
+If yes, or unknown, go to Step 2.
+•
+If no, STOP. No further action is necessary.
+2
+Did VA ever notify the individual (or the VA claimant) that medical expenses were
+considered in the VA payment?
+•
+If yes, go to SI 00830.312F.3. in this section.
+•
+If no, STOP. No further action is necessary.
+•
+If unknown, go to Step 3.
+3
+Has the individual (or the VA claimant) ever reported medical expenses to VA?
+•
+If yes, or unknown, go to SI 00830.312F.3. in this section.
+•
+If no, STOP. No further action is necessary.
+3. VA unreimbursed medical expense payments possible
+a.
+Adjudicate the case counting the total VA payment as income following the normal rules if a payment is possible.
+b.
+Explain to the applicant or recipient that we will contact VA for more information
+and, if we find that we should have paid more money, we will pay it when we receive
+the information.
+c.
+Control the case until the information is received.
+4. VA unreimbursed medical expenses payments not possible
+Take no action to deny initial claims for excess income if a payment is not possible
+counting the total VA payment as income and the VA payment is material to eligibility.
+In post-eligibility situations, input the total VA payment to suspend benefits, but
+do not process any overpayment. Hold these cases pending receipt of the information
+from VA.
+5. Contact VA
+Use Form SSA-L1103-U3 to contact the Veterans Affairs Regional Office (VARO) through
+the parallel DO:
+•
+For VARO addresses, see SI 00830.320E.
+•
+In Part I of the form, complete only the identifying information for the claimant
+and the veteran unless you are requesting other information.
+•
+In Part II of the form, enter the date you are requesting the unreimbursed medical
+expenses. The VA will not normally provide this information unless you enter a date.
+6. VA unreimbursed medical expenses involved
+If VA reports payments due to unreimbursed medical expenses:
+•
+reopen under the rules of administrative finality (SI 04070.001), the determination made under SI 00830.312F.3. or SI 00830.312F.4. in this section; and
+•
+deduct the amount from the total VA payment to determine chargeable income, and adjudicate
+the case.
+NOTE: If payments due to unreimbursed medical expenses exceed the amount attributable to
+the veteran or surviving spouse, see SI 00830.312F.7. in this section.
+7. VA unreimbursed medical expenses and augmentation involved
+If augmentation is involved, for a discussion of augmentation, see SI 00830.314:
+•
+deduct the payments due to unreimbursed medical expenses first from the veteran’s
+or surviving spouse's portion, and
+•
+deduct any remaining amount from the dependent's portion.
+NOTE 1: If more than one dependent is involved, prorate the remaining amount equally among
+the dependents.
+NOTE 2: When a veteran is living, the veteran is the beneficiary and their dependents can
+be a spouse and children. When a veteran is deceased, their surviving spouse is the
+beneficiary and a surviving spouse’s dependents are their children. When a veteran
+is deceased, their independent surviving child (e.g., the surviving child is no longer
+in the custody of the surviving parent or the surviving parent is deceased) is the
+beneficiary. When a veteran is deceased, and if their surviving parent(s) receive
+parents’ DIC, the surviving parent(s) is the beneficiary. When a spouse or child receives
+benefits directly from the VA through apportionment, the spouse or child is the beneficiary.
+The VA does not pay any increased benefits for any dependents of the surviving parent(s)
+or surviving child. For a discussion of beneficiaries and dependents, see SI 00830.314.
+8. Systems input for VA unreimbursed medical expenses
+Input the chargeable VA income for an initial claim, for a start date record, and
+when VA benefits begin. The monthly VA/SSR interface will post the correct amount
+thereafter.

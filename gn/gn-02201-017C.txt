@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02201.017 - Explanation of a Title II Overpayment
+Effective Dates: 11/15/2024 - Present | TN 77 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201017 (fetched 2026-10-04)
+
+C. More detailed explanation needed from the Program Service Center (PSC)
+When the FO or teleservice center (TSC) cannot provide a more detailed explanation
+of the overpayment and the overpayment telephone contact (OPTEL) per GN 01070.240 is not responding, do the following:
+•
+Input the explanation protest reason using the Protest/Stop Recovery (FO) (DRPF) screen
+in DMS to suspend collection activity and annotate DMS remarks; and
+•
+Transfer the workload management system (WMS) jurisdiction for the explanation protest
+request to the servicing PSC using the WMS Debt Management Function Selection (DMFS)
+screen in DMS (MSOM DMSWMS 002.003).
+There are also instances when the overpaid person sends a direct request to the PSC
+for an explanation.

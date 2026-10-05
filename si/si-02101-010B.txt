@@ -1,0 +1,174 @@
+SSA Program Operations Manual System (POMS) - SI 02101.010 - Past-Due Benefits Payable - Individual Alive Under Age 18 with Representative Payee - Dedicated Account Required
+Effective Dates: 04/13/2026 - Present | TN 40 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101010 (fetched 2026-10-04)
+
+B. Policy - dedicated accounts
+1. Past-due benefits paid to a dedicated account
+The payee must establish a dedicated account before we release the past-due benefits.
+We will deposit the past-due benefits into this account. The funds may be used only
+for certain limited expenditures as described in GN 00602.140.
+EXCEPTION: If we have appointed the Bureau of Indian Affairs as the payee and direct deposit
+is not possible, an automated one-time payment (A-OTP) directly to the Bureau of Indian
+Affairs for deposit into the child’s account.
+IF…
+THEN…
+After reimbursement for IA and direct payment for representative fees, the past-due
+benefit is not equal to or greater than 3 X (FBR + OSS)
+Normal underpayment rules apply and we will release the past-due benefits or offset
+for a collectible overpayment.
+After reimbursement for IA and direct payment for representative fees, the past-due
+benefit equals or exceeds 3 X (FBR + OSS) but does not exceed 6 X (FBR + OSS)
+Installment provisions will apply, and we will release the past-due benefits in installment
+payments or offset for a collectible overpayment. For more installment payment information,
+refer to SI 02101.020. A dedicated account is not required.
+After reimbursement for IA and direct payment of representative fees, the past-due
+benefits are greater than 6 X (FBR + OSS)
+We must issue these payments in installments at 6-month intervals, in addition to
+depositing them in a dedicated account that the payee established. For installment
+requirements, refer to SI 02101.020.
+After reimbursement for IA and direct payment of representative fees, the past-due
+benefits are greater than 6 X (FBR + OSS) but payee does not establish a dedicated
+account
+We cannot release the past-due benefits to the payee. The technician must determine
+the need for a new payee, per GN 00504.100.
+The individual dies prior to the payee establishing a dedicated account
+Follow normal underpayment rules in SI 02101.002 to determine if and to whom we may issue the past-due benefits.
+The individual dies after the payee establishes a dedicated account
+We have no authority over this account upon the individual's death. The dedicated
+account is part of the deceased individual’s estate.
+The individual attains age 18 prior to the issuance of the notice of determination
+of eligibility for past-due benefits
+The dedicated account provision does not apply. Normal underpayment rules apply, per
+SI 02101.001. Installments may apply, per SI 02101.020.
+An individual is under age 18 but does not have a payee
+Dedicated account rules do not apply. Normal underpayment rules apply, per SI 02101.001. Installments may apply, per SI 02101.020.
+2. Optional deposits to a dedicated account
+After a payee establishes a dedicated account, subsequent past-due benefits that are
+6 X (FBR + OSS) or less are not required to be deposited in the dedicated account.
+If the payee chooses to deposit the funds into a dedicated account, the payee must
+use the funds in the dedicated account for limited permissible expenditures. For more information about permitted expenditures from
+a dedicated account, refer to GN 00602.140.
+If the subsequent past-due benefit is equal to or greater than 3 X (FBR +OSS), but
+does not exceed 6 X (FBR +OSS), installment provisions apply.
+3. Definition - past-due benefits
+•
+Benefits due, but unpaid, that accrued prior to the month of payment effectuation;
+•
+Benefits due, but unpaid, that accrued during a period of suspension for which the
+individual was subsequently determined to have been eligible; or
+•
+Any adjustment to benefits that results in an accrual of unpaid benefits.
+4. Payee responsibilities
+The payee may use benefits deposited into a dedicated account only for specific and
+limited expenses for the child. For more information about the payee requirements
+and responsibilities concerning these dedicated accounts, refer to GN 00602.140.
+5. Resource and income exclusions
+Past-due benefits deposited into a dedicated account are excluded from resources.
+Any accrued interest the account earns is excluded from income and resources. The
+payee may deposit additional smaller past-due benefits into the dedicated account.
+These benefits are also excluded from resources. For additional information on this
+resource and income exclusion, refer to SI 01130.601.
+6. Installment dedicated accounts
+Effective for past-due benefits paid on May 22, 2006 or later, Section 7502 of the
+Deficit Reduction Act of 2005, P.L. 109-171, enacted February 8, 2006, changes the
+formula for determining when we pay SSI past-due benefits in installments.
+If the past-due benefits equal or exceed 3 X (FBR+OSS) but do not exceed 6 X (FBR+OSS), after IA reimbursement and direct payment of representative
+fees, we must issue these payments in installments, but they do not require a dedicated
+account.
+If the past-due benefits are greater than 6 X (FBR+OSS), after IA reimbursement and
+or direct payment of representative fees, we must deposit these payments into a dedicated
+account in up to 3 installments at 6-month intervals. The first and second installment
+payments cannot exceed 3 X (FBR + OSS) unless the technician documents the request
+for an additional amount on a Report of Contact when an individual has outstanding
+debts or expenses as described in SI 02101.020B.4. However, because of dedicated account restrictions, installment payments to dedicated
+accounts should only be increased for debts related to:
+•
+Medical treatment.
+•
+Education or job skills training; or
+If related to the individual's impairment:
+•
+Personal needs assistance,
+•
+Special equipment,
+•
+Housing modification,
+•
+Therapy, or
+•
+Rehabilitation.
+For examples of approved dedicated account expenditures, refer to GN 00602.140F.
+The system determines (after any prepayment review, IA reimbursement, direct payment
+of representative fees, and automated recovery of any outstanding overpayment) whether
+installments apply. The system sets EA and IN diaries, and sends E1 and I6 alerts
+notifying the FO that the past-due benefits are scheduled for A-OTP into the dedicated
+account. The system also generates an automated notice to the individual explaining
+the current installment payment and that we will issue the next payment in 6 months.
+Generally, the required dedicated account notices are automated. If a case requires
+a manual notice, the notices are available in DPS.
+If the system does not automatically offset a prior collectible overpayment, recover
+the overpayment from the individual's continuing SSI payments at the 10 percent recovery
+rate.
+However, even though we must deposit the benefits into a dedicated account, installment
+procedures do not apply if the individual:
+•
+Has a medical condition that is expected to result in death within 12 months, or
+•
+Is ineligible at the time of payment and is likely to remain ineligible for the next
+12 months.
+If one of these exceptions applies, we deposit the entire amount into the dedicated
+account using the A-OTP process.
+7. Current calendar month benefits included in installment dedicated accounts
+If benefits for the current calendar month, or a subsequent month, are included in
+the benefits subject to installments or dedicated accounts, the FO must use the A-OTP
+process to issue the current month, or a subsequent month's payment to the payee.
+In some instances, this action removes the case from the installment or dedicated
+account provision.
+NOTE:
+We will only take this action after any prepayment review of large underpayments adjustment
+for reimbursement for IA, calculation or adjustment for direct payment of attorney
+or non-attorney fees, or automated recovery of any collectible overpayment. For more
+information about the prepayment review requirements for large underpayments, refer
+to SI 02101.025.
+EXAMPLE 1: If the technician effectuated the SSI claim on August 15th, the current computation
+month is September. we will issue the first monthly payment on September 1 and treat
+all benefits through August as an underpayment subject to the installment or dedicated
+account provisions. The FO must issue an A-OTP for August (the current calendar month).
+EXAMPLE 2: If the technician effectuated the claim after the current computation month cutoff
+in August, the current computation month would be October. We would issue the first
+monthly payment on October 1, and treat all benefits due through September as an underpayment
+subject to installment or dedicated account provisions. In this situation, the FO
+must issue an A-OTP for the current calendar month’s benefits (August), and September
+benefits.
+In both examples, the A-OTP may reduce the underpayment to less than 3 X FBR so that
+the installment provisions do not apply or less than 6 X FBR so that dedicated account
+provisions do not apply.
+8. Interim Assistance Reimbursement (IAR) cases
+Effective November 2010, when the FO, or an automated interface adds a pending grant
+reimbursement code (GRC) to an SSR, the system holds the entire underpayment with
+a UPV:V until the IAR is processed. Reimbursement to the state occurs automatically,
+without FO involvement unless the case requires FO intervention or the case is an
+eIAR exception. For information on FO intervention cases, refer to SM 01311.662C.
+For eIAR exception cases, refer to SI 02003.023.
+If a dedicated account is not required after IAR, direct payment for representative
+fees, and automated recovery of any collectible overpayment, we release the underpayment.
+For installment procedures, refer to SI 02101.020.
+9. Closed period of disability at time of past-due benefit determination and medical
+cessation cases
+•
+Closed period of disability cases placed in PSY N07 (i.e., not disabled) do not require
+a dedicated account for a child under 18 with a representative payee, even if the
+payee files an appeal.
+•
+In medical cessation cases (CDRs), even when the individual appeals the cessation,
+the dedicated account rules stop at termination, unless we approve a request for benefit
+continuation. If benefit continuation applies, then dedicated account rules continue.
+•
+If an existing dedicated account is involved in a medical cessation case, the rules
+for the account cease, unless benefit continuation applies.
+10. Non-pay dedicated account cases with installments
+If a case goes into non-pay or suspense status during the installment process, the
+FO must issue the scheduled installment to the payee by A-OTP unless the individual
+is residing in a correctional institution. The case requires a manual notice. For
+instructions on the prohibition against paying installments to persons residing in
+a correctional institution, refer to SI 00529.001.

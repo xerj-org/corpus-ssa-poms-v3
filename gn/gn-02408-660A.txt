@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02408.660 - Non-Entitlement Due to Death (NED) Report
+Effective Dates: 04/26/2013 - Present | TN 82 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408660 (fetched 2026-10-04)
+
+A. General
+Treasury's Bureau of the Fiscal Service (BFS) provides a NED report to alert SSA when
+one or more Title II or Title XVI electronic funds transfer (EFT) payments dated after
+the beneficiary's/recipient’s death have not been included with the payments transmitted
+to the Department of the Treasury (Treasury) for reclamation; i.e., an E-stop has
+not been placed on them.
+IMPORTANT: Access is limited to specific users within the agency. Only one or two people in
+each processing center (PC) and regional office (RO) access and take action on this
+report.
+When BFS receives an E-stop or claim of non-entitlement due to death, PACER takes
+the date of death and searches the PACER database for any additional payments for
+the payee that were made after the date of death but were not included with an E-stop.
+PACER provides screens that allow us to go into PACER and view the cases within our
+jurisdiction.
+These items orbit until all additional payments are submitted through the normal claims
+process or the SSA user takes action to release the reclamation without the additional
+payments. These cases are monitored, and after 60 days, if all the NED payments have
+not been sent in or the case has not been manually released, PACER automatically releases
+the reclamation with those payments that have come in with E-stops. No additional
+payments are included later, unless they are payments that become eligible because
+of a change in the date of death.
+The information is organized by Agency Location Code (ALC), one for each processing
+center for the Title II cases and one ALC for the Title XVI cases. The Title XVI ALC
+belongs to the Division of Benefit Certification and Accounting at Central Office.
+For a list of ALC codes, see Section 7-110 Program Service Centers (PSCs) – Overview.
+Treasury does not determine whether a payment is due. The NED report enables the SSA
+component to review the list of payments issued after death and to determine whether
+any of the highlighted
+payments still requiring a decision should be included in the reclamation request.
+For each beneficiary/recipient, the file contains the following information for each
+payment for which a reclamation was requested by SSA and for any other payment after the date of death:
+•
+SSN
+•
+Date of Death
+•
+Name
+•
+Payment Date
+•
+Payment Amount
+•
+RTN (routing number to which the payment was sent)
+•
+Trace Number.

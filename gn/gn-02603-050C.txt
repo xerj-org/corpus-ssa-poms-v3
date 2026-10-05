@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02603.050 - Computing Deductions Before Reduction
+Effective Dates: 07/11/2023 - Present | TN 15 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202603050 (fetched 2026-10-04)
+
+C. Procedure for permanent deductions
+1. Definitions for terms used in the formulas
+When permanent deductions are involved, use the following formula to compute benefit
+amounts when reduction for the family maximum is required.
+Terms used:
+•
+BIC = Beneficiary Identification Code
+•
+OB = original benefit (including any applicable widow(er) delayed retirement credits)
+TOTOB = total of all original benefits
+HH = household
+PTAP = permanent total amount payable
+The family maximum minus:
+•
+PIA on life cases
+•
+Total amount of work deductions to be imposed against auxiliaries or survivors due
+to the number holder’s work
+•
+Workers’ compensation (WC) or public disability benefit (PDB) offset amount for all
+workers or deductees
+•
+Age reduction amount for all workers or deductees
+•
+Government pension offset (GPO) amount for all workers or deductees prior to January
+2024.
+•
+Partial benefit payable to any worker or deductee
+•
+For cases where the rule in GN 02603.045 does not apply, use the dual entitlement reduction amount for all deductees
+2. Formula for permanent deductions
+The worker or deductee rate will be $0.00 if a total deduction applies, or the partial
+payable rate, if applicable.
+The non-worker or non-deductee rate
+OB x PTAP
+= TOTOB - OBs for all workers or deductees
+When the case involves permanent deductions, and the decision or determination requires
+you to reduce the family maximum, use the following formula to compute benefit amounts.
+When different OBs are involved, calculate the rate for each OB. Use the OB if the
+result of this calculation is greater than the OB. After making the calculation, then
+reduce the non-worker or non-deductee for age, WC, PDB, GPO when prior to January
+2024, and, in non-Parisi cases as explained in GN 02603.045, the dual entitlement rate.
+3. Claims Processing
+The benefit amount being adjudicated should be entered on the MBEN screen of the A101.
+This is the amount before applying deduction before reduction.

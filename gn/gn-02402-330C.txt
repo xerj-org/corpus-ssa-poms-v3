@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.330 - Coding New Zealand Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402330 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in New Zealand will have a prefix of “71” at the beginning of the
+Routing Transit Number (RTN). The first letter of the Depositor Account Number (DAN)
+field has the letter “L” assigned for New Zealand.

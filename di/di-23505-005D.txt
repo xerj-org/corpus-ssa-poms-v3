@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - DI 23505.005 - Parent Claim to Entitle Dependent Grandchild
+Effective Dates: 05/10/2023 - Present | TN 8 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423505005 (fetched 2026-10-04)
+
+D. Dependent grandchild case, completion of Form SSA-831
+1. General Instructions to Complete Form SSA-831 for Dependent Grandchild Claim
+A small number of EDCS exclusion cases may use a SSA-831 instead of the EDCS routing form. The FO completes the SSA-831 in the usual manner
+except for the items that require specific instructions given in this section. For
+the exceptions see “Completion of SSA-831 by the FO” per DI 23505.005D.2. in this section.
+The DDS completes the SSA-831 in the usual manner except for the items that require
+specific instructions given in this section. For the exceptions see “Completion of
+SSA-831 by the DDS” per DI 23505.005D.3 in this section. Refer to “Completion of Form SSA-831 – Title II, Title XVI and Concurrent
+Claims” per DI 26510.000.
+2. Completion of Form SSA-831 by the FO
+a. Item 4 – SSN
+Enter the SSN of the individual (grandparent) on whose earnings record the claim is
+filed, i.e. the NH.
+b. Item 5 – Name and Address of Claimant
+Enter the name and address of the child’s grandparent.
+c. Item 6 – WE’s Name
+Enter the name of the NH (grandparent) on whose earnings record the claim is filed.
+d. Item 7 – Claim Type
+Check one of the two following claim check blocks:
+1.
+P-R
+Disability determination for parent-child filing on earnings record of retired grandparent
+(RSI NH); or
+2.
+P-D
+Disability determination for parent-child filing on earnings record of disabled grandparent
+(DIB NH)
+e. Item 11 – Remarks
+Enter “Grandchild Case – Dependency Date: (mm/yyyy)” (the month and year in which
+the grandparent-child relationship must be established for entitlement).
+3. Completion of form SSA-831 by the DDS
+a. Item 15 – Claimant Disabled
+Check block “A” and enter the controlling date (i.e., the dependency date) from the
+SSA-3367 in all cases where the parent is disabled on or before this date. (If the
+established onset date (EOD) is after the dependency date, treat as a denial.)
+b. Item 16 – Diagnosis
+Enter the diagnosis as explained in “Completing Item 16A and 16B (Primary and Secondary
+Diagnosis, Body System Code and Impairment Code) on the SSA-831 Disability Determination
+Transmittal)” per DI 26510.015A and DI 26510.015B.
+c. Item 17 – Diary
+Electronic processing requires a diary date for allowance cases prior to closure.
+As there is no continuing disability review required for this type of case, enter
+a 7-year medical improvement not expected (MINE) diary date to facilitate closure.
+d. Item 19 – Claimant Not Disabled
+Check block “B” if the parent's disability is not established as of the dependency
+date shown in the SSA-3367, and enter that date here.
+e. Item 21 – VR Action
+Do not enter information in Item 21.
+f. Item 22 – Regulation Basis Code (Reg-Basis Code)
+Enter the RBC that reflects the nature of the allowance or denial on the date of adjudication
+on the parent’s claim. For a description of the basis codes for determination refer
+to “Completion of Item 22 (Regulation Basis Code)” per DI 26510.045A.
+1.
+Use this chart for determinations of “not disabled”:
+Basis for Determination
+Enter in Item 22 “Reg-Basis Code”
+Impairment Not Severe – Medical Considerations Alone or condition disabling but did
+not exist on or before dependency date
+F1
+Capacity for Substantial Gainful Activity (SGA) – Any Relevant Past Work
+H1
+Capacity for SGA – Other Than Relevant Past Work
+J1
+Impairment Prevented SGA for a Period of Less Than 12 Months
+E1
+Impairment Prevents SGA at Time of Adjudication But Is Not Expected to Prevent SGA
+for a Period of 12 Months
+E3
+Insufficient Evidence Furnished
+M5
+NH Does Not Want to Continue Development of Claim
+M3
+NH Willfully Fails to Follow Prescribed Treatment
+K1
+2.
+Use this chart for determinations of “disabled”:
+Basis for Determination
+Enter in Item 22 “Reg-Basis Code”
+Impairment Meets Level of Severity of Listings
+A1
+Impairment Equals Level of Severity of Listings
+B1
+Medical and Vocational Considerations
+C1
+Medical and Vocational Considerations (35-40 Years of Arduous Unskilled Work, Marginal
+Education, and Significant Impairment)
+DI
+g. Item 29 – Ltr. /Par. No.
+DDS does not complete this item.

@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - GN 02250.350 - Administrative Waiver Tolerance for Overpayments $2,000 or Less- Title II and Title XVI
+Effective Dates: 11/22/2024 - Present | TN 77 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202250350 (fetched 2026-10-04)
+
+C. Procedure
+Evaluate the waiver request or overpayment reconsideration request to determine if
+you are going to process an overpayment reconsideration or waiver or both. You may
+use the Administrative Tolerance Decision Tree to assist you in this determination. When you have a reconsideration request, initiate
+corrective actions when applicable to update the record.
+When you determine you will process a waiver request and after you have confirmed
+all case information is current, continue with following procedures to apply the tolerance.
+If the original overpayment is $2,000 or less and you can presume the individual is
+not at fault, follow the approval procedures. For a Title II approval procedures,
+refer to GN 02250.350C.2. For a Title XVI approval procedures, refer to GN 02250.350C.4.
+1. Full waiver development
+Full waiver development is required if you are unable to approve the waiver request
+under administrative tolerance because:
+•
+You need to fully develop for fault where there is duplicate check negotiation; or
+•
+The amount of the overpayment is over $2,000.
+If the amount of the overpayment is over $2,000, complete full waiver development,
+refer to GN 02250.002.
+If there is duplicate check negotiation, obtain a form SSA-632-BK, refer to GN 02250.001. After reviewing the information in the SSA-632-BK and the case file, determine whether
+the individual is not at fault, refer to GN 02250.021B.6. If the original overpayment amount is $2,000 or less, and you find the individual
+not at fault, you must waive the overpayment under the administrative tolerance provision.
+If you cannot approve waiver after this initial review, propose a waiver denial and
+schedule a file review and personal conference. Refer to GN 02270.003.
+NOTE: The FO (customer service representatives (CSR) and higher), Processing Center (PC),
+or the Teleservice Centers (TSC) (TSRs and SPIKES) can process any waiver request
+involving the tolerance. For Title II, only the PC can process reconsideration requests
+involving the tolerance. For Title XVI, the FO (claims specialist (CS) and higher)
+can process reconsideration requests involving the tolerance.
+2. Title II approval procedures
+•
+Verify the amount of the original overpayment before making a determination on a waiver
+request based on the administrative tolerance. If the individual has requested waiver
+of more than one overpayment, evaluate a waiver or reconsideration request against
+each separate overpayment.
+•
+Input the waiver request to the system per MS 01106.002 Debt Resolution Menu (DRMU).
+•
+Use Waiver Approval Under $2,000 (Primary) (DRWP) screen and Waiver Approval Under
+$2,000 (Contingent) (DRWC) screen for waivers $2,000 or less(refer to MS 01106.006
+and MS 01106.007).
+•
+Complete and send a manual waiver approval notice. For more information on the waiver
+approval notice, refer to GN 02250.370.
+•
+Annotate on the Remarks (RMKS) screen in DMS that you sent a waiver approval notice.
+For more information on the RMKS screen in DMS, refer to MS 01109.003.
+NOTE: Do not split an overpayment of more than $2,000 into two or more amounts for the
+purpose of administratively discontinuing waiver development of the total overpayment.
+3. How to document the waiver determination – Title II
+Document the waiver request and determination in a remark on the DMS Remarks (RMKS)
+screen containing the:
+•
+Requester’s full name;
+•
+Requester’s relationship to the overpaid individual;
+•
+Overpayment amount;
+•
+Overpayment period;
+•
+Overpayment sequence number;
+•
+Documents and records we used to make the waiver determination; and
+•
+Method by which we received individual or representative payee’s request for waiver
+(mail request, in-office request, or phone request on MM/DD/YYYY, etc.).
+Annotate the waiver approval on the DMS RMKS screen as follows “Waiver approval; overpayment
+is $2,000 or less.”
+4. Title XVI approval procedures
+Verify the original amount of the overpayment before deciding a waiver request based
+on administrative tolerance. If the individual has requested waiver of more than one
+overpayment, evaluate a waiver or overpayment reconsideration request against each
+separate overpayment. A separate Overpayment Sequence (OPSQ) number in the OPSQ segment
+of the Supplemental Security Income Record (SSR) does not, by itself, indicate a new
+overpayment period. For a discussion of the OPSQ segment of the SSR, refer to SM 01310.220.
+•
+Input the request using the Waiver (UOWV) screen using Direct SSR Update in MSSICS,
+which provides reason codes to document the reason for the waiver decision. For information
+on the UOWV screen, refer to MS 00304.009.
+NOTE: Do not split an overpayment of more than $2,000 into two or more amounts for the
+purpose of administratively discontinuing waiver development of the total overpayment.
+•
+Complete and send a manual notice of an approved waiver (DPS notice, Waiver Approved
+Letter) to the overpaid individual and a copy to the representative payee (if applicable)
+if the system does not generate an automated notice. For more information on the waiver
+approval notice, refer to GN 02250.370.
+•
+Annotate on the Report of Contact page in the Consolidated Claims Experience (CCE)
+that you sent a waiver approval notice. For more information on the Report of Contact
+page in CCE refer to MS 08122.010. For non-MSSICS/CCE cases, record the statement
+on Form SSA-5002 Report of Contact and fax into the Non-Disability Repository for
+Evidentiary Documents (NDRed) using the Evidence Portal (EP). For more information
+on EP refer to MS 09701.001.
+5. How to document the waiver determination – Title XVI
+Document the waiver request and determination on Report of Contact page in Consolidated
+Claims Experience (CCE) or on form SSA-5002, Report of Contact containing the:
+•
+Requester’s full name;
+•
+Requester’s relationship to the overpaid individual;
+•
+Overpayment amount;
+•
+Overpayment period;
+•
+Overpayment sequence number;
+•
+Documents and records we used to make the waiver determination; and
+•
+Method by which we received individual or representative payee’s request for waiver
+(mail, in-office, or phone request on MM/DD/YYYY, etc.).

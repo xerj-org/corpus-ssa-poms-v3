@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02610.055 - Processing Administrative Law Judge (ALJ) Decisions in the Processing Center (PC) when Windfall Offset May be Involved
+Effective Dates: 02/22/2012 - Present | TN 34 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610055 (fetched 2026-10-04)
+
+G. CA/CTE procedure for processing concurrent ALJ decisions and withholding retroactive
+benefits pending windfall offset development
+For cases with concurrent Title II/Title XVI ALJ decisions, always withhold the retroactive
+Title II benefits pending windfall offset development. Process the case as follows.
+1. Review all SSRs
+Check the (PSY) field on all SSRs for the presence of a termination code (i.e., T30,
+T31, T32, T33, T50, T51, or T01).
+•
+A terminated or NIF SSR will always require a PC to send an e4345 to alert the FO
+of the possibility of offset because the MBR/SSR interface will not occur. The FO will establish the SSR and provide Title XVI payment information as a response
+to the e4345.
+•
+If the PSY code on the SSR is blank or other than "T", the MBR/SSR interface will
+occur and an e4345 is not necessary.
+•
+In concurrent claims, the (APPE) data segment will be present on the SSR. Check to
+see if the appeal decision code and date (DSN) is equivalent to the ALJ decision date
+to prevent an incorrect offset determination.
+2. Complete the MCS inputs
+The PC will process as follows:
+•
+IDEN Screen - Enter “1” (Yes) for the question “Filed or Intends to File or SSI” on
+the IDEN screen.
+•
+BECF Screen - Enter “6” (Windfall Offset) in the “Select Miscellaneous Factor” field
+on the BECF screen.
+•
+MCS-EC Trigger - Do a pre-adjudicative EC to determine if adjudication can occur through
+EC. Resolve alerts, processing limitations, and exceptions.
+•
+If a processing limitation or exception does not prohibit EC processing, adjudicate
+the case through MCS-EC with the past-due benefits in suspense (LAF S9/WINFAL).
+•
+If the PSY on the SSR shows a termination code, route theclaim to the BA PROC and
+advise the BA/PETE to send an e4345 to the FO for an offset determination and include a comment in remarks
+“SSR terminated, possible SSI Offset”.
+3. A101 needed
+If there is an MCS processing limitation or exception, process as follows.
+•
+Adjudicate the case with an A101 and route the A101 to the BA/PETE per established
+procedures.
+•
+Request that the BA/PETE suspend the past-due benefits (LAFS9/WINFAL).
+•
+If the SSR is a terminated record, the BA/PETE must send an e4345 to the FO for an
+offset determination because the MBR/SSR interface will not occur. Include a comment
+on the e4345, “SSR terminated, possible Title XVI Offset.”
+•
+If the SSR is not a terminated record, the MBR/SSR interface will occur and the e4345
+is not necessary.

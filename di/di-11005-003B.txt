@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - DI 11005.003 - Field Office (FO) Instructions for Identifying Claims, Applicable Terms, and Scheduling Appointments for Military Casualty (MC)/Wounded Warrior (WW) Cases
+Effective Dates: 10/31/2023 - Present | TN 122 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005003 (fetched 2026-10-04)
+
+B. Identifying MC/WW cases using SSA/Department of Defense data exchange information
+The Department of Defense (DoD) identifies wounded military service members and provides
+SSA with weekly information on this population through an automated data exchange.
+We verify the Social Security Numbers (SSNs) and other data (such as, name, date of
+birth, and sex) that DoD provides against the NUMIDENT. The information DoD provided
+may not be a comprehensive list of all wounded, ill, and injured military service
+members. Therefore, during the initial interview, we must be alert to possible MC/WW
+claimants.
+When a record from DoD matches the SSN, we add a Wounded Warrior indicator to the
+SSN record. We do not take any action on the information in this database until a
+service member contacts us to file a claim; we cannot use this information for leads
+purposes.
+1. Claimant’s SSN matches the SSA ICDB
+If a service member files a claim, follow these procedures:
+1.
+When the claimant’s SSN matches the information in the SSA ICDB, an alert may appear
+in either one of or all of the following:
+•
+Visitor Intake Program (VIP)
+•
+Customer Service Record (CSR)
+•
+Customer Help and Information Program (CHIP)
+2.
+During case creation, when the SSN is present in the CLIENT military casualty segment,
+the Electronic Disability Collect System (EDCS) automatically attaches an MC/WW flag.
+If the SSN match occurs after initial case creation, the MC/WW flag re-propagates
+into EDCS during case creation at any adjudicative level.
+2. Claimant’s SSN does not match the SSA ICDB
+If the claimant’s SSN does not match the information in the SSA ICDB (i.e., no alert
+is present in VIP, CSR, or CHIP), but the claimant alleges a disability resulting
+from an illness, injury, or wound that occurred while on active duty status on or
+after October 1, 2001:
+•
+Manually establish an MC/WW flag in EDCS.
+(For instructions on manually establishing a flag, see DI 81010.080 Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS))
+•
+If the case is a paper modular disability folder (MDF), attach a paper MC/WW flag
+to the MDF.
+See an exhibit of the paper flag in DI 11005.006I.

@@ -1,0 +1,170 @@
+SSA Program Operations Manual System (POMS) - SI 02310.999 - Exhibits of SSI Interfaces
+Effective Dates: 02/04/2025 - Present | TN 69 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310999 (fetched 2026-10-04)
+
+D. Exhibit D - Department of Defense (DOD) Extract and Legend
+DOD/SSI INTERFACE - DOD EXTRACT
+RUN DATE: 99/99/99
+HUN: 999-00-9999  SSN: 999-00-9999    PERTYP: 9    NAME: XXXXXXXXXXX
+TYPE OF BENEFICIARY: XXXXXXXX    SBP BENEFIT TYPE: 9
+DATE OF BIRTH RETIREE: 99/99/9999 YR OF BIRTH SURVIVING SPOUSE: 9999 YR OF BIRTH YOUNGEST
+CHILD: 9999
+BENEFICIARY ADDRESS: XXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXX
+ZIP CODE: 99999
+MILITARY CLAIM NUMBER: 999999999    MILITARY SERVICE BRANCH: X FAN: XX
+DATE OF ENTITLEMENT: 99/99/9999
+RETIREE CURRENT PAY STATUS: X
+MONTHLY COUNTABLE PENSION: $9999.99
+DATE TERMINATED/SUSPENDED: 99/99/99
+REASON TERMINATED/SUSPENDED: X
+1. DOD Extract Legend
+Data
+Element
+Source
+Definition
+Possible Entries
+Run Date
+DOD
+Effective date of extract
+MMDDYY
+HUN
+SSR
+Housed-Under Number
+SSN
+SSR
+Military Beneficiary's SSN
+PER TYPE
+SSR
+Military Beneficiary's SSI
+Person Type
+NAME
+DOD
+Military Beneficiary's Name
+Type of Beneficiary
+DOD
+Type of Military Benefit
+Received
+Retiree, RSFPP, SBP
+SBP Benefit
+DOD
+Type of SBP Benefit
+1 = Spouse Only
+Type
+Received (if applicable)
+2 = Child Only
+3 = Spouse and Child
+4 = Insurable Interest
+5 = Death on Active Duty
+6 = Minimum Income Widow
+Date of Birth Retiree
+DOD
+Retiree's Date of Birth
+MM/DD/YYYY
+Year of Birth Surviving Spouse
+DOD
+Surviving Spouse's Year of Birth
+YYYY
+Year of Birth Youngest Child
+DOD
+Youngest Child's Year of Birth
+YYYY
+Beneficiary Address
+DOD
+Beneficiary's Address
+Zip Code
+DOD
+Beneficiary's Zip Code
+Military Claim Number
+DOD
+Beneficiary' Military Claim Number (suffixes not included)
+Military
+DOD
+Military Retiree's
+A = Army
+Service
+Branch of Service
+N = Navy
+Branch
+F = Air Force
+M = Marines
+FAN
+DOD
+DOD FAN Code (For DOD Internal Purposes)
+Date of Entitlement
+DOD
+Beneficiary Date of Entitlement to Military Benefits
+MM/DD/YYYY
+Retiree
+DOD
+DOD Retiree Pay Status
+1 = Receiving Retired Pay
+Current
+2 = Currently entitled
+Pay Status
+to retired pay but not being paid (no survivor remittance required)
+3 = Currently entitled to retired pay but not being paid (required survivor remittance)
+4 = Terminated from entitlement during last reporting period
+Monthly Countable Income
+DOD
+Countable Military Pension for Month of Run (equals “taxable income” )
+$$$$¢¢
+Date
+Terminated
+/Suspended
+DOD
+Last month military benefits paid
+MM/DD/YY
+Reason
+DOD
+Reason for termination
+Terminated/Suspended Codes
+Terminated/
+of military benefits
+Retirees:
+Suspended
+A = death
+B = recalled to active duty
+C = removed from TDRL
+D = removed from TDRL
+E = TDRL suspended
+F = waiver for civil service
+G = VA Offset
+H = dual comp/pay cap offset
+J = pay refused
+K = suspended whereabouts unknown
+L = suspended suspected death
+M = suspended misc. reasons
+Z = code not applicable
+Termination/Suspension codes
+RSFPP:
+A = death
+B = remarriage
+C = child annuitant past age limit
+D = child annuitant no longer in school
+E = incapacitated child recovery
+F = suspected death
+G = certificate of eligibility not returned
+Z = code not applicable
+SBP:
+A = death
+B = remarriage
+C = child annuitant pay age limit
+D = child annuitant no longer in school
+E = incapacitated child recovery
+F = income of annuitant over limit
+G = DIC award amount greater than annuity amount
+H = child annuity superseded by reinstatement of surviving spouse
+J = suspected death
+K = certificate of eligibility not returned
+Z = code not applicable
+2. Explanation of Abbreviations
+1.
+TDRL - Temporary Disability Retirement List
+2.
+RSFPP - Retired Serviceman's Family Protection Plan
+3.
+SBP - Survivor Benefit Plan
+4.
+DIC - Dependency and Indemnity Compensation

@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 01010.110 - Partial Adjudication
+Effective Dates: 06/22/2023 - Present | TN 58 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010110 (fetched 2026-10-04)
+
+C. Procedure for adjudicating partial awards
+1. Documenting partial awards
+All adjudicative decisions must reflect the documented facts for the entitlement.
+We cannot establish an element of entitlement or a factor affecting payment if you
+do not properly document it in accordance with the Program Operations Manual System
+(POMS) tolerances, presumptions, or evidentiary standards.
+a. MCS earning computation (EC)
+•
+You must select “DEC STAT 9” for retirement, survivor or Medicare partial claims (RSHI
+PARTIAL) or 10 (DIB PARTIAL) on the decision (DECI) screen;
+•
+Initiate the appropriate internal control (e.g., Modernized Development Worksheet
+(MDW)) and establish a diary on the DECI screen (see MSOM MCS 009.013) The DECI diary entry interfaces
+with the Processing Center Action Control System (PCACS) and establishes the diary
+in the processing center (PC).
+•
+Annotate the report of contact (RPOC) screen with the applicable diary evidence code
+and a detailed rationale for all issues under development. If RPOC screens are not
+available, prepare a paper report of contact (RC) with the diary information including
+the following remark “SEE RC IN FILE - PC MUST ADD DIARY REMARKS - RPOC NOT AVAILABLE” and fax it into the paperless unit of the PC of jurisdiction. This simplifies and
+expedites accurate diary inputs in the PC.
+b. Manually processed awards
+•
+For manual awards, you must prepare an internal diary (e.g., MDW) and, request the
+PC to establish a diary supplying the applicable rationale and evidence Code(s).
+•
+Annotate the Automated 101 (A101) or Electronic Form 101 (EF101) Benefit Continuity
+Remarks/Notice (BCRN) screen with the applicable diary Evidence Code(s) and document
+all issues under development in detail.
+•
+The period for a diary for outstanding development input in the PC is usually 60-days
+unless conditions warrant a longer or shorter period and a specific date is input.
+2. Partial award notices
+You must annotate the applicable partial award paragraph(s) on the notice as instructed
+here.
+•
+Include a special paragraph on the appropriate screen for the award notice (e.g.,
+notice (NOT) 2, NOT3, A101 BCRN screen, RPOC, etc.).
+•
+Select the dictated paragraphs needed as instructed in MS 03509.010 and NL 00725.005 for the MCS Universal Text Identifiers (UTI) for partial awards (PAYR01).
+•
+For Dual Entitlement (DE) claims, include the special paragraph stating that we will
+make a separate decision on the other claim, when applicable. Use the UTI “CLOR05”
+for MCS processing (NL 00725.005) and “B56” for manually processed awards.
+•
+The notice must include language advising the claimant that we based the determination
+on currently available evidence and we may revise it based on additional evidence.
+NOTE: In most cases, the first notice is not an initial determination on the unresolved
+issue. The PC will send another notice once the development is complete. This second
+notice is the final determination on that issue and must include a reconsideration
+paragraph. However, the first notice may be the final notice in earning record (E/R)
+revision cases not involving an earnings investigation (see GN 04001.040E.2).
+3. Special Notice Not Required
+A special notice is not required if a Primary Insurance Amounts (PIA) discrepancy
+is resolved prior to adjudication (see GN 01010.100).

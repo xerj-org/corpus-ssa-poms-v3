@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+D. Computing a triennial redetermination of the ACE ICF computation programs, manual
+computation form, redet ratios, factors to consider
+1. ICF computation of a triennial redetermination of the ACE
+a. ICF #31 and #32 on the Benefit Computation Menu
+Access the most current computation software via the SSA Main Menu, selection #7 (Title
+II/Interactive Comps), and the subsequent ICF Title II Benefit Computation Menu, selections
+#31 (Pre-Adjudicate Comp) or #32 (Adjudicate Comp).
+In most instances, ICF programs #31 and #32 automatically compute triennial redets
+if the redet year(s) falls within the beginning and ending dates of the period involved
+in the offset computation.
+For a list of ICF exclusions requiring a manual computation of the redet ACE, see
+MSOM ICFT2 031.001D.
+b. ICF #28 on the Benefit Computation Menu
+ICF #28 includes limitations that do not apply to ICF #31 and #32. Do not use ICF
+#28 if you can use ICF #31 or #32 to input the offset data. For ICF #28 information,
+see MSOM ICFT2 028.001.
+For ICF limitations for ICF #28 see Workers Comp Resource Page .
+2. Manually computing redet of the ACE
+Use form SSA-3643, Offset Worksheet - Triennial Redetermination, to manually compute
+a redetermination of the ACE. The computation determines if a triennial redet applies
+(i.e., the redet ACE increases the benefits payable after offset in January of the
+redet year for any beneficiary on the account).
+For instructions on using the SSA-3643, see DI 52170.015.
+If the redet ACE applies, use the new redet ACE in subsequent offset calculations.
+NOTE: If a manual computation is necessary due to an ICF limitation or exclusion, enter
+the information and computation results into ICF #34. Then process the information
+and computation results via MACADE to effectuate payment and update the WC/PDB data
+to the MBR.
+a. Ratios used to compute the redet ACE
+Redetermine an ACE by using the applicable redet ratio (i.e., percentage). The redet
+ratio is based on the year benefits are first reduced due to WC/PDB offset (i.e.,
+the Offset Effective Date, which may be later than the Offset Considered Date).
+•
+Redet ratios based on offset beginning 1966 are in the chart in DI 52150.085. This chart provides ratios in 3-decimal-place format for redet years 1969-2003 (e.g.,
+5.844) and 5-decimal-place format for 2004 (e.g., 6.37815).
+•
+Beginning January 2005, redet ratios are not displayed in the POMS chart for Offset
+Effective Dates 1976 or later; the Office of the Actuary (OACT) has the redet ratios
+on their website for Offset Effective Dates 1976 or later. (All redet ratios on this
+website are shown in 5-decimal-place format.)
+•
+To determine ratios effective 2005 or later, use the OACT website at http://www.ssa.gov/OACT/aceredet/ .
+Compute redet calculations prior to January 2004 using the 3-decimal-place ratio and
+redet calculations effective January 2004 using the 5-decimal-place ratio.
+The Interactive Computation Facility (ICF) computes triennial redets using the 3-decimal-place
+ratio prior to January 2004 and the 5-decimal-place ratio beginning January 2004 and
+continuing. If a redet applies, ICF displays the redet ACE on the ACE Data (WCAC)
+screen.
+b. Triennial redetermination, WC/PDB rate change, and/or PIA recomputation occur in the
+same month
+If the WC/PDB rate changes in the same month that a triennial redet is due, compute
+the WC/PDB rate change first and then compute the redet.
+If a PIA recomputation (i.e., a January PIA increase due to additional covered wages
+for the previous year), a triennial redet of the ACE, and a WC/PDB rate change all
+occur in the same month, process the monthly offset computation in the following order:
+1.
+WC/PDB rate change
+2.
+Triennial Redet of the ACE
+3.
+PIA Recomputation
+c. Considerations in determining the 100% original ACE (Part B of form SSA-3643) - Recal
+ACE, Recomp ACE, Redet ACE
+When computing a Redet ACE, the redet ratio is applied to the original ACE.
+Original ACE is the highest applicable ACE effective the first possible month offset. Use it for
+the first redet and any subsequent redet on Form SSA-3643 or ICF. However, the original ACE is subject to change based on the following:
+•
+ACE Recalculation (Recal ACE) the original ACE may be recalculated due to additional earnings. An increase in earnings
+may be due to an estimate of earnings for years prior to 1978, as explained in DI 52170.035, or additional covered earnings posted to the wage earners earnings record.
+NOTE: The resulting Recal ACE is usually considered the original ACE (a recalculation can
+be retroactive as far back as the first possible month of offset).
+•
+ACE Recomputation (Recomp ACE) - an ACE can be recomputed because of additional earnings used to increase the benefits
+payable for months after the first month of DIB entitlement.
+A recomputed ACE is always effective in January of the year following the year these
+additional earnings are posted to the earnings record.
+A recomputed ACE must be compared to the triennial Redet ACE and the higher ACE used
+effective January of the applicable year.
+In addition, changes in the statutes caused recomputation of the ACE:
+Beginning 02/1968 based on the 1967 Amendments, which allowed the use of over-maximum earnings in the
+computation of the ACE. (See DI 52150.010 for Average Current Earnings (ACE)).
+Beginning 01/1973 due to the High-1 ACE provision. (See DI 52150.010 for Average Current Earnings (ACE)). If the High-1 ACE is higher than the original
+ACE previously used in the offset computation, the High-1 may be used beginning 01/73
+and in redets effective 1/76 or later.
+For limitations regarding ICF programs #31 and #32 for calculating a Recomp ACE -
+Click here.
+NOTE: Do not use a Redet ACE or a Recomp ACE as an original ACE.

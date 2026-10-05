@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - GN 01061.020 - How to Process Title II Underpayments
+Effective Dates: 05/14/2009 - Present | TN 7 (01-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201061020 (fetched 2026-10-04)
+
+B. Processing Title II underpayments
+1. Title II beneficiary is alive
+The office that detects an underpayment due to a living beneficiary issues the notice
+and payment following the instructions in GN 02301.010 and GN 02301.020.
+2. Title II beneficiary is deceased
+If the underpaid beneficiary is deceased, we must issue any underpayment following
+the order of priority in GN 02301.030.
+a. Steps a Benefits Authorizer (BA) (or equivalent) will take when a Title II underpayment
+is due to a deceased beneficiary
+The BA (or equivalent) is generally responsible for processing underpayments. When
+the BA discovers an underpayment and the evidence clearly identifies the proper recipient(s)
+of the underpayment, the BA pays the underpayment to the recipients(s). Otherwise,
+the BA should develop for a proper recipient per GN 02301.060 and GN 02301.075B, or refer the case to a Claims Authorizer (CA) or equivalent.
+For more information on BA payment instructions for a Title II underpayment due a
+deceased beneficiary, see GN 02301.075.
+This chart describes how the BA pays a Title II underpayment due to a deceased beneficiary:
+IF
+THEN
+the underpayment recipient is not a currently or previously entitled beneficiary on the same SSN of the deceased
+pay the underpayment via the Single Payment System (SPS) on the Social Security Number
+(SSN) of the deceased. For more information on SPS, see SM 00834.000.
+NOTE: The recipient's SSN must be entered on all SPS inputs. Enter the recipient’s SSN
+under the fill-in RECIPIENT INFORMATON - SSN on the MPAY screen. Also, place a special
+message on all cases.
+the underpayment recipient is annotated as a currently or previously entitled beneficiary on the same SSN of the
+deceased (including LSDP recipients)
+pay the underpayment via the Manual Adjustment Credit and Award Data Entry (MACADE)
+system to the recipient on the deceased's SSN under the recipient's PIC on that SSN
+record.
+NOTE: Use a MACADE action with a special entry of "AU" whenever possible to pay the underpayment.
+Make sure the BIC has a BOAN on the record, and verify address if recipient is not
+in current pay. Also, summarize the underpayment on the Payment History (HST) screen
+following SM 00805.040B.3.c.
+b. CA (or equivalent) authorizes underpayment
+If the CA (or equivalent) in the Payment Center (PC) authorizes the payment, they
+will instruct the BA to pay the underpayment on form SSA-559, Transmittal Slip for
+Claims Folder.
+If the Field Office (FO) can determine the fact and amount of an underpayment and
+the proper recipient(s), they will authorize payment and instruct the BA to pay the
+underpayment on form SSA-409, Post-adjudicative Routing Form. The FO will fax the
+completed SSA-409 into the Paperless system under TOEL combination STATUS DEATHUP.
+For more information on component responsibilities for payment of a Title II underpayment
+due a deceased beneficiary, see GN 02301.070.
+This chart describes the instructions the CA (or equivalent) sends to the BA for payment
+of a Title II underpayment due to a deceased beneficiary:
+IF
+THEN on form SSA-559 or SSA-409
+there is one underpayment recipient
+Instruct the BA to pay the underpayment and provide the:
+•
+recipient’s name;
+•
+recipient’s address;
+•
+recipient’s routing transit number (RTN) and depositor account number (DAN) for direct
+deposit, if available; and
+•
+basis of payment- recipient’s name along with “on account of” (O/A/O), the name of
+the deceased beneficiary and “DEC'D."
+there is more than one underpayment recipient (same category)
+Instruct the BA to divide the underpayment equally and pay the underpayment and provide
+the:
+•
+recipients’ names;
+•
+recipients’ addresses ;
+•
+recipients’ RTN and DAN for direct deposit, if available; and
+•
+basis of payment- recipients’ names along with O/A/O, the name of the deceased beneficiary
+and “DEC’D."
+the underpayment recipient is an estate
+Instruct the BA to pay the underpayment and provide the:
+•
+name of estate administrator;
+•
+designation (as shown in court order);
+•
+address of estate administrator;
+•
+RTN and DAN for direct deposit, if available; and
+•
+basis of payment-FOR THE ESTATE OF (name of deceased)
+Reference: SM 00805.040B.1.b
+c. CA (or equivalent) completes award
+This chart describes the steps the CA (or equivalent) follows to complete an award
+for a Title II underpayment due to a deceased beneficiary:
+IF
+THEN
+the underpayment recipient is a nonresident alien
+follow instructions in GN 05010.300.
+the survivors award is on the same SSN as the underpayment
+add a remark regarding the underpayment to the A101 or EF101 BCRN screen for survivors
+benefits to explain the basis of the underpayment.
+Example: “Pay the underpayment to (recipient’s name) O/A/O, (the name of deceased
+beneficiary), DEC’D.”
+the claimant died before adjudication of the claim with accrued benefits or the amended
+award to a deceased beneficiary results in an underpayment
+complete an A101 or EF101. For more information, see SM 00805.040.

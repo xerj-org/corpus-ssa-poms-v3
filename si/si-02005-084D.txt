@@ -1,0 +1,233 @@
+SSA Program Operations Manual System (POMS) - SI 02005.084 - MMSS Eligibility and Payment Computations Under RMA
+Effective Dates: 09/08/2023 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005084 (fetched 2026-10-04)
+
+D. Examples
+There are three different methods to apply the MMSS eligibility and payment computation
+formulas depending on the individual's living arrangement in December 1973 and their
+CM Federal living arrangement (FLA). FLA's are defined in SI 01415.001. Use the chart below to decide which method applies.
+December 1973 Federal Living Arrangement
+​
+​
+A
+B
+C
+D
+CM FLA
+A
+Method 1
+Method 1
+Method 1
+Method 1
+​
+B
+Method 2
+Method 1
+Method 2
+Method 2
+​
+C
+Method 1
+Method 1
+Method 1
+Method 1
+​
+D
+Method 3
+Method 3
+Method 3
+Method 1
+1. Method 1 — Basic MMSS Computations
+a.
+This is the basic MMSS computation. Use it when neither the VTR nor the FBR payment
+limit for living in a title XIX facility applies, with two exceptions. Do not use
+this formula for:
+•
+Recipients converted in the household of another and currently subject to the VTR
+(whether or not the individual was continually subject to the VTR). The VTR has already
+been taken into account in the MIL, and it is unnecessary to consider it again in
+the computation. Follow method 2 for recipients currently subject to the VTR who were
+not converted in FLA-B.
+•
+Recipients converted in a title XIX institution and currently residing in a title
+XIX institution (whether or not the individual was continually in FLA-D). Follow method
+3 for recipients residing in a title XIX facility who were not converted in FLA-D.
+b.
+Example
+•
+Basic Computation
+Franklin Hightower has a MIL of $400. In January 1990, Franklin's income is a $120
+per month private pension. In November and December 1989, in addition to the pension,
+Franklin received rental income of $139.70 per month. FCI may be used in place of
+SCI in the computation. Compute their MMSS for January 1990.
+•
+The Eligibility Test
+$400
+MIL in January
+-100
+FCI in January ($120 pension - $20 general exclusion)
+-286
+Federal eligibility amount based on January FCI ($386 FBR - $100 FCI)
+$ 14
+Franklin is eligible for MMSS
+•
+The Payment Computation
+The amount of Franklin's January Federal SSI benefit is based on their income from
+November, the Federal BM.
+$386.00
+FBR in January
+-239.70
+FCI in November ($120 pension +$139.70 rent - $20 general exclusion)
+$146.30
+Federal payment due for January
+The amount of Franklin's MMSS is based on their Federal payment and FCI for January.
+$400.00
+MIL in January
+-100.00
+FCI in January
+-146.30
+SSI for January
+$153.70
+MMSS for January
+If Franklin is due an OSS payment equal to or greater than $153.70, pay the OSS instead
+of the MMSS.
+2. Method 2 — Individual Subject To The VTR For Federal Purposes
+a.
+Use method 2 when an eligible individual or couple:
+•
+Were converted to SSI in FLA-A, C, or D (but not B); and
+•
+Begin living in the household of another and receiving food and shelter (i.e., subject
+to the VTR).
+b.
+The MMSS VTR can never exceed the value of one-third of the A FBR in effect at the
+time that the most recent move into FLA-B became effective. When only one member of
+a couple meets the above requirements, the amount of the MMSS VTR is limited to one-sixth
+of the couple's FBR at the time that the most recent move into FLA-B became effective.
+c.
+Follow these steps to determine the amount of the in-kind income for MMSS purposes.
+•
+Step (1): Subtract the computation month's FCI (never use SCI) from the FBR in effect
+at the time of the most recent change to the household of another. If this results
+in an amount of zero or less, no in-kind income for MMSS purposes exists.
+•
+Step (2): Subtract the computation month's FCI (never use SCI) from the FBR in effect
+at the time of the most recent change to the household of another less one-third.
+If the result is zero or less, use zero in step 3.
+•
+Step (3): Subtract the result obtained in step (2) from the result obtained in step
+(1). The remainder is the amount of in-kind income in the month for MMSS purposes.
+d.
+This example shows the MMSS computation involving the VTR.
+Individual Becomes Subject To The VTR
+Adam was converted to SSI in an FLA-A with a MIL of $400. They have no income other
+than SSI. In February 1990, Adam moves into their nephew's home, and begins receiving
+both food and shelter. Compute the March 1990 MMSS as follows:
+•
+In-kind Income Computation:
+Step (1):
+$386.00
+FBR in March (effective month of move)
+- 0.00
+FCI in March
+$386.00
+Step (1) Result
+Step (2):
+$257.33
+FBR in March less the VTR
+- 0.00
+FCI for March
+$257.33
+Step (2) Result
+Step (3):
+$386.00
+Step (1) Result
+-257.33
+Step (2) Result
+$128.67
+In-kind income for March for MMSS purposes
+•
+MMSS Computation for March 1990:
+$400.00
+MIL
+-386.00
+($ 257.33 March Federal payment +0 FCI/SCI + $128.67 MMSS in-kind income)
+$ 14.00
+MMSS Payment for March
+3. Method 3 — MMSS Suspended For Living In A Title XIX Facility
+a.
+State supplementary payments may be suspended in months during which an individual's
+Federal payment limit is $30 (effective July 1, 1988) due to their stay in a title
+XIX facility. Upon discharge from the institution, the individual may again receive
+federally administered MMSS payments based on the MIL or, if higher, a federally administered
+OSS.
+NOTE: (1) MMSS payments are not suspended if the individual was converted in December 1973
+while residing in a Medicaid facility. (2) The benefits described in section 1619
+of the act and sections 1611(e)(1)E and 1611(e)(1)G of the act do not apply to the
+above discussions about title XIX institutions.
+b.
+When only one member of an eligible couple resides in a title XIX facility, MMSS computations
+follow the Federal rule that each member of the couple is treated as an individual.
+See SI 02005.030C. for Federal and OSS computations under RMA.
+c.
+Follow these steps to compute the MMSS payment for this couple:
+•
+Establish separate MIL's for each couple member. Follow the procedures in SI 02005.082D.6.
+•
+Compute the MMSS payment for the noninstitutionalized member, and the MMSS payment
+for the institutionalized member if they was converted in FLA-D, independently.
+•
+From the individual MIL(s) subtract the total of the individual's Federal SSI benefit
+and Randy's own income.
+d.
+EXAMPLE: One Member of an Eligible Couple Resides in a Title XIX Facility — Other
+Member in Own Household
+Randy and Laura were converted in the same State as eligible individuals in their
+own households. Randy's MIL was established as $450 based on a December 1973 GA of
+$410 and SCI of $40. Lauras' MIL was established as $300 based the December 1973 GA
+of $260 and SCI of $40. Their State of conversion does not elect to maintain supplementary
+payment levels for passalong purposes. They married in 1975. Their December 1973 incomes
+and grant amounts were combined to form new MIL's based on couple status.
+MIL Computation:
+$410
+Randy's December 1973 GA
+260
+Lauras' December 1973 GA
+40
+Randy's December 1973 SCI
++40
+Lauras' December 1973 SCI
+$750
+$750 divided by 2 = $375 MIL for each couple member.
+In September 1990 Laura enters a nursing home and Medicaid covers the entire cost
+of theircare. For every month that Laura remains subject to the $30 payment limit,
+the MMSS payments are suspended.
+Randy remains in their own household. Randy continues to receive the $55 company pension
+of which $40 was countable under the State plan. In October 1990 Randy begins receiving
+a monthly payment of $10 from a sibling. (Randy's State plan would not have counted
+the $10 had it been received in December 1973 because of the State's unearned income
+exclusion.)
+October 1990: This is the first month throughout which Laura is residing in the title
+XIX facility. Compute Randy's payment as an individual.
+Step (1): The MMSS Eligibility Test
+$450
+MIL in October (the original individual MIL)
+-341
+Federal eligibility amount ($55 pension +$10 from sister - $20 general exclusion =
+$45 FCI. $386 FBR - $45 October FCI = $341)
+$109
+- 40
+SCI for October
+$ 69
+Randy is MMSS eligible
+Step (2): The MMSS Payment Computation
+$450
+MIL in October (the original individual MIL)
+-351
+Federal payment amount ($55 pension - $20 general exclusion = $35 FCI. $386 FBR -
+$35 August FCI = $351)
+$ 99
+- 40
+SCI for October
+$ 59
+MMSS Payment for October

@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - SI 02101.020 - Large Past-Due Supplemental Security Income Payments by Installments – Individual Alive
+Effective Dates: 01/26/2024 - Present | TN 35 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101020 (fetched 2026-10-04)
+
+C. Policy - related issues
+1. Dedicated accounts - individual under age 18 with a payee
+A dedicated account is required if the individual is under age 18, has a payee, and
+the past-due amount (after Interim Assistance Reimbursement (IAR), representative
+fee payments, and prior overpayment collection) is greater than six times the FBR
+plus any federally administered State supplement. Because installment payments are
+required if the past-due amount equals or exceeds three times the current FBR plus
+any federally administered State supplement, any case that meets the dedicated account
+requirement also meets the installment payments requirement. Establish the dedicated
+account before releasing any past-due payments. For instructions on dedicated accounts,
+refer to SI 02101.010.
+2. Couple cases
+When members of an eligible couple both become eligible at the same time, determine
+if a case requires installment payments using the couple's FBR, plus any applicable,
+federally administered State supplement. However, when only one member becomes eligible
+while the other member's claim is pending, use the individual's FBR, plus any applicable
+federally administered State supplement, to determine if the case requires installment
+payments for that member of the couple.
+When the second member of the couple becomes eligible, one-half of the couple's rate
+applies in determining whether the case would require installment payments if that
+member is due an underpayment. This does not affect the first member's installment
+payments.
+3. Effect on resources
+Each installment payment retains a nine-month exclusion period following the payment
+receipt month. For retroactive SSI and RSDI payments, refer to SI 01130.600. Do not consider the unpaid installment balance a resource. Exclude dedicated account
+installment payments indefinitely as a resource.
+4. IAR payments
+The system holds the underpayment when a pending GR code is on the SSR. Conduct the
+prepayment review to send the electronic accounting record to the State and set the
+UPV of “V”. When the State certifies the interim assistance (IA) payment amounts,
+the system determines the reimbursement due and releases the past due payment following
+the priority of payment order. If the case meets an exception to eIAR, refer to the
+instructions in SI 02003.025.
+5. Representative fees
+Installment payments are determined after we reimburse the State for interim assistance
+or for the direct payment of any representative fees. If the authorized representative
+elects direct fee payment, refer to the instructions in:
+•
+Administering Representatives Fees Provisions - GN 03920.000
+•
+Fee Authorization Under the Fee Petition Process - GN 03930.000
+•
+Fee Authorization Under the Fee Agreement - GN 03940.000
+6. Overpayment collection with installment payments on the record
+We may deduct an overpayment for a different period from the unpaid balance of the
+past-due installments after we give the individual due process rights for the overpayment
+and the appeal period has expired. The system automatically offsets an overpayment
+against the past due installment when we release the first, second, or third and final
+payment.
+NOTE:
+When we pay authorized representative fees directly, and a prior overpayment is on
+the record, the priority of payment order is:
+•
+IAR payment
+•
+Direct Representative Fee Payment
+•
+Prior overpayment recovery. Refer to GN 03920.000, GN 03930.000, GN 03940.000, and SM 01901.000.
+7. Additional past-due SSI payments become payable
+Any additional past-due SSI payments that become payable during the installment period
+become part of the installment process. An automated notice informs the individual
+we will add the additional underpayment to the next installment payment. The individual
+must contact the field office (FO) to receive this money sooner. The FO needs to send
+an A-OTP, using the UPOT screen from the UPSP Menu, only for the additional past-due
+amount.
+8. FLA “D” cases
+For individuals in the FLA D living arrangement ($30 cap), the threshold when making
+the determination for paying past-due installments is an amount that equals or exceeds
+three times the current FBR, plus any federally administered State supplement, i.e.,
+for 2024, 3 X FBR of $943 plus any applicable State supplement.
+9. Period of ineligibility
+The installment payment process continues at six-month intervals for a maximum of
+three payments until we paid the past-due amount in full, unless the individual meets
+an exception in SI 02101.020B.2. When an individual is in a non-pay or suspense status, issue the installment payments
+using the A-OTP process and send manual notices, unless the individual resides in
+a correctional facility as described in SI 00529.001 and SI 02101.020D.3. in this section.
+10. Death of the individual
+If the individual dies prior to receiving all past-due payments, refer to SI 02101.002 to determine who is eligible for the decedent's remaining past-due SSI payments.
+11. Current calendar month payments included in the amount subject to installments
+If payments for the current calendar month, a subsequent month, or both are included
+in the amount subject to installments, issue an A-OTP for the current month or subsequent
+month or both. In some instances, this action removes the case from the installment
+provisions.
+Take this action only after any prepayment review of large underpayments as described
+in SI 02101.025, adjustment for IAR calculation, or adjustment for direct attorney or non-attorney
+fee payment, and collectible overpayment from a different period.
+EXAMPLE 1: If we effectuate the SSI claim on August 15th, the current computation month is September
+and the first monthly payment would be issued September 1st.
+We treat all due amounts through August as an underpayment subject to the installment
+provisions if the underpayment is more than three times the FBR. The FO must issue
+an A-OTP for August, the current calendar month.
+EXAMPLE 2: If we effectuate the claim after the current computation month cutoff in August,
+the current computation month is October, and we issue the first monthly payment on
+October 1st. Treat all payments due through September as an underpayment, subject
+to installment payment requirements if the underpayment is more than three times the
+FBR. In this situation, the FO must pay the current calendar month’s payment (August),
+and September’s payment by A-OTP. The FO will issue a manual notice when paying the
+current or subsequent month by an A-OTP. In both examples, the A-OTP may reduce the
+underpayment to less than three times the FBR, removing the underpayment from installment
+payment requirements.

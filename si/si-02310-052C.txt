@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - SI 02310.052 - Pension Interface (5H Diary)
+Effective Dates: 01/25/2017 - Present | TN 57 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310052 (fetched 2026-10-04)
+
+C. Procedure
+1. Identify Records
+Identify records containing 5H diaries by accessing the Post Entitlement Operational
+Data Store (PE ODS) system. Obtain a SSID to determine to whom the pension data pertain.
+REMINDER: Always apply AFI procedures by verifying financial account balances, regardless
+of any liquid resource allegation, when there is a resource-related diary present
+on an RZ or LI. For more information on verifying financial account balances, see
+SI 01140.206C.3.d.
+NOTE: Effective with tax year 1991, pension data is reported on Form 1099-R. Prior to tax
+year 1991 this was reported on a Form W-2P.
+2. Clear Diary
+Input data to the SSR to reflect the development of the 5H diary. (See SM 01301.215
+for pension fund deletion coding.)
+NOTE: If the case is a Limited Issue, Profile X, delete via RZ “D” entry. For more information related to the 5H diary, see SI 01140.206C.3.d.

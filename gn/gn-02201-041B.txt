@@ -1,0 +1,486 @@
+SSA Program Operations Manual System (POMS) - GN 02201.041 - Debtor Reactions to Collection of Title II Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 02/22/2021 - Present | TN 69 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201041 (fetched 2026-10-04)
+
+B. Due process requests
+1. Request for explanation of overpayment
+Upon receipt of a request for an explanation of the overpayment, proceed as follows:
+a. FO/TSC Action
+If the debtor first contacts the FO/TSC for an explanation, use the MBR/ROAR/PHUS
+or Title II Overpayment (QROP) (MSOM QUERIES 006.024 ), accessed via Inquiry Response
+or Master File Query, to provide an explanation of the overpayment. Keep explanations
+generic and, if possible, provide explanations immediately. If online queries contain
+insufficient information or unresolvable discrepancies, proceed as follows:
+•
+From the DMS menu, FO use the Protest/Stop Recovery Request (FO) screen (DRPF) (See
+MSOM DMS 006.019 ) and select “Explanation”. TSC use the Protest/Stop Recovery Request (TSC) screen (DRPT) (See MSOM DMS 006.020
+) and select “Explanation”.
+•
+Refer the issue to the servicing PC through an MDW.
+•
+On the MDW show “Necessary Action – TOP/ECO Case – Do not Backlog”.
+•
+Record the action taken on DMS Remarks screen.
+•
+Include the debtor's current address and daytime telephone number, if different from
+the address and telephone number shown on our records.
+•
+If asked, advise the caller that he/she should receive a response within 30 days.
+b. PC Action
+If the debtor first contacts the PC for an explanation, attempt to answer the question
+by using the MBR/ROAR/PHUS or QROP (MSOM QUERIES 006.024 ). Keep explanations generic
+to the extent possible. If online queries contain insufficient information or unresolvable
+discrepancies, from the DMS menu, on the Protest/Stop Recovery Request (PC) screen
+(DRPR) (See MSOM DMS 006.003 ), input “Explanation”, unless the FO/TSC has already input “Explanation” as in GN 02201.041B.1.a. Provide the explanation.
+Once the debtor has received a satisfactory explanation and requests no additional
+action, such as waiver, the PC's next action depends upon the status of the debt when
+the explanation was requested.
+•
+If the debt was written off (in terminated collection status) when the debtor requested
+an explanation, terminate collection by using the Terminate Collection screen (DFTE).
+(See MSOM DMS 007.003 ). Terminating collection will set the debt up for TOP and AWG
+selection in the next selection cycle.
+•
+If the debt was in RECOOP and was not written off when the debtor requested an explanation,
+input an installment agreement on the Record Installment Agreement screen (DRIN) (See
+MSOM DMS 006.014 ). This will resume billing and allow the debt to be selected for
+AWG and TOP.
+2. Request for waiver
+A request for waiver may be a formal request or may be implied. The request may be
+in various forms:
+•
+The SSA-632-BK, Request for Waiver of Overpayment Recovery
+(See GN 02210.030). This is the preferred form for requesting waiver because it elicits all information
+needed to make the waiver determination, or
+•
+A plea for relief in a letter to a PC or from a congressman, or
+•
+Verbal request to a field office, teleservice center, or Debt Management Section employee,
+or
+•
+The tear-off portion of the SSA-3105 (See GN 02201.009).
+A request for waiver within the 60-day period of the TOP/ECO notice will prevent AWG
+from being started. A request for waiver after AWG has begun will result in stopping
+AWG until the waiver decision is made.
+a. TSC Action
+If the TSC receives the request, proceed as follows:
+•
+Send an SSA-632-BK to the debtor.
+•
+Show “TOP/ECO Case”, the date and your office code in the upper right-hand corner of the SSA-632-BK.
+•
+Include a courtesy return envelope addressed to the FO that services the address on
+the AWG query or the debtor's current address, if different.
+•
+Advise the caller to complete the SSA-632-BK and return it to the servicing FO.
+•
+Record the action on DMS Remarks.
+•
+Input the informal waiver request to the Protest/Stop Recovery Request (TSC) (DRPT)
+screen. (See MSOM DMS 006.020 ).
+b. FO Action
+If the FO receives the request and no Protest/Stop Recovery Request screen has been
+input:
+•
+Input the waiver request to the Protest/Stop Recovery Request (FO) screen (DRPF).
+(See MSOM DMS 006.019 ).
+•
+Select protest reason “informal waiver” when the debtor indicates that he/she wants to file for waiver, but no signed SSA-632-BK
+(or equivalent information) has been received.
+•
+Select protest reason “initial waiver” when a signed SSA-634 (or equivalent information) has been received.
+See GN 02201.021 for detailed instructions for processing the waiver request in the FO.
+c. PC Action
+If the PC receives the request and no Protest/Stop Recovery Request screen has been
+input:
+•
+Input the waiver request to the Protest/Stop Recovery Request (PC) screen (DRPR).
+(See MSOM DMS 006.003 ).
+•
+See GN 02201.023 for detailed instructions for processing the waiver request in the PC.
+•
+take the following action (on a later day) depending upon the status of the debt when
+the waiver was requested: (1) If the debt was written off (in terminated collection
+status) when the debtor requested a waiver, terminate collection by using the Terminate
+Collection screen (DFTE). (See MSOM DMS 007.003 ). Terminating collection will set
+the debt up for TOP and AWG selection in the next selection cycle. (2) If the debt
+was in RECOOP and was not written off when the debtor requested a waiver, input an
+installment agreement on the Record Installment Agreement screen (DRIN) (See MSOM
+DMS 006.014 ). This will resume billing and allow the debt to be selected for AWG
+and TOP.
+3. Right to inspect and copy SSA records about the debt
+The individual has the right to inspect and copy SSA's records related to the debtor's
+overpayment.
+a. PC/TSC Action
+•
+If a debtor should contact the PC or TSC and request to inspect or copy SSA's records
+about his/her debt, refer the debtor to his/her servicing field office.
+•
+Record the action taken on DMS Remarks.
+b. FO Action
+•
+Ask the debtor what records he/she wants to inspect and copy.
+•
+If the debtor does not know what records he/she wants to inspect and copy, then review
+on-line queries.
+•
+If necessary, obtain the claims file.
+•
+When the claims file is located, notify the debtor and process in accordance with
+GN 03360.020 Privacy Act Administration – Copying Records.
+•
+Record the action taken on DMS Remarks.
+4. Request for review of the debt
+The law and regulations governing AWG allow the debtor to request a review of the
+debt. This review is an opportunity for debtors to present evidence showing they do
+not owe the debt or they do not owe the amount shown by SSA. This review is not the
+same as reconsideration of the overpayment determination, in that SSA's decision does
+not have any further appeal rights. (See GN 02201.040A.6.a. for more information about this AWG right.)
+a. Request review within 60 days of the pre-offset notice
+The debtor has 60 days from the date of the pre-offset notice to request the review
+and provide evidence that he/she does not owe the debt or does not owe it in the amount
+stated by SSA in the notice. Proceed as follows when the debtor makes a timely request
+within the 60-day period:
+TSC Action
+•
+Advise the debtor that SSA requires evidence to show that the debt is not owed or
+that the debt balance is different from what SSA states in the notice.
+•
+Tell the debtor that he/she will need to present the evidence to the field office.
+•
+Tell the debtor that until such evidence is presented, the AWG process remains in
+effect and SSA will order the employer to begin garnishment if no evidence is presented.
+•
+Enter remarks on the DMS Remarks screen to describe the reason for the call, the date
+and any pertinent discussion.
+FO Action
+•
+Upon receipt of evidence from the debtor, input the request for review on the Protest/Stop
+Recovery Request (FO) screen (DRPF). Select Protest Reason “Review
+Debt”. (See MSOM for more information about this screen). This will stop AWG and all other collection
+efforts, including TOP and credit bureau reporting, until SSA makes a decision on
+the request for review.
+•
+Based on the evidence, make a decision on the request for review and notify the debtor.
+Important: Do not include any further appeal rights in the notification to the debtor. The
+decision on the request for review is SSA's final decision.
+•
+If SSA's decision is that the debt is found to exist either in the amount stated in
+the pre-offset notice or in a different amount than stated in the notice, update the
+programmatic system to adjust the debt balance.
+•
+If the debt was written off (in terminated collection status) when the debtor requested
+a review, terminate collection by using the Terminate Collection screen (DFTE). (See
+MSOM DMS 007.003 ). Terminating collection will set the debt up for TOP and AWG selection
+in the next selection cycle.
+•
+If the debt was in RECOOP and was not written off when the debtor requested a review,
+input an installment agreement on the Record Installment Agreement screen (DRIN).
+(See MSOM DMS 006.014 ). This will resume billing and allow the debt to be selected
+for AWG and TOP.
+•
+If the debt is found not to exist at all, update the programmatic system to remove
+the debt.
+PC Action
+•
+If the debtor calls the PC, advise the debtor that SSA requires evidence to show that
+the debt is not owed or that the debt balance is different from what SSA states in
+the notice.
+•
+Tell the debtor that he/she will need to present the evidence to the field office.
+•
+Tell the debtor that until such evidence is presented, the AWG process remains in
+effect and SSA will order the employer to begin garnishment if no evidence is presented.
+•
+On the DMS Remarks screen, enter the reason for the call, the date and any pertinent
+discussion.
+•
+If the debtor sends evidence to the PC, input the request for review on the Protest/Stop
+Recovery Request (PC) screen (DPRP), selecting protest reason “Review Debt”. This will stop AWG and all other collection efforts, including TOP and credit bureau
+reporting, until SSA makes a decision on the request for review.
+•
+Based on the evidence, make a decision on the request for review and notify the debtor.
+b. Request for review of the debt after 60 days
+TSC Action
+•
+Explain that the period for requesting the review was 60 days from the date of the
+notice.
+•
+Tell the debtor that SSA will have to dismiss the request unless the debtor proves
+good cause for late filing.
+•
+If the debtor asserts good cause for late filing, advise the debtor to provide any
+evidence demonstrating good cause for late filing to the field office.
+•
+Tell the debtor that until such evidence is presented, the AWG process remains in
+effect and SSA will order the employer to begin garnishment if no evidence is presented.
+•
+Enter remarks on the DMS Remarks screen to describe the reason for the call, the date
+and any pertinent discussion.
+FO Action
+•
+Develop good cause for late filing. (See GN 03101.020).
+•
+If the debtor shows good cause for late filing and presents evidence to show he/she
+does not owe the debt or does not owe it in the amount SSA states in the notice, input
+the request for review on the Protest/Stop Recovery Request (DRPF) screen. Select
+Protest Reason “Review Debt”. (See MSOM DMS 006.019 for more information about this screen). This will stop AWG
+and all other collection efforts, including TOP and credit bureau reporting, until
+SSA makes a decision on the request for review.
+•
+Based on the evidence, make a decision on the request for review and notify the debtor.
+Important: Do not include any further appeal rights in the notification of the debtor. The decision
+on the request for review is SSA's final decision.
+•
+If SSA's decision is that the debt is found to exist either in the amount stated in
+the pre-offset notice or in a different amount than SSA stated in the notice, update
+the programmatic system to adjust the debt balance.
+•
+If the debt was written off (in terminated collection status) when the debtor requested
+a review of the debt, terminate collection by using the Terminate Collection screen
+(DFTE). (See MSOM DMS 007.003 ). Terminating collection will set the debt up for TOP
+and AWG selection in the next selection cycle.
+•
+If the debt was in RECOOP and was not written off when the debtor requested a review
+of the debt, input an installment agreement on the Record Installment Agreement screen
+(DRIN). (See MSOM DMS 006.014 ). This will resume billing and allow the debt to be
+selected for AWG and TOP.
+•
+If SSA's decision is that the debt does not exist, then update the programmatic system
+to remove the debt.
+PC Action
+•
+If the debtor calls the PC, proceed as in GN 02201.041B.4.a.under TSC Action.
+•
+If the debtor sends evidence to the PC, proceed as in GN 02201.041B.4.a. under FO
+Action.
+If the debtor requests review after 60 days and can't show good cause (see GN 03101.020) for a late request for review:
+•
+Dismiss the request AND send a written notice explaining that because the debtor did
+not file timely or did not show good cause for late filing, the request will be dismissed.
+5. Request for lower garnishment amount due to hardship
+A debtor whose wages are subject to AWG may, at any time, request a review of the
+amount or percentage garnished based on materially changed circumstances such as disability,
+divorce, or catastrophic illness which result in financial hardship.
+Important: SSA will not reduce the amount the employer withholds from someone's pay if the
+debt was caused by intentional false statement or willful concealment of or failure
+to furnish material information. (Willful concealment means an intentional, knowing
+and purposeful delay in providing or failure to furnish material information.) Do
+not take action on a request for lower garnishment amount due to hardship when the
+debt was caused by intentional false statement or willful concealment of or failure
+to furnish material information.
+The procedure for handling a debtor's request for a lower garnishment amount depends
+upon whether SSA can approve the request immediately, or SSA requires financial information
+from the debtor before deciding on the request. SSA's approval can be granted immediately
+when: (1) the person agrees to a garnishment amount that is at least $10 per pay and
+which would permit collection within 12 months, and (2) the person agrees to a garnishment
+amount of at least $10 per pay that will recover the debt within 60 months and the
+person can demonstrate that a higher amount would prevent the payment of ordinary
+and necessary living expenses.
+“Ordinary and necessary living expenses” include fixed expenses such as food, clothing, housing, utilities, maintenance, insurance,
+tax payments, medical, hospitalization and similar expenses, expenses for the support
+of others for whom they are legally responsible, and other reasonable and necessary
+miscellaneous expenses which are part of their standard of living. See GN 02201.041B.5.a. for instructions on processing immediate approvals of hardship requests.
+Note: A request for hardship does not prevent or stop TOP or credit bureau reporting.
+a. Immediate approval of hardship request – TSC/FO/PC action
+The process for granting an immediate approval of a hardship request is the same for
+the TSC, FO and PC. Proceed as follows when granting immediate approval:
+•
+Negotiate the highest garnishment amount but not less than $10 per pay. If the debtor
+alleges not being able to pay $10 per pay, explain that $10 is the minimum amount
+SSA can accept.
+•
+If the debtor offers to repay the debt at the rate of at least $10 per pay and that
+rate would recover the debt within 12 months, enter the negotiated amount or percentage
+on the AWG Update Garnishment Information (TRGA) screen. (See MSOM DMS 014.014 ).
+This will result in an automated notice to the employer and the debtor advising them
+of the reduced garnishment amount.
+•
+If the debtor offers to repay the debt at the rate of at least $10 per pay and that
+rate would recover the debt within 60 months, advise the debtor that SSA will grant
+the lower amount if answers to the following questions indicate hardship (i.e., expenses
+exceed income and assets):
+1.
+What is the amount of your income (weekly or monthly)?
+2.
+How much do you pay each week or month for ordinary and necessary living expenses?
+3.
+Do you have a savings account, certificate of deposit (CD) or an individual retirement
+account (IRA)? If “yes” record the type of account and the value. If “no”, indicate “caller alleges no assets”.
+•
+Enter the negotiated dollar amount or percentage on the AWG Update Garnishment Information
+(TRGA) screen. See MSOM DMS 014.014 for more detailed information about that screen.
+The system will send an automated notice to the employer and the debtor advising them
+of the lowered garnishment amount.
+b. Immediate approval not possible
+TSC Action
+•
+Enter the hardship requested on the AWG Suspend Garnishment for Hardship (TRSU) screen.
+See MSOM DMS 014.013 for more detailed information about the screen.
+•
+Advise the caller that in order to consider his/her request for hardship, documentation
+of income, assets and expenses is required.
+•
+Cross-out section 1 (page 2) on the SSA-634, annotate "AWG Withholding Request", and
+include a courtesy return envelope to the servicing FO.
+•
+Send the caller a SSA-634 to complete.
+•
+Advise the caller that we will review the SSA-634 and the hardship request. When we
+complete our action, we will send a written notice with our decision to the debtor.
+•
+Record the action taken and needed on DMS Remarks.
+FO/DMS Action
+•
+Check to make sure the AWG Suspend Garnishment for Hardship (TRSU) screen has been
+input. See MSOM DMS 014.013. If not, make appropriate input to the screen.
+•
+Advise the person that in order to consider his/her request for hardship, documentation
+of income, assets and expenses is required.
+•
+Cross-out section 1 (page 2) on the SSA-634, annotate "AWG Withholding Request", and
+give the caller the SSA-634 to complete.
+•
+Advise the caller that we will review the SSA-634 and the hardship request. When we
+complete our action, we will send a written notice with our decision to the debtor.
+•
+If the decision is to grant the request for a lower garnishment amount due to hardship,
+enter the negotiated amount or percentage on the AWG Update Garnishment Information
+(TRGA) screen. (See MSOM DMS 014.014).
+•
+If the decision is to deny the request for a lower garnishment amount, select "Resume
+Garnishment" on the AWG Update Garnishment Information (TRGA) screen. (See MSOM DMS
+014.014).
+•
+If the "Resume Garnishment" field on the TRGA screen is selected, an automated notice
+will be sent to the employer asking that the garnishment be resumed and a copy of
+the notice will be sent to the debtor.
+•
+If a new amount or new percentage has been entered on the TRGA screen BEFORE the garnishment
+package is sent to the employer, no notice is sent to the employer. If a decision
+is made AFTER the garnishment package is sent to the employer, an automated notice
+will be sent to the employer advising them of the new garnishment amount or percentage.
+•
+Record the action taken and needed on DMS Remarks.
+6. Debtor requests higher garnishment amount
+At any time, a debtor may request a higher garnishment amount or percentage. If the
+debtor contacts SSA with the request for higher garnishment, SSA will honor the debtor's
+written request without question. Oral requests, however, cannot be honored unless
+they are followed by the person's written request. Proceed as follows when the debtor
+requests a higher garnishment amount:
+a. TSC Action
+•
+Advise the caller that before SSA can process the request, the debtor must provide
+a written statement making the request and showing the name, CAN/HUN, and amount/percentage
+debtor requests.
+•
+Provide the debtor with the address of the servicing FO, and tell the person to send
+or deliver the written request to that office.
+•
+Record the action taken on DMS Remarks.
+b. FO Action
+•
+Upon receipt of a written request from the debtor, input the higher garnishment amount/percentage
+on the TRGA screen. See MSOM DMS 014.014 for more detailed instructions on the use
+of the screen.
+•
+If the debtor is present at the FO, advise the person that SSA will notify the employer
+to begin the higher garnishment.
+•
+If the debtor is not present, no action is required to notify the debtor because the
+TOP/ECO system will send an automated notice to the debtor acknowledging the increase
+in garnishment.
+c. PC action
+•
+If the debtor calls the PC to request a higher garnishment, follow GN 02201.041B.6.a.
+•
+Upon receipt of a written request from the debtor, input the higher garnishment amount/percentage
+on the TRGA screen. See MSOM DMS 014.014 for more detailed instructions on the use
+of the screen.
+The TOP/ECO system will send an automated notice to the employer to begin the higher
+garnishment. The system will also send the debtor a notice acknowledging the increase
+in garnishment.
+7. Request for reconsideration
+Debtors may request reconsideration of two different aspects of SSA's use of administrative
+wage garnishment: (1) the overpayment determination (fact/amount of the debt); and
+(2) the Agency's decision to use garnishment to collect the delinquent overpayment.
+a. Reconsideration of the overpayment determination
+Debtors subject to administrative wage garnishment are beyond the 60-day period for
+requesting reconsideration of the overpayment determination (fact/amount of the debt).
+Consequently, the TOP/ECO notice that informs debtors about SSA's intent to use collection
+tools such as garnishment, Treasury Offset Program and credit bureau reporting does
+not contain language offering the right to request reconsideration.
+Even though the TOP/ECO notice does not offer the right to request reconsideration
+of the overpayment determination, individuals may still make that request on debts
+subject to garnishment. Since overpayments subject to garnishment are delinquent and
+by definition beyond the 60-day period for requesting reconsideration of the overpayment
+determination, these requests must first be handled in accordance with policy and
+procedure in GN 03101.020, Good Cause for Extending the Time Limit to File an Appeal.
+Proceed as follows when the person requests reconsideration of the overpayment determination:
+TSC Action
+•
+Tell the caller that he/she had 60 days from the date of SSA's initial notice of overpayment
+to request reconsideration of the overpayment determination.
+•
+Tell the caller that he/she must show good cause for late filing in order for SSA
+to reopen the initial overpayment determination. Good cause for late filing can be
+found by SSA when, for example, the person was seriously ill and was prevented from
+contacting SSA in person, in writing, or through a friend, relative, or other person.
+See GN 03101.020, Good Cause for Extending the Time Limit to File an Appeal for more information on
+what constitutes good cause for late filing.
+•
+Advise the caller that he/she needs to submit a signed statement explaining the reason
+for the delay and documentation to support the explanation.
+•
+Provide the debtor with the address of the servicing FO, and tell the person to send
+or deliver the signed statement to that office.
+•
+Record the action taken on DMS Remarks.
+Important: Do not send the caller a form SSA-561-U2 (Request for Reconsideration).
+FO Action
+•
+Obtain a signed statement from the claimant explaining the reason for the delay and
+obtain documentation to support the explanation.
+•
+Explain to claimant that SSA will decide whether he/she has shown good cause for late
+filing and whether to extend the time or dismiss the appeal.
+•
+Prepare Report of Contact (RC) on the late filing evaluating claimant's statement.
+•
+Forward request, statement, documentation and RC to the PC for good cause determination.
+•
+Record the action on the DMS Remarks
+Important: Do not ask the person to complete a form SSA-561-U2 (Request for reconsideration).
+If the person insists on filing that form, accept it and input the request on the
+Protest/Stop Recovery Request (FO) screen (DRPF). (See MSOM DMS 006.019 for more detailed
+information about this screen).
+PC action
+•
+Make the determination on the issue of good cause for late filing.
+•
+If good cause for late filing is found, input the request on the DRPR screen if necessary.
+See MSOM DMS 006.003 for more detailed information about this screen.
+•
+Process the reconsideration determination according to instructions in GN 02201.025C.4., Overpayment-Reconsideration. If the reconsideration decision did not wholly reverse
+the initial overpayment determination, diary the case for resumption of garnishment
+in 30 days.
+•
+If good cause for late filing is not found, dismiss the request for reconsideration.
+•
+If the dismissed request for reconsideration was previously input to the DRPF/DRPR
+screen, input a denial to the Fact/Amount Appeal Disposition (DRAD) screen. See MSOM
+DMS 006.011 for more detailed instructions on this screen. The system will resume
+garnishment activity.
+b. Reconsideration of SSA's decision to use garnishment
+SSA's regulations at 20 CFR 404.903 (and 416.1403 for title XVI cases) include garnishment in the list of administrative actions that
+are not initial determinations. Therefore, the person has no right to a reconsideration
+request on SSA's decision to use garnishment.
+TSC/FO/PC should proceed as follows when the person requests reconsideration of SSA's
+decision to use garnishment:
+•
+Tell the person that SSA's regulations state that garnishment is not an initial determination
+subject to appeals, and that we cannot act on any such request.
+•
+Tell the person SSA will continue to use garnishment to collect the overpayment.
+Important: Do not solicit a form SSA-561-U2 (Request for Reconsideration) regarding SSA's decision
+to use garnishment.

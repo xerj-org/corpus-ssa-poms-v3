@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.360 - Coding Colombia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402360 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Colombia will have a prefix of 66 at the beginning of the routing
+and transit number (RTN).
+The first letter of the depositor account number (DAN) field has the letter U assigned
+for Colombia.

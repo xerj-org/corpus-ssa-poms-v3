@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - SI 00830.317 - VA Caregivers Payments
+Effective Dates: 01/22/2014 - Present | TN 120 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830317 (fetched 2026-10-04)
+
+D. Procedure for systems coding
+1. MSSICS claims
+Select from the MSSICS IMEN screen OTHER INCOME OR SUPPORT NOT PREVIOUSLY MENTIONED.
+On the IOTH screen, select OTHER and enter the words “VA CAREGIVERS PAYMENT” at the
+IF TYPE IS OTHER EXPLAIN field. For more information on the IOTH screen, see MSOM
+MSSICS 015.027.
+2. Non-MSSICS claims
+On the SSA-1719B (Supplemental Security Income Post-Entitlement Input) or SSA-450-SI
+(SSI Data Input and Determination) enter “SW” for the unearned income type and the
+amount of the VA caregivers payment. Enter the words “VA CAREGIVER” in the ID segment
+of the UM field to identify the income source. For more information on the ID segment,
+see SM 01305.250.

@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - DI 13015.040 - Folder in SSANRC, FRC, DDS, or ODAR Locations - FO Actions
+Effective Dates: 12/09/2013 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015040 (fetched 2026-10-04)
+
+C. Procedure – No Previous SSANRC or FRCs Search
+1. New SSN - No Previous SSANRC Search
+DO CONTACT SSANRC if they have a folder with another SSN that might contain the medical evidence, i.e.,
+a spouse"s or relative"s claim or the individual has multiple SSNs.
+2. Folder Moved After Initial Search
+DO CONTACT SSANRC if the folder moved to that location AFTER the DCF initial selection. Possible CFL reads are:
+•
+L0E SSANRC; or
+•
+L94-L99, etc. = Federal Records Center storage
+3. How to Contact SSANRC – Summary of Procedures
+a.
+Request the file via the Automated Folder Request using the 8028/AR33 screen. Adhere
+to the request and follow up procedures in SM 01201.055, SM 01201.175 and SM 01201.210.
+b.
+Once the SSID reflects a current date in the MV field followed by the letter C, indicating
+the SSANRC has cleared the folder to the requesting office, tickle for about 10 working
+days for receipt of the folder.
+c.
+NOTE: Establish your tickle controls using the DCF new worksheet (CDRW) located in
+MSOM CDR 001.013.
+d.
+FO receives an alert message, "Folder/PE Recall Requested Unable to Locate", if the
+SSANRC is unable to locate any claims folder or related material on the requested
+SSN as notification that NO folder/material could be found.
+e.
+In addition, under certain circumstances, check for the posting of an L50/L51 (unable to locate folder) in the CFL of the SSR when
+no folder/material can be located.
+NOTE: Both the SSANRC and the FRCs conduct two searches by different personnel before they
+declare a folder/material is unable to be located.
+f.
+Folder found and received in FO: See DI 13005.030.
+g.
+If unable to locate the folder(s), proceed to DI 13015.080.
+4. Folder in SSANRC or FRC (L0E, L86-L99) – Automated Recall
+DO CONTACT SSANRC if the FRC field on the SSID or offline query shows an SSANRC or FRC location (e.g., L0E, L86-L99).
+The presence of an entry in the FRC field indicates a claims folder has been receipted
+into the SSANRC.
+a. Folder Recall Request
+Request folders stored in the SSANRC or FRC using the SSA-8028 automated recall (AR33)
+procedure. Be sure to screen-print and date the SSA-8028 input to retain a record
+of the date of your request. The system does not display the request date.
+Example of SSI Query before AR33 is input:
+CCTL FUN: xxx xx xxxx CFL: L0E MV: 01/02/99-R FRC:L0E PFL:123
+Example of SSI Query after AR33 is input:
+CCTL FUN: xxx xx xxxx CFL:123 MV: 00/00/00 FRC:L0E PFL:L0E
+Zeroes appear in the MV field on the CCTL only when an automated recall has been successfully
+transmitted.
+Keep copies of queries in file to document they were obtained and highlight/circle pertinent
+areas.
+Note: If an AR33 is input and there is no claim folder reading in the SSANRC or FRC (no
+FRC field present when request input), then the following message will be generated
+to advise that the SSANRC will search for a PE file or material. “NO FOLDER; RECALLING PE MATERIAL” see SM 01201.260.
+b. Request Results
+As a result of the AR33 Transaction, the SSANRC will retrieve all SSI claims and PE
+folders stored in the SSANRC and the FRCs. They will consolidate the material and
+send it to the requesting unit in the FO.
+Example of SSI Query after SSANRC locates/clears the file:
+CCTL FUN: xxx xx xxxx CFL:123 MV: 07/01/00-C PFL:L0E
+c. Time Frames – Unable to Locate Messages
+It can take up to eight weeks (60 days) to receive the requested folder(s) – depending
+on the number of folders the SSANRC must obtain and where they are stored; i.e., retrieval
+time generally increases when material must be requested from the FRCs.
+If the SSANRC is unable to locate the requested folder(s), the FO receives an alert
+message “FOLDER/PE REQUESTED UNABLE TO LOCATE” and the SSI/CCTL query will be updated
+to show a CFL of L50 or L51 (unable to locate).
+The FO should take no further action to obtain the prior folder(s) from the SSANRC
+after a completed search indicates that the claims folder(s) could not be located.
+Example of SSI Query if SSANRC cannot locate the folder:
+CCTL FUN: xxx xx xxxx CFL:L50 MV: 00/00/00 PFL:L0E

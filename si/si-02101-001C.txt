@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - SI 02101.001 - SSI Underpayment Definitions and General Rules
+Effective Dates: 02/07/2014 - Present | TN 25 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101001 (fetched 2026-10-04)
+
+C. Procedure -- Review of Payments
+1. Review of Payments for a Period - Netting
+•
+Automated Netting
+Automated netting is part of the computational process (effective September 2002).
+Thus, unless the case meets one of the netting exclusions (see SM 01311.160B.1.),
+automated netting will take place whenever additional amounts due and excess payments
+exist that can be netted against each other to determine an end result of either an
+underpayment or overpayment in a period under review. Automated notices are released.
+(See SM 01311.160 for automated netting instructions.)
+•
+Manual Netting
+Manual nettings should only be performed if the case has an exclusion to automated netting. Determine for each of the months
+within the period under review whether there is an additional amount due or an excess
+payment. (The determination of underpayment or overpayment is the result of netting
+the month-by-month results for the entire period). See SI 02101.001E.2. - Example for an illustration of month-by-month netting. (See SI 02101.002B.3., SM 01311.165, SM 01311.160 and MS 00304.018 for netting procedures.) Manual notices
+will be required if the result of netting is an underpayment that is paid by A-OTP
+or if the FO has suppressed the automated notice. Manual notices can be found on the
+Document Processing System (DPS).
+2. Underpayment Less than $1
+If the underpayment is less than $1, take no action. The system will not release an
+underpayment less than $1.

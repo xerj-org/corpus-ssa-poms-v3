@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 03940.036 - Fee Agreement Process - Field Office (FO) and Processing Center (PC) Procedures - Partial Adjudication Involving Deferred Development, Including Workers' Compensation (WC) or Public Disability Benefit (PDB) Information
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940036 (fetched 2026-10-04)
+
+D. FO Actions – District Office Final Authorization (DOFA) Claims
+Take the following manual actions when the fee authorization cannot be released when
+the claim is effectuated:
+1. MCS Actions
+•
+Enter Fee Agreement Type (FAT) - 3 (Undecided) on NOT2 screen;
+•
+Designate an incomplete notice (e.g., enter “Y” in answer to the INCOMPLETE item of
+the NOT3 screen) (see MS 03509.010 for coding of the NOT3);
+•
+Instruct the PC to delete the fee agreement paragraphs. Request the appropriate fee
+agreement approval paragraph (MCS EC ATY800 or ATY801) and use a “neutral” language
+paragraph to address the representative's fee (see GN 03940.075 for paragraphs);
+•
+Enter the appropriate Single Payment System (SPS) issue code (see SM 00834.100 and
+MS 03508.004);
+•
+Annotate the special message field (see MS 06307.008 for instructions on completing the special message field) as follows: “Fee determination
+awaiting correct [WC/PDB rates or POA, etc.]”; and
+•
+Annotate the appropriate claim(s) transmittal as follows: “Fee Agreement Approved
+– Fee Payment Amount Unknown - Manual Notice Required.”
+2. Manual Award Actions (A101, EF101)
+•
+Enter Fee Agreement Type (FAT) U (Undecided) in Item 11;
+•
+Provide the fee agreement approval paragraphs (ATY800, ATY801) and the appropriate
+neutral language paragraph (see GN 03940.075 and NL 00720.050 for paragraphs);
+•
+Enter the appropriate SPS Issue Code (SM 00834.100, MCS Interface to SPS and MS 03508.004)
+on the MCS DW01 screen;
+•
+Annotate the special message field (see MS 06307.008  for instructions on completing the special message field) as follows: “Fee determination
+awaiting correct [WC/PDB rates or POA, etc.]”; and
+•
+Annotate the appropriate claim(s) transmittal as follows: “Fee Agreement Approved
+– Fee Payment Amount Unknown - Manual Notice Required”.

@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02210.214 - Debtor Willing to Repay
+Effective Dates: 11/20/2025 - Present | TN 91 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210214 (fetched 2026-10-04)
+
+B. Debtor agrees to installment payments
+When a debtor in non-pay status agrees to repay by installments, follow the steps
+in this chart.
+Step
+Action
+1
+Negotiate an installment amount that satisfies the debt within 12 months.
+2
+If unsuccessful, negotiate an installment amount that permits recovery within 60 months.
+3
+If not possible, negotiate the highest installment amount that is not less than $50.00
+per month for both Title II and Title XVI debts.
+4
+Once the debtor agrees to an amount:
+•
+Negotiate the due date for the payment. If we referred the debtor for TOP and credit
+bureau reporting, explain that those collection tools remain in effect.
+•
+Advise the debtor that installment payments will not stop offset if it has begun.
+SSA will still accept the payments but offset will continue. Explain that SSA will
+not refund any offset monies (except for excess collection).
+•
+If TOP and credit bureau reporting (if applicable) selects the debtor but has not
+yet been referred, explain that we must receive payment within 60 days of the date
+of the due process notice, or we will use the collection tools.
+•
+Advise the debtor that the debt will remain eligible for TOP and credit bureau reporting
+until we receive a payment and will be inactivated only as long as payments are made
+according to the agreement. However, upon default of one or more installment payments,
+the system will refer the debt to Treasury for collection, where it will remain until
+the debt is paid in full.
+•
+Advise the debtor to make the payment by check or money order payable to SSA;
+•
+Show the full debt account number/SSN on the check or money order; and
+•
+Mail the first installment using the pre-addressed return envelope and payment stub,
+if available.
+•
+If the debtor does not have a pre-addressed envelope, provide the mailing address:
+Social Security Administration
+P.O. Box 5480
+Portland, OR 97228-9816
+NOTE: Inform the caller that this address is for payments only. Do not send correspondence
+to this address.
+5
+Record the results of the conversation to the DMS RMKS screen, see DMS 009.003.
+6
+For Title II, input the installment amount via the Record Installment Agreement (DRIN)
+screen.
+For Title XVI, input the installment amount via a G TAC by completing the MSSICS Overpayment
+Decisions (UOPD) screen and select the RECOVER BY INSTALLMENTS Decision, see SM 01311.235
+and MS
+00304.008.
+7
+Consider renegotiation of an existing installment amount when there are missing installments
+or remittances that are less than the established installment amount. When the debtor
+misses installments or pays less than the established amount, mention that we will
+use TOP and credit bureau reporting (if applicable) if the debt meets all criteria
+(for criteria for the collection tools, see GN 02201.030, GN 02201.031, and GN 02201.032.)
+8
+If a debtor wants to pay monthly installments via credit card, follow GN 02210.205.

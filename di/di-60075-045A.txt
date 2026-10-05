@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 60075.045 - The Promoting Opportunity Demonstration (POD) Automated System (PAS)
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075045 (fetched 2026-10-04)
+
+A. How the PAS worked
+The PAS worked as follows:
+1.
+Received monthly earnings files containing earnings and IRWE from Abt;
+2.
+Calculated monthly offset amount using earnings files from the contractor;
+3.
+Deducted offset amount from the POD participant’s corresponding Monthly Benefit Amount
+(MBA);
+4.
+Created a manual adjustment credit and award process (MADCAP) action that updates
+the Master Beneficiary Record (MBR);
+5.
+Provided universal text indicator (UTI) information as part of the MADCAP action;
+6.
+Created (after the previous action) a special message on the MBR indicating that this
+is a POD beneficiary; and
+7.
+Added the “DP” demonstration code and the start and end date of participation to the
+HISTDEMO field on the MBR.

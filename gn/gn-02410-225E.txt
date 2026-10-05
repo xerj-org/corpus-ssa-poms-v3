@@ -1,0 +1,140 @@
+SSA Program Operations Manual System (POMS) - GN 02410.225 - Other Garnishment Situations
+Effective Dates: 08/26/2025 - Present | TN 71 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410225 (fetched 2026-10-04)
+
+E. Incorrect benefit garnishment
+Incorrect payments to a garnisher can occur in a number of instances as explained
+in this subsection. If the field office (FO) identifies an incorrect garnishment payment,
+refer it to the jurisdictional Processing Center (PC) for processing.
+1. Death of beneficiary and garnishment payment issued after death
+When a garnished beneficiary dies, do not terminate garnishment in COGS without a
+garnishment termination order from the court or the SDU. Contact the court or SDU
+using notice E3737 (Notice to Court Garnishment Ends). For an exhibit of the E3737
+notice, refer to NL 00703.737. Take no further COGS action until we obtain an order to terminate the garnishment.
+Fax all documentation from the court or SDU into the Non-Disability Repository for
+Evidentiary Documents (NDRED).
+When we issue a garnishment payment in or after the month of death, process the case
+as follows:
+•
+Post the incorrect payment to the Recovery of Overpayments, Accounting and Reporting
+(ROAR) using Type-of-Event (TOE) 52 (Unjust Enrichment), under the beneficiary identification
+code (BIC)(i.e., X1 or XY) that was used to issue the payment(s) per SM 00610.720A.3.;
+•
+Send a notice requesting refund from the court or SDU. For an exhibit of the notice
+to the court, refer to NL 00703.729;
+•
+Send a follow-up notice, if necessary, when the ROAR DIARY alert matures;
+•
+Control for a response to the follow-up notice; and
+•
+If collection is unsuccessful, discontinue debt recovery as a write off. For instructions
+on suspension or termination of collection action for title II and title XVI debts,
+refer to GN 02215.235.
+NOTE: If the deceased beneficiary has a representative payee or there is a surviving joint
+owner of a direct deposit account, that person is not liable for repaying the garnished
+portion of the incorrect payment.
+2. Death of custodial parent and garnishment payment issued after death
+When the custodial parent dies, do not terminate garnishment in COGS without a garnishment
+termination order from the court or the SDU. We will continue withholding in accordance
+with the latest garnishment order. Continue to withhold for garnishment, but do not
+pay over.
+Contact the court or SDU to determine if garnishment should continue.
+For instructions on the COGS processing of the Manual Adjustment (OGMA) Screen, refer
+to SM 00832.340.
+3. Incorrect payment to the garnisher
+Any amount paid to the garnisher in excess of the garnishment order is an incorrect
+payment.
+Example
+of incorrect payment:
+In 08/24, we began deducting garnishment of $450.00 a month from the garnished beneficiary’s
+payment. However, a keying error caused an incorrect monthly withholding amount in
+COGS. In 11/24, we discovered that the withholding order indicated that we should
+withhold $350.00 monthly for child support garnishment. We corrected COGS to garnish
+$350.00 a month beginning 11/24. The keying error resulted in an incorrect payment
+to the garnisher of $300.00 (i.e., $100.00 a month for the period 08/24 through 10/24).
+a. Currently garnishing benefits
+When we are garnishing benefits and the garnisher receives more than the amount due,
+the PC will recover the incorrect payment from current and future garnishment payments
+:
+•
+Change the PAYOVER to “N.” (For instructions on the COGS processing of the OGMA screen,
+refer to SM 00832.340.);
+•
+Add remarks to COGS explaining the incorrect payment and plans to recover the payment.
+For instructions on the COGS processing of the Remarks/Protest (OGRP) Screen, refer
+to SM 00832.360;
+•
+Send a notice to the garnisher explaining that garnishment payments will not be payable
+again until we fully recover the incorrect payment;
+•
+Diary for the first Current Operating Month (COM) that we can pay the full garnishment;
+and
+•
+When the diary matures, the PC will use the OGMA screen to issue any garnishment payment
+due and change the PAYOVER to “Y.” For instructions on the COGS processing of the
+OGMA screen, refer to SM 00832.340.
+b. Benefits are not currently garnished
+When the garnisher received more than he or she was due, (e.g., an order to stop garnishment
+is not received or action was not taken in a timely manner, etc.), seek refund of
+the incorrect payment(s) as follows:
+•
+Post the incorrect payment to the ROAR using TOE-52 (Unjust Enrichment), under the
+BIC (i.e.X1 or XY) that was used to issue the payment(s);
+•
+Send a notice requesting refund from the court or SDU. For language to use in the
+“Notice to Court Garnishment Ends, We've Paid the Receiver Too Much,” refer to NL 00703.729;
+•
+Send a follow-up notice, if necessary, when the ROAR DIARY alert matures;
+•
+Control for a response to the follow-up notice; and
+•
+If collection is unsuccessful, discontinue debt recovery as a write off. For instructions
+on suspension or termination of collection action for title II and title XVI debts,
+refer to GN 02215.235.
+c. Garnished incorrect beneficiary
+If we made garnishment payments to the garnisher correctly, in the correct amount,
+but we garnished the wrong beneficiary, the PC will take corrective action as follows:
+•
+Repay incorrectly withheld amounts to the beneficiary who was improperly garnished
+and terminate the COGS action on that claim. For instructions on establishing a garnishment
+case, refer to SM 00832.400.
+•
+Establish current garnishment in COGS for the correct beneficiary.
+•
+Do not attempt to recover retroactive garnishment from the correct beneficiary.
+4. Misdirected garnishment payment
+A misdirected garnishment payment occurs when a payment is issued to an incorrect
+entity.
+Example of a misdirected payment:
+The COGS record was established to issue payments to the Florida SDU; however, payments
+should have been issued to the California SDU.
+When we discover the misdirected payment and the incorrect entity has already returned
+the funds, update COGS with the correct entity's address and reissue the payment.
+If the funds have not been returned by the incorrect entity at the time of discovery,
+establish a COGS record for the correct entity by following SM 00832.400 and issue
+them a prior month accrual (PMA) in the amount of the misdirected payment. Additionally,
+complete these steps:
+•
+Terminate the COGS record for the incorrect entity following SM 00832.440;
+•
+Suppress the termination action notice via the Notice Address (OGNA) screen and use
+the current date as the Garnishment Order Stop Date;
+•
+Document the reason for termination in the remarks on the Remarks/Protest (OGRP) screen;
+•
+Rename the COGS record for the incorrect entity by adding “T” at the end of the Case
+ID per SM 00832.400B.5;
+•
+Post the incorrect payment to the ROAR using TOE-52 (Unjust Enrichment) with the incorrect
+entity’s BIC and change the name and address on the ROAR to the incorrect entity receiving
+the erroneous payment by following SM 00610.772;
+•
+Send a notice requesting a refund from the incorrect entity using this model language:
+View In Word
+•
+Send a follow-up notice, if necessary, when the ROAR diary alert matures at 90-days;
+and
+•
+Discontinue debt recovery as a write-off, if collection is unsuccessful, after the
+second follow-up notice matures. For instructions on suspension or termination of
+collection action for title II or title XVI debts, refer to GN 02215.235.

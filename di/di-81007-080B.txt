@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - DI 81007.080 - Internet Workload Management
+Effective Dates: 04/18/2017 - Present | TN 4 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007080 (fetched 2026-10-04)
+
+B. Deleting SSNs from the iWMI listings
+The WMI system does not have automated follow-up capability; if the SSN for a pending
+Internet Disability Report (IDR) is not removed, it remains on the iWMI list.
+There are several ways to remove SSNs from the listing:
+•
+Propagate the Internet data into the Electronic Disability Collect System (EDCS);
+•
+Annotate the Shared Processes (IZ60) Internet query with a “Y” in the “Remove From WMI Listing” field; and
+•
+Annotate the Internet query with a “Y” in the “Delete This Report” field.
+NOTE: Using this field does not immediately delete the record from the database. It marks
+the record for eventual purging, see DI 81007.080D.3.

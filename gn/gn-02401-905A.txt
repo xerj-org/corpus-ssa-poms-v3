@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02401.905 - Beneficiary or Recipient Contacts SSA Concerning a Limited Payability Notice
+Effective Dates: 07/16/2026 - Present | TN 53 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401905 (fetched 2026-10-04)
+
+A. Limited payability notice policy
+1. Title II
+When the Returned Check Action Program (REACT) system successfully processes a limited
+payability (LP) credit or LP correction (LPC), the Payment History Update System (PHUS)
+creates a new EVENT 169 UNNEG CK. In most cases, REACT annotates the RCLRN field with
+an N and produces a notice file. SSA mails the automated notice to the beneficiary
+stating that our records show a particular check(s) remain uncashed.
+The beneficiary has the option to circle the check(s) that they did not cash on the
+notice and mail the notice back to us. However, numerous beneficiaries prefer to call
+SSA or visit their local field office (FO) to request more information about the notice.
+2. Title XVI
+The supplemental security income (SSI) system does not send out a notice because SSI
+is a needs-based program. Contact the recipient directly whenever SSA receives a title
+XVI LP credit.
+See details:
+•
+SM 00630.369 Event 169 Unneg Check
+•
+SM 01315.085 Stages of the LP Process

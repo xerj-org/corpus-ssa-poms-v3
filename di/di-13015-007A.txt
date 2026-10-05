@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - DI 13015.007 - Failure to Cooperate- Insufficient Evidence Decision (FTC) Reinstatement Procedures for a Continuing Disability Reviews (CDR)- Field Office (FO)
+Effective Dates: 01/06/2020 - Present | TN 9 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015007 (fetched 2026-10-04)
+
+A. Reinstatement of benefits, beneficiary or recipient cooperates after FTC suspension
+If the beneficiary or recipient cooperates with our request for necessary information
+within the 12-month suspension period and is otherwise eligible, reinstate benefits
+or payments by selecting "2" Transfer Case on the CDR FO Input (IFOA) screen of the
+Disability Control File (DCF) and:
+•
+For medical CDRs, follow normal CDR processing instructions per DI 13005.025 Field Office (FO) Actions to Initiate a Continuing Disability Review (CDR) and DI 13005.030 Field Office (FO) Personal Contact and Exceptions. Complete a transfer action in
+the DCF to update the record and on the same day transfer the eCDR in the Electronic
+Disability Collect System (EDCS) or paper folder to the Disability Determination Services
+(DDS) for processing. The DCF transfer will reinstate benefits. Query the record to
+ensure benefits resume. For information on DCF inputs see MSOM CDR 001.007.
+•
+If work activity is the sole issue, follow procedures in DI 13010.210 Extended Period of Eligibility (EPE) - Overview, to determine if benefit reinstatement
+is appropriate.
+Note: The beneficiary or recipient does not file an appeal to have benefits reinstated.
+1. Title II reinstatement of disability benefits
+a. Beneficiary cooperates- medical CDR
+The DCF transfer triggers a Master Beneficiary Record (MBR) update to reinstate benefits
+and pay retroactive benefits due to the beneficiary and auxiliaries from the first
+month of suspension. Allow two days for this action to process. If the DCF input to
+reinstate benefits fails, the system generates an alert to the Program Service Center
+(PSC) for their action. Do not attempt multiple inputs in the DCF.
+Note: When the PSC must take a manual action to reinstate benefits because the DCF input
+did not process successfully, the (FO) must monitor and follow-up with the PSC until
+the PSC completes their action to update the record. If after 20 days from the attempted
+input the PSC action remains pending, send a high priority follow-up via the Modernized
+Development Worksheet (MDW). For follow-up guidelines, follow GN 01070.440D.2.
+b. Beneficiary cooperates- work activity involved
+If work activity is involved, follow DI 13010.210 Extended Period of Eligibility (EPE)- Overview to determine whether benefits are
+payable before reinstating.
+c. Reinstating Title II benefits if case cannot be transferred to the DDS
+If the otherwise eligible beneficiary responds to our request for necessary information,
+but the case cannot be transferred to the DDS (e.g., there is an administrative delay
+on forwarding CDRs to the DDS), benefits must be reinstated manually. Contact the
+PSC to reinstate benefits through a high priority MDW. See GN 01070.440D.2 for PSC follow-up time frames.
+d. Benefits terminated for reason other than FTC
+If Title II benefits terminate for a reason unrelated to FTC during the 12-month period
+of FTC suspension, and the beneficiary subsequently cooperates with the medical CDR
+by providing the requested information, benefits that were withheld due to FTC and
+prior to termination may be released to the beneficiary and auxiliaries. Because the
+benefits terminated, the FO must determine the payable months and work with the PSC
+to release payment.
+Example: The FO places a childhood disability beneficiary (CDB) in suspense for FTC
+effective 03/2018 (projected termination month is 03/2019). The CDB marries and disability
+benefits are terminated 09/2018. In 02/2019, the CDB contacts the FO and provides
+all the information requested for the medical CDR. The FO releases benefits from 03/2018
+through 08/2018 since the CDB cooperated prior to the end of the 12-month suspension.
+2. Title XVI reinstatement of disability benefits
+a. Recipient cooperates
+Reinstate benefits per SI 02301.210 Reinstatement, and follow normal CDR processing instructions for completing the medical
+CDR.
+b. Supplemental Security Record (SSR) coding necessary for reinstating benefits
+If the payment status code is N20 and the recipient cooperates, remove the N20 payment
+status. This will update the Medical Issue (MG) field in the Disability Information
+(DISB) line of the SSR with a code of "P" showing that FTC status has been removed.
+Also, remove any SSR remarks that refer to FTC. Input a CDR transfer in DCF and transfer
+the eCDR or paper CDR folder to the DDS of jurisdiction.
+c. Reinstating Title XVI benefits if case cannot be transferred to the DDS
+If the otherwise eligible recipient responds to our request for necessary information,
+but now the case cannot be transferred to the DDS (e.g., there is an administrative
+delay on forwarding CDRs to the DDS), use the Modernized Supplemental Security Income
+Claims System (MSSICS) to reinstate benefits. Add a remark on the SSID with the reinstatement
+date and reason for not transferring the medical CDR.

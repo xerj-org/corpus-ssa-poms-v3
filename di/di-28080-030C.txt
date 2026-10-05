@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 28080.030 - Due Process Requirements for Concurrent Title II/Title XVI Continuing Disability Review (CDR) Cases
+Effective Dates: 04/04/2012 - Present | TN 4 (09-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428080030 (fetched 2026-10-04)
+
+C. Individual Receiving Title II Benefits is Ineligible for Title XVI Payments for a
+Non-disability Reason
+The Title XVI due process provisions apply to concurrent Title II/Title XVI cases
+involving situations where SSA suspended the Title XVI payments for a non-disability
+reason, but Title II benefits continue to be paid.
+•
+The current status of the Title XVI payments at the time of the DDS query response
+determines concurrency for due process purposes. The SSI record (SSR) shows suspended
+Title XVI claims by non-payment status codes.
+•
+For concurrent Title II/Title XVI cessations, the DDS should obtain an SSI2 standard
+response query immediately prior to preparing the cessation notice. This second query
+is necessary since it is possible that the Title XVI payment status changed since
+the DDS obtained the query upon case receipt. For display of the SSI2 query format
+and an explanation of the various codes, see SM 01601.190.
+•
+Determine whether the individual receives Title II or Title XVI due process by examining
+both the Payment Status Code (PSY) field and the Denial Status (DS) field.

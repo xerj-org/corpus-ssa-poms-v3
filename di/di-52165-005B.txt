@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 52165.005 - Workers' Compensation/Public Disability Benefits (WC/PDB) Offset Data on the Master Beneficiary Record (MBR)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165005 (fetched 2026-10-04)
+
+B. Programs used to code WC/PDB on the MBR
+1. Modernized Claims System (MCS) Earnings Computation (EC)
+Initial claims processed through MCS automatically update the MBR with offset data.
+The same information is also available for propagation by Interactive Computational
+Facility (ICF) for post entitlement inputs.
+2. ICF and Title 2 Redesign (T2R)
+Post entitlement (PE) actions can be processed using ICF. The Claims Representative
+(CR) or a Claims Authorizer (CA)/Claims Technical Examiner (CTE) can enter the data.
+ICF processes the updates to the MBR through use of T2R or via MADCAP Direct Data
+Entry (MACADE) input.
+3. MACADE
+ICF inputs that are post entitlement (PE) limitations and ICF data coded for an A101
+or EF10, propagate into MACADE. The Processing Center (PC) benefit authorizer (BA)/
+benefit technical examiner (BTE) use MACADE to update the MBR with the coded ICF WC/PDB
+data. NOTE: A BA has limited capability to modify ICF WC/PDB data propagated into MACADE.

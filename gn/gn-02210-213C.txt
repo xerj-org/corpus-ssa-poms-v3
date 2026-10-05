@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02210.213 - Skiptracing
+Effective Dates: 08/25/2008 - Present | TN 23 (09-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210213 (fetched 2026-10-04)
+
+C. Procedure - undeliverable overpayment notice or bill--debtor contact representatives
+(DCR) action
+Note: If it is a RECOOP case that is being skip traced, the actions taken should be recorded
+on the RECORD SKIP TRACE (DBST) screen. (See MSOM DMS 008.011 .)
+When an undeliverable title II or title XVI overpayment notice or bill is received
+in the Debtor Contact Section (DCS), proceed as follows:
+STEP
+ACTION
+1
+Check for recent address change on the MBR, SSR or RECOOP. If there was a recent change,
+remail to the new address.
+2
+If no new address, obtain debtor's SSN and request online address from credit bureau.
+3
+If new address from credit bureau:
+•
+Remail the notice with the current date.
+•
+Update the MBR/SSR (and RECOOP - when appropriate).
+4
+If no new address from credit bureau:
+•
+Suspend billing if RECOOP debt.
+•
+Attempt to locate the debtor in accordance with instructions in this section. Resume
+billing if located.
+5
+Follow GN 02210.213E.. below if unable to locate the debtor.

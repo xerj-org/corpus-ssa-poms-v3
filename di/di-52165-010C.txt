@@ -1,0 +1,631 @@
+SSA Program Operations Manual System (POMS) - DI 52165.010 - How to Complete the Workers’ Compensation/Public Disability Benefits (WC/PDB) Interactive Computations Facility (ICF) Screens
+Effective Dates: 08/08/2012 - Present | TN 5 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165010 (fetched 2026-10-04)
+
+C. WC/PDB offset screen guide
+To assist users, additional information about certain ICF data entry, review and adjudication
+screens that are not included in MSOM are provided in this section. Click the screen you want more information about.
+NOTE: MSOM contains information about all ICF screens and fields. It is the official source
+for providing a complete reference of systems data.
+Data Entry Screens
+Screen Name
+POMS/MSOM Reference
+WCMU – WC/PDB Offset Program
+DI 52165.010C.1,
+MSOM ICFT2 031.002
+WCPA- Options
+DI 52165.010C.2,
+MSOM ICFT2 031.003
+WCGI – General Information
+DI 52165.010C.3,
+MSOM ICFT2 031.006
+WCSP – Spouse Data
+DI 52165.010C.4,
+MSOM ICFT2 031.009
+WCCH - Child Data
+DI 52165.010C.5,
+MSOM ICFT2 031.010
+WCCL – Claims
+DI 52165.010C.6,
+MSOM ICFT2 031.011
+WCCD - Claim Data
+DI 52165.010C.7,
+MSOM ICFT2 031.012
+WCEE - Periodic Payment Excludable Expenses
+DI 52165.010C.8,
+MSOM ICFT2 031.013
+WCPP - Periodic Payments
+DI 52165.010C.9,
+MSOM ICFT2 031.014
+WCLS – Lump Sum Data
+DI 52165.010C.10,
+MSOM ICFT2 031.015
+Review and Adjudication Screens
+Screen Name
+POMS/MSOM Reference
+WCDE - Computational Earnings
+DI 52165.010C.11,
+MSOM ICFT2 031.017
+WCAC - ACE Data
+DI 52165.010C.12,
+MSOM ICFT2 032.003
+WCWE – Lump Sum Proration Expenses Involved
+DI 52165.010C.13,
+MSOM ICFT2 036.004
+WCGO - General Offset Data
+DI 52165.010C.14,
+MSOM ICFT2 032.006
+WCAO - Account Data
+DI 52165.010C.15,
+MSOM ICFT2 032.007
+WCPO - PIC Offset Data
+DI 52165.010C.16,
+MSOM ICFT2 032.008
+WCNM - Notice Menu
+DI 52165.010C.17,
+MSOM ICFT2 033.002
+WCEP - Enclosure Notice Block
+DI 52165.010C.18,
+MSOM ICFT2 033.003
+WCDA - Adjudicate WC/PDB Claim
+DI 52165.010C.20,
+MSOM ICFT2 034.004
+Required fields display in yellow within the ICF WC/PDB programs where the system
+default colors are used in PCOM.
+1. WCMU
+MSOM ICFT2 031.002
+All fields are required. The system compares your inputs with the MBR. If an MBR does
+not exist, the comparison is to the Numident. All keyed information must match the
+MBR or Numident information before you can move to the next screen.
+2. WCPA
+MSOM ICFT2 031.003
+The WCPA allows you to determine the time period for your input and the source, if
+any, to be used for propagation.
+Input
+Explanation
+Enter the DIB Entitlement Start Date (MMYY)
+Enter DIB DOE for the period that is being processed.
+Start date for current action (MMYY)
+If WC data is on the MBR and does not show the legend converted.
+•
+If WC/PDB began prior to DIB DOE, then input a date equal to the DIB DOE (Disability
+Date of Entitlement)
+•
+If payments began after DIB DOE, then input the date of change caused by the new information.
+If WC/PDB data is not on the MBR or shows the legend converted.
+•
+Input the first date in which WC/PDB payments are being considered.
+Is this computation for an A101/Manual award (Y/N)
+Code this field with a “Y” if you will be completing an A101 or EF101. If not, leave
+it blank or answer “N”.
+NOTE: If processing an A101, you must complete the ICF input prior to completion of the
+A101.
+(A101 and WC/PDB DI 52155.025)
+(EF101 and WC/PDB DI 52155.030)
+This field will not be displayed if you are using ICF function #31.
+Select (X) WC/PDB Records available for propagation.
+The system will allow you to input an “X” next to any option that is available. If
+you can not place an “X” next to a record then the record does not exist for propagation.
+A Pre-adjudicate or Adjudicate record indicates the date they were created or “NIF”,
+if the record does not exist.
+Your options include:
+•
+Pre-adjudicate record – a record that has been saved for future adjudication.
+•
+Adjudicate record – created by a prior claim or PE input.
+•
+T2 shared data.
+•
+No propagation.
+NOTE: When you use propagated data, ICF will not consider any MBR changes or earnings changes
+that occurred after the prior datasheet was created.
+Display Datasheet Query Menu for Print/View Options (Y/N)
+This field is not required.
+Enter a “Y”, if it is necessary to view prior datasheets before processing an action.
+A “Y” response bypasses the current screen and allows you to view or print prior records.
+Once the datasheet has been viewed, the WCPA screen is brought back into the path.
+3. WCGI
+MSOM ICFT2 031.006
+The entries used on the WCGI screen dictates which screens will later appear in your
+path. Review all non-required fields carefully to determine if they apply. The (Y/N)
+fields that appear in white defaults to an “N” response if left blank.
+Screen Input
+Explanation
+Recomps after DIB Entitlement Start Date? (Y/N)
+If “N”, a response is not required.
+Indicate “Y”, if a recomputation is present on the MBR or to add a Recomp PIA. To
+determine if a Recomp has occurred, review the MBR for an increase in the PIA, effective
+with January of any year. For exceptions to a January effective date, see RS 00605.401B.1.
+NOTE: A PIA decrease requires an OREO action.
+Is Spouse Entitled? (Y/N)
+Are Children Entitled? (Y/N)
+Answer, “N” if a spouse or child(ren) are not involved
+Answer, “Y” if a spouse or child (ren) have been entitled on the record, even if they
+are no longer entitled. The system will allow you to indicate the date of termination.
+ACE Comp Needed? (Y/N)
+The system needs an ACE to compute the offset. This information may have propagated.
+You have two options.
+Answer “Y”. Let the system compute the ACE. You will need to enter the Divisor months.
+You must answer “Y” whenever there is a recomputation of the PIA.
+Answer “N”. Enter the ACE and the Method.
+NOTE: Unless you are certain the ACE you computed is correct, enter the divisor months
+and let the system compute the ACE.
+Enter Original ACE 100%: 80%: Method
+The calculated Ace and method used is located on the ACE line of the MBR or in MCS/EC.
+If you computed the ACE, you must also indicate the method used in the field below.
+Enter dollar and cents amount in the 100% or 80% field, and
+Indicate the Method used for the ACE computation.
+High 1 (H1), High 5 (H5), AMW (AM)
+This field is not completed if you choose to have ICF to compute the ACE.
+NOTE: Useful Help screens available.
+Divisor Months
+This entry is mandatory if you answer “Y” to Ace Comp Needed. If you do not know the
+number of Divisor Months (DM) you can calculate them yourself or use the system to
+compute them.
+NOTE: Divisor Months are used in the AMW ACE calculation so it is important that this number
+is correct.
+•
+System calculation
+a.
+If MCS/EC performed a computation then the Divisor Months will be shown on the PIA
+Calculation screen (DPIA) in the EC screen path.
+b.
+ICERS #23 from the Master File Query Menu (MFQM) can compute Divisor Months.
+1.
+Choose #4, Certified Earnings Record on the ICMN screen and press enter.
+2.
+Type the Date of Onset and Date of Filing on the ICIC screen and press enter.
+3.
+Choose “Y” to print a full record from the ICRS screen.
+4.
+The Divisor Months can be found in the Comp Data section at the end of your printout
+indicated by “DM: XXX”. Use the DM figure that was used for the PIA calculation in
+the OED.
+c.
+ICF function #24 may be the preferable method for cases involving multiple periods
+of disability. See MSOM ICFT2.024
+•
+Manual calculation - Use the divisor month help screen for an explanation of the manual
+calculation.
+4. WCSP
+MSOM ICFT2 031.009
+All fields on the WCSP are found on the MBR. These fields might be propagated for
+you.
+Screen Input
+Explanation
+Delayed? (Y/N)
+Delayed claimants are not common. They are included when dividing up the total base
+benefit payable to auxiliaries, but are not included in the Total Family Benefit until
+they are paid. If a Delayed Claimant exists, the HISTORY field for that claimant will
+show a Reason for Suspension or Termination (RFST) of DELYD.
+Number of Credit Months
+Credit Months can only apply if the spouse benefit is reduced for age. Credit Months
+are awarded for months, or partial months of non-payment. To determine if Credit Months
+apply, review the History segment of the MBR.
+If all months are payable, then there are no Credit Months.
+If there are months of non-payment see the link below to determine if Credit Months
+will apply.
+See Requirements to earn Credit Months, RS 00615.482B.2.
+5. WCCH
+MSOM ICFT2 031.010
+All fields on the WCCH are found on the MBR. These fields might be propagated for
+you.
+Screen Input
+Explanation
+Delayed? (Y/N)
+Delayed claimants are not common. They are included when dividing up the total base
+benefit payable to auxiliaries, but are not included in the Total Family Benefit until
+they are paid. If a Delayed Claimant exists the HISTORY field for that claimant shows
+a Reason for Suspension or Termination (RFST) of DELYD.
+6. WCCL
+MSOM ICFT2 031.011
+The WCCL screen allows you to input claim data for up to four separate WC claims.
+Screen Input
+Explanation
+Inj/Ill Date (MMDDYY)
+The Injury/Illness is the injury date shown in the Workers’ Compensation/Public Disability
+claim. This is NOT necessarily the same as the DIB Date of Onset.
+Type
+Indicate the type of WC/PDB benefit received.
+1.
+(WC) Workers’ Compensation payments
+a.
+State WC
+WP = State WC payments
+b.
+Federal WC
+BL = Black Lung Benefits, Part C
+FC = Federal Employees Compensation Act
+HW = Longshore and Harbor Workers’ Compensation
+2.
+(PDB) Public Disability Benefits
+a.
+SG= State PDB only
+b.
+ML = Local PDB only
+c.
+FM = Federal PDB only
+NOTE: Useful Help screens available.
+Inj/Ill State
+Input the two letter abbreviation for the state or political subdivision responsible
+for the WC payments. The field will be left blank for types BL, FC, FM, and HW.
+NOTE: Useful Help screens available.
+•
+When the field is empty and “F1” is selected a list of valid state codes is provided.
+•
+When the field is completed with a valid state code and “F1” is selected, State specific
+instructions are provided.
+Offset First Considered (MMYY)
+This date is equal to the date that the NH was simultaneously entitled to both WC
+and DIB payments, with three exceptions.
+1.
+A break in offset exists due to a break in DIB entitlement or WC entitlement. (If
+a break in offset exists, use the first month that offset applies after the break.)
+2.
+There is more than one WC claim involving different injury dates.
+3.
+The input is for a complex case, such as a structured settlement.
+NOTE: You cannot enter an OED prior to the injury date for the current claim.
+NOTE: The “Start Date for Current Action” from the WCPA screen is often coded incorrectly
+as the “Offset First Considered” date on this screen. These dates may or may not be
+the same. For instructions on Start Date for Current Action, see DI 52165.010C.2. in this section.
+Periodic Payments Involved?
+Enter “Y” to bring the input screen into your path.
+Lump Sum Payments Involved?
+Enter “Y” to bring the input screen into your path.
+NOTE: If you do not know the WC/PDB claim number, you may enter "UNKNOWN". You must
+secure the claim number after requesting verification. If an injury has both a claim
+# and a WC board/case #, code both the WCCL/WPCL separated by a slash (example: Claim
+# / WCB # or code only the claim #). Also, no two claims can have the same identifying
+WC/PDB claim #. In those situations, add an additional numeric or alpha character
+to identify that they are different.
+7. WCCD – Claim Data
+MSOM ICFT2 031.012
+The WCCD screen requests additional information about each WC claim that is involved.
+If you have multiple WC claims, review the top portion of this screen to determine
+which WC claim you are processing.
+Screen Input
+Explanation
+WC/PDB Claim Pending? (Y/N)
+“Y” indicates the Number Holder has filed for WC/PDB benefits and is waiting for a
+decision on the claim.
+WC/PDB Appeal Pending? (Y/N)
+“Y” indicates the Number Holder has already been awarded benefits, but has filed an
+appeal regarding the award.
+Reverse Jurisdiction Involved? (Y/N)
+If a Reverse Jurisdiction (RJ) or Reverse Offset agreement exists, the offset is performed
+by the State agency rather than SSA. This means that we pay the NH their full DIB
+and the State determines if any benefit adjustments are needed to the WC/PDB benefit.
+ICF requires you to answer this question, if the State of injury has a Reverse Offset
+plan.
+If you do not know whether Reverse Jurisdiction applies follow these steps:
+1.
+Consult the list of RJ States in DI 52105.001 or, leave the question blank and attempt to enter past the screen.
+•
+If you move to the next screen, Reverse Offset does not apply.
+•
+If you receive this message, “REVERSE JURISDICTION MAY APPLY, INDICATE IF RJ INVOLVED”,
+Proceed to step 2.
+2.
+You are working with a RJ State and need to determine if RJ applies for your input
+and how to code the input.
+•
+Refer to the procedures for your State, as they vary from state-to-state. For State
+specific POMS procedures, see DI 52120.001 and for PDB State specific procedures, see DI 52135.000.
+•
+Complete the start and/or stop date fields, using the State specific procedures and
+the instructions below.
+•
+If all WC ends and will be offset prior to the RJ Start date (periodic payments or
+a prorated lump sum), complete the field with an “N”. Answering “Y” may cause incorrect
+results.
+If Yes,
+Start (MM/YY)
+The start date is the month that SSA will no longer reduce the NH’s benefit. SSA will
+pay the NH their full DIB.
+NOTE: Review your payment output screens: The NH’s payment should not be reduced effective
+with the RJ start date month.
+Stop (MM/YY)
+The stop date is the month before the month that SSA begins to offset the NH’s benefit,
+after a period of Reverse Offset. You are not required to answer this question unless
+the State procedures require SSA to re-impose offset.
+EXAMPLE: For Florida, RJ starts with the month of adjudication and ends with the month the
+NH attains age 62. If the NH attains age 62 in 03/2008, then we must input a stop
+date = 02/2008. Based on this, ICF will apply offset to the NH’s benefits effective
+with 03/2008 (the month of age 62 attainment).
+Are Gross Amount Excludable Expenses from Periodic Payments Involved? (Y/N)
+This field is not required. An answer of “Y” will cause the WCEE screen to come into
+the path. Excludable expenses for periodic payments can be coded on the WCEE or the
+WCPP screen.
+•
+If expenses are paid periodically corresponding to the periodic payments, answer “N”
+to this field or leave it blank. Enter the expenses on the WCPP screen.
+•
+It may be desirable to code the expenses on the WCPP screen, rather than the WCEE
+screen, due to the limitations of the WCEE screen.
+•
+However, if expenses are attributable to the first month of offset or a specific month
+of offset, it may be desirable to answer “Y” and code the expenses on the WCEE screen.
+8. WCEE – Periodic Payment Excludable Expenses
+MSOM ICFT2 031.013
+Use caution on this screen. Expenses coded on the WCEE screen should not be coded on the WCPP screen. For additional cautions regarding excludable expense
+inputs, see DI 52150.050H.
+The individual field inputs are self-explanatory, but it is important to understand
+the way in which the WCEE screen treats the expenses entered.
+•
+The WCEE is used for one-time expense deductions. The expense is excluded in a manner
+similar to a Method A Lump Sum proration. The system fully excludes the WC payments
+until the entire expense is accounted for.
+EXAMPLE: $1000 monthly WC. $8500 expense. The system excludes $1000 for the first 8 months
+and then $500 in the 9th month.
+•
+A start date is required. The system ignores the day and treats the expenses as if
+they start on the first of the month.
+•
+There is no need to code a stop date because it will be ignored by the system.
+•
+The expenses entered are fully deducted from the WC/PDB periodic payment amount until
+all of the expenses have been excluded.
+9. WCPP – Periodic Payments
+MSOM ICFT2 031.014
+The WCPP screen allows you to code data for periodic payments. Start and Stop dates
+are day specific. The system automatically prorates any partial months of WC/PDB payments
+to calculate the monthly amount needed for offset. Most fields are self-explanatory
+and additional information is found in MSOM.
+NOTE: Use caution on this screen. DO NOT code expenses on the WCPP screen to the WCEE screen.
+For additional expense cautions, see DI 52150.050G. and DI 52150.050H.
+•
+Avoid errors
+The values entered in “Periodic Payment Amount”, “Frequency”, and “Ongoing Expenses”
+need to correspond to one another. For instance, if you enter a frequency of weekly
+and enter the “Periodic Payment Amount” as a monthly dollar value your results will
+be incorrect.
+•
+Periods of non-payment
+The system will require you to code data for every day between the first and the last
+WC/PDB payment. If there is a portion of time prior to the last payment when WC/PDB
+benefits were not paid you need to enter $0.00 as the payment amount during that period.
+•
+Useful Help screens available
+For further discussion regarding entering excludable periodic expenses, see NEPSC WC Info Page (Select links for “Systems Issues” under the heading “Links to the WC Refresher Training
+Student Materials”).
+10. WCLS – Lump Sum Award Data
+MSOM ICFT2 031.015
+The WCLS screen allows you to code data for a lump sum award. If expenses are involved,
+the system calculates and determines the most advantageous method of proration, using
+Method A, Method B, and Method C. You have the option to override the proration method
+if you disagree with the option selected by the system. If you override the system’s
+derived proration method, the basis for that decision must be annotated to the remarks
+screen, per DI 52150.060F.
+NOTE: A large payment does not necessarily represent a lump sum. If a WC/PDB payment is
+made that represents back pay for prior periodic payments do not treat the payment as a lump sum. See DI 52150.035A.5. for more complete information. Enter these payments on the WCPP screen.
+Useful links:
+•
+DI 52150.060E. – More about Lump sum Proration Methods A, B, and C
+•
+ICF Resource Page, “Selection of LS Proration Method ”)
+•
+For information regarding what qualifies as a "lump sum" see DI 52150.060A.
+Screen Input
+Explanation
+Lump Sum Start
+•
+Determining the correct start date can be complicated. Review the help screens to
+determine the correct start date. For more detailed information regarding the lump
+sum start date, see DI 52150.060D.2.
+•
+Useful Help screens available
+Gross
+Enter the total amount of the lump sum prior to any deduction for expenses.
+Proof? (Y/N)
+•
+If “Y” is not coded, the lump sum information is ignored by the system and is not
+included in the offset computation.
+•
+Useful Help screens available.
+Rate
+Frequency
+We consider offset for a Lump Sum, as if it will be distributed in periodic payments
+over an extended period of time. Use Rate and Frequency to specify the amount of money
+that will be offset each month.
+•
+Rate is the dollar value of the payment we count.
+•
+Frequency represents how often (monthly, weekly, etc) that the “Rate” is paid.
+•
+Useful Help screens available.
+•
+(Lump sum proration rate, see DI 52150.060E.3.
+Excludable Expenses
+Proof? (Y/N)
+Input any expenses that can be excluded from the NH’s WC/PDB payment.
+•
+The system will calculate all three proration methods and display them for you later
+in the screen path.
+•
+“Y” must be coded in the proof column for the expenses to be included in the offset
+computation. The system ignores the expenses if proof is not received.
+•
+Useful Help screens available.
+•
+For excludable expenses, see DI 52150.050.
+Amounts to be Deducted from Gross
+This field is only for amounts intended to be deducted from the gross lump sum amount
+before the LS is prorated. This is not an excludable expense. Special deductions from
+a LS should be rare, and either specifically authorized in POMS or approved by a policy
+expert.
+11. WCDE – Computational Earnings
+MSOM ICFT2 031.017
+The WCDE propagates earnings from the NH’s earnings record. You can overkey or add
+data if necessary. Changes made on this screen only affect your WC/PDB computation.
+This information will not update other SSA records.
+Change the data in the following situations:
+•
+The NH has earnings over the statutory maximum (Maximum SSA taxable amount). These
+earnings will affect the High 1 and High 5 Ace computations.
+•
+Posted earnings are incorrect or missing. If earnings are missing or incorrect, verify
+that the PIA is correct.
+NOTE: Earnings will be displayed in red for post-1977 years that show maximum FICA earnings.
+Check these earnings against the DEQY to determine if they are correct. For pre-1978
+maximum earnings see DI 52170.035 for more information.
+References
+•
+DI 52150.010 – ACE Computations
+•
+RS 01404.300 – Statutory Maximum by Year
+12. WCAC – ACE DATA
+MSOM ICFT2 032.003
+The WCAC screen displays computational information regarding the ACE. Review the information
+to determine if the figures are reasonable. You can not enter any information on this
+page, but you can access the help screens for most of the fields.
+13. WCWE – Lump Sum Proration Expenses Involved
+MSOM ICFT2 036.004
+When a lump sum (LS) has excludable expenses, the WCWE screen comes into the path.
+The system displays the computation for all three LS methods and selects the method
+it determines is the most advantageous. If the amounts are equal, the selection defaults
+to method A.
+The system calculates the most advantageous method without consideration for future
+events that may affect the proration. The following are examples of events occurring
+during the period of lump sum proration which may require you to override the method
+selected by system:
+•
+future termination of an auxiliary’s benefits
+•
+NH turns age 62
+•
+triennial redetermination
+•
+terminal illness may cause method A to be advantageous
+If you choose a proration method different from the system determination, document
+your reason on the Remarks screen.
+NOTE: Help screens are available.
+14. WCGO – General Offset Data
+MSOM ICFT2 032.006
+The WCGO screen lists general offset information. Review the screen for accuracy.
+•
+“Account WC/PDB Data” at the top of the screen describes the effective and termination
+dates for the entire record.
+•
+“Individual WC/PDB Offset Data” at the bottom of the screen describes the start and
+stop dates of the offset as it affects each individual on the record. When multiple
+start and stop dates are involved only the most recent dates will be shown.
+15. WCAO – Account Data
+MSOM ICFT2 032.007
+The WCAO displays a timeline of changes for the WC/PDB offset calculation. A separate
+line displays for any period that has a change in “Total Family Benefits”, “WC Only
+Amount”, and “Combined WC/PDB Amt”.
+Before entering the next screen:
+•
+Review the changes from one line to the next.
+•
+Determine that each change is correct.
+16. WCPO – PIC Offset Data
+MSOM ICFT2 032.008
+The WCPO screen displays changes as they affect each individual beneficiary on the
+record.
+Before entering the next screen:
+•
+Review the amount of the “Combined Offset Amt” and the “Amt Payable After Offset”
+for each claimant.
+•
+Look over your results, checking to see if they seem reasonable. If you were expecting
+different results you may need to review some of the prior input screens.
+•
+Print this screen for reference. It will be helpful when you begin to prepare the
+claimant’s notice at the end of the screen path.
+17. WCNM – Notice Menu
+MSOM ICFT2 033.002
+The WCNM screen is the first screen that addresses creating a notice.
+•
+For a pre-adjudicate action, you can bypass the notice coding.
+•
+For an adjudicate action, you must code additional information about the notice on
+the next screen (WCEP).
+18. WCEP – Enclosure Notice Block
+MSOM ICFT2 033.003
+The WCEP screen allows you to prepare the notice for action. See ICF notices in DI 52165.030.
+a. ICF notice data
+The CR/CA/CTE is required to create the notice data for any WC/PDB ICF adjudicate
+input, regardless of whether it is a PE input, A101, or EF101.
+b. Coding an ICF notice
+Code the notice in the ENB field. The help screens in this section describe the necessary
+formatting for the ENB field.
+Your options include:
+•
+Create a dictated paragraph
+A dictated paragraph is an explanation in your own words that describes the changes
+in the claimant’s benefits. It is preferable that the CR in the field office use this
+method of notice preparation due to their limited experience using MADCAP paragraphs.
+1.
+Type “C*AAA031”. This tells the system that you will produce a complete notice (C*)
+and you will insert dictated language (AAA031).
+NOTE: The ENB field should look like this – ENB: C*AAA031.
+2.
+Prepare the notice per instructions in DI 52165.030C.
+•
+Construct a table or chart
+To also insert a chart or table into the dictated notice to explain benefits (e.g.
+paid vs payable) use TBL019.
+NOTE: The ENB field should look like this – ENB: C*AAA031*TBL019.
+•
+Use WCP Paragraphs to Create a Notice
+For instructions when coding a notice in ICF using WCP paragraphs, see DI 52165.030.
+For cases involving an A101 or EF101, include in the ICF ENB any required non-WC/PDB claims paragraphs as well as all required WC/PDB “WCP”
+paragraphs (in this situation, code the paragraphs in the ICF ENB, not the A101/EF101
+ENB. See DI 52155.035 – Initial Determination Workers’ Compensation/Public Disability Benefit (PDB) Notices.
+c. When a notice is not created
+1.
+If the action taken does not require a notice, code the ENB field with “N”.
+2.
+If the PC needs to prepare a manual notice outside of the system because of space
+limitations on the Dictated Notice Language screen, code the ENB field with D.
+d. References
+•
+DI 52165.030 - Interactive Computations Facility (ICF) Workers’ Compensation/Public Disability
+Benefit (WC/PDB) Notices
+•
+NL 00719.015 - Instructions for Coding ENB Field
+•
+ICF Resource Page Tools - Paragraph Finder
+19. WCAR – WC/PDB offset remarks screen
+MSOM ICFT2 034.002
+Screen Input
+Explanation
+Remarks
+Remarks displayed in this screen are informational only. Based on the remarks, you
+should decide what actions are necessary. For example, prepare a diary if the remark
+states that offset should be removed when the NH attains 62.
+20. WCDA – Adjudicate WC/PDB Claim 4
+MSOM ICFT2 034.004
+On the WCDA screen, decide whether to process the action or save the action and process
+it in the future. Check for program limitations in DI 52165.020A.1. before adjudicating ICF #32.
+NOTE: If Civil Service Public Disability Benefits are involved, see DI 52130.001 – Types of Federal Public Disability Benefit (PDB) Payments.
+Screen Input
+Explanation
+Adjudicate WC/PDB Claim? (Y/N)
+“Y”
+•
+Post Entitlement input will transmit and attempt to effectuate the changes on the
+MBR.
+•
+A101 or EF101 input will save the WC/PDB data to be used by the PC when processing
+the
+award.
+•
+The datasheet will be locked and you will not be able to update it for two workdays.
+“N”
+Typing “N” will cancel the adjudicate action. Type “Y” in the following field to save
+as a pre-adjudicate record for future propagation. If you choose not to adjudicate
+the claim and fail to save the record as a pre-adjudicate record, all of the information
+will be discarded.
+Special Instructions
+Use this field to give additional information regarding your input. Examples include,
+•
+Input additional claim numbers for States that have both carrier and State claim numbers
+•
+Inform others where the documentation supporting your action has been stored.
+•
+If specifically required by POMS, such as when you used the LS Method A/B/C override
+or when you need to identify the system exception or limitation that required you
+to use OREO.

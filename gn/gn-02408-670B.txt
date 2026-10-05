@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02408.670 - Incorrect EFT Payment is Refunded by an Individual
+Effective Dates: 11/03/2008 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408670 (fetched 2026-10-04)
+
+B. Process when a refund is given to the field office (FO)
+For handling remittances, see GN 02403.000 procedures. Also see MSOM DMS 003.006 Field Office Remittance Input (RFOR).
+1. Refund is in cash
+When the refund is given to an FO in cash, the FO keys a receipt for the remitter.
+Keying the receipt generates a “coupon” for scanning at MATPSC. The coupon contains
+the account information as well as the money amount and date of receipt. The FO obtains
+a money order and sends the coupon and money order to MATPSC.
+2. Refund is by check or money order
+When the refund is by a check or money order, the FO keys a receipt that triggers
+a coupon. The bar code on the coupon contains the account information and money amount.
+The FO sends the coupon to MATPSC with the check or money order.
+3. Action at MATPSC
+MATPSC scans the coupon and makes an image of the check or money order before depositing
+it at an FI. When the account is:
+•
+Shown on the coupon, check, or money order, remittance staff at MATPSC applies the
+refund to the correct account.
+•
+Not shown, but the name and address of the remitter is given, MATPSC attempts to locate
+the necessary information.
+•
+Not available from any source, SSA has the money, but no record is credited with the
+refund. This can result in another attempt to reclaim the money, which can cause dual
+recovery. For Dual Recovery, see GN 02408.720.

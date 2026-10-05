@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02408.626 - Processing the Notice of Reclamation (FS-133) and the Request for Debit of the Financial Institution's (FI) Account (FS-135) for Title II Electronic Funds Transfer (EFT) Payments by the Program Service Centers
+Effective Dates: 03/24/2023 - Present | TN 75 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408626 (fetched 2026-10-04)
+
+B. Processing the FS-133
+The second page of the FS-133 form has three sections. The top section provides information
+on the amount of funds returned from the FI either by check or request for electronic
+debit. The middle section provides information from the FI regarding the reclamation,
+including last withdrawer information if provided by the FI, and the bottom section
+provides the FI's certification information regarding the reclamation request.
+1. The first section on the second page of the FS-133 can reflect if the FI has returned
+all of the funds, a partial amount, or if no funds have been returned. How Treasury
+completes the form determines what action the technician will need to take.
+a. When all of the funds have been returned (i.e., To Be Recovered By Agency block on
+FS-133 equals $0.00):
+Code the SSA-4208 to reduce the Special Payment Amount (SPA) and clear the Accounts
+Receivable System (ARS).
+See How to Complete Form SSA-4208 for Electronic Fund Transfer Reclamations SM
+00609.865C
+and SM
+00609.820. The SSA-4208 can be input via the MAMPSC Data Input Page.
+b. When part of the funds or no funds have been returned (i.e., To Be Recovered By Agency
+block contains a dollar amount):
+Code the SSA-4208 for the total amount refunded to reduce the SPA and clear ARS. See
+how to complete form SSA-4208 for Electronic Fund Transfer Reclamation SM 00609.865C. The SSA-4208 can be input via the MAMPSC Data Input
+Page see SM 00609.850.
+Attempt to recover the outstanding balance from the last withdrawer's address found
+on the back middle section of the FS-133. See GN 02408.630.
+If the FS-133 does not list the names of the withdrawer for a sole-owner account,
+request a reclamation via the Treasury Online Forms Requester (TOFR) on the MAMPSC Data Input Page. Send the material to the development hold file (DHF) for 60 days to control for
+the FS-135 response. If no FS-135 is received in 60 days, review TCIS's Dashboard
+for the FS-135 or debit action. If there is no FS-135 or debit action available, contact
+Treasury per GN 02408.635.
+REMINDER: Technicians should use the SSA-4208 to process a credit from the FS-133 and FS-135.
+Only use MADCAP/ROAR to reduce or clear the SPA/BOUD if the prior SSA-4208 input was
+coded incorrectly or there were missing E-stops.
+For international reclamations, technicians can use the SSA-4208 to process a credit
+from the FS-133 and FS-135 for cases that Alien Taxation does not apply. The SSA-4208
+can also be used for international reclamations to process a write-off or to clear
+ARS. If the initial SSA-4208 input was coded incorrectly, or if there was a missing
+E-stop, the use of the OR sic maybe warranted. For partial recovery or no recovery
+of International Reclamations, see GN 02408.945.
+NOTE: All international reclamations should be forwarded to PC8.
+2. The middle section of the FS-133 provides various information from the FI regarding
+the reclamation.
+a. If the FI provides a correction to the date of death information:
+Take the appropriate actions to develop for accurate date of death information, and
+if applicable, abandon the reclamation, see GN 02408.800.
+b. If the FI provides last withdrawer information:
+Follow the instructions found in GN 02408.630.
+c. If the FI protests the reclamation under the 120-day rule:
+Follow instructions found in GN 02408.610.C.3. In most PCs 120-day protests are handled solely by the OAS analyst.
+The bottom section provides the FI's certification information regarding the reclamation
+request.

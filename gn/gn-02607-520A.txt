@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02607.520 - PUPS Skeleton Records
+Effective Dates: 04/17/2023 - Present | TN 85 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607520 (fetched 2026-10-04)
+
+A. Procedure - PUPS skeleton records
+1. PUPS creation of a skeleton record
+PUPS screens and compares incoming inmate records against the SSR and MBR data to
+locate current entitlement/eligibility. PUPS creates a "skeleton record" when there
+is no active entitlement/eligibility for the SSN on the MBR or SSR. The PUPS skeleton
+record has no "STATUS" code on the PUST screen. PUPS creates only one skeleton record
+for an SSN, even though SSA may receive numerous reports of this same inmate information
+from a reporter. (After PUPS creates one skeleton record for the SSN for the latest
+period of confinement, no further skeleton records for other periods of confinement
+are annotated to the PUPS database.) The skeleton record remains inactive. If a beneficiary/recipient
+files for title II or title XVI benefits after PUPS creates the skeleton record, an
+alert appears on the MBR/SSR. This alert notifies the SSA technician to investigate
+the PUPS skeleton record before paying the claim. (The alert appears on the MBR/SSR
+whether or not the beneficiary files for social security benefits.)The alert should
+also serve as a reminder that the SSA technician should inquire about any other periods
+of confinement that may have occurred before the initial date of entitlement/eligibility.
+You can query and update skeleton records. Since there is no pending action for a
+skeleton record, the only possible entry in the SELECT TYPE OF ACTION field is "6"
+for CHANGE INFORMATION ONLY. By selecting "6" you can update the report with current
+data such as FID code, RELEASED DATE, and REMARKS. See MSOM PRISON 003.001-14 for a description of a skeleton record.
+NOTE: Review the skeleton record, and develop the period of confinement, if necessary,
+before processing an initial claim or an appeal.
+2. Instances where PUPS will not create a skeleton record
+Beginning in 11/02, PUPS will not create a skeleton record when the SSN verifies but
+no active entitlement/eligibility exists and:
+•
+a previous title XVI recipient's inmate record reflects a total period of confinement
+that is less than one full calendar month,
+•
+a previous title II beneficiary's inmate record reflects a total period of confinement
+of 30 days or less,
+•
+a previous concurrent (both title II and title XVI) beneficiary's inmate record reflects
+a total period of confinement of 30 days or less and less than one full calendar month; or,
+•
+SSA receives an inmate record and the inmate is not eligible or entitled to either title XVI or title II benefits and the record has a date of confinement and a date of release that reflects a period
+of confinement that is less than a full calendar month.
+NOTE: See GN 02607.500C. for instances where PUPS will not create a PUPS PENDING record.

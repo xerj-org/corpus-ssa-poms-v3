@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02408.620 - Manual Electronic Funds Transfer (EFT) Reclamation Requests and Exclusions
+Effective Dates: 12/04/2015 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408620 (fetched 2026-10-04)
+
+D. Process for Title XVI
+1. When to input a manual reclamation
+The Field Office (FO) manually inputs an E-stop in the following situations:
+•
+A death termination has been on the Supplemental Security Record (SSR) for more than
+30 days. The SSR shows that one or more incorrect payments were issued. However, the
+Treasury Status Query (UPTQ) does not show E-stops for one or more of these payments.
+For information on the Treasury Status Query, see MS
+00303.020.
+•
+An incorrect month or year of death has been discovered on the SSR, and the actual
+date of death was earlier. An E-stop is required for any incorrect payment that was
+not included in the original reclamation request.
+•
+The date of death is earlier than the start date (SD) on the current record.
+NOTE: Unlike Title II, there is no systems limitation on the number of payments that can be included in a Title XVI automated or manual
+reclamation request.
+2. Examples
+•
+The recipient's date of death was August 9, 2008, but on September 10, 2008, a date
+of death (DOD) of September 8, 2008, is input. When the technician discovers the error,
+he corrects the DOD and sends a request to the FO to input an E-stop for the September
+payment, which was dated September 3, 2008.
+•
+On September 30, 2008, a date of death for Ms. Day is input as July 10, 2008. When
+Ms. Day's daughter calls to correct the DOD to July 25, 2008, the technician corrects
+the date. However, the technician does not send a reclamation request, as the correct
+DOD did not change the months for which an automated reclamation had already been
+sent.
+•
+After the technician terminates Mr. Cheer's Title XVI record and establishes a new
+record with a start date of October 1, 2008, the technician learns that Mr. Cheer
+died on September 30, 2008. In addition to making the death input, the technician
+inputs an E-stop for the October 1, 2008, payment.

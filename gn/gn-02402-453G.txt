@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02402.453 - Coding Mongolia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 04/15/2022 - Present | TN 291 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402453 (fetched 2026-10-04)
+
+G. Example of coding Mongolia direct deposit
+The customer provides us with a signup form for Mongolia containing the following
+information: “MN121234123456789123.”
+•
+The first characters of the Monaco IBAN are “MN,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The next four characters of the IBAN represent the four-digit bank code.
+•
+The next 12 characters of the IBAN represent the 12-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 720000173
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “U” designated for Mongolia; and
+•
+Code the 12-digit account number “123456789123”
+3. Obtain the following information:
+•
+RTN: 720000173
+•
+Checking
+•
+DAN: U123456789123
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000173 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U123456789123
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 720000173
+•
+DAN- CU123456789123

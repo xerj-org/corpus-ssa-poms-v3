@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 23022.055 - Adding and Modifying Compassionate Allowances (CAL) Status; Removing and Reinstating CAL and Quick Disability Determinations (QDD) Status
+Effective Dates: 11/16/2021 - Present | TN 71 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022055 (fetched 2026-10-04)
+
+B. Adding CAL indicator for fast-track processing
+If there is no previous CAL history, the Disability Determination Services (DDS),
+the Office of Quality Review (OQR), and the Office of Hearings Operations (OHO) can
+manually add cases to CAL processing at any adjudication level.
+The following chart includes a few examples for adding cases to CAL (but not limited
+to):
+When to Add CAL Cases
+Examples
+New allegation of CAL condition
+DDS receives a report from claimant or FO of a CAL condition that was not included
+in the initial claims allegations on the SSA-3368-BK Disability Report—Adult or SSA-3820-BK
+Disability Report—Child.
+New evidence of CAL condition
+DDS discovers a new CAL condition in the Medical Evidence of Record (MER).
+System did not identify CAL condition
+CAL condition was alleged before the initial transfer, but the system did not recognize
+it due to misspelling, incorrect abbreviation, etc.
+When the DDS or OQR manually adds a claim as CAL, the system sends the following message
+to both eView and the DDS legacy system: “Case has been identified as a Compassionate
+Allowance because of the following conditions: <insert conditions>.

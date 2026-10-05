@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02210.217 - Debtor Unable or Unwilling to Refund the Overpayment - Debt Contact Representative (DCR) and Debt Specialist (DS) Actions
+Effective Dates: 03/16/2022 - Present | TN 67 (03-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210217 (fetched 2026-10-04)
+
+F. Title XVI debt – DCR procedures
+1. Debtor is unable to repay overpayment
+a.
+If a debtor alleges the inability to repay, solicit information about:
+•
+Present and Potential Income, including inheritance prospects;
+•
+Expenses and Assets (e.g., real property, savings account) - If expenses exceed income
+and no assets are listed, ask how expenses are met. Document the financial information
+on the Remarks screen in DMS (see MS 01109.001); and
+•
+Dependents. (However, consider the finances of all members of the household. Be alert
+to the possibility of concealed income and/or assets.)
+b.
+If appropriate, tell the debtor that the debt is subject to external collection tools
+and possible future collection by cross-program recovery. If applicable, tell the
+debtor that SSA can also refer the debt to the DOJ for enforced collection by civil
+suit.
+c.
+If the debtor has an organizational representative payee, refer to the DS to take
+appropriate action regarding recovery from that payee.
+Complete the following actions based on the debt amount from the chart below:
+If…
+Then…
+The Debt Less Than $20,000
+Complete the MSSICS Overpayment Decisions (UOPD) screen by selecting UNABLE TO REPAY
+decision (see MS 00304.008) allowing the system to build a C TAC in the OPDD segment and terminating internal
+collection efforts.
+The Debt Exceeds $20,000
+Refer to the DS.
+2. Debtor is not repaying overpayment
+If the debtor:
+•
+Has an organization representative payee, refer to the DS to take appropriate action
+regarding recovery from that payee.
+•
+Refuses to provide financial information or to make any repayment commitment, document
+the contact on the Remarks screen in DMS.
+Complete the following actions based on the debt amount in the following chart:
+If…
+Then…
+The Debt is $3,000 or less
+Complete the MSSICS Overpayment Decisions (UOPD) screen by selecting UNWILLING TO
+REPAY decision (see MS 00304.008) allowing the system to build a B TAC in the OPDD segment and terminating collection
+efforts.
+The Debt Exceeds $3,000
+Refer to the DS.

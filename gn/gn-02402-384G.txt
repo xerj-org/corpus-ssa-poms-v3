@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.384 - Coding Ethiopia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 243 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402384 (fetched 2026-10-04)
+
+G. Example of coding Ethiopia direct deposit
+The customer provides us with a signup form for Ethiopia containing the following
+information:
+Account Number: 1234567890123
+1. Derive the RTN
+•
+Code an RTN of 680000051
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+•
+Start with a country code of “I” designated for Ethiopia; and
+•
+Code the 13-digit Customer Account Number “1234567890123”
+3. Obtain the following information:
+•
+RTN: 680000051
+•
+Checking
+•
+DAN: I1234567890123
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000051
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: I1234567890123
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-680000051
+•
+DAN-CI1234567890123

@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 02410.222 - Garnishment Cases Involving Harassment, Abuse, or Life Endangerment (HALE)
+Effective Dates: 10/13/2011 - Present | TN 31 (10-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410222 (fetched 2026-10-04)
+
+B. Processing garnishment for HALE cases
+After OCO/CSI assigns a new SSN to the number holder based on HALE, for a case involving
+garnishment, CSI forwards the case to the OCO/OSB, Payment Determination Analysis
+(PDA) staff and processes as a priority action.  OSB notifies the field office (FO)
+that we assigned a new SSN based on HALE.  OSB processes the Court Ordered Garnishment
+System (COGS) action on the HALE case.
+1. When a HALE determination applies and a garnishment order is present in COGS:
+•
+OSB prepares the kill credit and establishes a new Master Benefit Record (MBR) on
+cases in any ledger account file (LAF) other than N or ND cases. See SM 00810.300,
+How to Change the Social Security Number.
+NOTE: LAFs N or ND will only have a special message annotated.
+•
+OSB prepares a special message to indicate the HALE status of the case. The special
+message reads as follows:
+HALE - GARNISHMENT CASE
+•
+OSB/PDA forwards the case to the OSB garnishment analyst to process the action to
+terminate COGS for the existing SSN. OSB reestablishes the garnishment order in COGS
+under the new SSN.
+You must forward any future garnishment amendment, termination, or inquiries on the
+HALE case to the OCO/OSB staff for processing.
+2. When we receive a garnishment order for amendment, termination, or a garnishment inquiry
+for a case, and HALE is present on the claim:
+•
+Fax the order or inquiry into NDRed.
+•
+Email OSB, at ||OCO OSB HALE GARN , to notify them of the garnishment action.
+•
+The OSB garnishment analyst takes action on the garnishment order in COGS, or addresses
+the garnishment inquiry.

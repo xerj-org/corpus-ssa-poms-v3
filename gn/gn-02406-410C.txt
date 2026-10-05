@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02406.410 - Department of the Treasury, Bureau of the Fiscal Service (Fiscal Service), Check Claims Branch (CCB) Claims Package Processing
+Effective Dates: 01/27/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406410 (fetched 2026-10-04)
+
+C. Treasury action when missing check negotiated after a permanent stop input
+When you input a permanent stop code of A, C, F, or G for a missing check, and then
+someone cashes the check in question, Treasury takes the following action regarding
+the claims package.
+IF
+THEN
+A-stop
+Treasury sends a status code and a claims package to SSA via TCIS.
+C-stop
+Treasury forwards the action to the Check Claims Branch (CCB).
+CCB requests the check image and prepares a claims package (FMS-3858, FS-1133, check
+image).
+CCB sends the claims package directly to the claimant for review and completion if
+the claimant does not recognize the signature as their own.
+F-stop (Title II)
+Treasury sends a claims package to the Processing Center (PC) via TCIS and notifies
+SSA.
+NOTE: Under Title XVI, a F-stop automatically occurs on the replacement check when the
+initial nonreceipt input is a B-stop.
+G-stop (check lost, stolen, and negotiated after the claimant or representative payee
+endorsed the check.)
+Treasury sends a claims package to the Processing Center (PC) or Field Office (FO)
+of jurisdiction via Treasury Check Information System (TCIS).

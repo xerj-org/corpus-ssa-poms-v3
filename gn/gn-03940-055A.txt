@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - GN 03940.055 - Title XVI and Concurrent Titles II and XVI Claims - Field Office Processing of the Fee Agreement Notice
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940055 (fetched 2026-10-04)
+
+A. Procedure - Notice Requirement
+1. Unfavorable Decision
+For unfavorably decided claims, do not prepare a fee notice.
+2. Favorable Decision - Fee Notice - Overview
+When the claimant submits a fee agreement and SSA issues a favorable decision, SSA
+issues a fee notice(s) to advise the claimant of the actions taken based on the agreement.
+For many title XVI fee agreement cases, the fee calculation; direct payment, if applicable;
+and the notice are automated through the title XVI system. The fee agreement notice
+content and the paragraph sequencing for automated notices are described in GN 03940.055C. through GN 03940.055F.
+When a title XVI fee notice is excluded from automated processing (see GN 03940.055B., Process - Manual Fee Notice Necessary), the title XVI claims representative (CR)
+prepares a notice through the Document Processing System (DPS). The CR follows the
+procedures in this section and additional procedures in GN 03940.070, Title XVI - Fee Agreement Manual Notice Field Office Processing. The CR will:
+•
+Prepare the title XVI fee agreement notice on a Form SSA-L8165-U2 (Important Information).
+•
+Depending on the circumstances in the case and the stage in the fee authorization
+process, include information about the approval or disapproval of the fee agreement,
+delay in fee authorization, fee authorization, and/or fee payment. Refer to GN 03940.055A.3. and GN 03940.055A.4. for guidance on the information to include in specific situations.
+•
+Include in all notices:
+–
+“Things to Remember” caption (Universal Text Identifier (UTI) XVI331 in SSI system/INFC08
+and AAA014 in DPS) and relevant UTIs (e.g., letter also sent in Spanish and a copy
+of notice being sent to representative and representative payee); and
+–
+“If You Have Questions” caption (UTI REFC01) and UTIs REF059 and REF064 in automated
+notices. In manual notices, use UTI REF032 with the REFC01 caption.
+•
+Send the fee notice to the claimant and representative payee, and a copy to the representative
+and legal guardian, if any. If the claimant died before the date of the notice, send
+the notice to claimant's survivors or estate.
+•
+If the decision maker requested to be notified of the fee authorization, send an e-mail
+message or a copy of the notice to the decision maker.
+3. Favorable Decision - Fee Agreement Disapproved
+a. Title XVI Only Claim - CR Disapproves Fee Agreement
+For title XVI only claims favorably decided at the initial or reconsideration level,
+the CR sends a notice of disapproval if the CR disapproves the fee agreement.
+•
+If the CR disapproves the fee agreement because there are no past-due benefits or
+disapproves the fee agreement for any reason, and the representative is not eligible
+for direct fee payment, advise the representative to file a fee petition if he or
+she wishes to charge a fee for his or her services. This is an automated notice. (See
+GN 03940.055C.1.)
+•
+If the CR disapproves the fee agreement, there are past-due benefits, and the representative
+is eligible for direct payment, advise the claimant that the fee agreement is disapproved,
+that SSA is withholding past-due benefits for direct payment and that the representative
+should file the fee petition within 60 days if he/she wants SSA to make direct payment
+to him/her. This requires a manual notice. (See GN 03940.070B.1.a.)
+b. Title XVI Only Claim - ALJ or AAJ Disapproves Fee Agreement
+If an Administrative Law Judge (ALJ) or an Administrative Appeals Judge (AAJ) disapproves
+the fee agreement, the ALJ or AAJ notifies the claimant and representative of the
+disapproval and the requirement to file a fee petition if the representative wishes
+to charge the claimant for his/her services. If SSA does not withhold past-due benefits
+because there are no past-due benefits or the representative is not eligible for direct
+payment, no additional notice is required.
+When an ALJ or AAJ disapproves the fee agreement, there are past-due benefits, and
+the representative is eligible for direct payment, SSA withholds past-due benefits
+and the CR sends a notice to advise the claimant that SSA is withholding past-due
+benefits for direct fee payment and that the representative should file the fee petition
+within 60 days if he/she wants SSA to make direct payment to him/her. This requires
+a manual notice. (See GN 03940.070B.1.b.)
+c. Concurrent Title II and XVI Claims
+For concurrent titles II and XVI claims, the title XVI CR does not notify the claimant
+and the representative of the fee agreement disapproval. The decision maker (i.e.,
+the title II CR, ALJ or AAJ) sends this notice.
+However, if SSA withholds title XVI past-due benefits because the representative is
+eligible for direct fee payment, the CR prepares a manual notice to notify the claimant
+and representative that SSA has withheld the claimant’s past-due benefits for possible
+direct payment. Also provide instructions about filing a fee petition. (See GN 03940.070D.)
+4. Favorable Decision - Fee Agreement Approved
+Begin all fee agreement notices with lead-in UTI XVI720 (UTI FEE038 in DPS). (See
+GN 03940.085 for text of this UTI and the other fee specific UTIs referenced in this section.)
+Automated notices include the UTIs outlined in GN 03940.055C. or GN 03940.055D. Situations that require a manual notice are listed in GN 03940.055B. Refer to GN 03940.070 for the content of manually produced notices
+NOTE: In concurrent titles II and XVI claims, the action to approve or disapprove the
+fee agreement is taken in connection with the title II claim.

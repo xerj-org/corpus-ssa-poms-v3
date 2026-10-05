@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 02402.368 - Coding San Marino Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402368 (fetched 2026-10-04)
+
+G. Example of coding San Marino direct deposit
+The customer provides us with a signup form for San Marino containing the following
+information: IBAN SM86U0322509800000000270100.
+•
+The first two characters of the IBAN are “SM,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The sixth through tenth characters of the IBAN represent the five-digit bank code.
+•
+The next five characters represent the five-digit branch code.
+•
+The last 12 characters of the IBAN represent the 12-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 71 (SSA designated prefix for IDD);
+•
+Code the five-digit bank code “03225”;
+•
+Code the first digit of the five-digit branch code “0”
+•
+Code the one-digit check code (i.e., 2) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technicians codes the DAN.
+•
+Code the country code of “C” designated for San Marino;
+•
+Code the last four digits of the five-digit branch code “9800”; and
+•
+Code the 12-digits of the bank code “000000270100”.
+3. Obtain the following information
+•
+RTN: 710322502
+•
+Checking
+•
+DAN: C9800000000270100
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710322502
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: C9800000000270100
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-710322502
+•
+DAN- C9800000000270100

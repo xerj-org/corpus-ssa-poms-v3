@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - SI 02310.065 - Unemployment Compensation Match (U5 Diary)
+Effective Dates: 05/15/2019 - Present | TN 48 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310065 (fetched 2026-10-04)
+
+C. Description of Alert
+The alert/diary from the OCSE match, as under the old match, is designated as “U5”.
+Generally, an alert will only have one quarters’ data. However, it is possible for
+an alert to have 2 quarters' data if the information is posted to the OCSE database
+too late.
+1. System Generates “U5” Alert
+The system generates a “U5” alert, controlled by PE ODS, when:
+•
+A UC record is detected for a recipient, deemor, or essential person; and
+•
+The UC benefit amount on the State record exceeds the type SC or SU unearned income
+amount on the SSR for a quarter.
+2. Diary is Suppressed
+The diary is suppressed if:
+•
+The SSR already has a “U5” diary (in which case a new diary is not set, but a paper
+alert with updated information is sent);
+•
+The UC income is for a period prior to eligibility; or
+•
+The UC income is for a deemor and the State UC data exceeds the type SC or SU income
+on the SSR by less than $1,050 per quarter (under the old match, the tolerance was
+$350 per month);
+•
+The recipient or deemor is currently in pay status other than C01 or M01 or M02 or
+E01, or was in a pay status other than C01 or M01 or MO2 or E01 in all months of the
+quarter;
+•
+The UC income is for a deemor and the SSR shows that the deemor received assistance
+based on need (ABON) for any month of the quarter.
+3. Replace Lost Alerts
+FOs can replace lost alerts via their Regional Offices.
+4. Alert Description
+The alert will be shown as follows:
+U5-STATE/SSI UNEMPLOYMENT COMPENSATION DISCREPANCY RUN DATE-MMDDYY
+FO    HUN      SURNAME      PAN          NAME      TYPE    STC
+441  000-00-0000   SMITH  000-00-0000    SMITH,B.     XF     10
+$1050.00   QTR/YR=41998
+NNNN/
+a. Heading
+A heading which reads:
+•
+“U5 - STATE/SSI UNEMPLOYMENT COMPENSATION DISCREPANCY”; and
+•
+The run date.
+NOTE: If the OCSE database did not include a surname for the person, the alert will have
+at the top the statement “NOTICE: THIS ALERT WAS GENERATED WITHOUT A SURNAME MATCH.”
+b. Third Line
+The third line of the alert shows:
+•
+The FO code;
+•
+The housed-under number;
+•
+The recipient's surname;
+•
+SSN of the recipient;
+•
+The recipient's name on the State/D.C. record (surname and initial);
+•
+The type of person (SM 01601.430);
+•
+The code for the State/D.C. that made the unemployment compensation payment.
+c. Following Line
+The following line shows the quarter and year, and the quarterly unemployment payment
+made. The first position of the “quarter” code indicates the calendar quarter of the
+wage report:
+1
+= January through March;
+2
+= April through June;
+3
+= July through September; and
+4
+= October through December.
+The last four positions of the “quarter” code show the century and year of the earnings.

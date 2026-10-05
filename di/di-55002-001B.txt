@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 55002.001 - Overview of Ticket Eligibility
+Effective Dates: 10/29/2002 - Present | TN 3 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002001 (fetched 2026-10-04)
+
+B. Process – the system selection of eligible beneficiaries/recipients
+1. The system identifies ticket-eligible beneficiaries/recipients
+A daily systems' run identifies ticket-eligible beneficiaries/recipients based on
+data recorded to the Master Beneficiary Record (MBR), the Supplemental Security Income
+Record (SSR), and the Disability Control File (DCF) (see DI 55002.035B and DI 55002.035C).
+2. Effect of subsequent coding changes
+The system looks for coding changes to the MBR, SSR, and DCF daily.
+a. Record not previously selected
+If a record was not previously selected and a coding change now makes the beneficiary/recipient
+ticket-eligible, the system will annotate the record as ticket-eligible and send the
+beneficiary/recipient a letter during the next scheduled mailing to notify them of
+their ticket-eligibility (see DI 55002.015B and DI 55002.015C).
+b. Record previously selected
+If a record was previously selected and a coding change now removes the beneficiary/recipient
+from a ticket-eligible status, one of two things occurred. Either the system notes
+that the beneficiary/recipient does not currently have an “assignable” ticket (see
+DI 55025.001B.1.) or the ticket has terminated.
+•
+The practical effect of not having an “assignable” ticket for those who have not yet assigned their tickets is
+that they cannot do so until the ticket becomes assignable again. However, those who
+have assigned their tickets to providers may continue to participate in the Ticket
+program even though they do not currently have assignable tickets.
+•
+The practical effect of having a terminated ticket is that the beneficiary/recipient
+is no longer eligible for the Ticket program.

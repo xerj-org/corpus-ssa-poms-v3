@@ -1,0 +1,120 @@
+SSA Program Operations Manual System (POMS) - SI 01210.640 - Special Blind Income Disregards - Recipient With Eligible Spouse (Both Qualify for State Plan Blind Income Disregards)
+Effective Dates: 11/06/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210640 (fetched 2026-10-04)
+
+C. Procedure
+1. Example
+A blind grandfathered eligible couple living in State X has the following income:
+•
+$125 RSDI to husband
+•
+$120 RSDI to wife
+•
+$250 wages to husband
+•
+$200 wages to wife
+•
+$ 60 BWE of husband under both Federal and State plan rules
+•
+$ 65 BWE of wife under both Federal and State plan rules
+The State plan treated each member of the couple as an individual.
+The State plan income disregards used in the chart below are typical. Actual disregards
+vary by State.
+2. Chart: Determining CI
+STEP
+ACTION
+EXPLANATION
+EXAMPLE
+Husband - Unearned Income -
+Wife
+1
+Compute BCI
+Apply the applicable State plan income disregards (SI
+01210.500) to the income of each recipient. Then add the two results.
+$125.00
+-  8.00
+$117.00
+-  7.50
+$109.50
+RSDI
+two $4 RSDI pass - alongs
+general disregard
+countable unearned income
+$120.00
+-  8.00
+$112.00
+-  7.50
+$104.50
+Husband - Earned Income -
+Wife
+$250.00
+wages
+$200.00
+- 85.00
+earned income disregard
+- 85.00
+$165.00
+$115.00
+÷   2
+disregard of one- half remainder
+÷   2
+$ 82.50
+$ 57.50
+- 60.00
+BWE
+- 65.00
+$ 22.50
+countable earned income
+$    0.
+BCI
+$109.50
+countable unearned income of husband
+104.50
+countable unearned income of wife
++22.50
+countable earned income of husband
+$236.50
+BCI
+Unearned Income
+2
+Compute CI/FR.
+Apply the SSI exclusions to the combined income of the couple.
+$125.00
++120.00
+$245.00
+- 20.00
+$225.00
+RSDI - husband
+RSDI - wife
+general exclusion
+countable unearned income
+Earned Income
+The system performs this computation, except for cases requiring a manual computation.
+$250.00
++200.00
+$450.00
+- 65.00
+$385.00
+÷    2
+wages - husband
+wages - wife
+earned income exclusion
+exclusion of one-half of remainder
+$192.50
+- 125.00
+BWE - husband ($60.00) and wife ($65.00)
+$ 67.50
+countable earned income
+CI/FR
+$225.00
++67.50
+$292.50
+countable unearned income
+countable earned income
+CI/FR
+3
+Determine CI.
+Compare BCI from step 1 with CI/FR from step 2. Use the lower amount.
+(After gross income and BCI have been input, the system performs this comparison,
+except for cases in force due.)
+$236.50 CI (BCI from step 1)

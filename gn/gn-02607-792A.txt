@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02607.792 - Processing Title II 3BOP PUPS Alerts or Records
+Effective Dates: 09/11/2014 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607792 (fetched 2026-10-04)
+
+A. Procedure - Processing Title II 3BOP PUPS Alerts
+1. PC/OCO-ODO Processing of Title II 3BOP Alerts
+The PCs/OCO-ODO will receive title II 3BOP PUPS alerts that contain an inmate status
+code of Y EVS codes of V or L alerts that contain a date of conviction and a date
+of confinement of 4/01/00 or later; and, the confinement date is at least 30 days prior to the run processing date on the
+PUPS record/alert.
+Process these 3BOP PUPS alerts as indicated below.
+a. Inmate Identity is Not Questionable and All Necessary Information Is On The PUPS Alert/Record
+to Suspend The Title II Benefit
+Process as follows:
+EVS CODE
+INMATE STATUS CODE
+PC/OCO-ODO ACTION
+V
+Y
+Suspend benefits to the beneficiary. See GN 02607.700 GN 02607.750 for processing instructions.
+L
+Y
+Suspend benefits to the beneficiary. See GN 02607.700 - GN 02607.750 for processing the suspension
+b. Inmate Identity is Questionable or All The Inmate Information Is Not on the PUPS Alert/Record to Suspend the Title II
+Benefits
+If the identity of the inmate on the alert is questionable, or additional inmate information is necessary before SSA can make an initial determination
+on the status of the PUPS alert/record, process as follows.
+•
+Update the PUPS record with REMARKS indicating what information is missing on the
+PUPS that SSA must obtain in order to make an initial determination.
+•
+Identify the FO that will develop for the missing inmate information.
+•
+Transfer the PENDING PUPS record to that FO for their development action and final
+processing of the 3BOP PUPS record. Transfer the PUPS PENDING record to the FO servicing
+the beneficiary's mailing address on the MBR. (See GN 02607.465 for information on transferring PUPS PENDING records.)
+2. Transferred 3BOP Alerts to the FO
+The FO will develop for missing inmate information and complete total processing of
+the transferred 3BOP alert. The FO will not transfer the PUPS record back to the PCs/OCO-ODO
+for final processing of the PUPS record after the develop action is completed, unless
+a PUPS automated processing exclusion exists on the record. See GN 02607.740 for instruction on processing PUPS automated processing exclusion cases.

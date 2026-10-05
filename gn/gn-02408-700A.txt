@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02408.700 - Erroneous Death Termination Involving EFT Payments
+Effective Dates: 12/04/2015 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408700 (fetched 2026-10-04)
+
+A. Background
+An erroneous death termination is caused by:
+•
+an incorrect report,
+•
+a death match with another agency that has received an incorrect report,
+•
+an erroneous return by the financial institution (FI) with a reason code of death,
+or
+•
+an input error at SSA.
+Once the erroneous death is on one of SSA's systems, it is propagated to other SSA
+and Medicare/Medicaid systems.
+Incorrect returns frequently come from FIs as a result of a report received from SSA
+or another source by the FI. For example, when SSA sends a Death Notification entry
+(DNE), the FI “flags” the customer's account to return any future payments for this
+customer. Sometimes future payments received for joint account holders, including
+a spouse, are returned erroneously with a reason of death.
+A Title II EFT payment that the FI returns for death does not automatically result
+in death termination. Instead, the beneficiary's/recipient's benefits are suspended
+while the responsible component develops to determine whether the report of death
+is accurate. However, it is still possible to encounter a case in which the beneficiary/recipient
+has been erroneously terminated for death by other means.
+For information about DNEs, see GN 02408.605.

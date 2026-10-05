@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 10105.901 - Taking and Processing Retirement Insurance Benefits (RIB) Applications Filed During the Benefit Continuation Period (BCP)
+Effective Dates: 06/15/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410105901 (fetched 2026-10-04)
+
+B. Field Office (FO) role
+The FO will:
+1.
+Review the Master Beneficiary Record (MBR) and all other available sources to determine
+if the evidence needed to process the RIB award was obtained for the DIB claim (See
+GN 00302.011 for proof of age codes). Complete development as in any other RIB claim.
+2.
+Process the claim by completing an A101 Automated Determination of Award for the NH,
+and any auxiliaries, using the MBR for entitlement data. Enter the NH's Social Security
+number (SSN) in the “Cross Reference SSN” entry on the BENE screen, with a “Status
+Code” of “A”.
+In the remarks portion of the A101 enter:
+•
+“Do Not Process”
+•
+“BCP Claim - Do Not Process RIB Award Unless DIB Cessation is Affirmed”
+3.
+Adjudicate the A101. Modernized Claims System (MCS) will establish a control and transfer
+ownership to the processing center (PC).

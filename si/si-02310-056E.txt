@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - SI 02310.056 - Master Earnings File (MEF) Match (J3 and J5 Diaries)
+Effective Dates: 03/06/2009 - Present | TN 68 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310056 (fetched 2026-10-04)
+
+E. Procedure for clearance of MEF diaries
+1. Identify MEF diary records
+Identify records with MEF diaries (J3 or J5) by accessing the PEODS system. Obtain
+an SSID to determine to whom the MEF data pertain. (See MEF/SSR Earned Income Enforcement
+Interface, SM 02001.600.)
+2. Obtain DEQY for MEF data
+Obtain a DEQY for the individual to obtain specific MEF data — i.e., amount of the
+wages and name and address of the employer.
+3. Disclosure of MEF data
+The MEF data contain tax data. Therefore, follow the instructions in SI 02310.040 - SI 02310.042.
+4. Contact recipient to discuss MEF data
+If development is required per SI 02310.007B., contact the recipient according to SI 02310.042 to discuss the MEF data.
+5. MEF data income development
+Do not develop further if the earnings were for a period prior to eligibility and
+the taxpayer alleges that the income stopped prior to the first month of eligibility.
+If the individual agrees with the MEF data, request evidence from the individual to
+establish their countable income. If they have insufficient evidence, or disagrees
+with the MEF data, use an SSA-L4201-BK, or obtain a signed authorization (e.g., SSA-8510)
+to contact the employer for verification.
+If they have insufficient evidence of SEI or alleges no SEI, following the instructions
+in RS 01804.400.
+The MEF income data represent the amount received in a year. Obtain a monthly amount
+for SSI purposes if the income constitutes countable income.
+•
+See SI 00820.100 - SI 00820.160 for wage development.
+•
+See SI 00820.200 for self employment income development.
+•
+See SI 00820.300 for sheltered workshop payment development.
+•
+See SI 00820.005 for sick pay development.
+•
+See SI 02310.005C.5. regarding administrative finality. The SSR transaction date (SE transaction code)
+is the date of the “affirmative action in writing”.
+•
+See SI 02310.040 to destroy the DEQY printout.
+6. Clearing the MEF diary
+a.
+Documentation — MSSICS — Individual Has Earned Income
+•
+Document wage development on the IWAG screen (MSOM MSSICS 016.003);
+•
+Document self-employment income development on the ISEI screen (MSOM MSSICS 016.004);
+•
+Document sheltered workshop payment development on the IWAG screen (MSOM MSSICS 016.003);
+•
+Document sick pay development on the ISPE screen (MSOM MSSICS 016.002).
+b.
+Documentation — non-MSSICS — Individual Has Earned Income
+See references in SI 02310.055D.5.
+c.
+Diary Clearance Input
+•
+MSSICS - Complete the DDOC screen (MSOM MSSICS 022.012) and build transaction SSR.
+•
+Non-MSSICS - Transmit earned income to the SSR (See SM 01305.101.) Transmit diary
+deletion to the SSR via SSA-1719B input. (See SM 01301.220.)
+7. Scrambled earnings involving MEF match
+If the earnings do not belong to the recipient or deemor, scrambled earnings may be
+involved. Follow RM 03870.004B.1., NOTE, for resolution.
+8. MEF correction
+If correction of the MEF is necessary, see RS 01405.001. See RS 01505.031 for cases involving State and local government employers.

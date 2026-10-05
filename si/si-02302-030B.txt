@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 02302.030 - Section 1619 Process and Procedures
+Effective Dates: 04/10/2008 - Present | TN 34 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502302030 (fetched 2026-10-04)
+
+B. Process - 1619(b) - Medicaid While Working
+1. General
+a.
+Eligibility for continued Medicaid under section 1619(b) results when an otherwise
+eligible working blind or disabled person has countable earned income which makes
+their total countable income exceed the applicable breakeven point (i.e., the individual
+is ineligible for a federally-administered payment) and the individual also meets
+the Medicaid Use and Threshold Tests. The SSR will process most actions. However,
+some manual development is necessary.
+b.
+The Medicaid Use Test (SI 02302.040) and Threshold Test (SI 02302.045) must be applied at each 1619(b) redetermination. See SI 02305.016 for information about section 1619 redeterminations.
+2. Systems Processing
+a.
+The SSR determines if the prerequisite month requirement is met. (See SI 02302.010.)
+b.
+The SSR performs a test computation to determine if the individual would be eligible
+for a cash benefit for the current month if they did not have excess countable earned
+income. All appropriate exclusions are applied.
+c.
+The test computation uses the individual's own countable unearned income plus any
+countable deemed income.
+d.
+If 1619(b) eligibility is being considered for both members of a couple (both members
+are working), the earned income of both is dropped for the test computation. If only
+one member's status (only one working) is being considered, only that member's earned
+income is dropped.
+If otherwise eligible, a recipient who is subject to the $30 payment cap and whose
+countable income precludes any SSI payment may be eligible for section 1619(b) if
+their countable unearned income is less than the full FBR.
+e.
+If the test computation indicates that the person would be eligible for a cash benefit
+absent their earned income, the SSR places the person in 1619(b) eligibility status
+pending FO resolution of the Medicaid Use and Threshold Tests. (See SI 02302.040 and SI 02302.045 for instructions pertaining to these tests.)
+See SM 01305.991 for additional information about systems processing of 1619(b) records.
+NOTE: The redetermination profile code of “W” is the only systems control for development
+of the Medicaid Use and Threshold Tests. (See SI 02305.016 and SM 01501.025D.1.d.)

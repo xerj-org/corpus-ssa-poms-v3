@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - SI 00835.380 - Rental Subsidies
+Effective Dates: 09/24/2024 - Present | TN 123 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835380 (fetched 2026-10-04)
+
+F. Effective 09/30/2024 - Procedure For Computing The Actual Value of the Rental Subsidy
+Use the following chart to calculate the AV of the rental subsidy. If prior to 09/30/2024,
+see chart located in subsection E under the section history effective 10/30/2023 below.
+NOTE:
+If the case is processed in the SSI Claims System, the computation of rental subsidy
+is done by the SSI Claims System. Use the following chart for cases requiring manual
+computation.
+STEP
+ACTION
+ENTRY
+COMMENT
+1
+Enter monthly CMRV
+-$__________
+2
+Subtract monthly required rent
+$__________
+An arrearage does not affect the monthly required payment.
+3
+Enter the difference
+$__________
+Use PMV (where applicable) in the evaluation year of rent. For dollar values of the
+PMV, see SI 00835.900 and SI 00835.901.
+4
+If the monthly required rent is less than the PMV - enter the PMV
+$__________
+5
+Subtract the monthly required rent from the PMV
+-$__________
+6
+Enter the difference
+$__________
+7
+Compare the value in step 3 and 6. Enter the lower value
+$__________
+AV of subsidy to household
+8
+Divide by the number in household
+÷__________
+9
+Enter the result
+$__________
+AV to each household member. For an individual, go to 12. For an eligible couple,
+go to 10.
+10
+Multiply by 2
+x2
+11
+Enter result
+$__________
+AV of subsidy to couple
+12
+Enter lesser of AV or applicable PMV
+$__________
+Amount to charge for subsidy
+If the monthly required rent (including a flat fee payment) is less than the PMV,
+we impute as ISM the difference between the monthly required rent and either the PMV
+or the CMRV, whichever is less. For instructions for processing cases in Texas, please
+see “Rental Subsidies for Residents of Texas Effective May 1, 1996,” per SI DAL00835.380

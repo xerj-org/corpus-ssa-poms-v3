@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02406.150 - When to Request Payment after Status C-Stop - Normal and Dire Need Situations
+Effective Dates: 04/01/2008 - Present | TN 129 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406150 (fetched 2026-10-04)
+
+D. Procedure on how to input a C-Stop
+FO and PCs should transmit C-Stops when:
+•
+a caller is “unsure” as to whether the beneficiary, recipient, or representative payee
+received a check or
+•
+there is evidence of DCN abuse.
+The TSC should also refer suspected abuse to the FO or PC for processing.
+1. How to input a C-Stop for Title II cases
+Determine if this is a dire need situation. (For an explanation of dire need, see
+RS 02801.010.).
+IF
+THEN
+yes
+see GN 02406.150E.
+no
+transmit nonreceipt by selecting NRT = 2, Payment After Status, C-Stop on the PEN2
+screen. See instructions in MS 06303.029.
+2. How to input a C-Stop for Title XVI cases
+Determine if this is a dire need situation (For an explanation of dire need, see SI 02004.100).
+IF
+THEN
+yes
+see GN 02406.150E.
+no
+transmit nonreceipt by selecting “2 - REPLACE AFTER INVESTIGATION” on the “Missing
+Recurring or Supplemental Check” (UPMR) screen in MSSICS. See instructions in MS 00303.012.
+For both Title II and Title XVI, if the nonreceipt allegation is received less than
+15 days from the issue date of the check, the C-Stop will be held until 15 days have
+passed since the check was issued before SSA forwards the report to Treasury. This
+is to give sufficient time for the original check to be presented to Treasury for
+payment if it has been cashed.

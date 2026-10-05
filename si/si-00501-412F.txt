@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - SI 00501.412 - SSI Eligibility for Students Temporarily Abroad - Case Processing
+Effective Dates: 10/21/2011 - Present | TN 68 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500501412 (fetched 2026-10-04)
+
+F. Procedure - payment process
+1. Address inputs - payment to U.S. address
+Follow the instructions below if payment will continue to be made to a U.S. address:
+a.
+Mailing Address (AD) field - Input appropriate U.S. mailing address.
+b.
+Mailing Address ZIP Code (ZP) field - Input ZIP code appropriate to U.S. mailing address.
+c.
+Residence Address (RA) field - If the U.S. address that payment is based on differs
+from the mailing address, input appropriate U.S. residence address (otherwise, leave
+blank).
+d.
+Residence Address ZIP Code (ZC) field - If RA field is input, use ZIP code appropriate
+to residence address.
+e.
+Living Arrangement (LA) field -
+•
+Date - Input date following normal rules.
+•
+State and County Code - Input the code appropriate to the U.S. residence address upon
+which payment will be based.
+•
+Federal Living Arrangement (FLA) - Input the FLA code based on the living arrangement
+determination for the foreign residence (e.g., FLA/A or FLA/B).
+•
+Optional State Supplementation Code - Input the code based on the living arrangement
+determination for the foreign residence using the code for the State of U.S. residence.
+NOTE: When it is necessary to input ISM as type “H” unearned income, follow normal input procedures.
+2. Address inputs - payment to foreign address
+Follow the instructions below to make payment to a foreign address:
+a.
+Mailing Address (AD) field - Input the foreign mailing address, including any foreign
+postal zone code and consular code.
+b.
+Mailing Address ZIP Code (ZP) field - Input the ZIP code as ZP199999 in all cases.
+c.
+Residence Address (RA) field - Input the U.S. address upon which the payment is based.
+d.
+Residence Address ZIP Code (ZC) field - Input ZIP code appropriate to U.S. residence
+address.
+e.
+Living Arrangement (LA) field - Follow instructions in SI 00501.412F.1.
+f.
+Systems Override (SO) field - Input SOST in all cases.
+NOTE: SSI payments to a foreign address can be sent automatically. However, manual notices
+are required - see SI 00501.413.
+3. Diaries
+Establish a diary (code RT) for the expected date of the individual's return to the
+U.S. (up to 365 days) to redetermine eligibility. In “Remarks” type RT DIARY - “STUDENT ABROAD-VERIFY RETURN-LA-AD.”
+When the individual returns or the diary matures, verify the period of absence, correct
+the mailing address where payment was made outside of the U.S. and clear the RT diary
+along with the redetermination. (See SI 02301.240 if the recipient does not contact the FO and cannot be located after the scheduled
+date of return.)

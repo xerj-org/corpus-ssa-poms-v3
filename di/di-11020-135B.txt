@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 11020.135 - Field Office (FO) Actions After a Disability Determination
+Effective Dates: 04/20/2026 - Present | TN 7 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411020135 (fetched 2026-10-04)
+
+B. Medical Denial
+1. Processing Earnings Computation (EC) Exclusions
+If the new claim is a denial and cannot be processed through EC, prepare a Manual
+Adjustment Credit and Award Data Entry (MACADE).
+SSA-1418 inputs are required for District Office Workload Report (DOWR) credit.
+2. Updating the Master Beneficiary Record (MBR) with denial data
+If disability is not established for a claimant already on the rolls, the FO must
+make an appropriate systems input to establish or update the MBR (see MSOM COMMON
+005.017 Develop for Child Disability Determination).
+If systems input, such as Modernized Claims Systems (MCS) or Postentitlement Online
+System (POS) is not possible,the FO should use MACADE to update the MBR.
+See Also:
+SM 00380.500 Overview of MACADE Disallowance Function
+SM 00380.525 List of User and Edit Messages

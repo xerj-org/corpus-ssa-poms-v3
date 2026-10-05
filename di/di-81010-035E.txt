@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - DI 81010.035 - Data Propagation
+Effective Dates: 09/23/2013 - Present | TN 84 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010035 (fetched 2026-10-04)
+
+E. Data propagation limitations in EDCS
+Data does not propagate into EDCS and case creation ceases if EDCS detects multiple
+Disability Insurance Beneficiary (DIB) claims for the same claimant in its propagation.
+If multiple DIB claims exist, EDCS displays an alert message advising you to resolve
+the multiple disability claim situation in MCS before attempting to create the case
+in EDCS. The multiple DIB claims alert may incorrectly display if a claim type is
+transferred on the mainframe incorrectly.

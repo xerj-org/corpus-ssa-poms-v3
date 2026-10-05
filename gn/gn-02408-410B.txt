@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02408.410 - Recovering Electronic Funds Transfer (EFT) Payments Unable to be Reclaimed
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408410 (fetched 2026-10-04)
+
+B. Title II reclamation actions due to PACER data limitations for processing centers
+All reclamation actions involving payments issued after January 1, 2014, should continue
+to be processed according to policy with no interruptions. For EFT Reclamations, which
+involve payments issued prior to January 1, 2014, do not submit an E-stop. An E-stop
+for payments issued prior to January 1, 2014 will result in TDSC 07 REACT exceptions
+for Title II reclamation actions, see SM 00545.295 and SM 00609.610.
+NOTE: Check payments are unaffected, as limited payability policy should be followed,
+see GN
+02401.901.
+If the financial institution (FI) responds to the Notice of Reclamation (NOR) by returning
+the full amount shown on the FS-133, SSA should contact the FI to request any additional
+funds received for payments older than January 1, 2014 returned. If the FI returns
+no funds or partial funds, there is no need to send a notice to the FI.. Once the
+NOR has been sent, an FI has 60 days to respond with a return of funds and to limit
+their liability. This information can be found on the claims detail tab in TCIS.
+Process
+Title
+II reclamations involving payments issued prior to January 1, 2014, where the FI has
+returned all
+funds for the E-stop, as follows:
+•
+All E-stops for payments issued after January 1, 2014 should have already have been
+input at this point. If not, they cannot be input as the NOR has already been released
+and a TDSC 07 exception will be received if additional E-stops are input.
+•
+Add an MBR Special Message line of “PACER Seven Year Case MM/YYYY to MM/YYYY.” The
+dates should reflect the range of dates we are unable to reclaim through the E-stop
+process, based on the effective tax date (ETD) found on PHUS.
+•
+Add a comment to the ACR in paperless, "PACER Seven Year Case."
+•
+Compile a list including the payment amount, payment date, and bank account number
+and routing number for payments not included in the E-stop. Technicians may use the
+templates found in section E. In some processing centers the OAS analyst will send
+the FI notices in these situations. Therefore, technicians should follow policy along
+with local guidance and procedures to initiate release of notice to the FI to request
+the payments issued prior to January 1, 2014. FIs should be directed to return full
+payments via an R15 ACH return and partial payments via a remittance referencing the
+SSN to:
+SSA - MATPSC
+Attn: Remittance Unit Manager
+P.O. BOX 3430
+Philadelphia, PA 19122
+The FI has 60 days to respond and return the requested funds. Apply any credits received
+to the improper payment on the record.

@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - SI 02301.301 - Overview of Goldberg/Kelly (GK) Processing
+Effective Dates: 10/14/2004 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301301 (fetched 2026-10-04)
+
+B. Process - Systems GK Processing
+This section gives an overview of how the system identifies and processes an adverse
+action. (See SI 02301.301E. for examples. See detailed systems instructions in SM 01305.500.)
+1. System Identifies an Adverse Action
+The system identifies an incoming change as an adverse action when the new monthly
+benefit amount due is less than the amount due in the last regular first-of-the-month
+payment(s). (See SM 01701.010 about payment tapes and systems computation periods.)
+NOTE - SYSTEMS LIMITATION: The system is unable to consider certain underpayments (payment type codes 2 and
+4) when comparing monthly benefit amounts. When the system cannot identify an adverse
+action due to an underpayment, FOs must input GK due process data (DPD) with the change,
+suppress the systems notice, and issue a manual GK notice. (See SM 01305.520B. on
+how to compute the monthly benefit amount.)
+a. System Compares Benefit Amounts
+The system compares benefit amounts for:
+•
+incoming changes to records in C01, N01 for section 1619(b) eligibles, and
+•
+records changing from S06, S07 and S08 to C01 or N01 through N54.
+b. System Does Not Compare Benefits
+The system does not compare benefit amounts for the following exceptions to GK procedures:
+•
+records changing to S06, S07, S08, N19 and T01, and
+•
+records changing from N19 to another payment status.
+2. System Posts the Adverse Action Month
+The system determines the month that it can actually reduce or stop a future month's
+benefit and posts it to the record.
+3. System Issues the Automated GK Notice
+For most adverse actions, the system issues an automated GK notice and:
+•
+dates the notice 7 days after the notice run date, to allow for processing and mailing
+time and
+•
+records the notice run date (not the notice date), the notice form, and the notice paragraph numbers or Universal Text
+Identifier (UTI) in the Notices Data (NOTC) segment on the SSR. For a description
+of the NOTC segment see SM 01601.670. and
+•
+retains a copy of the notice on the online retrieval system (ORS).
+4. System Issues an Online GK Notice during the GK Temporary Period
+For most adverse actions processed through MSSICS during the GK temporary period,
+the system can issue an online GK notice when requested and:
+•
+dates the notice the same day it is produced and puts the time (Eastern Standard)
+the notice was created in the upper right hand corner of the notice
+•
+records the notice run date and time, the notice form (8155), and the notice paragraph
+numbers or UTIs in the Notices Data (NOTC) segment on the SSR
+•
+records the notice indicator in the Notices Data (NOTC) segment of the SSR. OH indicates
+the notice was produced online and handed to the claimant. OM indicates the notice
+was produced online and mailed to the claimant.
+•
+stores a copy of the notice on the online retrieval system (ORS).
+For a more detailed description of the system’s process involved in the online GK
+notices, see SM 01305.510 through SM 01305.620.
+5. System Posts GK Data (DPD Entries)
+The system posts GK due process data (DPD) in the Due Process Data (DUPR) segment
+on the SSR when the Goldberg Kelly (DBGK) screen is completed in MSSICS and an online,
+manual, or overnight automated notice is selected. The DPD entries enable the system
+to pay future benefits at the PPL when a recipient appeals. The following are some
+of the DPD entries:
+•
+The adverse action month (AVM)
+•
+The new benefit amount (MBL) by separate Federal and State amounts
+•
+The protected payment level (PPL) by separate Federal and State amounts
+•
+The date the FO handed or mailed a manual GK notice
+•
+The GK status code. For example, the FO inputs GK status code N for no appeal, P to place the record in protected payment status (pending appeal and payment continuation),
+and R for a rendered appeal decision and to remove protected payment status.
+For a description of these data and other DPD entries displayed in the DUPR segment,
+see SM 01305.510.
+6. Subsequent Incoming Change
+When the system receives a subsequent incoming change and the DUPR segment shows:
+a. No Appeal
+The system compares the new benefit amount due with the MBL set by the last GK notice.
+If the new benefit is less than the MBL, the system recognizes the adverse action
+and issues an automated GK notice and posts the new MBL to the record. For adverse
+actions processed through MSSICS, the system will post the new MBL to the record and,
+if requested, produce an online GK notice.
+b. Appeal and Payment Continuation
+The system cannot identify the incoming change as an adverse action and reduce benefits.
+(The MBL entries change to 0s when a record goes into protected payment status.) For
+adverse actions, the FO must manually recompute the PPL, input the new PPL and issue
+a manual GK notice. See SI 02301.325 for instructions.
+For a description of automated systems processing during payment continuation, see
+SM 01305.645.

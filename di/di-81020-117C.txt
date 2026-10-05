@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - DI 81020.117 - Processing Medical Reactivations
+Effective Dates: 03/19/2012 - Present | TN 36 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020117 (fetched 2026-10-04)
+
+C. Reactivating claim
+When there are no current pending or open claims for the same person in EDCS or eView,
+claims in the most recently closed CEF with a medical determination can be Medically
+Reactivated.
+1. Medical Reactivation using eView
+To reactivate a claim:
+•
+Access eView;
+•
+Enter the SSN on the Case Selection screen and select the claim to reactivate;
+NOTE: Remember the claim must be in the most recent CEF case and have a status of closed,
+transferred, or manually cleared. Reactivation only works when there are no pending
+cases in eView.
+•
+Lock the claim using Edit (Lock Case) in eView;
+•
+Click on the Case Status/History tab;
+•
+Click Reactivate on the Case Status/History screen. The Reactivate Claim screen will
+display claims available for reactivation;
+•
+Select the claim to reactivate; and
+•
+Key the reason why a Medical Reactivation is needed.
+For example: Developing for an earlier onset date, FO modified the date last insured, or incorrect
+Regulation Basis Code on 831 dated xx/xx/xx, SGA establishes a different onset date,
+etc.
+NOTE: The FO must contact the DDS, DCR, or FDU before they send a Medical Reactivation
+to the DDS, DCR, or FDU. The DDS, DCR, or FDU must agree with the FO to medically
+reactivate the claim.
+2. A claim is Medically Reactivated by mistake
+If a claim is medically reactivated by mistake, users have the ability to cancel the
+medical reactivation:
+•
+FO users must cancel the medical reactivation using EDCS by going to the Claims Actions
+tab and choosing Cancel Reactivation. The FO cannot cancel a Medical Reactivation
+through eView; and
+•
+DDS, DCR, or FDU users receipt the claim and close it as a No Decision and select
+the reason Mistakenly Reactivated" in their case processing system.

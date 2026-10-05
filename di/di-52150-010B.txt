@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 52150.010 - Average Current Earnings (ACE)
+Effective Dates: 11/09/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150010 (fetched 2026-10-04)
+
+B. Developing earnings for the ACE
+Take the following actions to develop earnings for the ACE:
+1.
+Ask the NH to submit proof of unposted earnings. In many instances, the NH's highest
+year of earnings is in the lag period (i.e., the current year and the preceding year).
+2.
+Review the earnings record for earnings years that are posted at the maximum wages
+creditable for that year.
+3.
+Review the earnings record to determine if actual earnings could be higher than the
+amount posted. Pay attention to years with multiple employers.Maximum earnings on
+the WCDE (COMPUTATIONAL EARNINGS) screen in ICF can be overkeyed with "over maximum"
+earnings. (RS 01404.300, Maximum Contribution of Social Security Employment Taxes Paid By Employee, contains
+a chart of the yearly maximum amounts from 1937 on.)
+•
+For any year that could be material to the determination of the highest earning year
+(High-1) or a year in the high five consecutive years (High-5), obtain proof of the
+actual earnings amount for that year.
+•
+Use the Detailed Earnings Query (DEQY) to verify over-maximum earnings. For DEQY instructions,
+see SM 00344.001.
+•
+Beginning in 1994, there is no limit on the Medicare taxable wage amount, so the amount
+listed on the DEQY as Medicare wages or self-employment income is the actual earnings
+amount.
+NOTE: If the total compensation (TOTAL COMP) amount on the DEQY is higher than the MEDICARE
+TOTAL amount, use the TOTAL COMP amount to compute the ACE.
+4.
+Obtain proof of earnings for years that may be material to determine the ACE, if prelag
+earnings (i.e., earnings two or more years prior to the current year) are not posted
+or if the DEQY posting is questionable.
+•
+W-2 is available: Use the total earnings in item 1 of the W-2. This amount may include compensation
+that is both covered and non-covered. Assume the entire amount represents covered
+wages unless there is evidence to the contrary, e.g., the NH indicates receipt of
+non-covered sick pay.
+•
+W-2 not available: Use any other statement from the employer of wages paid; a certified copy of the
+Federal or State tax return; or an uncertified copy of the tax return with evidence
+that the return was filed (e.g., a cancelled check for paid taxes).
+•
+Use Earnings Modernization (EM 2.8) to search for earnings in the Suspense Files.
+See MSOM EM 012.001 for instructions.
+5.
+If net earnings from self-employment (NESE) are involved:
+•
+Determine the NESE from the NH’s tax return. For instructions on computing NESE, see
+RS 01803.002.
+•
+Use EM 2.8 to complete self-employment scouting. For EM 2.8 instructions, see MSOM
+EM 016.006. Also, for complete information about developing self-employment income,
+see RS 01804.000.
+6.
+Use deemed military wages (DMW) in the ACE determination even if the DMW causes the
+statutory maximum to be exceeded.
+NOTE: Do not use railroad earnings in the ACE determination if the NH has 120 RR service
+months. Effective 01/01/2002, RR earnings are not useable if there are less than 120
+RR service months, but at least 60 RR service months after December 31, 1995.

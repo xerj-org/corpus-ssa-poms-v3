@@ -1,0 +1,133 @@
+SSA Program Operations Manual System (POMS) - GN 02613.100 - Fugitive Felon SSA Control File (FFSCF)
+Effective Dates: 08/03/2022 - Present | TN 46 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613100 (fetched 2026-10-04)
+
+A. Process - fugitive felon SSA control file (FFSCF) - warrant data base
+1. FFSCF warrant data base
+SSA has established a Fugitive Felon SSA Control File (FFSCF) with functionality to:
+•
+record warrant information (both batch and online inputs),
+•
+match warrant records against the MBR and RPS in addition to the SSR,
+•
+handle the OIG warrant referral data exchange,
+•
+generate “actionable” warrant files to FFAP (SSI matches) and RPS (only felony warrants
+are matched against the RPS),
+•
+support automated advance notice of proposed suspension (i.e., due process notices)
+notices for Title II beneficiaries, where appropriate,
+•
+generate finders to T2 (automated suspensions for T2 beneficiaries),
+•
+support online updates against the FFSCF (CICS data collection),
+•
+support FFSCF database queries, and
+•
+update of FFSCF based on warrant updates against the MBR.
+NOTE: The FFSCF will only store information on warrants that affect or have the potential
+to affect SSA beneficiaries. If no match is located on the MBR, SSR or RPS, the warrant
+will be dropped. Only warrants for enumerated beneficiaries will be stored on the
+FFSCF although benefit suspensions can be done for non-enumerated beneficiaries based
+on T2 or SSI screen input.
+2. Warrant information received by SSA offices
+a. Warrant information received by SSA field offices, PSC or OIG offices
+For information on processing warrant information received directly by SSA Field Offices
+or OIG offices, see GN 02613.150.
+If warrant information is received by the PSC centers forward the warrant information
+to the SSA FO that has jurisdiction of the beneficiary’s address on the MBR for processing
+per GN 02613.150.
+b. New warrant information received by SSA’s fugitive felon matching operation
+When processing fugitive felon cases, it may be beneficial to understand the flow
+of information for matched records resulting from fugitive felon files received from
+various Law Enforcement (LE) jurisdictions.
+•
+Fugitive felon reporters such as the National Crime Information Center (NCIC), State
+police offices, city police offices or county sheriffs’ offices submit reports (e.g.,
+electronic files, paper reports, walk-in reports, phone calls, etc.) to SSA or OIG
+containing outstanding felony and parole/probation violator warrants.
+•
+The files are run through the Enumeration Verification System (EVS) to match identifying
+information such as the name, SSN, and DOB to SSA's records.
+•
+FFSCF takes the EVS matched data and drops duplicates and warrants with EVA Verification
+codes not equal to blank, 2, * or A.
+EVS Codes for fugitive felon actionable warrants:
+—
+“blank” (SSN matched on SSN, name, DOB and sex,
+—
+“*” (SSN didn’t verify; different SSN located that matched name, DOB and sex),
+—
+“2” (SSN match on name and DOB; no match on sex) and
+—
+“A” (SSN didn’t verify; different SSN located that matched exactly on name and DOB
+using an alpha search)
+•
+FFSCF then matches against the MBR, SSR and RPS (felony warrants only) systems. Records
+are matched for individuals at the time of the referral in Title II payment status
+codes of Ax (except for Ad or As), C, Dx, E, Px (except PT), Sx (except for SD, but
+including S7) or Tx (i.e., terminated within the past 3 months). FFSCF drops “no match”
+warrants and generates a file for matched warrants to OIG.
+•
+OIG reviews the matched data to resolve identity issues and to ensure that the warrant
+is active (unsatisfied) for a felony crime or a probation/parole violation that carries
+a penalty of death or imprisonment over 1 year. A file of the SSR and MBR warrant
+matched records are created for OIG to load into their National Investigative Case
+Management System (NICMS).
+•
+OIG provides the LE agencies with information regarding the beneficiary’s current
+address to aid in the apprehension of the individual and allows 60 days for the LE
+to complete their action. OIG then creates a Warrant Disposition File.
+•
+FFSCF updates the database and then generates a Warrant File for the Title XVI warrant
+match and also a Warrant file to the Representative Payee System (RPS) for open/felon
+representative payee warrants. (For representative payee information, refer to GN 00504.102 and MS 07412.000.)
+•
+FFSCF generates an automated Advance Notice of Proposed Suspension Notice for Title
+II outstanding (i.e., open warrants) warrant matches (over 30 continuous days old).
+•
+FFSCF generates T2 Suspension Finder for Title II matched cases meeting the criteria
+for suspension as outlined in GN 02613.100D.1. T2 will send an automated T2 closed period suspension/overpayment notice or suspension/overpayment
+notice, as appropriate.
+c. Warrant already exists on FFAP (Title XVI) warrant system
+When processing fugitive felon cases, it may be beneficial to understand the flow
+of warrants from the Title XVI FFAP warrant system to the FFSCF warrant database.
+•
+Fugitive felon reporters such as the National Crime Information Center (NCIC), State
+police offices, city police offices or county sheriffs’ offices submit reports (e.g.,
+electronic files, paper reports, walk-in reports, phone calls, etc.) to SSA or OIG
+containing outstanding felony and parole/probation violator warrants.
+•
+The files are run through the Enumeration Verification System (EVS) to match identifying
+information such as the name, SSN, and DOB to SSA's records.
+•
+FFSCF takes the EVS matched data and drops duplicates and warrants with EVS Verification
+codes not equal to blank, 2, * or A.
+EVS Codes for fugitive felon actionable warrants:
+—
+“blank” (SSN matched on SSN, name, DOB and sex,
+—
+“*” (SSN didn’t verify; different SSN located that matched name, DOB and sex),
+—
+“2” (SSN match on name and DOB; no match on sex) and
+—
+“A” (SSN didn’t verify; different SSN located that matched exactly on name and DOB)
+•
+FFSCF identifies the incoming warrant as a match against the “FFAP warrant and the
+FFAP warrant is loaded into FFSCF.
+•
+FFSCF updates the database and then matches against the MBR. Records are matched for
+individuals at the time of the referral in Title II payment status codes of Ax (except
+for Ad or As), C, Dx, E, Px (except PT), Sx (except for SD, but including S7) or Tx
+(i.e., terminated within the past 3 months). FFSCF drops “no match” warrants and generates
+a file for matched warrants to OIG.
+•
+FFSCF generates a Warrant File for the Representative Payee System (RPS) for open/felon
+representative payee warrants. (Refer to GN 00504.102 and MS 07412.000 for representative payee information.)
+•
+FFSCF generates an automated Advance Notice of Proposed Suspension Notice for Title
+II outstanding (i.e., open warrants) warrant matches (over 30 continuous days old).
+•
+FFSCF generates T2 Suspension Finder for Title II matched cases meeting the criteria
+for suspension as outlined in GN 02613.100D.1. T2 will send an automated T2 closed period suspension/overpayment notice or suspension/overpayment
+notice, as appropriate.

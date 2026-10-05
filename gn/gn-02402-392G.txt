@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 02402.392 - Coding Russia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/17/2023 - Present | TN 242 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402392 (fetched 2026-10-04)
+
+G. Example of coding Russian direct deposit
+The customer provides us with a signup form for Russia containing the account number:
+“12345678901234567890.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 680000103
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Russia:
+•
+Start with a country code of Q designated for Russia; and
+•
+Code 16 digits of 20-digit Customer Account Number “1234567890123456”
+a.
+The technician
+obtains
+•
+RTN: 680000103
+•
+Checking
+•
+DAN: Q1234567890123456
+b.
+The coding in our system
+reflects
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000103
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Q1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c.
+The MBR
+reflects
+•
+RTN- 680000103 DAN- CQ1234567890123456

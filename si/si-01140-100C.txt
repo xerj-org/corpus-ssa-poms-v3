@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - SI 01140.100 - Non-Home Real Property
+Effective Dates: 08/03/2022 - Present | TN 86 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140100 (fetched 2026-10-04)
+
+C. Policy for using the electronic NHRP search process in the Supplemental Security Income
+(SSI) claim system
+1. What the NHRP search process is and how we use the information we receive
+The agency created an electronic search process integrated in the SSI Claims system
+(i.e., MSSICS/SSI claim) that uses a LexisNexis|Accurint database to provide real
+property information for claimants, recipients, and deemors. The NHRP search process
+returns information about potential real property ownership and property values, which
+SSA uses to establish a lead for further investigation and potential action (unless
+the property qualifies for the Home Exclusion as the individuals primary residence,
+per SI 01130.100).
+IMPORTANT: LexisNexis|Accurint provides information to us only for use as a lead, and the information
+we receive may not be accurate or complete. Do not use information obtained from LexisNexis|Accurint
+to deny or suspend benefits. Only use the information to establish a lead for further
+investigation and potential action. We treat LexisNexis|Accurint responses both those
+received via the mandatory NHRP search process described in this section as well as
+those received via the manual process of searching LexisNexis|Accurints online database
+described in SI 01140.105 as third-party reports that require additional verification
+as described in sections F and G of this POMS section.
+SSA must review the LexisNexis|Accurint information with the recipient or deemor prior
+to processing a resource determination based on the information.
+•
+If the individual denies that they own the property identified in the LexisNexis|Accurint
+search or the individual agrees that they own the property, but its resource value is not high
+enough to affect SSI eligibility, we must independently verify the property information.
+For instructions on independently verifying NHRP when an individual disputes ownership,
+see SI 01140.100F in this section. For instructions on verifying NHRP when the alleged resource value
+does not affect eligibility, see SI 01140.100H through SI 01140.100J in this section.
+•
+If the individual agrees that they own the property identified in the LexisNexis|Accurint
+search and the individual alleges a CMV (or equity value if they allege any encumbrances against
+the property) that makes them ineligible for SSI, we accept the allegation and no
+further verification is required.
+2. When the NHRP search process is required
+You must use the electronic search process integrated into the SSI Claims system to
+search for real property of all claimants, recipients, and deemors during the following
+claim events:
+•
+Full initial claims;
+•
+High-error profile C (HEP C) redeterminations;
+•
+Fully or partially favorable initial claim appeal reversals; and
+•
+Denied claim reopenings.
+While we only require NHRP search requests during the listed claim events, you may
+create an NHRP search request any time there is a potential NHRP issue (e.g., you
+have reason to believe the individual neglected to disclose ownership of real property,
+recently sold or acquired real property, or transferred real property for less than
+fair market value).
+EXCEPTION: Claims completed outside of the SSI Claims system (i.e., paper claims, non-MSSICS,
+or non-SSI Claims system) are not subject to the NHRP search process rules in SI 01140.100C in this section. However, the procedures for documenting NHRP ownership and determining
+the CMV/equity value (sections H through J in this POMS section) still apply to those
+claims.
+Always consider administrative finality rules when making NHRP determinations. See
+SI 04070.010 for more information about administrative finality and reopening policies and SI 01140.100F.3 in this section for how administrative finality might apply in a case involving an
+NHRP search.
+Proceed with the NHRP search process in this section after the claimant, recipient,
+or deemor answers the question(s) regarding ownership of property in the resource
+section of the SSI claim path.
+3. Before you generate an NHRP search request
+a. Open Event
+You must open an event on the associated claim before you create an NHRP search request.
+b. Obtain claimant, recipient or deemors allegation about NHRP
+Collect and document a claimant, recipient or deemors allegation of NHRP ownership
+(including co-ownership), or lack thereof, on the Real Property page before generating
+an NHRP search request. If the individual alleges owning NHRP with an equity value
+(CMV minus any encumbrances) that makes them ineligible for SSI payments due to excess
+resources, follow SI 01140.010D.2. Do not generate an NHRP search request.
+c. Provide Privacy Act Statement
+If you did not previously review the Privacy Act Statement with the claimant, recipient,
+or deemor prior to this point in the interview per SI 02305.071, you must do so before collecting any allegations regarding NHRP.
+First, deliver the following summarized oral Privacy Act Statement:
+Sections 1611(c) and 1631(e) of the Social Security Act allow us to collect the information
+you provide, which we will use to make a determination of eligibility of benefits.
+Providing us this information is voluntary, but not providing all or part of the information
+may prevent an accurate and timely decision on your eligibility or continued eligibility
+for SSI benefits. We may disclose your information as law permits, including to contractors,
+authorized representatives or payees, and others listed in routine uses in System
+of Records Notices 60-0089, 60-0103, and 60-0320; available at www.ssa.gov/privacy.
+Your information may also be used in computer matching programs to establish or verify
+eligibility for Federal benefit programs and debts under these programs.
+Second, provide a means by which the individual can receive the full Privacy Act statement
+in writing:
+•
+If collecting the information in-person: Provide the individual with a copy of the
+Privacy Act Statement, which is printed on the receipt at the end of the interview.
+•
+If collecting the information by telephone or other medium: Point the individual to
+where the form is located online (if available online), or offer to mail the individual
+a copy.
+For reference, the full Privacy Act Statement can be found on the SSA-8000 (Application
+for Supplemental Security Income (SSI)) and theSSA-8203 (Statement for Determining
+Continuing Eligibility for Supplemental Security Income Payments).
+see PDF link below for Form SSA-8000
+View In PDF
+see PDF link below for Form SSA-8203
+View In PDF
+d. Process prior NHRP search requests first
+You must a make a decision on any pending NHRP search responses, following the procedure
+in SI 01140.100E in this section, before initiating a new NHRP search request.
+4. Who needs an NHRP search request
+Create an NHRP search request for each claimant or recipient. Create an NHRP search
+request for each deemor associated with the claim if they have a relationship with
+the claimant for at least one month within the period you request NHRP information.
+NOTE: Do not submit NHRP search requests for all people associated with the claim at the
+same time unless each person provided answers to our NHRP ownership questions on the
+Real Property page. Ensure each person answered the NHRP ownership questions themselves
+before generating an NHRP search request for that individual.

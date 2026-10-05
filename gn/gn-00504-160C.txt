@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 00504.160 - Required Contacts before Issuing Payments Following a Period of Suspension or Nonpayment
+Effective Dates: 04/25/2025 - Present | TN 37 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504160 (fetched 2026-10-04)
+
+C. Procedure for contacting the representative payee and reinstating benefits
+1. Use the following guidelines for representative payee development before reinstating
+benefits
+a.
+Contact the representative payee and or beneficiary before issuing payments following
+a period of suspension or nonpayment as directed in GN 00504.160B.
+b.
+Document the results of the investigation and the recommendation on the Report of
+Contact Details screen MS 07416.002 . Develop for a successor payee if necessary.
+c.
+Verify that the beneficiary is still entitled before reinstating benefits. Verify
+that no marriage has occurred before reinstating a child over age 15. If we suspend
+SSI payments for more than one calendar month, conduct an unscheduled redetermination.
+Determine suitability of the payee during this interview.
+2. Reinstatement from suspension or termination
+a. Title II reinstatements
+1.
+Reinstatement from suspense with the same representative payee
+2.
+We process most reinstatement actions (same payee) via the Post Entitlement Online
+System (POS)Reinstatement from suspense with a new payee
+When processing a change of payee for a beneficiary in suspense S-8 or S-6 status,
+input the selection of the payee via the Electronic Representative Payee System (eRPS)
+using normal procedures. The selection of the payee passes to the Master Beneficiary
+Record (MBR) via Title II Redesign (T2R), and will automatically reinstate the benefits
+to the new representative payee.
+When processing a change of payee action for a beneficiary in S-9 whereabouts unknown
+(WHRU), input the selection of the representative payee via the eRPS. Once you have
+posted the new representative payee to the MBR, input the reinstatement action via
+POS. For more information on how to process whereabouts unknown (WHRU) see SM 03020.290.
+3.
+Reinstatement from an erroneous termination
+The Processing Centers (PC) using Manual Adjustment, Credit, and Award Process/Manual
+Adjustment Credit and Award Data Entry System (MADCAP/MACADE) must process reinstatement
+actions for beneficiaries in terminated status (same representative payee). The reinstatement
+action will cause a eRPS alert to the field office since the eRPS record will now
+reflect a terminated relationship. After you receive the alert, reestablish an active
+rep payee record using the questionnaire process as described in MS 07419.006.
+b. Title XVI reinstatements
+•
+Reinstate a title XVI benefit from suspension S08 status as shown in SM 01305.001
+through SM 01305.020.
+•
+If you input an SSA-1719B to reinstate title XVI benefits to an incorrectly terminated
+beneficiary, complete the Questionnaire screen MS 07419.006 and add the payee data
+once you receive the eRPS alert.
+•
+If you use the Modernized Supplemental Security Income Claims System (MSSICS) to reinstate
+incorrectly terminated title XVI benefits, complete an SSA-11 in the eRPS to prevent
+the eRPS alert that will generate if the payee information on the SSR does not match
+the eRPS. Suppress advance notice. Process the application as a systems limitation.

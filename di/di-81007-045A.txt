@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - DI 81007.045 - Receiving the i3820
+Effective Dates: 02/04/2014 - Present | TN 1 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007045 (fetched 2026-10-04)
+
+A. The i3820 appears on the iWMI listing or the field office (FO) receives a cover sheet
+If an i3820 appears on an Internet Workload Management Information (iWMI) listing
+or the FO receives a cover sheet, determine whether:
+•
+a lead or protective filing date has been established, or
+•
+a claim exists in the Modernized Supplemental Security Income Claims System (MSSICS).
+For completing and reviewing the information on the SSA-3820, follow existing FO procedures
+in:
+•
+DI 11005.020 – Curtailing Completion of the SSA-3368 (Disability Report - Adult) or the SSA-3820
+(Disability Report - Child) Forms;
+•
+DI 11005.037 – Applicant Forms Needed in Concurrent Claims; and
+•
+DI 11005.040 – Review of SSA-3368, SSA-3820 and SSA-3369.
+1. MSSICS claim exists
+If a claim in MSSICS exists:
+•
+Create a case in the Electronic Disability Collect System (EDCS) to propagate the
+i3820 to EDCS;
+•
+Review the propagated i3820 for completeness;
+•
+Contact the proper applicant, or third party contact to resolve discrepancies and
+collect any missing information;
+•
+Document changes in the EDCS 3820;
+•
+Secure an SSA-827 (Authorization To Disclose Information To The Social Security Administration);
+and
+•
+Transfer the claim to the disability determination services (DDS), when appropriate.
+It is not possible to propagate the i3820 to EDCS if a case for the claimant is already
+pending at the DDS. (e.g., the claimant filed an earlier Title II claim that requires
+a medical determination). If a case for the claimant is already at the DDS, take the
+following actions:
+•
+Request an Internet query and print a copy of the i3820;
+•
+Compare the information on the i3820 to the EDCS 3820; and
+•
+Use the update-after-transfer (UAT) function in EDCS to record discrepancies or additional
+information not in file. For details on the UAT, see DI 81010.095.
+2. MSSICS claim does not exist
+If a MSSICS claim does not exist:
+•
+Request an Internet query for contact information;
+•
+Contact the applicant to establish a claim in MSSICS, if appropriate; and
+•
+Follow the procedures in DI 81007.045A in this section, after creating a claim in MSSICS.
+NOTE: If a claim is not filed or a lead is not established after contacting the applicant,
+delete the report using the Internet query facility.

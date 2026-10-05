@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 05002.040 - Handling Benefit Statement Inquiries in Field Offices
+Effective Dates: 02/02/2017 - Present | TN 8 (02-17)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0205002040 (fetched 2026-10-04)
+
+B. Policy for handling benefit statement inquiries
+1. General Rule
+FO personnel and 800 Number Agents can resolve most questions with a general explanation.
+Consider the benefit statement to be correct unless the:
+•
+amount in Box 5 is incorrect; or
+•
+amount(s) allocated for previous years are incorrect.
+If you cannot resolve the question with a general explanation, get a PHUS query (PHU1
+or PHU2). Review the transaction history with the beneficiary. If you still cannot
+resolve the question, refer the case to the PSC (see GN 05002.046B.2. for how to refer).
+NOTE: You do not need to refer the issue to the PSC if the beneficiary understands your
+explanation but remains dissatisfied with your response.
+2. When to issue corrected benefit statements
+SSA should issue a corrected benefit statement upon request in the following situations:
+a.
+When the benefit statement is incorrect and the beneficiary may need to include Social
+Security benefits in taxable income; or
+b.
+To avoid public relations problems when the benefit statement is incorrect and the
+beneficiary does not need the information for tax purposes; or
+c.
+When Box 5 is correct and the corrected benefit statement will only change figures
+in Boxes 3 and 4.
+3. Supplementary Medical Insurance (SMI) Premiums
+When a beneficiary entitled to SMI receives a monthly Social Security payment, the
+premium is deducted from the payment for each month of coverage. In some cases, however,
+the amount of the monthly benefit may be lower than the amount of the monthly premium
+(we refer to this workload as LESSDO cases). After offsetting the monthly benefit
+for premium collection purposes, a premium liability amount remains. The PSC will
+bill the beneficiary directly for the remaining liability amount. Additionally, the
+PSC will post a 020 event, which creates the Medicare premiums on the SSA-1099 on
+the line Medicare Part B Premiums deducted from your benefits. Since Box 3 (and Box
+5) will no longer show zero, we can generate a benefit statement at the same time
+using the tax statement year (TSY) entry.

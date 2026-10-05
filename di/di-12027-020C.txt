@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - DI 12027.020 - Determining Statutory Benefit Continuation (SBC) Payment Months
+Effective Dates: 05/21/2021 - Present | TN 13 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412027020 (fetched 2026-10-04)
+
+C. SBC Termination Month - Notification of Determination, Decision or Dismissal of Appeal
+When an appeal determination/decision of a medical cessation (or adverse medical reopening/revision)
+is made at the reconsideration or ALJ hearing level (or the ALJ dismisses the request
+for an ALJ hearing), the affected individual will receive a notice from Disability
+Determination Services (DDS) or the Hearing Office (HO) about the appeal determination,
+decision or dismissal.
+If SBC payments were being received during his/her appeal process:
+•
+When the appeal determination/decision by DDS or HO is favorable, the FO will terminate SBC payments and reinstate regular payments.
+•
+When the determination/decision is unfavorable (or there is a dismissal of the request for an ALJ hearing), then the notice will
+include appeals language and SBC payments must be terminated.
+The FO must terminate SBC in the appropriate month and in a timely manner. Any months
+of SBC will be an overpayment, subject to all the usual waiver rules.
+•
+See The Last Month of SBC Payment, DI 12027.020B.
+•
+See Waiver Provisions for Title II and Title XVI Overpayments, GN 02250.000.
+1. Reconsideration Level
+•
+The DDS will input an unfavorable determination on the appeal.
+•
+The system will automatically terminate SBC based on the data from the DDS input for
+Title XVI cases.
+•
+A Post-entitlement Online System (POS) input is required for termination of Title
+II benefits. See MSOM T2PE 002.003 for transmitting data to terminate Title II benefits.
+2. ALJ Hearing Level
+•
+The HO will input an unfavorable decision on the appeal (or dismissal of the request
+for an ALJ hearing).
+•
+The system will automatically terminate SBC based on the information from the HO input
+for Title XVI cases.
+•
+In Title II cases, the HO input may not automatically terminate SBC payments. A case
+is automatically terminated if it meets all of the following criteria:
+–
+Claim type – HA
+–
+Case input by HO within 30 days of the ALJ decision
+–
+Decision is unfavorable
+–
+Hearing type indicates SBC is involved, and
+–
+Case coded as a medical cessation
+Title II cases not meeting this criteria require further action to terminate SBC payments.
+The FO will terminate benefits for Title II cases by a POS input.
+3. Appeals Council (AC) Remand
+•
+See DI 12027.060 about processing SBC in AC remands of Title II cases.
+•
+See DI 12027.065 about processing SBC in AC remands of Title XVI or concurrent Title II/Title XVI
+cases.

@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02613.450 - Protest of Suspension and Deferral of Overpayment Recovery
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613450 (fetched 2026-10-04)
+
+B. Procedure FO or PSC beneficiary protests suspension during the due process period
+Steps
+Action
+1
+The FO or PSC technician will annotate the FFSCF with the timely protest from beneficiary.
+See (GN
+02613.450A.2.) for the actions to take on the FFSCF to annotate a protest action received during
+the due process period.
+2
+Forward the protest evidence or information to the FO CR or PSC CA to review and to
+make a decision on the protest from beneficiary per (GN
+02613.450A.2.). and (GN
+02613.450B.1.).
+3
+Evaluate the protest and evidence per (GN
+02613.450B.1). If good cause is alleged, obtain the request for good cause statement and accompanying
+good cause evidence or information per (GN
+02613.030B), then evaluate the information per (GN
+02613.025). Determine if good cause is met. If more information is needed, suspension of the
+benefits will not occur until after 90 days to allow the beneficiary time to provide
+the necessary information.
+If good cause is alleged and the beneficiary did not provide sufficient information
+when they protested the suspension during the due process period, then allow the beneficiary 90 days to obtain the needed evidence. Tickle/diary the case
+for 90 days via the MDW/PSC diary system to document the protest and to control return
+of the good cause evidence from the beneficiary. If the beneficiary does not provide
+the cause evidence within the 90 day period, process per (GN
+02613.030C).
+4
+If after evaluating the protest and the accompanying evidence or information, benefits
+should be suspended based on the evidence and the protest, then process the case per (GN
+02613.450B.2).
+or
+If after evaluating the protest and the accompanying evidence or information for good
+cause, benefits should be suspended based on the evidence and the protest, then process the case per (GN
+02613.025C.6.b.).
+If the beneficiary does not respond within 90 days with the good cause evidence or
+good cause cannot be established (See GN
+02613.030C for additional instructions on the good cause request close-out process), closeout
+the protest by denying good cause on the FFDG screen on the FFSCF and use a good cause
+denial code reason of QID.
+5
+If the warrant is satisfied and the beneficiary protested the suspension of their benefits
+during the due process period, then process the deferred recovery overpayment case per (GN
+02613.450C).
+1. FO or PSC CA review of evidence submitted on protest
+Scenario
+Action
+If the evidence supports the individual's protest
+then,
+Document the facts and the final determination on the EVID screen.
+See (GN
+02613.025D) for instructions on preparing a Special Good Cause Determination if good cause is
+being alleged by the beneficiary to stop the fugitive felon or probation or parole
+violator suspension.
+If the evidence is discrepant, appears to be fraudulent, altered, or cannot satisfactorily
+prove that the beneficiary can establish good cause for not satisfying their warrant
+then,
+Record information about the discrepant documents (e.g., how, when and where they
+were obtained). Develop all available information per (GN
+04110.010); prepare a summary of the situation. Document the facts and the final determination
+per (GN
+02613.025). Use the Allegation Referral Intake System (ARIS) to refer the program fraud allegation to the Office of the Inspector General, Office
+of Investigation Field Division per GN
+04111.005.
+Send the documentation to the Regional Office of Investigations, Office of the Inspector
+General. Take the necessary steps to suspend benefits per (GN
+02613.010).
+If the issue involves interpretation of State law or the nature of a crime, classification
+of the crime or if the warrant is still unsatisfied
+then,
+See (GN 02613.175) for obtaining information about criminal charges (i.e., offense codes) on warrants
+or the classification of crimes.
+See (GN 02613.001) and (GN 02613.010) for information on unsatisfied and satisfied warrants and dismissal of the warrant
+versus dismissal of the criminal charges on the warrant.
+2. FO or PSC denial of protest and suspension of benefits (good cause is not involved)
+STEPS
+ACTIONS
+1
+If T2 benefits are in LAF C and a protest was posted on the FFDG screen (DUE PROCESS
+MATURITY DATE and PROTEST DATE are entered on the FFEQ screen) and a PROTEST DATE is also posted to the MBR in the FFEL line in the PROTESTDT field.,
+then
+Update the FFDG screen in the ENTER PROTEST DISPOSITION field with 2-PROTEST DENIED.
+2
+If the DUE PROCESS maturity DATE (MMDDCCYY) on the FFDG screen is before the date you
+are annotating the protest denial code, then the FFSCF will allow the T2 finder that is pending to continue processing the suspension
+action for the beneficiary. or
+If the date you are processing the protest denial is on or after the PROTEST MATURITY
+DATE posted to the FFDG screen, suspend benefits via the FFEL screen in POS. Use the
+date of the warrant, or 1/1/2005, or the date of entitlement to Title II benefits
+as the WARRANT DATE, add an entry in the PROTEST DECISION: 2=DENIED on the FFEL screen
+per instructions in MSOM COMMON 005.035.
+NOTE: An automated T2 suspension/overpayment notice will be generated based on the automated
+or manual suspension input when the POS/FFEL screen is used for the suspension action.

@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02602.065 - Types of Death Alerts
+Effective Dates: 01/15/2016 - Present | TN 63 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602065 (fetched 2026-10-04)
+
+B. Types of alerts
+1. Third-party verification
+Third-party verification alerts are death reports for beneficiaries from third parties
+that we must verify by following the steps in GN 02602.050 before we can post death to the Numident. We consider a death report from a third
+party as verified when a first-party reporter agrees the person died. These are the
+types of third-party alerts:
+a.
+CMS – Third-party death verification required for beneficiary (DM subcode CM)
+This is a report from the Centers for Medicare & Medicaid Services.
+b.
+VA – Third-party death verification required for beneficiary (DM subcode VA)
+This is a report from the Department of Veterans Affairs.
+c.
+State Agency – Third-party death verification required for beneficiary (DM subcode BX)
+This is a report from a state agency, other than the State Bureau of Vital Statistics.
+d.
+OPM – Third-party death verification required for beneficiary (DM subcode OP)
+This is a report from the Office of Personnel Management.
+e.
+Third-Party (Alleged) – Third-party death verification required for beneficiary (DM subcode AD)
+This is a report from a third-party input through the Death Information Processing
+System (DIPS).
+2. Name does not match
+You will receive this alert if the name entered through Title 2, does not match the
+Numident name:
+T2 – DIPS Input Required – Additional Development For Identity Mismatch (DM subcode DN).
+3. DIPS not used
+If we add death to Title 2 first, instead of through DIPS, the following alert will
+be generated:
+T2 – DIPS Input Required (DM subcode DX).
+Resolve this alert by making a DIPS transaction; no further development is necessary.
+REMINDER: To avoid getting this type of alert, always enter death information into DIPS first,
+before entering death into the T2 payment systems.
+4. Numident Death Alerts
+When death data is present on the Numident, but there is no corresponding death data
+on the payment records for an individual on the Master Beneficiary Record (MBR) and
+Supplemental Security Record (SSR), the system produces a Numident Death Alert. We
+perform this match for the following reasons:
+•
+Reduce improper payments (if death does not make it to the payment records, the person
+remains in current pay, receiving benefits, until these alerts are resolved);
+•
+Remove personally identifiable information from the Death Master File if an individual
+is alive;
+•
+Allow proper posting of earnings;
+•
+Identify cases where death information is posted to the Numident, but not all active
+payment records have been terminated for the deceased; and
+•
+Identify cases where benefits or payments were reinstated following an erroneous death
+termination action, but death information was not removed from the Numident.
+For instructions to process these alerts see GN 02602.070 (for ETC: D cases, see RM 10220.415).

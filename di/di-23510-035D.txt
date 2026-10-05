@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 23510.035 - Death after Filing – Title XVI (Chart)
+Effective Dates: 12/15/2022 - Present | TN 14 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423510035 (fetched 2026-10-04)
+
+D. Medicaid only
+The DDS makes Medicaid eligibility determinations in some States.
+Use the appropriate chart for instructions about
+•
+completing Form SSA-831 (Disability Determination and Transmittal),
+•
+preparing the notification (if needed), and
+•
+routing the case.
+1. Allowance
+Use the chart below for fully favorable determinations:
+SSA-831
+Notification
+Special routing
+Complete as usual with the following exceptions:
+Item 17: Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Item 29 (Ltr./Par. No.): Leave blank
+Item 34 (Remarks): If claimant filed for self, enter “Claimant deceased (date of death) –
+determination for Medicaid only”.
+No DDS-prepared notification is needed for fully favorable allowances.
+Route the case to the FO with a Special Handling flag (see, DI 81020.085 Certified Electronic Folder (CEF) Flags).
+Alert the FO via email or other electronic means that, "SSI claimant deceased - claim
+allowed but not input - please notify welfare of Medicaid determination."
+For eDib cases, see DI 81020.090 Certified Electronic Folder (CEF) Messages.
+2. Partially favorable allowance
+Use this chart for partially favorable allowance determinations:
+SSA-831
+Notification
+Special routing
+Complete as usual with the following exceptions:
+Item 17: Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Item 29 (Ltr./Par. No.): Enter “DO D/L 1029, 1373”. (If the system is unable to generate
+the proper disability determination notice and a manual notice must be prepared.)
+Item 34 (Remarks): If claimant filed for self, enter, “Claimant deceased (date of death)
+– determination for Medicaid only.”
+DDS prepares a personalized disability explanation in the third person.
+Alert the FO to release the notice attachment with the final notice prepared by the
+FO.
+For eDib cases, see DI 81020.130 Electronic Case Closure.
+Do not prepare an interim notice SSA-1157-U2 (SI).
+Route the case to the FO with a Special Handling flag (see, DI 81020.085 Certified Electronic Folder (CEF) Flags).
+Alert the FO via email or other electronic means that, "SSI claimant deceased – claim
+allowed but not input – please notify welfare of Medicaid determination."
+For eDib cases, see DI 81020.090 Certified Electronic Folder (CEF) Messages.
+3. Denial
+Use this chart for denial determinations:
+SSA-831
+Notification
+Special routing
+Complete as usual with the following exceptions:
+Item 29: Enter “DO D/L 1029, 1373”. (If the system is unable to generate the proper disability
+determination notice and a manual notice must be prepared.)
+Item 34 (Remarks): If claimant filed for self enter, “Claimant deceased (date of death) –
+determination for Medicaid only.”
+DDS prepares a personalized disability explanation in the third person, released by
+the FO.
+Route the case to the FO with a Special Handling flag (see, DI 81020.085 Certified Electronic Folder (CEF) Flags).
+Alert the FO via email or other electronic means that, "SSI claimant deceased – claim
+denied but not input – notify welfare of Medicaid determination."
+For eDib cases, see DI 81020.090 Certified Electronic Folder (CEF) Messages.

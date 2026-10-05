@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02402.475 - Coding Azerbaijan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/27/2024 - Present | TN 284 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402475 (fetched 2026-10-04)
+
+G. Example of coding Azerbaijan direct deposit
+The customer provides us with a signup form for Azerbaijan containing the account
+number: "AZ21NABZ00000000137010001944".
+•
+The first character of IBAN is “AZ,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The next 4 characters of the IBAN represents the bank code.
+•
+The last 20 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as 750000130
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+·Start with country code “J” designated for Azerbaijan; and
+•
+·Code the 16 digits of the 20-digit Account Number “0000000013701000”
+3. Obtain the following information
+•
+RTN: 750000130
+•
+Checking
+•
+DAN: J0000000013701000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000130 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: J0000000013701000
+•CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 750000130
+•
+DAN CJ0000000013701000

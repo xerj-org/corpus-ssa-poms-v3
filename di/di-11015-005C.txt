@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - DI 11015.005 - Field Office (FO) Processing of an Initial Disabled Widow(er)’s Benefits (DWB) Claim
+Effective Dates: 03/25/2020 - Present | TN 34 (04-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015005 (fetched 2026-10-04)
+
+C. When the claimant can convert from mother’s or father’s benefits to DWB
+If the widow(er) is entitled to mother’s or father’s benefits and becomes disabled,
+determine if it would be advantageous for the disabled widow(er) to elect DWB per
+RS 00207.005B. Additionally, review the widow(er)’s own earnings record to determine if he or she
+is insured for DIB, following instruction in DI 11015.001B.
+NOTE: A mother or father beneficiary can be deemed to be entitled to DWB for health insurance
+(HI) purposes only, so he or she may wish to establish eligibility to DWB solely for
+HI purposes.
+Follow processing instructions in DI 11015.005B (in this section), noting that it is not necessary to establish an MCS claim to create
+an EDCS case for the disabled widow(er). Create the MCS-Exclusion case in EDCS per
+DI 81010.020 and DI 81010.035B.
+1. If disability is established
+When the DDS makes a favorable determination, use the CLAIM INT DWB barcode or Medicare
+DWB barcode to fax actionable material into the PC's paperless queue. Provide the
+disability onset date and other coding if necessary. In EDCS, the claims material
+is faxed to the EF.
+2. If disability is not established
+When the DDS makes an unfavorable determination, the FO processes the disallowance
+via Manual Adjustment, Credit, and Award Direct Data Entry (MACADE). For complete
+MACADE processing instructions, see Disallowances, Abatements, and Withdrawals SM
+00380.000.
+References:
+•
+RS 00207.005 – Widow(er)’s Benefits – Conversion of Benefits – Policy
+•
+RS 00207.020 – Health Insurance (HI) for Disabled Widow(er)s
+•
+RS 00208.110 – Medicare – Requirements for Entitlement – Mothers/Fathers

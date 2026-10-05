@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - DI 11010.030 - Field Office (FO) Operating Instructions for Deferred Title II Initial Claims
+Effective Dates: 11/07/2013 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010030 (fetched 2026-10-04)
+
+F. Processing denials
+In a medical denial:
+•
+The DDS inputs their determination and releases the notice.
+•
+Use the SSA-831 in the folder or the WMI code showing the disallowance reason to identify
+and process the denial.
+•
+When the DDS disability determination is in the CEF, the "DDS Determination Added"
+action item or another applicable message appears on the EDCS Action page. View the
+determination and take appropriate action.
+NOTE: If the determination is on the WMI listing but the official folder is pending in
+a DQB, hold effectuation until the official folder returns from the DQB. To verify
+the DQB determination, review the EDCS Action Page for case return, Case Review/Action
+History, and SSA-831 (in eView or the folder). Do not effectuate the determination
+until the DDS/DQB closes the case.
+•
+If the case had not been triggered for NMC at the time of the DDS medical denial,
+manually effectuate the denial.
+•
+Resolve any material earnings discrepancies that require further action, following
+instructions in DI 11010.050. Process the disability claim denial and, if additional evidence is necessary to
+complete an earnings correction, follow the usual closeout procedures for earnings
+corrections, see sections RM 03800.000.
+•
+If the official file is paper, follow applicable instructions in DI 11010.370.

@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02402.351 - Coding Iceland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402351 (fetched 2026-10-04)
+
+G. Example of coding Iceland direct deposit
+The customer provides us with a signup form with the IBAN of: "IS140159260076545510730339."
+•
+The first 2 characters of the Iceland IBAN are “IS,” the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits. The technicians should
+never code these to the MBR.
+•
+The fifth and sixth digits are the bank code.
+•
+The seventh and eighth digits are the branch code.
+•
+The last 18 characters represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 66 (SSA-designated prefix for IDD);
+•
+Code 2 filler zeros “00”;
+•
+Code the 4-digit bank code “01”;
+•
+Code the 4-digit branch code “59”;
+•
+Code the 1-digit check digit code (i.e., 8) (obtained from the Title II Interactive
+Comps from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for checking or an “S” for savings. If there is
+no type of account indicated, use a “C” for checking.
+2. Derive the DAN
+The technician
+codes the DAN.
+•
+Start with the country code of “L” designated for Iceland;
+•
+Code 16 digits of the 18-digit account number “2600765455107303”;
+•
+Input full IBAN through ITS.gov, so that the final two digits of the DAN annotate.
+The MBR only houses up to 17 characters in the DAN field.
+3. Obtain the following information
+•
+RTN: 660001598
+•
+Checking
+•
+DAN: L2600765455107303
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660001598 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L2600765455107303 (17-character limit)
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660001598
+•
+DAN- CL2600765455107303

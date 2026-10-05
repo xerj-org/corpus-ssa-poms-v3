@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02602.320 - Whereabouts Unknown for Retirement and Survivor (RSI) insurance beneficiaries
+Effective Dates: 05/30/2023 - Present | TN 99 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602320 (fetched 2026-10-04)
+
+C. Procedure – FO actions after efforts to locate
+1. Unable to locate
+If you cannot locate the beneficiary after pursuing the required efforts and 15 days
+have passed since sending the advanced notice per GN 02602.320B.1.b above, then:
+a.
+Include the outcome of the advance notice in the special message field of the MBR.
+For example, "The beneficiary did not respond to the advance notice;" and
+b.
+Suspend benefits with LAF S9, following the instructions as outlined in SM
+03005.160, SM 03020.290, and MS 00705.034.
+NOTE: If you determine during development that another LAF code is more appropriate due
+to other entitlement, termination, or suspension events, update and/or change the
+LAF code and/or Reason for Suspension or Termination (RFST) per the priority of suspension
+in SM
+03020.001.
+2. Beneficiary or representative payee responds to suspense action
+If the beneficiary or their representative payee responds to the suspense action,
+follow these steps:
+a.
+Verify the beneficiary’s identity per GN
+00203.020;
+b.
+Determine whether benefits should continue or if benefits should be suspended for
+other reasons. The record may have additional suspense codes unrelated to "whereabouts
+unknown";
+c.
+Reinstate benefits effective with the first month of suspension using the guidelines
+found in SM 03005.160, if applicable. For beneficiaries with representative payees, follow the procedures
+as outlined in GN
+00504.160 to reinstate benefits; and
+d.
+Use the Miscellaneous Online Edited Transaction System (MONET) to annotate the Special
+Message field on the MBR that the beneficiary was located (See MS 06307.008). Do NOT
+delete any prior Special Messages related to "whereabouts unknown" development.

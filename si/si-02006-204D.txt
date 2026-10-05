@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - SI 02006.204 - Field Office Processing Instructions for Concurrent Cases Involving Unknown or Unresolved Representative Fees
+Effective Dates: 07/28/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006204 (fetched 2026-10-04)
+
+D. Procedure for annotating SSI screens when the representative fees are unknown or unresolved:
+Step
+Action
+1
+Review the representative’s information for accuracy on the UATH screen MS 00302.013.
+2
+Annotate the UFEE screen:
+•
+Show “FEE SITUATION: 1=UNKNOWN OR UNRESOLVED FEE”
+•
+Ensure that Direct Payment Waived is answered “N” on the UFEE screen if the representative
+is eligible for and has not waived direct payment.
+3
+Add a SSR remark:
+•
+Go to Claim determination path in CCE
+•
+Select clearance menu
+•
+Select SSR special messages
+•
+Enter the following remark "MM/DD/YY UNRESOLVED FEE CASE WAITING ON FEE AUTHORIZATION"
+4
+Effectuate the claim (i.e., calculate benefits and pay ongoing benefits)
+NOTE:
+In certain situations, you may be able to release the past-due benefits we are withholding
+for fee purposes on the T16 record. Follow underpayment procedures per SI 02101.002.
+Compute and set an amount in the Estimated Fee Withholding (EFW) field whenever the
+representative is eligible to receive direct payment.
+Have a reviewer complete the prepayment review if the case meets the requirements
+for a prepayment review in SI 02101.025.
+The simulated SSR should show:
+•
+UPV of V, 2, B or A if there is an underpayment remaining after the initial retroactive
+payment is posted to the SSR.
+•
+RF diary to control for fee development if there is an EFW set.
+5
+Code the CCE development worksheet as follows:
+•
+Set a “FEEAUTHPEND” issue with a follow-up date for 60 days (120 days
+for federal court cases) on the CCE development worksheet or MDW for non-MSSICS cases. This issue will control
+for the receipt of the fee authorization.
+•
+Set a “FEE UPDATE” issue on the CCE development worksheet or MDW for non-MSSICS cases
+with a follow up to match the “FEEAUTHPEND” issue. This issue will control for adjustments
+you need to make to the SSR after you know the total amount of the representative
+fees authorized. DO NOT receipt in this issue until you have successfully adjusted the SSR to account for
+the total representative fees authorized, including any fees resulting from an award
+of auxiliary benefits for which the claimant is responsible, see GN 03920.036B.2.
+•
+add the phrase, “See Report of Contact” to the corresponding remarks lines for both
+issues.
+6
+Establish a Report of Contact:
+•
+On a new Report of Contact page, type the phrase “FEE AUTHORIZED–ADJUST SSR” in the
+subject line. Then, copy and paste the following text into the Report Text:
+–
+"This case contains a period of windfall offset as well as potential fees for representation."
+***
+Do
+not receipt in the “FEE UPDATE” issue until you have successfully adjusted
+the SSR to account for the total representative fees authorized, including
+additional fees from an auxiliary claim when the claimant is responsible
+for those fees.
+SEE GN 03920.036B.2***
+7
+Once the “FEEAUTHPEND” issue has matured, check all possible locations for fee information
+to determine if a fee has been authorized. This includes:
+•
+Modernized development worksheet (MDW),
+•
+Master Beneficiary Record (MBR),
+•
+Online Retrieval System (ORS),
+•
+Evidence Portal (EP),
+•
+Case Processing and Mangement System (CPMS),
+•
+Electronic Viewing System (eView) and
+•
+Processing Center Action Control System (PCACS).
+If you do not find anything indicating a fee has been authorized, update the CCE development
+worksheet or MDW to extend the Tickle date another 60 days and repeat as necessary
+until you receive the fee authorization. See GN 03930.030.
+NOTE: If we do not receive a fee petition from the representative, the PC will follow
+the instructions in GN 03930.090. However, for cases involving a pending fee petition, auxiliary claim, or court fees,
+FO technicians must continue to monitor the status of the fee.

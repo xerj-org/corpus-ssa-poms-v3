@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - DI 40525.100 - Processing Center Action Control System (PCACS) Coordination
+Effective Dates: 05/21/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525100 (fetched 2026-10-04)
+
+B. Process – PC actions based on PCACS and Disability Control File (DCF) reads
+1.
+Alerts for folders located in operational sites and components are printed in the
+jurisdictional PC's.
+2.
+These alerts can include Module/DRS locations and any auxiliary files locations.
+3.
+OCO and the PSC's are responsible for retrieving Title II folders and the Title II
+portion of concurrent TII/TXVI folder(s) for these CDR direct release alerts and mailing
+them to the FOs.
+4.
+OCO/PSC is responsible for initiating special search activities and preparing a duplicate
+folder if the folder shown on PCACS is not in file (NIF) in the Megasite/CAVES, cannot
+be located or has been destroyed.
+5.
+The OCO/PSC sends any folder belonging to the NH located during the search even if
+it is not the appropriate folder, i.e., does not contain the needed medical evidence.
+EXCEPTION: If ODO/PSC determines the Title II folder is in a FO, they will forward the alert
+to the servicing FO to retrieve the Title II folder and conduct the CDR interview.
+6.
+DO NOT consider a folder "missing" until the Megasite/Caves/PSC complete the Initial
+Pull Period (not to exceed 90 days) and it yields "NO FOLDER".
+7.
+AT THIS POINT, OCO/PSC changes PCACS to read "AUXRH QUES QUES", or "AUXRH TEMP QUES"
+or "CAVES QUES QUES or PC1-6 QUES QUES" for the direct release/mailer alerts.
+8.
+OCO/PSC updates the FOLDER RECONSTRUCTION field on the DCF to read "Q". See CHART
+below.
+9.
+OCO/PSC is still searching (can take up to 120 days from the "AUXRH QUES QUES", "AUXRH
+TEMP QUES" or "CAVES QUES QUES or PC1-6 QUES QUES" entry date) for the medical CDR
+folder in other locations.
+10.
+OCO/PSC still unable to locate the folder, updates the FOLDER RECONSTRUCTION field
+on the DCF to read "L".
+11.
+Prepares a duplicate folder, updates the DCF, and forwards the duplicate folder to
+the FO. The FO will allow 15 working days for receipt of the duplicate folder before
+contacting OCO/PSC-DRS for status. See DI 40525.100C.

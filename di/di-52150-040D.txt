@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - DI 52150.040 - Changes in Workers’ Compensation/ Public Disability Benefits (WC/PDB) Benefits Paid
+Effective Dates: 09/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150040 (fetched 2026-10-04)
+
+D. Computing the new monthly WC/PDB rate
+Compute the new monthly rate as follows:
+1. Mid-month change
+Prorate the new WC/PDB rate if the rate change is not effective on the first day of
+a month.
+EXAMPLE:
+The weekly WC rate increased from $50 to $60 effective 04/20/2007. Compute the monthly
+WC rate for 04/2007 as follows:
+$50 divided by 7 days = $7.14 (daily rate) x 19 days = $135.66
+$60 divided by 7 days = $8.57 (daily rate) x 11 days = $ 94.27
+Total = $229.93
+Round down the final monthly amount in 04/2007 to $229.90. The ICF WC/PDB computation
+programs are able to compute the new WC/PDB rate.
+2. Rounding
+Compute the daily rate using three decimal places and round to the nearest penny.
+For rounding examples, see DI 52150.035B.
+3. WC/PDB begins or ends mid-month
+Prorate as in this section at DI 52150.040D.1., using $0 for days the individual is not entitled to the WC/PDB.
+4. Monthly equivalent comparison
+Exercise caution when manually determining the WC/PDB rate to use in computing offset.
+The newly derived WC/PDB rate for the adjustment month may sometimes be higher than
+the monthly equivalent for the higher weekly rate or lower than the monthly equivalent
+for the lower weekly rate. Where this is true, base the new WC/PDB rate in the month
+of change on these comparisons:
+•
+Compare the monthly equivalent for the higher weekly rate to the new rate computed
+for the mid-month adjustment, using whichever rate is lower. The change cannot result
+in a monthly rate higher than the monthly equivalent for the higher weekly rate. or
+•
+Compare the new rate computed for the mid-month adjustment to the monthly equivalent
+for the lower weekly rate, using the higher of the two. The change cannot result in
+a rate less than the monthly equivalent for the lower weekly rate.
+NOTE: ICF WC/PDB automatically performs the equivalency comparison.
+EXAMPLE 1:
+The weekly WC rate increased from $50 to $60 effective 03/04/2008. Compute the monthly
+WC rate for 03/2008 as follows:
+$50 divided by 7 days = $7.14 (daily rate) x 3 days = $ 21.42
+$60 divided by 7 days = $8.57 (daily rate) x 28 days = $239.96
+Total =
+$261.38
+Round down the final monthly amount in 03/2008 to $261.30
+02/2008 monthly equivalent: $50 x 13/3 = $216.60
+04/2008 monthly equivalent: $60 x 13/3 = $260.00
+The monthly WC/PDB rate for offset in 03/2008 is the 04/2008 monthly equivalent for
+the higher monthly rate of $260.00.
+EXAMPLE 2:
+The weekly WC rate increased from $50 to $70 effective 02/25/2007. Compute the monthly
+WC rate for 02/2007 as follows:
+$50 divided by 7 days = $ 7.14 (daily rate) x 24 days = $171.36
+$70 divided by 7 days = $10.00 (daily rate) x 4 day = $ 40.00
+Total
+= $211.36
+Round down the final monthly amount in 02/2007 to $211.30.
+01/2007 monthly equivalent: $50 x 13/3 = $216.60
+03/2007 monthly equivalent: $70 x 13/3 = $303.30
+The monthly WC/PDB rate for offset in 02/2007 is the 01/2007 monthly equivalent for
+the lower monthly rate of $216.60.

@@ -1,0 +1,13 @@
+SSA Program Operations Manual System (POMS) - GN 00605.020 - System Selection and Control, and Mailing of Accounting Forms
+Effective Dates: 03/13/2019 - Present | TN 50 (03-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605020 (fetched 2026-10-04)
+
+C. Procedure
+Use the eRPS update (eRPS Home screen, MS INTRANETERPS 001.002) feature to determine
+whether a title II accounting report has been received from the payee. This feature
+should be especially helpful in processing non-responder alerts (085) or when answering
+payees' inquiries about the status of a title II SSA-623-OCR-SM, SSA-6230-OCR-SM,
+or SSA-6234-OCR-SM.
+For title XVI (and concurrent) cases, query the SSR to determine whether the accounting
+report was received; i.e., is the AR diary pending in the DIAR segment or has the
+NM field in the REPY segment been updated?

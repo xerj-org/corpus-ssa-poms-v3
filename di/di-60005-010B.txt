@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 60005.010 - Guaranteed Income Financial Treatment Trial (GIFTT) Participants
+Effective Dates: 04/19/2023 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460005010 (fetched 2026-10-04)
+
+B. Procedures
+1. For GIFTT participants who apply for benefits
+FO technicians input the project participation information into the CCE and SSR during
+the initial claim.
+a. CCE Input
+Input the following in the Direct Report of Contact field:
+•
+GIFTT participant
+•
+GIFTT start date (date of first GI payment)
+•
+GIFTT evidence submitted by claimant (EP/EVIEW)
+•
+GIFTT POMS DI 60005.000
+b. SSR Input
+•
+Input GIFT MMYY in the CG field (where MMYY is the first monthly GI payment). For
+example, GIFT 0923 would indicate the first GI payment was received in September 2023.
+GIFTT is shortened here because of the character limitation in this field.
+Note:
+Every GIFTT participant must have this entry. It is important for the demonstration
+research that the CG field is not overlaid by a subsequent input.
+•
+Input the following in the Remarks field, "GIFTT waiver case - special income and
+resource exclusions - call FO ### - retain this remark until 04/30/2030."
+2. For SSI recipients who enroll in GIFTT
+On a monthly basis, Regional contacts will send the project participation lists to
+FO technicians who then input the information into the SSR and DCF. Follow the SSR
+instructions listed in DI 60005.010B.1.b and DCF input instructions here.
+DCF Input
+•
+Select Option 32 from SSA Main Menu in PCOM.
+•
+Select Option 16 from CDR Selection Menu.
+•
+Input GI in the Demo Indicator Field. GI is the demonstration code for GIFTT.
+•
+Input the MMDDYYYY in the Participation Start Date field where the MMDDYYYY is the
+month, day, and year the individual received the first GI payment.
+•
+Input the MMDDYYYY in the Participation Stop Date field where the MMDDYYYY is the
+month, day, and year the participant is no longer eligible for the GIFTT waivers.
+This date is four years after the Participation Start Date. For example, if the participant
+start date (date of first GI payment) is September 15, 2023, the participant stop
+date is August 31, 2027.

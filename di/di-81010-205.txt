@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 81010.205 - Electronic Continuing Disability Review (eCDR) Case Selection
+Effective Dates: 06/21/2018 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010205 (fetched 2026-10-04)
+
+DI 81010.205 Electronic Continuing Disability Review (eCDR) Case Selection
+The CDR case selection process has not changed. See Overview of the CDR Selection
+and Release Process - DI 40525.030, for an overview of the CDR case selection and release process. An overview of post-entitlement
+events which may trigger a CDR is available in Events Which May Initiate a CDR - DI 13001.005.
+CDRs will be performed for both paper folders and certified electronic folders (CEFs).
+The selection process remains automated and is controlled by the Disability Control
+File (DCF). An overview of the DCF functionality is available in MSOM CDR 001.001.
+Upon receipt of the Comparison Point Decision (CPD) folder, use the Medical Improvement
+Not Expected (MINE) or MINE-Equivalent evaluation to determine if a CDR is appropriate.
+Instructions for screening CDR folders are available in Processing and Screening Continuing
+Disability Review (CDR) Folders and Alerts - DI 13005.020, Overview of the CDR Process for MINE or MINE-equivalent Cases - DI 13005.022, and Identifying and Processing Medical Improvement Not Expected (MINE) or MINE-Equivalent
+Cases - DI 28040.005.
+If a CDR is not appropriate, update the Disability Control File (DCF) to show that
+the case is screened out from CDR processing. No further electronic development is
+necessary. However, the pending medical CDR must still be closed on the DCF as follows:
+•
+From the MCDR screen, select 2=FO UPDATE;
+•
+Input the SSN and BIC (if other than “A”);
+•
+SELECT the appropriate CDR Type;
+•
+SELECT EVENT TYPE: 5=SSR/MBR CONDITIONSSTOP CDR; and
+•
+On the CDR Remarks Input Screen (IRMK), explain why the CDR was stopped.

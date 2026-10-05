@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - SI 02310.200 - Payroll Data Provider (PDP) Wages Received through the Payroll Information Exchange (PIE) - EE Diary
+Effective Dates: 03/26/2025 - Present | TN 71 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310200 (fetched 2026-10-04)
+
+A. Overview of the EE diary
+1. Conditions for EE diary creation
+The EE diary is created when wage and employment information is received from a Payroll
+Data Provider (PDP) through the Payroll Information Exchange (PIE) but cannot automatically
+post to the SSI record.
+The reasons wage information may not post automatically and an EE diary is created
+include:
+•
+The Employer Identification Number (EIN) received from the PDP does not match the
+EIN on any SSI Claims system Wages page;
+•
+A Wages page is present and there is no EIN listed; or
+•
+Automated posting of PDP wages is not possible because the SSI record needs manual
+review (e.g., Force due, manual deeming).
+For more information about the PIE process, see SI 00820.148C.
+2. Pending pages associated with the EE diary
+The SSI Claims system (i.e., Consolidated Claims Experience or CCE) may create the
+following pending pages based on information received from the PDP:
+•
+The Payroll Data Provider Pending Wage page (PDP Pending Wage page); and
+•
+The Payroll Data Provider Pending Wage Report page (PDP Pending Wage Report page).
+The PDP Pending Wage page displays wage and employment information from the PDP that
+could not match to an existing Wages page. It is the most common EE diary pending
+page. When this page is in the path, technicians must determine whether the pending
+wages:
+•
+belong to a new employer
+•
+belong to an existing employer (which needs to be updated to match the pending page
+employer), or
+•
+do not belong to the person for whom the wages were reported.
+For more information about the PDP Pending Wage page, see MS 08114.005.
+The PDP Pending Wage Report page is less common and generally only occurs when manual
+deeming or force due conditions exist. This page displays matched wage information from the PDP that requires manual processing to post. The wage information
+contained on the page either matches an existing Wages page or is for a new employer
+on a record with no Wages page. The wages have not been applied to the SSR; therefore,
+technicians must review the claim to apply the wages appropriately.
+For more information about the PDP Pending Wage Report page, see MS 08114.006.
+Either page (or both) may be added to the SSI claim path depending on case circumstances.
+Both pending pages will add the EE diary to the SSI record. No event can be closed
+in the SSI Claims system until all Pending Wage and Pending Wage Report pages have
+been resolved.
+3. Frequency of EE diary creation
+The EE diary is created monthly after the PIE run when the PDP Pending Wage page or
+PDP Pending Wage Report page is added to the SSI Claims path. The PIE run occurs at
+the beginning of each month, around the 7th day of the month.
+When the EE diary is not resolved prior to the monthly redetermination (RZ) selection
+process run, the case will be selected as a limited issue (LI) or RZ.

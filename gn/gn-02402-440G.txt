@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.440 - Coding Turks and Caicos Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/21/2019 - Present | TN 151 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402440 (fetched 2026-10-04)
+
+G. Example of coding Turks and Caicos Islands direct deposit
+The customer provides us with a signup form for Turks and Caicos Islands containing
+the account number: “12345678901122334455667788990.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 720000115
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “L” designated for Turks and Caicos Islands; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 720000115
+•
+Checking
+•
+DAN: L1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000115 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 720000115
+•
+DAN- CL1234567890112233

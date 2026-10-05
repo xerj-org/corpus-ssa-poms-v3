@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02402.040 - Where to Find Routing Transit Numbers (RTNs) and Depositor Account Numbers (DANs) on Account Documentation
+Effective Dates: 02/08/2018 - Present | TN 94 (02-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402040 (fetched 2026-10-04)
+
+B. Exhibits
+1. MICR coding symbols
+MICR is a special type font printed with magnetic ink on the bottom line of checks.
+Dash symbol – this symbol will be found inside the DAN field and should be treated
+as a dash (-) when you input the DAN to the system
+2. Check with check serial number inside the DAN field
+Look for the following information:
+a.
+RTN - In exhibit B.2, input “12345678”.
+b.
+Check serial number - In exhibit B.2, the check serial number, found in the upper right corner, is also
+coded inside the DAN field. Do not input this number, if you find it.
+c.
+DAN - In exhibit B.2, input “12312345” for a title II case, and “123 1234 5” for a Supplemental
+Security Income (SSI) case. Be sure to include the blank spaces in the number for
+SSI. Do not put dashes in the DAN unless the dash symbol is shown (see exhibit B.3.).
+d.
+Account title - The name shown on the check should be preprinted or verified with the FI and must
+meet the account title requirements in GN 02402.050.
+3. Check with check serial number outside the DAN field
+Look for the following information:
+a.
+RTN - In exhibit B.3, input “123456789”.
+b.
+DAN - In exhibit B.3, input “123-456-789”.
+c.
+Check serial number - In exhibit B.3, the check serial number is outside the DAN field, and you can ignore
+it.
+4. Payable through check
+Look for the following information:
+a.
+Payable through notice.
+b.
+RTN - In exhibit 4, you would not input the RTN shown in the field because it does not
+belong to the ODECO Federal Credit Union. Use other means of finding the correct RTN
+for the ODECO Federal Credit Union (see GN 02402.035A.2.d.).
+c.
+DAN - In exhibit 4, you would input “123456789012”.
+d.
+Check serial number - In exhibit B.4, the check serial number is outside the DAN field, and you can ignore
+it.
+5. Account statement
+Look for DAN in exhibit B.5, you would input “100349750-00-8”. The RTN is not shown
+on an account statement, so use other means of finding the RTN (see GN 02402.035A.2.d.)
+6. Savings account passbook
+Look for DAN in exhibit B.6, you would input “25-00130-6”. The RTN is not shown on
+a savings account passbook, so use other means of finding the RTN (see GN 02402.035A.2.d.).

@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02608.301 - Alerts from OPM/MBR Match (GPO)
+Effective Dates: 09/12/2025 - Present | TN 62 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608301 (fetched 2026-10-04)
+
+B. Procedure - alert messages
+1. OPM/GPO enforcement alert, CA
+An alert message is generated if the matched data indicate that GPO should be imposed
+or adjusted.
+The OPM/GPO enforcement alert message generates for a spouse’s MBR record if the OPM
+record shows a pension being paid, but the MBR shows no GPO data.
+The CA will determine if offset applies and take the following actions:
+If the claims file shows that GPO does not apply, instruct the BA to post a CSGPO
+of “N” to the MBR. This action avoids another alert.
+If offset is imposed correctly, instruct the BA to update the GPO data to the MBR.
+In all other cases, take the following actions:
+•
+Send the exhibit letter in NL 00703.151 to the beneficiary.
+•
+Diary and control for 35 days.
+•
+If no protest is received (when the diary matures), instruct the BA to impose the
+GPO and post GPO data to the MBR.
+•
+If a protest is received, instruct the FO to resolve the situation per GN 03001.025. Diary the case for 30 days.
+2. OPM/GPO alert verify 2/3 offset, BA
+This alert message is generated when two-thirds of the current Civil Service amount
+does not equal the offset amount on the MBR.
+The BA will take the following actions:
+a.
+If the claims file shows that, based upon the current OPM data, the correct amount
+of offset has been applied, correct the offset data on the MBR.
+b.
+If the correct amount of offset has not been applied, follow the instructions in GN 02608.301B.1 in this section. This continues to be a BA function.
+c.
+If GPO does not apply, post a CSGPO of "N" to the MBR. This avoids another alert.
+3. OPM/GPO alert-prouty verify 100 percent offset
+This alert message is generated when 100 percent of the current civil service amount
+does not equal the offset amount on the MBR. Follow 1.b. above.

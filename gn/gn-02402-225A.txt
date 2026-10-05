@@ -1,0 +1,72 @@
+SSA Program Operations Manual System (POMS) - GN 02402.225 - Payment Operation for International Direct Deposit (IDD)
+Effective Dates: 06/07/2022 - Present | TN 274 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402225 (fetched 2026-10-04)
+
+A. Processing Payments
+1. Payment date for regular monthly payments
+SSA sends a file containing all foreign direct deposit payments to Federal Reserve
+Bank of Kansas City (FRBKC), by way of the Department of the Treasury's Financial
+Management Services (FMS) approximately 6 business days before the scheduled payment
+date for recurring monthly payments.
+2. Payment date for IDD PMA payments
+Prior month accrual (PMA) payments are sent to FRBKC (through FMS) on a flow basis
+one workday after the input. The payment is sent on the run processing date (RPD)
+as displayed on Payment History Update System (PHUS).
+The payment date will be 4 workdays later. Therefore, it is safe to tell IDD beneficiaries
+that a PMA payment will have a payment date approximately 5 workdays after the input to release the payment, or 4 workdays from the date on the PHUS, if it has already
+been input.
+EXCEPTION: If a PMA payment on PHUS is dated after the close of current operating month (COM)
+but before the next month, it may include the payment for that month and therefore cannot by law be dated earlier than
+the first day of the following month. For example, a payment on PHUS dated 3/22/18
+(the day after the End of COM for March) would have a payment date of 4/1/18, the
+first workday in the following month, even though this is 8 workdays from the date
+on PHUS. Continue with the rule of 4 workdays, when fewer than 4 workdays between
+the date on the PHUS and the first workday of the following month, the payment date
+moves to the date 4 workdays from the release date.
+a. Example 1
+Our system releases an IDD PMA payment on 3/10/18. The payment date is 4 workdays
+from then, 3/15/18.
+b. Example 2
+An IDD payment has a PHUS date of 3/22/18, the day after the END of COM for March.
+The payment must be paid in April. It is at least 4 workdays until 4/1/18, so that
+is the payment date. This is also the payment date for IDD PMA payments released on
+3/23/18 through 3/28/18.
+c. Example 3
+Our system releases an IDD PMA payment on 3/29/18. Four workdays from that date is
+4/4/18, which is the correct payment date.
+3. Date payment available in beneficiary's account
+In most countries, the payment will be available on the payment date (also known as
+the settlement date). However, in some countries the banking rules vary, so an IDD
+payment is not available in the account until one or more days after the payment date.
+a. Example 1
+We input information for a beneficiary in Canada on March 11, 2018. A PMA payment
+is released with a date of March 14 on the PHUS. The payment date is March 20, and
+the payment will be in the beneficiary's account on March 20.
+b. Example 2
+The PHUS shows that the initial payment for a beneficiary in Grenada was released
+March 15, 2018. The payment date is March 21. The payment should be in the beneficiary's
+account on March 22 (one day after the payment date).
+4. Separating payments by countries
+FRBKC separates the payments by
+•
+contractor bank, based on the two-digit RTN prefix and the DAN multi-country code
+(if applicable) and,
+•
+formats each file to comply with the contract requirements.
+For prefix and multi-country codes, see GN 02402.220B.
+5. Currency conversion
+IDD for some countries is in U.S. dollars (USD). For Mexico and countries included
+in multi-country contracts that receive IDD in local currency, FRBKC transmits the
+files to the processor banks, where the currency rate of exchange is established.
+For local currency payments to other countries, FRBKC establishes the currency rates
+of exchange before transmitting the files.
+6. Payment displays
+FRBKC displays the current and historical payment information on IDD.gov, which is
+on a secure Treasury website. This includes the payee name, claim number, payment
+date, amount, and trace number. For countries in which FRBKC does the currency conversion,
+IDD.gov shows the payment amounts in both USD and the local currency.
+FRBKC no longer produces copies of payment files, either electronically or on paper.
+7. Forwarding the Payment Files
+Approximately 1-4 business days before the scheduled payment date, FRBKC forwards
+the payment files to the processing facilities that send the payments through the
+foreign ACH systems.

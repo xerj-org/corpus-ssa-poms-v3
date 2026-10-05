@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 02310.064 - Title XIX Facility Match (D8 Diary)
+Effective Dates: 11/28/2022 - Present | TN 64 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310064 (fetched 2026-10-04)
+
+E. Clearing the D8 diary
+For MSSICS cases, make any necessary changes to the address and living arrangement
+screens and ensure you properly document all issues. You must clear the diary via
+the MSSICS TXIX Facility Interface Development (DXIX) screen (MSOM MSSICS 022.018),
+close the LI or RZ event, and build transaction to the SSR.
+For Non-MSSICS cases, make any necessary changes to the address and living arrangement
+fields on the SSR via the SSA-1719-B, SSI Post-eligibility Input, and clear the limited
+issue (LI) or RZ by accessing the “PE Single Input” screen. [From the SSA Main Menu
+in PCOM, select 15 – SSI Data Inputs, then select 5 – SSI Single Inputs]. To clear
+the diary, you must also access the diary screen (UDIA) using Direct SSR Update in
+MSSICS.

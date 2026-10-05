@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.467 - Coding Democratic Republic of Congo Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/23/2023 - Present | TN 235 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402467 (fetched 2026-10-04)
+
+G. Example of coding Democratic Republic of Congo direct deposit
+The customer provides us with a signup form for Democratic Republic of Congo containing
+the account number: “12345678901122334455667.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 750000017
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “D” designated for Democratic Republic of Congo; and
+•
+Code 16 digits of the 23-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 750000017
+•
+Checking
+•
+DAN: ID234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000017 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: IO234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 750000017
+•
+DAN- CD1234567890112233

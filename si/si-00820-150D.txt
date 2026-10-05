@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - SI 00820.150 - Estimating Future Wages
+Effective Dates: 11/20/2023 - Present | TN 91 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820150 (fetched 2026-10-04)
+
+D. Procedure for creating wage estimates for SSI Claims system (i.e., non-MSSICS) cases
+For non-SSI Claims system (i.e., non-MSSICS):
+1.
+Create an estimate using pay slips or other wage information available and record
+all pertinent wage information listed in SI 00820.150B.1.
+2.
+Document how you derived the wage estimate on an SSA-5002 , or obtain a signed SSA-795
+(Statement of Claimant or Other Person) as appropriate.
+3.
+Store the document(s) in NDRED using the Evidence Portal (EP) or Eview , as appropriate.
+4.
+Consider whether any allowable deductions exist (i.e. cafeteria plans or court-ordered
+support) or special exclusions (IRWEs, BWEs, PASS) apply before you create a 14-month
+projection of wages.
+5.
+Project any deductions, if applicable.
+6.
+Transmit via SIC1 or SPE1 from the Title XVI Menus (SXVI) data input screen (SSA-450S
+or SSA-1719B Supplemental Security Income Post-Entitlement Input form), the final
+entry for the EN field as a “C” (continuing) code in the frequency field. For description
+of type and person code or specific exclusion see SM 01005.170D and for type of earned
+income and person code see SM 01305.105.
+7.
+Simultaneously transmit a remark detailing the wage earner’s hourly wage, number of
+hours in pay period, frequency of receipt and any deductions.
+NOTE: To arrive at a 14-month projection of wages, you could use the Title XVI Interactive
+Comps income projection program found at the PCOM main menu under selection #8.

@@ -1,0 +1,152 @@
+SSA Program Operations Manual System (POMS) - SI 00830.314 - Augmented Veterans Affairs (VA) Benefits
+Effective Dates: 08/21/2026 - Present | TN 285 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830314 (fetched 2026-10-04)
+
+F. Procedure for systems coding
+1. Veteran's portion
+Input the veteran's portion as VA income to the veteran only if the interface did not post the income. A verification code of 2, 3, or 4 following
+the claim number of the VA income entry on the SSR indicates an interface posting.
+If the case has an active SSI claim system pending
+file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension not based on need (type
+C unearned income) and based on need (type E unearned income) for a dependent, see
+SM 01305.296.
+NOTE: To input VA educational benefits on the SSI claim system, select EDUCATIONAL BENEFITS
+payment TYPE on the drop-down list on the VETERANS AFFAIRS PAYMENT page.
+2. Dependent spouse's portion
+If the interface did not post the income, input the dependent spouse's portion (but
+not an absent dependent spouse's portion) as VA income to the dependent spouse. A
+verification code of 2, 3, or 4 following the claim number of the VA income entry
+on the SSR indicates an interface posting.
+If the case has an active SSI claim system pending file,
+process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.2961.
+NOTE: Include the special program service center office code (PCOC) code of "D" following
+the claim number to indicate a dependent when inputting type C or E income. For information
+on VA PCOC entries, see SM 02002.015. To input VA educational benefits on the SSI
+claim system, select EDUCATIONAL BENEFITS payment TYPE on the drop-down list on the
+VETERANS AFFAIRS PAYMENT page.
+3. Dependent child's portion
+If the interface does not post the income to the SSR, input the dependent child's
+portion (but not an absent dependent child's portion) as VA income to the dependent
+child. A verification code of 2, 3, or 4 following the claim number of the VA income
+entry on the SSR indicates an interface posting.
+If the case has an active Supplemental Security Income (SSI) claims system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or VA Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+NOTE: When you input type C or E income, include the PCOC code of "D" following the claim
+number. For information on VA PCOC entries, see SM 02002.015.
+To input VA educational benefits on the SSI claim system from the VETERANS AFFAIRS
+PAYMENT page drop-down list, select EDUCATIONAL BENEFITS payment TYPE.
+4. Absent dependent spouse's portion
+a. Apportionment involved
+If the interface does not post income, input the absent dependent spouse's apportioned payment as VA income
+to the absent dependent spouse. A verification code of 2, 3, or 4 following the claim
+number of the VA income entry on the SSR indicates an interface posting.
+If the case has an activeSSI claim system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+NOTE: To input VA educational benefits on the SSI claim system from the VETERANS AFFAIRS
+PAYMENT page drop-down list, select EDUCATIONAL BENEFITS payment TYPE.
+b. Apportionment not involved
+Do not input the absent dependent spouse's portion as VA income. If the absent dependent
+spouses portion has already posted to the SSR, terminate the income retroactively
+to payments received on or after of November 17, 1994.
+When a dependent spouse becomes an absent dependent spouse, terminate the spouse's
+portion of the VA income effective with the month:
+•
+The dependent spouse no longer resides with the veteran. (For first-of-the-month (FOM)
+Residence and in-kind support and maintenance (ISM) Determination information, see
+SI 00835.500B.2.
+For instructions about administrative finality, see SI 04070.000; and
+•
+The dependent spouse no longer receives VA apportionment benefits.
+Remove the posted VA income by following the procedure on how to post the UM frequency
+code of N and UM income amount of zero in SM 01305.235 and SM 01305.335.
+If the case has an active SSI claim system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent
+see SM 01305.296.
+NOTE: Although amounts that a veteran provides to an absent dependent spouse are not VA
+income, develop for other forms of unearned income. For information on Augmented VA
+Benefits, see SI 00830.314B.3. in this section.
+5. Absent dependent child's portion
+a. Apportionment involved
+Input the absent dependent child's apportioned payment as VA income to the dependent
+only if the interface did not already post the income. A verification code of 2, 3, or
+4 following the claim number of the VA income entry on the SSR indicates an interface
+posting.
+If the case has an active SSI claim system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+NOTE: Input VA educational benefits on the SSI claim system. On the VETERANS AFFAIRS PAYMENT
+page drop-down list, select EDUCATIONAL BENEFITS payment TYPE.
+b. Apportionment not involved
+Do not input the absent dependent child's portion of an augmented VA benefit as income
+if it has not been apportioned. If it is already posted, terminate the income retroactive
+to payments received on or after November 17, 1994 (subject to the rules of administrative
+finality) per the policy in SI 00830.314C.5. in this section.
+In situations when a dependent child becomes an absent dependent child, terminate
+the child's portion of the VA income effective with the month:
+•
+The dependent child no longer resides with the beneficiary (veteran or veteran's surviving
+spouse) (For first-of-the-month (FOM) Residence and ISM Determinations information,
+see SI 00835.500B.2. For rules of administrative finality information, see SI 04070.000); and
+•
+The dependent child no longer receives VA apportionment benefits.
+Remove the posted VA income by following procedure regarding the use of UM frequency
+code of N and UM income amount of zero, in SM 01305.235 and SM 01305.335.
+If the case has an active
+SSI
+claim system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 008114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+NOTE: Input VA educational benefits on the SSI claim system. On the VETERANS AFFAIRS PAYMENT
+page, select EDUCATIONAL BENEFITS payment TYPE.
+6. Absent dependent parent's portion of an augmented disability compensation payment
+a. Apportionment involved
+Input the absent dependent parent's apportioned payment (for disability compensation
+only) as VA income to the absent dependent parent only if interface does not post the income. A verification code of 2, 3,or 4 following
+the claim number of the VA income entry on the SSR indicates an interface posting.
+If the case has an active SSI claim system pending file, process the actions on the SSI claim system using the VETERANS AFFAIRS PAYMENT page.
+For information on the Veterans Affairs Payment page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+b. Apportionment not involved
+Do not input the absent dependent parent's portion of the veteran's augmented disability
+compensation payment as income if there is no apportionment. If it is already posted,
+terminate the income retroactive to payments received on or after November 17, 1994
+(subject to the rules of administrative finality) per the policy in SI 00830.314C.5. in this section.
+When a dependent parent becomes an absent dependent parent, terminate the dependent
+parent's portion of the VA income (for disability compensation payments only) effective
+with the month:
+•
+the dependent parent no longer resides with the veteran (For first-of-the-month (FOM)
+Residence and ISM Determinations information, see SI 00835.500B.2. For instructions about administrative finality, see SI 04070.000); and
+•
+the dependent parent no longer receives an apportioned disability compensation payment.
+Remove the posted VA income by following procedure regarding the use of UM frequency
+code of N and UM income amount of zero in SM 01305.235 and SM 01305.335.
+If the case has an active
+SSI claim
+system pending file, use the VETERANS AFFAIRS PAYMENT page to process the actions on the SSI claim system.
+For information on the Veterans Affairs page, see MS 08114.052.
+For the specific rules to input VA Compensation or Pension that is either not based
+on need (type C unearned income) or based on need (type E unearned income) for a dependent,
+see SM 01305.296.
+NOTE: A parent can only be a dependent parent for purposes of a veteran's receipt of augmented
+disability compensation payments.

@@ -1,0 +1,169 @@
+SSA Program Operations Manual System (POMS) - DI 81010.155 - Processing Subsequent Claims or Appeals Filed While a Prior Claim or Appeal is Pending at the Appeals Council (AC)
+Effective Dates: 05/07/2012 - Present | TN 3 (07-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010155 (fetched 2026-10-04)
+
+B. Processing the subsequent claim or reconsideration as a Certified Electronic Folder
+(CEF)
+If the subsequent initial or reconsideration claim is a CEF the FO:
+1.
+Establishes the claim in EDCS and processes per CEF procedures in Field Office Procedures
+– Certified Electronic Process - DI 81010.000;
+2.
+Follows instructions in New Claims or Appeal Filed While a Prior Claim or Appeal is
+Pending Before the Appeals Council (AC) – Title II or Title XVI - DI 12045.027; and
+3.
+Adds the flag type “Subsequent Claim” in EDCS. For more information on flags, see
+DI 81010.080 Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS). In
+the flag “Description” box, add the following information:
+•
+Date the AC review was requested;
+•
+Office of Appellate Operations (OAO) branch with jurisdiction of the ALJ decision;
+and
+•
+“Claimant has filed a new application and has an appeal of an ALJ decision on a prior
+application pending at the Appeals Council. See CPMS Query.”
+The FO is notified on the EDCS Actions Page when:
+•
+DDS/OQR makes an allowance or denial determination on the subsequent claim;
+•
+DDS/OQR closes the claim with a No Determination (ND) with reason “Stopped Processing
+Duplicate Claim”; or
+•
+DDS/OQR cannot do an ND to stop processing the duplicate claim and the FO needs to
+do the ND with reason “Stopped Processing Duplicate Claim.”
+•
+AC receives a change of address
+1. Processing a favorable determination on subsequent claim or reconsideration
+If DDS/OQR makes a favorable determination on the subsequent claim, the FO processes
+the claim following DI 12045.027D New Claim or Appeal Filed While a Prior Claim or Appeal is Pending Before the Appeals
+Council (AC) — Title II or Title XVI.
+NOTE: If the AC appeal is pending in EDCS, the FO does not need to notify the OAO. EFI
+automatically sends a message to the AC stating “A favorable determination was made
+on another case for this SSN (insert SSN)” when the DDS/OQR determination is an allowance.
+2. Processing an unfavorable determination on subsequent claim or reconsideration
+If the DDS/OQR makes an unfavorable determination on a subsequent claim the FO:
+•
+Processes any reconsideration or hearing request following DI 81010.150 Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System
+(EDCS);
+•
+Routes the claim to DDS or ODAR as appropriate; and
+•
+Retains the “Subsequent Claim” flag when transferring.
+3. AC makes fully favorable decision or remands the case to the Hearing Office (HO)
+If the AC makes a fully favorable decision or remands the case to the HO and a common
+issue exists and subsequent application is pending in the DDS/OQR:
+a. DDS/OQR at version 12.0 or higher
+The DDS/OQR must close the claim with a No Determination (ND) with reason “Stopped
+Processing Duplicate Claim” when the AC has made a favorable decision or the case
+has been remanded to the HO and there is a common issue.
+1.
+Title II
+The FO takes the following actions in MCS:
+•
+Completes the RPOC concerning duplicate claim; and
+•
+Manclears the claim.
+2.
+Title XVI
+The FO takes the following actions in MSSICS:
+•
+Updates the subsequent claim record to match the record of the case pending in the
+HO;
+•
+Changes effective filing date to previous claim filing date;
+•
+Inputs the DDS denial determination from prior claim;
+•
+Loads the appeal information to the AC level so that the pending claim looks like
+the previous claim; and
+•
+Annotates remarks field (e.g. “Duplicate claim of claim filed mm/dd/yy”).
+b. DDS/OQR not at version 12.0 or higher
+If DDS/OQR cannot do an ND with reason “Stopped Processing-duplicate claim” because
+they do not have the appropriate software version, DDS/OQR does an ND in NDDSS, transfers
+CEF to the servicing FO and adds a message to the CEF requesting an FO determination
+showing the reason “Stopped Processing Duplicate Claim.” The FO
+•
+Closes the case in EDCS with an FO determination/ND with the reason “Stopped Processing
+Duplicate Claim.” See DI 81010.140 Processing Field Office (FO) Determinations.
+•
+Takes actions in MCS and/or MSSICS per DI 81010.155B.3.a.
+NOTE: EFI will automatically add a new document to the red section of the EF that states,
+“Processing stopped because the claim became a duplicate claim on (MM/DD/YYYY), at
+the request of the Appeals Council or Hearing Office.”
+4. AC Appeal is remanded to Hearing Office and a subsequent application is pending at
+FO and has been entered into EDCS
+If an AC appeal is remanded to the HO and a subsequent application is pending at the
+FO and it has been entered into EDCS, the FO:
+•
+Receives a message on the Actions Page that there is a pending claim at the HO (“AC
+Remand-Multiple cases involved”); and
+•
+Contacts the HO according to local arrangements (phone, e-mail, fax, etc.) regarding
+common issue per DI 12045.021 Appeal Processing Chart/Common Issue Cases.
+a. HO determines a common issue exists
+If the HO determines a common issue exists, the FO:
+•
+Closes the claim in EDCS with FO Determination/No Determination with reason “Stopped
+Processing Duplicate Claim.”
+NOTE: EFI automatically adds a new document to the red section of the EF that states, “Processing
+stopped because the claim became a duplicate claim on (MM/DD/YYYY), at the request
+of the Appeals Council or Hearing Office.”
+•
+Takes action in MCS and/or MSSICS per DI 81010.155B.3.a.
+b. HO determines no common issue exists
+If the HO determines no common issue exists, the FO:
+•
+Processes the subsequent claim following DI 81010.000, FO Procedures - Electronic Process
+5. AC Appeal is remanded to Hearing Office and a subsequent application is pending at
+FO and has not been entered into EDCS
+If an AC appeal is remanded to the HO and a subsequent application is pending at the
+FO and it has not been entered into EDCS, and the:
+a. HO determines a common issue exists
+If the HO determines a common issue exists, the FO:
+•
+Does not establish a new EDCS record. If the FO attempts to establish a subsequent
+application in EDCS while an appeal is pending at the HO, an edit will occur and will
+not allow the FO to take this action.
+•
+Follows current procedures for closing out MCS and MSSICS. See DI 12045.027 New Claim or Appeal Filed While a Prior Claim or Appeal is Pending Before the Appeals
+Council (AC) — Title II or Title XVI.
+•
+Faxes all new evidence from the subsequent claim into the pending HR level claim using
+eView. HO will receive an alert when the evidence is received.
+•
+Adds a message to the pending HR level claim stating, “See ORS. Application filed
+on (MM/DD/YYYY).”
+b. HO determines no common issue exists
+If the HO determines no common issue exists, the FO:
+•
+Creates a paper MDF with a subsequent claim flag attached; and
+•
+Routes the folder to the DDS following DI 81010.000.
+6. AC Decision Made and a Subsequent Claim Pending in FO
+a. Fully favorable decision
+When the FO is notified the AC has made a favorable decision on the AC case and the
+Subsequent claim is pending in the FO, the FO:
+•
+Receives a message on the EDCS Actions Page that the “AC made a fully favorable decision
+on an earlier filed claim for this SSN (insert SSN). Stop processing subsequent application.”
+•
+Closes the claim in EDCS with a FO Determination/FO ND reason “Stopped Processing
+Duplicate Claim.”
+•
+Follows current procedures in DI 12045.027 New Claim or Appeal Filed While a prior Claim or Appeal is Pending Before the Appeals
+Council (AC)- Title II or Title XVI.
+b. Less than fully favorable decision
+When the FO is notified the AC has made a partially favorable decision, unfavorable
+decision, dismissal or denies request for review on the AC case and the Subsequent
+claim is pending in the FO, the FO:
+•
+Receives a message on the EDCS Actions Page that the “AC made a (insert decision)
+on an earlier application for this (insert SSN).”
+•
+Follows current procedures in DI 12045.027 New Claim or Appeal Filed While a prior Claim or Appeal is Pending Before the Appeals
+Council (AC) - Title II or Title XVI.
+NOTE: When the AC decision is partially favorable, the FO receives a fax from the AC that
+includes the “SUBSEQUENT CLAIM FLAG” with a copy of the AC decision. The FO develops
+non-medical issues, if any remain to be resolved with respect to the subsequent claim.

@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - SI 00820.510 - Student Earned Income Exclusion
+Effective Dates: 12/08/2025 - Present | TN 100 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820510 (fetched 2026-10-04)
+
+C. Procedure – student indicator
+The student indicator (SY) advises the system that the SEIE applies. The student indicator
+recognizes student status for an eligible individual, and the system will build type
+B earned income for an eligible individual.
+When an eligible individual under age 22 is a student, regardless of marital or head
+of household status, transmit the student indicator (SY) following normal procedures.
+See SM 01005.150, SM 01305.780, and MS 08114.069.
+The SY does not recognize student status for ineligible deemors or members of eligible couples. The
+SEIE must be posted manually for these cases. See Section SI 00820.510E.
+NOTE: The SEIE is an exclusion rather than a deduction; therefore, do not use the “deductions” screens in MSSICS to post the amount of the exclusion.

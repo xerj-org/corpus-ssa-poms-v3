@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - GN 02405.010 - How to Process Unendorsed Title II Returned Treasury Checks and Unendorsed Claimant Representative Attorney Fee Checks Received in the Field Office
+Effective Dates: 06/23/2021 - Present | TN 13 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202405010 (fetched 2026-10-04)
+
+B. Interviewer Procedure
+Process returned unendorsed Title II Treasury checks in accordance with the table
+below:
+Step
+Action
+1
+If the SSN or claim number is unknown, access the Treasury Check Information System
+(TCIS) or the Treasury Check Verification Query (TCVQ) screen in PCOM to determine
+the claim number of the beneficiary.
+See MS 05203.022 for instructions on how to access the TCVQ screen.
+IMPORTANT: Do not write the SSN on the check.
+2
+Identify and code the reason the check was returned, see Section E.
+•
+If you can determine the reason for returning the check, go to step 3.
+•
+If the check was returned in error or you cannot determine the reason for the return,
+contact the remitter to determine the return reason for the check.
+If the remitter does not respond, contact the beneficiary or the representative payee.
+If the reason the check was returned cannot be determined, proceed to step 3 and,
+at step 6, use MS as the returned check code.
+If the check was returned in error, mail to the beneficiary or their representative
+payee.
+REMINDERS: Do not follow this policy for benefit payments mailed to the FO, for delivery to
+the beneficiary because the claimant does not have a permanent mailing address, as
+returned checks or refunds, see GN 02401.050.
+If the person returning the check also reports the beneficiary’s whereabouts are unknown,
+see GN 02602.320.
+3
+Immediately stamp “NOT NEGOTIABLE” below the address on the check, if not yet stamped
+by mailroom personnel.
+REMINDER: Do not write or stamp below the solid line, which extends the full length of the
+check. Doing so causes problems with Treasury's optical scanning equipment.
+4
+Determine if the check represents a Treasury-issued immediate payment (IP) check see,
+RS 02801.010.
+•
+If yes, go to step 5
+•
+If no, go to step 6
+NOTE: If the returned IP is a Third-Party Draft issued from the FO, follow instructions
+in GN 02403.016.
+5
+Annotate the check (in red) “TITLE II IMMEDIATE PAYMENT,” followed by the FO code
+in the upper left hand corner of the check.
+Go to step 7. (The Office of Finance does not need the reason for the return.)
+6
+Code the date of the event that caused the beneficiary not to be entitled to the payment
+in (MM/YY) format, if appropriate. Annotate the Beneficiary Identification Code (BIC),
+and the reason (returned check code, see Exhibit 02405.010E) for the return on the
+lower left portion of the check, to the right of the Statue of Liberty imprint and
+above the solid line which extends the full length of the check.
+REMINDER: The date of event for student terminations, see RS 00205.325,will always be the first month of non-entitlement of the student benefits.
+EXAMPLE: Returned Benefit Check Coded for Death that occurred in February 2020.
+View In PDF
+7
+Recording the check:
+•
+Enter the check information into DMS per MSOM DMS 003.006 and MSOM DMS 003.007, then
+•
+Write the automated receipt number in the blank space below the check number and above
+the money amount
+NOTE: Do not enter the attorney Payment Identification Code (PIC) in DMS.
+REMINDER: Prepare an SSA-1395-BK manual receipt when DMS is not accessible.
+References:
+•
+GN 02403.130 for instructions on how to prepare an SSA-1395-BK
+•
+MSOM DMS 003.001 for DMS input coding
+•
+MSOM DMS 003.006 and MSOM DMS 003.007 for instructions on generating an automated
+receipt
+8
+Give, or mail the remitter the remittance receipt produced by DMS.
+9
+Is the check being returned due to death, work, change of address, or a suspension
+and life termination event (for example marriage)?
+•
+If yes, input the event directly into the Post-Entitlement Operations System (POS).
+•
+If no, send an MDW to the Processing Center (PC). Advise the PC of the return reason, unless
+the event has been recorded on the Master Beneficiary Record (MBR).
+10
+Turn over the coded check and DMS print out to the remittance clerk for the next step.

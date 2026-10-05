@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02402.411 - Coding Guatemala Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/06/2018 - Present | TN 166 (07-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402411 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Guatemala
+The customer provides us with a signup form for Guatemala containing the account number:
+GT82TRAJ01020000001210029690.
+•
+The first character of IBAN is “GT,” which represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digit. Never code the IBAN country
+code or check digit to the MBR.
+•
+The next 4 characters of the IBAN represents the bank code.
+•
+The last 20 digits of the IBAN represent the account number.
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 710000086
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Guatemala.
+•
+Start with the country code of “W” designated for Guatemala; and
+•
+Code 16 digits of the 20-digit account number “0102000000121002”
+a.
+You must obtain the following:
+•
+RTN: 710000086
+•
+Checking
+•
+DAN: W0102000000121002
+b.
+The POS coding reflects this information:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000086 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: W0102000000121002
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c.
+The MBR reflects this information:
+•
+RTN- 710000086
+•
+DAN- CW0102000000121002

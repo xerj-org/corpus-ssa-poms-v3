@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - DI 52125.010 - Determining When a Public Disability Benefit (PDB) is Based on Covered Service
+Effective Dates: 06/09/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452125010 (fetched 2026-10-04)
+
+A. Identifying covered service
+Identify the possibility that a PDB is based on covered service using information in the claims file, including:
+•
+A “yes” response to the question 4 “Do the PDBs meet the covered service exclusion?”
+on the WPCL screen in Modernized Claims Screen (MCS), or
+•
+Look for non-covered wages on the Detail Earnings Query (DEQY) or for details of the
+number holder’s (NH's) work history on the SSA-3368-BK (Disability Report-Adult) and/or
+SSA-3369-BK (Work History Report). See OS 15020.375 for SSA-3368 and OS 15020.380
+for SSA-3369, or
+•
+A “yes” response to question 4 on the SSA-546 (Workers’ Compensation/Public Disability
+Questionnaire).
+Develop each case individually because work histories and dates of covered service
+will vary.
+NOTE: If the PDB plan is based on one period of service to establish eligibility and a
+different period of service to compute the amount of the PDB, either period can exclude
+the PDB from offset if at least 85 percent of the period used is covered. (See DI 52125.010H Example 3 below.) In these situations:
+•
+Evaluate the first period of service. If the 85 percent test is met, the PDB is excluded
+from offset.
+•
+If the first period of service does not satisfy the 85 percent test, look at the second
+period of service.
+•
+If the second period of service (evaluated on its own and without regard to the first
+period) satisfies the 85 percent test, the PDB is excluded from offset.
+•
+If the second period also does not satisfy the 85 percent test (i.e., neither period
+satisfies the 85 percent test), the PDB is offset.

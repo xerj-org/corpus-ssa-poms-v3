@@ -1,0 +1,87 @@
+SSA Program Operations Manual System (POMS) - GN 02201.043 - Collection of Title II/Title XVI Overpayments by Federal Salary Offset (FSO)
+Effective Dates: 03/09/2016 - Present | TN 26 (09-06)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201043 (fetched 2026-10-04)
+
+B. Process – initiating FSO
+1. ECO system selects debtors
+SSA's FSO program is designed to be as fully automated as possible, though some manual
+actions are necessary and are described in the FSO instructions in GN 02201.044. The selection of debtors subject to FSO is an automated process. By design, there
+is no capability to initiate FSO manually on a case-by-case basis.
+Using the FSO selection criteria listed in GN 02201.043A.3., the ECO system automatically selects debtors who meet the criteria for FSO. Since
+the selection process runs at regular intervals, it ensures a maximum number of selections
+for FSO, AWG, TOP and credit bureau reporting. If a debtor does not meet the selection
+criteria at a particular selection run, but meets it later, the system automatically
+selects the person at that time.
+NOTE:
+When the debtor owes both Title II and Title XVI debts and both are eligible for FSO,
+the debt with the earliest delinquency start date will be selected for recovery first.
+2. SSA notifies debtors
+Prior to notifying debtors about FSO, SSA uses the same automated process as described
+in GN 02201.030A.3., (TRO Pre-Offset Notice), to notify debtors about the potential collection action.
+Once a month, SSA prints and mails the 60-day notices. The notices contain information
+about all applicable ECO debt collection tools SSA plans to use, except it does not
+explicitly mention FSO. In addition, it provides the standard language about repaying
+the debt in a lump sum or by an installment agreement and the right to request waiver.
+If the 60-day notice is returned as undeliverable after FSO has started, SSA stops
+the process until we get a current address and succeed in delivering the 60-day notice.
+Unless the notice is returned as undeliverable, assume that it was delivered to the
+person at the correct address.
+See GN 02201.030F.2. for instructions on handling allegations of nonreceipt of the 60-day notice.
+If the notice is returned as undeliverable after FSO has been started, see GN 02201.044D.2. or SI 02220.019D.2. for processing instructions.
+NOTE: All ECO notices sent November 2015 or later will be stored in ORS. For all ECO notices
+sent prior to November 2015 you can view the ECO master query. For additional information
+on the ECO master query, see MSOM DMS 014.007.
+3. Match file received from Bureau of the Fiscal Service (BFS)
+Once the debtor is active at BFS, formerly known as the Financial Management Service
+(FMS), and the additional FSO criteria (GN 02201.043A.3.) are met, ECO will then screen the debtor's own SSN against the Potential Salary
+Match file provided bi-weekly by BFS. This file includes SSA debtors matched against
+the salary extract files from the Salary Paying Agencies (SPAs). If there is a match
+and the debtor meets all criteria for FSO, ECO will produce an FSO 30-day notice to
+the debtor providing the specific due process rights associated with FSO.
+4. SSA sends FSO 30-day notice
+The 30-day notice provides the following information specific to FSO:
+•
+The law allows SSA to collect the overpayment from the person's pay;
+•
+SSA may order the Department of the Treasury to notify the salary paying agency to
+offset or reduce the debtor’s disposable pay by 15% each pay day;
+•
+The disposable pay is the amount left after deduction for health insurance premiums
+and deductions required by law, such as taxes;
+•
+The debtor may request review of the debt; and
+•
+The debtor has the right to ask us to lower the amount we would collect from their
+Federal pay and we will lower the amount if the person shows it would cause hardship
+(see GN 02201.044B.5.).
+The notice also explains that FSO will begin 30 days after the date of the notice
+unless the debtor contacts the agency to pay the balance in full, makes an installment
+payment agreement, or request review or waiver of collection.
+If the FSO notice is returned as undeliverable, SSA does not begin FSO unless and
+until we get a current address and succeed in delivering the 30-day notice. Unless
+the notice is returned as undeliverable, assume that it was delivered to the person
+at the correct address. Follow the instructions in GN 02201.030F.2. when handling allegations of nonreceipt of the 30-day notice.
+If the FSO 30-day notice is returned as undeliverable after FSO has been started,
+the debt is inactivated until a valid address is received. See GN 02201.044D.2.c. or SI 02220.019D.2.c. for processing instructions.
+5. FSO bypass code removed
+The FSO bypass code prevents the case from being selected for offset.
+If after the 30 days no response is received and the debtor still meets all criteria
+for FSO, ECO will send a record to BFS notifying them to remove the by-pass FSO indicator,
+which will activate offset.
+6. BFS/Department of the Treasury sends 30-day notice
+Once the FSO Bypass is removed, BFS will send a generic notice to the debtor stating
+the following information:
+•
+The creditor agency previously sent a detailed notice explaining the type and amount
+of debt owed and providing full due process rights;
+•
+The creditor agency’s intention to collect their delinquent debt by means of offsetting
+up to 15% of their disposable Federal salary payment each pay day;
+•
+The deductions will begin in 30 days and will continue until the total amount plus
+any interest, penalties, and administrative costs have been collected or until collection
+activity has been stopped by the creditor agency; and
+•
+The only way to stop offset from occurring is to contact the creditor agency within
+the 30-day time period.
+The letter also contains the name and contact information of the creditor agency.

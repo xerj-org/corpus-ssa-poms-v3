@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - SI 00830.418 - Alimony and Spousal Support
+Effective Dates: 10/31/2017 - Present | TN 124 (10-17)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830418 (fetched 2026-10-04)
+
+D. Procedure for systems coding the Supplemental Security Income (SSI) claim system (i.e.,
+MSSICS/SSI Claim)
+1. SSI claim system
+On the SSI claim system, select “Yes” for Alimony or Spousal Support on the Income
+Selection page. The Income Selection page takes you to the Alimony or Spousal Support
+page.
+On the Alimony or Spousal Support page, select the appropriate alimony or spousal
+support “Type” on the drop-down list:
+•
+Court ordered alimony or support;
+•
+Spousal impoverishment;
+•
+Voluntary alimony or support; or
+•
+Unknown.
+Enter the fields on the Alimony or Spousal Support page:
+•
+Source of income support in the “Source” field. If the source of alimony or spousal
+support is unknown, select the “Unknown.”
+•
+Alimony or Spousal Support identification number of the person providing the support
+in the “ID” field.
+•
+Address of the person providing the support in the “address, city/town, state/territory,
+and zip code” fields. If the address is unknown, select “Unknown.”
+•
+Contact information
+•
+Phone number of the person providing the support in the “Phone” field.
+•
+Monthly Values of alleged or verified amount of alimony or spousal support:
+Date From
+Date To
+Alleged Amount
+Verified Amount
+Court Ordered or IV-D Support Amount
+Other Deduction Amount
+Unknown
+Countable Amount
+Actions
+•
+Other deduction amount reason in the “Other deduction amount reason” text box.
+The Supplemental Security Income (SSI) claim system posts this income as type “SS” unearned income to the SSR.
+For more information the ALIMONY or SPOUSAL SUPPORT page, see MS INTRANETSSI 014.023.
+2. Non-Supplemental Security Income (SSI) claim system
+Post alimony or spousal support as type “SS” unearned income in the UM field of an
+SSA-1719B (SSI Posteligibility Data Input) or SSA-450-SI (SSI Data Input and Determination).

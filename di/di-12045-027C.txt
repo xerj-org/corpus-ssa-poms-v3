@@ -1,0 +1,203 @@
+SSA Program Operations Manual System (POMS) - DI 12045.027 - New Claim or Appeal Filed While a Prior Claim or Appeal is Pending Before the Appeals Council (AC) — Title II or Title XVI
+Effective Dates: 08/10/2022 - Present | TN 10 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412045027 (fetched 2026-10-04)
+
+C. Procedure - Before DDS Adjudication of Subsequent Claim
+1. Subsequent Claim Filed
+Take the following action when a subsequent claim has been filed:
+a.
+Ask the claimant or representative if he or she has filed a Request for Review (RR)
+of an ALJ decision on a prior claim. Obtain a CPMS query to verify. The RRD field on the query is the request for review date; this indicates if a claim is pending
+at the AC level. The ADD field on the query indicates whether the AC has taken action on the RR.
+b.
+Follow current instructions to process the claim if it is determined that NO RR has been filed or that NO appeal is pending at the AC level.
+c.
+If it is determined that a RR has been filed and that an appeal is pending at the AC level, take the subsequent application using
+current procedures.
+d.
+Secure a SSA-1696-U4 if the claimant is represented.
+NOTE:
+A new SSA-1696-U4 is necessary even if the representative is the same as on the prior
+claim. SSA will apply the fee agreement rules as if there was a single application
+or claim (See GN 03940.038C.2.).
+e.
+Complete the SSA-3367-F4 as usual and include the following:
+•
+Item 3 - Show the potential onset date (POD) as the day after the ALJ decision.
+•
+Item 4 - Check “Other” as the reason and show “Appeal pending at AC level on prior
+claim dated mm/dd/yy.” (See note in DI 12045.027C.1.f. regarding onset restriction.)
+f.
+Secure appropriate medical Forms SSA-3368-BK, SSA-827's, etc. using current processing
+procedures.
+NOTE:
+The DDS will follow normal development of medical history covering the 12 month period
+beginning with the date of the subsequent application.
+g.
+Include the following remarks as applicable on the SSA-3367, Disability Report-Field
+Office, Remarks page in Electronic Disability Collect System (EDCS).
+•
+“Onset Restriction—Prior claim dated mm/dd/yy pending at the Appeals Council level.”
+•
+Initial claims, closed period cases, and cessations (CDR) – “Onset restriction--Onset
+date cannot be established earlier than the day after the date of the ALJ decision.”
+h.
+Explain to the claimant that, until the AC completes its action, we will not be deciding
+the period on or before the date of the ALJ decision (see DI 12045.027C.1.g.), because that period is before the AC on the appeal of the ALJ decision on the prior
+claim. Explain that there will be separate notices for each claim and that each notice
+will explain the claimant's appeal rights.
+NOTE:
+The period on or before the date of the ALJ decision rests with the AC; therefore,
+the DDS will not establish an onset date earlier than the day after the date of the
+ALJ decision . A claimant may allege any onset date, even if that date is in the period
+covered by the ALJ's decision on the prior application. Do not try to persuade the
+claimant to allege a specific onset date. The date of the ALJ decision can be found
+on the ALJ decision notice located in the Online Retrieval System (ORS) or the electronic
+folder.
+2. Subsequent Claim and RR filed simultaneously
+Take the following action if a subsequent claim and request for review are filed simultaneously:
+a.
+Determine if the claimant has filed an earlier subsequent claim via MCS/MSSICS.
+b.
+If a subsequent claim had been filed earlier, see DI 12045.027C.3.
+c.
+If a subsequent claim had not been filed earlier take the following action:
+•
+Secure the subsequent application and medical development as indicated in DI 12045.027C.1.
+•
+Process the RR using current procedures. Include with the RR a Report of Contact with
+the following information, “On mm/dd/yy, a subsequent claim was filed by claimant.
+Notification will be sent to AC if the DDS allows the subsequent claim.”
+3. Subsequent Claim Previously Filed
+Take the following action in lieu of securing a new (or third) application:
+•
+Obtain an MBR, SSID or DDSQ to determine the date of the previous subsequent application
+and whether it has been processed.
+•
+Reestablish the previous application from MCS/MSSICS.
+•
+Enter “ZZZ” in the first three positions of the unit field when establishing/reestablishing
+the systems record.
+•
+Secure SSA-3367-F4, SSA-3368-BK, and SSA-827's to update medical development for the
+period beginning with the date of the previous subsequent claim.
+•
+Send a Report of Contact via FAX to Office of Disability Adjudication and Review,
+Office of Appellate Operations (ODAR/OAO) at 703-605-7101 to the attention of Subsequent
+Application Coordinator; include the claimant's name, Social Security number, a statement
+that the second application was previously forwarded to AC for association, the date
+it was forwarded, and the fact that you are now forwarding the second application
+to the DDS for adjudication.
+4. Systems Input - Title XVI
+Take the following systems actions for Title XVI cases:
+a. For Initial Claims
+•
+Re-establish MSSICS to control subsequent claim, this automatically terminates prior
+claim.
+•
+Control the prior claim (the claim pending at AC) with an MDW record and completion
+of Development Worksheet as shown below.
+•
+On the subsequent claim, include the following supplemental security record (SSR)
+remark: PRIOR CLAIM AWAITING AC DECISION
+•
+On the MDW record include:
+–
+An ISSUE “AC APPEAL.”
+–
+In the REMARKS for that ISSUE: Prior claim dated mm/dd/yy pending at the AC.
+–
+The date of appeal and date sent to AC.
+•
+On the Development Worksheet include:
+–
+An ISSUE “AC APPEAL.”
+–
+In the REMARKS for that ISSUE: Prior claim dated mm/dd/yy pending at the AC.
+–
+The date of appeal and date sent to AC.
+–
+Set an appropriate tickle date for the AC's decision.
+b. For CDR Cessation Claims
+•
+Follow T-33 procedure to terminate the prior claim.
+•
+Enter the new record on MSSICS or via 450SI to control subsequent claim.
+•
+Follow DI 12045.027C.4.a., beginning with bullet 2, to control the prior claim.
+5. System Input For Title II claims
+Take the following systems actions for Title II claims:
+•
+Process the subsequent claim through MCS.
+•
+Control the prior claim (the claim pending at the AC) with an MDW record and completion
+of Development Worksheet development worksheet as shown below.
+•
+On the MDW record include:
+–
+An ISSUE “AC APPEAL.”
+–
+In the REMARKS for that ISSUE: Prior claim dated mm/dd/yy pending at the AC.
+–
+The date of appeal and date sent to AC.
+•
+On the Development Worksheet include:
+–
+An ISSUE “AC APPEAL.”
+–
+In the REMARKS for that ISSUE: Prior claim dated mm/dd/yy pending at the AC.
+–
+The date of appeal and date sent to AC.
+–
+Set an appropriate tickle date for the AC's decision.
+6. Routing of Medical Material
+Take the following actions to route disability material to the DDS:
+•
+Route the disability claims folder containing: SSA-3368-BK, SSA-827, any other medical
+evidence, and CPMS query to the DDS.
+•
+Attach a flag (see DI 12045.027G., Exhibit 1) to the outside of material. Information needed for completion of the
+flag is on the CPMS query.
+NOTE:
+A flag is also required when a claimant who has not appealed an ALJ's decision on
+a prior application files a subsequent claim within the 60-day period for appeal following
+the ALJ's decision. This will ensure that there is a flag on the claim if the claimant
+later decides to appeal the decision. If a RR is not subsequently filed, the flag
+should be removed.
+7. Subsequent Claim — Substantial Gainful (SGA) Denial
+Take the following action if the subsequent claim results in an SGA denial:
+a. Title XVI
+•
+Process the claim through MSSICS.
+•
+Send appropriate disallowance notice.
+•
+Follow DI 11010.205 for preparation of SSA-831-U3.
+•
+Retain subsequent claims folder in field office (FO) until a decision is received
+on the prior claim.
+b. Title II
+•
+Process the claim through MCS.
+•
+Follow procedure in DI 12045.027C.7.a., beginning with bullet 2.
+8. Expiration of Date Last Insured (DLI)
+a.
+Determine DLI for subsequent claim. If the DLI has expired and the ALJ decision on
+the prior claim is still pending, the subsequent claim is a duplicate claim.
+Take the following action:
+•
+Do not forward to the DDS.
+•
+Do not deny as res judicata because a final decision has not been made on the prior
+claim.
+•
+Forward the claim to the OAO branch of jurisdiction (see the CPMS query).
+•
+Document the MDW to show that the subsequent claim was forwarded as a duplicate claim.
+•
+Do not prepare a folder or SSA-831-U3 for the duplicate claim.
+b.
+If the DLI of the subsequent claim expires after the date of the ALJ decision on the
+prior claim, forward the subsequent claim to DDS for consideration of disability from
+the day after the ALJ decision through the DLI.

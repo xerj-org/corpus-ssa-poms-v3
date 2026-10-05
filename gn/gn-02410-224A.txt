@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02410.224 - Electronic Income Withholding Orders
+Effective Dates: 04/09/2025 - Present | TN 70 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410224 (fetched 2026-10-04)
+
+A. Electronic Income Withholding Orders (e-IWO)
+Effective February 2012, participating states, courts, and other garnishing entities
+can send Income Withholding Orders (IWOs) via electronic file to SSA for garnishment
+of benefits through the e-IWO process.
+1. e-IWO accepted by the Court Ordered Garnishment System (COGS)
+When an IWO from the electronic file processes successfully, COGS is automatically
+updated and sends all appropriate notices. Additionally, a copy of the order is automatically
+stored in the Online Retrieval System (ORS).
+2. e-IWO rejected by COGS
+If an IWO from the electronic file is rejected by COGS and the reason is for "Name
+Not Matched," "Case Number Not Matched for Termination (TRM)," or "Other With Termination
+(T) Order Status Code," then:
+•
+the rejected order is directed to Paperless and a new Action Control Record (ACR)
+is created under the CHECK/GARNISH/EIWO/REJECT TOELs and assigned to the appropriate
+technician to manually input into COGS;
+•
+the Office of Child Support Services (OCSS) is notified of the rejection, informed
+of the manual input via the reject code they received, and instructed not to forward
+the IWO to their local field office (FO) or processing center (PC); and
+•
+a copy of the order is automatically stored in ORS.
+All other e-IWO rejections are returned to OCSS for subsequent action.

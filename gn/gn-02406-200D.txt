@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - GN 02406.200 - Failure to Receive a Courtesy Disbursement or Replacement Check -- Title II (Normal, Dire Need, and Abuse Situations)
+Effective Dates: 09/13/2013 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406200 (fetched 2026-10-04)
+
+D. Procedure for courtesy disbursement or replacement check issued and not received
+If queries indicate payment processed and was issued, make sure 10 calendar days have
+elapsed before considering nonreceipt. EXCEPTION: Mass Loss. See GN 02406.700.
+FO/TSC:
+Step
+Action
+1
+Determine if dire need exists. See criteria in RS 02801.010.
+2
+If dire need does not exist, issue a replacement through the Critical Payment System
+(CPS) for the full amount of the missing check. In the NPF field enter, “INPUT STOP PMT SFT-F FOR
+ORIG PMT DTD MM/DD/YY. REPLCMT PMT MADE BY CPS IN LIEU OF N/R. WHEN DISP REC'D FOLLOW
+GN 02408.020B
+and GN 02408.020C. For information on Critical Payment Amount Non-Receipt (CPNR), see ” MS 07901.005.
+3
+Input the TPT (type of payment) code of C43 to identify this as a Robinson/Reyf case
+(more specifically, to identify the CPS payment in response to Robinson/Reyf policy
+of replacing a missing payment quickly in a nonreceipt situation).
+4
+If dire need exist:
+TSC: Refer the case to the FO via PRIORITY MDW.
+FO:
+•
+Issue an Immediate Payment (IP) for up to $5,000.00 ($999 prior to 10/23/2023). Explain
+that the balance, if any, between the IP and the CPS payment will arrive in 7-10 days.
+•
+Record the IP and pay the BALANCE of the missing check using the CPS PAY 2 screen
+by inputting the full amount of the missing check in the RETROACTIVE AMOUNT field
+and the IP in the IMMEDIATE PAYMENT AMOUNT field. (The system will automatically make
+the calculation to pay the balance of the missing check as a CPS payment.)
+•
+Input a TPT of C43 in the TPT code field.
+•
+In the NPF (nature of problem) field enter, “INPUT STOP PMT SFT-F FOR ORIG PMT DTD
+MM/DD/YY. REPLCMT PMT MADE BY IP/CPS IN LIEU OF N/R. WHEN DISP REC'D FOLLOW GN 02408.020B and GN 02408.020C.” MS 07901.005.
+•
+Refer the case to the PC via PRIORITY MDW to input the F-stop on the courtesy disbursement/replacement
+check.
+PC:
+Step
+Action
+1
+Process the CPS payment, if needed, alert and transmit an F-stop on the missing courtesy
+disbursement/replacement check. For TPT C43, the remark, “Robinson/Reyf Case” will
+be printed on folder documents. The Critical Payment Details (CRNS) web page will
+include this remark when it is revised. For more information on CRNS, see MS 07901.004.
+2
+If Treasury determines that the check was not cashed, it returns a credit to SSA.
+3
+If Treasury determines that either the original and/or replacement checks were cashed,
+a claims package(s) will be sent to the servicing PC for the beneficiary to complete
+and return to SSA for a forgery determination by Treasury. If Treasury determines
+that forgery is involved, they will reclaim the money from the presenting financial
+institution and issue the credit to SSA. No overpayment exists.
+4
+If Treasury determines there is no forgery, the beneficiary is notified that an overpayment
+exists (beneficiary received CPS payment and original/replacement check have been
+cashed for same benefit month). Follow overpayment procedures in GN 02210.000. If claimant cashed both the original and replacement checks and was issued an IP
+and/or CPS, the overpayment amount is twice his monthly benefit amount since he was
+paid all checks issued to him in the same month.
+5
+If Treasury responds with no conclusion, the Questioned Documents Section (QDS) examiner
+will inform SSA that QDS could not reach a definitive conclusion on the signature
+based on the documentation submitted along with the request. This means additional
+information is required before QDS examiner can make a decision. SSA will analyze
+the information required and resubmit package back to Treasury for determination.
+For more information on when a handwriting analysis is needed on a
+limited payability case, see GN 02401.910D.
+6
+If a double check negotiation overpayment exists and claimant protests the overpayment,
+see GN 02406.310.

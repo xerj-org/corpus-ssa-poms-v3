@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 13015.110 - Hints on Reading PCACS Queries
+Effective Dates: 01/18/2001 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015110 (fetched 2026-10-04)
+
+D. Description of FQY1 Fields
+1. Current Location
+This field shows where the folder is presently located, including the processing center
+site; component; work area or technician classification; and operational station.
+The date indicates when the folder moved to the specific location point.
+2. Previous Location
+This field shows where the folder was located before moving to the present location
+including the processing site; component; work area or technician classification;
+and operational station. The date indicates when the folder initially moved to the
+PREVIOUS LOCATION.
+3. To Location
+This field shows the location to which the folder is being sent such as the processing
+center, FO, DDS, ODAR, etc. The office code (DOC) from DOORS is shown for locations
+other than the processing centers.
+4. Folder Request DT
+This date is established when a folder has been requested through PCACS.
+5. Related Records
+This shows the relationship between the queried control record and other records on
+the same SSN or other SSNs. These records are electronically linked to the FCR.
+6. Display More Records (Y/N)
+This field will appear when there are other control records related to the queried
+FCR that are not displayed on the screen. Since the field is prefilled with "Y", the
+Related Records Query (AFQ3) screen will automatically appear in the path after the
+FQY1 screen.
+Enter "N" if you do not wish to see the additional control records.

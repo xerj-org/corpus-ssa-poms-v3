@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - DI 40505.210 - After We Identify Concurrent Cases, We Decide Whether We Need the Title XVI Determination and the Title XVI Continuance Notice
+Effective Dates: 12/18/2018 - Present | TN 1 (12-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440505210 (fetched 2026-10-04)
+
+C. Procedure to determine Title XVI involvement with a concurrent case
+1. Secure SSI-2 query
+If a concurrent case involves Title XVI, obtain SSI-2 query with PSY field when one
+of the following applies:
+a.
+The file does not contain an SSI query under 30 days old;
+b.
+PSY code on latest query indicates Title XVI eligibility (any code other than N07,
+N08, N12-N17, N30-N54, T01, or T30-T51); or
+c.
+The latest query shows one of the codes in sentence “b” (i.e., ineligibility) but
+later evidence indicates Title XVI eligibility.
+2. Actions based on Supplemental Security Record (SSR) codes
+When sending a concurrent case for a continuing disability review (CDR), tell the
+Disability Determination Services (DDS) whether we need a Title XVI determination
+and notice as follows:
+a.
+DS Field Appears - Treat as Title II only, regardless of PSY code. (Social Security
+Administration (SSA) has made Title XVI initial denial determination.)
+b.
+PSY Codes N07, N08, N12-N17, N27, N30-N54, T01, or T30-T51 - Treat as Title II only.
+c.
+PSY Code C01 (Current Pay) – Prepare concurrent determinations and notices for Title
+II and Title XVI.
+d.
+PSY Code NO1 - Individual may or may not be receiving Medicaid under section 1619(b).
+Obtain SSID. Look in CMPH field for column T (Medicaid social services test):
+•
+If column T shows a, b, or f, the individual is eligible under 1619(b). Prepare Title
+XVI determination and continuance notices.
+•
+If column T shows any code other than a, b, or f, the individual is ineligible. Prepare
+Title XVI determination but do not prepare a continuance notice.
+NOTE: If an individual is in N01 for any reason and the case is concurrent, we should
+always make decisions on both titles. We cannot adopt cessations and if Title II terminates
+based on the medical cessation, the Title XVI can go to C01.
+e.
+For PSY Codes E01, N02-N06, N09-N11, N20, or S4-S20, we require Title XVI determination;
+but we do not require Title XVI continuance notice.
+f.
+For PSY Codes H10-H90 or S21, phone the FO for status (system does not know). If still
+H10-H90 or S21, Title XVI determination needed; however, Title XVI continuance notice
+not needed.
+g.
+PSY Code N19 (Voluntary termination): Obtain SSID query. Look in CMPH field for date
+N19 first appeared in PS segment. Individual went in N19 first day of month and year
+shown.
+When the individual is in N19 status:
+•
+60 or more days treat as Title II only.
+•
+60 Days or less, prepare Title XVI cessation determination; however, do not prepare
+Title XVI continuance notice.
+h.
+For PSY Code M01 (Force Pay; individual may or may not be in pay), obtain SSID. Look
+in CMPH field (last entry for Payment Status is T31) for date M01 first appeared in
+PS segment. Look for same month and year in PMTH field, and read over to SMA and FMA
+segments for that month and year.
+When to prepare Title XVI determination and notice:
+•
+If there is any money amount shown in either FMA or SMA segment, prepare Title XVI
+determination and continuance notice.
+•
+If there is zero money amount shown, prepare Title XVI determination but not continuance
+notice.
+i.
+For PSY Codes T20 or T22, individual received duplicate Title XVI payments based on
+same or different Social Security Numbers (SSNs). Check folder to determine what SSNs
+are involved. If you cannot tell, call the FO and ask. Obtain SSI queries on all SSNs
+and take action as appropriate.

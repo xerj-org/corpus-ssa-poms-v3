@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02406.201 - Nonreceipt of Title II Critical Payment System (CPS) Checks
+Effective Dates: 09/29/2017 - Present | TN 124 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406201 (fetched 2026-10-04)
+
+B. Field office (FO) process for CPS nonreceipt reports
+A Title II beneficiary may report nonreceipt of a CPS payment when the Master Beneficiary
+Record (MBR) and Payment History Update System (PHUS) indicates we issued the payment.
+If the appropriate delivery time elapsed (approximately seven days), the field office
+(FO) reviews the check status symbol (CSS) on the CPS record to determine the type
+of CPS payment. The FO also reviews the Record Activity Indicator (RAI) on the CPS
+record to determine whether the record is active or inactive.
+If the circumstances warrant, the FO can reissue the missing check by CPS when the
+RAI is “I” (inactive). However, the processing center (PC) must reissue the payment
+if:
+•
+the CPS record is in continuing payment status; or
+•
+we issued a one-time payment (OTP) less than 10 days ago and the RAI is “A” (CPS does not deactivate an OTP until 10 days have passed).
+NOTE: You can record an immediate payment (IP) on CPS regardless of the RAI. For more information
+on IPs, see RS 02801.010.

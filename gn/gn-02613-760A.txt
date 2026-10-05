@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02613.760 - Processing T2 Suspension Exception Cases from POS/FFEL
+Effective Dates: 08/02/2022 - Present | TN 36 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613760 (fetched 2026-10-04)
+
+A. Procedure – T2 exceptions
+T2 exception cases occur when a suspension action input through POS/FFEL but does
+not properly suspend benefits (LAF S9) on the MBR. T2 exceptions are caused in different
+ways. Some examples are:
+1. Some systems processes resulting in a T2 exception
+•
+Processing limitations found in MSOM MCSEC 001.001; or,
+•
+An error exists on the Master Beneficiary Record (MBR).
+These types of T2 exceptions will be generated to the PSC.
+2. POS/FFEL processing resulting in a T2 exception
+When a FFEL suspension is input to POS, a T2 transaction is created. If an exception
+occurs:
+•
+T2 will not suspend the benefit on the MBR;
+•
+It will create a PCACS Action Control Record (ACR) with Type of Event Level (TOEL).
+The TOEL Codes used in fugitive felon case processing are found in GN 02613.770C.

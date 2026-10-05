@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 81020.080 - Certified Electronic Folder (CEF) Alerts
+Effective Dates: 09/21/2021 - Present | TN 25 (09-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020080 (fetched 2026-10-04)
+
+B. Update-After-Transfer (UAT) Alerts
+After transferring a claim to a DDS, alerts generate to the DDS when the FO uses the
+UAT utility to:
+•
+Update mainframe data (e.g., changes to the claimant's name, address, claim type);
+•
+Update disability report information (e.g., new medical source, new allegations, tests,
+medications); and
+•
+Add a new or escalated claim to a case currently pending in the DDS.
+When the FO completes the UAT, an electronic SSA-5002 (Report of Contact) is generated
+and added to the CEF. Details of the alert can be found by selecting the alert displayed
+in the “alerts” table under the Alerts and Messages Tab in eView, or by viewing the
+image of the SSA-5002 under the Case Documents tab. For more information about the
+FO use of the UAT Utility, see Using the Update-After-Transfer Utility - DI 81010.095.

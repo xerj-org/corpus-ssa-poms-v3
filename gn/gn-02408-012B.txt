@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02408.012 - Manual E-Stop Process for Checks
+Effective Dates: 10/28/2013 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408012 (fetched 2026-10-04)
+
+B. Process for manual E-stop inputs
+1. Title II PC processing
+When exceptions prevent the system from generating automated E-stops, the PC inputs
+E-stops for all months after death via RSDHI using PESP (MSOM RSDHI 002.005) input
+screens or by using the SSA-4510 Stop Payment Request Input Form (MSOM INTRANETMAMPSCDI
+004.003) screen. For PC processing instructions, see SM 00609.001B.2.
+Manually input PMA amounts that are not due AND are reclaimable in the SPA O/P field
+on the MBR
+2. Title XVI FO processing
+When exceptions prevent the system from generating automated E-stops, the FO inputs
+E-stops for all months after death via the UPST screen in MSSICS by selecting stop-payment
+reason 1 = Death. See MSOM BUSSR 003.017.

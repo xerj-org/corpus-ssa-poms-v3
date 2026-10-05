@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 45001.324 - Processing ESRD Medicare Claims With Railroad Retirement Board Involvement
+Effective Dates: 01/07/2016 - Present | TN 24 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001324 (fetched 2026-10-04)
+
+C. Award processing—Medicare record already established under RRN
+If any of the conditions in DI 45001B.2. apply, the claimant already has a Medicare
+record. The following actions are required:
+1.
+Complete form SSA-892-U3.
+2.
+Determine which of the following situations exists and take the processing actions
+indicated:
+a.
+Beneficiary is Entitled to HI/SMI on MBR and HOC/SOC is “P,” LAF code is not “E.”
+Do not request a change in HOC and SOC.
+Do not prepare an SSA-101-U3.
+Check block 2.1. of Form SSA-3601 and complete the “Remarks” section with the following:
+“Route to Benefit Authorizer for Processing.”
+ESRD CLAIMANT.
+Change HENC and SENC to “K.”
+Enter HI eff.         and SMI eff.         (only if ESRD dates are more advantageous than dates on MBR).
+See SSA-5002 in file for notice information.
+Send SSA-3103 to “RRB.”
+b.
+Beneficiary is Entitled to HI/SMI on MBR and HOC/SOC is Not “P.” (ESQ shows beneficiary
+has Medicare under an RRN.)
+Do not prepare an SSA-101-U3. (Beneficiary is already on MBR.)
+Check block 2.1. of SSA-3601 and complete the “Remarks” section with the following:
+“Route to Benefit Authorizer for Processing.”
+ESRD CLAIMANT.
+Change HENC and SENC to “K.”
+Change HOC and SOC to “P.”
+Enter HI eff.         and SMI eff.         (only if ESRD dates are more advantageous than dates on MBR).
+See SSA-5002 for notice information.
+Send SSA-3103 to “RRB.”
+c.
+No Record of Claimant on MBR (ESQ shows claimant has Medicare under an RRN.)
+Prepare an SSA-101-U3 on beneficiary’s own SSN with a BIC of “T.” Show SEC of “K.”
+In remarks, (item 11) show HOC and SOC of “P.”
+Check block 2.1. of SSA-3601 and complete the “Remarks” section with the following:
+“Route to Benefit Authorizer for Processing.”
+See SSA-5002 in file for notice information.
+Send SSA-3103 to “RRB.”
+3.
+Notifying RRB (Medicare record already established under RRN)—in all cases in which
+a Medicare record has been established under an RRN, the benefit authorizer in ODO
+will complete Form SSA-3103 (SSA Certification of Title II Monthly Benefits to RRB
+for Payment or Adjustment) and forward to the RRB.
+4.
+Notice to claimant (Medicare record already established under RRN)—prepare Form SSA-5002
+requesting the letter in DI 45001.348.
+5.
+Route SSA-3601 to ODO.

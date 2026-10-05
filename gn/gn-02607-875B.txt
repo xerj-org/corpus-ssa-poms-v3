@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02607.875 - Title XVI Reinstatement Procedures for Prisoner Suspension (N22)
+Effective Dates: 12/29/2014 - Present | TN 90 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607875 (fetched 2026-10-04)
+
+B. Procedure for reinstating Title XVI payments
+Take the actions in this subsection to reinstate Title XVI payments after a period
+of prisoner suspension (payment status N22).
+1. Update PUPS
+a. Update the T16 Prisoner Update (PU16) screen
+Update the following fields on the PU16 screen:
+•
+SELECT TYPE OF ACTION = 5 (Reinstatement);
+•
+ACTION EFFECTIVE DATE = the date (MMDDYY) payments should resume; and
+•
+RELEASED DATE = the date (MMDDYY) the inmate was released.
+NOTE: Updates to the PU16 screen change the PUPS status to reinstatement, but they do not
+automatically reinstate Title XVI payments. For more information on annotating reinstatement
+actions in PUPS, see MSOM PRISON 003.008.
+b. Update the PRMK screen
+Add remarks on the PRMK screen to document:
+•
+what release evidence the recipient provided;
+•
+who (recipient, representative payee or institution) provided the release evidence;
+•
+date you reviewed the release evidence; and
+•
+FO code and name of technician who reviewed the release evidence.
+2. Review eligibility requirements
+Review eligibility requirements with the recipient. Conduct an unscheduled redetermination,
+if appropriate. For more information on unscheduled redeterminations, see SI 02305.022.
+3. Reinstatement action
+Reinstate Title XVI payments through the Modernized SSI Claims System (MSSICS) or
+by using an SSA-1719B (SSI Posteligibility Input), as appropriate. For information
+on reinstating payments through MSSICS, see MSOM INTRANETSSI 010.001. For more information
+on using the SSA-1719B, see SM 01305.001.
+4. Reinstatement of an incorrect suspension
+Occasionally, we suspend a recipient’s payments and schedule an incentive payment
+before we discover that the institution released the recipient from confinement before
+serving a full calendar month. In this situation, the suspension is not appropriate
+and an incentive payment is not due. When discovering this error:
+a.
+update PUPS according to GN 02607.875B.1. in this section;
+b.
+reinstate payment according to GN 02607.875B.3. in this section; and
+c.
+add remarks on the PRMK screen to document:
+•
+the erroneous suspension;
+•
+the circumstances of the case; and
+•
+why reinstatement of payment is appropriate.
+Updating the RELEASED DATE field stops the incentive payment if PUPS has not already
+paid it. For more information on stopping an incentive payment for an incorrectly
+suspended recipient, see GN 02607.800C.2.

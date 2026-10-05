@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - GN 02402.341 - Coding Hungary Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/01/2024 - Present | TN 286 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402341 (fetched 2026-10-04)
+
+A. Background for coding Hungary bank data
+This section describes how to code bank data for International Direct Deposit (IDD)
+of Title II benefits to a financial institution (FI) in Hungary. The bank data goes
+into the same Master Beneficiary Record (MBR) fields as U.S. direct deposit data.
+Special coding identifies the data as IDD for Hungary and allows benefit payments
+to go through the Federal Reserve Bank of Kansas City (FRBKC) and the contractor bank
+to the beneficiary's FI.
+IDD for Hungary (along with Poland and Panama) requires more digits than are available
+in the SSA direct deposit (Routing Transit Number (RTN) and Depositor Account Number
+(DAN)) fields. Full information must be on the website for the International Treasury
+Services (ITS.gov ) so the Federal Reserve Bank of Kansas City (FRBKC) can add the extra digits before
+sending the payments to Hungary’s banks. All IDD payments to Hungary go to U.S. dollar
+accounts. The U.S. Embassy in Budapest reviews all completed forms for correct data.
+Either the Federal Benefit Unit (FBU) in Warsaw, Poland, or Office of Earnings and
+International Operations, Division of International Operations (OEIO, DIO) makes the
+inputs into ITS.gov. Procedures vary
+according to the office that receives the IDD request.
+If you receive an IDD request in a U.S. domestic (i.e, non-border) field office (FO),
+forward all appropriate information to the Office of Earnings and International Operations,
+(OEIO), Division of International Operations (DIO) to process.
+For detailed instructions on IDD requests and forwarding information, see
+•
+GN 02402.201 Background and Policy for Direct Deposit Outside the U.S.
+•
+GN 02402.205 Direct Deposit Enrollment Outside the U.S.
+•
+GN 01010.255 Adjudication of Foreign Claims
+•
+GN 01702.310C Routing of Claims for U.S. Benefits Involving Totalization

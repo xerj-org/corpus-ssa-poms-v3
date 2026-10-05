@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - SI 01210.630 - Special Blind Income Disregards - Recipient With Essential Person
+Effective Dates: 01/06/1999 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210630 (fetched 2026-10-04)
+
+B. PROCEDURE
+1. Example
+A blind grandfathered recipient living in State X has an essential person. The blind
+recipient has the following income:
+•
+$120 wages
+•
+$10 BWE under both Federal and State plan rules
+The essential person has income of $100.00 wages.
+The State plan income disregards used in the chart below are typical. Actual disregards
+vary by State.
+2. Chart: Determining CI
+STEP
+1
+Compute BCI.
+Apply the applicable State plan income disregards (SI 01210.500) to the income of the recipient only.
+BCI of Blind Recipient Only
+$120.00  wages
+-  7.50   general disregard
+$112.50
+- 85.00   earned income disregard
+$ 27.50
+÷   2   disregard of one-half of remainder
+$ 13.75
+- 10.00   BWE
+$  3.75  BCI (recipient only)
+​
+​
+Add the essential person's income. Do not apply disregards.
+BCI for Blind Recipient and Essential Person
+$   3.75  BCI of blind recipient only
++100.00   income deemed from essential
+person
+$103.75  BCI (recipient and essential person)
+2
+Compute CI/FR.
+Apply the SSI exclusions to the combined income of the recipient and the essential
+person.
+Unearned Income
+$100.00   income deemed from essential person
+- 20.00   general exclusion
+$ 80.00  countable unearned income
+​
+​
+The system performs this computation, except for cases (such as force pay) requiring
+a manual computation.
+Earned Income
+$120.00  wages
+- 65.00   earned income exclusion
+$ 55.00
+÷   2   exclusion of one-half of remainder
+$ 27.50
+- 10.00   BWE
+$ 17.50  countable earned income
+​
+​
+​
+CI/FR
+$ 80.00  countable unearned income
++ 17.50   countable earned income
+$ 97.50  CI/FR
+3
+Determine CI.
+Compare BCI from step 1 with CI/FR from step 2. Use the lower amount of income as CI.
+$ 97.50  CI (CI/FR from step 2)
+​
+​
+(After gross income and BCI have been input, the system performs this comparison,
+except for cases in force pay.)

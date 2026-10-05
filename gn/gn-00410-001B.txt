@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 00410.001 - Processing Claims Affected by a Disaster – General Information
+Effective Dates: 06/14/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200410001 (fetched 2026-10-04)
+
+B. Identifying cases affected by disaster
+The Office of Systems (OS) annotates the Master Beneficiary Record (MBR) and Supplemental
+Security Income Record (SSR) of all cases with addresses in the disaster area, as identified by the affected
+regions. The disaster area includes all zip codes that are part of the servicing area
+of a field office (FO) closed due to the disaster and other zip codes of severely
+affected areas.
+1. Title II
+The Special Message field on the MBR designates a disaster case. For example, the
+Special Message field may read “DISASTER PROCEDURES APPLY FOR BIC(S) (followed by the applicable BIC(S))”. Do not delete or replace this special message with another message. You may encounter
+situations where an MBR was established after the initial Systems identification.
+In these cases, the appropriate component should establish the special message and
+listing code post-adjudicative.
+2. Title XVI
+All Title XVI records of affected claimants, other than terminated records, display
+a specific case characteristic (CG) code. Do not delete the CG code from the SSR.
+FOs may encounter displaced recipients for whom we did not automatically post the
+specified code to the SSR. FOs may add the code as the first CG field entry for recipients
+who resided in one of the affected areas if they remain displaced.

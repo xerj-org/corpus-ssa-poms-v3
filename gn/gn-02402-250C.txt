@@ -1,0 +1,134 @@
+SSA Program Operations Manual System (POMS) - GN 02402.250 - Allegations of Nonreceipt of International Direct Deposit (IDD) payments
+Effective Dates: 03/31/2022 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402250 (fetched 2026-10-04)
+
+C. Nonreceipt Procedure
+When a report of nonreceipt of a direct deposit payment for a beneficiary outside
+the U.S. is received in a border FO, Office of Earnings and International Operations
+(OEIO), an FBU, or a consular office, follow these steps.
+IMPORTANT: Technicians must not give out Treasury’s phone number to the claimants.
+NOTE:
+Teleservice Center (TSC) personnel must follow instructions outlined in TC 25001.070.
+Step
+Action
+1
+Verify payment and account information. Determine whether:
+•
+the payment was issued,
+•
+the RTN and DAN are correct, and
+•
+the account is in the correct currency for that country. (See GN 02402.200 for the reference for that country.)
+2
+Obtain the name and address of the bank, as well as the bank code and bank account
+number. Go to STEP 3.
+3
+Take the appropriate action as indicated:
+If you are in a claims taking component unfamiliar with the correct coding for the
+required country go to STEP 4;
+If you are a claims taking FBU go to STEP 5;
+If you are a non claims taking FBU go to STEP 6;
+4
+Obtain complete bank information and send a request to OEIO to make the input. STOP.
+5
+If the account information is incorrect, go to STEP 7. Inform the beneficiary that the payment will be returned to SSA and reissued to
+the correct account.
+NOTE:
+The estimated time is three to four weeks from the payment date for SSA to receive
+the return payment, reissue, and deposit the payment into the correct account. Add
+an additional three weeks, if we received a return and the payment reissued to an
+incorrect account (See step 8).
+6
+Send the nonreceipt information and correct bank data to the Regional Foreign Benefits
+Officer's (RFBO's) office for input. Non-claims taking units follow the RFBO's instructions
+for processing nonreceipt. STOP.
+7
+Determine whether the RTN to which the payment was issued begins with either 5, 6,
+or 7.
+•
+If the payment was issued by check or to an RTN that does not begin with 5, 6, or 7, follow procedures in GN 02406.000 for nonreceipt of U.S. check or direct deposit. STOP.
+•
+If the payment was issued to an RTN that was not for the country where the beneficiary
+holds an account, ask if the beneficiary wanted payments to go to a U.S. bank. If
+yes, ask for the correct information for the U.S. account and input the action. (Don’t
+accept information from a deposit slip.). STOP.
+•
+If the payment was issued to an account at an FI with an RTN beginning with 5, 6,
+or 7, go to STEP 8.
+8
+Determine if either FRBKC intercepted the payment (GN 02402.235) or the processor bank rejected the payment (GN 02402.245). If PHUS shows the payment as returned, assume that the payment was intercepted
+or rejected. For either of these situations, take corrective action as necessary to
+correct the bank data. Go to STEP 9.
+NOTE:
+An ENR or NOC IDD sent through ITS.gov and posted to the MBR will not start payments
+for a record in suspense. Explain that the intercepted or rejected payment will be
+returned to SSA and reissued about 10 business days after the payment date. (If it
+has already been returned and reissued to the incorrect bank data, estimate three
+weeks from the date the PMA payment was sent from SSA, for it to reject again and
+be returned to SSA.) Estimate that the beneficiary will receive the payment about
+two weeks after the date the payment is returned and reissued to the correct bank
+data. (For more about PMA payment dates, see GN 02402.225A.)
+9
+Determine whether the account to which the payment was sent is for the correct type
+of currency for IDD to that country. (See GN 02402.220D. for the reference for specific information about IDD to the country where the payment
+was sent.)
+•
+If the account to which the payment was sent is for the correct type of currency for
+IDD
+to that country, obtain and input correct information. Inform the beneficiary that the payment will
+be returned to SSA and reissued to the correct account information you have obtained
+and input. Go to STEP 11.
+•
+For Canada, follow GN 02402.300D., GN 02402.300E., or GN 02402.300F., to code the correct Canadian or U.S. dollar account information. STOP.
+•
+For all others, obtain and input direct deposit information for the correct currency
+account. If a beneficiary does not have an account in the correct IDD currency, ask
+if the beneficiary would like to open an account in the correct currency for IDD to
+that country or have direct deposit in U.S. dollars to an account at a U.S. FI. If
+the beneficiary wants direct deposit to another account, make the input. If not, cancel
+the direct deposit and explain that payments will be sent by check. STOP.
+•
+If the account to which the payment was sent is in the correct currency for IDD to
+that
+country, and the bank information was correctly coded, make sure the beneficiary has contacted the FI to inquire about a late posting.
+STOP.
+•
+If the payment was issued to an account in the correct currency and the FI alleges not receiving the payment and the payment was sent to an account in France, Germany, Ireland, Italy, Mexico, Norway,
+Portugal, Spain, Sweden, or United Kingdom, go to STEP 9.
+•
+If the payment was issued to an account in the correct currency and the beneficiary states that the FI alleges not receiving the payment and the payment was not sent to France, Germany, Ireland, Italy, Mexico, Norway, Portugal, Spain, Sweden,
+or United Kingdom, go to STEP 10.
+If you are in OEIO, ask the FBU to ask the processor bank to trace the payment. If
+the processor bank is unable to trace the payment, Go to STEP 10.
+NOTE:
+IF YOU ARE IN AN FO, OR A PC OTHER THAN OEIO, SEND REQUEST TO OEIO.
+10
+If you are in a border FO, send an administrative message or MDW to OEIO “Attn.: Nonreceipt
+555,” as follows:
+“International Direct Deposit nonreceipt for (country name) for (beneficiary's name,
+Social Security claim number, BIC, RTN/DAN, payment date, payment amount). Please
+contact Federal Reserve Bank of Kansas City.”
+NOTE:
+OEIO will send an SSA-1711 to FRBKC.
+FRBKC and the processor FI will trace missing payments through the foreign direct
+deposit system. Payments will be located and either credited to the account or returned.
+Go to STEP 11.
+11
+Ssend a MDW to the Division of International Operations (DIO). For instructions on
+how to complete and send an MDW, see TC 29001.030.
+If dire need alleged, send a M2M email to DIO. For DIO office codes and email addresses,
+see Exhibit D.
+12
+If the payment was deposited into an incorrect account belonging to someone else and
+is no longer available, go to STEP 13 and also follow GN 02406.020.
+13
+If the beneficiary alleges dire need or if a public relations problem exists, issue
+a Critical Payment System (CPS) check. If you do not have access to CPS, request the
+payment through OEIO by a fax to the Translation and Priority Work Unit (TPWU), 410-965-8020. You may also issue an Immediate Payment for dire need or a public relations problem,
+if the claimant can get to an FO to pick up the check.
+NOTE:
+DT's systems cannot process CPS payments through international direct deposit. Also,
+only OEIO can process a CPS payment by check to a foreign address if the address on
+the MBR is not the correct mailing address and the new address must be included in
+the CPS request.
+:

@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02402.459 - Coding Botswana Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 04/05/2023 - Present | TN 233 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402459 (fetched 2026-10-04)
+
+A. Background for coding Botswana bank data
+This section describes how to code bank data for international direct deposit (IDD)
+of Title II benefits to a financial institution (FI) in Botswana. We store IDD bank
+data on the MBR in the same fields used for U.S. direct deposit.
+Special coding identifies the bank data as a Botswana direct deposit. This allows
+us to route benefit payments through the Federal Reserve Bank of Kansas City (FRBKC)
+and the processor bank in Botswana to the beneficiary's local FI.
+If you receive an IDD request in a U.S. domestic (i.e, non-border) field office (FO),
+forward all appropriate information to the Office of Earnings and International Operations,
+(OEIO), Division of International Operations (DIO) to process.
+For detailed instructions on IDD requests and forwarding information, see
+•
+GN 02402.201 Background and Policy for Direct Deposit Outside the U.S.
+•
+GN 02402.205, Direct Deposit Enrollment Outside the U.S.
+•
+GN 01010.255, Adjudication of Foreign Claims
+•
+GN 01702.310C Routing of Claims for U.S. Benefits Involving Totalization

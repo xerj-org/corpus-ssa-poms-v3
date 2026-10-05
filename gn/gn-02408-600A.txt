@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02408.600 - General Overview of Electronic Funds Transfer (EFT) Reclamations
+Effective Dates: 11/06/2014 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408600 (fetched 2026-10-04)
+
+A. Process for reclamations from U.S. financial institutions (FI)
+Reclamations of Title II or Title XVI direct deposit payments that were sent to accounts
+in U.S. FIs are mainly automated. The sequence of events usually follows this pattern:
+1.
+The Social Security Administration (SSA) receives death information and makes an input,
+or death information is received from a match against record from States or other
+agencies and is applied to the record.
+2.
+The record is terminated for death (payment status T1 for Title II or T01 for Title
+XVI).
+3.
+A Death Notification Entry (DNE) goes to the beneficiary’s/recipient’s FI with information
+about the death (see Death Notification Entry GN
+02408.605).
+4.
+An E-stop (SF-1184) goes to the U. S. Department of the Treasury (Treasury) to request
+a reclamation of EFT (direct deposit) payments made after death that were not due
+and have not been returned.
+5.
+Treasury sends a Notice of Reclamation, FS-133, to the FI to recover the requested
+payments.
+6.
+Depending on the FIs response :
+a.
+The FI returns all of the payments, if available;
+b.
+The FI returns a partial payment, if available, or no payment, if funds are unavailable,
+AND provides the name and address of the last withdrawer of the funds in Title II
+cases; or
+c.
+Treasury directs the Federal Reserve Bank to debit the FI’s account for some or all
+of the funds that have not been returned, if the FI does not comply with the FS-133.
+7.
+SSA attempts to recover any funds that were not reclaimed because they were withdrawn
+from the account by sending a notice to the address of the last withdrawer that is
+provided on the FS-133. See SSA Contacts Last Withdrawers GN 02408.630.
+8.
+When funds are unable to be recovered from the last withdrawer, we complete the FS-133
+and return it to Treasury.
+9.
+Treasury debits the FI’s Federal Reserve account for the limited liability amount.
+See Financial Institution’s Liability EFT Reclamation GN
+02408.625.
+NOTE: The reclamation request must be sent within 120 days of the date SSA learned of the death. An FI may protest any reclamation it believes
+the agency initiated more than 120 days after the agency learned of the death.

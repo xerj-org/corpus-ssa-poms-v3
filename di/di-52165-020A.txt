@@ -1,0 +1,87 @@
+SSA Program Operations Manual System (POMS) - DI 52165.020 - Use Interactive Computation Facility (ICF) Function 34 Online Record Entry (OREO) to Process ICF Problems and Limitations
+Effective Dates: 11/30/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165020 (fetched 2026-10-04)
+
+A. When to use OREO
+Use OREO when:
+•
+ICF #31 and #32 are unable to perform an accurate offset calculation;
+•
+the system will not produce any calculation; or
+•
+the system produces a calculation that needs to be changed.
+1. Systems limitations that require manual processing
+Refer to the following guidelines:
+•
+See Limitations for ICF Functions 31 and 32 in MSOM ICFT2 031.001D.
+•
+See Interactive Computation Facility (ICF) Resource Page for WC/PDB Offset Computations
+– Click here.
+2. WC/PDB action creates an underpayment and an overpayment for the same period previously
+waived
+•
+The underpayment needs to be used to lower the amount of the waived overpayment.
+•
+Annotate instructions for the BA/BTE regarding the overpayment.
+•
+Failure to account for this situation results in a payment that is not due to the
+beneficiary.
+3. Applying administrative finality
+Administrative finality can affect the WC/PDB offset computation. For detailed information,
+see GN 04030.080 - Reopening When Workers' Compensation/Public Disability Benefits Offset is Involved.
+NOTE: Monthly benefit amounts (MBAs) payable after WC/PDB offset cannot be changed if they
+are protected by administrative finality. If at least one rate must remain unchanged
+due to administrative finality, add a Special Message to the MBR per instructions
+in DI
+52165.020A.3.a. and DI 52165.020A.3.b.
+a. All MBAs are protected
+•
+Process a pre-adjudicate datasheet to document the period(s) protected by administrative
+finality. This establishes a datasheet showing all rates that should have been paid.
+•
+Include a remark in the Special Instructions field on the ICF Disposition (WCDP) screen explaining that these rates cannot be paid because of administrative finality.
+•
+Print and fax a copy of the datasheet into NDRed. Processing Centers (PCs) will also
+scan a copy of the datasheet into the Paperless Processing Center (PPC).
+•
+Include a Special Message on the MBR indicating the months protected by administrative finality and stating that a copy
+of the datasheet showing all rates that should have been paid is in NDRed.
+b. Not all MBAs are protected
+•
+Follow instructions in DI 52165.020A.3.a. to document the period(s) protected by administrative finality.
+•
+Use ICF #32 to adjudicate the action if ICF will correctly calculate the offset. ICF
+#32 allows the selection of a later “Start date,” and therefore a specific time period
+for offset calculation. Select a “Start Date for Current Action” equal to the first
+month NOT protected by administrative finality. This ensures that only the non-protected period
+will be adjusted on the MBR. If the case does not process through T2R (Title 2 Redesign),
+only the non-protected rates will be available for propagation by the BA/BTE. Include Special Instructions
+remark in ICF and Special Message on MBR per DI 52165.020A.3.a. instructions.
+•
+Use ICF #34 (OREO) if ICF #32 cannot accurately process the action. Input the data
+for the months that are NOT protected by administrative finality to provide the BA/BTE with the proper data for
+processing the MACADE action for the non-protected period. Include Special Instructions remark in ICF and Special Message on MBR per
+DI 52165.020A.3.a. instructions.
+4. Retirement insurance benefit (RIB) election involved
+•
+Months when RIB is paid will not be offset.
+•
+If RIB is elected and there is no new period of DIB, code the RIB month of entitlement
+on the WCGI screen in the “Date of Termination” field. Failure to code the termination
+date will continue to add the WC offset amount as a taxable amount on the 1099.
+•
+If DIB is reelected, code OREO as if DIB was continuous. Months in which RIB was paid
+constitute a break in offset for purposes of triennial redeterminations. Delete the
+months in which RIB benefits were paid and alert the BA that some months are not offset
+due to the higher RIB election.
+5. When to suppress the automated systems notice
+•
+If you need to update information on the MBR, get the case into the ICF system and
+no notice is needed, use OREO.
+•
+If you want to be sure certain language is in the notice and cannot rely on T2R to
+generate the language; or, you want to dictate language to explain a complicated situation.
+Data input using ICF #32 is passed to T2R (Title 2 Redesign). T2R uses the input data
+to calculate the offset and generate a complete notice. The notice data that was input
+in the ENB field on the WCEP screen is ignored by T2R. The only way to be certain
+the T2R notice is not generated and released is to process the case through OREO.

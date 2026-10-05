@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02402.297 - Coding Morocco Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/07/2018 - Present | TN 268 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402297 (fetched 2026-10-04)
+
+G. Example of coding Morocco direct deposit
+The customer provides us with a signup form for Morocco containing the account number:
+123456789012345678901234 (entire RIB).
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 68;
+•
+Code the 3-digit bank code: 123 (from RIB);
+•
+Code the 3-digit branch code: 456 (from RIB);
+•
+Code the U.S. check digit (i.e., 4) (obtained from the Title II interactive comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the account type as a “C” for checking or an “S” for savings. If no account type
+indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of "R" designated for Morocco; and
+•
+Code 16 digits of the 24-digit account number: 7890123456789012.
+3. Obtain the following information:
+•
+RTN: 681234564
+•
+Checking
+•
+DAN: R7890123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 681234564
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: R7890123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 681234564
+•
+DAN- CR7890123456789012

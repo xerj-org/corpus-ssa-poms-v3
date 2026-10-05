@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 24503.050 - Determining the Filing Date for Evaluating Evidence
+Effective Dates: 07/24/2024 - Present | TN 10 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0424503050 (fetched 2026-10-04)
+
+A. Background for evaluating evidence
+1. Significance of the filing date for evaluating evidence
+For disability or blindness claims, some rules we use to evaluate medical and nonmedical
+evidence will depend on a claims filing date. Adjudicators at all adjudicative levels
+must identify whether the filing date of the claim is before March 27, 2017, or whether
+the filing date of the claim is on or after March 27, 2017.
+For more information about how the Field Office (FO) determines the filing date of
+a claim, see GN 00204.007.
+2. Specific evidence rules in which the filing date of a claim is relevant
+The filing date of a claim is relevant for the following evidence rules:
+•
+The medical sources who are acceptable medical sources (AMS) only for claims filed
+on or after March 27, 2017 see DI 22505.003;
+•
+The definition of these categories of evidence: medical opinions, opinions, and other
+medical evidence, see DI 24503.005;
+•
+The rules for considering medical opinions and prior administrative medical findings,
+see DI 24503.025 and DI 24503.035;
+•
+The articulation requirements for medical opinions and prior administrative medical
+findings, see DI 24503.030 and DI 24503.035;
+•
+The articulation requirements for statements on issues reserved to the Commissioner,
+see DI 24503.040; and
+•
+The articulation requirements for decisions from other governmental agencies and nongovernmental
+entities, see DI 24503.045.
+3. Medical Evidence regulation indicator
+The purposes of the Medical Evidence regulation indicator (MedEv) in eView header
+is to:
+•
+Help adjudicators understand which set of rules to use; and
+•
+Direct systems at the Office of Hearings Operations (OHO) to produce correct notice
+language and display correct decisional screens that correspond to the filing date.
+This indicator is set when the FO transfers the claim to the Disability Determination
+Services (DDS) and will appear in the eView header for all claim types.
+•
+For claims filed before March 27, 2017, the indicator should say MedEv: Prior Rules.
+•
+For claims filed on or after March 27, 2017, the indicator should say MedEv: Current
+Rules.

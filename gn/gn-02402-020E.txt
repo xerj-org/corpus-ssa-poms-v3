@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02402.020 - Reimbursement Process Due to Alleged Fraud and Other Unauthorized Redirection of Reoccurring Payments
+Effective Dates: 08/25/2025 - Present | TN 308 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402020 (fetched 2026-10-04)
+
+E. Overpayment Posting Instructions for Non-Returned or Incomplete EFT Claim Forms and
+SSA Issued a Replacement Payment
+1. For FO instructions regarding Title XVI recipients, follow the below instructions
+and then choose the applicable option listed under subsection “c”:
+a.
+Check TCIS for the status of the EFT Claim Form.
+b.
+Prepare and mail a manual overpayment notice and ensure that appeal rights are included
+in the notice.
+c.
+Change the NT TAC and review the record to begin overpayment recovery (follow instructions
+in SM
+01311.285). In addition, please follow one of the following applicable scenarios:
+•
+If the Title XVI record is in current pay (i.e., the SSR shows payment status C01),
+follow the C01 instructions in SM
+01311.285 to change the decision on the (Overpayment Decision) UOPD screen from 7 = Erroneous
+to 3 = RECOVERY BY CHECK ADJUSTMENT, and send to the Supplemental Security Record
+(SSR). If the overpayment has no notice date posted, then input the notice date using
+the MSSICS UOSD Screen, see MS 00304.006. Update Sequence Data (UOSD). A manual overpayment notice maybe necessary.
+•
+If the Title XVI record is in non-pay status or if the Title XVI record is in terminated
+status, follow the applicable instructions under SM
+01311.225.B.
+2. For Processing Center procedures regarding Title II beneficiaries, please follow the
+below instructions:
+a.
+Check TCIS or Paperless for the status of the EFT claim form
+b.
+Delete the non-entitled debtor overpayment.
+c.
+Establish the overpayment on the beneficiary’s record via the Debt Management System
+(DMS) Establish Debt (SMED) screen.
+d.
+Prepare and mail a manual overpayment notice and include an appeal rights in the notice.

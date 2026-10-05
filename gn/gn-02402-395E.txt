@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.395 - Coding Serbia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 244 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402395 (fetched 2026-10-04)
+
+E. Description of Serbia IDD bank data
+The data for coding IDD for Serbia comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The full length of the IBAN for
+Serbia consists of 22 characters. However, the bank data on the MBR consists of 24
+characters including the country code of "T".

@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02610.065 - How to Correct Cases When The Title II Benefits Are Paid First In The Third Circuit - Offset
+Effective Dates: 12/13/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610065 (fetched 2026-10-04)
+
+B. Procedure
+If a claimant demonstrates that application of the AR could change the adjudication
+and payment of title XVI benefits (including any effect on Medicaid eligibility),
+the FO will follow this procedure.
+1. Query the SSR
+Confirm that title XVI offset did take place by querying the SSR.
+2. Determine Title XVI Eligibility
+Determine title XVI eligibility without considering the title II income paid retroactively.
+3. Beneficiary Ineligible for Title XVI
+If the beneficiary is still ineligible for title XVI in the months title II benefits
+were paid retroactively for some nonmedical reason, issue an appropriate manual denial
+notice (see NL 00802.020).
+4. Beneficiary Eligible for Title XVI
+If the beneficiary is eligible for title XVI without considering the title II income:
+a.
+Make a one-time payment of $1 for each month of title XVI eligibility (see SM 01901.130).
+Input an N TAC for any overpayment the system does not address. See GN 02250.350 for guidelines for the system process and tolerances.
+b.
+Input “Mazz” in the CG field on the SSR for later identification of Mazza cases.
+c.
+Issue a manual notice of title XVI payment for the closed period to the beneficiary
+to take to the appropriate Medicaid agency. See NL 00802.010, “Initial Award Notice — SSA-L8025, SSI
+Notice of Award,” for how to do the award notice. If you use a preprinted form (see NL 00802.015, “Completion of the
+SSA-L8025”), the following should be put immediately after the payment chart which lists amounts
+due (see GN 02610.067 for model notice):
+•
+Caption 1915, “Information
+About Medicaid” — See NL 00802.015A.2.g. and
+•
+The following paragraph:
+“Since you are not eligible now for SSI, you are also
+not eligible for Medicaid based on SSI. However, if you need help
+with medical bills, you may still be eligible for medical assistance.
+Also, you may be eligible for Medicaid for the months we paid you
+SSI. Contact  (1)  for
+information about your State's medical assistance programs and your eligibility
+for Medicaid. When you visit that Agency, please take this letter
+with you. It will help the people there answer your questions.”
+(1) Choice 1 - DE — The Division of Social Services for the State of Delaware
+Choice 2 - NJ — the local Medicaid office in the area
+Choice 3 - PA — The County Assistance office

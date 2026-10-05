@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02403.020 - Field Office Remittance Transmittal (FORT) and The Credit Card Field Office Remittance Transmittal (CCFORT)
+Effective Dates: 12/28/2007 - Present | TN 31 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403020 (fetched 2026-10-04)
+
+B. Generating a FORT or CCFORT
+Field Office employees (remittance clerks) request the FORT and CCFORT in DMS. The
+report lists FO remittance receipts issued that day, or when the processing date was
+changed.
+The remittance supervisor has specific duties related to the FORT (see GN
+02403.002E). The remittance supervisor:
+•
+Reviews the FORT and CCFORT against all non-SERS programmatic remittances received
+and resolves discrepancies;
+•
+Ensures that all remittances have an associated coupon;
+•
+Ensures that the correct and usable coupon(s) have been included. The scanner in MATPSC
+relies on the data contained in the scan line (The scanner can only read a scan line
+placed 1/2 inch from the bottom of the coupon). If any corrections were made to the
+daily receipts, ensure that the most recent coupon is included with the remittance;
+•
+Verifies that no unendorsed returned benefit checks are mailed to MATPSC. These items
+should be returned to Treasury and are listed on the Field Office Daily Receipt Listing
+(FODRL), see GN
+02403.021 . Follow the instructions in GN
+02405.010 for Title II and GN
+02405.100 for Title XVI;
+•
+Verifies that no fee remittances are included in the mailing to the MATPSC;
+•
+Verifies that no monthly or quarterly Supplemental Medicare Insurance (SMI) premium
+remittances are included in the mailing to the MATPSC, see GN
+02403.030B on how to properly code the premium within DMS, as well as mailing monthly or quarterly
+premium remittances directly to the Centers for Medicare and Medicaid Services (CMS)
+Medicare Premium Collection Center (MPCC) for processing and deposit. MATPSC only
+handles retroactive premiums to SMI being paid on an installment basis; and,
+•
+Mails FORT and CCFORT each day to MATPSC. If the day’s FORT and remittances cannot
+be mailed the same day that the FORT is produced, they should be secured and mailed
+the next business day. If remittances are received after the daily FORT is produced,
+they must be held in a secure location overnight and mailed the next business day.
+1. When to Use the FORT
+Use the FORT(s) to transmit the following to the MATPSC RAU, see GN
+02403.001:
+•
+Title II and Title XVI non-SERS remittances from the FO;
+•
+Money gifts from the FO to MATPSC; and
+•
+Medicare overpayment refunds in response to a request for repayment from a Program
+Service Center (PSC).
+The remittance clerk normally requests the FORT at the end of the day for reconciliation
+of receipts and forwarding to the MATPSC.
+2. When to Use the CCFORT
+The Credit Card FORT (CCFORT) lists transactions made by debit or credit card payments,
+seeGN
+02403.006. Be sure to include the DMS generated coupon indicating the name of the credit card,
+the credit card account number, and the card holder's signature. If the remitter presents
+a Recovery and Collection of Overpayment Process (RECOOP) or Recovery of Overpayments,
+Accounting and Reporting (ROAR) generated coupon, discard it and use the coupon generated
+by DMS.
+Remember to enter the RECOOP bill number in the bill number field of the Field Office
+Remittance Input (RFOR) screen, see MS
+01103.006.
+3. When NOT To Use FORT/CCFORT
+Do not use the FORT or CCFORT to transmit:
+•
+Fees to be mailed to the Office of Finance (OF) or to the Office of Earnings Operations
+(OEO). Use the
+SSA-414-U3 as discussed in GN
+02403.013 to transmit fees.
+•
+Forward Medicare contractor's checks, unendorsed benefit checks, or premium payments
+to CMS's lock box, see GN
+02403.030.
+•
+Medicare premium installment payments (premiums owed for a prior period of SMI coverage
+such as equitable relief, see HI
+00830.060).
+•
+NOTE: Do not use the FORT or CCFORT when sending Medicare premium installment payments
+to MATPSC for processing. Annotate "INSTALLMENT UNIT" on the check and envelope, and
+mail separately to the MATPSC RAU PO Box 3430. These arrearages are not reflected
+on the Centers for Medicare and Medicaid Services, Direct Billing System (CMS DBS),
+and the MATPSC RAU processes these remittances separately from other current Medicare
+premium payments.
+•
+Unendorsed Treasury benefit checks, see GN
+02405.010 and GN
+02405.100.
+•
+Saving bonds received as conserved funds, see GN
+02403.015.
+•
+Remittances processed in the Field Office using the Social Security Electronic Remittance
+System (SERS) ,see GN
+02403.161.

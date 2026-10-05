@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 00502.118 - Verifying and Updating EINs for Organizational Payees
+Effective Dates: 05/23/2023 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502118 (fetched 2026-10-04)
+
+D. Procedure for Verifying EIN for an Organizational Payee in eRPS
+When initially establishing an organizational payee in eRPS:
+1.
+Select “Establish Organization” under Manager Actions on the eRPS Home Screen (MS
+INTRANETERPS 001.002);
+2.
+Input the Organizations information on the Establish Organization/Institution screen
+(MS INTRANETERPS 014.002);
+3.
+Click on the “Verify EIN” tab.
+After you click on “Verify EIN”, the EIF searches to identify the entered EIN. The
+EIN is displayed on the EIN Info from EIF screen (MS INTRANETERPS 014.003). Even though
+more than one name can be used by the entity assigned an EIN, the eRPS displays only
+the most recent name entry made for that EIN.
+1. EIN found on EIF
+When you input the EIN, the eRPS will check the EIF and verify a match. If the EIN
+is found on the EIF file the system will ask you the following:
+Is the EIN correct for this organization?
+If you select YES, the EIN is verified and you should continuing processing.
+If you select NO, eRPS creates an EINVER issue with a 5-day tickle. You must correct
+the EIN. Once the EIN is corrected, the EINVER will be closed with the current date.
+2. EIN Assigned But Not on EIF (OVERRIDE FUNCTION)
+If the EIN does not appear on the EIF, you will see an error message “EIN NIF on EIF
+database”. If the applicant submits proof that the EIN is assigned to the applicant
+(e.g., IRS documentation), eRPS will allow you override and establish the EIN. If
+the override does not occur and the EIN is not verified in EIF, an issue will be generated
+by the system. The system asks:
+Do you still want to use this EIN?
+If you select YES, the system will ask to select one of the following as “Proof Type”
+•
+EIF
+•
+Federal, State, and Local government entities
+•
+Private entities
+•
+EIN assigned but not in EIF
+•
+Other
+If Proof type of “Other” is selected, then user must enter description in Other text
+box
+3. Procedure for EIN correction or change.
+If an organization’s EIN changes, FO management can select the option to correct the
+EIN. You must input the new EIN or re-verify the current EIN against the EIF.
+•
+Go to “Manage Organization” under Manager Actions from the eRPS Home screen (MS INTRANETERPS
+001.002);
+•
+Search the Organization by zip code, name, or State on the Organization Payee Search
+screen (MS INTRANETERPS 007.004);
+•
+Select the Organization and click on the “Update Organization” on the Organizational
+Payee Search Results screen (MS INTRANETERPS 007.001);
+•
+Under the Case Details, select the Organization data;
+•
+On the EIN Info from EIF screen (MS INTRANETERPS 014.003), enter the new EIN and select
+“Update EIN”;
+•
+If the EIN is correct, select yes to “Is the EIN correct for this organization?”

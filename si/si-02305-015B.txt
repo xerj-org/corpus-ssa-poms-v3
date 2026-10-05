@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - SI 02305.015 - Limited Issue Cases
+Effective Dates: 09/14/2015 - Present | TN 91 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305015 (fetched 2026-10-04)
+
+B. Description of Limited Issues
+The LI indicators and a description of each indicator are as follows.
+•
+DI - Dedicated account monitoring required. See SI 02305.011 and GN 00605.200 through GN 00605.235.
+•
+5B - Internal Revenue Service (IRS) interface diary. See SI 02310.045.
+•
+5H - IRS/SSR interface pension diary. See SI 02310.052.
+•
+SB - Savings Security Instrument diary. See SI 02310.015.
+•
+K6/K7 - MEF/SSR interface earned income diary. See SI 02310.055.
+NOTE:
+Use DISCO when working a K6 diary for disabled/blind recipients not entitled to Title
+II on their own SSN.
+•
+KC/KE/K8/K9 - Critical birthday diaries. See SI 02309.001 through SI 02309.006.
+•
+KP - Critical birthday. Identifies spouses with possible Title II entitlement. See
+SI 02309.007.
+•
+KV-VA pension referral cases diary. See SI 02309.011.
+•
+KZ - Insured status diary. See SI 02309.010.
+NOTE:
+Use DISCO when working a KZ diary for disabled/blind recipients not entitled to Title
+II on their own SSN.
+•
+R8 - Conserved funds diary. See SI 01140.021.
+•
+U5 - Unemployment compensation/SSR interface diary. See SI 02310.065.
+•
+S2 - State wage match diary. See SI 02310.062.
+NOTE:
+Use DISCO when working a S2 diary for disabled/blind recipients not entitled to Title
+II on their own SSN.
+•
+D8 - Medicaid Statistical Information System (MSIS) match diary. See SI 02310.064.
+•
+3D - Removal from the United States. See SI 02310.018.
+•
+I8 -The SSI individual is voluntarily leaving the United States. See SI 02310.017.
+•
+Continuing type F (TANF) unearned income on the record. See SI 00830.400, SI 00830.403, SI 00830.410D, SI 00830.415, SI 00830.645, and SI 00830.800 for procedures on developing type F unearned income. These cases are identified in
+the CRZD segment on the SSID with a selection indicator of F. SUMS/MCAS MI Central
+counts and case data are available by selection indicator.
+•
+Unverified type S (self-employment) earned income on record. See SI 00820.220 and SI 00820.230 for procedures on developing net earnings from self-employment. These cases are identified
+in the CRZD segment of a SSID by a selection indicator of C. SUMS/MCAS MI Central
+counts and case data are available by selection indicator.
+•
+Payment continuation cases. See SI 02301.325 and SI 02005.010 for procedures on reviewing and correcting payments in these cases. These cases are
+identified in the CRZD segment of an SSID by a selection indicator of G. SUMS/MCAS
+MI Central case data is available by selection indicator.
+•
+J3 Diary - The recipient’s or deemor’s wages on the Supplemental Security Record (SSR) are
+greater than the recipient's or deemor’s wages on the MEF. (SI 02310.056)
+•
+J5 Diary - The deemor’s wages on the Supplemental Security Record (SSR) are greater than the
+deemor's wages on the MEF. (SI 02310.056)
+•
+S7 Diary - There are discrepancies between deemor's the wages on the SSR and the deemor's wages
+on the Office of Child Support Enforcement (OCSE) database. (SI 00820.143) (SI 02305.099)

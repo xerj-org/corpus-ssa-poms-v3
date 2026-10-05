@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 11010.030 - Field Office (FO) Operating Instructions for Deferred Title II Initial Claims
+Effective Dates: 11/07/2013 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010030 (fetched 2026-10-04)
+
+C. Earnings record review
+•
+Obtain most earnings record information with an Earnings Computation (EC) request
+or with the Informational/Certified Earnings Record System (ICERS), see GN 01010.010.
+•
+Review the Earnings Alert Query (EARQ) to identify potential earnings record discrepancies,
+see DI 11010.050.
+Review the earnings record for insured status prior to transfer of the disability
+claim to the DDS.
+Earnings Issues
+If
+Then
+There is a delay in receiving the earnings information:
+Review it upon receipt to determine whether it may affect benefit eligibility.
+Material earnings discrepancy arises:
+Develop to resolve the discrepancy, regardless of the status of the medical determination.
+Earnings development is in progress; available evidence indicates insured status is
+met once such development is complete:
+Initiate and continue this development while the case is pending at the DDS.
+After additional development, insured status is not met and there is no potential
+onset date (POD) (as described in DI 25501.220) for the entitlement:
+Input an FO determination to close the case. (In general, an FO determination input
+will close a CEF case even when already at the DDS. However, when a CEF exclusion
+case is pending at the DDS, the FO must recall the folder.)
+NOTE: If, at any point in the claims process, the FO becomes aware that the claimant is
+ineligible for any nonmedical reason, input an FO determination to close the case
+in EDCS (and other applicable claims systems) or recall the folder from the DDS for
+additional FO action, as appropriate. For related instructions on:
+•
+Development and evaluation of a potential period of SGA, see sections in DI 10501.000.
+•
+Development and evaluation of an apparent technical denial, see DI 11010.040.
+•
+FO determinations in EDCS/eView, see DI 81010.140.

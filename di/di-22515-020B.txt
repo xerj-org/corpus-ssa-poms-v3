@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 22515.020 - Resolving Insufficient Vocational Evidence using a Detail Earnings Query (DEQY) or a Summary Earnings Query (SEQY)
+Effective Dates: 11/21/2018 - Present | TN 19 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0422515020 (fetched 2026-10-04)
+
+B. Obtaining a DEQY via International Business Machine Personal Communications (PCOM)
+or eView
+1. DEQY via PCOM
+To obtain a DEQY via International Business Machine Personal Communications PCOM,
+you enter "9" on the Master File Query Menu (MFQM) then complete the required fields.
+2. DEQY via eView
+To obtain a DEQY via eView:
+a.
+Open eView
+b.
+Go to case documents tab
+c.
+Select the Queries heading; Query Selection Screen opens
+d.
+Select the DEQY tab if not already selected.The DEQY cannot have more than 5 request
+type values. The user has the option to remove or add the values requested in eView.
+Default Request Type Values
+1. Covered Details
+4. All Non-Covered Details
+5. Pension
+7. Special Wage Payment
+8. Employer Address
+Available Request Type Values
+1. Covered Details
+2. Self-Employment
+3. MQGE & Health Insurance
+4. All Non-Covered Details
+5. Pension
+6. Railroad
+7. Special Wage Payment
+8. Employer Address
+9. Last Employer Address
+a.
+Enter the relevant period years into “Inclusive Years”.
+b.
+Highlight
+1.
+Covered Details,
+2.
+Self-Employment, and
+3.
+Employer Address. (Use the control key to highlight multiple fields.)
+c.
+Select “Add”.
+d.
+Select “View & Save to EF” button to include the query in the EF.

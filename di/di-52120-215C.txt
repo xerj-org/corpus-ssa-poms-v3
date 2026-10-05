@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - DI 52120.215 - Puerto Rico Workers Compensation (WC)
+Effective Dates: 07/09/2026 - Present | TN 150 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120215 (fetched 2026-10-04)
+
+C. WC amounts to use for SSA offset
+1. TT (Dietas)
+Use the rate paid and the dates for which paid. Occasionally, a dietas payment is
+cancelled (not paid) and the computer printouts we receive may not reflect this. Therefore,
+when imposing or adjusting offset due to dietas, be sure to notify the worker of the
+dates of dietas used so that they can object in case some of the payments were cancelled.
+2. PP (Incapacidad Parcial Permanente)
+a. Proration of PP awards
+Although SIF pays PP awards as a combination of a LS and periodic payments (see DI 52120.215A.2.), SSA prorates the entire PP award as a LS. The starting date is explained in DI 52120.215C.2.b. below.
+The rate at which to prorate the LS is:
+Injury Date
+Monthly amount
+Weekly amount for ICF
+07/01/1968- 06/30/1987
+$100
+$23.08
+07/01/1987 on
+$150
+$34.62
+If the percentage of disability is increased, multiple PP awards can be made based
+on a single injury. In this case, add the PP award amounts together to lengthen the
+proration period and prorate using the chart above.
+b. Starting Date
+If TT (dietas) preceded the PP award, start prorating the LS from the first day that
+the TT ended. If there are multiple periods of dietas, then the LS should be prorated.
+If there is no interruption on dietas, the LS should be prorated based on the alta
+corresponding to the end of the dietas period.
+EXAMPLE: Alta is 03/08/2008. Dietas is paid through 03/08/2008. PP is awarded on the 03/08/2008
+alta. Later, dietas payment resumes as of 03/10/2008. The PP should be prorated from
+03/09/2008 and would overlap the continuing dietas.
+If TT (dietas) did not precede the PP award, we would prorate the PP from the award date, which is usually
+the alta.
+NOTE: When coding ICF and TT and PP payments are involved, enter two claims numbers into
+the WCCL claim number. Show the correct first claim number for Dietas and code the
+second claim as the original plus a suffix such as PP or LS. For more coding examples,
+see the Workers' Comp Resource
+Page.
+c. PP Investments
+As explained in DI 52120.215A.2, the NH can elect to replace some of their monthly PP payments with a LS (PP investment).
+The PP investment has no bearing on how the PP award is prorated. Do not confuse a
+PP investment with a PT investment. See DI 52120.215C.3.b below for PT investment.
+3. PT (Incapacitado Total Permanente or ITP)
+a. Life Pension
+For offset purposes, use the dates and amounts actually paid.
+Although SIF stops PP payments when PT is awarded, sometimes SSA will still be prorating
+the PP LS award amount when PT is awarded. In this case, we should continue to prorate
+the amount of PP actually paid by SIF; this could overlap the PT monthly payments
+for a period of time. However see note below if an investment is paid.
+EXAMPLE: Suppose a PP award of $5000 is made in 2003. The initial payment is $1,800-- $1,500
++ $300 (two months of retroactive entitlement) on 05/01/2003. Normally SIF would continue
+to pay $150 per month after that until a total of $5000 is paid. The NH is awarded
+PT on 03/01/2004, so SIF stops making payments. SSA starts prorating the PP award
+based on the date specified in DI 52120.215B.2.c. Assume this date is 03/01/2003.
+Through 02/04:
+•
+SIF has paid a total of $3,150 ($1,800 initial payment + $150 per month from 06/2003 through 02/2004).
+•
+SSA has offset for $1800 ($150 per month from 03/2003 through 02/2004)
+We must continue to offset for the remaining $1,350 paid by SIF (at $150 per month)
+for 03/2004 through 11/2004. This would be in addition to the PT monthly payments
+for those months.
+Previously our instructions were to stop offsetting for PP when the PT was awarded
+so that there would not be an overlap. The revised instructions (to continue to charge off any PP paid by SIF even after
+PT is awarded) are considered a change-of-position (COP) effective 09/30/2008. Cases
+processed under the previous rule should not be re-opened prior to the 09/30/2008
+COP effective date.
+NOTE: If an investment is paid, the PP and PT will not overlap. Stop the PP proration when PT payments start and see DI 52120.215.C.3.b below for instructions on handling the investment.
+b. PT Investment
+Treat the PT investment as a LS. Start the proration (and stop offset based on the PT monthly payments) effective with
+the date the PT investment was granted. If there are multiple investments for one
+injury, add them together and treat them as one LS.
+Prorate at the following rate:
+Injury Date
+Monthly Amount
+Weekly Amount for ICF
+07/01/1968- 06/30/1987
+$125
+$28.85
+07/01/1987- 06/30/2004
+$200
+$46.16
+07/01/2004 on
+$430
+$99.24
+c. PT Remainder
+The PT Remainder is the balance of payments due on the record if an Investment is
+paid. It is equal to the maximum (see chart in DI 52120.215A.3.b) minus the total of:
+•
+PP (amount considered for offset)
+•
+PT life pension
+•
+PT investment
+The PT remainder is treated as its own LS. The proration starts as soon as the investment
+proration ends. The proration rate for the PT Remainder is:
+Injury Date
+Monthly Amount
+Weekly Amount for ICF
+07/01/1968- 06/30/1987
+$100
+$23.08
+07/01/1987- 06/30/2004
+$150
+$34.62
+07/01/2004 on
+$300
+$69.24

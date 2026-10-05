@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02006.215 - Record Corrections, Payments, and Notices
+Effective Dates: 06/01/2009 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006215 (fetched 2026-10-04)
+
+B. Procedure - Title II Offset Cases
+1. Adjusted Title II Income Changes Amounts in Offset Period
+a. System Limitations Always Apply
+Systems limitations apply when the Title II retroactive benefits have been released
+per MBR/PHUS and offset applied. In these situations you cannot change the data in
+the system and have it pay the correct amounts.
+•
+The unearned income data in the SSR UMIH segment will generally not include type A
+UM entries for the months before the last 2 months in the Title II offset period.
+(The data may include type A UM entries if dual entitlement is involved or type W
+UM entries if the Title II offset computation was automated.)
+•
+Should the FO attempt to enter type A UM entries based on the adjusted Title II income,
+the system would compute an overpayment rather than an underpayment for months in
+the Title II offset period.
+•
+Instead, manually compute the underpayment and use the A-OTP facility to make payment.
+See SI 02006.210 B.8.
+b. A-OTP Payment
+Refer to SM 01901.000 ff. for instructions on A-OTP. Refer to SM 01311.280 which provides
+instructions for use of the NT TAC which is used to resolve erroneous systems-computed
+overpayments. When paying by A-OTP, the FO should enter NT TAC data in the amount
+of the A-OTP to correct the increase in the overpayment amount in the system and prevent
+an alert.
+2. Adjusted Title II Income is Type A for First Month of Title XVI Payment
+a. Systems Capability Exists
+The FO can use the system to help when the retroactive Title II benefits are paid
+in 1 of the last 2 months of the extended offset period or later and the type A UM
+entry must be decreased. The FO can enter adjusted Title II income for a month of
+receipt of retroactive Title II as type A UM entries to compute and pay underpayments
+(or correct overpayments) through the system.
+The automated system can compute the true overpayment/underpayment from PE changes
+in the offset period following an automated Title II offset computation done after
+January 15, 1984, with some exceptions (see SM 01320.600). The WIN code indicates
+the necessary action for correctly reviewing, and processing PE events when Title
+II offset applied (see SM 01320.021). If the WIN code is “F,” “I,” or “R,” the systems computations are always correct. This includes those for PE changes in
+type A UM for months, such as the last 2 months of an extended offset period, that
+have a zero (0) type W UM amount posted.
+b. Both Systems Capability and Limitations Apply
+If the adjusted Title II income changes are both for months when data should not be
+entered and for months when they can be, the FO can use the A-OTP and the NT TAC procedures
+for the earlier month and also correct the type A amounts for the later months.
+3. Notices
+See A.3. above.

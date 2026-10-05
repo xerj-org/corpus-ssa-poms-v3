@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - DI 13010.625 - The CDR PC Input (IPCA) And CDR PC Input B (IPCB) Screens
+Effective Dates: 11/27/2002 - Present | TN 15 (11-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010625 (fetched 2026-10-04)
+
+D. Procedure – Completing the IPCA/IPCB Screens
+Complete the IPCA/IPCB to update or transfer an OCO/PSC CDR action.
+1.
+The DCF ID, SSN, and TYPE OF SELECTION fields will be propagated by the DCF.
+2.
+The UNIT code will be propagated by the DCF but can be over-keyed to correct the individual
+unit code per office procedures.
+3.
+The SELECT EVENT TYPE field reflects the update action for this transaction. The possible
+EVENT TYPES are:
+•
+1, TRANSFER. Use this event type to transfer an action to another office. This input
+requires completing the IPCB screen. This action code does not record the transfer
+to PCACS.
+•
+2, INITIATE CDR. This input requires completing the IPCB screen.
+•
+3, INITIATE CDR – VR REQUESTED. This input requires completing the IPCB screen.
+•
+4, DEFER CDR. Input this event to defer a CDR. This will automatically update the
+MRED date based upon the MRED diary reason code.
+•
+5, DEFER CDR – VR REQUESTED. Input this event to defer a medical CDR. This will automatically
+update the MRED date based upon the MRED diary reason code.
+•
+6, REVIEW NONRESPONDER. This input requires completing the IPCB screen. Use this event
+to record a new event date and to send a non-responder alert.
+•
+7, UNDELIVERABLE. This input requires completing the IPCB screen.
+•
+8, SSR/MBR CONDITIONS – STOP CDR. Use this code to indicate that the CDR action is
+being terminated due to other reasons. For example, a medical CDR is being terminated
+because the beneficiary has died.
+•
+9, CONTINUANCE. Use this code to post a continuance action on either a medical or
+work CDR. Use this code to record an EXR approval. This will automatically link with
+the Modify Medical Data, MMDS, screen (see MSOM CDR 001.017) when used in conjunction
+with any medical CDR actions.
+•
+10, WHEREABOUTS UNKOWN. Input this event type to update the DCF with the whereabouts
+unknown event. This input requires completing the IPCB screen.
+•
+11, FAILURE TO COOPERATE. Input this event type to update the DCF to create the failure
+to cooperate event in the DCF. This input requires completing the IPCB screen.
+•
+12, ASSISTANCE REQUEST. Use this code to record an assistance request to another office.
+This input requires completing the IPCB screen. When this event code is used two systems
+generated issues will be generated on the CDRW screen, see MSOM CDR 001.013 and DI 13010.605 for information on the CDRW screen.
+•
+13, DIRECT RELEASE NOTICE INITIATION. Use this code to indicate that notice has been
+sent on a direct release case. Enter the appropriate date the Direct Release Notice
+was sent.
+•
+14, CESSATION. Use this to record medical CDR and work CDR cessations and EXR medical
+denials if the FO has not already closed the EXR denial event.
+4.
+Enter Y in the FOLDER RECONSTRUCTION ISSUE if the prior folder cannot be located and
+the folder needs to be reconstructed. Possible other codes in the field are:
+•
+Y for yes.
+•
+N for no.
+•
+F for folder not found.
+•
+L for lost folder.
+•
+Q for folder not in the location shown on PCACS so the actual location is in question.
+5.
+Enter the three-digit office code in the TRANSFER CASE OFFICE RESPONSIBLE FOR THE
+NEXT ACTION field on the IPCB screen. The field must be completed when transferring
+an action to another office. Enter the three-digit office code to where the action
+is being forwarded. The DCF pre-fills the office code with the last code on record
+and must be over keyed with the proper office code if forwarding the file out of the
+office.

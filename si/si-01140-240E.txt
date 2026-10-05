@@ -1,0 +1,146 @@
+SSA Program Operations Manual System (POMS) - SI 01140.240 - U.S. Savings Bonds
+Effective Dates: 09/18/2026 - Present | TN 90 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140240 (fetched 2026-10-04)
+
+E. Procedure for developing savings bonds in initial claims
+1. How to determine ownership
+a. Paper bonds
+Ask the individual to submit any paper bonds in which they have an ownership interest.
+Use the name(s) shown on the bond to determine ownership per SI 01140.240C.1., SI 01140.240C.2., or SI 01140.240C.3. (in this section).
+b. Electronic savings bonds
+When an individual alleges ownership of electronic savings bonds, you must document
+the bond ownership. Ask the individual to printout a record of the individual's bond
+holdings from the Current Holdings section of their TreasuryDirect account. (For instructions,
+see SI 01140.240E.3.b. in this section.)
+2. What to do when an individual does not have possession or access to the savings bond(s)
+If the individual alleges that they cannot submit a bond because a co-owner or other
+individual has physical possession of the paper bond, then you must obtain a signed
+statement from the individual possessing the bond.
+If the individual alleges they cannot gain access to an electronic bond because the
+individual holding the bond in their TreasuryDirect account refuses to grant transaction
+authority or deliver an electronic gift bond, then obtain a signed statement from
+the holder or the other individual controlling access to the bond.
+Whether the bond is paper or electronic the signed statement of the individual holding
+or possessing access to the bond verifies that they:
+•
+have physical possession of the bond or hold the bond in their TreasuryDirect account,
+and
+•
+will not allow the individual to cash the bond or will not cash it, and
+•
+will not give the individual the ability to redeem it.
+3. How to determine the value of bonds after the retention period
+a. Series E, EE, and I bonds (paper)
+Treasury no longer sells paper Series E and EE bonds. Treasury ended sales of Series
+E bonds in June 1980. Series E bonds sold at three quarters of the face value.
+Treasury ended the sale of paper Series EE bonds in December 2011. Paper Series EE
+bonds sold for one-half of the face value of the bond.
+Treasury no longer sells paper Series I bonds. Series I bonds sold at full face value
+with interest accruing to the redemption value. When the individual redeems the E,
+EE, or I bonds, the redeemed amount includes accrued interest added to the purchase
+price. Treasury made no periodic interest payments on E/EE/I bonds. To determine the
+value of a paper bond:
+•
+Use the Savings Bond Calculator or the Comprehensive Savings Bond Value Table on the
+U.S. Department of the Treasury's Internet web site at: http://www.treasurydirect.gov/BC/SBCPrice; or
+•
+Use a current copy of the Table of Redemption Values for U.S. Savings Bonds; or
+•
+As a last alternative, obtain the value by telephone from a local bank and record
+it on a Report of Contact (RC). The bank will need the series, denomination, and issue
+date.
+NOTE: For MSSICS cases, you may access the Savings Bond Calculator by selecting the link
+above the monthly values table in the Stock, Bond, or Mutual Fund (RSTB) page.
+b. Series EE and Series I U.S. Savings Bonds (Electronic)
+Electronic Series EE and Series I bonds are always issued at their full face value. As interest accrues, the bond's value is the face value plus the accrued
+interest. Unlike paper bonds, there are no set denominations for electronic Series
+EE and Series I bonds. A person can purchase a bond in any amount between $25 and
+$10,000. It is not possible to verify an electronic bond's current value using the
+Treasury's online Savings Bond Calculator or the Table of Redemption Values. To determine
+the value of an electronic bond:
+•
+Ask the individual to print out their Current Holdings list from the Treasury Direct web
+site. Verify the total current value of the electronic bonds using the Current Holdings
+list.
+•
+Use the Current HoldingsSummary page to verify the number of bonds, face value of
+the bonds, issue dates, confirmation numbers, and the value of individual bonds.
+•
+If the individual alleges they cannot obtain the Current Holding list because they
+have lost the password or account number, the individual must contact Treasury to
+retrieve them.
+NOTE: Treasury protects the Current Holdings list by password, account number, and other
+authentication information, so only the account holder can access this information.
+If the owner of the bond is also the purchaser, they only needs their TreasuryDirect
+account number, password, and other access authentication information to access the
+account and retrieve the Current Holdings list.
+EXAMPLE: Johnson purchases an electronic Series EE savings bond for $457.32. The face value
+of that bond is $457.32 and interest will accrue on that amount. To verify ownership
+and value of the bond, the claims representative (CR) asks Johnson to obtain their
+Current Holdings list and Current Holdings Summary on the TreasuryDirect web site.
+From the Current Holdings Summary, the claims representative verifies the face value
+as $457.32 and that, with accrued interest, the current value of the bond is $491.50.
+The CR documents $491.50 as the countable resource value for SSI purposes.
+c. Series H and HH bonds
+Treasury no longer issues Series H and HH U.S. Savings bonds. These bonds were available
+only as paper bonds. Treasury issued them at their face value, but the bonds did not increase in value. Instead, Treasury made interest payments to the owner each six
+months. Consult Dividends and Interest SI 00830.500 to determine whether this counts as unearned income. After the initial 6-month retention
+period, the redemption value of a series H or HH bond remained its face value. Contact
+the Treasury Department to verify the value of distributions from H or HH bonds. The
+address to contact is:
+Treasury Retail Securities Services
+P.O. Box
+9150
+Minneapolis, MN 55480
+4. How to document evidence of savings bonds (paper and electronic)
+Follow this procedure for recording evidence of paper and electronic savings bonds.
+•
+Record each bond's serial number (or issue confirmation number), denomination (or
+initial bond amount), series, issue date, and redemption value on the EVID screen
+in the Shared Process Menu which is selection #4 on the SSA Main Menu. See Electronic
+Evidence Documentation and Retention GN 00301.286.
+•
+If it is not feasible to use EVID, document the electronic file with a photocopy or
+certification of the bond(s). For the legal requirements for photocopying U.S. Government
+obligations, see SI 01140.010G.
+Unlike paper bonds, electronic savings bonds do not have a serial number. Instead,
+each electronic bond is assigned a sequential issue confirmation number that will
+appear on the Current Holdings list. A bond owner's first bond will have the issue
+confirmation number IAAAA followed by IAAAB for the second bond, IAAAC for the third
+bond, etc.
+5. How to record bond information in non-MSSICS cases (paper and electronic)
+In order to record bond-related information in non-MSSICS cases, follow these steps:
+1.
+Use the Remarks field on the Supplemental Security Record (SSR) to record the number
+of bonds, the denominations or amounts, series, issue dates, and redemption values.
+2.
+Input RE21 in the CG field.
+EXAMPLE: The claimant owns two series EE bonds both issued in October 2000. One of the bonds
+is a $100 denomination and the other is a $200 denomination. The claims representative
+(CR) codes the Remarks field as follows: DI owns 2 series EE bonds. $100 bond issued
+10/00 value is $61. $200 bond issued 10/00 value is $119. Then the CR inputs RE21
+in the CG field.
+6. How to record bond information in MSSICS cases (paper and electronic)
+Use the following steps for cases processed in MSSICS:
+1.
+Record the savings bond's serial number if paper or sequential number if electronic
+in the Description field of the Stock, Bond, or Mutual Fund (RSTB) page.
+2.
+Record the redemption value of the savings bond for the applicable months.
+3.
+Repeat the process if the individual has multiple bonds.
+4.
+Use the CMSC screen to input the RE21 code, but do not code any additional CG field
+information about the bonds.
+7. How to follow-up, if appropriate
+If an individual owns a U. S. Savings Bond (paper or electronic) which, in the future,
+may cause countable resources to exceed the limit, re-contact the individual shortly
+before the value of the bond becomes available or may cause ineligibility. Set an
+RT diary as a reminder to re-contact the individual using either MSSICS or Direct
+SSR Update. (For additional information concerning posting diaries, see SM 01301.205.)
+EXAMPLE: During a redetermination in April 2009, the recipient alleges they purchased an electronic
+EE series U.S. Saving Bond in December 2008. The amount of the bond was $740.25. The
+earliest the recipient can redeem the bond is December 2009, and the bond counts as
+a resource for SSI the following month, January 2010. The CR sets an RT diary for
+November 2009 and asks the recipient to verify the amount of the bond by sending in
+the Current Holding Summary for the bond in December 2009.

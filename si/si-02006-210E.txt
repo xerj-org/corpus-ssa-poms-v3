@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - SI 02006.210 - Field Office Representative Fee Adjustment Procedures Summary and Worksheets
+Effective Dates: 07/09/2012 - Present | TN 16 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006210 (fetched 2026-10-04)
+
+E. Procedure - notes for filling out SSA-2877
+COLUMN
+NOTE
+A
+List all months affected by the adjusted type "'W” or “G” income. If the windfall
+offset computation is out of balance (an excess or negative offset applies), then
+list all months in the windfall period.
+NOTE: Columns B - D2 = SSI Eligibility
+Computation
+B
+Use amount of Title II income remaining, if any, as shown in column D on the SSA-2894.
+C
+If the Federal living arrangement is B and there is no corresponding type "J" income
+in the UMIH segment of the SSID (usually a record not in RIC G), include the VTR.
+If column B equals zero, then column C equals the total of the UMC and the ENC from
+the CMPH segment of the SSID.
+If column B equals the type "W" income in the UMIH segment of the SSID for the same
+month, then column C equals the total of the WUM and the WEN from the WCMP segment
+of the SSID.
+If column B is greater than zero but less than the corresponding type "W" entry in
+the UMIH segment of the SSID, then column C equals the total of the UMC and the ENC
+from the CMPH segment of the SSID plus the total* from column B.
+*Determine whether any or all of the $20 general income exclusion can be used to reduce
+the total in column B.
+This is the new FCI based on the attorney fee adjustment.
+X
+The Federal payment amount for Federal living arrangement A, based on the date in
+column A.
+D1
+Compare the amount in column C with the amount in column X. If eligible, enter “E.”
+If ineligible, enter “N” in this column and zero in the FAM (column E3).
+D2
+If ineligible, enter zero in the SAM (column E6).
+NOTE: Column D3 - E6 = SSI Payment Computation
+D3
+If eligible, enter the budget month (BM).
+If column B equals zero then the BM is the same as the BM in the CMPH segment of the
+SSID.
+E1
+FBR for the month in column A or, if the Federal living arrangement is D, enter $30
+(or $25 for months before 7/88) in column E1.
+If there is no OS for this variation, enter zero in column E6.
+E2
+If the amount is available for the BM in column C, enter the amount from column C.
+Otherwise, obtain it from the SSID.
+Consider COLA coordination (SI 02005.015) if Title II income is received.
+E3
+Enter the remainder of column E1 minus column E2.
+E5
+Enter the remainder, if any, of column E2 minus column E1.
+E6
+Enter the remainder of column E4 minus column E5.
+NOTE: Columns F1 - F6 = Computation of the underpayment to
+be paid by one-time payment (OTP).
+F1
+Enter the amount from column E3 unless proration is involved (pre-September 1996).
+If proration applies and column B equals zero, then the FAM equals the FAM in the
+CMPH segment of the SSID. Otherwise, determine the prorated amount per SI 02005.005.
+F2
+If offset is automated, enter the WFA from the WCMP segment of the SSID. If offset
+is manual, enter the new FAM from the SSA-4346 offset worksheet. This is the amount
+the recipient would have been due if Title II had NOT been adjusted for attorney fees
+and had been paid when it was due.
+F3
+Enter the remainder of column F1 minus column F2. This is the amount of the federal
+underpayment for this month.
+F4
+Enter the amount from column E6 unless proration is involved. If proration applies
+and column B equals zero, then the SAM equals the SAM in the CMPH segment of the SSID.
+Otherwise, determine the prorated amount per SI 02005.005E. or SI 02005.005F.
+F5
+If offset is automated, enter the WSA from the WCMP segment of the SSID. If offset
+is manual, enter the new SAM from the SSA-4346 offset worksheet.
+F6
+Enter the remainder of column F4 minus column F5. This is the amount of the OSS underpayment
+for this month.

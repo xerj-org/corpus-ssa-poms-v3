@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 00502.112 - Identifiers for the Representative Payee System (eRPS)
+Effective Dates: 07/17/2026 - Present | TN 104 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502112 (fetched 2026-10-04)
+
+A. Policy
+Correct payee coding is critical to representative payee (payee) oversight, including
+accounting and monitoring reviews, and for holding payees liable for debts. Be sure
+to record the proper Social Security Number (SSN) or location ZIP Code when taking
+a payee application in eRPS.
+Each payee in eRPS is identified under a specific numeric identifier:
+•
+The SSN is the identifier for an individual applicant/payee; or
+•
+We verify employer identification numbers (EINs) to accurately identify organizations,
+see GN 00502.118. However, since EINs are not unique and there are no unique indicators for organizations,
+eRPS establishes an identifier, the “Organization ID,” using the ZIP Code of the physical
+location of the organization.

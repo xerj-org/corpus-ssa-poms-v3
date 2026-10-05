@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 00830.316 - Augmented VA Benefits in the Ninth Circuit
+Effective Dates: 10/22/2004 - Present | TN 76 (12-97)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830316 (fetched 2026-10-04)
+
+D. Procedure
+1. Identification of Affected Cases
+Verify the amount of a VA dependent's portion for all SSI claims filed or pending
+on or after November 17, 1994, including denied claims under appeal.
+Verify the amount of a VA dependent's portion for posteligibility cases at the first
+redetermination or other income review completed on or after November 17, 1994.
+NOTE: Previous POMS instructions provided that, in the Ninth Circuit, FOs would input a
+VA dependent's portion to the SSR under the appropriate income code and in a continuing
+amount of zero (except when the dependent's portion was countable per B.3. or B.4.
+above). FOs also were to have entered a CG code of “9THX CIRC AUGM VAXX.” Develop
+cases with such entries if a VA dependent appears to be involved.
+2. Effective Date of Input
+a. Initial Claims and Denied Claims Under Appeal
+Input the verified amount of the VA dependent's portion paid to a designated beneficiary
+as VA income to the dependent effective with the first month of SSI eligibility or
+the first month in which VA income was received, but not earlier than November 17,
+1994.
+b. Posteligibility Cases Requiring Reposting of VA Dependent's Amounts
+For cases in which the VA dependent's portion had been reduced to a continuing amount
+of zero because of Paxton v.Secretary,input the verified amount of the VA dependent's portion paid to a designated beneficiary
+as VA income to the dependent effective with the month in which the verification is received. (This implementation method will usually eliminate the need to make an overpayment
+determination for months after the policy effective date). Do not charge a dependent's
+portion greater than zero for any months before the month in which verification was
+received, unless:
+•
+the benefit was paid to the dependent by apportionment, or
+•
+the dependent's portion is countable per C.3. above.
+If verification of the dependent's portion is already in file when the redetermination
+or income review is initiated, input the verified amount as VA income to the dependent
+effective with the current calendar month at the time of the input.
+Delete any CG code related to the prior Ninth Circuit policy.
+3. Manual Notice When Restoring Dependent's Portions to PE Cases
+In the same systems input used to restore VA income to the record, suppress the automated
+notice. Use the Field Office Notice Software (FONS) to generate an SSI Notice of Planned
+Action (SSA-L8155-U2).
+Prepare a dictated paragraph to explain that:
+•
+beginning (month/year), we consider part of (the designated beneficiary's) VA benefit
+to be (the dependent's) unearned income, and
+•
+we now use that income to decide the amount of the SSI payment.
+NOTE: A manual notice is required only when initially restoring the amounts of VA dependent's
+portions for cases in which the VA dependent's portion had been reduced to a continuing
+amount of zero because of Paxton v. Secretary.

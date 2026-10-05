@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - SI 01140.042 - Determining Equity Value
+Effective Dates: 03/01/1999 - Present | TN 79 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140042 (fetched 2026-10-04)
+
+B. Procedure
+1. Obtain a Statement
+If an individual alleges a debt against the resource in question, obtain their signed
+description of the debt.
+2. Verification
+a.
+Verify at a minimum
+•
+the outstanding principal balance as of the first moment of any month for which a
+determination must be made; and
+•
+the rate of interest and the schedule and amount of payments (to permit the projection
+of increases in equity).
+b.
+Obtain a copy of the agreement or note that establishes the debt. If this does not provide
+all the information needed, you may use other records of the individual, the creditor,
+or both.
+3. Resources still exceed limit
+If resources exceed the limit despite use of the verified equity value, input RE60
+in the CG field to indicate excess equity value. However, before denying or suspending
+eligibility, consider the possibility of:
+•
+a plan for achieving self-support (SI 00870.001); or
+•
+conditional benefits (SI 01150.200).
+4. Equity value permits eligibility
+a.
+RE99 Input and RT Diary
+Transmit code RE99 to the CG field of the SSR. In addition, set an RT diary if:
+•
+use of CMV instead of equity value would cause resources to exceed the limit; and
+•
+scheduled payments against the debt are likely to increase equity to a point where
+resources would exceed the limit before the next scheduled redetermination.
+b.
+Diary Action
+When the RT diary matures, develop the resources for which the diary was set. Make
+only a current equity value determination; it is not necessary to conduct a complete
+redetermination.
+NOTE:  The presence of code RE99 in the CG fieldalways  requires an equity value determination during an FO redetermination of any kind.

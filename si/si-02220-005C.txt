@@ -1,0 +1,127 @@
+SSA Program Operations Manual System (POMS) - SI 02220.005 - Documenting the Supplemental Security Income Overpayment
+Effective Dates: 02/14/2025 - Present | TN 133 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220005 (fetched 2026-10-04)
+
+C. Procedures for types of overpayment documentation
+1. FO SSR documentation
+a.
+We must first determine all months for which the individual was overpaid (the overpayment
+period), regardless of the overpayment amount. For overpayment period information,
+refer to SI 02201.005C.4. and SM 01311.035D.
+b.
+Document the final disposition of each overpayment on the SSR on which you are taking
+action. Include any notice, collection, transfer, or appeal decision, by posting it
+through Direct SSR Update.
+c.
+For overpayments of $2,000 or less, the technician selects the applicable overpayment
+disposition decision on the overpayment decision (UOPD) screen in Direct SSR Update.
+d.
+This table lists all possible overpayment decisions on the UOPD screen with corresponding
+policy instructions, refer to MS 00304.008.
+Overpayment Decisions and Instructions
+Overpayment Decisions
+Systems Instructions
+Policy Instructions
+1=Waiver
+SM 01311.422
+SM 01311.423
+SM 01311.424
+GN 02250.000
+2=Appeal
+SM 01311.423
+SM 01311.424
+SI 02220.001
+3=Recover by check adjustment
+SM 01311.120
+SM 01311.125
+SI 02220.001
+4=Unwilling to repay
+SM 01311.200
+SM 01311.205
+SI 02220.050
+5=Unable to repay
+SM 01311.200
+SM 01311.205
+SI 02220.050
+6=Uncollectible
+SM 01311.280
+SM 01311.285
+SI 02220.053
+7=Erroneous
+SM 01311.280
+SM 01311.285
+SI 02301.315
+8=Unable to locate or out of country
+SM 01311.200
+SM 01311.205
+SI 02220.051
+SI 02220.050
+9=Overpayment to bring forward
+SM 01311.350
+SI 02220.011
+10=Recover by installments
+SM 01311.235
+SM 01311.240
+SI 02220.025
+11=Compromise settlement
+SM 01311.290
+SM 01311.295
+SI 02220.030
+12=Incorrect overpayment
+SM 01311.340
+SM 01311.345
+SI 02201.010
+SI 02201.020
+13=Recover from Title II benefits
+SM 01311.255
+SM 01311.261
+SI 02220.020
+14=Referral to DOJ (Civil Suit)
+SM 01311.220
+SI 02220.035
+15=Referral to OIG
+SM 01311.220
+SI 02220.036
+16=Referral to Treasury
+SM 01311.220
+SI 02220.040
+17=Bankruptcy
+SM 01311.220
+SI 02220.040
+e.
+If the individual resides outside the United States (U.S.)
+•
+If the individual resides in a foreign country, post a DM TAC to indicate that we
+are unable to locate the individual, or the individual is out of the country. Refer
+to SM 01311.200.
+•
+If the individual resides in Puerto Rico or the U.S. Virgin Islands, post the new
+residence address. The system will automatically post the jurisdictional FO code (DIS)
+to the SSR; and
+•
+Transfer the case in MSSICS to the Downtown Manhattan FO using FO Code 109.
+2. FO case file documentation
+a.
+Technicians must document non-collect overpayment disposition decisions of any amount,
+and requests for change in recovery rate on the Report of Contact screen. List the
+overpayment:
+•
+Period;
+•
+Amount;
+•
+Sequence number;
+•
+Sequence date;
+•
+Recovery rate requested;
+•
+Disposition decision; and
+•
+Reason for disposition decision.
+b.
+For non-MSSICS cases, document the information shown in SI 02220.005C.2.a. on the Form SSA-5002, and fax the SSA-5002 and all related documents into the Non-Disability
+Repository for Evidentiary Documents (NDRED) via the Evidence Portal (EP).
+c.
+Refer to SM 01311.125 for information on changing the recovery rate for check adjustment,
+and MS 00304.008 (UOPD) for changing the overpayment decision amount.

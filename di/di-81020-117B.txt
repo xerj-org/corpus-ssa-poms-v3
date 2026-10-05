@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 81020.117 - Processing Medical Reactivations
+Effective Dates: 03/19/2012 - Present | TN 36 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020117 (fetched 2026-10-04)
+
+B. Identifying possible Medical Reactivation
+A claim is Medically Reactivated in eView so that the prior medical decision can be
+reopened. The policy regarding reopening and revision has not changed.
+Follow the existing reopening policies and procedures in:
+•
+DI 27501.005 Reopening and Revising a Determination or Decision
+•
+DI 27505.001 Reopenings and Revisions: Pertinent Definitions and Related Policy
+•
+DI 28501.000 Reopenings and Revision of CDR Determinations
+NOTE: Use of Medical Reactivation is controlled by position and security profile. FOs,
+DDSs, Data Processing Branches (DCRs), and Federal Division Units (FDUs) are able
+to designate specific individuals who medically reactivate cases. The DDS and DCR
+must request that functional profile P73680P is assigned to the individual(s) by the
+Regional Center for Security and Integrity. The FDU must request that functional profile
+P73680P is assigned to the individual(s) by the Office of Central Operations (OCO)
+Center for Automation, Security and Integrity (CASI).
+Medical Reactivation may be used when there are no open claims pending in EDCS or
+eView, and:
+•
+Trailer mail is received that affects the final decision;
+•
+The FO detects an error on the 831, such as, an incorrect regulation basis code, onset
+date, etc., and verifies with the DDS, DCR, or FDU that the claim should be reopened;
+•
+The FO revises pertinent factors in the case, such as, the insured status dates or
+provides a statutory blind date last insured, etc., and verifies with the DDS, DCR,
+or FDU that the claim should be reopened; or
+•
+The DDS, DCR, or FDU makes a favorable decision with evidence that is readily available,
+but needs to develop for an earlier onset.

@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 55030.015 - Field Office (FO) Responsibilities for Handling the TPM's Reports of Earnings
+Effective Dates: 02/26/2014 - Present | TN 4 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455030015 (fetched 2026-10-04)
+
+F. STEP 6 – Clear any pending CDRW issues
+1. When the system will automatically clear a T2VY or 16VY CDRW issue
+The system will automatically clear a T2VY or 16VY DWS [see comment above] issue based
+on entries made to the VERN screen (title II cases) or to the SSR (title XVI cases).
+2. When the system will not automatically clear a T2VY or 16VY CDRW issue
+In concurrent cases, the system will clear the VY issue for the first action processed
+(i.e., it will clear either the T2VY or the 16VY issue), but not for the second action
+processed. Thus, the 16VY issue should be cleared first via MSSICS, and the T2 VY
+should be cleared second, preferably through eWork, or manually if eWork is unsuccessful.
+3. How to manually clear VY and other CDRW issues
+Access the CDRW to manually clear a VY, ERNGS, or other tickle issues. (See DI 13010.605.)
+4. How to monitor unverified earnings issues
+FOs can access and identify CDRW issues pending in location by going to management
+information (MI) central. (See DI 13010.605E.)

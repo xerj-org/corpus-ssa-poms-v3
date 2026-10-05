@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - SI 02302.030 - Section 1619 Process and Procedures
+Effective Dates: 04/10/2008 - Present | TN 34 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502302030 (fetched 2026-10-04)
+
+C. Procedure – 1619(a) and 1619(b)
+1. Earned Income Development
+Since 1619 eligibility is based on the amount of a person's earned income, verify
+earned income quarterly as described in SI 02302.060. Attempt to coordinate recipient contacts for earnings verification, redeterminations,
+and CDRs to the extent possible.
+2. Prerequisite Month
+Almost all individuals previously in pay or eligibility status will meet the prerequisite
+month requirement. However, there are post-eligibility situations where the system
+cannot determine if the prerequisite month has been met (zee SM 01305.991). In these
+situations, the system places the record in payment status S05.
+a.
+If the case is a Start Date record and the prerequisite month requirement was met
+on the prior terminated record, follow SM 01305.991B.2.a.
+b.
+If the prerequisite month requirement was not met on the prior terminated record,
+or this is not a Start Date record, follow SM 01305.991B.2.b. An SGA determination
+is required if work is at the SGA level. (See DI 13010.110 for information regarding return to work within 12 months after onset.)
+c.
+If the individual receives SSI based on age and otherwise meets all requirements for
+1619(b) eligibility, a disability determination is required. See below.
+3. 1619(a) State Supplement Computation
+See SI 02302.010B.2. for a list of States that elect to supplement 1619(a) cases. Determine the appropriate
+optional supplementary payment code for a 1619(a) month in the same way as for a regular
+SSI month according to SI 01415.001 and regional instructions.
+4. 1619(b) Medicaid Use and Threshold Tests
+Determine if the recipient meets the Medicaid Use and Threshold Tests at each scheduled
+redetermination per SI 02302.040 and SI 02302.045.
+5. Notices
+The SSR will generate 1619 notices (SI 02302.310).  However, FOs must issue a manual Notice of Decision (SI 02302.310, situation #6) when a manual award notice is sent to a blind or disabled individual
+age 18 or over.
+6. 1619(b) Determinations for Couples
+When one member of a couple works, only that member is eligible for 1619(b). The other
+member is ineligible for payment due to deemed income, not their own income; therefore,
+that member is not eligible for 1619(b). When both members work and they are ineligible
+for payment due to a combination of earned income and deemed income, then each person
+is separately eligible for 1619(b). Perform the threshold calculation on each person's
+income. If one person's income is over the charted threshold, perform the individualized
+calculation on that person only.
+7. 1619 (b) Disability Determinations for Aged Individuals
+Effective May 1, 1991 individuals who are age 65 or over may qualify for section 1619(b)
+eligibility (Medicaid While Working) provided that they are also blind or disabled.
+Aged individuals with current earned income who are suspended due to excess income
+will be notified of their potential eligibility under section 1619(b) and advised
+to contact the FO if they believe they qualify.
+a. Establish Disability/Blindness
+Follow the steps below whenever a working aged individual becomes (or will become)
+ineligible due to excess income:
+Step
+Action
+1
+Ask the individual if they are blind or disabled.
+If No - Stop. The person cannot establish 1619(b) eligibility.
+If Yes - Go to step 2
+NOTE: If the SSR already reflects multi-category eligibility for the individual, a new medical
+decision is not necessary.  Go to step 2 below.
+2
+Determine if the alleged date of onset is at least one month before all other 1619(b)
+requirements are met (i.e., the prerequisite month).
+If No - Stop. The person cannot establish 1619(b) eligibility.
+If Yes - Go to step 3
+3
+Determine if the individual would be eligible for an SSI payment if their earnings
+were not considered.
+If No - Stop. The person cannot establish 1619(b) eligibility.
+If Yes - Go to Step 4
+4
+Determine if the individual meets the Medicaid Use Test per SI 02302.040.
+If No - Stop. The person cannot establish 1619(b) eligibility.
+If Yes - Go to Step 5
+5
+Determine if the individual meets the Threshold Test per SI 02302.045 and SI 02302.050.
+If No - Stop.  The person cannot establish 1619(b) eligibility.
+If Yes - Go to Step 6
+6
+Complete the appropriate disability forms per DI 11055.015.
+7
+Request a medical determination from the Disability Determination Service (DDS) per
+DI 11055.035.
+•
+Enter “Aged Individual - 1619(b) eligibility determination” in the Remarks section
+of the SSA-831-U3.
+•
+Specify in Remarks the date of onset which the DDS must establish for the person to
+meet the prerequisite month requirement (i.e., a month prior to when the person meets
+all other 1619 (b) requirements).
+b. Favorable Disability Decision
+If the DDS determines that the individual was blind or disabled and the onset date
+meets the prerequisite month requirement, proceed as follows:
+Step
+Action
+1
+Terminate the record using T30 or T33 procedures in SM 01801.001.
+2
+Establish a Start Date record per SM 01005.020.
+NOTE: The type of claim (SM 01005.010) must be shown as blind or disabled.  Use the multi-category
+field (SM 01005.330) to reflect multi-category eligibility as an aged/blind or aged/disabled
+individual.
+3
+Prepare and mail a notice per NL 00801.010 and NL 00802.010.
+4
+Notify the Medicaid agency of the individual's eligibility under section 1619(b) using
+locally-established procedures.
+NOTE: After the Start Date record is established, the State will receive notification through
+the State Data Exchange.
+c. Unfavorable Disability Decision
+If the DDS determines that the individual was not blind or disabled as of the prerequisite
+month, the DDS will issue the appropriate notice.
+Enter “CMDS” in the Case Characteristics (CG) field per SM 01301.820.

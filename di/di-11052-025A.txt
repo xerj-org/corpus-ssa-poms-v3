@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 11052.025 - Notices and Paragraphs for Initial End-Stage Renal Disease Medicare Cases
+Effective Dates: 05/31/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052025 (fetched 2026-10-04)
+
+A. Award notices
+When processing an initial claim through Earnings Computation (EC), the award notice
+is automatically generated based on the type of claim entered on the APPL screen and
+completion of the rest of the screens within the Modernized Claims System (MCS) path.
+If the beneficiary is entitled to equitable relief, MCS notices automatically generate
+paragraphs HIB068 and HIB075.
+When a copy of the notice is necessary due to third party involvement, entry on the
+NOT1 screen with a third-party’s name and address produces a copy of the notice to
+the third party and generates the COP001 on the beneficiary’s notice. The same is
+true if the case has an attorney or representative involved – EC generates the copy
+of the notice and the COP001 based on information from the NOT2 screen.
+If you must include additional information in the notice, use the dictated notice
+paragraph HIBD01. Dictated language can be found in (DI 45001.076 through DI 45001.104)

@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02215.195 - Debtor Involved in Bankruptcy Proceedings - PC Procedure
+Effective Dates: 03/23/2023 - Present | TN 47 (03-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202215195 (fetched 2026-10-04)
+
+E. Procedure - Stopping recovery
+1. General
+If the FO did not stop recovery efforts, immediately stop any adjustments (including
+cross- program adjustment) or efforts (including follow-up notices or bills, TOP,
+etc) to obtain repayment effective with the current operating month. It is immaterial that a debtor has agreed to repay by monthly installments.
+If we subsequently receive any indication that we are/will be in contempt of court
+because collection activity was not stopped timely, contact the Office of the General
+Counsel (OGC) . If SSA had provided the Bankruptcy Court with the proper address where
+bankruptcy material should be sent, include this information. If notification is received,
+refund anything collected in violation of the stay.
+NOTE: The input to ROAR to stop recovery will depend on whether a Proof of Claim will be
+filed.
+2. Filing Proof of Claim
+If a Proof of Claim will be filed:
+•
+Input a DFBP screen with the Proof of Claim = 1 Filing (MSOM DMS 007.006)
+•
+Input the following special message to the MBR:
+“Chapter (type) Bankruptcy Claim, $(amount) Overpayment: DO NOT TAKE ANY RECOVERY
+ACTION, Proof of Claim Filed.”
+•
+Follow up with OGC if notice of a discharge or court ordered repayment plan has not
+been received when the automated 12 month follow-up period ends. Rediary for 6 months
+via a DRDY screen.
+•
+Annotate DMS remarks with the information regarding the actions being taken.
+3. Not filing Proof of Claim
+If a Proof of Claim will not be filed:
+•
+Input the DFBP screen with a Proof of Claim = 4 Bankruptcy — Delayed Collection (GN 02215.195D.2.).
+•
+Input the following special message to the MBR: “Chapter (type) Bankruptcy Claim,
+$(amount) Overpayment: DO NOT TAKE ANY RECOVERY ACTION: Proof of Claim Not Filed.”
+•
+Annotate DMS remarks with the information regarding the action being taken.
+IMPORTANT:  Be sure to delete any penalty when the DFBP screen is annotated with a 2.

@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - GN 02402.363 - Coding Nauru Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2024 - Present | TN 264 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402363 (fetched 2026-10-04)
+
+F. Procedure for coding Nauru bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Nauru using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+3-digit bank code
+•
+account number
+•
+beneficiary address
+•
+reclamation country
+1. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If yes, go to step 3.
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+3
+Is the beneficiary's account an Australian Dollar (AUD) account in Nauru? If no, STOP.
+REASON: Beneficiaries in Nauru can only receive IDD payments in AUD accounts.
+If yes, go to step 4.
+4
+To derive the 9-digit RTN for Nauru, code as follows:
+•
+Prefix of 66 (the multi-country prefix SSA and FRBKC designated to use for IDD to Nauru),
+•
+3 filler “000’s”,
+•
+3-digit bank code based on FI name after verifying accuracy against either the ITS.gov
+help file or the listing in GN 02402.363G in this section, and
+•
+1-digit check code, (obtained through Title II Interactive Comps).
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the DAN for Nauru, code as follows:
+•
+“N” designated for Nauru, and
+•
+Up to 16 digits of the account number
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.363F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

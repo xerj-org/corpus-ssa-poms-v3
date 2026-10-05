@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 02402.367 - Coding Monaco Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402367 (fetched 2026-10-04)
+
+G. Example of coding Monaco direct deposit
+The customer provides us with a signup form for Monaco containing the following information:
+IBAN MC1112739000700011111000H79.
+•
+The first characters of the Monaco IBAN are “MC,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The next five characters of the IBAN represent the five-digit bank code.
+•
+The next five characters represent the five-digit branch code.
+•
+The next 11 characters of the IBAN represent the 11-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 71;
+•
+Code the five-digit bank code “12739”;
+•
+Code the first digit of the five-digit branch code “0”;
+•
+Code the one-digit check code (i.e., 6) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of “E” designated for Monaco;
+•
+Code the last four digits of the five-digit branch code “0070”; and
+•
+Code the 11-digit account number “0011111000H”.
+3. Obtain the following information
+•
+RTN: 711273906
+•
+Checking
+•
+DAN: E00700011111000H
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 71273906 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: E00700011111000H
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 711273906
+•
+DAN- E00700011111000H

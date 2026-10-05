@@ -1,0 +1,87 @@
+SSA Program Operations Manual System (POMS) - DI 52110.001 - Annuities and Trusts
+Effective Dates: 09/25/2008 - Present | TN 2 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452110001 (fetched 2026-10-04)
+
+B. Applying offset to annuities – Option test
+Offset annuities paid as a substitute for periodic WC.
+1. Option - Receives annuity or another payment method
+If the number holder (NH) had the option to receive the proceeds of a LS settlement
+as an annuity (or some other payment method) and chose to receive an annuity:
+•
+Add the purchase price of the annuity (not including interest) to any cash payment
+paid as part of the settlement to determine the gross LS amount.
+•
+Prorate the gross LS amount as any other LS settlement per DI 52150.060 - Prorating a WC/PDB Lump Sum Settlement. If the settlement includes a life expectancy
+rate, apply the life expectancy rate to the entire gross LS amount.
+EXAMPLE: Prior to settlement, the WC carrier was paying WC of $350 per week. The WC claim was
+settled with a $50,000 cash payment and an annuity that pays the NH $500 per month
+for 20 years. The settlement document did not indicate if the NH had any option and
+gave no proration rate for the settlement. The annuity purchase price was $76,000.
+Further development found the NH had the option and opted for a $50,000 cash payment
+with an annuity instead of a one-time cash payment of $115,000.
+•
+Offset determination. Add the annuity purchase price to the cash payment amount and
+prorate the result (the gross LS amount) according to the LS proration rules in DI 52150.060 - Prorating a Lump Sum Settlement.
+•
+For Interactive Computations Facility (ICF) processing: Enter the case as a $126,000
+LS and prorate at $350 per week.
+2. No Option – NH receives WC as annuity
+If the NH can only receive the WC LS settlement as an annuity (e.g., the carrier's
+policy is to pay in a certain manner):
+•
+Offset the annuity payments actually received at the time that they are received or
+over the time period that they represent, if any. For example, divide the annual annuity
+amount by twelve months and apply offset as if it were received monthly.
+•
+Be alert to any scheduled changes in the annuity payments so offset can be adjusted
+in the future.
+•
+Do not apply life expectancy rates to the annuity payments. Only the cash payment
+part of the LS settlement is subject to the life expectancy rate.
+EXAMPLE 1: Annuity – No Option
+NH’s WC LS settlement consists of a $75,000 cash payment (which is offsettable); two
+annuities not subject to offset (because they represent medical expenses); and a third
+annuity that is offsettable. The third annuity purchase price is $76,000. It pays
+the individual $500 per month for 20 years starting one month after the cash payment.
+Further development found the NH did not have the option to receive any other form
+of payment in exchange for the annuity.
+•
+Offset determination: Although the annuity was part of the WC settlement award agreed to by the NH, they
+did not have the option to choose a larger cash payment in place of the annuity. Therefore,
+offset applies to the annuity payments as of the time they are actually paid to the
+individual. ($500 per month for 20 years.)
+•
+ICF processing: Input the case as if it were two WC claims. Input one claim with the $75,000 gross
+LS prorated per instructions in DI 52150.060, and the other claim with ongoing $500 monthly periodic payments. This enables ICF
+to compute the offset correctly.
+EXAMPLE 2: Annual Annuity – No Option
+The NH negotiated a LS settlement of their permanent partial WC claim. It was the
+WC carrier practice to settle each claim with no more than 40 percent of the award
+in cash and the rest as an annuity. There was no option for the NH to receive a larger
+cash payment in lieu of the annuity.
+The WC carrier agreed to pay a $34,000 cash payment and annual annuity payments of
+$5,000 for 20 years. The annuity is paid every September 1 beginning with the current
+year. The NH pays approved attorney fees of $6,800 out of the cash portion of the
+LS. There are no other excludable expenses. No proration rate is stated in the agreement.
+The NH was receiving $150 per week in permanent partial WC payments. The WC Board
+approved the settlement in April and the final periodic WC payment paid WC through
+April 15th.
+•
+Offset determination: Offset the annuity over the period it represents (September
+1 of one year through August 31 of the next).
+•
+Calculation: Prorate the $34,000 cash payment at $150 per week with $6,800 in excludable
+expenses. Method B proration is the advantageous and yields a monthly WC amount of
+$520 per month. Beginning September 1 and continuing until the LS proration ends,
+the total monthly WC will equal the $520 monthly proration of the cash payment plus
+one-twelfth of the annual annuity payment. Divide the annual annuity payment of $5,000
+by twelve and inputs the result as a periodic payment of $416.60 per month. Total
+WC for offset purposes is the $520 LS proration plus the $416.60 annuity or $936.60
+per month. Explain the annuity payments in the Special Instructions field on your
+ICF action.
+3. Option test cannot be determined from the evidence
+If you cannot determine whether the NH had the option:
+•
+Offset as if the NH did not have the option.
+•
+Document all attempts to determine whether the NH had the option. See DI 52145.001 - Obtaining Verification/Proof of WC/PDB Information for acceptable proofs.

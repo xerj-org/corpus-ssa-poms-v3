@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 11005.024 - The Internet Adult Disability Report (i3368)
+Effective Dates: 01/28/2014 - Present | TN 44 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005024 (fetched 2026-10-04)
+
+B. Changes in the i3368
+The i3368 is no longer a standalone internet form. An IU who meets the iClaim screening
+criteria can access the i3368 once he or she completes and submits the iClaim. The
+i3368 automatically generates to the IU in the internet application path once he or
+she submits the iClaim.
+Information common to both the iClaim and i3368 (for example, name and social security
+number) will propagate from the iClaim to the i3368, so that the IU will not need
+to reenter this information. Otherwise, the i3368 generally collects the same information
+as the paper SSA-3368-BK; however, the questions do not necessarily appear in the
+same order.
+EXCEPTION: After the IU enters all the claimant’s medical conditions, the i3368 makes a call
+to the Compassionate Allowances (CAL) selection software housed within the Predictive
+Model. If the CAL selection software recognizes one or more CAL conditions in the
+allegations, the i3368 curtails the collection of work and education information.
+The IU can change the alleged medical conditions at any time prior to submission.
+However, the i3368 makes only one call to the CAL selection software. The i3368 remains
+curtailed even when the updated list of medical conditions no longer includes a CAL
+condition (see DI 81007.030).
+SSA personnel can view sample images of the screens that IUs see at ApPages. The ApPages do not display every possible screen presented to IUs. Additionally,
+the images displayed in ApPages are simply screen shots; they have no functionality.

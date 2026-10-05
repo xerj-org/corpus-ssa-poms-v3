@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 01702.310 - Routing of Claims for United States (U.S.) Benefits Involving Totalization
+Effective Dates: 05/31/2018 - Present | TN 6 (09-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201702310 (fetched 2026-10-04)
+
+B. Determining where to route the application
+1. NH insured based on U.S. Quarters of Coverage (QCs) alone
+When the NH meets insured status requirements based on U.S. QCs alone and Totalization
+does not establish an earlier month of entitlement, Totalization benefits are not
+payable. In this case, develop and route the claim to the PSC of jurisdiction.
+If Totalization establishes an earlier month of entitlement,
+•
+Complete the Modernized Development Worksheet (MDW) screen with a field office (FO)
+code of PC 8 for retirement or survivors benefits or E15 for disability benefits to
+show the date the claim is being forwarded to DIO.
+•
+Show “Totalization” as the ISSUE when completing the MDW screen.
+•
+Add a TICKLE date of the day after you take the action to add the MDW update.
+•
+Enter "ADM" as the category for retirement and survivors benefits; enter "2560" as
+the category for disability claims.
+DIO will obtain the foreign coverage record and establish an earlier month of entitlement,
+if applicable.
+2. NH has fewer than six U.S. QCs
+When the NH has fewer than six U.S. QCs, entitlement to Totalization benefits is not
+possible since the NH must have at least six QCs based on U.S. coverage before foreign
+coverage can be considered (refer to GN 01701.110 for more information on eligibility for U.S. Totalization benefits). If the applicant
+insists on filing, take the appropriate applications and process the insured status
+denial. No further action is necessary.
+3. NH has at least six U.S. QCs and alleges work in a Totalization country
+When the NH has at least six U.S. QCs and alleges work in a country with which the
+U.S. has a Totalization agreement in force (see GN 01701.005B for a full list of Totalization countries), take the following actions:
+•
+Take the appropriate application(s).
+•
+Process an initial insured status denial (See GN 01702.315 for processing instructions.).
+•
+Transfer EDCS to E15 if TOT DIB is involved.
+•
+Complete the MDW screen with an FO code of PC 8 for applications for retirement or
+survivors benefits or E15 for applications for disability benefits to show the date
+the claim was forwarded to DIO. Show “Totalization” as the ISSUE when completing the
+MDW screen.
+4. Routing claims that cannot be electronically routed
+Claims that cannot be electronically routed should be mailed to the Division of International
+Operations (DIO) at the following address:
+Social Security Administration
+Division of International Operations
+P.O. Box 17769
+Baltimore, MD 21235
+Upon receipt of a claim with possible entitlement to a Totalization benefit, DIO will
+request the foreign earnings record. If the NH is insured based on U.S. QCs but Totalization
+could establish an earlier month of entitlement, DIO will delete the language from
+the award notice that says Totalization is not possible because the NH is insured
+without the foreign coverage. When DIO receives the foreign coverage record, it will
+convert the foreign credits to QCs, adjudicate the claim and generate an award or
+disallowance notice, as appropriate.

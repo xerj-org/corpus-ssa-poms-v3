@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 23022.030 - Identifying and Receipting Compassionate Allowances (CAL) and Quick Disability Determinations (QDD) Cases
+Effective Dates: 04/06/2018 - Present | TN 24 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022030 (fetched 2026-10-04)
+
+B. Visual identification of CAL or QDD indicators
+CAL and QDD cases are identified on the EDCS routing form or as an indicator in eView.
+1. EDCS routing form
+CAL and QDD cases will have “QUICK DISABILITY DETERMINATIONS: YES” or
+“COMPASSIONATE ALLOWANCES: YES”, or both in large letters at the top of the page.
+2. CAL and QDD indicator in eView
+The CAL and QDD indicators display as separate header(s) on all eView screens, regardless
+of whether the selection software or PM screened the case or a user manually added
+it. The CAL indicator allows the user to access the EDCS CAL page in order to view
+or manually add, remove, or reinstate a CAL action. The screen will show one of the
+following messages:
+•
+QDD: Y and CAL: Y - The case is currently a QDD and CAL case.
+•
+QDD: N and CAL: N - The case is not currently a QDD or CAL case.
+•
+QDD: N and CAL: Y - The case is currently a CAL only case.
+•
+QDD: Y and CAL: N - The case is currently a QDD only case.
+NOTE:
+The DDS case processing system also displays a CAL or QDD indicator.

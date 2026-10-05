@@ -1,0 +1,133 @@
+SSA Program Operations Manual System (POMS) - SI 02310.015 - Savings Security Instrument Match (SB Diary)
+Effective Dates: 09/18/2026 - Present | TN 76 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310015 (fetched 2026-10-04)
+
+C. Description of alert
+1. Examples of Alerts
+EXAMPLE 1: Shows one person on the SSR owning 4 saving securities.
+SSI/SAVINGS SECURITY INTERFACE ALERT DATE:MMDDYYYY
+HUN:999-00-9999TOTAL REDEMPTION VALUE:$$$$$$.RE21 XFOC:999
+SSN:999-00-9999STC:XXNAME:XXXXXXXXXXXXXX, XXXXXXXXX X.
+DENOM
+SERIAL NO.
+SERIES
+ISSUE
+DATE
+VALUE
+BOOK ACCT
+RETURN
+DATE
+$$$$$$
+9999999999
+XX
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+EXAMPLE 2: Shows two people on the same SSR with saving security ownership.
+SSI/SAVINGS SECURITY INTERFACE ALERT DATE:MMDDYYYY
+HUN:999-00-9999TOTAL REDEMPTION VALUE:$$$$$$.RE21 XFOC:999
+SSN:999-00-9999STC:XXNAME:XXXXXXXXXXXXXX, XXXXXXXXX X.
+DENOM
+SERIAL NO.
+SERIES
+ISSUE
+DATE
+VALUE
+BOOK ACCT
+RETURN
+DATE
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+$$$$$$
+9999999999
+XX
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+DENOM.
+SERIAL NO.
+SERIES
+ISSUE
+DATE
+VALUE
+BOOK ACCT
+RETURN
+DATE
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+$$$$$$
+9999999999
+X
+CCYY/MM
+$$$$$$.
+XXXXXXXXXX
+CCYY/MM
+2. Alert Contents
+a.
+The first line of the alert displays:
+•
+The housed-under number (HUN) for the record;
+•
+Total redemption value;
+•
+A code that indicates whether a CG field entry of RE21 (savings security instruments)
+appears on the SSR. The code is Y for yes or blank for no; and
+•
+The FO code.
+b.
+The second line displays:
+•
+The SSN;
+•
+The State code; and
+•
+The name of the individual.
+c.
+The third line displays:
+•
+Denom - Shows the denomination of the instrument.
+•
+Serial No. - The serial number of the instrument.
+•
+Series - Shows whether the series is E, or EE, or I.
+•
+Issue Date - The year and month the instrument was issued.
+•
+Value - The redemption value of the instrument as of the date in the Return Date field.
+•
+Book Account The account number of a book entry security.
+•
+Return Date - The year and month in which the redemption value was calculated.

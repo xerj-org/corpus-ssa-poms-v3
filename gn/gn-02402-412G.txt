@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - GN 02402.412 - Coding Montserrat Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 194 (06-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402412 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Montserrat
+The customer provides us with a signup form for Montserrat containing the account
+number: “12345678901122334455667788990.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 710000060
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Montserrat.
+•
+Start with the country code of “U” designated for Montserrat; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+a.
+You must obtain the following:
+•
+RTN: 710000060
+•
+Checking
+•
+DAN: U1234567890112233
+b.
+The POS coding reflects this information:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000060 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c.
+The MBR reflects this information:
+•
+RTN- 710000060
+•
+DAN- CU1234567890112233

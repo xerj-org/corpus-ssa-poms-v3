@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - DI 14510.007 - Field Office (FO) Procedures for Section 301 Cases after Office of Disability Operations (ODO) Determination
+Effective Dates: 11/01/2024 - Present | TN 17 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510007 (fetched 2026-10-04)
+
+B. Procedure when ODO approves Section 301 payments
+1. Title II cases
+The Section 301 provision allows continued benefits (including Medicare and Medicaid)
+to the beneficiary and any auxiliaries on the record following medical cessation until
+the beneficiary stops participating in the vocational program, or ODO determines that
+continued participation will not increase the likelihood of permanent removal from
+the disability rolls. ODO annotates the decision in the special message field of the
+MBR. The FO checks eView and EP for the Section 301 decision and updates the 301DEC
+tickle accordingly when the 301DEC tickle on the DCF Continuing Disability Review
+Worksheet (CDRW) matures.
+2. Title XVI cases
+The FO receives Title XVI and concurrent Section 301 payment continuation cases with
+the Section 301 flag from ODO by email (accessing the Detailed Office/Organization
+Resource System (DOORS) to identify the appropriate email address) with the subject
+line “Action: Section 301 VP Diary Update Needed.” The FO takes the following actions:
+•
+Input or update the Vocational Rehabilitation Plan (VP) diary using the diaries (UDIA)
+function in Direct SSR Update. The VP diary prevents the case from updating to an
+N07/N08 payment status;
+•
+Update the 301DEC issue on the DCF and Development Worksheet; and
+•
+Annotate the SSR remarks with “Section 301 payment continuation. Program participation
+expected to end MM/YY.”
+ODO reviews the SSR for the updated VP diary. ODO will follow up by email if the FO
+has not updated the VP diary within 15 days.
+NOTE: If N07/N08 termination occurred, reinstate benefits effective with the N07/N08 month.
+If N07/N08 termination has not occurred, the FO removes the N07/N08 future action.

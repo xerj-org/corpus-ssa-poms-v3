@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - GN 02230.055 - Civil Monetary Penalty (CMP) - Posting
+Effective Dates: 01/12/2023 - Present | TN 26 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230055 (fetched 2026-10-04)
+
+B. CMP Case Posting Scenarios
+Below are some examples of CMP case scenarios and guidance on how to post the CMP.
+Use this chart as a general guide to post CMPs in these scenarios. Not all CMPs fall
+within the listed scenarios because of the variable factors in each case. Therefore,
+you may need to seek additional guidance on the particular CMP case you are handling.
+Follow your office’s established contact procedures when seeking additional guidance.
+1. CMP imposed for a Title II violation
+Payment Status
+Action
+T2 current pay
+T16 current pay
+= post to T2 record and collect from T2
+T2 non-pay
+T16 current pay
+= post to T16 record and collect from T16.
+Credit T2 trust fund with payments
+See GN 02230.055A.8.
+T2 non-pay
+T16 non-pay*
+= post to T2 record
+T2 non-pay
+T16 NIF
+= post to T2 record
+T2 NIF
+T16 current pay
+= post to T16 record and collect from T16.
+Credit T2 trust fund with payments
+See GN 02230.055A.8.
+T2 NIF
+T16 non-pay*
+= post to T16 record
+T2 NIF
+T16 NIF
+= establish a ROAR record and post the CMP
+2. CMP imposed for a Title XVI violation
+Payment Status
+Action
+T16 current pay
+T2 current pay
+= post to T16 record and collect from T16
+T16 non-pay*
+T2 current pay
+= post to T2 record and collect from T2.
+Credit T16 trust fund with payments
+See GN 02230.055A.8.
+T16 non-pay*
+T2 non-pay
+= post to T16 record
+T16 non-pay*
+T2 NIF
+= post to T16 record
+T16 NIF
+T2 current pay
+= post to T2 record and collect from T2.
+Credit T16 trust fund with payments
+See GN 02230.055A.8.
+T16 NIF
+T2 non-pay
+= post to T2 record
+T16 NIF
+T2 NIF
+= establish a ROAR record and post the CMP.
+Credit T16 trust fund with payments
+See GN 02230.055A.8.
+3. CMP imposed for violations in both Title II and Title XVI
+A CMP can be imposed as a result of violations under both Title II and Title XVI.
+If an OIG settlement agreement exists, adhere to the terms in that agreement. However,
+if no settlement agreement exists, follow the method in the chart below:
+Payment Status
+Action
+T2 current pay
+T16 current pay
+= post to either T2 or T16 record
+T2 current pay
+T16 non-pay*
+= post to T2 record and collect from T2
+T2 current pay
+T16 NIF
+= post to T2 record and collect from T2
+T2 non-pay
+T16 current pay
+= post to T16 and collect from T16
+T2 non-pay
+T16 non-pay*
+= post to T2 record
+T2 non-pay
+T16 NIF
+= post to T2 record
+T2 NIF
+T16 current pay
+= post to T16 and collect from T16
+T2 NIF
+T16 non-pay*
+= post to T16
+T2 NIF
+T16 NIF
+= establish ROAR record and post the CMP
+*IMPORTANT: If the T16 record non-pay status is PSY T50/T51, the system will not allow you to
+post the CMP debt. In this instance, you must post the CMP to the T2 record. If no
+T2 record exists, you must establish a ROAR record for the CMP.

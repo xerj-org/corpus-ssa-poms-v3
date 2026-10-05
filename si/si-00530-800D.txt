@@ -1,0 +1,135 @@
+SSA Program Operations Manual System (POMS) - SI 00530.800 - Fugitive Felon Status for Residents of Connecticut, New York, and Vermont—<Italic>Fowlkes</Italic> Court Case
+Effective Dates: 07/18/2007 - Present | TN 12 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530800 (fetched 2026-10-04)
+
+D. Procedure
+1. Determining the State of Residence
+Determine whether the individual resided in CT, NY, or VT on or after 12/06/05. See
+SI 01410.010 - SI 01410.050 for instructions on determining the State of residence.
+2. Processing Initial Claims
+For initial claims filed 12/06/05 or later:
+•
+Do not deny or suspend benefits based solely on evidence of an outstanding felony
+arrest warrant.
+•
+If the claimant states they have an outstanding felony arrest warrant, accept the
+claimant's allegations. Do not develop the warrant information unless the claimant
+is also filing, or has been selected, to be a representative payee (see GN 00502.133).
+•
+See SI 00530.805 for instructions on completing the MSSICS screens, and for documenting
+the Fugitive Felon Automated Processing system (FFAP) and the Fugitive Felon SSA Control
+File (FFSCF).
+•
+Enter "Fowlkes Court Case" in Remarks on the Development Worksheet page in CCE and
+on the SSR Remarks (CRMK) screen.
+•
+Prepare a manual award notice that includes language that explains the Fowlkes AR.
+3. Post-eligibility Cases
+For post-eligibility reports of an unsatisfied felony arrest warrant:
+•
+For first or third party reports, take no action for benefit payment purposes. Post
+remarks to the SSR that an outstanding felony warrant was reported but no development
+is required.
+•
+For first party reports, take action for representative payee purposes. Query RPS
+to determine if the person is serving as a representative payee. We will not select
+self-reporting individuals to serve as representative payees and we will disqualify
+them from continuing to serve as representative payees (see GN 00504.102). For third party reports, confirm fugitive felon status before disqualifying a representative
+payee or payee applicant.
+4. Handling Requests for Readjudication
+a. Claimant Requests a New Determination
+If a claimant requests a new determination or decision based on application of the
+Fowlkes AR:
+•
+Obtain a statement from the claimant that mentions the Fowlkes AR or the circuit court decision and explains how either could change the prior fugitive
+felon determination or decision. See GN 02613.830F. for an example of a statement that contains all of the information likely to be needed
+from a person to determine if relief under the Fowlkes AR may be granted.
+•
+Check the living arrangement screens in MSSICS to confirm that the person was residing
+in CT, NY, or VT when SSA made the prior determination or decision on fugitive felon
+status (i.e., the date of the notice). For non-MSSICS cases, review the State and
+county code in the SSR CMPH for the applicable time period. If the person alleges
+residing at a different address than what is shown on the Residence Address (LRES)
+screen or SSR CMPH for the period in question, develop evidence about residence for
+that period per SI 01410.010 through SI 01410.050.
+•
+Use the OI-5D warrant information on FFAP or FFSCF to confirm that the warrant is
+for a felony offense (as opposed to a probation or parole violation).
+•
+Determine where the case was last adjudicated (FO level, PSC, or OHA), if no current
+claim or appeal is pending.
+•
+Decide whether to grant the request, if a FO was the point of last adjudication. Cases
+automatically suspended by FFAP are considered to have been adjudicated at the FO
+level. If a FO was not the point of last adjudication, see SI 00530.800D.4.e. and SI 00530.800D.4.f.
+b. Allow a Request for Readjudication
+Allow a request for readjudication if all of the following conditions are met:
+•
+The claimant was a resident of CT, NY, or VT when the prior fugitive felon determination
+was made; and
+•
+The suspension, denial, or reconsideration notice was dated 12/06/05 or later; and
+•
+The suspension or denial was based solely on the existence of an outstanding felony
+warrant; and
+•
+The Fowlkes AR was not previously applied to the case.
+c. Fully Favorable Readjudication
+If we are granting fully favorable relief to a person who has resided within the Second
+Circuit for the entire relevant period:
+•
+Fully develop and adjudicate the claim for the entire period covered by the previous
+determination up through the present (e.g., reinstate effective with the first month
+of N25 and continuing).
+•
+Reopen and revise the prior determination (suspension, denial, or reconsideration)
+without regard to the normal time limits for reopening and administrative finality.
+•
+Follow the procedures in SI 02301.205 and SI 02301.210 to reestablish eligibility after a suspension or termination, but do not conduct a redetermination.
+•
+See SI 00530.805 for instructions on systems inputs.
+•
+If the favorable determination results from a response to the one-time Fowlkes AR notice, code CATS per GN 02613.830C.4.
+•
+Prepare a manual notice explaining that the request for readjudication has been allowed.
+Language for the Fowlkes Reinstatement Notice (T2/T16) is available on DOCS (Distributed Online Correspondence
+System) under General.
+d. Partially Favorable Readjudication
+If we are granting partially favorable relief to a person who:
+•
+moved out of the Second Circuit since 12/06/05, and
+•
+has a felony warrant that has not been satisfied, and
+•
+good cause has not been established for failure to satisfy the warrant, then
+Follow the instructions for granting favorable relief, but suspend benefits effective
+with the month the person moved out of the Second Circuit.
+e. Case Last Adjudicated at Location Other Than a FO—No Subsequent Application or Appeal
+is Pending
+If the case was last adjudicated at a location other than a FO and no subsequent application
+or appeal is pending:
+•
+Complete the transmittal flag (see exhibit in SI 00530.800G.).
+•
+Forward the folder to the location/component where the claim was last adjudicated.
+The adjudicator at the location where the folder is forwarded will then grant the
+request for readjudication if application of the Fowlkes AR could change the determination or decision.
+f. Case Last Adjudicated at Location Other Than a FO—Subsequent Application or Appeal
+is Pending
+If the case was last adjudicated at a location other than a FO and a subsequent application
+or appeal is pending:
+Send the prior folder and new material to the office where the claim is pending.
+g. Request for Readjudication is Denied
+If the request for readjudication is denied, prepare a manual notice (with no appeal
+rights) explaining that the request is being denied. Language for the Fowlkes Readjudication Denial Notice (T2/T16) is available on DOCS under General.
+If the unfavorable determination results from a response to the one-time Fowlkes AR notice, code CATS per GN 02613.830C.4.
+h. Fowlkes AR Notice is Returned as Undeliverable
+If the one-time Fowlkes AR notice (SI 00530.800H.) is returned to the FO as undeliverable, check the SSR for a new address:
+•
+If there is a new address on the SSR, remail the notice, as is, to the new address
+(GN 02605.060C.3.b.)
+•
+If the address on the SSR is the same as on the notice, follow the instructions in
+SI 02301.240C.
+•
+Follow the instructions in GN 02613.830C.4. for CATS coding.

@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 81007.070 - Internet Query Facility
+Effective Dates: 01/28/2014 - Present | TN 1 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007070 (fetched 2026-10-04)
+
+B. IQF uses
+Use the IQF to do the following:
+•
+Determine if a user established an IDR partial;
+•
+Determine whether the user submitted an IDR;
+•
+View data in IDR partials;
+•
+Print the IDR; and
+•
+Delete an IDR from the database.
+NOTE: Do not query IDRs as a matter of routine. Generally, a query is not necessary if
+the IDRD propagates to EDCS. Query an IDR partial to facilitate an interview or to
+determine the protective filing date for an application.

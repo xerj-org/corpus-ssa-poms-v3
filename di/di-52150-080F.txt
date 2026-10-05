@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+F. Redetermination ACE yields an increase
+The following indicate that a triennial redetermination of the ACE yields an increase
+in benefits payable after offset for any beneficiary on the account:
+•
+ICF (#31/#32) displays the redet ACE on the ACE Data (WCAC) screen. (For a screen
+display and explanation of data field descriptions, see MSOM ICFT2 032.003.)
+•
+ICF (#28 - selection #3 for redets) displays the redet ACE on the IC2J screen. (For
+a screen display and explanation of data field descriptions, see MSOM ICFT2 028.009.)
+•
+Form SSA-3643 - amount in line G (Total Benefits Payable after Offset) exceeds amount
+in line A (Total Benefits Payable after Offset in the Month of Redetermination but
+Without Considering the Current Redetermination).
+If the redet is successfully processed via ICF function 32, a notice is automatically
+generated. If the redet is processed via MACADE, send proper notification to the beneficiary(s)
+(MADCAP paragraph J31).
+NOTE: If the redet applies, use the redet ACE in subsequent WC/PDB computations. Do not use Form SSA-2455 to manually compute offset if a redet previously applied - use
+Form SSA-2454 (Offset Worksheet Triennial Redetermination Previously Applied).

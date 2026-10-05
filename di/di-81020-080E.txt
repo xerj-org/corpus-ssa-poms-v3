@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 81020.080 - Certified Electronic Folder (CEF) Alerts
+Effective Dates: 09/21/2021 - Present | TN 25 (09-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020080 (fetched 2026-10-04)
+
+E. Electronic Assistance Requests (AR)
+Electronic ARs allow one component to request case processing assistance from another
+component (see Electronic Assistance Requests (AR) - DI 81020.100). The DDS receives the following alerts related to electronic AR when:
+•
+An electronic AR is sent to an office that does not have the software needed to receive
+electronic AR transactions, the requesting office receives an alert informing them
+that the receiving office is unable to accept or process the request.
+•
+An electronic AR is rejected by the receiving office, the rejection information is
+sent to the requesting office as an alert.
+•
+An electronic AR is completed by another office and uploaded to the CEF.
+NOTE: The electronic AR functionality varies among the State DDS offices and depends on
+the version and type of case processing system the DDS is using.

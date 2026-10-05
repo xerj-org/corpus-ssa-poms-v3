@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - SI 02310.007 - Processing Alerts from Computer Matches
+Effective Dates: 06/23/2008 - Present | TN 43 (06-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310007 (fetched 2026-10-04)
+
+C. Exhibit for computer matching chart
+The following chart provides adjudicators with a summary of computer matches.
+MATCH
+CMPPA?
+DIARY
+DATA SOURCE
+POLICY
+DELETE
+IRS
+YES
+5B
+PE ODS
+SI 02310.045
+MS/RZ *
+BPD
+YES
+SB
+PAPER**
+SI 02310.015
+SB
+CMS
+YES
+D8
+PAPER**
+SI 02310.064
+D8
+MEF
+NO
+K6, K7,
+J3, J5
+DEQY
+SI 02310.055
+K6, K7,
+J3, J5
+Pension
+YES
+5H
+PE ODS
+SI 02310.052
+5H
+RRB
+YES
+RRB
+SI 02310.020
+VA
+YES
+VA
+SI 02310.020
+UC
+YES
+U5
+PAPER**
+SI 02310.065
+U5
+OPM
+YES
+OPM
+SI 02310.020
+Wage
+YES
+S2 , S7
+PAPER**
+SI 02310.062
+S2 , S7
+DHS
+YES
+3D
+PAPER**
+SI 02310.018
+3D
+*The 5B diary deletion must include the clearance of the limited issue and clearance
+of the 5B diary by MS input at the same time. All limited issue cases are cleared
+by transmitting a disposition code in the RZ field per SM 01501.025D.1.c.
+**D8, S2 S7, SB, U5, and 3D alerts are sent to FOs via wire transmission.

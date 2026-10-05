@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.314 - Coding Bahama Islands Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 199 (09-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402314 (fetched 2026-10-04)
+
+G. Example of coding Bahama Islands direct deposit
+The customer provides us with a signup form for Bahama Islands containing the account
+number: “1234567890112233445566.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 700000164
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “D” designated for Bahama Islands; and
+•
+Code 12 digits of the account number “123456789011”
+3. Obtain the following information
+•
+RTN: 700000164
+•
+Checking
+•
+DAN: D123456789011
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000164 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: D123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700000164
+•
+DAN- CD123456789011

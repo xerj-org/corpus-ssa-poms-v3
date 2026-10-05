@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 11015.020 - Crediting Months of SSI/SSP toward the Disability Waiting Period and Medicare Qualifying Period for Disabled Widow(er)’s Benefits (DWB)
+Effective Dates: 09/05/2025 - Present | TN 36 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015020 (fetched 2026-10-04)
+
+B. Applying the credit months
+Count all months in the SSI/SSP period, beginning with the first month for which the
+individual received any payment and continuing through all succeeding months up to the DWB MOE (or deemed MOE for Medicare
+purposes only).
+You may credit all months in the SSI/SSP period, whether or not the individual was
+in pay status. This includes months in which the individual:
+•
+was in SSI/SSP suspension status;
+•
+was in termination status; or
+•
+did not meet the nonmedical requirements for DWB entitlement during the period of
+SSI/SSP.
+1. Review the Supplemental Security Record (SSR)
+Identify the first month of payment in the computation history (CMPH) field of the
+SSR. For crediting purposes, it is the first instance when:
+•
+the payment status (PS) indicator is C01 or M01; and
+•
+an amount other than zero is displayed in the federal or state amount due (FAM/SAM)
+column.
+2. Apply the SSI/SSP credit to determine the MOE to DWB
+Due to the prior SSI/SSP eligibility, the waiting period effectively begins with the
+first C01 month displayed on the SSR. Begin crediting the waiting period by counting
+the first month of SSI/SSP eligibility and all subsequent months until you reach the
+requisite number of months (5 for DWB, 24 for Medicare). Once SSI/SSP months are credited,
+the earliest possible MOE to Medicare is the beneficiary’s month of entitlement to
+disability benefits.
+If the onset is August 1, 1990 or earlier, or if no waiting period is required, see
+DI 11015.020B.3. in this section.
+Reference:
+•
+DI 10105.070 Waiting Period for Disability Insurance Benefits (DIB)
+NOTE: Do not establish the MOE under this provision before other requirements for DWB
+are also met, e.g., DWB attainment of age 50, death of the wage earner, 12-month retroactivity
+of application.
+3. Determine the Medicare effective date
+Determine the effective date for Medicare coverage by crediting the SSI/SSP period
+toward the 24-month qualifying period for months after December 1990. The earliest
+possible MOE to Medicare is the beneficiary’s month of entitlement to disability benefits.
+NOTE: When retroactive SMI is involved, follow existing equitable relief procedures in
+Enrollment Not Processed Timely HI 00805.195, and in Granting Equitable Relief HI 00830.001.
+References:
+•
+HI 00801.154 SSI/SSP Credit for Disabled Widow(er)s
+•
+HI 00801.155 Deemed Entitlement to DWB for Medicare
+•
+SM 03040.030 Equitable Relief on an Initial Award Processed by MCS
+4. Record the MOE and waiting period data
+•
+Record the information used in the MOE and waiting period determination on a report
+of contact (RPOC) in the Modernized Claims System (MCS).
+•
+Input the Medicare entitlement information on the Health Insurance-Supp Medical Insurance
+(HICL) screen in MCS.
+See Details:
+MSOM MCS 009.007 Health Insurance-Supp Medical Insurance (HICL)

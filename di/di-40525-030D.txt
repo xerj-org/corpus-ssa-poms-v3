@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 40525.030 - Overview of the CDR Selection and Release Process
+Effective Dates: 10/04/2005 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525030 (fetched 2026-10-04)
+
+D. Process – Disability Control File (DCF)
+The following considerations apply to the DCF:
+1.
+The DCF controls medical direct release reviews initiated by Central Office (CO) and CDR Mailer(s). (See (Modernized Systems Operations Manual) MSOM CDR 001.001 for more detailed procedures on the DCF.)
+2.
+Effective August 30, 1999, Title II direct release CDRs and CDR Mailers were included
+in the Continuing Disability Review Control File (CDRCF), and in the Office of Information
+Management's (OIM) workload and management information (WMI) screens within SSA's
+mainframe. Subsequently, the CDRCF was incorporated into the Disability Control File
+(DCF).
+3.
+Title II CDRs are controlled under the client's own social security number (COSSN)
+which equates to the claimant account number (CAN) for PRIMARY or beneficiaries' own
+account number (BOAN) for Auxiliaries from the MBR.
+4.
+In title II cases involving primary beneficiaries, the Primary Beneficiary/Number
+Holder's COSSN and claim Social Security Number (CLMSSN) will be the same.
+5.
+To access a Title II CDR, a component enters the CAN and appropriate beneficiary identification
+code (BIC).
+6.
+The COSSN, as well as the active CAN and BIC, will be propagated onto the DCF Entitlement
+(ECDR) screen.
+7.
+Title II Medical CDRs will be reflected as TII or TII/TXVI Concurrent on the ECDR
+screen of the DCF.
+8.
+The DCF on-screen legend will read either "TII” or "TII/TXVI," depending on the case
+situation.

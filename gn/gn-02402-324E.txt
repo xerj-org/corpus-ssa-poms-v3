@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02402.324 - Coding Haiti Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402324 (fetched 2026-10-04)
+
+E. Description of Haiti IDD bank data
+The data to code IDD for Haiti comes from banks determined by the FRBKC. The bank
+data on the MBR reflects up to 21 characters including:
+•
+The country code of "L",
+•
+A bank code of 9 digits (a zero, a 3-digit bank code and a 5-digit branch code), and
+•
+An account number of up to 12 characters.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must
+be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process
+to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

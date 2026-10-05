@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.339 - Coding Greek Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402339 (fetched 2026-10-04)
+
+E. Description of Greek IDD bank data
+The data for coding IDD for Greece will come from the International Bank Account Number
+(IBAN) provided to the beneficiary from his or her FI. The IBAN will be 27 characters.
+However, the IDD bank data reflected on the MBR will consist of 26 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

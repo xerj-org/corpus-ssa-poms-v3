@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - SI 01210.200 - Special Blind Income Provision - Comparing Eligibility and Payment Amount Under Federal and State Plan Rules
+Effective Dates: 01/06/1999 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210200 (fetched 2026-10-04)
+
+D. Process
+WHEN...
+THEN...
+the field office (FO) inputs gross income to the SSR
+the system applies SSI exclusions to calculate CI/FR.
+the FO also inputs type K income to the SSR
+the system reads the amount as BCI (not as unearned income), and compares it with
+CI/FR.
+the system compares BCI with CI/FR
+the system treats the lower amount as CI and computes eligibility and payment accordingly.

@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - DI 81010.085 - Transferring Cases in the Electronic Disability Collect System (EDCS)
+Effective Dates: 11/22/2023 - Present | TN 81 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010085 (fetched 2026-10-04)
+
+D. Establishing paper folder indicators (PFIs) on the EDCS transfer screen
+There are two sets of check boxes that appear on the EDCS Transfer Screen under the
+section labeled “Transfer disability folder to DDS/ODAR.” They are “Current Paper
+Folder Indicator” and “Prior Paper Folder Indicator.” To complete the PFIs, select
+the box next to “Transfer disability folder to DDS/ODAR” and select the box next to
+the appropriate indicator.
+1. Current filing
+The current filing check box asks, “What type of disability folder has been created?”
+This indicates whether a paper MDF has been created for the current filing. The available responses are:
+a. “A certified electronic folder (CEF)”
+Choose this option if all the claims for the case have been established in EDCS, and
+no other EDCS exclusion exists (e.g., initial disability claim and a Continuing Disability
+Review (CDR)), and the official folder for the case is a CEF.
+b. “An official paper folder”
+Choose this option if there is a CEF exclusion or a system limitation requiring creation
+of a paper folder. See Certified Electronic Folder (CEF) Exclusions and Limitations
+DI 81010.030.
+c. “Not yet answered”
+This option pre-fills if the case has not yet been transferred. You cannot transfer
+the case without choosing one of the options above.
+2. Prior filing
+The prior filing check box asks, “Are you sending an official paper folder (MDF) from
+a prior filing? This indicates whether a paper folder for a prior filing is currently available and is being sent to DDS/ODAR. The available responses are:
+a. “Yes, sending a paper folder (MDF)”
+Choose this option if the FO has the prior paper folder and is sending it to the DDS/ODAR.
+b. “No, not sending a paper folder”
+Choose this option if a prior paper folder does not exist or if a prior paper folder
+exists and is not available. If a prior paper folder becomes available at a later
+time, the receiving component updates the PFI to YES.
+c. “Not yet answered”
+This option pre-fills if the case has not yet been transferred. You cannot transfer
+the case without choosing one of the previous options.

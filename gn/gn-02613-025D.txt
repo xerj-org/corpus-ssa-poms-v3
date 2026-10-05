@@ -1,0 +1,83 @@
+SSA Program Operations Manual System (POMS) - GN 02613.025 - Good Cause Provisions
+Effective Dates: 08/03/2022 - Present | TN 33 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613025 (fetched 2026-10-04)
+
+D. Exhibit - good cause information in SSA records and on the fugitive felon SSA control
+file (FFSCF)
+Use the following chart to find Good Cause information in SSA records (MBR) and on
+the FFSCF data base:
+Good Cause Criteria
+Available Information
+1. Was the offense non- violent and not drug related?
+Probation and Parole Violators:
+Was the probation or parole violation charge non-violent and not drug related?
+FFWQ Screen
+Offense Code: 4-digit code. (See GN 02613.900B.2. for information on offense codes.)
+Determine if the 4-digit offense code is specifically listed in GN 02613.900B.2. as either violent, drug related or non-violent or not drug related.
+If the 4-digit offense code is not specifically listed in GN 02613.900B.2.b., then check the chart in GN 02613.900B.2.a. to determine if the first 2-digits of the 4–digit offense code are listed as one
+of the categories on the chart in GN 02613.900B.2.a. If
+the first 2-digits of the 4-digit offense code are shown on the chart, then assume the crime is violent or drug related.
+If the 4-digit offense code is not specifically listed in GN 02613.900B.2.b. as a violent or drug related or nonviolent and not drug related crime and the first
+2-digits of the 4-digit offense code are not found in the chart in GN 02613.900B.2.a., then SSA will not assume the crime is nonviolent or not drug related.
+If information is still not available to make a decision on the offense code, then continue processing per GN 02613.175B.1.
+PROBATION AND PAROLE VIOLATORS
+The 4-digit offense code for probation and parole violators will often reflects 5011
+or 5012. This coding identifies the cases as probation or parole violations but does
+not provide any information on either the original charge (underlying charge) or the
+violation unless this information has been provided by OIG.
+NOTE: For probation and parole violators to establish good cause, both the original offense
+and the violation on the current warrant must be nonviolent and not drug related.
+2. Probation and Parole Violators only - Was the underlying criminal offense before probation or parole was granted, non-
+violent and not drug related?
+FFWQ Screen
+Offense Code: 4-digit code. (See GN 02613.900B.2. for the offense code information.)
+NOTE: The offense code reflected on the FFWQ screen will generally only pertain to the
+probation or parole violation crime, not the underlying criminal charges.
+MBR:
+--History field shows period of LAF S7 and RFST of PRISON, MENTAL, or PREDTR
+NOTE: The indication of LAF S7 and RFST of PRISON, MENTAL, OR PREDTR only acts as a clue
+that a PUPS record should exist for the beneficiary.
+PUPS
+--PUPS records may show a previously corresponding period of confinement for the underlying
+criminal offense that the probation or parole violator was originally charged on.
+If the underlying criminal charges are not indicated on the FFWQ or on other SSA records.
+NOTE: Probation or parole violators only have to prove that their underlying criminal offense
+was nonviolent or not drug related, not that the crime was a felony or a misdemeanor.
+3. Was the beneficiary convicted of any subsequent criminal charges for crimes that
+carry a penalty of death or imprisonment for more than 1 year?
+FFWQ
+--Date of Warrant: MM/DD/YYYY (Date LEA issued warrant for the beneficiary’s arrest)
+MBR
+Period of S7 prisoner suspension on MBR. Suspension period starts after date of warrant.
+PUPS
+PUPS record indicates a period of confinement. The confinement date on the PUPS record
+is after the warrant date. A conviction date is also on PUPS. The conviction date
+is later than the date of the warrant. The conviction on the PUPS record must indicate
+the crime was a “felony” type crime. If there is not indication as to the type of
+crime on the PUPS record, the beneficiary must provide proof of the subsequent type
+of crime they were convicted on.
+4. Will the law enforcement agency (LEA) that issued the violation warrant extradite
+the beneficiary or is the LEA willing to act on the warrant?
+FFSQ
+--LEA Action Result: code is LEA WILL NOT EXTRADITE/ACT ON WARRANT
+5. Was the unsatisfied warrant issued 10 or more years prior to the SSA Run Date on
+the OI-5D?
+FFWQ
+Date of Warrant: MM/DD/YYYY (Date LEA issued warrant for the beneficiary’s arrest)
+SSA Run Date: MM/DD/YYYY
+6. Does the beneficiary have a mental impairment that would prevent them from resolving
+the unsatisfied warrant?
+MBR
+DIG Code (XXXX) or SDIB code (XXXX) on DIB data line on the MBR has one of the codes
+listed in GN 02613.910
+7. Does the beneficiary have a rep payee?
+MBR
+RPAYEE Data line shows representative payee.
+NOTE: The beneficiary is responsible for providing the evidence or information to make
+a good cause determination. If after evaluating the above factors in conjunction with
+all information or evidence found in SSA records (e.g., MBR, PUPS or NUMIDENT, etc.)
+and the warrant information on the FFSCF and the good cause evidence or information
+that the beneficiary provided to SSA, the SSA technician cannot establish that the
+beneficiary’s records or evidence is sufficient or reliable to satisfy the good cause
+requirements, good cause will be denied. See GN 02613.030B and GN 02613.025B.6.b. for additional information regarding the good cause statement and good cause denial
+respectively.

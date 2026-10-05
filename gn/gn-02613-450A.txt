@@ -1,0 +1,168 @@
+SSA Program Operations Manual System (POMS) - GN 02613.450 - Protest of Suspension and Deferral of Overpayment Recovery
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613450 (fetched 2026-10-04)
+
+A. Procedure FO or PSC processing protests to fugitive felon or probation or parole violation
+suspension
+With the addition of the FFSCF to Title II fugitive felon processing, the advance
+notice of proposed suspension will be automated. The suspension or closed period of
+suspension/overpayment notice to the beneficiary will also be automated in most instances.
+SSA will generally not have contact with the beneficiary until they are notified of
+their proposed suspension of future benefits or they are notified of the suspension
+of Title II benefits because of their outstanding felony warrant or probation or parole
+violation warrant.
+When the beneficiary contacts SSA after being notified regarding suspension of their
+Title II benefits for the fugitive felon or probation or parole violation suspension
+provisions, the beneficiary will usually:
+•
+request information on how to satisfy their warrant (see GN
+02613.450A.1. for information on deferral of overpayment recovery);
+•
+request good cause for not suspending their Title II benefits (see GN
+02613.450A.2.); (See also GN
+02613.030B for additional instructions regarding the good cause statement that must be obtained
+if good cause is being requested by the beneficiary.)
+•
+protest the fact that they are a fugitive felon or probation or parole violator (see
+GN
+02613.450A.2.);
+•
+report that they satisfied their warrant (see GN
+02613.450A.2.);
+•
+report that they are not the individual identified on the warrant or that they never
+had a warrant (see GN
+02613.450A.2.).
+The procedures contained in this section provide information on processing protests
+received by SSA offices for fugitive felon or probation or parole violator suspensions.
+1. Deferred overpayment recovery
+After passage of the original fugitive felon provisions in 1996, certain cases came
+to the attention of Congress leading to a realization that benefit suspensions may
+not be appropriate in all cases. Understanding that extenuating circumstances may
+impact some beneficiaries' ability to resolve outstanding warrants, Congress incorporated
+good cause exceptions to benefit suspension as part of SSPA. Under the good cause
+provision, if good cause is found, SSA is required to resume benefits, if suspended,
+and repay any previously withheld benefit or overpayment recovered. Good cause must
+be found if a court finds the individual not guilty, dismisses the charges, or issues
+any similar exonerating order. Any of these could occur months after a person is suspended.
+If a person is suspended retroactively for a period during which benefits were paid,
+the person would be overpaid and we would attempt to recover the overpayment. Later,
+if the person is acquitted, etc., we would have to repay any recovered overpayment.
+To prevent unnecessary overpayment development, SSA will defer the recovery of the
+overpayment in certain circumstances (i.e., see GN
+02613.450C for deferred overpayment situations and processing) until we learn of the disposition
+of the charges or outcome of a trial.
+2. General processing of protests to suspension of Title II benefits
+SSA receives information that the beneficiary has an unsatisfied warrant and good
+cause has not established based on SSA records:
+Steps
+Processing Protest to Suspension of Title II Benefits
+1
+SSA sends advance notice and diaries 35 days for due process, if the case comes through
+the computer match and the beneficiary is in current payment status and the warrant
+is not satisfied. Advance notice of proposed suspension will be automatically generated
+and sent to the beneficiary. Go to step 2.
+If the report is received at another SSA office and from a third party other than
+through the computer match, the beneficiary gets 15 days due process on the advance
+notice of proposed suspension if the beneficiary is in current payment status and
+the warrant is not satisfied. Go to step 2.
+If the beneficiary reports the warrant information directly to SSA themselves, advance
+notice is not given, suspension applies. (See GN
+02613.150B.3. for processing information).
+(See GN
+02613.940A for information on due process periods based on who provides SSA with the report).
+Go to Step 2.
+OR
+If the beneficiary is in nonpayment status (i.e., suspension, deferred or terminated)
+or the beneficiarys warrant is already satisfied, they received an initial determination
+closed period of suspension/overpayment notice, go to Step 3.
+2
+Beneficiary contacts SSA within 35 days or a 15 day due process period to protest
+the suspension because of the advance notice of proposed suspension.
+a. Annotate the protest to stop suspension of benefits
+Determine the WARRANT INFORMATION SOURCE on the warrant. See the FFWQ query screen
+to determine the WARRANT INFORMATION SOURCE. This factor will determine how the protest
+must be annotated to the FFSCF and how the protest will be coded.
+If THE WARRANT INFORMATION SOURCE is LEA Batch File, or the OIG Initiated or FFAP record.
+then post the protest to the benefit suspension via the FFDG screen on the FFSCF to stop
+suspension from occurring.
+Or
+If the warrant came from Third Party Report then post the DATE of the protest to the benefit suspension via the FFDG screen on the
+FFSCF to stop the suspension from occurring. Do not code the entry of allowed or denied
+until the evidence has been submitted and evaluated per GN
+02613.450B.
+b. Determine reason for the beneficiary protest
+If the beneficiary is in current payment status and warrant is not satisfied during
+the protest period and the beneficiary:
+•
+provides SSA with evidence of their satisfied warrant, then treat as a deferred overpayment
+case and process per (GN
+02613.450C).
+•
+provides SSA with good cause statement per (GN
+02613.030B) and also provides SSA with evidence to establish good cause, then evaluate the evidence
+per (GN
+02613.025), if good cause is established then process per (GN
+02613.025C.6.a.).
+•
+states that they can provide good cause and does not have evidence at their point
+of contact with SSA during the due process period (see GN
+02613.030B for additional information regarding the good cause statement and subsequent 90 day
+period for providing good cause evidence), allow the beneficiary to continue receiving
+benefits for additional 90 days. Process per (GN
+02613.450B) step 3 and 4.
+•
+states that they do not have an outstanding warrant and that SSA has identified the
+wrong person (i.e., EVS code of A case), then process per (GN
+02613.150C.1).
+•
+states that they have satisfied their warrant and provides proof the warrant was satisfied,
+process per (GN
+02613.500).
+•
+protesting the fact that they meet the suspension criteria as a fugitive felon or
+probation or parole violator, then process per (GN
+02613.450B.1).
+NOTE: If beneficiary protests after suspension already occurs and the beneficiary did not
+protest during the due process period. SSA will not resume benefits until the warrant
+is satisfied or the beneficiary provides SSA with good cause for not satisfying their
+outstanding warrant or the beneficiary provides evidence that the warrant was satisfied.
+The beneficiary will be given 90 days from the date of contact to establish good cause
+(we will not reinstate benefits while we are awaiting good cause).
+3
+If beneficiary is in nonpayment status, (e.g., LAF D, S, or T) or the warrant is satisfied
+a. Process for Suspending Benefits
+No advance notice is sent because SSA is not going to stop the current benefit. The
+FFSCF will send a finder to T2 to post the RFST of FUGFEL and the S9 closed fugitive
+felon or probation or parole violator suspension period to the history field to the
+MBR. A closed period of suspension/overpayment notice or a suspension and overpayment
+notice will also automatically be sent to the beneficiary.
+Protest of the suspension must occur within 60 days after receipt of closed period
+suspension and overpayment letter and protest will be sent to Recon
+NOTE: Deferred overpayment recovery is not considered and will not be allowed.
+b. Determine the reason for the beneficiary protest
+•
+provides SSA with good cause statement per (GN
+02613.030B) and also provides SSA with evidence of good cause, then evaluate the evidence per
+(GN
+02613.025), if good cause is established then process per (GN
+02613.025C.6.a.).
+•
+states that they can provide good cause and does not have evidence at their point
+of contact with SSA during the due process period (See GN
+02613.030B for additional information regarding the good cause statement and subsequent 90 day
+period for providing good cause), allow the beneficiary to continue receiving benefits
+for additional 90 days. Process per (GN
+02613.450B) step 3 and 4.
+•
+states that they do not have an outstanding warrant and that SSA has identified the
+wrong person (i.e., EVS code of A case), then process per (GN
+02613.150C.1.).
+•
+states that they have satisfied their warrant and provides proof the warrant was satisfied,
+process per (GN
+02613.500).
+•
+protesting the fact that they meet the suspension criteria as a fugitive felon or
+probation or parole violator, then process per (GN
+02613.450D).

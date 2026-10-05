@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02402.230 - Death of an International Direct Deposit (IDD) Beneficiary
+Effective Dates: 06/07/2022 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402230 (fetched 2026-10-04)
+
+A. Background for acting on death information quickly
+NOTE:
+If the deceased beneficiary lives outside the U.S. but has a domestic account and
+not IDD, technicians must follow the procedure outlined in GN 02408.410.B.
+Due to systems limitations, death terminations are not automatically applied if the
+beneficiary is residing outside the United States and there is a non-terminated beneficiary
+on the record.  This is true whether the deceased beneficiary is the number holder
+or a dependent or survivor and:
+•
+a payment returned for reason of death (whether issued by check or direct deposit),
+or
+•
+a death input through Death Information processing System (DIPS) screens other than
+manual adjustment credit and award processes (MADCAP).
+Payments continue but these actions cause an alert to the Office of Earnings and International
+Operations (OEIO).
+OEIO
+will
+process the death termination through DIPS to terminate the record and stop the
+payments.
+Example 1
+Juan Garcia who lives in Spain dies. Even though the Federal Benefit Unit (FBU) makes
+a death input, payments will continue to be issued to Juan, and the widow will continue
+to receive payments only as a “B,” until OEIO:
+•
+Process the death termination through DIPS to terminate the record ,
+•
+manually create a D record in ITS.gov.
+•
+pay the lump sum death benefit (LSDP). IMPORTANT: If the spouse is receiving benefits through IDD then its.gov will need to be updated
+to reflect the conversion from BIC B to BIC D.
+Example 2
+Otto Miller and his wife Anna, living in Germany, are receiving benefits on his account.
+Anna dies, and the FBU makes a death input. OEIO will process the death termination
+through DIPS.

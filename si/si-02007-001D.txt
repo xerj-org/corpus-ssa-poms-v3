@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - SI 02007.001 - Interim Benefits in Cases of Delayed Final Decisions - SSI
+Effective Dates: 04/23/2026 - Present | TN 15 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502007001 (fetched 2026-10-04)
+
+D. Procedure for stopping interim benefits
+Step
+Action
+1
+When a final disability/blindness decision is made, the AC will notify the PC and/or the servicing FO indicating the final decision
+using the information sheet entitled Potential Interim Benefit Case.
+•
+If there were potential Title II interim benefits, the AC will send the information
+sheet to the PC.
+•
+If there were potential SSI interim benefits, the AC will send the information sheet
+to the servicing FO;
+•
+If there were potential Title II and SSI interim benefits (concurrent cases), the
+AC will send the information sheet to the PC and FO.
+2
+If the final decision is favorable, the FO pays the person all additional benefits they are due from the month of application
+forward.
+•
+If IAR applies, send the first check for the past-due benefits to the state or local
+subdivision by adding the GR field information to the SSR before changing the force
+due amounts. For MSSICS cases, add the GR field information via the Interim Assistance
+Reimbursement & Excluded Statistics page. For non-MSSICS cases, add the GR field and
+SOST field information via PR9; see SM 01005.623.
+•
+Issue underpayments to the person:
+–
+Use M02 to issue underpayments by changing any due amount for months in the retroactive
+period. Follow the rules for issuance of underpayments by installment; see SI 02101.020. Once all underpayments are issued on the M02 record, terminate this record and establish
+a new start date record. See MS 04407.001.; OR
+–
+Terminate the M02 record, and establish a new start date record. See MSOM MSSICS 007.001.
+Then issue the underpayments by one-time payments (OTPs). Post the OTPs to the terminated
+record, not the new record. The instructions for posting an OTP to a terminated record
+are in SM 01901.130.
+NOTE: This method may be preferable if the underpayment must be paid in installments, and
+you do not want to keep the M02 record active for a long period.
+–
+Send an SSA-L8025-U2, SSI Notice of Award; see NL 00802.010 and NL 00802.015. Explain the recovery of interim benefits from the retroactive benefits that are
+due; see NL 00804.115 (choose paragraph 1480 or 1484.)
+If the final decision on the interim benefit case is unfavorable the FO:
+–
+Stops the interim benefit payments after the 60-day appeals period ends; and
+–
+Sends no notice, because the AC or ALJ notice explains why the claimant is not eligible for
+SSI and provides any applicable appeal rights.

@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 13010.012 - Protection from Medical Review Based on Work Activity
+Effective Dates: 06/29/2017 - Present | TN 71 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010012 (fetched 2026-10-04)
+
+G. Procedure - beneficiary protests the start of a medical CDR
+The CDR come-in letter will inform the beneficiary that we may not conduct the medical
+review if:
+•
+they have received Social Security disability benefits for at least 24 months, and
+the reason for the review is because of their work activity, or
+•
+if they were using a ticket under the Ticket to Work program
+The letter will offer an opportunity to protest the start of the review if they believe
+that either condition applies. If the beneficiary contacts the FO, and it is determined
+that the CDR was initiated in error:
+•
+discontinue processing the medical CDR; and
+•
+input a stop CDR decision on the DCF using the CDR FO Input (IFOA) screen.
+1. Electronic process
+An automated process is used when we select electronic CDRs; they are controlled by
+the DCF. If it is determined that a medical CDR is not appropriate, and the CDR is
+electronic, further electronic development is unnecessary, however, you still must
+close the pending medical CDR in the DCF, and explain why you stopped the CDR.
+See Details: DI 81010.205 - Electronic Continuing Disability Review (eCDR) Case Selection
+2. Non-electronic cases
+a. Folder is in the FO
+•
+Send the CDR deferral notice (see notice language (NL 00705.355).
+•
+Clear the CDR using the STOP CDR option on the IFOA screen if the system has not closed
+the CDR.
+•
+Enter a dated remark on the CDR Remarks Input (IRMK) screen, and explain that you
+stopped the CDR because the beneficiary is eligible for the protection from medical
+review based on work activity.
+•
+Follow national procedures for sending the folder for storage.
+b. Folder at DDS
+•
+If the folder is in the DDS (and a CDR decision has not been issued) the FO will contact
+the DDS, and tell them to clear the case as a “no decision case.”
+•
+Send the CDR deferral notice in NL 00705.355 and if it has not been cleared by the system, clear the CDR in DCF with the STOP
+CDR option on the IFOA screen.
+•
+Enter a dated remark on the IRMK screen explaining that you stopped the CDR because
+the beneficiary is eligible for the protection from medical review based on work activity
+•
+Follow national procedures for sending the folder for storage.
+See Also:
+DI 55025.000 The Ticket to Work program.
+National Records Center – Shipping Non-Actionable Folders to the National Records Center (NRC)

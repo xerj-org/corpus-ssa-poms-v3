@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02602.051 - Processing Reports of Death Using the Death Information Processing System (DIPS)
+Effective Dates: 05/05/2023 - Present | TN 98 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602051 (fetched 2026-10-04)
+
+G. Exceptions to death entries through DIPS
+A DIPS input relies on the SSN to post death to the Numident and payment records.
+You will not be able to process death reports for individuals who do not have an SSN.
+1. No SSN
+a. No Beneficiary’s Own Account Number (BOAN)
+If you receive a report of death for an individual who is a beneficiary that does
+not have their own BOAN, determine if they are required to have a BOAN based on GN 05002.009C, Missing or Incorrect Social Security Number.
+1.
+If the individual has been enumerated, update the T2 record with the beneficiary’s
+SSN per SM 03003.015, Matching the Numident Record and the MBR and TC 31007.060, Correcting
+the Beneficiary’s Own Account Number (BOAN).
+2.
+If the individual is required to have a BOAN but has not been enumerated, create a
+Numident record per RM 10225.085, Field Office (FO) Procedure for Handling Request for an Original Social Security
+Number (SSN) for a Deceased Person. You must wait for the Numident to be established before you can post the death using DIPS.
+All transactions for individuals with SSNs or those required to have an SSN must be input through DIPS.
+3.
+If the individual is not required to have a BOAN, take appropriate action in the T2
+system to terminate payments, reinstate payments, or begin development for survivor’s
+benefits, if applicable. You will not be able to post the death using DIPS for beneficiaries
+exempted from needing a BOAN.
+NOTE:
+Be aware of situations where a beneficiary is receiving benefits under another number
+holder’s SSN but the payment record does not include the beneficiary’s BOAN.
+b. Enumeration action in process
+If an enumeration action is in process to assign an individual an SSN or correct a
+Numident entry, you must wait for the Numident to be established or corrected before
+making your death entry through DIPS.
+2. T16 death removals and death reinstatements
+A DIPS Delete or DIPS EDR Delete action will not automatically remove the date of
+death from a T16 record. In cases involving T16, you must first take the delete action in DIPS to remove the death from the Numident. After
+the delete action has been taken in DIPS, you MUST take corrective action according to SI 02301.250, Death of a Recipient (T01).

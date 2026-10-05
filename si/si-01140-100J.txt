@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - SI 01140.100 - Non-Home Real Property
+Effective Dates: 08/03/2022 - Present | TN 86 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140100 (fetched 2026-10-04)
+
+J. Procedure for developing the equity value of NHRP
+Follow the instructions in the section to develop the equity value of the property.
+1. When to develop the equity value
+Develop the equity value of the NHRP when the claimant, recipient, or deemor alleges
+a debt against the property and the difference between equity and CMV could mean the
+difference between eligibility and ineligibility. For more information on equity value,
+see SI 01140.042.
+2. Evidence of an encumbrance on the property
+The claimant, recipient, or deemor must support an allegation of an encumbrance on
+the property (any legal debt, such as a mortgage, lien, loan, purchase contract, security
+interest, etc.) with evidence of:
+•
+the original amount owed;
+•
+the outstanding principal balance; and
+•
+the schedule and amount of payments due on the principal balance.
+(For a definition of encumbrance, see SI 01110.400A.1.c.)
+Obtain all necessary release forms, including the SSA-8510 (Authorization for the Social Security Administration to
+Obtain Personal Information) if needed to obtain personal information from third parties
+to verify property ownership or value information and the SSA-4641-U2 (Authorization
+for the Social Security Administration to Obtain Account Records from a Financial
+Institution) if needed to verify property value or encumbrance through a financial
+institution.
+see PDF link below for Form SSA-8510
+View In PDF
+see PDF link below for Form SSA-4641-U2
+Use the SSA-4641-U2 (Authorization for the Social Security Administration to Obtain Account Records from
+a Financial Institution) if needed to verify property value or encumbrance through
+a financial institution.
+View In PDF
+Request that the claimant, recipient, or deemor submit a copy of the note or agreement
+establishing the encumbrance. Provide assistance if the claimant, recipient, or deemor
+cannot obtain evidence.
+Verify with the creditor (by phone, if possible) required information that the note
+or agreement does not show (normally, this is the outstanding principal balance),
+documenting your efforts in the electronic file.
+3. Systems input
+For input to the Case Characteristics Codes (CG) field of code RE99 or RE60, as applicable
+via the SSI Claims system input on the Miscellaneous Data (CMSC) screen, follow the
+instructions in SM 01005.525. For an explanation of the RE99 and RE60 codes, see SM
+01301.820.
+Scheduled payments on the property's mortgage will increase the equity value of the
+property over time. A rise in the equity value of the property may cause the claimant,
+recipient, or deemors resources to exceed the SSI limit before the next scheduled
+redetermination. If this occurs, establish an RT diary (for the SSI Claims system
+input, see MS 00302.019).
+When the diary matures, review the equity value and delete the diary (for batch input,
+see SM 01301.220 and MS 00302.019 for the SSI Claims system input).
+You do not need a redetermination of all factors of eligibility.

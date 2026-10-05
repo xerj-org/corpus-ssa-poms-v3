@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02402.325 - Coding Hong Kong Bank Data for the MBR
+Effective Dates: 01/29/2016 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402325 (fetched 2026-10-04)
+
+E. Description of Hong Kong bank data
+Hong Kong bank data consists of up to 15 digits, as follows:
+•
+A bank/branch code of 6 digits. The first 3 are for the bank, and the last 3 are for
+the branch.
+•
+An account number of 6–9 digits. If fewer than 6 digits are provided, the form must
+be returned to the beneficiary for correction.
+On the signup form, the bank/branch code will be the first 6 digits. The account number
+of 6–9 digits will follow.

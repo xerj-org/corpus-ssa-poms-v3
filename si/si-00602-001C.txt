@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - SI 00602.001 - The Abbreviated Application Process
+Effective Dates: 08/17/2026 - Present | TN 11 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500602001 (fetched 2026-10-04)
+
+C. Policy
+1. When to Use the ABAP Process
+It is appropriate to complete an ABAP only if it is clear at
+the time of application that the claimant does not meet one or more of the nonmedical eligibility requirements
+through the end of the month after the month the claim is adjudicated.
+2. When Not to Use ABAP Process
+a. Question of Nonmedical Eligibility Exists
+It is not appropriate to complete an ABAP if a question of nonmedical eligibility
+exists.
+Aged claims
+If eligibility is unclear, complete a full application and all required development.
+Disability/blindness claims
+See SI 00603.001 through SI 00603.004.
+NOTE: When a Title II disability application is pending and the only item that might preclude SSI benefits is the anticipated future Title II benefit
+amount, an ABAP is not the appropriate application to complete. (The Disability Determination
+Services (DDS) or Administrative Law Judge (ALJ) may determine a date of onset other
+than the date alleged at the time of the application, thereby affecting the Title
+II benefit.)
+OR
+b. Other Situations
+It is not appropriate to complete an ABAP in the following situations:
+•
+E01 Claim
+–
+Claimant or Couple Appears Eligible But No Payment Due-This is not a denial situation.
+EXAMPLE 1: An individual residing in a Title XIX institution (in a state with no supplementation)
+with countable income of $200 per month is SSI eligible, but no payment is due.
+EXAMPLE 2: An individual has countable income exactly equal to the Federal benefit rate (FBR)
+and no federally administered optional State supplement applies from the filing date
+through the end of the month after the month the claim is adjudicated. They are SSI
+eligible, but no payment is due.
+•
+E02 month
+followed
+by ineligibility during remaining months of the evaluation period (SI 00601.009C.3.).
+•
+Earned income is below the break-even points (SI 00810.350) but above the SGA level (DI 10501.015). See DI 10501.025, Responsibilities and Procedures-Work Issue Cases.
+•
+Prerelease Claims-Complete a full application if prerelease procedures apply in SI 00520.900.
+•
+Oral Inquiry Resulting from Title II Application See the policy regarding when a Title II application constitutes an oral inquiry
+for SSI benefits SI 00601.025C and for the procedures to close out the inquiry GN 00201.005 F.2.
+3. Who May Use ABAP Process
+The following staff may use the ABAP process:
+•
+Claims Specialist;
+•
+Claims Technical Expert;
+•
+Member of Social Security Administration (SSA) management; or
+•
+Customer Service Representative.
+4. Methods of Documenting Technical Denials
+a. SSI Claims System Application
+Establish a new claim on the Person Multiple Claim Summary page (MS 08104.004). On
+the Supplemental Security Income Application page, select "Abbreviated" as the Application
+type. Select the reason for using an abbreviated application in the Abbreviated Application
+reason field. That selection determines which additional screens will appear in the
+path (MS 08108.003).
+b. Paper Application Forms
+•
+Form SSA-8001-BK
+The preferred paper form to document clear technical denials.
+•
+Form SSA-8000-BK
+Use only in the following situations:
+–
+You discover ineligibility after partially completing an SSA-8000-BK; or
+–
+You decide the SSA-8000-BK can better document the denial (e.g., deeming is involved); or
+–
+An SSA-8001-BK is unavailable at the time of the interview (e.g., contact station interview).
+5. General Documentation Requirements
+Review appropriate queries to determine if an SSI or Title II application has ever
+been filed for the claimant and the status of any prior claim.
+a. For SSI Claims System Applications
+The Abbreviated Application reason on the Supplemental Security Income Application
+page determines which screens will appear in the path for an ABAP.
+b. For Paper Applications
+Answer the mandatory questions (listed in SI 00602.010) and only those questions material to the denial. In most cases, this will suffice
+to document ineligibility.
+NOTE: It is not necessary to add statements such as "No children" to document when
+deeming is not a factor in the denial.
+If the answers to pertinent questions on the application fail to document a material
+allegation or otherwise raise an issue that bears directly on the denial see SI 00602.020.

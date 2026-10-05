@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - GN 02250.315 - Documenting Waiver Determinations on Form SSA-635 - Title II and Title XVI
+Effective Dates: 05/31/2024 - Present | TN 61 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202250315 (fetched 2026-10-04)
+
+C. Procedure
+Complete these steps for the SSA-635.
+1. Name of overpaid individual
+Enter the overpaid individual's name.
+2. Social Security Number and BIC
+Enter the overpaid individual's Social Security Number and BIC.  Include the BIC for
+overpaid Title II individuals.
+3. Name of representative payee (If applicable)
+Enter the name of the representative payee, if applicable.
+4. Overpayment period (MM/YYYY thru MM/YYYY)
+Enter the period of overpayment in MM/YYYY thru MM/YYYY format.
+5. Overpayment notice date
+Enter the original overpayment notice date in MM/DD/YYYY format.
+6. Total original overpayment amount
+Enter the original amount of the overpayment. This amount will include recovered amounts.
+7. Outstanding overpayment balance (when we receive the waiver request)
+Enter the outstanding overpayment balance (when we received the waiver request), if
+applicable. Enter zero if the overpayment is fully recovered.
+8. Supplemental Security Record (SSR) number (Title XVI only)
+For Title XVI, enter the SSR number where we posted the overpayment.  For example,
+SSR 3X3.
+9. Waiver requested on sequence number and sequence date (Title XVI only)
+For Title XVI, enter the overpayment sequence number and sequence date (SQD field)
+from the Overpayment Sequence Data (OPSQ) segment on the SSR with a pending waiver.
+For example, Sequence 05 – SQD 120123. For more information on the OPSQ segment on
+the SSR, refer to SM 01311.035.
+10. Waiver requested on the Recovery of Overpayments, Accounting and Reporting (ROAR)
+System Event Number (Title II only)
+For Title II, enter the ROAR Event number.  For example, ROAR Event 02.
+11. Who is requesting a waiver? (GN 02250.001)
+Check the box(s) indicating which overpaid individual(s) requested the waiver.  For
+information about who may request a waiver, refer to GN 02250.001.
+12. Does the overpayment involve fraud or similar fault on the part of the overpaid individual?
+Check Yes or No.  If Yes, stop development and refer to GN 02250.001H.
+13. Is the individual requesting a waiver of the original overpayment amount or the remaining
+balance  – (GN 02250.310)
+Check the box for original overpayment amount (including funds we already recovered)
+or the remaining balance. Refer to question 3 on the SSA-632.
+14. What caused the overpayment?
+Fill in the field labeled “Required Field -Detailed explanation of how the overpayment
+occurred”.
+15. Title XVI Only – Excess resources of $50 or less per month – (GN 02250.090)
+In some cases, an overpaid individual’s resources may exceed the Title XVI limit by
+such a small amount that we will deem the overpaid individual to be not at fault and
+waive recovery of the overpayment, unless we find clear evidence that the individual
+knowingly and willfully failed to report the excess resources correctly and timely.
+If applicable, fill in the field explaining why waiver is approved on this basis.
+16. Fault determination – (GN 02250.005 through GN 02250.025)
+Check the box indicating if you determined the overpaid individual is “not at fault”
+or “at fault” for the overpayment. You are required to explain your rationale.  Your
+rationale should include why you made the fault determination. If you make an “at
+fault” determination, provide your rationale, STOP and go to question 20.
+17. Deemed to defeat the purpose (GN 02250.110)
+If you make a “not at fault” determination, consider whether you can approve the waiver
+under deemed to defeat the purpose.
+18. Against equity and good conscience (GN 02250.150)
+If you make a “not at fault” determination, consider whether you can approve the waiver
+under against equity and good conscience.
+19. Defeats the purpose (GN 02250.100)
+If you make a “not at fault” determination, consider whether you can approve the waiver
+under defeats the purpose.
+20. Waiver denial
+Check the box that supports your determination and complete the required field to
+support your rationale.
+21. Signature and date required
+Enter the NAME, TITLE, AND DATE into the required field.
+To determine the level of the review thresholds for waiver approvals, refer to GN 02250.301. Each individual who is responsible for approving the waiver must include their name,
+title, and date of the review.
+Important information about storing the SSA-635
+After making a final waiver determination, fax or import the SSA-635 (with any additional
+supporting documentation) into the Evidence Portal (EP).  Do not fax or import the
+SSA-635 into EP if further review is required for waiver approvals. To determine the
+level of review required (e.g., peer review, management review or ARC MOS review)
+for a waiver determination, refer to GN 02250.301.

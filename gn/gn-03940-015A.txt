@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 03940.015 - Title II - Field Office Processing of Fee Agreements - General
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940015 (fetched 2026-10-04)
+
+A. Initial Claim
+1. Unfavorable Decision
+Take no action under the fee agreement process for unfavorable decisions and determinations
+(hereinafter we generally refer to both as a “decision”). But see GN
+03940.001D concerning concurrent Titles II and XVI claims.
+2. Favorable Decision – District Office Final Authorization (DOFA)
+a.
+Approve or disapprove the fee agreement, using the instructions in GN 03940.003.
+b.
+Document the determination, providing rationale for a disapproval. Form SSA-553 (Special
+Determination) may be used for this purpose. (See GN 03905.065 Exhibit 1 for sample language.)
+c.
+Annotate the SSA-1128 (Representative Involved) if there is a paper file. (See GN 03905.025.)
+d.
+Determine if a non-attorney representative is eligible for direct payment by checking
+the Registration, Appointment, and Services for Representatives (RASR) EDPNA (eligible
+for direct payment non-attorney) Query and record the results on the Modernized Claim
+System (MCS) DW01 screen as follows:
+ISSUE – EDPNA
+REC – Input date of verification
+REMARKS – Based on information on the list, type “Eligible for Direct Payment” (or
+“EDP”), “Not eligible for direct payment” (or “NEDP”), or “Not on list.”
+If the non-attorney representative is eligible for direct payment, the NOT2 screen
+should show “Eligible for Direct Pay Non-Attorney.” If the non-attorney representative
+is not eligible for direct payment at the time the claim is being processed, verify
+that the Appointed Representative type on the NOT2 screen shows “2,” “non-attorney.”
+Make any corrections or changes needed in RASR.
+See GN
+03920.016B. for the requirements for representatives to receive direct payment.
+If a representative has validly assigned direct payment of their authorized fee to
+an entity as set forth in GN
+03920.021, determine if that entity is eligible to receive direct payment of fees by querying
+RASR to ensure that the entity has registered and not been placed on the Ineligible
+for Direct Payment Entity list.
+e.
+Follow the instructions in MS 03509.009 (NOT2 screen), MSOM MCS 008.004 (DW01 screen)
+and MSOM MS 03514.006 (BCF on BCRN screen). For dual entitlement claims, refer to
+GN 03940.040.
+f.
+If the case is a MCS processing limitation, also complete the Benefit Continuity Field
+(BCF), enter the remark “Fee Agreement Case” and the representative's name and address
+in the A101 (Automated SSA-101) BCRN Screen, and enter the MADCAP fee agreement paragraphs
+for inclusion in the award notice in the BCRN screen NOTICE field. Refer to MS 03514.006.
+g.
+Ensure that the fee agreement and the fee agreement determination are associated with
+the claim(s) file and loaded to Evidence Portal.
+h.
+Notify the appropriate processing center (PC). If the claim(s) file is paper, send
+the file to the appropriate PC.
+•
+To determine the amount of the authorized fee for the purpose of possibly filing a
+request for administrative review, check the Single Payment System, the Master Beneficiary
+Record, or the award notice which is available through the Online Retrieval System
+(ORS), eView, or Evidence Portal.
+See GN
+03960.010B.2, GN
+03960.010C.1, and GN 03960.010C.2 for further information regarding requesting administrative review under the fee
+agreement process.
+3. Favorable Decision — Non-District Office Final Authorization (DOFA)
+Follow steps GN
+03940.015A.2.c. — GN
+03940.015A.2.f.
+•
+Upon verifying the eligibility for direct payment of a representative, record the
+results on the Modernized Development Worksheet (MDW), following the input directions
+in GN
+03940.015A.2.d.
+•
+Do not approve or disapprove the fee agreement because you are not the decision maker
+in a non-DOFA claim (see GN 03940.002). Ensure that the fee agreement is associated with the claim(s) file and loaded to
+Evidence Portal. Alert the PC by email or other reliable method and flag a paper claim
+file with an SSA-1128.
+4. Favorable Decision — No Past-Due Benefits
+•
+NOT2 for Fee Agreement Type - Leave blank.
+–
+MCS will automatically code ATY04 to DW01 when NOT2 "Fee Agreement Type" is blank.
+•
+NOT2 for Fee Agreement % — Leave blank.
+•
+NOT2 for Fee Agreement Amount — Leave blank.
+•
+NOT2 for the Last Withholding Date — Enter the month prior to the month of adjudication,
+see GN 03920.030B.
+•
+On the DW01 screen, receipt in the automatic ATY04 with "XXXXXX".
+•
+Add a new issue for ATY00.
+–
+Add the remark "no past-due benefits" next to the ATY00 issue.
+•
+Add an RPOC to document disapproval of the fee agreement because no past-due benefits
+are involved.
+•
+Notice must advise the claimant and the representative(s) that the representative
+must file a fee petition for authorization to charge and collect the representative's
+fee.
+–
+For cases adjudicated via MCS EC, no additional notices are required, MCS will generate
+the correct notice.
+–
+For cases not adjudicated via MCS EC at the initial or reconsideration levels, include
+the notices on the A101/EF101 in the remarks/notice fields. Technicians will include
+ATYR15.
+NOTE 1: If the representative assigned direct payment of their fee to an entity and we receive
+information or discover that the representative has died, send a copy of this notice
+to the entity’s point of contact (POC). For information on assigning direct payment
+of fees, including the roles and responsibilities of a POC, see GN 03920.021.
+•
+Delete the automated 098/099 diary on the DECI screen, since there are no past-due
+benefits and we will not control for cases that do not result in past-due benefits.
+•
+After adjudicating the claim via MCS EC, on the following business day, the technician
+will add a special message to the record showing representative’s name and remark,
+"Case resulted in no past-due benefits, fee petition, fee paid by claimant."
+NOTE 2: These instructions apply to Title II-only cases. For concurrent cases, code the "Fee
+Agreement Type" as "approved" unless past due benefits for Title XVI are known. If
+there are no past-due benefits for either Title II or Title XVI, code the "Fee Agreement
+Type" using the instructions above.

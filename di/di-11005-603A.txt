@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 11005.603 - Processing Quick Disability Determinations (QDD) Cases - Field Office (FO) Instructions
+Effective Dates: 12/03/2024 - Present | TN 119 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005603 (fetched 2026-10-04)
+
+A. Identifying QDD Cases
+QDD cases are systems-identified when the FO transfers the EDCS segment of the case
+to the DDS. At the point of EDCS transfer:
+1.
+Predictive Model software automatically scores the case to determine if it should
+be marked for QDD processing; and
+2.
+An on-screen alert in EDCS notifies the claims representative (CR) that the case is
+a QDD case.
+Cases that are fully-paper (all claims in the case are EDCS exclusions) are not considered
+for QDD. At least one of the claims must be established in EDCS for the predictive
+model to run to consider the case for QDD. The official folder may be either a Certified
+Electronic Folder (CEF) or a paper Modular Disability Folder (MDF).
+NOTE: Do not inform the claimant that their case has been selected for QDD; however, if
+the claimant asks you, provide the information.

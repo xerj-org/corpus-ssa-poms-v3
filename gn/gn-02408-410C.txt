@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02408.410 - Recovering Electronic Funds Transfer (EFT) Payments Unable to be Reclaimed
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408410 (fetched 2026-10-04)
+
+C. Title XVI reclamation actions due to PACER data limitations
+All reclamation actions involving only payments issued after January 1, 2014, should
+continue to be processed according to policy GN
+02408.301. For certain actions, Central Office will reach out to the local field office via
+Worktracs and send instructions to take a specific action related to the reconciliation
+of a Title XVI reclamation. .
+When a Title XVI input for termination of benefits due to death is processed, a NOR
+will be sent to the FI for all payments to be reclaimed up to January 1, 2014. For
+payments issued prior to January 1, 2014, a request for return of funds will need
+to be sent to the FI in certain cases.
+NOTE: Check payments are unaffected, as limited payability policy should be followed,
+see GN
+02401.901.
+If the FI responds to the NOR’s E-stop requests on the FS-133 with a full return of
+funds, SSA should contact the FI to request for any additional funds received for
+payments issued prior to January 1, 2014, to be returned. If the FI has limited their
+liability, there is no need to send a notice to the FI, as the FI has no funds to
+return. Once the NOR has been sent, an FI has 60 days to respond with a return of
+funds or to limit their liability. This information can be found on the claims detail
+tab in TCIS.
+Process
+Title
+XVI reclamations involving payments issued prior to January 1, 2014, where the FI
+has returned all
+funds for the E-stop, as follows:
+•
+Compile a list including the payment amount, payment date, and bank account number
+and routing number for payments not included in the NOR which were issued prior to
+January 1, 2014, from the date of input for termination due to death. Technicians
+may use the templates found in section E. Only include the payments for the current
+FI. Do not include payments for any prior FIs. Technicians should follow the policy
+and local guidance and procedures to initiate release of notice to the FI to request
+the additional payments as a subsequent reclamation request. FIs should be directed
+to return full payments via an R15 ACH return and partial payments via a remittance
+referencing the SSN to:
+SSA - MATPSC
+Attn: Remittance Unit Manager
+P.O. BOX 3430
+Philadelphia, PA 19122
+•
+The FI has 60 days to respond and return the requested funds. Credits received from
+the FI will be applied to the record by Central Office. Remittances for full returns
+will be posted to the appropriate payment in the payment history (PMTH) segment, and
+partial refunds will be posted to the Overpayment Refund Data (OPRR) segment of the
+Supplemental Security Record (SSR). No follow up with the FI is necessary.

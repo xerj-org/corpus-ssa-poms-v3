@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - SI 02310.045 - Internal Revenue Service (IRS) Interface
+Effective Dates: 01/25/2017 - Present | TN 55 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310045 (fetched 2026-10-04)
+
+B. Description of alerts
+1. Controlled alerts
+a. Criteria
+Records which exceed the tolerances in SI 02310.045A.3, have a 5B diary posted to the Supplemental Security Record (SSR). We post IRS data
+to a database. The term “alerts” refers to printouts from the IRS database, see SM
+02002.400.
+b. Alert retrieval
+Technicians may retrieve data overnight through RZ/LI listings in MI Central using
+the housed-under number (HUN). The database contains the most recent 2 years of IRS
+information. The same data may be retrieved immediately through SSTNG.
+2. Informational alerts
+a.
+The SSI/IRS interface identifies certain high error profile redeterminations with
+resource indicators below the tolerance. These indicators are informational only.
+Alerts for these cases are available through MI Central. If the case has a high error
+profile RZ, the alert is available in SSTNG.
+b.
+The disclosure provisions in SI 02310.041 and destruction criteria in SI 02310.040C also apply to informational alerts.

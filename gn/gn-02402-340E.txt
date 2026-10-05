@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02402.340 - Coding Poland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/03/2018 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402340 (fetched 2026-10-04)
+
+E. Process for applying Poland bank data
+1. Applying Poland bank data to the MBR
+The FBU in Warsaw or DIO keys the complete bank data to ITS.gov. The International Treasury Service then sends a portion of the bank data to SSA
+through Automated Enrollment (Quick$tart). SSA's MBR doesn’t have enough spaces in
+the RTN and DAN fields to accept all of the IBAN code for Poland, so some of the data
+doesn’t go to the MBR.
+When the cutoff for direct deposit is near, the FBU or DIO codes the full data for
+ITS.gov and the correct data for the MBR.
+2. Applying the remainder of the bank data before payment
+When a payment for Poland arrives, FRBKC checks the payment against the information
+for that beneficiary on ITS.gov. If the information matches, FRBKC adds the remaining characters to complete the
+IBAN. If the information doesn’t match, FRBKC sends the payment information to the FBU to resolve the discrepancy.

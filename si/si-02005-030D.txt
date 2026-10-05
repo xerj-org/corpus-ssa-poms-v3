@@ -1,0 +1,83 @@
+SSA Program Operations Manual System (POMS) - SI 02005.030 - Effect of Changes in Couple’s Status on SSI Payment Computations
+Effective Dates: 05/09/2012 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005030 (fetched 2026-10-04)
+
+D. Determining the budget month when an ineligible spouse becomes eligible
+When an ineligible spouse becomes eligible, determine the couple’s eligibility using
+a couple’s eligibility computation in the newly eligible spouse’s E02 month. The couple’s
+eligibility computation determines whether we can consider them an eligible couple.
+For information about the E02 month, see SI 00601.009C.
+The newly eligible spouse’s E02 month is the month of application, or the first month
+of eligibility, whichever is later, based on that application. The currently eligible
+spouse remains an eligible individual during the newly eligible spouse’s E02 month.
+Compute benefits for the currently eligible spouse as an eligible individual in the
+newly eligible spouse’s E02 month. Follow regular RMA rules to determine the budget
+month for this month.
+The newly eligible spouse needs no payment computation for the E02 month because no
+payment is due. Deeming from the newly eligible spouse to the already eligible spouse
+applies in the E02 month.
+The first month of the new TCC for the eligible couple is the first month in which
+both are in payment status (PS) C01 (current pay). The E02 month is never part of
+the TCC. The first month of the TCC is also the budget month for the eligible couple.
+For TCC policy, see SI 02005.005.
+Example 1: Ineligible spouse becomes eligible in month of filing
+•
+Ralph Kramden is an eligible spouse receiving Title XVI benefits of $674.00 monthly
+since July 2009.
+•
+Ralph's ineligible spouse, Alice, becomes eligible for Title XVI benefits with a filing
+date of September 15, 2010.
+•
+Alice’s E02 month is September 2010.
+•
+A couple’s eligibility computation for September 2010 determines they are eligible
+as a couple.
+•
+In September 2010, we compute Ralph’s payment as an eligible individual with an ineligible
+spouse using July as the budget month. Deeming of Alice’s income applies to Ralph.
+•
+Alice needs no payment computation for September 2010 because no payment is due in
+their E02 month.
+•
+The first month of the new TCC for the eligible couple is October 2010, the first
+month we pay them based on the eligible couple’s rate of $1011.00. The first month
+of the TCC, October, is the budget month for the couple.
+Example 2: Ineligible spouse becomes eligible in a month after the month of filing
+•
+Marcy D’Arcy is 67 years old. They have received Title XVI benefits since their 65th birthday.
+•
+Their spouse Jefferson receives Title II benefits and files a Title XVI application
+on October 2. Jefferson will be 65 years old on November 7 and is not disabled or
+blind.
+•
+They become a Title XVI eligible couple in December. Although Jefferson has a protective
+filing date of October 2, they is not eligible until November 7. Therefore,Jefferson's
+Title XVI eligibility (E02) month is November.
+•
+Marcy receives Title XVI as an individual for October and November and both receive
+Title XVI as an eligible couple beginning December. Deeming from Jefferson to Marcy
+applies in October and November based on Jefferson’s income in the applicable budget
+month
+•
+December is the first month of the TCC and is the budget month for the couple.
+Example 3: Ineligible individual becomes eligible and windfall offset
+involved
+•
+Jack has been receiving benefits as an eligible individual with their ineligible spouse,
+Jill. The field office processed an offset computation on Jack’s record and their
+retro Title II is offset is for January 1, 2011 through March 2011. Jack's Title II
+is $1300.00 for January 2011 through March 2011.
+•
+In June 2011, Jill becomes eligible for Title XVI beginning November 2010, and is
+eligible in months where their spouse Jack has already been paid Title XVI benefits,
+but had their retro Title II benefits offset in those months. Jill does not receive
+Title II.
+•
+Jill’s eligibility is a post enTitlement event in Jack’s windfall period (January
+2011 - May 2011); therefore, Jill will not receive any Title XVI payments for the
+months that are in the windfall period because Jack’s Title II monthly benefits exceed
+the couple’s FBR.
+NOTE:
+If Jack’s Title II benefit does not exceed the couple’s FBR for any month during the
+windfall-offset period, perform a special couple’s computation. For instructions about
+the special couple’s computation, see SI 02005.030F in this section. For instructions about windfall offset, see GN 02610.005.

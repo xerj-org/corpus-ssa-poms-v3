@@ -1,0 +1,396 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+J. Procedure for mailer decision-making and post-decision-making actions by Disability
+Technician (DT)/Benefit Earnings Technician (BET), and Disability Examiner (DE)/Disability
+Examiner Consultant (DEC)/Disability Consultant (DC) review instructions
+1. Unanswered questions/unresolved issues
+Follow the entire process explained herein.
+If a full medical CDR is not indicated based on the responses supplied by the beneficiary, make direct telephone contact (DIRCON) to complete unanswered questions or to clarify unresolved issues.
+Do not use DIRCON if the responses or other information provided indicate that a full
+CDR is needed.
+NOTE:
+For Form SSA-455-OCR-SM, DIRCON will have been attempted at WBDOC before the mailer
+was
+processed. For these mailers, a question(s) that remains unanswered at the time of PC review
+reflects a previous unsuccessful DIRCON attempt in WBDOC.
+When DIRCON is required, follow the DIRCON procedures in GN 01070.305 and GN 01070.315. Make two DIRCON attempts; do not count busy signals as attempts. Document the results
+on Form SSA-5002.
+Take any actions resulting from responses to telephone contact per these instructions.
+2. Folderless review of responses
+a. Sequence of questions
+The following instructions are designed for the sequence of the questions as they
+appear on the SSA-455-OCR-SM. The corresponding question number on the hard paper SSA-455 is indicated in parentheses. This is because it is expected that most mailers requiring PC Review will be the
+scannable mailer, Form SSA-455-OCR-SM.
+b. DSE/FLC and BET/DT alert review for necessary mailer association and screening for
+translations
+In those PSCs that do not scan the 455s into paperless, the DSE/FLC reviews the alert/facsimile/profile
+sheet packages and identifies PSC MAILER alert packages. The actual mailer and any
+attachments are associated with PSC MAILER alert packages. Each mailer package is
+placed in a holder.
+The BET/DT screens for alerts with messages indicating that translation is needed,
+and refers the assembled holder or paperless ACR for translation.
+c. BET/DT review of Question 1
+The BET/DT develops the work on mailer alerts with a BET/DT remark/message, and the
+DE/DEC/DC develops the work on any alerts with a DE/DEC/DC remark/message.
+DCDRS decision logic uses the same criteria used by the WBDOC to determine if the
+response(s) to question 1 are actionable, DI 40502.001E.4.b. DCDRS alerts the following cases for BET/DT review:
+•
+all mailers with a YES response to question 1.a. (Have you worked?) AND/OR
+•
+in response to question 1.b., earnings of
+$970
+or more are reported for at least one month since the beginning of the Report Period.
+If question 1.a. is answered Yes (or is not answered or is answered BOTH Yes and NO,
+and DIRCON does not resolve these situations), but question 1.b. is blank/no earnings
+are reported, the mailer is actionable.
+If there is insufficient WORK BEGAN and/or WORK ENDED information in question 1.b.
+to determine when the earnings occurred, but the reported MONTHLY EARNINGS in 1.b.
+are $970 or more in any of the three entries, the mailer is actionable.
+NOTE:
+If only work and earnings prior to the report period are described, the mailer is
+not considered an actionable mailer.
+DCDRS decision logic also alerts nonactionable mailers for PC review when it detects
+a code of 1 in position 1 or 2 of the ANY CODES? codes. These cases can be worked
+from the facsimile.
+Local procedures may have the DE/DEC/DC refer cases involving work and earnings for
+BET/DT review.
+The BET/DT procedures, as described herein, are generalized and may not precisely
+describe the local process.
+NOTE:
+Under no circumstances should the BET/DT NAN the mailer after review of question 1.
+Either an earnings investigation or referral to a DE/DEC/DC is required.
+Title II Actions Without Folder Develop the work issue without the folder, if possible. Take the following actions
+based on receipt of a BET/DT REVIEW alert:
+•
+Folderless Actions Check the T2 WORK and EARNINGS Segments of the DCF. If alleged
+work falls within the dates of the work information posted to the T2 WORK and/or EARNINGS
+segments of the DCF annotate the mailer with WORK ON THE DCF
+•
+Prepare an SSA-559 routing the holder/paperless ACR to the DE/DEC/DC for completion
+of the PC review.
+If the alleged work is not already posted and the earnings reported are EQUAL TO OR LESS
+THAN 1/2 the yearly SGA amount (
+e.g., for 2022, equal to or less than $970 monthly, or $11640 annually
+), do not develop the work issues at this time. Instead, prepare an SSA-559 to refer
+the case to the DE/DEC/DC to process the mailer.
+Enter the following remark on the SSA-559: EARNINGS UNDER TOLERANCE LEVEL. RETURN
+TO BET/DT AFTER DE/DEC/DC REVIEW.
+When the mailer processing is completed, return those cases not referred by the DE/DEC/DC
+to the FO for a CDR, and not selected for a CDR as integrity sample cases, to the
+BET/DT to complete the development of the unposted earnings in accordance with DI 40510.000.
+If the alleged work is not already posted and the earnings reported EXCEED 1/2 the
+yearly SGA amount
+(e.g., for 2022, more than $970 monthly, or $11640 annually), develop the work issues
+per DI 40510.000, update the DCF to show an earnings investigation is being initiated, and enter a
+Special Message on the IRMK screen of the DCF that states:
+WHEN WORK DEVELOPMENT IS COMPLETE, REVIEW MAILER TO DETERMINE IF FULL MEDICAL CDR
+IS NECESSARY, AND REPLACE WORK AND EARNINGS INVESTIGATION WITH APPROPRIATE IPCA EVENT
+CODE.
+Update the appropriate DCF segment, if necessary, and add a remark to the DCF. After
+the work issue is resolved, refer to the DE/DEC/DC for completion of the PC mailer
+review.
+Title II Actions with Folder Determine whether the alleged work and earnings have already been resolved. If resolved, annotate the mailer holder/paperless ARC with, WORK RESOLVED, and prepare an SSA-559
+referring the case to the DE/DEC/DC to complete the PC mailer review.
+If the alleged work is not already posted and the earnings reported are EQUAL TO OR
+LESS THAN 1/2 the yearly SGA, do not develop the work issues at this time. Instead,
+prepare an SSA-559 to refer the case to the DE/DEC/DC for processing of the mailer.
+Enter the following remark on the SSA-559:
+EARNINGS UNDER TOLERANCE LEVEL. RETURN TO BET/DT AFTER DE/DEC/DC REVIEW.
+When the mailer processing is completed, return those cases not referred by the DE/DEC/DC
+to the FO for a CDR, and not selected for a CDR as integrity sample cases, to the
+BET/DT to complete the development of the unposted earnings in accordance with DI 40510.000.
+If the alleged work is not already posted and the earnings reported EXCEED 1/2 the
+yearly SGA amount, develop the work issues per DI 40510.000, update the DCF to show that an earnings investigation is being initiated, and enter
+a Special Message on the DCF's IRMK screen that states:
+WHEN WORK DEVELOPMENT IS COMPLETE, REVIEW MAILER TO DETERMINE IF FULL MEDICAL CDR
+IS NECESSARY, AND REPLACE WORK AND EARNINGS INVESTIGATION WITH APPROPRIATE IPCA EVENTCODE.
+Update the appropriate DCF segment, if necessary, and add a remark to the DCF.
+After the work issue is resolved, refer to the DE/DEC/DC for completion of the PC
+mailer review.
+Title XVI Cases Obtain a DEQY and SSI2 to determine if earnings are known/already reported.
+If earnings are known, annotate the mailer with, EARNINGS KNOWN, and prepare an SSA-559 referring the holder/paperless
+ACR to a DE/DEC/DC for completion of the PC mailer review.
+If earnings are not known/previously reported, do not apply the Title II earnings
+tolerance. Make a photocopy of the mailer/facsimile and any relevant attachment (e.g., pay
+stubs, copies of W-2's), and refer to the servicing FO to develop/adjust for the work
+and earnings.
+Annotate the mailer, the photocopy, and the DCF's IRMK remarks screen with, UNKNOWN EARNINGS REFERRED TO FO.
+Complete the clerical and DE/DEC/DC review. On the copy of the mailer referred to
+the FO, advise the FO that no referral to PC-7 is necessary.
+d. DE/DEC/DC review and decision-making
+The DE/DEC/DC reviews all responses and any remarks or attachments, and weighs the
+significance of missing responses to determine if a deferral or a full CDR is appropriate.
+Following are some guidelines for decision making when reviewing questions 1 through
+6.
+It is also important to consider the profile. Check field 3 of scanline 2 of the mailer
+or facsimile for an H (High), M (Medium), or L (Low), or check the profile sheet for the word High, Medium, or Low.
+When there is conflict between the codes, give the highest priority to the code on
+the mailer or facsimile.
+If the case is being worked from a hard paper SSA-455, or for some other reason a
+profile code is not provided, query the DCF for the profile code.
+The profile ranking should be factored into the DE/DEC/DC decision, as should the
+automated recommended decision on the alert. The DE/DEC/DC is not required to follow
+the suggested outcome; however, profiling has been shown to be accurate in assessing
+the likelihood of medical improvement. This means that for Low cases, there must be compelling information to refer a case for a CDR, while
+for Medium and High profile cases, there must be compelling information to warrant
+a deferral action.
+Consider the following instructions when reviewing the mailer responses:
+•
+SSA-455-OCR-SM, Question 1 (SSA-455, Question 1)--Have you worked for someone or been
+self-employed?
+If the answer to question 1 (1) is:
+Your action is:
+YES
+All Profiles (High, Medium, or Low)If the BET/DT reports WORK ON THE MBR or WORK RESOLVED
+or EARNINGS UNDER TOLERANCE (Title II), or EARNINGS KNOWN or UNKNOWN EARNINGS REFERRED
+TO FO (Title XVI), go to question 2, but consider the automated recommended decision,
+and whether work activity suggests possible medical improvement.
+NO
+All Profiles (High, Medium, or Low)-Go to question 2
+NO RESPONSE
+All Profiles-Go to question 2
+SSA-455-OCR-SM, Question 2 (SSA-455, Question 4)--Have you attended any school or
+work training program(s)?
+If the answer to question 2(4) is:
+Your action is:
+YES
+High or Medium-DO CDR unless the
+response to question 5 or 6 (7 or 6 on SSA-455) is YES, or the reviewer has other
+information indicating medical improvement is very unlikely.
+If the response to 5 or 6 is YES, weigh all information,
+especially responses to questions 1, 3, and 4.
+Low-Go to question 3
+NO
+All Profiles-Go to question 3
+NO RESPONSE
+All Profiles-Go to question 3
+SSA-455-OCR-SM, Question 3 (SSA-455, Question 3)--Have you discussed work with your
+doctor?
+If the answer to question 3 (3) is:
+Your action is
+HAVE NOT DISCUSSED
+All Profiles-Go to question 4
+CANNOT WORK
+All Profiles-Go to question 4
+CAN WORK
+High or Medium-DO CDR unless theDE/DEC/DC review
+raises doubt about the response (consider DIRCON to resolve).
+Low-Go to question 4
+NO RESPONSE
+All Profiles Go to question 4
+SSA-455-OCR-SM, Question 4 (SSA-455, Question 2)--Describe your health now as compared
+to?
+If the answer to question 4 (2) is:
+Your action is:
+BETTER
+All profiles-DO CDR unless the DE/DEC/DC review raises doubt
+about the response (e.g., is better, but information shows a severe mental impairment
+continues,
+or that inpatient care or residency in an institution continues, or is worse but reports
+recent
+work activity after bypass grafting).
+Consider DIRCON to resolve.
+SAME
+High or Medium-DO CDR unless the
+review raises the same types of doubts about medical improvement as discussed for
+a
+response of better.
+Low-Go to questions 5 and 6.
+WORSE
+All Profiles-Go to questions 5 and 6.
+NO RESPONSE
+All Profiles-Go to questions 5 and 6
+The following chart lists instructions for responses to questions 5 and 6 of the SSA-455-OCR-SM
+(questions 7 and 6 on the SSA-455). These questions both inquire as to different types
+of recent medical treatment. The DE/DEC/DC may find it efficient to consider the responses
+together.
+SSA-455-OCR-SM, Question 5 (SSA-455, Question 7)-Have you gone to a doctor or clinic?
+If the answer to 5 is:
+Your action on all profiles is:
+YES
+Check the profile sheet for information about the prior decision. Knowledge can be
+gained from the following:
+•
+Date of birth
+•
+Date of onset
+•
+Date of initial decision
+•
+Date of latest decision
+•
+Reg basis code
+•
+Vocational rule met
+•
+Diaries set
+•
+Blindness
+Assess the importance of ongoing medical treatment, or its absence, to the status
+of the condition. Read carefully the how often and reason for visit narratives and
+draw any conclusions.
+Consider any remarks or attachments that might address whether medical improvement
+is or is not indicated.
+Consider whether a telephone call to the beneficiary or representative payee will
+provide further details.
+For LOWS, recommend a DO CDR only if the narrative/telephone call response(s) indicates there
+is possible medical improvement.
+For HIGHS/MEDIUMS, take a DO CDR action unless the narrative/telephone call response(s) indicates no likelihood of medical improvement.
+NO
+All Profiles-If not explained on the form, obtain by DIRCON to the beneficiary or
+representative payee the reason(s) for the lack of ongoing treatment, especially if
+impairment codes are:
+•
+4140 (angina)
+•
+4430(arterial)
+•
+5710 (liver)
+•
+5840 (renal)
+•
+2500 (diabetes)
+These impairments usually require continuous medical intervention.
+Recommend a full medical CDR only if the DIRCON response indicates there is possible
+medical improvement.
+NO RESPONSE
+All Profiles-Go to question 6.
+SSA-455-OCR-SM, Question 6 (SSA-455, Question 6)-Have you been hospitalized or had
+any surgery?
+If the answer to 6 is:
+Your action for all profiles is:
+YES
+All Profiles-Review dates and the narrative. Check the profile sheet to determine
+the impairment(s) involved.
+Assess the effects of hospitalization/surgery on the impairments.
+Release for DO CDR only if the narrative indicates there is possible medical improvement.
+Otherwise, DEFER.
+NO
+All Profiles-DEFER if response to question 5 was Yes and there is no indication of
+possible medical improvement.
+NO RESPONSE
+All Profiles-DO CDR if question 5 is also answered No or there is no response to question
+5, and nothing in remarks or on an attachment indicates there has been recent treatment
+or provides a credible reason for an absence of treatment.
+NOTE:
+Regarding versions of the SSA-455-OCR-SM with question 7 (SSA-455, Question 5), or
+a VR? inquiry below the signature line - Do not consider this response.
+3. Processing deferrals and resetting diaries in deferral actions
+a. Deferring mailers
+Call up the IPCA screen on the DCF and select event 4 DEFER CDR.
+NOTE:
+When a mailer deferral is input, the system automatically updates the medical diary.
+The new diary is calculated based on the old medical data in the DCF. If the medical
+data in the DCF (on the left-hand side of the QMID) is blank or zeros, the system
+has nothing with which to calculate the new diary. The medical data cannot be manually
+updated via 15=MODIFY MEDICAL DATA because the systems requirements were written to
+prevent user input in these situations.
+Enter the pertinent medical information in the REMARK screen. Do not open a new CDR path (using the DRES) and then close it in order to enter the medical data because this creates a new history screen indicating a full medical review was processed
+(which it wasnt) and results in inaccurate management information (MI).
+NOTE:
+In those Title II or concurrent Title II-XVI cases in which unresolved earnings equal to or less than 1/2 of the yearly SGA amount were reported (EARNINGS UNDER TOLERANCE LEVEL), the
+DE/DEC/DC refers the case to the BET/DT for investigation of earnings per DI 40502.001J.2.c.
+b. Diary types and dates
+The profile sheet, the MEDICAL RE-EXAM REASON section on the Query Medical Information
+Data (QMID) screen on the DCF, the MR entry on the SSR, and the first field in the
+second scanline on the scannable form SSA-455-OCR-SM contain this information. There
+may be multiple QMID screens; typically, the most recent iteration is used.
+In the event the diary types do not agree, use the diary type on the profile sheet
+in the OD-CALC MDR: field. The diary type on the profile sheet reflects the most accurate
+on-line information regarding the diary type that was set at the CPD.
+The DCF QMID, SSR MR, and scanline information may be less accurate as a result of
+missing or intervening systems entries, but should be used if no value is provided
+on the profile sheet or the mailer.
+In the event that no MDR/MR is provided on any database, use the default MDR/MR of
+3.
+The following diary types and corresponding duration apply:
+•
+MIE = reset for 18 months;
+•
+MIP = reset for 3 years;
+•
+MINE = reset for 7 years.
+Some MINE cases have 5-year diaries. Reset these MINE diaries for 5 years.
+Do not reset or attempt to substantively change the diary type using current instructions
+in DI 26525.000.
+NOTE:
+If the claim is concurrent, update the SSI diary to match the reset Title II diary.
+c. The CDR mailers deferral notice
+Upon successful input of the deferral and rediary codes, the CDR deferral notice (DI 40502.095, Exhibit 2) is generated by the system. Note that mailer deferral notices returned
+by the USPS as undeliverable do not require further delivery attempts. Instead, they
+are securely destroyed.
+d. Disposing of mailers, facsimiles, attachments, alerts, and profile sheets
+All facsimiles of mailer, alerts, and profile sheets are securely destroyed.
+Refer original mailers and attachments that describe work activity and/or earnings,
+or are considered medical evidence (e.g., copies of hospital records, a note from
+a doctor, a mailer signed by an official of a treatment facility) to the claims folder
+location. If the folder is paper (e.g., Megasite, Caves, WBFSO, DDS, FO, ODAR), upload
+the material into evidence portal (EP) and send the paper for drop-filing. If eView
+exists for the record, upload the material into DMA and destroy the paper documentation.
+Special situations (e.g., one of the attachments is a request for class action membership,
+the remarks on the mailer describe misuse of funds by a representative payee, an SS-5
+and supporting documentation for a name change were included in the attachments, or
+documentation affecting felony payment suspension) may dictate that the original mailer
+and/or attachment(s) should be referred to another component for additional post-entitlement
+action or for drop-filing.
+All other original mailers and attachments (e.g., those forwarded to the PC from the
+WBDOC because translation was necessary) are securely destroyed.
+4. Full medical DO CDR CDR actions
+a. Referring a Title II-only or the Title II portion of a concurrent case for a full
+medical CDR
+1.
+Select the IPCA screen to update the DCF .
+2.
+Select item #2 INITIATE CDR; the IPCB screen appears.
+3.
+Enter the Detailed Office/Organization Resource System (DOORS) location of the servicing
+FO in the TRANSFER CASE OFFICE RESPONSIBLE FOR THE NEXT ACTION field.
+4.
+Enter Y next to REMARKS and enter a message that the mailer is being sent to the FO.
+5.
+Provide any other pertinent instructions or remarks in the special message field on
+the MBR (CIP M) or in the DCF Remarks or notepad. When appropriate, identify the need
+to investigate earnings if the BET/DT did not resolve unknown earnings because the
+reported earnings did not exceed 1/2 of the yearly SGA.
+6.
+Upload the documentation in EP or eView.
+b. Referring a Title XVI-only case for a full medical CDR
+Do not request the claim folder. The FO will obtain it.
+1.
+Update the DCF by first selecting the IPCA screen.
+2.
+Select item #2 INITIATE CDR; the IPCB screen appears.
+3.
+Enter the Detailed Office/Organization Resource System (DOORS) location of the servicing FO in the TRANSFER CASE OFFICE RESPONSIBLE FOR THE NEXT
+ACTION field.
+4.
+Enter Y next to REMARKS and enter a message that the mailer is being sent to the FO
+by mail. Include any other pertinent instructions or remarks, including reference
+to any unresolved work and earnings (see DI 40502.001J.2.c.).
+5.
+Annotate the CDR mailer with the CDR Mailer Decision Code, the DT or DS' name and
+Title, and the current date.
+6.
+Upload the documentation into EP or eView.
+NOTE:
+In the unusual situation where the Title XVI claims folder has been obtained, file
+the mailer (the actual form or the facsimile, if it was used to process the case),
+the profile sheet, and any attachments in the right side of the claims folder.
+c. CDT coding on the SSA-5526-U2-OP2
+The PC's supply of the SSA-5526-U2-OP2 may not have pre-printed Continuing Disability
+Review Type (CDT) codes for mailer cases that were initiated after fiscal year (FY) 1999. For DO CDR
+actions involving mailers initiated FY 2000 or later, print the appropriate CDT code in the CDT section of the SSA-5526-U2-OP2, if necessary.
+The possible CDT codes are:
+•
+40 CDR mailer released in FY 2000
+•
+41 CDR mailer released in FY 2001
+•
+42 CDR mailer released in FY 2002
+•
+43 CDR mailer released in FY 2003
+•
+44 CDR mailer released in FY 2004 or later
+A complete list of CDT codes is in SM 06001.120B.11.

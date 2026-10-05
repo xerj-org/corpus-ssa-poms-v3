@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02410.222 - Garnishment Cases Involving Harassment, Abuse, or Life Endangerment (HALE)
+Effective Dates: 10/13/2011 - Present | TN 31 (10-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410222 (fetched 2026-10-04)
+
+C. Other HALE processing requirements for garnishment
+OCO/OSB notifies the court or the State Disbursement Unit (SDU) of HALE and garnishment
+involvement on the case.  OCO/OSB asks the court or the SDU to flag the case to indicate
+family violence.  OCO/OSB also contacts the manager of the servicing field office
+(FO) and informs them that we assigned a new SSN based on HALE, and that we contacted
+the SDU.
+When we take action to input the new SSN in COGS, the notice address must be different
+from the garnishment recipient or their attorney’s address, i.e., LEGEND 1 on the
+Notice Address (OGNA) screen will not be to the address of these individuals.  The
+notice address in COGS will be for the court or the SDU that issued the garnishment
+order. See MSOM SPECPAYSYS 003.007, Notice Address (OGNA).
+If we annotate the ex-spouse or the attorney’s notice address in the OGNA in COGS,
+instead of the address for the court or the SDU, COGS generates a notice to the garnished
+beneficiary showing the ex-spouse or the attorney’s address. This places the ex-spouse
+in potential danger of abuse.

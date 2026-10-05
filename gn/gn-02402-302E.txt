@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.302 - Coding Germany Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402302 (fetched 2026-10-04)
+
+E. Description of Germany IDD bank data
+The data for coding IDD for Germany will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from their FI. The IBAN will be 22 characters.
+However, the bank data reflected on the MBR will consist of 21 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.

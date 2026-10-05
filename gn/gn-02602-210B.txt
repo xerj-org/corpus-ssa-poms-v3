@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - GN 02602.210 - Date of birth alerts
+Effective Dates: 03/13/2023 - Present | TN 96 (03-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602210 (fetched 2026-10-04)
+
+B. Procedure
+Review the record to determine the necessary action. Although developing proof of
+age may be the only action, other actions may be needed (e.g., development for a Certificate
+of Election or for RIB/Spouse dual-entitlement claim for a claimant in LAF S4: No
+Child in Care.)
+IF..........
+AND..........
+THEN..........
+1. POA is in file (i.e. review the CFUI using the Evidence Portal, and the EVID screen)
+a. it agrees with the MBR
+Complete the BEN1 screen/DOB1 screen to add appropriate proof code to MBR. See MS
+06307.027 for guidance.
+When applicable, annotate the A101 or EF101 with the correct DOB proof code, your
+initials, mod, and date.
+Determine the beneficiary's eligibility to HI/SMI (HI 00801.006) and refer to a BA for HI/SMI coding if appropriate.
+​
+b. it does not agree with the
+MBR
+Complete the (DOB1) screen to correct the DOB. Add the appropriate proof code to the
+MBR and proceed as indicated above, if appropriate. NOTE: If the DOB changes, the
+citizenship start date may also be affected (e.g., A person is a US born citizen,
+and the DOB is coded incorrectly as 02/06/1953 A, when it should be 02/09/1953 B.
+When action is taken to update the DOB, the citizenship start date should also be
+changed to 02/09/1953.
+2. POA not in file
+​
+Determine the DOB in accordance with the instructions provided in GN 00302.001ff and
+proceed as indicated in 1.a. or b. above. NOTE: Use POA tolerance rules if applicable,
+per GN 00302.030.

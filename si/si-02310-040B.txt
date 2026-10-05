@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - SI 02310.040 - Tax Data Interfaces - General
+Effective Dates: 07/09/2020 - Present | TN 60 (07-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310040 (fetched 2026-10-04)
+
+B. Definitions
+Definitions of tax data interface terms are given below.
+1. Authorized individual
+An authorized individual is an individual to whom tax data may be disclosed.
+(See SI 02310.041A.)
+2. Payee
+The payee is the individual or organization whose name and address appear on the payer's
+records; usually the taxpayer but the payee may be a third party who set up an account
+using the taxpayer's SSN.
+3. Payer
+The payer is the individual or organization which submitted the form 1099, W-2 or
+other report to IRS or SSA.
+4. SSA data
+SSA date is information contained in SSA's files prior to an interface and information obtained during the FO's independent verification. This information
+is subject to normal SSA disclosure procedures (see GN 03301.010) even though it may be identical to the tax data shown on the alert.
+5. Tax data
+Tax data is certain information on IRS and MEF interface alerts. Specifically, tax
+data includes the taxpayer's name, address, and SSN, type of transaction (e.g., interest,
+dividends, pension), and source of transaction (i.e., name of payer) and amount of
+transaction. (Even after the alert information is developed, safeguard the information according to SI 02310.040C.2 and SI 02310.040C.3.)
+6. Taxpayer
+A taxpayer is the individual under whose SSN the transaction was reported.
+7. Tax year
+The tax year is the calendar year to which the tax data pertain.
+8. Transaction
+A transaction, for purposes of tax data interfaces, is a transaction referring to
+the financial activity (e.g., interest or pension payment) reported to IRS or SSA
+on forms 1099, W2-G, or similar form.
+9. Unauthorized disclosure
+An unauthorized disclosure is making tax data known to anyone other than an authorized
+individual (as defined in SI 02310.040B.1.).

@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02401.904 - Field Office Processing of Limited Payability (LP) Alerts for Title XVI Cases
+Effective Dates: 05/14/2019 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401904 (fetched 2026-10-04)
+
+D. When a recipient indicates check was cashed
+When the recipient indicates they cashed the check:
+•
+access the Payment History - Limited Payability (UPLP) screen in MSSICS Direct SSR
+Update; and
+•
+select the payment in question and select “N” for the “Release Payment (Y/N)” field.
+The system holds the payment and the credit stays on the record. The SSR Unnegotiated
+Check Indicator (UCI) field changes from a code of “I” to a code of “M.”
+See details:
+•
+MSOM BUSSR 003.006 Payment History - Limited Pay (UPLP)
+•
+SM 01315.095 Kinds of Unnegotiated Check Indicator (UCI) Codes
+•
+SM 01601.835 Payment History - PMTH

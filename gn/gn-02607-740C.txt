@@ -1,0 +1,149 @@
+SSA Program Operations Manual System (POMS) - GN 02607.740 - PUPS Automated Processing Exclusions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607740 (fetched 2026-10-04)
+
+C. Procedure - identifying earlier date of suspension cases
+1. Comparing new earlier conviction/confinement information to existing PUPS record
+Check for the following data fields on the MBR and the current PUPS record and compare
+them to the new earlier confinement/conviction information that SSA has received in
+order to determine how to process the case.
+Master Beneficiary Record (MBR)
+The beneficiary's payment history on the current MBR will reflect LAF S7 for the date
+of suspension that SSA received for the beneficiary that correlates to the current
+PUPS record for the period of conviction/confinement. The RFST on the BENEFIT field
+of the MBR will reflect, PRISON, MENTAL, or PREDTR.
+NOTE: The PRSNDATSA entries on the MBR summarize all prisoner information on the MBR including
+start and stop dates for all periods of suspension and the type of confinement. These
+entries must be compared to the PUPS records for the correlating periods of confinement.
+Prisoner Update Processing System (PUPS)
+The current PUPS record will show on the P2QY screen, the status of: SUSPENSION, the
+date the status was posted, the action effective date, the T2 notice date; and, it
+will include the appropriate original PUPS confinement information (report date, receipt
+date, reporter ID, facility ID, confinement date, conviction date, inmate number)
+and corresponding Incentive Payment information (incentive payment amount, incentive
+payment selection date, paid to facility ID).
+NOTE: If there was a PUPS exclusion on the record, the status on the PUPS record will
+show No Action Necessary. There should be remarks on the PUPS record on the REMARKS
+screen to reflect the PUPS exclusion reason.
+When comparing the new earlier period of conviction/confinement (PUPS PENDING record)
+information to the current MBR and PUPS information, you must determine, based on
+the new earlier conviction/confinement information (new conviction/confinement information
+on the PUPS PENDING record and current LAF status for this new period of conviction/confinement
+on the MBR) and your review of the existing PUPS record if this additional period
+of conviction/confinement:
+•
+is continuous (the earlier date of conviction/confinement will continue through the
+current period of confinement that is posted to the PUPS record) or does it represent a transfer from one facility to the next facility (e.g., transfer
+from a detention center to a jail or from one jail to another jail, etc.) or is a closed period of conviction/confinement (a closed period of conviction/confinement
+occurs when a beneficiary is convicted/confined for a period of time then officially
+released from this period of confinement);
+•
+may or may not require an incentive payment; and
+•
+requires a change to the MBR and PUPS and how to properly annotate the new period
+of conviction/confinement to the MBR and to PUPS. See GN 02607.740A. in this section. for information on PUPS automated processing exclusions.)
+2. Evaluation of the comparison of earlier date of conviction/confinement information
+to current PUPS record and MBR
+The technician must compare the current MBR and the correlating PUPS record to information
+received by SSA on the PUPS PENDING record for the earlier period of conviction/confinement.
+After comparing the periods of conviction/confinement, evaluate the information as
+indicated below:
+NOTE: In some instances the beneficiary may be confined at the same correctional facility
+annotated to the current PUPS record (i.e., the period of confinement is continuous
+from the earlier date of suspension forward through the period of conviction/confinement
+posted to the current PUPS record). Or, the beneficiary may have been confined at
+a different facility than annotated to the current PUPS record.
+a. Earlier conviction/confinement--beneficiary in the same facility as currently annotated
+on PUPS
+Earlier Conviction/Confinement Period Continuous Through Current Conviction/Confinement
+Period--PUPS Automated Processing Exclusion Applies
+All the factors in GN 02607.740B. in this section. are true, and the earlier period of conviction/confinement and the
+current PUPS period of confinement are continuous. In addition, an incentive payment
+was paid on the current PUPS record to one specific facility. Posting an earlier date
+of suspension (LAF S7, RFST of PRISON, MENTAL or PREDTR) to the MBR (via PUPS/POS)
+and an earlier period of conviction/confinement to PUPS may cause an additional incentive
+payment to be generated to the same facility for the same continuing period of confinement.
+This facility should not be paid an additional incentive. See GN 02607.740C.2.c. in this section for identifying cases where the incentive payment can or cannot be
+made for an earlier conviction/confinement period. See GN 02607.740D.1.a. in this section for FO processing these types of cases through PUPS. See GN 02607.740D.1.b. in this section for PC/OCO-ODO processing of these types of cases through PUPS.
+Earlier Conviction/Confinement Period Not Continuous Through Current Conviction/Confinement Period--Closed Period of Conviction/Confinement
+Applies--No PUPS Exclusion Applies
+All the factors in GN 02607.740B. in this section are true, and, the earlier period of conviction/confinement and the
+current conviction/confinement period on PUPS are two separate periods of conviction
+and confinement (the earlier period of conviction/confinement is a closed period).
+In addition, an incentive payment was paid on the current PUPS record to the same
+facility. Posting an earlier date of suspension to the MBR (via PUPS/POS) and an earlier
+period of conviction/confinement to PUPS will cause an additional incentive payment
+to be generated to the same facility for the earlier period of closed conviction/confinement.
+This earlier period of conviction/confinement period must have a date
+of release that will be posted to the PUPS record. In this instance, if the earlier period or
+closed conviction/confinement is not continuous because the beneficiary was officially
+released from confinement before their second period of conviction/confinement period
+began, the facility can be paid an incentive payment for this new period of conviction/confinement.
+See GN 02607.740C.2.c. in this section for identifying cases where the incentive payment can or cannot be
+made for an earlier conviction/confinement period. See GN 02607.740D.2.a. in this section for FO processing these types of cases through PUPS. See GN 02607.740D.2.b. in this section for PC/OCO-ODO processing of these types of cases through PUPS.
+b. Earlier conviction/confinement -- beneficiary in different facility than currently
+annotated on PUPS
+Earlier Conviction/Confinement Period Continuous Through Current Conviction/Confinement
+Period--PUPS Automated Processing Exclusion Applies
+All the factors in GN 02607.740B. in this section are true, however, the earlier conviction/confinement period and
+the current period of conviction/confinement on the current PUPS record are continuous;
+e.g., transfer of an inmate from one correctional facility to another correctional
+facility while the inmate is still under the same conviction offense and the inmate
+was not granted an official release. In addition, an incentive payment was paid on
+the current PUPS record to a different facility than will be annotated to the earlier
+period of conviction/confinement inmate information. Posting an earlier date of suspension
+to the MBR (via PUPS/POS) and an earlier period of conviction/confinement without
+a released date to PUPS may cause an additional incentive payment to be generated
+to the different facility for the same continuing period of confinement. This facility
+should not be paid an incentive payment for the same continuing period of confinement.
+The facility that reported the inmate conviction/confinement to SSA first with all
+relevant information to cause SSA to suspend the title II benefit, should receive
+the incentive payment.
+See GN 02607.740C.2.c. in this section for identifying cases where the incentive payment can or cannot be
+made for an earlier conviction/confinement period. See GN 02607.740D.3.a. in this section for FO processing these types of cases through PUPS. See GN 02607.740D.3.b. in this section for PC/OCO-ODO processing of these types of cases through PUPS.
+Earlier Conviction/Confinement Period Not Continuous Through Current Conviction/Confinement Period--Closed Period of Conviction/Confinement
+Applies--No PUPS Exclusion Applies
+All the factors above in GN 02607.740B. in this section are true, however, the earlier period of conviction/confinement and
+the current conviction/confinement period on PUPS are two separate periods of conviction
+and confinement (the earlier period of conviction/confinement is a closed period).
+In addition, an incentive payment was paid on the current PUPS record to a different
+facility. Posting an earlier date of suspension to the MBR (via PUPS/POS) and an earlier
+period of conviction/confinement to PUPS will cause an additional incentive payment
+to be generated to another facility for the earlier period of closed conviction/confinement.
+The earlier closed period of conviction/confinement must have a released date. Posting the earlier closed period of confinement/conviction to PUPS and suspending
+via POS/PUPS will cause an additional incentive payment to be generated to the different
+facility for the earlier period of conviction/confinement. This facility should be
+paid an incentive payment for the earlier period of confinement.
+See GN 02607.740C.2.c. in this section for identifying cases where an incentive payment should or should
+not be paid to a facility for an earlier period of conviction/confinement. See GN 02607.740D.4.a. in this section for FO processing these types of cases through PUPS. See GN 02607.740D.4.b. in this section. for PC/OCO-ODO processing of these types of cases through PUPS.
+c. Paying incentive payment on earlier conviction/confinement periods of suspension
+Comparison of the Facility on Earlier Date of Conviction/Confinement PUPS Record to
+the Current PUPS Record Facility
+Released Date Annotated to Earlier Date of Confinement PUPS Record
+Issue Incentive Payment on Earlier Date of Confinement Period
+If the facility on the earlier period of conviction/confinement is the same as the facility on the current period of conviction/confinement
+and there is no released date on the earlier period of conviction/confinement
+then, an incentive payment is not due the facility for the earlier period of title II conviction/confinement.
+This is a PUPS Automated Processing Exclusion
+If the facility on the earlier period of conviction/confinement is the same as the facility on the current period of conviction/confinement
+and there is a released date on the earlier period of conviction/confinement
+then, an incentive payment may be due the facility for the earlier period of conviction/confinement if the factors in
+GN 02607.800C.; GN 02607.800D. and GN 02607.800E. are also met by the facility. The suspension should be processed through PUPS, if
+appropriate.
+If the facility on the earlier period of conviction/confinement is different than the facility on the current period of conviction/confinement
+and there is no released date for the earlier period of conviction/confinement and the receipt date on the earlier
+period of confinement/conviction is the same or after the receipt date on the later conviction/confinement PUPS record
+then, an incentive payment is not due the facility for the earlier period of title II conviction/confinement.
+The case is a PUPS Automated Processing Exclusion.
+If the facility on the earlier period of conviction/confinement is different than the facility on the current period of conviction/confinement
+and there is no released date for the earlier period of conviction/confinement and the receipt date on the earlier
+period of confinement/conviction precedes the receipt date on the later conviction/confinement PUPS record
+then, an incentive payment may be due the facility for the earlier period of conviction/confinement if the factors in
+GN 02607.800C.; GN 02607.800D. and GN 02607.800E. are also met by the facility. Refer case to Field Operations Prisoner Coordinator
+(FOPC) to process per GN 02607.830B.
+This case is a PUPS Automated Processing Exclusion
+If the facility on the earlier period of conviction/confinement is different than the facility on the current period of conviction/confinement
+and there is a released date for the earlier period of conviction/confinement
+then, an incentive payment may be due the facility for the earlier period of conviction/confinement if the factors in
+GN 02607.800C.; GN 02607.800D. and GN 02607.800E. are also met by the facility. The suspension should be processed through PUPS, if
+appropriate.

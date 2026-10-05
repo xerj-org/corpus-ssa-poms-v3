@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - DI 81010.150 - Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System (EDCS)
+Effective Dates: 11/16/2023 - Present | TN 73 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010150 (fetched 2026-10-04)
+
+D. Completing the 3441 (Disability Report Form) for appeal in EDCS
+Use the SSA-3441 for reconsiderations and hearings for both adult and children claims.
+The “Date of Last Disability Report” field automatically pre-fills with the date the
+lower-level case was initiated in EDCS.
+If the claimant, representative, or third party completed an Internet Disability Report
+(IDR) Appeal (i3441), see Receiving the i3441 (Internet Disability Report – Appeals)
+- DI 81007.050 for instructions.
+1. Data from prior case level
+After establishing the 3441 in EDCS, it links to the prior level case. This allows
+certain data to be copied from the prior level case into the 3441. Copy the following
+types of data:
+•
+sources,
+•
+contacts,
+•
+medications,
+•
+tests, and
+•
+other names the claimant has used.
+EDCS displays the toggle link “Show information from prior level(s).” To copy an item
+from a previous level, select the desired item in the “available for copy” box. Not
+all fields for the item selected can be copied into the current case. Information
+that may have changed is left blank after copying the data and must be completed by
+the interviewer. This information includes the following medical source fields:
+•
+last and next visit dates,
+•
+reasons for visits, and
+•
+treatments.
+NOTE: If there is no information available from a prior level for the user to copy, the
+claimant may not have provided any information for the prior level, or the case may
+be an exclusion from electronic processing. For information on copying from a prior
+level, see Creating Electronic Disability Collect System (EDCS) Cases - DI 81010.020C.2. If the case is an electronic exclusion, CEF Exclusions and Limitations - DI 81010.030 provides instructions for processing.
+2. Data copied from prior case level
+When data is copied from a prior case level: Insert an introductory sentence here:
+•
+The item that was copied to the current appeal level returns it to the “available
+for copy” section when deleted.
+•
+If you delete a new item that was added to the current appeal level it is deleted
+from the case.
+•
+Copying a medication or a test also copies the source for that medication or test.
+NOTE: Copying medical test information from a school in a child’ claim does not copy the
+source (school) information from the initial level.
+•
+Selecting “No” to a medication or test lead question and attempting to select a medication
+or test from the “available for copy” list causes an alert message to appear.
+•
+“Key fields” cannot be changed once a source is copied. For example, if a medication
+is copied to the current level, the medication name cannot be changed.
+•
+If a source from a prior level has a change of address or telephone number, copy the
+source to the current level case and update the information.

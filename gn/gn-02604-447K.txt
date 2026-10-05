@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02604.447 - Answers to Frequently Asked Questions in Administrative Sanction Cases
+Effective Dates: 01/26/2022 - Present | TN 59 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202604447 (fetched 2026-10-04)
+
+K. Administrative sanctions and Title II systems
+1.
+QUESTION: FOs will have to access the Title II and Title XVI records on each person who files
+a claim to see if a sanction exists. Have you considered a link to the Integrated
+Client Data Base so it will automatically come up on the application screens?
+ANSWER: FOs will use the new Administrative
+Sanctions Tool to track all administrative sanction cases.
+2.
+QUESTION: How do we suspend Title II benefits for sanctions?
+ANSWER: FO and PSC employees can suspend benefits through the Post Entitlement Online
+System (POS) by choosing, "Administrative Sanctions (LAF-S9), from the POS Suspensions/Terminations
+and Reinstatements (PEST) screen. For additional information on PEST, see MS T2PE
+003.013.
+3.
+QUESTION: Have you considered another LAF code rather than the miscellaneous suspension code
+of S9? The miscellaneous suspension code S9 could apply to anything.
+ANSWER: We have considered this issue, and have proposed it as a future systems enhancement.
+In the interim, we identify sanction months by the reason for deductions (RFD) code
+of 9 and the work indication code (WIC) of A, B or C in the PAYMENT HISTORY portion
+of the MBR. While we withhold payments due to sanctions, the LAF will be S9 and the
+reason for suspension/termination (RFST) code will be ASANCT.
+4.
+QUESTION: Perhaps an alert similar to the Prisoner Update Processing System (PUPS) alert could
+appear on MBR, SSID, etc.
+ANSWER: We are considering making future enhancements, subject to the availability of resources.
+5.
+QUESTION: How should we annotate the SSR and MBR if there is a termination or a suspension
+event during the sanction period? Should the termination or suspension annotation
+override the suspension LAF/PSC?
+ANSWER: If during the sanction period the beneficiary becomes ineligible for another reason,
+the SSR or MBR should reflect that reason. Failure to do so would allow any auxiliaries
+or recipients on the record to continue to receive benefits. Use the special message
+field of the MBR to indicate the sanction months. Once a sanction period begins, the
+sanction months run consecutively regardless of whether or not there are periods of
+ineligibility during the sanction period.

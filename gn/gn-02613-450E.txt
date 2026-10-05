@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 02613.450 - Protest of Suspension and Deferral of Overpayment Recovery
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613450 (fetched 2026-10-04)
+
+E. Procedure - resume benefits
+1. Rules for resuming benefits
+Resume benefits the first month benefits were erroneously suspended LAF S9 on MBR
+with an RFST of FUGFEL on the MBR.
+2. FO/PSC instructions - resuming benefits from LAF S9 using POS/FFEL
+When we discover that a beneficiary has been erroneously suspended because the beneficiary:
+•
+established good cause (see GN 02613.025 for information on good cause) for not satisfying their warrant after suspension
+had occurred, or
+•
+protested timely during the due process period and benefits were inadvertently suspended
+by T2 R Finder before SSA could act on the protest, take the following actions; or
+•
+provides evidence that the warrant was satisfied within 30 days after the date it
+was issued.
+Use the FFEL screen in POS system (see MSOM COMMON 005.035 for systems processing
+instructions for the FFEL screen) to resume benefits from LAF S9 to the beneficiary.
+Follow the instructions in the chart to resume benefits.
+Steps
+Action
+1
+From the POS path, select #8 on the POS Suspensions /Terminations and Reinstatements
+(PEST) submenu or
+2
+Add a Y in the RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH on the FFEL screen.
+Enter a RESUMPTION REQUEST REASON: 4 = ERRONEOUS SUSPENSION. Benefits will be reinstated
+the month the benefits were first suspended for fugitive felon suspension.
+For Establishment of Good Cause, post the following entries on the FFEL screen:
+Add a Y in the RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH on the FFEL screen.
+Enter a RESUMPTION REQUEST REASON: 3=Good Cause. Enter a GOOD CAUSE 3-digit CODE PER
+(GN 02613.930A).
+3
+Do not post a protest on the FFDG screen since the DUE PROCESS MATURITY DATE on the
+FFDG screen already matured.
+For Establishment of GOOD CAUSE Cases, process information to the FFDG screen per
+(GN
+02613.025C.6.a.) and MSOM PRISON
+006.007. A good cause determination must also be made annotated to the EVID screen per (GN
+02613.025C.6.a.).
+4
+Tickle the MDW for 7 working days until action updates to the MBR. If action does
+not work reinstatement action must be accomplished using MADCAP/MACADE FFEL screen
+will create a PCACS issue (see GN
+02613.770C. for PCACS TOEL codes used in fugitive felon case processing) if the reinstatement
+input does not work. See (GN 02613.500B.2.) for processing instructions if the FFEL reinstatement action does not process correctly.
+5
+Check MBR to make sure beneficiary is in current payment status effective with the
+first month of suspension. (See GN
+02613.600A.2., step 2.
+6
+Developing Representative Payee Suitability -- Check RPS in each case where the beneficiary/claimant
+has an outstanding felony warrant determining if they are serving as a representative
+payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to (GN 00502.133).
+7
+An automated reinstatement notice will be sent to the beneficiary by the T2 Notice
+system if the case successfully processes through T2. See (NL 00755.700) for the language that should be included in this notice.

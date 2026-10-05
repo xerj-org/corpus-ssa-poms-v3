@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - DI 45001.400 - Processing Center (PC) 7 Instructions for Medicare Part B Immunosuppressive Drugs Coverage (Part B-ID)
+Effective Dates: 01/13/2023 - Present | TN 8 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001400 (fetched 2026-10-04)
+
+B. Processing a Part B-ID enrollment
+All Part B-ID actions are completed in processing center (PC) 7. If the form CMS-10798
+Application for Enrollment in Part B Immunosuppressive Drug Coverage form is misrouted,
+load the form into PC7’s paperless system using the Evidence Portal (EP). For instructions
+on loading to the EP, see DI 11052.046D. Before uploading CMS-10798 to the EP, write Part B-ID Enrollment across the top of
+the form.
+All actions for Part B-ID, and any actions on records that have active Part B-ID,
+must be processed via the Manual Adjustment Credit & Award Data Entry (MACADE). PC
+7 handles all Part B-ID enrollment and disenrollment actions. All other post entitlement
+actions are processed in the PC of jurisdiction.
+Enrollment requests can be identified in the paperless system by Type of Event Level
+(TOEL) HISMI PBID.
+Requests for enrollment may be taken over the telephone by the Office of Disability
+Operations Teleservice Center, or the beneficiary may complete the CMS-10798 Application
+for Enrollment in Part B Immunosuppressive Drug Coverage. If the form CMS-10798 is
+completed or received by the field office, staff will upload the form into PC7’s paperless
+system for processing.
+Review to ensure the request is complete by:
+•
+Confirming eligibility for Part B-ID is met using HI 00805.400. Ensure the individual is or was entitled to Medicare Part A based on ESRD that has
+or will terminate 36 months after a successful kidney transplant;
+•
+Ensuring the file contains the request to enroll in Part B-ID; and
+•
+Ensuring the file contains an attestation that the individual does not have and does
+not expect to enroll in certain other health insurance that includes immunosuppressive
+drugs coverage. The beneficiary must agree to notify Social Security within 60 days
+of obtaining other coverage.
+NOTE: If the individual has Medicare or certain other health insurance as explained in
+DI 11052.046B1, they are not eligible to enroll in Part B-ID.
+•
+Once the request is reviewed, the benefit authorizer (BA) may input the action via
+MACADE. See SM 00850.800.
+•
+The following day, review the action to ensure the MBR updated.

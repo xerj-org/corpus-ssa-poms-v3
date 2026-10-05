@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 81010.144 - Processing End Stage Renal Disease (ESRD) Cases
+Effective Dates: 04/17/2015 - Present | TN 4 (10-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010144 (fetched 2026-10-04)
+
+C. ESRD claim and existing CEF case
+If there is an existing CEF (pending or closed), the CR verifies ESRD entitlement
+and processes the claim according to current procedures. Additionally, the CR:
+•
+Completes the End Stage Renal Disease (ESRD) Medicare Determination Form SSA-892-U2
+per HI 00801.308 Preparing the SSA-892-U2;
+•
+Creates a barcode coversheet for Form SSA-892-U2 using document type code 0113 – ESRD
+Medicare Determination;
+•
+Creates a barcode coversheet for Form CMS-2728-U3 using document type code 0114 –
+ESRD Medical Evidence Report;
+•
+Faxes both the SSA-892-U2 and the CMS-2728-U3 into the CEF using the barcode coversheets
+per DI 81010.090 Faxing Documents into the Certified Electronic Folder (CEF) Using Barcodes;
+•
+If ODO action is needed fax form SSA-3601 Claims Routing Form to PC7 via the Paperless
+Processing Center (PPC) system using Fax number (877) 385-0643; and
+NOTE: This alerts ODO that there is an issue pending. The faxed Form SSA-3601 should display
+the proper TOEL – “CLAIM ESRDINT” and a remark – “Manual Action Required. See SSA-892
+in Section A and CMS-2728 in Section F of eView”.
+•
+Inputs the adjudicative decision and PC-7 jurisdiction on the Decision Input (DECI)
+screen.
+NOTE: Use Non-EC Clearance when transferring the MCS segment to PC-7 for manual processing
+of the ESRD award.
+In some cases, a CEF exists for a claimant in a terminated status (e.g., LAF – T8,
+or X7). If the ESRD award action can be processed to completion (LAF change to “U”)
+by the Field Office via MCS EC, skip the 5th and 6th bullets as shown in DI 81010.144C. above, as this requires no ODO MACADE action.

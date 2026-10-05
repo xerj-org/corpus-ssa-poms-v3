@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - SI 00530.270 - How Do I Process an OIG Referral With an SSI Claim Pending?
+Effective Dates: 08/05/2022 - Present | TN 15 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530270 (fetched 2026-10-04)
+
+B. Procedure - general
+1.
+Review all information provided by OIG and, if applicable, withhold SSI benefits effective
+with the first day of whichever of the following months is earlier:
+•
+The month in which the warrant, court order or decision, or order or decision by an
+appropriate agency (e.g. parole board) is issued which finds that the individual is
+wanted for prosecution, or custody or confinement after conviction for a felony, or
+is violating (or violated) a condition of their parole or probation, or
+•
+The first month during which the individual fled to avoid such prosecution, custody
+or conviction, or violated a condition of parole or probation, if indicated on the
+warrant, court order or decision.
+2.
+For MSSICS cases, post fugitive information on the fugitive screens and record the
+denial on the DADJ screen and close the event (MSOM MSSICS
+025.003 ).
+3.
+For non-MSSICS cases, transmit DS N25 via PR9 on a SSA-450-SI.
+4.
+If the individual is eligible for some past months but is currently ineligible due
+to their status as a fugitive felon or parole/probation violator, follow the instructions
+in MSOM MS 08125.008 to record N25 and the effective month using the Payment Status
+page . Follow the instructions in SM 01005.476 for non-MSSICS cases.
+5.
+If the case is pending in the DDS, call the DDS to relay available information about
+the applicant's fugitive status, including months of ineligibility. Only recall folder
+from DDS when no SSI eligibility is possible.
+6.
+Annotate appropriate Remarks on SSR, depending on the information provided on the
+OIG OI-5D. (See SI 00530.240 – SI 00530.260.)
+7.
+Prepare a Notice of Disapproved Claim (SSA-L8030-U2) using the notice language available
+in the Document Processing System (DPS) when there are no SSI eligibility months.
+Include good cause language in this notice (SI 00530.015).

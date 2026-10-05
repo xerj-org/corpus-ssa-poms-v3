@@ -1,0 +1,98 @@
+SSA Program Operations Manual System (POMS) - GN 02613.150 - Receiving and Processing Warrant Information
+Effective Dates: 08/03/2022 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613150 (fetched 2026-10-04)
+
+C. Procedure for other issues referred to OIG from the FFSCF database
+1. EVS code of A cases and other identity mismatched cases
+In some instances, the Fugitive Felon Computer Match (FFCM) identifies an incorrect
+individual when matching against the MBR, or SSR because the incoming SSN information
+does not match what is on SSAs records. The system did a match using an alpha-search
+using only the name and date of birth on the warrant, and the match was not accurate.
+In other cases, certain matching tolerance criteria may result in an inaccurate match
+(i.e., mismatched identity case). Because of these errors, the FFSCF automatically
+sends a Title II Advance Notice of Proposed Suspension to a beneficiary who claims
+they never had an outstanding warrant. The beneficiary may protest during the due
+process period, or after the suspension has occurred if they do not have an outstanding
+warrant. (For information on the Advance Notice of Proposed Suspension and the due
+process period requirements, see GN 02613.940A.)
+SSA processes the protest to the suspension.
+The chart provides instructions on processing warrant information for situations where
+the beneficiary states that they do not have a warrant (e.g., EVS code of A or a mismatched
+identity case).
+STEPS
+ACTIONS
+1
+BENEFICIARY IN CURRENT PAY WHEN PROTEST IS RECEIVED BY SSA (due process period has
+not
+expired yet):
+Update the FFDG screen on the FFSCF, and enter a PROTEST DATE (the date the beneficiary
+contacted SSA to protest). The PROTEST DATE stops the fugitive suspension from occurring
+when the due process period matures. Go to step 3.
+2
+BENEFICIARY IN SUSPENSION STATUS WHEN PROTEST IS RECEIVED BY SSA.
+Do not input a PROTEST DATE on the FFDG screen in FFSCF, or on the FFEL. Follow steps
+3 and 4 to resolve the beneficiary's allegation of mistaken identity. If OIG responds
+that the warrant does not belong to the beneficiary, resume benefits on the FFEL,
+based on Good Cause Reason MID. For Title XVI cases, reinstate according to the due
+process policies in SI 02301.300 through SI 02301.320.
+For additional instructions on resuming benefits from fugitive felon suspension status,
+see GN 02613.600.
+3
+Review the MBR, SSID, and NUMIDENT to determine if the beneficiary's SSN, name, date
+of birth and place of birth are the same on SSAs records, as they are on the FFWQ.
+Check the warrant issuing State on the FFWQ against the MBR address.
+NOTE:
+If the States are different, there is a possibility that the beneficiary is not the
+individual for whom the warrant was issued.
+If the identity information is discrepant and the beneficiary alleges that they were
+never in the State that issued the warrant, or that they were never in that State
+around the time the warrant was issued, further investigation of the identity of the
+individual on the warrant is required. Go to step 4.
+Or,
+If the beneficiary provides sufficient information or evidence when they contact SSA
+to protest their suspension, and the evidence proves that the beneficiary is not the
+individual for whom the warrant was issued, resume benefits. Go to step 8.
+4
+Refer the case to OIG via email to: ^Fugitive Felon. In the Subject Line of the email,
+include your DO or PC code. Provide the facts of the EVS code of A or identity mismatch
+case situation (see information to include in the email message per GN 02613.150B.1., step 2, in this section) to OIG and ask them to investigate the identity of the
+individual on the warrant. Go to step
+5.
+Check RPS in each case where the beneficiary or claimant has an outstanding felony
+warrant, to determine if they are serving as a representative payee.
+Effective April, 2005, persons having an outstanding felony warrant are prohibited
+from serving as a payee. There are no exceptions to this prohibition, see GN 00502.133, Payee Applicant is a Felon or Fugitive or Has Been Convicted of Other Criminal Acts.
+5
+OIG sends an email to the SSA FO that submitted the request, with the results of its
+investigation.
+6
+If the warrant belongs to the beneficiary, go to step 7.
+If the warrant belongs to another individual, and not the SSA beneficiary, go to step
+8.
+7
+Warrant belongs to the beneficiary
+Check the WARRANT SOURCE INFORMATION on the FFWQ screen on the FFSCF.
+If the WARRANT SOURCE INFORMATION is: LEA Batch File or OIG Initiated or FFAP Record,
+post PROTEST DENIAL CODE = 2 on the FFDG screen. The suspension automatically passes to the T2 system when the next batch run expires.
+Suspension of benefits automatically occurs at the DUE PROCESS MATURITY DATE (even
+if this date is in the past at the point of case processing). For instructions on
+this type of action for Title XVI cases, see SI 00530.000.
+Or,
+If the WARRANT SOURCE INFORMATION is: Third Party Report, update the FFSCF on the
+FFDG screen with a code of 2=PROTEST DENIAL, use the FFEL system to suspend benefits,
+per MSOM COMMON 005.035. (For Title XVI cases, also see SI 00530.015C.7.
+The suspension and overpayment notices are automatically generated by the T2 notice
+system.
+8
+If the warrant does not belong to the beneficiary, go to the FFSCF, FFDG, and enter a PROTEST DISPOSITION 1 = PROTEST APPROVED and
+a GOOD CAUSE ESTABLISHED Y, GOOD CAUSE REASON MID.
+Do not prepare a Good Cause Determination, per GN 02613.025C.6. (Good Cause Provisions).
+Send a notice to the beneficiary that explains that SSA did not identify the correct
+individual on the warrant, and that benefits are not suspended because the beneficiary
+is not the individual identified on the warrant. For suggested language to use in
+this notice to the beneficiary, see NL 00755.700.
+2. PC receives report that the beneficiary states that they do not have a warrant- (EVS
+code of A case or mismatched identity issues)
+Refer the beneficiary protest, and the warrant information to the SSA FO that has
+jurisdiction over the beneficiary's address on the MBR, for action on EVS code of
+A situations, or cases where the identity on the warrant is mismatched.

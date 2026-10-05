@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 52150.025 - Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset Ending Date
+Effective Dates: 12/11/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150025 (fetched 2026-10-04)
+
+C. Offset ends when WC/PDB payments stop
+When the NH reports WC/PDB payments have ended, obtain verification that the case
+is closed and no further payments or awards are expected. For instructions regarding
+obtaining verification, see DI 52145.001.
+If the NH requests full benefits be paid until WC/PDB payment resumes or until proof
+is received that no more payments will be made, take the following actions:
+•
+Obtain the request in writing. It should include a statement acknowledging potential
+overpayment and the repayment requirement.
+•
+Obtain verification of the last date of payment.
+•
+Verify that the NH did not receive a lump sum (LS) settlement.
+•
+Post a special message to the MBR regarding the request and repayment statement. Indicate
+in the message whether the repayment statement is in the Claims File User Interface
+(CFUI).
+•
+Route all WC/PDB documentation for permanent retention. For instructions regarding
+retention, see DI 52145.001.
+•
+Establish a diary control. For establishing diary control in the FO, see DI 52140.001H., and for PC diaries, see DI
+52140.010D.
+After the necessary documentation is received, process the WC/PDB end date.
+•
+In MCS, enter the end date on the WC/PDB Periodic Payments (WPPR) screen. For coding
+information, see MSOM COMMON 001.005.
+•
+If processing the end date as a post-entitlement event, enter payment information
+on the WC/PDB Offset-Periodic Payments (WCPP) screen in ICF #32 or #34. For coding
+information, see MSOM ICFT2 031.014.

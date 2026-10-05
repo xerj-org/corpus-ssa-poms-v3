@@ -1,0 +1,180 @@
+SSA Program Operations Manual System (POMS) - GN 02201.030 - Collection of Title II Overpayments by Tax Refund Offset (TRO)
+Effective Dates: 05/08/2025 - Present | TN 78 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201030 (fetched 2026-10-04)
+
+E. How should post offset and post certification inquiries be handled?
+SSA will receive some inquiries after certification of cases to Treasury or after
+actual offset has occurred. In many of these cases, the debtor simply failed to contact
+us to resolve the repayment issue as specified in the pre-offset notice. There are
+other situations, however, where certification to Treasury may have been incorrect.
+This section explains how to handle specific post offset and post-certification inquiries.
+1. Allegation of pending protest, waiver, or hearing request
+If a debtor alleges that he or she filed a protest or requested waiver or hearing
+but never received a decision, obtain a ROAR query and proceed as follows:
+a.
+If there is an Initial Waiver (23W), Recon Fact/Amount (23R), or Hearing (23H) posted
+before the date of the offset but no decision has been made and released:
+•
+The PC refunds any amount offset by Treasury. This refund is known as an Agency Refund,
+and we must notify Treasury about the refund. Input the Agency Refund using the Correct
+Offset Amount screen (TRCA), which is requested from the Debt Management Menu (DMMU)
+function number 12-Treasury Offset Menu (TRMU) screen, see MS
+01114.005.
+•
+Look for an SSA-632-BK (Request for Waiver of Overpayment Recovery), a letter from
+the debtor or his or her representative, or a Form SSA-795 (Statement of Claimant
+or Other Person) in FO records or in the claims folder.
+b.
+If ROAR reflects an unfavorable reconsideration, waiver, or hearing decision:
+•
+Advise the debtor that since we resolved the issue, recovery via TRO was appropriate.
+•
+Do not refund any amounts offset by Treasury.
+c.
+If there is no ROAR posting but the debtor still indicates filing prior to the protest
+or waiver or hearing, look for an unprocessed SSA-632-BK, letter or SSA-795 in FO
+records or in the claims folder. If there is no evidence in the claims folder, check
+Debt Management System Remarks.
+•
+Documentation found of waiver or protest or hearing filed before certification or
+offset
+–
+Process as in GN 02201.030E.1.a in this section.
+–
+Post the pending request to ROAR via the DRPR or DRPF screen.
+•
+No documentation found
+–
+Advise the debtor that the records review fails to produce any evidence of a pre-certification
+protest or waiver or hearing.
+–
+If the debtor wishes to file a new waiver, follow GN 02201.030E.2 in this section.
+2. Request for waiver
+If we receive a request for waiver, proceed as follows:
+a.
+Obtain an SSA-632-BK in accordance with current instructions in GN 02250.002. Input the request for waiver.
+b.
+If TRO recouped the entire debt (i.e. the debt balance is zero), proceed as follows:
+•
+Consider waiver of the entire overpayment amount.
+•
+Advise the debtor that SSA will refund the amount offset only if SSA approves the
+waiver.
+•
+Refund any monies due if the waiver is approved (partially or fully). Refund any amount
+offset by Treasury. Process the refund as in GN
+02201.030E.1.a in this section.
+c.
+If TRO partially recouped the debt, proceed as follows:
+•
+Consider waiver on the outstanding balance unless the debtor asks for waiver for the
+full overpayment amount. See GN 02250.310A.3 which states for recovery to defeat the purpose of amounts already recovered, the
+debtor must show evidence of going into debt to repay the overpayment.
+•
+Refund any monies due if we approve the waiver request (partially or fully). Process
+the refund as in GN 02201.030E.1.a in this section.
+3. Request for installment payments
+When a request for installment payments is received, proceed as follows:
+a.
+If the debtor negotiated an installment agreement prior to certification and the debtor
+made payment(s) in accordance with that agreement but offset still occurred, refund the amount offset, unless the debtor wants us to
+retain the money as payment toward the debt.
+If you refund the offset, input an Agency Refund as in GN 02201.030E.1.a in this section.
+b.
+If the request is made after certification, proceed as follows:
+•
+Input the manual installment agreement via the Record Installment Agreement (DRIN)
+screen, see MS 01106.014.
+•
+Advise the debtor that the debt will remain in TRO until it is completely recovered.
+Explain that SSA will not refund any offset monies (except for excess collection.
+4. Excess collection
+Excess collections occur when the total amount of voluntary payments and offsets exceed
+the debt amount. For example, when a certified debtor enters into an installment agreement
+and fully refunds the debt after certification, an excess collection would occur if
+Treasury offsets for the full amount of the debt.
+If one debtor is on the record, refund the excess amount using the instructions below:
+Refund Excess collection to the TRO debtor.
+•
+If the offset causes the excess collection, input an Agency Refund as in GN 02201.030E.1.a in this section.
+•
+If the voluntary remittance caused the excess collection, repay the excess to the
+debtor but do not input an Agency Refund because we are sending back only the voluntary remittance,
+not
+the TRO.
+If more than one debtor is on the record and the system posted the excess collection
+to that other debtor, an “unverified offset alert” is generated to the PC. If this
+occurs, proceed as follows:
+•
+Refund the excess collection to the TRO debtor. If the offset caused the excess collection,
+input an Agency Refund as in GN
+02201.030E.1.a. in this section.
+•
+If the voluntary remittance caused the excess collection, repay the excess to debtor
+but do not input an Agency Refund because we are sending back only the voluntary remittance,
+not
+the TRO.
+•
+Remove the other debtor from the Recovery and Collection of Overpayment Process (RECOOP)
+system if the other debt was loaded as a result of the posted excess refund. Correct
+the other debtor's overpayment balance.
+5. Erroneous offset due to incorrect BOAN
+If the FO discovers the incorrect BOAN, report the case to the PC; so that it can
+be deleted from TRO. Provide the claim number, debtor's name and both the correct
+and incorrect BOANs in the report.
+If the PC discovers the incorrect BOAN, stop the offset by using the TRSO screen.
+Select “permanent deletion” as the reason for stopping the offset, see MS 01114.003.
+Correct the MBR once the correct BOAN is determined perSM 00613.605.
+Refund the erroneous offset to the person due the tax refund.
+6. Erroneous offset to a joint taxpayer
+When a couple files a joint tax return and the person who is not an SSA debtor wishes
+to receive his or her portion of the refund, advise the person to contact the Internal
+Revenue Service (IRS) (1-800-829-1040) and to ask for an "injured spouse claim". The IRS is responsible for adjudicating
+injured spouse claims and any refunds must be made by the IRS, not SSA.
+7. Examples
+Following are case examples of common post offset and post-certification situation.
+a. Timely protest resolved under prior certification
+A debtor contacted us in September and provided documents he felt would show that
+the debt does not exist. In November, the PC advised him that his case was reviewed
+and the overpayment does exist. The debtor has taken no further action until contacting us in early February
+to say that he has been refused a rapid refund.
+Explain that our referral to Treasury for collection was proper. If there is a balance
+after the offset and the person now wishes to pay that balance in full or negotiate
+an installment agreement, we will accept it. Explain that SSA we will not return the
+offset monies unless the total that was repaid exceeds the amount of the overpayment,
+or if the person requests a waiver that SSA subsequently approves.
+b. Alleged nonreceipt of preoffset notice
+1.
+Undeliverable notice posted to TOP
+A debtor calls us in March complaining that Treasury offset $500 of their refund to
+repay a debt to SSA and not receiving a pre-offset notice from SSA.
+SSA's query shows an undeliverable notice posted on March 5. Explain both the TRO
+process and the existing overpayment to the debtor. Also explain that we received
+the returned notice from the post office too late to stop the offset, but we will
+take action to refund the money withheld by Treasury if the debtor wishes it. If the
+debtor request the money be returned to them, determine their preferred method of
+receiving the funds. Tell the debtor we will refer this debt to Treasury again if
+the debtor becomes delinquent in repaying, where the debt will remain until it is
+paid in full.
+2.
+No undeliverable notice entry on TOP
+The same situation as above, except the Collection Query does not have an undeliverable
+notice entry.
+Explain that we have a record of all notices returned as undeliverable by the Postal
+Service and this debtor's notice was not returned. When the notice has not been returned,
+we must assume it was delivered and proceed under the provisions for debt collection
+under TRO. Explain to the debtor that we must keep the money collected by Treasury
+unless the debtor establishes that:
+a.
+The debt does not exist;
+b.
+The debtor has no liability for repaying the debt;
+c.
+The recovery of the debt is waived; or
+d.
+The debtor provides clear and convincing evidence the letter was never delivered because
+it was sent to the wrong address. This proof can include state ID, bills, bank statements,
+or other official mail sent to an address different from the one on the pre-offset
+notification.
+The debtor may pursue any of these options, but SSA will not refund any money unless
+a favorable decision was reached based on the information the debtor provided us.

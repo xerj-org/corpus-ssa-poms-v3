@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - GN 03940.070 - Title XVI - Fee Agreement Manual Notice Field Office Processing
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940070 (fetched 2026-10-04)
+
+C. Procedure - Title XVI Only - Favorable Decision - Spouse’s Past-Due Benefits May Be/Are
+Used to Calculate and/or Pay Fee
+1. Fee Agreement Disapproved - Past-Due Benefits Withheld for Possible Direct Payment
+a. CR Disapproves Fee Agreement
+When the CR disapproves the fee agreement at the initial or reconsideration level,
+the CR prepares the disapproval notice manually through DPS.
+Use UTI FEE038; caption ATYC08 and UTI FEE060; caption ATYC02, UTI ATY817, caption
+ATYC09, and UTIFEE093; caption ATYC10 and UTI ATY045; and caption ATYC03 and UTIs
+FEE035, FEE107, FEE108, FEE067, FEE085, and FEE087 to notify the claimant and representative
+that:
+•
+the fee agreement is disapproved and why;
+•
+SSA is withholding the individual’s past-due benefits and the individual’s spouse’s
+past-due benefits; and
+•
+the representative should file a fee petition within 60 days if he/she wishes SSA
+to pay the fee directly to him/her.
+b. ALJ or AAJ Disapproves Fee Agreement
+Do not prepare a fee notice of the disapproval because you are not the decision maker.
+In those claims, the ALJ or AAJ notifies the claimant and representative of the disapproved
+fee agreement.
+Use UTI FEE058, caption ATYC10 and UTI ATY045; caption ATYC03 and UTIs FEE035, FEE107,
+FEE108, FEE067, FEE085 and FEE087, to manually notify the claimant and the representative
+that:
+•
+SSA is withholding the individual’s and the individual spouse’s past-due benefits,
+and
+•
+the representative should file a fee petition within 60 days if he/she wishes SSA
+to pay the fee directly to him/her.
+2. Fee Agreement Approved - Fee Authorized - No IAR
+a. CR Approves Fee Agreement
+When the CR approves the fee agreement at the initial or reconsideration level and
+authorizes a fee, send a manual notice.
+Use UTI FEE038; caption ATYC06 and UTI ATY020; and caption ATYC10 and UTI FEE089.
+•
+If the representative is not eligible for direct payment, use FEE022.
+•
+If the representative is eligible for, but waived direct payment, use FEE033.
+Use UTI FEE077.
+•
+If the representative is eligible for and receiving direct payment, use caption ATYC03
+and UTIs FEE035, FEE078, FEE080, and FEE047.
+Also send a manual notice to the spouse. Refer to GN03940.070F.
+b. ALJ or AAJ Approves Fee Agreement
+When an ALJ or AAJ approves the fee agreement, the CR authorizes the fee and advises
+about fee payment through a manual notice.
+Use UTI FEE038; caption ATYC10 and UTI FEE051.
+•
+If the representative is not eligible for direct payment, use FEE022.
+•
+If the representative is eligible for, but waived direct payment, use FEE033.
+Use UTI FEE077.
+•
+If the representative is eligible for and receiving direct payment, use caption ATYC03
+and UTIs FEE035, FEE078, FEE080, and FEE047.
+Also send a manual notice to the spouse. Refer to GN03940.070F.
+3. Fee Agreement Approved - Fee Authorized Includes Spouse’s Past-Due Benefits - IAR
+- Direct Payment to Representative
+Use UTI FEE038.
+If the CR approves the fee agreement, use caption ATYC06 and UTI ATY020.
+Use caption ATYC10.
+•
+If the CR approves the fee agreement, use UTI FEE089.
+•
+If an ALJ or AAJ approved the fee agreement, use UTI FEE051.
+Use UTI FEE077 and caption ATYC03.
+•
+If SSA is authorizing and paying the fee to the representative and paying the IAR
+at the same time, use UTIs FEE035, FEE078 and FEE041. Use UTI FEE043 (partial fee
+paid to representative), FEE044 (fee paid to representative, nothing left to pay claimant)
+or FEE045 (fee paid, remainder to claimant).
+NOTE: UTI FEE042 is not an option because a portion of the fee is being paid from the
+spouse’s past-due benefits.
+•
+If fee payment from the recipient’s withheld past-due benefits is delayed pending
+payment of the IAR, use FEE040 and FEE079.
+Use UTI FEE047.
+4. Fee Agreement Approved - Fee Authorization Based on Spouse’s Past-Due Benefits Delayed
+- No Interim Assistance Reimbursement (IAR)
+a. CR Approves Fee Agreement
+Use UTI FEE038; caption ATYC06 and UTI ATY020; caption ATYC10 and UTI FEE094.
+•
+If the representative is not eligible for direct payment, use UTI FEE022.
+•
+If the representative is eligible for, but waived direct payment, use UTI FEE033.
+Use captions and UTIs ATYC02, FEE052, FEEC09, and FEE056.
+•
+If the representative is eligible for direct payment, use caption ATYC03 and UTIs
+FEE035, FEE080 and FEE047.
+b. ALJ or AAJ Approves Fee Agreement
+Use UTI FEE038, caption ATYC10 and UTIs FEE003 and FEE094.
+•
+If the representative is not eligible for direct payment, use UTI FEE022.
+•
+If the representative is eligible for, but waived direct payment, use UTI FEE033.
+Use captions and UTIs ATYC02, FEE052, FEEC09, and FEE056.
+•
+If the representative is eligible for direct payment, use ATYC03 and UTIs FEE035,
+FEE080 and FEE047.

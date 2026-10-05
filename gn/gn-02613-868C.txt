@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - GN 02613.868 - Title II Pre-2007 Martinez Settlement Relief Processing
+Effective Dates: 03/16/2012 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613868 (fetched 2026-10-04)
+
+C. Pre-2007 Martinez relief for reinstatement to monthly Title II Benefits
+1. Requests for reinstatement to monthly Title II benefits
+The informational notice that SSA sent to Title II Martinez Class Members on April
+14, 2010, stated that if a beneficiary was in fugitive felon suspension on April 1,
+2009, the beneficiary may request reinstatement of monthly Title II benefits beginning
+April 1, 2009.
+Protective filing retroactive to April 1, 2009, applies to the reinstatement of benefits
+if the beneficiary contacts us within 6 months of the date of the pre-2007 informational
+notice (i.e., contact for the 6-month protective filing ends on October 14, 2010 based
+on the April 14, 2010 informational mailing).
+Use the fugitive felon policy that began effective April 1, 2009, along with normal
+case processing policies, rules, and procedures, for granting any requests for reinstatement
+of monthly benefits from fugitive felon suspension status. The rules that now govern
+Title II fugitive felon suspensions are located in GN 02613.860B.1.
+2. Processing the reinstatement request
+a. Teleservice Center (TSC) and Field Office (FO) Instructions
+If a class member contacts the TSC or the FO to request reinstatement of benefits
+based on the pre-2007 T2 Martinez generic notice, take the following actions: (A copy
+of the pre-2007 T2 Martinez settlement generic notice is located in GN 02613.869A.)
+Review GN 02613.885B to determine eligibility under Martinez. If the individual is eligible for pre-2007
+relief:
+•
+Send a manual development worksheet (MDW) to the processing center, and
+•
+Include in REMARKS the title of the court case (Martinez Settlement ), and the following:
+“Pre-2007 reinstatement class member-follow GN 02613.868C.2.b. (in this section)”
+b. PSC instructions for reinstating benefits from LAF S9 FUGFEL status using MADCAP/MACADE
+STEPS
+Required Actions
+1
+Use MADCAP/MACADE to reinstate benefits effective 4/1/09 or prospectively (for systems
+processing instructions for the FFEL screen see MSOM COMMON 005.035.
+From the Fugitive Felon System Control File (FFSCF):
+Annotate warrant disposition to the FFWD screen. In the update mode, enter the mandatory
+entries and then enter the:
+•
+WARRANT STATUS OF 2 = CLOSED, and
+•
+DATE WARRANT ENDED (MMDDCCYY). This date entry should be 03312009 or the end of the
+month before the month reinstatement of benefits should occur; and
+•
+Enter the REASON WARRANT ENDED 2= DISMISSED.
+NOTE: You must update the FFWD screen to avoid a processing exception of the FFEL reinstatement input. Instructions
+for updating the FFSCF are in PRISON 006.001.
+2
+From the MACADE path:
+•
+Select #5 (ENTITLEMENT AND ELIGIBILITY MENU) on the TRANS TO field and select #31
+FUGITIVE FELON (FFEL) on the ENTITLEMENT AND ELIGIBILITY MENU, or
+•
+Enter FFEL in the TRANSFER TO field.
+3
+On the FFEL screen:
+•
+Add a date in the FFEL DATE WARRANT SATISFIED (MMDDCCYY) field on the FFEL screen.
+This is the date the warrant was “satisfied” (i.e., dismissed). The date entry should
+be the last day of the month before the month for which you will reinstate the monthly
+benefits.
+•
+Annotate ENTER REASON  SATISFIED: 3 = COURT
+4
+Add additional notice information regarding the Martinez Class Settlement to the notice.
+Include caption CAP81 and S48 to the notice. The caption and paragraph information
+for reinstatement action is in GN 02613.869B.2. Follow the instructions for processing requests for special notices for blind or
+visually impaired claimants and beneficiaries as indicated in EM-09088 SEN REV3 dated
+12/31/09 and EM-10021 SEN dated 3/17/10.
+c. Alternative processing for reinstating benefits when FFEL Does Not Work
+Check the MBR to make sure benefits are reinstated the month after the month the warrant
+was “satisfied” (i.e., dismissed). If the MBR indicates the reinstatement did not
+process, check the THIS query in MFQ. If THIS indicates a processing exception, follow
+instructions in GN 02613.500C and GN 02613.500D.
+NOTE: In some instances, pre-2007 relief is not possible because a higher priority suspension
+event may supersede the fugitive felon suspension issue (e.g., prisoner suspension
+LAF S7, etc.). You must still close out the FUGITIVE data line on the MBR for offense
+codes other than 4901, 4902, 4999, 5011, 5012, 8101, or 8102 to ensure unwanted future
+fugitive felon suspensions actions will not occur. For more information about higher
+priority suspension actions, see the instructions in GN 02602.025.

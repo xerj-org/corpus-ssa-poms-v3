@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - GN 02406.230 - Smudged or Mutilated Title II and Title XVI Checks -- Return and Reissuance
+Effective Dates: 10/22/2024 - Present | TN 125 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406230 (fetched 2026-10-04)
+
+B. Critical elements for negotiating a check
+A check contains the following:
+•
+Payee's name;
+•
+Check symbol and number;
+•
+Date of check;
+•
+Amount of check; and
+•
+Legible micro-encoded numbers at the bottom of the check.
+1. Field Office (FO) and Processing Center (PC) instructions for returned mutilated checks
+When an individual reports or presents a smudged or mutilated check, he or she should
+have the same prompt replacement as other non-receipt situations, if applicable. As
+a requirement, document in the “Remarks” or “Special Message” field that we replaced
+the smudge or Non-receipt procedure or mutilated check to avoid fraud or duplicate
+payments for the same benefit month.
+2. When the FO or PC receives a Title II mutilated check and some information is legible
+Take the following actions:
+a.
+Stamp the check “not negotiable.”
+b.
+Issue a receipt (FO only).
+c.
+Input the non-receipt claim as a B-stop, replacement before status; and wait for the
+Regional Financial Center (RFC) disposition code 01 to be annotated to the Payment
+History Update System (PHUS).
+RATIONALE: The code 01 indicates a valid non-receipt processed and then a courtesy check issued.
+The FO or PC will secure the returned check in a safe or locked file cabinet for 90
+days.
+d.
+After 90 days, if there are no additional inquiries, shred the mutilated check.
+3. When the FO or PC receives a Title XVI mutilated check and some information is legible
+Take the following actions:
+a.
+Stamp the check “not negotiable.”
+b.
+Issue a receipt.
+c.
+Transmit return of the check with code 6- “Smudged, Mutilated But Legible” as described
+in SM 01315.042 and SM 01315.227. The Supplemental Security Income (SSI) payment system
+will follow the normal underpayment processing rules.
+d.
+The system will reissue payment in the next system run if payment due to the claimant
+is less than $5,000, and there is no overpayment collection in process. Refer to SM
+01311.661 for information about how to resolve a U2 diary to release underpayments
+of $5,000 or more.
+4. When the FO or PC receives a Title II or Title XVI check and the information is beyond
+recognition (or a major of the check is missing)
+Take the following actions:
+a.
+For Title XVI, use the regular non-receipt procedure in SM 01315.155; for Title II,
+follow SM 00609.001.
+b.
+Stamp the mutilated portions of the check “not negotiable” and the FO or PC will secure
+the check in a safe or locked file cabinet for 90 days per instructions in SM 01315.227.
+c.
+After 90 days, if there are no additional inquiries, shred the mutilated check.

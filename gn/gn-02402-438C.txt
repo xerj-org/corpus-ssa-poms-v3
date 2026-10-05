@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.438 - Coding Myanmar Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/21/2019 - Present | TN 192 (05-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402438 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Myanmar will have a prefix of “72” at the beginning of the Routing
+and Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “N” assigned for Myanmar.

@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 01703.230 - Totalization Status Codes (TSC)
+Effective Dates: 01/27/2017 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703230 (fetched 2026-10-04)
+
+B. Definitions
+1. A1
+Totalization Awarded (A1) - NH is insured only by combining U.S. and foreign coverage.
+Prevents automatic HI enrollment and PSC jurisdictional transfers.
+2. A3
+Totalization Awarded (A3) - NH is insured only with foreign coverage and the beneficiary
+is entitled to free HI as a Medicare Qualified Government Employee (MQGE) or an End
+Stage Renal Disease (ESRD) beneficiary.
+3. E2
+Totalization Awarded (E2) - NH entitled to totalization benefits, acquired insured
+status based only on U.S. QCs but continues entitlement to totalization benefits because
+they are higher.
+4. D1
+Totalization Denied (D1) - NH has less than 6 U.S. QCs.
+5. D2
+Totalization Denied (D2) - NH has at least 6 QCs but still does not meet insured status
+by combining U.S. and foreign coverage.
+The use of this code includes uninsured cases where the foreign agency reports no
+coverage or certifies that all coverage was prior to 1937. This code can also be used
+to indicate that U.S. totalization benefits have been denied in those cases where
+an uninsured claimant with at least six QCs has filed a totalization application,
+but states that he or she had no coverage in the other country.
+6. D3
+Totalization Denied (D3) - NH is insured without foreign coverage and foreign coverage
+could not yield an earlier MOEN or DIB insured status.
+7. D4
+Totalization Denied (D4) - NH has at least 6 U.S. QCs, or is fully insured based on
+U.S. coverage, but does not meet another factor of entitlement such as age, relationship,
+or medically disabled.
+8. P1
+Totalization Pending (P1) - Uninsured - Claim cannot be adjudicated until foreign
+coverage certificate is received.
+9. P2
+Totalization Pending (P2) - Non-totalization claim has been awarded, but foreign coverage
+may yield DIB insured status or an earlier MOEN.
+10. T1
+Totalization Terminated (T1) - This code represents a change in status. Totalization
+benefits are not being paid because of a subsequent entitlement to a non-totalization
+benefit. This TSC is used in the following situations:
+•
+A totalization beneficiary subsequently becomes insured based on U.S. coverage only,
+resulting in higher benefits (TSC changes from A1 to T1).
+•
+Totalization results only in an earlier month of entitlement for a person already
+receiving regular benefits (TSC changes from P2 to T1)
+•
+Totalization results only in establishing a closed period of totalization disability
+entitlement.
+NOTE: In this situation, the system expects a HI entitlement date equal to the 24th month
+after the DIB entitlement date. This is erroneous since HI cannot be based on totalization
+DIB entitlement. TSC T1 has been designed to prevent that condition.

@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 40525.085 - File is Not Where the System Indicates It Is
+Effective Dates: 12/23/2003 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525085 (fetched 2026-10-04)
+
+A. Procedure - general
+Sometimes the file is not found where the system indicates it should be or the system
+indicates “NO FOLDER RECORD” is available. Also see DI 40525.070E. This is the part of folder location that requires some detective work.
+In these situations, obtain the following queries:
+•
+FACT (MSOM QUERIES 002.002, SM 00510.050 - SM 00510.320, SM 00535.005 -
+SM 00535.060)
+•
+PCACS (MSOM PCACS 008.001)
+•
+Disability Control File (DCF) (Query and Worksheet) (MSOM CDR 001.001)
+•
+DDSQ (MSOM 323-E )
+•
+OHAQ (MSOM OHA 001.003)
+•
+NUMI (MSOM QUERIES 003.002)
+•
+MCS/MSSICS Development Screens (MSOM MCS 002.001)
+•
+MDW Development Worksheet (MSOM MDW 001.001)
+•
+QRSL (Query Response Selection List) (MSOM QUERIES 006.002)
+•
+SSID (MSOM QUERIES 003.002)
+Although excessive in some cases, the above are necessary because all systems do not
+interface.
+NO RECORD (NIF) query responses are important tools in ruling out possible locations
+where the file might be.

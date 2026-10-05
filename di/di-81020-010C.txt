@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - DI 81020.010 - Paper Folder Indicators (PFI)
+Effective Dates: 01/23/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020010 (fetched 2026-10-04)
+
+C. Verifying Paper Folder Indicators (PFIs) at Case Receipt
+The DDS uses PFIs during case receipt to determine whether:
+•
+The official folder for the case is a CEF or a paper folder; and
+•
+They can receipt the case immediately or must wait until receiving a paper folder.
+DDS should view and update PFIs on the DDS case processing system or on eView.
+1. PFIs for the Current Filing
+This PFI notifies the DDS if the current filing is a CEF or a paper folder.
+a. PFI Indicates a current CEF
+If the PFI indicates the current case is a CEF:
+•
+The official folder is a CEF; and
+•
+Receipt the case using the Electronic Folder Interface (EFI) Download (see Electronic
+Claim Receipt Process - DI 81020.015).
+b. PFI Indicates a Current Paper Folder
+If the PFI indicates the current case is a paper folder:
+•
+Do not receipt this case until receiving a paper folder as the official agency folder
+is paper; and
+•
+Maintain the paper folder for the life of the case.
+NOTE: If receipt of the paper folder is not within 30 days, reject jurisdiction back to
+the transferring office with a reason “Receipt of paper folder not within 30 days.”
+2. PFIs for a Prior Filing
+This PFI notifies the DDS if a prior paper folder is associated with the current filing
+and if it is being mailed to the DDS.
+a. PFI Indicates Sending a Prior Paper Folder
+If sending a prior paper folder to the DDS, the PFI indicates that:
+•
+The transferring office is sending a paper folder from a prior filing.
+•
+DDS receipts the case without receiving the prior paper folder if the current filing’s
+SSA-827 (Authorization to Disclose Information to the Social Security Administration
+[SSA]) is available (i.e., the SSA-827 faxed into the CEF).
+•
+If DDS does not receive the prior paper folder, update the PFI accordingly.
+NOTE: If the prior paper folder is necessary to process the case, and it is not received
+in a reasonable amount of time by the DDS, contact the FO to determine the status
+of the prior paper folder.
+b. PFI Indicates not Sending Prior Paper Folder
+If the PFI indicates not sending a prior paper folder to the DDS:
+•
+The FO is not sending a prior paper folder;
+•
+Receipt the case using the EFI Download (see Electronic Claim Receipt Process - DI 81020.015).

@@ -1,0 +1,383 @@
+SSA Program Operations Manual System (POMS) - SI 02301.215 - Summary of Posteligibility (PE) Suspension, Stop Payment and Termination Events by Payment Status Code (PSC)
+Effective Dates: 06/07/2013 - Present | TN 62 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301215 (fetched 2026-10-04)
+
+B. Chart
+PSC
+Type of Event
+Effective Date
+Reinstatement Date
+References
+E01
+Eligible- No Payment Due
+PSC is System Generated
+Stop Payment
+The month the recipient is eligible based on the eligibility determination, but no
+payment is due based on the payment computation.
+Any month countable income is less than the FBR or the combined Federal/State payment
+level.
+Computations-
+SI 02005.001E.3.
+Systems-
+SM 01305.001N.1.
+MSOM ICFT16 001.002
+N01
+Excess Income
+PSC is System generated
+-OR-
+Suspension
+The month countable income is greater than the FBR or is equal to or exceeds the combined
+Federal/State payment level.
+The month countable income is less than or equal to the FBR or less than the combined
+Federal/State payment level.
+Computations-
+SI 02005.001,
+General rules-
+SI 00810.001
+Earned exclusions-
+SI 00820.500
+Systems-
+SM 01305.001N.12.
+N01
+Section 1619(b) Eligible, No Payment Due
+PSC is System Generated
+Stop Payment
+The month countable earned income exceeds the FBR and is equal to or exceeds the combined
+Federal/State payment level.
+NOTE: Medicaid based on SSI usually continues.
+The month countable income is less than the FBR or combined Federal/State payment
+level.
+1619 Policy Work Incentives-
+SI 02302.010
+Systems-
+SM 01305.001N.12.
+MSOM MSSICS 014.001
+MSOM MSSICS 015.001
+MSOM MSSICS 016.001
+N02
+Resident of a Public Institution
+PSC is FO Input
+Suspension
+The first full month a recipient is a resident.
+Exceptions: Temporary Institutionalization (TI). Continued payments are possible up
+to 3 months for temporary stays and up to 2 months for 1619(b) eligibles.
+Manual Notice Required in TI cases- SI 00520.141.
+Exceptions to manual notice requirement in TI cases- SI 00520.140D.2.
+The day the recipient is no longer a resident of a public institution.
+Proration applies.
+Institutionalization-SI 00520.001
+SI 00520.140- TI
+Proration-
+SI 02005.008
+SM 01305.001O.1.
+SM 01305.760-
+(TI field)
+MSOM MSSICS 010.001
+N03
+Absence from the U.S.
+PSC is FO Input
+Suspension
+The first full month the recipient is (or expects to be) outside the U.S.
+NOTE: Absence begins the day after departure and ends the day before return.
+The 31st consecutive day back in the U.S.
+-OR-
+The first day back in the U.S. if absent the full month of February and absent less than 30 days
+from the U.S.
+Proration applies.
+Residence and Citizenship Requirement-
+SI 00501.410
+Absence from the U.S.-
+SI 02301.225
+Proration-
+SI 02005.008
+Systems-
+SM 01305.001O.2.
+MSOM MSSICS 010.001
+N04
+Excess Resources
+PSC is FO Input
+Suspension
+The month countable resources exceed the limit.
+CAUTION: Consider conditional payments for a limited resource disposal period- SI 01150.200 - SI 01150.210.
+The first day of a month countable resources are within the limit.
+Resources-
+SI 01110.001
+First of the Month Rule/Counting Resources-
+SI 01110.600
+SM 01305.001O.3.
+MSOM MSSICS 012.001
+N05
+Ineligible for a Past Nonpay Period
+PSC is FO Input
+-OR-
+Suspension
+Only for a past nonpay month (a closed period).
+Manual Notice Required-
+SI 02301.220C.
+Manual Notice Required-
+SI 02301.220C.
+The first N05 month that evidence establishes eligibility/payment amount.
+Ineligible for a Past Nonpay Period-
+SI 02301.220
+Systems-
+SM 01305.001O.4.
+MSOM MSSICS 025.001
+N05
+Failure to Provide Information for Children Overseas
+PSC is FO Input
+-OR-
+Suspension
+The first month that the system can stop benefits under G/K processing.
+Manual Notice Required- SI 00501.417.
+The first N05 month that evidence establishes eligibility/payment amount.
+Manual Notice Required-
+SI 00501.417
+NOTE: Effective 1/06/06, children overseas have 24 months (not 12 months) to have payments
+reinstated.
+Blind/Disabled Children of Military Personnel Overseas-
+SI 00501.415
+Systems-
+SM 01305.001O.4.
+SZ field-
+SM 01301.450
+MSOM MSSICSCOMPS 001.001
+N05
+Failure to Give Permission to Contact Financial Institutions
+PSC is FO Input
+Suspension
+The first month that the system can stop benefits under GK procedures.
+Manual Notice Required-
+SI 00515.001D.1
+The month after the month permission is given.
+Requirement to Give Permission to Contact Financial Institution-
+SI 00515.001
+Systems -
+MSOM MSSICS 008.025
+N06
+N06 Failure to File for Title II Benefits or Other Benefits
+PSC is FO Input
+Suspension
+The month the recipient received the written notice (SSA-L8050–U3 or SSA-L8051–U3)
+to file for/pursue title II or other benefits.
+NOTE: The recipient has 30 days from receiving the notice to file for the other benefits
+in the notice.
+The earliest day in a month that the recipient takes appropriate steps to obtain other benefits. Proration
+applies.
+-OR-
+the month after the month the other benefit is no longer available.
+Filing for Other Program Benefits-
+SI 00510.001
+Proration-
+SI 02005.008
+Systems-
+SM 01305.001O.5.
+MSOM MSSICS 019.001
+MSOM MSSICS 025.001
+N07/
+N08
+Cessation of Disability N07/Blindness N08
+PSCs are FO Input
+Termination
+The third month after the month of cessation.
+The month of termination
+-OR-
+a later month or day in a month when the cessation is reversed or reopened.
+Proration applies.
+Continuing Disability-
+DI 13001.000
+Proration-
+SI 02005.008
+Systems-
+SM 01305.000O.6.
+SM 01305.000O.7.
+MSOM MSSICS 025.001
+N09
+Refusal to Accept Vocational Rehabilitation
+Suspension
+Obsolete – Before repeal on 1/1/01, benefits were suspended for failure to accept
+or cooperate with vocational rehabilitation (VR) services.
+VR Services-
+DI 13501.000
+N10/
+N11
+Failure to Comply with Treatment for Drug Addiction or Alcoholism
+Suspension
+Obsolete – Before repeal on 1/1/97, drug addicts and alcoholics were required to comply
+with treatment requirements and failure resulted in suspension, N10. If they agreed
+to comply again, they had to comply for certain sanction periods, N11, before benefits
+could resume.
+DAA Provisions-
+DI 90070.000
+N13
+Loss of U.S. Citizenship, Eligible Alien Status or Residency
+PSC is FO Input
+Suspension
+The first full month the recipient loss eligible status.
+The day the recipient meets eligible status again (and no earlier than the 31st day back in the U.S. if outside for a full month or 30 consecutive days).
+Proration applies.
+SSI Alien Eligibility-
+SI 00502.000
+Residence and Citizenship Requirement-
+SI 00501.400
+Proration-
+SI 02005.008
+Systems-
+SM 01305.001P.11.
+MSOM MSSICS 008.001
+N19
+Voluntary Termination
+PSC is FO Input
+Termination
+The first month the system can stop benefits based on the recurring tape cutoff (event
+is not subject to GK procedures)
+-OR-
+The month the recipient selects if he/she pays back or assures to pay back all payments
+received.
+Manual Notice Required in Couples Cases, SI 02301.230E.4.
+The month of termination
+-OR-
+a later month the termination request is cancelled by an appeal or reopening.
+Voluntary Termination-
+SI 02301.230
+Systems-
+SM 01305.001O.13.
+MSOM MSSICS 025.001
+N20
+Failure to Provide Information
+PSC is FO Input
+Suspension
+The first month the system can stop benefits under GK procedures.
+The first month of suspension or a later month that evidence establishes eligibility/payment
+amount.
+Failure to Provide Information-
+SI 02301.235
+Systems-
+SM 01305.001O.14.
+MSOM MSSICS 025.001
+N22
+Inmate of a Penal Institution
+PSC is FO Input
+Suspension
+The first full month that the recipient is a resident of a penal (public) institution.
+NOTE: Before 11/97, N02 was the PSC for this event.
+The first day that a recipient is no longer a resident of a penal (public) institution.
+Proration applies.
+Title XVI Prisoner/ Inmate Suspensions-
+GN 02607.050
+PUPS Processing and Related Issues-
+GN 02607.705
+Proration-
+SI 02005.008
+Systems-
+SM 01305.001O.15.
+MSOM MSSICS 008.021
+N23
+Not a U.S. Resident
+PSC is FO Input
+Suspension
+The first full month in which a recipient is no longer a resident.
+The first day in a month that the recipient meets both the U.S. residency requirement and 30-day
+presence requirement (no earlier than the 31st day back in the U.S. if outside the U.S. for a full month or 30 consecutive days
+or longer).
+Proration applies.
+Not a U.S. Resident-
+SI 02301.225
+Proration-
+SI 02005.008
+Systems-
+SM 01305.001O.16.
+MSOM MSSICS 008.001
+N24
+Administrative Sanction
+PSC is FO Input
+Suspension
+The second month after the month the reconsideration period ends when a recipient
+makes a false or misleading statement.
+the month after:
+6 months for the first occurrence,
+12 months for the second occurrence, or
+24 months for each subsequent occurrence.
+Systems-
+SM 01305.001O.17.
+N25
+Effective 8/1/96-
+Fugitive Felon or Parole/ Probation Violator
+PSC is FO Input or System Generated (PUPS)
+Suspension
+The first day of a month of whichever is earlier:
+The month in which an unsatisfied arrest warrant or similar order was issued for a
+felony crime or parole/probation violation
+-OR-
+The first month, if indicated in an arrest warrant or similar order, that the recipient
+fled to avoid prosecution, custody or conviction, or violated a condition of parole/probation.
+The month following The month the appropriate agency indicates in writing that the
+recipient does not have an active warrant for a felony crime or a violation of a condition
+of parole.
+NOTE: See SI 00530.800 for residents of Connecticut, New York, and Vermont under the Fowlkes Court Case.
+N25 can be input through the FFAP process.
+Exchange of Information with Law Enforcement Officials-
+SI 00501.055
+PUPS Processing-
+GN 02607.705
+Systems-
+SM 01305.001O.18.
+S06
+Whereabouts Unknown
+PSC is FO Input or System Generated Due to a Check Returned for Address Reasons
+Suspension
+The first month the system can stop benefits based on the recurring tape cutoff (event
+is not subject to GK procedures).
+The effective month of suspension or a later month that there is a correct address
+and/or living arrangement information.
+Whereabouts Unknown-
+SI 02301.240
+Systems-
+SM 01305.001O.23.
+S07
+Check Returned for a Miscellaneous Reason Other Than Address
+PSC is System Generated
+Suspension
+The first month the system can stop benefits based on the recurring tape cutoff (event
+is not subject to GK procedures).
+The effective month of suspension or a later month when the recipient is SSI eligible.
+Check Returned for Miscellaneous Reasons-
+SI 02301.245
+Systems-
+SM 01305.001N.16.
+S08
+Developing for Representative Payee
+PSC is FO Input
+Stop Payment
+The first month the system can stop benefits based on the recurring tape cutoff (event
+is not subject to GK procedures).
+IMPORTANT: Generally, do not stop payments for payee development. Unless direct payment is prohibited,
+pay benefits to the recipient while developing for a suitable payee, GN 00504.105 and GN 00504.110.
+The first month benefits stopped.
+Determining the Need for, Developing and Selecting a Representative Payee-
+GN 00502.000
+Systems-
+SM 01305.001O.24.
+S09
+Temporary Institutionalization (TI)
+PSC is System Generated
+Stop Payment
+The system automatically defaults to S09 when it does not receive data in the TI and/or
+RS field on whether the recipient remains or leaves the institution.
+The effective month of suspension when the FO inputs the resolution (see SM 01305.760F.4.).
+Residence in an Institution-
+SI 00520.001
+Section 9115 Continued Benefits Provision- TI-
+SI 00520.140
+SI 02301.201B.2.
+Systems-
+SM 01305.001N.17.
+T01
+Death of a Recipient
+PSC is System Generated due to input in the DH field
+Termination
+The month after the month of death. Eligibility ends the month after death.
+NOTE: For instructions when an individual deceased on SSA records is alive, see GN 02602.055.
+Death of a Recipient-
+SI 02301.250
+Systems-
+SM 01305.001O.25.

@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - GN 02608.300 - Post-entitlement Processing
+Effective Dates: 03/01/2024 - Present | TN 62 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608300 (fetched 2026-10-04)
+
+B. Spouse has not applied for a non-covered pension
+The FUT PENSION ENT field on the Master Beneficiary Record (MBR) shows the expected
+future entitlement date to a pension when a spouse beneficiary has not yet applied
+for the non-covered pension.
+In the month of the expected pension entitlement date on the MBR, the RETAP generates
+an alert in the PC to follow up with the claimant about pension entitlement.
+Take the following actions upon receipt of the RETAP alert:
+1.
+Contact the spouse via DIRCON to request the status of entitlement to a non-covered
+pension and complete the SSA-3885 (Government Pension Questionnaire) and diary for:
+•
+30 calendar days if the evidence is in the individual’s possession or
+•
+45 calendar days if the evidence must be obtained.
+For diary and follow-up time frames, refer to GN 01070.325C.
+2.
+If the spouse expects to receive a periodic pension, but has not yet applied:
+•
+And the expected future date of entitlement is within one year, enter the date in
+the FUTURE PENSION ENTITLEMENT DATE field on the Government Pension (GPI1) screen;
+or
+•
+If the pension entitlement date is more than one year in the future or is unknown,
+enter a date in the FUTURE PENSION ENTITLEMENT DATE field of one year into the future.
+For information about the GPI1 screen, see MS COMMON 003.003. The RETAP process generates
+a follow-up alert every 90 days until we update or remove the date in the FUT PENSION
+ENT field on the MBR.
+3.
+If the spouse fails to respond to the request for status, complete the following steps:
+•
+Send the spouse an advance notice informing them that we plan to suspend their benefits
+for failure to cooperate, and diary for 15 days (for more information about notices
+required before and after taking a Title II adverse action, see GN 03001.015); then
+•
+If the spouse does not respond to the advance notice after 15 days, fully offset benefits
+(SH suspense) via the GPI1 screen effective with the current operating month using
+the maximum pension amount ($9999.99); and
+•
+Add a message on the MBR via the Special Message Data (SP MSG) screen in the Miscellaneous
+Online Edited Transaction (MONET) and enter the remark, “BIC ___ Maximum Offset no
+response for pension information - GPO.” For information about the SMS1 screen, see
+MS T2PE 007.008.
+NOTE: It is important to follow-up for the spouse’s response to ensure benefits are paid
+correctly and not suspended unnecessarily.

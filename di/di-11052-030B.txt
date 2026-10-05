@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - DI 11052.030 - Adjudication of Initial End-Stage Renal Disease Medicare Cases
+Effective Dates: 01/04/2016 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052030 (fetched 2026-10-04)
+
+B. Claimant exists on active MBR (LAF=C, D, S, or U) with BIC other than M
+We establish ESRD Medicare entitlement on the record on which the beneficiary is currently
+entitled, and deduct (SMI) premiums from the monthly benefit amount payable. Centers
+for Medicare & Medicaid Services (CMS) also bills for premiums under the same number
+when a person is not currently receiving a monthly payment because of Workers’ Compensation/Public
+Disability Benefit (WC/PDB) offset, or other nonpayment status. If the Railroad Retirement
+Board (RRB) has jurisdiction of monthly SSA benefits see, Processing End-Stage Renal
+Disease (ESRD) Medicare Claims with Railroad Retirement Board (RRB) Involvement DI
+11052.010.
+The following workflow is designed to get the ESRD claim on PC7's WMI list and to get DOWR credit for the field office.
+1.
+When the claim is ready to clear, complete and transmit the DECI. Change the PC code
+if PC7 is not the PC shown.
+2.
+On the earnings comp request screen, say YES to adjudicate.
+•
+If the DAPP screen comes up, answer NO to the Adjudication question.
+•
+If you get a proc lim or exception, PF3 out.
+3.
+Go to the interface (INTE) screen and overkey the BIC A to BIC T and Proc code "A".
+4.
+This brings you to the M101 screen; PF3 to return to the INTE screen and overtype
+the Proc code to "N"  (if you get a red line remark “RECORD NIF on A101 CNTRL” you
+can ignore it).
+5.
+Prepare form SSA-3601 for PC7 marked Initial Claim, Non-MCS, ESRD, Unprocessed. For
+required and conditional remarks see DI 11052.020F.
+6.
+Fax the SSA 3601 into PC7 Paperless.
+7.
+Route the claims material according to the instructions in DI 11052.035.

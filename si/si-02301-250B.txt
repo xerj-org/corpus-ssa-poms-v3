@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - SI 02301.250 - Death of a Recipient (T01)
+Effective Dates: 01/04/2016 - Present | TN 15 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301250 (fetched 2026-10-04)
+
+B. Process
+This is what happens when SSA receives a death report for a recipient and terminates
+benefits.
+STAGE
+DESCRIPTION
+1
+SSA receives a death report from a first or third party. The source could be, but
+is not limited to, one of these:
+•
+a representative payee, relative, friend, neighbor, or an unidentified individual,
+•
+a returned check in the FO,
+•
+a death report from the U.S. Treasury Department,
+•
+an MBR interface, or
+•
+a computer match with various outside agencies.
+2
+FOs carefully evaluate death reports, verify reports when required and review death
+inputs in the death (DH) field on the SSR. See GN 02602.050 through GN 02602.080 on processing death reports.
+NOTE: FOs also input death for eligible and ineligible persons on a recipient's record in
+the DH field and determine if the event affects the recipient's eligibility and payment
+amount. See redetermination requirements in SI 02305.022 and SI 02305.083B.
+3
+The system terminates benefits the next month it can based on the monthly recurring
+payment tape cutoff and generates T01 on the record based on:
+•
+FO input of the recipient's date of death in the DH field on the SSR,
+•
+FO input of a returned check in the (CH) field on the SSR,
+•
+an MBR interface, or
+•
+a death report from the U.S. Treasury Department.
+NOTE: T01 is an exception to advance notice and systems GK processing described in SI 02301.300.
+4
+The system automatically issues a notice (Form SSA-L8166) with appeal rights to a
+payee on a deceased recipient's record.

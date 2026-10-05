@@ -1,0 +1,83 @@
+SSA Program Operations Manual System (POMS) - DI 12027.050 - Processing Statutory Benefit Continuation in Nonpayment for Nonmedical Reasons
+Effective Dates: 02/12/2026 - Present | TN 12 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412027050 (fetched 2026-10-04)
+
+C. Title II work activity determinations during benefit continuation
+SGA and TWP determinations made during SBC are eWork exclusions. For documenting the
+work determinations, see procedures outlined in DI 13010.026.
+1. Development indicates the work is substantial
+For potential SGA earnings (i.e., wages above the "clearly not SGA" threshold, or
+self-employment):
+•
+Verify reported work activity and earnings.
+•
+Determine if beneficiary is entitled to a TWP (following instructions in DI 13010.035).
+•
+Query the Disability Control File (DCF) and eWork information to determine if there
+were prior months of trial work.
+2. Trial work months exhausted
+When the beneficiary is engaging in SGA and the TWP is exhausted:
+•
+If the beneficiary has an employer, prepare an SSA-821 (Work Activity Report - Employee).
+(For documenting employment cases using the SSA-821 and the SSA-823 (Report of SGA
+Determination), see DI 10505.035.)
+•
+If the beneficiary is self-employed, prepare an SSA-820 (Work Activity Report - Self-Employment).
+(For documenting self-employment cases using the SSA-820 and the SSA-823, see DI 10510.025.)
+•
+Send advance (due process) notice of suspension.
+NOTE:
+Do not prepare an SSA-833 (Cessation or Continuance of Disability or Blindness Determination
+and Transmittal) while the medical cessation appeal is pending.
+•
+After 15 days from the date of the advance notice, if the SGA is continuing, input
+S9 (miscellaneous suspension) for the current operating month (COM). Notify the appropriate
+Processing Center (PC) to suspend SBC effective the current SGA month (without any
+retroactive adjustment for SGA) and to convert the S9 to S7 (EPE SGA) or another nonpayment
+status as appropriate. Provide the PC the following information:
+–
+FO location (city, state) and processing technician information: FO Code, FO technician's
+name, FO technician's phone number.
+–
+Request Title: Title II, Suspension of Benefit Continuation Payments - SGA.
+–
+Claim Account Number (CAN): The wage earner's social security number (SSN).
+–
+Beneficiary Identification Code (BIC) that was assigned for Title II purposes.
+–
+Name: Surname followed by the first three letters of the individual's first name.
+–
+Suspension months: specify the months for which payments should be suspended and whether
+the suspension is to continue.
+•
+Store the forms in the Certified Electronic File (CEF). In a CEF exclusion case, forward
+the original forms (e.g., SSA-821, SSA-823) to the appropriate office for association
+with the cessation appeal folder.
+For modes of requesting PC assistance, see GN 01070.228.
+3. Beneficiary responds to proposed benefit suspension
+If the beneficiary alleges the work is not SGA or otherwise contests the proposed
+suspension:
+a.
+Review any new evidence and, if necessary, develop to resolve conflicting issues.
+b.
+Process the suspension or continue payment accordingly.
+c.
+Send the beneficiary notice on an SSA-L951 (Social Security Notice Letterhead) explaining
+the outcome, excluding appeal rights.
+4. Applying trial work months
+If the beneficiary engaging in SGA is eligible for a TWP:
+a.
+Store the work activity report form(s) using Evidence Portal (EP) or eView and set
+a tickle (control) date for end of the TWP.
+b.
+If the medical cessation appeal is a CEF exclusion, forward the original form(s) to
+the appropriate office for association with the official folder.
+c.
+At the end of the TWP, if the medical appeal is still pending, update and verify work
+and earnings information.
+d.
+When the TWP is exhausted, follow instructions in DI 12027.050C.2 in this section.
+5. Reinstatement
+When the reinstatement is for months that earnings are not SGA and the appeal of the
+medical cessation (or adverse medical reopening/revision) determination is still pending,
+follow EPE instructions in DI 13010.215.

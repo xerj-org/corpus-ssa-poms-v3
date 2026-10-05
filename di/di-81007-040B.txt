@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 81007.040 - i3820 - Child Disability Report
+Effective Dates: 08/12/2021 - Present | TN 9 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007040 (fetched 2026-10-04)
+
+B. Protective filing date
+If specific criteria are met, receipt of any version of an SSA-3820 (i3820) by SSA
+may serve as a protective writing for Title XVI benefits for a child. Follow the guidelines
+in SI 00601.012 through SI 00601.025 to determine the protective filing date.
+When the IU establishes an i3820 partial, the system tells the IU that the date the
+IU started the i3820 is a protective filing date. At that time, the i3820 also issues
+a closeout notice on the webpage. The closeout notice states that the IU must submit
+a signed formal application to SSA within 60 days of the date they first started completing
+the online disability report. Failure to submit a valid application by the end of
+the closeout period results in loss of the protective filing date.
+The closeout period starts with the date the user establishes the i3820 partial. The
+closeout period ends 60 days later. If the IU does not submit a valid application
+within 60 days of the date the IU started the i3820, the IU may start a new i3820,
+which establishes a new protective filing date and a new 60-day closeout period. The
+closeout period does not change if an IU establishes a subsequent i3820 partial prior
+to the end of the 60-day closeout period of the first i3820 partial. The original
+protective filing date still applies. Starting a second partial within the 60-day
+closeout period locks the first, making it inaccessible to the IU.

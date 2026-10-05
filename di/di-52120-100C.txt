@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 52120.100 - Kentucky Workers’ Compensation (WC)
+Effective Dates: 03/23/2012 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120100 (fetched 2026-10-04)
+
+C. Lump Sum (LS) Payments
+1. Appeals
+Any party may file for reconsideration of a lump sum award within 14 days. If no reconsideration
+is filed, the award is final and binding unless it is appealed to the circuit court.
+The only other basis for change after that time is for fraud, mistake, new evidence,
+or change of condition.
+2. Computing the offset
+Kentucky WC will often make an award based upon a given number of weeks and then convert
+the award to a LS by discounting that number of weeks. (i.e., In 2008, if an award
+for periodic payments is awarded for 425 weeks, it will be converted to an LS award
+by using a calculation that uses 359.0785 weeks rather than 425. See examples below
+and links for yearly discount tables).
+The dollar amount that is multiplied by the number of weeks is always the weekly WC
+rate that will be used for prorating the LS settlement for SSA purposes. The computation
+formula may contain additional multipliers before arriving at a weekly amount. However,
+the multipliers are not important. Extract the dollar amount that is multiplied by
+the number of weeks.
+Example 1:
+The W/E is awarded a lump-sum settlement of $5000 based on a permanent disability
+of 3 percent.
+The lump-sum award included $278.60 for waiver of right to vocational rehabilitation,
+and $2000 for waiver of right to reopen.
+The individual received weekly temporary total disability of $332.02.
+The settlement computation formula is shown as follows: $332.02 x .03 x0.75 = $7.47 x 364.3106 (number of weeks) = $2721.40.
+Total settlement is $2721.40 + $2000 + $278.60 = $5000. When prorating the $5000 settlement,
+use the weekly rate of $7.47.
+NOTE: The “0.75” is of no importance. It is not necessary to determine what the figure
+represents. Extract $7.47 that is multiplied by the number of weeks 364.3106.
+Example 2:
+The W/E is awarded a $21,237.11 lump-sum settlement based on 15 percent permanent
+disability. No periodic payments were made.
+The “Settlement Computation” is shown as follows: “$220.54 x 15 percent x 1.25 x 1.5
+x 342.3683 = $21,237.11”
+When prorating this settlement, use the weekly rate of $62.03 ($220.54 x .15 = 33.08 x 1.25 = 41.35 x 1.5 = $62.03.
+NOTE: Similar to Example 1, the “1.25” and “1.5” multipliers used by Kentucky in the calculation
+are not important and it is not necessary to verify what they represent. The formula
+“$220.54 x 15 percent x 1.25 x 1.5” is equal to $62.03, which is multiplied by the
+number of weeks, and is the figure we need to extract from the computation.

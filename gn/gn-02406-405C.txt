@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 02406.405 - Department of the Treasury Regional Financial Center (RFC) Processing of Check Nonreceipts
+Effective Dates: 09/18/2019 - Present | TN 68 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406405 (fetched 2026-10-04)
+
+C. When RFC rejects a nonreceipt claim
+The RFC does not forward a nonreceipt claim to CCB if:
+•
+there is no issued check that matches the nonreceipt claim;
+•
+someone returned the check; or
+•
+for any reason, the RFC cannot process the claim.
+The RFC transmits rejected items to the originating Field Office (FO), Teleservice
+Center (TSC), or Processing Center (PC) via our Central Office (CO) for reconciliation.
+The RFC annotates responses (both interim and final dispositions) to the PHUS record
+for Title II and to the Query Control Record (Q query) for Title XVI. The FO, TSC,
+or PC may access PHUS and the Q query to obtain the RFC responses whenever a claimant
+makes a follow-up inquiry.

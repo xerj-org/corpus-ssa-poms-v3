@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 03940.050 - Title XVI - Field Office Processing of Fee Agreements on Favorably Decided Concurrent Title II and Title XVI Claims
+Effective Dates: 11/29/2024 - Present | TN 50 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940050 (fetched 2026-10-04)
+
+B. Title II Fee Amount Known
+1. Automated Processing
+The authorized fee is the combined total of the Title II portion of the fee (i.e.,
+wage earner's and any auxiliary beneficiary’s), and the Title XVI portion of the fee.
+Title II offset is always applied, unless Title XVI is not payable in the offset period
+per GN 02610.018. Thus, if the Title II claim is effectuated first (i.e., Title II continuing monthly
+benefits are paid first), all retroactive Title II benefits are still withheld until
+Title XVI has been paid and the Title II offset amount is determined.
+In most concurrent fee agreement cases, FOs can make inputs to the SSR that will trigger
+the automated computation of the Title XVI fee and issuance of a fee notice to the
+claimant and representative. Also, when there are past-due benefits available for
+direct payment and the representative has not waived a fee and is eligible for direct
+payment, in many fee agreement cases the SSR will compute the fee assessment and trigger
+direct payment to the representative or the eligible entity if there is a valid assignment.
+2. Manual Processing
+To determine whether a case is excluded from automated processing, refer to GN 03940.050C. Once you determine that the case is excluded from the automated processing, use the
+following steps to process the fee agreement in concurrent Title II and Title XVI
+claims:
+a. Step 1
+If the Title II portion of the fee equals the specified dollar amount in the fee agreement
+or the fee cap as indicated in GN 03940.003B.3, go to GN 03940.050B.2.e (Step 5); otherwise, go to GN 03940.050B.2.b (Step 2).
+b. Step 2
+To determine the maximum amount you can approve for the Title XVI portion of the fee,
+subtract the Title II portion of the fee amount from the applicable specified dollar
+amount of the fee cap as indicated in GN 03940.003B.3, or the maximum fee specified in the fee agreement. Go to GN 03940.050B.2.c (Step 3).
+c. Step 3
+To determine the amount of Title XVI retroactive payment that is the past-due benefit
+amount for fee purposes (see GN 03940.007B), examine the payment history (PMTH segment), underpayment information (MPMT segment),
+and computation history (CMPH segment) on the SSID. Reduce the Title XVI retroactive
+payment amount by any benefits and/or payments that are not considered past-due benefits
+for representative fee purposes (see GN 03920.031C) and by the Title II offset amounts for months in the past-due period for representative
+fee purposes (i.e., we reduce the Title XVI retro by the amount of Title XVI that
+would not have been paid if the Title II benefits had been paid timely). The result is the
+Title XVI past-due benefits amount for representative fee purposes. Go to GN 03940.050B.2.d (Step 4).
+NOTE: Limit the Title II offset amount to the months that are part of the past-due benefit
+period for representative fee purposes (e.g., when adjudication of the Title II claim
+is delayed and the offset period extends beyond the month we effectuate the Title
+XVI favorable decision made at or below the Appeals Council level).
+d. Step 4
+If the result at GN 03940.050B.2.c (Step 3) equals zero, go to GN 03940.050B.2.e (Step 5). If the result is greater than zero, authorize a fee that equals the least
+of:
+•
+25 percent of the Title XVI past-due benefits; or
+•
+the percentage of past-due benefits or the flat fee amount specified in the agreement;
+or
+•
+the figure derived at GN 03940.050B.2.b (Step 2).
+Enter the total fee (Title XVI fee plus Title II fee) on the UFEE screen in the TXVI
+and/or TII Manual Fee Agreement Amount block.
+e. Step 5
+If the representative has not waived a fee and is eligible for direct payment or there
+is an entity with a valid assignment, follow the procedures in GN 03940.050C.
+f. Step 6
+If the notice is not automated, prepare a Title XVI fee agreement notice (see GN 03940.055 and GN 03940.070).
+If you are the decision maker and believe a request for administrative review of the
+authorized fee is appropriate (see GN 03940.001E), you must file the request within 15 days of the date of the notice.
+g. Step 7
+When performing the Title II windfall or “real” offset computation, subtract the total
+authorized representative fees for both titles from the retroactive Title II benefits
+per SI 02006.203.

@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - SI 02003.024 - Processing eIAR Proration Cases
+Effective Dates: 11/19/2010 - Present | TN 29 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003024 (fetched 2026-10-04)
+
+B. Policy for manually processed proration cases
+Here is how to identify which cases need to be processed manually. If SSA:
+•
+prorates the SSI benefit and the State prorates the IA benefit for the same month, the eIAR system cannot compute the State reimbursement amount correctly for
+that month. To avoid incorrect payments, you must process the case manually similar
+to the processing required before implementation of eIAR;
+•
+prorates the SSI benefit for a month, but the State did not prorate the IA for that month or paid no IA for that month, eIAR can process the
+claim to completion; and
+•
+does not prorate SSI for the month or does not pay SSI for the month, and the State prorates
+the IA for that month, eIAR can process the claim to completion.
+Example: The DDS approves Tim Smith’s disability claim and the FO does a PERC to adjudicate
+their claim in November 2010. During the PERC, the FO determines that they were ineligible
+for SSI for May and June 2010 due to residence in public institution (N02). The institution
+releases them on July 21, so they are eligible for prorated SSI benefits for July
+2010.
+Analysis: If the State paid a prorated IA payment to Tim Smith for July 2010, the eIAR system
+cannot process the case because both SSA and the State would pay a prorated benefit
+in July. If the State did not pay a prorated IA benefit in July, the eIAR system can
+process the case to completion.

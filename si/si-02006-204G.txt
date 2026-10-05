@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - SI 02006.204 - Field Office Processing Instructions for Concurrent Cases Involving Unknown or Unresolved Representative Fees
+Effective Dates: 07/28/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006204 (fetched 2026-10-04)
+
+G. Examples
+Example 1 – This example illustrates a scenario where the fee is unknown or unresolved when
+the Title XVI decision is effectuated.
+Tom was awarded concurrent benefits with an overlapping period of past eligibility.
+Tom had an appointed representative who was eligible to charge a fee. Tom’s representative
+did not submit a fee agreement before Tom’s case was awarded.
+A claims specialist (CS) in Tom’s local FO processed Tom's case, following policy
+in SI 02006.204. The CS coded the UFEE screen to show “FEE SITUATION: 1=UNKNOWN OR UNRESOLVED FEE”
+and established the “FEEAUTHPEND” issue on the CCE development worksheet when the
+CS processed Tom’s award.
+32 days later, the CS received notification via HP MDW from PC that Tom’s representative
+was authorized to charge and collect a fee. The CS followed the instructions in SI 02006.204F to update Tom’s record. The CS noted the initial windfall offset had automated with
+no exceptions. The CS updated the UFEE screens and sent the update to the SSR. The
+simulated SSR showed:
+•
+UMIH with Type U income; and
+•
+PMTH showing the system released an underpayment that takes into account RMA and corresponding
+months of Type U income.
+Once the CS confirmed the system accounted for the fees and computed the underpayment,
+the CS typed the date of completion in the RECEIVED column for the “FEE UPDATE” issue.
+Example 2 – This example illustrates the steps needed when a fee is unknown or unresolved when
+the Title XVI decision is effectuated and the total amount of the fee is delayed for
+an extended period because of additional fees due from an auxiliary claim.
+Jeff was awarded concurrent benefits with an overlapping period of eligibility. Jeff
+had an appointed representative who will charge a fee. Jeff’s representative submitted
+a fee agreement, which the ALJ approved. A CS in Jeff’s local FO, processed Jeff's
+case. The CS noticed Jeff had two auxiliaries listed on the record, a spouse and a
+child. The CS realized that because the two auxiliary claims had not been processed
+yet, the CS did not know the total amount of the authorized fees.
+The CS coded the UFEE screen to show “FEE SITUATION: 1=UNKNOWN OR UNRESOLVED FEE”
+and established the “FEEAUTHPEND” issue and a “FEE UPDATE” issue on the CCE development
+worksheet. The CS receipted in the “FEEAUTHPEND” since the fee agreement was approved
+by the ALJ. The CS set a TICKLE for 60 days for the “FEE UPDATE” issue. The CS completed
+a PERC with Jeff, closed the event, and updated the SSR. The system successfully computed
+the initial windfall offset.
+61 days later, the CS was checking the TICKLE list in WAC and noticed the “FEE UPDATE”
+issue on Jeff’s case had matured. One of the auxiliary claims on Jeff’s record had
+been processed, but the other had not. The CS extended the TICKLE for the “FEE UPDATE”
+issue another 60 days.
+20 days later, the CS received notification from the PC of the authorized fees for
+the Title II claims via a HP MDW. The PC had processed both auxiliary claims to completion
+and determined the fee amounts for both claims. The CS now knew the total authorized
+fee amounts. The CS updated the UFEE screen on Jeff’s record and sent the update to
+the SSR. The simulated SSR showed:
+•
+UMIH with Type U income; and
+•
+PMTH showing the system released an underpayment that takes into account RMA and corresponding
+months of Type U income.
+Once the CS confirmed the system accounted for the fees and computed the underpayment,
+the CS typed the date of completion in the RECEIVED column for the “FEE UPDATE” issue.

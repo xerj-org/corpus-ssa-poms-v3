@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - GN 01708.320 - Providing Monthly Benefit Data to German Agencies
+Effective Dates: 03/18/1997 - Present | TN 3 (03-97)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201708320 (fetched 2026-10-04)
+
+D. Procedure
+•
+Obtain a current MBR printout for the SSN on which the claim has been filed or the
+assistance request has been received.
+•
+If the claimant or person about whom the information has been requested is the widow,
+widower or former spouse of the worker on this SSN, obtain a current MBR printout
+on that person's SSN also.
+•
+If the MBRs indicate that the person is dual-entitled, ask a CA or BA to provide the
+amount payable on the person's own SSN, i.e., his/her A or HA amount and the first
+month for which the beneficiary received that full monthly amount. Enter those on the SSA-2960-U3-GE in accordance with GN 01708.220D.4.
+Note: Dual entitlement is indicated by the presence of a DE DATA field on the MBR.
+•
+If there is no DE DATA field, refer to the HISTORY field of the MBR.
+Note: The first column of that field contains the effective date of each benefit amount
+or change of status, the fifth column contains codes to explain the status of the
+benefits and the seventh (last) column contains the MBC amount.
+•
+Find the first line in the HISTORY field that contains a status code of “01.” The effective date and MBC found in that line are the date and monthly amount to
+be certified to the German agency. Enter them on the SSA-2960-U3-GE in accordance
+with GN 01708.220D.4.

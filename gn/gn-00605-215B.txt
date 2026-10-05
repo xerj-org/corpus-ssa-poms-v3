@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - GN 00605.215 - Complete, Mail, and Retain SSA-6233-BK
+Effective Dates: 06/13/2022 - Present | TN 62 (06-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605215 (fetched 2026-10-04)
+
+B. Procedure
+1. Identifying Information
+Fill in the following:
+•
+Payee Name and Address;
+•
+Beneficiary Social Security Number;
+•
+Report Period (FROM: and TO: dates); and
+•
+Beneficiary Name
+NOTE:
+To complete the SSA-6233BK for Payees who are exempt from the annual accounting requirement
+go to step 3.
+2. Question 3 - Use of Benefits Information
+Fill in the following:
+•
+Benefits paid during the report period;
+•
+Benefits reported as saved from prior years; and
+•
+Total Accountable Benefits Amount
+NOTE:
+Determine the benefits paid during the report period from the PMTH segment of the
+SSR, and the benefits saved from the conserved funds (CF) field in the REPY segment.
+Benefits paid should not include any past-due SSI benefits SSA deposited into the
+dedicated account. If the case is concurrent, query the Payment History Update System
+(PHUS) to determine the title II benefits paid during the report period. IMPORTANT:
+Do not complete this section when mailing the SSA-6233-BK to a payee who is exempt
+from the annual accounting process. See GN 00605.015 for information on exempted payees.
+3. Question 6 - Dedicated Account Information
+Fill in the following:
+•
+Past-due SSI benefits SSA deposited in Dedicated Account during the report period;
+•
+Balance in Dedicated Account as reported on a prior report; and
+•
+Total Dedicated Account Amount
+IMPORTANT:When the system determines a dedicated account based on the payment amount (PMTH),
+it is assumed that field office (FO) personnel paid the past-due benefits into a dedicated
+account but failed to establish the indicator(s) “'X, 1, 2, or F” in pay flag 5. Some
+over-selection of potential dedicated account cases may occur since the systems selection
+process did not consider individual State supplement payments in computing the amount
+required to establish a dedicated account (due to the large variance in State supplement
+amounts). Therefore, dedicated accounts were never actually established for these
+over-selected cases. When computing the dedicated account information, if you determine
+that the past-due benefits meet the dedicated account criteria, include this amount
+under SSA Deposited in Dedicated Account for question 6 above. If you determine that
+the past-due benefits did not meet the criteria for a dedicated account, obtain an
+annual accounting SSA-623, and update the SSR following the instructions in GN 00605.230B.1., DI Diary Set-No Dedicated Account Exists.
+4. Mail For Completion
+Mail the SSA-6233-BK to the payee for completion. The report can also be completed
+through telephone contact and mailed to the payee for signature, or in a face-to-face
+interview, if FO resources permit.
+NOTE:
+When mailing the SSA-6233-BK to a payee who is exempt from the annual accounting process,
+instruct the exempted payee to complete only questions 6-8 on the SSA-6233. See GN 00605.015 for more information on exempted payees.
+5. Retain Completed Reports
+Completed SSA-6233-BKs must be retrievable in the event a report is needed in a misapplication,
+misuse, or fraud investigation. The FO must store the completed SSA-6233-BK in the
+Non Disability Repository (NDRED) using the Evidence Portal(EP). Once the report has
+been stored, the paper SSA-6233 does not need to be retained. See MS 09701.001 Evidence
+Portal- Overview.
+REMINDER: Do not send the completed SSA-6233-BK to the Program Centers or the Wilkes-Barre Direct Operations
+Center for storage.

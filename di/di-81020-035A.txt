@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - DI 81020.035 - Document Management Architecture (DMA) Barcodes and Document Indexing
+Effective Dates: 01/23/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020035 (fetched 2026-10-04)
+
+A. DMA Barcode
+The DMA barcode is used to automatically index documents that are faxed or scanned
+into the Certified Electronic Folder (CEF). For more information about document indexing,
+see Document Types -
+DI 81020.040.
+The DMA Barcode contains information that:
+•
+Associates the document with a specific case;
+•
+Identifies the Document Type (see Document Types -DI
+81020.040); and
+•
+Places the document into the correct section of the CEF.
+NOTE: The section of the CEF is the default location based on the specific document type
+used in the barcode. eView users may move the document to a different section after
+imaging the document. For more information on moving imaged documents in the CEF,
+see Locking/Unlocking a CEF in eView - DI 81001.040.
+1. Contents of the DMA Barcode
+The DMA Barcode contains:
+•
+Component Site Code (e.g., V40).
+•
+Claimant's own SSN (COSSN).
+•
+Document Type (see Document Types - DI 81020.040).
+•
+DMA disposition code (identifies whether scanned documents are automatically added
+to DMA or sent to the Disability Determination Services (DDS) printer):
+–
+“D” – Sends imaged document to the DMA repository (used for cases processed in DMA).
+–
+“P” - Sends the imaged document for printing (used for cases not processed in DMA).
+•
+Contract Scanner source document disposition code:
+–
+“F” – Contract Scanner forwards source document to originating site (for paper folders).
+–
+“S” – Contract Scanner stores source document at scanning contractor site (for CEF
+cases).
+•
+Checksum is a systems generated number keyed by providers using the Electronic Records
+Express (ERE) website to ensure they correctly keyed the indexing information on the
+website.
+•
+Request ID, is a unique number created by the case processing system that links the
+document to an evidence request in the case processing system. The CEF sends the Request
+ID to the case processing system as notification when the response is received. The
+DDS case processing system alerts the Disability Examiner (DE) that the document was
+received and updates the DDS worksheet to indicate the response was received.
+NOTE: The Request ID may also be known as the turnaround document number, document control
+number, voucher number, authorization number, case number, or a combination of these
+terms depending on the DDS system.
+2. Creating the DMA Barcode
+DDS creates the barcode through its case processing system. The barcode is automatically
+generated and placed on all case development correspondence and all documents used
+for onsite scanning and contract scanning.
+NOTE: A barcode must be affixed to all case development documents used to request evidence
+for CEF cases.

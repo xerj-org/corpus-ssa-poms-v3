@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - SI 02003.020 - Field Office Processing of IAR Authorizations
+Effective Dates: 08/29/2024 - Present | TN 25 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003020 (fetched 2026-10-04)
+
+B. Procedure for processing IAR authorizations in manual notification States
+In a manual notification State, the State sends the original paper authorization form
+to the FO to notify SSA that it has a valid authorization for reimbursement. The FO:
+•
+date stamps the authorization form;
+•
+reviews the form to ensure that it is completed correctly, signed by the State and
+the individual, and received by the FO within 30 days from the date that the individual
+signed the authorization;
+•
+inputs the GR code if no GR code of “R” or “F” is already posted on the SSR. The GR
+code must be posted to the individual’s SSR before SSA releases the retroactive benefits.
+For information about posting the GR code, see MSOM MSSICS 023.006 and SM 01005.623.
+Do not change or delete a GR code present on a record unless it was input erroneously
+(e.g., State and county code input as 12435, correct code is 12345).
+IMPORTANT: Do not delete a Grant Reimbursement Code (GRC). Contact your eIAR Regional Coordinator,
+if expedited processing is required or there is justification for the GRC deletion.
+•
+inputs the corrected application date if the authorization form identifies a protective
+filing and reviews eligibility back to the protective filing date;
+•
+notifies DDS or the Office of Hearings Operations (OHO) of the protective filing date
+if a disability claim is pending at DDS or OHO;
+•
+faxes a copy of the signed authorization form into the appropriate electronic folder
+to document the protective filing date; and
+•
+shreds the paper form after faxing a copy to the electronic folder.
+The eIAR system will:
+•
+control the case;
+•
+post information on the eIAR screens;
+•
+automatically send appropriate notifications and follow-ups to the State; and
+•
+process the IAR reimbursement to the State when the FO completes the prepayment review
+and inputs an allowance for the claim to build the UPV:V to the SSR.
+NOTE: The correct application date must be on the SSR at the time the UPV: V is built so
+the eIAR system uses the correct IAR period to process the case.
+REMINDER: Process workloads in the proper sequence, e.g. review terminated records
+for underpayments. The GR code must be brought forward from a terminated record to
+a start-dated record if there will an underpayment on the start-dated record.

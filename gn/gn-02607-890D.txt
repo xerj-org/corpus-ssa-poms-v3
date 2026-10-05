@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02607.890 - Requests for Prisoner Record Changes, Updates, or Deletions to the Prisoner Update Processing Systems (PUPS)
+Effective Dates: 08/15/2023 - Present | TN 97 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607890 (fetched 2026-10-04)
+
+D. Erroneous PUPS pending alert regarding beneficiary or recipient
+PUPS generates a “pending” PUPS alert for technician review if there is a match on
+eligibility or entitlement. Sometimes the prisoner computer matching operation incorrectly
+identifies a beneficiary or recipient as a “prisoner.” If during our investigation
+we learn that the beneficiary or the recipient is not the incarcerated inmate on the
+PUPS alert, close the PUPS pending alert. For instructions on closing the PUPS pending
+alert, see GN 02607.890D.1. in this section.
+1. Mark PUPS pending alert as “ERRONEOUS PERSON”
+Instead of deleting the erroneous PUPS pending alert, process as follows.
+•
+Close the PUPS pending alert by using a TYPE OF ACTION “03 CLEAR CONTROL – ERRONEOUS
+PERSON” on the T2 Prisoner Update (PU02) screen, or on the T16 Update (PU16) screen
+to close the PUPS alert. For instructions on closing a PUPS pending alert as “ERRONEOUS
+PERSON,” see MS PRISON 003.001I.
+•
+Add remarks in PUPS to the Remarks (PRMK) screen documenting both our development
+and why we find the record erroneous. The remarks will notify other technicians that
+the incarcerated inmate is not our beneficiary or recipient. The “ERRONEOUS PERSON”
+annotation on the PUPS record shows that someone else is using the Social Security
+number (SSN) fraudulently, or that PUPS incorrectly identified our beneficiary or
+recipient as a prisoner.
+•
+Inform the beneficiary or recipient that our method of annotating the PUPS record
+alerts our technicians to the problem if we receive another erroneous alert for the
+same beneficiary or recipient.
+NOTE: Since there is no pending alert for a PUPS skeleton record, the only changes you
+can update to a skeleton record are the facility ID, released date, and remarks. If
+you need to update a skeleton record as an “erroneous person,” annotate a released
+date equal to the confinement date on the skeleton record, add a remarks screen (i.e.,
+PRMK screen), and explain why the skeleton record is incorrect. For additional information
+on skeleton records, see MS PRISON 003.001J.
+2. Request to delete PUPS pending record
+Although a PUPS record is marked as “ERRONEOUS PERSON,” the beneficiary or recipient
+may request deletion of the PUPS record. Notify the beneficiary or recipient that
+we will consider their request.
+For processing instructions on a request for a deletion of a PUPS record, see GN 02607.890E.1. in this section.

@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+I. Documenting and clearing work issue determinations in the DCF
+The actions taken to adjudicate a CDR issue are similar regardless of whether you
+establish the CDR issue manually or via a system generated enforcement action.
+•
+Review the earnings information on the DCF and determine if someone has already developed
+the work. Refer to the QERN/VERN query in DI 13010.655 or DI 13010.675 and MSOM CDR 002.002.
+•
+Correct information and enter any newly determined information via the VERN screen.
+Press the PF3 key while in any screen in the DCF to access the VERN through the MCDR
+screen.
+•
+On the MCDR screen, enter SELECT #13, VERIFY EARNINGS. This will access the VERN screen
+in update mode. Use the VERN screen to document work activity and to annotate TWP,
+SGA, and UWA months.
+•
+Record developmental documents as received in DCF using the development CDRW screen.
+•
+Enter remarks in the DCF using the IRMK screen.
+•
+Check for medical issues that may exist with the QMID screen.
+See Details
+DCF User Guide for the Field Office (FO)

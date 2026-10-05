@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02607.720 - Processing Cases Through PUPS Where the Inmate Is Not Currently Convicted/Commitment
+Effective Dates: 09/04/2007 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607720 (fetched 2026-10-04)
+
+B. Procedure - Processing Cases through PUPS Where SSA is Developing for a Future Trial
+Date
+In those situations where SSA receives a report of a pending trial for a beneficiary
+and you are developing for the future trial date, you will place the case in TRIAL
+PENDING" status on the PUPS record in order to keep track of the pending trial date
+for the beneficiary. PUPS provides the capability to temporarily close a PUPS PENDING
+record while you are awaiting a conviction or commitment decision for a beneficiary
+from the court. This PUPS functionality will automatically reopen a PUPS PENDING item
+when the expected trial or commitment date comes due. In addition, the period of time
+that a case is in "TRIAL PENDING" status will not count against the age of the case.
+Processing time will start again at “zero days pending” when the case returns to PENDING
+status following the termination/expiration of "TRIAL PENDING” status.
+NOTE: FOs will maintain jurisdiction of all PUPS records awaiting conviction or commitment
+status. Do not send cases to the PC/OCO-ODO where SSA is waiting for conviction or
+commitment information. The PC/OCO-ODO should only receive cases from the FO where
+they have completed case processing and cannot input the suspension transaction using
+PUPS (PUPS exclusion cases) and the FO attempted to suspend the benefits via PUPS but a processing exception occurred
+on the record.

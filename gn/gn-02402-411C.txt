@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.411 - Coding Guatemala Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/06/2018 - Present | TN 166 (07-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402411 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Guatemala will have a prefix of “71” at the beginning of the
+Routing and Transit Number (RTN). The first letter of the Depositor Account Number
+(DAN) field has the letter “W” assigned for Guatemala.

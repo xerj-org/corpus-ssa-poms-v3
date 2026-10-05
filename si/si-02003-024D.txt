@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02003.024 - Processing eIAR Proration Cases
+Effective Dates: 11/19/2010 - Present | TN 29 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003024 (fetched 2026-10-04)
+
+D. Procedure for manually processing IAR proration cases
+After the regional coordinator notifies the FO of a proration case, process the IAR
+reimbursement as follows:
+•
+The FO will immediately input a hold on the underpayment on the UOUP screen (select
+Option 1, HOLD UNDERPAYMENT) to prevent eIAR from erroneously releasing SSI benefits
+to the recipient due to the 25-day time limit established within the eIAR system.
+This will build a UPV:U.
+•
+The FO will prepare an SSA-L8125 (Notice of Interim Assistance Reimbursement) and
+send it to the State IA agency.
+•
+The FO will tickle the case for 25 days from the date it sends the SSA-L8125 to the
+State. This starts the 25-day time limit for the State to request reimbursement.
+•
+The State IA agency will complete its portion of the SSA-L8125 to provide information
+about the IA payments made by the State. The State IA agency must return the SSA-L8125
+to the FO within 25 days of the date that SSA sent the form to the State. If the State
+does not submit the completed SSA-L8125 to SSA within 25 days, SSA is required to
+pay the retroactive SSI benefits to the recipient using SSI payment rules.
+•
+After receiving the completed SSA-L8125, the FO will review the form for completeness
+and compute the reimbursement due.
+•
+The FO will delete the GR code from the SSR and issue the IAR reimbursement payment
+to the State using option 6 = OTHER on the UPOT screen.
+•
+The FO will release the hold on the underpayment on the UOUP screen.

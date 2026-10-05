@@ -1,0 +1,164 @@
+SSA Program Operations Manual System (POMS) - DI 28010.020 - Comparison Point Decision (CPD)
+Effective Dates: 08/14/2024 - Present | TN 16 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428010020 (fetched 2026-10-04)
+
+B. Which decision is the CPD?
+1. CPD criteria met
+The following types of decisions are CPDs (see DI 28010.020A) when they meet the following criteria:
+•
+Decisions (based on medical evidence that was current at the time of the decision)
+that the individual continues to have a disabling impairment, or
+•
+Adoption decisions (i.e., collateral estoppel decisions) that included consideration
+of current medical evidence, including consideration of medical, functional, or medical/vocational
+issues, or
+•
+The earlier favorable medical decision (usually under a different title) that was
+used as the basis for applying collateral estoppel
+NOTE: If a collateral estoppel determination was made and did not include consideration
+of medical evidence at the time of adoption , do not use the collateral estoppel determination
+as the CPD.
+2. CPD criteria not met
+The following types of decisions do not involve consideration of medical issues. They
+are not appropriate CPDs because the supporting evidence for the decision does not
+provide a suitable basis for medical improvement review standard (MIRS) comparisons.
+Therefore, do not use the following types of decisions as CPDs:
+•
+Collateral estoppel adoption determinations without consideration of medical issues,
+including collateral estoppel adoptions completed by the field office (FO). Rather,
+the CPD is the decision that was the basis for collateral estoppel, such as the most
+recent prior favorable determination or decision based on meeting or equaling a listing
+(or functionally equaling a listing), an allowance based on medical-vocational rules,
+or a CDR related decision (such as a decision finding no MI).
+•
+SSA-899-U2's (Continuing Disability Review) categorizing individuals as permanently
+impaired, without evaluation of then-current medical evidence
+•
+Reinstatement under a CDR moratorium
+•
+Decisions based solely on work
+•
+Decisions not involving consideration of the issue of current disability (e.g., most
+decisions on appeals requesting an earlier onset)
+3. Closed period
+a. CPD in closed period allowance cases
+Use the established onset date as the comparison point. For further information on
+closed period cases, see DI 25510.001.
+b. Adoption decision
+Use the prior medical decision on the previously adjudicated claim that resulted in
+a favorable medical decision as the CPD, when adopting a prior decision results in:
+•
+A closed period decision on a new claim, and
+•
+Simultaneous cessation of benefits on a previously adjudicated claim.
+4. Non-rollback conversion
+a. Comparison points
+Two comparison points may apply:
+•
+DI 28001.045 explains when cases must be evaluated under the State plan,
+•
+DI 28035.025F discusses additional considerations related to comparison points in non-rollback
+conversion cases where evidence from the prior State decision is not available and
+cannot be reconstructed, and
+•
+DI 28075.010 provides guidance for procedures and development of non-rollback conversion cases
+b. Federal criteria
+Use the most recent favorable decision under the Federal criteria as the CPD, as discussed
+in this section. If there is no prior favorable Federal decision, use the most recent
+medical decision granting or affirming entitlement under the State criteria as the
+CPD.
+c. State criteria
+Use the most recent medical decision granting or affirming entitlement under the State
+criteria as the CPD in considering State criteria.
+5. Unclear CPD
+If the appropriate CPD is unclear, the adjudicator must review any available documents
+from the prior favorable medical determination. For example, the SSA-831, SSA-832,
+or SSA-833 may contain the regulation basis code or vocational rule that was used
+to support the favorable determination if the medical assessments cannot be located.
+If there is an inconsistency between the information entered on the SSA-831 and the
+medical assessment (e.g., the CPD medical assessment indicates the individual met
+listing 4.02 but the SSA-831 indicates the individual met listing 4.06), the adjudicator
+must carefully review the available evidence to determine the correct basis for the
+decision to follow the CDR sequential evaluation process and determine if medical
+improvement has occurred.
+If the CPD folder is lost and the adjudicator cannot determine the CPD date or basis,
+the adjudicator must follow instructions in DI 28035.015A to attempt to identify the CPD date prior to reconstruction. After identifying the
+CPD, the adjudicator follows the instructions in DI 28035.020 to reconstruct the folder.
+Queries may also be a useful tool to help determine the basis for the CPD (including
+application of a collateral estoppel adoption determination by the FO) or resolve
+inconsistencies, see DI 28035.015B.
+The table contains examples of useful data to determine the CPD that may be found
+within common queries, such as the Supplemental Security Income Display (SSID), Full
+Account Query (FACT - Master Beneficiary Record or MBR display), Disability Determination
+Services Query (DDSQ), or Processing Center Action Control System (PCACS):
+Examples of useful data in common queries
+Field Indicator
+Query Type
+Query Line
+Query Field Code
+Reference(s)
+Date of Disability Onset
+DDSQ (accessed through PCOM - Query Master- DDSQ; or via PCOM - Option 18 (NDDSS Master
+File Menu), then Option 1 (DDS Query))
+FACT or SSID
+Case data
+DISB
+OND
+DDO
+SM 06002.200
+SM 01601.595
+State Closure Date (date the case cleared Disability Determination Services (DDS))
+DDSQ
+Case data
+SCD
+SM 06002.200
+CPD date
+DDSQ
+Case data
+ESD (examiner signature date)
+SM 06002.200
+Disability Diagnosis Code
+DDSQ
+FACT or SSID
+Case data
+DISB
+DSI (Disability Identification Data – Permanent disability code, primary diagnosis
+code, medical diary reason code)
+DIG
+SM 06002.200
+SM 01601.595
+Medical Diary Date
+DDSQ
+FACT or SSID
+Case data
+DIAR
+DIA (displays diary type and diary maturity date)
+MR (diary code of "MR" is a medical reexamination diary, the date is the diary maturity
+date)
+SM 016002.200
+SM 01301.235,
+SM 01601.580
+Medical Diary Reason
+DDSQ
+SSID
+Case data
+DISB
+MDR
+SM 06002.200
+SM 01601.595
+Collateral Estoppel
+PCACS
+SSID
+Listing Codes
+DISB
+“589” is a listing code that correlates with a collateral estoppel determination effectuated
+by the FO for a Title II claim
+"V" is an MDR code that correlates with a collateral estoppel determination effectuated
+by the FO for a Title XVI claim
+NOTE: A collateral estoppel determination effectuated by the FO does NOT meet CPD criteria.
+Please note the FO may change the MDR from the systems generated code “V” to one that
+matches the claim they are adopting the medical decision from; the code may not be
+“V” for a Title XVI collateral estoppel adoption or “589” for a Title II collateral
+estoppel adoption.
+DI 11011.001E.3.a., DI 13015.110, GN 01040.100
+SM 01601.595

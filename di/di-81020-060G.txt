@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 81020.060 - Receiving Evidence in Disability Determination Services (DDS)
+Effective Dates: 10/02/2026 - Present | TN 42 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020060 (fetched 2026-10-04)
+
+G. Evidence received via Health Information Technology (health IT)
+The Medical Evidence Gathering and Analysis through Health Information Technology
+(MEGAHIT) system obtains medical evidence via health IT by generating an electronic
+request to a Health Information Exchange (HIE) if:
+•
+one or more health IT participating sources are listed in EDCS; and
+•
+a signed and dated SSA-827 (Authorization to Disclose Information to the Social Security
+Administration) image is in the electronic folder (EF).
+If there are multiple claims on a case, MEGAHIT transmits only one electronic request
+to the HIE.
+If there are multiple health IT participating sources listed on the EDCS case, MEGAHIT
+sends only one electronic request to the appropriate HIE.
+When MEGAHIT sends an electronic request, it adds a HIT Request document to the yellow
+back section of the EF to identify the following:
+•
+the listed EDCS source(s) from which health IT records were requested,
+•
+the HIE(s) processing the request,
+•
+the requested date range of medical records (when available), and
+•
+the date the request was made.
+1. If medical records data are received
+MEGAHIT formats the data into imaged documents (e.g., HIT MER), which are stored in
+the yellow back section of the EF.
+2. If no response or no medical records data are received
+MEGAHIT adds a HIT Response document to the yellow back section of the EF. MEGAHIT
+does not generate another request.
+NOTE: SSA does not provide payment to the HIE when a HIT Response (rather than a HIT MER)
+document is produced. SSA provides payment to the HIE for a valid medical records
+response to the initial request that is automatically sent at case transfer from the
+FO to the DDS. The DDS provides payment to the health IT participating source(s) for
+any additional requests sent by the DDS during case development.

@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - GN 02613.100 - Fugitive Felon SSA Control File (FFSCF)
+Effective Dates: 08/03/2022 - Present | TN 46 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613100 (fetched 2026-10-04)
+
+B. Process – suspending Title II benefits because of fugitive felon/probation or parole
+violator outstanding warrants
+1. FFSCF automated suspension of Title II benefits
+During the course of the Fugitive Felon Matching Operation, FFSCF will generate a
+trigger (T2 finder) to automatically suspend Title II benefits for fugitive felon/probation
+or parole violator suspensions if:
+•
+the OIG verification process indicates that the warrant is “actionable,” and
+•
+Title II entitlement(s) was/were identified in the FFSCF MBR matching operation, and
+•
+due process maturity date, if established, is past and no protest is pending (this
+process will also include closed period of suspension cases where the beneficiary
+is in nonpayment status or the warrant has been satisfied), and
+•
+the warrant has been in effect for more than 30 consecutive days.
+NOTE: Advance notice of proposed suspension (due process notification) will not be initiated
+in FFSCF if the OIG warrant status documents that the warrant has been dismissed or
+the beneficiary has been apprehended. The notification of SSA’s determination of the
+fugitive felon/probation or parole violator suspension will be handled as part of
+the suspension and overpayment processing when the retroactive suspension is imposed
+in Title II.
+2. Fugitive felon suspension and reinstatement (FFEL) screen
+Manual suspension of Title II benefits for fugitive felon or probation or parole violator
+suspensions will be input via the Fugitive Felon Suspension and Reinstatement (FFEL)
+in MCS, POS and MACADE. For information on the FFEL screen, see MSOM COMMON 005.035.
+NOTE: The MACADE screen will be a “look-a-like” screen that updates FFEL data to and receives
+data from the T2Shared processing system but it will be a MACADE, not common screen.
+3. Processing of the FFSCF T2 finder or FFEL screen
+Processing of Title II suspensions for fugitive felon or probation or parole violator
+suspensions either via the FFSCF T2 Finder or FFEL input will result in
+•
+establishment or update of new FFEL data to the FUGITIVE line on MBR (for information
+on the FUGITIVE line on the MBR, SM 00510.000); and
+•
+LAF S9 Suspension with unique RFST of “FUGFEL”.
+CAUTION: The priority of the S9/FUGFEL suspension will be immediately below the prisoner (LAF
+S7) suspensions. For the priority of suspension actions, see GN 02602.025.
+NOTE:
+When the T2 system does not process the suspension action an exception occurs in T2
+processing, a PCACS control will generate to the appropriate PSC for suspension processing
+through MACADE/MADCAP.
+4. When T2 suspension does not work
+For instances where the FFEL T2 suspension action may not process the suspension correctly,
+see GN 02613.760.
+STEPS
+ACTIONS
+1
+Prepare a Fugitive Felon Fax Form. (See the Fugitive Felon Fax Form and instructions
+in GN 02613.980.) On the Felon Fax Form, instruct the PSC to suspend benefits to the beneficiary
+and the date the suspension should begin on the fax form.
+2
+Fax the form to the PSC that has jurisdiction over the beneficiary's SSN for action
+on the form.
+3
+Annotate the form to notify the PSC to send the appropriate suspension notice to the
+beneficiary.
+4
+Tickle the case via MDW for 15 working days. Check the MBR after 15 working days to
+ensure that benefits have been suspended LAF S9 with an RFST of FUGFEL. Call the PSC
+when the diary matures and there is no suspension per GN 02613.980B.
+5
+Developing Representative Payee Suitability
+Check RPS in each case where the beneficiary/claimant has an outstanding felony warrant
+to determine if they are serving as a representative payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to GN 00502.133.
+6
+Forward all case materials to be associated with the folder after suspension has taken
+place for the beneficiary. Do not fax material. Annotate the material “Fugitive Felon
+II Suspension Processed Drop File Material.” Mail the documentation to the jurisdictional
+PSC address as shown in GN 02613.980C.

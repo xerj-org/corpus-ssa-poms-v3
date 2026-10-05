@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - GN 02402.334 - Coding Switzerland Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402334 (fetched 2026-10-04)
+
+F. Procedure for coding Switzerland bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Switzerland using an SSA system (i.e.
+Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE).).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+enrollment status;
+•
+country;
+•
+account type;
+•
+account ownership;
+•
+International Bank Account Number (IBAN);
+•
+beneficiary address - NOTE: Enter the beneficiarie's address in this format: CH/Town/Name. Start with the ISO country code for Switzerland (CH);
+•
+bank address - NOTE: Enter the bank address in this format: CH/Town/Name . Start with the ISO country code for Switzerland (CH).
+•
+reclamation country.
+1. Process initial award
+Secure IBAN from the beneficiary at the time of filing. The FBU inputs an initial
+IDD claim if the beneficiary elects the option of direct deposit. All initial IDD
+claims that an FBU takes for Switzerland require input into ITS.gov and an SSA system
+(i.e. MCS, MACADE, etc.) on the same day. You must complete all initial claims that
+the International Benefits Office (IBO) takes. You must input all initial claims involving
+Swiss IDD into ITS.gov and an SSA system (i.e. MCS, MACADE, etc.) on the same day.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+Reason: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a Swiss Franc (CHF) account in Switzerland? If no, STOP.
+Reason: Beneficiaries in Switzerland can only receive IDD payments in CHF accounts.
+If yes, go to step 4.
+4
+Code the 9-digit RTN for Switzerland, as follows:
+•
+71 (the multi-country prefix SSA designated to Switzerland);
+•
+a filler 0;
+•
+the 5-digit bank code (obtain through the IBAN, see GN 02402.334G); and
+•
+the U.S. check digit (obtain through Title II Interactive Comps from the Main Menus
+07/Sub Menu 16).
+5
+Code the account type:
+–
+S for savings, or
+–
+C for checking.
+If the beneficiary does not indicate an account type, use a C for checking account.
+6
+Code the DAN for Switzerland as follows:
+•
+start with a country code of N designated for Switzerland; and
+•
+code the 12-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.334F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

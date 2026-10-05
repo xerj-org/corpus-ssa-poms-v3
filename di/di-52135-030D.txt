@@ -1,0 +1,103 @@
+SSA Program Operations Manual System (POMS) - DI 52135.030 - California Public Disability Benefits (PDB)
+Effective Dates: 01/13/2026 - Present | TN 29 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452135030 (fetched 2026-10-04)
+
+D. Imposing and removing offset
+Payment of SDI is generally at the full weekly benefit amount for 52 consecutive weeks.
+If the evidence indicates otherwise, obtain additional verification of the rate, breaks
+in payment, actual ending date, etc.
+1. Benefit amount
+•
+SDI bases benefits on a Weekly Benefit Amount (WBA) and pays biweekly.
+•
+Offset the gross amount of the weekly SDI benefit unless the benefit is reduced and
+the type of reduction is not offsettable (see DI 52135.030F.2. in this section).
+•
+Offset for the number of weeks of SDI benefit receipt excluding known periods of disqualification.
+See DI 52135.030F.1. in this section.
+•
+See DI 52135.030I.1. - Exhibit 1 Maximum weekly SDI rate and duration chart.
+2. Start date
+•
+For disabilities that began on or after 01/01/1994, the State assesses a mandatory
+7-day, non-payable waiting period.
+•
+The start date will equal the Claim Effective Date (CED) + 7 days for disabilities
+beginning 01/01/1994 or the CED for disabilities beginning prior to 01/01/1994. (The
+CED is also referred to as the “date claim established” on some State forms.)
+EXAMPLE: If the CED is 04/01/2008, impose offset beginning 04/08/2008 (CED + 7 days), unless
+the evidence shows that the SDI payments began later.
+•
+The start date can be later than CED + 7 if the worker was disqualified or otherwise
+not eligible for payment until a later date.
+•
+Use the beginning date shown on the evidence for the period represented by the first
+SDI check if this is consistent with the CED and waiting period.
+•
+Enter the actual start date in MCS and ICF WC/PDB even if the date is earlier than
+the DIB month of entitlement
+3. Ending date
+•
+The ending date will appear as the “THRU” date shown on the final SDI payment stub
+containing the heading “Notice of Exhaustion of Disability Benefits” or as the “END”
+date shown for the last check on an EDD abstract (the account balance should show
+zero).
+NOTE: The ending date for the last SDI payment as shown on the EDD evidence may be incorrect
+if the amount of the last payment in benefit exhaustion cases is not an even multiple
+of the Weekly Benefit Amount (WBA).
+EXAMPLE: WBA = $423.00 and the last check is shown as $423.01 for 8 days ending 08/06/2008.
+The 1-cent fraction is a carryover in the EDD system from the rounding of prior payments;
+the system treats the fraction as a whole day, moving the ending date.
+To determine the correct ending date in this situation, divide the gross amount of
+the last payment by the daily rate (daily rate = WBA divided by 7and use 10 decimal
+places to follow EDD's formula in computing SDI payment amounts--do not use the EDD
+“Daily Benefit Amount”) and round to the nearest whole day. If the result equals the
+number of days shown for the last payment then the ending date shown is correct. If
+the result is one day less than the number of days shown, subtract one day from the
+ending date. Any other result, or if the Maximum Benefit Amount (MBA) is for less
+than 52 weeks or the SDI record shows a balance other than zero, requires further
+review of the EDD payments. These types of situations can result in true partial day
+payments, therefore, it may be necessary to enter the partial day amount in ICF by
+showing a period of one day and a weekly rate equal to the partial day amount times
+7. In the example above, the correct ending date is 08/05/2008 ($423.00/7=$60.4285714285;
+$423.01/$60.4285714285 = 7 days).
+•
+Partial day payment example:
+•
+WBA = $758.00 and the last check is shown as $994.58 for 10 days from 08/01/2008 through
+08/10/2008. The correct ending date is 08/10/2008 with a partial day payment on 08/10/2008.
+•
+WBA divided by 7 = $758.00/7 = $108.2857142857;
+•
+Check divided by daily rate = $994.58/108.2857142857 = 9.18477575 days;
+•
+Daily rate times 9. days = $108.2857142857 x 9 days = $974.5714285713 (this is the
+portion of benefits allocated to 9 days from 08/01/08 - 08/09/08;
+•
+Check amount minus 9 days of benefits = $994.58 - $974.5714285713 = $20.0085714287
+remaining amount for partial day;
+•
+Partial day amount times 7 days = $20.0085714287 x 7 = $140.0600000009 (round final
+result to 2 decimal places) = $140.06 weekly for 08/10/2008 - 08/10/2008
+•
+If the Payment stub contains the heading, “Notice of Final Payment” or the SDI payment
+history query shows an account balance other than zero, the SDI benefits have not
+been exhausted and may continue once the worker submits paperwork to EDD. In this
+situation, the field office (FO) will diary (code 42), as needed, to verify that no
+additional benefits were paid.
+•
+If the ending date is in the past, enter the ending date in Modernized Claims System
+(MCS) or ICF WC/PDB to remove offset.
+4. Ending date in the future
+•
+Do not assume that SDI payments will last the entire 52 weeks.
+•
+If the evidence shows a Maximum Benefit Amount (MBA), divide the MBA by the Weekly
+Benefit Amount (WBA) and prorate from the start date as determined in DI 52135.030D.2. in this section to determine the ending date. Input of a known ending date via
+MCS or ICF WC/PDB will pass the future end date to the MBR for future automated offset
+removal.
+•
+Verify the actual ending date if the evidence indicates any breaks in payment or benefit
+reduction (see DI 52135.001E below). FOs may need to control individual cases.
+For example, in situations where EDD issues a ‘Notice of Final Payment’ and we remove
+offset but SDI benefits have not been exhausted and could resume. See DI 52140.001H (FO) and DI 52140.010C (PC) for establishing diary controls.

@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02402.366 - Coding South Korea Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 255 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402366 (fetched 2026-10-04)
+
+G. Example of coding South Korea direct deposit
+The customer provides us with a signup form for South Korea containing the following
+information:
+•
+SWIFT code: 000000
+•
+Account Number 12345789123456
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 680000006
+•
+Code the type of account as a "C" for checking or an "S" for savings. If no account
+type indicated, use a "C" for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "B" designated for South Korea; and
+•
+Code the account number “12345789123456.”
+3. Obtain the following information
+•
+RTN: 680000006
+•
+Checking
+•
+DAN: B12345789123456
+a. POS reflects the following information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000006
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: B12345789123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 680000006
+•
+DAN- CB1234578912345678

@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 02402.331 - Coding South African Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402331 (fetched 2026-10-04)
+
+G. Example of coding South African bank data
+The customer provides us with a signup form for South Africa containing the following
+information:
+Bank code: 123456 Account Number: 1234567890123456@
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of “71” (the multi-country prefix for South Africa),
+•
+6-digit bank code: "123456" (If extra digits are provided, code only the first 6 digits.)
+•
+U.S. check digit (i.e., 3) (obtained from the Title II interactive Comps from the
+Main Menus 07/Sub Menu 16), and
+•
+Code the account type as a “C” for checking or an “S” for savings. If no account type
+indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “M” designated for South Africa; and
+•
+Code 16 digits of the account number 1234567890123456. The @ symbol is not coded.
+3. Obtain the following information
+•
+RTN: 711234563
+•
+Checking
+•
+DAN: M1234567890123456
+a. POS reflects the direct depost information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 711234563 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 711234563
+•
+DAN- CM1234567890123456

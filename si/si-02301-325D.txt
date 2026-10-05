@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 02301.325 - How to Correct the PPL During Appeal (Including COLA)
+Effective Dates: 08/06/2014 - Present | TN 18 (10-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301325 (fetched 2026-10-04)
+
+D. Procedure - Correcting the PPL
+Use the chart below to correct the PPL and issue a manual notice when:
+•
+a subsequent change (including COLA or a legislative change) occurs, and
+•
+an appeal decision cannot be rendered immediately on all issues under appeal.
+NOTE: System input instructions on correcting the PPL are in SM 01305.615. See SI 02301.320C., on how to pay benefits due based on systems cutoffs.
+If...
+then input...
+and send...
+a subsequent change increases the PPL*
+and pay the new PPL including any past benefits due based on the new PPL
+an SSA-L8151-U2 (suppress the system notice). Select appropriate paragraphs from NL 00803.025. Include GBKM01 when paying past benefits. For COLA, also select COLM50 and appropriate paragraphs from NL
+00803.050.
+a subsequent change reduces the PPL, but not down to $0
+a subsequent change reduces payment to $0
+and pay the new PPL
+the new payment status when applicable and correct the PPL
+an SSA-L8155-U2 (suppress the systems notice). Select appropriate paragraphs from NL 00803.025. For COLA, also select appropriate paragraphs from NL 00803.050. Include COLM50 if a monthly payment is due. (For exceptions to advance notice, see SI 02301.300E.)
+a subsequent change results in no payment change
+the recomputed PPL (equals the PPL on the record)
+an SSA-L8166-U2. Select appropriate paragraphs from NL 00803.050 including paragraphs that describe the facts on which the payment is based.
+the recipient appeals a subsequent change and reduction to the PPL
+and pay the prior PPL including any past benefits due based on the prior PPL if the
+FO cannot issue a decision immediately on the subsequent change under appeal
+•
+no notice if the prior PPL will continue uninterrupted
+OR
+•
+an SSA-L8165-U2 with no appeal rights to restore the PPL to the prior PPL (suppress the systems notice).
+Select appropriate paragraphs from NL 00803.025. Include GBKM01 when paying past benefits.
+there is an appeal decision on a subsequent change and reduction to the PPL
+and pay the correct PPL.
+an SSA-L8457-U2 (SSI Notice of Reconsideration (PE)). Suppress the systems notice and follow instructions
+in NL 00803.095. Select appropriate paragraphs from NL 00804.105.
+*See NL 00804.700 for sample COLA notices, notice numbers 6 and 7.

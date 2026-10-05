@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - DI 81010.040 - Source Reference File (SRF)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010040 (fetched 2026-10-04)
+
+C. Searching the SRF
+During an interview, CRs must first search the SRF for sources. If the SRF locates
+the source, it can be added into the case without keying-in the contact information.
+If the SRF cannot locate the source, the CR must manually add the information given
+by the claimant regarding the source (i.e. name, address, phone number, etc.). For
+more information on adding a source, refer to DI 81010.040D. of this section. The source search screen can be opened from any screen that requires
+the entry or selection of a source (e.g., Education, Medication, or Tests screens).
+1. Search Criteria
+The SRF search function allows the user to search using nine specific criteria, though
+up to three different criteria may be used at one time. The more search criteria used,
+the fewer sources are returned in the search results.
+a. Mandatory Search Criteria
+It is mandatory that at least one of the following four criteria is used while searching
+the SRF:
+•
+Last Name;
+•
+Organization Name;
+•
+Phone Number; or
+•
+DDS Vendor Number.
+b. Other Search Criteria
+The following five criteria may be used in addition to at least one of the four criteria
+per Source Reference File (SRF) DI
+81010.040C.1.a.:
+•
+Street Address Line 1;
+•
+City;
+•
+State;
+•
+Zip Code; or
+•
+Country.
+EXAMPLE: For small communities, a search by city alone may be all that is required. To get
+a list of all the vendors in Independence, KS, for the 1st source
+criteria select Organization, enter two spaces in the Data field. For the 2nd source
+criteria choose City and enter “Independence”. This entry will return a list of all the providers in Independence,
+KS. This method could also be used with a Zip Code rather than a city to further narrow
+the list. However keep in mind if the search criteria you select will return more
+than 250 entries EDCS will ask you to revise your search.
+2. The Source Search Screen
+The Source Search screen contains three columns:
+a. Criteria Column
+The criteria column contains nine specific search criteria used to search for a source.
+See DI 81010.040C.1. of this section for details on the search criteria.
+b. Parameter Column
+The parameter column allows users to choose the parameters of a search, either “Begins
+with” or “Contains”. The “Contains” parameter can be used only with the search criterion
+“Street Address Line 1”.
+The amount of data entered determines how broad or specific the search results will
+be. To obtain more sources, enter less data. To obtain more specific results, enter
+less data.
+NOTE: To broaden the search in the SRF, hit the space bar twice in data column of the organization
+name or last name for the first search criteria.
+c. Data Column
+The data column is a free form box that can be used to type in known details of a
+source to find exact matches based on the criteria and parameters used. A minimum of two characters is
+required for most criteria selections (spaces are also considered characters).
+EXCEPTION: The phone number criterion requires four numbers, though entering six or more generally
+produces better results (The phone number search begins with the area code).
+3. Selecting the State
+EDCS defaults to the state SRF based on the claimant’s mailing address (or residence
+address if the claimant does not have a mailing address). While searching the SRF:
+•
+Always search for the source in the default file first. Change the state file only
+if the source cannot be found in the state of claimant’s residence.
+•
+Sources in a state file are not limited to sources located in that state.
+•
+All sources that provide medical (or school) evidence to a DDS in the default state
+or sources that have been keyed in by a user in that state are shown in the SRF. For
+example, if an Alabama DDS has received medical evidence from an M.D. at Anderson
+Cancer Center in Houston, Texas, the source will be in the Alabama SRF.
+4. Search Results
+The search provides all the sources that match the search criteria used.
+•
+A source can be viewed prior to adding it to a case.
+•
+Sources from a DDS Vendor file are marked with an “*” (asterisk) between the Name/Organization
+column and the Street Address column.
+NOTE: If there are multiple entries for the same source, select the source with an asterisk.
+If the search does not provide the appropriate match, or resulted in more than 250
+matches:
+•
+Clear the old search entries; and
+•
+Enter new, redefined search criteria, parameters, and/or data.

@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - GN 02402.389 - Coding Laos Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/02/2023 - Present | TN 245 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402389 (fetched 2026-10-04)
+
+F. Procedure for coding Laos bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to SSA. When establishing or changing IDD bank data
+for Laos, you can use an SSA system (i.e., Modernized Claims System (MCS), Manual
+Adjustment Credit and Award Data Entry (MACADE)). However, you must go to ITS.gov to enter the following:
+•
+account number;
+•
+account ownership;
+•
+account type;
+•
+beneficiary address; (no P.O. box address allowed)
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator; and
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. SWIFT-BIC code obtained from the FI
+The SWIFT-BIC contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+You must update ITS.gov using the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Laos? If no, STOP.
+REASON: Beneficiaries in Laos can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+The RTN is 680000080 for all IDD to Laos. SSA and FRBKC have designated 68 as the:
+•
+Multi-country prefix for Laos IDD.
+•
+U.S. check digit code of “0” at the end of the RTN for all IDD accounts in Laos
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account
+6
+To code the Depositor Account Number (DAN) for Laos, code as follows:
+•
+Start with a country code of N
+•
+Code 16 digits of the 18 digit Customer Account Number.
+7
+You must take action on the same business day to enter into ITS.gov, the information listed in GN 02402.389F.
+You must access to ITS.gov, or ask a co-worker who to update the required information into ITS.gov.
+REMINDER: When this information is not available, FRBKC rejects the payment and returns it
+to our agency.

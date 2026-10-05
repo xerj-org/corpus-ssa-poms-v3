@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - SI 00832.002 - Processing Self-Identified Anderson Cases - Initial Reviews
+Effective Dates: 11/19/1996 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500832002 (fetched 2026-10-04)
+
+C. Procedure — Review Steps
+1. Obtain Correct VA Income Amount
+Use an SSA-L1103 to request correct VA payment information. Send requests through
+the parallel FO, unless the parallel FO has notified you of other arrangements.
+In Part I (page 1) of the form, show the name of the person(s) you need VA payment
+information for. If an eligible couple is involved, include the name and relationship
+of the spouse.
+In Remarks, request the months since November 1981 in which the individual received
+an augmented protected pension and the amount attributable to the individual per M21-1,
+part III, par. 9.03e of the VA manual.
+Use normal follow-up procedures, if needed. Contact the SSA RO for help if a problem
+arises that cannot be resolved timely and locally.
+2. Input Income Information or A-OTP
+a. Single Record in Current Pay, E01, or Suspense
+For a record in C01, E01, or suspense, input the revised VA income amount for each
+month already posted with VA type E income in the relief period (SI 00832.001 D.2. and 3.). Do not input other retroactive changes that affect eligibility or payment
+amount as part of the Anderson case review.
+b. Terminated or Denied Record(s)
+For records in terminated or denied status, compute the underpayment using the computation
+method described in D. below. Issue payment by a single A-OTP applied against the
+most recent record. Create a new record if needed to process the A-OTP. (Use force
+pay procedures if more appropriate.) Do not make any retroactive changes that affect
+eligibility or payment amount other than the change in VA income amount. If a member
+of an eligible couple is due an underpayment (SI 00832.001
+D.6.), issue payment to both members of the couple, following normal procedures for underpayments
+to eligible couples.
+c. Combination of Current Pay/Suspense Record and Prior Terminated or Denied Record(s)
+For cases currently in C01, E01, or suspense with one or more prior, terminated or
+denied records covering months in the relief period, first manually compute the underpayment
+for the prior record(s) per D. below. Next, input the A-OTP to the current record
+per b. above. Then, input the revised VA income amount to the current record per a.
+above.
+d. CG Code
+In each case, input a CG code of “ANDE RSON MMYY” to document the latest record with the month an Anderson relief payment was paid
+or to document the record that no underpayment is due.
+e. Netting Underpayment Against Overpayment
+Do not net the underpayment amount against the amount of a prior overpayment if the
+underpayment and overpayment periods overlap. If necessary, suspend collection of
+an overpayment until after the Anderson underpayment is released.
+f. Follow-up Query
+For each input, obtain a follow-up query to confirm payment.
+3. Issue Notice
+a. Single Record in Current Pay, E01, or Suspense
+If an underpayment is due, only one record is involved, and that record is in C01,
+E01, or suspense, issue the form letter (SSA-L8165-U2, Important Information) displayed
+in SI 00832.004 A. at the time of the input, so the class member receives it before the automated notice.
+If no underpayment is due, see d. below.
+b. Terminated or Denied Record(s)
+If the most recent record is in terminated or denied status, issue a single manual
+notice (SSA-L8100-U2, Notice of Revised Determination) explaining the underpayment
+for the period covered by this and any prior record(s). See SI 00832.004 B. for the required paragraphs.
+If no underpayment is due, see d. below.
+c. Combination of Current Pay/Suspense Record and Prior Terminated or Denied Record(s)
+If the current record is in C01, E01, or suspense, and one or more prior records exist
+in the relief period, issue a single manual notice (SSA-L8100-U2, Notice of Revised
+Determination) explaining the underpayment for the period covered by the prior records.
+See SI 00832.004 B. for the required paragraphs. If an underpayment is due on the current record as well,
+permit the system to release an automated notice for the period covered by the current
+record. Release the manual notice before the system releases the automated notice.
+If no underpayment is due, see d. below.
+d. No Underpayment Due
+If the individual is not due an underpayment, issue the form letter (SSA-L8166-U2,

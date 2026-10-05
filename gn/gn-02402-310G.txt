@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02402.310 - Coding Australia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402310 (fetched 2026-10-04)
+
+G. Examples of coding bank data for Australia
+This section provides examples of how to derive the DAN and RTN for Australia.
+1. Example of Australia bank data with a nine-character account number
+The customer provides us with a signup form for Australia containing the indicated
+BSB of 123-456 and account number of 007890-1S
+a. Derive the RTN as indicated
+•
+Code the prefix of “61”
+•
+Code the BSB “123456” (no hyphen).
+•
+Code the one-digit check code “6” (Obtain from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16.)
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+b. Derive the DAN as indicated
+Code the nine-digit alphanumeric account number “007890-1S” (include the hyphen since
+the total number of characters is nine).
+2. Example of Australia bank data with a five-character account number
+The customer provides us with a signup form for Australia containing the indicated
+BSB of 234-567 and account number of 43432.
+Derive the RTN as indicated
+•
+Code the prefix of “61”
+•
+Code the BSB “234567” (no hyphen).
+•
+Code the one-digit check code “4” (Obtain from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16.)
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+Derive the DAN as indicated
+Code the five-digit alphanumeric account number “43432.”
+3. Example of Australia bank data with a 10-character account number
+The customer provides us with a signup form for Australia containing the indicated
+BSB of 345-678 and account number of 1234-RD-56.
+Derive the RTN as indicated
+•
+Code the prefix of “61”
+•
+Code the BSB “345678” (no hyphen).
+•
+Code the one-digit check code “2” (Obtain from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16.)
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+Derive the DAN as indicated
+Code the alphanumeric account number “1234RD56” (Since the total number of characters
+is more than 9, the coder does not code the hyphens).

@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - GN 02607.705 - Suspending Title XVI Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607705 (fetched 2026-10-04)
+
+E. Special PUPS alert processing
+1. Concurrent (Title II and Title XVI) PUPS pending records
+In concurrent cases, both Title II and Title XVI have their own pending PUPS record.
+Complete all development and update each record separately. For instructions on suspending
+Title II benefits using PUPS, see GN 02607.700.
+2. PUPS status is pending and inmate confined for less than a calendar month
+If an institution releases an inmate after a confinement of less than a calendar month,
+clear the PUPS record by updating the following PU16 fields:
+a.
+SELECT TYPE OF ACTION--Enter 2 (Clear ControlNo Suspension Necessary);
+b.
+RELEASED DATE--Enter the date the inmate was no longer in the custody of the correctional
+or mental health institution; and
+c.
+REMARKS--Explain why you are not suspending benefits to avoid possible duplicate development.
+Address any possible retroactive periods of suspension, if applicable.
+3. Recipient is not the inmate (erroneous person)
+If the recipient identified on the PUPS alert is not the inmate:
+a.
+SELECT TYPE OF ACTION = 3 (CLEAR CONTROL ERRONEOUS PERSON) on the PU16 field; and
+b.
+Document how you determined that this is an erroneous person case on the PRMK screen
+to avoid future duplicate development.
+4. Fugitive felon suspension before prisoner suspension
+Occasionally, an institution will confine a recipient who was a fugitive felon. If
+you receive both a PUPS alert and a fugitive felon alert for the same person, process
+the alerts as follows:
+a.
+post the N22 suspension beginning the first full calendar month of confinement; and
+b.
+after the inmate is in payment status N22, post the N25 fugitive felon suspension
+on an SSA-1719B. For instructions on processing fugitive felon warrant information,
+see SI 00530.000.
+Processing the N22 prisoner suspension before the N25 suspension triggers the incentive
+payment to the reporting institution. The N25 payment status input suspends the recipient
+effective with the correct initial suspension month based on the fugitive felon report.
+5. Pending initial claims and appeals
+Process the PUPS alert as follows:
+a.
+While awaiting a decision on a claim or appeal:
+•
+clear the PUPS PENDING record by selecting TYPE OF ACTION = 2 (CLEAR CONTROL - NO
+SUSPENSION NECESSARY) on the PU16 screen;
+•
+enter Decision pending - alert to be developed if decision favorable on the PRMK screen;
+•
+enter an issue of Prison on the Development Worksheet page in CCE; and
+•
+enter Prisoner alert to be developed if decision favorable" in the SSR Remarks.
+b.
+If there is a favorable decision:
+•
+fully develop the PUPS alert per GN 02607.600; and
+•
+process the claim or appeal to completion, including posting the proper period of
+payment status N22.
+6. Blank payment status
+An SSR may have a blank payment status code upon completion of the non-medical development
+if:
+•
+a medical decision is pending;
+•
+an edit condition exists; or
+•
+verification is pending.
+To prevent these records from going automatically into pay if there is a favorable
+medical decision or upon resolving all edit and verification issues, leave the PUPS
+record in PENDING status and develop the alert. After completing the alert development,
+process as follows:
+a.
+If prisoner suspension does not apply, clear the alert using the PU16 screen:
+•
+select TYPE OF ACTION = 2 (CLEAR CONTROL - NO SUSPENSION NECESSARY); and
+•
+update the RELEASED DATE field, if appropriate.
+b.
+If prisoner suspension applies:
+•
+clear the alert on the PU16 screen by selecting TYPE OF ACTION = 2 (CLEAR CONTROL
+- NO SUSPENSION NECESSARY) and updating the RELEASED DATE field, if appropriate;
+•
+add a remark Prison suspension applies. MSSICS screens updated and Title XVI claim
+taken out of adjudicative mode" to the PRMK screen; and
+•
+update MSSICS screens with the living arrangement information and put the Title XVI
+claim into H80 payment status. For additional information on updating living arrangement
+information, see MSOM INTRANETSSI 010.009.
+If, subsequently, there is a favorable medical decision or all edit and verification
+issues are resolved, process the award to completion, including posting the proper
+period of payment status N22.
+7. Inmate is a member of a couple's record
+If an inmate is a member of a couples record, complete the following steps:
+a.
+clear the PUPS record by selecting TYPE OF ACTION = 2 (CLEAR CONTROL - NO SUSPENSION
+NECESSARY) on the PU16 screen;
+b.
+post the N22 suspension on the couples record using either MSSICS or an SSA-1719B,
+as needed;
+c.
+terminate the couple's record;
+d.
+build new individual records for each member of the couple;
+e.
+post a payment status of N22 on the inmates new record;
+f.
+carry the N22 overpayment forward to the inmates new record;
+g.
+suppress all automated notices on the terminated and new records. Send a manual notice
+to each recipient; and
+h.
+request a manual incentive payment, if appropriate. For information on how to request
+a manual incentive payment, see GN 02607.820.
+The SSR will share suspension information on the new record with PUPS. However, the
+payment status N22 effective date on the new record will not agree with the PUPS ACTION
+EFFECTIVE DATE.

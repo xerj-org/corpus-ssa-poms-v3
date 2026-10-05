@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - SI 02305.122 - RZs Involving Essential Person(s)
+Effective Dates: 06/02/2026 - Present | TN 99 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305122 (fetched 2026-10-04)
+
+B. Procedure
+1. General
+Determine continuing EP status. If the recipient receives an EP increment and the
+EP:
+•
+Continues to meet EP criteria outlined in SI 00501.100C., document continuing EP status on an SSA-8010-BK, or the REMARKS section of the SSA-8203-BK,
+or on a signed SSA-795.
+•
+Loses EP status per one of the conditions outlined in SI 00501.110, document the reason the EP status was lost and the date it was lost on an SSA-8010-BK,
+or the REMARKS section of the SSA-8203-BK or on a signed SSA-795.
+2. EP Dies During Period of Review
+If the EP dies during the period of review:
+•
+Secure proof of death;
+•
+Document the date of death and any changes in countable income and resources, including
+the amount deemed to the recipient, on a SSA-795, SSA-8010-BK, or the REMARKS section
+of the SSA-8203-BK.
+NOTE: Document the EP's income and resources, from the first day of the period of review,
+through the month of death. The EP's income and resources are deemed to the recipient
+through the month of death per SI 01320.800C.
+•
+Develop for rep payee, if appropriate per GN 00502.001.
+IMPORTANT: If you do not transmit the RZ initiation date with the death input, the system will:
+•
+Generate a D6 alert; and
+•
+Delete the case from Post Entitlement Operational Data Store (PE ODS); and
+•
+Reselect the case as a profile D RZ during the next merge.

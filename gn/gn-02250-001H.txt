@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02250.001 - Waiver Basics - Title II and Title XVI
+Effective Dates: 06/11/2026 - Present | TN 82 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202250001 (fetched 2026-10-04)
+
+H. Waiver dismissal procedures
+If you receive a waiver request for an overpayment that resulted from fraud or similar
+fault on the part of the overpaid individual, dismiss the waiver. Fax the SSA-632
+into the Evidence Portal and continue with the dismissal procedures for Title II in
+GN 02250.001H.1 or for Title XVI in GN 02250.001H.2.
+1. Title II procedures
+a. FO instructions
+•
+Fax the waiver request and documentation into NDRed using the Evidence Portal (EP)
+or into the Certified Electronic Folder (CEF) as applicable;
+•
+Send the waiver request and waiver dismissal request to the PC of jurisdiction via
+Paperless using the EP for their action;
+•
+Transfer the jurisdiction to the PC via DMS using the Workload Management System (WMS)
+Debt Management Function Selection (DMFS) screen; and
+•
+Annotate DMS Remarks to document your actions.
+b. PC instructions
+•
+Input the waiver dismissal using the Fact/Amount Appeal Disposition (DRAD) screen
+in DMS. For more information on the DRAD screen, refer to MS 01106.011.
+NOTE: Input the dismissal via the reconsideration (appeal) screen because this is not a
+true waiver denial and is not subject to a personal conference.
+•
+Send the individual a notice stating, We are unable to process your waiver request
+submitted on [MM/DD/YY] because the overpayment resulted from fraud or similar fault.
+Make sure the notice is stored in ORS; and
+•
+Annotate DMS Remarks (RMKS) screen with the dismissal reason and the date you sent
+the dismissal notice. For more information on RMKS screen in DMS, refer to MS 01109.003.
+2. Title XVI procedures
+•
+Input the waiver dismissal using the Waiver Decision (UOWV) screen in Direct Supplemental
+Security Record (SSR) Update. For more information on the UOWV screen, refer to MS
+00304.009;
+•
+Select 3 = DENIED PRIOR DENIAL (NO CHANGE) decision for the overpayment sequence in
+UOWV;
+•
+Send the individual a notice stating, We are unable to process your waiver request
+submitted on [MM/DD/YY] because the overpayment resulted from fraud or similar fault.
+Make sure the notice is stored in ORS; and
+•
+Annotate the dismissal reason and the date you sent the dismissal notice on the Report
+of Contact page in the Consolidated Claims Experience (CCE) or a SSA-5002 for non-MSSICS/CCE
+cases. You must fax the SSA-5002 in the Evidence Portal. For more information on the
+Report of Contact Page in CCE, refer to MS 08122.010.

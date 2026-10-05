@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02402.361 - Coding Jordan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/23/2017 - Present | TN 255 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402361 (fetched 2026-10-04)
+
+G. Example of coding Jordan bank data
+The customer provides us with a signup form for Jordan containing the following information:
+"JO94CBJO0010000000000131000302."
+•
+The first two characters of the IBAN are JO, which represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit.
+•
+The fifth through eighth characters represent the bank identifier
+•
+The ninth through twelfth characters represent the branch identifier.
+•
+Never code the IBAN country code, check digit, bank identifier, or branch identifier
+to the MBR for Jordan.
+•
+The last 18 characters represent the customer account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 660000055
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “J” designated for Jordan; and
+•
+Code the 16 digits of the 18-digit account number "0000000001310003."
+3. Obtain the following information:
+•
+RTN: 660000055
+•
+Checking
+•
+DAN: J0000000001310003
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000055
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: J0000000001310003
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660000055
+•
+DAN- CJ0000000001310003

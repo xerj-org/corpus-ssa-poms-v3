@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02608.200 - Processing Initial Claims
+Effective Dates: 03/26/2026 - Present | TN 63 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608200 (fetched 2026-10-04)
+
+B. Evidence Development
+It is the claimant’s responsibility to secure and provide evidence about a pension.
+Acceptable evidence includes award letters, pension payment statements showing the
+gross pension amount, or other correspondence from the pension-paying agency or the
+employer.
+1. Evidence from employer or pension-paying agency
+If the evidence a spouse provides is not sufficient:
+•
+Contact the pension-paying agency by telephone and complete an SSA-5002 (Report of Contact), or annotate the Report of Contact (RPOC) screen in MCS. If any
+information contradicts what the spouse provides, ask the spouse to explain, and document
+the explanation on SSA-5002 or the RPOC screen in MCS.
+•
+If the employer or pension-paying agency does not provide the exact increases in past
+pension amounts, follow instructions in GN 02608.400C.
+2. Develop when exemption applies
+If an exemption applies, develop, obtain evidence, and enter information about the
+applicable exemption on the appropriate GPO data input screens, see instructions in
+GN 02608.101 through GN 02608.107 and GN 02608.700.
+Completion of the Government Pension Type field and other fields in the GPI1 screen
+cause specific exemption screens to come into the MCS claims path.
+If an exemption applies based on a Federal Civil Service pension, complete the following:
+•
+For claims processed via MCS, fax a request to the PC via the Paperless process to
+add code “N” on the Civil Service Government Pension Offset (CSGPO) field of the MBR;
+or
+•
+For claims that require an A101/EF-101, add the remark “Post the CSGPO of “N” in the
+Remarks portion of the BCRN screen.
+When the “N” is on the CSGPO field of the MBR, it precludes an alert from generating
+when we match with Office of Personnel Management (OPM) to detect an unreported or
+under-reported periodic pension amount.
+3. Spouse refuses to cooperate to provide evidence
+If the spouse refuses to cooperate and does not provide evidence for a partial GPO
+or a GPO exemption, enter a pension amount large enough to apply total GPO in the
+GPP1 screen beginning with the first month of entitlement to spouse’s benefits. Document
+the development and explain why total GPO applies on the RPOC screen in MCS.
+Include a paragraph in the notice to the spouse to explain why total GPO applies.

@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - GN 00502.157 - Processing Data in the Electronic Representative Payee System for Beneficiaries in Foster Care
+Effective Dates: 06/20/2019 - Present | TN 53 (06-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502157 (fetched 2026-10-04)
+
+C. Procedure
+Field Offices (FO) will receive foster care work issues in eRPS Workload Management,
+when we receive information through a State data exchange about a foster child. Management
+or other designated staff must assign the foster care work issues.
+The types of foster care work issues are:
+•
+FCENTR - when a beneficiary enters foster care
+•
+FCCHNG - when a beneficiary foster care placement changes; or
+•
+FCEXIT - when a beneficiary exits foster care.
+Important: Beneficiaries in the foster care work issues may be as old as 21 years of age. FCEXIT
+reports, for beneficiaries who are age 18 or over with no payee on SSA records, do
+not require a capability determination unless other factors are present that suggest
+capability is in question. See GN 00502.055 for when a capability determination is necessary based on a report of someone entering
+or changing placement in foster care.
+Technicians must initiate all foster care work issues within 15 calendar days of receipt
+and complete payee development (when necessary) within 30 calendar days of receipt
+of the foster care work issue.
+1. Procedure for Initial File from States
+As each State enters the data exchange, they will submit an initial file that contains
+reports of all children currently in foster care.
+When you receive an FCENTR report entitled "Initial File":
+•
+Compare the information on the foster care work issue with the information on the
+Master Beneficiary Record (MBR), Supplemental Security Income Record (SSR), and in
+eRPS;
+•
+If the information on the foster care work issue is blank or does not match the MBR,
+SSR, or eRPS, evaluate the report to determine if a capability determination or payee
+change is necessary;
+•
+Ensure that all MBR, SSR, and eRPS coding is correct, particularly for the relationship
+between the payee and the beneficiary;
+•
+Develop for a new payee following the steps in GN 00502.157C.2, if necessary;
+•
+If a payee change is not necessary, document the rationale in the foster care work
+issue, Issue Details box; and
+•
+Close the foster care work issue by clicking the button labeled "Clear Issue" and
+click "Save" when all development is complete.
+2. Procedure for Monthly Files from States
+Each month, States will submit information through the data exchange of any child
+who entered, exited, or changed placement in foster care in the previous month.
+When you receive a foster care work issue in eRPS:
+•
+Review the record to ensure the information in the foster care work issue matches
+SSA records, and correct coding as needed.
+•
+If a beneficiary between 15 and 17 years of age does not have an active payee in eRPS,
+evaluate and document capability per GN 00502.070. For adult beneficiaries entering foster care or changing foster care placement,
+evaluate and document capability per GN 00502.020. Children under the age of 15 must have a payee.
+•
+Follow the steps below to determine and assign the appropriate payee if the information
+from the foster care work issue indicates a payee assignment or change is necessary;
+–
+Identify prospective payees using information on the foster care work issue and described
+in GN 00502.100;
+–
+Contact any prospective payee to conduct a payee interview, following the instructions
+in GN 00502.110, GN 00502.113 and GN 00502.159;
+–
+Determine the appropriate payee after the payee interview is complete, following instructions
+in GN 00502.117 through GN 00502.183;
+–
+Document the determination in eRPS per GN 00502.185;
+–
+Process the selection or non-selection of the applicant in eRPS per GN 00502.185; and
+–
+Close the foster care work issue by clicking the button labeled "Clear Issue" and
+click "Save".
+•
+If you find a payee change is not necessary, document the rationale in the foster
+care work issue, Issue Details box, and close it by clicking the button labeled "Clear
+Issue".
+•
+Click "Save".
+3. Procedure for Correcting the Foster Care Relationship
+It is very important that the foster care relationship answers are correct in eRPS.
+If you find the foster care relationship answers are incorrect after a payee selection, follow instructions in MS 07420.026 to update the foster care
+relationship questions.

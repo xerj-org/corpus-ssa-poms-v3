@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - GN 00605.005 - PC and FO Responsibilities For Accounting
+Effective Dates: 05/26/2023 - Present | TN 72 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605005 (fetched 2026-10-04)
+
+B. Process
+1. PC Duties and Responsibilities
+The PCs:
+a.
+Receive actionable accounting reports from WBDOC to resolve blank, discrepant and
+unacceptable responses through DIRCON or FO development.
+b.
+Input title II conserved funds (see GN 00605.050B.1.) if the amount changed after PC development or WBDOC indicates that they did not
+enter (see GN 00605.040B).
+c.
+Request the FO input (or delete) title XVI (and concurrent) conserved funds as appropriate.
+EXAMPLE: The PC develops the “use of benefit” questions on the SSA-623-OCR-SM accounting report.
+The payee reports they used all ($4,000) of the benefits (i.e., $3,900 = total benefits
+paid plus $100 = conserved funds as reported on last year's accounting form) for the
+beneficiary's current needs; there are no (zero) conserved funds. The FO must delete
+the $100 from the CF field in the REPY segment of the SSR so that the accounting report
+for the next accounting cycle shows “zero” conserved funds in Item 3.
+d.
+Clear the title II system control if the accounting report was not processed by WBDOC
+(see GN 00605.050B.1.).
+e.
+“Approve” completely processed accounting reports (e.g., unacceptable response was
+resolved). Stamp/mark the report APPROVED, sign and date.
+f.
+Retain “approved” accounting reports (see GN 00605.055B).
+g.
+Correct payee coding and/or mailing address on the MBR and eRPS.
+h.
+Review the collective account precedent file in eRPS (see MS 07418.004 and MS 07418.006).
+FO development is required if the payee has a collective savings/checking account
+but the payee is not listed on the precedent file.
+2. FO Duties and Responsibilities
+The FOs:
+a.
+Respond to PC requests for assistance to resolve unacceptable responses, etc. on the
+accounting reports.
+b.
+Input title II conserved funds (see GN 00605.050B) if the amount changed after FO development.
+c.
+Input (or delete) title XVI (and concurrent) conserved funds (see GN 00605.050B).
+EXAMPLE: The PC develops the “use of benefit” questions on the SSA-623-OCR-SM accounting report.
+The payee reports they used all ($4,000) of the benefits (i.e., $3,900 = total benefits
+paid plus $100 = conserved funds as reported on last year's accounting form) for the
+beneficiary's current needs; there are no (zero) conserved funds. The FO must delete
+the $100 from the CF field in the REPY segment of the SSR so that the accounting report
+for the next accounting cycle shows “zero” conserved funds in Item 3 (see SM 01301.475).
+d.
+Process the accounting reports to completion when the payee comes into the FO and
+requests assistance (see GN 00605.030B.3.). Clear the title II system and title XVI (and concurrent) AR diary control and
+input reported conserved funds (see GN 00605.050B).
+e.
+Process the nonresponder alerts to completion (see GN 00605.085). Clear the title
+II system and title XVI (and concurrent) AR diary control and input reported conserved
+funds (see GN 00605.050B.).
+f.
+Conduct face-to-face interviews with the payee, beneficiary and custodian (if appropriate)
+to complete a Representative Payee Evaluation Report, SSA-624-F5, when necessary (see
+GN 00605.100).
+g.
+“Approve” completely processed accounting reports (e.g., unacceptable response was
+resolved). Stamp/mark the report APPROVED, sign and date.
+h.
+Forward “approved” accounting reports to the appropriate PC for retention (see GN 00605.055B).
+i.
+Correct payee coding and/or payee mailing address and/or beneficiary residence address
+on the SSR/MBR/eRPS.
+j.
+Inspect the records of institutions, agencies and individual payees with approved
+collective savings/checking accounts every 3 years (e.g., in conjunction with a scheduled
+site visit or random review under the Expanded Monitoring Program) to ensure compliance
+with the criteria described in GN 00603.020. Establish new payees with approved collective savings/checking accounts to the collective
+account precedent file in RPS, update existing data via an alert process, delete and
+query as appropriate (see MS 07418.002).

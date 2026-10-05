@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - GN 02607.792 - Processing Title II 3BOP PUPS Alerts or Records
+Effective Dates: 09/11/2014 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607792 (fetched 2026-10-04)
+
+B. Procedure FO Processing of Title II 3BOP PUPS Alerts
+1. FO Processing of Title II 3BOP Alerts
+FOs will receive all 3BOP PUPS alerts and records that do not contain complete inmate
+information or have questionable identity discrepancies. See GN 02607.975C. for the distribution of PUPS alerts. In addition, the FOs will receive PUPS records
+that the PCs/ODO-OCO transfer to the FOs for development actions.
+2. FO Review of the 3BOP PUPS alerts:
+a. Inmate Date Received Under SSA/BOP Reporting Agreement beginning 04/04/02
+EVS CODE
+INMATE STATUS CODE
+FO ACTIONS
+V, L
+Y, P
+Accept the automated verification as correct unless other facts of the case cause
+doubt about the inmate's identity.
+Check RPS to determine if the inmate is serving as a representative payee. If so,
+process per GN 00504.100.
+Determine if more than 30 continuous days has passed since the date of conviction/official
+parole or probation revocation date (or date of confinement, if later than the date
+of conviction). If the conviction (revocation date) date is 30 days or less, develop
+to determine if the beneficiary will remain confined for more than 30 continuous days
+per GN 02607.790D.4.
+V, L
+C
+Accept the automated verification as correct unless other facts of the case cause
+doubt about the inmate's identity. Close out the PUPS record as "No Suspension." The
+beneficiary was not convicted of a crime.
+NOTE: If the inmate is convicted, BOP will send SSA a new inmate report for this beneficiary.
+The new PUPS Record will contain an inmate status code of Y and a conviction date.
+2, 3, 4, A, B, E or F
+Y, P
+Review the identity discrepancy and resolve. Develop per GN 02607.790D.4. to resolve the identity problem.
+Check RPS to determine if the inmate is serving as a representative payee. If so,
+process per GN 00504.100.
+Determine if more than 30 continuous days has passed since the date of conviction/official
+parole or probation revocation date (or date of confinement, if later than the date
+of conviction). If other inmate data is missing on the alert that is needed for an
+initial determination decision develop per GN 02607.790D.4.
+2, 3, 4, A, B, E or F
+C
+Close out the PUPS record as No Suspension. The beneficiary is not convicted. Do not
+develop the identity discrepancy now.
+NOTE: When the inmate is convicted, BOP will send in a new inmate record for this inmate.
+On the new inmate record, the inmate status code should change to Y and a date of
+conviction should be added to the record. If the inmate identity is still questionable
+when SSA receives the new record, develop the identity discrepancy per GN 02607.792C.1. in this section.
+b. Inmate Date Received Under SSA/BOP Reporting Agreement for 10/01/99 to 4/03/02
+EVS CODE
+INMATE STATUS CODE
+FO ACTIONS
+V, L
+Y, N, S
+Accept the automated verification as correct unless other facts of the case cause
+doubt about the inmate's identity.
+Check RPS to determine if the inmate is serving as a representative payee. If so,
+process per GN 00504.100.
+Determine if more than 30 continuous days has passed since the date of conviction
+(or date of confinement, if later than the date of conviction). Develop to determine
+if beneficiary will remain confined for more than 30 continuous days per GN 02607.790D.4.
+V, L
+D
+Accept the automated verification as correct unless other facts of the case cause
+doubt about the inmate's identity. Close out the PUPS record as "NO SUSPENSION." The
+beneficiary was not convicted of a crime.
+NOTE: If the inmate is convicted, BOP will send SSA a new inmate report for this beneficiary.
+The new PUPS Record will contain an inmate status code of Y and a conviction date.
+2, 3, 4, A, B, E or F
+Y, N, S,
+Review the identity discrepancy and resolve. Develop per GN 02607.790D.4. to resolve the identity problem.
+Check RPS to determine if the inmate is serving as a representative payee. If so,
+process per GN 00504.100.
+Determine if more than 30 continuous days has passed since the date of conviction
+(or date of confinement, if later than the date of conviction. If other inmate data
+is missing on the alert that is needed for an initial determination decisions develop
+per GN 02607.790D.4.
+2, 3, 4, A, B, E or F
+D
+Close out the PUPS record as No Suspension. The beneficiary is not convicted. Do not
+develop the identity discrepancy now.
+NOTE: When the inmate is convicted, BOP will send in a new inmate record for this inmate.
+On the new inmate record, the inmate status code should change to Y and a date of
+conviction should be added to the record. If the inmate identity is still questionable
+when SSA receives the new record, develop the identity discrepancy per GN 02607.792C.1. in this section.
+c. EVS Codes on PUPS Alerts
+Social Security records such as the MBR, SSR, NUMIDENT and Alphident can be used as
+tools to help resolve discrepancies in identity between the incoming prisoner record
+and the information that SSA gathered on an individual based on their interactions
+with SSA. If the records do not provide sufficient information to resolve the identity
+discrepancies, you must develop and obtain the information from the individual to
+resolve the discrepancy. See GN 02607.975A. for EVS codes that are on PUPS alerts or records.

@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 81020.140 - Processing Trailer Material for the Certified Electronic Folder (CEF)
+Effective Dates: 09/08/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020140 (fetched 2026-10-04)
+
+C. DDS Receives Trailer Material Alert after Transferring CEF to Another DDS
+The DDS receives an alert when a document (trailer material) is added to the CEF.
+This alert is based upon the DMA barcode that identifies which DDS sent the medical
+evidence request (see DMA Barcodes and Document Indexing - DI 81020.035). When a DDS begins case development but transfers the case to another DDS who closes
+the close, the original DDS receives the trailer material alert if the source responds
+with the original DDS’ DMA barcode. The final DDS does NOT receive an alert. In these
+situations, the original DDS must review the trailer material and determine if it
+is duplicate evidence.
+1. Trailer Material is Duplicate Evidence
+If the trailer material is duplicate evidence, the original DDS must take appropriate
+action per Trailer Material - DI 81020.140B.1.
+2. Trailer Material is New Evidence
+If the trailer material is new evidence, the original DDS must call the final DDS
+to alert them of the new evidence. The final DDS is responsible for determining if
+the new evidence is material to the disability determination per Trailer Material
+- DI 81020.140B.2. To obtain the phone number of the final DDS:
+•
+Open the case on eView;
+•
+Navigate to the “Status/History” screen; and
+•
+Click on the site code in the “Deciding Office” column.
+A pop up box opens that includes the general phone number of the DDS that closed the
+CEF.

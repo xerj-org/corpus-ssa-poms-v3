@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - SI 02310.056 - Master Earnings File (MEF) Match (J3 and J5 Diaries)
+Effective Dates: 03/06/2009 - Present | TN 68 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310056 (fetched 2026-10-04)
+
+B. Generation of MEF diaries
+1. J3 diaries
+If the date of eligibility is January 1 or later of the tax year involved, the interface
+sets a J3 diary if the recipient or deemor's earnings on the SSR are more than what
+is reflected on the MEF. The diary is set for over tolerance discrepancies of more
+than $1,000 annually.
+2. J5 diaries
+If the date of eligibility is later than January of the tax year involved, the interface
+sets a J5 diary if the deemor or essential person's earnings on the SSR are more than
+what is reflected on the MEF. The diary is set for over tolerance discrepancies of
+more than $2,000 annually. In addition, the deemor must have either:
+•
+No wages on the SSR, or
+•
+The MEF data indicates an amended return
+3. The diaries are suppressed if:
+•
+The SSR already has a J3 or J5 diary; or
+•
+The SSR has a payment status other than CO1, N01, or MO1; or
+•
+When the earnings are for a deemor, the SSR shows that the deemor is receiving income
+based on need (IBON).

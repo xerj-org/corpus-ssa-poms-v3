@@ -1,0 +1,157 @@
+SSA Program Operations Manual System (POMS) - SI 02006.210 - Field Office Representative Fee Adjustment Procedures Summary and Worksheets
+Effective Dates: 07/09/2012 - Present | TN 16 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006210 (fetched 2026-10-04)
+
+B. Procedure - development of fee adjustment
+STEP
+ACTION
+1
+Is the fee authorized and known at the time you are ready to process offset?
+If yes - compute title II offset using the adjusted Title II income determined as
+explained in step 4, below. Take no other actions or steps.
+If no - compute offset using the reported Title II amounts without regard to a fee.
+(See SI 02006.205B.2.b. and SI 02006.205C.3. for required notices.) Tickle the case for 90 days pending receipt of the fee determination
+notice (see SI 02006.205B.2. and SI 02006.205C.2.) Follow up after 30 days per SI 02006.205C.2. Proceed to step 2 when a copy of the notice or information is received.
+2
+Upon receipt of a fee authorization notice in fee petition cases or when the claimant/representative
+notifies you that a fee has been determined, or upon completion of preparation of
+the notice based upon the Title XVI past-due benefits, use the notice as the source
+of the needed fee information (per SI 02006.202.)
+NEVER USE THE FACT OF WITHHOLDING OR THE AMOUNT WITHHELD AS
+THE BASIS FOR THIS ACTION.
+In fee agreement cases, use the information on the MBR in the ATTY Fee line for the
+authorized Title II portion of the fee for the primary and any auxiliaries. Then compute
+the Title XVI portion of the fee per SI 02006.203.
+Proceed to step 3.
+3
+Evaluate the fee petition notice per the guidelines in SI 02006.202B.3. –
+SI 02006.202B.5., or as appropriate.
+Proceed to step 4.
+4
+•
+Obtain SSI, MBR, and PHUS queries to obtain the information needed (per SI 02006.205D.).
+•
+Complete SSA-2894, “Offset Case Authorized Fee Worksheet” (Exhibit 1) and subtract
+the entire fee from the tTitle II benefits beginning with the first month they were
+regularly due (SI 02006.200C.1.).
+NOTE::
+For fee agreement cases the “fee” means the total amount of the Title II fee plus
+the Title XVI fee. For fee petition cases this means the total amount authorized in
+the notice.
+5
+Is this a Title II or Title XVI offset case?
+•
+If Title II, proceed to step 6.
+•
+If Title XVI, proceed to step 12.
+6
+To evaluate per SI 02006.200C.2., determine whether the amounts of Title II income remaining (column D on the SSA-2894)
+are different from any of the type W amounts posted for the months of the offset period.
+If yes, proceed to step 7.
+If no, proceed to step 11.
+7
+The requirements in SI 02006.200C.2.b. apply. Determine the affected months. These are:
+•
+Each month in the offset period that, after subtraction (as shown in column D on the
+SSA-2894) has a remaining Title II amount of zero or less than the type W posted,
+and the following 2 months of SSI eligibility.
+NOTE::
+These are months in which the unchanged type W amount did not, in the original Title II offset computation, yield countable income (CI) that stopped
+payment computation (e.g., for the month of December 1997, a Federal benefit rate
+of $484 but CI of $500 based on type W of $520 and no State supplementary payment
+(SSP) involved).
+•
+Proceed to step 8.
+8
+As required by SI 02006.200C.2., compute the month-by-month changes. Complete SSA-2877, Adjusted Title II Income
+and Title II Offset Worksheet, (Exhibit F.) for the affected months. This worksheet
+can be used to simultaneously compute “new” FAM's and SAM's for the affected months,
+and also the difference between these amounts and the previously computed amounts
+that were based on the original type W income. The previously computed amounts are
+the WFA and WSA on the SSR in automated Title II offset cases and the new FAM and
+new SAM in manual (SSA-4346-U2) computation cases. (See SI 02006.215B.1.a. which explains why in some cases the Title II type A or W postings cannot be changed
+and when systems computations cannot be used.) Process the total underpayments (Federal
+and SSP) manually as computed in section F. of the SSA-2877. See step 9.
+If preferred when computation of the countable income is complex, use the SSI eComputations personal computer computation program in place of columns C. through E.6. of the
+SSA-2877. Remember to use the adjusted title II income less the fee. Keep in mind
+the COLA coordination rules (see SI 02005.010 -
+SI 02005.015).
+Proceed to step 9.
+9
+•
+See SI 02006.215B. for an explanation of systems limitations and payment methods. In the absence of
+systems limitations, correct the offset by deleting and reposting. Otherwise, issue
+an A-OTP for the total underpayment amount.
+•
+Add an erroneous (NT TAC) decision through the Overpayment Decision (UOPD) screen
+in Direct SSR Update. See SM 01311.280B. and MSOM BUSSR
+004.008 .
+•
+Suppress any systems generated notice for the overpayment created by completing the
+CMSC screen. See MSOM MSSICS
+023.006 .
+•
+Proceed to step 10.
+10
+•
+Use the instructions in SI 02006.200C.2.b. (There is no remaining Title II from before the offset period that can be counted
+as income in the PMA month.) If this change is material, adjust the type A UM for
+the month(s) retroactive Title II benefits were received and posted to the SSR to
+the regularly due Title II income amount. See SI 02006.201.
+•
+Process any underpayment or correction of an overpayment amount along with the actions
+taken per step 9.
+STOP HERE
+11
+•
+Instructions in SI 02006.200C.2.a. apply. This is a Title II offset case in which the amounts of Title II income remaining
+on the SSA-2894 are the same as the type W UM amounts posted to the SSR for each of the months of the offset period. Since the amounts are the same, there is no change
+in the Title II offset computations. Verify this before proceeding.
+•
+Go to step 15.b. (same procedure as for Title XVI offset cases).
+12
+Title XVI offset was initially applied. If this is a Title XVI offset case, determine
+whether the amounts of Title II income remaining (column D on the SSA-2894) are different
+from any of the type G amounts posted to the SSR for the months of the offset period.
+•
+If no, proceed to step 15.
+•
+If yes, proceed to step 13.
+13
+CAUTION: In an initially denied case in which an underpayment could be due, all development
+which had previously been deferred may be required prior to further action. See SI 02006.005 for appropriate tolerances. If an IAR authorization form is in the file, follow SI 02003.000. See SI 02006.215A.1. Determine whether the system could compute and release an underpayment caused by
+the change in type G UM to the title II income remaining amounts shown in column D
+on the SSA-2894:
+•
+If yes, transmit the changed type G UM amounts and suppress the notice.
+•
+If no, compute manually to pay via A-OTP.
+•
+In either case, combine the action with any required per step 14. Also prepare notices
+per SI 02006.215A.3. See step 14.
+14
+SI 02006.200C.2.b. applies. There is no remaining Title II from before the offset period that can be
+counted as income. If this change is material, adjust the type A UM for the month(s)
+retroactive Title II benefits were received. See SI 02006.201. Process any underpayment or correction of an overpayment along with the actions
+taken per step 13.
+STOP HERE.
+15
+a.
+SI 02006.200C.2.a. applies. You are at this step because you have a Title XVI offset case in which the
+amounts of Title II income remaining on the SSA-2894 are the same as the type G UM
+amounts posted to the SSR for each of the months of the offset period. Since the amounts
+are the same, there is no change in the Title XVI offset computations. Verify this
+before proceeding to b.
+b.
+SI 02006.200C.2. and SI 02006.201 apply. The type A UM for the month of receipt of the retroactive (retro.) Title II
+check posted to the system must be adjusted if the change would make a difference
+in SSI determinations: The change makes no difference if the regularly due Title II received each month is enough to cause ineligibility or the individual is ineligible in the month(s) of receipt of the retroactive Title
+II for other reasons. In this case, send a notice of no change per SI 02006.215A.3. Otherwise, per SI 02006.200B.1., use the total retroactive remaining for months before SSI DOE (column E. of the
+SSA-2894) as the retroactive amount (PMA) to add to the regularly due Title II (CMA)
+to determine the correct type A UM amount for the month of receipt.
+CAUTION: If retroactive Title II benefits were received in more than 1 month, see SI 02006.200B.2. Transmit the changed type A UM, suppress the systems notice, and prepare the notices
+required per SI 02006.215A.3. (See SI 02006.215B.2. for Title II offset cases.)
+NOTE::
+Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+alleges being blind or visually impaired.
+STOP HERE.

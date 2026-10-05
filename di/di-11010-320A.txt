@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - DI 11010.320 - Disability Insurance Benefits-Retirement Insurance Benefits (DIB-RIB) Claimant Dies before Disability Claim Adjudicated
+Effective Dates: 12/03/2015 - Present | TN 89 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010320 (fetched 2026-10-04)
+
+A. Procedure - DIB claim in field office (FO) and a Disability determination is not required
+If a disability determination is not required when a claimant dies after filing a
+DIB-RIB claim and the claim is still in the FO, process as follows:
+1. If the RIB and entire DIB claims are in the FO and no disability decision is needed.
+Use the following procedure:
+•
+Input the claimants date of death using the Death Information Processing System (DIPS). This program will update the number holders Numident record.
+•
+Adjudicate the survivor and/or Lump Sum Death Payment (LSDP) claim segments in MCS;
+•
+Process the RIB as abatement or underpayment if applicable. See Abatements - GN 01010.475.
+See Applications-Underpaid Person Deceased - GN 02301.050 and Underpayment Awards - SM 00805.040.
+•
+Wait one day and abate or deny the DIB claim as appropriate (Abatements - GN 01010.475).
+For abatements, document the Development Worksheet path and manually clear the record
+to the Field Office (FO); and
+•
+Retain and ship Modular Disability Folders (paper) following DI 11010.370 Field Offices (FO) Retaining and Shipping Paper Modular Disability Folders (MDF).
+•
+For Certified Electronic Folder (CEF) cases, see Completing Electronic Disability
+Collect System (EDCS) Cases - DI 81010.020.
+2. DIB claim only in FO
+If a RIB-DIB claim exists and a Master Beneficiary Record (MBR) can be established:
+•
+Input the claimants date of death using the DIPS. This program will update the number
+holders Numident record.
+•
+Secure SSA-1724 (Claim for Amounts Due in the Case of Deceased Beneficiary) and proof
+of relationship for each eligible dependent of the NH. See Applications-Underpaid
+Person Deceased - GN 02301.050).
+•
+Process the RIB claim and establish the MBR.
+•
+When the DIB claim is in the FO and a disability determination is not needed, deny
+or abate the DIB claim by adjudicating through EC and input the death. If the claim
+is abated, document the decision in the claims file via the Development Worksheet
+path and then manually clear the record to the FO.
+•
+For CEF cases, see Creating Electronic Disability Collect System (EDCS) Cases - DI 81010.020.
+•
+Include an SSA-5002 (Report of Contact) in the file, explaining why no disability
+determination is necessary.
+•
+Forward the DIB claim and any survivor or Lump-Sum Death Payment (LSDP) claim on the
+DIB claimant's SSN to the PC after adjudicating all claims.
+3. If a RIB-DIB claim exists and an MBR cannot be established, then:
+•
+Input the claimants date of death using the DIPS. This program will update the number
+holders Numident record.
+•
+Adjudicate the RIB claim and send it to the PC. Input the date of death through the
+Modernized Claim Systems (MCS) Claims Clearance screen.
+•
+Notify the PC of the claimant's death by sending a Modernized Development Worksheet
+(MDW).
+•
+The PC terminates benefits.
+•
+Document the explanation on a Report of Contact (RC) within MCS as to why no disability
+determination is necessary.
+•
+Forward the DIB claim and any survivor or LSDP claim on the DIB claimant's SSN to
+the PC after adjudicating all claims.

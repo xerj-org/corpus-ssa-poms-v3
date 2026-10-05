@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 13010.027 - Continuing Disability Review (CDR) Earnings Enforcements
+Effective Dates: 08/14/2025 - Present | TN 88 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010027 (fetched 2026-10-04)
+
+A. Background for earnings enforcements
+When a Social Security Disability Insurance (SSDI) beneficiary does not report their
+substantial earnings, we use enforcement operations to identify the earnings and generate
+alerts. The Continuing Disability Review Enforcement Operation (CDREO) uses earnings
+from the Internal Revenue Service (IRS) to alert technicians to conduct a work continuing
+disability review (CDR). We also use quarterly earnings received from the Department
+of Health and Human Services' Office of Child Support Enforcement (OCSE) in the Quarterly
+Earnings Project (QEP) to generate CDR alerts.
+1. CDREO earnings
+CDREO earnings include wages covered by the Federal Insurance Contributions Act (FICA),
+non-FICA covered earnings, and self-employment income under the Self-Employment Contributions
+Act (SECA). Although the output documents in paperless may show pension postings,
+they are not included in the posted summary earnings amount. The CDREO alerts show
+the earnings amount and trial work period (TWP) information from the disability control
+file (DCF), including the TWP start month and any TWP months completed during that
+enforcement year.
+2. QEP earnings
+QEP earnings include the quarterly wage data from the OCSE. OCSE data does not include
+any self-employment income (SEI). QEP alerts do not display the earnings amounts.

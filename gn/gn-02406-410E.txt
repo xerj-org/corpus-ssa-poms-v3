@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02406.410 - Department of the Treasury, Bureau of the Fiscal Service (Fiscal Service), Check Claims Branch (CCB) Claims Package Processing
+Effective Dates: 01/27/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406410 (fetched 2026-10-04)
+
+E. Treasury actions when the claimant denies endorsing a check
+If a claimant does not recognize their signature after reviewing a check image, the
+claimant may complete the FS-1133. The claimant must return the completed FS-1133
+to the FO or PC for A-stop, F-stop, B-stop, and G-stop situations. The FO or PC photocopies
+the FS-1133 and forwards the original to Treasury. In C-stop situations, the claimant
+must return the completed FS-1133 directly to Treasury. When Treasury receives the
+completed FS-1133, Treasury reviews the completed FS-1133 and check image. Treasury
+takes the following actions:
+IF
+THEN
+Treasury determines forgery is involved
+Treasury sends a Claims Disposition Notice (CDN) to SSA, reclaims the money from the
+presenting bank, and sends a replacement check (or settlement check) to the claimant
+as appropriate.
+NOTE: A settlement check has a different check number and symbol from the original
+check. You can find information regarding the settlement check on TCIS.
+Treasury determines that forgery is not involved
+Treasury sends a CDN to SSA.

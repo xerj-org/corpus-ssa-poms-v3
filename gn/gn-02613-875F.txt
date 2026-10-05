@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02613.875 - Title XVI Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613875 (fetched 2026-10-04)
+
+F. Processing Title XVI (T16) post-2006 Martinez cases that show current prisoner, fugitive
+felon, or probation or parole violation status
+Late in 2009, the Social Security Act was amended to prohibit paying retroactive payments
+to recipients while they are in prison, a fugitive felon, or violating a condition
+of their probation or parole. Prior to releasing any past due payments, review the
+Prisoner Update Processing System Data (PUPS) or the Fugitive Felon System Control
+File (FFSCF) to determine the recipients status. Refer to EM-10013 SEN, No Social
+Security Benefits for Prisoners, for instructions.
+NOTE: If the individuals current incarceration precludes completing the RZ, input CG code
+NMRG to the SSR via the MSSICS CMSC screen or 1719 input. This CG code identifies cases
+that, in accordance with GN 02613.875, are not eligible for relief (or that we cannot presently process for relief). If
+the record is in payment status H70 with B9 overpayment diary pending, follow instructions
+in GN 02613.875A.3.e. to post the overpayment disposition.

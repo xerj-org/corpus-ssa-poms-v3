@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - GN 02402.339 - Coding Greek Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402339 (fetched 2026-10-04)
+
+G. Example of coding Greek direct deposit
+The customer provides us with a signup form for Greece containing the following information:
+IBAN: GR1601101250000000012300695 SWIFT: ETHNGRAA125
+•
+The first 2 characters of the Greek IBAN are “GR”, which represent the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits.
+•
+The technician should never code the IBAN ISO country code or check digit to the MBR.
+•
+The next three characters are the three-digit bank code.
+•
+The next four characters are the four-digit branch code.
+•
+The next sixteen characters of the IBAN represent the 16-digit bank account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of "65" (SSA designated prefix for Greece);
+•
+Code the 3-digit bank code “011”;
+•
+Code the first 3 digits of the branch code “012”;
+•
+Code the U.S. check digit (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the account type as a “C” for Checking or an “S” for Savings. If no account type
+indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the last digit of the branch code “5”;
+•
+Code the 16-digit account number “0000000012300695”
+3. Obtain the following information
+•
+RTN: 650110128
+•
+Checking
+•
+DAN: 50000000012300695
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 650110128 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 50000000012300695
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 650110128
+•
+DAN- C50000000012300695

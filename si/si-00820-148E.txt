@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - SI 00820.148 - Automated Wage and Employment Information from Payroll Data Providers (PDP) Received through the Payroll Information Exchange (PIE)
+Effective Dates: 03/25/2025 - Present | TN 99 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820148 (fetched 2026-10-04)
+
+E. Systems requirements
+For SSI purposes, PIE is designed to automatically request and receive wage and employment
+information whenever active authorization exists and the SSI Claims system contains
+an active claim.
+The following systems conditions stop successful transmission of wage and employment
+information through PIE, either by preventing the exchange or by preventing the automatic
+updating of wage and employment information to the SSI Claims system:
+•
+The case is not active in the SSI Claims system (i.e. non-MSSICS case);
+•
+Termination of the current Supplemental Security Record (SSR) (RIC: T);
+•
+SSR has a payment status code of N12 or N27 through N54; or
+•
+Data discrepancies exist between the SSI Claims system and the PDP information.
+NOTE:
+Records that have one of the characteristics above will not qualify for the PIE process.
+Follow SI 00820.130 and SI 00820.135 to develop wages for these records.

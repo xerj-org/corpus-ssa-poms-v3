@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - SI 00830.210 - Benefits Paid Under Title II of the Social Security Act
+Effective Dates: 01/16/2019 - Present | TN 232 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830210 (fetched 2026-10-04)
+
+B. Procedure
+1. Verifying Title II income — general
+Use information provided by the individual (e.g., claim number) to verify whether
+they are receiving RSDI.
+2. Initial claims or Title II income is not on the record
+For initial claims or situations where Title II income is not recorded on the Supplemental
+Security Record (SSR) (see SM 01005.190 for recently filed claims), either request
+a Master Beneficiary Record (MBR), a Payment History Update System (PHUS) query (SM
+00545.001), or compute the correct amount of Title II for SSI purposes from available
+information.
+NOTE: Examine the MBR carefully. Generally the amount of chargeable Title II income will
+be shown in the Monthly Benefit Credited (MBC) field displayed in the HISTORY segment.
+However, be alert to situations where the recipient has received a current month accrual
+(CMA) check due to the payment of additional Title II benefits. (The CMA amount is
+displayed in the SCH PAY segment; see SM 00510.115.) The CMA amount posted to the
+MBR will be the actual amount of money paid to the recipient after any deductions,
+including deductions for overpayments or SMI premiums. Use this amount to compute
+chargeable Title II income (adding the deductions, if necessary).
+3. Actual payment history data needed
+If actual payment history data is needed, use the PHUS.
+4. Other means of verification
+Use evidence an individual may have with him/her (e.g., check, award letter, adjustment
+letter).
+5. Retroactive state buy-in
+If State buy-in applies for a retroactive period, do not develop for a Title XVI overpayment
+or underpayment based on a possible adjustment in the amount of Title II income due
+to rounding.
+6. Facility of payment provision – prior to 01/01/96
+a. Determine if the facility of payment provision applies (prior to 01/01/96)
+•
+Check the “TYPE OF MAXIMUM (TOM)” field in RADR (line B) on the MBR to see if the
+family maximum is involved. (See SM 00505.050.)
+•
+If the family maximum is involved, determine if the auxiliary or survivor beneficiary
+is working by looking at the work indicator code (WIC) in the HISTORY segment and
+the current year estimated earnings code (CUR EST) in the ARDATA segment.
+NOTE: If the facility of payment provisions apply, the correct Title II amounts for SSI
+purposes will be higher or lower than the amount shown on the MBR for each beneficiary
+involved.
+b. Computing Title II benefits when the facility of payment provision applies
+•
+Contact the program service center (PSC) for an explanation of the correct benefit
+amounts.
+•
+Record the information provided by the PSC on the appropriate MSSICS screen or on
+a Report of Contact for inclusion in the SSI file.
+•
+Use the correct benefit amounts and resulting countable income as the basis for determining
+the SSI payment.
+•
+Force-pay these cases to assure correct SSI payments.
+NOTE: If the correct Title II amount is input, the interface will overlay the amount input
+with the amount shown on the MBR and compute SSI payments incorrectly.
+NOTE: Effective January 1, 1996, the facility of payment provision was eliminated.
+7. Garnishment of Title II benefits
+If a monthly Title II benefit payment has been reduced due to a garnishment, charge
+the gross benefit payment as income. Use the deductions fields on the Social Security
+Benefit page to record the garnishment amount (MS 08114.044).
+NOTE: Effective 3/7/06, the MBR/SSR interface posts the correct gross Title II benefit
+amount, deduction indicator, and the garnished amount to the ISSA screen in MSSICS
+and posts the correct Title II amount to the SSR.

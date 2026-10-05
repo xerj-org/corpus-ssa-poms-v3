@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02402.485 - Coding Zambia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/11/2025 - Present | TN 310 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402485 (fetched 2026-10-04)
+
+G. Examples of coding Zambia direct deposit
+The customer provides us with the account number: 1234567890112
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000195
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “V” designated for Zambia; and
+•
+Code the 13-digit account number “1234567890112” (typical for Zambia).
+As a result of the inputs, POS will reflect the following:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000195
+ACCOUNT TYPE (C/S): C or S
+•
+DEPOSITOR ACCOUNT NUMBER: V1234567890112
+The MBR will reflect the following:
+•
+RTN- 740000195
+•
+DAN- CV1234567890112

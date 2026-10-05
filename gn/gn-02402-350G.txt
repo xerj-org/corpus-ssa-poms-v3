@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02402.350 - Coding Slovenian Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/02/2016 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402350 (fetched 2026-10-04)
+
+G. Example of coding Slovenian direct deposit
+The customer provides us with the IBAN "SI56191000000123438."
+•
+The first 2 characters of the Slovenian IBAN are "SI," the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits. The technicians should
+never code the IBAN country code or check digit to the MBR.
+•
+The next 2 characters represent the 2-digit bank code.
+•
+The next 3 characters represent the 3-digit branch code.
+•
+The next 8 characters represent the 8-digit account number.
+•
+The final 2 characters represent the 2-digit national check digit.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of "66" (SSA-designated prefix for IDD);
+•
+Code one filler zero “0”;
+•
+Code the 2-digit bank code “19”;
+•
+Code the 3-digit branch code “100”;
+•
+Code the 1-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "V" designated for Slovenia; and
+•
+Code the 8-digit account number “00001234”; and
+•
+Code the two-digit national check digit “38.”
+3. Obtain the following
+•
+RTN: 660191008
+•
+Checking
+•
+DAN: V0000123438
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660191008 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: V0000123438
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660191008
+•
+DAN- CV0000123438

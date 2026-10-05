@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 03920.052 - Pursuing Recovery of Excess Fees Paid to Representatives or Entities and Referrals for Ineligible for Direct Payment Entity (IDPE) List
+Effective Dates: 01/29/2025 - Present | TN 66 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203920052 (fetched 2026-10-04)
+
+E. IDPE Coordinator Group instructions for maintaining the IDPE list
+When the IDPE Coordinator Group receives a referral from an FO or PC manager, the
+IDPE group:
+1.
+Verifies there is still an excess fee amount due after accounting for any remittances.
+2.
+Ensures that the notices in GN 03920.052C.2 and 03920.052C.4 in this section have been issued.
+3.
+Uses the RASR IDPE screen to create a record with the entity’s EIN and the claimant’s
+SSN to document the specific fee issue and excess fee amount owed.
+4.
+Documents in the comments the attempts to recover, any contacts with the entity POC,
+and other relevant information.
+5.
+After generating a record, RASR sends the entity a Notification of Action to Terminate
+Eligibility for Direct Payment to Entity (RSR-122).
+Once a record has been established on the IDPE list, the entity will be ineligible
+for direct payment until this and all other issues documented on the IDPE list are
+resolved. The IDPE Coordinator Group updates the IDPE records when warranted, such
+as when a fee remittance is received.
+NOTE 1: Each instance of an erroneous or excess fee payment creates a new record for the specific
+EIN. All excess fee issues documented on the IDPE list must be resolved for the entity
+to be removed from the IDPE list.
+NOTE 2: RASR will not automatically generate a notice if the entity is already ineligible
+for direct payment at the time a new IDPE record is generated. However, the entity
+will remain ineligible for direct payment until all issues documented on the IDPE
+list are resolved.

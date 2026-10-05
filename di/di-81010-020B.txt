@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - DI 81010.020 - Creating Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 02/02/2024 - Present | TN 82 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010020 (fetched 2026-10-04)
+
+B. Exceptions to establishing a mainframe claim prior to creating an EDCS case
+1. Title II MCS exclusion
+The technician does not need to establish a new claim in MCS for the following Title
+II conversion claims:
+•
+Auxiliary child benefits (AUXCHD) to Childhood Disability Benefits (CDB) for continuing
+eligibility. For further instructions, see RS 00203.080.
+•
+Mother's or Father's benefits to Disabled Widow(er)’s Benefits (DWB). For further
+instructions, see DI 11015.005C.
+•
+WIB or Mother's or Father's benefits to DWB for Medicare purposes. For further instructions,
+see RS 00207.020.
+Using the MCS Exclusion functionality, you can establish the following claims in EDCS,
+as long as the claimant is on an existing Master Beneficiary Record (MBR) with a specific
+Ledger Account File (LAF) code:
+•
+CDB and DWB under age 60 - LAF
+–
+C
+–
+E
+–
+S6 - S9
+–
+D (any number)
+–
+AD
+–
+T4, or
+–
+T6
+•
+DWB over age 60 - LAF
+–
+C
+–
+S6 -S9, or
+–
+AD
+NOTE: The technician must establish appeal level cases in EDCS using the MCS exclusion
+functionality for CDB or DWB claims if the MCS exclusion functionality was used for
+the associated prior level case.
+2. Title XVI MSSICS/CCE exclusion
+a. Technicians can manually establish an initial level Title XVI MSSICS/CCE exclusion
+or MSSICS/CCE limitation claim in EDCS.
+b. EDCS also allows you to establish Manual Title XVI appeal level cases even if there
+is no prior Title XVI medical determination in the electronic folder. EDCS allows
+the technician to switch the adjudicative level from appeal to escalated initial on
+Manual Title XVI appeal level cases.
+c. Technicians should manually establish a MSSICS/CCE exclusion claim in EDCS for
+aged individuals, 65 years and older, requiring a medical determination to qualify
+for the pooled trust exception. See SI 01120.203D for more information on pooled trust exceptions.
+IMPORTANT: Do not use the Manual Title XVI functionality to establish CDR initial or CDR appeal
+cases. A Title XVI Age 18 redetermination is a CDR. Do not process these cases using
+the Manual Title XVI functionality in EDCS. For further processing instructions, see
+DI 81010.232.
+Examples of possible MSSICS/CCE exclusions or limitations:
+•
+SSI Couples Case Processing Limitations
+•
+Locked MSSICS/CCE
+•
+Child filing and parent has no SSN
+•
+Terminated Supplemental Security Record (SSR)
+NOTE: For concurrent claims where the Title XVI portion is an allowance, but Title II portion
+is a denial, EDCS blocks creation of the Title XVI portion of any appeal because it
+was an allowance. If the claimant files a request for an Administrative Law Judge
+(ALJ) hearing, in order to establish the Title XVI portion (allowance) of the case
+in EDCS for this situation, please use the Manual Title XVI case creation process
+described below in this section. Per DI
+12010.001.B5, if a claimant appeals any medical issue for any disability claim, the entire claim
+is subject to review, including any prior favorable disability determination. Therefore,
+create a concurrent hearing for ALJ review.
+d. To create a Manual Title XVI claim in EDCS:
+•
+On the Case Creation screen, select "yes" to the question, "Does this case have a
+T16 claim that cannot be brought into EDCS electronically and must be manually created?,"
+•
+Select the reason for manually creating the case from the drop down list. If you select
+"Other," you must provide a reason,
+•
+Select the claim type,
+•
+Add the protective filing date,
+•
+On the Manually Created T16 Information screen, provide the alien admission date (if
+applicable),
+•
+Presumptive disability onset date (if applicable), and
+•
+T16 Claims Representative unit code.
+When you establish the case in EDCS, fax the paper Title XVI application and any other
+paper documents associated with the claim into the electronic folder.

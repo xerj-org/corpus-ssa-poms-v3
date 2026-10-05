@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 11015.005 - Field Office (FO) Processing of an Initial Disabled Widow(er)’s Benefits (DWB) Claim
+Effective Dates: 03/25/2020 - Present | TN 34 (04-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015005 (fetched 2026-10-04)
+
+D. When the DWB files a simultaneous LSDP application
+If the widow(er) alleging disability can also be entitled to the LSDP (which can be
+paid immediately), but the DWB claim will be delayed (e.g., outstanding disability
+development), process the two claims independently.
+1.
+Process the LSDP through MCS earnings computation (EC).
+2.
+Send a notice to the claimant that includes UTI CLOR05, advising that SSA will contact
+him or her later regarding the pending widow(er)’s claim (for complete paragraph information,
+see MCS Universal Text Identifiers (UTI) NL 00725.005).
+3.
+Enter the remark “LSDP - ONLY TRIGGERED ON (DATE)” on an RPOC in MCS.
+References:
+•
+GN 01010.140 – FO Action on a Delayed Claim
+•
+RS 00207.007 – Field Office (FO) Processing of Initial Disabled Widow(er)'s Claims
+•
+DI 11015.025 – Field Office (FO) Action on a Disabled Widow(er)’s Benefit (DWB) Claim after Disability
+Determination Service (DDS) Completion

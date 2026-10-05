@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - SI 02306.010 - Change of Address or Residence
+Effective Dates: 09/26/2006 - Present | TN 6 (07-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502306010 (fetched 2026-10-04)
+
+A. Introduction
+A change of address or residence is important for the following reasons:
+•
+It is very important to receive and maintain current address and residence information
+on the recipient’s record to ensure proper check delivery and correctness of the Supplemental
+Security Income (SSI) payment amount. Processing a change of address (COA) or residence
+request promptly will help alleviate any problems affecting the recipient’s payment
+and Medicaid eligibility, such as nonreceipts and overpayments due to changes in living
+arrangements.
+•
+A COA or residence may be interstate (from one State to another) or intrastate (from
+one address to another with the same State). A different procedure exists for processing
+each type of report.
+•
+A COA or residence may indicate that a change in circumstances has occurred which
+may affect continuing SSI eligibility or payment amount. For example, there may be
+changes in living arrangements, marital status, federally administered State supplementation,
+in-kind support and maintenance, and resources (e.g., home ownership).
+NOTE: Different instructions apply when an individual is temporarily absent from a Federal
+living arrangement. This is discussed further in SI 02306.010B.3. See SI 00835.040. Also, be aware of situations where a recipient is placed by a State agency in an
+out-of-state facility and the recipient remains a resident of the placing State.
+•
+A COA or residence must be input before the current operating month's recurring tape
+cutoff to direct the next regular recurring SSI payment to the new address on time.
+If the change cannot be made by the next check, the field office (FO) should take
+immediate action to determine the new residence and living arrangement. The individual’s
+Medicaid coverage is affected by the State and county code as shown in the Computation
+History (CMPH) segment of the supplemental security record (SSR). In Modernized SSI
+Claim System (MSSICS), the proper state and county code should be shown on the LRES
+screen.
+NOTE:See SM 01305.530 for additional information necessary for systems input if the input
+is made after the Goldberg-Kelly cutoff date and the check amount will be reduced.
+For more information on COA in SSI cases, refer to GN 02605.035.
+For information on COA requests and acceptable reporters, refer to GN 02605.001.

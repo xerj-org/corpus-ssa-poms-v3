@@ -1,0 +1,251 @@
+SSA Program Operations Manual System (POMS) - SI 01140.200 - Checking and Savings Accounts
+Effective Dates: 09/10/2026 - Present | TN 89 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140200 (fetched 2026-10-04)
+
+F. Examples of verifying account balances
+1. Extrapolating first of the month (FOM) balances
+A bank sends out checking account statements that cover the 10th of April through the 9th of May. The last transaction shown for April is a cash deposit that creates a $100
+balance. The first transaction in May is a $50 purchase that leaves a $50 balance.
+Based on the transaction details from the statement, the technician records the FOM
+balance in May as $100.
+Consider using other available evidence to confirm the account balance information.
+In the example above, the receipt from the first transaction in May can corroborate
+the remaining account balance, and confirm extrapolated FOM balance.
+2. More evidence is needed to determine correct FI account balances due to excludable
+funds
+The claims specialist (CS) initiates a redetermination for a recipient on 6/2/2026.
+The recipient alleges having the following resources:
+•
+Checking account balance $1,250;
+•
+Savings account balance $650; and
+•
+A single vehicle used for transportation.
+During the interview, the recipient provides bank statements covering the review period
+up to 4/15/2026, but the CS still runs AFI, given that the liquid resource allegation
+is over the tolerance and AFI is the preferred verification method. AFI returns account
+balances over the resource limit in 4/2026 and 5/2026.
+The CS screens for potential deductions and exclusions in these months and determines
+that neither 04/2026 nor 05/2026 were an early deposit month per SM 01315.005. When
+reviewing the bank statements the recipient provided at the interview, the CS notices
+a Federal tax return was deposited into the checking account in 3/2026, which would
+reduce the countable balance below the resource limit for April. Having no bank records
+for May but suspecting a continuing tax return exclusion, the CS contacts the recipient
+to obtain more information. The recipient alleges still having some of the tax return
+funds in May and sends the CS the full transaction history for the checking account
+covering the period from 4/15/2026 to 5/4/2026 using Upload Documents. The CS calculates
+the excludable funds in May based on the transaction records.
+The following table depicts the balance information returned by AFI for the savings
+account for 3/2026 through 5/2026:
+Savings Balances Verified through AFI
+Date
+Activity
+Debits
+Credits
+Balance
+3/1/2026
+balance
+N/A
+N/A
+$650.00
+4/1/2026
+balance
+N/A
+N/A
+$650.00
+5/1/2026
+balance
+N/A
+N/A
+$650.00
+The following tables depict the account activity and balance information for the checking
+account from AFI, bank statements, and financial records:
+Checking Balances Verified through AFI
+Date
+Debits
+Credits
+Balance
+3/1/2026
+N/A
+N/A
+$1,180
+4/1/2026
+N/A
+N/A
+$1,741.50
+5/1/2026
+N/A
+N/A
+$1,372.00
+Checking Balances and Transactions Using Other Evidence
+Transaction Date Information from Other Evidence*
+Activity
+Debits
+Credit
+Balance
+3/1/2026
+Balance
+$1,180.00
+3/2/2026
+Check #1165 cleared
+-$850.00
+$330.00
+3/9/2026
+Payment-Personal Loan
+-$50.00
+$280.00
+3/23/2026
+Deposit "IRS TREAS TAX REF"
+$2,210.00
+$2,490.00
+3/24/2026
+Frank's Hardware
+-$650.00
+$1,840.00
+3/25/2026
+Municipal Utility
+-$98.50
+$1,741.50
+3/31/2026
+Balance
+$1,741.50
+4/1/2026
+Deposit (SSI)
+$943.00
+$2,684.50
+4/4/2026
+Check #1166 cleared
+-$850.00
+$1,834.50
+4/9/2026
+Final Payoff - Personal Loan
+-$368.50
+$1,466.00
+4/25/2026
+Municipal Utility
+-$94.00
+$1,372.00
+5/1/2026
+Deposit (SSI)
+$943.00
+$2,315.00
+5/2/2026
+Bob's Auto Repair
+-$795.50
+$1,519.50
+5/4/2026
+Check #1167 Cleared
+-$850.00
+$669.50
+*Information is from bank statements through 4/15; information is from transaction
+log through 5/4 in bold.
+Using the bank statements and transaction logs provided by the claimant and applying
+the commingling assumptions in SI 01130.700, the CS is able to exclude the retained tax return from the checking account balance
+for 4/2026 and 05/2026 resulting in eligibility for those months.
+3. Allegation of check that has not cleared the bank
+AFI returns checking account balance information that contributes to an excess resource
+determination for 05/2026. While the CS screens for potential resource exclusions,
+the claimant alleges the checking account balance of $1,350 as of 5/1/2026 includes
+a rent check of $500 written and given to their landlord on April 25th, but that the landlord has not cashed the check yet. The CS requests other financial
+records corroborating the claimant's statement and receives a bank statement covering
+4/15/2026 through 5/15/2026 and copy of the claimant's check register covering the
+last 6 months.
+The CS examines the claimant’s bank statement and check register and finds an annotation
+for check number 1345 for $500 written on April 25th. The CS also notes that check 1346 has already cleared the bank and the amount has
+been deducted from the claimant's account on the bank statement. Next, the CS notes
+that the claimant has written a $500 check to their landlord for rent on the 25th of each month for the last six months since the claimant moved into the apartment.
+Since there is evidence that the claimant has written the check and legally obligated
+those funds in the account, and the records provide a complete and consistent picture
+of the account, the CS deducts the amount of the uncashed check from the 5/1/2026
+balance. The CS can deduct the uncashed check because SSI equity value rules state
+that in determining equity value, we deduct encumbrances from the current market value
+(CMV). The new checking account balance of $850, which reflects the deduction of the
+encumbered funds, now permits resource eligibility.
+4. Early SSI deposit
+While verifying bank account balances using AFI during a redetermination, a CS discovers
+several months over the period of review in which the recipient’s account balances
+were higher than usual. Because the balances in many of these months caused an excess
+resources determination, the CS screens for potential exclusions or deductions.
+Using the chart in SM 01315.005, the CS notes the early deposit months during the
+period of review were: 6/2019, 9/2019, 12/2019, 1/2020, 2/2020, and 3/2020.
+In reviewing the SSR, the CS finds that the recipient received the full benefit rate
+in every month during the period of review.
+The CS applies early deposit exclusions as follows:
+Checking Account Balances
+Date
+Bank Account Balance
+Total Resource Balance
+Amount of SSI Deposit
+Exclusion Applied
+New Total Resource Balance
+5/1/2019
+$1,255.76
+$1,255.76
+$771.00
+$1,255.76
+6/1/2019
+$2,035.30
+$2,035.30
+$771.00
+$771.00
+$1,264.30
+7/1/2019
+$1,280.54
+$1,280.54
+$771.00
+$1,280.54
+8/1/2019
+$1,300.01
+$1,300.01
+$771.00
+$1,300.01
+9/1/2019
+$1,961.86
+$1,961.86
+$771.00
+$0*
+$1,961.86
+10/1/2019
+$1,350.29
+$1,350.29
+$771.00
+$1,350.29
+11/1/2019
+$1,402.50
+$1,402.50
+$771.00
+$1,402.50
+12/1/2019
+$2,221.72
+$2,221.72
+$771.00
+$771.00
+$1,450.72
+1/1/2020
+$2,059.10
+$2,059.10
+$783.00
+$783.00
+$1,276.10
+2/1/2020
+$2,087.11
+$2,087.11
+$783.00
+$783.00
+$1,304.11
+3/1/2020
+$1,993.69
+$1,993.69
+$783.00
+$0*
+$1,993.69
+4/1/2020
+$1,308.83
+$1,308.83
+$783.00
+$1,308.83
+*Even though early deposit occurred in 9/2019 and 3/2020, the total resource value
+was under the $2,000 resource limit. In these months, deducting the early deposit
+is not necessary. We only develop for exclusions or deductions when the early deposit
+amount affects eligibility. You do not need to record an amount in the "Excluded Amount"
+field on the Financial Institution Account page for these months.

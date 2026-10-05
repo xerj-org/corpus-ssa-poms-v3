@@ -1,0 +1,152 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+H. Family composition change after Offset First Considered Date - the fictitious period
+When the family composition changes after the Offset First Considered Date, refigure
+WC/PDB offset as if the new family composition was in effect from the Offset First
+Considered Date. This may result in a new, but fictitious, Offset Effective Date.
+To determine the amounts payable after offset effective with the date the family composition
+changes, fictitious computations are necessary.
+•
+The fictitious period is the period from the Offset First Considered Date through
+the month before the month the family composition changes.
+•
+The fictitious period may include triennial redeterminations of the ACE (redets) and,
+therefore, fictitious redets are also computed.
+NOTE: ICF correctly computed offset when the family composition changes and redets are involved.
+If a manual computation is required, consider using the Expedient method of determining
+rates payable after offset. For an explanation of the Expedient and uses, see DI 52150.070.
+1. Manual WC/PDB computations involving triennial redet ACE and family composition changes
+If a manual computation is required for a family composition change and a triennial
+redet of the ACE, follow the calculation steps below. These steps are necessary to
+manually compute the actual amount payable after offset, effective with the month of the family composition change:
+a.
+Compute offset using the new number of beneficiaries (i.e., the new family composition)
+from the Offset First Considered Date on Form SSA-2455 Offset Worksheet Disability
+Insurance Benefits. Use the WC/PDB rate effective the month of the family composition
+change. (See DI 52170.020 for completion of this form.)
+NOTE: This computation may change the Offset Effective Date (OED) to a different (though
+fictitious) date, as illustrated in Example 1 in this section. The fictitious OED
+and any offset computation results for the fictitious period are not posted to the
+MBR. However, if the fictitious period involves a redetermination of the ACE, the
+fictitious redet ACE is used in subsequent offset computations until replaced by a
+real redet ACE (i.e., an ACE based on the triennial schedule in effect prior to the
+family composition change). Therefore, a change in the WC/PDB rate after the family composition change (but before the next real triennial redet is due) is
+calculated using the fictitious ACE.
+b.
+Compute all triennial redets based on the Offset Effective Date (which may be a fictitious
+date - see NOTE above) on Form SSA-3643 using the new family composition. Any redets
+from this Offset Effective Date to the month before the month of the family composition
+change are fictitious redets.
+c.
+Add any applicable increases (e.g., COLAs) that may be due after each fictitious redet.
+2. Example: Family composition change after an ACE redet yields an increase
+A redet is not applicable if offset (reduction in benefits) is not continuous for
+any reason, such as a break in offset due to a high ACE. However, these rules must
+be modified when there is change in the family composition, such as a subsequently
+entitled auxiliary with a DIB MOE after the date of the first potential redet. See
+following example.
+04/1993
+NH entitled (no auxiliaries).
+Offset postponed due to high ACE.
+This is the Offset First Considered Date
+04/1994
+WC rate increases.
+NHs DIB reduced due to WC offset; offset continues.
+This is the Offset Effective Date. .
+01/1997
+Redet due based on Offset Effective Date (redet due in 1997, three calendar years
+from 1994, the year benefits are first reduced due to WC offset).
+Redet applies (higher benefits payable after offset for the NH).
+01/1998
+HC1 entitled (family composition change).
+We presume that if HC1 had been entitled in 04/1993, they would have been in partial
+offset effective 04/1993.
+To determine rates payable for the family effective 01/1998 (HC1s MOET), we must recompute offset retroactively to 04/1993 as though HC1 was entitled in 04/1993
+(the month offset was first considered).
+a.
+The fictitious rates payable result in no offset for the NH for 04/1993-03/1994 and
+the NHs benefits are offset effective 04/1994. HC1 is offset effective 04/1993 so
+this creates a fictitious Offset Effective Date of 04/1993. Therefore, a fictitious
+redet is computed for 01/1996, three calendar years after the new (but fictitious)
+04/1993 Offset Effective Date.
+b.
+We must do a reconciliation of the future redet schedule between the prior family
+composition (NH only entitled) and the new family composition (NH and HC1 entitled)
+at the point the new family composition becomes effective (HC1 becomes entitled in
+01/1998) to adhere to the every third year rule for redets. In this example, after
+the month of the family composition change (01/1998), any future redets are based
+on the year offset was actually first imposed (the actual offset effective date of 04/1994).
+c.
+The fictitious rates payable after offset for 04/1993-12/1997 are computed to determine
+the amount payable to the NH and HC1 beginning 01/1998, the date of the family composition change. Therefore, the amounts previously determined
+payable after offset for the NH for 04/1993-12/1997 (prior to HC1s entitlement) do
+not change.Actual benefits are not offset for 04/1993 through 03/1994.
+d.
+The NHs actual benefits are offset effective 04/1994. Therefore, as long as there is no break in
+offset from the actual Offset Effective Date (04/1994), actual redets are due in 01/1997, 01/2000, 01/2003, 01/2006, etc., at three-year intervals.
+Use the fictitious Offset Effective Date of 04/1993 and the fictitious redet in 01/1996
+only to compute the rates payable beginning 01/1998 (HC1s MOET).
+The ACE DATA output screen (WCAC) in ICF displays the fictitious redet ACE (01/96)
+as well as the actual redet ACEs (01/97, 01/00, 01/03, 01/06). The following illustrates
+the WCAC screen for this example:
+WC/PDB OFFSET - ACE DATA WCAC
+NH SSA: 9999999999
+EFF (MMYY)
+ACE
+80% ACE
+TYPE
+METHOD
+ACE BASE YEAR(S)
+CCYY-CCYY
+REDET CONTROL YEAR (CCYY)
+0493
+2500.00
+2000.00
+ORIGINAL
+INPUT
+​
+0493
+0196
+2775.00
+2220.00
+TRI REDET
+​
+​
+0493
+0197
+2670.00
+2136.00
+TRI REDET
+​
+​
+0494
+0100
+3120.00
+2496.00
+TRI REDET
+​
+​
+0494
+0103
+3557.00
+2845.60
+TRI REDET
+​
+​
+0494
+0106
+3852.00
+3081.60
+TRI REDET
+​
+​
+0494
+The first two entries on this screen (04/93, 01/96) only apply to the fictitious computations
+(due to the family composition change) and therefore display the fictitious Offset
+Effective Date of 04/93 in the last column.
+NOTE: Save ICF computations that include a fictitious period as a Pre-Adjudicate with an
+explanation in the Special Instructions Field on the WCDP (Disposition) screen. For
+example: The computation results for MM/YYYY MM/YYYY are fictitious due to a family
+composition change (see DI 52150.080I). Actual amounts payable after offset begin MM/YYYY.

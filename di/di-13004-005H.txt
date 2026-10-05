@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - DI 13004.005 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 09/22/2016 - Present | TN 2 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413004005 (fetched 2026-10-04)
+
+H. Procedure for sending out the mailer form and establishing systems controls
+1. Sending out the mailer form
+We send the mailer form -- a generic cover notice and instruction insert, and a reply envelope to the beneficiary or representative payee as the initial mailer form or “1st-request” form. If it is not returned and receipted within a specific time frame,
+we send a “2nd-request” mailer form. (If the second mailer is not returned and receipted within
+a specific time frame, a nonresponder alert is generated to the servicing PC.)
+The four-page generic cover notice and instruction insert includes:
+•
+an explanation of the mailer process,
+•
+an explanation of the possible results of the mailer process,
+•
+the importance of returning the form(s),
+•
+the time frames for responding,
+•
+the telephone numbers for contacting us, and
+•
+the instructions for completing the form.
+2. When we send mailer forms
+a. Scannable mailer form SSA-455-OCR-SM
+Central office initiates five scheduled releases of large numbers of scannable mailer
+forms SSA-455-OCR-SM during the agency's fiscal year (FY), which begins on October
+1 and ends on September 30 of the following calendar year.
+We send scannable mailer forms SSA-455-OCR-SM to title II-only and concurrently entitled
+beneficiaries or their representative payees in October, February, and June of the
+FY.
+We send scannable mailer forms SSA-455-OCR-SM to title XVI-only recipients or their
+representative payees in February and August of the FY.
+The five scheduled mailings of scannable mailer forms in a FY, including 1st-request and 2nd-request mailer forms, often total in excess of 1,000,000 forms.
+b. Hard paper mailer forms SSA-455
+Since FY 1996, we have not used the hard paper form for the large scheduled mailings.
+The PCs and FOs use these forms on an as-needed basis.
+3. Establishing systems controls for receipt of the CDR mailer form
+This table contains DCDRS actions for updating the Disability Control File (DCF) for
+after the CDR mailer forms process.
+When…
+Then…
+we send a title II-only, concurrent or title XVI-only initial or “1st-request” mailer
+we update the DCF to show event code of 001:
+•
+“T2 INITIAL MAILER SENT,” or
+•
+“T2/16 INITIAL MAILER SENT,” or
+•
+“T16 INITIAL MAILER SENT”
+We complete
+•
+the next title II/concurrent mailer selection (currently, every 4 months), or
+•
+the title XVI-only mailer selection (currently, every 6 months)
+select cases
+under the following conditions, the system selects to receive a 2nd-request mailer:
+•
+any case with “001 INITIAL MAILER REVIEW” as the most recent event, and
+•
+mailer not returned by next mailing.
+We post to the DCF an event code of 002:
+•
+“T2 SECOND MAILER SENT,” or
+•
+“T2/16 SECOND MAILER SENT,” or
+•
+“T16 SECOND MAILER SENT.”
+with the most recent posted event code of
+•
+“002/T16 SECOND MAILER SENT” and that event is more than 150 days old a nonresponder
+alert sent to the PCs
+post to the DCF an event code of 003:
+•
+“T2 NONRESPONDER REVIEW,” or
+•
+“T2/16 NONRESPONDER REVIEW,” or
+•
+“T16 NONRESPONDER REVIEW.”
+DCDRS decides which receipted mailer for PC review
+PC review pending more than 45 days
+post to the DCF an event code of 006:
+•
+“T2 PC MAILER REVIEW,” or
+•
+“T2/T16 PC MAILER REVIEW,” or
+•
+“T16 PC MAILER REVIEW”
+post to the DCF event code of 007:
+•
+“T2 PC REVIEW FOLLOW-UP,” or
+•
+“T2/T16 PC REVIEW FOLLOW-UP,” or
+•
+“T16 PC REVIEW FOLLOW-UP.”
+4. Responding to the mailer form
+The beneficiary or representative payee completes the mailer form and returns form
+SSA-455-OCR-SM to the WBDOC or the PC, and returns form SSA-455 to the FO. Printed
+on the reply envelope provided with the mailer form is the address of the Social Security
+Administration (SSA) component where he or she should return the mailer form .

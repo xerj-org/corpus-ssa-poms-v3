@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02410.223 - Garnishment for Court Ordered Victim Restitution
+Effective Dates: 05/30/2012 - Present | TN 67 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410223 (fetched 2026-10-04)
+
+D. Procedure for garnishment due to court ordered victim restitution
+Garnish for court ordered victim restitution through COGS. See Garnishment System
+Table of Contents, SM 00832.000.
+1.
+The Consumer Credit Protection Act (CCPA) only permits garnishment at a maximum of
+25% of a beneficiary’s monthly benefit amount (MBA) for court ordered victim restitution
+cases. This will require a review for possible adjustment to COGS whenever the continuing
+benefits change to a lower or higher rate. Manually enter the withholding amount in
+COGS. See How Garnishment Withholding Is Calculated,GN 02410.215.
+2.
+In the Garnishment Payment Data (OGPD) screen (see SM 00832.260 COGS Processing of
+the Garnishment Payment Data (OGPD) Screen) enter the following.
+a.
+Enter an “N” in the “ARREARS 12 WEEKS OR GREATER (Y/N)” field.
+b.
+Enter the withholding amount (not to exceed 25% of the MBA) in the “OTHER” entry field.
+NOTE: When you must apply the 25% limit (court ordered restitution garnishment exceeds 25%
+of the MBA), round down to the next dime.
+EXAMPLE: MBA = $ 974.60, divided by 4 = $243.65 (25%), round down to $243.60.
+c.
+Enter “Victim Restitution” in the “SPECIFY (OTHER)” field.
+3.
+Add a Special Message to the MBR to state, “Garnishment Order Involves Court Ordered
+Victims Restitution.”
+4.
+COGS issues all notices for court ordered victim restitution garnishment.

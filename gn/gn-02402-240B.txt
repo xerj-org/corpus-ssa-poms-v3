@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02402.240 - Rejected Canadian International Direct Deposit (IDD) Payments
+Effective Dates: 07/03/2019 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402240 (fetched 2026-10-04)
+
+B. The most common reasons for rejected Canadian IDD payments (other than typing errors)
+are:
+•
+The account is coded for the wrong currency. There are three ways to code direct deposit for different accounts in Canada: Canadian
+dollar accounts, U.S. dollar accounts at most banks, and U.S. dollar accounts at Royal
+Bank of Canada. See GN 02402.300D., GN 02402.300E., and GN 02402.300F.
+•
+The institution number contains an extra zero at the front. All institution numbers must be coded with only 3 digits. FRBKC's system reads the first 3 digits of the DAN field as the institution number
+and formats the record accordingly before passing it to the processor bank in Canada.
+An extra zero before the institution number for a payment that should go to Canadian
+Imperial Bank of Commerce (010), for example, will be read as a payment for Bank of
+Montreal (001). An extra zero before the institution number for a Bank of Montreal
+payment will mean that the institution number will be read as 000, an invalid institution
+number.
+•
+The institution number is not coded as the first part of the DAN. When the institution number is missing, FRBKC's system reads the first 3 digits of
+the account number as the institution number and the remainder of the digits as the
+account number. If the DAN field contains only 7 digits, the institution number is
+almost certainly missing. On a Canadian check, the institution number follows the
+branch number, with a dash between the two numbers. The dash should not be coded.
+•
+A “C” is coded as the first character of the DAN. If you receive coded Canadian IDD information containing a “C” at the beginning of
+the DAN, it is meant to be an indication that you should choose “Checking” as the
+type of account when keying the information. The “C” should not be keyed in the DAN
+field, even though it is shown at the beginning of the DAN on the MBR. When the DAN
+is coded incorrectly, the contractor bank receives an invalid institution number that
+begins with “C” instead of a numeric character. If you are passing information to
+another person for keying, it is better to show only the correct DAN information and
+write “checking,” instead of coding a “C.” Outdated forms should not be used for coding
+information for keying.
+•
+The beneficiary did not give the interviewer all the numbers from the bottom of the
+check. Many Canadian banks include all or a portion of the transit (branch) number at the
+beginning of the account number. The beneficiary reads the transit number and the
+institution number, and then encounters the transit number again. Knowing the actual
+account number, the beneficiary skips over the transit number and reads only the actual
+account number. If you know that the account number for a certain Canadian bank usually
+contains more digits than the beneficiary is telling you, you should ask if there
+are any numbers between the institution number and the “account number.”
+•
+A dash is coded after the institution number, making the account number longer than
+allowed. The Canadian banking system allows up to 12 characters for the account number. If
+the account number already contains 12 characters and a dash is keyed after the institution
+number, the account number is read as 13 characters. FRBKC sends the processor bank
+only the first 12 characters after the 3-digit institution number. Any remaining characters
+are dropped. To avoid this problem, it is better to code without inserting an extra
+dash.
+•
+The check serial number is included in the DAN coding. The number of the check is coded at the bottom of the check, along with the routing
+and account number information. If the interviewer suspects the beneficiary has given
+the check number over the phone, the interviewer can ask for the number of the check
+at top right.
+Coding instructions for Canadian IDD are at GN 02402.300. To improve the accuracy of coding for Canadian IDD, OEIO personnel request the SSA-1199 CN along with a copy of the check, especially if the payment rejects.

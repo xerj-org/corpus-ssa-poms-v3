@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02406.180 - Statutory Limitation on Processing Claims of Nonreceipt ( Credits and Limited Payability)
+Effective Dates: 05/28/2014 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406180 (fetched 2026-10-04)
+
+B. Processing credits
+1. Title II
+If the beneficiary’s record reflects an uncashed payment within the past 12 months,
+SSA sends a notice to the beneficiary inquiring if the check was received and cashed.
+If the beneficiary does not respond or indicates a cashed payment, take no further
+action. If the beneficiary indicates the payment was not received and not cashed,
+SSA technicians will reissue payments or inquiry responses indicating payments were
+not received and cashed see, Beneficiary/Recipient Contacts SSA Concerning a Limited
+Payability Notice GN 02401.905.
+Treasury cancels any check that has not been negotiated within 12 months after the
+issue date and returns the credit back to SSA in the13th month after issue date of
+the check. This credit appears on the Payment History Update System (PHUS) record
+in the form of an EVNT-169 UNNEG CK (Unnegotiated check). See, Unnegotiated Check
+Events SM 00545.300.
+2. Title XVI
+a. When an SSI check is uncashed for six months, Treasury issues a code 38
+The SSA system converts code 38 to a code “N” in the Unnegotiated Check Indicator
+(UCI) field of the payment history (PMTH) segment on the Supplemental Security Income
+Record (SSR), and sends an L5 or L8 alert to the field office (FO). The FO investigates
+whether the recipient received the check by contacting the recipient via phone to
+determine the status of the check. If the recipient indicates the check was not received,
+the FO inputs a nonreceipt. (See SM 01315.085 for Stages of the Limited Payability
+Process).
+b. If the check is not cashed within 12 months, Treasury issues a code 71
+The SSA system converts code 71 to a code “T” in the U field of the PMTH indicating
+that a credit is forthcoming for the check in question. Treasury cancels any check
+that has not been negotiated within 12 months from the issue date and returns the
+credit to SSA in the 13th month.
+In the 13th month, Treasury sends a code “L” and the SSA system post an “I” in the
+U field of the PMTH. This action indicates the credit has been received. A K5 diary
+post on the SSR simultaneously with a K5 alert to the FO. (See SM 01315.085B.) The
+FO calls the recipient to investigate the check status and input either a UL (if the
+check was not received) or UM (if the check was received). For more information on
+the different kinds of UCI codes, see SM 01315.095.

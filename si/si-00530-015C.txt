@@ -1,0 +1,167 @@
+SSA Program Operations Manual System (POMS) - SI 00530.015 - Good Cause Provision
+Effective Dates: 07/14/2022 - Present | TN 13 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530015 (fetched 2026-10-04)
+
+C. Procedure - evaluating OI-5D report and SSA records to determine if good cause applies
+1. Receipt of warrant information
+The FO will receive all unsatisfied warrant information from the Fugitive Felon Matching
+Operation for Title II only, Title XVI only and concurrent cases for action.
+2. Evaluation of OI-5D and other SSA records
+a. OI-5D
+Some good cause criteria can be determined by reviewing the OI-5D for the following
+information:
+•
+Type: Fugitive Felon or Parole or Probation Violator
+•
+Date of Warrant: MM/DD/YYYY
+•
+Offense Indicator: XXXX (See SI 00530.910B.2. for offense code category list).
+•
+Law Enforcement Agency Action Indicator: X (See SI 00530.925 for values for this code.)
+•
+Fugitive Indicator: X (See SI 00530.930 for values for this code.)
+•
+Originating Felony Charge(s): Burglary (This field contains information on the original criminal offense on which the recipient
+was convicted before probation/parole was granted.)
+•
+Remarks: Parole Violation (Aggravated Assault). (This field may contain information about the criminal charge that caused the probation/parole
+violation. It may also include information about other relevant charges.)
+b. SSR
+•
+On a disability claim, check the medical diagnosis code (DIG) found on the DISB line
+of the SSR. See SI 00530.920 for diagnostic codes used for good cause reasons.
+•
+If the recipient has a rep payee, check REP PAYEE line to determine if recipient is
+legally incompetent.
+•
+Verify if recipient has a period of prisoner PSY N02/N22 for prisoner suspension on
+the SSR. This period of suspension may be a clue that the recipient was previously
+incarcerated for their underlying crime before they were granted probation/parole.
+If the PSY N02/N22 period is subsequent to the warrant information, the warrant may
+no longer be active.
+c. PUPS
+If the unsatisfied warrant is for a probation or parole violation, check the PUPS
+record for information on the recipient’s original offense. Determine the criminal
+offense and compare it to the list of offense codes in SI 00530.910B.2. If the offense is listed in one of the violent or drug related categories, the offense
+for the underlying criminal charge is considered violent or drug related. If the offense
+is not listed in one of the categories listed in SI 00530.910B.2., assume the underlying criminal offense before probation/parole was granted was not
+violent and not drug related. Check the PUPS record to determine if the warrant date
+precedes the prisoner suspension period. If so the warrant may have been satisfied
+when the recipient was arrested and confined.
+3. Multiple criminal offenses on the same warrant
+There may be multiple offense codes listed on the same warrant. One offense code will
+be listed in the offense code field on the OI-5D. Other offenses will be listed in
+the Remarks section of the OI-5D. The Remarks section may also contain additional
+probation/parole violation offense codes. Evaluate each offense independently to determine
+if good cause applies. If good cause is found for one offense but not for another,
+good cause is not found and the suspension will begin. For example, a person charged
+with smuggling diamonds (non-violent felony) and aggravated assault (violent felony)
+will be suspended based on the violent criminal offense - the aggravated assault.
+4. Underlying criminal offense for probation/parole violators
+If you cannot determine via the Originating Felony Charge(s) on the OI-5D, the PUPS
+record or other information in the SSA file, the underlying criminal charge for the
+crime the recipient committed before they were granted probation/parole, SSA cannot
+make a determination about the nature of this crime (i.e., if the crime is a felony
+or a misdemeanor or if it was non violent and not drug related). The recipient must
+provide evidence from the State or county in which the crime was committed as to the
+nature of the crime (i.e. not violent and not drug related) and also the penalty for
+the crime in order to meet the burden for establishing good cause based on mitigating
+circumstances.
+5. Recipient is deceased
+If the OI-5D comes back from OIG indicating LEA code of “K,” (Fugitive Deceased),
+take the following actions:
+STEPS
+ACTIONS
+1
+Evaluate whether administrative good cause may apply to the criminal charges on the
+deceased recipient’s warrant.
+2
+If:
+•
+Good Cause applies process per SI 00530.015E.
+•
+Good Cause does not apply-- Suspend benefits N25 per SI 00530.010 for the period of probation/parole violation suspension before the date of death.
+Add the following information to the REMARKS field on the SSID:
+“FF16 Probation/Parole Violator Suspension—Recipient Deceased XX/XX/XXXX - Warrant
+#, Date of Warrant: XX/XX/XXXX, Type of Warrant: XXXXXX; Offense Code: XXXX. Good
+Cause Does Not Apply”
+Post overpayment to SSR.
+3
+Prepare OI-5E per SI 00530.200E.
+4
+Do not send notice to a deceased recipient. If overpayment exists and a representative
+payee was contingently liable, send notice to the payee.
+6. Recipient resides in a long-term care facility
+•
+For good cause purposes, deem recipients residing in a long-term care facility to
+be incapable even if they are their own payee. Develop the need for a payee (see GN 00502.000).
+•
+If the recipient leaves the long-term care facility and still does not have a representative
+payee, reopen the good cause determination and make a new determination based on whether
+the recipient currently meets the good cause requirements.
+7. Documenting the determination
+If good cause is found:
+•
+Annotate the REMARKS field of the SSR with: “FF16—Warrant XXXXXXX, dated MM/DD/YYY,
+NCIC code: XXXXX ‘GOOD CAUSE WAS ESTABLISHED’ FF16 suspension does not apply.”
+•
+Prepare an OI-5E per SI 00530.200E. Add the good cause Indicator (see below) to the OI-5E to document if good cause was
+found.
+CODE
+Good Cause Reason
+MID
+Warrant was issued incorrectly because of identity theft or other identity issue.
+MNG
+Individual found not guilty of the criminal offense.
+MCD
+Criminal charges were dismissed.
+MWW
+Warrant was withdrawn.
+MCC
+Criminal charges were otherwise cleared.
+DNP
+Law enforcement not taking action on the warrant.
+DMC
+Mental condition impairs capability to resolve the warrant (based on impairment code).
+DRP
+Individual has a representative payee, is incapable or incompetent.
+DNH
+Individual is residing in a long-term care facility such as a nursing home or mental
+treatment facility.
+•
+Annotate the EVID screen on the SHARED Process on the SSA Main Menu with the Good
+Cause Determination explaining the current circumstances and the reason(s) and evidence
+the recipient provides for requesting good cause and SSA’s justification for establishing
+good cause.
+STEPS
+ACTIONS
+Step 1
+From the Main SSA Menu (SC00), Select SHARED PROCESSES (#4), then enter the SSN and
+select ESTABLISH, and EVIDENCE (#1)
+Select Program #1
+Select Type # 3 (Unless this is a claims action, then select type #2)
+Document Submitted as Proof of the Following Event/Issues: Select “Other”
+Document Event Date: Enter the Date Good Cause Determination was Made
+Step 2
+Skip to Document Type: Enter “FF Good Cause Determination”
+Step 3
+Skip to Comments: Enter: “FF16 Good Cause Determination—Good Cause Applies Based on Mandatory Good Cause/Mitigating
+Good Cause Circumstances.”
+Step 4
+Input Your Personal identification information in the following fields:
+•
+Name
+•
+Position
+•
+Office Code
+and include the current date in the date field.
+NOTE: Go to Step #5. The reason for the good cause decision must be documented to reflect the specific
+reasons and evidence that used to find good cause.
+Step 5
+Skip to the field “Additional Evidence” and Enter “Y.
+Provide the specific type of good cause you are granting the recipient (i.e., Mandatory
+good cause or Mitigating Circumstances (Discretionary good cause). List evidence used
+to make good cause determination.
+NOTE: The same good cause determination will apply to Title XVI and Title II if the cases
+are concurrent. Prepare only one determination.

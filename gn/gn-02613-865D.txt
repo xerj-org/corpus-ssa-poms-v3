@@ -1,0 +1,108 @@
+SSA Program Operations Manual System (POMS) - GN 02613.865 - Title II Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 10/07/2016 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613865 (fetched 2026-10-04)
+
+D. PC processing of closed period post-2006 Cases
+1. Identifying class members eligible for relief
+The settlement agreement provides for payment of retroactive benefits to beneficiaries
+whose benefits were:
+•
+suspended (S9 HRFST FUGFEL) for some period between 01/01/05 through 12/31/06; and
+•
+who were notified of the fugitive felon nonpayment decision on 1/1/07 or later.
+We listed these class members on CATS with a Court Case Identifier (CCID) of F1.
+2. Notifying class members of potential relief
+Send a manual informational notice to the class members eligible for post-2006 relief
+based on a closed period of fugitive felon suspension relief. The informational notice
+is available in AURORA, Exhibit Number E4002. The instructions for generating the
+informational notice via AURORA are in GN 02613.867B.
+Shortly after release of the informational notice (E4002), resume benefits for the
+closed period of fugitive felon suspension to these class members.
+3. Resuming benefits for a closed period of post-2006 relief
+We annotated these class members on CATS with a CCID of F1. PC management distributed
+the list of closed period post-2006 relief cases to ensure that PC personnel would
+take the following actions.
+a. Review of SSA records for the closed period of fugitive felon suspension
+For each closed period record:
+•
+Review the closed period of fugitive felon suspension annotated to the MBR. The period
+of S9 with the HFRST of FUGFEL should appear on the MBR any time between 01/01/05
+through 12/31/06. The FUGITIVE data line on the MBR should reflect that the warrant
+has a stop date equal to 12/2006 or earlier.
+•
+Check the warrant data on the FUGITIVE data line on the MBR and on the FFSCF to ensure
+that the warrant offense code is other than 4901, 4902, 4999, 5011, 5012, 8101, or
+8102.
+NOTE: In some instances, a higher priority suspension event may supersede the fugitive
+felon suspension issue (e.g., prisoner suspension LAF S7, etc.) Close out the FUGITIVE
+data line on the MBR for offense codes other than 4901, 4902, 4999, 5011, 5012, 8101,
+or 8102 to ensure unwanted future fugitive felon suspensions actions will not occur.
+You will find more information about higher priority suspension actions in GN 02602.025.
+•
+Determine the date that we notified the beneficiary of the fugitive felon suspension
+decision. The initial suspension determination notice will be on the Online Retrieval
+System (ORS).
+If the date on the notice is before 01/01/07, the case is a pre-2007 case. You can
+find the instructions for processing pre-2007 Martinez relief cases in GN 02613.868.
+If the date on the notice is 01/01/07 or later, you can locate the case processing
+instructions in GN 02613.865D.3.b. in this section.
+If you cannot find the notice in ORS, review the record and find the MADCAP/MACADE
+entry that placed the beneficiary in fugitive felon suspension. This processing action
+will provide the notice information that we automatically added on the beneficiary
+notice. The notice date for this action will be five days from the date of the MADCAP/MACADE
+processing date for the fugitive felon suspension action.
+b. Reinstating benefits for the closed period of fugitive felon suspension
+Process the actions for reinstatement of benefits for the closed period as indicated
+in the chart below:
+Steps
+Required Actions
+1
+Send the class member a post-2006 informational notice. Prepare a manual information
+notice via AURORA (E4002). Instructions for issuing the notice are in GN 02613.867B.
+Once the notice is prepared, date and then release the notice.
+Send a copy of the notice to ORS.
+2
+Hold the case for two days to allow for mailing and delivery of the manual informational
+notice.
+Do not prepare a fugitive felon good cause determination.
+3
+From the FFSCF:
+Annotate the new warrant disposition to the FUGITIVE FELON WARRANT DUE PROCESS/ GOOD
+CAUSE (FFDG) screen. In the update mode, enter the mandatory entries and then enter
+the: GOOD CAUSE DETERMINATION section of the screen:
+GOOD CAUSE ESTABLISHED(Y/N): Y
+IF YES, GOOD CAUSE REASON: CRT
+good cause decision date (mmddccyy):  99999999 (place current date in this date field)
+REMARKS:  Post-2006 Martinez settlement Relief. Post-2006 relief applies for closed
+MM/YY to MM/YY.
+4
+Use MADCAP/MACADE to resume benefits for the closed period of post-2006 Martinez settlement
+relief.
+Select the dates for the closed period of fugitive felon suspension that you will
+now resume for the beneficiary (MM/YY to MM/YY) for MACADE history accrual.
+From the MACADE HST screen:
+•
+Enter ENT in the TRANSFER TO field
+•
+Select function #31 FUGITIVE FELON (FFEL) on the ENTITLEMENT AND ELIGIBILITY MENU
+5
+On the FFEL screen in MACADE, annotate the following entries:
+GOOD CAUSE ESTABLISHED (Y/N): Y
+If YES, GOOD CAUSE REASON: CRT
+Good cause decision date (mmddccyy): 99999999 (place current date in this field)
+Annotate SP MSG Remarks for the MBR: Martinez Post-2006 Closed Period Relief. Post 2006
+relief applies for closed period of MM/YY to MM/YY.
+6
+Send a closed period resumption notice via MADCAP. Add to the notice the additional
+post-2006 Martinez relief caption and paragraph in GN 02613.867A.3. Follow the instructions for processing requests for special notices for blind or
+visually impaired claimants and beneficiaries as indicated in EM-09088 SEN dated 12/31/09
+and EM-10021 SEN dated 03/17/10.
+4. Multiple warrants
+Instructions for processing cases with multiple warrants are in GN 02613.865A.2. in this section.
+5. Processing cases that show current prisoner, fugitive felon, or probation or parole
+violation status
+Do not pay underpayments to beneficiaries who are in prisoner, fugitive felon or probation
+or parole violator suspension. Instructions for processing these cases are in GN 02613.865A.3. in this section.
+6. Other case processing items
+Information regarding other case processing issues (e.g., Medicare, CDRs, etc.) is
+in GN 02613.870.

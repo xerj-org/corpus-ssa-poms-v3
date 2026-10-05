@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.431 - Coding Bahrain Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/21/2020 - Present | TN 158 (03-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402431 (fetched 2026-10-04)
+
+G. Example of coding Bahrain direct deposit
+The customer provides us with a signup form for Bahrain containing the account number:
+BH67BMAG00001299123456
+•
+The first character of IBAN is “BH,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The next 4 characters of the IBAN represents the bank code.
+•
+The last 14 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 720000018
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “H” designated for Bahrain; and
+•
+Code the 14-digit Account Number “00001299123456”
+3. Obtain the following information
+•
+RTN: 720000018
+•
+Checking
+•
+DAN: H00001299123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000018
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H00001299123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 720000018
+•
+DAN CH00001299123456

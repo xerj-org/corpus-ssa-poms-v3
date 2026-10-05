@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.332 - Coding St. Lucia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 194 (06-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402332 (fetched 2026-10-04)
+
+G. Example of coding St. Lucia direct deposit
+The customer provides us with a signup form for St. Lucia containing the account number:
+“1234567890112233445566”.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 700000122
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “S” designated for St. Lucia; and
+•
+Code 12 digits account number “123456789011”
+3. Obtain the following information:
+•
+RTN: 700000122
+•
+Checking
+•
+DAN: S123456789011
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000122 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: S123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700000122
+•
+DAN- CS123456789011

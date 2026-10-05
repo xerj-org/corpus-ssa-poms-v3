@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02402.020 - Reimbursement Process Due to Alleged Fraud and Other Unauthorized Redirection of Reoccurring Payments
+Effective Dates: 08/25/2025 - Present | TN 308 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402020 (fetched 2026-10-04)
+
+F. Field Office (FO) Instructions for Handling Title XVI Financial Institution (FI) Return
+Payments, Due to Unauthorized Direct Deposit Changes
+If the suspected overpayment is the result of fraud, follow SI
+02201.007C on handling Title XVI overpayment fraud. After following “SSI: Overpayment Fraud”
+policy, review the PMTH and OPRR segment of the SSR to determine if SSA applied a
+credit. Please follow the below applicable scenario:
+•
+If the credit (returned payment) covers the full overpayment amount, the system reduces
+the overpayment balance to zero.
+•
+If the credit (returned payment) does not fully recover the overpayment (i.e., the
+FI returned a partial payment), then reduce the overpayment by the credit amount or
+the partial payment remittance found in the OPRR. OBASA posts the partial payment
+remittance to the OPRR segment, of the SSR, with a District Office Code (DOC) code
+of 534. In addition, balance the overpayment on the SSR, if applicable.
+NOTE:
+For any remaining overpayment balance resulting from the A-OTP: Do not send the overpayment
+notice. Stop overpayment collection with an NT TAC. See GN
+02402.017.

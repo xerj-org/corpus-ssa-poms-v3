@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 02408.605 - Death Notification Entry (DNE)
+Effective Dates: 11/03/2008 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408605 (fetched 2026-10-04)
+
+B. DNE information
+The DNE is an electronic notice of the death of a beneficiary/recipient that SSA sends
+through the Richmond Federal Reserve Bank (RFRB) to the FI to which the beneficiary’s/recipient’s
+benefits are paid by direct deposit. The DNE contains information about the beneficiary’s/recipient’s
+payment data and date of death.
+1. Data in DNE
+The data in a DNE includes:
+•
+FI’s routing number (RTN),
+•
+Depositor account number (DAN),
+•
+All zeros in the payment amount field,
+•
+SSN (and BIC, if appropriate) under which the Social Security or SSI benefits are
+sent,
+•
+Name, and
+•
+An addenda record.
+2. Addenda record
+The addenda record contains the following:
+•
+Date of death,
+•
+Beneficiary’s/recipient’s own SSN (BOAN or BSSN), and
+•
+Amount of the next scheduled payment.
+The information is formatted the same as a regular payment. It is sent electronically
+by the same method as a direct deposit payment, but it does not flow through the Department of Treasury (Treasury).

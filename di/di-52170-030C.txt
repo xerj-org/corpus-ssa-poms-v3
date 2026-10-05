@@ -1,0 +1,96 @@
+SSA Program Operations Manual System (POMS) - DI 52170.030 - Manual Proration of Lump Sum Awards
+Effective Dates: 12/17/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452170030 (fetched 2026-10-04)
+
+C. How to manually prorate a LS with no excludable expenses
+If a periodic WC/PDB benefit paid through the day before the LS award had the same
+weekly rate as that determined for the LS, there will be no mid-month adjustment;
+otherwise, you must compute a mid-month adjustment for the start date month. See DI 52150.040 – Changes in Workers’ Compensation/Public Disability Benefits (WC/PDB) Paid.
+Step 1: Divide the gross amount of the LS by the weekly rate. The quotient will be the number
+of weeks the proration will last. There is usually a decimal remainder. Do not round,
+just drop the decimal remainder and multiply the integer (number of whole weeks) by
+the weekly rate. Subtract the result from the gross amount of the LS. The result is
+the LS remainder.
+Step 2: Divide the whole number of weeks by 52. The quotient will be the number of years
+the proration will last. The remainder will represent additional weeks.
+Apply the following rules to count years:
+•
+Drop 2 days for the first year. If the first year is a leap year and the beginning
+date is prior to February 29, drop 3 days.
+•
+Drop 1 day for each succeeding year. If the year is a leap year and you pass February
+28, drop 2 days.
+EXAMPLE:
+Beginning date (Sunday)
+01/11/1976
+First year (drop 3 days-leap year)
+01/08/1977
+Second year (drop 1 day)
+01/07/1978
+Third year (drop 1 day)
+01/06/1979
+After you determine the ending date for the full years of proration, add the number
+of weeks for any partial year remaining. The result will be the lump sum ending date.
+Step 3: Determine the LS end date by counting these years and weeks beginning with the start
+date. NOTE: Begin counting with the start date – not the day after.
+Step 4: Add the LS remainder from step 2 to the amount of WC computed for the last month
+of the proration. If the partial monthly payment is higher than the previously determined
+monthly WC/PDB rate, use the previously determined rate and carry the excess over
+to the following month.
+EXAMPLE: On March 17, 2006, the worker received a LS of $49,000. There is no proration rate
+specified in the settlement. The prior periodic rate was $275 per week, which comes
+to $1191.60 per month. Development showed there were no excludable expenses.
+Step 1: Compute the number of weeks of proration and the LS remainder.
+Formula
+Result
+Description
+$49,000 LS
+$275.00 weekly rate
+178.18
+178 weeks of proration, plus a remainder
+178 weeks x
+$275.00 weekly rate
+48,950.00
+Total amount of full weekly proration
+$49,000 LS
+-48,950.00 charged off in full wks.
+50.00
+LS remainder
+Step 2: Determine ending date of proration
+Formula
+Result
+Description
+178 weeks of proration
+52 weeks/year
+3.42 years
+(3 yrs. 22 weeks)
+Proration length
+03/17/2006 + 1 year
+03/15/2007
+Drop 2 days
+03/15/2007 + 1 year
+03/13/2008
+Drop 2 days (2008 is a leap year)
+03/13/2008 + 1 year
+03/12/2009
+Drop 1 day
+03/12/2009 + 22 weeks
+08/13/2009
+LS end date
+Step 3: Compute the WC amount for the last month of proration (August 2009) including the
+LS remainder.
+Formula
+Result
+Description
+$275.00 weekly rate
+7
+$39.29
+Daily rate
+$39.29 daily rate x 13 days (08/01 – 08/13)
+$510.77
+First part of the computation
+$510.77 + $50.00 LS remainder
+$560.70
+August 2009 WC (round to next lower dime)
+Since $560.70 is less than the monthly proration rate of $1,191.90, there is no need
+to carry the proration into September 2009.

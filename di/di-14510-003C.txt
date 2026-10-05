@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - DI 14510.003 - Field Office (FO) Procedures for Cases Involving Participation in Vocational Rehabilitation (VR) or Similar Program
+Effective Dates: 11/01/2024 - Present | TN 18 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510003 (fetched 2026-10-04)
+
+C. FO development after DDS medical determination
+DDS medical determinations with potential for payment continuation under Section 301
+have a DDSQ coded with "I301 Y." The SSA-832 and SSA-833 show "301 Case" in item 9I
+and the termination date in item 9C is blank.
+Do not apply continuation of benefits under Section 301 when medical cessation is
+due to the beneficiary’s failure to cooperate (FTC) or whereabouts unknown (WU). Follow
+instructions in DI 13005.025D and SI 02301.235 for FTC and DI 13015.011 for WU. If the beneficiary files an appeal within 10 days requesting payment continuation,
+suspend Section 301 development per DI 14510.035A.
+1. Medical continuance
+If the DDS makes a medical continuance determination, do not develop for participation
+in a VR or similar program. Follow existing procedures to process the continuance
+decision. Delete the special messages from the MBR, SSR, or both.
+2. Medical cessation
+DDS notifies the FO of a medical cessation using the EDCS action page with the message,
+“CDR Cessation Added-Potential 301 Benefit Continuation.” For paper cases, DDS sends
+the CDR folder to the FO with a flag for potential 301 development.
+The FO should check the Disability Control File (DCF) to verify that the medical CDR
+or Age 18 event is closed. If the event is not closed, take the following actions
+to manually close it:
+•
+Select option #2 from the MCDR screen.
+•
+Within the IFOA screen, select #10 CESSATION. Use this event type to update the cessation
+from the DDS determination (SSA-832 or SSA-833) and clear the DDS code from the OFFICE
+RESPONSIBLE FOR THE NEXT ACTION field.
+Use SSA-4290-F5 to develop participation in VR or a similar program for potential entitlement to
+Section 301 benefits.
+•
+Complete Part I, Section A of the SSA-4290-F5 with information EDCS obtained during
+the CDR or Age 18 Redetermination. Complete and sign Section B.
+•
+Complete Part II by telephone or mail with the organization providing the VR or similar
+services.
+a. Telephone contact
+Telephone contact is the most efficient method for completing Part II of the SSA-4290-F5.
+Complete the appropriate section of Part II of the SSA-4290-F5 based on the type of
+organization.
+•
+Part II, Section A – An Employment Network;
+•
+Part II, Section B – A State VR Agency;
+•
+Part II, Section C – Another Provider of VR, Employment, or Support Services (including
+SSA or another agency of the Federal government);
+•
+Part II, Section D – An Educational Institution providing services under the IDEA
+(Individuals with Disabilities Education Act).
+NOTE:
+If the beneficiary participates in a Plan for Achieving Self Support (PASS), SSA is
+the service provider. Ask the PASS specialist who approved the PASS to complete Part
+II, Section C of the SSA-4290-F5. For the telephone number of your local PASS specialist,
+see Location of PASS
+Cadres.
+If the contact states that the beneficiary is no longer taking part in the activities
+or services outlined in their plan, ask for the date participation ended and write
+this information under Question #2 on the form. Obtain answers to Questions #3 through
+#5, as if the beneficiary were still participating. Print the contact’s name in the
+signature block of the appropriate section and annotate “by phone.”
+b. Mail contact
+If you are unable to make telephone contact with the provider, send the SSA-4290-F5
+to the provider with a signed and dated SSA-827 and a cover letter requesting their assistance using language similar to the following:
+(Name of beneficiary)reports that they are receiving (vocational
+rehabilitation services, employment services, educational services, or support services) from your organization. We need your assistance to determine if this beneficiary
+can continue to receive disability benefits based on their participation in your program
+and services. Please complete Part II, Section (A, B, C, or D, depending on the service
+provider) of the enclosed form, sign it and return it to us within 10 days. If (name
+of beneficiary) was participating in your program but stopped, please provide the
+date that participation ended. Enclosed is a postage-paid return envelope. If you have any questions, please call (contact name and phone
+number).
+•
+Establish a 15-day diary on the CDR development worksheet (CDRW) of the DCF or SSI
+development worksheet for return of the SSA-4290-F5.
+•
+Make a follow-up contact with the service provider by phone, if the provider does
+not return the SSA-4290-F5 within 15 days. Document all contact attempts on an SSA-5002
+(Report of Contact) and fax it into eView or the Evidence Portal (EP).
+•
+If you do not receive the completed SSA-4290-F5 within 30 days, upload the incomplete
+SSA-4290-F5 into eView or EP and transmit it, along with the Potential Section 301
+Case Flag, to the Office of Disability Operations' (ODO) Paperless Processing Center
+(PPC) using the EP's 4290 Barcode. Select the "Yes" on the Document Information screen,
+to make the transmission actionable when PC involvement is required.

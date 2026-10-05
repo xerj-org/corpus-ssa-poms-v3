@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02402.321 - Coding Dominican Republic Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402321 (fetched 2026-10-04)
+
+G. Example of coding Dominican Republic direct deposit
+EXAMPLE 1: A signup form for the Dominican Republic contains the name and address of the bank,
+and Account Number 123456789012. The consular office checks with the bank and finds
+the assigned bank code is 123, branch code 45678.
+•
+The RTN will be 700123452. (The final digit, 2, is the U.S. check digit for 70012345.)
+•
+The DAN will be J678123456789012.
+EXAMPLE 2: With an initial claim, DIO receives a Dominican Republic signup form that contains
+the following information:
+•
+Bank code 011122222.
+•
+Account Number 123412341234.
+The correct coding is: RTN 700111228, DAN J222123412341234.

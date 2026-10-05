@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+D. Querying the DCF for work information
+The DCF contains the information needed to determine PE disability actions taken.
+Query the DCF:
+•
+To develop and process CDRs
+•
+To check the jurisdiction of a pending work CDR
+•
+To determine that work determination codes (e.g., TWP) are in sequence and are posted
+within 60 months of the TWP completion date
+•
+To answer a beneficiary’s questions
+•
+To determine why an action was taken
+How to query the DCF:
+1.
+Select #32, DISABILITY CONTROL FILE from the MAIN, SSA Menu. The next screen is the
+CDR Section Menu (MCDR) screen.
+2.
+From the MCDR screen, select #1, QUERY, to review case information in the DCF:
+•
+enter the beneficiary's own SSN (BOAN) or the claim social security number (SSN);
+and
+•
+if the claim number SSN was entered, enter the BIC for that claim number.
+3.
+The next screen is the CDR Entitlement screen (ECDR). Enter the corresponding number
+to the action you are querying in the SELECT field.
+4.
+The next screen is the CDR Query (QCDR) screen. Press the ENTER key to bring the next
+screen in the path; in the case of a work CDR issue this is the Query Work Information
+Data Screen (QWID) screen.
+5.
+Press ENTER to return to the QCDR screen.
+6.
+If you require in-depth work information contained in the QWID screen, review the
+Query Earnings or the Verify Earnings (QERN/VERN) screens, #12 and #13 from the MCDR
+screen. (See, Disability Control File (DCF) – Overview MSOM CDR 001.001)

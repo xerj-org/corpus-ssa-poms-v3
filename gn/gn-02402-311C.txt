@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.311 - Coding Anguilla Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 06/07/2021 - Present | TN 268 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402311 (fetched 2026-10-04)
+
+C. Multi-country contract
+Citibank is the processor bank for IDD to several countries, including Anguilla. All
+Caribbean countries for which Citibank is the processor bank have a prefix of "70"
+at the beginning of the Routing Transit Number (RTN) and an assigned letter in the
+first position of the Depositor Account Number (DAN). The letter assigned for Anguilla
+is “A.”

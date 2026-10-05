@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 60075.040 - Promoting Opportunity Demonstration (POD) Offset
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075040 (fetched 2026-10-04)
+
+D. Monthly offset calculation
+A POD participant’s benefits were offset $1 for every $2 earned above the POD monthly
+threshold. The threshold was the greater of either the current year TWP level ($840
+in 2017) or the total approved monthly amount of IRWE. The threshold could not exceed
+the current year SGA/Blind SGA rate even if a beneficiary’s IRWE were higher.
+POD participants were required to report their earnings and IRWE, if any, to Abt monthly.
+For each monthly report, we calculated a new offset for the corresponding benefit
+month. Earning reports carried forward to the next month if a beneficiary failed to
+report. However, IRWE did not carry forward to the following month(s). If IRWE increased
+the threshold in an offset calculation for a given month and the beneficiary failed
+to report earnings or IRWE the following month, the offset was recalculated using
+the last reported earnings and the TWP amount as the threshold.
+Example of a monthly offset calculation
+A beneficiary volunteered to enroll in the POD in November 2017. Abt sent the beneficiary
+a letter informing them of their random assignment to treatment group 1 and that their
+offset eligibility starts in December 2017. Abt also sent the beneficiary a welcome
+package identifying their work incentive counselor (WIC).
+The beneficiary contacted their WIC in early December 2017 to report their November
+2017 earnings. They reported to their WIC that they earned $2000 in November 2017
+and had $300 in medication co-pays. The beneficiary uploaded their paystubs via the
+POD website. The beneficiary's monthly benefit amount (MBA) is $1200. The WIC enters
+the following information from them in the POD Information Data System (IDS):
+•
+Date of report: 12/05/2017;
+•
+Earnings Month: 11/2017;
+•
+Earnings Report Amount: $2000;
+•
+Impairment Related Work Expenses: $300;
+•
+Monthly Benefit Amount: $1200
+Use the following chart to determine the monthly offset amount:
+Monthly $1 for $2 Offset Computation
+Step
+Description
+Outcome
+Step 1
+Monthly Earnings Report
+$2,000
+Step 2
+IRWE report
+$300
+Step 3
+TWP amount (2017)
+$840
+Step 4
+Determine threshold used to calculate offset amount
+*Greater of TWP amount or actual IRWE but IRWE amount can’t exceed yearly SGA amount
+$840
+Step 5
+Subtract threshold determined in Step 3 from Monthly Earnings Report in Step 1.
+$2000 - $840 = $1160
+Step 6
+Divide the amount found in Step 5 by 2. The result is the offset amount.
+$1160/2 = $580
+Step 7
+Subtract the offset amount found in Step 5 from the Monthly Benefit Amount (MBA) for
+the report month. The result is the offset monthly benefit amount.
+$1200 - $580 = $620
+When applying the benefit offset, POD reduced the beneficiary's monthly benefit amount
+by $580. Their new POD offset monthly benefit amount is now $620.

@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02607.750 - T2R Exceptions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607750 (fetched 2026-10-04)
+
+A. Procedure T2R exceptions
+T2R exception cases occur when a suspension action input through PUPS does not properly
+suspend benefits (LAF S7) on the MBR. T2R exceptions are caused in different ways.
+Some examples are:
+1. Some systems processes resulting in a T2R exception
+•
+Processing Limitations found in MSOM MCSEC 001.001; or,
+•
+An error exists on the Master Beneficiary Record (MBR).
+These types of T2R exceptions will be generated to the PC/OCO-ODO.
+2. PUPS processing resulting in aT2R exception
+When a PUPS Type of Action: SUSPEND BENEFITS is input to PUPS a T2R transaction is
+created. If an exception occurs:
+•
+T2R will not suspend the benefit on the MBR and the T2 status on the Prisoner Summary
+(PUST) screen and the T2 PRISONER UPDATE (PU02) screen will change to *PENDING;
+•
+the exception should create a PCACS Action Control Record (ACR) with a Type of Event
+Level (TOEL2) equal to PRISON or PRISUS and a control on the Transaction History Screen
+(THIS).

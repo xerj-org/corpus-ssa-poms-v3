@@ -1,0 +1,900 @@
+SSA Program Operations Manual System (POMS) - DI 60099.080 - Benefit Offset National Demonstration (BOND) Notices
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099080 (fetched 2026-10-04)
+
+E. Sample Notices
+1. BOND Offset – Initial or Revised Earnings Estimate
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[G52—approved] . INTRODUCTORY STATEMENT A20, A21, A 22 ADJUSTMENT NOTICE
+We are writing to give you new information about the   (Computer.
+Generated.)  benefits which  (Computer. generated)   on this Social Security record.
+[BEN101]
+*F1 (You have, Name has) been selected to participate in the Benefit Offset National
+Demonstration (BOND) project.
+[BOND Caption 1] Benefit Offset National Demonstration (BOND)
+[WDS017]
+The BOND project offers qualified individuals a more generous treatment of earnings
+than under the current rules. A qualified individual is provided an opportunity to
+work and earn over $*F1 (BOND non-blind yearly amount) or $*F2 (BOND blind yearly
+amount) ,and benefit from having only $1 of benefits withheld for every $2 earned
+over this amount. Under current Social Security rules, the same qualified individual
+working and earning over $*F3 (BOND non-blind yearly amount) or $*F4 (BOND blind yearly
+amount), generally has his or her benefits stopped.
+[CAP1--approved Your Benefits
+Choose between BOND UTI 14 or 15 depending on whether this is an initial estimate
+or
+revised estimate of earnings for the months for which the beneficiary is eligible
+for the offset in
+the year.
+[ERN084] *F1 (Your, Name possessive) current estimate of total earnings for *F2 (your,
+Name possessive) offset period this year is $*F3 (estimated total earnings for the
+offset period).
+OR
+[ERN085] *F1 (Your, Name possessive) revised estimate of total earnings for *F2 (your,
+his, her) offset period this year is $*F3 (revised estimate of total earnings for
+the offset period). *F4 (You, Name) previously estimated total earnings of $*F5 (previous
+estimate of total earnings for same period) for this period.
+[Use either WSD018 or WSD016 depending on whether partial or full offset
+year]
+[WSD018 – Offset period is entire calendar year]
+*F1 (Your, Name possessive) offset period this year is the entire calendar year.
+We determine how much to reduce *F2 (your, Name possessive) benefit payments for each
+month in the year under the $1 for $2 offset based on an estimate of *F3 (your, Name
+possessive) BOND countable earnings for the year. To get this estimate, we use *F4
+(your, Name possessive) estimate of total earnings for the year and subtract *F5 (your,
+Name possessive his, her) estimate of the amount of allowable deductions for the year.
+The resulting amount is the estimate of *F6 (your, Name possessive) BOND countable
+earnings for the year. Some allowable deductions include the following:
+•
+The amount of any sick or vacation pay,
+•
+The amount of any subsidy paid by an employer who pays more in wages than the actual
+value of the work, and
+•
+Amounts *F7 (you pay, Name pays) for items or services related to *F8 (your, Name
+possessive) disability that are needed to work. Some examples are prescription drugs,
+personal attendant, job coach, or a wheelchair.
+After allowable deductions, *F9 (your, Name possessive) *F10 (estimate, revised estimate)
+of BOND countable earnings for this year is $*F11 (estimate/revised estimate of BOND
+countable earnings for this year).
+Next, we subtract the BOND yearly amount from the estimate of *F12 (your, Name possessive)
+BOND countable earnings for the year and divide the remaining amount by two. We then
+divide that amount by twelve to determine the monthly offset amount. The monthly offset
+amount is the amount by which *F13 (your, Name possessive) benefits for each month
+in the year are reduced under the benefit offset. Based on the *F14 (estimate, revised
+estimate) of *F15 (your, Name possessive) BOND countable earnings and the computations
+above, *F16 (your, Name possessive) monthly offset amount this year is $*F17 (monthly
+offset amount).
+[WDS016 – Offset period is less than the calendar year]
+*F1 (Your, Name possessive) offset period this year is *F2 (mm/yyyy) (first month
+of offset period in the year, sole month of offset period in the year) *F3 (through
+(mm/yyyy) (last month of offset period in the year), Null).
+We determine how much to reduce *F4 (your, Name possessive) benefit payments for each
+month in the offset period under the $1 for $2 offset based on an estimate of *F5
+(your, Name possessive) BOND countable earnings for that period. To get this estimate,
+we use *F6 (your, Name possessive) estimate of total earnings for the offset period
+and subtract *F7 (your, Name possessive) estimate of the amount of allowable deductions
+for that period. The resulting amount is the estimate of *F8 (your, Name possessive)
+BOND countable earnings for the offset period. Some allowable deductions include the
+following:
+•
+The amount of any sick or vacation pay,
+•
+The amount of any subsidy paid by an employer who pays more in wages than the actual
+value of the work, and
+•
+Amounts *F9 (you pay, Name pays) for items or services related to *F10 (your, Name
+possessive) disability that are needed to work. Some examples are prescription drugs,
+personal attendant, job coach, or a wheelchair.
+After allowable deductions, *F11 (your, Name possessive) *F12 (estimate, revised estimate)
+of BOND countable earnings for *F13 (your, name possessive) offset period this year
+is $*F14 (estimate/revised estimate of BOND countable earnings for offset period this
+year).
+Since *F15 (your, Name possessive) offset period is less than the calendar year, we
+prorate the BOND yearly amount based on the number of months in *F16 (your, Name possessive)
+offset period and use that prorated amount to figure the benefit offset. We subtract
+the prorated BOND yearly amount from the estimate of *F17 (your, Name possessive)
+BOND countable earnings for the offset period and divide the remaining amount by two.
+We then divide that amount by the number of months in *F18 (your, Name possessive)
+offset period to determine the monthly offset amount. The monthly offset amount is
+the amount by which *F19 (your, Name possessive) benefits for each month in the offset
+period are reduced under the benefit offset. Based on the *F20 (estimate, revised
+estimate) of *F21 (your, Name possessive) BOND countable earnings and the computations
+above, *F22 (your, Name possessive) monthly offset amount for *F23 (your, Name possessive)
+offset period this year is $*F24 (monthly offset amount).
+[BOND UTI 23]
+*F1 (You, Name) *F2 (will be, should have been) paid $*F3 (offset monthly benefit
+amount (MBA)) a month beginning *F4 (first month of offset period) *F5 (A, B, C, or
+D). The new monthly benefit amount is the amount before any deduction for Medicare
+premiums.
+F5= Alpha character(s):
+A= because of the offset under the BOND project
+B= because of the offset under the BOND project and the receipt of workers' compensation
+payments or public disability benefits
+C= because of the offset under the BOND project and the government pension offset
+provision
+D= Null (if D is selected the *M31 (NOT screen) will be used to further explain the
+reason)
+[CAP 02-approved] What We Will Pay
+[UTI G01—approved] (computer generated fill-ins) NOTE: Automated fill-ins for this paragraph.
+•
+The next check you receive will be for $*F1 which is the money you are due through
+*F2.
+•
+Your next scheduled payment of $*F4 which is for *F5, will be receive on or about
+the *F6 of *F7.
+•
+After that, you will receive $*F8 on or about the *F9 of each month.
+[CAP 16--approved] Do You Think We are Wrong
+[ALS190]
+If you think this information is not correct or you want to report any changes in
+*F1 (your, Name possessive) work plans or earnings, please get in touch with *F2 (your,
+Name possessive) benefits counselor at Abt Associates. Please call their toll-free
+number at 1-877-726-6309 (877-7BOND09) to report any changes. If you have a hearing
+or speech impairment, you may call their TTY number, 1-877-726-6390 (877-7BOND90).
+Optional paragraph--Use CAP07 and HIB187 if Medicare Part B premiums are being
+deducted from disability benefits
+[CAP07--approved] Information About Medicare
+[HIB187—approved]
+We will continue to deduct Medicare premiums from your monthly checks.
+[CAP15--approved] Things To Remember
+[RCT033—approved]
+*F1 (You, Name) must promptly report any changes that may affect your benefits. Failure
+to do so could mean *F2 (you, Name) may have to repay any benefits not due. Let us
+know if:
+•
+*F3 (You, Name) went to work since *F4 (your, Name possessive) last report or *F5
+(you, Name) return to work in the future; or
+•
+*F6 (You, Name) already reported your work, but *F7 (your, Name possessive) duties
+or pay changed. (Remember to keep records of *F8 (your, Name possessive) work and
+earnings such as pay statements from *F9 (your, Name possessive) employer.); or
+•
+*F10 (Your, Name possessive) doctor says *F11 (your, Name possessive) condition has
+improved (even if *F12 (you don’t, Name doesn’t) work now); or
+•
+*F13 (You apply for, start getting or have a change; Name applies for, starts getting,
+or has a change) in the amount of workers' compensation or another public disability
+benefit; or
+•
+*F14 (You start, Name starts) paying for work expenses related to *F15 (your, Name
+possessive) disability (for example, *F16 (you, Name) may need special transportation)
+or the amount paid for these work expenses changes or *F17 (you, Name) no longer pay
+for such expenses. (Remember to keep records and proof of payment for any work expenses.)
+[BOND Caption 17 ] -- If You Have Questions About the BOND Project
+[REF137]
+Please visit our website at www.socialsecurity.gov/disabilityresearch/offsetnational.htm
+for general information about the Benefit Offset National Demonstration (BOND) project.
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-866-611-EARN (3276). They will help you by phone or they
+will set up an appointment with the Abt local office that serves your area. If you
+have a hearing or speech impairment, you may call their TTY number, 1-800-222-2222.
+When you call, please have this letter with you. It will help the counselors at Abt
+answer your questions.
+[BOND Caption 6]--If You Have Questions that Are Not About the BOND
+Project
+[REF108—approved] If you have any questions, you may call us at *F1 (1-800-772-1213)
+or call your local Social Security office at *F2 (Local FO#). We can answer most questions
+over the phone. You may also write or visit any Social Security office. The office
+that serves your area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+2. BOND BRI Adjustment Notice
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[LIS004] Introductory Paragraph for A20, A21, and A22 Adjustment Notices
+We are writing to give you new information about the   (Computer
+generated.)   benefits which   (Computer generated)   on this Social Security record.
+[BEN105]
+We may have let *F1 (you, Name) know earlier that we would increase *F2 (your, Name
+possessive) benefits to *F3 (BRI/MBR incorrect monthly benefit amount) per month due
+to the rise in the cost of living. We have refigured *F4 (your, Name possessive) benefits
+based on *F5 (your, Name possessive) participation in the benefit offset national
+demonstration project (BOND). This notice corrects the calculation to apply the cost
+of living increase to *F6 (your, Name possessive) original benefit before the reduction
+for BOND earnings. *F7 (Your, Name possessive) new monthly amount (before deductions)
+is *F8 (new offset monthly benefit amount).
+[ALSC01] Do You Think We Are Wrong
+[ALS190]
+If you think this information is not correct or you want to report any changes in
+*F1 (your, Name possessive) work plans or earnings, please get in touch with *F2 (your,
+Name possessive) benefits counselor at Abt Associates. Please call their toll-free
+number at 1-877-726-6309 (877-7BOND09) to report any changes.
+[INFC08] Things To Remember
+[RCT053]
+You must promptly report any changes that may affect *F1 (your, Name possessive) benefits.
+Failure to do so could mean you may have to repay any benefits not due. Let us know
+if:
+•
+*F2 (You, Name) went to work since your last report or *F3 (return, returns) to work
+in the future; or
+•
+You already reported *F4 (your, Name possessive) work, but duties or pay changed.
+(Remember to keep records of work and earnings such as pay statements from the employer);
+or
+•
+*F5 (Your, Name possessive) doctor says *F6 (his, her, your) condition has improved
+even if *F7 (he, she, you) *F8 (doesn’t, don’t) work now; or
+•
+You applied for, start getting or have a change in the amount of *F9 (your, Name possessive)
+workers compensation or another public disability benefit; or
+•
+You start paying for work expenses related to *F10 (your, Name possessive) disability
+such as special transportation or the amount paid for these work expense changes or
+you no longer pay for such expenses. (Remember to keep records and proof of payment
+for any work expenses.)
+[REFC05]-- If You Have Questions About The Bond Project
+[REF137]
+Please visit our website at www.socialsecurity.gov/disabilityresearch/offsetnational.htm
+for general information about the Benefit Offset National Demonstration (BOND) project.
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+3. EOYR – BOND End of Year Reconciliation – Notice of Overpayment/underpayment
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[LIS004] (Use for an underpayment)
+We are writing to give you new information about the (Computer generated) benefits
+which (Computer generated) on this Social Security record.
+[OPT161] (Use for an overpayment)
+We are writing to give you new information about the disability benefits which you
+receive on this Social Security record. In the rest of this letter, we will tell you:
+How we paid you (amount of the overpayment) too much in benefits; and
+What to do if you think we are wrong about the overpayment.
+[CHKC09] Your Benefits
+[BEN118] (Use when the beneficiary requests a reconciliation based on evidence they submit)
+Thank you for giving us information about your earnings for the last year. You asked
+us to determine if there has been a change in the amount of benefits payable to you
+under BOND because of this information.
+[BEN106] (Use when the beneficiary has an overpayment or an underpayment) Note: Fill-ins 5 and 6 are repeatable-enter a comma after F6 to add more iterations
+of
+these two fill-ins.
+Based on *F1 (your, Name possessive) earnings of $*F2 (end of year reconciliation
+BOND countable earnings amount) for *F3 (ccyy) (reconciliation year) we should have
+paid *F4 (you, him, her) $F5 (monthly benefit credited (MBC) that should have been
+paid) for *F6 (mm/ccyy, mm/ccyy through mm/ccyy).
+Use OPT179 immediately after BEN106
+[OPT179]
+We paid *F1 (you, Beneficiary’s Name) $*F2 (MBC Paid) for *F3 (mm/ccyy, mm/ccyy through
+mm/ccyy). Since we should have paid *F4 (you, him, her) $*F5 (MBC should have been
+paid) for *F6 (mm/ccyy, mm/ccyy through mm/ccyy), we paid *F7 (you, him, her) $*F8
+(amount of overpayment/underpayment) *F9 (more, less) than *F10 (you were, he was,
+she was) due.
+[BEN107] (Use for a beneficiary requested reconciliation when there is no change in
+benefits)
+This means we paid *F1 (you, Name) correctly based on the evidence *F2 (you, he, she)
+provided for the reconciliation year.
+[BEN108] (Use after OPT179)
+This *F1 (A=overpayment, B=underpayment) resulted from the
+difference in the yearly amount that *F2 (you, Name) estimated *F3 (you, he, she)
+would earn during
+*F4 (ccyy (reconciliation year)) and the actual amount that *F5 (you, he, she) earned
+during that
+year. We determined the *F6 (A=overpayment, B=underpayment) after we recalculated
+*F7 (your, his,
+her) offset amount based on *F8 (your, his, her) actual countable earnings.
+[BEN116]
+If you are working and have not given us an estimate of your expected yearly earnings,
+please contact Abt Associates immediately. We show their contact information under
+the heading, “If You Have Questions About the BOND Project”. If you do not give us
+an estimate, we may pay you incorrect benefit payments.
+[BEN109] (Use when the reconciliation period includes the last month of the
+participation period)(Do not use when BEN113 is being used – these UTIs are mutually
+exclusive)
+*F1 (You have, Name has) been a participant in the benefit offset national demonstration
+project (BOND). The special rules for the BOND project will no longer apply to *F2
+(you, him, her) beginning *F3 (mm/dd/ccyy). *F4 (A-G).
+F4-A: You asked to be withdrawn from the project. If you are receiving benefit payments,
+your payments may stop the first month you do substantial gainful work
+F4-B: He asked to be withdrawn from the project. If he is receiving benefit payments,
+his payments may stop the first month he does substantial gainful work.
+F4-C: She asked to be withdrawn from the project. If she is receiving benefit payments,
+her payments may stop the first month she does substantial gainful work.
+F4-D: You are no longer eligible for the project, because you have not completed the
+trial work period by September 30, 2017.
+F4-E: He is no longer eligible for the project, because he has not completed the trial
+work period by September 30, 2017.
+F4-F: She is no longer eligible for the project, because she has not completed the
+trial work period by September 30, 2017.
+F4-G: Null (use BEN110 or BEN111)
+[BEN110] (Use when fill-in 4= A,B,C,D, E, or F in BEN109)
+*F1 (You are, Name is) no longer eligible for the project because *F2 (you have, he
+has, she has) *F3 (A-had benefits terminated prior to the BOND start date of participation,
+B-participated in another demonstration project before, C-moved to a foreign country,
+D-received benefits paid by the railroad, E-elected to receive benefits not based
+on a disability, F-no longer met the BOND eligibility criteria). If *F3 (you are,
+he is, she is) receiving benefit payments based on disability, *F4 (your, his, her)
+payments may stop the first month *F5 (you do, he does, she does) substantial gainful
+work.
+[BEN111] (Use when fill-in 4= G (Null) is used in BEN109)
+*F1 (Your, Name) participation period ends *F2 (mm/ccyy). Payments will end with the
+month *F3 (you do, he does, she does) substantial gainful work after *F4 (mm/ccyy).
+[INFC50]—What Happens When The Special Rules For BOND No Longer Apply
+(Use for final reconciliation- after BEN110 or BEN111)
+[BEN113] (Do not use when BEN109 is being used. These UTI’s are mutually
+exclusive)
+The special rules for the BOND demonstration project will no longer apply to you after
+your participation period ends. If you receive benefit payments after that month,
+your payments will stop the first month you do substantial gainful work.
+[OPTC05]—How You Can Pay Us Back (Use for overpayment
+situations)
+[RFU001 for E32]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order. If you cannot refund the full $ Computer Generated now, you should submit: (a) a partial payment; (b) an explanation of your financial
+circumstances; and (c) a definite plan for repaying the balance.
+[RFU012 for E31]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order. If you cannot refund the full amount now, you should submit: (a) a partial
+payment; (b) an explanation of your financial circumstances; and (c) a definite plan
+for repaying the balance.
+If we do not receive your refund within 30 days, we plan to recover the overpayment
+by withholding your full benefit each month beginning with the payment you would normally
+receive about (comp. gen.).We will continue to withhold your benefit until the overpayment has been fully recovered.
+[OPT165-when RFU012 generated]
+We will pay you a monthly check of (Computer Generated) until we start to collect the overpayment.
+[ALSC06] Do You Think We Are Wrong About The Overpayment (Use with notice
+E31 or E32)
+[WAV002 for E32]
+You have certain rights with respect to this overpayment and its recovery.
+1.  Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.  Right to Request Waiver: You also have the right to request a determination concerning the need to recover
+the overpayment. An overpayment must be refunded or withheld from benefits unless
+both of the following are true:
+a.
+The overpayment was not your fault in any way; and
+b.
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the overpayment will
+not have to be recovered until the case is reviewed. This review is described in more
+detail on the attached Form SSA-3105, Important Information About Your Appeal and
+Waiver Rights. The people in any Social Security office will be glad to help you complete
+the forms for requesting reconsideration (SSA-561-U2, Request for Reconsideration)
+and/or waiver (SSA-632-F4, Overpayment Recovery Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if you have any questions or need more information.
+Please take this letter with you if you do visit an office.
+[WAV002 for E31]
+You have certain rights with respect to this overpayment and its recovery.
+1.  Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.  Right to Request Waiver: You also have the right to request a determination concerning the need to recover
+the overpayment. An overpayment must be refunded or withheld from benefits unless
+both of the following are true:
+a.
+The overpayment was not your fault in any way; and
+b.
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the planned withholding
+of your benefit to recover the overpayment will not take place until your case is
+reviewed. This review is described in more detail on the attached Form SSA-3105, Important
+Information About Your Appeal and Waiver Rights. The people in any Social Security
+office will be glad to help you complete the forms for requesting reconsideration
+(SSA-561-U2, Request for Reconsideration) and/or waiver (SSA-632-F4, Overpayment Recovery
+Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if the planned withholding of your monthly payment
+would cause hardship. Please take this letter with you if you do visit an office.
+Unless we hear from you within 30 days, we will withhold your payment as shown above.
+[ALSC27] If You Want To Appeal
+[ALS120]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision which you believe are wrong and will look at any new facts you have.
+We may also review those parts which you believe are correct and may make them unfavorable
+or less favorable to you.
+[REFC05] If You Have Questions About The BOND Project
+[REF137]
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+[REFC06] If You Have Questions That Are Not About The BOND Project
+[REF008 — approved]
+We invite you to visit our website at www.socialsecurity.gov
+on the Internet to find general information about Social Security. If you have any
+specific questions, call us toll-free at 1-800-772-1213. We can answer most questions
+over the phone. If you prefer to visit one of our offices, please check the local
+telephone directory for the office nearest you. Or call us and we can give you the
+office address. Please have this letter with you if you call or visit an office. It
+will help us answer your questions.
+4. EOYR – Auxiliary notice – benefits are not payable (BSAS to MACADE/MADCP)
+*This notice is used to explain to the auxiliary that benefits were not payable during
+the reconciliation year because proven earnings resulted in total offset of the BOND
+participant’s monthly DIB (previous estimate allowed payment).
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[LIS004]
+We are writing to give you new information about the (Computer generated) benefits
+which (Computer generated) on this Social Security record.
+[OPT169]
+Since we paid you ($comp. gen) for (mm/ccyy-comp. gen), we paid you ($comp gen) more
+than you were due.
+[CHKC01--approved] Why We Cannot Pay You
+[BEN114]
+We cannot pay you benefits from *F2 ((mm/yyyy) (sole month of offset in the reconciliation
+year), (mm/yyyy through mm/yyyy) (first and last month of offset period in the reconciliation
+year)) under the rules of the Benefit Offset National Demonstration (BOND) project.
+This is due to *F1 (BOND beneficiary name possessive) work and earnings. This does
+not change any current benefits you receive.
+[OPTC05]—How You Can Pay Us Back
+[RFU001 for E32]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order. If you cannot refund the full $ (comp. gen.) now, you should submit: (a) a partial payment; (b) an explanation of your financial
+circumstances; and (c) a definite plan for repaying the balance.
+[RFU012 for E31]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order.
+If we do not receive your refund within 30 days, we plan to recover the overpayment
+by withholding your full benefit each month beginning with the payment you would normally
+receive about (comp. gen.).We will continue to withhold your benefit until the overpayment has been fully recovered.
+[OPT165-when RFU012 generated]
+We will pay you a monthly check of ($ comp. gen.) until we start to collect the overpayment.
+[ALSC06] Do You Think We Are Wrong About The Overpayment
+[WAV002 for E32]
+You have certain rights with respect to this overpayment and its recovery.
+1.  Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.  Right to Request Waiver: You also have the right to request a determination concerning the need to recover
+the overpayment. An overpayment must be refunded or withheld from benefits unless
+both of the following are true:
+a.
+The overpayment was not your fault in any way; and
+b.
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the overpayment will
+not have to be recovered until the case is reviewed. This review is described in more
+detail on the attached Form SSA-3105, Important Information About Your Appeal and
+Waiver Rights. The people in any Social Security office will be glad to help you complete
+the forms for requesting reconsideration (SSA-561-U2, Request for Reconsideration)
+and/or waiver (SSA-632-F4, Overpayment Recovery Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if you have any questions or need more information.
+Please take this letter with you if you do visit an office.
+[WAV002 for E31]
+You have certain rights with respect to this overpayment and its recovery.
+1.  Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.  Right to Request Waiver: You also have the right to request a determination concerning the need to recover
+the overpayment. An overpayment must be refunded or withheld from benefits unless
+both of the following are true:
+a.
+The overpayment was not your fault in any way; and
+b.
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the planned withholding
+of your benefit to recover the overpayment will not take place until your case is
+reviewed. This review is described in more detail on the attached Form SSA-3105, Important
+Information About Your Appeal and Waiver Rights. The people in any Social Security
+office will be glad to help you complete the forms for requesting reconsideration
+(SSA-561-U2, Request for Reconsideration) and/or waiver (SSA-632-F4, Overpayment Recovery
+Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if the planned withholding of your monthly payment
+would cause hardship. Please take this letter with you if you do visit an office.
+Unless we hear from you within 30 days, we will withhold your payment as shown above.
+[ALSC27] If You Want To Appeal
+[ALS023]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+•
+You have 60 days to ask for an appeal.
+•
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+•
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+•
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[REFC01] If You Have Any Questions
+[REF137]
+Please visit our website at www.socialsecurity.gov/disabilityresearch/offsetnational.htm
+for general information about the Benefit Offset National Demonstration (BOND) project.
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+5. EOYR – Auxiliary notice – benefits are payable (BSAS to MACADE/MADCP)
+*This notice is used to explain to the auxiliary that benefits were payable to them
+in the reconciliation year since the BOND beneficiary was due partial benefits based
+on proven earnings (previous estimate put the BOND beneficiary in full suspense –
+LAF SQ). Use Notice A18.
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[LIS004]. INTRODUCTORY STATEMENT A20, A21, A 22 ADJUSTMENT NOTICE
+We are writing to give you new information about the *F1 (auxiliary) benefits which
+*F2 (you receive, Name receives) on this Social Security record.
+[BEN115]
+You will soon receive a check for *F1 (amount of the refund). This check is for benefits
+due to you for *F2 ((mm/yyyy) (sole month of offset in the reconciliation year), (mm/yyyy
+through mm/yyyy) (first and last month of offset period in the reconciliation year))
+under the rules of the Benefit Offset National Demonstration (BOND) project. You are
+due this check because of *F1 (BOND beneficiary name possessive) work and earnings.
+This does not change any current benefits you receive.
+[ALSC27] If You Want To Appeal
+[ALS023]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+•
+You have 60 days to ask for an appeal.
+•
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+•
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+•
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[REFC01] If You Have Any Questions
+[REF137]
+Please visit our website at www.socialsecurity.gov/disabilityresearch/offsetnational.htm
+for general information about the Benefit Offset National Demonstration (BOND) project.
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+6. EOYR – No adjustment in benefits for beneficiary initiated reconciliation
+*This notice explains that benefits for the closed year will not change based on proven
+earnings submitted by the beneficiary.
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Date:
+Claim Number:
+Name and address
+[BEN117]
+Thank you for giving us information about your earnings for last year. You asked us
+to determine if there has been a change in the amount of benefits payable to you under
+BOND because of this information. Based on this evidence we have determined that there
+is no change to your monthly benefit amount for this period. This decision does not
+change any benefits you may be currently receiving.
+[BEN107]
+This means we paid you correctly based on the evidence you provided for the reconciliation
+year.
+[ALSC01] Do You Think We Are Wrong
+[ALS190]
+If you think this information is not correct or you want to report any changes in
+*F1 (your, Name possessive) work plans or earnings, please get in touch with *F2 (your,
+Name possessive) benefits counselor at Abt Associates. Please call their toll-free
+number at 1-877-726-6309 (877-7BOND09) to report any changes. If you have a hearing
+or speech impairment, you may call their TTY number, 1-877-726-6390 (877-7BOND90).
+[ALSC27] If You Want To Appeal
+[ALS023]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+•
+You have 60 days to ask for an appeal.
+•
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+•
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+•
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[REFC05] If You Have Questions About The BOND Project
+[REF137]
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+7. EOYR – Reconsideration overpayment Determination
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+Notice of Reconsideration
+(nonpay or current pay status)
+Date:
+Claim Number:
+Name and address
+[BEN119]
+We received your request *F1.
+Fill-Ins:
+*F1-A for an explanation
+*F1-B that we not collect the overpayment
+*F1-C that we review our decision
+*F1-D that we review our decision and not collect the overpayment
+*F1-E that we withhold a different amount
+[CHKC09] Your Benefits
+[BEN118]
+Thank you for giving us information about your earnings for the last year. You asked
+us to determine if there has been a change in the amount of benefits payable to you
+under BOND because of this information.
+[BEN106] (Use when the beneficiary has an overpayment or an underpayment) Note: Fill-ins 5 and 6 are repeatable-enter a comma after F6 to add more iterations
+of these two fill-ins.
+Based on *F1 (your, Name possessive) earnings of $*F2 (end of year reconciliation
+BOND countable earnings amount) for *F3 (ccyy) (reconciliation year) we should have
+paid *F4 (you, him, her) $F5 (monthly benefit credited (MBC) that should have been
+paid) for *F6 (mm/ccyy, mm/ccyy through mm/ccyy).
+Use OPT179 immediately after [BEN106]
+[OPT179]
+We paid *F1 (you, Beneficiary’s Name) $*F2 (MBC Paid) for *F3 (mm/ccyy, mm/ccyy through
+mm/ccyy). Since we should have paid *F4 (you, him, her) $*F5 (MBC should have been
+paid) for *F6 (mm/ccyy, mm/ccyy through mm/ccyy), we paid *F7 (you, him, her) $*F8
+(amount of underpayment or overpayment) *F9 (more, less) than *F10 (you were, he was,
+she was) due.
+[BEN107] (Use for a beneficiary requested reconciliation when there is no change in
+benefits. Should not appear with BEN108 and OPT179.)
+This means we paid *F1 (you, Name) correctly based on the evidence *F2 (you, he, she)
+provided for the reconciliation year.
+[BEN108] (Use after OPT179)
+This *F1 (A-overpayment, B-underpayment) resulted from the
+difference in the yearly amount that *F2 (you, Name) estimated *F3 (you, he, she)
+would earn during
+*F4 (ccyy (reconciliation year)) and the actual amount that *F5 (you, he, she) earned
+during that
+year. We determined the *F6 (A-overpayment, B-underpayment) after we recalculated
+*F7 (your, his,
+her) offset amount based on *F8 (your, his, her) actual countable earnings.
+[BEN116]
+If you are working and have not given us an estimate of your expected yearly earnings,
+please contact Abt Associates immediately. We show their contact information under
+the heading, “If You Have Questions About the BOND Project”. If you do not give us
+an estimate, we may pay you incorrect benefit payments.
+[BEN109] (Use when the reconciliation period includes the last month of the
+participation period. Do not use when BEN113 is requested-BEN109 and BEN113 are mutually
+exclusive.)
+*F1 (You have, Name has) been a participant in the benefit offset national demonstration
+project (BOND). The special rules for the BOND project will no longer apply to *F2
+(you, him, her) beginning *F3 (mm/dd/ccyy). *F4 (A-G).
+F4-A: You asked to be withdrawn from the project. If you are receiving benefit payments,
+your payments may stop the first month you do substantial gainful work
+F4-B: He asked to be withdrawn from the project. If he is receiving benefit payments,
+his payments may stop the first month he does substantial gainful work.
+F4-C: She asked to be withdrawn from the project. If she is receiving benefit payments,
+her payments may stop the first month she does substantial gainful work.
+F4-D: You are no longer eligible for the project, because you have not completed the
+trial work period by September 30, 2017.
+F4-E: He is no longer eligible for the project, because he has not completed the trial
+work period by September 30, 2017.
+F4-F: She is no longer eligible for the project, because she has not completed the
+trial work period by September 30, 2017.
+F4-G: Null (use BEN110 or BEN111)
+[BEN110] (Use when fill-in 4= A,B,C,D,E, or F is used in BEN109)
+*F1 (You are, Name is) no longer eligible for the project because *F2 (you have, he
+has, she has) *F3 (A-had benefits terminated prior to the BOND start date of participation,
+B-participated in another demonstration project before, C-moved to a foreign country,
+D-received benefits paid by the railroad, E-elected to receive benefits not based
+on a disability, F-no longer met the BOND eligibility criteria). If *F3 (you are,
+he is, she is) receiving benefit payments based on disability, *F4 (your, his, her)
+payments may stop the first month *F5 (you do, he does, she does) substantial gainful
+work.
+[BEN111] (Use when fill-in 4= G (Null) is used in BEN109)
+*F1 (Your, Name) participation period ends *F2 (mm/ccyy). Payments will end with the
+month *F3 (you do, he does, she does) substantial gainful work after *F4 (mm/ccyy).
+[INFC50]—What Happens When The Special Rules For BOND No Longer Apply
+(Optional - Use for final reconciliation- after BEN110 or BEN111)
+[BEN113]—optional (Do not use when BEN109 is requested-BEN109 and BEN113 are mutually
+exclusive)
+The special rules for the BOND demonstration project will no longer apply to you after
+your participation period ends. If you receive benefit payments after that month,
+your payments will stop the first month you do substantial gainful work.
+[OPTC05]—How You Can Pay Us Back
+[RFU001 for E32]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order. If you cannot refund the full $ Computer Generated now, you should submit: (a) a partial payment; (b) an explanation of your financial
+circumstances; and (c) a definite plan for repaying the balance.
+[OCO001 for E31]
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to “Social Security Administration,” and send it to us in the enclosed
+envelope. Always include your claim number (as indicated above) on the check or money
+order.
+If we do not receive your refund within 30 days, we plan to recover the overpayment
+by withholding your full benefit each month beginning with the payment you would normally
+receive about (comp. gen.).We will continue to withhold your benefit until the overpayment has been fully recovered.
+[OPT165-use when OCO001 generated]
+We will pay you a monthly check of (Computer Generated) until we start to collect the overpayment.
+[ALSC06] Do You Think We Are Wrong About The Overpayment
+[RCN021]
+We changed our earlier decision because of new facts we received.
+If you think we are wrong, you have the right to request a hearing. At the hearing,
+a person who has not seen your case before will look at it. That person is an Administrative
+Law Judge. In the rest of our letter, we will call this person an ALJ. The ALJ will
+review those parts of the decision, which you believe are wrong. The ALJ will look
+at any new facts you have and correct any mistakes. The ALJ may also review those
+parts, which you believe are correct and make them unfavorable or less favorable to
+you.
+•
+You have 60 days to ask for a hearing.
+•
+The 60 days start the day after you get this letter.
+•
+You must have a good reason if you wait more than 60 days to ask for a hearing.
+•
+You have to ask for a hearing in writing. If you want to make a request, please contact
+one of our offices. We can help you complete the required form.
+Please read the enclosed pamphlet, "Your Right To An Administrative Law Judge Hearing
+And Appeals Council Review Of Your Social Security Case." It contains more information
+about the hearing.
+[REFC05] If You Have Questions About The BOND Project
+[REF137—approved]
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+[REFC06] If You Have Questions That Are Not About The BOND Project
+[REF008—approved]
+We invite you to visit our website at www.socialsecurity.gov on the Internet to find general information about Social Security. If you have any
+specific questions, call us toll-free at 1-800-772-1213. We can answer most questions
+over the phone. If you prefer to visit one of our offices, please check the local
+telephone directory for the office nearest you. Or call us and we can give you the
+office address. Please have this letter with you if you call or visit an office. It
+will help us answer your questions.
+8. EOYR – End date of BOND Participation Notice
+Social Security Administration
+Retirement, Survivors and Disability
+Insurance
+(MACADE action to revise MBA or demo stop dates)
+Date:
+Claim Number:
+Name and address
+[LIS004—approved] Introductory Paragraph for A20, A21, and A22 Adjustment Notices
+We are writing to give you new information about the   (Computer
+generated.)   benefits which   (Computer generated)   on this Social Security record.
+[BEN109] (Use when the reconciliation period includes the last month of the participation
+period. Do not use when BEN113 is requested-BEN109 and BEN113 are mutually exclusive.)
+*F1 (You have, Name has) been a participant in the benefit offset national demonstration
+project (BOND). The special rules for the BOND project will no longer apply to *F2
+(you, him, her) beginning *F3 (mm/dd/ccyy). *F4 (A-G).
+F4-A: You asked to be withdrawn from the project. If you are receiving benefit payments,
+your payments may stop the first month you do substantial gainful work
+F4-B: He asked to be withdrawn from the project. If he is receiving benefit payments,
+his payments may stop the first month he does substantial gainful work.
+F4-C: She asked to be withdrawn from the project. If she is receiving benefit payments,
+her payments may stop the first month she does substantial gainful work.
+F4-D: You are no longer eligible for the project, because you have not completed the
+trial work period by September 30, 2017.
+F4-E: He is no longer eligible for the project, because he has not completed the trial
+work period by September 30, 2017.
+F4-F: She is no longer eligible for the project, because she has not completed the
+trial work period by September 30, 2017.
+F4-G: Null (use BOND UTI 3B or 3C)
+[BEN110] (Use when fill-in 4= A,B,C,D,E,or F is used in BEN109)
+*F1 (You are, Name is) no longer eligible for the project because *F2 (you have, he
+has, she has) *F3 (A-had benefits terminated prior to the BOND start date of participation,
+B-participated in another demonstration project before, C-moved to a foreign country,
+D-received benefits paid by the railroad, E-elected to receive benefits not based
+on a disability, F-no longer met the BOND eligibility criteria). If *F3 (you are,
+he is, she is) receiving benefit payments based on disability, *F4 (your, his, her)
+payments may stop the first month *F5 (you do, he does, she does) substantial gainful
+work.
+[BEN111] (Use when fill-in 4= G (Null) is used in BEN109)
+*F1 (Your, Name) participation period ends *F2 (mm/ccyy). Payments will end with the
+month *F3 (you do, he does, she does) substantial gainful work after *F4 (mm/ccyy).
+[ALSC01] Do You Think We are Wrong
+[ALS190]
+If you think this information is not correct or you want to report any changes in
+*F1 (your, Name possessive) work plans or earnings, please get in touch with *F2 (your,
+Name possessive) benefits counselor at Abt Associates. Please call their toll-free
+number at 1-877-726-6309 (877-7BOND09) to report any changes. If you have a hearing
+or speech impairment, you may call their TTY number, 1-877-726-6390 (877-7BOND90).
+[INFC50]—What Happens When The Special Rules For BOND No Longer Apply
+[BEN113] (Do not use with BEN109-BEN109 and BEN113 are mutually exclusive)
+The special rules for the BOND demonstration project will no longer apply to you after
+your participation period ends. If you receive benefit payments after that month,
+your payments will stop the first month you do substantial gainful work.
+[INFC08] Things To Remember
+[RCT053]
+*F1 (You, Name) must promptly report any changes that may affect your benefits. Failure
+to do so could mean *F2 (you, Name) may have to repay any benefits not due. Let us
+know if:
+*F3 (You, Name) went to work since *F4 (your, Name possessive) last report or *F5
+(you, Name) return to work in the future; or
+*F6 (You, Name) already reported your work, but *F7 (your, Name possessive) duties
+or pay changed. (Remember to keep records of *F8 (your, Name possessive) work and
+earnings such as pay statements from *F9 (your, Name possessive) employer.); or
+*F10 (Your, Name possessive) doctor says *F11 (your, Name possessive) condition has
+improved (even if *F12 (you don’t, Name doesn’t) work now); or
+*F13 (You apply for, start getting or have a change; Name applies for, starts getting,
+or has a change) in the amount of workers' compensation or another public disability
+benefit; or
+*F14 (You start, Name starts) paying for work expenses related to *F15 (your, Name
+possessive) disability (for example, *F16 (you, Name) may need special transportation)
+or the amount paid for these work expenses changes or *F17 (you, Name) no longer pay
+for such expenses. (Remember to keep records and proof of payment for any work expenses.)
+[REFC05] If You Have Questions About The BOND Project
+[REF137]
+If you have any questions about the BOND project, you may call our partner Abt Associates.
+Their toll-free number is 1-877-726-6309 (877-7BOND09). They will help you by phone
+or they will set up an appointment with the Abt local office that serves your area.
+If you have a hearing or speech impairment, you may call their TTY number, 1-877-726-6390
+(877-7BOND90). When you call, please have this letter with you. It will help the counselors
+at Abt answer your questions.
+[REFC06] If You Have Questions That Are Not About The BOND Project
+[REF008]
+We invite you to visit our website at www.socialsecurity.gov on the Internet to find general information about Social Security. If you have any
+specific questions, call us toll-free at 1-800-772-1213. We can answer most questions
+over the phone. If you prefer to visit one of our offices, please check the local
+telephone directory for the office nearest you. Or call us and we can give you the
+office address. Please have this letter with you if you call or visit an office. It
+will help us answer your questions.
+]

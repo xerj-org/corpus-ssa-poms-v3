@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 01010.200 - Claims Processing Methods
+Effective Dates: 04/21/2016 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010200 (fetched 2026-10-04)
+
+B. Procedure for processing claims
+MCS is the system that creates and controls most claims applications. MCS automatically
+evaluates the information the adjudicator enters into the screens to confirm or determine
+entitlement eligibility, benefit computation, payment status and monthly payment amounts
+for the specific type of benefit.
+1. Earnings Computation
+The MCS EC screen is the final claims path that lets the adjudicator process the claims
+through MCS. The EC screens display the earnings record, compute the benefit amount
+and establish the Master Beneficiary Record (MBR) after the claim adjudication. EC
+also certifies a request for payment to the U.S Treasury and releases notices to the
+claimant. For more information, refer to GN 01010.010.
+2. Manual awards
+Some District Office Final Authorization (DOFA) claims contain special characteristics,
+which prevent using MCS EC to effectuate the claim. For those claims, you must use
+the A101 or EF101 process. You can also process Non-DOFA claim via A101 or EF101 however,
+the Processing Center (PC) is responsible for the adjudication and effectuation of
+the claim. In either situation, the PC receives the claim then processes to completion
+using the MADCAP system.
+a. The A101 process
+The principal objective of the A101 process is to create the data input that MACADE
+requires to process the claim. The A101 screens contains information propagated from
+the MCS front-end (i.e., application), the MCS back-end process (the Earnings Computation
+(EC) process), and the MBR if one exists. You must review the propagated information,
+enter new information or correct erroneous information before transferring the claim
+to the PC of jurisdiction. Refer to MSOM MCS 014.001 for more information about the
+A101 process and exclusions.
+b. The EF101 process
+You must process claims that are A101 exclusions via EF101. The EF101 as the A101
+process serves as a method to process initial, subsequent or amended awards. Most
+of the screens and fields in the EF101 are comparable to the A101 screens. For more
+information about the EF101 process, refer to MSOM T2PE 009.001.
+3. Manual denial or disallowances
+Claims that are created using MCS and contains special characteristics, which precludes
+using MCS EC to deny or disallow the claim, are processed using the MACADE disallowance
+screen, see SM 00380.500 for more information.

@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - SI 02305.046 - Transfer of RZs Between FOs
+Effective Dates: 01/22/2003 - Present | TN 41 (09-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305046 (fetched 2026-10-04)
+
+A. Introduction
+The Post Entitlement Operational Data Store (PE ODS) case listing for a FO may contain
+the name of a recipient or representative payee who has a mailing address outside
+the FO servicing area. This occurs primarily as the result of:
+•
+A recent change of address (COA); or
+•
+Erroneous ZIP code alignments; i.e., ZIP codes assigned to another FO or sent to an
+FO erroneously;
+•
+A ZIP code with more than one servicing FO; or
+•
+An invalid ZIP code.
+NOTE: Case jurisdiction on PE ODS is determined by the servicing DO (DIS) code in the
+address (ADDR) segment of an SSR query. Input of a redetermination initiation date
+by a FO other than the servicing FO will override the DIS jurisdiction code.

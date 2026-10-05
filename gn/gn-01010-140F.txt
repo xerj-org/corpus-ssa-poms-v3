@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 01010.140 - Delayed Claims
+Effective Dates: 08/08/2023 - Present | TN 93 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010140 (fetched 2026-10-04)
+
+F. Special considerations to process delayed claims
+1. Representative fees
+When we process an allowance for a delayed claim and a representative is involved,
+consider whether the maximum fee has already been authorized to the representative.
+If the maximum fee has not already been authorized, and the auxiliary beneficiary’s
+effective filing date is the same as the primary claimant and the auxiliary was not
+individually represented, calculate past-due benefits for the auxiliary based on the
+effectuation date of the primary beneficiary, refer to GN 03920.035. Ensure that we send the proper notice to the claimant and representative containing
+the relevant paragraphs. Include the appropriate code on the MCS DW01 Screen per MS
+MCS 008.004. If denying the delayed claim, authorize the appropriate fee amount from
+the remaining beneficiaries and provide the applicable notices.
+2. Workers’ compensation (WC) and public disability benefits (PDB)
+The addition or deletion of a beneficiary may cause the total family benefits (TFB)
+to become the applicable limit for offset or cease to be the applicable limit for
+offset. When the family composition changes, re-compute the offset. Use the interactive
+computation facility (ICF) as though the new number of beneficiaries were established
+and entitled for the first month we imposed or considered WC/PDB offset. For additional
+guidance on how changes in family composition affect WC/PDB offset, see DI 52150.070.
+3. Simultaneous entitlement
+Consider a combined family maximum whenever a simultaneously entitled child or other
+beneficiary receives a higher benefit based on the combined maximum. If combined maximums
+apply and you deny a delayed claim, consider whether a rate increase is due to the
+remaining auxiliaries or survivors on the record.

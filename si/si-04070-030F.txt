@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 04070.030 - Development Required When a Prior SSI Determination or Decision is Reopened
+Effective Dates: 05/10/2023 - Present | TN 14 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504070030 (fetched 2026-10-04)
+
+F. Procedure – Adjusting for Retrospective Monthly Accounting (RMA)
+When you reopen and revise initial determinations within the one-year or two-year
+rule and income issues are involved (including in-kind support and maintenance-income
+types H and J), take RMA into account when changing the payment determination for
+months at the beginning of the administrative finality period. In order to change
+the payment due for the first two months of the period you may have to change the
+income recorded in the budget months, even if there is excess income in one of those
+months.
+If you must input or remove excess income for a budget month, take action to prevent
+the system from acting on any resulting overpayment or underpayment for the budget
+month. Use the PS M02, force due process, to reconcile the record. (See MSOM BUSSR 002.006 – Force Due Process for the procedure and SM 02101.250 – How the System Computes
+a M02 Record for an explanation of the computation process).
+1. Budget Month Income Creates an Incorrect Overpayment
+If budget month income will create an overpayment in the budget months barred to correction,
+input the excess income, suppress automated notices, and wait for the record to compute
+the overpayment. Then use the PS M02, force due procedure, to change the due amount
+on the SSR to the original amount so that the overpayment is zero. Once the record
+has been placed in PS M02, terminate that record and establish a start date record.
+Issue manual notices as appropriate.
+2. Budget Month Income Creates an Incorrect Underpayment
+If budget month income creates an underpayment for the budget months barred to correction,
+enter the excess income and post a “U” TAC. Wait for the transaction to process in
+order to determine the amount of the underpayment. Delete the “U” TAC and use the
+PS M02, force due process. Change the due amount so that the underpayment for the
+record is correct. Once the record has been placed in PS M02, terminate that record
+and establish a start date record. Issue manual notices as appropriate.

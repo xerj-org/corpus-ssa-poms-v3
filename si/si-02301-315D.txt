@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 02301.315 - Erroneous Payments and GK Payment Continuation
+Effective Dates: 06/11/2013 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301315 (fetched 2026-10-04)
+
+D. Procedure — correcting multiple payment cases
+1. Correct payments
+Follow these steps to stop multiple payments and pay the correct amount:
+STEP
+ACTION
+1
+Determine the correct amount due.
+2
+Determine the record with the correct SSN to pay benefits. Correct identifying information
+on the record if necessary.
+3
+Terminate (T20) incorrect records and suppress any systems notice.
+4
+Input to pay the correct amount on the correct record effective the month that GK
+procedures permit it. Suppress any systems notice and issue a manual GK notice.
+5
+Issue a manual GK notice.
+2. Issue a manual GK notice
+Follow manual GK notice procedures in SI 02301.307 and issue an SSA-L8165-U2. Also:
+•
+Use paragraph GBKM06 (NL 00804.225) under the caption “Your Payment Is Based On These Facts.”
+•
+Use paragraph GBKM08 (NL 00804.225) for the appeal language. Complete fill-ins 1 and 2 with the payment continuation
+amount; follow instructions immediately below.
+3. Determine payment continuation
+Follow these steps to determine the payment continuation amount:
+STEP
+ACTION
+1
+Is the correct amount due higher than each of the multiple payments?
+​
+IF YES, offer payment continuation at the correct amount due. STOP.
+​
+IF NO, go to Step 2.
+2
+Is each multiple payment within the payment ceilings?
+​
+IF YES, offer payment continuation at the highest multiple payment. STOP.
+​
+IF NO, go to Step 3.
+3
+Is there a multiple payment within the payment ceilings?
+​
+IF YES, offer payment continuation at the highest multiple payment within the payment ceilings.
+STOP.
+​
+IF NO, go to Step 4.
+4
+Go to the month before the month in which each multiple payment was higher than the
+payment ceilings (“the prior month”). Is the highest multiple payment made in the prior month higher than the correct
+amount due?
+​
+IF YES, offer payment continuation at the highest multiple payment in the prior month. STOP.
+​
+IF NO, offer payment continuation at the correct amount due. STOP.

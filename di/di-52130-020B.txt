@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 52130.020 - Office of Personnel Management (OPM) Data Exchange Alerts
+Effective Dates: 02/03/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452130020 (fetched 2026-10-04)
+
+B. Processing OPM/PDB data exchange alerts
+The alerts provide valuable information to SSA, but do not always provide all of the
+information needed to process the case correctly. For instance, the system cannot
+compute the 85 percent covered service exception. Always develop for pension amounts
+or covered service whenever there is an apparent discrepancy.
+Format of the Alert
+The top line shows the run date and the month and year of the data match. Immediately
+below that line is the SSA Claim Number and the alert code. The table below defines
+each alert code and the action required.
+​
+Alert Code
+Explanation
+Action
+A
+OPM is paying a non-covered pension, but no offset is on the MBR.
+Develop to determine if either of exception tests in DI 52130.001 A is met. Impose offset if applicable. These alerts generally result in large overpayments. Consider administrative
+finality per GN 04030.080 and give due process prior to taking any action.
+B
+Offset is on MBR but offset adjustment may be necessary.
+Develop pension amounts per DI 52130.001 for any period not already proven. Provide due process notice of any adverse adjustment
+and adjust offset accordingly.
+C
+The one-day covered service exception test in DI 52130.001 A 1 b is met, but PDB offset is on MBR. (DIB onset is 03/01/1981 to 04/30/1986, MOET
+is 09/1981 or later and the CSCOVIND = Y)
+Remove offset, delete PDB data and adjust the CSPDB indicator per DI 52130.025. Code C cases most often result in underpayments.
+D
+CSPDB Code Required.
+CSPDB indicator missing or blank.
+NOTE: This alert code is no longer used.
+E
+DIB onset is 05/01/1986 or later and the CSCOVIND = Y. (There is some covered service
+but the system cannot determine if offset should apply.)
+Develop to determine if the 85 percent covered service exception test in DI 52130.001 is met. Impose or remove offset accordingly. Code the correct CSPDB indicator per DI 52130.025 if not already on the MBR.
+NOTE: The alerts will always require some type of corrective action unless an intervening
+action has resolved the discrepancy.
+The table below defines other fields on the OPM alert:
+Field
+Description
+NAME
+Name of CSRS Annuitant. (Last, First, Middle)
+DOB: mm yyyy
+Annuitant’s date of birth.
+SSN: (no dashes)
+Self-explanatory.
+CSCAN:
+OPM claim number
+CSCOVIND:
+Covered service indicator.
+Y = pension based on at least some covered service.
+N = pension based on all non-covered service.
+CSAWDTE: mm dd yyyy
+Date of entitlement to CSRS pension.
+CSAMT: $ 9999.99
+Most current pension amount.
+CSAMTEFFDT: mm dd yyyy
+Date the most current pension amount is effective.
+CSTOTMO: 9999
+Four digit field showing the number of years followed by the number of months of service.
+Examples:
+•
+0607 means a total of 6 years and 7 months of service
+•
+3602 means a total of 36 years and 2 months of service
+CSPAYHIST:
+Showed the CSRS payment history from 1981 through date of alert. An asterisk indicates
+that the payment information was possibly inaccurate.
+NOTE: This field is no longer shown on the alerts.

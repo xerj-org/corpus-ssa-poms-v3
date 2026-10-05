@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02406.805 - Field Office (FO) Nonreceipt of Payment Action for Railroad Retirement Board (RRB) Cases
+Effective Dates: 03/25/2014 - Present | TN 65 (08-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406805 (fetched 2026-10-04)
+
+B. Initial Claims
+If a beneficiary reports nonreceipt of an initial payment, confirm RRB certification
+data and its proper transmission. Check the MBR BENEFIT data line for Railroad Indicator
+Codes (RRIC) of “R.” If present, RRB has certification responsibility. If the field
+is blank, SSA is responsible for payment. A LAF code of 'E' in these cases indicates
+SSA has requested RRB to establish current pay status; however, all other LAF codes
+remain the same (e.g., work suspension with LAF S2). See SM 00510.175 for additional
+information.
+1. RRB received certification
+If you determine the RRB should have received certification from SSA, advise the claimant
+to contact the RRB. The claimant may call the RRB toll-free number at (877) 772-5772
+or they may write to the RRB at this address:
+U.S.
+Railroad Retirement Board
+Retirement
+and Survivor Benefits Division
+844 North Rush
+Street
+Chicago, IL
+60611-1275
+Provide the claimant with the approximate date SSA certified payment to RRB. Use the
+RAIL Data on the MBR (SM 00510.515) and the date MCS or MACADE processed the award
+(see TRANS Data, SM 00510.590) to find the approximate date of certification. Advise
+claimant to notify RRB of this date with the railroad employee's name, claim number,
+and SSN. If the railroad employee differs from the Social Security beneficiary alleging
+nonreceipt, advise the claimant to include the beneficiary's name and SSN in addition
+to the railroad employee's corresponding information when communicating with the RRB.
+If you assist with RRB correspondence, avoid agency specific acronyms and abbreviations.
+See RS 01602.405 for more information on inquiries to the RRB.
+Tell the claimant RRB will not provide notifications about the claimant’s case to
+SSA as the RRB has responsibility for any necessary actions with the claimant’s case.
+If the claimant’s current LAF status is not 'E' (e.g., S2) and retroactive benefits
+are not due, provide the claimant reasons for the nonpayment before directing the
+inquiry to RRB .
+2. RRB did not receive certification
+If you determine RRB did not receive SSA certification, contact the payment center
+(PC) to request claim status.

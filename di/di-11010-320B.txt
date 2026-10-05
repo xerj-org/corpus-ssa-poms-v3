@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 11010.320 - Disability Insurance Benefits-Retirement Insurance Benefits (DIB-RIB) Claimant Dies before Disability Claim Adjudicated
+Effective Dates: 12/03/2015 - Present | TN 89 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010320 (fetched 2026-10-04)
+
+B. Procedure - DIB claim is in DDS or DCR claimant dies before waiting period completed
+Use the following procedure:
+•
+Input the claimants date of death using the DIPS. This program will update the number
+holders Numident record.
+•
+Advise the appropriate office (Disability Determination Services (DDS) or Disability
+Case Review (DCR)) to stop development and return the folder to the FO when death
+occurs during the waiting period and no determination is necessary. For CEFs create
+an SSA- 5002 (Report of Contact) in eForms. See Using the Update-After-Transfer (UAT)
+Utility (DI 81010.095)
+•
+Do not send any material to the DDS or PSC/DCR.
+•
+Document the abatement in the DIB claims file, and then manually clear the DIB segment
+to the FO.
+•
+If the PSC has the RIB claim, notify them of the disabled worker's death.
+•
+For CEF cases see Creating Electronic Disability Collect System (EDCS) Cases - DI 81010.020. If the official folder is paper, associate all material from the adjudicated survivor
+claims with the DIB folder and forward to the PSC.

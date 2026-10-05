@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - SI 00530.150 - What if Individual Cannot Provide Warrant Information?
+Effective Dates: 04/24/2026 - Present | TN 21 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530150 (fetched 2026-10-04)
+
+C. Procedure - individual reports fugitive status but cannot provide any warrant information
+1. Report received in connection with an application
+a.
+Use these procedures when an SSI applicant reports having a warrant or court order,
+but cannot provide the detailed information needed to make a determination about fugitive
+status for SSI eligibility purposes. Also use these procedures when an applicant reports
+being a fugitive or a parole or probation violator but believes there is no United
+States warrant or court order.
+b.
+Show ? in the Date Warrant Issued, Date Fled, and Date Violated Parole or Probation
+fields. This will keep MSSICS from posting N25 and will cause the MSSICS Print App
+function to print the proper statement for the individual to sign.
+c.
+In the Statement of Person Remarks enter a remark to fit the individual's situation.
+EXAMPLE: MY EX-SPOUSE TOLD ME THERE IS WARRANT FOR MY ARREST BECAUSE I VIOLATED A CONDITION
+OF MY PAROLE BUT I DO NOT KNOW WHERE OR WHEN THE WARRANT WAS ISSUED.
+d.
+Place the applicant in payment status H70 and enter in Remarks on the SSR, INDIV REPTS
+PAROLE VIOLATION - WARRANT INFO UNAVAILABLE; REFERRED TO OIG.
+e.
+Refer the case for investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your DO code. Include in
+your referral a remark to alert OIG that an SSI claim is being held pending their
+determination. Also include in your request any available information about the warrant
+and the purported crime.
+2. Report received in connection with redetermination
+a.
+Use these procedures when, during a redetermination, an SSI recipient or their representative
+payee reports having a warrant or court order, but does not know the state from which
+it was issued or when a recipient admits to being a fugitive or a parole or probation
+violator but believes there is no United States warrant or court order.
+b.
+In these cases, show ? in the Date Warrant Issued, Date Fled, and Date Violated Parole
+or Probation fields. This will keep MSSICS from posting N25 and will cause the MSSICS
+Print App function to print the proper statement for the individual to sign.
+c.
+In the Statement of Person Remarks enter a remark to fit the individual's situation.
+EXAMPLE: I VIOLATED MY PAROLE BY CROSSING INTO ANOTHER STATE. MY PAROLE OFFICER IS NOT AWARE
+OF THIS AND THERE IS NO WARRANT.
+d.
+Refer the case for investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your DO code. Include in
+your referral a remark to alert OIG that SSI payments are continuing pending their
+determination. Also include in your referral any available information about the warrant
+and the purported crime.
+3. Other reports
+a.
+Use these procedures when processing a report of fugitive status that is not received
+in connection with an application for SSI or an SSI redetermination when information
+about the warrant is unknown.
+b.
+Refer the case for further investigation to OIG using the fugitive felon mailbox address,
+^Fugitive Felon. In the Subject Line of the email, include your DO code. Include in
+your referral a remark to alert OIG that SSI payments are continuing pending their
+determination. Also include in your referral any available information about the warrant
+and the purported crime.

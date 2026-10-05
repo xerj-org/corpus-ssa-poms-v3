@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 26525.060 - Diary of Favorable Determination Initial and Reconsideration Cases of Deceased Individuals and Closed Period Cases
+Effective Dates: 11/15/2022 - Present | TN 19 (11-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0426525060 (fetched 2026-10-04)
+
+B. Procedure - system coding
+Complete the diary block of the SSA-831-C3/U3 (item 17):
+1. Diary Type
+Enter NXP.
+2. Diary Date
+Enter 0000.
+3. Diary Reason
+Enter 7.
+NOTE: If processing a continuance for a reconsideration-level CDR of a deceased individual,
+diary type “NXP” cannot be used due to system limitations. Instead follow instruction
+for setting a MINE diary as in DI 26525.040C and add the follow comment to the remarks section "Claimant deceased (xx/xx/xxxx)
+" on the SSA-832. For PH and DHU policy involving a deceased individual, please see
+DI 29005.025 and DI 33010.060. For initial-level CDRs, please follow screen out policy in DI 28003.005C1 and DI 28003.005C2.

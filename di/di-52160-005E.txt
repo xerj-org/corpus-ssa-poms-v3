@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - DI 52160.005 - Expedited Reinstatement (EXR) Awards with Workers’ Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 09/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452160005 (fetched 2026-10-04)
+
+E. Processing EXR awards involving WC/PDB
+1. Develop proof of WC/PDB
+a.
+Obtain complete and up-to-date proof of WC/PDB. See DI 52145.001 - Obtaining Verification/Proof of Workers’ Compensation/Public Disability Benefit
+(WC/PDB) Information.
+b.
+Route all WC/PDB documents for permanent retention. See DI 52145.015 – Retention of Workers’ Compensation/Public Disability Benefit (PDB) Proofs.
+2. Enter WC/PDB data into the Interactive Computations Facility (ICF) program
+Enter the WC/PDB data into ICF function #32 or #34. For instructions, see DI 52165.001- Using the Interactive Computations Facility (ICF) to Compute Workers’ Compensation/Public
+Disability Benefit (WC/PDB) Offset and ICF Terms.
+Complete the following ICF screens:
+•
+WCPA Offset Options screen - Answer “Y” to the question “IS THIS COMPUTATION FROM
+AN A101/MANUAL AWARD?”
+•
+WCNM Notice Menu screen - Provide WC/PDB notice information used in connection with
+the EF101.
+•
+WCDA Disposition Adjudicate screen - Answer “Y” to the question “ADJUDICATE WC/PDB
+CLAIM?” When used with the EF101, this does not send the action to T2R for processing,
+but makes the offset computation available for MADCAP Direct Data Entry (MACADE) processing
+the benefit authorizer/benefit technical expert (BA/BTE).
+NOTE: ICF function #32 determines if and when a triennial redet of the ACE applies.
+3. Establish an electronic form 101 (EF101) amended award
+•
+Establish an amended award on the EFMenu screen. See coding instructions in DI 13050.060 – Expedited Reinstatement Awards – Title II.
+•
+Use the Account Data screen (EFACCT) screen in the EF101 screen path to annotate the
+WC/PDB data.
+•
+Enter the Type of Award Code (TAC) of D (disability) and answer the WC/PDB questions
+at the bottom of the EFACCT screen as follows:
+WC/PDB INVOLVED (Y/N)? - Answer Y for all EXR awards when WC/PDB data coding is required.
+WC/PDB OFFSET DATA ON ICF (Y/N)? - Answer Y when using ICF #32 or #34 to adjudicate
+an offset computation.

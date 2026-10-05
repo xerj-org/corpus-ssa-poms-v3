@@ -1,0 +1,154 @@
+SSA Program Operations Manual System (POMS) - SI 02310.092 - Processing Title XVI Federal Bureau of Prison PUPS Alerts
+Effective Dates: 06/19/2015 - Present | TN 73 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310092 (fetched 2026-10-04)
+
+D. Procedure - developing for missing 3BOP PUPS alert/record information
+NOTE: If you need additional information before you can process the alert, do not contact the Federal Bureau of Prisons or any of its facilities for any missing inmate
+or verification of identity information. Develop as shown below.
+1. Sources for development of identity issues, or missing/questionable inmate data
+Develop to the following sources in the order indicated below for information about
+the inmate report:
+a.
+Contact the recipient or their representative payee to clarify missing or questionable
+information. If the recipient or representative payee cannot provide you with the
+needed information, contact one of the third-party sources mentioned below.
+b.
+Contact the following third-party sources to obtain missing or questionable information
+about a Federal inmate:
+•
+The Federal court that retained jurisdiction over the inmate's case (if the court
+jurisdiction can be identified by the beneficiary or their representative payee);
+•
+The Field Operations Prisoner Coordinator (FOPC) has access to an on-line Federal
+court-system database that can provide criminal case information about a Federal inmate's
+trial. (A few Federal courts are not yet online.) Each FOPC will provide guidance
+to the offices in their region detailing the regional process for submitting Public
+Access to Court Electronic Records (PACER) requests. See the description of the PACER
+system below:
+PACER
+The United States Courts has a service (PACER) that provides people outside the court
+(the public) with access to court information. PACER provides the User with electronic
+access to the U.S. District Courts, U.S. Bankruptcy Courts, U.S. Courts of Appeals,
+and U.S. Party/Case Index court case databases. Each court has a separate database.
+The U.S. Party/Case Index is a national index of U.S. Courts. This systems serves
+as a locator. To determine if a prisoner is in the Federal Court system, use the prisoner's
+name to identify the court system. Once you locate the court system, contact the court.
+The PACER system provides the following types of information:
+–
+the federal court district,
+–
+the prisoner's attorney's name and address,
+–
+the offense,
+–
+bail data,
+–
+conviction date,
+–
+sentence imposed, and
+–
+identity issues.
+–
+the inmate's attorney (if the attorney can be identified by the beneficiary or their
+representative payee),
+–
+the Department of Justice, the United States Marshall's Service transfers the inmates
+from one federal facility to another. (The U.S. Marshall's Services keeps limited
+information on the inmate),
+–
+parole/probation officer, or,
+–
+social workers.
+c.
+Notify the recipient to file a Freedom of Information Act (FOIA) request for information
+if the third party source cannot provide the missing inmate information.
+Freedom of Information Act Requests (FOIA) for Inmate Information
+The recipient may file a Freedom of Information Act (FOIA) request with BOP for inmate
+information SSA may need to make a correct decision about the beneficiary's prisoner
+suspension. The beneficiary can request information about their period of incarceration
+with BOP that may assist SSA in making a decision about their benefits.
+The recipient must file the FOIA request with BOP to obtain the information. (SSA
+technicians cannot file the FOIA request for the recipient. The recipient must file
+the request with BOP himself or herself.) Instruct the recipient to include their
+SSN and BOP Inmate Number on the FOIA request. Give them the inmate number shown on
+the PUPS alert. While SSA cannot file the FOIA request for the beneficiary, SSA can
+assist the beneficiary in filing the request by giving them the website address to
+locate the FOIA filing information or by giving them a copy of the information printed
+from the BOP FOIA website. You can obtain the FOIA filing information directly from
+BOP's website at http://www.bop.gov .
+If the recipient cannot file the request online, mail the request to:
+Freedom of Information Act/Privacy Act Section
+Office of General Counsel, Room 841
+Federal Bureau of Prisons
+320 First Street, N.W.
+Washington, D.C. 20534
+2. Determining the missing FID code on a 3BOP alert
+If the FID code is blank on the PUPS alert, take the following steps to locate the
+SSA 6-digit FID code to annotate to the PUPS record.
+STEPS
+ACTION
+1
+Check the PURS screen on the PUPS record to locate the 3-digit BOP Facility ID Code.
+2
+Use the internet and go to BOP's web
+page . Scroll down until you find "Federal Bureau of Prisons Facilities". Click on this
+item.
+3
+Go through the list of BOP facilities on the internet site until you find the facility
+with the same 3-digit code on the PUPS record. Write the facility's name and address
+down for reference.
+NOTE: PUPS will display the 3-digit BOP facility code on the PURS screen for SSN you are
+working on.
+4
+Use IRCS to locate the 6-digit SSA FID code that corresponds to the BOP facility's
+name and address. (See MSOM PRISON 002.016 for instructions on locating FIDS and RIDS
+on IRCS.)
+Go to the QRI2 screen in IRCS to view the SSA 6-digit FID codes and the names of the
+facilities corresponding to these codes.
+NOTE: You will see most of the 3-digit BOP facility codes on the QRI2 screen before the
+name of the corresponding BOP correctional facility. This will assist you in finding
+the BOP facility more easily.
+5
+Verify that the name of the BOP facility you have located is correct by querying IRCS
+using the SSA 6-digit FID code you located from the QRI2 screen. (See MSOM PRISON
+002.016 for instructions on locating FIDS and RIDS on IRCS.)
+6
+Add the correct SSA 6-digit FID code to the PUPS record when you are updating the
+PUPS record with the suspension or other required action.
+NOTE: Do not call the Bureau of Prisons for information about their facilities or for additional
+inmate information. If you cannot locate a FID for a BOP facility, contact your FOPC
+for assistance. See GN 02607.990 for a list of the FOPCs.
+3. Developing for an identity discrepancy
+a.
+If there is a discrepancy between SSA's records and the recipient/applicant's allegation,
+ask the applicant to provide an explanation.
+b.
+If the explanation is satisfactory, document the file to explain how the discrepancy
+was reconciled. (See RM 10212.200 on changing enumeration data other than name. See RM 10212.015 to correct the name on the enumeration record.)
+c.
+If the explanation is not satisfactory, and you cannot obtain additional information
+to resolve the identity discrepancy from the third party sources listed in SI 02310.092D.1., resolve the identity issue per SI 02310.092E.
+d.
+If the development uncovers some fraudulent activities, pursue the development of
+the fraudulent aspects per SI 04070.020.
+4. Developing for missing confinement information
+a.
+Develop to obtain missing or questionable incarceration data on the 3BOP PUPS alert/record,
+if applicable. Contact the sources listed in SI 02310.092D.1. for missing information.
+b.
+When developing for additional information on an individual, ask about earlier periods
+of incarceration. BOP may not have provided SSA with the earlier incarceration period.
+Provide the sources mentioned above with available information on the inmate (e.g.,
+inmate name on the incoming PUPS alert, inmate number on the PUPS record, etc.) to
+help them locate the individual in their records.
+NOTE: In many cases, the individual was in BOP's custody for months prior to and/or during
+their trial and; therefore, is also subject to additional months of title XVI suspension.
+These additional months represent the period of incarceration before the conviction.
+c.
+Inquire about transfers to or from another institution. BOP may transfer the inmate
+from one institution to another. Resolve the inmate's incarceration history. Consider
+all periods of incarceration. Review and correct PUPS, if necessary, to reflect the
+inmate's total period(s) of incarceration.
+d.
+Verify that the benefit suspension is correct based on the inmate data annotated on
+the alert, and take the appropriate suspension action through PUPS based on your development.

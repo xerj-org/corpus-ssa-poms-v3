@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02615.115 - Title II Clark Court Order Automated Reinstatement Relief
+Effective Dates: 01/23/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615115 (fetched 2026-10-04)
+
+A. Clark Court Order automated relief
+During the months of December 2012 and January 2013, the Office of Quality Performance’s
+(OQP) Expert System, via Manual Adjustment Credit and Award Data Entry System (MACADE)/Manual
+Adjustment, Credit and Award Processes (MADCAP), will automatically resume Class Members’
+benefits that were in probation or parole violation (PPV) suspension because of a
+10/24/2006 or later agency suspension. We will add a central office (CO) message of
+“CLARK COURT ORDER—CASE SELECTED FOR CLARK REVIEW” and a Special Message (SP MSG)
+of “CLARK COURT ORDER--AUTOMATED RELIEF PROCESSED” to the Master Beneficiary Record
+(MBR) to easily identify these cases. We will list Class Members selected for automated
+relief on the Civil Action Tracking System (CATS) with a Court Case Identifier (CCID)
+of C1.
+Beneficiaries in PPV S9 FUGFEL suspension status, who had a representative payee,
+will have their payment status converted from S9 FUGFEL to S8 DEVPYE effective with
+the current operation month (COM) of December 2012 or January 2013 as explained in
+GN 00504.105A.3. Beneficiaries in PPV S9 FUGFEL suspension status, who had a representative payee
+and are California residents, will have their payment status converted from S9 FUGFEL
+to S9 WHEREU effective with the COM of December 2012 or January 2013, as explained
+in GN 00504.105A.3. The Expert System will place the retroactive benefits due for the period of PPV S9
+FUGFEL in the Special Pay Accrual (SPA) field on the MBR pending development of the
+suitability of the beneficiary’s current representative payee. For information on
+processing a Clark Class Member’s continuing representative payee suitability, see GN 02615.115D in this section.
+Some automated resumption actions generate exceptions or alerts resulting in a MADCAP
+exception or alert, which require manual processing. For information on MADCAP exceptions
+or limitations from the automated process, see GN 02615.115B.1. in this section.
+For information about and exhibits of the Class Members automated resumption notices,
+see GN 02615.160.

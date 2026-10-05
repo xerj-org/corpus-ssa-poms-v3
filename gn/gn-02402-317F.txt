@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - GN 02402.317 - Coding British Virgin Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402317 (fetched 2026-10-04)
+
+F. Procedure for coding British Virgin Islands IDD bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for British Virgin Islands using an SSA
+system (e.g. Modernized Claims System (MCS), Manual Adjustment Credit and Award Data
+Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+enrollment status;
+•
+country;
+•
+account type;
+•
+account ownership;
+•
+Society for Worldwide Interbank Financial Telecommunication - Business Identifier
+Code (SWIFT-BIC);
+•
+beneficiary address – NOTE : Enter the beneficiary’s address in this format: VG/Town/Name . Start with the ISO country code for the British Virgin Islands (VG);
+•
+bank name;
+•
+bank address.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+Prior to processing an initial award to ensure that the beneficiary receives payment
+you must update the bank account information ITS.gov. When the payment is processed,
+the payment is rejected and returns to our agency if the complete bank account information
+is not in ITS.gov.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step
+3.
+3
+Is the beneficiary's account a USD account in the British Virgin Islands? If no, STOP.
+REASON: Beneficiaries in British Virgin Islands can only receive IDD payments in XOF accounts.
+If yes, go to step
+4.
+4
+Code the RTN as follows:
+–
+Start with 70, the prefix assigned to countries for which Citibank is the processor
+bank;
+–
+Code a zero (0);
+–
+Code the 3-digit bank code;
+–
+Code the first two digits of the 5-digit branch/transit code;
+–
+Code the U.S. check digit. Obtain the U.S. check digit by using the Check Digit program
+on Title II/Interactive Comps.
+NOTE: No need to obtain the check digit code from Tittle II Interactive Comps.
+5
+Code the account type:
+–
+“S” for savings, or
+–
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+Code the DAN as follows:
+•
+Start with the country code of "G" designated for the British Virgin Islands;
+•
+Code the remaining 3 digits of the Branch/Transit Code;
+•
+Code the account number. Do not include any dashes or spaces.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.317F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

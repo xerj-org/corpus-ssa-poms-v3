@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02403.163 - Processing Programmatic Remittances through the Lockbox
+Effective Dates: 01/22/2024 - Present | TN 57 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403163 (fetched 2026-10-04)
+
+B. Lockbox Remittances Processing
+The lockbox service processes single checks with a single coupon and single checks
+with multiple coupons. These coupons are generated from RECOOP billing notices, commonly
+referred to as “green mail” The lockbox uses high-speed image scanning equipment to read and verify remittance
+data from the coupon. The machine-readable remittance coupon uses optical character
+recognition (OCR) technology. Remittance data is captured and transmitted to the agency
+daily.
+US Bank will image the front and back of processed checks, and image the front and
+back of any associated remittance documents. It will transmit the images to the Federal
+Reserve Bank of Cleveland (FRB Cleveland) where the images will be made available
+to the agency for viewing and download individual checks via Electronic Check Processing
+(ECP). The ECP is a web-based, client facing application lockbox network or a mobile
+application. ECP is used by Federal government agencies and their financial agents
+to view and research transactions.
+SSA will also use the Collection Information Repository (CIR), which is a data archive
+and reporting tool that provides a single solution to view and/or download information
+for settled transactions processed by the Treasury's portfolio of revenue collection
+systems.

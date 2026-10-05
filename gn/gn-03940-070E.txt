@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 03940.070 - Title XVI - Fee Agreement Manual Notice Field Office Processing
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940070 (fetched 2026-10-04)
+
+E. Procedure - Concurrent Titles II and XVI Claims - Favorable Decision - Fee Agreement
+Approved - Spouse Involvement
+1. Fee Authorized - Title II Fee Amount Known - Representative Not Eligible for Direct
+Payment
+When the SSR interface posts the title II fee information and the claimant’s and the
+spouse’s title XVI past-due benefits are known, authorize the title XVI fee and send
+a manual notice.
+Use UTI FEE038, caption ATYC10 and UTIs ATY029 and FEE092.
+•
+If the title II portion of the fee amount reduces the title XVI fee amount, use UTI
+ATY027.
+Use UTI FEE022.
+•
+If SSA is sending the claimant's first check to a State/subdivision based on an IAR
+agreement, use caption CHKC07 and UTI CHK002.
+Use UTI FEE077.
+2. Fee Authorized - Title II Fee Amount Known - Representative Eligible for Direct Payment
+When the SSR interface posts the title II information, authorize the title XVI fee
+and send a manual notice.
+Use UTI FEE038; caption ATYC10 and UTIs ATY029 and FEE092.
+•
+If the title II portion of the fee amount reduces the title XVI fee amount, use UTI
+ATY027.
+•
+If a representative is eligible for, but waives direct payment, use UTI FEE033.
+Use UTI FEE077.
+•
+If SSA has withheld past-due benefits for direct payment, use caption ATYC03 and UTIs
+FEE035 and FEE078.
+•
+If SSA is making direct fee payment and there is no IAR involved, use UTI FEE080.
+•
+If SSA is processing the fee payment after reimbursing the State agency for IAR, use
+UTIs FEE041 and FEE043 (partial fee paid to representative), FEE044 (fee paid to representative,
+nothing left to pay claimant) or FEE045 (fee paid, remainder to claimant).
+Use the appropriate assessment paragraph.
+–
+If the assessment deducted from the title II direct payment reduced the assessment
+on the title XVI payment, use UTI FEE048.
+–
+If the maximum assessment was deducted from the title II direct payment, use UTI FEE049.
+(See GN 03920.019K. for further information about the assessment language in the notice.)
+Also send a manual notice to the spouse. See GN 03940.070F.
+3. Title II Fee Amount Unknown - Representative Eligible for Direct Payment
+When the SSA decision maker approves the fee agreement, the title II fee is not known,
+and SSA is withholding title XVI past-due benefits pending fee authorization, send
+a manual notice.
+Use UTI FEE038 and caption XVI719.
+•
+If the title II CR approved the fee agreement, use UTI FEE062.
+•
+If an ALJ or AAJ approved the fee agreement, use UTI ATY024.
+Use caption ATYC03 and UTIs FEE035, FEE107, FEE108, FEE067 and FEE039.

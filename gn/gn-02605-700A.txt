@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02605.700 - ZIP Code Software and Change of Address (COA) Action
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605700 (fetched 2026-10-04)
+
+A. Process for ZIP code software and COA action
+1. Address information
+Address information contains street address, apartment number, city and State information.
+The system does not validate the address entered; however, there are edits on the
+length of the address field. (Input varies greatly from office to office). Provide
+name and address information in all capital letters. Unit designators (i.e., apartment
+numbers, etc.) must directly follow the primary identifiers. For instance, name, address
+number, street name and directionals if the address does not exceed 22 characters (including spaces). If it does exceed 22 characters, place the
+unit designator on the line immediately above the delivery address line. The automated
+ZIP Code Maintenance process affects the quality and format of address, input improvement
+in address quality, and addressing for standardization is more important than ever.
+A standardized automated process will save SSA millions of dollars through postal
+discounts.
+2. ZIP code and automated process
+When you enter address or ZIP Code information, the system uses a ZIP +4 software
+to verify the 5-digit ZIP Code and the last 4 positions in the 9-digit ZIP Code. In
+order for the system to “read” the address information to properly determine the correct
+9-digit ZIP Code, the address must be in a standardized format. Using the Postal Service
+standard address guidelines, will optimize the use of the ZIP +4 Software, reduce
+SSA mailing costs, and improve mail delivery.

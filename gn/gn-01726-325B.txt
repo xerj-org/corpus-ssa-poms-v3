@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 01726.325 - How to Determine Whether a Worker was Insured at Death or Disability Onset
+Effective Dates: 12/28/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201726325 (fetched 2026-10-04)
+
+B. Procedure
+Use the following procedure to determine if the worker was insured.
+STEP
+ACTION
+1
+Locate the LAF code in the BENEFIT field of a current MBR for the worker's SSN. If
+there is no LAF code, go to Step 2.
+•
+If the LAF code is C or a two digit code beginning with A,D,S or T, answer “yes” to question II.C.1. of form SSA-2960-NL.
+•
+If the LAF code is other than above, go to Step 2.
+2
+Ascertain from a current ER how many QCs the
+worker has.
+•
+If the “Total QCs” entry at the end of the ER or the “RSI HAS” entry in the “INS STAT” line of the ER is 40 or more, answer “yes” to question II.C.1. of Form SSA-2960-NL.
+•
+If the “Total QCs” or “RSI HAS” entry is less than 40 refer the case to a CA for an insured status determination.
+3
+If the CA advises that the worker was insured at death or disability onset, answer
+“yes” to question II.C.1. of form SSA-2960-NL
+4
+If the CA advises that the worker was NOT insured at death or disability onset, answer
+“no” to question II.C.1. of form SSA-2960-NL.

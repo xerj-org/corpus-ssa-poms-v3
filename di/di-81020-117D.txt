@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 81020.117 - Processing Medical Reactivations
+Effective Dates: 03/19/2012 - Present | TN 36 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020117 (fetched 2026-10-04)
+
+D. Processing Medical Reactivations in the DDS
+1. Case receipt
+The DDS, DCR, or FDU receives an EFI download and the claim appears in the EFI download
+queue. There is no paper associated with the medically reactivated claim.
+Take the following steps to receipt case:
+•
+Receipt all medically reactivated claims in NDDSS with a level of RO (Reopening),
+and
+•
+Assign the claim(s) to the examiner.
+Typically this is the same examiner who made the first determination.
+NOTE: Do not use the DUPD/RTN process to receipt medically reactivated claims unless they
+are sent by Office of Quality Review (OQR) during the quality review process.
+2. Case development
+Once the claim is assigned to an examiner, the examiner can work the claim just like
+any other CEF claim.
+3. Determination
+If the examiner makes a new determination, prepare an SSA-831 (Disability Determination
+and Transmittal) SSA-832 (Cessation or Continuance of Disability or Blindness Determination
+and Transmittal- Title XVI), or SSA-833 (Cessation or Continuance of Disability or
+Blindness Determination and Transmittal- Title II) per normal reopening procedures.
+See Completion of Form SSA-831-U5 in Title II Reopening Cases - DI 27530.015 and Completion of Form SSA-831-U5 in Title XVI Reopening Cases - DI 27530.025.
+The determination is added to the CEF and the FO is alerted on the EDCS Actions Page
+for necessary FO action.
+If the examiner decides there is no change to the original Determination (ND); the
+examiner selects an ND reason through their case processing system Original Decision
+Not Changed. Since there is no additional action for the FO to take, the FO does not
+receive an alert on the EDCS Action Page. See Processing No Determination Claims -
+DI 81020.127.

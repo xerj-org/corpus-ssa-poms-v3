@@ -1,0 +1,192 @@
+SSA Program Operations Manual System (POMS) - SI 02220.025 - SSI Overpayment - Recovery By Refund
+Effective Dates: 10/31/2023 - Present | TN 138 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220025 (fetched 2026-10-04)
+
+B. Procedure
+1. Notification
+•
+Include a request for a full refund in every initial notice of overpayment.
+•
+Never propose check adjustment for conditional payment or burial fund overpayments,
+or when the individual is in FLA-D. Honor any request for check adjustment, for conditional
+payment or burial fund overpayments.
+(See SI 01150.200 - SI 01150.206 for background on conditional payments and computation of conditional payment overpayments.
+See SI 01130.410C.5. for computation of the penalty for burial fund misuse.)
+2. Refund by installment
+The Recovery and Collection of Overpayment Process (RECOOP) system controls the recovery
+of overpayments by refund. It generates monthly bills, alerts for the Debtor Contact
+Section (DCS), and controls for resolution of overpayments when the overpaid individual
+is in nonpayment status. RECOOP does not generate alerts to field offices (FOs).
+a. RECOOP controlled case
+A RECOOP controlled case is identified by an accounts receivable control (ARC) code.
+(See SM 01311.030C, SM 01311.235, and SM 00610.845)
+b. Individual requests explanation — RECOOP correspondence
+When an individual asks for an explanation of RECOOP correspondence:
+•
+Explain to the debtor that RECOOP:
+•
+Keeps record of payments; and
+•
+Sends a bill 20 days prior to the next due date.
+•
+Remind the debtor to:
+•
+Make check or money order payable to the Social Security Administration; and
+•
+Include their SSN.
+•
+Do not complete a SSA-632-BK (Request for Waiver of Overpayment Recovery).
+•
+See SM 00610.845 for instructions on transferring billing responsibility to RECOOP.
+c. FO controlled case
+In the majority of cases, the FO does not control Title XVI recovery by refund. For
+those cases which are in nonpayment status and which do not meet the criteria for
+RECOOP:
+•
+Check to see if cross program recovery from Title II benefits is available. If it
+is, see SI 02220.020C. for instructions on how to manually set up cross program recovery.
+•
+Schedule the installments for payment on a regular monthly basis.
+•
+Negotiate a rate that is as high as the debtor can manage based on a consideration
+of income, expenses, and resources.
+•
+Use Sections 5 and 6 of the SSA-634-BK to determine financial ability to repay. However,
+these sections of the form are not needed when the individual offers to repay the
+overpayment in full in less than 61 months.
+•
+Direct the debtor to make Non-RECOOP controlled remittances to the FO.
+•
+Enter the remittance into the Debt Management System (DMS) and forward the remittance
+and DMS-generated payment coupon to Mid-Atlantic Program Service Center (MATPSC).
+•
+Provide the DMS receipt to the remitter.
+•
+Give the debtor a preaddressed envelope to the FO.
+•
+Complete the Overpayment Decisions (UOPD) screen by selecting RECOVER BY INSTALLMENTS
+and the system will build a G TAC in the OPDD segment. (See MS 00304.008.)
+d. FO action - change to nonpay during period of adjustment - non-RECOOP cases
+•
+Check to see if cross program recovery from Title II benefits is available. If it
+is, see SI 02220.020C. for instructions on how to manually set up cross program recovery.
+•
+Request immediate refund of the outstanding overpayment balance. Notify the individual
+using an SSA-L728-U2 or SSA-L729-U2 as appropriate.
+•
+Include a payment stub (SSA-4017) with the individuals name and SSN filled in.
+•
+Include a return envelope pre-addressed to the FO.
+e. FO handling of refunds
+FOs cannot input refund data to the SSR. MATPSC is responsible for inputting SSI remittances.
+NOTE: Do not send refunds to the Office of Earnings Operations.
+•
+See GN 02403.003 for the automated FO remittance process.
+•
+Whether recovery is by a single refund or installment payments, see GN 02403.006 for FO remittance procedures.
+3. Title XVI and Title II overpayments
+If a person must refund overpayments under both titles (i.e., they are not receiving
+payment under either title), recover the Title XVI overpayment first.
+a. Advise MATPSC
+Advise MATPSC (use a Report of Contact and send it to P.O. Box 2861, Philadelphia,
+PA 19122):
+•
+Not to initiate Title II overpayment recovery until Title XVI has been completely
+recovered; and
+•
+The anticipated date recovery will be complete.
+b. Notify MATPSC
+Notify MATPSC when:
+•
+Recovery is complete; or
+•
+Rrecovery efforts have been discontinued; or
+•
+The Title XVI claim has been referred to the Office of Inspector General.
+4. RECOOP billing and reestablished records
+NOTE: Whenever an outstanding overpayment exists on a terminated SSI record and a new period
+of eligibility is established, you must transfer the overpayment to the reestablished
+record and close out the overpayment on the terminated record. On the MSSICS Overpayment
+Menu (UOMN) select RECONCILIATION (See MS 00304.017). If the record is excluded from
+automated reconciliation then the type of overpayment on the terminated record determines
+what to do to transfer the overpayment to the reestablished record.
+a. Unresolved overpayment
+•
+Determine whether to send a manual overpayment notice (SM 01311.451).
+•
+If a manual notice is needed, prepare and send the notice and update the notice date for the terminated record.
+•
+If a notice has been sent, transfer the overpayment to the reestablished record by
+completing the MSSICS Add Manually Computed Overpayment (UOMA) screen (see MS 00304.014).
+•
+Close out the overpayment on the prior record with a Q TAC by completing the MSSICS
+Overpayment Decisions (UOPD) screen and selecting OVERPAYMENT TO BRING FORWARD (see
+MS 00304.008) as follows:
+If the overpayment is under RECOOP control (ARC =2 or 3--RECOOP is attempting to contact
+debtor to resolve an outstanding overpayment), transfer the debt to the current record
+only if you establish a new period of eligibility. (see SM 01311.385; SM 01311.235).
+If the overpayment is not under RECOOP control (no ARC or ARC = 8 RECOOP has suspended
+collection efforts), transfer the overpayment to the new record immediately.
+b. Pending installment refund agreements
+Transfer the overpayment to the current record if the terminated record:
+•
+Has an installment refund agreement (G TAC) (see SM 01311.235) under RECOOP control
+(ARC = 1 or 3), transfer the overpayment only when eligibility has been reestablished.
+•
+Contains a B1 diary (identifying a G TAC with an overdue installment payment), again
+transfer the overpayment only when eligibility has been reestablished.
+A G TAC is not appropriate for a reestablished record unless the new claim is denied
+(see SM 01311.385).
+c. Overpayment not under RECOOP control
+Whenever an overpaid individual files a new application for SSI; and
+The case is not under RECOOP; and
+The SSR reflects a prior overpayment;
+Follow systems instructions in SM 01311.140C and SM 01311.385 so that the accrued underpayment will be offset against the overpayment
+balance.
+Record the overpayment on the latest record. Note, however, that this is not possible
+when the latest record contains an abbreviated application denial (the abbreviated
+application code (AB) is on the SSR), or when the record is in payment status code
+T5O or T51.
+5. Debtor in a foreign country
+a. Resident of a foreign country
+A resident of a foreign country is an individual who is not residing in the United
+States, (including the District of Columbia), Puerto Rico, Virgin Islands, Guam, Northern
+Marianas, and American Samoa.
+NOTE: If a U.S. military member stationed overseas can be contacted through a Fleet Post
+Office (F.P.O.)/Army Post Office (A.P.O.) address, these rules do not apply.
+b. Procedure
+If you determine that the debtor is currently residing in a foreign country:
+•
+Post the new address; and
+•
+Input a M-TAC per SM 01311.200 and MS 00304.008.
+c. Special veterans benefits (SVB)
+If the debtor currently residing in a foreign country is receiving SVB payments:
+•
+DO NOT input a M-TAC.
+•
+Establish cross program recovery of the SSI overpayment from the SVB payments. See
+VB 02020.005.
+6. Debtor in Puerto Rico or the Virgin Islands
+a.
+RECOOP will usually control recovery efforts for a debtor residing in Puerto Rico
+or the Virgin Islands. For exclusions see SM 00610.845 and SM 01310.305.
+The mainland office serving the individual's last U.S. address must load the case
+to RECOOP by posting the Puerto Rico/Virgin Islands address.
+b.
+The Downtown Manhattan FO will process these cases.
+c.
+If you have an overpayment file, send it to the Downtown Manhattan FO. Include the
+following:
+•
+The recipient's current address in Puerto Rico or the Virgin Islands;
+•
+An SSR for each record established;
+•
+An MBR, if applicable and
+•
+Other documents pertinent to the overpayment, e.g. redetermination file, recipient
+correspondence, etc.
+d.
+Mark the lower left corner of the envelope in red Puerto Rico Overpayment/Virgin Island
+Case.

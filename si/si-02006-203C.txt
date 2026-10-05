@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - SI 02006.203 - Fee Agreement Process — Authorization of Title II and Title XVI Representative Fees and Determination of Amount to Subtract
+Effective Dates: 04/08/2014 - Present | TN 14 (03-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006203 (fetched 2026-10-04)
+
+C. Procedure
+Use the procedure below for determining title XVI past due benefits and title XVI
+fee when title XVI paid first:
+•
+Follow GN 03940.050A - GN 03940.050B to determine if a fee calculation is required. If so, follow steps 1 - 7 of GN 03940.050C to determine the total fee.
+•
+When you reach step 3.c., call up the eComps application to help you compute the “fictitious” title XVI past-due amounts.
+•
+Enter the required data for the SSI computation beginning with the first month of
+SSI eligibility. Be sure to enter proration data and all income received. Include
+title II that is actually received. Continue the computation through the month of
+effectuation of the Title XVI benefits.
+After all data are entered, trigger the RMA computation.
+•
+Next, select choice 5., “Windfall Offset Computation” from the RMA main menu. Then from the Windfall Offset Menu, select choice 1., “Enter a Windfall Offset Computation.” Follow the software instructions to indicate the beginning and ending dates of the
+windfall period.
+CAUTION: DO NOT enter any attorney fee amount when computing the “fictitious” past due benefits. Use the full amount of title II retroactive benefits for each
+month of type W income (except for the last two months of the windfall period which
+are always zero). After all data are entered, trigger the windfall offset computation.
+•
+Print the SSA-4346 SSI Offset Summary. Using the SSA-4346, total up the new FAM and
+new SAM amounts for all months in the computation. Include all the months paid in
+the title XVI retroactive payment in your total.
+NOTE: If any months in the SSI retro are not part of the windfall period, the amount paid
+for those months should be added to this total. Remember that you must reduce your
+total by any payments that are not past due benefits for representation fee purposes
+per GN 03940.001B.7. Once you have completed this step, you will have determined the correct amount of
+title XVI past due benefits to be used in computing the title XVI fee.
+•
+Proceed to determine the title XVI fee by following step 5 of GN 03940.050C.5.e.
+•
+Add the title XVI fee to the title II fee to determine the total representative fee.
+•
+When you reach step 7 of GN 03940.050C.7., adjust the title II income per SI 02006.210 and adjust the retroactive title II benefits for the total representative fee. The
+eComps application can be used in many cases to complete an SSA-2894 for you. Follow
+the third and fourth bulleted items above until you reach the screen which asks for
+the attorney fee. Type in the total attorney fee and indicate that it is a title II
+offset. Complete additional screens that give information on the representative fee
+and the title II benefit rate changes that occurred in the windfall period. Then the
+software will compute the adjusted “W” amounts for you. After all data is entered, trigger the windfall offset computation.
+•
+Print the SSA-2894 and the SSA-4346 for use in computing any underpayment due the
+recipient. If the title II retroactive benefits have not been released, trigger an
+automated windfall offset computation, unless a posteligibility change has occurred
+on the SSR. Print the SSA-1719B input information on the eComps application.
+•
+Adjust only the title II income of those SSI recipients who are obligated for the
+representative's fee. In fee agreement cases, only the person or persons who sign
+the fee agreement are obligated for the fee. See SI 02006.202B.5. for additional information on determining who is obligated when auxiliary title II
+benefits are involved and for instructions on windfall offset computations involving
+an auxiliary who is not obligated.

@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02402.020 - Reimbursement Process Due to Alleged Fraud and Other Unauthorized Redirection of Reoccurring Payments
+Effective Dates: 08/25/2025 - Present | TN 308 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402020 (fetched 2026-10-04)
+
+G. Processing Center Instructions for Handling Title II Financial Institution (FI) Return
+Payments, Due to Unauthorized Direct Deposit Changes.
+When the FI returns redirected payments to Treasury, Treasury will fax an ENR Recovery
+Debit Detail Report (see section J., Exhibit 3.). This report will have one of the
+following TOEL combination codes:
+1.
+TOEL 1: CHECK
+2.
+TOEL 2: DIRDEP
+3.
+TOEL 3: FRAUD
+4.
+TOEL 4: FIDEBIT
+Once SSA receives this information into paperless, use the following steps to process:
+1.
+Review the ENR Recovery Debit Detail Report to determine the amount of the returned
+credit.
+2.
+Apply the credit or remittance by reducing or removing the overpayment with the subscript
+of X (via DMS RRRE screen).
+3.
+On the next business day, review the record to make sure the overpayment reduced or
+removed correctly.
+4.
+Post a Special Message to the MBR: “FI DEBIT RECEIVED FOR FRAUD REDIRECTED PAYMENT
+– OVERPAYMENT WAS REMOVED OR REDUCED IN THE AMOUNT OF $$$.$$.” If an overpayment balance
+remains, then terminate collections and ensure the *119 listing code has been annotated
+before sending the ACR to FIN.
+NOTE:
+If there is no NED overpayment on ROAR, follow the applicable instructions under section
+SM
+01311.225.B.

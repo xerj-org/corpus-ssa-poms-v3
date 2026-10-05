@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 00206.014 - Processing a Withdrawal (WD) Request made after Adjudication
+Effective Dates: 12/02/2022 - Present | TN 29 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200206014 (fetched 2026-10-04)
+
+B. PC actions to take when WD request is received
+The technician must verify that the WD request meets the requirements in GN 00206.005. If the request does not meet the requirements, deny the WD request per GN 00206.014C in this section. If the request meets the requirements, then follow these steps:
+1. Obtain consent from auxiliaries for NH’s WDs
+Obtain a signed statement from any other beneficiary or proper applicant on the beneficiary’s
+behalf whose entitlement is nullified by the NH’s WD. The statement must clearly document
+if the auxiliary gives or refuses to consent to the WD request. If any beneficiary
+refuses consent, deny the WD request per GN 00206.014C.
+NOTE: If an auxiliary on the record is deceased, we must obtain consent from a representative
+of their estate, per GN 00215.050 Liability of Deceased’s Estate.
+2. Contact the Center for Medicare and Medicaid Services (CMS)
+If the claimant’s WD request includes withdrawing HI entitlement, follow instructions
+on GN 00206.020D.2 to determine whether CMS made HI payments on behalf of the claimant.
+3. Calculate repayment of benefits
+If the FO did not process a suspension, suspend benefits on the current claim using
+the WDSP screen via POS per the instructions in MSOM MS 00705.032 and calculate repayment
+amount due. This includes suspension of benefits for all potentially affected auxiliaries
+and any benefits they received. Include money withheld during closed tax years for
+voluntary tax withholding (VTW) per GN 02410.015, and Medicare payments (Hospital Insurance (HI) and Supplemental Medical Insurance
+(SMI) premiums per GN 00206.020, if applicable.
+NOTE: Advise claimants to contact the Internal Revenue Service (IRS) or their tax advisor
+to discuss any tax implications.
+4. Notify the claimant
+Use the exhibit notice E3700 in NL 00703.700 to notify the claimant of the:
+•
+reason we are requesting repayment;
+•
+amount to be repaid (less any remittance received in the FO as identified in a Special
+Message on the MBR);
+•
+method of calculation; and
+•
+method of repayment (i.e., certified check, cashier’s check, personal check, money
+order, credit card or cash).
+Remember to include a refund envelope to send the repayment and diary the case for
+45 days.
+5. Repayment received or no repayment due
+The following section provides instructions for when we receive repayment or no repayment
+is due. For situations where we do not receive payment, refer to section C of this
+section.
+•
+If the claimant made repayment by remittance and there is no corresponding “EVENT
+019 DIR REMT” on the Payment History Update System (PHUS) record for the remittance
+amount, prepare a Form SSA-559 (Transmittal Slip for Claims Folders) to the Benefit
+Authorizer (BA) to add “EVENT 019 DIR REMT” to the PHUS record of the remitter. For
+more information on “EVENT 019 DIR REMT,” see SM 00630.219.
+•
+Use Manual Adjustment Credit and Award Data Entry (MACADE) to input the action taken
+on the WD request.
+•
+Use a Form SSA-573 (Special Typing Instructions) to request exhibit notice SSA-L250
+(Approval of WD) found in NL 00701.093 or use Aurora, when appropriate. Include paragraph 257 located in NL 00708.100 or use a dictated notice.
+NOTE: Refer to GN 00206.025 for WD request and repayments involving RRB claims.

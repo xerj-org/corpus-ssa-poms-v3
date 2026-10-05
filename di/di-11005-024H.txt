@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 11005.024 - The Internet Adult Disability Report (i3368)
+Effective Dates: 01/28/2014 - Present | TN 44 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005024 (fetched 2026-10-04)
+
+H. Policy on archiving and purging the i3368
+1. Archiving the i3368 record
+The i3368 system moves archived records from the active file to the inactive file.
+The system purges records either directly from the active file or after 120 days in
+the inactive file. (See DI 81007.005)
+NOTE: You cannot propagate an archived record into EDCS, but you can query and print the
+record using CICS Internet query. Once you archive a record, there is no facility
+for moving it back to the active file.
+2. Purging the i3368 record
+The i3368 record stays on the database for 7 days after annotation of the CICS Internet
+screen “DELETE THIS REPORT.” It then stays in the archive file for 120 days before
+purging. Purging removes the record completely from either the active or the inactive
+file.
+See DI 81007.005B and DI 81007.020 for more information.
+3. Querying the i3368 record
+See DI 81007.035A for instructions on querying an i3368 record.
+4. Printing an i3368 record
+You can print an archived i3368 record for 120 days from the archive date. Archived
+records have the remark “CANNOT BE PROPAGATED INTO EDCS” near the top of each printed
+page. For complete instructions on printing EDCS forms, see DI 81010.070.

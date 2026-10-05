@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.403 - Coding Tanzania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/05/2023 - Present | TN 258 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402403 (fetched 2026-10-04)
+
+G. Example of coding Tanzania direct deposit
+The customer provides us with a signup form for Tanzania with the account number:
+12345678901122334455667788990
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 680000174
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with country code “Z” designated for Tanzania; and
+•
+Code up to 16 digits of the 29-digit account number: “1234567890112233”
+3. Obtain the following information
+•
+RTN: 680000174
+•
+Checking
+•
+DAN: Z1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000174
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Z1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 680000174
+•
+DAN- CZ1234567890112233

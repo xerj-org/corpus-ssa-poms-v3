@@ -1,0 +1,166 @@
+SSA Program Operations Manual System (POMS) - GN 02607.790 - Reviewing and Analyzing Title II Federal Bureau of Prison PUPS Alerts/Records
+Effective Dates: 02/12/2014 - Present | TN 89 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607790 (fetched 2026-10-04)
+
+B. Procedure Special inmate information provided by BOP under the SSA/BOP computer reporting
+agreements
+1. BOP Inmate Information 04/04/02 and continuing
+BOP Data on PUPS Alert/Report
+Values for the Field
+Information About the BOP Inmate Data
+Conviction Date
+MM/DD/YYYY
+BOP will provide conviction information for an inmate who has been officially sentenced
+by a Federal court. BOP gives SSA this information only if the inmate's conviction
+information is available in their records.
+NOTE: There will be some circumstances in which SSA will deem a conviction date for blank
+or invalid conviction. (See GN 02607.792D.1.b. for processing instructions.)
+Inmate Status Code
+Y
+Convicted (individual has been convicted of a crime i.e.; felony or misdemeanor).
+NOTE: If the inmate Status code is Y and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. (See GN 02607.792D.1.b. for processing.)
+C
+Confined but not convicted (individual is confined in a correctional institution but
+has not been convicted of a crime).
+P
+Parole/Probation Violator (individual has violated parole or probation). An official
+determination has been made to return the individual to confinement at a correctional
+institution.
+Date of Confinement
+MM/DD/YYYY and the Inmate Status Code is:
+Y or C
+For the Inmate Status Codes of "Y" or "C," BOP provides a date of confinement equal
+to the date that BOP assigns the inmate to the correctional facility and is under
+BOP custody.
+MM/DD/YYYY and the Inmate Status Code is:
+P
+The date for code P represents the date the inmate was returned to BOP custody because
+the inmate's parole or probation has been officially revoked.
+Released Date
+Blank
+BOP does not provide SSA with released dates. See GN 02607.794D for information on obtaining released date information for BOP inmates that are no
+longer in BOP custody.
+Correctional Facility Identification Code
+6-digit FID Code
+BOP provides SSA with a 3 digit-facility code the PUPS system converts into a 6-digit
+BOP facility code located on IRCS. PUPS will translate the 6-digit code to the name
+of the correlating correctional facility on actionable PUPS alerts.
+See GN 02607.792D.2. for instructions on determining the FID code if it is blank on the PUPS alert.
+NOTE: BOP's correctional facility code represents the inmate's place of confinement or
+destination of confinement at the time the report was prepared. If the inmate is "In-Transit"
+from one BOP correctional facility to another, the facility code will change from
+one monthly report to another.
+NOTE: For additional information about 3BOP Inmate Status Codes, see GN 02607.795.
+2. BOP Inmate Information 04/01/00 through 04/03/02
+BOP Data on PUPS Alert/Report
+Values for the Field
+Information About the BOP Inmate Data
+Conviction Date
+MM/DD/YYYY
+BOP will provide conviction information for an inmate who has been officially sentenced
+by a Federal court. BOP gives SSA this information only if the inmate's conviction
+information is available in their records.
+NOTE: There will be some circumstances in which SSA will deem a conviction date for blank
+or invalid conviction. (See GN 02607.792D.1.b. for processing instructions.)
+Inmate Status Code
+Y
+Convicted (individual has been convicted of a crime, i.e., felony or misdemeanor).
+(The penalty for the crime generally carries a sentence of over 1 year.)
+NOTE: If the inmate Status code is Y and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. See GN 02607.792D.1.b. for processing.
+S
+Convicted of a criminal offense. (The penalty for the crime generally carries a sentence
+of 12 months or less.)
+NOTE: If the inmate Status code is S and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. See GN 02607.792D.1.b. for processing
+N
+Convicted of a criminal offense. (The penalty for the criminal offense is not available
+in BOP records.)
+NOTE: If the inmate Status code is N and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. See GN 02607.792D.1.b. for processing.
+D
+Confined but not convicted (individual is confined in a correctional institution but
+has not been convicted of a crime). This category includes pre-trial inmates, individuals
+awaiting medical/mental examinations, detainees, etc.
+Date of Confinement
+MM/DD/YYYY and the Inmate Status Code is:
+Y, S, and N
+For the Inmate Status Codes of "Y," "S," and "N," BOP provides a date of confinement
+equal to the date that BOP the inmate to the correctional facility and is under BOP custody.
+MM/DD/YYYY and the Inmate Status Code is:
+D
+BOP will provide the date the inmate was admitted to a BOP facility.
+NOTE: If multiple reports of confinement are received for the same inmate and the inmate
+status code remains D and the reporter code remains 3BOP, assume the earliest reported
+date of confinement for this inmate will be the actual initial date of confinement.
+Released Date
+Blank
+BOP does not provide SSA with released dates. See GN 02607.794D.1.c. for information on obtaining released date information for BOP inmates that are no
+longer in BOP custody.
+Correctional Facility Identification Code
+6-digit FID Code
+BOP provides SSA with a 3 digit-facility code the PUPS system converts into a 6-digit
+BOP facility code located on IRCS. PUPS will translate the 6-digit code to the name
+of the correlating correctional facility on actionable PUPS alerts.
+See GN 02607.792D.2. for instructions on determining the FID code if it is blank on the PUPS alert.
+NOTE: BOP's correctional facility code represents the inmate's place of confinement or
+destination of confinement at the time the report was prepared. If the inmate is In-Transit
+from one BOP correctional facility to another, the facility code will change from
+one monthly report to another.
+3. BOP Inmate Information 02/01/95 through 03/31/00
+BOP Data on PUPS Alert/Report
+Values for the Field
+Information About the BOP Inmate Data
+Conviction Date
+MM/DD/YYYY
+BOP will provide conviction information for an inmate who has been officially sentenced
+by a Federal court. BOP gives SSA this information only if the inmate's conviction
+information is available in their records.
+NOTE: There will be some circumstances in which SSA will deem a conviction date for blank
+or invalid conviction. (See GN 02607.792D.1.b. for processing instructions.)
+Inmate Status Code
+Y
+Convicted (individual has been convicted of a crime that carries a sentence of over
+1 year).
+NOTE: If the inmate Status code is Y and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. (See GN 02607.792D.1.b. for processing.)
+S
+Convicted of a crime and individual is sentenced to 12 months or less.
+NOTE: If the inmate Status code is S and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a criminal offense. See GN 02607.792D.1.b. for processing.
+N
+Convicted of a crime and the length of sentence for the crime is unknown.
+NOTE: If the inmate Status code is N and the conviction date is blank on the PUPS Record/Alert,
+assume the inmate has been convicted of a crime that carries a sentence of over 1
+year. See GN 02607.792D.1.b. for processing.
+D
+Confined but not convicted (individual is confined in a correctional institution but
+has not been convicted of a crime). This category includes pre-trial inmates, individuals
+awaiting medical/mental examinations, detainees, etc.
+Date of Confinement
+MM/DD/YYYY and the Inmate Status Code is:
+Y, S, and N
+For the Inmate Status Codes of Y, S, and N, BOP provides a date of confinement equal
+to the date that BOP assigns the inmate to the correctional facility and is under
+BOP custody.
+MM/DD/YYYY and the Inmate Status Code is:
+D
+BOP will provide the date the inmate was admitted to a BOP facility.
+NOTE: If multiple reports of confinement are received for the same inmate and the inmate
+status code remains D and the reporter code remains 3BOP, assume the earliest reported
+date of confinement for this inmate will be the actual initial date of confinement.
+Released Date
+Blank
+BOP does not provide SSA with released dates. See GN 02607.794D for information on obtaining released date information for BOP inmates that are no
+longer in BOP custody.
+Correctional Facility Identification Code
+6-digit FID Code
+BOP provides SSA with a 3 digit-facility code the PUPS system converts into a 6-digit
+BOP facility code located on IRCS. PUPS will translate the 6-digit code to the name
+of the correlating correctional facility on actionable PUPS alerts.
+See GN 02607.792D.2. for instructions on determining the FID code if it is blank on the PUPS alert.
+NOTE: BOP's correctional facility code represents the inmate's place of confinement or
+destination of confinement at the time the report was prepared. If the inmate is "In-Transit"
+from one BOP correctional facility to another, the facility code will change from
+one monthly report to another.

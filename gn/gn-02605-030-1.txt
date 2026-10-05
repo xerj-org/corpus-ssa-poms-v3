@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02605.030 - Representative Payee Cases for COA
+Effective Dates: 04/30/2020 - Present | TN 37 (04-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605030 (fetched 2026-10-04)
+
+1. No Change in custody
+a. Payee is an individual
+•
+If Title II, input COA via eRPS (which is automatically sent to the MBR the night
+following the change).
+•
+If Title XVI, you must first record the address change in eRPS and then go to MSSICS
+and build the SSR. (eRPS does not send address changes to the SSR).
+•
+If entering a COA via a MACADE input, the PSC must make a separate input in eRPS to
+update the Rep Payee database.
+Exceptions:
+•
+When payee receives payment by check and reports a change in mailing address on the
+cutoff date of the payment cycle, input the change in both POS and eRPS.
+•
+When payee’s mailing address is changing from domestic to foreign or foreign to domestic,
+input the change in both POS and eRPS.
+•
+When a technician takes action for any undocumented alien parent payee without an
+SSN, input the action through POS or MACADE.
+b. Payee is an institution
+Input the COA via eRPS (MS INTRANETERPS 014.006) and it will automatically update
+all associated title II and title XVI records (records correctly established on the
+eRPS).

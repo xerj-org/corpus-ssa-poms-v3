@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 01703.500 - Totalization and HI/SMI Entitlement
+Effective Dates: 04/27/2016 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703500 (fetched 2026-10-04)
+
+B. Process - HI entitlement
+A TSC code of A1 on the MBR prevents automatic HI enrollment of any entitled wage
+earner who does not meet the insured status requirements based only on U.S. coverage
+or any totalization beneficiary who is entitled on the record of such a wage earner.
+Establishing entitlement to HI for a beneficiary entitled on an earnings record with
+a TSC of A1 requires a determination by a claims authorizer except where the beneficiary
+is also entitled to a nontotalization benefit. See GN 01701.140for possibilities for
+HI entitlement for totalization beneficiaries.
+The PEPPER program produces alerts for beneficiaries with a TSC of A1. These alerts
+are generated at age 64 years and 6 months and every month thereafter until an action
+is taken. The PEPPER program cannot determine whether a totalization beneficiary is
+eligible for HI/SMI. Thus, it alerts the case for a manual review. These alerts, identified
+as “Totalization Case - Man Act Nec (Code 64)” are initially the responsibility of the EIE in the totalization modules.

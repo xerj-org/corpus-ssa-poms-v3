@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 01320.430 - Effect of Spouse-to-Spouse Deeming on Optional State Supplementation
+Effective Dates: 12/02/2024 - Present | TN 60 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501320430 (fetched 2026-10-04)
+
+F. Documentation
+1. Automated Spouse-to-Spouse Deeming Cases
+The system will compute SSI eligibility and payment amount in cases involving deeming from an
+ineligible spouse, unless an exclusion from fully automated spouse-to-spouse deeming
+applies. It is unnecessary to document the claims file in automated deeming cases.
+2. Manually Computed Spouse-to-Spouse Deeming
+If a case is excluded from automated spouse-to-spouse deeming the deeming computation may be performed on-line using the revised deeming mask format.
+See Modernized System Operations Manual (MSOM ICFT16 003.001) for instructions for using the revised deeming masks for eligibility and payment
+computations. The file may be documented with a printout of the deeming computation.
+3. Monthly Deeming Worksheet
+A monthly deeming worksheet may be used in lieu of the on-line deeming eligibility
+and payment computations when the case is excluded from automated spouse-to-spouse
+deeming. The worksheet (form SSA-3123) in H. below may be used to document both Federal
+benefits and State supplement amounts payable in spouse-to-spouse deeming cases involving
+a State supplement for months beginning October 1988. Use form SSA-8015 (SI 01320.710.) only for months prior to October 1988 in cases involving a State supplement.

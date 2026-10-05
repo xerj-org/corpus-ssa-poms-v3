@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.308 - Coding Sweden Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402308 (fetched 2026-10-04)
+
+E. Description of Sweden bank data
+The data to code IDD for Sweden comes from the International Bank Account Number (IBAN)
+provided to the beneficiary from his or her FI. The full length of the IBAN for Sweden
+consists of 24 characters.

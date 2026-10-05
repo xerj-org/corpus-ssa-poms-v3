@@ -1,0 +1,133 @@
+SSA Program Operations Manual System (POMS) - SI 02101.025 - Basic Requirements of Supplemental Security Income Underpayment Review
+Effective Dates: 12/03/2024 - Present | TN 36 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101025 (fetched 2026-10-04)
+
+D. How the system processes underpayments of $15,000 - $49,999.99
+1. Underpayment withheld
+When the system computes an underpayment of $15,000 - $49,999.99, it holds the underpayment
+and sets a U2 diary until the reviewer releases the underpayment.
+After the prepayment review, the reviewer accesses the Direct SSR Update to provide
+authorization for release of the underpayment through the UOUP screen. To view the
+UOUP screen, refer to MS 00304.018. The reviewer releases the underpayment to the
+individual or representative payee (payee) unless one of the listed criteria are met:
+•
+Interim Assistance Reimbursement (IAR) applies, per SM 01311.662;
+•
+Direct fee payment to an authorized representative, per SM 01311.664;
+•
+Installment only payments (the system will automatically release the payments), per
+SM 01311.668; or
+•
+Dedicated account case (the system will set all appropriate diaries, issue an alert
+and release an automated notice to the payee), refer to SI 01130.601 and SM 01311.667.
+NOTE: For underpayments of $50,000 or more, refer to SI 02101.055.
+2. Underpayments released
+The system releases an underpayment of $15,000 or more (except in dedicated account
+cases) after:
+•
+Completion of the UOUP screen. For UOUP screen information, refer to MS 00304.018
+and SM 01311.661 (PE);
+•
+Force due(s). For instructions on when to use force due procedures, refer to SM 01701.001;
+or
+•
+One-Time Payment(s) (OTPs). For instructions on the OTP process, refer to SM 01901.001
+and MS 00303.025.
+3. Cases involving Interim Assistance (IA)
+For cases involving IA, refer to the instructions listed:
+•
+SI 02003.020 Field Office Processing of IAR Authorization
+•
+SI 02003.022 Processing eIAR Field Office Intervention Cases
+•
+SI 02003.023 Processing eIAR Exception Cases
+•
+SI 02003.025 IAR Payment Processing for Exception Cases and Proration Cases
+•
+SM 01005.623 Grant Reimbursement (GR) Field
+•
+SM 01005.627 Exception Processing (GR)
+•
+SM 01311.662 Processing Interim Assistance Reimbursement (IAR) from an SSI Underpayment
+4. Cases involving dedicated accounts or installment payments
+For cases involving dedicated accounts or installment payments, refer to the instructions
+listed here:
+•
+SI 02101.010 Past-Due Benefits Payable – Individual Alive Under Age 18 with Representative Payee
+– Dedicated Account Required
+•
+SI 02101.020 Large Past-Due Supplemental Security Income Payments by Installments – Individual
+Alive
+•
+SM 01301.450 Special Action Code (SZ)
+•
+SM 01311.661 How to Resolve a U2 Diary to Release Underpayments of $15,000.00 or More
+5. Alerts and diaries for underpayment review
+The system generates the listed diaries and alerts associated with underpayment reviews:
+Diary
+Condition
+U1
+Underpayment is greater than $14,999.99 and less than $50,000; option ‘RELEASE UNDERPAYMENT/LOW
+RISK' selected from the Underpayment Processing (UOUP) screen; and the Low Risk Profile
+(LRP) criteria were not met.
+U2
+Underpayment is greater than $14,999.99 and less than $50,000.
+U3
+Underpayment exceeds $49,999.99 after we have issued the second installment payment.
+U4
+NOT AUTOMATED DEATH
+Indicates the record contains a verification code of ‘U' in the UPV field of the MPMT
+segment (UPV:U).
+AUTOMATED DEATH
+Posted when a record's composition changes from eligible couple to eligible individual
+due to the death of one member of the couple.
+After the reviewer selects the appropriate code from the UOUP screen, the system may
+set additional diaries and generate additional alerts for installment and or dedicated
+account cases as shown in the chart:
+Diary
+Condition
+EA
+Dedicated account - awaiting account establishment and payment.
+IN
+Dedicated account - Installment – automated one-time payment (A-OTP) required.
+I9
+IAR FO Intervention
+Within 25 workdays from the FO transmission of the UOUP transmission and the IA agency
+eIAR transmission, eIAR requests FO intervention (assistance).
+eIAR detects possible missing or erroneous SSR computations. eIAR is awaiting the
+FO review and corrections, if applicable, to the IAR Automated One-Time Payment (A-OTP)
+One-Time Payment Amount (UPOP) utility screen.
+Alert
+Condition
+E1
+Dedicated account - EA diary
+pending - awaiting account establishment and payment.
+I6
+Dedicated account - Installment - IN diary pending A-OTP required for installment
+payment.
+For instructions on resolution of these diaries and alerts, refer to the instructions
+listed:
+•
+SI 02003.022 Processing eIAR Field Office Intervention Cases
+•
+MS 00303.024 One Time Payment Amount (UPOP)
+•
+SM 01005.470 SZ Edits and Alerts
+•
+SM 01301.450 Special Action Code (SZ)
+•
+SM 01301.470 SZ Reject and Alert Conditions – Procedure
+•
+SM 01311.660 Overview of SSI Underpayment Processing
+•
+SM 01311.661 How to Resolve a U2 Diary to Release Underpayments of $15,000.00 or More
+•
+SM 01311.662 Processing Interim Assistance Reimbursement (IAR) from an SSI Underpayment
+•
+SM 01311.668 Processing Payments in Installments from an SSI Underpayment
+•
+SM 01311.669 How to Resolve a U1 Diary
+•
+SM 01311.670 How to Resolve a U3 Diary
+•
+SM 01311.675 How to Resolve a U4 Diary

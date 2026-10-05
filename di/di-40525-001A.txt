@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - DI 40525.001 - Failure to Cooperate- Insufficient Evidence (FTC) Decision and Whereabouts Unknown (WU) During a Continuing Disability Review (CDR)- Program Service Center (PSC)
+Effective Dates: 04/02/2007 - Present | TN 3 (09-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525001 (fetched 2026-10-04)
+
+A. FTC and WU Policy
+When the Social Security Administration (SSA) conducts a CDR, or there is a question
+about whether an individual continues to be disabled, the individual has a responsibility
+to provide SSA with medical or other evidence. In claims for title XVI disabled children,
+this responsibility ultimately rests with the applicant or representative payee (usually
+the child's parent or other caregiver).
+An FTC or WU issue may arise at any time during the CDR when a disabled individual
+cannot be located, does not furnish medical or other evidence, or fails to attend
+a scheduled physical or mental consultative examination by a certain date.
+An individual's FTC, without good cause, or whereabouts unknown are reasons to suspend
+or cease benefits only when there is insufficient evidence to justify a continuance.
+1. Field office (FO) streamlined FTC CDR process
+On January 27, 2007, SSA implemented a streamlined medical CDR FTC process for the
+FO. If the beneficiary does not comply with the FO's request for information or evidence
+needed during a medical CDR, the FO suspends benefits. If the FO's suspension input to the Disability Control File (DCF) fails,
+the PSC must take manual action using MACADE to suspend title II benefits and create
+the DEV CDR line on the Master Beneficiary Record (MBR) (For information on CDR transaction,
+see SM 03005.110 ). The FO is responsible for correcting the suspension inputs for
+title XVI. If the beneficiary does not cooperate during the 12-month suspension period,
+benefits automatically terminate effective the 13th month. During the suspension period,
+the CDR remains in the FO. The DDS does not receive the CDR during this period until
+the beneficiary submits the requested information.
+The streamlined process does not apply to claims that have been transferred to the
+DDS for a determination. For FTC that arises while the CDR is at the DDS, the DDS
+follows DI 28075.005.
+For additional information on FO FTC procedures during a CDR, see DI 13015.001-DI 13015.005.
+NOTE: The streamlined FTC process does not apply to Work CDRs or extended Medicare cases.
+For FTC in initial disability claims, see DI 11018.005.
+2. Beneficiary's whereabouts are unknown
+WU occurs when there is a question about whether a beneficiary or recipient continues
+to be disabled and we are unable to find him or her after exhausting all reasonable
+efforts to locate the beneficiary or recipient as described in Whereabouts Unknown
+(WU) Determinations and Reinstatement Procedures for Continuing Disability Review
+(CDR)- Field Office (FO) DI 13015.013. A WU issue may arise at any point during the CDR.
+Only when there is insufficient evidence to justify a continuance, we will terminate
+benefit payments for the first month in which the FO,DDS, or PSC discovers that the
+beneficiary's whereabouts are unknown, but no earlier than the month in which the
+continuing disability issue arose.
+NOTE:
+Title II WU is a non-medical cessation of benefits. For title XVI, WU is a technical
+suspension of benefits. For more information, see DI 13015.011A.2.
+3. Medical improvement review standard (MIRS) and exceptions
+The DDS evaluates CDRs under the MIRS process. The MIRS states that an individual's
+period of disability continues unless evidence shows medical improvement (MI) in his
+or her prior impairment(s) since the last favorable disability determination and the
+individual can now engage in substantial gainful activity (SGA), where relevant, unless
+an exception applies.
+The law provides for exceptions where disability can be found to have ended without
+evaluating MI.
+Among the exceptions to the MIRS requirement for MI are the following:
+•
+FTC- Failure to comply with requests to take an action or to provide evidence, without
+good cause or,
+•
+WU-We are unable to find the individual to determine if disability continues
+For more information on the MIRS exceptions, see
+DI 28020.001 General-Groups I and II of Exceptions to Medical Improvement (MI)
+DI 28020.900 Group II Exceptions
+4. Cessation or suspension month
+When there is not enough evidence to justify a continuance in FTC cases (streamlined
+suspension process described above does not apply) and in WU cases, we will cease
+benefit payments in the first month in which:
+a. FTC
+The individual, without good cause, does not provide the requested information or
+evidence within the specified period and the development steps have been taken in
+DI 13005.025 and DI 13005.030.
+When FTC arises at the DDS, the DDS makes a medical determination based on the available
+evidence. If there is insufficient evidence, the DDS makes a cessation determination.
+b. WU
+SSA or DDS learns that the individual's whereabouts are unknown, but no earlier than
+the month in which the continuing disability issue arose. This is a non-medical title
+II cessation or technical title XVI suspension of benefits, determined by the FO.
+If the FO's input to cease title II benefits for WU does not process, the FO contacts
+the PSC via the modernized development worksheet (MDW) process for assistance. To
+avoid a beneficiary receiving payments not due to him or her, the PSC must take immediate
+action to input the cessation determination.
+5. Good cause
+If, after the FTC or WU cessation, the beneficiary makes contact with SSA, he or she
+can file an appeal if within the appeal period or file a new claim. For more information,
+see also DI 40525.001E in this section. If the appeal period expired, determine whether an individual has
+good cause for not responding to our requests, and consider the individual's limitations,
+i.e. physical, mental, educational, and verbal (including any lack of facility with
+the English language). For general guidelines regarding good cause determinations,
+see GN 03101.020. For special handling considerations, see DI 13005.025B.
+Statutory benefit continuation (SBC) does not apply to FTC or WU cessations. If the
+FO finds good cause in accepting a late appeal request, the appeal is routed to the
+office of jurisdiction (DDS or OHO).
+NOTE: For title XVI WU reinstatements, refer to DI 13015.013B.

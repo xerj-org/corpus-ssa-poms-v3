@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.318 - Coding Cayman Islands Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 223 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402318 (fetched 2026-10-04)
+
+G. Example of coding Cayman Islands direct deposit
+The customer provides us with a signup form for Cayman Islands containing the account
+number: “123456789011.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN: 700000096
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “H” designated for Cayman Islands; and
+•
+Code the up to 12-digit account number “123456789011”
+a. Obtain the following information:
+•
+RTN: 700000096
+•
+Checking
+•
+DAN: H123456789011
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000096 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects the following information
+•
+RTN-700000096
+•
+DAN-CH123456789011

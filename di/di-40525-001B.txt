@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - DI 40525.001 - Failure to Cooperate- Insufficient Evidence (FTC) Decision and Whereabouts Unknown (WU) During a Continuing Disability Review (CDR)- Program Service Center (PSC)
+Effective Dates: 04/02/2007 - Present | TN 3 (09-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440525001 (fetched 2026-10-04)
+
+B. PSC procedures in a FTC or WU case
+1. Development during a CDR
+If the FTC or WU issue arises during the course of PSC development, request the FO
+assistance in locating or obtaining cooperation from the beneficiary via the MDW or
+paper form SSA-5526-U3.
+The FO follows CDR development procedures in DI 13005.025 and DI 13015.005 for FTC and DI 13015.011 for WU.
+2. FO FTC suspension input in the DCF
+If the FO has taken all necessary actions, including the DCF input to place the beneficiary
+in suspense (S0 -CDRFTC suspension code), and the DCF input fails, the exception generates
+a paperless alert to the PSC for action.
+If the alert is not resolved by 15 days, the FO sends a follow up request to the PSC
+via the (MDW). PSC must take manual action to suspend benefits (see SM 03005.110 Continuing
+Disability Review Transactions). Suspend benefits effective the first month that does
+not cause an overpayment. Ensure the MBR reflects the following data:
+•
+LAF S0
+•
+RFST (Reason for suspension/termination) CDRFTC for a medical CDR failure to cooperate-insufficient
+evidence decision.
+•
+DEV CDR line- Suspense Start- MM/YYYY; Suspense Reason-FTC-Medical
+Develop Continuing Disability (CDIB) Data for suspension data applicable to other
+CDR issues, see SM 00883.235.
+3. Beneficiary cooperates while in FTC suspension
+If the beneficiary submits the requested information while in suspense, the FO will
+complete the CDR and transfer the CDR to DDS for a medical determination. The FO's
+transfer input in the DCF triggers an MBR update to resume benefits.
+If the DCF resumption action fails, the exception alert will generate to the PSC of
+jurisdiction. The PSC must initiate manual reinstatement to resume benefits. For information
+on systems inputs see Continuing Disability Review Transactions SM 03005.110 .
+If all factors of entitlement are met, retroactive benefits are paid to the beneficiary
+and auxiliaries starting with the first month of suspension.
+If the beneficiary provides the requested CDR information but the FO cannot send the
+case to the DDS (e.g. there is an administrative delay on forwarding CDRs to the DDS)
+benefits need to be reinstated if the beneficiary is otherwise eligible for title
+II benefits. The FO will contact the PSC through established office procedures. The
+PSC should initiate manual reinstatement, see SM 03005.110.
+4. FO locates beneficiary
+Upon the FO's receipt of the PSC's request for assistance in a possible WU CDR, the
+FO will follow development procedures in DI 13015.013. If the individual is located and the FO obtains the necessary information, the FO
+transfers the medical CDR to the DDS for a determination.
+5. Individual's whereabouts are still unknown
+If the FO's attempts to locate the beneficiary are unsuccessful, the FO accepts jurisdiction
+and prepares the title II cessation determination, see DI 13015.013.
+6. Folder or material received in the PSC
+If the PSC receives material from another FO, forward the folder to the servicing
+FO for their action.

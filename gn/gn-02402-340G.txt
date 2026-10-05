@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - GN 02402.340 - Coding Poland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/03/2018 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402340 (fetched 2026-10-04)
+
+G. Examples of coding Polish direct deposit to the MBR
+1. Example 1
+Five days before the direct deposit cutoff, the FBU in Warsaw receives a completed
+enrollment form for a USD checking account at a bank in Poland that is on the acceptable
+list. The IBAN is as follows:
+PL 12 1240 1125 1787 0000 1234 5678
+The FBU technician codes the full information on ITS.gov , but does not need to code directly to the MBR because it isn’t within three days
+of the cutoff. In three days, the following information appears on the MBR:
+RTN: 701240114
+DAN: CE2517870000123456
+(The system has placed the C in the DAN field because the FBU selected “Checking”
+in “Type of Account.” The technician must never code a C or S for checking or savings at the beginning of the DAN field.)
+2. Example 2
+Three days before the cutoff date for direct deposit, OEIO receives an enrollment
+form for an individual in Poland. The form, from one of the banks the FBU has approved
+for IDD to Poland, contains the following information:
+Poland
+Code
+Two Check Digits
+Bank-Branch Code
+Account Number
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+P
+L
+1
+2
+1
+2
+4
+0
+1
+0
+3
+7
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+The DIO technician codes the full IBAN information to ITS.gov and then begins the coding on SSA's direct deposit screens. They begin the RTN field
+with 70, skips PL and the two check digits (12), then codes the first six digits of the Bank-Branch Code (124010). Adds the U.S. check digit (1) at the end, making the RTN 701240101.
+The technician then begins the DAN field with E, the country code for Poland with the contractor bank that uses 70 as the prefix
+at the front of the RTN field. Next adds the final two digits of the Bank-Branch Code
+(37), and finishes with the first 14 digits of the Account Number (12345678901234).
+The DAN is now E3712345678901234.
+3. Example 3
+DIO receives a letter from a beneficiary in Poland asking to have their direct deposit
+changed to a USD account at Bank PEKAO SA. The IBAN is given as the following:
+PL 23 1240 1024 1787 0010 1234 5678.
+DIO notes that it is very near the cutoff date for direct deposit. The technician
+begins with the SSA direct deposit screens, so the IDD information will be on the
+MBR in time for the cutoff.
+•
+RTN: The technician begins the RTN with 70, the contractor's prefix for Poland, then he skips over the first four characters
+of the IBAN (PL23), and follows the 70 with the next six digits (124010). This makes the RTN 70124010, so far. The technician adds the check digit of 1, so the full RTN is 701240101.
+•
+DAN: The technician places an E at the start of the DAN field, to show this is for Poland and skips over PL (23) and the digits already coded. Codes the next 16 digits (2417870010123456). The DAN is now E2417870010123456.
+After transmitting the information to the MBR, he codes the full information on ITS.gov .
+4. Example 4
+DIO receives an enrollment request from an individual to have IDD to a zloty account
+at a bank in Poland. DIO returns the enrollment form with an explanation indicating
+that we are sending payments only to USD accounts in Poland. DIO includes a new form
+and informs the individual to send a completed form to the FBU in Warsaw if they have
+a USD account.
+5. Example 5
+An individual who lives in Poland, is visiting their sister in the U.S. The sister
+talks into requesting direct deposit to his U.S. dollar bank account in Poland. She
+takes him to the servicing FO in Huntington Park, California, where the service representative
+checks the bank data and sees that this is an approved bank for IDD. The service representative
+asks if they can read English, and they say it would prefer the form in Polish, if
+possible. She prints both form SSA-1199-PO and form SSA-1199-PO-OP1, so she can use
+the English translation to assist, if necessary. Mr. V completes and signs the Polish
+language form. After reviewing it to be sure it has all the necessary information,
+the service representative faxes the completed form to OEIO’s paperless fax number.

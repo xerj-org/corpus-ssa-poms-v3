@@ -1,0 +1,82 @@
+SSA Program Operations Manual System (POMS) - GN 00204.020 - Scope of the Application
+Effective Dates: 10/19/2023 - Present | TN 178 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204020 (fetched 2026-10-04)
+
+E. Procedure for restricting the scope of an application
+The claimant may restrict the application by answering certain questions on an application
+or by signing an unequivocal statement. For examples of unequivocal statements, see
+GN
+00204.020D.2 in this section.
+Record the claimant’s statement to restrict the scope of the application on the RMKS
+screen of MCS so that we capture it under the claimant’s signature or attestation.
+1. Restricting a WIB claim to exclude RIB
+When a claimant files for WIB and wants to exclude RIB from the application, they
+must answer “No” to the question “If claimant is filing as a surviving spouse, is
+the claimant filing for benefits on own record?” on the Additional Benefits (ADDB)
+screen. MCS will generate the following statement on the application summary:
+“I do not want this application to be considered an application for retirement benefits
+on my own earnings record.”
+2. Restricting a WIB claim to exclude WIB on a different record
+When a widow(er) is eligible for WIB on more than one record and wants to restrict
+the scope of the application to WIB on one record, you must include an unequivocal
+statement on the remarks section of the application.
+3. Restricting a RIB claim to exclude DIB
+When an RSI claimant is disabled, determine if they want to exclude DIB from the scope
+of the application, follow the procedures for developing entitlement for DIB in GN 00205.035.
+4. Restricting a WIB or surviving divorced spouse claim to exclude RIB
+A widow(er) or surviving divorced spouse may wish to exclude a reduced RIB from the
+scope of the application and defer filing for an unreduced RIB because of the benefit
+increases payable after FRA because of DRCs. See RS 00615.690 for more information on DRCs.
+a. Statement to restrict the scope
+When a widow(er) or surviving divorced spouse wishes to exclude RIB from the scope
+of their application, you must obtain an unequivocal statement to exclude the RIB,
+such as:
+“I do not wish this application to be considered an application for retirement benefits
+on my own earning’s record.”
+MCS will generate this statement onto the application summary when the response is
+“No” to the question:
+“If claimant is filing as a surviving spouse, is claimant filing for benefits on own
+record?”
+This question is located on the Additional Benefits (ADDB) screen. For more information
+on the ADDB screen, see MS MCS 005.012C.
+b. Notices
+In the paragraph Future Benefits – Own Retirement Benefit (universal text identifier
+(UTI) FOB003), the award notice advises the claimant to contact SSA upon attainment
+of FRA. The interviewer should also review and explain the question of unreduced RIB
+entitlement and DRCs.
+5. When the MCS claim is for the benefit to be excluded
+a. Claim completed but not signed
+Delete the unsigned MCS claim per MCS 017.002 if the claimant later decides to restrict
+the scope of the application.
+b. Claim completed and signed but not adjudicated
+•
+Discuss the withdrawal procedures as appropriate per GN 00206.000, or
+•
+Manually clear (MANCLR) the claim by following the instructions in MCS 020.004. Use
+this procedure only if a claim was erroneously established before the restriction
+of the application. Document the reason for manually clearing the claim on the RPOC
+or DW01 screen.
+c. Claim adjudicated
+Process a withdrawal in accordance with GN 00206.000. A withdrawal is not always in the best interest of an individual because the claimant
+forfeits all rights flowing from the application. In addition, a subsequent application
+may not cover the same retroactive period.
+d. Claim filed on the internet (iClaim) but NOT adjudicated
+When the technician establishes an iClaim RIB application on MCS before identifying
+the claimant’s intent to file for AUXSPO benefits only, the technician must:
+•
+MANCLR the erroneously propagated RIB claim,
+•
+Document the reason on the RPOC screen in MCS, and
+•
+Subsequently establish the AUXSPO claim on MCS.
+For instructions on establishing a new claim and manually clearing the iClaim refer
+to GN
+00204.055H.3.b.
+6. Restricting the scope of an iClaim application
+When eligible, a claimant can restrict their iClaim application to spouse’s benefits
+only by answering, “Yes” to the iClaim question: “If you are eligible for both retirement
+benefits and spouse’s benefits, do you want to delay receipt of retirement benefits?”
+Therefore, you do not have to type a statement on the RMKS screen in MCS. The claims
+specialist (CS) must re-contact the claimant to discuss delaying RIB for AUXSPO and
+document the discussion on the RPOC screen. To see how the information from iClaim
+propagates to MCS refer to GN 00204.055.

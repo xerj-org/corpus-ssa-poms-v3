@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.484 - Coding Burkina Faso Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/28/2025 - Present | TN 305 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402484 (fetched 2026-10-04)
+
+G. Examples of coding Burkina Faso direct deposit
+The customer provides us with the account number: 12345678901122334455667788990
+1. Derive the RTN
+•
+The technician enters the information for the RTN.
+•
+Code the RTN of 750000156
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+•
+The technician codes the DAN.
+•
+Start with the country code of “S” designated for Burkina Faso; and
+•
+Code 16-digits of the 29-digit account number “1234567890112233.”
+3. Obtain the following
+•
+RTN: 750000156
+•
+Checking
+•
+DAN: S1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000156 ACCOUNT TYPE (C/S): C or S
+•
+DEPOSITOR ACCOUNT NUMBER: S1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y)
+•
+DIRECT EXPRESS (Y)
+b. MBR reflects the following information
+•
+RTN- 750000156
+•
+DAN- CS1234567890112233

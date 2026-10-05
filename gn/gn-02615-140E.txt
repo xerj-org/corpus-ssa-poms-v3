@@ -1,0 +1,221 @@
+SSA Program Operations Manual System (POMS) - GN 02615.140 - Medicare Relief for <Italic>Clark</Italic> Class Members
+Effective Dates: 01/04/2024 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615140 (fetched 2026-10-04)
+
+E. PC procedure and processing instructions for Clark class members who get the Medicare relief
+If the beneficiary meets the requirements for Medicare relief, follow the instructions
+in this subsection based on the beneficiary’s current Medicare entitlement situation.
+For instructions on changing enrollment data on MACADE screens, see SM 00850.010C.
+1. No Medicare Part B
+If the beneficiary is not currently enrolled in Medicare Part B and is eligible to
+enroll, establish Part B entitlement effective with COM. Give the option to refuse
+Part B, and give the option to enroll retroactive to the Part B termination date,
+or if the beneficiary refused Part B, to the first month of Part B eligibility. Take
+the following actions:
+a.
+Code the following Manual Adjustment Credit and Award Data Entry (MACADE) System SMI
+screen entries:
+•
+START = COM
+•
+BASIS = as shown in previous period on MBR
+•
+FILING = month prior to COM
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if beneficiary refused Part B. If the prior period termination date or refusal date
+are less than 6 months before COM, then code the NON EQIT START date equal to COM.
+NOTE: Previous period refers to the period of Part B entitlement that the beneficiary
+refused or terminated after the Clark suspension.
+b.
+Include Clark Medicare paragraphs in the notice.
+NOTE: Sequencing charts and paragraphs are in GN 02615.140F in this section.
+c.
+Add a Special Message (SP MSG) to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+2. General Enrollment Period (GEP) with premium surcharge
+If the beneficiary already enrolled in Medicare Part B during a GEP, after:
+•
+refusing Part B,
+•
+terminating for nonpayment of premiums, or
+•
+voluntarily withdrawing from Medicare Part B, and is paying a premium surcharge, remove
+any late enrollment surcharge incurred in connection with the nonpayment of benefits
+based on PPV and give the option to enroll retroactive to the Part B termination date,
+or if the beneficiary refused Part B, to the first month of Part B eligibility.
+Take the following actions, but note that when the GEP is already on the MBR, the
+SMI occurrences will propagate and be overlaid with the following data:
+a.
+Code the following MACADE SMI screen entries:
+•
+START = SMI Start of current period on MBR (GEP start) or COM if the case is worked
+prior to COM 07/2013 and 07/2013 is the GEP START on the MBR. To overlay 2013 GEP
+follow coding in GN 02615.140E.1. in this section.
+•
+BASIS = as shown on MBR
+•
+FILING = as shown on MBR, January, February, or March
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if beneficiary refused Part B.
+b.
+Code the following MACADE SMI PREMIUM HISTORY (SPH) screen entries:
+•
+START = GEP start date (e.g., 07/2010)
+•
+PENALTY PERCENTAGE = 000
+NOTE: If there was a penalty on the MBR prior to the termination addressed here, then
+roll the current penalty back to the prior amount instead of zero.
+NOTE: If there is an earlier SMI period on SPH with a penalty of “000”, delete the penalty
+surcharge and the GEP Start date from the SPH screen.
+c.
+Include Clark Medicare paragraphs in the notice. Sequencing charts and paragraphs are in GN 02615.140F in this section.
+d.
+Add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+3. GEP with no premium surcharge
+If the beneficiary already enrolled in Medicare Part B during a GEP, after refusing
+Part B, terminating for nonpayment of premiums, or voluntarily withdrawing from Medicare
+Part B, give the option to enroll retroactive to the Part B termination date, or if
+the beneficiary refused Part B, to the first month of Part B eligibility. Take the
+following actions:
+a.
+Code the following MACADE SMI screen entries:
+•
+START = SMI Start of current period on MBR (GEP start) or COM if the case is worked
+prior to COM 07/2013 and 07/2013 is the GEP START on the MBR. To overlay 2013 GEP
+follow coding in GN 02615.140E.1. in this section.
+•
+BASIS = as shown on MBR
+•
+FILING = as shown on MBR, January, February, or March
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if the beneficiary refused Part B
+b.
+Include Clark Medicare paragraphs in the notice. Sequencing charts and paragraphs are in GN 02615.140F in this section.
+c.
+Add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+4. Third-party buy-in
+If a third party bought in after the beneficiary refused Medicare Part B, Part B terminated
+for nonpayment of premiums, or voluntarily withdrew from Part B, give the option to
+enroll retroactive to the Part B termination date, or if the beneficiary refused Part
+B, to the first month of Part B eligibility.
+Example of third-party buy-in after Part B terminated for nonpayment of premiums:
+Part B terminated for nonpayment of premiums January 2011. Third party bought in February
+2012. Offer the beneficiary Medicare Part B retroactive to the date of Part B termination.
+Take the following actions:
+a.
+Code the following MACADE SMI screen entries:
+•
+START = date 3rd party bought in
+•
+BASIS = as shown on MBR
+•
+FILING = as shown on MBR
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if the beneficiary refused Part B. If the prior period termination date or refusal
+date is less than 6 months before the 3rd-party buy-in date, then code the NON EQIT START date equal to the date 3rd party bought in.
+b.
+Include Clark Medicare paragraphs in the notice. Sequencing charts and paragraphs are in GN 02615.140F in this section.
+c.
+Add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+5. Beneficiary in developmental suspense
+If the beneficiary is in developmental suspense, e.g., S6 or S8, place an SP MSG on
+the MBR advising that when development is complete, process Medicare relief per GN 02615.140E in this section.
+6. Deceased beneficiaries
+Do not establish Part B entitlement effective COM for deceased beneficiaries.
+Notify survivors of the option to enroll on behalf of the deceased beneficiary retroactive
+to the Part B termination date, or if the beneficiary refused Part B, to the first
+month of Part B eligibility.
+Take the following actions:
+•
+use HIB273, and HIB277 to notify the survivor of the option to elect Part B retroactive
+to the Part B termination date, or if the beneficiary refused Part B, to the first
+month of Part B eligibility. Do not include Appeals language if this Medicare language
+is the only information in the notice;
+•
+add an SP MSG to the MBR with the earlier date offered; and
+•
+add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+If the deceased beneficiary enrolled in Medicare Part B during a GEP:
+•
+remove any late enrollment surcharge incurred in connection with the nonpayment of
+benefits based on PPV,
+•
+notify survivors of the option to enroll on behalf of the deceased beneficiary retroactive
+to the Part B termination date, or
+•
+if the beneficiary refused Part B, to the first month of Part B eligibility.
+Take the following actions:
+a.
+Code the following MACADE SMI screen entries:
+•
+START = GEP start date
+•
+BASIS = as shown on MBR
+•
+FILING = as shown on MBR, January, February, or March
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if beneficiary refused Part B. If the prior period termination date or refusal date
+are less than 6 months before GEP, then code the NON EQIT START date equal to GEP
+start date.
+b.
+Code the following MACADE SPH screen entries:
+•
+START = GEP start date (e.g., 07/2010)
+•
+PENALTY PERCENTAGE = 000
+NOTE: If there was a penalty on the MBR prior to the termination addressed here, then
+roll the current penalty back to the prior amount instead of zero.
+c.
+Use HIB275, HIB273, and HIB277 to notify the survivor of the option to elect Part
+B retroactive to the Part B termination date, or if the beneficiary refused Part B,
+to the first month of Part B eligibility. Do not include Appeals language if this
+Medicare language is the only information in the notice.
+d.
+Add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”
+If a third party bought in after the deceased beneficiary refused Medicare Part B,
+Part B terminated for nonpayment of premiums, or voluntarily withdrew from Part B,
+notify survivors of the option to enroll on behalf of the deceased beneficiary retroactive
+to the Part B termination date, or if the beneficiary refused Part B, to the first
+month of Part B eligibility.
+Take the following actions:
+a.
+Code the following MACADE SMI screen entries:
+•
+START = date 3rd party bought in
+•
+BASIS = as shown on MBR
+•
+FILING = as shown on MBR
+•
+EQUIT RELIEF = G
+•
+NON EQIT START = termination date of previous period or first month of Part B eligibility
+if the beneficiary refused Part B
+b.
+Use HIB275, HIB273, and HIB277 to notify the survivor of the option to elect Part
+B retroactive to the Part B termination date, or if the beneficiary refused Part B,
+to the first month of Part B eligibility. Do not include Appeals language if this
+Medicare language is the only information in the notice.
+c.
+Add an SP MSG to the MBR:
+“CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED”

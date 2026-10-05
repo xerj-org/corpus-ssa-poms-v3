@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 13050.085 - Appeals Process Under Expedited Reinstatement (EXR)
+Effective Dates: 10/07/2010 - Present | TN 22 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050085 (fetched 2026-10-04)
+
+E. Procedure for system inputs
+1. Title II
+Use the Post-Entitlement Online System (POS) to record an appeal of an EXR medical
+denial. Refer to MS 06303.024 through MS 06303.026 for detailed input instructions.
+Take the following actions:
+•
+From the POS main menu select 6, disability cessation;
+•
+On the PEC1 screen, select 1 for medical cessation;
+•
+On the PEC2 screen, input the date of the appeal request and select 3 for reconsideration
+request without payment continuation; and
+•
+On the PECN screen, select 1, Decision Notice Released-Additional Systems Notices
+Possible.
+Add a special message to the MBR to indicate the status of an appeal of a non-medical
+issue in an EXR case. Indicate the appeal level, date the appeal was filed, SSA employee
+identifier (such as unit code or last name) and field office code. Indicate in subsequent
+special messages the outcome of the appeal and any further appeals activity. Also
+document the reconsideration determination on the IRMK screen of the DCF.
+NOTE: If the case is an EDCS exclusion, select Y to record folder movement and indicate
+destination of folder on the next screen.
+2. Title XVI
+Use the Direct SSR update to record an appeal of an EXR medical denial. Refer to MS
+04420.002 through MS 04420.026 for detailed input instructions.

@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 02305.023 - Diaries - RZs and LIs
+Effective Dates: 09/11/2015 - Present | TN 57 (01-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305023 (fetched 2026-10-04)
+
+B. Procedure
+Resolve all priority diaries and clear them with the RZ. See SM 01301.210 and MSOM
+BUSSR 002.019 for a description of diary processing for non-MSSICS cases. See SM 01301.205
+for diary clearance procedures in MSSICS.
+See SI 02305.034 for development requirements for diaries posted to the SSR after the RZ has been
+initiated.
+NOTE: Failure to clear a priority diary either before posting or when posting the RZ disposition
+code will result in a VP reject. The system will not accept the RZ disposition code
+if the priority diary has not been cleared. For non-MSSICS, clear the diary using
+the Diary Function in Direct SSR Update and do the SSA-1719B input for the RZ/LI clearance
+on the same day.

@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 52165.015 - Deleting Workers’ Compensation/Public Disability Benefits (WC/PDB) Data through Interactive Computations Facility (ICF)
+Effective Dates: 09/25/2008 - Present | TN 2 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165015 (fetched 2026-10-04)
+
+B. How to process a deletion of WC/PDB data from the MBR
+Deleting WC/PDB data requires an ICF input. It is similar to the process for adding
+or changing existing WC/PDB data. Any processing limitation that occurs requires BA/BTE
+action and a MACADE input.
+1.
+Enter function #32 and when you reach the WCPA screen verify that T2 share data is
+present.
+•
+If T2 share data is present, proceed to step 2.
+•
+If T2 share data is not present, create a shared data record using #34 OREO. The WC/PDB
+data entered into Online Record Entry Operation (OREO) can be adjudicated to create
+shared data. Actions adjudicated through OREO will not post to the MBR unless a subsequent
+MACADE action is made, so your input will remain only in ICF. After T2 shared data
+is present re-enter function #32.
+2.
+On the WCPA screen, enter the start date that is present on the MBR on the WCPDBOFF
+line. Choose propagation from the “Adjudicate Record”.
+3.
+Complete the WCGI screen.
+4.
+On the WCCL the claim information equivalent to that shown on the MBR should be propagated
+to you. Enter “Y” in delete field.
+5.
+Enter to the WCAO screen. The “type” should show as “DL” indicating the deletion.
+6.
+If payments have not changed, do not send a notice. On the WCEP screen ENB block code
+“N.” If payments are changing, take appropriate notice action to explain the change.
+7.
+Adjudicate your action.
+8.
+Review the MBR the following day to verify that all WC/PDB information has been removed.
+Exceptions or limitations will be completed by a BA/BTE with a MACADE action.

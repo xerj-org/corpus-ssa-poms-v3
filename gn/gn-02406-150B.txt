@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02406.150 - When to Request Payment after Status C-Stop - Normal and Dire Need Situations
+Effective Dates: 04/01/2008 - Present | TN 129 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406150 (fetched 2026-10-04)
+
+B. How to identify DCN abuse cases
+If the message: “DCN Abuse - Input as C-Stop through mm/yyyy” appears in the RMKS
+or SPMSG field, the case involves someone who has abused the nonreceipt reporting
+system with one or more true DCNs. Technicians should input any allegation of nonreceipt
+as a C-Stop until the 24-month period ends. For a DCN Abuse case, a DCN indicator
+or a denied forgery claim with no pending appeal will be on the record. Or no claim
+of forgery occurred on a DCN overpayment.
+1. Identifying the DCN indicator on the record
+Title II: Review the MBR. The NON REC field will show “DCN MM/YY.” (This does not
+always post to the MBR. However, this field will appear between the Schedule Payment
+(SPC PAY) field and the Hold-Check (HLD CHK) field.)
+Title XVI: Review the SSR. If MSSICS has the message, “ALERT: POSSIBLE DCN - SECOND
+PIN REQUIRED TO REPLACE NOW - PRESS F1 FOR HELP” when transmitting nonreceipt, then
+review the SSR (see GN 02406.150A.3.b. and GN 02406.150A.3.c.).
+2. Identifying if a forgery claim has been denied and no appeal is pending (see also
+GN 02406.150C)
+Title II: Review the ROAR segment of the FACT query to see if DCN abuse is established
+due to a prior or current DCN overpayment. The ROAR record will reflect “TOE–DUPLICATE
+PAYMENT TREASURY.” ROAR will have a transaction code of 23 to indicate a protest of
+a DCN overpayment, then a 27 to indicate the reconsideration was denied (event status
+code is other than due process). No transaction code of 23 will show if the individual
+never protested.
+Title XVI: Review the PMTH Field F for a Forgery Indicator code of C, F or W. If any
+of these codes are present for a payment issued within the past 24 months, process
+a C-Stop. See SM 01601.835C12F for forgery indicator values. Also, look in CMPH for
+TOPs (overpayments) with RSN: DC within the past 24 months, and identify the sequence.
+Review OPDD segment for the Sequence number(s) identified. If there is an overpayment
+collection or recovery decision (D, G, or K TAC) for at least one DCN overpayment
+within 24 months, and no Forgery Indicator of A, B, D, E or I is present for that
+overpayment, transmit a C-Stop; otherwise, a B-Stop.
+3. Identifying when no claim of forgery was made on a DCN overpayment
+Title II: There will be an overpayment on ROAR which reflects “TOE–DUPLICATE PAYMENT
+TREASURY.”
+Title XVI: PMTH Field F for the payment in question should be blank when there is
+no forgery claim. Look in CMPH for TOPs (overpayments) with RSN: DC within the past
+24 months, and identify the sequence numbers. Review OPDD segment for the sequence
+number(s) identified. If there is an overpayment collect or recovery decision (D,
+G, K TAC) for at least one DCN overpayment within 24 months, transmit a C-Stop; otherwise
+a B-Stop.
+NOTE: DA TAC should NOT be considered a collection decision because it appears during
+due process.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02408.670 - Incorrect EFT Payment is Refunded by an Individual
+Effective Dates: 11/03/2008 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408670 (fetched 2026-10-04)
+
+C. Process when refund is posted to beneficiary’s/recipient’s record
+1. Title II partial refund
+The Payment History Update System (PHUS) query shows the amount of the remittance,
+and the Special Payment Amount (SPA) is reduced on the Master Beneficiary Record (MBR)
+and PHUS.
+2. Title II full refund
+Effective 08/22/07, when a SPA overpayment is totally recovered by a direct remittance,
+the beneficiary is in LAF=T1 and EFT data is on the MBR, a Recovery of Overpayments,
+Accounting, and Reporting (ROAR) processing alert “Code U” POSSIBLE RECLAMATION is
+generated. For information about ROAR alerts, see SM 00610.405.
+a
+Review PHUS and the MBR for appropriate action to update the Accounts Receivable System
+(ARS) per SM 00609.850 and SM 00609.865.
+b
+Abandon reclamation per GN 02408.800 when the funds have not been reclaimed.
+3. Title XVI refund
+The refunded money is displayed in the OPRR field on the Supplemental Security Income
+Record (SSR). Abandon reclamation per GN 02408.800 when the funds have not been reclaimed.

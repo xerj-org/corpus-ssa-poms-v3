@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - SI 00832.003 - Review of Prior Anderson Underpayment Determinations
+Effective Dates: 11/19/1996 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500832003 (fetched 2026-10-04)
+
+D. Procedure — Reviewing Cases
+Use the list below to review cases processed under prior Anderson instructions.
+1.
+Prepare an SSA-L1103 to request VA payment information for the Anderson relief period
+per SI 00832.002 C.1.
+2.
+Compare the information VA sends you to the VA payment information presently on the
+SSR. Is the verified monthly amount of VA income in the relief period the same as
+the monthly amount shown on the SSR?
+•
+If yes, input a CG code of “AND2 MMYY”. Issue the form letter displayed in SI 00832.004 F. Skip to 9.
+•
+If no, go to 3.
+3.
+Is the verified monthly amount of VA income in the relief period more than the total
+monthly amount shown on the SSR in the entire period?
+•
+If yes, go to E. below.
+•
+If no, go to 4.
+4.
+Does the recipient have only one record and is that record active (i.e., payment status
+C01, E01, or suspense)?
+•
+If yes to both, input the verified amount of VA income effective with the first month
+of the relief period, and input a CG code of “AND2 MMYY”. Allow the system to process the underpayment. Issue the form letter displayed in
+SI 00832.004 D. at the time of the input, so the recipient receives it before the automated Notice
+of Change in Payment. Skip to 9.
+REMINDER: Do not permit the system to net the underpayment amount against the amount of a prior
+overpayment, per SI 00832.002 C.2.e.
+•
+If no to either, go to 5.
+5.
+Manually compute the correct Anderson underpayment amount per SI 00832.002 D. for all periods covered by terminated or denied records.
+6.
+Subtract the Anderson underpayment previously paid for periods covered by terminated
+or denied records from the result of 5 above to determine the additional underpayment
+now due on these records.
+7.
+Issue the additional underpayment computed in 6 above for all periods covered by terminated
+or denied records per SI 00832.002
+C.2.b.
+8.
+Is there currently an active record?
+•
+If yes, input the verified amount of VA income effective with the first month of the
+active record. Also input a CG code of “AND2 MMYY” . Issue the form letter displayed in SI 00832.004

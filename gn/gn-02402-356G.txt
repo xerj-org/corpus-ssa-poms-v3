@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02402.356 - Coding Brazilian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 02/13/2018 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402356 (fetched 2026-10-04)
+
+G. Example of coding Brazilian direct deposit
+The customer provides us with a signup form for Brazil containing the following information:
+•
+Bank Code: 123
+•
+Branch Code: 4567 and
+•
+Last 12 digits of the IBAN: 890987654321.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of “66” (the multi-country prefix for Brazil);
+•
+3-digit bank code “123”;
+•
+First 3-digits of the branch code “456”;
+•
+1-digit check code (i.e., 8) (obtained from the Title II Interactive Comps); and
+•
+Account type of “C” for checking or an “S” for savings. If no account type indicated,
+use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with “B” designated for Brazil;
+•
+Code the last digit of the branch code “7”; and
+•
+Code the last 12 digits of the IBAN “890987654321."
+3. Obtain the following information
+•
+RTN: 661234568
+•
+Checking
+•
+DAN: B7890987654321
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 661234568 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: B7890987654321
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 661234568
+•
+DAN- CB7890987654321

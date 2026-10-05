@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 01010.260 - Listings, Diaries, and Notices
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010260 (fetched 2026-10-04)
+
+A. Procedure for listings, diaries, and notices
+Input or manually prepare all necessary listings, diaries and notices for claims processed
+in the field office (FO).
+1. Listings
+Add listing codes to claims involving certain types of issues according to pre-assigned
+numbers so that they can be controlled and resolved. Listing codes consist of three
+digits. For instructions on how to enter listing codes via the Modernized Claims System
+(MCS) decision (DECI) screen, see MSOM MCS 009.004. For instructions in establishing
+listings via the Processing Center Action Control System (PCACS) in manually processed
+cases, see MSOM PCACS 001.001.
+Listings input via the MCS DECI screen will interface with PCACS and automatically
+establish the listing.
+Annotate the report of contact (RPOC) screen with the applicable justification and
+listing code.
+2. Diaries
+Establish an appropriate FO control and a separate processing center (PC) diary when you adjudicate a claim but some issue(s)
+requires further development (e.g., partial adjudication). For diary codes and information,
+see GN 01040.010.
+•
+Use internal controls (e.g., Modernized Development Worksheet (MDW)) to establish
+and follow up on FO controls.
+•
+Use the MCS DECI screen to establish PC diaries whenever possible. MCS diaries will
+interface with the PCACS, establish a diary and generate the subsequent follow up
+alert in the PC.
+•
+Annotate the RPOC screen with the related diary evidence Code(s) and a detailed rationale for the issue(s) under development.
+•
+If you process the claim manually, the PC must establish the diary or listing manually
+in the PC. Annotate the diary request on the Benefit Continuity Remarks/Notice (BCRN)
+screen in the Automated 101 (A101) or the Electronic Form (EF101).
+•
+Use a paper report of contact (RC) only if no RPOC screen or other appropriate electronic
+screen is available.
+NOTE: Due to the number of technical issues possible for each diary evidence code, procedural
+description is necessary, see references in GN 01010.260.
+Situations also exist when the interface system between MCS and PCACS does not detect
+the information or the evidence code is not included. Diaries without proper clarification
+from the adjudicator initiating the development, results in improper subsequent follow
+up and may not be clear. You must always annotate the RPOC screen in detail, with
+the exact reason(s) for development and the corresponding diary code(s). In addition,
+for medical re-examinations, pending WC/PDB development and deferred auxiliary claimant
+diaries on DIB claims, see DI 11010.030.
+For instructions regarding diaries for end-stage renal disease (ESRD) Medicare claimants
+who received successful transplants, see HI 00820.030.
+3. Notices
+The FO is responsible for ensuring that the claimant receives proper notice of the
+determination in District Office Final Authorization (DOFA) claims. This includes:
+•
+Ensuring the proper notice is designated with appropriate universal text indicator
+(UTI) paragraphs (e.g., MCS notice 2 (NOT2)/NOT3 screens) when the applicable processing
+system does not produce a completely automated notice; or
+•
+Preparing special dictated language when necessary (e.g., via NOT2/ NOT3 screens,
+RPOC).

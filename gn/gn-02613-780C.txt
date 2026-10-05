@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02613.780 - Exclusions to Reinstatement Processing from FFEL
+Effective Dates: 08/02/2022 - Present | TN 36 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613780 (fetched 2026-10-04)
+
+C. Procedure - reinstatement did not occur
+1. Reinstatement did not occur after 30 days (diary matures)
+IF:
+THEN:
+Reinstatement has not occurred and the MBR still shows LAF S9.
+Call the appropriate PSC check on the status of the reinstatement and ask them to
+expedite the reinstatement through MADCAP/MACADE. FAX the material to the appropriate
+PSC for manual reinstatement. (See Fugitive Felon FAX instructions in GN 02613.980.)
+2. PSC — PCACS exclusion output
+The PSC is responsible for MADCAP inputs. If T2 cannot process the FFEL screen input,
+the PSC will receive an exception via PCACS. The servicing PSC will input a MADCAP
+action to reinstate benefits.
+Reinstatement of Benefits by the PSC
+The PSC will take the following actions to reinstate benefits:
+•
+Verify that the beneficiary continues to meet all entitlement/eligibility payment
+factors, both disability and non-disability, before reinstating benefits.
+•
+Reinstate benefits via MADCAP.
+CAUTION: Before reinstating benefits, ensure that no other reason for suspension exists.
+•
+Send the appropriate notice to the beneficiary based on reinstatement of their benefits.
+Notify them if additional overpayments or underpayments exist on the record because
+of the reinstatement of benefits.
+3. FO determines benefits should not be reinstated
+The FO will prepare a determination explaining that their development revealed we
+should not reinstate the beneficiary's benefits. Forward the case materials to the
+PSC module. The PSC module will review the case materials, the reinstatement denial
+and any other case characteristics that may affect the content of the denial notice.
+The PSC will prepare a notice of denial that includes the reason for denying reinstatement.
+Include second level of appeal language in the notice.
+NOTE: Developing Representative Payee Suitability -- Check RPS in each case where the beneficiary/claimant
+has an outstanding felony warrant to determine if they are serving as a representative
+payee.
+Effective 4/2005, persons having an outstanding felony warrant are prohibited from
+serving as a payee. There are no exceptions to this prohibition. Refer to GN 00502.133.

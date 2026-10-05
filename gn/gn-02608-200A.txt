@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - GN 02608.200 - Processing Initial Claims
+Effective Dates: 03/26/2026 - Present | TN 63 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608200 (fetched 2026-10-04)
+
+A. Field office (FO) initial claims development for months of entitlement prior to January
+2024
+The FO develops initial claims to apply the Government Pension Offset (GPO) according
+to the spouse’s response about receiving a pension based on non-covered government
+employment.
+1. Spouse receives a periodic pension
+When a spouse receives a Federal, State, or local periodic pension based on non-covered
+government employment, annotate the spouse's answers to the questions on the Additional
+Benefits (ADDB) screen and the applicable GPO screens in the Modernized Claims System
+(MCS) application path. If MCS is not available, complete the SSA-3885 (Government Pension Questionnaire).
+If an exception to the GPO applies, develop according to instructions in GN 02608.200B.2. in this section.
+A periodic pension can cause either partial or total GPO; for information about the
+types of GPO, see GN 02608.100B.
+a.
+If partial GPO applies:
+•
+The claimant must provide evidence from the employer or pension-paying agency (e.g.,
+an award letter) that shows the gross periodic pension amount, including pension amount
+changes as necessary, and the effective date of the pension. For additional types
+of evidence, see GN 02608.200B in this section.
+•
+If the claimant receives a lump sum, obtain evidence and develop according to GN 02608.400.
+•
+For pensions based on a combination of government and private employment, also request
+verification from the employer or pension-paying agency of the amount of the pension
+based on only the government employment (for more information, see GN 02608.400); or
+•
+If the claimant receives a Federal pension, the Civil Service Data (DCSD) screen of
+the MCS Earnings Computation (EC) screens or the Civil Service (CS) Data line of the
+Informational/Certified Earnings Records (ICERS) is acceptable evidence about the
+periodic benefit. For information about the DCSD screen or the CS Data line in ICERS,
+see MS MCSEC 001.011 and SM 00349.090, respectively.
+•
+If the claimant expects an increase in the current pension amount, enter the future
+month and year of the expected increase in the NEXT EXPECTED PENSION INCREASE DATE
+field on the Government Pension Periodic Payments (GPP1) screen. For information on
+the GPP1 screen, see MS COMMON 003.009.
+•
+Do not enter a Stop Date for the current pension amount if the claimant expects an increase to the pension
+in the future.
+•
+It is not necessary to establish a diary.
+•
+The Regular Transcript Attainment and Selection Pass (RETAP) generates an alert for
+the processing center (PC) to follow up with the claimant for the expected pension
+increase.
+•
+Inform the claimant to report any pension increase or decrease.
+The system calculates the Social Security benefit amount based on the non-covered
+periodic pension information on the GPO screens.
+b.
+If total GPO applies:
+•
+Accept the allegation without further development if the claimant alleges they began
+receiving the periodic pension on or before the date of entitlement (DOE) to spouse’s
+benefits.
+•
+Verify and obtain evidence for the beginning month of the periodic pension if the
+claimant alleges they begin receiving the periodic pension after the DOE.
+For information on how to handle payment of Medicare premiums when total offset applies,
+see HI 01001.190.
+Electronically store evidence through the Non-Disability Repository for Evidentiary
+Documents (NDRed) system. For information about storing documents through NDRed, see
+GN 00301.322.
+c.
+If the claim has MCS processing limitations (for a list of processing limitations,
+see MS MCSEC 001.036):
+•
+Process the claim via an A101/EF-101;
+•
+Be sure the GPO data that propagates to the A101 is accurate. When the PC processes
+the award, the GPO data propagates to Manual Adjustment Credit and Award Data Entry
+(MACADE) screens.
+•
+Include notice paragraphs, as appropriate. For notice instructions, see NL 00720.060.
+For information about the A101 and EF-101, see MS MCS 014.001 and MS T2PE 009.001
+respectively.
+If other beneficiaries are due benefits on the same record, and you have not verified
+the periodic pension amount, apply total GPO to the spouse’s benefit. Include a paragraph
+in the notice to the spouse to explain why total GPO applies. Establish a diary code
+025 on the Decision Input (DECI) screen to verify the pension amount.
+NOTE: If the spouse is entitled to retirement (RIB) or disability (DIB) benefits on their
+own Social Security number, review the RIB or DIB record to determine if the Windfall
+Elimination Provision (WEP) should apply to the computation of the primary insurance
+amount (PIA) on that record. For more information about WEP, see RS 00605.360.
+2. Spouse expects to receive a periodic pension, but has not yet applied for it
+When a spouse qualifies for a Federal, State, or local pension but has not yet applied
+for the pension, complete the following steps:
+•
+Answer ‘Yes’ to the question about qualifying for a pension on the Additional Benefits
+(ADDB) screen and complete the additional questions on the ADDB screen about future
+entitlement to the pension.
+•
+If the expected future date of entitlement is within one year, enter the date in the
+FUTURE PENSION ENTITLEMENT DATE field on the Government Pension (GPI1) ; or
+•
+If the pension entitlement date is more than one year in the future or is unknown,
+enter a date in the FUTURE PENSION ENTITLEMENT DATE field of one year into the future.
+For information about the GPI1 screen, see MS COMMON 003.003.
+•
+It is not necessary to establish a diary.
+•
+The month before the month of the FUT PENSION ENT field on the Master Beneficiary
+Record (MBR), the RETAP process generates an alert in the PC to develop the future
+entitlement to the pension.
+•
+Inform the claimant to report when they start receiving the retirement or disability
+pension based on non-covered government employment.

@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - SI 01410.001 - Eligibility for State Supplementary Payments
+Effective Dates: 12/23/1996 - Present | TN 3 (11-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501410001 (fetched 2026-10-04)
+
+C. Procedure - Partial Payments
+When an individual is eligible for SSI payments, but the appropriate SSP level cannot
+as yet be determined:
+•
+pay the lower amount of SSP, if the amount of (not the receipt of) SSP is at issue; or
+•
+pay the SSI without the SSP if the receipt of SSP is at issue.
+In either of the above situations, control the case for resolution of the SSP issue.
+If resolution results in a higher payment, reopen the earlier decision and pay the
+correct amount. Input notice suppression when you input the “interim” SSP decision and issue a manual notice about the payment amount. In the notice, explain
+that SSA has not yet completed its decision as to the appropriate payment amount.
+Use an SSA-L8025 for an award, an SSA-L8151 if payment is being increased, an SSA-L8155
+if payment is being decreased, or an SSA-L8166 if payment stays the same. Note that
+you will also need to issue a manual notice when changing the “interim” SSP decision to explain that SSA has completed its decision as to the appropriate
+payment amount.
+When State/county of residence changes, see SI 02306.010 for instructions on mailing address changes. In initial claims, if you are in the
+former servicing (“losing”) office, input the new mailing address and the former residence address and OSS code
+pending input by the new servicing (“receiving”) office. Do not substitute an OSS “Z” for another federally-administered OSS code because of a residence change.

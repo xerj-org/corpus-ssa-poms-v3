@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.447 - Coding Iraq Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 03/03/2021 - Present | TN 185 (03-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402447 (fetched 2026-10-04)
+
+E. Description of Iraq IDD bank data
+The data to code IDD for Iraq comes from the International Bank Account Number (IBAN)
+provided to the beneficiary from his or her FI. The bank data on the MBR reflects
+24 characters including the country code of Z.

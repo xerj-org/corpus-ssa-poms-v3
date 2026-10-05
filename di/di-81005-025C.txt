@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 81005.025 - Case Selection Screen
+Effective Dates: 01/03/2025 - Present | TN 11 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005025 (fetched 2026-10-04)
+
+C. Display Fields
+To help the user select the correct case, the eView Disability Folder Selection screen
+displays the following information:
+1.
+Client Name - the name of the claimant;
+2.
+DOB - the date of birth of the claimant;
+3.
+Level - the adjudicative level of the case (i.e., Initial, Reconsideration, Hearing, Appeals
+Council or Federal Court) showing the most recent case based on the filing date, at
+the top of the list;
+4.
+CEF Indicator
+a.
+Y – certified electronic folder
+b.
+N – electronic folder that is not certified, i.e., a paper folder is the official
+folder
+5.
+Claim Type(s) –the applicable claim types (DIB, DWB, DI, etc.) for this claimant
+6.
+Filing Date – the claim or appeal filing date
+a.
+Title II, derived from Modernized Claim System (MCS):
+•
+Initial claims level – the Protective Filing Date on the File Date Determination Screen
+(FDDS) screen shows as the filing date.
+•
+Reconsideration level - the Date Recon Filed on the (RCN2) screen shows as the filing
+date.
+•
+Hearing level - the Date Hearing Filed on the Hearing Request 2 (HNG2) screen shows
+as the filing date.
+NOTE:
+The claim specialist keys the filing date for MCS exclusion cases (DWB, CDB) on the
+Number Holder Information screen in EDCS.
+b. Title XVI, derived from Modernized Supplemental Security
+Income Claims System (MSSICS):
+Initial claims – the Protective Filing Date on the SSI Claims Application (ACLM) screen
+is used. If it is not available, the Effective Filing Date is used.
+Initial Claim Appeal -
+When an initial case advances to a higher adjudicative level (reconsideration or hearing),
+the subsequent levels of the case are linked to the initial case. In eView, the level
+displayed represents the highest adjudicative level that the case has reached. The
+filing date displayed shows the filing date of the most recent appeal.
+7.
+Status – there are four possible status codes
+•
+Closed - Indicates that disability claims processing in the EF has been completed.
+•
+Pending - Indicates that disability claims processing activity in the EF has not been completed.
+•
+Transferred-
+–
+Indicates that the disability claim was transferred to an office that does not participate
+in electronic Disability Claims processing. NOTE: When a case transfers to an office that cannot update the EF (for example, PC),
+the claim will be set to "Transferred" status in that office; or
+–
+Indicates the Central Office intervened to close-out the case in EDCS/eView. Transferred
+equals “Closed” in this scenario. With these cases, the Claims Action History screen
+in eView shows “CO System Adjustment”. The Transferred status should not prevent new
+cases from being loaded for the associated SSN. NOTE: The office listed is always
+the last location of the case prior to the system intervention.
+•
+Manually Cleared - Indicates that electronic disability claims processing was discontinued on this
+claim. See DI 81010.105 for manual clearance instructions.
+8.
+Office Code – the office code with case jurisdiction
+9.
+Office Type – the office type with case jurisdiction
+10.
+Status Date – date of the last known status change

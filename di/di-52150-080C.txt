@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+C. Criteria that prohibit a triennial redet of the ACE
+Do not compute a triennial redet ACE if any of the following criteria exist:
+1.
+Offset (i.e., benefit reduction) never applies to any beneficiary on the account.
+2.
+Offset terminates in January of the redet year or earlier.
+3.
+HA is age 62/65/FRA (whichever applies) in January of the redet year, or earlier.
+Age must be proven.
+•
+Age 62 applies if DIB entitlement is based on 1965 Amendments.
+•
+Age 65 applies if DIB entitlement is based on 1981 Amendments prior to December 19,
+2015.
+•
+Full Retirement Age (FRA)
+NOTE: Effective December 19, 2015 or later, WC offset termination now extends from age
+65 to FRA.
+See DI 52101.005 - Social Security Amendments with Workers Compensation/Public Disability Benefit
+(WC/PDB) Offset Provisions.
+4.
+DIB terminates in January of the redet year or earlier.
+5.
+DIB onset is June 1, 1965, or earlier (the 1965 Amendments introduced WC offset).
+6.
+A triennial redet alert is generated for a year that does not require a redet. (A
+redet alert may be improperly generated when the worker and an entitled auxiliary
+have different offset effective dates.)
+7.
+Offset is not continuous for any reason, such as a break in offset due to a high ACE;
+a break in offset due to excludable expenses credited for the month(s); or a break
+in offset due to the election of reduced RIB and subsequent re-election of DIB.
+NOTE: S7 months do not constitute a break in offset. T8 months do constitute a break in offset unless expedited reinstatement (EXR) is involved and the T8 month equals the MOE of the
+EXR (see Example below). This exception does not apply to new claims (i.e., new application
+for DIB) where the T8 month equals the new MOE.
+Example of EXR exception (T8 does not constitute a break in offset):
+•
+The first DIB line has a BTM (T8) of 11/2004 (first month benefits are not payable
+for this period of disability);
+•
+The second DIB line (for the EXR period) has a DAC of F and benefits are payable 11/2004
+(EXR MOE of 11/2004).

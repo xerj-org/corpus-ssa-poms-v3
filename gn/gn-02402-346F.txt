@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - GN 02402.346 - Coding Turkey Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 04/11/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402346 (fetched 2026-10-04)
+
+F. Policy to code bank data for Turkey
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us. When you use one of our systems to establish
+or change IDD bank data for Turkey (e.g., Modernized Claims System (MCS), Manual Adjustment
+Credit and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+•
+account ownership;
+•
+account type;
+•
+beneficiary address;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+IBAN;
+•
+payee indicator;
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. Obtain Swift-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters, and a maximum of 11 characters:
+•
+first four characters - bank code (only alpha);
+•
+next two characters - ISO 3166-1 alpha two country code (only alpha);
+•
+next two characters - location code (alpha and numeric) (passive participants have
+"1" in the second character); and
+•
+last three characters - branch code, optional ('XXX' for primary office) (alpha and
+numeric).
+2. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives his or her payment. If the complete bank account information
+is not in ITS.gov when the payment processes, the payment rejects and returns to us.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using one of our systems (e.g., Post Entitlement
+Online System (POS), MACADE), you must:
+•
+update ITS.gov the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the chart in this section when you process within four business days of the current
+operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Turkey?
+If no, STOP.
+REASON: Beneficiaries in Turkey can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+To derive the nine-digit RTN for Turkey:
+•
+Code the prefix of 66 (the multi-country prefix that we and FRBKC designated to use for Turkish IDD);
+•
+Code the five-digit bank code based on the FI name after verifying the accuracy against
+the ITS.gov help file;
+•
+Code a filler “0”; and
+•
+Code the one-digit check code of the RTN, from the Title II Interactive Comps.
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain the
+check digit code through the Title II Interactive Comps from the Main Menus 07/Sub
+Menu 16.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Turkey,
+code as follows
+•
+“T” is designated for Turkey,
+•
+Code the 16-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.346F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

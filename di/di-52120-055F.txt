@@ -1,0 +1,182 @@
+SSA Program Operations Manual System (POMS) - DI 52120.055 - Florida Workers Compensation (WC)
+Effective Dates: 07/22/2026 - Present | TN 153 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120055 (fetched 2026-10-04)
+
+F. Reverse offset
+The following chart explains when to apply reverse offset for Florida cases. Additional
+information is included after the chart.
+When to apply reverse offset
+Type of WC Benefit
+Apply Reverse Offset?
+Permanent Total (PT)
+Yes
+Temporary Total (TT)
+Yes
+Permanent Impairment
+No
+Temporary Partial (TP)
+Yes
+1. Determine when to impose offset
+Reverse offset applies to periodic and lump sum (LS) awards. Since February 1990,
+reverse offset has not applied to permanent impairment wage loss or impairment income
+benefits.
+Offset of initial DIB award
+Social Security is responsible for imposing offset from the first possible month of
+offset up to, but not including, the month of adjudication.
+NOTE:
+For this section, the month of adjudication is determined as the date the adjudicator
+takes action on the DECI screen, EF101, or A101.
+Offset at age 62
+SSA will re-impose offset effective with the month of age 62 attainment. Florida is
+responsible for the offset from the month of adjudication, up to and including, the
+month prior to the month of attainment of age 62. Refer to DI 52105.001 for applicable instructions when offset is being re-imposed at age 62.
+It is not necessary to develop for the exact date that Florida discontinues the offset.
+However, Florida law concerning age 62 attainment is different from SSA rules. Take
+efforts to obtain the amount paid in the month of age 62 attainment as this amount
+may vary from your expectations. The correct amount of WC to use for offset for the
+age 62 month is the total amount of WC paid for the full month, which includes the
+RJ WC paid that month.
+Offset at age 65
+SSA will impose offset up to but not including the month of age 65 attainment before
+December 19, 2015. Effective December 19, 2015 or later, WC offset termination extends
+from age 65 to full retirement age (FRA). See 2015 amendment in DI 52101.005.
+NOTE:
+For SSA purposes, an individual attains their age the day prior to their birthday.
+Appeal reverses DIB cessation
+Offset does not apply for the retroactive period beginning with the DIB termination
+month.
+New period of DIB established
+Offset applies for months prior to the month of adjudication of the new DIB award.
+Wage Loss (Permanent Impairment or Temporary Partial) and Impairment Income Benefits
+Since February 1990, reverse offset does not apply to permanent impairment wage loss
+or impairment income benefits.
+NOTE:
+Most LS awards contain close-out language such as, representing any and all temporary
+total, temporary partial, permanent impairment, wage loss, or permanent total disability
+compensation benefits under the Florida Workers' Compensation Act to which the employee
+might be entitled both now and in the future." This wording does not mean that all of these benefit types are
+included in the award. The language is meant to close out all possible entitlement based on the same injury.
+Request proof of verification to resolve any questions about the type of benefit in
+an LS award in Florida. See Verification/Proof of Workers Compensation/Public Disability
+Benefit (WC/PDB) in section DI 52145.001.
+Permanent Impairment Wage Loss on or after 02/1990
+Effective with any adjudicative decision on the individual's receipt of permanent
+impairment wage loss under section 440.15(3)(B) of Florida law made in or after 02/90:
+a.
+Reverse offset rules do not apply to wage loss or impairment benefits;
+b.
+Wage loss benefits are offsettable whether paid as periodic benefits or LS;
+c.
+Offset will not be removed; and
+d.
+Consider a possible return to work, as there is work involved by the individual.
+NOTE:
+Offset will not be imposed on any case where the decision not to offset wage loss
+was made prior to February 1990.
+Impairment Income Benefits
+Effective with injuries occurring on or after 10/1/94, wage loss was replaced by impairment
+income benefits. They are subject to offset by SSA. The maximum number of weeks for
+these benefits is 401. A diary should be prepared for removal of offset when payments
+end.
+Temporary Partial Wage Loss
+Temporary partial wage loss under Florida law section 440.15(4) falls under RJ.
+2. Determine reverse jurisdiction start and stop dates
+The reverse jurisdiction start date is the calendar month of the DIB claim adjudication.
+The reverse jurisdiction stop date, if applicable, is the month before the NH attains
+age 62.
+For systems inputs see DI 52120.055F.3 in this section and for initial claims instructions see DI 52120.055F.4 in this section.
+Example:
+NH is awarded DIB with a date of entitlement of February 2007. The claim is adjudicated
+October 15, 2007. SSA will offset the NHs benefit from February 2007 through September
+2007. SSA will pay the NH their full DIB PIA from October 2007 and continuing. The
+reverse jurisdiction start date is October 2007.
+This same NH turns age 62 on February 12, 2008. SSA will impose offset again effective
+with February 2008 and continuing. The reverse jurisdiction stop date is January 2008.
+3. Systems input for reverse jurisdiction start and stop dates
+MCS and ICF will allow you to input reverse jurisdiction start and stop dates. Determine
+the start and stop dates per instructions above. If applicable, you can input a future
+stop date for age 62 attainment. If a stop date is entered, the system will automatically
+re-impose offset effective with the date entered.
+CAUTION: Enter a stop date only if it is clear that offset should be re-imposed. In many cases,
+development may be needed to determine the proper amount of offset at age 62.
+4. Initial claims taking considerations
+When processing a DIB claim involving Florida WC you will need to know the month of
+adjudication to accurately process the offset. DO NOT make an input for Non-Medical Completion (SPORT). You will need to wait until the
+claim is allowed so you can enter the correct offset information. Follow this procedure:
+•
+indicate on the WPCL screen that Y reverse jurisdiction is involved;
+•
+code the start date as 3 months from the filing date;
+•
+establish an issue on the DW01 for WC. Set the tickle date equal to the tickle set
+for your DDSDEC; and
+•
+if the Claim is allowed, change the start date on the WPCL screen to the month of
+adjudication, per note below. Complete and send a Form DFS-F2-DWC-14, Request for Social Security Benefit Information.
+NOTE:
+Remember, the month of adjudication is determined as the date the adjudicator takes
+action on the DECI screen, A101, or EF101.
+5. Age 62 diaries
+Diary 4 months prior to attainment of age 62 for development of:
+•
+WC verification, to see if WC continues;
+•
+proof of age, if not yet established; and
+•
+possible RIB election per DI 52150.030
+6. Re-imposition of offset at age 62 DIB onset March 01, 1981 or later and MOET September
+1981 or later
+To correctly impose offset at age 62, you must first determine if offset has been
+previously considered.
+"Offset previously considered" includes situations where benefits are actually reduced
+due to offset, as well as situations where a high ACE or excludable expenses preclude
+benefit reduction. For Offset Effective Dates, see DI 52150.020 and for WC/PDB Offset Ending Date, see DI 52150.025.
+The ACE and TFB are computed effective with the first month offset is considered.
+The ACE and TFB will only be changed if conditions in DI 52150.005 - Total Family Benefits - When TFB Can Be Changed or DI 52150.010 - Average Current Earnings - Changing the ACE) apply.
+For complete instructions regarding re-imposition of offset at age 62, see DI 52105.001.
+Offset previously considered prior to the reverse offset
+If offset was previously considered for at least one month before the first reverse
+offset month, SSA benefit increases (due to recomputations, COLAs, and the combining
+of maximums) during the reverse offset period are protected.
+Reverse offset start date is equal to the DIB MOET
+If reverse offset is effective with the DIB MOET (i.e., offset is first considered
+at age 62), SSA benefit increases during the reverse offset period are not protected.
+The month of age 62 attainment is the first possible month of offset and the TFB and
+ACE are computed effective as of that month.
+New WC award begins during period of reverse offset
+The situation may arise where payments from the first WC award end during the period
+of reverse offset. If the individual then becomes entitled to additional WC payments
+based on a new WC award (due to a different injury/illness) during the period of reverse
+offset, the TFB and ACE are established as of the month of age 62 attainment, and
+prior SSA benefit increases are not protected.
+Example 1:
+Florida WC
+February 2000 - DIB MOET
+April 2000 - DIB adjudication date (therefore, 04/00 is reverse offset effective date)
+February and March 2000 (prior to adjudication) - offset imposed
+April 2000 - reverse offset begins
+June 2005 - individual attains age 62-offset re-imposed using original ACE & TFB Increases
+due 04/00 through 05/05 are protected
+Example 2:
+Florida WC
+May 2000 - DIB MOET and DIB adjudication date (i.e., reverse offset begins May 2000
+and applies for all months of DIB entitlement prior to age 62)
+June 2005 - individual attains age 62 - first month offset is considered and imposed.
+The TFB is based on the June 2005 monthly benefit amount. None of the prior benefit
+increases during the reverse offset period are protected.
+7. Form DFS-F2-DWC-14 (Request for Social Security Disability Benefit Information)
+The State or the insurance carrier uses the Form DFS-F2-DWC-14 (Request for Social
+Security Benefit Information). Use Form
+DFS-F2-DWC-14 to request DIB payment data.
+When the FO receives the Form DFS-FS-DWC-14:
+•
+complete and return to the requestor shown in Part IV; and
+•
+fax a copy to NDRed or eView in the Evidence Portal for documentation.
+If the DIB claim is pending, the field office (FO) will:
+•
+complete the DWC-14 when the DIB decision is made;
+•
+fax a copy to NDRed or eView in the Evidence Portal; and
+•
+return the DFS-F2-DWC-14 to the requestor shown in Part IV.

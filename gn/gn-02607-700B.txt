@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02607.700 - Suspending Title II Benefits To Prisoners, NGRIs, Incompetent to Stand Trial or Sexually Dangerous Persons By Using PUPS
+Effective Dates: 04/14/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607700 (fetched 2026-10-04)
+
+B. Procedure - PUPS processing based on reporter ID code
+1. Reporter ID Code Equals "SELF" on the PUPS Record
+If the reporter ID equals "SELF," PUPS passes the suspension action to SALT. SALT
+transaction is processed overnight to change the LAF on the MBR to S7 and to annotate
+the correct RFST for the beneficiary.
+Update PUPS by inputting the Type of Action of "1" SUSPENSION, ACTION EFFECTIVE DATE,
+and CONFINEMENT TYPE. Add REMARKS to help explain the suspension action.
+NOTE: The ACTION EFFECTIVE DATE is the month SSA should suspend the benefits. (PUPS will
+process the suspension action immediately.)
+2. Reporter ID Code Is Other than "SELF" on the PUPS Record
+If the reporter ID does not equal SELF; e.g., OTHR, 3XXP, etc., PUPS passes the suspension
+action to SALT. SALT orbits the transaction for either 15 or 35 days (this time period
+is computed based on the NOTICE DATE and the selection in DUE PROCESS PERIOD fields
+on the PUPS record.) After the time period expires, SALT changes the LAF on the MBR
+to S7 and annotates the correct RFST for the beneficiary.
+a. Reporter ID Code is "OTHR"
+Update PUPS by inputting the Type of Action of "1" SUSPENSION, ACTION EFFECTIVE DATE,
+T2 NOTICE DATE, CONFINEMENT TYPE, AND DUE PROCESS PERIOD (Select "1" for 10 days).
+Add REMARKS to help explain the suspension action.
+NOTE: The ACTION EFFECTIVE DATE is the month SSA should suspend the benefits. (PUPS will
+add 15 days to the date shown in T2 NOTICE DATE to determine when to process the suspension.)
+b. Reporter ID Code is a State or Local Correctional or Mental Institution Code (e.g.,
+3CAP, 4100, etc.)
+Update PUPS by inputting the Type of Action of "1" SUSPENSION, ACTION EFFECTIVE DATE,
+T2 NOTICE DATE, CONFINEMENT TYPE, AND DUE PROCESS PERIOD (Select "2" for 30 days).
+Add REMARKS to help explain the suspension action.
+NOTE: The ACTION EFFECTIVE DATE is the month SSA should suspend the benefits. (PUPS will
+add 35 days to the date shown in T2 NOTICE DATE to determine when to process the suspension.)
+3. T2R Exceptions
+If the PUPS transaction that is sent to T2R to suspend the benefits does not work,
+T2R immediately generates an exception to the FO or PC that input the PUPS action.
+See GN 02607.750 for processing T2R Exceptions.

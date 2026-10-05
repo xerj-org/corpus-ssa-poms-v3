@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02610.055 - Processing Administrative Law Judge (ALJ) Decisions in the Processing Center (PC) when Windfall Offset May be Involved
+Effective Dates: 02/22/2012 - Present | TN 34 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610055 (fetched 2026-10-04)
+
+C. CA/CTE Procedure for reviewing the SSR and MBR to determine if Title XVI eligibility
+is involved
+Retrieve all SSRs using Query Master (QM) on the Office of Quality (OQA) toolbar.
+Check the block for retrieving all Title XVI records. The QM also links to POMS references
+by clicking on a specific field in the QM query.
+Review the following fields on the SSR and MBR to determine if the Title II beneficiary
+is eligible for Title XVI payments for any months of Title II entitlement.
+1. Message Line (MSG) at top of SSR
+The Record Number (RN) field tells how many SSRs are present for a particular case.
+If the RN is other than 01X01, review all prior SSRs to determine if the beneficiary
+was eligible for Title XVI for any months covered by the Title II award. For information
+about the MSG line, see Online General Reply Format in SM 01601.040.
+2. Case Control Data segment (CCTL)
+The Payment Status (PSY) field indicates the payment status on the SSR. Review this
+field when determining whether to release or withhold retroactive Title II benefits.
+Look for the following PSY codes:
+•
+PSY Codes of T50 or T51 always indicate that we paid no Title XVI payments. If the
+record number is 01X01and the PSY is T50 or T51, Title XVI is not involved unless
+an APPE (appeals data) segment is present. For information on the appeal data segment,
+see GN 02610.055C.4 in this section.
+•
+PSY codes of T30, T31, T32, T33, and T01 indicate potential eligibility or that the
+claimant received Title XVI payments. The termination date for Title XVI payments
+is important when deciding whether to withhold retroactive Title II benefits. If the
+Title XVI termination month is
+–
+before the Title II month of entitlement, do not apply windfall offset.
+–
+within the Title II entitlement period, withhold retroactive Title II benefits for
+windfall offset development.
+•
+If the PSY Code is blank, or in a held status (e.g., H80), non-pay (e.g., N04), M02,
+or suspended (e.g., S06), windfall offset may apply. Withhold retroactive Title II
+benefits pending offset development. The MBR/SSR interface will occur for these PSY
+codes, so there is no need for a BA/PETE to initiate an e4345. For information about
+PSY codes, see SM 01601.805 and SM 01305.001.
+•
+If the PSY Code is N12 (SSI claim withdrawal) or N17 (claimant does not want to pursue
+the Title XVI claim) do not apply windfall offset and release the Title II retroactive
+benefits. The Denial Code/Date (DS) field indicates the reason and date we denied
+the Title XVI claim. If the PSY is T50 or T51 and the DS code is N01 through N25,
+the Title XVI claim was a technical denial that the system terminated. Release the
+Title II retroactive benefits. For a list of payment status codes in computation history,
+see SM 01601.805.
+•
+In the Abbreviated Application (AB) field, an entry of “A” indicates that we denied
+the abbreviated Title XVI claim for non-medical reasons. If the “A” is present, the
+SSR record is 01X01, and no appeals data is on the SSR, then do not apply windfall
+offset and immediately release Title II retroactive benefits. For information about
+the AB field, see Standard Response Data SM 01601.430 and for the Abbreviated Application
+process see SI 00602.001.
+3. SSR Record Identification Code (RIC) field in the case data segment
+The RIC field indicates whether the SSR is active. RIC “T” indicates a terminated
+record. RIC “G” indicates an active record. If the CS/CTE determines that offset development
+is necessary, and the SSR shows:
+•
+RIC T, the MBR/SSR interface will not occur. Advise the BA/PETE to send an e4345 to
+the field office to obtain Title XVI computations;
+•
+RIC G, the MBR/SSR interface will occur, and do not refer cases to a BA/PETE to initiate
+an e4345. .
+NOTE: The MBR/SSR interface does not occur on an Abbreviated Application, even if the RIC
+is G. If Title XVI is not involved and the SSR is active, then the SSR will automatically
+terminate. For information about the RIC codes, see SM 01601.445C.
+4. SSR Appeals Data (APPE) segment
+The presence of an APPE segment on a denied or terminated record indicates that offset
+may apply. Review the Appeals Decision Code and Date (DSN) field.
+•
+If the DSN date is equivalent to the ALJ decision date for the Title II claim, and
+the DSN code (e.g., FF-fully favorable, PF-partially favorable, etc.) matches the
+ALJ’s Title II decision, the case is a concurrent claim and develop windfall offset.
+•
+If the DSN code indicates that Title XVI payments are not payable (e.g., UF- unfavorable,
+WD – Dismissed Withdrawn, etc.), the beneficiary is not eligible for Title XVI and
+do not develop windfall offset.
+For a complete list of the DSN codes, see SM 01601.685C.
+5. Computation History Segment (CMPH)
+For cases with multiple SSRs, the most recent record may be a terminated record, denied,
+and not appealed, but a prior record may indicate eligibility for Title XVI. Check
+the CMPH field for the month the prior record terminated. If the termination month
+of the prior record predates the Title II month of entitlement (MOE), do not apply
+windfall offset.
+For information about the CMPH segment, see SM 01601.790.
+NOTE: The CS/CTE may access the SSID Reader from Query Master, which provides detailed
+information about each of the fields shown on the SSR.
+6. MBR Supplemental Security Income data (SID) line
+Review the SID data line on the MBR. If this line is present with a Security Income
+Entitlement/Termination Date (SIED) date and a Security Income Status code (SISC)
+of “D” (denied), the Modernized Claims System (MCS) may not allow an Earnings Computation
+(EC) trigger due to a systems limitation. Input a “6” (Windfall Offset) in the “Select
+Miscellaneous Factor” field on the Benefit Continuity Factors (BECF) screen.
+For information about the SID data line, see SM 00510.510.

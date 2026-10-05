@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 81010.030 - Certified Electronic Folder (CEF) Exclusions and Limitations
+Effective Dates: 02/29/2024 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010030 (fetched 2026-10-04)
+
+B. EDCS Limitations
+Title II and Title XVI abbreviated applications (ABAPs) are two EDCS limitations.
+EDCS does not recognize them as valid claims and will not allow the FO to create a
+case.
+The FO technician may initially establish an ABAP to process a technical denial. If
+the FO technician determines a technical denial is not appropriate, and the case will
+require a medical determination, the FO should follow the instructions in this section.
+1. Title II
+To create a case in EDCS for Title II claims with an ABAP
+•
+Change or delete the abbreviated application coding on MCS; and
+•
+Process the claim as a full application.
+Once the full claim is established
+•
+he issue DDSDEC appears on the DW01; and
+•
+EDCS will allow case creation.
+2. Title XVI
+To create a case in EDCS for Title XVI claims with an ABAP, follow your office policy
+and either:
+•
+Change the ABAP to a full claim and enter the issue of “Application” on the Consolidated
+Claims Experience (CCE) Development Worksheet; or
+•
+Change the ABAP to a deferred claim and enter the issue of “DEFER APP” on the CCE
+Development Worksheet.

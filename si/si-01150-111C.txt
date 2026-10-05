@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - SI 01150.111 - Computing the Period of Ineligibility for Resources Transferred on or After 12/14/99
+Effective Dates: 12/11/2025 - Present | TN 60 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501150111 (fetched 2026-10-04)
+
+C. PROCEDURE—SPOUSE FILES CLAIM DURING PERIOD OF INELIGIBILITY
+Follow this procedure to recompute the period of ineligibility when an individual
+is ineligible due to a resource transfer and their spouse subsequently files for SSI.
+•
+Do not change the period of ineligibility for the months prior to the spouse's eligibility.
+•
+Recompute the period of ineligibility beginning with the first month the spouse would
+be eligible for SSI if not for the resource transfer period of ineligibility.
+•
+Multiply the number of months of the period of ineligibility already expired times
+the FBR and the State supplementary payment (if any) corresponding to the individual's
+living arrangement in the first month of the period of ineligibility.
+•
+Subtract this total from the original uncompensated value of the transfer to determine
+the remaining uncompensated value.
+•
+Divide the remaining uncompensated value by the couple's FBR and the State supplementary
+payment (if any) corresponding to the couple's living arrangement in the first month
+of the spouse's eligibility.
+•
+The resulting amount, computed to 2 decimal places and rounded down to the nearest
+whole number, is the number of months in the recomputed period of ineligibility.
+Example: Thomas, who lives in a State without a federally administered State supplement,
+transfers a resource on 5/12/00 and files for SSI on 5/24/00. The uncompensated value
+of the resource is $4,500 which results in an 8-month period of ineligibility ($4,500
+divided by $512 = 8.78). Thomas' period of ineligibility starts in 6/00 and will last
+through 1/01. Thomas' spouse, age 67, files for SSI on 9/5/00. Thomas' spouse is found
+eligible for SSI but for the period of ineligibility due to the resource transfer.
+The CR recomputes the period of ineligibility as follows: As of 9/00, 3 months of
+Thomas' period have expired (6/00-8/00). The CR multiplies 3 months times the FBR
+(3 times $512 = $1,536). Then, the CR subtracts $1,536 from the original uncompensated
+value ($4,500 minus $1536 = $2,964). Then, the CR divides the remaining uncompensated
+value by the couple FBR ($2,964 divided by $769 = 3.85). This results in a recomputed
+period of ineligibility of 3 months which runs from 9/00-11/00. In 12/00 Thomas and
+Thomas' spouse will be eligible.

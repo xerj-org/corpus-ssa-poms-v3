@@ -1,0 +1,516 @@
+SSA Program Operations Manual System (POMS) - GN 02406.001 - Glossary of Nonreceipt Terms
+Effective Dates: 12/04/2013 - Present | TN 62 (07-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406001 (fetched 2026-10-04)
+
+GN 02406.001 Glossary of Nonreceipt Terms
+Citations: Social Security Act §205(i), §708(a) 31 USC §3702(c), §3712(a) 20 CFR 416.502
+This glossary lists, explains, or defines nonreceipt terms, phrases, and unusual words
+used throughout GN 02406.001 – GN 02406.810.
+Available Check Cancellation (ACC)
+An ACC is a cancelled unendorsed check the Department of the Treasury (Treasury) has
+in its possession. Treasury credits these funds to the Social Security Administration
+(SSA).
+Due to the functionality of the Treasury Check Information System (TCIS),
+•
+Treasury also posts an ACC when SSA inputs an Electronic Funds Transfer (EFT) nonreceipt.
+•
+Treasury creates a “false” replacement check in TCIS and cancels the check immediately.
+•
+Treasury never issues a replacement or courtesy disbursement check for a direct deposit
+nonreceipt input.
+Automated Clearing House (ACH)
+The ACH network, a funds delivery system, distributes and settles credits and debits
+electronically. The government uses the ACH network to make benefit and salary payments
+electronically via direct deposit.
+Agency Location Code (ALC)
+The ALC is an 8-digit number Treasury assigns to identify agency disbursing and collecting
+points. When SSA inputs any stop code, Treasury uses the ALC code to direct forms,
+accounting documentation, debits and credits to the corresponding SSA office (i.e.,
+processing center (PC) or Division of Benefit Certification and Systems Analysis [DBCSA]).
+Altered Check
+An altered check is an original Treasury check with changes made to the original information
+with the intent to defraud the government.
+A-Stop
+SSA uses the A-Stop in allegations of nonreceipt in mass loss situations and when
+processing nonreceipt of Title XVI non-recurring checks.
+1.
+Mass loss occurs when a large number of recurring checks in a geographic area are
+lost, stolen or otherwise unavailable for delivery. Although the technician inputs
+an A stop and that code is shown on SSA systems, when SSA sends the nonreceipt file
+to Treasury, the A-stop converts to a B-stop and Treasury issues a courtesy disbursement
+check before determining the status of the original check. This is a “permanent stop”
+and essential authority to process the case and reclaim funds if the Questioned Documents
+Branch determines the author of the writing samples does not appear to be the author
+of the endorsement on the questioned check (i.e., indications may not have written)
+and
+2.
+Nonreceipt of nonrecurring Title XVI checks
+•
+One Time Payment (OTP) - type 4;
+•
+underpayment - type 2;
+•
+replacement - type 9
+A-stops for nonrecurring checks only generate status of the missing check; NOT a courtesy disbursement check. Technicians
+must take additional steps to provide an immediate payment. For more information on
+the immediate payment process, see RS 02803.130.
+For Title XVI processing of non-receipt of underpayment check-type 2 and one-time
+payment-type 4 payments, field office and Teleservice center technicians follow GN 02406.205.
+For Title XVI processing of nonreceipt of courtesy disbursement or replacement check-type
+9 payments, technicians follow GN 02406.207.
+B-Stop (Paper Checks)
+We use the B-Stop code on paper checks to instruct Treasury to issue a courtesy disbursement
+check before determining the status of the original payment.
+This is a “permanent stop” and essential authority to process the case and reclaim
+funds if the Questioned Document Branch determines the author of the writing samples
+does not appear to be the author of the endorsement on the questioned check (i.e.,
+indications may not have written). For additional information
+•
+transmitting reports of non-receipt, loss, theft, or destruction of Title II and Title
+XVI recurring checks and PMA checks in normal and dire need situations, see GN 02406.125.
+•
+processing reports of non-receipt, loss, theft, or destruction of payments for checks
+due and not due, see GN 02406.135
+B-Stop (Direct Deposit)
+We use a B-Stop for direct deposit payments to generate a trace request on the original
+payment for the Treasury TeleTrace unit to investigate. For additional information
+on allegation of non-receipt of direct deposit, see GN 02406.007.
+The B-stop for direct deposit does NOT generate
+another payment or a courtesy disbursement check
+to the claimant's account.
+C-Stop
+We use the C-Stop code to instruct Treasury to issue a replacement or settlement check
+only after Treasury determines the status of the original check (i.e., a cashed check) when
+the claimant is unsure if a payment was received, or is known to misuse the nonreceipt
+reporting process (i.e., Double Check Negotiation (DCN) abuser).
+This is a “permanent stop” and essential authority to process the case and reclaim
+funds if the Questioned Document Branch determines the author of the writing samples
+does not appear to be the author of the endorsement on the questioned check (i.e.,
+indications may not have written).
+For additional information
+•
+requesting a C-Stop (payment after status) in normal and dire need situations, see
+GN 02406.150
+•
+processing reports of non-receipt, loss, theft, or destruction of payment when checks
+are due and not due, see GN 02406.135.
+NOTE: Do not use a C-stop in direct deposit cases.
+Cancellation
+The process of rendering a check cancelled and repaying the amount of the check to
+the agency that authorized the issuance.
+Treasury uses this process to cancel a check and return the amount to SSA.
+Cancelled
+Treasury uses the term cancelled to mean:
+1.
+claimant, post office, or SSA field office returned an unendorsed check; or
+2.
+financial institution returned a direct deposit payment; or
+3.
+Treasury credited a payment back to SSA when SSA placed the non-entitlement or stop
+payment action on a check still outstanding at the time of input.
+Check Claims Branch (CCB)
+A Treasury component located in Philadelphia, PA. The CCB
+•
+adjudicates and settles check claims for and against the U.S.;
+•
+receives and responds to all claims inquiries requesting financial information about
+government checks;
+•
+processes requests and maintains the status of checks;
+•
+provides check photocopies; and
+•
+makes forgery or handwriting determinations based on the date of the check, see GN 02401.910.
+Check Forgery Insurance Fund (CFIF)
+Treasury operates the CFIF, initially funded by Congress. Congress formed the fund
+to prevent the hardship of not replacing a missing payment until the presenting bank
+reclaimed the funds and to settle payee claims of nonreceipt where fraud was involved
+in the cashing of the check.
+The fund
+•
+provides immediate replacement of missing payments to recipients of government checks.
+•
+settles payee claims of nonreceipt where someone fraudulently negotiated the check.
+•
+provides replacement of payments up front and the reclaimed money reimburses the fund.
+Check Payee
+The check payee is the person or organization to whom the check is made payable.
+Check Range
+The range of check numbers Treasury issues from a payment run for a particular Agency
+Location Code (ALC). The range starts with the number of the first check and ends
+with the last check number of the run.
+Check Reclamation
+A demand to a financial institution for refund of the amount of an improperly negotiated
+Treasury check
+Check Serial Number
+The check serial number, an 8-digit number found on Treasury checks in the upper right
+hand corner, uniquely identifies a particular check issued from a Regional Financial
+Center. The 8-digit Check Serial Number is located after the 4-digit Check Symbol
+Number.
+Check Symbol Number
+The check symbol number is a 4-digit number found in the upper right hand corner on
+Treasury checks that uniquely identifies which Regional Financial Center issued the
+check.
+Claims Disposition Notice (CDN)
+The CDN is a computerized form the Treasury Check Information System (TCIS) prints
+and sends to the beneficiary, recipient or representative payee. Treasury also transmits
+this information to the FOs and processing centers.
+The CDN advises SSA of Treasury's recommendation or action taken (e.g., forgery determination,
+issued settlement check) on the check payee's eligibility to a settlement check based
+on information provided on the FMS-1133 (Claim Against the United States for the proceeds
+of a Government Check) and the investigation.
+Claims Package
+Treasury
+•
+generates the claims package because of a permanent stop (e.g., A-Stop, B-Stop, C-Stop,
+etc.) input on a particular check. It consists of the FMS-3858 (Claims Document),
+FMS-1133 (Claim Against the United States For the Proceeds of a Government Check),
+and check image.
+•
+sends claims packages generated by A, B, F and G-stops to the PC for Title II and
+to the FOs through DBCSA for Title XVI.
+•
+mails claims packages generated by C-stop directly to the claimant.
+The claims package is available for printing on TCIS. The FO can print the package
+one time. After one print, the FO may contact the Regional Office through normal communication
+(vHelp) or Treasury at 855-866-0151 to get a claims package. The claims package is
+available for print until Treasury receives the completed FMS-1133.
+Courtesy Disbursement
+A courtesy disbursement occurs when SSA processes a mass loss or a B-stop. After the
+claimant reports nonreceipt of a paper check and
+before determining the status of the original check, the Regional Financial Center (RFC)
+issues a check to the claimant.
+These checks are annotated, “REPLACES CK 1234 56789012 DATED MM/DD/YY” and considered
+courtesy disbursement checks. Courtesy disbursement check serial numbers always begin
+with 99.
+NOTE: Treasury uses “99” every 3 or 4 years on original checks.
+Credit
+A credit represents the returned funds Treasury sent to SSA for:
+•
+uncashed checks;
+•
+returned checks or EFT payments;
+•
+1184 stop payment actions; or
+•
+Reclamations.
+Credit Reversal
+A credit reversal occurs when
+•
+a reclamation credit is reversed (i.e., Treasury initially gave SSA a credit but later
+charged us for an item).
+•
+a credit previously issued because of a non-entitlement claim is reversed (i.e., Treasury
+gave SSA an unavailable cancellation credit on an F-Stop because these payments were
+outstanding at the time Treasury received the stops).
+Sometimes Treasury processes a true “credit reversal” or a Payment Over Cancellation
+(POC) if a claimant cashed a check after SSA received credit and Treasury charges
+SSA for the payment. (For additional information, see GN 02406.245.)
+Critical Payment System (CPS)
+FO and PC staffs use the CPS to issue Title II payments when normal processing is
+not available. A status line on the MBR indicates if CPS is involved. If so, the CPS
+data appends to the bottom of the MBR. After approval, the CPS sends payment information
+for display on Payment History Update System (PHUS).
+For additional information, see SM 00635.050.
+Daily Advice of Status (DAS)
+The DAS electronic transmission from Treasury provides
+•
+status of the stop codes SSA inputs on checks and payments.
+•
+a check description along with information the check was or was not paid.
+Deceased Payee Intercepts
+These are Treasury checks that the Federal Reserve Bank (FRB)
+•
+identifies and returns to the presenting bank because the payee died before Treasury
+issued the check.
+•
+returns to the agency stamped: “Payee Deceased—Questions, Contact Authorizing Agency.”
+Disposition Codes
+Also known as process message. See definition under Process Message.
+Division of Benefit Certification & Systems Analysis (DBCSA)
+DBCSA is:
+•
+a section within SSA that handles any Title XVI exceptions received from the data
+transmitted between SSA and Treasury.
+•
+the central point for the receipt and distribution of Title XVI claims packages.
+•
+responsible for the daily and monthly certification of payments released to Title
+II, Title XVI, and Title VIII claimants.
+Double check negotiation (DCN)
+Occurs when a beneficiary or recipient cashes the original and any check issued for
+the same month.
+Department of the Treasury (Treasury)
+An executive department and Treasury of the United States Federal Government. Congress
+established the Department of the Treasury to manage government revenue.
+Electronic Funds Transfer (EFT Payment)
+An electronic payment transmitted to a beneficiary's or recipient’s debit card (Direct
+Express) or bank account (direct deposit). It is NOT a paper check mailed to the bank.
+F-Stop
+We use an F-stop to report nonreceipt for nonentitlement situations other than death
+of the beneficiary or recipient.
+1.
+Nonreceipt of check(s) issued to non-beneficiaries.
+2.
+Nonreceipt of check(s) issued for Title XVI attorney fees.
+For additional F-stop uses, see GN 02408.003
+Federal Reserve Bank (FRB)
+The depository bank acts as Treasury’s banker and clearinghouse in the payment of
+Treasury checks forwarded from the financial institution. This is the central bank
+of the U.S.
+Financial Institution (FI)
+Financial Institution. For information on acceptable FIs, see GN 02402.030.
+First Party Report
+A first party report is an event reported by the
+•
+beneficiary or claimant;
+•
+representative payee or agent (i.e., lawyer, accountant);
+•
+competent adult entitled on the same SSN; or
+•
+relative, friend or neighbor who is acting at the request of the beneficiary or recipient.
+For additional information on first party reports, see GN 03001.020.
+Bureau of the Fiscal Service (Fiscal Service)
+Fiscal Service is a bureau within Treasury that
+•
+is responsible for overseeing the disbursement of Federal payments, reconciliation
+and claims processing of all Treasury checks.
+•
+oversees the Government’s cash flow, collects Federal revenues, and
+•
+provides centralized debt collections services and Government-wide accounting and
+reporting.
+The CCB and the Questioned Document Branch (QDB) are part of Fiscal Service.
+Forgery Determination
+A determination made by Treasury after investigating a timely allegation of nonreceipt
+of a check that is one year old or less (from the date of issuance).
+G-Stop
+G-Stop is a code input when an endorsed check is lost, stolen or destroyed.
+For additional information on missing
+•
+recurring or supplemental check(s) (UPMR), see MSOM BUSSR 003.012.
+•
+check (UPMC), see MSOM BUSSR 003.013.
+Handwriting Analysis
+A handwriting analysis is a process where SSA requests the Fiscal Service QDB technician
+to review the handwriting on checks where the beneficiary, recipient or representative
+payee(s) did not file the nonreceipt claim timely, the check is older than 12 months
+and the check in question is part of an existing overpayment on the record.
+Held and Cancelled
+Treasury uses this process when the agency requests the cancellation of a payment
+prior to its release. This usually happens when the beneficiary, recipient or representative
+payee cashes the original check prior to the RFC releasing another check.
+Holder In Due Course
+This is a situation where a business, financial institution, or individual cashed
+a validly endorsed check and subsequently reported the check lost, stolen, or destroyed
+before the Federal Reserve Bank received it. (For additional information on holder
+in due course (theft, loss or destruction of check after negotiation by the original
+payee), see GN 02406.235.)
+Incorrect Payment
+Incorrect payment is any payment issued after death to which the beneficiary or recipient
+was not entitled. An incorrect payment is different from an overpayment. (For additional
+information on incorrect payments, see GN 02201.001E.)
+Limited Payability
+A limited payability check is a check that is older than 12 months (from the issue
+date of the check).
+Limited Payability Cancellation
+The automatic cancellation of a check by Treasury in the 15th month after the issue
+date of the check, if the check is older than 12 months and is still outstanding.
+Treasury returns the funds to the agency that authorized the payment.
+NOTE: This only applies to checks. It does not affect direct deposit payments. (For additional
+information on limited payability cases for Title II and Title XVI, see GN 02401.901 thru GN 02401.920.)
+Limited Payability Cancellation Credit
+Credit sent to SSA by Treasury via the Intra-governmental Payment and Collection (IPAC)
+system when Treasury cancels a check because of Limited Payability.
+Lost In Transit
+This term defines checks lost or stolen in transit between
+•
+financial institutions,
+•
+a financial institution and the FRB,
+•
+the FRB District Office and the FRB processing center, or
+•
+overseas depositaries and the FRB.
+Mass Loss
+Mass loss refers to a large number of checks in a geographic area that are lost, stolen,
+or otherwise unavailable for delivery. (For additional information on mass loss of
+checks and the payment delivery alert system (PDAS), see GN 02406.700.)
+Modernized Development Worksheet (MDW)
+The Modernized Development Worksheet, see MS MDW 001.003, is a communication tool
+used between FOs, PCs, and Teleservice Centers.
+MT-TAC (formerly L-TAC)
+MT-TAC is a type of action the technician uses to indicate a referral of an overpayment
+case due to a DCN to Treasury for a handwriting analysis, see GN 02406.310.
+For additional information on DIAR, see SM 01311.010. For additional information on
+overpayment decisions, see MSOM BUSSR 004.008.
+Mutilated Check
+A Treasury check that is torn, folded, or has information missing such that financial
+institutions will not process it through normal banking channels.
+N-TAC
+An N-TAC is an uncollectible overpayment decision, which records the fact that an
+overpayment is uncollectible when there is an early delivery of an SSI check in the
+month of the recipient’s death or the recipient is deceased and all efforts used to
+collect the overpayment have failed. For more information on uncollectible and erroneous
+overpayment decisions, see SM 01311.280.
+NT-TAC
+NT-TAC is a type of action code used for an SSI overpayment. The NT-TAC is an erroneous
+overpayment decision used to resolve erroneous systems computed overpayments. For
+additional information on overpayment decision data (OPDD), see SM 01311.040.
+Payment Claim Enhancement & Reconciliation (PACER) System
+PACER is a Treasury information system that contains payment and claim details for
+both paper checks and direct deposit payments that occurred from 10/97 and later.
+Payment Cycling
+Payment cycling began in June 1997. SSA delivers recurring RSDI benefits on four days
+throughout the month: on the 3rd of the month and on the second, third, and fourth
+Wednesdays of the month. Beneficiaries who received their benefits on the 3rd of the
+month prior to May 1997 continue to receive their benefits on that day. RSDI beneficiaries
+who filed claims May 1, 1997 and later received one of the three new payment dates
+based on the primary wage earner’s date of birth on the record where benefits are
+paid. (For information about exceptions to payment cycling, see GN 02407.005B.4.)
+Payment Over Cancellation (POC)
+A POC is the reversal of a previous credit given to SSA by Treasury. This situation
+occurs when the original check is outstanding at the time Treasury initially processes
+the nonreceipt allegation, and someone cashes the check before Treasury can cancel
+it. (For additional information on payment over cancellation credit reversal, see
+GN 02406.245.)
+Permanent Stop
+Permanent stop includes codes such as A, B, C, F, or G, that Treasury recognizes in
+order to return an uncashed check credit or to create a check claims package. If Treasury
+determines the check was forged, they will process a reclamation action. Only use a permanent stop for
+timely allegations of nonreceipt. See glossary definition of timely
+filing.
+NOTE: K-Stop or L-Stops (photocopy request) are NOT permanent stops and do not produce
+a claims package.
+Photocopy Request (K or L-Stop)
+A K-Stop is no longer required to obtain a check photocopy. The technician can now
+obtain a non-certified photocopy of a check from the Treasury Check Information System
+(TCIS). For additional photocopy information, see GN 02406.140.
+The L-Stop is a request for a certified photocopy. These check photocopies are not
+available through TCIS. The technician should only use L-Stop in the specific situations
+described in GN 02406.140 to request a certified photocopy of a check.
+NOTE: Technicians should never input a photocopy request to obtain a check claims package or follow up on a previous
+request for a claims package. (For additional information on photocopy, see MSOM BUSSR
+003.015.)
+If the technician needs the claims package, they should use the TCIS to obtain it
+or contact Treasury if the information is not available on TCIS.
+Process Message
+The process message, also known as a disposition code, represents a reply from Treasury
+indicating the action taken in response to SSA input. It posts to the PHUS database
+for Title II cases and the Treasury Status Query (UPTQ) for Title XVI cases. (For
+additional information on Treasury RFC and CSD disposition codes, see SM 00609.610.
+For information on the UPTQ, see MSOM BUSSR 003.020.)
+Questioned Documents Branch (QDB)
+The QDB are handwriting experts in a division at Fiscal Service. They examine signature
+specimens to resolve nonreceipt claims and process Limited Payability handwriting
+analysis requests.
+Record Activity Indicator (RAI)
+The RAI identifies the status of the Critical Payment System (CPS) record. An “I”
+means inactive and an “A” means active. (For a description of the CPS record, see
+SM 00635.600D.2.)
+Regional Financial Center (RFC)
+The RFC is a Treasury component that
+•
+houses direct deposit information,
+•
+performs the initial Treasury processing of nonreceipt reports,
+•
+issues courtesy disbursements and replacement checks,
+•
+performs the final processing of all certified benefit payments,
+•
+manually processes all direct deposit reclamations, and
+•
+processes all returned checks.
+Replacement Check
+The Treasury RFC cancels the original check and issues a replacement check, in response
+to a C-Stop, after the investigation indicates the original check is outstanding.
+Representative Payee
+The representative payee is the person or organization SSA selects to receive payment
+on behalf of a beneficiary or recipient in situations where the beneficiary or recipient
+cannot manage or direct the management of his or her benefits.
+Retroactive Payment
+The retroactive payment represents funds due to claimants for past periods of entitlement.
+Settlement Check
+Fiscal Service sends the settlement check directly to the check payee after an investigation
+of the signature indicates that the endorsement on the check in question was not the
+check payee’s. (Action originated as a C-Stop.)
+Settlement Date
+The settlement date is the date the financial institution credits the funds to the
+beneficiary’s account for EFT payments.
+Stale-Dated Check
+An unnegotiated Treasury check that is older than 12 months (from the check issue
+date).
+Status
+This is payment information indicating if the check is outstanding, cashed, returned,
+credited, credit reversed, or paid over cancellation according to Treasury records.
+Stop
+Stop Action
+Stop Reason
+We use Stop, Stop action, and Stop Reason to indicate that Treasury has processed
+a nonreceipt or stop payment action (such as an F-Stop.)
+Refer to non-receipt type codes in SM 00609.110, SM 00609.210, SM 01315.166, or SM
+01315.181.
+NOTE: Treasury defines any input received from SSA as a “stop action”.
+Stop Payment Action (1184 Action)
+Stop payment action (1184 action) indicates SSA requested Treasury to return funds
+that are not due the beneficiary or recipient. With the exception of death cases,
+users should prepare an 1184 action in check cases only.
+Treasury Check Operations Re-engineering Effort (T-CORE)
+A system located at FRB Richmond that processes payment transmittal and declinations
+and reclamation data. The T-CORE Declinations System handles U.S. Treasury check offsets
+and limited pay information provided by FMS, processes transmittal status reports,
+and intercepts U.S. Treasury checks negotiated under forged endorsements because the
+payee died and subsequent benefit payments were issued, or the check is stale dated.
+See GN 02408.006 and https://tfm.fiscal.treasury.gov/v1/p4/c700.html
+TeleTrace Process
+Treasury initiates the TeleTrace process when SSA inputs a nonreceipt (B-stop) on
+a missing EFT payment. The input initiates a trace request, which requires the TeleTrace
+staff to research the nonreceipt claim. (For additional information on the TeleTrace
+process, see GN 02406.007.)
+Timely Filing (Nonreceipt of Paper Check)
+Timely filing (non-receipt of paper check) is a term used in the context of filing
+a report of nonreceipt of a paper check. In these cases, the claimant must make or
+file the nonreceipt report within 12 months of the check issue date for the report
+to be timely.
+Treasury Receivable Accounting and Collection System (TRACS)
+TRACS is a debt recovery and accounting system that provides SSA with information
+about the entire accounting history of a nonreceipt case (e.g., credits, limited payability
+credits, debits, reclamations, refunds).
+Treasury Check Information System (TCIS)
+TCIS replaced Treasury’s Check Payment and Reconciliation system as an upgrade to
+their payment information process. It contains the history of check and direct deposit
+activity and has a record of check claims and photocopy requests (A, B, C, E, F, G,
+K, L, and M stops). TCIS information is available directly from Treasury by calling
+1-855-868-0151.
+NOTE: Currently, technicians in the RO, FO, PSC and TSC have access to TCIS.
+Treasury Check/Trace Number (TCTN)
+The TCTN is a field shown on SSA queries, which holds 8 characters. There are 7 spaces
+for EFT trace numbers and 8 spaces for check numbers. A narrative statement will display
+on the Treasury Status Query (UPTQ) for Title XVI payments, and the actual check numbers
+post in the TCTN field on PHUS.
+Treasury Check/Trace Symbol (TCTS)
+The TCTS digits help Treasury locate its payment and claims records. Three numbers
+indicate an EFT payment; four digits are for paper checks. The actual symbol numbers
+post in the TCTS field on PHUS and a narrative statement will display on the Treasury
+Status Query (UPTQ) for Title XVI payments.
+Type of Payment Code (TOP)
+The TOP code identifies on the PHUS record for Title II and the SSR for Title XVI
+the type of payment involved in the nonreceipt or stop payment action.
+For a list of Title II codes, see SM 00545.295C.5.
+For a list of Title XVI codes, see SM 01601.835C.2.
+Unavailable check
+An unavailable check is a check that is not in possession of the Treasury and the
+payee or claimant reports it as lost or not received.
+Unavailable check cancellation (UCC) Credit
+A UCC credit represents funds returned to SSA by Treasury for an outstanding check
+(i.e., not cashed or returned) that has been cancelled. This occurs when SSA inputs
+a nonreceipt or 1184 stop payment action and the payment is outstanding. Treasury
+returns the credit to SSA who posts the amount to the appropriate record.
+USSS (United States Secret Service)
+USSS receives referrals from Treasury for additional investigation if circumstances
+warrant.
+VARO (Veterans Administration Regional Office)
+VARO is the servicing office for SSA claims and related matters for individuals residing
+in the Philippines.

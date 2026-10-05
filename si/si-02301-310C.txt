@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - SI 02301.310 - Appeal and the Right to Goldberg Kelly (GK) Payment Continuation
+Effective Dates: 08/26/2024 - Present | TN 79 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301310 (fetched 2026-10-04)
+
+C. Procedure - Recipient Appeals
+Follow these procedures to protect a recipient's right to payment continuation when
+they file a reconsideration request.
+1. Advance Notice Issued and Appeal Filed Same Day
+When a recipient or payee reports a change to the field office (FO) in person that
+results in an adverse action and wishes to appeal at the same time:
+•
+input the change,
+•
+immediately prepare an online or manual GK notice and hand it to the recipient, and
+•
+take the reconsideration request.
+NOTE: A recipient cannot appeal an adverse action until there is a written notice of the
+initial determination.
+2. Advance Notice Mailed - Determine Receipt Date
+Determine the presumed notice receipt date:
+•
+Count 5 calendar days after the date on the notice.
+•
+If the notice is not available on the online retrieval system (ORS), count 12 calendar
+days after the notice run date in the NOTC segment on the SSR (7 days notice processing
+and 5 days mailing) or use the notice date in the DUPR segment on the SSR.
+•
+If the receipt date is a non-delivery day for the Post Office, extend the receipt
+date to the next delivery day.
+IMPORTANT: If the notice cannot be found on the ORS, consider accepting a reasonable allegation
+of the receipt date since notice run dates on the Supplemental Security Record (SSR)
+are not always accurate and mailing of notices may not occur on time. See SI 02301.301B.3. and SI 02301.301B.4. about notice processing.
+3. Determine the 60-Day time Limit
+Determine the 60-day time limit to file the reconsideration request and qualify for
+payment continuation:
+•
+Count 60 days after the notice receipt date as determined above.
+•
+If the 60th day is a non-work day for SSA, extend the time limit to the next work
+day.
+NOTE: The instructions on processing reconsideration requests and determining the 60-day
+appeal period are in SI 04020.020.
+4. Extend Time Limit for Good Cause
+If the recipient does not file the reconsideration request within the 60-day time
+limit, advise the recipient that they must explain in writing the reason for missing
+the time limit. For instructions on developing good cause, see SI 04020.020B.2. through SI 04020.020B.3.
+5. Give Receipt for Appeals (SSA-94)
+Give the recipient a completed Form SSA-94 (Receipt of SSI Appeal Request) only
+when they qualify for GK payment continuation at the PPL and do not waive it, or when they request it later after waiving it.
+See SI 02301.410 for an exhibit of the SSA-94.
+6. Recipient Waives Payment Continuation - Obtain Waiver (SSA-263-U2)
+If the recipient qualifies for GK payment continuation at the PPL and on their own
+initiative chooses against it:
+•
+obtain a signed Form SSA-263-U2 (Waiver of Supplemental Security Income Payment Continuation),
+•
+retain the original copy in the recipient's file, and
+•
+give the duplicate copy to the recipient.
+See SI 02301.415 for an exhibit of the SSA-263-U2.
+7. Recipient does Not Waive Payment Continuation
+If you cannot issue an appeal decision the same day as the appeal is received, follow
+instructions in SI 02301.315 - Erroneous Payments and GK Payment Continuation to continue (or restore) benefits
+at the PPL. If you can issue an appeal decision the same day the appeal is received,
+input a due process data (DPD) entry following SM 01305.570A2 - Processing of Initial
+Appeal Decision.
+8. Record Appeal on the SSR
+To input appeals data, refer to MS 04420.001 - Appeals-Overview and MS 00302.007 -
+Appeal Process.

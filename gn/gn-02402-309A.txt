@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02402.309 - Coding United Kingdom (U.K.) Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402309 (fetched 2026-10-04)
+
+A. Background for coding U.K. Bank Data
+This section describes how to code bank data for direct deposit of Title II benefits
+to a bank in the U.K.. We store IDD bank data on the MBR in the same fields as are
+used for U.S. direct deposit.
+Special coding identifies the data as U.K. direct deposit. This allows benefit payments
+to be routed through the Federal Reserve Bank of Kansas City (FRBKC) and the processor
+bank in the United Kingdom (UK) to the beneficiary's local FI.
+If the account is in a branch in Northern Ireland, you need to follow the procedure in GN 02402.309C.
+However, if the account is in a branch in the Republic of Ireland, you need the procedures in GN 02402.303.
+The data for coding may come from a signup form for U.K. (see GN 02402.309E.) or from the equivalent information received by mail, phone, fax, or Email.
+For detailed instructions on IDD requests and forwarding information, see:
+•
+GN 02402.201 Background and Policy for Direct Deposit Outside the U.S.
+•
+GN 02402.205, Direct Deposit Enrollment Outside the U.S.
+•
+GN 01010.255, Adjudication of Foreign Claims
+•
+GN 01702.310C Routing of Claims for U.S. Benefits Involving Totalization

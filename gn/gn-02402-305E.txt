@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.305 - Coding Norwegian Bank Data for the MBR
+Effective Dates: 07/19/2016 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402305 (fetched 2026-10-04)
+
+E. Description of Norwegian IDD bank data
+The data to code IDD for Norway comes from banks determined by the FRBKC. Norwegian
+bank data consists of an 11-digit bank account number (Deres konto nr.) that consists
+of the following:
+•
+Bank number as it appears in the Bankplass-Navne-og-Nummer-Register for Norge: 4 digits
+•
+Type of account: 2 digits
+•
+Customer account number: 5 digits
+The information can be obtained from the beneficiary's personal check or bank card.

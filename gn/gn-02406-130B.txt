@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02406.130 - Nonreceipt Interview and Screening
+Effective Dates: 07/27/2018 - Present | TN 123 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406130 (fetched 2026-10-04)
+
+B. Review nonreceipt queries before conducting interviews
+Perform preliminary reviews of nonreceipt allegations prior to the beneficiary interview.
+Title II and Title XVI databases are as follows for performing preliminary reviews:
+1. Title II nonreceipt allegations
+a. PHUS
+Review the Payment History Update System (PHUS) and identify the reported causes for
+all nonreceipt allegations. Nonreceipt PHUS event posts include several specific entries
+to identify checks or payments in question.
+b. MBR
+1.
+Check daily updates reflecting changes that affect payment status.
+2.
+Compare the beneficiary’s MBR with his or her PHUS to identify inconsistent actions
+(the MBR shows actions that should have taken place, while the PHUS shows actions that actually took place).
+3.
+Check for recent benefit changes. Field offices (FO) and teleservice centers (TSC)
+use this information for responding to allegations of nonreceipt of payment.
+4.
+When you input nonreceipt via the PEN1/PEN2 screens, the system compares data to the
+MBR to determine if it can locate a matching payment. A further description of the
+input screens and online edits are shown in MS 06303.027.
+2. Title XVI nonreceipt allegations
+a. SSR
+Query the SSR to determine alleged Title XVI nonreceipt payment issue dates and pay
+status (the SSR reflects what is actually paid and updates after each processing run).
+The SSR records all Title XVI allegations of nonreceipt. Verify and correct the address
+and direct deposit information.
+b. Treasury Status Query
+If the claimant is following up on a previous nonreceipt report, request a Treasury
+Status Query Control Record to view nonreceipt or stop-payment transmittals. The Treasury
+Status Query Control Record, previously known as the “Q Query,” provides all previous
+nonreceipt and stop-payment actions. Instructions for obtaining a Treasury Status
+Query are in MSOM BUSSR 003.018. MSOM BUSSR provides explanations of Treasury status
+disposition codes.
+NOTE: In addition to the above programs, technicians in the Regional Office, FO, Processing
+Service Centers, and Teleservice Centers have access to TCIS. This contains the history
+of check activity and has a record of check claims and photocopy request. For more
+information on TCIS, please see Treasury’s Bureau of Fiscal Services website.

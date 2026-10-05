@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 23510.020 - Death after Filing – Title II (Chart)
+Effective Dates: 06/12/2025 - Present | TN 18 (06-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423510020 (fetched 2026-10-04)
+
+DI 23510.020 Death after Filing – Title II (Chart)
+Use this chart to determine required disability determination services (DDS) actions
+regarding Form SSA-831 (Disability Determination and Transmittal), notification, and
+any special routing instructions. For additional instructions related to these procedures,
+see DI 23510.001 and DI 23510.010.
+Situation
+Claim Type
+Determination
+DDS action
+Potential onset date (POD) less than five full months before the month of death and
+no possibility of earlier onset (waiting period case).
+For additional instructions, see DI 23510.001C
+Disability insurance benefit (DIB) or disabled widow(er) benefit (DWB) (Initial or
+Reconsideration)
+No Determination
+See Processing “No Determination” Claims, DI 81020.127
+SSA-831
+required
+(Determined by current legacy system limitations)
+DCPS cases do not require SSA-831
+Complete only the following items not propagated by the system:
+Items 30 & 31: Examiner signs and dates.
+Item 34 (Remarks): Enter “Death in waiting period - no possibility of earlier onset.”
+Notification
+No DDS-prepared notification is required.
+SSA-831
+not
+required
+(Determined by current legacy system limitations) Process per the instructions in DI 81020.127
+Established onset date (EOD) same as POD
+DIB, childhood disability beneficiary (CDB), DWB (Initial or Reconsideration)
+Allowance
+SSA-831
+Complete as usual with the following exceptions:
+Item 17 (Diary): Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Notification
+No DDS-prepared notification is required.
+EOD after POD (whether EOD is more or less than five full months before the month
+of death);
+or
+Closed Period
+DIB, CDB, or DWB (Initial or
+Reconsideration)
+Partially Favorable Allowance
+SSA-831
+Complete as usual with the following exceptions:
+Item 17 (Diary): Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Item 29 (Ltr): Enter “PSC/DL”. (If the system is unable to generate the proper disability
+determination notice and a manual notice must be prepared.)
+Notification
+Prepare a personalized disability explanation in the third person.
+Routing
+Route case to the field office (FO) with a Special Handling flag.
+See, Certified Electronic Folder (CEF) Flags, DI 81020.085.
+Alert the FO via email to release the notice attachment when the case is processed.
+For electronic disability insurance benefit (eDib) cases see Electronic Case Closure,
+DI 81020.130.
+Severe impairment did not last 12 months nor was it the cause of death
+Or
+Any fully unfavorable determination (excludes “death in the waiting period”)
+DIB, CDB, or DWB (Initial or Reconsideration)
+Denial
+SSA-831
+Complete as usual with the following exceptions:
+Notification
+Prepare a personalized disability explanation in the third person. Alert the FO to
+release the notice attachment when the claim is processed.
+For DWB and CDB cases, the personalized disability explanation does not include a
+decision paragraph.
+Routing
+Route the case to the FO with a Special Handling flag.
+See Certified Electronic Folder (CEF) Flags, DI 81020.085.
+Alert the FO via email that the notice attachment should be released when the claim
+is processed.
+For eDib cases, see Electronic Case Closure DI 81020.130.

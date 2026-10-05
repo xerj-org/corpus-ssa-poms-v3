@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 10105.902 - Taking and Processing Auxiliary or Survivor Applications Filed During the Benefit Continuation Period (BCP) - Disability Benefit Equals or Exceeds Auxiliary or Survivor Benefit
+Effective Dates: 06/15/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410105902 (fetched 2026-10-04)
+
+B. Field Office (FO) role
+The FO will:
+1.
+Develop the evidence required as in any other auxiliary or survivor claim.
+2.
+Prepare an A101 Automated Determination of Award :
+•
+Enter the amount of the disability benefit in the smaller actuarially reduced monthly
+benefit amount (“SAMBA”) on the MBEN screen and 0.00 in the benefit amount.
+•
+Enter the claimant’s own Social Security number (SSN) in the “Cross Reference SSN”
+entry on the BENE screen, with the applicable status code “A”, or, in the case of
+a DWB or CDB the SSN on which the disability benefit is being paid and the applicable
+stat code.
+•
+Annotate the Remarks portion of the BCRN screen, “Do Not Process” and “BCP claim-Do
+not process Auxiliary (Survivor) Claims Unless Disability Insurance Benefits (DIB)
+Cessation is Affirmed.” Forward the A101 to the processing center (PC)
+3.
+Adjudicate the A101. Modernized Claims System (MCS) will establish a control and transfer
+ownership to the PC.

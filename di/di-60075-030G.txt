@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 60075.030 - Field Office (FO), Processing Center (PC), and National 800 Number Network (N8NN) Responsibilities under the Promoting Opportunity Demonstration (POD)
+Effective Dates: 02/01/2018 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075030 (fetched 2026-10-04)
+
+G. Medical CDRs and work development
+A beneficiary that participated in the POD was still subject to medical CDRs.
+1. POD workgroup unit discovers need for a medical CDR
+When a medical review is due, the PITAG/I&E unit transfers the case to the FO to develop
+the case and send it to the DDS for a medical decision.
+2. FO or PC discovers need for a medical CDR
+If the FO or PC discovers a need for a medical review for a POD participant with earnings
+on the record, do not attempt to initiate a work review for the POD participation
+period. The POD evaluated earnings outside of eWork. It may appear that earnings are
+undeveloped per the DCF and eWork, but the POD Automated System (PAS) is evaluated
+and offset earnings. Proceed with medical CDR development as though all earnings are
+developed per regular SSDI rules.
+In a Form SSA-5002 (Report of Contact), state that the beneficiary is participated
+in the POD (MMDDYY – MMDDYY) and is not subject to work CDRs during participation.
+NOTE: Annotate in the Electronic Data Collect System (EDCS) that the beneficiary is a POD
+participant and that the POD evaluates earnings on a monthly basis, outside of the
+eWork system.
+3. Work development during the POD offset period
+The POD evaluated earnings during the participation period on a monthly basis using
+the PAS. The FOs and PCs do not have to develop work when processing medical CDRs.
+However, they must notify DDS that work development is complete.
+4. Medical cessation
+If the DDS finds medical improvement, review the MBR for a HISTDEMO group and a Demonstration
+Project Indicator (DPI) code of DP.
+a. MBR has HISTDEMO group and a DPI code of DP
+If the MBR has this coding, send an email to the appropriate POD PC email account
+according to jurisdiction, see DI 60075.050A, with the subject “POD Case – Medical Cessation”. Indicate in the email that the
+POD participant has medically ceased and the PC must update the MBR.
+The PITAG (PC1-6) or I&E unit (PC7) will code the medical CDR determination on the
+MBR. The FO should not attempt to input the medical cessation information via the
+post entitlement online system (POS). Doing so will cause the input to except and
+delay the posting of the medical information to the MBR.
+b. MBR does not have a HISTDEMO group or a DPI code of DP
+If the MBR does not have a HISTDEMO group, the system will automatically process the
+termination as long as the proper medical cessation coding appears on the MBR DIB
+line.
+NOTE: Follow normal procedures for processing a medical CDR and appeals for all POD cases
+including those where Section 301 payment continuation applies. The local FO should
+take control of this case and process it normally.
+5. PC attempts to input a PE action
+If a non-POD unit in the PC attempts to input a PE action through a MADCAP or MACADE
+transaction within the start and stop dates of the demonstration project, an alert
+specifies the need to access an additional screen to override the current demonstration
+information on the MBR. This is a preventative measure to avoid incorrect inputs by
+the PCs. PC staff should refer necessary actions within the demonstration period to
+the PITAG (PC1-6) or I&E unit (PC7) within the PC of jurisdiction.

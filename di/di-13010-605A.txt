@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 13010.605 - The CDR Development Worksheet (CDRW) Screen
+Effective Dates: 02/02/2018 - Present | TN 21 (08-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010605 (fetched 2026-10-04)
+
+A. Procedure – When to Use the CDRW Screen
+Use the CDR Development Worksheet (CDRW) to control actions pending in the Disability
+Control File (DCF), such as EXR requests, work CDR issues for eWork exclusion cases,
+Ticket to Work issues, or Section 301 issues. The CDRW posts automated issues, such
+as VY (verify) and ERNGS (earnings) issues based on inputs into other systems and
+DCF screens. You can also manually create issues. All issues are assigned to a location
+(the LOC field) which is derived from the location of the user. All issues can be
+viewed, but you can only update issues which are pending in your location. Issues
+which are not your jurisdiction will appear in blue.
+The CDRW will store up to 100 issues. When issues are generated from another DCF screen
+and 100 issues are already present, the DCF screen cannot be completed until sufficient
+existing issues are deleted to make room for the new issues. When issues are generated
+in the batch process and 100 issues are already present, closed issues (oldest first)
+followed by the oldest open issues will drop off to make room for the current issues.
+Closed Earnings and Ticket issues drop off automatically 30 days after closure. Other
+closed issues drop off 180 days after a medical CDR is completed. If an appeal is
+indicated by a Y in the APPEAL field of the CDR Information screen (CDRI), closed
+issues will remain for 360 days.
+NOTE: When you access the CDRW, incomplete lines will be displayed at the end of the list
+of issues with the LOC, TYPE and REQUEST fields pre-filled. This feature is intended
+as a time saver for users creating new issues. New issues are not established unless an entry is made to the ISSUE field.

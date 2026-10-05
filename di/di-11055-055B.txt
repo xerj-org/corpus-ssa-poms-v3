@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - DI 11055.055 - Multiple Claims with Supplemental Security Income (SSI) Involved
+Effective Dates: 08/17/2026 - Present | TN 97 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411055055 (fetched 2026-10-04)
+
+B. Processing concurrent Title II and Title XVI claims
+•
+For certified electronic folders (CEF), use the Electronic Disability Collect System
+(EDCS) to process concurrent cases that require a medical determination. For instructions
+on how to establish and transfer a case in EDCS/eView, see sections in DI 81010.000.
+•
+If the case is a CEF exclusion (i.e., EDCS/eView cannot store the case folder), establish
+the folder following the instructions in DI
+81010.030E.
+NOTE: The same disability forms (e.g., the SSA-3368 (Disability Report - Adult), the SSA-3367
+(Disability Report – Field Office), and SSA-827 (Authorization to Disclose Information
+to SSA)) serve their purpose under both titles for the concurrent disability claim.
+In general, only one set of disability forms is necessary for the concurrent case.
+1. Medical determination is unnecessary
+a. Technical denial based on substantial work activity
+Follow instructions in DI 11055.095 to prepare the substantial gainful activity (SGA) technical denial when:
+•
+the claimant is engaging in SGA,
+•
+none of the alleged impairments indicate statutory blindness, and
+•
+the period of SGA precludes establishing disability in the pending claim.
+Document the work activity using the SSA-820/SSA-821 (Work Activity Report) and SSA-823
+(Report of SGA Determination).
+For more information on SGA determinations, see the appropriate instructions in DI 10500.000. For EDCS instructions on using the FO denial function in SGA determinations, see
+DI
+81010.140C.
+NOTE: If earned income is above the break-even point after considering all income exclusions,
+use denial code "N01" (excess income) to deny the SSI claim without developing SGA
+under Title XVI. For more information on income affecting SSI eligibility, see SI 00810.001.
+b. Technical denial on only one of the claim types
+If a concurrent case involves a nonmedical/technical denial under one title, transfer
+only the claim(s) needing a medical determination to the DDS. The FO has jurisdiction
+of the technical denial.
+2. Medical determination is necessary
+After required nonmedical development, send the case to the DDS for a medical determination.
+REMINDER: Develop and resolve all potential SGA issues prior to transfer of the case to the
+DDS. For guidelines on when to defer certain other nonmedical development until after
+a favorable medical determination, see DI 11010.025 and SI 00603.002.
+a. Nonmedical requirements met, claims already pending for medical determination
+In general, after the FO completes required actions to establish potential eligibility
+and sends the case to the DDS, the FO's decision whether to defer further development
+has no effect on the disability determination.
+The FO does not need to document decisions on deferred or simultaneous development
+unless the DDS contacts the FO to develop an aspect of a deferred claim. If necessary,
+use the EDCS Update-After-Transfer (UAT) Utility to send a report of contact to the
+DDS to notify them of the resolution of all critical nonmedical requirements on the
+claim (i.e., nonmedical issues affecting whether the claim is allowed or denied) and
+that a concurrent medical determination is still needed.
+NOTE: In a Quick Disability Determination (QDD) or Compassionate Allowance (CAL), an EDCS
+onscreen message will prompt the FO to complete simultaneous full development (i.e.,
+continue additional nonmedical development after EDCS transfer). Upon completing full
+nonmedical development, if the SSI claim remains pending for only medical development
+at the DDS, use the Consolidated Claims Experience (CCE) to build the Supplemental
+Security Record (SSR) in blank payment status (PSY blank). In general, when the DDS
+makes a favorable disability determination within 120 days of the CCE input and no
+additional FO action (e.g., capability or payee development) is necessary, the SSI
+allowance will automatically effectuate on the SSR.
+•
+For instructions on FO-DDS communication and exchange of information, see DI 10005.010.
+•
+For when the QDD predictive model or CAL selection software determines that a case
+qualifies for priority processing, see DI 23022.030.
+•
+For requirements and systems inputs for simultaneous development in SSI claims, see
+SI 00603.004.
+b. Nonmedical requirements met, one claim not yet sent for medical determination
+If only one claim type in a concurrent case was sent to the DDS but, after additional
+development, the FO determines a concurrent medical determination is necessary for
+another claim type, use EDCS UAT to:
+•
+add the additional claim type to the case pending at the DDS, and
+•
+create a report of contact to explain why the claim type was added to the CEF.
+NOTE: For information on updates to CEF cases, see DI 81010.095. For instructions on CEF exclusions, see DI 81010.030.

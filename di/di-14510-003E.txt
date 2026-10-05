@@ -1,0 +1,85 @@
+SSA Program Operations Manual System (POMS) - DI 14510.003 - Field Office (FO) Procedures for Cases Involving Participation in Vocational Rehabilitation (VR) or Similar Program
+Effective Dates: 11/01/2024 - Present | TN 18 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510003 (fetched 2026-10-04)
+
+E. No longer participating in VR or similar program
+1. Participation stopped prior to, or in the month of, medical cessation or during the
+two months after medical cessation
+If the beneficiary stopped participating prior to, in the month of, or during the
+two months after medical cessation, there is no potential Section 301 eligibility.
+The two-month grace period would include any payment due for the month of cessation
+plus the following two months.
+•
+Fax the completed SSA-4290-F5 into eView or EP;
+•
+Terminate benefits based on the medical cessation;
+•
+Delete any REMARKS on the SSR or MBR that, are outdated or no longer apply and verify
+the cessation is posted to the DCF;
+•
+Add a Remark(s) that VR participation ended and give the date, MM/DD/YY; and
+•
+Prepare and send the Title II, Title XVI, or combined Titles II and XVI Section 301
+denial notice located in the Document Processing System (DPS).
+NOTE:
+For instructions on how to evaluate a possible temporary interruption in participation,
+see DI 14505.010D.
+2. Participation stopped after the second month after the month of medical cessation,
+or later
+If the beneficiary stopped participating in the qualifying program after the second
+month following the month of medical cessation:
+•
+Develop Potential Section 301 eligibility for the period from the cessation month
+through the month participation ended;
+•
+Fax the SSA-4290-F5 into eView or EP;
+•
+Create a 301 issue on the DCF using the CDRW to control for the return of the case;
+add the remark, “Pending 301 determination;”
+•
+Add an issue on the MCS or Development Worksheet;
+•
+Transmit the case to ODO by uploading the Potential
+Section 301 Case Flag, along with the SSA-4290 and related documents, to ODO's PPC using the EP's 4290
+Barcode. Select the "Yes" on the Document Information screen, to make the transmission
+actionable when PC involvement is required; and
+•
+Suspend benefits until ODO makes its determination.
+NOTE:
+If the beneficiary requested Statutory Benefit Continuation (SBC) during an appeal
+for a medical cessation determination, do not suspend benefits.
+a. Title II suspension input
+•
+Input S9 suspension effective the month after participation ended;
+•
+Add the remark, “S9 due to pending 301 determination, participation ended MM/DD/YY”
+to the special message field of the MBR; and
+•
+Prepare the notice per DI 14510.003E.2.c.
+b. Title XVI suspension input
+•
+Input payment status N05 for the month after participation ended and suppress the
+systems-generated notice;
+•
+Add the remark, “N05 due to pending 301 determination, participation ended MM/DD/YY”
+to the SSR; and
+•
+Prepare a notice per DI 14510.003E.2.c.
+c. Important Information notice
+•
+Prepare and send an “Important Information” notice. For Title II cases, use the SSA-L951-U2 (Social Security Notice Letterhead); for Title XVI cases, use an SSA-L8165-U2 (Important Information).
+•
+Send the notice to the beneficiary and the representative payee. Use the following
+language:
+“When we notified you that your disability had ended, we also told you that you might
+be eligible for continued payments if you are currently participating in an appropriate
+program of vocational rehabilitation, employment training, or educational or other
+services. Your program provider told us that you stopped participating in your program
+on MM/DD/YY. We are sending your case to another office for a special decision about
+whether you are eligible for continued payments for the month your disability ceased
+through MM/YY. We will send you another letter when we make our decision. We will
+suspend your benefits effective MM/YY while we wait for this decision.
+If you have any questions, you may contact your local Social Security office. The
+address and telephone number are printed at the top of this notice. If you call or
+visit a Social Security office, please have this notice with you. It will help us
+answer your questions.”

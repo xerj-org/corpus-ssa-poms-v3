@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - DI 13010.675 - The Verify/Update Earnings (VERN) Screen
+Effective Dates: 10/01/2012 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010675 (fetched 2026-10-04)
+
+H. Title XVI cases
+The final section of the VERN screen displays Title XVI earnings and work incentive
+information. It includes the same fields as the Title II section. The verified earnings
+and applicable SSI work incentive information input to the SSR automatically propagates
+to the DCF. The information is display only. If the information is not correct, correct
+it via an EN field input to the SSR (see SM 01305.101B). Document the reasons for
+differences in Title II and Title XVI countable earnings on the CDR REMARKS INPUT
+SCREEN (IRMK) (see MSOM CDR 001.009 and DI
+13010.630) if the reason is not apparent. Documentation is not necessary if the sole reason
+is due to the difference is the result of paid vs. earned.

@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02402.340 - Coding Poland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/03/2018 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402340 (fetched 2026-10-04)
+
+F. Procedures for coding routing and account numbers for International Direct Deposit
+(IDD) to Poland
+Use this chart to determine which instructions to follow:
+If you are in…
+Follow instructions in this subsection at …
+The FBU in Poland, or OEIO
+GN 02402.340E.1.
+An FBU outside Poland
+GN 02402.340E.2.
+A U.S. field office (FO) or regional office (RO).
+GN 02402.340E.3.
+1. Instructions for the FBU in Poland, or OEIO
+If…
+Then…
+The cutoff date is three or fewer days from today,
+•
+Code the full IBAN to ITS.gov .
+•
+To code the bank data to the MBR, follow the steps in this section at GN 02402.340E.2.
+The cutoff date is at least four days from today,
+•
+Code the full IBAN to ITS.gov.
+•
+ITS sends the information for the MBR to DIO through Automated Enrollment. You don’t need to code directly to the MBR.
+2. Instructions for an FBU outside Poland
+1.
+Is the beneficiary’s address on the MBR outside the U.S.?
+If yes, go to Step 2.
+If no, STOP. The MBR does not accept IDD information if the beneficiary has a U.S. address.
+2.
+Is the beneficiary’s account a USD account at an FI in Poland?
+If yes, go to Step 3.
+If no, return the request. STOP. This must be a USD account in Poland.
+3.
+Code the Type of Account (on the SSA screen) as checking or savings. If you don’t
+know the type of account, code it as checking.
+4.
+To begin coding the Routing and Transit Number (RTN) field (nine digits total), start
+with 70, the multi-country prefix that SSA and FRBKC have designated for Polish IDD. (NOTE: Poland has the same contractor code as the Caribbean countries.)
+5.
+Skip the first four characters of the IBAN, which consist of PL and two check digits.
+Code the next six digits of the IBAN
+(the first six digits of the eight-digit bank-branch code).
+6.
+Code the U.S. check digit. Obtain the check digit from Title II Interactive Comps.
+7.
+Code the Depositor Account Number (DAN) field, starting with E, the country code for Poland for the multi-country contractor that uses the 70 prefix.
+8.
+Code the next 16 digits of the IBAN (the last 2 digits of the bank/branch number and the first 14 digits of the account
+number).
+9.
+Are you certified to enter data on ITS.gov?
+If yes, input the full IBAN information to ITS.gov , and fax the enrollment form to the FBU in Warsaw for review.
+If no, fax the completed form to the Warsaw FBU (at the fax number on DOORS). STOP.
+3. Instructions if you are in an FO or RO in the U.S.
+1.
+Print and complete the English version of the enrollment form for Poland, SSA-1199-PO-OP1.
+If the beneficiary reads Polish, allow the beneficiary to use the Polish version,
+SSA-1199-PO.
+2.
+Fax the completed form to OEIO’s paperless fax number at 877-385-0645 STOP.

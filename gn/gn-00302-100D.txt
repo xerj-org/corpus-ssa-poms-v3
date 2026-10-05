@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 00302.100 - Developing Evidence of Age When There is No Preferred Evidence
+Effective Dates: 08/08/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200302100 (fetched 2026-10-04)
+
+D. SSN missing from NUMIDENT file
+Where the SSN record is missing from the NUMIDENT file, the query response will include
+the message: “SSN: NNN-NN-NNNN NIF as of MM/DD/YY.” The record may not have been established for various reasons, e.g.:
+•
+The SS-5 was not keyed in when an SSN was obtained through an emergency process.
+•
+There was no information in the SS-5 file about the NH when the NUMIDENT file was
+created. Assume that the SSN belongs to the individual unless other information in
+file raises a doubt.
+In these cases only, another SSA record may serve in place of the NUMIDENT. See GN 00302.120 for other SSA records which may be used if no NUMIDENT record exists for a claimant. Include the NUMIDENT query response in file
+when another SSA record is being used.

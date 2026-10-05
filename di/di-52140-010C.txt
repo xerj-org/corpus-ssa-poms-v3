@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - DI 52140.010 - Processing Center (PC) Responsibilities for Processing Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 09/13/2017 - Present | TN 11 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140010 (fetched 2026-10-04)
+
+C. Systems processing of cases with WC/PDB offset
+There are three ways to process and annotate WC/PDB information to the MBR:
+a.
+Modernized Claims System/Earnings Computation (MCS/EC). For instructions on systems
+processing of initial claims involving WC/PDB, see DI 52155.000.
+b.
+Title 2 Redesign (T2R) Interactive Computation Facility (ICF). For instructions, see
+DI 52165.000, and
+c.
+ICF calculations processed via Online Records Entry Operation (OREO) and transmitted
+through MADCAP. For processing instructions, see DI 52165.020.
+NOTE: For instructions regarding obtaining proofs prior to adjudication, see DI 52145.000.
+1. MCS/EC processing
+The FO processes most initial and reconsideration level claims via MCS/EC. MCS/EC
+is able to process most disability claims involving WC/PDB.
+The PCs are responsible for MCS processing of all ALJ-level awards and some subsequent
+claims.
+To process through MCS, follow these steps:
+a.
+Review all MCS/EC WC/PDB screens input by the FO.
+b.
+Check the electronic folder (EF), eView, or EP for proofs. If a paper folder is involved,
+review for any missing information.
+c.
+Attempt to adjudicate the ALJ claim or subsequent claim through MCS/EC. The MCS/EC
+trigger adjusts WC data on the Shared Process screens and codes offset to the MBR.
+d.
+Finally, prepare notices to advise the beneficiaries of our decisions. For notice
+instructions, see Initial Determination Workers’ Compensation/Public Disability Benefit
+(WC/PDB) Notices in DI 52155.035.
+2. Processing claims by T2R ICF and MADCAP
+If you encounter an MCS/EC limitation:
+a.
+Input the WC/PDB information into ICF to compute offset and adjudicate the claim.
+For WC/PDB Data Computation Results Screens, see MS 02432.001 through MS 02432.008.
+b.
+Prepare an A101 or EF101. For A101 processing, see DI 52155.025 and for EF101 processing, see DI 52155.030.
+Both T2R and MADCAP utilize a Datasheet produced from the ICF computation action.
+For Datasheet information, see MS 02435.001 and MS 02435.002.
+The Benefit Technical Examiner (BTE)/Benefit Authorizer (BA) can key only limited
+WC data into MADCAP. WC data propagates into MADCAP from the data the CS adjudicated.
+The CS does the following:
+a.
+Completes the WRAC screen with a “Y” in “USE THE RESULTS IN ICF?”
+b.
+Provides all pertinent WC/PDB paragraphs for a complete award notice.
+NOTE: In MADCAP, the BTE/BAs input determines the type of notice that goes to the NH.
+Providing the BTE/BA with the correct paragraphs is crucial in getting your message
+across and creating a complete, accurate notice.
+c.
+Routes the case to the BTE/BA for MADCAP processing.
+You may partially adjudicate the award based on the NH’s allegations and secure proof
+on a post-adjudicative basis. For partial adjudication, see procedures in GN 01010.110.
+If an attorney or representative represents the NH and the case involves a fee agreement,
+refer to instructions in GN 03940.036.
+3. WC/PDB verification is received and differs from the alleged WC/PDB
+Adjust all offset through ICF if a new proven rate differs from the alleged WC/PDB
+rate.
+For partially adjudicated ALJ cases with attorney or representative involvement:
+•
+Recalculate the attorney or representative's fee based on the proven rate (if necessary).
+•
+Add a special message on the MBR explaining that the attorney or representative's
+fee is ready for calculation since WC/PDB rates are now proven.
+NOTE: Provide appropriate language regarding the established fee amount. ICF Function 32
+input will except because of the attorney or representative fee coding on the MBR. Therefore, code
+"Y" on the WCPA screen in ICF 32 as if you will be completing an A101. Send the case
+to the BTE/BA to recalculate the attorney or representative's fee. The BTE/BA will
+then pay the correct amount to the attorney or representative using the Single Payment
+System (SPS).
+IMPORTANT: If we obtained the WC/PDB information through other appropriate sources, follow
+due process procedures in GN 03001.025.

@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - SI 01730.040 - Assignment of Rights for Medicaid Eligibility
+Effective Dates: 12/12/2016 - Present | TN 10 (06-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501730040 (fetched 2026-10-04)
+
+F. Procedure — nonautomatic assignment states
+1. Paper Applications
+After explaining AOR, complete block 59(a) in paper applications in section 1634 States.
+If “Yes” to block 59(a), continue with the rest of block 59 and complete an SSA-8019-U2 (see
+SI 01730.045) when appropriate. If the individual refuses assignment of rights in block 59(a),
+explain again that refusal will probably result in a Medicaid denial and skip the
+remainder of block 59. Code an “A” in the PT field of the SSA-450-SI (“SSI Data Input and Determination”). (See SM 01005.350 ff. about assuring proper coding in the PT field.)
+If a claimant who refused AOR changes the decision and the claim has not yet been
+completed, amend the application with a completed SSA-169 and file in the claims folder.
+2. MSSICS Claims
+In MSSICS claims, enter “Y” on the BMEN question (“Health Expenses”) to bring up the BHLT screen.
+NOTE: An entry of “N” will prevent appearance of the BHLT screen.
+Code BHLT (see MSOM INTRANETSSI 019.020) with a “Y” for Yes (agrees to AOR) or an “N” for No (does not agree to AOR). If “N”, provide the reason for refusal, if possible (see MSOM INTRANETSSI 019.020).
+In pending MSSICS claims, if the claimant changes the AOR refusal, retrieve BHLT and
+change the decision. Otherwise, use a PR-9 transmission to change the decision.
+3. Post-Eligibility, Paper
+In non-MSSICS PE situations when a beneficiary moves from an SSI State or Section
+209(b) State into a nonautomatic assignment section 1634 State or SSA implements a
+section 1634 Agreement with a State, have the individual sign an SSA-169 after the
+explanation. Route the signed SSA-169 for filing in the claims folder. Ask if the
+beneficiary has third-party health insurance (i.e., not Medicare or Medicaid) or if
+someone is responsible for medical expenses. If the recipient alleges third-party
+insurance or someone is responsible for medical expenses, complete an SSA-8019-U2
+and route as instructed in SI 01730.045.
+If the recipient refuses AOR, have the individual sign an SSA-795 explaining his or
+her wish to refuse assignment of rights and the understanding that refusal will probably
+result in being found ineligible for Medicaid. Use a PR-9 transmission to place this
+information on the SSR. (See SM 01005.350 ff. about assuring proper coding in the
+PT field.) Post-eligibility refusals to assign rights will require a manual notice.
+Suppress any automated notice and prepare the manual notice using Medicaid paragraph
+1149 in NL 00804.110. (See NL 00801.010C for notice suppression references.)
+If a recipient changes the AOR decision, use a PR-9 transmission.
+NOTE: A change from agreement to refusal must be taken on a signed SSA-795. A change from
+refusal to agreement to assign should be annotated on an SSA-169 if the change is
+taken from the recipient or the representative payee. A State report that the individual
+has changed from refusal to agreement may be recorded on a report of contact.
+4. Post-Eligibility, MSSICS
+In MSSICS 4.4 or later, if an individual reports moving into a nonautomatic assignment
+section 1634 State, explain assignment of rights and obtain concurrence. Complete
+the BMEN question with a “Y”, and answer the BHLT question about AOR with a “Y” or an “N” as appropriate. If the answer to BHLT is “Y”, proceed to TPL. If the answer to the BHLT assignment question is “N”, provide the reason for refusal, if possible, and you will have to suppress any automated
+notice and issue a manual notice using Medicaid paragraph 1149 in NL 00804.110. (See NL 00801.010C for notice suppression references.)

@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 11010.055 - Proof of Age (POA) and Citizenship for Disability Insurance Benefits (DIB) Claims
+Effective Dates: 04/22/2016 - Present | TN 49 (08-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010055 (fetched 2026-10-04)
+
+A. Policy - when age must be established
+The Field Office (FO) will advise the claimant that we may need to see the claimant’s
+birth certificate (BC) or other evidence of age. Use proof of age (POA) tolerances
+when adjudicating claims, process the claim using GN 00302.030 Tolerances for Developing
+Evidence of Age.
+1. Reason for the policy
+Since the Date of Birth (DOB) is a material factor in the computation of disability
+claims, Proof of Age (POA) tolerance is used. (SEE GN 00302.030 Tolerances for Developing
+Evidence of Age).
+2. Explanation
+Follow the guidelines below to determine whether adjudication of a disability claim
+must be delayed until POA is received, or whether the claim can be processed and POA
+obtained after adjudication.
+The FO must establish a diary when POA is being developed after adjudication. Complete
+the Decision Input (DECI) screen in Modernized Claims System (MCS) to establish the
+diary, see Decision Input (DECI) - MSOM MCS 009.013 and Diary Codes - GN 01040.010 for the list of diary codes. The diary ensures that follow-ups to secure the proof
+are made until the POA is received. Once POA is received, if the only update needed
+is the proof code, the FO follows Miscellaneous Online Edited Transaction (MONET)
+instructions in Benefit Data 1 (BEN1) - MSOM T2PE 007.026.
+Forward all evidence of age to the office with jurisdiction of the disability file
+when a DOB determination is made after a disability file has been sent to the Processing
+Center (PC). Evidence of age can be input into Shared Processes, see Electronic Evidence
+Documentation and Retention - GN 00301.286 and Shared Processes Menu (SPMN) -MSOM EVID 001.002. In material POA cases, when
+the POA is submitted, the FO prepares an amended award per Electronic Form 101 Process
+(MS T2PE 009.001). All amended awards should be an EF 101. Control the case per Listings
+and Diaries – Adjudication - GN 01010.260A.2. Be alert to any determination, which may establish that the number holder (NH) or
+auxiliary is within the Medicare Supplemental Medical Insurance (SMI) enrollment period.

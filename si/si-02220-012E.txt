@@ -1,0 +1,190 @@
+SSA Program Operations Manual System (POMS) - SI 02220.012 - Collection of Title XVI Overpayments by Tax Refund Offset (TRO)
+Effective Dates: 02/20/2025 - Present | TN 132 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220012 (fetched 2026-10-04)
+
+E. Handling post offset or post certification inquiries
+SSA will receive some inquiries after certification of cases to Treasury or after
+actual offset has occurred. In these situations, certification to Treasury may have
+been an incorrect action. This section explains how to handle specific post-offset
+and post-certification inquiries.
+1. Allegation of pending protest or waiver request
+If a debtor alleges they filed a protest or requested waiver but never received a
+decision, proceed as follows.
+Obtain an SSID query.
+a.
+If there is a pending waiver, an appeals code or suspend billing code posted, but
+no decision made and released, a determination must be completed (see SI 04070.010B)
+Follow these steps:
+Step 1 - address the refund.
+•
+Refund any amount offset by Treasury via A-OTP (see SM 01901.001). This is known as an Agency Refund.
+•
+Notify Treasury of the refund.
+•
+Input the Agency Refund using the Correct Offset Amount (TRCA) screen by
+–
+accessing the Debt Management Menu (DMMU)
+–
+selecting function number12-Treasury Offset Menu (TRMU) screen (see MS 01114.005).
+•
+Resolve the overpayment caused by the A-OTP with a Z TAC by
+–
+completing the UOPD on the Direct SSR Update screen, and
+–
+for a terminated record, select INCORRECT OVERPAYMENT;
+–
+for payment status N, select UNCOLLECTIBLE to post an N TAC (see MS 00304.008).
+Step 2 - Develop the missing protest by looking for:
+•
+an SSA-632-BK,
+•
+a letter from the debtor or their representative, or
+•
+a Form SSA-795 in FO records or in the claims folder (see SM 01201.205 through SM
+01201.235 for SSI folder retrieval instructions).
+Step 3 - Process the waiver or protest in accordance with GN 02250.002.
+If the waiver is approved, see MS
+00304.007G and MS
+00304.007H and:
+•
+change the waiver request to a waiver approval by completing the Direct SSR Update
+Waiver (UOWV) screen and
+•
+delete the suspend billing code, if present.
+If the waiver is not approved:
+•
+Document the waiver denial by changing the waiver request to a waiver denial by completing
+the UOWV screen (see MS 00304.009).
+•
+Request a refunds of the overpayment.
+If the debtor cannot refund the overpayment, request the debtor make installment payments.
+If the debtor cannot make installment payments, add a DB or DC TAC by selecting UNWILLING/UNABLE
+TO REPAY decision on the UOPD screen (see MS 00304.008).
+IMPORTANT: The FO processes all TRO refunds via Automated One Time Payment (A-OTP) (see SM
+01901.001).
+b.
+If the waiver was previously denied as an unfavorable reconsideration or waiver decision:
+•
+Advise the debtor that since the issue is resolved, TRO was appropriate.
+•
+Provide debtor with a copy of the waiver decision, if requested.
+•
+Do not refund any amounts offset by Treasury.
+c.
+If there are no records available but the debtor still indicates a prior protest was
+filed,
+Develop the allegation by looking for an unprocessed SSA-632-BK, letter or SSA-795
+in FO records or in the claims folder.
+•
+If found, follow SI 02220.012E.1.a.
+•
+If none found, advise the debtor the TRO was appropriate and do not refund any amounts
+offset by Treasury.
+2. Request for waiver
+a.
+If a request for waiver is received, proceed as follows:
+•
+Obtain an SSA-632-BK in accordance with current instructions in GN 02250.002.
+•
+Input the request for waiver by completing the UOWV screen in Direct SSR Update (see
+MS
+00304.009).
+b.
+If TRO recouped the entire debt (i.e., the debt balance is zero), proceed as follows:
+•
+Follow GN 02250.002 to process the waiver.
+•
+Consider a waiver on the entire overpayment amount during development.
+•
+Advise the debtor that refund of the amount offset will be made only if the waiver
+is approved.
+•
+If the waiver is approved (partially or fully), process the refund as in SI
+02220.012E.1 in this section.
+•
+Request the DMS PC to remove the refund from the SSR, if necessary.
+c.
+If TRO partially recouped the debt, proceed as follows:
+•
+Consider waiver on the full overpayment amount.
+•
+Follow GN 02250.002 to process the waiver.
+•
+Refund any paid amount due via A-OTP if waiver is approved (partially or fully). Refund
+any amount offset by Treasury. Process the refund as in SI 02220.012E.1 in this section.
+•
+Request the DMS PC to remove the refund from the SSR, if necessary.
+3. Request for installment payments
+When a request for installment payments is received, proceed as follows:
+a.
+If an installment agreement was negotiated prior to certification and payment was made in accordance with that agreement but Treasury offset still occurred, proceed as follows:
+•
+Refund any amount offset by Treasury via A-OTP (see SM 01901.001). This is known as an Agency Refund and we must notify Treasury about the refund.
+Input the Agency Refund using the Correct Offset Amount (TRCA) screen which is requested
+from the Debt Management Menu (DMMU) function number 12-Treasury Offset Menu (TRMU)
+screen (see MS 01114.005).
+•
+Resolve the overpayment caused by the A-OTP. Complete the Direct SSR Input Overpayment
+Decisions (UOPD) screen by selecting INCORRECT OVERPAYMENT (Z TAC for terminated records)
+or UNCOLLECTIBLE (N TAC for RIC G records). See MS 00304.008.
+•
+Request the DMS PC to remove the refund from the SSR, if necessary.
+•
+Add an installment agreement decision (G TAC) by completing the UOPD screen selecting
+RECOVER BY INSTALLMENTS. (See MS 00304.008)
+b.
+If the request is made after certification, proceed as follows:
+•
+Establish the agreement on the SSID per SI 02220.025.
+•
+Advise the debtor that the debt will remain in TRO until it is completely recovered.
+Explain that SSA will not refund any offset amount paid (unless excess collection,
+see SI
+2220.012F.6)
+4. Excess collection
+Excess collections occur when the total amount of voluntary payments and offsets exceed
+the debt amount (see SM 01310.415 and SM
+01310.420). For example, when a certified debtor enters into an installment agreement and fully
+refunds the debt after certification, an excess collection would occur if Treasury
+offset for the full amount of the debt. This causes the system to compute an excess
+decision (see SM
+01311.634).
+Refund the excess collection to the TRO debtor using existing instructions for A-OTP
+(see SM
+01901.001).
+•
+If the offset caused the excess collection, process the refund as in SI 02220.012E.1 in this section.
+•
+If the voluntary remittance caused the excess collection, repay the excess to the
+debtor but Do Not Input an Agency Refund.
+Request the DMS PC to remove the refund from the SSR, if necessary.
+5. Erroneous offset to a joint taxpayer
+When couples file joint tax returns and the party who is not an SSA debtor wants to
+receive their portion of the refund, advise the person to the local IRS office at
+1-800-829-1040. This is known as an “injured spouse claim” which IRS alone can adjudicate.
+Advise that any refund must be made by IRS, not SSA.
+No systems input is necessary.
+6. Allegation of bankruptcy action
+If the debtor alleges a bankruptcy petition is pending or the debt was discharged
+in bankruptcy:
+•
+obtain a copy of the petition or discharge the order.
+•
+Input the allegation via the UOPD screen (see MS 00304.008 and SM
+01311.220) selecting BANKRUPTCY to post a MS TAC to the SSR.
+•
+Process the petition or discharge order in accordance with SI 02220.040.
+If the debtor alleges the debt has been discharged in a bankruptcy judgement, ask
+the debtor to submit a copy of the discharge. Process as follows:
+If the SSA debt has been discharged,
+•
+select CHANGE on the Add/Change/Delete UODC screen in Direct SSR Update (see MS
+00304.007)
+•
+change the decision (including MS TAC) if present, to a UNCOLLECTIBLE (see MS
+00304.008) (N TAC) decision to prevent any further collection activity (see SM
+01311.280). If a MS TAC is present, change the MS TAC to an N TAC to prevent further collection
+activity.
+If the SSA debt is not listed on the discharge, process the case in accordance with
+SI
+02220.040.

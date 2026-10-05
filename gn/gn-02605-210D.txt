@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02605.210 - United States Absences and the Effect on Benefits
+Effective Dates: 02/27/2008 - Present | TN 25 (02-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605210 (fetched 2026-10-04)
+
+D. Alien Nonpayment Provisions
+According to the alien nonpayment provisions (ANPP), aliens outside the U.S. for 6
+consecutive calendar months will not be paid benefits beginning with the 7th month of their absence unless they can meet an exception.
+The alien nonpayment provisions are based on Section 202(t) of the Social Security
+Act and do not apply to citizens or nationals of the United States.
+IMPORTANT: The Alien Nonpayment provisions are extremely complex and multi-tiered. Before applying
+these provisions it will be necessary to fully review the POMS chapter Alien Nonpayment
+Provisions (RS 02610.000).
+The NUSC (Non U.S. Citizen Coding) screen is placed into the pathway when a domestic
+to foreign change of address is initiated via the post-entitlement PEAD screen. The
+NUSC screen gathers the information that will be used to apply the alien nonpayment
+provisions to a beneficiary while he/she is outside the United States.
+The LEUS (Left U.S./Outside of U.S.) screen will also be placed into the pathway when
+a domestic to foreign change of address is initiated via the post-entitlement PEAD
+screen. The LEUS screen is used to annotate the exact date that the beneficiary left
+the United States. The RETAP operation automatically selects SSN’s where the LEFT
+US date is 7 months prior to COM and there is no RETURNED US date. These cases are
+processed by Title II Redesign, the MBR is evaluated, and the appropriate suspense
+action is taken.
+It is very important that the LEUS screen is completed when a beneficiary who is subject
+to ANPP leaves the U.S. for any period that exceeds 3 months. It is the proper coding
+of the LEUS screen which initiates the Alien Nonpayment Provision suspension via the
+RETAP operation once the beneficiary has been outside the U.S. for 6 months.

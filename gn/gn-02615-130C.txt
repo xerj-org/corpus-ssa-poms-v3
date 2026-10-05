@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - GN 02615.130 - Title II Clark Court Order Administrative Appeal Processing
+Effective Dates: 11/02/2017 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615130 (fetched 2026-10-04)
+
+C. Office of Hearings Operations (OHO) appeal
+If there is an administrative appeal pending in Office of Hearings Operations (OHO),
+notify the appropriate administrative appeal organization of the Clark relief. For cases pending at the hearing level, notify the hearing office. When a
+case is pending before the Appeals Council, notify the Office of Appellate Operations
+(OAO). For ALJ appeals case processing instructions, see GN 02615.130C.1. in this section. For OAO appeals case processing instructions, see GN 02615.130D.1.
+1. Pending and closed ALJ appeals—PPV issue only
+Use the chart to process ALJ appeals as follows.
+Status of Appeal
+Status of Clark Relief
+PC Processing Action
+closed (ALJ decision)
+None for this warrant
+Process the Clark relief. For instructions on relief processing, see GN 02615.120A.
+closed (ALJ decision)
+Relief given
+Take no action.
+pending (no final ALJ decision)
+None for this warrant
+Calculate the beneficiary’s benefits payable for the PPV suspension period that we
+are removing. Take no action to process the Clark relief at this time.
+Contact the Hearing Office (HO)
+Obtain the HO code (3-position code) from the beneficiary’s CPMS query.
+Use the Mainframe’s Detailed Office/Organization Resource System (DOORS) to locate
+the HO’s email address.
+Use the Outlook email’s OPTIONS tab to add voting buttons to the message and request
+“Request a Read Receipt.” This ensures the hearing office (HO) received your Clark email message.
+Email the HO the following information:
+Subject: Clark Court Order Case Message to HO for the ALJ
+SSN Beneficiary’s Name/BIC
+ALJ’s Name Assigned to Hearing from the CMPS Query
+Explain that the beneficiary appears to be eligible for Clark relief. Provide the facts found on the MBR, ROAR, CPMS or ARPS or on ORS and indicate
+the period for which we will resume the monthly benefits. If other higher priority
+suspension or payment issues occur and non-payment continues once we close the PPV
+suspension event, explain this.
+Send the HO the completed email message. The HO will add the Clark v. Astrue (CACL) Class Action Case Characteristic to CPMS (if it is not already present) and
+then refer the Clark Court Order email to the appropriate ALJ for consideration.
+Do not provide the beneficiary Clark relief unless the HO forwards the case to the PC for subsequent action on the PPV
+suspension or overpayment. This will occur only if the HO issues a favorable title
+II decision. The HO will place a message in the Alert and Message section in eView
+to notify the PC technician of Clark Court Order involvement. For paper cases, OAO
+will add a paper flag to the folder when it returns the folder for processing after
+all levels of appeals are completed.
+If the ALJ makes a favorable decision, the HO forwards the case to the PC, process
+the Clark relief. For instructions on processing Clark relief, see GN 02615.120A.
+If the ALJ issues an unfavorable decision, HO will mail the case to OAO.
+pending (no final ALJ decision)
+Relief given
+Contact the HO
+Obtain the HO code (3-position code) from the beneficiary’s CPMS query.
+Use the Mainframe’s Detailed Office/Organization Resource System (DOORS) to locate
+the HO’s email address.
+Email the HO the following information:
+Subject: Clark Court Order Case
+Message to the HO for the ALJ SSN Beneficiary’s Name/BIC ALJ’s Name Assigned to Hearing from the CMPS Query
+Notify the ALJ that we already gave the beneficiary Clark relief. Provide the ALJ with the date we gave the relief (MM/DD/CCYY). Give the dates
+for the Clark relief period.
+Send the HO the completed email message. The HO will add the Clark v. Astrue (CACL)
+Class Action Case Characteristic to CPMS (if it is not already present) and then refer
+the Clark Court Order email to the appropriate ALJ for consideration.
+After the ALJ makes a favorable title II decision, the HO will forward the case to
+the PC. The HO will place a message in the Alert and Message section in eView to notify
+the PC technician of Clark Court Order involvement.
+If the ALJ makes an unfavorable title II decision, the HO will forward the case to
+OAO.
+No further PC action is necessary on the Clark relief.
+2. Pending ALJ appeals with multiple issues
+If the ALJ pending appeal request includes issues other than those related to the
+PPV suspension or overpayment decision, the case will remain with the HO, even if
+the beneficiary is due Clark relief.
+Provide the HO with information on the beneficiary’s eligible Clark relief. For information on how to notify the ALJ about the beneficiary’s Clark relief and how to process the relief, see GN 02615.130C.1. in this section.

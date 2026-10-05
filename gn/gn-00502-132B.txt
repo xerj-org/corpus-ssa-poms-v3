@@ -1,0 +1,486 @@
+SSA Program Operations Manual System (POMS) - GN 00502.132 - Selecting a Qualified Representative Payee
+Effective Dates: 06/24/2022 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502132 (fetched 2026-10-04)
+
+B. Procedure for processing and documenting eRPS alert messages
+1. Reasons for storing information in eRPS
+eRPS is an investigative tool to help you make appropriate payee appointments. eRPS
+displays alerts (MS 07401.003 Alert Messages) to historical negative events or other
+situations that need careful review prior to making the appointment determination.
+You must carefully review this screen for the presence of such remarks and thoroughly
+consider the information it provides prior to making the appointment determination.
+In addition, the payee application asks the applicant specific questions about certain
+types of criminal behavior. Information about how a person has previously performed
+payee duties is critical; therefore, it is important to record information about the
+payee’s performance, particularly occurrences of misuse, in eRPS so it is available
+for future consideration.
+2. Documenting criminal alerts in eRPS alerts
+For every criminal alert, you must fully document your payee selection or non-selection
+using the Rep Payee Applicant “Note Type” on the Make Note screen in eRPS. You must
+develop and document all criminal information you find relevant to suitability, such
+as:
+•
+the nature of the crime;
+•
+when the crime occurred; and
+•
+the sentence the applicant received.
+You must document the applicant’s relationship to the beneficiary and custody information
+when making your determination.
+NOTE: We bar a payee applicant convicted of certain crimes from serving as a payee, refer
+to GN 00502.133.
+3. eRPS alerts and Rep Payee Selection-Decision screen edit remarks defined
+The alerts listed below in this section display in the Alert Messages feature during
+the application path and again when you attempt to select the applicant on the Rep
+Payee Selection-Decision Screen (MS 07412.002).
+When you receive one of the alerts listed below in this section you must:
+•
+Non-Select the Applicant using the Rep Payee Selection-Decision screen.
+•
+Select the appropriate Non-Select Reason (MS 07412.003).
+•
+Check “Send non-select notice to applicant” so eRPS sends the appropriate non-select
+notice automatically.
+•
+Look for a new payee applicant and consider direct payment, if appropriate.
+a. RP convicted under Sec 208/811/1632
+The “RP convicted under Sec 208/811/1632” alert means the person was convicted of
+Social Security fraud under one or more of these statutes. The law prohibits anyone
+convicted under these provisions from ever serving as a payee. There are no exceptions.
+The Office of Inspector General (OIG) provides SSA Central Office (CO) staff with
+a list of individuals convicted under 208/811/1632 of the Social Security Act, and
+SSA Regional Office (RO) staff then input the list into eRPS. eRPS alerts you when
+an applicant has this type of conviction posted in eRPS and does not permit that applicant
+to be selected as payee.
+NOTE: The Rep Payee Selection-Decision screen error message is “History of Social Security
+fraud (Sections 208/811/1632)”. The non-select reason for this alert is “Social Security
+Act criminal conviction (Sections 208/811/1632, section 1136, and RP related fraud)”.
+b. RP has committed RP related fraud
+The “RP has committed RP related fraud” alert means the person was convicted of fraud
+directly related to their payee duties (misuse, conversion of benefits, etc.). However,
+they were convicted under statutes other than sections 208, 811, or 1632 of the Social
+Security Act. The OIG provides CO staff with a list of these convictions. CO staff
+sends the list to the RO staff. The RO staff inputs the information into eRPS. This
+alert appears when you access eRPS to make a query or take an application. We bar
+an individual with this alert from serving as a representative payee. Do not appoint
+a payee applicant who has committed payee related fraud. There are no exceptions to
+this rule. For more information refer to, GN 00502.133A.3 and GN 00502.133B.3.
+NOTE: The Rep Payee Selection-Decision screen error message is “History payment fraud”.
+The non-select reason for this alert is “Social Security Act criminal conviction (Sections
+208/811/1632, section 1136, and RP related fraud)”.
+c. Representative/Health Care provider convicted under Sec. 1136
+The “Representative/Health Care provider convicted under Section 1136” alert means
+the applicant is barred from serving as payee under Section 1136 of the Social Security
+Act. A representative or a health care provider convicted of any violation under Title
+XVIII of the United States Code may not participate in Social Security programs and
+therefore may not serve as a payee. The violations relate to the following:
+•
+Initial application for benefits;
+•
+Continuing entitlement to benefits;
+•
+Amount of benefits under Title II or Title XVI; and
+•
+An individual assessed with a Civil Monetary Penalty under section 1129 (a) (1) of
+the Act.
+NOTE: The Rep Payee Selection-Decision screen error message is “History of Social Security
+Fraud (Section 1136)”. The non-select reason for this alert is “Sections 208/811/1632,
+section 1136, and RP related fraud”.
+d. RP convicted of Barred Crime
+The “RP convicted of Barred Crime” alert means the individual was convicted of one
+of the twelve felony crimes that bar an individual for serving as payee. Barred crimes
+only apply to individual payees, not organizations. See a list of the 12 barred felony
+crimes below:
+1.
+Human Trafficking
+2.
+False Imprisonment
+3.
+Kidnapping
+4.
+Rape and Sexual Assault
+5.
+First-Degree Homicide
+6.
+Robbery
+7.
+Fraud to obtain access to government assistance
+8.
+Fraud by scheme
+9.
+Theft of Government Funds/Property
+10.
+Abuse or Neglect
+11.
+Forgery
+12.
+Identity Theft or Identity Fraud
+IMPORTANT: If an applicant self-discloses a felony that is not a barred crime, you must still
+ask for permission and run a criminal background check through eRPS.
+NOTE: The Rep Payee Selection-Decision screen error message is “Barred Felon.” The non-select
+reason for this alert is “Barred Crime (1 of 12 barred crimes)”.
+e. RP has a RP
+The “RP has a RP” alert means the payee is a beneficiary or recipient with a representative
+payee. When this situation occurs, investigate and determine if the applicant is capable
+of managing their benefits, per GN 00502.020. As a person needing a payee, this individual cannot serve as a payee. Do not appoint
+an applicant as a payee if they have a payee. There are no exceptions to this rule.
+NOTE: The Rep Payee Selection-Decision screen error message is “Applicant has a payee”.
+The non-select reason for this alert is "Applicant has a payee".
+f. RP has death alert DIPS
+The “RP has death alert-DIPS” alert means that we received death data for an applicant
+in the Death Information Processing System (DIPS). When this alert generates, investigate
+and resolve the death alert. For more information on DIPS Alerts, see GN 02602.051 and GN 02602.065.
+NOTE: The Rep Payee Selection-Decision screen error message is “DIPS death record for payee”.
+The non-select reason for this alert is “Death of applicant”.
+g. RP has death alert NUMI
+The “RP has death alert Numi” alert means eRPS detected a Numident Death Match Alert.
+These Death alerts generate when there is a discrepancy between the death data on
+the Numident, and the Master Beneficiary Record or Supplemental Security Record. You
+must resolve this alert. For information on Numident Death Match Alerts, see GN 02602.065 and GN 02602.070.
+NOTE: The Rep Payee Selection-Decision screen error message is “Numident death information
+for applicant”. The non-select reason for this alert is “Death of applicant”.
+h. RP has discrepancies between Client Numi
+The “RP has discrepancies between Client-data Numi” alert means the SSN input into
+eRPS does not match the information on the Numident. Double-check that the information
+you input is accurate. If the applicant needs to update their personal information,
+see RM 10212.000 and RM 10200.000.
+NOTE: The Rep Payee Selection-Decision screen error message is “Client identity information
+is discrepant from Numident identity information for applicant”. You must resolve
+this issue prior to any selection on non-selection of the applicant.
+i. BN is a RP
+The “BN is a RP” alert means the beneficiary is a payee for another person. A beneficiary
+needing a payee cannot serve as a payee for another person. If the beneficiary serving
+as payee is now incapable, you must develop a new payee for the other person. There
+are no exceptions to this rule. You must resolve the alert prior to a selection of
+the payee applicant.
+NOTE: The Rep Payee Selection-Decision screen error message is “Beneficiary is payee for
+another beneficiary-develop payee for other beneficiary”.
+j. RP is overpaid due to death of beneficiary
+The “RP is overpaid due to death of the beneficiary” alert means that during prior
+service as a payee, the applicant received a check issued after the death of a beneficiary
+and did not return the check to SSA. A payee’s failure to return payments received
+after the death of a beneficiary is an indication that the applicant is not a suitable
+payee choice. For more information, see GN 02201.001B.2.e. If the payee has multiple overpayment liability indicators, you must resolve each
+specific indicator prior to appointing the payee.
+NOTE: The Rep Payee Selection-Decision screen error message is “Payee overpayment due to
+death of a beneficiary”.
+To determine the record involving the overpayment and verify the correctness of the
+alert message, take the following steps:
+1.
+Perform an individual payee, organizational payee, or a beneficiary/payee search on
+the eRPS home screen (MS 07401.002);
+2.
+On the Representative Payee Details tab, under the Case Details heading, click Beneficiary
+List, and then click Terminated List. Obtain a list of the payee’s terminated beneficiaries
+from the Terminated Beneficiary List screen (MS 07420.018).
+3.
+Look for a Yes in the Bene OP field on the Terminated Beneficiary List screen;
+4.
+Query the Master Beneficiary Record (MBR), Payment History Update System Queries (PHUS),
+Supplemental Security Record (SSR), Debt Management System (DMS), or the Treasury
+Check Information (TCIS) to verify when death occurred and if the check is still outstanding.
+Do not appoint a payee applicant who has received and not returned checks issued after
+the death of a beneficiary unless you have evidence that:
+•
+the applicant poses no risk to the beneficiary;
+•
+there are no other more suitable applicants; and
+•
+the debt has been satisfied.
+If a payee applicant meets all three criteria, take the following steps:
+1.
+On the Relationship Details Tab, under Case Details, select Overpayment Liability
+to access the Overpayment Liability screen (MS 07420.024);
+2.
+Delete the overpayment liability indicator and document your reason for deleting the
+indicator in the “Change Reason” text box.
+If the payment records do not show that the specific debt has been satisfied, you
+may appoint the applicant if one of the following exceptions apply:
+•
+there is evidence the payee returned the overpayment due to the death of the beneficiary;
+or
+•
+there is a waiver/appeal pending for the overpayment due to death of the beneficiary.
+If one of the exceptions applies, take the following steps to appoint the applicant
+and track the case:
+1.
+Document the evidence of the returned overpayment or pending waiver/appeal on the
+Overpayment Liability screen (MS 07420.024);
+2.
+Select “Remittance/Waiver /Appeal Pending” check box on the Overpayment Liability
+screen. This action will establish a work issue with a 180 day tickle;
+3.
+If the work issue is outstanding after 180 days, eRPS will issue the alert, “RP is
+overpaid due to death of beneficiary (evidence expired).” For additional instructions
+on appointing the applicant after the 180-day work issue, follow GN 00502.132B.4.o in this section.
+4. Rep Payee Selection-Decision Screen Alerts when a Note is required
+The alerts listed below in this section, display on the Rep Payee Selection-Decision
+screen because you must:
+a.
+Document the note box in eRPS on the Selection-Required Notes screen (MS 07412.007).
+b.
+Use the Rep Payee Applicant “Note Type” to document your justification for appointing
+the applicant.
+Some alerts require manager approval. If manager approval is required, the manager
+must take action on the Approve Selection screen under “Manager Actions” from the
+eRPS overview screen (MS 07412.006).
+a. RP prev fug felon match-verify status
+The “RP prev fug felon match-verify status” alert means that in the past this person
+was identified with an offense code of 4901, 4902, or 4999 by the Fugitive Felon/eRPS
+system match process. For fugitive felon prohibition, refer to GN 00502.133A.2. and GN 00504.102. When the fugitive felon/eRPS system identifies a person through the match process,
+the system builds a fugitive felon match indicator of “Y” on the eRPS. If this remark
+appears during a new RP application, ask the applicant about their fugitive felon
+status on the Criminal Warrant Questions screen (MS 07410.005). If the applicant alleges
+the outstanding felony warrant is satisfied or is for an offense other than 4901,
+4902, or 4999, verify this information before you make your determination (Refer to
+GN 02613.500A.2.). If you confirm that the warrant has been satisfied, update the eRPS on the FUGFEL
+Crime Record Listing screen (MS 07410.003).
+If the warrant has been satisfied, update the warrant disposition on the Fugitive
+Felon System Control File Database (FFSCF). (For further instructions on the FFSCF,
+see MS PRISON 006.003 and MS PRISON 006.006). Use the Rep Payee Applicant “Note Type”
+on the Make Note screen to document this information in eRPS. For more information,
+refer to GN 00502.132B.2 in this section.
+b. RP pre-4/1/09 FF match – ver status
+The “RP pre-4/1/09 FF match – ver status” alert means the fugitive felon match process
+identified the payee before the April 01, 2009, changes required by the Martinez Court
+Case agreement. (For more information on the Martinez court case see GN 02613.860). It also means the applicant may have an outstanding felony warrant.
+You must verify the offense code and if the applicant satisfied the warrant to determine
+whether the offense code prohibits the applicant from serving as payee. You are required
+to document this information when a Note box appears in eRPS. For instructions on
+determining if the warrant is satisfied, see GN 02613.500A.2.
+c. RP self-reported fugitive felon
+The “RP self-reported fugitive felon” alert means the payee applicant answered “yes”
+to the payee application question asking, “do you have any unsatisfied felony warrants
+for your arrest?” Prohibit a person from serving as a representative payee if they
+have an unsatisfied felony warrant issued for one of the following three offenses:
+•
+Escape from custody (offense code 4901),
+•
+Flight to avoid prosecution, confinement, etc. (offense code 4902), and
+•
+Flight-escape (offense code 4999).
+There are no exceptions to this prohibition. If the warrant is satisfied and the individual
+is no longer a fugitive felon under these three codes, then the individual can serve
+as payee if they are the most suitable applicant and no other prohibited conditions
+exist.
+If the warrant is satisfied or is for an offense code other than 4901, 4902, or 4999,
+carefully consider the nature of the crime and how the applicant resolved the warrant.
+Do not appoint the individual as payee if you determine that they pose some risk to
+the beneficiary. For further instructions for payees with past criminal behavior,
+see GN 00502.133. Document your non-selection or selection in eRPS. For more information on persons
+who should not be appointed as representative payees, refer to GN 00502.132B.2. in this section.
+NOTE: The fugitive felon provisions for payees differ from those for benefit payments.
+The representative payee provisions do not apply to those persons who are parole and
+probation violators and they do not provide good cause exceptions for those with unsatisfied
+felony warrants (with offense codes 4901, 4902, or 4999).
+d. RP self-reported felon
+The “RP self-reported felon” alert means that the current or prior payee application
+indicates the applicant reported they were convicted of a felony. When this situation
+occurs, ask for additional information about the type of crime, when it occurred,
+and the sentence the applicant received. There are certain felony crimes that bar
+some applicants from serving as a payee. For a list of these crimes, see GN 00502.133.
+You may not appoint a payee applicant convicted of a felony crime listed in GN 00502.133A.4 unless there is no other suitable applicant and they are:
+•
+custodial parent of a minor child for whom they are applying to be payee;
+•
+custodial spouse for the beneficiary for whom they are applying to be payee;
+•
+custodial parent of an adult beneficiary who has a disability which began before the
+beneficiary attained age 22, for whom they are applying to be payee;
+•
+custodial grandparent of the minor grandchild for whom they are applying to be payee;
+•
+custodial court appointed guardian of a beneficiary for whom they are applying to
+be payee;
+•
+parent who was previously payee for their minor child who has since turned 18 and
+continues to be eligible for benefits; or
+•
+the recipient of a presidential or gubernatorial pardon for their crimes.
+For other felony crimes not listed in GN 00502.133A.4, do not appoint the applicant unless you have evidence that they pose no risk to
+the beneficiary and there are no other more suitable applicants. Use the Rep Payee
+Applicant “Note Type” on the Make Note screen to document this information in eRPS.
+For more refer to GN 00502.132B.2. in this section.
+e. RP applicant on PUPS database
+The “RP applicant on PUPS database” alert means that a PUPS query exists for the payee.
+If this remark appears during a new RP application, you must query the PUPS record
+and discuss the prisoner information with the applicant.
+If you encounter the alert “RP applicant on PUPS Database”:
+•
+Query the applicant’s PUPS record, and
+•
+Review the information on the PUPS record.
+A PUPS record shows the date of confinement, date of conviction, and the release date.
+Some records may show blanks or 0000s for these dates. If the information is incomplete,
+ask the payee applicant to provide the missing information following the procedures
+on verifying criminal history in GN 00502.117B.3. Use the Rep Payee Applicant “Note Type” on the Make Note screen to document this
+information in eRPS. For more information refer to GN 00502.132B.2. in this section.
+If the payee applicant is also a title II beneficiary or SSI recipient, consider the
+effect of the incarceration on their own entitlement or eligibility.
+f. RP incarceration for over 1 year
+The “RP incarceration for over 1 year” alert means that during the current or prior
+payee application, the applicant responded that they were incarcerated for more than
+1 year. When this occurs, ask for additional details about the crime. Use the Rep
+Payee Applicant “Note Type” on the Make Note screen to document this information in
+eRPS. For more information refer to GN 00502.132B.2. in this section.
+By regulation, persons incarcerated for more than 1 year may not serve as payee unless
+you determine that the applicant poses no risk to the beneficiary and you determine
+it would be in the best interests of the beneficiary.
+Do not appoint a payee applicant imprisoned for more than 1 year unless you have evidence
+that they pose no risk to the beneficiary and there are no other more suitable applicants.
+Do not appoint a payee applicant imprisoned for more than 1 year if they have been
+convicted of a felony crime listed in GN 00502.133A.4. unless there is no other suitable applicant and they are:
+•
+custodial parent of the minor child for whom they are applying to be payee;
+•
+custodial spouse of the beneficiary for whom they are applying to be payee;
+•
+custodial parent of an adult beneficiary who has a disability which began before the
+beneficiary attained age 22, for whom they are applying to be payee;
+•
+custodial grandparent of the minor grandchild for whom they are applying to be payee;
+•
+parent who was previously payee for their minor child who has since turned 18 and
+continues to be eligible for benefits; or
+•
+the recipient of a presidential or gubernatorial pardon for their crimes and there
+are no more suitable applicants.
+Use the Rep Payee Applicant “Note Type” on the Make Note screen to document this information
+in eRPS. For more information, refer to GN 00502.132B.2 in this section.
+g. Applicant between 15 & 17 years old. Document your capability determination
+The “15 & 17 years old” alert means the applicant is under age 18. You must justify
+your capability determination and selection reason because this applicant is a minor
+child. Minor children are generally presumed to be incapable. For more information
+regarding a child’s capability, see GN 00502.070.
+NOTE: This edit will only appear on the Rep Payee Selection-Decision screen.
+h. Confirm FFS status and insurance is still valid.
+The “Confirm FFS status and insurance is still valid” alert means there is a FFS issue.
+A non-governmental FFS organization must be bonded in order to be authorized by SSA
+to collect a fee. Bonding constitutes a bond or insurance contract that protects the
+beneficiary from financial loss caused by the action or inaction of the organizational
+payee, or officer(s), or an employee of the organizational payee. For more information
+of the status of FFS organizations, see GN 00506.105 and GN 00506.400.
+i. Misuse allegation pending
+The “Misuse allegation pending” alert means the applicant is currently under investigation
+for misuse. An allegation or information that raises a suspicion of misuse may take
+various forms and come from many sources. For information on investigating and developing
+Misuse Allegations, see GN 00604.020.
+NOTE: Manager approval is required for this selection. Document management’s justification
+for selecting the payee applicant on the Selection-Required Notes screen (MS 07412.007).
+j. eRPA form in the past year pending
+The “eRPA form in the past year pending” alert means the applicant did not complete
+and return the Annual Representative Payee Report in the prior 12 months. This alert
+notifies you that a current non-responder is filing an application to serve as the
+payee. As part of the payee application, question the non-responder to determine if
+a change of payee is needed for current beneficiaries served and if the payee is most
+suitable for the application being filed. Management override is required for stuck
+eRPA cases. For more information on Non-Responders, see GN 00605.085.
+NOTE: Manager approval is required for this selection. Document management’s justification
+for selecting the payee applicant on the Selection-Required Notes screen (MS 07412.007).
+k. RP has a history of misuse
+The “RP has a history of misuse” alert means that eRPS contains information that the
+payee applicant was previously a payee and misused the beneficiary’s benefits. eRPS
+generates a Misuse Allegation Records screen reflecting information about the past
+misuse occurrence. While prior misuse is not an absolute bar to representative payee
+service, it is a very strong indicator that this person is not a good payee candidate.
+Do not appoint a representative payee applicant with prior history of misuse unless:
+•
+the applicant has repaid or established a plan to repay the misused amount,
+•
+you have evidence that the applicant poses no risk to the beneficiary, and
+•
+there are no other more suitable applicants.
+NOTE: Manager approval is required for this selection. You must prepare a 3 month diary
+for follow up per GN 00502.134B.2. Document management’s justification for selecting the payee applicant on the Selection-Required
+Notes screen (MS 07412.007).
+l. Payee has a history of being non-selected for poor performance
+The “Payee has a history of being non-selected for poor performance” alert means the
+applicant is a questionable payee choice. You should not appoint an applicant with
+a history of poor performance unless you determine there is some compelling reason
+for doing so.
+NOTE: Manager approval is required for this selection, see GN 00502.134 for more information regarding poor past performance. Document management’s justification
+for selecting the payee applicant on the Selection-Required Notes screen (MS 07412.007).
+m. Chronic non-responder 2 of 3 recent reports
+The “Chronic non-responder 2 of 3 recent reports” alert means the applicant was a
+non-responder 2 of the last 3 reporting periods that occurred within the past six
+years. Social Security law and regulations require representative payees to complete
+accounting report every year. The annual accounting report is used to monitor how
+the payee spent or saved the benefits on behalf of the beneficiary. This alert provides
+information on if an applicant is able to fulfill their payee reporting responsibilities.
+For general information on Non-Responders, see GN 00605.270.
+n. Interview was other than Face-to-Face
+The “Interview was other than Face-to-Face” alert means the application was taken
+over the phone or via Video Service Delivery (VSD). You must justify why the payee
+application was not taken in a face-to-face setting using the Rep Payee Applicant
+“Note Type” on the Make Note screen. Interview each payee applicant, including parents
+with custody who are completing an application for Social Security benefits and Supplemental
+Security Income for a child, in a face-to-face setting unless:
+•
+doing so would cause undue hardship;
+•
+the payee applicant previously had a face-to-face interview and is currently serving
+as a payee and is qualified to do so; or
+•
+the application is being processed in a centralized processing unit and the applicant
+is a parent with custody of the beneficiary who is their minor child or a spouse with
+custody of the beneficiary who is their spouse.
+NOTE: If the applicant meets one of the above exceptions to a face-to-face interview, you
+must conduct a telephone or VSD interview.
+o. RP is overpaid due to the death of beneficiary (evidence expired)
+The “RP is overpaid due to death of beneficiary (evidence expired)” alert means the
+applicant provided evidence of returning an overpayment due to the death of a beneficiary;
+however, the remittance processing was still outstanding after 180 days. You should
+not appoint the payee applicant unless there is an additional delay in the remittance
+processing of the payment, there is no risk to the beneficiary, and there are no other
+more suitable applicants.
+There may be instances in which a payee has both the “RP is overpaid due to the death
+of beneficiary (evidence expired)” alert and the “RP is overpaid due to the death
+of beneficiary” alert. Address the “RP is overpaid due to death of beneficiary” alert
+using the instruction in GN 00502.132B.3.j and the “RP is overpaid due to the death of the beneficiary (evidence expired)” alert
+by using the instruction in GN 00502.132B.4.o.
+NOTE: Manager approval is required. Document management’s justification for selecting the
+payee applicant on the Selection-Required Notes screen (MS 07412.007).
+p. Vendor communication error, background check must be performed outside of eRPS
+The "Vendor communication error, background check must be performed outside of eRPS"
+alert means the eRPS failed to conduct the background check due to a service communication
+error. In addition to the manager alert, the Background Check Results screen will
+display a message of the service communication issue. For more information, see MS
+07409.024. You must perform the background check on the payee applicant outside of eRPS.
+To perform a background check outside of eRPS you must:
+1.
+Access LexisNexis Accurint outside eRPS. SI 01140.105 provides detailed instructions
+on how to request LexisNexis Accurint.
+2.
+Input manager confirmation of background check by selecting the "background check
+completed" box on the Selection-Required Notes screen. For more information, see MS
+07412.007.
+5. Other alerts
+a. PUPS/eRPS match alert
+eRPS generates a PUPS/eRPS alert when current prisoner data is matched against eRPS
+and a match is found on someone with an active payee record. The alert means we received
+information from a prison that the payee was (and may still be) incarcerated and therefore
+we must investigate this person's suitability to continue as payee. This is a post-entitlement
+process, which produces an alert to the field and establishes an issue in eRPS. For
+processing instructions on payee identified by the PUPS match, refer to GN 00504.103.
+b. Fugitive felon/eRPS match alert
+eRPS generates the fugitive felon/eRPS match alert when fugitive felon data is received
+and matches an active or pending rep payee record in the eRPS. Effective April 1,
+2009, only unsatisfied felony warrants with offense code 4901, 4902, or 4999 run against
+the eRPS (parole or probation data screened out). This is a post-entitlement alert
+process which:
+•
+produces an alert item to the field,
+•
+establishes a fugitive felon indicator of “Y” on the representative payee’s record
+(for fugitive felon alerts see GN 00502.132B.3.c. in this section), and
+•
+establishes a Work Issue on the Add New Issue screen (MS 07408.007) in eRPS.
+For processing instructions on representative payees identified by the fugitive felon
+match, refer to GN 00504.102.
+c. Notification that a Civil Monetary Penalty (CMP) was imposed
+eRPS receives notification any time a CMP is imposed on a current representative payee.
+Referrals to OIG can result in the imposition of a CMP. OIG imposes a CMP when they
+determine the individual’s conduct was bad enough to merit its imposition.
+Weigh the circumstances that caused the CMP and determine if the payee remains a suitable
+payee choice. Use the Rep Payee Applicant “Note Type” on the Make Note screen to manually
+record information about the CMP in eRPS.

@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 13010.027 - Continuing Disability Review (CDR) Earnings Enforcements
+Effective Dates: 08/14/2025 - Present | TN 88 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010027 (fetched 2026-10-04)
+
+B. Enforcement alert criteria and threshold amounts
+The enforcement operations send alerts to the Program Service Center (PSC) to conduct
+a CDR. CDREO and QEP alerts post to the DCF as “T2 Work CDR” events. To see these
+alerts, access the enforcement information through the Query Work Information Data
+(QWID) screen.
+1. CDREO alert criteria and thresholds
+CDREO compares the IRS earnings against set thresholds, and earnings posted to the
+DCF as verified. CDREO generates an enforcement alert when earnings are equal to or
+greater than twelve months of the substantial gainful activity (SGA) amount (12 months
+of TWP amount for self -employment) for that enforcement year. For more information
+on SGA, see DI 10501.000. CDREO generates three alerts per enforcement year. The QWID screen shows the investigation
+start date and the earnings amount. CDREO will not generate alerts for cases that
+are currently open or have recently closed reviews.
+2. QEP alert criteria and thresholds
+QEP generates an enforcement alert when quarterly earnings are equal to or greater
+than three times the SGA amount and indicate that the beneficiary has completed the
+TWP. QEP generates alerts four times per year. QEP generated alerts appear on the
+QWID screen, but do not display the earnings amount. QEP will not generate alerts
+for cases that are currently open or have recently closed reviews.

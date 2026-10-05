@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 02402.486 - Coding Benin Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402486 (fetched 2026-10-04)
+
+F. Procedure for coding Benin IDD bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Benin using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+enrollment status;
+•
+country;
+•
+account type;
+•
+account ownership;
+•
+Society for Worldwide Interbank Financial Telecommunication - Business Identifier
+Code (SWIFT-BIC);
+•
+beneficiary address – NOTE : Enter the beneficiary’s address in this format: BJ/Town/Name . Start with the ISO country code for Benin (BJ);
+•
+bank name;
+•
+bank address.
+1. Obtain SWIFT-BIC code from FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters -
+NOTE: If known, it is highly recommended to use all 11 digits..
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+Prior to processing an initial award to ensure that the beneficiary receives payment
+you must update the bank account information in ITS.gov. When the payment is processed,
+the payment rejects and returns to our agency if the complete bank account information
+is not in ITS.gov.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a XOF account in Benin? If no, STOP.
+REASON: Beneficiaries in Benin can only receive IDD payments in XOF accounts.
+If yes, go to step 4
+4
+The RTN is 730000134 for Benin. It contains the:
+•
+Multi-country prefix of “73” for Benin IDD;
+•
+US check digit code of “4” at the end of the RTN for all IDD accounts in Benin.
+NOTE: No need to obtain the check digit code from Tittle II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+Code the DAN as follows:
+•
+Start with a country code of "U" designated for Benin.
+•
+16 digits of the up to 29-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.486F.
+NOTE: If the account number has more than 16 digits, you must code the entire account
+number in ITS.gov.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - DI 55025.010 - Processing the Medical Continuing Disability Review (CDR) for Ticketholders
+Effective Dates: 04/16/2013 - Present | TN 4 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455025010 (fetched 2026-10-04)
+
+C. Procedure when SSA initiates a medical CDR on the Ticketholder
+If we initiate a medical CDR while the ticket is not in use:
+•
+Continue processing the CDR.
+•
+Send the Ticketholder a notice to inform that we initiated the CDR.
+•
+Input the CDR initiation date (notice date) into the DCF; follow the instructions
+in MSOM CDR 001.007.
+•
+Use event type 8, “Direct Release Notice Information.”
+•
+Make sure the CDR initiation date is correct and matches the notice date.
+•
+If we initiated the medical CDR while the ticket was in use, stop processing the CDR.
+NOTE: If we initiated the medical CDR as a result of work activity and not a direct release
+CDR, follow DI 13010.012.

@@ -1,0 +1,13 @@
+SSA Program Operations Manual System (POMS) - GN 02607.460 - Field Office Processing of Inmate Reports
+Effective Dates: 08/14/2014 - Present | TN 27 (08-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607460 (fetched 2026-10-04)
+
+C. FO processing of negative inmate reports
+If an institution reports that it had no new inmate admissions or convictions during
+a monthly reporting period, annotate the negative report to IRCS by completing all
+fields in the Report Data section of the IRID screen. Use the same date entry for
+the Receipt Date, Report Date, and Process Date. Enter zeros in the Verified Count
+and Unverified Count fields.
+Recording negative reports promptly will properly credit the institution with a timely
+report and prevent the generation of an Overdue Prison Report alert. Do not input
+a negative report for an institution if it does not submit a report to SSA.

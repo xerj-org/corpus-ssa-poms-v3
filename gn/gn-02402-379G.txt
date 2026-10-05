@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.379 - Coding Nigeria Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402379 (fetched 2026-10-04)
+
+G. Example of coding Nigeria direct deposit
+The customer provides us with a signup form for Nigeria containing the Account Number
+1234567890.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code an RTN of 680000022
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with an alpha country code of “D” designated for Nigeria;
+•
+Code the 10-digits of the Account Number “1234567890”.
+3. Obtain the following information
+•
+RTN: 680000022
+•
+Checking
+•
+DAN: D1234567890
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000022 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: D1234567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-680000022
+•
+DAN-CD1234567890

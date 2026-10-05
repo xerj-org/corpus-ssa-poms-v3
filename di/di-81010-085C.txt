@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 81010.085 - Transferring Cases in the Electronic Disability Collect System (EDCS)
+Effective Dates: 11/22/2023 - Present | TN 81 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010085 (fetched 2026-10-04)
+
+C. Transferring the CEF
+You must transfer the electronic case in EDCS to ensure:
+•
+Accurate information is sent to the Disability Determination Services (DDS), the Office
+of Disability Adjudication and Review (ODAR), or to another FO; and
+•
+The EDCS record is locked.
+Once the EDCS case is locked, FO changes are limited. If the case requires changes
+after transfer of jurisdiction, use the Update-After-Transfer Utility (see Using the
+Update-After-Transfer (UAT) Utility DI 81010.095).
+To transfer a case in EDCS to DDS, ODAR, or another FO, the transferring FO must take
+the following steps:
+1.
+Resolve or override “Always Mandatory for Transfer” edits. For more information about
+mandatory fields and edits, see Fields and Edits in the Electronic Disability Collect
+System (EDCS) DI 81010.050.
+NOTE: Mandatory for Transfer edits do not apply if you are transferring the EF to another
+FO.
+2.
+Select all the claims to transfer on the EDCS Transfer screen.
+IMPORTANT: If the FO is unable to transfer all of the claims in the case to DDS at the same
+time on the same day, create a message on the EDCS Routing Form explaining the situation.
+3.
+Review the transfer destination:
+•
+For initial claims, you can over key the EDCS transfer destination or select the DDS office code from
+the drop-down list provided.
+•
+For appeals, you can over key the EDCS destination.
+•
+For transfer to another FO, you must enter a destination on the case transfer screen, since EDCS does not provide
+a default destination.
+NOTE: EDCS does not allow transfer of a claim(s) to a non-fully electronic claim processing
+DDSs.
+4.
+Select the appropriate paper folder indicators (PFIs) on the EDCS Transfer screen.
+For more information about PFIs, see DI 81010.085D in this section and Paper Folder Indicators (PFIs)DI 81001.020;
+5.
+Enter remarks in the Routing Form Remarks section, if applicable;
+6.
+Field Office contact information is propagated based on the logged-in user. FO contact
+information can be over keyed, if applicable;
+7.
+Select “OK” on the EDCS Transfer screen to transfer the case.
+•
+EDCS performs an automatic repropagation of mainframe data upon transfer to ensure
+that EDCS data corresponds to the current mainframe data.
+•
+An alert generates if EDCS cannot access RPS, MCS, or MSSICS. If this happens, the
+CR elects to proceed with the transfer or cancels and transfers the case later.
+8.
+Print and attach the EDCS Routing Form to any material you must mail to the receiving
+office.
+NOTE: If the case is a CEF Exclusion or if a prior paper folder is involved, attach the
+EDCS Routing Form to the front of the paper MDF and mail the paper MDF to the receiving
+office. For more information about the EDCS Routing Form, see DI 81010.087.
+9.
+Route paper evidence per these instructions:
+•
+DI 81010.125 Receiving Medical Evidence in the Field Office (FO); and
+•
+DI 81010.135 Storing Non-Medical Evidence in the Electronic Folder (EF).

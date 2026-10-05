@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 11020.135 - Field Office (FO) Actions After a Disability Determination
+Effective Dates: 04/20/2026 - Present | TN 7 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411020135 (fetched 2026-10-04)
+
+A. Medical allowance
+1. Processing Earnings Computation (EC) exclusions
+If a new claim is an allowance that you cannot process through EC, prepare a Modernized
+Claims System (MCS) A101 or EF101.
+See Details:
+•
+For A101 instructions, see MSOM MCS 014.001 - MSOM MCS 014.025.
+•
+For EF 101 information, see Electronic Form 101 Process MSOM T2PE 009.001.
+2. Age 18 conversion cases
+When a disability determination is made to continue a child's entitlement as a Childhood
+Disability Benefit (CDB) upon attaining age 18, the disability determination must
+be posted to the Master Beneficiary Record (MBR) to enable automatic conversion.
+Use the Postentitlement Online System (POS) (see MSOM COMMON 005.017) to convert auxiliary
+childs benefits to CDB in the following situations:
+•
+The child is age 17 to 18 and is receiving auxiliary childs benefits; or
+•
+The child is in T4 terminated status (see MSOM COMMON 005.017 Develop for Child Disability
+Determination and SM 00550.020 Ledger Account File (LAF) Codes).
+However, if the child is receiving Supplemental Security Income (SSI) benefits, send
+the claim to the PC for manual action. PC manual action is also needed for other types
+of CDB allowances, such as a
+•
+CDB converted from student benefits;
+•
+Reentitlement for a beneficiary who is over age 18 with a T6 LAF code; or
+•
+CDB award to continue Child-in-Care benefits (see RS 00202.095 Last Child in Care and RS 00203.085 Childhood Disability Development and Determination.
+NOTE: When the FO applies collateral estoppel in a CDB conversion case, the FO is not required
+to prepare a new SSA-831. Enter the remark collateral estoppel, PC action
+necessary to manually establish listing code 589 and provide the disability onset date as well as other coding (e.g., diagnosis codes)
+on the PC paperless routing sheet or a report of contact, following instructions in
+RS 00203.085D.2. For more information on collateral estoppel case processing, see DI 11011.001.

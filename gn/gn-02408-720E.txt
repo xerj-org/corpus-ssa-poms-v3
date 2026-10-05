@@ -1,0 +1,121 @@
+SSA Program Operations Manual System (POMS) - GN 02408.720 - Dual Recovery
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408720 (fetched 2026-10-04)
+
+E. Procedure when dual recovery is alleged
+1. Gather the evidence
+Get statements and any evidence available:
+a.
+When a check or money order was involved, ask the sender to obtain a copy of both
+sides of the item.
+b.
+When someone brought cash to an FO, request a copy of the receipt.
+c.
+Check the applicable system for evidence of returns.
+d.
+Ask the PC to look for evidence that the money came from the FI through Treasury but
+it rejected or edited and was not entered on the system.
+e.
+Compare the amount due survivors with the amount paid, to determine whether money
+was repaid to SSA by being subtracted from the amount due the survivors.
+f.
+Check the record for anyone who alleges SSA recovered the funds from his/her ongoing
+benefits.
+2. Determine who suffered the loss
+When dual recovery has occurred, look at the evidence to determine which party suffered
+the loss. Consider that the money should come from the beneficiary’s account when
+it is available in the account. If the FI returned the money from the account, the
+FI is not the party you should repay. Consider that, when the money was reclaimed from the
+FI’s reserve account at the Federal Reserve Bank (FRB), the FI suffered a loss. The
+following lists some examples of situations you may encounter:
+a.
+When the same party returned the money twice, this is the correct party to repay.
+b.
+When the FI took the funds from the beneficiary’s account and the joint account holder also repaid SSA, the joint account holder is the one SSA
+must repay. (The FI has not suffered any loss.)
+c.
+When the FI returned the funds from the beneficiary’s account and a family member or the estate executor also repaid SSA, the family member or estate
+executor is the one SSA must repay. (The FI has not suffered any loss.)
+d.
+When the money was reclaimed from the FI when the money was not in the beneficiary’s account, and the estate or a family member also repaid the funds, SSA should repay the FI. (The
+FI has suffered a loss.)
+e.
+When the FI returned the funds from the beneficiary’s account and the money was also reclaimed from the FI’s account at Federal Reserve Bank, repay
+the FI. (The FI has suffered a loss.)
+f.
+When the FI returned the funds from the beneficiary’s account and the money was also reclaimed from the beneficiary’s account, repay the joint account
+holder, if any (or the beneficiary’s estate, if there is no joint account holder).
+(The joint account holder or the estate has suffered a loss. The FI has not suffered a loss.)
+3. Obtain the correct address
+Once you have determined the correct party to repay, obtain the full address. When
+the FI is the party that has suffered a loss, ask for the exact address of the person
+at the FI who should receive the payment. For payments returned to the FI, include
+the reclamation ticket number found in the Treasury Check Information System (TCIS)
+on the Claims Detail tab under Reclamation No. The reclamation ticket number may also
+be found on the FS-133 under Ticket. Without the reclamation ticket number, the FI
+may need to recontact SSA when they receive the Treasury check, as they may not know
+where to apply the funds on their own records. Explain the format of the address,
+so the FI can decide how best to structure it to include the name of the correct bank
+official and any codes the FI may need for crediting the payment.
+The address can have up to 6 lines of up to 22 characters each, including spaces.
+In addition to alpha and numeric characters, only a space or dash may be used on the
+check. As with any Treasury check, all letters are in capitals.
+EXAMPLE:
+BANK TEN
+MARY
+OFFICIAL
+12345678
+LX529
+3321 WEST W55TH ST
+BALTIMORE MD 21244
+4. Repay the correct party
+a. Title XVI payment
+Process the Title XVI payment as follows:
+•
+Prepare a memo requesting a Special Voucher Payment.
+•
+Include all the facts, an SSI query, and all documentation.
+•
+Include the name and complete address of the party to be repaid.
+•
+Include the name, telephone number, and fax number of the FO contact.
+•
+Make copies for the FO records.
+•
+Fax the material to:
+Division
+of Benefit Certification and Systems Analysis (DBCSA)
+Electronic
+fax 833-955-2293.
+•
+Follow-up in six weeks if you do not receive a notification from DBCSA that the payment
+has been certified.
+•
+Annotate the Remarks segment of the Supplemental Security Income Record (SSR) to show
+that a Special Voucher was issued.
+b. Title II payment – FO or Federal Benefits Unit (FBU) actions
+Process the Title II as follows:
+•
+Gather all necessary information
+In the FO or consular office, when you discover a Dual Recovery situation, gather
+all the information necessary to complete a Single Payment System (SPS) input. (See
+SPS Processing of the Miscellaneous Payment Screen SM 00834.435.)
+For instructions on gathering the evidence, follow GN 02408.720E.1. and for determining who should receive the payment, follow GN 02408.720E.2.
+To obtain and format the address, see GN 02408.720E.3. in this section.
+•
+Send a request to the servicing PC
+Send a request, with all necessary information, to the servicing PC. Do this by faxing
+the information to Paperless or completing a Modernized Development Worksheet (MDW).
+•
+Determine whether payment processed successfully
+To find out whether the payment processed successfully, query the PHUS for all payments, not the BIC of the deceased person. There should be a record under the BIC of VB or VO.
+When it has not processed successfully in 45 days, notify the PC.
+c. PC actions for Title II payments
+•
+In the PC, review the information provided by the FO/FBU to be sure it is complete
+for input. To make sure the address is complete and formatted correctly, follow GN 02408.720E.3.
+•
+Input the payment to the Special Payment System (SPS). (See SPS Processing of the
+Miscellaneous Payment Screen SM 00834.435.)
+•
+Notify the requesting office when the payment has been sent.

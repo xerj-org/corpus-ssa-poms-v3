@@ -1,0 +1,102 @@
+SSA Program Operations Manual System (POMS) - DI 10505.005 - Determining and Verifying Gross Earnings from Employment
+Effective Dates: 01/10/2025 - Present | TN 34 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410505005 (fetched 2026-10-04)
+
+D. Verifying earnings for post-entitlement determinations
+1. Policy for earnings when paid versus when earned
+Evaluate any readily available earnings verification sources and determine when earnings
+were earned. If there is no readily available evidence to determine when earnings
+were earned, use other sources of earnings verification even if the earnings source
+only documents when earnings are paid. Presume earnings were earned in the month they
+were paid when evidence does not support a specific pay period for the earnings.
+NOTE: Our Due Process notice advises beneficiaries that we may have used earnings information
+based on when paid and advises the beneficiary of the opportunity to provide additional
+information regarding when the pay was earned.
+2. Priority list of earnings verification sources
+Verify earnings using the following sources in order. If you believe evidence from
+a source is not accurate, proceed down the priority list to find earnings that are
+more accurate. The Consolidated Wage Page (CWP) displays a consolidated view of commonly
+used wage data sources via the Electronic Disability Collect System (EDCS).
+a. Earnings on file
+Use earnings information that indicates when the monthly earnings were earned. Check
+the pay stub table in eWork for submitted wages. If the pay stub table has earnings
+from two or more sources for the same employer for the same period, but the information
+conflicts or is duplicate, prioritize the earnings in the following order:
+•
+Earnings from the Payroll Data Provider (PDP)
+•
+Earning posted by a Social Security employee (SSAE)
+•
+Earnings reported online by a beneficiary or representative payee (myWR)
+•
+Earnings reported by the Employment Network (ENI)
+eWork automatically converts pay stub information into monthly totals based on pay
+periods. When verifying the wage source on the eWork ‘Earnings Details’ page, use
+the “verified by” code of PDP for the earnings provided by a PDP. Select the “verified
+by” code of Pay Stub for SSAE, myWR, and ENI earnings. If a month includes any combination
+of PDP, SSAE, myWR, or ENI earnings, select the "verified by" code of Pay Stubs. For
+any months that you are unable to determine an accurate amount, proceed to the next
+available earnings source. You may use a combination of earnings sources to complete
+the review.
+NOTE: You may also use pay stub evidence stored in other repositories. For example, you
+may also use the Supplemental Security Income Monthly Wage Verification Application
+(SSIMWV) or pay stubs scanned in Evidence Portal. Use SSIMWV pay stubs only if they
+include pay period information, and you can determine when the pay was earned.
+b. Electronic wage verification company
+If the employer participates with The Work Number (TWN) or any other SSA-approved wage verification company, verify earnings using
+the third-party service. For a list of SSA-approved wage verification companies, see
+SI 00820.147. Before verifying earnings using a third-party service, confirm that the earner has
+authorized SSA to obtain information from an electronic wage verification company.
+A valid signed or attested SSA-8240 serves as authorization to obtain wages from electronic
+wage verification companies. Generally, you can determine when earnings are earned
+based on pay period start and end date. Enter the earnings into the eWork pay stub
+table. eWork will convert earnings into prorated monthly totals on the employer Earnings
+Detail screen. Code as "verified by" EWV. If you are unable to determine when earnings
+were earned or the employer does not use an electronic wage verification company,
+proceed to the next source of earnings.
+NOTE: TWN contains the same wage information as the PDP. If you have PDP wages that cover
+the entire review period, you do not need to access TWN. However, if you need historical
+wage data not provided by the PDP, you may access TWN.
+c. Pay stubs
+If the beneficiary can provide pay stub information within 15 days for field offices
+(FO) or 35 days for processing service centers (PSC), use the pay stub data. When
+pay period start and end dates are available, enter the earnings into the eWork pay
+stub table. eWork will convert earnings into monthly totals. Code as "verified by"
+Pay Stubs.
+If pay stub information is incomplete or inconsistent, and you need additional evidence
+of earnings, proceed to the next source of earnings. You may use a combination of
+pay stubs and other earnings sources to complete the review.
+d. Internet Ticket Operations Support System (iTOPSS)
+Access the CWP in EDCS to view iTOPSS data. iTOPSS contains pay stub wage data for
+Ticket to Work users. When pay period start and end dates are available, enter the
+earnings into the eWork pay stub table. Code as "verified by" Pay Stubs.
+If wage information is incomplete or inconsistent, and you need additional evidence
+of earnings, proceed to the next source of earnings. You may use a combination of
+pay stubs and other earnings sources to complete the review.
+e. Supplemental Security Income (SSI) verified wages
+Check SSI systems for verified monthly earnings. Input the earnings into the eWork
+Earnings Details screen and code as "verified by" SSI wages.
+f. National Directory of New Hires (NDNH)
+Check the NDNH for quarterly earnings. Use the date work started information from
+the SSA-821-BK or the date hired information from the NDNH to determine the number
+of months worked in the quarter and divide the earnings amount accordingly. If there
+is no SSA-821-BK and no date hired information on the NDNH, divide quarterly earnings
+by three and enter monthly earnings on the eWork Earnings Details screen and code
+as "verified by" NDNH.
+NOTE: You may also access this information via the Interstate Benefits Inquiry (IBIQ),
+if available.
+g. Summary earnings query (SEQY) or detail earnings query (DEQY)
+Check the SEQY or DEQY. Use the date work started information from the SSA-821-BK
+or the date hired information from the NDNH to determine the number of months worked
+in the year and divide the earnings amount accordingly. If you are unable to determine
+the number of months worked in the year, use the Quick Distribution button to distribute
+earnings throughout the year and code as "verified by" SEQY/DEQY.
+h. SSA-L725
+The SSA-L725 is a last resort. Pursue all other sources of earnings verification before
+using it. However, if no other source of earnings verification is available, send
+an SSA-L725 request to the employer. Tickle the case for 15 days for FO and 35 days
+for PSC processing. If you receive earnings information, code monthly earnings as
+"verified by" SSA-L725.
+NOTE: If the employer participates in an SSA-approved electronic wage verification company,
+but you are unable to access the information because you do not have appropriate authorization
+(i.e., you do not have a valid signed/attested SSA-8240), do not send the SSA-L725.

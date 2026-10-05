@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 55025.010 - Processing the Medical Continuing Disability Review (CDR) for Ticketholders
+Effective Dates: 04/16/2013 - Present | TN 4 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455025010 (fetched 2026-10-04)
+
+B. Procedure for processing CDRs for a Ticketholder
+Use the following chart to determine when to process medical CDRs for Ticketholders.
+Obtain this information from the “Ticket Use History” (TKUH) query in the DCF. To
+close out the CDR, when appropriate, use standard procedures in DI 13005.020I.
+IF
+THEN
+CDR initiated before ticket status was In-Use.
+CDR continues, unless the Ticketholder alleges ticket use begin date is incorrect.
+For In-Use begin date investigation, follow instructions DI 55025.010A in this section.
+Ticketholder alleges ticket In-Use.
+FOs or PCs check the DCF to see if CDR closed because of ticket. If contrary to allegation,
+the ticket is Not-In-Use and the CDR is open, follow DI 55025.010A in this section.
+ORDES confirms Ticketholder’s allegation of ticket use prior to CDR initiation date.
+ORDES notifies the Ticket Program Manager to change ticket status to “In-Use” and
+the system closes out CDR.
+ORDES denies Ticketholder’s allegation of ticket use.
+Process the CDR if the DCF still shows ticket “Not-In-Use”
+CDR not closed and ticket not In-Use.
+FO/PC sends notice of CDR. For copy of notice, see NL 00705.350.
+CDR closed out.
+FO/PC sends the CDR deferral notice. For copy of notice, see NL 00705.355.
+NOTE: If neither the Ticketholder nor provider notifies us that the Ticketholder was receiving
+VR or employment support services and a medical CDR determination terminates benefits,
+the cessation will stand even if we retroactively assigned the ticket prior to the
+date of the determination.

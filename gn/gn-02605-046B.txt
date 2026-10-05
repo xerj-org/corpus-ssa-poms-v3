@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02605.046 - National Change of Address (NCOA) Processing
+Effective Dates: 10/04/2019 - Present | TN 35 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605046 (fetched 2026-10-04)
+
+B. Process
+1.
+COAs identified for direct deposit beneficiaries and for certain beneficiaries not
+receiving payment (example: LAF codes N, ND, SH, SP, U) are updated automatically
+by the Title 2 Redesign program if there has not been an intervening address change
+since the record was matched by NCOA.
+2.
+Beneficiaries are sent a call-in notice to verify the new address in the following
+situations:
+•
+Beneficiaries receiving checks
+•
+LAF S6 and S9 beneficiaries
+•
+New “in-care-of” addresses
+•
+Puerto Rican addresses
+•
+Persons with concurrent SSI eligibility
+•
+Address changes reported by institutions
+NOTE: The beneficiary, who verifies the address with the representative payee or the representative
+payee must call in, in order for us to change the address. Once the call is made,
+process as a normal COA.
+3.
+Certain situations are excluded from the NCOA process:
+•
+S4 - Young wife/mother suspended for no child in care
+•
+S7 – Prisoner suspension, and suspension due to extended trial work period
+•
+S8 – Rep Payee development
+•
+AD – Dual-entitlement, payment made on another SSN
+•
+SD – Technical entitlement, payment made on another SSN
+4.
+A field on the MBR entitled “ZIP flags” is used to identify NCOA actions. See SM 00510.115.
+•
+”L” - Indicates that a notice has been sent to the beneficiary telling him/her that
+the USPS has notified us of a new mailing address for him/her (either the address
+will be automatically updated when the run completes or a “call-in” letter was sent).
+•
+“P” - Indicates that the address has been changed because of NCOA action.
+•
+“X” - Indicates that the beneficiary called in and requested that the old address
+be used. (The “X” will preclude the record from being selected for the next NCOA cycle.)

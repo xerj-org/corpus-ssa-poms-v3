@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - DI 23022.030 - Identifying and Receipting Compassionate Allowances (CAL) and Quick Disability Determinations (QDD) Cases
+Effective Dates: 04/06/2018 - Present | TN 24 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423022030 (fetched 2026-10-04)
+
+E. CAL indicator information and actions
+This section identifies the information available from the CAL indicator in eView.
+To take actions related to CAL or QDD status, see DI 23022.055.
+1. Accessing the CAL indicator
+To access the CAL information for the applicant, and the available actions related
+to the CAL indicator, in the electronic folder (EF) in eView, select the:
+•
+yellow "Edit (Lock Case)" link at the top of the page, and
+•
+hyperlink labeled "CAL" in the top right-hand frame of the EF in eView.
+2. CAL indicator is CAL: Y
+When the CAL indicator is Y, the following information will display:
+•
+CAL Home Page - This hyperlink connects the user to the Office of Disability Policy
+(ODP) CAL website that contains information on CAL, and lists the CAL conditions.
+•
+CAL Condition(s) - Each applicable condition detected appears as a separate hyperlink
+leading to the applicable page with the CAL ODP website.
+•
+CAL History - The summary table displays the most recent CAL action first and includes
+the following fields:
+–
+Date: Date the CAL was added, reinstated, modified, or removed;
+–
+Action: Possible CAL actions are added (manually or through the selection software), reinstated,
+modified, or removed;
+–
+Office Code: Office responsible for the "Action";
+–
+Level: Adjudicative level of the claim;
+–
+Conditions: If added, modified, or reinstated, the selected conditions will appear. If removed,
+the field will be blank;
+–
+Reason: Documented rationale for the "Action" will display one of the following:
+•
+Auto Selected - Displays if the selection software detected CAL conditions;
+•
+Auto-Removed due to EDCS reactivation - Displays when we reactivate a case through
+EDCS and the last action taken was "Auto-Selected";
+•
+Any user-selected reason from a predefined drop down list;
+•
+Other - Followed by user entered text.
+3. CAL indicator is CAL: N
+Any previous CAL designation will display in the CAL History field. Based on the last
+CAL history action performed, the system will display one or more of the buttons on
+the lower portion of the CAL window. If the CAL indicator is No, you will see the
+following options:
+•
+Add;
+•
+Reinstate;
+•
+Modify; or
+•
+Remove

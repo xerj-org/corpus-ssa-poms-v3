@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - SI 02006.010 - Title II Offset and SSI Changes
+Effective Dates: 06/01/2009 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006010 (fetched 2026-10-04)
+
+D. Description of System Capabilities
+See SM 01320.600. For most cases, the SSI system will compute the true OP or UP. It
+will do this by using the information from the payment history (PMTH) segment (the
+amount paid) and the WCMP segment (the offset amount and the amount that would have
+been due had we paid the title II income on time).

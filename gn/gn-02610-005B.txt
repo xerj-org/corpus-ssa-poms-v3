@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - GN 02610.005 - Introduction to Title II/Title XVI Windfall Offset
+Effective Dates: 04/25/2012 - Present | TN 33 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610005 (fetched 2026-10-04)
+
+B. Definition of windfall offset terms
+You must have an understanding of windfall offset terms to understand the windfall
+offset process.
+For a list of the types of benefits subject to offset, see GN 02610.014.
+1. Windfall offset
+The reduction of retroactive title II or title XVI benefits prevents a windfall. A
+windfall occurs when the combined title XVI and retroactive title II benefits exceed
+the amount of benefits due if the title II benefit had been paid when due rather than
+retroactively.
+2. Retroactive title II benefits
+Benefits paid in a month later than the month or months they were due; i.e., a prior
+month accrual (PMA). For information about the treatment of retroactive title II benefits
+in the PMA month, see SI 02006.201.
+3. Retroactive SSI benefits
+SSI benefits, including any federally administered State supplementation that has
+accumulated for any month after the calendar month they are due.
+4. Title II benefits paid when due
+Benefits paid in the month after the month the person is entitled; i.e. current month
+accrual (CMA).
+EXAMPLE: The title II benefit due for February paid in March.
+5. Offset period
+The offset period is the maximum period that retroactive title II benefits could affect
+title XVI payments. For determining the offset period, see GN 02610.022.
+6. Title II offset
+The reduction of retroactive title II benefits to prevent a windfall. It is the amount
+of title XVI benefits that would not have been paid had the title II benefits been
+paid timely.
+7. Title XVI offset
+The reduction of retroactive title XVI benefits to prevent a windfall. It is the counting
+of retroactive title II benefits if paid on time. For instructions for processing
+a title XVI offset, see SI 02006.205B.
+8. Excess offset
+The total offset computed for the record exceeds the amount of title II offset withheld.
+For instructions on processing excess offset, see GN 02610.050F and SM 01320.206D.
+9. Negative offset
+When we would have paid more title XVI if we paid the title II amount timely for one
+or more months in the offset period. The new federal amount due based on the offset
+computation (FAM/SAM) results in a higher payment amount than the due amount (FAM/SAM)
+on the SSID screen of the Supplemental Security Record (SSR). For instructions on
+processing a negative offset, see SI 02006.010A and SM 01320.206.
+10. Windfall due amount
+The amount of title XVI payment the recipient would have received if we paid the title
+II retroactive payments when due.
+11. Automated computation
+An automated computation occurs when the system can determine, compute, and post the
+windfall offset amounts to the Supplemental Security Record (SSR) for all months in
+the windfall period.
+12. Manual computation
+When the system cannot determine the offset amounts for one or more months in the
+windfall offset period, the field office (FO) must manually compute the offset amounts.
+The FO must post the results from the manual offset computation to the SSR. For instructions
+how to manually compute offset amounts, see GN 02610.035.
+13. Postentitlement (PE) events
+Any title II event that occurs after title II entitlement and affects the amount of
+title II benefits previously paid. For information about postentitlement events and
+their effect on windfall offset, see GN 02610.016B.
+14. Title II reinstatement
+The resumption of title II benefits following a suspension or termination. For specific
+conditions where windfall offset applies to reinstatements, see GN 02610.016B.
+15. Countable Income (CI)
+The amount of income used in the title XVI monthly payment computation to determine
+the SSI amount due.
+16. Noncountable income (NCI)
+The title II benefits payable for months in the windfall-offset period after the offset
+amount is subtracted from the title II retroactive benefits that accrued for months
+in the windfall offset period. For instructions how to compute NCI in the windfall
+offset period, see GN 02610.042.
+17. Interim Assistance Reimbursement (IAR)
+We may reimburse a State for assistance the State provided to a claimant in the form
+of cash or through vendor payments to meet their basic needs. Apply windfall offset
+to all retroactive months including the amount used to reimburse the State. For information
+about IAR, see SI 02003.003.
+18. Fee agreement
+A written statement signed by the claimant and the appointed representative specifying
+the fee the representative expects to charge and collect and the claimant expects
+to pay. For an overview of the fee agreement process, see SI 02006.200B.3.
+19. Fee petition
+A written statement, signed by a claimant’s representative, requesting the fee the
+representative wants to charge and collect for services. For information about the
+fee petition process, see SI 02006.200B.2.
+20. Subsequent award
+A subsequent award results in additional title II benefits becoming due because of
+an application (e.g. dual entitlement, retirement benefits (RIB) to disability benefits
+(DIB), widow(er) (WIB) to RIB, child (C1) to disabled claimant (HA).
+21. Amended award
+Corrects or changes a material factor of entitlement of a prior award. For instructions
+for recomputing windfall offset when an amended award changes the title II date of
+entitlement or title II amount, see GN 02610.050B.
+22. Electronic record of manual title II computation (e4345)
+The e4345 is a web-based application created to facilitate communication between Program
+Services Centers (PSCs) and FOs on windfall offset cases requiring a manual computation.

@@ -1,0 +1,141 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+E. Procedure for Wilkes-Barre Direct Operations Center (WBDOC) processing
+1. Handling undeliverables
+The WBDOC reviews and processes most scannable mailers, including mailers returned
+by the United States Postal Service (USPS) as undeliverable. When this happens, the
+WBDOC has procedures to attempt re-delivery.
+Second-request mailers that are returned as undeliverable after a re-mailing attempt
+are held until 150 days from the send request has passed, when the UNDELIVERABLE mailer
+automatically updates as NONRESPONDER to the DCF. Subsequently, those mailers are
+securely destroyed.
+2. Preliminary screening for signatures, damaged forms, name or address changes, reports
+of death, or allegations of fraudulent activity
+•
+Some mailers are received unsigned, in which case the WBDOC establishes controls to
+obtain a signature.
+•
+Signed mailers sometimes have unanswered questions; the WBDOC uses the DIRCON process
+and the mail to secure missing responses.
+•
+Some mailers are returned with a report of death or are so damaged as to not be optically
+scannable. A name change, a change of address to a foreign country, or fraudulent
+activity may also be reported. When any of these events happen, the mailer is referred
+to the servicing PC or FO for necessary action.
+•
+The WBDOC updates the Master Beneficiary Record (MBR) for name corrections (but not name changes), change of address (with or without
+a corresponding change of telephone number), and reports of death for Title II cases,
+and refers such reports on Title XVI cases to the servicing field offices (FOs) for
+action.
+3. WBDOC mailer analysis, coding, scanning, and keying
+Upon completion of the preliminary actions, the WBDOC performs a detailed analysis
+of the mailer responses, including remarks and any attachments that are received with
+the mailers. Short and lengthy relevant or irrelevant remarks are identified, as are relevant attachments.
+a. The mailer electronic data file
+The fronts of most mailers are optically scanned and the data are entered into the
+electronic data file that is created for each scannable mailer.
+All mailers require some keying, including responses on the back of the form (questions
+5 and 6) and relevant short remarks of 30 words or 200 characters or less. All keyed
+data becomes part of the data file for that mailer.
+Also included in the data file are the scanline data, the responses to the questions,
+and a set of three codes (called ANY CODES?) that are used to identify if irrelevant or relevant short or lengthy relevant remarks
+or attachments are present.
+b. The ANY CODES? coding process
+The first two of the three ANY CODES? codes are used to identify the subject matter
+of the relevant submissions (e.g., work, medical, both work and medical, or miscellaneous).
+They can also be used to identify the submission of irrelevant remarks. The first
+two codes are also used to identify cases in which translation is required.
+The third of the three ANY CODES? codes are used to alert the PC when other program
+issues are raised (e.g., a change of name; the need to develop for a representative
+payee; or receipt of, or a change in the amount of, workers compensation).
+4. Sorting mailers in the WBDOC
+Another critical element of WBDOC processing involves sorting the processed mailers
+by Title (Title II, concurrent, or Title XVI-only), by PC jurisdiction, and by whether
+the mailer is considered actionable or nonactionable.
+a. PC jurisdiction
+Jurisdiction for the mailer follows the Agency's jurisdiction rules.
+PC-8 has jurisdiction for foreign claims. Beneficiaries under the jurisdiction of
+PC-8 are excluded from selection for the first of the mailers. However, a change of
+jurisdiction to PC-8 after the first mailer has been sent may not be detected, and
+the PCs may encounter second mailers or nonresponder alerts involving what has become
+a foreign claim.
+OCO/PC-7 has jurisdiction for all domestic Title II-only and concurrent Title II/Title
+XVI disabled worker claims and claims for auxiliaries of disabled workers. Jurisdiction
+of these cases changes from OCO/PC 7 to PC 1, 2, 3, 4, 5, or 6 when the disabled wage
+earner attains age 54 (or dies).
+NOTE:
+Beginning May 2009, the jurisdiction of these cases changes from OCO/PC7 to PC 1,
+2, 3, 4, 5, or 6 when the disabled wage earner attains age 54 (or dies).
+PCs 1 through 6 have jurisdiction for all Title XVI-only cases, and for all Title II and concurrent Title II/Title XVI claims not under the jurisdiction
+of PC 7 or PC 8 (as explained previously). The first three numbers of the Social Security
+Number (SSN) determine PC 1 through 6 jurisdiction.
+See Also:
+GN 01050.055 Determining Processing Center Jurisdiction
+GN 01070.245 Processing Center SSN Jurisdiction
+b. Actionable and nonactionable mailers
+In addition to being sorted by Title and PC jurisdiction, mailers are sorted based
+on whether they are actionable or nonactionable.
+Actionable mailers are those that always require PC review. The PC reviewer always needs to
+review the actual mailer (and attachments) to complete the mailer processing. Actionable
+mailers include those:
+•
+with relevant remarks in excess of the 30 word/200 character limit in the electronic
+data file;
+•
+with relevant attachments, including, but not limited to, medical evidence, and work
+and earnings information;
+•
+signed by a doctor (or a nurse), or by a staff member of a nursing home, skilled nursing
+facility, or residential care facility;
+•
+requiring translation;
+•
+with a code of Y in position 3 of the Any Codes? codes, which indicates another program
+issue has been raised (e.g., a name change, need to develop for a representative payee,
+or a request to waive recovery of an overpayment);
+•
+with a YES response to question 1.a. (Have you worked?) or in response to question 1.b., earnings of
+$970
+or more are reported for at least one month since the beginning of the Report Period.
+If question 1.b. is blank or if no earnings are reported; and if question 1.a. is
+answered Yes, is not answered, or is answered BOTH Yes and NO; and DIRCON does not
+resolve these inconsistencies, the mailer is actionable.
+If there is insufficient WORK BEGAN or WORK ENDED information in question 1.b. to
+determine when the earnings occurred, but the reported MONTHLY EARNINGS in 1.b. are
+$970 or more in any of the three entries, the mailer is actionable.
+NOTE:
+If only work and earnings prior to the report period are described, the mailer is
+not considered an actionable mailer.
+Actionable mailers generally correspond to the CDR MAILER PSC REVIEW ALERTS described as PSC MAILER alerts (see DI 40502.001F.3.b. in this section). Do not work these cases using the facsimile provided by DCDRS.
+Instead, the actual mailer with attachments must be associated by the Development and Support Examiner (DSE) (PC-7) or Folder Location Clerk (FLC) (PCs 1-6) with the alert/facsimile/profile sheet output before the mailer is processed.
+Nonactionable mailers may contain relevant remarks, but they are short enough that they can be
+entered into the electronic data file for that mailer. This means that you can use
+the facsimile of the mailer generated by DCDRS to process the case (see DI 40502.001F.3. in this section).
+Nonactionable mailers correspond to the CDR MAILER PSC REVIEW ALERTS described as MISCELLANEOUS alerts , see DI 40502.001F.3.d. in this section.
+Nonactionable mailers do not have any of the characteristics specified in this section
+at DI 40502.001E.4.b., that require review of the actual documentation.
+Nonactionable mailers are held in the WBDOC for a specified period of time and are
+then securely destroyed.
+5. Delivery of mailers from the WBDOC to the PCs
+After sorting by PC jurisdiction and Title (II or XVI), WBDOC images the actionable
+mailers without attachments and passes them to the National Computer Center (NCC).
+The NCC downloads the images into each PCs Paperless Processing Control system; the
+images appear as SSA455PF ProngFile on the Completed side of paperless, awaiting association
+with the electronic data file.
+The actionable mailers with attachments are boxed in special boxes that include a
+shipping label addressed uniquely for each PC, indicating that the contents are actionable
+CDR mailers and are either Title II or Title XVI mailers. The boxes are delivered
+by mail to the PCs.
+6. Transmission of the mailers electronic data file and confirmation files
+The WBDOC assembles the data from scanning and keying into Title-specific data files.
+Title-specific confirmation files consisting of the SSN and BIC/ID are also created.
+All files are transmitted to the Agency's National Computer Center (NCC). During periods
+of high workloads, these assembled files are transmitted daily, and multiple daily
+transmissions are possible.
+The NCC receives, prepares, and routes the confirmation file data to the appropriate
+program for updating the Disability Control File (DCF). Receipt of the confirmation
+data clears the second-mailer/nonresponder control.
+The NCC receives and prepares the data files for DCDRS to retrieve and process through
+DCDRS's decision logic.

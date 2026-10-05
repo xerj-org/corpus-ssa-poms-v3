@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - DI 55002.035 - Determining Why The System Did Not Select A Beneficiary/Recipient for A Ticket
+Effective Dates: 02/05/2002 - Present | TN 4 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002035 (fetched 2026-10-04)
+
+B. Procedure – reviewing the MBR in Title II cases
+If the individual is a title II beneficiary, obtain an MBR query and review it to
+determine why the system did not select the individual's record. The following chart
+will help in this review. Be sure to examine each listed MBR field.
+Guide for Reviewing an MBR Query When a Ticket Eligibility Question Arises
+MBR DATA LINE
+MBR FIELD
+POSSIBLE REASON TICKET SELECTION NOT MADE
+PAYMENT
+SCC
+A beneficiary living in a non-ticket location is not eligible for a ticket (see DI 55002.005C.8.).
+During Phase 1, the first two digits of the SCC (State and County Code field (see SM 00510.096B.5.)
+must be one of the following for the title II record to be selected: 03, 06, 08, 10,
+14, 16, 22, 33, 37, 38, 42, 47, or 52 (representing AZ, CO, DE, FL, IL, IA, MA, NY,
+OK, OR, SC, VT, and WI, respectively).
+During Phase 2, the first two digits of the SCC must be one of the following for the title II record
+to be selected: 02, 03, 04, 06, 07, 08, 09, 10, 11, 14, 15, 16, 17, 18, 19, 22, 23,
+25, 26, 27, 29, 30, 31, 32, 33, 35, 37, 38, 42, 43, 44, 47, 49, or 52 (representing
+AK, AZ, AR, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, LA, MA, MI, MS, MO, MT, NV,
+NH, NJ, NM, NY, ND, OK, OR, SC, SD, TN, VT, VA, and WI, respectively).
+During Phase 3 and later, the first two digits of the SCC must be one of the following for the title II record
+to be selected: 01 through 53, 97, 98, or 99 (representing the 50 States, DC, PR,
+VI, AS, GU, and MP).
+NOTE: The SCC reflects the mailing address of the beneficiary or their representative payee
+or legal representative. See DI 55002.045B.1. when a title II beneficiary resides in a ticket location but the mailing address
+for the beneficiary or their representative payee or legal guardian is in a non-ticket
+location.
+BENEFIT
+BIC
+An individual must be entitled to a disability-based benefit to be eligible for a
+ticket (see DI 55002.005B.2.).
+For the title II record to be selected, the BIC (beneficiary identification code)
+field (see SM 00510.150B.1.) must display an A, C, or W (see SM 00550.010B.).
+If the BIC is A, the TAC (type of award code) field in the ACCOUNT data line (see SM 00510.070B.10.)
+must display a D.
+If the BIC is C or W, the CEC (current entitlement code) field in the BENEFIT data line must display a
+B.
+BENEFIT
+DOB
+A beneficiary who is under age 18, or is age 65 or older, is not eligible for a ticket
+(see DI 55002.005B.1.). Thus, the DOB (date of birth) field (see SM 00510.150B.4.) must indicate that the
+beneficiary is at least age 18 and not yet age 65 for the title II record to be selected.
+BENEFIT
+LAF
+If benefits have been terminated or are in suspense or deferred status, the beneficiary
+is not eligible for a ticket (see DI 55002.005C.1.). Thus, the LAF (ledger account file) field (see SM 00510.150B.8. and SM 00550.020B)
+must display a C for the title II record to be selected.
+DIB INV
+RDI
+A beneficiary receiving 301 payments is not eligible for a ticket (see DI 55002.005C.2.). Thus, if the RDI (reason for disability investigation) field displays a K (see
+SM 00510.300B.12.), the title II record will not be selected.
+NOTE: A code of K indicates that the beneficiary receives section 301 payments.
+DIB INV
+MDR
+Beneficiaries with MIE diaries are not eligible to receive a ticket until they have
+had at least one medical CDR and receive a final disability determination that disability
+continues or have been on the disability rolls for at least 3 years (see DI 55002.005C.4.). Thus, if the MDR (medical diary reason) field (see SM 00510.300B.17.) displays
+an alpha code (indicating a MIE diary, see DI 26525.025B) or is blank (indicating there is no established diary on the system), one of two things
+must be present for the title II record to be selected. One is that the date in the
+DOEC (date of current entitlement) field of the BENEFIT data line (see SM 00510.150B.6.)
+must be more than 3 years prior to the current date. The other is that the CDRCF (continuing
+disability review file) must show there has been a medical continuance decision.
+There has been a medical continuance if there is a “continuance” event on the CDRCF for a CDR record type of “1” (T16 Medical), “4” (LWB/CHLD/18), or “5” (T2 Medical). The ECDR screen of the CDRCF displays the most recent history data
+event. To get there, select 32 (Continuing Disability Review File) on the SSA Main
+Menu. Then, from the MCDR screen, select 1 (Query) and enter the SSN or SSN and BIC.
+The QCDR screen(s) provides a historical record of all events entered on the CDRCF.
+To get there, select 1, 4, or 5 from the ECDR screen.
+NOTE: See MSOM 185-A, MSOM 185-B, and MSOM 185-C for more information about these CDRCF
+screens.
+BEN REF
+BOAN
+A beneficiary must have a social security number to get a ticket (see DI 55002.005C.9.). Thus, if the BOAN (beneficiary's own account number) field (see SM 00510.450B.2.)
+does not display an SSN when the BIC in the BENEFIT data line (see SM 00510.150B.1.)
+is a W or a C, the title II record will not be selected.
+DIB
+DOED
+An individual must be entitled to a disability-based benefit to be eligible for a
+ticket (see DI 55002.005B.2.). Thus, the DOED (date of entitlement to DIB) field (see SM 00510.460C.5.) must contain
+a month and year entry for the title II record to be selected.
+DIB
+PRY
+A beneficiary receiving benefit continuation payments while appealing a medical cessation
+is not eligible for a ticket (see DI 55002.005C.3.). Thus, if the PRY (pending appeal review) field (see SM 00510.460C.9.) displays
+a code of A or B, the title II record will not be selected.
+NOTE: A PRY code of A or B indicates the beneficiary has an appeal pending on a medical
+cessation determination.
+DIB
+DBC
+An individual must be entitled to a disability/blindness-based benefit to be eligible
+for a ticket (see DI 55002.005B.2.). Thus, the DBC (disability benefit cessation) field (see SM 00510.460C.11.) must
+be blank or display a date greater than the current month for the title II record
+to be selected.
+HISTORY
+WIC
+An individual receiving provisional (temporary) cash benefits under the EXR provisions
+is not eligible for a ticket (see DI 55002.005C.6.). Thus, if the most recent WIC (work indication code, see SM 00510.520C.5.b.) is
+a P, the title II record will not be selected.
+NOTE: The WIC code is the second position of the Status Code field. A code of P in this
+position indicates that the individual is receiving provisional (temporary) cash benefits
+under the EXR provisions.

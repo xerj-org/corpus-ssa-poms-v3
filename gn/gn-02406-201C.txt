@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - GN 02406.201 - Nonreceipt of Title II Critical Payment System (CPS) Checks
+Effective Dates: 09/29/2017 - Present | TN 124 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406201 (fetched 2026-10-04)
+
+C. FO procedure to issue IPs for nonreceipt of CPS payment
+Use the PEN1 to determine the type of CPS payment issued. The PEN1 screen indicates
+either a CPS Monthly Payment (CPSM) or CPS One-Time Payment (CPSO). Use the following
+FO instructions chart in this section to process the payments.
+NOTE: You are unable to input CPSO payments via the Post Entitlement Online System (POS)
+nonreceipt process.
+IF
+THEN
+CPSM, PHUS event code 044, and RAI = I or A
+Seven days after the run date, input nonreceipt (B- or C-stop) using the POS screen.
+The screen shows blanks in the check range and check issue date fields. To obtain
+the check range and check issue dates:
+•
+Complete a Payee Query in TCIS’s Integrated View and locate the missing Check payment
+in the “Payment Listing.”
+•
+Review the “Payment Details” tab to obtain the “Paid Date” and the “Check Number.”
+•
+For “CHECK ISSUE DATE” on the PEN2 Input the “Paid Date” as MMDDYY.
+•
+For “CHECK RANGE”: input the last eight digits of the “Check Number.”
+CPSM, Dire Need, and RAI =I
+•
+Issue an IP not to exceed $999 and initiate a CPS check for the balance, if any.
+•
+DO NOT INPUT NONRECEIPT.
+•
+Enter C43 in the TPT field.
+•
+Enter “INPUT STOP PMT SFT-F FOR ORIG PMT DTD MM/DD/YY-REPLCMT PMT MADE BY IP/CPS IN
+LIEU OF N/R” in the NPF field.
+These actions replace the full missing payment and alerts the PC to input an F-stop
+“stop payment” action on the original check.
+CPSM, Dire Need, and RAI = A
+•
+Issue an IP not to exceed $999.
+•
+Input a B- or C-stop.
+The IP causes an overpayment that will adjust against subsequent benefits due. For
+more information on CPS overpayment, see SM 00635.050 and SM 00848.366.
+CPSO, PHUS event code 042, and RAI = I
+•
+Transmit the SSA-3263 (Critical Case Direct Input) to issue payment through CPS.
+•
+Request the PC to input F-stop on missing payment via priority MDW.
+•
+DO NOT INPUT N/R.
+CPSO, PHUS event code 042, and RAI = A
+Send the PC a priority MDW requesting the PC to reissue a payment as a PMA via the
+Manual Adjustment Credit and Award Data Entry system (MACADE/MADCAP) or as an OCO
+A-. Request the PC to input an F-stop on the missing payment. References concerning
+the OCO A-, PMA, SSA-1257, and F-stop input, see GN 02406.201E in this section.
+CPSO, Dire Need, and RAI = I
+•
+Issue an IP not to exceed $999 and initiate a CPS check for the balance, if any.
+•
+DO NOT INPUT N/R.
+•
+Enter C43 in TPT field.
+•
+In CPS remarks show, “INPUT STOP PMT SFT-F FOR ORIG PMT DTD MM/DD/YY-REPLCMT PMT MADE
+BY IP/CPS IN LIEU OF N/R.”
+These actions replace the full missing payment and alerts the PC to input an F-stop,
+stop payment action on the original check. For more information on F-stop see GN 02408.025.
+CPSO, Dire Need and RAI = A
+•
+Issue an IP not to exceed $999.
+•
+Send the PC a priority MDW requesting the PC to pay the balance, if any, via MACADE/MADCAP
+OR OCO A- and to input an F-stop on the missing payment.

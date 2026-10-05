@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 00605.360 - Preparation of the Representative Payee Report Form
+Effective Dates: 06/05/2013 - Present | TN 29 (03-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605360 (fetched 2026-10-04)
+
+GN 00605.360 Preparation of the Representative Payee Report Form
+When requesting a final accounting, the technician must enter certain identifying
+information on the form before mailing it to the payee. Fill in the following fields
+on the form as instructed:
+1.
+Payee’s name and address
+Enter the Payee legend as it appeared on the MBR or SSR prior to the payee’s termination.
+2.
+Report period
+Enter the period for which the payee must account.
+•
+The “FROM” date is the month after the date of selection of the former payee.
+•
+The “TO” date is the month the change of payee or payee termination action is taken.
+A technician can often derive the FROM and TO dates by reviewing the SSR or MBR. If
+the dates cannot be determined by reviewing the payment records, the technician should:
+•
+Go to SSA Main Menu, select 9 (Master File Query) and hit Enter;
+•
+Select 17 (QRSL Inquiry Response) on the Master File Query menu, input the SSN and
+hit Enter;
+•
+Input “I” (HIST PAYEE/ADDRESS) under the “Selection” column for the beneficiary on
+the “QUERY RESPONSE SELECTION LIST” screen and hit Enter.
+The “FROM DATE” for the report period will be the month after the date shown in the
+“PAYEE 1 DATE” on the HPNA (Historical Payee Name Address) screen.
+3.
+Social Security Number
+Enter the Social Security Number (SSN) under which the beneficiary receives benefits.
+For concurrent cases, enter the Title XVI SSN.
+4.
+Beneficiary
+Enter the beneficiary’s full name.
+5.
+ID/BIC
+Enter for the beneficiary:
+•
+Beneficiary Identification Code (BIC) for Title II cases
+•
+Individual Recipient Identification Code (ID) for Title XVI cases, and
+•
+ID and BIC for concurrent cases
+6.
+Processing Center (PC)
+For Title II cases, enter the number of the PC servicing the claim.
+7.
+District office (DO) code
+Enter the code of the servicing field office.
+8.
+Beneficiary Social Security Number (BSSN)
+Enter the beneficiary’s SSN if it differs from the claim number under which the beneficiary
+receives benefits.
+9.
+TAA
+Enter the Total Accountable Amount (TAA) in Item 3 of the report form. This amount
+represents the total amount paid to the beneficiary during the time shown in the “Report
+Period” section and any conserved funds that were reported previously by the former
+payee. When computing the TAA remember to subtract any checks that the former payee
+returned to SSA.
+After entering the required data, mail the final accounting report form to the former
+representative payee with instructions to complete and return it to the FO.

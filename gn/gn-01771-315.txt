@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 01771.315 - Slovenian Birth Registration Number
+Effective Dates: 10/22/2024 - Present | TN 1 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201771315 (fetched 2026-10-04)
+
+GN 01771.315 Slovenian Birth Registration Number
+Slovenia introduced the Unique Master Citizen Number on January 8, 1977 and applied
+to all citizens born before then and alive at the time. The Unique Master Citizen
+Number is a standard identification number, assigned by the Ministry of the Interior.
+The Unique Master Citizen Number consist of 13 digits as follows:
+DDMMYYYRRSSSX
+DD - day of birth
+MM - month of birth
+YYY - year of birth, last three digits
+RR - a constant value 50
+SSS- serial number combination of sex and serial number for persons born on the same
+day (000-499 for men and 500-999 for women)
+X - checksum of first 12

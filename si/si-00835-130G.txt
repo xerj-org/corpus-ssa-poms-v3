@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - SI 00835.130 - Public Assistance Households
+Effective Dates: 09/24/2024 - Present | TN 129 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835130 (fetched 2026-10-04)
+
+G. Procedure for documenting a PA Household
+1. Initial claims
+a. Only one SSI applicant or recipient in the household
+Effective 09/30/2024, if there is only one SSI applicant or recipient in the household, document the file
+for each month in question to substantiate receipt of one or more PA payments by at
+least one household member other than the SSI applicant or recipient. Evidence may
+take the form of, for example, an award letter or Report of Contact page with the
+paying agency.
+Acceptable evidence for verifying a PA payment should include the individual's name,
+type of public assistance, and period of eligibility within the type of evidence.
+NOTE: Effective 09/30/2024, SNAP is included as a PA payment. Acceptable evidence of SNAP
+receipt could include the following:
+•
+SNAP award letter or comparable document;
+•
+A Report of Contact with a representative from the toll-free phone number on the back
+of the SNAP Electronic Benefits Transfer (EBT) card or from the State's EBT customer
+service number; or
+•
+Information from the applicant or recipient's account within an app authorized or
+used by the applicable State SNAP agency.
+Prior to 09/30/2024, you must document that every member of the household receives a PA payment (other
+than the SSI applicant, who must meet all of the non-disability eligibility requirements)
+to establish a PA household
+NOTE:
+Record the applicant's or recipient's statement on a Report of Contact page. For non-MSSICS
+cases use a signed SSA-5002 (Report of Contact) paper form and fax into the Evidence
+Portal (EP).
+b. More than one SSI applicant or recipient in the same household
+Effective 09/30/2024:
+•
+First, check whether there is a household member (other than the SSI individual whose
+claim is under consideration) who is an SSI recipient. If there is, then a PA household
+exists for the SSI individual whose claim is under consideration. Document the file
+accordingly for the month an LA/ISM determination is being made, and do not proceed
+to the second step.
+•
+Second, check whether there is a household member (other than the SSI individual whose
+claim is under consideration) who is an SSI applicant and meets all of the non-disability
+eligibility requirements. If there is, then a PA household exists for the SSI individual
+whose claim is under consideration. Document the file accordingly for the month an
+LA/ISM determination is being made, and do not proceed to the third step.
+•
+Third, if neither of the above applies, follow the instructions in section G.1.a.,
+and develop whether there is a household member (other than the SSI individual whose
+claim is under consideration) who is receiving a PA payment other than SSI.
+Prior to 09/30/2024, you must verify and document that each household member receives a PA payment. If
+any household members are SSI applicants (and receive no other PA payments), you must
+verify and document that each SSI applicant has a pending SSI claim and meets all
+of the non-disability eligibility requirements.
+NOTE:
+Record the applicant's or recipient's statement on a Report of Contact page. For non-MSSICS
+cases use a signed SSA-5002 (Report of Contact) paper form and fax into the Evidence
+Portal (EP).
+2. Post-eligibility
+a.
+Develop the existence of a PA household, per SI 00835.130G.1., in this section, only if:
+•
+an individual alleges a PA household has come into existence; or
+•
+an individual alleges a change in household composition involving a household member
+who receives PA payments described in SI 00835.130C.1., (i.e., the household member moves out, payments stop, or their SSI application is
+denied) (see G.2.b. below if the only change is that someone moved out); or
+•
+there is a material discrepancy between the individual's allegation and information
+in the file or on the SSR.
+b.
+If the only alleged change is that a member of the PA household has moved out, and:
+•
+effective
+09/30/2024, there is an SSI applicant or recipient and at least one other household member who
+continues to receive a PA payment (or there is at least one other household member
+with a pending SSI application who meets all of the non-disability criteria), then
+determine that a PA household still exists. No further development of inside ISM is
+required.
+•
+prior
+to 09/30/2024, all remaining members of the household continue to receive PA payments (or have
+SSI claims pending and meet all of the non-disability criteria), then determine that
+a PA household still exists.
+NOTE:
+Record the applicant's or recipient's statement on a Report of Contact page. For non-MSSICS
+cases use a signed SSA-5002 (Report of Contact) paper form and fax into the Evidence
+Portal (EP).
+3. System coding for case characteristics (CG field)
+For cases that are excluded from the SSI Claims System (CCE/MSSICS), code a CG entry
+of “LA22” if you establish existence of a PA household. (See SM 01005.525 and SM 01301.785.)

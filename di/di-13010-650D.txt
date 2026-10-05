@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - DI 13010.650 - The CDR Query (QCDR) Screen
+Effective Dates: 08/03/2011 - Present | TN 15 (11-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010650 (fetched 2026-10-04)
+
+D. Procedure – Reading the QCDR Screen
+The QCDR keeps a historical record of events related to the action queried from the
+ECDR screen (for example, T2 WORK). It lists up to 11 events per page and provides
+the date and brief description of the event. Notable fields on this screen are:
+•
+PAGE: Indicates if there are multiple pages.
+•
+CATEGORY: This field is propagated automatically and will list 3 different possible
+categories: SGA, TWP or CDR ENFORCEMENT.
+•
+REPORT FROM DATE: This field lists the start date of the CDR reporting period. For
+Medical and Child data, this is the start of the reporting period as per the Office
+of Disability and may be different from the CDR initiation date. On PL104 data, this
+is the date that the notice was sent to the recipient advising them that a reevaluation
+is necessary.
+•
+FOLDER RECONSTRUCTION ISSUE: This field advises the user if folder reconstruction
+is an issue. If, it is not an issue, this field will not be displayed.
+•
+DATE: This field provides the date of the associated event on the query.
+•
+EVENT: This field provides a description of the CDR and is pre-filled from the DCF.
+The destination field is the current location of the CDR file.
+•
+The bottom portion of the screen has the field to indicate if “Remarks” are present.
+If they are, the Query Remarks Screen (QRMK) will come up in the query screen path
+for viewing of the remarks entered on the case.
+At the bottom of the QCDR screen are PF keys that have the following effects when
+pressed:
+•
+PF10 – CDRI, CDR Information Screen (MSOM CDR 001.014 ).
+•
+PF11 – CDRW, CDR Development Worksheet (MSOM CDR 001.013 ).
+•
+PF12 – NTPD, CDR Notepad Screen (MSOM CDR 001.015 ).
+The CDRI, CDRW and NTPD provide general case data regarding the specific SSN originally
+entered on the CDR selection menu screen (MCDR).

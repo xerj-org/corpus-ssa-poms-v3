@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 81007.080 - Internet Workload Management
+Effective Dates: 04/18/2017 - Present | TN 4 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007080 (fetched 2026-10-04)
+
+D. Field office (FO) annotations to the Internet query
+To help in the processing of Internet reports, the query contains three fields for
+FO use.
+NOTE: You must be in “Update” mode to use these fields.
+1. Remarks
+Use the “Remarks” field to enter information about the IDR that may be pertinent to
+case processing. Enter only remarks that apply to the particular Internet report.
+Do not use this field to control any Internet report development. For example, a remark
+that the FO contacted the claimant for missing information could be appropriate, but
+controlling for receipt of the information with a diary date in this field is not.
+2. Remove from WMI listing
+Enter a “Y” in this field when the Internet report cover sheet is received, or when
+a claim has been established, with or without the cover sheet. This entry is used
+for database maintenance to identify Internet report records that have been processed.
+3. Delete this report
+Enter a “Y” in this field to manually delete an SSN from the Internet database. (Using
+this field does not immediately delete the record from the database. It marks the
+record for eventual purging.) Generally, use this field for those cases that are not
+being processed using EDCS.
+NOTE Annotating this field prevents EDCS from using the Internet report data. If the need to propagate the Internet report data into EDCS subsequently arises,
+delete the “Y.” The “Y” must be removed within 7 days to prevent purging of the record.
+Do not mark finally transmitted i3441 reports for deletion.
+4. WMI listing fields that indicate EDCS involvement
+For the list of codes for the DI field that are pertinent to the electronic process,
+see Title II Initial Claims WMI – FO Pending List (Print Display) MS MCSWMI 003.003.
+The Title XVI WMI related MSOMS displays electronic processing values in the INDICATOR
+FIELD, see WMI-SSI Initial Claims Receipt/Clearances/Process Time List MS T16WMI 003.002.

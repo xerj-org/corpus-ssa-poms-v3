@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - SI 00530.140 - In First Party Reports, What are the Procedures for Determining Whether an Individual is a Fugitive Felon?
+Effective Dates: 07/25/2022 - Present | TN 16 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530140 (fetched 2026-10-04)
+
+A. Procedure
+1. MSSICS questions
+Ask each applicant or recipient both of the following questions:
+•
+Have you been accused or convicted of a crime, or an attempt to commit a crime, which
+is a felony, or in jurisdictions that do not define crimes as felonies, is punishable
+by death or imprisonment for a term exceeding 1 year regardless of the actual sentence
+imposed under the laws of the place from which the person flees?
+•
+Are you currently subject to a condition of parole or probation under Federal or State
+law?
+2. No felony or parole/probation alleged
+If the individual responds “No” to both questions, document the answers to those questions
+on the MSSICS ALEF screen. No further action is necessary, absent evidence to the
+contrary.
+3. Felony alleged
+If the individual states that they have been accused or convicted of a crime, or an
+attempt to commit a crime, which is a felony, or in jurisdictions that do not define
+crimes as felonies, is punishable by death or imprisonment for a term exceeding 1
+year regardless of the actual sentence imposed under the laws of the place from which
+the person flees obtain the following information and document on the ALEF screen:
+•
+The State or country where the crime occurred; and
+•
+Whether the individual has resolved an outstanding warrant to avoid either prosecution
+or custody or confinement after conviction.
+REMINDER: SSA considers an individual to be a fugitive felon for SSI eligibility purposes
+as long as a U.S. warrant or court order is active. See SI 00530.030 for further information about warrants.
+If the individual has an outstanding warrant for a crime committed in the United States,
+ask them for information about the warrant or court order. Document the following
+information, as necessary, on the AWRF screen:
+–
+Date warrant (or other document issued by an appropriate agency) issued.
+–
+Date violated parole or probation (if different from the date of the warrant).
+–
+Date warrant (or other document issued by an appropriate agency) rescinded, withdrawn,
+or otherwise rendered ineffective ( i.e. warrant was issued erroneously or for the
+wrong person).
+–
+Date warrant (or other document issued by an appropriate agency) satisfied, if applicable
+(i.e., warrant was valid from the date it was issued until the date it was cleared).
+–
+The name and phone number of the agency that issued the warrant in screen Remarks.
+Verify the alleged warrant with the Office of Inspector General (OIG) following instructions
+in GN 02613.150B.1, steps 1 through 4.
+See SI 00530.160 for the procedure to follow if the individual is a fugitive felon for a crime committed
+in a foreign country.
+4. Parole or probation violation alleged
+If the individual admits to being subject to a condition of parole or probation under
+Federal or State law, determine and document on the ALEF screen:
+–
+The State or Federal agency that set the conditions of the probation or parole; and
+–
+Whether the individual violated a condition of their parole or probation.
+If the individual is violating a condition of their parole or probation, document
+the following warrant information, as necessary, on the AWRP screen:
+–
+Date warrant (or other document) issued.
+–
+Date violated parole or probation (if earlier than the date of the warrant).
+–
+Date warrant (or other document) rescinded, withdrawn or otherwise rendered ineffective
+(i.e., warrant was issued erroneously or for the wrong person).
+–
+Date warrant (or other document) satisfied, if applicable (i.e. warrant was valid
+from the date it was issued until the date it was cleared). Verify the alleged warrant
+with OIG following instructions in GN 02613.150B.1, steps 1 through 4.
+5. Paper applications
+Effective August 2004 the SSI application was updated to include fugitive questions.
+6. Fugitive suspension
+MSSICS uses the data input in the “Date Warrant Issued,” “Date Fled,” or “Date Violated
+Parole or Probation” fields on the AWRF and AWRP screens to automatically post PS
+N25 (suspension for fugitive status). Remember to consider the rules of administrative
+finality in SI 00530.500 and SI 00530.510 when entering data in these fields to avoid posting PS N25 for months protected under
+these rules. (Refer to MSOM MSSICS 008.023 and MSOM MSSICS 008.024 ).
+Include the name and telephone number of the warrant issuing agency in the Remarks
+segment of the screen for OIG verification.
+REMINDER: The information included in the screen Remarks segment will not post to the SSR.
+To post Remarks on the SSR, select the CRMK screen from the clearance menu.
+7. MSSICS notice
+For first party reports, the system generates an automated denial notice or Notice
+of Planned Action based on the data input in MSSICS on the Felony Warrant (AWRF) or
+Parole or Probation Violation Warrant (AWRP) screens.

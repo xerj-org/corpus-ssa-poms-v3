@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.344 - Coding India Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402344 (fetched 2026-10-04)
+
+C. Description of India direct deposit data
+The IDD coding for India bank data consists of up to 28 characters, including the
+country code of “I”:
+1.
+An 11-digit India Financial System Code (IFSC), including:
+•
+A 5-character alphanumeric bank code (last character is always a zero); and
+•
+A 6-character alphanumeric branch code; and
+2.
+An account number which begins with the letter “I” and contains up to 16 digits.

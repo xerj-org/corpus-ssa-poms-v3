@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - SI 00603.034 - Limited Preeffectuation Review Contacts (PERCs)
+Effective Dates: 09/11/2025 - Present | TN 23 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603034 (fetched 2026-10-04)
+
+E. Procedure - profiled claims
+Contact the claimant and ask if the claimant has moved.
+1. Claimant has not moved
+If the claimant answers “no,” document the answer on an SSA-5002 for paper processing or use the Report of Contact
+page for MSSICS processing.
+2. Claimant has moved
+If the claimant answers “yes,” determine the subsequent LA(s).
+For non-MSSICSprocessing, document the LAs on an SSA-5002, SSA-795 (Statement of Claimant or Other
+Person), or other appropriate form, e.g., Form SSA-8006 (Statement of Living Arrangements,
+In-Kind Support and Maintenance).
+For MSSICS processing, document the LAs on the LA screens.
+If the LA has changed such that the conditions for exclusion are no longer met, conduct
+a full PERC.
+3. Supplemental nutrition assistance program (SNAP) questions
+Ask the SNAP questions again, if appropriate. See Screening Individuals for Supplemental
+Nutrition Assistance Program (SNAP) Eligibility or Application Status (SI 01801.010).
+4. Systems input
+a. Non-MSSICS Processing
+Enter the month/year of the contact as the PERC date in the PERC-Update (PC) field
+(SM 01005.660). See SI 00603.033A.2. if the PERC date is more than 4 calendar months prior to the current month.
+b. MSSICS Processing
+Select WITH EXCLUSION on the Preeffectuation Review Contact page. The date that WITH
+EXCLUSION is selected on the Preeffectuation Review Contact page becomes the PERC
+date. Enter Y in response to CLOSE OPEN EVENT on the DSSR screen and enter the INITIAL
+CLAIM DECISION on the DADJ screen.

@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.357 - Coding Croatian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 01/06/2023 - Present | TN 256 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402357 (fetched 2026-10-04)
+
+G. Example of coding Croatian bank data
+The customer provides us with a signup form for Croatia containing the following information:
+"HR1210010051863000160".
+•
+The first 2 characters of a Croatian IBAN “HR,” represent the International Organization
+for Standardization (ISO) country code
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code these to the MBR.
+•
+mThe next 7 characters of the IBAN represent the 7-digit bank code.
+•
+The last 10 characters of the IBAN represent the 10-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+prefix of “66” (the multi-country prefix for Croatia),
+•
+first 6 digits of the 7-digit bank code “100100”,
+•
+1-digit check digit code (i.e., 8) (obtained from the Title II Interactive Comps from
+the Main Menus 07/Sub Menu 16), and
+•
+type of account as a “C” for checking or an “S” for savings. If no indicated account
+type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+“Q” (for Croatia),
+•
+last digits of the bank code“5”, and
+•
+10-digit Customer Account Number “1863000160”.
+3. Obtain the following information
+•
+RTN: 661001008
+•
+Checking
+•
+DAN: Q51863000160
+a. POS reflects the direct depsit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 661001008 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Q51863000160
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-661001008
+•
+DAN-CQ51863000160

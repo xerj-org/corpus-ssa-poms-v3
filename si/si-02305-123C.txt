@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - SI 02305.123 - Developing Rep Payee Suitability During RZs
+Effective Dates: 11/30/2023 - Present | TN 90 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305123 (fetched 2026-10-04)
+
+C. Procedure
+Use this procedure to develop rep payee suitability:
+•
+Review the Representative Payee (REPY) segment of the pre-RZ SSID. These cases are
+identified on Post Entitlement Operational Data Store (PE ODS) with an action code
+of “O.”
+•
+Develop rep payee suitability if the Type of Payee (T) code is “OTH” and the Custody (CU) code is “SEL”.
+•
+Schedule an appointment using an SSA-L3074-U2 or SSA-L3075-U2. Both the rep payee
+and the SSI recipient should be present, if possible.
+•
+Refer to the chart below for processing instructions and questions to ask during the
+RZ interview to help you determine payee suitability:
+Step
+Action
+1
+Ask the payee and the recipient whether the recipient is able to manage their own
+funds. Determine if the payee is “managing” the funds or acting as a “conduit.”
+​
+EXAMPLE: Does the payee give most or all funds to the recipient?
+​
+If yes, develop direct payment unless statutorily precluded per GN 00502.020.
+​
+If no, go to step 2.
+2
+Ask the rep payee whether the recipient's funds are maintained separately from their
+own funds and how the funds are held.
+​
+If funds are commingled, consider whether improper use or misuse may be involved,
+and develop per GN 00504.110 and GN 00604.010. Go to step 3.
+​
+If funds are not commingled, go to step 3.
+3
+Ask about:
+​
+•
+The frequency of the payee's visits with the recipient;
+•
+How they learn of the recipient's needs; and
+•
+Whether there is another interested individual who has frequent contact and more knowledge
+of the recipient's needs.
+​
+NOTE: The responses to these questions may provide indicators of the payee's performance
+in meeting the recipient's needs.
+​
+If the visits are infrequent and/or the payee has inadequate knowledge of the recipient's
+needs, consider whether lack of care and concern on the payee's part is an issue.
+4
+Develop for a change of payee or direct payment, if appropriate per GN 00502.110 and GN 00504.110.
+​
+If there is someone who has more frequent contact with the recipient, they may be
+a good candidate for rep payee.
+5
+If visits are frequent and/or the payee has adequate knowledge of the recipient's
+needs, do not develop rep payee suitability any further.
+6
+If misuse of funds is indicated during any part of the interview, develop per GN 00604.020
+and GN 00604.030.
+7
+Document the following within eRPS using a "Make Note" in the Representative Payee
+Folder or on an SSA-5002:
+​
+•
+Your assessment of the payee's continued suitability (i.e., whether benefits are being
+used properly and if the payee continues to be the best choice or if a change of payee
+is required).
+•
+Whether joint or separate interviews were conducted. If the face- to-face requirement
+was waived for either party, document which party and why.
+•
+When further development for rep payee suitability is not necessary.
+•
+The information from contacts and/or third party verifications made in lieu of the
+face-to-face interview.

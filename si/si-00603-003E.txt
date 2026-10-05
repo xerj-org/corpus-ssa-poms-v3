@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - SI 00603.003 - Deferred Development Application Process
+Effective Dates: 01/04/2024 - Present | TN 25 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603003 (fetched 2026-10-04)
+
+E. Procedure - Systems Input
+For paper applications, input code DEF in the Applications Characteristics (AC) field
+(SM 01005.650) and code H80 in the payment status (PS) field on an SSA-450-SI (SSI
+Data Input and Determination) (SM 01010.055).
+NOTE: In MSSICS, Build Transaction SSR (BTS) will build these fields automatically.

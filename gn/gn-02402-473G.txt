@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02402.473 - Coding Madagascar Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/02/2023 - Present | TN 245 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402473 (fetched 2026-10-04)
+
+G. Example of coding Madagascar direct deposit
+The customer provides us with a signup form for Madagascar containing the account
+number: “MG4612345678901122334455667.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000218
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “X ” designated for Madagascar ; and
+•
+Code 16 digits of the 27-digit account number “MG46123456789011”
+3. Obtain the following information:
+•
+RTN: 740000218
+•
+Checking
+•
+DAN: XMG46123456789011

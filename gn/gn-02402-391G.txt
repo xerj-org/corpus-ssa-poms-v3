@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.391 - Coding Paraguay Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/17/2023 - Present | TN 242 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402391 (fetched 2026-10-04)
+
+G. Example of coding Paraguay direct deposit
+The customer provides us with a signup form for Paraguay containing the Account Number:
+123456789.
+1. Derive the RTN code
+The technician enters the information for the RTN.
+•
+Code the RTN of 680000048; and
+•
+Code the type of account as a “C” for Checking, or an “S” for Savings.
+If no account type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of “P” designated for Paraguay; and
+•
+Code the 9-digit Customer Account Number “123456789”.
+3. Obtain the following information:
+•
+RTN: 680000048
+•
+Checking
+•
+DAN: P123456789
+a. POS reflects the direct deposit information:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000048
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: P123456789
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information:
+•
+RTN- 680000048
+•
+DAN-CP123456789

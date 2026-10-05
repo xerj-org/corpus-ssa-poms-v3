@@ -1,0 +1,137 @@
+SSA Program Operations Manual System (POMS) - GN 03930.035 - Title II - Adjudicating Claims Involving Representatives Who May File Fee Petitions - Overview
+Effective Dates: 12/09/2024 - Present | TN 38 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930035 (fetched 2026-10-04)
+
+E. Procedure - Claims Processing
+1. MCS
+a. MCS Check/Notice 2 Screen
+Use the MCS Check/Notice 2 (NOT2) screen to provide the data to tell the system whether
+to withhold from past-due benefits. For complete coding of representative data on
+the MCS clearance screens, see MS 03509.009. Note that court cases and court remand
+cases where the administrative fee is paid based on an approved fee agreement are
+an MCS exclusion.
+When the representative is eligible for direct fee payment and has not waived a fee
+or the right to receive direct payment, we must withhold past-due benefits for that
+purpose. To withhold from past-due benefits, complete the MCS NOT2 screen as follows:
+•
+Authorized Representative Type: 1 or 4
+(Use 1 for an attorney or "4" for an eligible for direct payment non-attorney)
+•
+Fee Waived: N
+•
+Direct Payment Waived: N
+•
+If there is a valid assignment, use the "PE" for entity payment indicator
+•
+Last Withholding Date: Calendar month and year before the calendar month and year
+you are adjudicating the claim unless it is a closed period of disability.
+NOTE 1: The last withholding date for auxiliaries is the same as that of the claimant if
+protective filing exists, regardless of when the auxiliaries' claims are adjudicated.
+•
+Attorney/Rep Name: This information will propagate to the NOT2 screen from RASR. Make
+any changes or corrections in RASR.
+•
+Pending Fee Agreement Amount: Do not complete.
+•
+Fee Agreement Type: Do not complete this field on the NOT2 screen for fee petition
+cases.
+Completing the MCS NOT2 screen as described above will result in fee withholding and
+establish the FEE AMT on the AAPFEE line on the Master Beneficiary Record (MBR). The
+ATY indicator on the DW01 will generate an SPS record. See MS 03508.004 E 17-C for
+a list of DW indicators. There is an additional indicator of ATYPE which will make
+the payment to the entity on the record.
+NOTE 2: If a non-attorney alleges that they are eligible for direct payment, but RASR indicates
+they are not eligible, refer to GN 03930.035E for language to include in a notice if we have not previously communicated with the
+representative about their status.
+b. DW01 Screen
+If the representative is an attorney or a non-attorney eligible for direct payment,
+include the Attorney Issue code ATY04, which means Petition Awaiting Authorization,
+on the MCS Development Worksheet (DW01) screen. The Attorney Issue Code ATY04 will
+pend the payment in SPS until the petition/authorization is complete.
+c. DECI Screen and Diary
+The system automates a diary in MCS on the DECI screen for the fee petition cases
+at the initial and reconsideration levels (diary code 098), and at the hearings and
+appeals levels (diary code 099). See MS 03509.013 for additional information. If an
+ATFEE action control record (ACR) is already pending, the adjudicator will delete
+the systems generated diary (GN 01040.010A.).
+NOTE: In the Office of Central Operations (OCO), when processing a hearings or appeals
+level case, the CTE prepares a 60-day Processing Center Action Control System (PCACS)
+diary related to the existing ATFEE FEEPAY ACR and routes the claims file to the development
+holding file (DHF PAY) pending receipt of the petition/authorization. In cases with
+Federal court involvement, the CTE prepares a 120-day diary related to the existing
+ATFEE COURT ACR.
+2. Withholding With MADCAP
+A101 or EF101
+When completing the A101 or EF101, which MADCAP processing requires, take the actions
+shown if you are withholding past-due benefits for possible direct payment.
+•
+Code the BCF fields on the BCRN screen following instructions in MS 03514.006.
+•
+Show in the REMARKS field on the BCRN screen the following remarks: FEE WITHHOLDING
+CASE - Fee Petition Expected; and Withhold 25 percent of (HA's, HB's, HC1's, or other appropriate
+entry) past-due benefits for possible direct payment to representative.
+•
+Enter the fee petition paragraph (ATY055, ATY056, ATY057, ATY058, or ATYPE as appropriate)
+and paragraph 160 in the NOTICE field on the BCRN screen per NL 00708.100 and NL 00720.050.
+3. No Withholding With MADCAP
+A101 or EF101
+When completing the A101 or EF101, which MADCAP processing requires, take the actions
+shown if you are not withholding past-due benefits for possible direct payment.
+•
+Add the remark to the BCRN screen. See MS 03514.006.
+•
+Show the appropriate paragraph (981.1, 981.2, 981.3, or 983) to indicate whether the
+representative has waived a fee or just waived direct payment of the fee. If the fee
+itself has not been waived, include paragraph 160 per NL 00708.100.
+4. Manual Adjustment Credit and Award Data Entry (MACADE) Cases
+a. Coding to Withhold Past-Due Benefits When Representative Eligible for Direct Payment
+Input direct data entry through MACADE. Enter the following special coding:
+•
+In the HST screen MR column, the 25 percent withholding amount.
+•
+In the HST screen TO column, the AD special entry. We use the special entry AD to
+withhold the legal payment and post the amount withheld to the PHUS.
+NOTE: See SM 00842.013 and SM 00848.360 for further instructions.
+•
+Enter the Attorney Payment Indicator (API) of 04 on the MACADE ATT screen. The API
+of 04 will establish the payment in SPS in pending status until the petition/authorization
+is complete.
+•
+On MACADE REM screen, show Fee Petition Case.
+b. Diary
+For MACADE processed claims, the benefit authorizer (BA) or CS must establish a Processing
+Center Action Control System (PCACS) ATFEE PETPAY diary. Begin the diary period when
+the notice is released, which is usually five days after the MACADE action. To determine
+the length of the diary for a specific case, refer to GN 03930.045.
+NOTE: In OCO, in processing a hearings or appeals level case, the CS or other designated
+technician prepares a 60-day PCACS diary related to the existing ATFEE FFEPAY ACR
+and routes the claims file to the DHF PAY pending receipt of the petition/authorization.
+In cases with Federal court involvement, the BTE prepares a 120-day diary related
+to the existing ATFEE COURT ACR.
+See GN 03930.090 for the follow up procedure when no fee petition or fee authorization is received
+before the diary matures.
+c. Windfall
+If possible windfall (Title II or Title XVI) offset is involved, refer to SM 00815.100
+through SM 00815.500 for required MADCAP coding.
+d. Notice Paragraphs
+Designate necessary paragraphs for inclusion in the fee notice and instruct staff
+to prepare additional copies. Refer to GN 03930.040 for appropriate language. Or, if trained in AURORA, complete the necessary paragraphs
+in that system.
+5. Prepare Special Message
+Prepare a message for the MBR stating a fee petition/authorization is pending.
+For cases involving appointed representatives below the court level:
+•
+Access the Special Message screen through MONET (or MACADE) and select special message
+52; and
+•
+Process the standard special message 52 to the MBR.
+Special Message 52 will display:
+APPOINTED REPRESENTATIVE(S) INVOLVED SEE RASR, APPREP, AND APPFEE DATA LINES FOR ADDITIONAL
+INFORMATION
+For court cases with court attorney involvement (see GN 03920.060):
+•
+Code the special message field to read: COURT CASE/REPINVOLVED/DO NOT RELEASE 25%
+WITHHELD PENDING COURT FEE AND ADMIN FEE; and
+•
+If the case is a court remand for additional administrative proceedings, replace COURT
+CASE with COURT REMAND.

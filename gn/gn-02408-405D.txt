@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02408.405 - Stop-Payment Needed and the Treasury Offset Program (TOP) is Involved
+Effective Dates: 12/04/2013 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408405 (fetched 2026-10-04)
+
+D. PC procedure for inputting a stop-payment
+The PC uses this procedure when an EFT payment that was not due for a reason other than death was reduced by TOP offset. At present, this includes
+only a Benefit Payment Offset (BPO) or Federal Payment Levy Program (FPLP) offset.
+When you are in a component other than the PC, notify the PC to make the input and
+process the overpayment.
+1. Offset portion
+Input an F-stop for the total amount of the incorrect payment, not the reduced amount.
+RESULT: Treasury reverses the portion of the payment that went to the other agency and returns
+it to SSA. For payments levied through the FPLP, if the levy occurred nine months
+or more from the time the incorrect payment occurred, the IRS will not reverse the
+levied amount.
+2. Remaining portion
+Establish the overpayment on the beneficiary’s account, giving due process. In the
+overpayment notice, include the full amount of the payment before offset.
+3. Beneficiary alleges not receiving payment
+If the beneficiary alleges not receiving the amount after offset was applied, follow
+EFT non-receipt procedures in Allegation of Nonreceipt of Direct Deposit (see GN 024 06.007). Input the full amount of the payment, not the reduced amount.
+4. SSA collects excess amount
+If more than the total amount of the incorrect payment is received at SSA, issue a
+refund to the beneficiary. The FO will refer to When to Use One Time Payments (OTPs)(see SM 019 01.005) for instructions on releasing Title XVI refunds via OTP. The PC
+will release Title II refunds via MACADE or CPS.
+NOTE: This is most likely to happen when the beneficiary returns the full amount of the
+payment, and then the other agency returns the offset amount through Treasury.

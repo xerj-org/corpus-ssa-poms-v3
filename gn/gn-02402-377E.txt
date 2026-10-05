@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.377 - Coding Romania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402377 (fetched 2026-10-04)
+
+E. Description of Romania IDD bank data
+The data for coding IDD for Romania will come from the International Bank Account
+Number (IBAN) provided to the beneficiary by his or her FI. The IBAN for Romania consists
+of up to 24 characters. The bank data for Romania reflected on the MBR consists of
+up to 27 characters including the country code of Q for Romania.

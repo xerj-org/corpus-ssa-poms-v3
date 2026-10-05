@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - SI 00501.418 - Blind or Disabled Children of Military Personnel Stationed Overseas - Systems Input
+Effective Dates: 04/07/2016 - Present | TN 83 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500501418 (fetched 2026-10-04)
+
+C. Procedure - Posteligibility System Input
+For MSSICS cases first complete the COA on the Representative Payee System (RPS).
+See C.1. below for RPS special processing under this provision. When processing MSSICS
+or Non-MSSICS cases use the following criteria (See MS 08110.007 - Residence Address
+and Jurisdiction).
+1. Address Inputs
+a. Mailing Address (AD) Field
+Input the APO/FPO address as provided (e.g., AD395th QM BN.).
+b. Mailing City (AY) Field
+Input “APO” or “FPO” for the city (e.g., AY1APO.).
+c. Mailing State (AT) Field
+Input the two letter code that corresponds to the geographic location of the U.S.
+military base. (e.g., AT1AE.; AT1AA.; AT1AP.).
+d. Mailing Address ZIP Code (ZP) Field
+Input the ZIP Code as provided (e.g., ZP109169.).
+e. Residence Address (RA) Field
+Input the child's foreign address (RA17C Jackson Circle, Giessen Germany.).
+f. Residence Address City (RY) Field
+Input “Cumberland” for the city (i.e., RY1Cumberland.).
+g. Residence State (RT) Field
+Input “MD” for the state (i.e., RT1MD.).
+h. Residence Address ZIP Code (ZC) Field
+Input the ZIP Code for Cumberland, MD (i.e., ZC121502.).
+i. Living Arrangement (LA) Field
+Input each segment of the LA field as follows:
+•
+ID — Input “1.”
+•
+Date — Input the month and year (MMYY) of the month after the month the child leaves
+the United States.
+•
+State and County Code — Input the State and county code for Cumberland, MD (i.e.,
+“21000A.”). (NOTE: If changing an address through the Representative Payee System (RPS) input the appropriate
+state and county code and district office code in the RPAD screen. Due to a current
+system limitation leave out the last letter “A” (e.g., input the state and county
+code as “96001”). Also, input the Cumberland FO's district office code “275”.
+•
+Federal Living Arrangement — Input appropriate living arrangement code, (i.e., “21000AC”).
+•
+Optional State Supplementation Code — Make no entry.
+j. Systems override needed (SO) Field
+Input “SOST”.
+2. Medicaid Related Inputs
+a. Child Leaves the United States
+Make input to suspend Medicaid eligibility.
+•
+MSSICS Case
+Complete the Health Expenses & Third Party Liability page and select Yes for Agree
+to assign rights to payments for medical support and medical care to the state Medicaid
+agency (see MS 08119.020).
+•
+Non-MSSICS Case
+Suspend Medicaid eligibility by using an SSA-450-SI, input the following:
+—
+Prior Error (PR) Field — Input PR9 (See SM 01015.002D. - Description of PR Field).
+—
+Third Party Insurance (PT) Field — Input “F” and the four position date (MMYY) of
+the month after the month the child left the United States (e.g., PTF0990) (See SM 01005.350C. - Description of PT Field).
+b. Child Returns to the United States
+Make input to reinstate Medicaid eligibility.
+•
+MSSICS case
+Complete the Health Expenses & Third Party Liability page (see MS 08119.020). Enter
+the appropriate responses for the new residence State.
+•
+Non-MSSICS Cases
+Using an SSA-450-SI, input the following:
+—
+Prior Error (PR) Field - Input PR9; and
+—
+Third Party Insurance (PT) Field - The appropriate PT code if required in the new residence State and the four
+position date (MMYY) of the month after the month the child returns to the United
+States; or
+—
+Delete (DL) Field - The delete identifier and code “PT” if a third party insurance indicator
+is not appropriate for the new residence State (i.e., DLPT) (See SM 01005.500C. - Description of the DL field);
+NOTE: Be sure to make the SSA-450-SI input to affect Medicaid eligibility either before
+or in the same run as the input which changes the address.
+3. Diaries and Alerts - General
+Process all diaries and alerts as current instructions provide. However, pay particular
+attention to diaries/alerts which affect any aspect of the criteria for continuation
+of benefits in these cases.
+4. KB Diaries
+a. Importance of KB Diaries to This Provision
+KB diaries are particularly sensitive in these cases because eligibility under this
+provision only applies to children.
+b. Processing KB Diaries
+When you receive a KB diary alert indicating attainment of age 18:
+•
+develop for continuation of benefits; and
+•
+continue benefits if the child is in a school or training program designed to prepare
+them for employment (see SI 00501.010); or
+•
+suspend benefits after proper notification if the child is not in school or a training
+program designed to prepare them for employment.

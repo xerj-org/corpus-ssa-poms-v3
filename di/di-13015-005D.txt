@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 13015.005 - Failure to Cooperate-Insufficient Evidence Decision (FTC) Suspension Procedures for Continuing Disability Reviews (CDR)- Field Office (FO)
+Effective Dates: 10/21/2024 - Present | TN 26 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015005 (fetched 2026-10-04)
+
+D. Additional considerations in the FTC suspension process
+1. Title II additional considerations in the FTC process
+a. Medicare entitlement
+When Title II benefits are suspended, the beneficiary's Medicare entitlement continues, but the beneficiary will be billed separately for the monthly Medicare premiums.
+If the Title II benefits terminate due to FTC, the Medicare entitlement
+ends. The Medicare termination is effective with the end of the month after the month
+in which the beneficiary is notified that entitlement to benefits will end. Example:
+Termination of Title II benefits notice dated 10/18/2018, Medicare terminates 11/30/2018.
+b. Auxiliary benefits
+When the FO enters the DCF FTC action to suspend the disabled wage earner's benefits,
+benefits for all entitled beneficiaries on the record will also be suspended. Refer
+to SM 03020.050B Develop for Continuing Disability (CDIB).
+c. Auxiliary benefits: Spouse (B2) or E entitled, last child in care suspended
+When the FO enters the DCF FTC action to suspend benefits for a disabled minor child
+or an adult childhood disability beneficiary (CDB) who is the last child in care for
+a young spouse (B2) or widow (E), benefits must be manually suspended for the B2 or
+E; refer to SM 03020.050B.
+d. Beneficiary in suspension status due to substantial earnings
+If at the point of FTC suspension, the beneficiary is in suspense status LAF S7 due
+to substantial earnings from a work CDR, the DCF FTC suspension should process to
+add the Continuing Disability Investigation (DEV CDR) Data Line to the MBR. The presence
+of the DEV CDR data on the MBR triggers the termination at the 13th month. If the
+DEVCDR line is not present on the MBR, send a an MDW to the PSC and request the DEV
+CDR line be added to the MBR along with the Suspense Start- MM/YY and Suspense Reason
+FTC-Medical.
+2. Title XVI additional considerations in the FTC process
+The DCF input automatically updates the SSR with the FTC payment status (N20-Title
+XVI- failure to provide necessary information), refer to SM 01305.001 Payment Status
+Code for more information. There could be a delay of several days for this automatic
+update to the SSR to occur. The Medical Issue (MG) field in the Disability Data segment
+(DISB) of the SSR will also update with a code of "F" to show FTC status. The combination
+of payment status N20 with the MG code of F identifies the case as FTC. If the SSI
+record does not update to N20, follow manual input procedures in SI 02301.235 Failure to Provide Information (N20).

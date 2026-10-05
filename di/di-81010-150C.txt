@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 81010.150 - Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System (EDCS)
+Effective Dates: 11/16/2023 - Present | TN 73 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010150 (fetched 2026-10-04)
+
+C. Forms required for filing a reconsideration or a hearing
+1. SSA-3441 (Disability Report – Appeal)
+Use the SSA-3441 for reconsiderations and hearings for both adult and child claimants.
+On the EDCS “Forms Selection” screen the technician can key in the SSA-3441 (Disability
+Report - Appeal) data into EDCS or select the 3441 Not Received option (for incomplete
+appeal requests see DI 12005.005).
+If the Claims Representative (CR) selects KEY, EDCS displays the 3441 and 3367 (Disability
+Report – Field Office) for completion. For details on completing the 3441 in EDCS,
+see Processing Claims Appeals of Medical Decisions in Electronic Disability Collect
+System (EDCS) - DI 81010.150D.
+If the CR selects 3441 Not Received, EDCS does not require the CR to complete the
+questions on the 3441 form or obtain management override for case transfer. For instructions
+for 3441 Not Received, see Processing Claims Appeals of Medical Decisions in Electronic
+Disability Collect System (EDCS) – DI 81010.150E.
+NOTE: In request for Appeals Council review cases, an SSA-3441, SSA-3367, SSA-3881 Questionnaire
+for Children Claiming SSI Benefits), or SSA-827 does not need to be obtained.
+REMINDER: For reconsiderations or hearings filed on Supplemental Security Income Disabled Child
+(SSIDC) claims, the SSA-3881 is required. For more information see Processing Claims
+Appeals of Medical Decisions in Electronic Disability Collect System (EDCS) - DI 81010.150C.4.
+2. SSA-3367 (Disability Report – Field Office)
+The SSA-3367 must be completed for initials, reconsiderations , hearings, escalated
+claims, and continuing disability reviews (CDRs). If the reconsideration or hearing
+case includes an escalated claim, make sure the Prior Filing information is complete
+per Processing Disability Claims at Different Levels of Appeal, Title II and Title
+XVI – Common Issue Cases - DI 12045.010B.1. When completing EDCS 3367, follow the policy guidance and detailed instructions in
+DI 11005.045.
+3. SSA-827 (Authorization to Disclose Information to the Social Security Administration)
+For reconsideration and hearing appeals, see Field Office Instructions for Obtaining
+Form SSA-827 DI 11005.057.
+NOTE: EDCS defaults to print one SSA-827. You can over key the default number if more forms
+are needed.
+NOTE: Effective August 2012, adults who complete an i3441 on their own behalf have the
+option to electronically sign and submit Form SSA-827. If the internet user (IU) electronically
+signs Form SSA-827, the IU does not need to print, sign, and mail or bring Form SSA-827
+to the FO. For more information about the electronic signature process for Form SSA-827,
+see DI 11005.056.
+4. SSA-3881 (Questionnaire for Children Claiming SSI Benefits)
+Since the SSA-3441 is used for both adult and child claims, it does not include specific
+questions that are normally asked on the SSA-3820, such as schools and additional
+sources. Complete an SSA-3881 in all childhood reconsideration and hearing cases.
+To complete the SSA-3881 in Electronic Disability (eDib) Cases:
+•
+Access and complete the SSA-3881 via eForms in Electronic Disability Collect System
+(EDCS); and
+•
+Save the eForm electronically to the CEF following instructions in eForms - DI 81010.115.
+NOTE: If the case is a CEF Exclusion, print the completed eForm and store it in the paper
+Modular Disability Folder (MDF). For more information on EDCS exclusions see Certified
+Electronic Folder (CEF) Exclusions and Limitations - DI 81010.030).
+5. Other Documents Submitted with an Appeal Request
+Fax other documents into the CEF following instructions in Faxing Documents into the
+Certified Electronic Folder (CEF) Using Barcodes - DI 81010.090. Both the front and back of two sided forms must be faxed into the CEF.
+Examples of other documents that a claimant or appointed representative may submit
+with an appeal:
+•
+SSA-1696, (see GN 03910.040 - Appointment of a Representative)
+•
+Attorney Fee Agreements (see GN 03940.001 - Fee Agreement Process - Overview), and
+•
+Good Cause documentation (see GN 03101.020 Good Cause for Extending the Time Limit to File an Appeal).
+NOTE: Do not fax the instructional pages (pages 1-3) of the SSA-1696 (revised 05-2008)
+into the CEF.

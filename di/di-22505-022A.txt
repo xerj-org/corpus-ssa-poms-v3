@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 22505.022 - Developing Medical Evidence of Record (MER) from the Department of Veterans Affairs (VA) Veterans Health Administration (VHA) Medical Facilities
+Effective Dates: 03/24/2017 - Present | TN 24 (05-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0422505022 (fetched 2026-10-04)
+
+A. Introduction to developing MER from the VA VHA medical facilities
+The VA VHA operates clinics, hospitals, medical centers, and long-term healthcare
+facilities (nursing homes) that provide healthcare to former service members. Each
+VHA medical facility maintains electronic patient records.
+The health information manager and privacy officer at each VHA medical facility work
+with the Social Security Administration (SSA) and the disability determination services
+(DDS) medical and professional relations officers (MPRO) to coordinate the process
+for release of patient health information. VHA medical facilities usually transmit
+claimant health records to SSA and the DDS in the SSA-DDS Standard Health Summary
+format. VHA medical facilities provide copies of other specifically requested supplemental
+records separately via mail, fax, or the Electronic Record Express (ERE) upon receipt
+of a customized request for records. The VHA does not disclose medical records to
+SSA or the DDS without a valid form SSA-827 (Authorization to Disclose Information to the Social Security Administration).
+When SSA Field Office (FO) transfers an initial electronic claim to the DDS, the system
+automatically generates a request for records via Medical Evidence Gathering and Analysis
+through the Health Information Technology (MEGAHIT) system to VHA facilities nationally
+and internationally. An electronically signed SSA-827 (e827) is required in order
+to obtain the SSA Standard Health Summary for initial claims.
+IMPORTANT: To avoid duplicative records, the DDS must review records obtained via MEGAHIT before
+initiating requests for records to the VHA.
+NOTE: The DDS may also need to request a veteran’s military health system medical records.
+Military health system records cover medical treatment provided while the claimant
+was on active duty. These records are held at a VA Regional Office (VARO) or the VA
+Records Management Center (VARMC). These VA offices are not part of the VHA and they
+do not hold VHA medical records. Instead, these VA offices hold military health system
+medical records of service members discharged from active duty military service.
+For related instructions, see DI 22505.023 Developing Medical Evidence of Record (MER) from Military Health Sources.

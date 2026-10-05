@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - GN 02410.305 - Federal Payment Levy Program (FPLP)
+Effective Dates: 04/22/2020 - Present | TN 68 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410305 (fetched 2026-10-04)
+
+E. Process – Treasury's FPLP Process
+1. Background
+Fiscal Service uses TOP to levy SSA's Title II benefits via the FPLP program. For
+information on TOP see GN 02201.029. TOP is based on computer matching and uses the taxpayer identification number (TIN)
+and a name control (usually the first four characters of the debtor's last name) to
+match the payee and debtor records. For individuals, the TIN is the same the BOAN.
+2. IRS sends tax debt information to TOP
+IRS submits a weekly file of delinquent tax debts to Fiscal Service and updates tax
+debts already in the Treasury's National Interactive Delinquent Debtors Database that
+Fiscal Service maintains. The debts in the IRS file are marked with an indicator to
+instruct Fiscal Service to notify IRS that one of its tax debts has matched with a
+Title II benefit payment, but not to levy that SSA payment until IRS directs Fiscal
+Service to do so. TOP matches a Title II beneficiary's identifying information (BOAN
+and name control) with the same information from the debtor database. IRS then uses
+this matching information to determine whether to proceed with the automated tax levy.
+3. IRS notifies debtor
+About 60 days before a Title II benefit payment is levied, IRS sends a Final Notice
+Before Levy on Social Security benefits. This IRS notice explains the following to
+Social Security beneficiary:
+a.
+IRS intends to take collection action;
+b.
+IRS has identified Social Security benefits to which the beneficiary is entitled;
+c.
+IRS intends to levy (or reduce) the Social Security benefits by 15% to pay toward
+the delinquent tax debt;
+d.
+Full and immediate repayment of the tax debt will stop the levy against the Social
+Security benefits (payment instructions are given); and
+e.
+A payment arrangement can be made with IRS if the they cannot make full and immediate
+repayment.
+In addition, the IRS notice shows the Social Security Number, or BOAN and the claim
+account number of the beneficiary who owes the delinquent tax debt. The IRS notice
+does not contain any information about the amount of the Social Security benefit (either
+before or after the levy) or the date of the Social Security benefit that will be
+levied.
+NOTE: The IRS Final Notice Before Levy on Social Security benefits serves as the warning
+letter to the Social Security beneficiary. For tax levy, Fiscal Service does not send
+a 60-day and 30-day warning letter as it does with BPO. For information about warning
+letters in the BPO program, see GN 02410.300E.2.
+4. IRS notifies SSA about the planned levy
+Within 24 hours of printing and mailing the tax levy notice, IRS transmits an image
+of the Final Notice Before Levy on Social Security benefits so it can be stored in
+ORS on or before the date that the Social Security beneficiary receives the notice.
+Copies of the Final Notice Before Levy stored in ORS do not contain the toll-free
+number for IRS. For the more information and the number, see GN 02410.305H.1.
+5. Fiscal Service sends notice of levy
+If the tax debt still qualifies for collection after IRS sends the Final Notice Before
+Levy on Social Security benefits, IRS initiates the levy and Fiscal Service reduces
+the Title II benefits. Fiscal Service sends a notice of offset to the beneficiary
+in time to be in their hands by payment day. In addition, the beneficiary receives
+a notice each time the beneficiary’s benefit is levied.
+Fiscal Service’s notice of levy includes the following information:
+a.
+Name, address and telephone number of IRS;
+b.
+Name, address, SSN, and creditor agency account number of the beneficiary whose benefit
+was offset;
+c.
+Amount of the Title II payment before the levy and the amount of the levy;
+d.
+Payment date; and
+e.
+IRS’ toll-free telephone number in case the beneficiary wants to contact IRS about
+the offset. For IRS’ toll-free number, see GN 02410.305H.1.
+6. Weekly offset data file
+Each week, Fiscal Service electronically sends offset data files to SSA's central
+office for processing. Fiscal Service sends the files no later than 48 hours before
+the payment date. The offset information is posted to the Payment History Update System
+(PHUS) for SSA employees to view.
+7. Fiscal Service sends debt collections to IRS
+Fiscal Service sends the levy amount collected to IRS, which accounts for the collection
+and keeps the tax debt balance updated.
+8. Fiscal Service processes post-offset claims
+Post-offset claims (e.g., nonreceipt and nonentitlement) involving Title II payments
+that were levied are handled the same as non-offset payments. No special handling
+or inputs are necessary by SSA.
+9. Fiscal Service processes reversals
+A reversal is the act of taking back levy amounts from IRS. Fiscal Service performs
+reversals automatically. Fiscal Service will reverse a levy when, for example, SSA
+determines that a Title II benefit that was levied should not have been paid at all.
+SSA's systems automatically tell Fiscal Service about the need for reversals. Reversals
+do not require any manual action by SSA.

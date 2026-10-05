@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 13010.012 - Protection from Medical Review Based on Work Activity
+Effective Dates: 06/29/2017 - Present | TN 71 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010012 (fetched 2026-10-04)
+
+H. Policy - medical cessation: medical review protection not applied
+If a medical cessation has been effectuated, discontinue the medical cessation, and
+reinstate benefits if:
+•
+the beneficiary provides evidence within 12 months from the date of the notice of
+the initial determination of medical cessation, and
+•
+the evidence establishes that we started the medical review in error because they
+were eligible for the protection from medical review based on work activity.
+If we cleared the CDR event in the DCF as a cessation, you will see a Modify Medical
+Data screen (MMDS) screen with zeroes, and a comparison point decision (CPD) date
+from the date of the cessation:
+•
+Use the MMDS to re-establish the correct medical information in the DCF. Over-key
+the zeroes with the information contained on the previous MMDS screen in order to
+re-establish the medical information, the previous CPD date and the diary (for more
+information on these screens, see MSOM CDR 001.017 and DI 13010.640).
+•
+Enter a dated remark on the IRMK screen explaining the cessation decision has been
+vacated because the beneficiary was eligible for the protection from medical review
+based on work activity.
+1. Title II cases
+Follow the procedures outlined in DI 13010.197C to reinstate benefits retroactively to the date of the termination action that was
+based on the cessation determination resulting from the erroneous start of the CDR.
+Contact the PC/OCO for reinstatement of benefits and Medicare.
+2. Concurrent Title II and Title XVI cases
+•
+If the medical issue (MG) field on the Supplemental Security Income Record (SSR) indicates
+a code of T, input the SSI reinstatement and update the MG field via MISSICS, and
+line through the paper Cessation or Continuance of Disability or Blindness Determination
+and Transmittal (SSA-833-U3) and/or 832 (Title XVI), if appropriate. Enter in the
+remarks section “decision vacated because the beneficiary was eligible for the protection
+from medical review based on work activity.”
+•
+If the cessation decision is under appeal, recall the folder from the Office of Disability
+Adjudication and Review (ODAR). If the beneficiary elected statutory benefit continuation,
+contact the PC/OCO to correct the record for Title II and or correct the SSR through
+direct input for Title XVI.
+•
+The FO reactivates the case, and sends it back to the DDS for the determination to
+be vacated. The DDS will document the DDSQ as a “no determination.” For more information
+on how the FO should vacate a CDR medical cessation determination, see DI 13015.300.

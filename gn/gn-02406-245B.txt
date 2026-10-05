@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - GN 02406.245 - Payment Over Cancellation (POC)/Credit Reversal
+Effective Dates: 10/15/1997 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406245 (fetched 2026-10-04)
+
+B. SSA process when a nonreceipt stop code is input
+When Treasury cancels the original check, issues a courtesy disbursement check, and
+the original is later cashed, this is a possible payment over cancellation (POC),
+as well as a double check negotiation (DCN). For additional information on DCNs, see
+GN 02406.300.
+The following events take place when this action occurs:
+•
+Treasury debits SSA when the original check was cashed after being replaced.
+•
+SSA's system posts a debit on PHUS for Title II and a “U” (credit reversal for either the original or replacement; dependent on the circumstances
+and timing of the Treasury transactions) in payflag 3 for Title XVI.
+•
+REACT generates an alert for the PC technician to input an F-Stop on the courtesy
+disbursement or replacement check.
+When Treasury's final disposition for the stop payment is posted to the PHUS record,
+REACT takes the appropriate action. If the courtesy disbursement or replacement check
+is uncashed, no further action is taken by REACT. If the check has been cashed, a
+DCN overpayment now exists and REACT establishes the overpayment on ROAR and the MBR.
+•
+If REACT cannot automate the notice, it will generate an alert for the PC technician
+to send an overpayment notice to the beneficiary about the DCN overpayment. The REACT
+alert will show a remark "BOUD NOTICE REQUIRED".
+1. If nonreceipt input was a B-stop:
+•
+If a B-stop generated the courtesy disbursement check, for Title II the claims package
+goes to the PC from Treasury; for Title XVI cases, the claims package goes to the
+FO via the Division of Benefit Certification and Systems Analysis (DBCSA) for routing
+to the claimant.
+•
+See GN 02406.310 for procedures if claimant denies cashing one or more of the checks and requests
+reconsideration of the overpayment.
+2. If nonreceipt input was a C-stop:
+•
+If a C-stop generated the replacement check (GN 02406.150), Treasury will send the claims package directly to the claimant.
+•
+If the claimant denies cashing one or more of the checks, see GN 02406.310 for procedures on reconsideration of the overpayment.
+3. If nonreceipt input was a G-stop:
+•
+If a G-stop was input (because an endorsed check is lost, stolen or destroyed), and
+the check has not been presented for payment, Treasury will send credit to SSA so
+the check can be reissued if still due (GN 02406.235).
+•
+If the check is later cashed, Treasury will send a claims package to SSA and debit
+SSA for the POC.

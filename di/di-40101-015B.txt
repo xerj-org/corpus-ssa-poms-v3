@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - DI 40101.015 - Processing Center (PC) Foreign and Totalization Disability Claims
+Effective Dates: 12/23/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440101015 (fetched 2026-10-04)
+
+B. Totalization claims for individuals with foreign coverage
+The domestic FO loads into MCS any disability claim filed by or on behalf of an individual
+living in the U.S., who has earned foreign coverage under an international Social
+Security agreement (totalization). See list of agreement countries in GN 01701.005.
+Disability claims filed by an individual covered by a totalization agreement will
+fall into one of three categories. The three categories are:
+1.
+Claimant is insured for Social Security Disability Insurance (SSDI) benefits based
+on U.S. earnings alone;
+2.
+Claimant is not insured for SSDI benefits based on U.S. earnings alone but has at
+least six U.S. quarters of coverage (QCs); or
+3.
+Claimant has less than six U.S. QCs.
+1. Category 1
+If the claimant is insured for SSDI benefits based on U.S. earnings alone, the domestic
+FO transfers the disability claim to their Disability Determination Services (DDS)
+for development of medical evidence and preparation of the disability determination.
+The domestic FOs should:
+•
+process the claim when the DDS returns the disability determination,
+•
+eCodes the TOTL screen in MCS, and
+•
+mail all totalization forms to Office of International Operations (OIO) for any necessary
+action with the foreign agency of the totalization country.
+2. Category 2
+If the claimant is not insured for SSDI benefits but has a least six U.S. QCs, the
+domestic FO processes the technical denial on U.S. earnings. To process denial, FO
+codes PC8 on DECI and TOTL screen in MCS and selects “FO No Determination” in EDCS.
+Totalization claims filed by or on behalf of individuals physically outside the 50
+States, the District of Columbia, the U.S. Virgin Islands, Guam, American Samoa, or
+Puerto Rico are the jurisdiction of OIO. Transfer these claims to OIO in MCS and EDCS
+using FO code E15 for medical development and the disability determination.
+The domestic FO then forwards any paper claims to OIO to determine if:
+•
+U.S. disability insured status is met based on combined U.S. and foreign coverage,
+and
+•
+there is any possible need for a medical determination.
+If there is no paper folder, the domestic FO sends Modernized Development Worksheets
+(MDW’s) to PC8 for electronic claims and advises PC8 of the claim for totalization
+benefits.
+NOTE: Canadian border FOs should process Category 2 through their State DDS and prepare the A101 or EF101 for OIO effectuation.
+3. Category 3
+If the worker does not have at least six U.S. QCs, the domestic FOs should:
+•
+process the technical denial on U.S. earnings,
+•
+code the TOTL screen in MCS, and
+•
+mail totalization forms to OIO for any necessary action with the foreign agency of
+the totalization country.
+See details:
+For a description of the totalization program, see GN 01701.005.
+For specific FO routing instructions, see GN 01702.310 through GN 01702.420.

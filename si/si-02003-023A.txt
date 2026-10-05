@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - SI 02003.023 - Processing eIAR Exception Cases
+Effective Dates: 07/28/2025 - Present | TN 34 (07-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003023 (fetched 2026-10-04)
+
+A. Description of the eIAR exception cases
+An eIAR exception is a case that eIAR or the FO intervention process cannot process.
+Generally, eIAR exceptions occur with couple’s cases with a start date record and
+no underpayment on the start date record. Exception cases occur when the timing of
+the start date record and initiating of SSI payments results in no underpayment being
+computed on the SSR and no UPV:V being built on the SSR.
+NOTE: If the system builds an underpayment greater than $0.99 for at least 1 month on the
+start date record and there is a UPV: V on the SSR, the case is not an eIAR exception
+and it can be processed using eIAR or the FO intervention process. For more information
+about UPV:V and processing underpayments see SM 01311.660.

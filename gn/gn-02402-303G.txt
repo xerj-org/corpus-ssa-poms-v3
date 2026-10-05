@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02402.303 - Coding Ireland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/12/2018 - Present | TN 268 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402303 (fetched 2026-10-04)
+
+G. Example of coding Ireland direct deposit
+The customer provides us with a signup form for Ireland containing the IBAN: IE29AIBK93115212345678.
+•
+The first 2 characters of the Ireland IBAN are “IE”, which represents the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits. The technician should never code the IBAN ISO country code or the check digit to the MBR.
+•
+Positions 9 through 14 represent the bank sort code.
+•
+The last 8 characters represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix: 54 (SSA designated prefix for IDD);
+•
+Code the 6-digit bank sort code: 931152;
+•
+Code the U.S. check digit (i.e., 2) obtained from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16;
+•
+Code the account type as a “C” for Checking or an “S” for Savings. If no account type
+indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the 8-digit bank account number: 12345678.
+3. Obtain the following information
+In
+ITS.gov: IBAN: IE29AIBK93115212345678 SWIFT: Full code (example: BEPOIT21020)
+•
+RTN: 549311522
+•
+Checking
+•
+DAN: 12345678
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 549311522 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 12345678
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 549311522
+•
+DAN- C12345678

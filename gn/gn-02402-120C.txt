@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02402.120 - Correspondent Banking
+Effective Dates: 02/20/2019 - Present | TN 125 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402120 (fetched 2026-10-04)
+
+C. Advantages of correspondent banking
+This section lists the advantages of correspondent banking:
+•
+We can do any necessary reclamation through the Department of the Treasury as normal.
+The U.S. FI is responsible for reclaiming the payments. For Title II, the Payment
+History Update Screen (PHUS) record shows the reclamation request and response. This
+differs from IDD reclamations, which require manual actions. For information about
+IDD reclamations, see GN 02408.900 through GN 02408.950.
+•
+We can process nonreceipt actions through normal input. Treasury then processes them.
+For Title II, PHUS displays the nonreceipt request and Treasury’s response. This differs
+from IDD nonreceipt reports, which require manual actions. For information about allegations
+of nonreceipt, see GN 02402.250.
+•
+The financial institution’s routing number is available on the Routing Transit Number
+Database (RTND) screen. (For the RTND data entry screen, see MSOM QUERIES 005.005.
+•
+The U.S. FI can send a Notice of Change (NOC) directly to us if the direct deposit
+information changes because of an FI merger or FI systems update.
+•
+In areas where IDD is not available, correspondent banking gives the beneficiary a
+way to avoid the problems with check delivery.
+•
+Unlike IDD, this arrangement is available to a beneficiary residing in the United
+States who wants to deposit his or her benefits in an FI outside the United States.

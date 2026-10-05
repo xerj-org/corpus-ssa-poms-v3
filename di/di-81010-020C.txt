@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 81010.020 - Creating Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 02/02/2024 - Present | TN 82 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010020 (fetched 2026-10-04)
+
+C. Selecting disability reports in EDCS
+After the technician selects the appropriate classification and adjudicative level
+(for example, initial claim, reconsideration, or hearing request) of the case, EDCS
+presents the Confirm Case Creation screen.
+1. Initial claims
+When creating an initial claim:
+•
+On the Confirm Case Creation screen, the FO technician selects the appropriate initial
+claim disability report. EDCS defaults to the report it determines is appropriate,
+but the technician can change the selection if a different report is appropriate,
+and
+•
+On the Form(s) Selection screen, the technician can:
+–
+key the SSA-3368 (Disability Report - Adult); or
+–
+submit paper forms.
+IMPORTANT: Although the paper feature is currently an option, the only time it should be used
+for an initial claim is when the claimant or representative submits medical evidence
+and there is no disability report information. See DI 11018.005 for more information.
+If you elect to complete an EDCS disability report that is different from the available
+Internet disability report, refer to DI 81007.035. If you are keying a subsequent initial case into EDCS and a prior closed electronic
+folder exists, consider copying information from the prior folder, see DI 81010.020E in this section.
+In order to establish a CEF, you must establish all claims associated with the case
+in EDCS. If you are processing an EDCS case with an EDCS exclusion (i.e., partially
+electronic case), the official folder is paper. Although the official folder is paper, we can use EDCS to create an electronic record that the Disability
+Determination Services (DDS), Office of Hearings Operations (OHO), and other components
+can use for electronic case development.
+2. Appeals
+When creating an appeal:
+•
+On the Associate New Case screen, select "Yes" to associate appeal with prior case
+in EDCS,
+•
+On the Confirm Case Creation screen, the Appeal filing date is either propagated from
+the mainframe or the technician keys it in for MCS exclusion and Manual T16 appeal
+level cases, and
+•
+On the Form(s) Selection screen, the technician can:
+–
+key the SSA-3441 (Disability Report – Appeal) data into EDCS; or
+–
+select the 3441 Not Received option (only for incomplete appeal requests, see DI 12005.005).
+If an i3441 is involved, see DI 81007.055.
+For additional instructions regarding EDCS appeals see DI 81010.150.

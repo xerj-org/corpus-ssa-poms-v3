@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02402.343 - Coding Japan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/17/2020 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402343 (fetched 2026-10-04)
+
+E. Procedure for coding Japan bank data
+The preferred place to code the information is ITS.gov. Use the following procedure to code IDD of Title II benefits to FI accounts in Japan
+when the direct deposit cutoff is within 4 days, or when you are unable to code in
+ITS.gov.
+STEP
+ACTION
+1.
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2.
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If not, STOP.
+REASON: The MBR will not accept IDD information if the beneficiary has a U.S. address. You
+must change the U.S. address to the beneficiary's address outside the country, and
+input the direct deposit the following day.
+3.
+Code the Type of Account (on the SSA screen) as Checking or Savings. If you do not
+know the type for an FI account, code it as Savings. Most bank accounts for individuals
+in Japan are savings accounts.
+IMPORTANT: Do not code a "C" for checking or an "S" for savings as part of the Depositor Account
+Number (DAN) on the input screen because it will cause the payment to reject at FRBKC.
+It is interpreted as an incorrect multi-country code.
+4.
+To begin coding the Routing and Transit Number (RTN) field (9 digits total), start
+with "66", the multi-country prefix SSA and FRBKC have designated for Japan IDD.
+5.
+Code the first 6 digits of the bank account data, as follows:
+•
+The 4-digit bank code, and
+•
+The first 2 digits of the branch code.
+IMPORTANT: IDD is not yet available for postal accounts in Japan.
+6.
+Code the U.S. check digit. Obtain the check digit from Title II Interactive Comps.
+7.
+For the first character of the DAN field, code a "Y" for a Yen account.
+NOTE:
+SSA does not have IDD for U.S. dollar accounts in Japan.
+8.
+Code the final digit of the branch code, and all 7 or 8 digits of the account number.

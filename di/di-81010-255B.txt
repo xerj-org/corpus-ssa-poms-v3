@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - DI 81010.255 - Electronic Continuing Disability Review (eCDR) Cessation Reconsideration
+Effective Dates: 02/28/2025 - Present | TN 92 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010255 (fetched 2026-10-04)
+
+B. FO responsibilities for eCDR reconsiderations
+When an individual wishes to appeal a DDS CDR determination, they file a reconsideration.
+The individual contacts the FO to complete the necessary reconsideration forms.
+Before processing any cessation appeal, FO technicians should verify the presence
+of an initial medical determination (Cessation/Continuance), review the Master Beneficiary
+Record (MBR) and Supplemental Security Record (SSR) queries to ensure the most recent
+medical determination data is posted, and obtain necessary medical cessation appeal
+forms. To process the request, follow instructions in DI 12026.020. For information on good cause for late filing see GN 03101.020.
+1. Completing eCDR reconsiderations in EDCS
+To process the eCDR reconsideration, EDCS users must open EDCS and establish a record.
+IMPORTANT: When the CDR is a Title XVI only or concurrent, before initiating the eCDR appeal
+in EDCS, the user must use Modernized Supplemental Security Income Claim System (MSSICS)
+to update the SSR to document the filing of the medical cessation appeal as well as
+the statutory benefit continuation (SBC) election. If Direct SSR update is required,
+the FO can manually enter the required fields in EDCS on the CDR Information and Claims
+Information pages.
+To create an eCDR appeal:
+a.
+Select CDR Reconsideration from the Select Case Level screen;
+b.
+Select OK button;
+c.
+Enter the appeal filing date on the confirm Case Creation screen, if not propagated;
+d.
+Select Create Case button;
+e.
+If the case information did not propagate from MSSICCS, key in the CDR information,
+the SSA-3367 (Disability Report-Field Office), and the SSA- 3441 (Disability Report-Appeal)
+data in EDCS on the Form(s) Selection screen; and
+NOTE:
+The Copy from Prior button in EDCS will be enabled if information is available to
+copy from prior level(s). For example, if the SSA-3368 for Age 18 Redetermination
+is completed in EDCS, the EDCS user will have the ability to Copy from Prior (form
+3368) when completing the SSA-3441 for an Age 18 Redetermination reconsideration or
+hearing level appeal.
+f.
+Enter appropriate limited data similar to the eCDR Initial CDR including:
+•
+the Social Security Number (SSN);
+•
+claim type;
+•
+name;
+•
+address;
+•
+SBC information,
+•
+attorney representative name and address; and
+•
+representative payee name and address.
+REMINDER: The FO must verify and update the appropriate address, telephone number, and representative
+information on the mainframe before transferring the reconsideration in EDCS.
+g.
+Reminders for the eCDR reconsideration include:
+•
+Process the CDR appeal in EDCS, if the CDR being appealed was processed in EDCS;
+•
+If Title XVI only or concurrent eCDR, complete MSSICCS prior to creating case in EDCS;
+•
+Select and key in SSA-3441 data;
+•
+Obtain an SSA-789 (Request for Reconsideration-Disability Cessation) and the appropriate
+number of SSA-827s (Authorization to Disclose Information to the Social Security Administration)
+from the individual, per regional instructions. Also obtain a SSA-3881 (Questionnaire
+for Children Claiming SSI Benefits) for SSI childhood disability claims;
+•
+Fax paper documentation into the Certified Electronic Folder (CEF), and then dispose
+of the form per instructions in DI 81010.135;
+•
+Add a valid (electronic or hardcopy) SSA-827 to the CEF; and
+•
+Fax any development regarding SBC (for example, Report of Contact, SSA-792 (Statutory
+Benefit Continuation Election Statement), and any other documentation) into section
+E of the electronic folder DI 12027.001. Dispose of the development per DI 81010.135.
+2. Transferring the eCDR reconsideration
+When transferring the eCDR reconsideration, the FO must:
+•
+Review the case and resolve any edits;
+•
+Select the Transfer/Updates tab in EDCS;
+•
+Answer the paper folder indicator (PFI) question (Note: if an electronic CPD is linked
+to the eCDR, the PFI will default to No);
+•
+Ensure Title II SBC fields are completed;
+•
+Transfer all parts of an eCDR, concurrent or multiple entitlements at the same time;
+and
+•
+Mail all paper folder(s) and paper documents not stored electronically,associated
+with the case to the DDS at the time of electronic transfer.
+NOTE 1:
+The Disability Control File (DCF) CDRI screen automatically records the appeal(s)
+on the DCF after EDCS transfer. See MSOM CDR 001.025, for more information on transferring
+the eCDR reconsideration.
+NOTE 2:
+The EDCS automatic updates to the DCF are for appeal cases only. The FO must still
+add initial CDR case movement to the DCF manually or through the Workload Action Center
+(WAC).
+3. Routing the eCDR reconsideration
+If a paper CPD folder exists:
+•
+Place any paper SSA-827s, SSA-3881 if appropriate, and any other relevant documents
+submitted by the beneficiary in the paper folder, and
+•
+Attach an EDCS routing form to the top of the folder and sends the folder to the DDS.
+If the CPD folder is electronic, add all forms and documentation to the electronic
+file and transfer to the DDS.
+4. Processing DDS determinations on eCDR reconsiderations
+The DDS or Disability Hearings Unit (DHU) returns both favorable and unfavorable determinations
+on all eCDR reconsiderations to the FO.
+Upon receipt of a medical cessation determination from the DDS, take the following
+appropriate actions.
+Title II only cases:
+•
+Review the MBR to ensure the applicable information received from EDCS and the DCF
+updated automatically;
+•
+Verify SBC termination, if applicable; and
+•
+Ensure the MBR is updated within 5 days. If the MBR does not update in 5 days, technicians
+should proceed with manual action to update the MBR. For potential manual actions,
+seeDI 12026.025B .
+Title XVI and Concurrent cases:
+•
+Review both the SSID and MBR to ensure medical cessation appeal determination automatically
+posted;
+•
+Verify the SBC benefits have ended for BOTH titled programs; and
+•
+Ensure both the MBR and SSID are updated within 5 days. If the MBR and or SSID do
+not update in 5 days, technicians should proceed with manual actions to update the
+MBR and/or SSID. For potential manual actions, see DI 12026.025B
+.

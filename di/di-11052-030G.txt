@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 11052.030 - Adjudication of Initial End-Stage Renal Disease Medicare Cases
+Effective Dates: 01/04/2016 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052030 (fetched 2026-10-04)
+
+G. Disallowances
+EC triggers and releases the proper notice for the following disallowance codes. EC
+also triggers denial code 109 (other health insurance disallowance reason); however,
+you must include a paragraph explaining the reason for the disallowance on the Notice
+3 (NOT3) screen in MCS. Refer to Notice 3 (NOT3) MSOM MCS 009.010.
+ESRD related denial codes:
+DENIAL CODES
+REASON
+105
+Convicted of a crime against the security of the U.S.
+109
+Other health insurance disallowance action (show in “remarks”).
+110
+Not insured for HI – use to disallow T claims.
+If the denial does not trigger through MCS, take the following actions:
+•
+Manually clear (MANCLR) the claim to your own FO code to lock the segment;
+•
+Input a denial via MACADE (show PC7 jurisdiction).

@@ -1,0 +1,129 @@
+SSA Program Operations Manual System (POMS) - GN 02402.310 - Coding Australia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402310 (fetched 2026-10-04)
+
+F. Policy to code bank data for Australia
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us. When you use our system to establish or change
+IDD bank data for Australia (e.g. Modernized Claims System (MCS), Manual Adjustment
+Credit and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+•
+account ownership;
+•
+account type;
+•
+account number;
+•
+bank state branch code (BSB);
+•
+beneficiary address (No post office (PO) boxes accepted);
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+1. Address input requirements for Australia
+For all Australia IDD payments, you must enter an address into ITS.gov and our system (e.g. Post Entitlement Online System (POS), MACADE).
+DO NOT input a PO box.
+The address input must include the:
+•
+street address
+•
+suburb and four-digit numeric postcode;
+•
+country code abbreviation “AU” in ITS.gov and the full country name in our system;
+•
+abbreviated state name.
+Refer to the chart in this section for the state abbreviations.
+States
+Abbreviations
+New South Wales
+NSW
+Northern Territory
+NT
+Queensland
+QLD
+South Australia
+SA
+Tasmania
+TAS
+Victoria
+VIC
+Western Australia
+WA
+Australian Capital Territory
+ACT
+a. Australia address inputs for ITS.gov
+When entering Australia addresses into ITS.gov, the information must appear in the designated order as indicated:
+•
+Address Field 1, enter the beneficiary name
+•
+Address Field 2, enter the representative payee name
+•
+Address Field 3, enter the street address
+•
+Address Field 4, enter the suburb and postcode
+•
+Address Field 5, enter the abbreviated state and country code “AU” (ISO two-digit country code)
+NOTE: Each field cannot exceed 22 characters.
+b. Australia address inputs using our system
+When entering Australia address information into our systems (e.g. Post Entitlement
+Online System (POS), MACADE), you must enter all the information described in the
+introduction of GN 02402.310F.1. Once input, the Department of the Treasury’s Fiscal Service will convert your inputs
+into the designated order.
+2. Process initial award
+Prior to processing an initial award, you must update ITS.gov with the bank account information to ensure that the beneficiary receives his or
+her payment. If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to us.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using our system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the chart in this section when you process within four business days of the current
+operational month (COM) cutoff date.
+STEP
+ACTION
+1.
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2.
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR will not accept the International Direct Deposit (IDD) information.
+3.
+Is the beneficiary's account an Australian Dollar (AUD) account? If no, STOP.
+REASON: Beneficiaries in Australia can only receive IDD payments in AUD accounts.
+If yes, go to step 4.
+4.
+Code the nine-digit RTN for Australia as indicated:
+•
+Start with 61, the prefix SSA has designated for Australian direct deposit.
+•
+Code the six-digit Bank State Branch (BSB) Number. Do not code the hyphen.
+•
+Code the U.S. check digit, which you will obtain through Title II Interactive Comps.
+NOTE: The final digit is the U.S. check digit Code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5.
+Code the Type of Account as an “S” for savings or a “C” for checking. If no indicated
+account type, use a “C” for checking account.
+6.
+Code the Depositor Account Number (DAN) field with the Account Number (up to twelve
+characters). The Account Number may contain alpha characters, numeric, or hyphens.
+DO
+NOT include the hyphens if the total number of characters exceeds twelve characters.
+7.
+You must take action on the same business day to enter all the information into ITS.gov listed in the introduction of GN 02402.310F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+FRBKC rejects the payment and returns it to us when we do not send all required information.

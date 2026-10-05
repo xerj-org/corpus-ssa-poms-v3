@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 03930.040 - Title II - Providing Proper Notice in Claims Involving Representatives Who May Petition for Fees
+Effective Dates: 12/09/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930040 (fetched 2026-10-04)
+
+C. Process - Modernized Claims System (MCS)
+Properly coding MCS claims will produce correct payment, a correct notice to the claimant,
+and a copy of the notice for the representative.
+1. Check/Notice 2 Data
+MCS Check/Notice 2 (NOT2) screen provides the data that notifies the system whether
+to withhold from past-due benefits. The system also uses the data to generate correct
+notices and payments.
+2. Windfall Offset
+If the representative (and the entity, if there is a valid assignment per GN 03920.021) is eligible for direct payment, and the representative has not waived a fee or direct
+payment, entering both the representative fee NOT2 data and the windfall (Title II
+or Title XVI) offset data by coding a “6” in the Miscellaneous Factors field on the
+BECF screen will produce:
+•
+paragraphs ATY002, ATY003, ATY004, ATY005, ATY006, ATY007, ATY 011 (Attorney/Representative Fee Has Not Yet Been Authorized); and
+•
+paragraph WFO002 (SSI Offset-Representative Involved).
+Because we calculate the amount to withhold (25 percent of past-due benefits for fee
+petitions) before imposing offset, we can notify the claimant and the representative
+of the amount withheld through the award notice.
+Refer to MCS notice paragraphs about representation, GN 03930.032 and NL 00725.005.

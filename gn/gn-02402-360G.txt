@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02402.360 - Coding Colombia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402360 (fetched 2026-10-04)
+
+G. Example of coding Colombian bank data
+The customer provides us with a sign-up form for Colombia containing the following
+information:
+•
+Bank Code: 1234, and
+•
+Account Number: 5678901234567890.
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+prefix of 66 (the multi-country prefix for Colombia),
+•
+first 2 positions are filler 00s,
+•
+4-digit bank code 1234 after verifying accuracy against either the ITS.gov help file
+or the listing in GN 02402.360H in this section, and
+•
+1-digit check code (i.e., 8) (obtained from the Title II interactive Comps from the
+Main Menus 07/Sub Menu 16).
+2. Derive the DAN
+The technician codes the DAN
+•
+U (for Colombia), and
+•
+16-digit account number 5678901234567890.
+3. Obtain the following information
+•
+RTN: 660012348
+•
+Checking
+•
+DAN: U5678901234567890
+a. POS refelcts the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660012348 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U5678901234567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660012348
+•
+DAN-U5678901234567890

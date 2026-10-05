@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02406.135 - Processing Reports of Nonreceipt, Loss, Theft, or Destruction of Payments -- Checks Due And Not Due
+Effective Dates: 10/29/2008 - Present | TN 129 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406135 (fetched 2026-10-04)
+
+E. Title XVI recurring check cashed, courtesy check returned
+The following is a procedure to prevent the repeated reissuing of a type 2E underpayment
+check as described in the following example.
+EXAMPLE: The FO/TSC transmits a B-stop for a missing recurring check. Treasury cancels
+the missing recurring check and a courtesy check is issued. These actions are reflected
+in PMTH segment on the SSR.
+10/01/97
+9
+N
+484.00
+10/01/97
+6
+N
+S
+484.00
+(Type 1 changed to 6 to indicate nonreceipt; S indicates check cancelled, credit back
+to SSA.)
+Frequently, the recurring check is received and cashed and the recipient returns the
+courtesy check to the FO for forwarding to Treasury. If the courtesy check is received
+and processed by Treasury before the credit for the type 1 is “reversed,” a type 2
+underpayment check will be issued:
+10/01/97
+9
+N
+484.00
+10/01/97
+6
+N
+S
+484.00
+10/15/97
+2
+10/97
+484.00
+10/15/97
+2E
+484.00
+10/01/97
+9
+N
+484.00
+10/01/97
+6
+N
+U
+484.00
+(No 2E check will be issued.)
+IMPORTANT: . The beneficiary, recipient, or representative payee must not endorse
+the check over to our agency. This creates an unnecessary workload for Treasury.

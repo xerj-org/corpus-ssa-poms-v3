@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - DI 81020.115 - Processing Reopenings
+Effective Dates: 05/05/2021 - Present | TN 20 (05-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020115 (fetched 2026-10-04)
+
+E. DDS identifies possible reopening prior to DDS upgrade to version 12.0 or higher
+If the DDS case processing system has not been upgraded to version 12.0 or higher,
+reopenings cannot be processed electronically. Current system limitations prevent decisional data from
+being changed once a case is closed. Once the DDS determines a CEF or a CEF Exclusion
+case is a possible reopening; and the prior folder is paper, a closed CEF, or a transferred
+CEF; and it is prior to the DDS upgrade to version 12 or higher; cease electronic
+case processing and create a paper Modular Disability Folder (MDF). (The Paper MDF
+becomes the official agency folder for the case). To reopen the prior folder:
+1.
+Obtain the prior paper. If the prior paper folder has been lost or destroyed, refer
+to Subsequent Applications - DI 27510.005H.
+2.
+If the prior case is a CEF or a transferred CEF, the DDS:
+•
+Prints all essential materials for all adjudicative levels from the prior CEF(s) and
+files it in a paper folder. For a definition of essential materials see Documenting
+the Disability Folder - Disability Determination Services (DDS) - DI 20503.001B.1.,
+•
+Add a message in eView to show that the case has been converted to paper and associated
+with a reopening.
+•
+Alerts the FO or last office of jurisdiction to update the PFI.
+3.
+Create an SSA-5002 (Report of Contact) documenting the following in the CEF:
+•
+A No Determination (ND) is being processed because the prior folder is being reopened
+and a paper folder has been created for this filing; and
+•
+The CEF is converted to a paper MDF for processing.
+4.
+Post a message in eView to indicate that electronic processing ceased effective (MM/DD/YYYY)
+because a prior claim was reopened;
+NOTE: The DDS may reference the SSA-5002 in the message.
+5.
+Update the Paper Folder Indicator (PFI) to show that the current claim is being processed
+as a paper MDF;
+NOTE: Update PFIs before the DDS closes the case. It cannot be done after the case closes
+because the case is then in Field Office (FO) jurisdiction and DDS no longer has update
+capability.
+6.
+Close the current case as a ND on the National Disability Determination Service System
+(NDDSS);
+NOTE: Do not attempt to change the CEF claim type to match the reopened claim or the CEF
+transactions may fail or incorrect payments could result.
+7.
+Print all essential folder materials for all adjudicative levels contained in the
+CEF. File the printed documentation in the MDF for the reopened claim. For a definition
+of essential folder materials, see Documenting the Disability Folder - Disability
+Determination Services (DDS) - DI 20503.001B.2.
+NOTE: Do not print documents from the Green (Temporary) section of the CEF.
+8.
+Receipt and process the MDF on NDDSS following current procedures. Refer to How to
+Complete the Update (DUPD) Data Input Screen - SM 06001.220;
+9.
+Complete the SSA-831 per Completion of Form SSA-831-U5 in Title II Reopening Cases
+- DI 27530.015 and Completion of Form SSA-831-U5 in Title XVI Reopening Cases - DI 27530.025;
+10.
+Enter “A CEF has been converted to paper and is associated with this Reopening” in
+item #34 of the revised SSA-831;
+11.
+Scan a copy of the reopened SSA-831 into the current CEF upon completion of the reopening
+for informational purposes;
+12.
+Prepare an SSA-408 (Route Slip), annotate “Prior Folder Reopened – CEF Processed as
+No Determination”, attach it to the paper MDF, and mail it to the appropriate office;
+and
+13.
+Forward any trailer material per Disposition of Trailer Material - DI 22520.001.
+NOTE: Paper processing of the case is necessary because the critical entitlement dates
+(e.g., application date, insured status dates) associated with the current CEF may
+be different than those associated with the reopened claim.

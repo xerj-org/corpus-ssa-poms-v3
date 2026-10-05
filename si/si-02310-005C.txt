@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - SI 02310.005 - Interface Operations and Related Issues
+Effective Dates: 05/15/2007 - Present | TN 22 (10-97)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310005 (fetched 2026-10-04)
+
+C. Policy
+1. Computer matching and Privacy Protection Act
+a. Requirements of the law
+The Privacy Act as amended by the Computer Matching and Privacy Protection Act of
+1988 (CMPPA) (Public Law 100-503) requires that, before taking any adverse action
+against an individual based on information produced by a computer match, SSA must:
+•
+Independently verify all data obtained through the computer match; and
+•
+Give recipients advance notice of any adverse action resulting from the computer match.
+EXCEPTION: Independent verification is not necessary when SSA's Data Integrity Board (DIB) has
+determined, in accordance with guidance issued by the Director of the Office of Management
+and Budget (OMB), that the information is limited to identification and amount of
+benefits paid under a Federal benefit program and there is a high degree of confidence
+that the information provided to SSA is accurate.
+The VA, RRB, and OPM matches meet these criteria (see SI 02310.020). The system automatically posts data, generates notices, and adjusts benefits when
+SSA matches with these agencies and the data SSA receives does not require additional
+development.
+b.
+CMPPA rules for independent verification do not apply to interfaces with other files
+maintained by SSA: the master beneficiary record (MBR) and the master earnings file
+(MEF).
+2. Coordinating alerts with redeterminations
+Coordinate interface alerts with pending redeterminations or other posteligibility
+activities (e.g. continuing disability review, representative payee accounting). (See
+SI 02305.017C) Interface alerts (A5, 5B, 5H, K6, K7, U5, S2, D8, P5), with or without pending redeterminations,
+are the highest priority posteligibility workloads.
+3. Nonpay cases
+Do not develop adverse interface data if the current payment status is a nonpay, suspense
+(including payment status code E01), or terminated status code. Develop the issue
+when you initiate any development to reinstate the recipient's benefits.
+4. Data pertaining to income of a deemor receiving Public Income Maintenance (PIM) payments
+Do not develop interface alerts for income of a deemor who receives PIM payments unless
+the alert indicates that deeming should begin or end. For example, the V7 alert may
+mean that a VA pension (based on need) has terminated, and that deeming of other income
+must begin. See SI 01320.141.
+5. Administrative finality
+a.
+The 2-year rule for reopening a prior determination or decision applies to interfaces
+because the verified interface data constitute new and material evidence (SI 04070.010).
+b.
+The date of the interface run is the date of affirmative action in writing (SI 04070.015). This date may appear on the interface alert as the run date.
+c.
+If the date does not appear on the alert, use the date on the control list generated
+by the interface.
+d.
+If the run date does not appear on the alert, and there is no control list, use the
+date in the transaction field of the SSR (e.g., Z4 for IRS alerts). (See SM 01601.730
+for a list of other transaction codes.)
+e.
+If the date no longer appears in the transaction field, use the date you received/requested
+the alert in the FO.
+NOTE: See SI 04070.040B. regarding diligent pursuit. See SI 04070.020 regarding reopening based on fraud and
+similar fault. See SI 02305.094.B.2. regarding verifying periods outside Administrative Finality.
+6. Failure to provide information
+Attempt to verify information with the recipient. If the recipient does not respond
+to your requests for information, follow the instructions in SI 02301.235 before suspending a recipient's payments.
+7. Penalties
+When a recipient fails to report timely, follow the instructions in SI 02301.100 to determine whether to apply a penalty.

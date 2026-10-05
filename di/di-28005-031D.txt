@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - DI 28005.031 - Determining If a Representative Payee Sought Medically Necessary and Available Treatment for the Child When Conducting a Continuing Disability Review (CDR) for a Title XVI Disabled Child (DC)
+Effective Dates: 04/14/2023 - Present | TN 17 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428005031 (fetched 2026-10-04)
+
+D. Completion of the SSA-832 for continuances
+1. Remarks and list codes for the SSA-832
+Based on the facts in a continuance, enter the appropriate remark and list code from
+the following table in items 24 and 34 of the SSA-832 respectively. Every Title XVI
+childhood CDR continuance must have a list code in item 34 on the SSA-832-C2/U3.
+NOTE: The National Disability Determination Services System (NDDSS) requires a list
+code for all continuance determinations for DC CDRs. The DDS will receive an edit
+message "T16 CHILDHOOD CASE REQUIRES LIST CODE" if a list code (281 - 287) is not
+entered in the LA - LF fields. To clear this edit, enter the appropriate list code
+and remark from the table above. See SM 06001.920E.
+Completion of Item 24 and 34 of the SSA-832-U3
+In treatment?
+Facts
+Finding
+Remarks - Item 24
+List Code - Item 34
+Yes
+Has:
+•
+Medical source, or
+•
+Other source and treatment prescribed or child in treatment, or
+•
+Treatment provision does not apply, (e.g., the child does not have a payee, see DI 28005.031C1.)
+Treatment is medically necessary
+"In treatment"
+281
+No
+•
+Has a medical source but treatment is not prescribed, or
+•
+Does not have a medical source and MC/PC determines that treatment is not necessary
+•
+See DI 28005.031C.2.a.
+Not Applicable
+"No treatment issue"
+282
+No
+Has:
+•
+Medical source, or
+•
+Other source, or
+•
+No medical source (or has other source) because condition is not amenable to treatment
+•
+See DI 28005.031C.2.b. and DI 28005.031C.2.c.
+Condition is not amenable to treatment (e.g. no treatment necessary due to conditions,
+as there would be no improvement or negligible improvement expected due to the nature
+of the condition (see DI 28005.031B.2.c.)
+"No treatment issue"
+283
+No
+Has:
+•
+Medical source, or
+•
+Other source, or
+•
+Does not have medical source or other source
+•
+See DI 28005.031C.3.a.
+Treatment is prescribed or deemed medically necessary, but unavailable or other good
+cause
+"Treatment unavailable or other good cause"
+284
+No
+Has:
+•
+Medical source, but not in treatment and treatment is medically necessary without
+good cause
+•
+See DI 28005.031C.3.b.
+(Explain on SSA-883)
+Treatment is prescribed and medically necessary and available, no good cause. (Explain
+on SSA-883-U3)
+Treatment medically necessary. Good cause not found.
+285
+No
+Has:
+•
+Other source, or
+•
+No medical source or other source
+•
+See DI 28005.031C4.
+Treatment not prescribed, but determined medically necessary and available. (Explain
+on SSA-883-U3)
+Treatment medically necessary and available.
+286
+2. Routing Instructions
+Follow the routing instructions in DI
+32010.020 for paper folders and DI 81020.250B1 for electronic folders.
+Additional Considerations:
+•
+If list code 285 or 286 applies, follow instructions for payee development in DI 28005.031B.4.b. Ensure an SSA-883-U3 is completed and imaged to the electronic folder.

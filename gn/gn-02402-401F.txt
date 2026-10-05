@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02402.401 - Coding Philippines Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/05/2023 - Present | TN 240 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402401 (fetched 2026-10-04)
+
+F. Procedure for coding the Philippines bank data
+The FRBKC relies on us to provide the complete bank data to post payments correctly
+to a customer’s account. If the information is incomplete, the FRBKC rejects the payment
+and returns the funds to us.
+When you establish or change IDD bank data for the Philippines through one of our
+systems (Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry
+(MACADE), etc.), you must go to ITS.gov to enter:
+•
+account number;
+•
+account ownership;
+•
+account type;
+•
+beneficiary address; (no P.O. box address allowed)
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator; and
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. Obtain Swift-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters, and a maximum of 11 characters:
+•
+first four characters - bank code (only alpha);
+•
+next two characters - ISO 3166-1 alpha 2 country code (only alpha);
+•
+next two characters - location code (alpha and numeric) (passive participants have
+a "1" in the second character); and
+•
+last three characters - branch code, optional ('XXX' for primary office) (alpha and
+numeric).
+2. Process initial award
+Before you process the initial award, you must update ITS.gov with the bank account information to ensure the beneficiary receives payment. If the
+complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using one of our systems (Post Entitlement Online
+System (POS) and MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the chart in this section when you process the bank data
+within four business days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If yes, go to step 3.
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+3
+Is the beneficiary's account a PHP account in the Philippines?
+If no, STOP.
+REASON: Beneficiaries in the Philippines can only receive IDD payments in PHP accounts.
+If yes, go to step 4
+4
+The RTN is 700000038 for all IDD to the Philippines. It contains the:
+•
+Multi-country prefix for Philippines “70.”
+•
+U.S. check digit code of “8” at the end of the RTN for all IDD accounts in Philippines.
+•
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If no account indicated, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for the Philippines, code:
+•
+“I” designated for the Philippines
+•
+up to 16 digits of the 29-digit Account Number
+7
+You must take action on the same business day to enter all the information into ITS.gov listed in the introduction of GN 02402.401F in this section.
+You must access ITS.gov, or ask a co-worker to update the required information into ITS.gov.
+When information is not available, FRBKC rejects the payment and returns it to our
+agency.

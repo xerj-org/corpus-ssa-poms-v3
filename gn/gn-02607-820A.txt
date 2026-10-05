@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02607.820 - Requesting Manual Incentive Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607820 (fetched 2026-10-04)
+
+A. When to request a manual incentive payment
+The Prisoner Update Processing System (PUPS) cannot automatically calculate and pay
+incentive payment in certain situations. These situations require manual incentive
+payments if the reporter qualifies for an incentive payment. To determine if a reporter
+qualifies for an incentive payment, see GN 02607.800.
+1. Title II manual incentive payment situations
+The following situations require manual incentive payments:
+a.
+T2R exception cases - the suspension action input through PUPS does not properly suspend
+benefits (LAF S7) on the Master Beneficiary Record (MBR). For information on T2R exception
+cases, see GN 02607.750;
+b.
+PUPS automated processing exclusions. For information on automated processing exclusions,
+see GN 02607.740; and
+c.
+Reporter disputes incentive payment amount received and we determine that additional
+incentive payments are due the reporter. For information on incentive payment disputes,
+see GN 02607.830A.
+d.
+*PENDING PUPS records, which are records that PUPS did not receive the prisoner suspension
+(S7) feedback from the Master Beneficiary Record (MBR). For more information on *PENDING
+PUPS records, see GN 02607.820B.2.c. in this section
+When PUPS cannot calculate a Title II incentive, it annotates the reason in the REASON
+FOR NO INCENTIVE PAYMENT field on the T2 Prisoner Status Query (P2QY) screen. For
+more information on the P2QY screen, see MSOM PRISON 003.007.
+2. Title XVI manual incentive payment situations
+The following situations require manual incentive payments:
+a.
+*PENDING PUPS records, which are records that PUPS did not receive the prisoner suspension
+(N22) feedback from the Supplemental Security Record (SSR). For more information on
+*PENDING PUPS records, see GN 02607.820B.2.c. in this section
+b.
+Couple's records. (For more information on these cases, see GN 02607.705.)
+c.
+N22 payment status established on a new record. (For more information on these cases,
+see GN 02607.705).
+d.
+SSR has one of the following payment statuses:
+•
+terminated,
+•
+force due, or
+•
+other special payment status.
+For more information on these cases, see GN 02607.705.
+e.
+Reporter disputes incentive payment amount received and we determine that additional
+incentive payments are due the reporter. For information on incentive payment disputes,
+see GN 02607.830A.
+If you attempt to suspend benefits through PUPS and PUPS identifies that one of these
+exclusions exists, it places the following message after page 2 of the T16 Prisoner
+Status Query (PU16) screen: Suspension not sent to the SSR, Select SSI data inputs or MSSICS to update SSR (refer to MSOM PRISON 003.008).

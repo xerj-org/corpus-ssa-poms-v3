@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - SI 00601.009 - Application Effective Date
+Effective Dates: 01/04/2024 - Present | TN 78 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500601009 (fetched 2026-10-04)
+
+C. Procedure
+1. Advise the Claimant
+Advise the claimant of the following:
+•
+Payments can only be made beginning with the application effective date.
+•
+They still have the right to withdraw the application and file a new one if doing
+so would result in a more advantageous payment.
+•
+The approximate date they can receive the award/denial notice.
+2. Coding the Claim
+a. Modernized Supplemental Security Income Claims System (MSSICS) Inputs
+Enter the date the application is filed (enter the protective filing date, if an open
+protective filing exists) in EFFECTIVE FILING DATE on the Supplemental Security Income
+Application page.
+NOTE: The protective filing date is always material since the date could have an impact
+on eligibility and payment (see GN 00204.010 protective filing date policy and GN 00204.007 for determining the application filing date).
+EXCEPTION: Age 65 Attainment
+If the application filing date is before the date of attainment of age 65, enter the date the claimant attains age 65 in EFFECTIVE
+FILING DATE on Supplemental Security Income Application page. If the protective filing
+date, receipt date and the date of attainment of age 65 fall within the same month,
+enter the receipt date in EFFECTIVE FILING DATE but only if the receipt date is later than the date of attainment of age 65. This exception
+is based on a systems limitation. When the Exception applies and the receipt date
+or date of attainment of age 65 (rather than the protective filing date) is entered
+in MSSICS as the application date, annotate the Supplemental Security Record (SSR)
+remarks field with the claimant's correct filing date.
+REMINDER: An individual attains age 65 on the day before their birthday.
+b. Non-MSSICS Inputs
+On the SSA-450-SI, code the Application Date (AP) field with the date the application
+is filed. If protective filing date exists, enter that date in the AP field. For Aged
+Claims see SI 00601.009C.2.a. EXCEPTION for further coding instructions.
+NOTE: Using the coding instructions in SI 00601.009C.2.a. or SI 00601.009C.2.b. enables the system to compute the correct first month of eligibility and show the
+correct computation and payment status history on the Supplemental Security Record
+(SSR). The system will post payment status code E02 for the first month the claimant
+meets all factors of eligibility. The E02 code is a systems derived payment status
+code. (See SM 01305.001 for title XVI payment status codes.)
+3. Determining Eligibility
+If the claimant is eligible for 1 month during the evaluation period and ineligible
+for all remaining months, complete all development and documentation to confirm eligibility
+for the E02 month even though no payment is possible (including a disability decision
+if the claimant is filing for disability benefits). If the claimant's circumstances
+change within 12 months, a new application is not required. Include the appropriate
+automated paragraphs on the notice of award that explain no payments are possible
+for the first month of eligibility and that a new application is not required if eligibility
+is possible within 12 months.
+4. Attainment of Age 18 and Deeming Applies
+If the claimant is applying for disabled child's benefits in the month they attain
+age 18 and parental deeming applies which makes the claimant ineligible for SSI, take
+the disabled child's claim on MSSICS. Enter the date the application is filed in EFFECTIVE
+FILING DATE on the Supplemental Security Income Application page. MSSICS will change
+the claim type to disabled individual in the month following the month of attainment
+of age 18 when deeming no longer applies. The system will correctly show N01 for the
+month of filing and E02 for the first month of eligibility.
+For non-MSSICS inputs, take the disabled child's claim and input the date the application
+is filed in the AP field on the SSA-450-SI. Also enter the parental deeming information
+for the filing date month. Once the SSA-450-SI is input, follow the instructions in
+SM 01305.770 for changing the record composition on the system to disabled individual
+for the month following the month of attainment of age 18.
+NOTE: Please refer to SI 00515.010 for Processing Certain Financial Permission Cases When a Deemor Refuses Permission
+and the Claimant Turns Age 18.

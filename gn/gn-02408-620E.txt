@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02408.620 - Manual Electronic Funds Transfer (EFT) Reclamation Requests and Exclusions
+Effective Dates: 12/04/2015 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408620 (fetched 2026-10-04)
+
+E. Process for exclusions from the manual reclamation process
+In the following situations, do not input a manual E-stop:
+1. Title II or Title XVI payment went to a representative payee
+A payment that went to the representative payee after the beneficiary's death is a
+legally defined overpayment (LDO). We process the overpayment, giving due process.
+2. A spouse or parent on the same Title II record had direct deposit to the same account
+For manual reclamation inputs, this exclusion is valid even when the spouse or parent is only
+technically entitled on the record (in LAF-AD or LAF-SD on the MBR). (Due to systems
+limitations, automated reclamations cannot take into account any situations in which the beneficiary is not being paid on the
+same record. Therefore, the system may send an automated reclamation for these cases.)
+The PC sends an overpayment notice, with due process, to collect the incorrect payment(s)
+from the spouse or parent joint-account holder who was entitled on the same Title
+II record for the month before the month of death. The PC inputs the overpayment information
+into ROAR and the MBR BOUD field. If the spouse or parent does not return the funds,
+the PC takes the money out of benefit payments to the spouse or parent.
+NOTE: No DNE is sent to the FI when a beneficiary and spouse share the same bank account.
+For more about DNE, see GN 02408.605.
+3. Beneficiary/Recipient dies on or after an early delivery payment date
+When the regular payment date falls on a Saturday, Sunday, or Federal holiday, the
+payment date becomes the last day before the regular payment date that is not a Saturday, Sunday, or Federal holiday. This is defined as an early delivery payment
+date. When a Title II or Title XVI beneficiary/recipient dies on an early delivery payment date or later, the payment is normally due the beneficiary/recipient.
+EXCEPTION EXAMPLES:
+•
+09/03/07 was Labor Day (Monday). The early delivery date was 08/31/07 (Friday). If
+a Title II beneficiary died on 08/31/07, they are
+not entitled to the payment.
+•
+The beneficiary received their benefit check for December on Thursday morning, December
+31, and cashed their check that afternoon. On returning to their apartment shortly
+after cashing their check, they died. Although a benefit is not due for the month
+of death, the beneficiary had already cashed the check for the December benefit. The
+December benefit is incorrect, but is not subject to recovery. (See GN 02201.007E)
+4. IDD payment
+Treasury has no authority over foreign banks. Reclamation of Title II IDD payments
+(when the routing number begins with 5, 6, or 7) begins at GN
+02408.900.
+5. Direct deposit was involved for either or both members of a Title XVI couple’s case
+The system does not send an automated reclamation for a deceased recipient on a Title
+XVI couple’s record when either or both members had direct deposit. This scenario is treated as an overpayment to the surviving spouse.
+Do not initiate a manual reclamation.
+6. Examples
+•
+The Title XVI payment date for March 2008 was February 29, 2008, because March 1 was
+Saturday. Mr. Smith, who was receiving Title XVI payments, died on February 29, 2008.
+They were due the payment, and no reclamation was sent.
+•
+The Title II payment date for the January 2008 benefit was February 1, 2008. Mr. Johnson,
+a Title II beneficiary, died at 12:01 AM (just after midnight) on February 1, 2008.
+They were due the payment, and no reclamation was sent.
+•
+The Title XVI payment for February 2008 was February 1, 2008. Ms. Green died at 10:58
+PM on January 31, 2008. They were not due the payment, and a reclamation was sent.
+•
+John Doe and their spouse, Joan, both received Title II benefits on their record to
+a joint bank account. One payment went out for John after John's death, but no reclamation
+request was sent to Treasury. Instead, the PC sent an overpayment notice to Joan for
+the amount of the payment that was not due to John.
+•
+Ms. Repp was the representative payee for Ms. Worker, a Title II beneficiary. Two
+payments went out after Ms. Worker's death. An overpayment notice was sent to Ms.
+Repp for the amount of the two payments. No reclamation request was sent to Treasury.

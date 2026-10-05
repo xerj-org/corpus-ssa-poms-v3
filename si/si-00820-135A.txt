@@ -1,0 +1,72 @@
+SSA Program Operations Manual System (POMS) - SI 00820.135 - Wage Verification and Reported Wages Over $65 per Month
+Effective Dates: 11/20/2023 - Present | TN 99 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820135 (fetched 2026-10-04)
+
+A. Procedure for developing “reported” wages
+To determine whether verification is necessary for “reported” wages (i.e., those indicated
+on the Supplemental Security Record (SSR) by a verification code of “0”) over $65
+per month for a recipient or a deemor use this chart.
+Step
+Action
+1
+Does the diary data (DIAR) segment of the SSR contain an S2, K6, K7, S7, J3, or J5?
+If yes, go to Step 2.
+If no, go to Step 3.
+2
+Develop the wage interface diary according to relevant instructions.
+Develop all wages during the period being developed according to wage development
+and verification procedures in SI 00820.130C.
+Refer to a step-by-step chart SI 00820.135B in this section.
+•
+SI 02310.055 Master Earnings File (MEF) Match (K6 and K7 Diary)
+•
+SI 02310.056 Master Earnings File (MEF) Match (J3 and J5 Diaries)
+•
+SI 02310.062 State Wage Record Match (S2 Diary)
+•
+SI 02310.063 State Wage Record Match (S7 Diary)
+Proceed to Step 8 to develop IRWE or BWE when applicable.
+STOP.
+3
+Does the earned income (ENIH) segment of the SSR contain wages with a verification
+code of “0”?
+If yes, go to Step 4.
+If no, and wage verification is required per SI 00820.125, “When Wage Verification Is and Is not Required,” refer to the next chart in this
+section.
+REMINDER: It is mandatory to attempt to recruit and train all recipients, deemors, and representative
+payees to report wages through electronic wage reporting systems (i.e., myWageReport,
+Supplemental Security Income Telephone Wage Reporting system (SSITWR), and the SSA
+Mobile Wage Reporting application (SSAMWR)), unless we are getting their wage and
+employment information through PIE, or an exception or exclusion applies. For more
+information about recruiting wage reporters and monthly wage reporting, see SI 00820.143 and SI 00820.144.
+4
+Are there more than two consecutive months with an alleged wage amount (verification
+code of “1”) at any time during the period you are developing?
+If yes, go to Step 6.
+If no, go to Step 5.
+5
+Is the total number of months with an “alleged” (1) wage greater than the total number
+of months with a “reported” (0) wage and/or a “verified” (9) wage during the period
+you are developing?
+If yes, go to Step 6.
+If no, go to Step 7.
+6
+Develop all wages during the period being developed according to the procedures in
+SI 00820.130C.
+Refer to a step-by-step chart SI 00820.135B in this section
+STOP.
+7
+The wages for the period being developed do not require verification. Consider the wages verified unless the system later posts a
+wage interface alert to the SSR.
+Does the worker have impairment-related work expenses (IRWE), blind work expenses
+(BWE), or any other earned income exclusions that apply during the period that you
+are developing?
+If yes, go to Step 8.
+If no, then no further action is necessary. STOP.
+8
+Verify the IRWE or BWE according to the following instructions:
+•
+SI 00820.540 Impairment-Related Work Expenses (IRWE)
+•
+SI 00820.535 Blind Work Expenses (BWE)
+Develop any Student Earned Income Exclusions according to SI 00820.510.

@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02402.325 - Coding Hong Kong Bank Data for the MBR
+Effective Dates: 01/29/2016 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402325 (fetched 2026-10-04)
+
+G. Example of coding Hong Kong direct deposit
+A signup form for Hong Kong contains the following information:
+•
+Bank/branch code: 123456
+•
+Account Number: 123456789
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of “71” (the multi-country prefix for Hong Kong),
+•
+The 6-digit bank/branch code: "123456"
+•
+U.S. check digit (i.e., 3) (obtained from the Title II interactive Comps from the
+Main Menus 07/Sub Menu 16), and
+•
+The type of account as a “C” for checking or an “S” for savings. If there is no indicated
+account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "H" designated for Hong Kong; and
+•
+Code the 9-digit account number: "123456789"
+3. Obtain the following information
+•
+RTN: 711234563
+•
+Checking
+•
+DAN: H123456789
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 711234563 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H123456789
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN: 711234563
+•
+DAN: CH123456789

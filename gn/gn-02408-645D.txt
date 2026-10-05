@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02408.645 - Debiting the Financial Institution (FI) Account for EFT Reclamations
+Effective Dates: 04/21/2025 - Present | TN 90 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408645 (fetched 2026-10-04)
+
+D. Process when Treasury returns the funds to SSA
+Treasury returns the funds to SSA, unless they receive a protest from the FI that
+needs investigation. Treasury forwards the FMS-135 to SSA for action.
+1. Title II
+Technicians must post the amount of the credit on the FS-135 to the Payment History
+Update System (PHUS) by completing an input on the SSA-4208. The input on the SSA-4208
+reduces the amount of the incorrect payment on the Special Payment Amount (SPA). If
+posting does not take place, a reject goes to the PC. The PC must then resolve the
+reject and key the return using the SSA-4208. For SSA-4208 processing instructions,
+see GN 02408.626C and SM 00609.865.
+NOTE: Some rejects require a MACADE input instead of an SSA-4208.
+2. Title XVI
+The funds are automatically posted. Treasury sends the Division of Benefit Certification
+and Systems Analysis (DBCSA) an FMS-135 to notify SSA of the reclamation. If the funds
+have not posted, DBCSA codes a 3969 and gives it to ODIO for input. The information
+posts to the SSR OPRR field as a refund or an S posts to Payflag 3 for the check in
+PMTH.

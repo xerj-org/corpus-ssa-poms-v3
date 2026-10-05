@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02406.300 - Original and Courtesy or Replacement Check Cashed – Double Check Negotiation (DCN) – Potential Overpayment
+Effective Dates: 04/26/2013 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406300 (fetched 2026-10-04)
+
+D. Procedure - Field Office Action - Title XVI
+1. General
+a.
+Send the overpayment notice (i.e., the SSA 8170, SSA-8171, or SSA 8172).
+b.
+Prepare a file for the blank FMS-1133, check photocopies, and the FMS-3858.
+c.
+Make the usual system input (notice date, collect decision, etc.).
+2. Recipient deceased
+See GN 02406.300C.2. and SI 02101.003 (SSI Underpayment Due – Individual Deceased – General).
+3. Mass loss
+See GN 02406.700 for complete description and action to be taken when a DCN occurs.
+4. Recipient protests the overpayment
+See GN 02406.310.
+5. Overpayment not protested/appeal not filed
+After 60 days, if an appeal is not filed or an overpayment is not protested, add the
+phrase, “DCN Abuse - Input as C-stop through mm/yy” in the RMKS segment field. Additional
+DCN abuse should not occur during this period; however, if it does, change the date
+to reflect the new 24-month period.
+EXAMPLE: A claimant incurs a DCN in July, 2006. Because the claimant has abused the system,
+the warning statement should be put in Remarks/Special Message as: "DCN Abuse - Input
+as C-stop through July, 2008." Any non-receipt allegations made from July 2006 through
+July, 2008 will be input as a C-stop; allegations beginning in August 2008 can be
+input as a B-stop.

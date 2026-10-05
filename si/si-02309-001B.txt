@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - SI 02309.001 - Critical Birthday Diaries - Supplemental Security Income (SSI)
+Effective Dates: 09/24/2014 - Present | TN 30 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502309001 (fetched 2026-10-04)
+
+B. Process
+1. Setting and Maturation of Critical Birthday Diaries
+At the beginning of the fiscal year (FY) in which an individual attains a critical
+birthday age,
+a.
+The system sets a critical birthday diary (KB, KC, KE, K8, K9, or KP) on records in
+current payment status (i.e., PSY: C01). The KB diary is also set for individuals
+attaining age 18 within the FY. The diary is set in the monthly redetermination merge
+runs.
+b.
+Diaries mature in the month of age attainment. Attainment occurs on the day preceding
+the recipient's birthday (see GN 00302.400).
+2. Selection of a KB Diary
+The Post Entitlement Operational Data Store (PE ODS) system selects a record with
+a KB diary as a middle-error profile (MEP) scheduled redetermination (RZ), profile
+K, in the month a recipient attains age 18. However, a KB diary does not preclude
+selection of a record as:
+•
+A profile D RZ, either prior to or at the time the system would normally select the
+case as a profile K RZ; or
+•
+A limited-issue diary case before the month of age attainment.
+Follow procedures in SI 02309.003.
+3. Selection of a KC Diary
+The system selects a KC diary as a limited issue or an RZ when a recipient attains
+age 90 in the FY or is already over age 90. Determine if Title XVI recipients age
+90 or older are alive and develop any additional post eligibility issues (e.g., capability,
+change in payee, living arrangements, income and resources). Follow procedures in
+SI 02309.006.
+4. Selection of a KE Diary
+The system selects a KE diary as a limited issue or an RZ when certain eligible individuals
+who reside in either Massachusetts (see SI 01415.035F) or Nevada (see SI 01415.035I) attain age 65 (see SI 00501.300).
+5. Selection of a K8/K9 Diary
+When an ineligible individual attains age 65, the system selects a K8/K9 diary as
+a limited issue or an RZ and we must make a determination for potential entitlement
+.
+•
+A K8 is set when the ineligible individual is a parent, spouse, or essential person.
+•
+The K9 is set when the ineligible individual is a parent or essential person. Prior
+to 10/93, a diary was set when the ineligible individual received a Veterans Affairs
+pension based on need (type E income).
+6. Selection of a KP Diary
+The KP diary sets in October at the beginning of the FY when:
+•
+One member of an eligible couple attains age 62 to 64 in the FY and does not receive
+Title II benefits, but the other member of the couple does receive Title II benefits.
+Both members of the couple must be in current pay status (C01); OR
+•
+A claimant in current pay status (C01) attains age 62 to 64 in the FY, and does not
+receive Title II benefits, but their ineligible spouse does receive Title II benefits.
+The diary matures in the month before the month of age attainment. Follow procedures
+in SI 02309.007.

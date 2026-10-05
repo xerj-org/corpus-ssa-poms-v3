@@ -1,0 +1,296 @@
+SSA Program Operations Manual System (POMS) - SI 00502.100 - Basic SSI Alien Eligibility Requirements
+Effective Dates: 11/30/2023 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502100 (fetched 2026-10-04)
+
+A. Policy - Alien Eligibility Under Welfare Reform
+In general, beginning with the passage of the Personal Responsibility and Work Opportunity
+Reconciliation Act of 1996 (PRWORA), P.L. 104-193 on August 22, 1996, most aliens
+must meet two requirements to be eligible for SSI:
+•
+The noncitizen must be in a “qualified alien” category (see SI 00502.100A.2), and
+•
+Meet an exception condition for qualified aliens (see SI 00502.100A.3).
+IMPORTANT: Wherever used in this subchapter, the term “eligible alien” refers to an individual
+whose alien status potentially permits receipt of SSI. To actually receive benefits,
+an eligible alien must also meet all other SSI factors of eligibility. For example,
+the alien must be aged, blind or disabled and have income and resources that are within
+the allowable limits.
+REMINDER: The Systematic Alien Verification for Entitlements (SAVE) program is the designated
+tool for verifying immigration status with the Department of Homeland Security (DHS)
+and provides timely, authoritative information to support eligibility determinations.
+We must reverify the immigration status of noncitizens during initial claim and post-eligibility
+situations through the SAVE program, regardless of the type or appearance of the immigration
+document presented. This includes noncitizen SSI initial claims prior to approval,
+redeterminations, and immigration status changes. The SAVE program is the designated
+tool for reverifying immigration status with DHS and provides timely, authoritative
+information to support eligibility determinations. For SAVE verification procedures,
+see GN 00303.610 through GN 00303.640.
+1. Applicability of P.L. 104-193 and Its Amendments
+The provisions of the Personal Responsibility and Work Opportunity Reconciliation
+Act of 1996 (PRWORA, P.L. 104-193) and its subsequent amendments are applicable for
+most aliens applying for SSI. However, if one of the following conditions is met,
+then the alien is exempt from the SSI noncitizen provisions of P.L. 104-193 and its
+amendments:
+•
+The individual was receiving SSI after 7/96 based on an application filed before 1/1/79
+and there is no convincing evidence that the recipient is an alien who would be ineligible
+under the PRWORA (SI 00502.120); or
+•
+The individual is an American Indian born in Canada and they are at least 50% Indian
+blood (SI 00502.105B.1); or
+•
+The individual is a noncitizen member of a federally recognized Indian tribe (SI 00502.105B.2).
+2. Who Is a Qualified Alien
+There are eight categories of qualified aliens. Seven of the qualified alien categories
+are based on Department of Homeland Security (DHS) immigration statuses. One category
+is deemed qualified alien based on a finding that an individual (the alien, the alien’s
+child, or the alien’s parent) meets certain “battery or extreme cruelty” criteria
+(SI 00502.116).
+a. Qualified Aliens Based on DHS Status
+A qualified alien based on DHS status is an alien who, at the time they applied for,
+receive, or attempt to receive a Federal public benefit, is in one of the following
+DHS statuses:
+DHS Status
+Coded in SSI System with AR Code
+POMS reference for Evidence of Status
+Lawful Permanent Resident (LPR) in the U.S. (SI 00502.100B, SI 00502.135, and the following NOTE)
+NOTE: An "Amerasian immigrant" as defined in Section 584 of the Foreign Operations, Export
+Financing, and Related Programs Appropriations Act of 1988 (P.L. 100-202) is by definition
+LPR and thus is a qualified alien. Amerasians who enter as nonimmigrants, (e.g., foreign
+students pursuing studies in the U.S.) are not qualified aliens.
+IMPORTANT: Citizens of the Compact of Free Association States (CFA) are permanent nonimmigrants
+and, while lawfully permitted to permanently reside and work in the U.S., are not LPR (see GN 00303.400B.7), and thus are not qualified aliens. However, effective March 9, 2024, the Consolidated Appropriations
+Act, 2024 (P.L. 118-42) amended the Personal Responsibility and Work Opportunity Reconciliation
+Act of 1996 (PRWORA) to permit SSI eligibility for certain citizens of the CFA states,
+which are the Federated States of Micronesia, the Republic of the Marshall Islands,
+and the Republic of Palau. It also permitted SSI eligibility for certain spouses and
+certain children (under age 21) of citizens of the Federated States of Micronesia
+or the Republic of the Marshall Islands, regardless of the spouse's or child's citizenship
+or nationality, provided that the Micronesian or Marshallese citizen on which the
+relationship is based is serving on active duty in any branch of the United States
+Armed Forces, or in the active reserves. For more information about SSI eligibility
+for CFA citizens, see SI 00502.113.
+“K,” “S,” or “Y”
+NOTE: Enter an AR of “3” for “Amerasian immigrants”
+See GN 00303.440.
+See SI 00502.130B.1.
+Granted conditional entry pursuant to section 203(a)(7) of the Immigration and Nationality
+Act (INA) as in effect prior to 4/1/80 (SI 00502.100B).
+“F”
+See SI 00502.130B.2.
+Paroled into the U.S. under section 212(d)(5) of the INA for a period of at least
+one year (SI 00502.100B).
+NOTE: All immigration-related parole is granted under section 212(d)(5) of the INA.
+“G”
+See SI 00502.130B.3.
+A refugee admitted to the U.S. under section 207 of the INA (SI 00502.100B).
+“F”
+See SI 00502.130B.4.
+Granted asylum under section 208 of the INA (SI 00502.100B).
+“L”
+See SI 00502.130B.5.
+An alien whose deportation is being withheld under section 243(h) of the INA as in
+effect prior to 4/1/97, or whose removal has been withheld under section 241(b)(3)
+of the INA (SI 00502.100B).
+“J”
+See SI 00502.130B.6.
+An alien who is a "Cuban/Haitian entrant" under 501(e) of the Refugee Education Assistance
+Act of 1980 or in a status that is to be treated as a "Cuban/Haitian entrant" for
+SSI purposes (SI 00502.100B and SI 00502.108B).
+“X”
+See SI 00502.130B.7.
+See MS 08108.007 for instructions on completing the Alien Status page, and SM 01005.630
+for completion of the AR field when the 450SI is transmitted.
+NOTE:
+For eligibility of Special Immigrants (SI) or Non-Special Immigrants (Non-SI) (e.g.,
+Iraqi/Afghan), see SI 00502.109. For eligibility of humanitarian parolees (e.g., Ukrainian),
+see SI 00502.112.
+b. Deemed Qualified Alien Based on Battery or Extreme Cruelty
+Under certain circumstances, an alien who has been subjected to battery or extreme
+cruelty, or whose child or parent has been subjected to battery or extreme cruelty,
+can be treated as a qualified alien based on those circumstances.
+Instructions concerning deemed qualified alien status based on battery or extreme
+cruelty by a family member are contained in SI 00502.116.
+3. When A Qualified Alien Can Be Eligible for SSI
+Qualified alien status (or deemed qualified alien status for certain battered aliens)
+in and of itself is not sufficient to establish eligibility for SSI. In addition to being a “qualified alien,” the individual must meet one of the following
+additional requirements in order to be found eligible:
+a.
+Was receiving SSI on 8/22/96 and is lawfully residing in the U.S. (grandfathered qualified
+alien) (SI 00502.150); or
+b.
+LPR with 40 Qualifying Quarters (QQs) of earnings. (NOTE: There is a 5-year bar to eligibility for individuals who entered the United States
+on 8/22/96 or later unless certain exceptions apply. See SI 00502.135); or
+c.
+Veteran or active duty member of the U.S. Armed Forces, a spouse of veteran/active
+duty, or a dependent child of veteran/active duty (SI 00502.140); or
+d.
+Lawfully residing in the United States on 8/22/96 and is blind or disabled (SI 00502.142); or
+e.
+Alien is in one of five designated alien status classifications, and the status was
+granted within seven years of the date they filed for SSI (SI 00502.106). The five classifications are:
+•
+Refugee under section 207 of the INA.
+•
+Asylee under section 208 of the INA.
+•
+Alien whose deportation is being withheld under section 243(h) of the INA or whose
+removal has been withheld under section 241(b)(3) of the INA.
+•
+Cuban/Haitian entrant under one of the categories in Section 501(e) of the Refugee
+Education and Assistance Act of 1980 or alien in a status that is to be treated as
+a Cuban/Haitian entrant for SSI purposes (see SI 00502.108B)
+•
+“Amerasian immigrant” under section 584 of the Foreign Operations, Export Financing,
+and Related Programs Appropriations Act of 1988. “Amerasian immigrants” are by definition
+LPR, thus they are qualified aliens. If an individual is an “Amerasian immigrant,”
+and meets no other condition permitting eligibility, then they are potentially eligible
+for seven years beginning with the date “Amerasian immigrant” status was granted.
+Amerasians who enter as nonimmigrants, (e.g., foreign students pursuing studies in
+the U.S.), cannot be qualified aliens.
+IMPORTANT: A qualified alien in one of these five classifications may be eligible for SSI for
+seven years beginning with the date the status was acquired. However, if a qualified
+alien in one of these five classifications meets one of the other conditions for eligibility
+in SI 00502.100A.3.a through SI 00502.100A.3.d, then the 7-year time limitation on eligibility does not apply. For eligibility of
+Special Immigrants (SI) or Non-Special Immigrants (Non-SI), (e.g., Iraqi/Afghan),
+see SI 00502.109. For eligibility of humanitarian parolees (e.g., Ukrainian), see
+SI 00502.112.
+See SI 00502.106C.3 for when an aged alien appeals the loss of SSI under the 7-year rule by alleging
+that they are currently blind/disabled and was lawfully residing in the U.S. on 8/22/96.
+Continued benefits under Goldberg-Kelly may be payable in this situation.
+4. Aliens Who Filed for SSI Prior to 8/22/96
+For the pre-8/22/96 period in the life of an SSI application, an alien is subject
+to the alien eligibility rules that were in effect prior to 8/22/96 (the date of enactment of P.L. 104-193, the 1996 welfare reform law) and we apply
+the alien eligibility policy in SI 00501.400 and GN 00303.001.
+As described in SI 00501.400 and GN 00303.001, for periods prior to 8/22/96, an individual who was a Lawful Permanent Resident
+(LPR) or who was permanently residing in the U.S. under color of law (PRUCOL) was
+potentially SSI-eligible based solely on those statuses. Such aliens who are determined
+to be eligible for SSI benefits for the pre-8/22/96 period would be “receiving” benefits
+on 8/22/96 and, therefore, will have their alien eligibility “grandfathered.” SI 00502.150B.1 contains the criteria for determining whether an individual was “receiving” SSI benefits
+on 8/22/96.
+EXAMPLE 1
+A LPR filed for SSI on 6/4/96. On 10/6/96, the field office (FO) determines that the
+claimant meets all SSI eligibility criteria.
+With respect to alien eligibility, the claimant is eligible for the period prior to
+8/22/96 based on their LPR status. Since the individual will be receiving SSI benefits
+on 8/22/96, their alien eligibility is “grandfathered” beginning 8/22/96. (See SI 00502.150 for the grandfathering rules that apply to qualified aliens who were receiving SSI
+on 8/22/96.)
+EXAMPLE 2
+An alien filed for SSI on 7/3/96 as a disabled individual. The FO determines that
+they entered the U.S. prior to 1/1/72 and have continuously resided in the U.S. Consequently,
+the claimant meets the PRUCOL alien eligibility criteria (SI 00501.420 and SI 00501.425). However, the State Disability Determination Service (DDS) medically denies the
+case. In 12/97, the medical denial is reversed at the hearing level.
+With respect to alien eligibility, the claimant is eligible for the period prior to
+8/22/96 based on their PRUCOL status. Since the individual is considered to be receiving
+SSI benefits on 8/22/96, their alien eligibility is “grandfathered” beginning 8/22/96.
+(See SI 00502.153 for the grandfathering rules that apply to nonqualified aliens who were receiving
+SSI on 8/22/96.)
+5. Aliens Who File for SSI On or After 8/22/96
+The 1996-1998 welfare and immigration reform laws changed the alien eligibility requirements
+for individuals who file for SSI on or after 8/22/96. For claims filed on or after
+8/22/96, only the following individuals may be eligible for SSI:
+•
+Citizens or nationals of the U.S.;
+•
+Certain American Indians born outside the U.S. (SI 00502.105);
+•
+Qualified aliens, but only under certain circumstances (SI 00502.100A.3 and SI 00502.150); and
+•
+Certain nonqualified aliens who were receiving SSI on 8/22/96 (SI 00502.153).
+IMPORTANT: For claims filed on or after 8/22/96, qualified alien status in and of itself does
+not permit SSI eligibility. For each category of qualified alien (see SI 00502.100A.2), one of certain conditions must be met in order for the alien to be SSI-eligible.
+Those conditions are described in SI 00502.100A.3 and are summarized in the chart in SI 00502.100B.
+6. When Qualified Aliens Lose SSI Alien Eligibility
+a. Effect of Change in Alien Status
+•
+General
+DHS can rescind an alien’s status, not renew a status that was granted for a finite
+period of time, or adjust the alien’s status to a different status. A previously eligible
+qualified alien who ceases to meet the alien eligibility criteria loses SSI eligibility
+effective with the month following the month in which the change in alien eligibility
+occurs.
+•
+Change in Immigration Status for 7-Year Time Limited Aliens
+If a qualified alien whose eligibility is limited to seven years obtains LPR or other
+qualified alien status during the 7-year period, the alien does not lose SSI eligibility before the applicable 7-year eligibility period ends. This applies
+to qualified aliens who were originally determined to be eligible for seven years
+based on status as refugees, asylees, aliens with deportation or removal withheld,
+and Cuban/Haitian entrants who later obtain LPR status or another qualified alien
+status during the 7-year period. (See SI 00502.106).
+NOTE: Amerasian Immigrants as defined in Section 584 of the Foreign Operations, Export
+Financing, and Related Programs Appropriations Act of 1988 (P.L. 100-202) are already
+LPR by definition. Therefore, it is unlikely that they would change to another qualified
+alien status.
+b. Loss of Eligibility Related to the “Veteran/Active Duty” Provision (SI 00502.140)
+•
+Change in Active Duty/Veteran Status
+A qualified alien who is eligible based on the veteran/active duty provision (including
+the spouse or dependent child of an active duty member/veteran) loses SSI eligibility
+the month after the month the active duty member separates from the Armed Forces with
+a discharge that is not characterized as honorable or that is based on alienage.
+•
+Spouse of Veteran/Active Duty Member
+The eligibility as a spouse of a veteran or active duty member of the Armed Forces
+ends with the month after the month any of the following occur:
+–
+Remarriage after the veteran’s or service member’s death; or
+–
+Divorce or annulment of the marriage; or
+–
+A determination that a marital relationship does not exist for Title II eligibility
+purposes and no “holding-out” relationship exists for SSI purposes; or
+–
+Separation of the individual and the “holding-out” spouse, which results in the individual
+not being considered a member of a couple for SSI purposes; or
+–
+The active duty member separates from the Armed Forces with a discharge that is not
+characterized as honorable or that is based on alienage.
+•
+Unmarried Dependent Child of Veteran/Active Duty Member
+The eligibility as an unmarried dependent child of a veteran or active duty member
+ends with the month after the month any of the following occur:
+–
+Marriage of the child; or
+–
+Loss of dependent status (SI 00502.140E.2.c); or
+–
+The active duty member separates from the Armed Forces with a discharge that is not
+characterized as honorable or that is based on alienage; or
+–
+Legal adoption by someone other than the veteran or active duty member of the Armed
+Forces or their spouse; or
+–
+Any of the four marital events listed in SI 00502.100A.6.b, second bullet, for “spouse of a veteran or active duty member,” and the veteran
+or active duty member is the child’s stepparent.
+c. Loss of Eligibility Related to the “Battery/Extreme Cruelty” Provision
+See SI 00502.116K for posteligibility events that result in the loss of qualified alien status based
+on battery or extreme cruelty.
+d. Loss of Eligibility After 7 Years in a Time-Limited Status
+See SI 00502.106C for loss of eligibility under the 7-year rule.
+Refer to SI 00502.106C.3 for when an aged alien appeals the loss of SSI under the 7-year rule by alleging
+that they are currently blind/disabled and were lawfully residing in the U.S. on 8/22/96
+(SI 00502.142B.2). Continued benefits under Goldberg-Kelly may be payable in this situation.
+7. Nonqualified Aliens
+Aliens who are not qualified aliens are referred to as “nonqualified aliens.”
+The following categories of individuals (who were previously considered “PRUCOL” for
+SSI purposes) are nonqualified aliens under current law:
+DHS Status...
+Coded in SSI System with AR Code...
+“Silva vs. Levi” Alien
+“H”
+Deferred Action Status Alien
+“J”
+Alien Who Entered U.S. Prior to 1/1/72 and Has Continuously Resided in U.S.
+“P”
+Lawful Temporary Resident Status Pursuant to Immigration Reform and Control Act of
+1986
+“R”
+Alien Granted Voluntary Departure
+“T”
+Alien Granted Stay of Deportation
+“W”
+See MS 08108.007 for instructions on completing the Alien Status page, and SM 01005.630
+for completion of the AR field when the 450SI is transmitted.
+IMPORTANT: P.L. 105-306, the Noncitizen Benefit Clarification and Other Technical Amendments
+Act of 1998, grandfathered the alien eligibility of nonqualified aliens who were receiving
+SSI benefits on 8/22/96 (SI 00502.153). See SI 00502.150B.1 for individuals considered to have been receiving benefits on 8/22/96.

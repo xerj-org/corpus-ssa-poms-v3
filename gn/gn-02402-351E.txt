@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.351 - Coding Iceland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402351 (fetched 2026-10-04)
+
+E. Description of Iceland IDD bank data
+The data for coding IDD for Iceland comes from the International Bank Account Number
+(IBAN) provided to the beneficiary from his or her FI. The IBAN will be 26 characters.
+However, the bank data reflected on the MBR consist of 27 characters, including the
+country code of “L” for Iceland. Technicians will use the IBAN to derive the RTN and
+DAN when processing an IDD request.

@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02610.041 - How To Apply Offset
+Effective Dates: 01/06/2011 - Present | TN 33 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610041 (fetched 2026-10-04)
+
+A. Procedure — FO Title XVI offset
+•
+Count the retroactive title II benefit as though paid when due.
+NOTE:
+Prior to 9/08/95 the MBR/SSR interface automatically posts the title II benefits as
+type G income if no SSI was paid. Beginning 09/08/95 the system will not post type
+G income when the title II CMA is paid unless the Title XVI CR inputs a win code of
+D when there is no SSI eligibility that can be established. See REMINDER.
+•
+See SM 01320.040 when the interface did not post income.
+•
+Apply title XVI offset before determining any reimbursement due the State under IAR.
+REMINDER: Title II offset will apply to claims processed 9/08 /95 or later. For information
+about recomputation of windfall offset in situations with or without installment payments,
+see GN 02610.050C.2.

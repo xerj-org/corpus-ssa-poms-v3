@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 28084.005 - Identifying Information (Items 1 to 7)
+Effective Dates: 10/27/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428084005 (fetched 2026-10-04)
+
+J. Item 5 - date disability began
+1. SSA-831-U3 available
+Enter the established onset date from Item 15A or Item 18B of the latest approved
+SSA-831-U3 in file or the date in the Date of Disability Onset (DDO) field of the
+Disability Insurance Benefit (DIB) section of the Abbreviated MBR Query (AACT) or
+Supplemental Security Income Data (SSID).
+2. SSA-831-U3 not available
+Query SSA's system to obtain the date disability began, and then enter the date in
+the DDO field of the DIB section of the AACT or SSID.
+3. Title II or Title XVI case statutory blindness ends and disability begins
+Enter the latest approved onset date from the SSA-831-U3 in cases where the disabled
+individual is no longer statutorily blind, but is still disabled.
+4. Conversion cases
+Enter "before 01/01/74" if disability continued or ceased under Title XVI or the State
+plan in conversion cases.

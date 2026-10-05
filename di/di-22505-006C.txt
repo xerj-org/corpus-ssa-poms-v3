@@ -1,0 +1,98 @@
+SSA Program Operations Manual System (POMS) - DI 22505.006 - Requesting Evidence - General
+Effective Dates: 03/14/2023 - Present | TN 52 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0422505006 (fetched 2026-10-04)
+
+C. Types of requests
+1. HIT
+Medical Evidence Gathering and Analysis Through Health Information Technology (MEGAHIT)
+creates and sends an automated request to HIT partners when the field office (FO)
+transfers an electronic case to the DDS. The DDS may also create and send a user-triggered
+request to HIT partners after case transfer, if needed. For more information on HIT,
+see DI 81020.020E. For more information on HIT partners, see SSA Health IT
+Partner Information.
+a. Period covered by automated HIT request
+For initial-level cases, the automated request covers the period from:
+•
+12 months prior to the POD to the date of the request for a Title II or a concurrent
+Title II and Title XVI case, or
+•
+12 months prior to the protective filing date to the date of the request for a Title
+XVI only case.
+For Title II and Title XVI reconsideration-level cases, the automated request covers
+the period from the date of the last HIT request at the initial level of review to
+the date of the new request. If there is not a prior HIT request, HIT will not create
+and send an automated request. The DDS must create a user-triggered HIT request per
+DI 22505.006C.1.b., in this section.
+For all continuing disability review cases, the automated request covers the period
+from 12 months prior to the date of the request.
+b. When to create a user-triggered HIT request
+The DDS creates and sends a user-triggered request to HIT partners using DCPS, or
+the MEGAHIT website for the period requested.
+Create a user-triggered request in the following situations:
+•
+There is no response to the automated HIT request five hours after submission.
+•
+There is a retrieval/conversion error.
+•
+The automated response is not sufficient (for example, the period of adjudication
+is not covered or the list of documents is blank).
+•
+The automated request does not occur in a reconsideration-level case.
+•
+We have resolved a prior SSA-827 (Authorization to Disclose Information to the Social
+Security Administration (SSA)) issue.
+•
+We identify a HIT partner as a medical source after the FO transfers the case to the
+DDS.
+•
+We need additional records after receipt of the automated response.
+NOTE: A wet-signed SSA-827 is valid for HIT partners for nine months from the date of the
+signature. In addition, some HIT partners only accept an e827.
+IMPORTANT: HIT allows up to ten user-triggered requests to all HIT partners at each level of
+adjudication.
+c. When to create a traditional request to HIT partners
+HIT is the preferred type of request because it promotes expedited and efficient case
+processing. The DDS must review the evidence received in the automated HIT response
+before requesting evidence from HIT partners through a traditional request.
+Make a traditional request for records only when the evidence needed is not available
+through HIT, such as:
+•
+The HIT response indicates a claimant or beneficiary cannot be found.
+•
+The HIT partner does not share sensitive records.
+•
+Policy requires graphical evidence (e.g., images or tracings) for abnormal testing.
+•
+A medical consultant (MC) indicates that the DDS needs graphical evidence for testing.
+NOTE: Most HIT partners share sensitive records, which makes a traditional request for
+sensitive records a rare occurrence. For the list of HIT partners that do not share
+sensitive records, refer to local DDS procedures.
+d. When to request graphical evidence for abnormal testing
+Certain types of tests provide graphical evidence (for example, images or tracings)
+that are not included in the HIT standard document. For information on the HIT standard
+document, see DI 81020.020E.
+Create and send a traditional request to HIT partners for graphical evidence when
+the testing is abnormal for:
+•
+Visual field tests.
+•
+Audiograms.
+•
+Pulmonary function tests (PFT).
+•
+Cardiac stress tests.
+A traditional request to HIT partners may also be needed for graphical evidence when
+the testing is abnormal for:
+•
+Electrocardiograms (ECG) when required to meet or medically equal a cardiovascular
+listing.
+•
+Other tests with graphical evidence (for example, Doppler studies or Holter monitors)
+when requested by the MC.
+NOTE: A traditional request for other testing with graphical evidence should be rare and
+depends on individual case facts.
+2. Traditional requests
+The DDS creates a traditional request using DCPS and sends the request to the medical
+source by mail, fax, or the request function of ERE. Make requests clear and concise
+to elicit the types of evidence needed to support the claim.
+For when to send a traditional request to HIT partners, see DI 22505.006C.1.c., in this section.

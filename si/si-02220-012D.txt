@@ -1,0 +1,367 @@
+SSA Program Operations Manual System (POMS) - SI 02220.012 - Collection of Title XVI Overpayments by Tax Refund Offset (TRO)
+Effective Dates: 02/20/2025 - Present | TN 132 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220012 (fetched 2026-10-04)
+
+D. Handling debtor inquiries or protests - preoffset
+In most cases, the debtor has previously been given ample opportunity to dispute the
+overpayment and repay the debt. However, there are situations where the selection
+for TRO may be erroneous because SSA's records contain outdated or incorrect information.
+Although the time period to request reconsideration of the overpayment determination
+has passed, under the TRO process, the debtor has the right to object to the collection
+of a debt on the basis that all or part of the debt is not past-due or not legally
+enforceable (see SI
+02220.012B, SI
+02220.012C, and SI
+02220.012E.6 in this section). This section explains how to handle specific inquiries, protests
+and allegations prior to certification and offset.
+1. Request for explanation of overpayment
+If a request for an explanation of the overpayment is received, use the SSID to provide
+an explanation of the overpayment. Keep explanations generic to the extent possible.
+For example: "You were no longer disabled as of 05/24 and continued to receive checks
+through 12/2."
+a. PC and TSC action
+If online queries contain insufficient information or unresolvable discrepancies,
+proceed as follows:
+•
+On the MSSICS Update Sequence Data (UOSD) screen (see MS 00304.006):
+–
+Select EXPLANATION OF OVERPAYMENT to suspend billing.
+•
+Refer a priority Modernized Development Worksheet (MDW) to the jurisdictional FO
+–
+Request the FO provide an explanation to the debtor.
+•
+Annotate the referral Necessary Action - TOP/Credit Bureau Case - Do Not Backlog.
+b. FO action
+If the FO received an explanation request from the PC or TSC via an MDW:
+•
+Provide a satisfactory explanation to the debtor,
+•
+Remove the suspend billing code via the MSSICS Update Sequence Data (UOSD) screen,
+see MS
+00304.006.
+2. Request for explanation of TRO
+a. General response
+If a request for an explanation of TRO is received, explain the following:
+•
+Congress passed a law which allows Treasury to withhold delinquent overpayments from
+federal payments, including income tax refunds, due the overpaid person.
+•
+The pre-offset notice also contains an explanation of TRO.
+No systems input is needed to document the request for explanation of TRO or other
+external collections (ECO) tools
+b. Specific debt response
+If the debtor ask for an explanation of a delinquent or legally enforceable debt,
+see SI
+02220.012B and SI 02220.012C in this section.
+3. Request for waiver
+If a request for waiver is received,
+•
+Obtain an SSA-632-BK in accordance with current instructions in GN 02250.001 and GN
+02250.002.
+•
+Advise the debtor that TRO remains in effect until SSA received a completed and signed SSA-632-BK (or its equivalent).
+When the signed form (or other request) is received
+•
+Input the waiver request via the Direct SSR Update Waiver (UOWV) screen (see MS
+00304.009and SM 01311.423).
+Do not delay recording the request once written documentation is received. Process in accordance
+with GN 02250.002.
+4. Request to inspect SSA's record
+In all situations, the FO will attempt to satisfy the review request without the need
+to obtain the paper claims folder. However, if the debtor wishes to review the folder
+you must obtain it (for SSI folder recall, see SM
+01201.205).
+If the debtor ask to review records:
+•
+In person at the FO - obtain all systems queries and explain what the queries show.
+•
+By telephone to the FO - set up an appointment for a review of the queries. Schedule
+the appointment well in advance of the 60-day time limit; emphasize the debtor must
+submit evidence.
+•
+To a PC or TSC - advise the FO, via a priority MDW, to contact the debtor to set up
+an appointment. Annotate the MDW accordingly, "Urgent-TOP/Credit Bureau Case."
+If the FO has not conducted a folder review before due process has expired, add EXPLANATION OF OVERPAYMENT
+on the Update Sequence Data (UOSD) screen in Direct SSR Update until the necessary
+review of the record is complete, see MS
+00304.006.
+NOTE:
+Certification occurs no less than 60 days after the date of the pre-offset notice.
+5. Request for installment payments
+If the debtor wants to repay the debt by monthly installments, to negotiate a reasonable
+monthly payment amount follow SI
+02220.025B.2.
+Advise the debtor the debt of the following:
+•
+The debt will remain eligible for TRO until the first payment is received;
+•
+The debt will not be referred to TRO as long as payments are made according the agreement.
+•
+Send the installment payment to:
+–
+pay online using the information provided in the pre-offset notice, or
+–
+the address shown on the Payment Stub form attached to the pre-offset notice, or
+–
+as a last resort, the remittance address (MATPSC, P. O. Box 3430, Philadelphia, PA
+19122-9985) if the debtor does not have the form.
+•
+Record the name and claim number on the remittance payment to ensure proper posting
+for the beneficiary.
+•
+Upon default of one or more installment payments, the debt will be referred to Treasury
+for collection, where it will remain until the debt is satisfied.
+The debtor may subsequently offer to resume regular installment payments. The payments
+will be accepted and applied towards the debt, but TRO will not be deactivated until
+the debt is paid in full.
+For instructions on adding the installment agreement G TAC, on the SSR, see SI
+02220.025B.2,SM 01311.235, and MS
+00304.008).
+6. Debtor objects to collection of debt
+A debtor may object to collection of the debt for two reasons:
+•
+They object to SSA's determination the debt is past due and legally enforceable.
+•
+They protest the fact or amount of debt.
+If a debtor objects to collection of the debt, follow these procedures:
+a. Debtor objects to SSA's determination the debt is past due and legally enforceable
+1.
+General policy
+Under the law authorizing TRO, a debtor has the right to object to the collection
+of a debt on the basis that all or part of the debt is not past due or not legally
+enforceable, see SI
+02220.012B and SI 02220.012C. These types of protests require submission of evidence to rebut SSA's findings.
+However, there are some situations in which an effective protest to collection is
+based on only the debtor's current statement and information in the claims folder.
+2.
+Debtor objects and an external collection review is requested
+If the debtor objects the collection, advise the debtor SSA must receive any evidence
+supporting the objection within 60 days from the date of the pre-offset notice.
+Examples of evidence that could rebut SSA's determination that a debt is past due
+and legally enforceable include:
+•
+Copies of checks (front and back), money orders, and receipts showing payments that
+reduced or eliminated the debt;
+•
+A waiver approval notice;
+•
+A waiver or reconsideration request (but no SSA determination regarding that request);
+•
+A report that the debtor is deceased; or
+•
+Bankruptcy documents showing the debt was discharged or a bankruptcy petition is pending.
+NOTE: This list is not all-inclusive. SSA must evaluate any evidence submitted by the debtor
+on a case-by-case basis.
+3.
+Debtor submits evidence
+If an objection to collection is made:
+•
+Accept any evidence the debtor submits.
+•
+Input appropriate suspend billing code on the UOSD screen, if necessary (see MS
+00304.006).
+•
+Obtain:
+–
+a statement from the debtor that explains their reason(s) for objection to collection
+of the debt (e.g., Statement of other person, Form SSA-795). Do not obtain an
+SSA-561-US.
+–
+the claims folder, if available (see SI 02220.012D.4 in this section).
+–
+additional information if needed from the debtor prior to making a decision.
+•
+Review the evidence to determine if the debt is still past-due and legally enforceable
+as defined in SI
+02220.012Band SI
+02220.012C.
+–
+If yes, and the case can be adjudicated without additional information, send a notice to
+the debtor explaining why the debt is collectible (in whole or in part).
+•
+Notify the debtor of the final decision
+•
+Delete the suspend billing code by completing the MSSICS Update Sequence Data (UOSD)
+screen (see MS
+00304.006).
+If evidence to support the objection to collection of the debt is received after 60 days from the date of the pre-offset notice:
+•
+SSA will accept and review the evidence.
+•
+The debt remains in the TRO program unless evaluation of the evidence proves the debt
+is not past-due and legally enforceable.
+IMPORTANT: Since a review to determine if a debt is past due and legally enforceable is not
+an initial determination, do not include any appeal language in the decision notice.
+b. Debtor protests the fact or amount of debt
+If a debtor protests the fact or amount of a debt, obtain an SSID query (see SM
+01601.000).
+•
+If there is no indication that a request for review is pending, explain the time period
+to appeal the overpayment determination has expired and; therefore, the determination
+is final.
+•
+If good cause for extending the time limit is established, process the request as
+timely filed (see SI
+04020.020).
+•
+If the debtor indicates they have evidence that refutes SSA's records, explain the
+debt will be referred to Treasury unless we receive the evidence within 60 days from
+the date of the pre-offset notice.
+When the evidence is received follow SI
+02220.012E.6.a ,in this section.
+7. Debtor alleges non-receipt of overpayment or direct deposit payment
+If a debtor alleges non-receipt of the overpayment check(s) or direct deposit payment(s),
+obtain an SSID query or Q query.
+If the query shows no record of non-receipt of the payment(s) in question, proceed
+as follows:
+•
+If the debtor had a representative payee, explain that we sent the payment(s) to the
+payee and there is no indication the payee did not receive the payment(s).
+•
+If there was no representative payee, explain that our records did not show any evidence
+of a non-receipt allegation at the time the initial overpayment notice was sent.
+•
+If the debtor insists that we provide a photocopy of the check(s) in question,
+–
+Explain that we will investigate but our system will refer the debt to Treasury for
+offset.
+–
+We will repay any erroneous offset if our investigation supports the non-receipt allegation.
+To process the non-receipt allegation for a check follow GN 02406.130 and for a direct deposit payment GN
+02406.007. DO NOT MAKE a suspend billing code input.
+If the date of the alleged missing check is more than 12 months in the past, see GN
+02401.901 through GN 02401.920 for processing limited payability non-receipt cases.
+NOTE:
+If the investigation shows a copy of the check is not available, presume the debtor
+received the check. We will determine the overpayment occurred and the debt remains
+subject to collection.
+8. Debtor makes a compromise offer
+If the debtor makes a compromise offer, process in accordance with existing instructions
+in SI 02220.030 and sensitive instructions SI 02220.031.
+If SSA agrees to the offer, stress that payment must be received by us before the
+60-day due process period expires or we will report the debt to TOP.
+9. Debtor alleges non-receipt of initial overpayment notice
+If a debtor alleges never receiving the initial overpayment notice, proceed as follows:
+a. PC/TSC action
+•
+Request from the debtor
+–
+a statement regarding non-receipt of the notice, and
+–
+their current address and telephone number.
+•
+Provide the address and telephone number of the FO that services the debtor.
+•
+Forward the material to the FO annotated "Necessary Action TOP/Credit Bureau Case
+Do Not Backlog."
+•
+Explain to the debtor that TRO will continue to apply unless we can confirm their
+allegation.
+b. FO action
+Request from the debtor
+•
+a statement regarding non-receipt of the notice
+•
+their current address and telephone number.
+Request the claims folder if not currently available, in the FO as the result of a
+folder review request (see SI 02220.012E.4 in this section),
+Review the claims folder to determine if the notice was returned as undeliverable.
+If the claims folder is in the FO as the result of a folder review request check for
+an undeliverable notice, see SI
+02220.012E.4.
+Review the claims folder to determine if the notice was returned as undeliverable.
+1.
+Not returned undeliverable
+If there is not evidence to support the debtor's allegations, advise the debtor accordingly
+(by telephone, if possible):
+•
+Explain that since there is no evidence the notice was returned as undeliverable by
+the post office, we must proceed on the assumption the notice was received,
+•
+Document the folder with any debtor contact information.
+2.
+Returned undeliverable
+If returned undeliverable, verify we did not mail a subsequent notice.
+a.
+Subsequent notification
+If we mailed a subsequent notice, advise the debtor (by telephone, if possible) of
+the date we sent the new notice.
+b.
+No subsequent notification
+If we did not mail a subsequent notice, the debtor has the right to a full administrative
+review process.
+Therefore,
+•
+Send an initial overpayment notice to the debtor's current address, and overlay the
+old notice date with the new notice date using the UOSD screen in Direct SSR Update
+(see MS
+00304.006).
+•
+If the debtor is in the FO, give them the initial overpayment notice.
+•
+If there is a disposition code on the SSR (e.g., DB, DC, DM, or M TAC), delete the
+old disposition code by completing the MSSICS Add/Change/Delete Overpayment Decisions
+(UODC) screen to avoid an excess decision (see MS 00304.007).
+The new notice date will overlay the old and an unresolved overpayment will be computed.
+NOTE:
+The above action will delete the debt from the TRO program until such time the debt
+becomes delinquent and meets all TRO selection criteria.
+10. Report of death
+For a report of death, follow this procedure:
+a. FO/TSC action
+If the FO/TSC is informed the debtor is deceased:
+•
+Obtain proof of death as required by GN 00304.001.
+•
+Input the death report via the Death Information Processing System (DIPS).
+•
+Post the following information to the SSR
+–
+passing details, and
+–
+the debt is no longer collectible (if appropriate).
+b. PC action
+If the PC is informed the debtor is deceased;
+•
+Obtain proof of death as required by GN 00304.001
+•
+Input the death report via the Death Information Processing System (DIPS).
+•
+Input the death details using the Stop Offset (TRSCO) screen.
+Access to the TRSCO screen is requested from the Debt management Menu (DMMU) function
+number 12 - Treasury Offset Menu (TRMU) screen. This input will delete the debtor
+from TOP (see MS
+01114.002 and MS 01114.003).
+Conduct any estate development in accordance with SI 02220.045.
+11. Report of bankruptcy action
+If the debtor alleges a bankruptcy petition is pending or the debt was discharged
+in bankruptcy, obtain a copy of the petition or discharge order.
+a.
+Pending bankruptcy petition
+•
+Input the allegation via the UOSD screen (see MS 00304.006 and SM
+01311.421) selecting BANKRUPTCY DECISION PENDING (and the system will build a suspend billing
+indicator of L).
+•
+Process the petition or discharge order in accordance with SI
+02220.040.
+b.
+Bankruptcy discharge
+Review a copy of the discharge to confirm the SSA debt has been discharged,
+If YES:
+•
+Select CHANGE on the Add/Change/Delete UODC screen in Direct SSR Update (see MS
+00304.007).
+•
+Change the decision, if present, to an UNCOLLECTABLE (see MS 00304.008) (N/NT TAC) decision to prevent any further collection activity (see SM
+01311.280).
+If a suspend billing code is present, delete the suspend billing code using the UOSD
+screen (see MS
+00304.006).
+If NO:
+•
+The SSA debt is not listed on the discharge. Make no system input.
+•
+Process the case in accordance with SI
+02220.040.

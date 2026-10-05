@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - SI 02309.010 - Processing the Insured Status (KZ) Diary - Supplemental Security Income (SSI)
+Effective Dates: 09/26/2023 - Present | TN 30 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502309010 (fetched 2026-10-04)
+
+A. Introduction to the KZ diary selection process
+The Supplemental Security Record (SSR) sets the KZ diary for eligible recipients and
+eligible spouses who may qualify for a Title II benefit. The process to determine
+insured status occurs semi-annually.
+Beginning December 2017, the KZ diary selection process expanded to include statutory blind insured status.
+Statutory blindness under both Title II and Title XVI:
+•
+means a central visual acuity of 20/200 or less in the better eye with the use of
+a correcting lens; and
+•
+considers an eye that has a limitation in the field of vision where the widest diameter
+of the visual field extends to an angle no greater than 20 degrees as having a central
+visual acuity of 20/200 or less.
+For more information about statutory blindness for Title II and Title XVI, see DI 26001.001 and DI 10105.070.
+The KZ diary sets only on an SSR in current pay, force due, or 1619(b). For more information
+on 1619 Policy Principles, see SI 02302.010.
+The KZ diary indicates the recipient may:
+•
+be fully insured for Title II retirement benefits (see RS 00301.105);
+•
+be fully insured for Title II disability benefits and meet the 20/40 requirement for
+Title II disability benefits (see RS 00301.120); or
+•
+meet the special insured status requirement for recipients disabled prior to age 31
+(see RS 00301.140); or
+•
+meet the statutory blind insured status when the SSR contains a primary or secondary
+diagnosis code of 3694 indicating statutory blindness, or an ID code of BI, BC, or
+BS.
+The SSR does not set a KZ diary if the recipient receives, or has received, Title
+II benefits on their own record. However, the SSR sets the diary for a recipient who
+receives Title II auxiliary or survivor's benefits. For retirement insured status,
+the recipient must be age 61 years and 9 months, or older, at the time of the redetermination
+run that sets the KZ diary.
+For more information about the SSR criteria for the KZ diary selection, see SM 01501.250B.
+NOTE:
+The system tests all periods from the Supplemental Security Income (SSI) date of onset
+(DOO) and reviews the period beyond the DOO with the exception of statutory blindness
+cases (see EXCEPTION in SI 02309.010A in this section).
+The SSR uses all quarters of coverage earned through the test quarter. If an alleged
+earlier disability onset arises again. consider an alleged earlier disability onset
+when you process the KZ diary. Consider if collateral estoppel applies, see DI 11011.001.
+EXCEPTION:In statutory blindness cases, the KZ diary process uses the date of birth rather than
+the SSI date of onset. If you find blind insured status, the recipient requires a
+Title II medical determination. Do not adopt Title XVI statutory blindness determinations because duration, onset, and substantial
+gainful activity requirements differ in Title II and Title XVI statutory blindness
+cases.

@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 03940.020 - Title II — Processing Center Processing of Fee Agreements on Initial Level Claims
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940020 (fetched 2026-10-04)
+
+H. Claim Results in No Past-Due Benefits
+•
+NOT2 for FEE Agreement Type - Leave blank.
+–
+MCS will automatically code ATY04 to the DW01 when NOT2 "Fee Agreement Type" is blank.
+•
+NOT2 for Fee Agreement % - Leave blank.
+•
+NOT2 for Fee Agreement Amount - Leave blank.
+•
+NOT2 for Last Withholding Date - Enter the month prior to the month of adjudication,
+see GN 03920.030B.
+•
+On the DW01 screen, receipt in the automatic ATY04 with "XXXXXX."
+•
+Add a new issue for ATY00.
+–
+Add the remark "no past due benefits" next to the ATY00 issue.
+•
+Add an RPOC to document disapproval of the fee agreement because no past-due benefits
+are involved.
+•
+The Notice must advise the claimant and the representative(s) that the representative
+must file a fee petition to charge and collect a fee.
+–
+For cases adjudicated via MCS EC, no additional notices are required; MCS will generate
+the correct notice.
+–
+For cases not adjudicated via MCS EC, include attorney notices on the A101 or EF101
+in the remarks/notice fields, and technicians should include ATYR15.
+NOTE: If the representative assigned direct payment of their fee to an entity and we receive
+information or discover that the representative has died, send a copy of this notice
+to the entity’s point of contact (POC). For information on assignment of direct payment
+of fees, including the roles and responsibilities of a POC, see GN 03920.021.
+•
+Delete the automatic 098/099 diary on DECI screen, since there are not past-due benefits
+and SSA will not control for cases that do not result in past-due benefits.
+•
+After adjudicating the claim via MCS EC, on the following business day, the technician
+will add a special message to the record showing the representative's name and adding
+remark, "Case resulted in no past-due benefits, fee petition, fee paid by claimant."
+•
+For cases adjudicated via MACADE, technicians will provide the special message to
+the BA.
+NOTE: These instructions apply to Title II-only cases. For concurrent cases, the "Fee Agreement
+Type" should be coded as approved unless past due benefits for Title XVI are known.
+If there are no past-due benefits for Title II and Title XVI, the "Fee Agreement Type"
+is coded using the instructions above.

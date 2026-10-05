@@ -1,0 +1,351 @@
+SSA Program Operations Manual System (POMS) - DI 52120.030 - California Workers' Compensation (WC)
+Effective Dates: 03/22/2017 - Present | TN 17 (10-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120030 (fetched 2026-10-04)
+
+C. How California makes WC payments
+Private parties primarily administer California WC, which includes authorized insurance
+companies and self-insured employers.
+The state Workers' Compensation Appeals Board (WCAB) oversees the provision of WC
+benefits and resolves disputes.
+This section describes how WC payers in California make WC payments under state law.
+Additionally, it provides instructions on how to treat these payments for SSA offset
+purposes.
+1. WC payers
+•
+Insurance carriers - Licensed by the state to transact WC
+•
+State Compensation Insurance Fund (SCIF) – A state agency that operates by charter
+as a not-for-profit insurance carrier
+•
+Self-insured employers
+•
+Third-party administrators - Service organizations hired by self-insured employers.
+For example, Cambridge Integrated Services Group, Inc.
+•
+Uninsured employers - The state’s Uninsured Employers Benefits Trust Fund (UEBTF)
+helps with payment of WC benefits to workers injured on the job when employers fail
+to insure their workers despite the requirement. These payments are subject to offset.
+Payments made directly by uninsured employers in lieu of WC are also subject to offset.
+2. Periodic payments
+Periodic payments can be TD or PD benefits. A key factor in distinguishing between
+TD benefits and PD benefits is the “permanent and stationary” (P&S) date. The P&S
+date, as determined by a doctor's report, is the point in time at which no further
+medical improvement is expected.
+a. Temporary Disability
+WC Type
+How Awarded and Paid
+Amount for SSA Offset
+Temporary total disability
+Payable if the disabled worker cannot do any work
+•
+Awarded at a 7-day weekly rate; paid bi-weekly
+•
+Rate based on date of injury and subject to minimum and maximum limits per DI 52150.045
+•
+2-year, 104-week limit from date of first TTD payment for injuries April 19, 2004
+to December 31, 2007 (with certain exceptions); 5-year, 104-week limit from date of
+injury for injuries January 1, 2008 or later*
+•
+Payments end when disabled worker can or does return to work or when doctor determines
+that condition is P&S
+•
+If payment is late, a 10 percent penalty to the WC payer may be added
+•
+VRTD payments are TD payments (same rate and payment schedule) made while a worker
+is temporarily disabled and participating in vocational rehabilitation under an individualized
+plan
+•
+Use the weekly or bi-weekly amount for Interactive Computation Facility (ICF) input.
+•
+Amounts designated as penalties, if known, are not subject to offset per DI 52105.015.
+Temporary partial disability
+Payable if the disabled worker can do some work and the employer offers this type
+of work.
+•
+Awarded and paid as per TTD
+•
+Use the weekly or bi-weekly amount for ICF input.
+*No limit on duration of payments for injuries January 1, 1979 to April 19, 2004 except
+for TPD which was limited to 240 weeks within a period of 5 years from date of injury
+b. Permanent Disability
+WC Type
+How Awarded and Paid
+Amount for SSA Offset
+Permanent partial disability
+Payable when a worker's condition becomes P&S – even if working
+•
+Awarded at a seven day weekly rate; paid bi-weekly
+•
+Payable for a fixed number of weeks based on percent of disability, date of injury,
+and wages
+•
+Considered a PDA against anticipated future lump sum settlement
+•
+If a person is determined to be 70-99.75 percent disabled, a nominal life pension
+is payable after PP ends
+•
+Occasional one-time “hardship” lump sum PDA payments payable at carrier's discretion,
+if requested (usually in amounts ranging from $500 to $2000)
+•
+Payments end when maximum amount allowed by law has been paid or a lump sum payment
+settles the case
+•
+LS settlement usually reduced by PDAs
+•
+If payment is late, a 10 percent penalty to the WC payer may be added
+•
+For injuries occurring January 1, 2005 to
+December 31, 2012 (eliminated for injuries
+occurring January 1, 2013 or later):
+•
+PD payments increase by 15 percent effective 60 days after the P&S date if the employer
+has 50 or more employees and does not make a timely offer of return to work. In this
+situation, the increased PD rate may exceed the TD rate.
+•
+If the employer makes a timely offer of return to work, PD payments decrease by 15
+percent effective from the offer date
+Before settlement:
+•
+Treat as periodic payment using weekly or bi-weekly rate.
+•
+Amounts designated as penalties, if known, are not subject to offset per DI 52105.015.
+•
+PDAs that overlap awarded TD or VRMA* payments are not subject to offset at the time
+of payment; control for adjustments after the WC claim is settled.
+•
+One-time lump sum PDA:
+a.
+If you see an LS PDA paid in addition to ongoing bi-weekly PD payments, do not offset
+for the LS PDA. You should diary to start after the WC claim settles.
+b.
+If an LS PDA is paid but no ongoing PD payments are being made, ascertain the PP rate
+and prorate the LS beginning the day after the last TD or VRMA payment (or the date
+of injury if no prior periodic payments were made). Do not overlap with TD or VRMA.
+Diary to make any needed adjustments when the WC claim is settled. Include AURORA
+paragraph PCWCP5004 in the notice.
+At settlement:
+•
+If PDAs were subtracted from gross LS, prorate gross LS and treat PDAs (including
+one-time lump sum PDAs) as “not paid”.
+•
+For more information on LS awards involving advance payments, see DI 52150.065C.
+Permanent total disability
+•
+Awarded at a seven day weekly rate (equal to TD weekly rate) for life; paid bi-weekly
+•
+Disability rating 100 percent
+•
+Rare
+•
+PDA and penalty information shown for PPD also applies to PTD
+•
+Use the weekly or bi-weekly amount for ICF input.
+•
+See PPD for treatment of PDAs and penalties.
+Return-to-Work Supplement Program (RTWSP)
+•
+One-time supplemental payment of $5,000.00
+•
+Regulations implemented April 13, 2015
+•
+Must have a date of injury on or after January 1, 2013 and have received SJDB voucher
+for said injury (see DI 52120.030B )
+•
+Provides supplemental payments to workers whose PD benefits are disproportionately
+low in comparison to their earnings loss
+Before settlement:
+•
+Treat as periodic payment using the existing PD or last existing PD rate.
+•
+If you see the RTWSP benefit paid in addition to ongoing periodic payments, do not
+offset for the RTWSP payment. Diary to start after the periodic payments end.
+•
+If the RTWSP benefit is paid, but no ongoing periodic payments are being made, use
+the last PD rate and prorate the RTWSP payment beginning the day after the last periodic
+payment.
+At settlement:
+If PDAs were subtracted from gross LS, prorate gross LS and treat the RTWSP payment
+as not paid.
+*EXCEPTION: PDAs that supplement VRMA up to the TD rate are subject to offset. See
+DI 52120.030G.
+c. Vocational Rehabilitation Maintenance Allowance
+When verifying WC payments for injuries before 2004 through insurance companies and
+other payers, ask that VRMA payments be included. Payers do not routinely include
+information on VRMA payments unless specifically asked.
+WC Type
+How Awarded and Paid
+Amount for SSA Offset
+Vocational Rehabilitation Maintenance Allowance
+Payable while the worker is participating in VR under an individualized plan
+If VRTD payments are involved, see DI 52120.030C.2.a.
+•
+Payable only if injured before 2004 and
+available only through December 31,
+2008
+•
+Awarded at a seven day weekly rate; paid bi-weekly
+•
+Payable if worker is P&S
+•
+Maximum $246.00/week for 52 weeks
+•
+May supplement with PDA up to TD amount
+•
+$16,000 total limit effective January 1, 1994 to December 31, 2003
+•
+Attorney fees may reduce payment by up to 15 percent
+•
+Not deducted from any settlement
+•
+Must be either specifically closed out as part of a settlement or closed out separately
+•
+Mostly, California pays VRMA in lieu of WC. These payments are subject to offset.
+See DI 52110.005 and DI 52120.030G.
+•
+Use the weekly or bi-weekly amount for ICF input.
+•
+VRMA supplemented by PDAs are subject to offset at the combined VRMA/PDA rate. However,
+if a C&R LS award settles a WC claim, revise the prior offset to exclude the PDA supplement
+if the C&R subtracts the PDAs. See DI 52120.030G.
+3. Types of negotiated settlements under California law
+Most WC cases in California settle through a C&R or a Stipulation with Request for
+Award (STIPS) without going to trial. If a settlement between the worker and the insurance
+company cannot be negotiated using one of these options, the case may go to trial
+before a WCAB judge. The judge issues a decision called a Findings and Award (see
+Exhibit 3 in DI 52120.030L).
+Attorneys may structure or characterize settlements in various ways, so actual settlements
+may include elements that are not binding on SSA. For example, if a lump sum award
+is characterized as representing payments over the worker's expected remaining life,
+see DI 52150.065A. For information on subsequent addenda to LS awards, see DI 52150.065E.
+Settlement Type
+SSA
+Terminology
+How Awarded and Paid
+Compromise & Release
+Lump Sum
+•
+A final settlement that cannot be reopened
+•
+Paid in a lump sum
+•
+The worker must give up rights to: future medical, reopening the claim, and any further
+TD or PD benefits (VR may be settled separately)
+•
+Explains who is responsible for disputed medical bills and liens (including state
+EDD liens)
+•
+May include a structured settlement
+•
+May include a purchased annuity
+•
+Generally do not specify a rate, a period, or the type of WC (for example, PP)
+•
+If applicable, specifies allowable attorney fees (generally 12–15 percent)
+•
+May show rates and periods of paid TD and VRMA—this information is not always accurate
+Structured Settlement
+A C&R may incorporate a structured settlement which typically includes:
+•
+An immediate lump sum, and
+•
+Benefits to be paid at various intervals over several years.
+For more information on structured settlements, see DI 52150.065D.
+Stipulations With Request for Award
+Periodic Payment (NOT a lump sum)
+•
+An agreement that has the same effect as a judge's order guaranteeing that the claimant
+receives a set sum of money paid out on a periodic basis
+•
+Usually specifies a weekly TD rate and period
+•
+Usually specifies a weekly PD rate, a maximum amount to be paid, and a starting date.
+Paid bi-weekly
+•
+May include a lump sum catch-up PD payment
+•
+Usually specifies that any PDAs are credited against the amount of PD specified in
+the award
+•
+Does not close out the entire case (unlike a C&R)
+•
+May be one of several stipulated awards; one after the other, a C&R may follow
+•
+Usually specifies attorney fees to be commuted from the far end of the settlement.
+See DI 52120.030D
+See Also:
+•
+DI 52120.030H Lump Sum Awards
+•
+DI 52120.030I Compromise & Release
+•
+DI 52120.030J Stipulations with Request for Award for instructions on processing California LS
+and stipulated settlements.
+4. Sequence of payments by type
+Payments usually begin with TD and end with C&R. The sequences in which payers make
+payments vary considerably but generally are in the following order:
+•
+TD or PD alone, or followed by C&R
+•
+TD followed by PD (a C&R may follow)
+•
+TD followed by PD followed by VRMA (may involve multiple periods of PD and VRMA; a
+C&R may follow)
+•
+TD followed by PD followed by VRMA followed by STIPS and/or C&R (may involve multiple periods of PD, VRMA, and multiple STIPS)
+5. Cost-of-living adjustments (COLAs)
+California law currently provides for annual cost-of-living increases only for life
+pension and PTD benefits (see DI 52120.030C.2.b). These COLAs, which are effective each January 1, are available only to workers
+with injuries occurring on or after January 1, 2003.
+6. Third party
+SSA's treatment of third-party settlements in California WC cases follows normal processing
+guidelines in DI 52105.010.
+7. Reverse offset
+a. Subsequent Injuries Fund
+When a worker has a previous permanent disability or impairment and sustains a subsequent
+injury, the employer is not liable for the combined disability, but only for the disability
+caused by the later injury. However, when the combined permanent disability is at
+least 70 percent, and meets certain other criteria, the worker may receive extra compensation
+from the SIF. California has a dollar-for-dollar reduction provision that applies
+only against payments made from the SIF.
+•
+The basic WC payment is subject to offset.
+•
+The additional payments made from the SIF are not subject to offset. Reverse offset
+applies to SIF payments.
+•
+If the number holder (NH) is receiving SIF payments only, answer “Y” to the “Reverse
+Jurisdiction Involved” question on the Modernized Claim System (MCS) WCPL screen or
+ICF WCCL screen. Do not input the case as reverse jurisdiction if the NH is also receiving
+the basic WC payment.
+•
+SIF payments are identified as such on payment documents.
+•
+We are not required to notify the state in these cases.
+b. Industrial Disability Leave (IDL)
+IDL is a benefit available to state legislative employees and members of the Public
+Employees' Retirement System (PERS) or the State Teachers' Retirement System (STRS)
+in lieu of workers' compensation TD benefits.
+•
+IDL payments are under a reverse offset plan and not subject to offset.
+•
+We are not required to notify the state about the claimant’s disability benefit or
+reverse offset.
+•
+If you discover that offset was erroneously imposed based on IDL benefits, remove
+offset retroactive to the offset effective date and code the case as a reverse jurisdiction.
+For more information on reverse offset, see DI 52105.001.
+8. WC payments made to employer
+a. WC payment record shows payments made to employer
+If a WC payment record shows payments to the employer instead of the disabled worker,
+usually a “salary continuation plan” is in place. Under the California Labor Code,
+if the plan meets the statutory requirements, which include minimum salary requirements,
+then no WC is payable to the disabled worker. However, the insurer may reimburse the
+employer for WC that the insurer would have paid to the worker. For the period where
+the employer, not the NH, receives the WC payments, there is no offset. See DI 52110.010.
+b. Section 4850 payments
+California Labor Code section 4850 provides a paid leave of absence for up to a year
+in lieu of WC TD or VRMA payments. This section is for certain disabled public safety
+officers (police, firefighters, and so forth). Section 4850 payments fall under the
+same salary continuation policy noted in DI 52120.030C.8.a. The leave of absence payments to the worker and any reimbursement paid to the employer
+by the WC insurer are not subject to offset as long as the worker does not actually
+have use of the WC payments.

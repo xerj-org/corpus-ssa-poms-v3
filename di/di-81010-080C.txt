@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - DI 81010.080 - Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS)
+Effective Dates: 04/27/2026 - Present | TN 91 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010080 (fetched 2026-10-04)
+
+C. Messages
+Messages are added to provide the case processing personnel with information regarding
+the handling of a case (e.g., a message to call the claimant after 9 A.M). This information
+is not official documentation of case processing actions. Examples of messages include:
+•
+Concurrent case. DIB claim is being held in FO pending insured status develop. Possible
+onset for DIB claim is 00/00/00.
+•
+Claimant/Representative will not provide a SSA-827.
+•
+SSA-827 signed by proper applicant because claimant is in a coma.
+When messages are posted:
+•
+Leave the expiration date blank unless there is a specific date when the message should
+be automatically deleted. If no expiration date is set, the message remains in the
+case until it is manually deleted; or
+•
+Manually delete the message when it is no longer applicable.
+1. Creating Messages
+Create messages in either EDCS or eView (see EDCS Actions Page - DI 81010.100). If a message is added by an office without jurisdiction, then the office with jurisdiction
+gets an alert (e.g. if the FO adds a message after the case has been transferred to
+DDS, then DDS will get a message).
+a. eView
+To create a message in eView:
+•
+Select the Alerts/Messages Tab (see Alerts & Messages Tab - DI 81005.040);
+•
+Lock the case for editing per Locking/Unlocking a CEF in eView - DI 81001.040;
+•
+Select the Add Message button;
+•
+From the Messages Information screen, enter a message expiration date if appropriate
+and the desired message; and
+•
+Select OK
+•
+Unlock the case.
+NOTE: Deletion of the message will occur as of the expiration date.
+b. EDCS
+To create a message in EDCS:
+•
+Select Messages under the Flags/Messages folder from the menu on the left side of
+the screen;
+•
+Select the Add Message button; and
+•
+From the Messages Information screen, enter a message expiration date if appropriate
+and the desired message.
+2. Viewing Messages
+After adding a message to a case, view it in EDCS and eView. The following information
+displays on the Messages screen:
+•
+A brief description of the message;
+•
+Expiration date;
+•
+The date the message was last modified; and
+•
+The office code of the office adding the message.
+To view the full message, select the description link from the Messages screen.
+a. eView
+In eView, access messages from the Alerts & Messages Tab.
+b. EDCS
+In EDCS, access messages from the Messages link under the Flags/Messages folder from
+the menu on the left side of the screen.
+3. Deleting Messages
+Messages are deleted by:
+•
+Reaching their expiration date; or
+•
+Manual deletion in EDCS or eView.
+To manually delete a message in EDCS:
+•
+Open the Flags/Messages folder from the left hand side;
+•
+Select Flags, and choose the flag to be deleted;
+•
+From the Flags Information page, select Delete.
+To manually delete a message in eView:
+•
+Lock the case for editing per Locking/Unlocking a CEF in eView - DI 81001.040;
+•
+Select the message description link on the messages screen in EDCS or the Alerts &
+Messages Tab in eView;
+•
+Select the Delete button from the Message Information screen; and
+•
+Unlock the case.

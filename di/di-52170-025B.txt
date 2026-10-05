@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 52170.025 - Rounding Rules for Offset Computations
+Effective Dates: 05/18/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452170025 (fetched 2026-10-04)
+
+B. Example: Worker and 3 auxiliaries entitled to disability (DIB)
+HA DOED
+05/1981
+WC Offset Date
+07/1981
+Monthly WC
+$250.00
+80 percent Average Current Earnings (ACE)
+$675.00
+05/1981
+PIA: $316.40 FMAX: $474.80
+Aux MBA (3 children) $52.80
+06/1981
+PIA: $351.90 FMAX: $528.00
+Aux MBA (3 children) $58.70
+06/1982
+PIA: $377.90 FMAX: $377.90
+Aux MBA (3 children) $62.90
+07/1981 80 percent ACE
+$675.00
+Monthly WC
+-$250.00
+$425.00
+PIA payable to HA
+-351.90
+$ 73.10 (Divided by 3 auxiliaries = $24.40 (24.36 rounded up.)
+In 06/1982, WC increases to $290.00 per month. Recompute the amounts payable from the first
+month of offset, rounding up for intermediate steps prior to 06/1982.
+07/1981 80 percent ACE
+$675.00
+Monthly WC
+-290.00
+$385.00
+PIA payable to HA
+- 351.90
+$ 33.10 (Divided by 3 auxiliaries =$11.03
+(which is rounded to 11.10 because this intermediate step was for a month prior to
+June 1982)
++ 4.20 (COLA)
+$ 15.30 payable to each auxiliary
+In 09/1982 one auxiliary terminates.
+You can use the Expedient method to redistribute the amounts previously payable after
+offset to three auxiliaries to the remaining two auxiliaries:
+Step 1: FMAX = $566.60 minus PIA $377.90 yields an adjusted MAX of $188.70.
+Step 2: $15.30 payable after offset to each auxiliary, times three auxiliaries = $45.90.
+Step 3: $188.70 minus $45.90 = $142.80 total offset to three auxiliaries.
+Step 4: Subtract the total offset ($142.80) from the adjusted MAX ($188.70) and divide
+by two to arrive at the new amount payable after offset for the two remaining auxiliaries:
+$22.90 each (22.95 rounded down). See DI 52150.070 for more information about using the Expedient method to compute offset.

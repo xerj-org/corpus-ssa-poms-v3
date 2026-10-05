@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - SI 04040.027 - Processing the Prior Claim -- Title XVI Nondisability
+Effective Dates: 12/01/2011 - Present | TN 1 (02-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504040027 (fetched 2026-10-04)
+
+A. Procedure -- prior claim favorable
+If the AC allows the prior claim, processing depends on the status of the subsequent
+claim.
+1.
+Conduct a preeffectuation review contact (PERC) per SI 00603.030.
+2.
+If the subsequent claim was allowed and there is no active claim iteration in MSSICS,
+follow the Automated One-Time-Payment (A-OTP) procedures in SM 01901.000 for the benefit
+payments due for the period prior to the new record. Issue a manual notice for the
+AC decision.
+3.
+If the Subsequent claim was allowed and there is an active MSSICS iteration, check
+the filing date on the prior claim.
+If the filing date on the prior claim is NOT more than six years before the current
+month:
+•
+Open a Redetermination event in MSSICS.
+•
+Correct the EFFECTIVE FILING DATE in the SSI CLAIMS APPLICATION screen (ACLM) in MSSICS
+to match the filing date of the prior claim.
+•
+Develop and carefully complete the living arrangement, income, and resource screens
+to cover the EFFECTIVE FILING DATE of the prior claim through the date of the PERC
+on the subsequent application.
+Exception: If the PERC on the prior claim is conducted less than 90 days after the date the subsequent
+application was adjudicated AND the subsequent application was simultaneously developed, then limit the PERC period
+from the filing date of the first claim to the filing date of the subsequent claim.
+Follow instructions in MSOM MSSICS 008.003 and SM 01005.030 for EFFECTIVE FILING DATE.
+If the filing date on the prior claim is more than six years before the current date:
+•
+Complete paper forms (SSA-8000, SSA-8006, etc.) to document PERC per SI 00603.035 and SI 00603.036.
+•
+Manually compute any benefit payments for the prior period, and issue these payments
+following the Automated One-Time Payment (A-OTP) procedures in SM 01901.140. Issue
+the A-OTP.
+•
+Terminate (T33) the subsequent claim via Direct SSR Update and establish a new start
+date record via SSA-450SI with the correct Effective filing date and correct disability
+data.
+•
+Seed the case back in MSSICS.
+4.
+If the subsequent claim is denied, it is considered a duplicate claim. If there is
+no active iteration on MSSICS, establish and process the prior claim through MSSICS
+if the effective filing date is no more than 6 years before the current date. If the
+prior claim is more than 6 years before the current date, T50 the subsequent claim
+on the SSR and establish and the prior claim via 450S systems procedures. Issue a
+manual notice for effectuation of the AC decision.

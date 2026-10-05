@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - SI 00830.420 - Child Support Payments
+Effective Dates: 07/25/2016 - Present | TN 211 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830420 (fetched 2026-10-04)
+
+E. Procedure to code SSI Claims System claims
+1. Payment on behalf of an SSI child when payer is an absent parent
+Apply these procedures for a payment from an absent parent on behalf of an SSI child.
+In the SSI Claims System:
+Enter the date and the full amount of cash child support payment and income type on
+the Child Support (ICHS) page for the child.
+For more information on the Child Support (ICHS) page, see MS INTRANETSSI.014.025
+.
+For information on deeming and the income used to comply with a court order, see SI 01320.145.
+If the claimant meets the definition of “child,” the system:
+•
+posts the income to the Social Security Record (SSR) as type “N” unearned income,
+•
+applies the one-third exclusion to the type “N” income, and
+•
+uses only two-thirds of the support payment in the SSI payment computation.
+Enter the total child support payment that is In-Kind Support and Maintenance (ISM)
+on the In-Kind Support and Maintenance (LISM) page.
+For more information about the In-Kind Support and Maintenance page (LISM) page, see
+INTRANETSSI 010.015. Select “Yes” for question “DOES ANY PERSON (NOT LIVING WITH YOU)
+OR ANY AGENCY PAY FOR ANY OF YOUR FOOD OR SHELTER ITEMS, OR PROVIDE YOU OR YOUR HOUSEHOLD
+(IF APPLICABLE) WITH ANY FOOD OR SHELTER ITEMS.” Click “Add ISM Source” button. A
+separate ISM Source window will be displayed. Select “Yes” for question “Payment from
+absent parent.” The system applies the exclusion and determines the ISM amount based
+on the selections made.
+2. Payment on behalf of a deceased SSI child when payer was an absent parent
+If the parent or other person receives Social Supplemental Income (SSI), e.g., parent
+is a disabled recipient, enter the date and any child support payment (including arrearages)
+that they received on behalf of a deceased SSI child on the Other Income (IOTH) page
+of the SSI eligible person’s record. MSSICS posts this income as type “SO” unearned
+income to the Supplemental Security Record (SSR). Document in Remarks that the income
+is a child support payment or arrearage on behalf of a deceased SSI child.
+3. Court-ordered payment on behalf of an SSI child when payer is NOT an absent parent
+Enter the date and the full amount of cash child support payments and income type
+on the Child Support (ICHS) page for the SSI child.
+For more information about the Child Support (ICHS) page, see MS INTRANETSSI 014.025.
+MSSICS posts the income to the SSR as type “SS” unearned income. The one-third exclusion
+does not apply to these payments.
+For information on deeming and the income used to comply with a court order, see SI 01320.145.
+4. Court-ordered payment on behalf of a deceased SSI child when payer was NOT an absent
+parent
+If the parent or other person receives SSI (e.g., parent is a disabled recipient),
+enter the date and any child support payment (including arrearages) that they receive
+on behalf of a deceased SSI child on the Other Income (IOTH) page. MSSICS posts this
+income as type “SO” unearned income to the SSR. Document in Remarks that the income
+is from a child support payment or arrearage from a deceased SSI child.
+5. Payment on behalf of an adult child
+Apply these procedures for a payment on behalf of an adult child:
+•
+Enter the date and the full amount of cash child support payments (including arrearage
+payments received, if applicable) to an adult child on the Child Support (ICHS) page
+in MS INTRANETSSI 014.025.
+If the claimant does not meet the definition of a “child,” MSSICS posts this income
+to the SSR as type “SS” unearned income. The one-third exclusion does not apply to
+support payments received by an adult child. The system uses the entire support payment
+in the SSI payment computation.
+•
+If the parent or other person receives SSI (e.g., parent is a disabled recipient),
+enter the date and any child support arrearage payment that they received and retained
+June 1, 2002 or later on the IOTH screen. MSSICS posts this income as type “SO” unearned
+income to the SSR. Document, in Remarks, that the income is from a child support arrearage.
+6. Payment on behalf of a deceased adult child
+If the parent or other person receives SSI (e.g., parent is a disabled recipient),
+enter the date and all child support payments (including arrearages) that they receive
+on behalf of a deceased SSI adult child on the Other Income (IOTH) page. MSSICS posts
+this income as type “SO” unearned income to the SSR. Document, in Remarks, that the
+income is from a child support payment or arrearage from a deceased SSI adult child.

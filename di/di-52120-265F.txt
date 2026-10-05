@@ -1,0 +1,144 @@
+SSA Program Operations Manual System (POMS) - DI 52120.265 - Washington (WA) Workers Compensation (WC)
+Effective Dates: 07/09/2026 - Present | TN 151 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120265 (fetched 2026-10-04)
+
+F. Reverse offset
+Since 09/1975, Washington WC law has provided for a reduction of TT and PT WC payments
+due to the receipt of Social Security DIB. This is a recognized reverse offset plan.
+For more information on reverse offset, see DI 52105.001.
+•
+State law provides that offset may not be imposed until the State (L&I):
+1.
+Receives notice from SSA that the disabled worker is receiving Social Security benefits;
+and
+2.
+Notifies the worker of the offset of the L&I benefit.
+•
+L&I applies offset beginning the month after notification and does not retroactively
+apply offset. We remove offset the month following the month of adjudication.
+•
+L&I uses the same basic formula as we do in applying offset, limiting the total amount
+of WC and Social Security benefits to the higher of total family benefit (TFB) or
+total WC or 80 percent average current earning (ACE). For example, for a record with
+HA only, entitled 05/1999 with a primary insurance amount (PIA) of $1289.20, total
+monthly WC of $2,000.00, and 80 percent ACE of $2611.20, L&I will calculate an offset
+WC payment of $1322.20 ($2611.20 minus $1289.00 monthly benefit payable (MBP)).
+NOTE: The instructions in this section apply to cases adjudicated 09/01/1981 or later. For cases adjudicated before 09/01/1981, do not offset for any month after 08/1975 when the NH received TT or PT WC.
+1. Applying reverse offset when adjudicating a claim
+a.
+Offset TT and PT WC from the first possible month of offset up to and including the
+full calendar month of adjudication.
+b.
+Reverse offset applies beginning with the month after the calendar month of adjudication
+and continues through the month prior to the month of attainment of age 62.
+•
+Payments under the Critical Payment System (CPS) do not constitute adjudication.
+•
+A delay in processing due to exceptions, etc. will not change the month of adjudication.
+c.
+To adjudicate a claim via MCS, see the processing instructions in DI 52120.265G. in this section.
+d.
+When adjudicating a claim with WA WC, send the Washington State WC Data Sheet to L&I
+or the self-insured employer. It is important to send the data sheet at the point of adjudication as L&I rely on
+timely and accurate notification from SSA to impose State offset. Also, notify L&I
+that offset resumed and provide the amount of the monthly benefit amount (MBA) payable
+after offset.
+e.
+Tell the NH to notify the nearest Social Security office if they receive a PP settlement
+or if PP payments begin.
+f.
+Diary for 4 months prior to age 62. If you process the claim via MCS, enter a 042
+diary and update the due date to 4 months prior to age 62. Complete the DIAR screen
+to explain the reason for the diary.
+See case Examples 2 and 4, DI 52120.265K in this section.
+2. Applying reverse offset when an appeal reverses DIB cessation
+Offset TT and PT WC from the effective month of DIB reinstatement up to and including
+the month in which adjudicative action is taken to resume DIB.
+3. Applying reverse offset when WC payments start after DIB awarded
+•
+SSAs WC offset applies from the first possible month of offset through the month of
+the award action that initiates DIB payments (and at age 62). Once SSA starts DIB
+payments, reverse jurisdiction applies. Therefore, if a beneficiary, who was not receiving
+WC payments at the time of adjudication of the DIB award, begins receiving either
+TT or PT payments, offset will not apply until age 62.
+•
+Code the case RJ and do not adjust benefits already paid. There is no need for a State
+data sheet in this situation.
+4. Re-imposing offset at age 62
+In 03/1982, the State extended its offset provision from age 62 to 65 for workers
+who are awarded TT or PT WC effective 01/01/1983 or later. Since this change in State
+reverse offset law was not in effect by 02/18/1981, we do not recognize the change
+for DIB offset purposes for cases where the DIB onset is 03/01/1981 or later and the
+DIB month of entitlement (MOE) is 09/1981 or later.
+RJ ends the month prior to the month the NH attains age 62.
+•
+RETAP will produce an alert in addition to any manual or MCS diary.
+•
+Resume offset beginning the month the NH attains age 62 at the full WC rate that would
+have been payable had there been no State offset. Offset continues up to, but not
+including, the month the NH attains age 65 before December 19, 2015. Effective December
+19, 2015 or later, WC offset termination extends from age 65 to full retirement age
+(FRA). See 2015 Amendment in DI 52101.005.
+•
+For instructions on protected benefit increases during the RJ period and when to establish
+a new ACE and TFB in age 62 reimposition cases, see DI 52105.001G.2.
+•
+Notify L&I that offset resumed and provide the amount of the MBA payable after offset.
+Fax or mail the Washington State WC Data Sheet. to L&I. Include in Remarks Offset resumed at age 62. MBA = $$$$$.cc. See case Example
+2, DI 52120.265K in this section.
+5. RIB benefit considerations
+WA applies offset against both DIB and RIB. When SSA re-imposes offset from age 62-65,
+the State treats this as a reduction in the amount of disability benefits and adjusts
+the WC benefits accordingly. Once SSA offset ends at age 62 (for pre-1981 cases);
+at age 65 before December 19, 2015 (in the 1981 amendments); and at FRA effective
+December 19, 2015 or later; L&I will adjust the State offset for the increase in the
+SSA payment.
+•
+Do not routinely secure RIB claims from NHs age 62-65, as their DIB entitlement will
+usually continue to be more advantageous than the RIB claim.
+•
+NHs can contact L&I if they want to know the effect on their specific L&I benefit
+amount.
+•
+If a NH files for RIB in this situation, normal protective filing rules apply, i.e.,
+there is no protective filing by the mere fact of attaining age 62.
+•
+Do not delay re-imposing offset at 62 when developing a RIB claim.
+NOTE: In a small number of cases where the NH has been simultaneously entitled to DIB and
+WC for an extended period of time, the offset computation figures used by L&I and
+SSA may differ. In these cases, the NH may benefit from electing RIB. Prior to electing
+RIB, the NH should contact L&I to determine any changes that may occur in the WC benefit.
+6. Re-imposing offset retroactively
+As explained in DI 52120.265F.4. in this section, we re-impose offset at age 62 using the full WC rate without reduction
+for State offset. Sometimes we discover after the fact that we failed to re-impose
+offset at age 62. Include AURORA paragraph PCWCP5003 in the notice when adjusting
+payments retroactively to age 62.
+Prior to 04/26/2005, if the WC claim was closed (PT Pension awarded, or closure with or without PP),
+L&I was barred from adjusting WC payments and therefore could only report to SSA the
+WC benefits as paid, not the full unreduced rate that would have been payable without
+State offset. In this situation, we used the COLA chart in DI 52120.265D.6 in this section, to convert the last known full rate.
+On 04/26/2005, WA amended State law to allow L&I or a self-insurer to retroactively adjust closed
+WC claims if SSA assesses an overpayment and the worker submits a written request
+for adjustment. The legislation became permanent effective 07/22/2007. L&I can now
+provide us with the full WC rate when requested and adjust State offset as needed
+to pay additional benefits.
+7. When to protect benefit increases at age 62
+DIB increases due to COLAs, PIA recalculations or recomputations, or the imposition
+of a combined family maximum that occur during the reverse offset period are only
+protected for offset computation purposes, if offset was considered for at least one
+month before the first reverse offset month.
+For instructions on protected benefit increases during the RJ period and when to establish
+a new ACE and TFB in age 62 reimposition cases, see DI 52105.001G.2.
+8. When we failed to remove offset in a reverse offset case
+If we erroneously continued to offset benefits instead of removing offset (RJ) when
+we adjudicated a DIB award:
+•
+Verify that the WC payments are either TT or PT.
+•
+Remove offset retroactively effective the month after the calendar month of adjudication
+of the award per DI 52120.265F.1. in this section. Note: Reverse offset only applies up to age 62 and only when the NH is receiving TT or
+PT.
+•
+Send the Washington State WC Data Sheet to L&I or to the self-insured employer.
+NOTE: Do not verify that a reduction was actually applied by the State. It is sufficient
+that the plan provides for reverse offset. See DI 52105.001E.1.

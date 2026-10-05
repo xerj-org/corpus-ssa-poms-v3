@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 00502.111 - SSI Eligibility for Victims of Severe Forms of Trafficking
+Effective Dates: 12/09/2014 - Present | TN 70 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502111 (fetched 2026-10-04)
+
+D. Procedure for systems processing
+1. Alien Status page coding
+Until the office of the Chief Information Officer (CIO) issues final processing instructions,
+code the Alien Status page as follows:
+•
+Enter data as if the claimant is a refugee;
+•
+Answer “Y” to the question “IF CODE F, REFUGEE PER SECTION 207 (Y/N). The “Y” causes
+the system to process a 7-year time limited eligibility award; and
+•
+Enter the date shown on the certification letter as the “entry date”.
+NOTE:The CIO may develop a separate, stand-alone alien category for VSFTs. In the meantime,
+we should code VSFTs using the refugee code of F.
+2. SSR Special Messages page coding
+Code the SSR Special Messages page as follows:
+•
+Enter “VSFT-TVPA of 2000” on the SSR Special Messages page;
+•
+Retain a copy of the evidence used to establish alien status or citizenship in the
+file in all cases (including MSSICS) by scanning the document into NDRED (For alien
+development see SI 00502.110 B); and
+•
+On the remarks portion of the screen, enter the following text:
+“I have not been admitted to the U.S. as a refugee under Section 207 of the INA. The
+Office of Refugee Resettlement has certified or determined that I meet the requirements
+as a VSFT under Sections 107(b)(1)(C) and 107(b)(1)(E) of Public Law 106-386, or I
+was granted a “T” non-immigrant visa as a family member effective MM/DD/YYYY.”
+3. Non-MSSICS cases require SSA 450-SI coding
+When doing a paper form SSA 450 (Claims Input Data Form) enter the following data
+in the AR and AQ field:
+a.
+AR Field: Code the first position of the AR with “F” and positions 2-5 of the AR field with
+the date of certification or child eligibility as it appears on the body of the ORR
+letter.
+b.
+AQ Field: Code as a refugee who is eligible for 7 years from the date of entry into the U.S.
+Do not code the “Alien Start Date” (ASA) since the system l determines the 7-year
+period of eligibility based on the “date of entry” (i.e. the date shown in the body
+of the certification or child eligibility.)
+4. Suppress the automated notice and issue a manual notice
+a. Award notice
+Include the following paragraph on an award notice:
+Your SSI Eligibility As An Alien
+You are eligible for SSI as an alien because the Department of Health and Human Services
+has determined that you meet the requirements of Section 107(b)(1) of the Trafficking
+Victims Protection Act of 2000 beginning with MM/DD/YYY.
+Fill in: Enter the date ORR or DHS granted VSFT status, as shown on the certification letter
+or the DHS document.
+b. Denial notice
+If the claim is denied because the claimant does not meet the alien eligibility requirements
+based on VSFT status, include the following paragraph on the denial notice:
+Your SSI Eligibility As An Alien
+You are not eligible for SSI as an alien because the Department of Health and Human
+Services has not determined that you meet the requirements of Section 107(b)(1) of
+the Trafficking in Victims Protection Act of 2000.

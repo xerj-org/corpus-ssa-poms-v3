@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 55002.025 - Four Ticket Queries
+Effective Dates: 10/29/2002 - Present | TN 1 (10-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002025 (fetched 2026-10-04)
+
+A. Process – retrieving general ticket information about a beneficiary/recipient
+Once the system selects a ticket beneficiary's/recipient's record, the system passes
+information about the beneficiary/recipient to the DCF. The following ticket queries
+provide information about ticket-eligible beneficiaries/recipients.
+•
+The Ticket to Work Query (DIBT) provides general information about a beneficiary's/recipient's current ticket status.
+•
+The General Ticket Query (TKQY) provides current ticket information as well as more specific data such as the date
+the system selected the beneficiary's/recipient's record, the date the system mailed
+the ticket, and the current status of the ticket.
+•
+The Ticket Status Range (TKSR) query (available beginning February 16, 2002) provides detailed historical record
+of ticket activity by EN. The TKSR is a continuation screen of the TKQY.
+•
+The Ticket Use History (TKUH) query (available beginning February 16, 2002) provides a historical record of ticket
+activity for each beneficiary once the ticket has been assigned to a provider. For
+example, it indicates the dates the ticket is assigned and to which provider(s); the
+dates that the ticket is in use; the dates any grace period applies; and information
+about ticket assign ability (see DI 55025.001).

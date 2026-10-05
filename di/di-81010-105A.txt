@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 81010.105 - Deleting or Manually Clearing Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 09/19/2024 - Present | TN 80 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010105 (fetched 2026-10-04)
+
+A. Deleting EDCS Cases
+Deleting a case from EDCS removes all data collected in EDCS for that case. However,
+it does not delete the claim from the Modernized Claims System (MCS) or the Modernized Supplemental
+Security Income Claims System (MSSICS). For more information on deleting a claim in
+MCS, see MSOM MCS 017.002 Claimant Deletion (CLDL) and for more information on deleting
+a claim in MSSICS, see MSOM MSSICS 004.011 Manual Processes (MNPS).
+NOTE: If you create another EDCS case Internet Disability Report (IDR) data propagates
+into EDCS, unless you purged the IDR (7 months from the first IDR start date for the
+i3368 and 90 days for the i3820 and i3441).
+Delete an EDCS case:
+•
+When the application was not properly filed by the end of all close out periods; or
+•
+If an EDCS case was created for an incorrect SSN.
+Do not delete an EDCS case if:
+•
+The case is currently locked;
+•
+Jurisdiction of one or more of the claims on the case has been transferred;
+•
+A Field Office (FO) determination has been entered on the case; or
+•
+The case shows that it was manually cleared.

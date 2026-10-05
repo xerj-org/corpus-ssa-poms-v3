@@ -1,0 +1,157 @@
+SSA Program Operations Manual System (POMS) - GN 02406.205 - Nonreceipt of Title XVI Underpayment Check/Type 2 and One-Time Payment/Type 4 Payment -- Field Office (FO) and Teleservice Center (TSC) Instructions
+Effective Dates: 01/09/2023 - Present | TN 101 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406205 (fetched 2026-10-04)
+
+C. How to process nonreceipt allegations for underpayments (type 2), or manual and automated
+OTPs (type 4)
+To process nonreceipt allegations of underpayment, manual and automated OTPs when
+double check negotiation (DCN) abuse is not involved, follow the instructions in the
+chart below:
+Step
+Action
+1
+Does the SSR query show that we issued the
+check?
+If no, determine why and take appropriate action.
+If yes, go to Step 2.
+2
+Is the check due?
+If no, the TSC must refer the allegation to the FO via MDW or a priority Development Worksheet
+per TC 25001.040B requesting the input of an 1184 stop payment (F-stop).
+NOTE: The FO can input an F-stop via the payment screens in SSI Claims System Direct SSR
+Update. STOP.
+If yes, go to Step 3.
+3
+Have 7 days elapsed since the payment history run date for
+the Type 2 or 4 payment?
+If no, check the Treasury Check Information System (TCIS) to determine the status of the
+check.
+If TCIS shows issue outstanding (check not cashed), ask the recipient to call back
+after the seven days elapsed. STOP.
+NOTE: Document the inquiry on a Report of Contact in the SSI Claims System to assist technicians
+in case there are follow-up inquiries.
+If yes and TCIS shows check is reconciled (cashed), input an A-stop on the original check.
+Go to Step
+4.
+NOTE: See GN 02406.001 for a definition of the A-stop and when technicians should use it.
+4
+Is this a dire need situation (see criteria
+in SI 02004.100)?
+If no, the TSC and FO must take the following actions:
+•
+The TSC must forward a priority MDW requesting the FO to issue AOTP for the full amount
+of the missing check.
+•
+The FO must issue an AOTP for the full or
+remaining amount of the missing check.
+•
+The SSI system will compute an overpayment and establish a B-3 Diary. After the system
+establishes the B-3 diary, iinput an MT-TAC to resolve the overpayment temporarily.
+•
+Enter “AOTP” for MM/DD/YYYY CK” in the SSR RMKS segment.
+•
+Diary the case for 3 weeks
+•
+Check the disposition code on the Treasury Status Query (UPTQ) in the SSI Claims Systems
+Direct SSR Update.
+•
+Go to Step 5.
+If yes, the TSC must refer the case to the FO via MDW. The FO must:
+•
+Issue an Immediate Payment (IP) for the amount of the missing check up to $999;
+•
+Issue an AOTP for the full or remaining amount of the missing check (which serves
+as the replacement for the missing original check).
+•
+The SSI system will compute an overpayment and establish a B-3 Diary. After the system
+establishes the B-3 diary, input an MT-TAC to temporarily resolve the overpayment.
+•
+Enter “Dire need-$___IP issued; AOTP of $____also issued for MMDDYYYY CK” in the SSR
+RMKS segment.
+•
+Inform the recipient the IP is an advance against future payments.
+Depending on systems cutoff dates, we will recover the full amount of the IP beginning
+with the first or second check issued after the IP.
+•
+Diary the case for 3 weeks and
+•
+Check the disposition code on the Treasury Status Query (UPTQ) in the SSI Claims Systems
+Direct SSR Update.
+Go to Step 5.
+5
+Does the disposition code from the A-Stop
+indicate that someone cashed the original check?
+If no, go to Step 11.
+If yes, the FO will take the following actions:
+•
+Input an 1184 stop payment (F-stop) on the replacement A-OTP using the SSI Claims
+Systems Direct SSR Update.
+•
+Delete the MT-TAC.
+•
+Enter in Remarks portion of SSR, “Orig Ck for MMDDYYYY cashed; possible forgery.”
+Go to Step 6.
+6
+Does the A-OTP replacement F-stop response indicate that
+someone cashed the check?
+If no, go to Step 11.
+If yes, the recipient is overpaid. Resolve the overpayment and release the overpayment letter.
+Go to Step 7.
+7
+Does the recipient request reconsideration?
+If no, pursue overpayment recovery. STOP.
+If yes:
+•
+Print the FMS-1133 claims package from TCIS and have recipient complete
+•
+Have recipient complete an SSA-561-U2 (Request for
+Reconsideration) to protest the overpayment. Obtain the signed SSA-561-U2 before suspending overpayment recovery with an MT TAC. Refer to GN 02406.310B.1.b.
+•
+Send the completed FMS-1133 and photocopy of the check to Treasury. Keep the completed
+SSA-561 and claims package copy for our records.
+•
+Input the MT-TAC to suspend overpayment recovery (after receiving the completed SSA-561-U2)
+pending final Treasury forgery determination.
+•
+Establish a tickle file for 60 days.
+•
+Go to Step 8.
+8
+After 60 days, is there a code on the SSR under the Payment
+history forgery indicator (SM 01601.835C.12) in the PMTH segment
+indicating a forgery determination from Treasury?
+If no, go to Step 9.
+If yes, go to Step
+10.
+NOTE: Treasury performs “forgery determinations” on checks that are 12 months old or less
+(GN 02406.001). For checks older than 12 months (limited payability checks), Treasury will be requested
+to perform a handwriting analysis. (GN 02401.910)
+9
+If the SSR does not have a forgery indicator in the PMTH
+segment?
+Check the TCIS for forgery information. Select the “Payment Listing” tab for the payment
+and view the claims history information. If there is no forgery information, contact
+Treasury’s call center at 855-868-0151 for status of the forgery claim.
+10
+Did the forgery determination indicate that someone forged
+the check?
+•
+If yes , ensure MT-TAC is on overpayment.
+•
+Go to Step 11.
+•
+If no , delete MT-TAC and begin recovery process. STOP .
+NOTE: A notice of the forgery decision and recovery action must be issued to claimant prior
+to the first day of recovery action.
+11
+Did Treasury send a credit?
+•
+If yes, When Treasury sends a credit, the SSR will show an excess decision. Delete the MT-
+TAC to resolve the excess decision. STOP.
+•
+If no, Contact Treasury’s call center at 855-868-0151 to find out when the credit will
+be sent to SSA. If Treasury states the credit has already been sent to SSA, contact
+your Regional Office through your normal channels, e.g., vHelp. STOP.
+NOTE: If the recipient does not protest the overpayment or if there was a reversed credit
+on the original type 2 or 4 payment and there was a removal of the MT-TAC, an overpayment
+will automatically be established and normal overpayment procedures apply.

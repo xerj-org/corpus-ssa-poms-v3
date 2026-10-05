@@ -1,0 +1,106 @@
+SSA Program Operations Manual System (POMS) - DI 81010.100 - Electronic Disability Collect System (EDCS) Actions Page
+Effective Dates: 08/07/2025 - Present | TN 89 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010100 (fetched 2026-10-04)
+
+B. Assistance Requests (ARs)
+•
+Are performed when one component contacts another for assistance while still retaining
+full jurisdiction of the case; and
+•
+May be sent or received from any office processing CEFs.
+EXCEPTION: FOs can receive but cannot initiate ARs.
+The EDCS Actions Page lists ARs from adjudicating components, reviewing components,
+or OHO. The FO user can:
+•
+Request a list of all ARs for the office; or
+•
+Refine the search by unit code and date.
+1. AR Status on the EDCS Actions Page
+The status of an AR appears on the EDCS Actions Page as:
+•
+Transaction in progress Indicates that the AR has been accepted by the FO and the action has been sent to
+the Electronic Folder Interface (EFI);
+•
+Not yet accepted Indicates that the AR has not been accepted or transferred by the FO user;
+•
+Pending Indicates that the transaction has been processed through EFI and the FO can take
+any action necessary to complete the AR.
+NOTE: If the FO transfers the AR to another office/component, the AR will no longer appear
+on the actions page. The technician should send status updates for Assistance Request
+by using the AR Status Update button.
+2. Taking Action on ARs
+To process the AR, the FO must do one of the following:
+•
+Accept the AR The FO can then begin to work on the request;
+•
+Reject the AR The requesting office is notified that the FO has rejected the request and is given
+the reason why it was rejected;
+•
+Transfer the AR If the AR was misrouted or if jurisdiction of a claim moved to another area, transfer
+the AR to the appropriate FO. Transferring the AR moves it to the new offices actions
+page and removes it from the original actions page. The requesting office is alerted
+of the transfer; or
+•
+Close the AR The FO closes the AR once all necessary actions have been taken and/or all documentation
+has been added to the CEF. The FO can select:
+–
+To close the request (with comments); or
+–
+Could not complete request which requires entry of the reason why the AR could not
+be completed.
+NOTE: The initiating office is notified when an AR is closed, but they cannot view any
+progress notes while the AR is being worked unless they are recorded on an SSA-5002
+in file.
+3. AR Timeframes and Follow-Ups
+The FO should give priority attention to ARs.
+Do not close an AR until all requested actions have been completed and all necessary
+documentation has been added to the EF.
+EXAMPLE: Mailing the claimant an SSA-821 is not sufficient action for closing the AR. Keep
+the AR pending until you complete full work development.
+The FO should not use the Notes field in the AR to document the AR response. The FO
+should add all documentation into the EF and document any additional information on
+an SSA-5002.
+When the requesting office initiates an AR, use the following timeframes to expedite
+processing:
+Day
+1-5: FO accepts the AR and initiates development (e.g., contact the claimant to obtain
+forms such as SSA-820 or SSA-821). ARs should remain in pending status until the FO
+completes ALL development and documents the electronic folder (EF). If the FO erroneously
+closes the AR prior to completing development, the requesting office should send another
+AR.
+Day
+6: If the FO has not accepted the AR within 5 days, the case processing system will
+automatically send a follow-up AR.
+Day 15:
+If the FO has accepted the AR but does not have the requested information to complete
+the AR, notify the requesting office with a status using the Message function in eView
+or with an SSA-5002 added to the file.
+NOTE: The requesting office may send a follow-up AR if the FO does not provide a status
+update after 15 days. Follow-ups will appear as separate action items on the EDCS
+Actions Page in the Assistance Request Follow-Up Section.
+Day
+30: If the requested information is not received after 30 days:
+•
+Attempt to provide the requested information based on available records and evidence.
+EXAMPLE: If the SSA-821 has not been received, the FO completes a work determination on an
+SSA-823 based on available evidence.
+•
+Annotate efforts to obtain the information.
+•
+Document conclusion or pending status details on an SSA-5002 or other applicable forms,
+if applicable.
+NOTE: If active development is still pending, provide an estimated date of completion
+on an SSA-5002 or a status using the Message function electronic message in eView.
+Day 35: If the FO has not accepted the AR, completed their development, or provided a status
+update after 35 days, the requesting office may return the claim to the FO for further
+development.
+If, prior to completion of the AR, the requesting office determines it is no longer
+necessary, it should cancel the AR and document the reason for the cancellation.
+4. Requesting Office Cancels the AR
+The office requesting the AR may cancel the request either before or after the AR
+has been accepted. When the AR is cancelled:
+•
+The Assistance Request History section in eView updates with the cancellation date;
+and
+•
+An AI appears on the EDCS Actions Page notifying the FO the AR was cancelled.

@@ -1,0 +1,1170 @@
+SSA Program Operations Manual System (POMS) - SI 02310.999 - Exhibits of SSI Interfaces
+Effective Dates: 02/04/2025 - Present | TN 69 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310999 (fetched 2026-10-04)
+
+A. Exhibit A – Department of Veterans Affairs (VA) Extract and Legend
+1. VA Extract
+Field #
+Record Location
+Field Name
+Field Size
+Field Format
+Description/Comments
+1
+1-4
+Record Length
+4
+Numeric
+Will contain the total physical length of the record. Field will always be populated
+with value (number of bytes).
+2
+5-13
+VA File Number
+9
+Alpha
+Field will contain the unique number assigned to the VBA record. Field will always
+be populated with a value.
+3
+14-22
+Veterans SSN
+9
+Alpha Numeric
+Field will contain the Veteran’s Social Security number. If None=Send Spaces.
+4
+23-31
+Beneficiary SSN
+9
+Alpha Numeric
+The Person Entitled to the VA benefit. Will belong to the Beneficiary getting the
+money. If None=Send Spaces.
+5
+32-33
+Payee Number
+2
+Numeric
+Field will always be populated with a value. Field will contain a value indicating
+who is entitled to the benefit (Primary Beneficiary of the Award).
+6
+34-35
+Total Dependency Code
+2
+Numeric
+The Total Dependency Code field will be populated with a value indicating the total
+number of dependents on the Primary Beneficiary Award. Standard Dependency Codes will
+be used except for the following: For Parents DIC-(91) Sole Surviving Parent (rate
+chart); (92) One of Two Parents with No Spouse (rate chart); and (93) One of Two Parents
+with Spouse (rate chart). For Apportionment Awards-(10) Spouse; (81) Children; and
+(50 or 60) Parents. Fields will always be populated with a value. Note: Total Dependency Code=How Many Dependents the Beneficiary is Eligible to receive
+$ for.
+7
+36-37
+THS Dependency Code
+2
+Numeric
+The THS (Total Being Paid on This Award) Dependency Code field will be populated with
+a value indicating the total number of dependents the Beneficiary is actually being
+paid for on this award (i.e., dependents minus the apportioned dependents). Standard
+Dependency Codes will be used except for the following: For Parents DIC-(91) Sole
+Surviving Parent (rate chart); (92) One of Two Parents with No Spouse (rate chart).
+For Apportionment Awards-(10) Spouse; (81) Children; and (50 or 60) Parents. Fields
+will always be populated with a value. Note: THS Dep Code=How Many Dependents the Beneficiary is Actually Being Paid For.
+8
+38
+Record Type Code
+1
+Alpha
+Field will contain a value indicating the basis for benefit payments. Field will always
+be populated with a value. Values for: (C) Comp; (G) Spouse DIC Pay Grade; (R) Spouse
+DIC Reform ;(A) Apportionment; (M) MOH; (I) Improved Pension Live; (D) Child DIC;
+(B) Spouse Improved Pension Death; (P) Parents DIC; (F) Child Improved Pension; (O)
+Override (GAO); and (X) Protected Rate (Old Law Pension, 306 Pension; Death Compensation
+and/or Special Parents DIC).
+9
+39
+The Current Award Status Code (formerly The Current Status of an Award)
+1
+Alpha
+Award Status Code Values will be: (A) Active; (T) Terminated; (S) Suspended. Field
+will always be populated with a value.
+10
+40
+Beneficiary Sex Code
+1
+Alpha
+Field will contain a value indicating the sex of the person entitled to benefit (Primary
+Beneficiary). Values are (F) Female and (M) Male, or Blank. If None (Unknown)=Send
+Spaces.
+11
+41-70
+First Name of Beneficiary
+30
+Alpha
+Field will contain the first name of the person entitled to the benefit (Veteran or
+Payee other than Veteran). If None=Send Spaces.
+12
+71-100
+Middle Name of Beneficiary
+30
+Alpha
+Field will contain the middle name of the person entitled to the benefit (Veteran
+or Payee other than Veteran). If None=Send Spaces.
+13
+101-130
+Last Name of Beneficiary
+30
+Alpha
+Field will contain the last name of the person entitled to the benefit (Veteran or
+Payee other than Veteran). If None=Send Spaces.
+14
+131-138
+Beneficiary Birth Date
+8
+Alpha Numeric
+Field will contain the date of birth for the person entitled to the benefit (Veteran
+or Payee other than Veteran). CCYYMMDD Format should reflect the Entitled Person.
+15
+139-140
+Beneficiary Aid & Attendance/ Housebound Code (Formerly Beneficiary Aid & Attendance/
+Housebound Indicator)
+2
+Alpha
+Field will contain a value if the Beneficiary is entitled to Aid & Attendance or Housebound
+benefits. Values are (AA) Aid & Attendance and (HB) Housebound. If None=Send Spaces.
+16
+141-142
+Spouse Aid & Attendance/ Housebound Code (Formerly Spouse Aid & Attendance/ Housebound
+Indicator)
+2
+Alpha
+Field will contain a value if the dependent Spouse is entitled to Aid & Attendance
+or Housebound benefits. Values are (AA) Aid & Attendance and (HB) Housebound. If None=Send
+Spaces.
+17
+143
+$90 Rate Indicator
+1
+Alpha
+Values are (Y) Yes or (N) No. Field will always be populated with a value. If an Improved
+Pension Bene (Veteran or Surviving Spouse) with no dependents is in a Medicaid-approved
+nursing home, the indicator will be set to “Y.” If a Veteran in receipt of Improved
+Pension with no dependents is in a VHA or Contract Nursing Home, the indicator will
+be set to “Y.” Note: If there is an Institutionalization Decision of Private Nursing Home Care or VHA
+or Contract Nursing Home Care in VETSNET, the indicator will be set to “Y.”
+18
+144
+Vet Married to Vet Indicator
+1
+Alpha
+Values are (Y) Yes or (N) No. This field indicates if the Beneficiary is married to
+another Beneficiary (Spouse). A value of “Y” will only be generated if both Beneficiaries
+are in receipt of Pension benefits. If a Vet Married to Vet Pension award is generated
+through rate override (GAO), the indicator will be set to “N.” Field will always be
+populated with a value.
+19
+145
+Incarceration Indicator (Formerly Prison Code)
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: If the Primary Beneficiary has an Incarceration decision, the value will be set to
+“Y.”
+20
+146-148
+Station Number
+3
+Numeric
+Field will always contain the Station of Jurisdiction of the award. Field will always
+be populated with a value.
+21
+149-151
+Percent of Disability
+3
+Numeric
+Field will only be populated if the Beneficiary is receiving Compensation (Service
+Connected Disability) benefits.
+22
+152-153
+SMC Payment Code
+2
+Alpha Numeric
+If there is no entitlement to SMC, send spaces. Default=Spaces.
+23
+154-161
+SMC Amount
+8
+Numeric
+Field will always be populated with a value. Default=0 (zeros). Note: Field will contain the monthly SMC rate amount from the SMC Codes and Rate chart.
+24
+162-169
+Disability Comp Basic Rate
+8
+Numeric
+Field will contain the combined percentage (%) rate based on the Disability Compensation-Basic
+Rates chart without any dependents or SMC add-ons. Default=0 (zeros). Field will display
+a monthly amount. Note: Field will contain the amount of service connected compensation a Veteran Beneficiary
+is entitled to based on his/her combined degree only (without dependents or SMC).
+25
+170-181
+Entitlement Code
+12
+Alpha Numeric
+Field will contain the Entitlement Code from the current award line based on the type
+of benefit, branch and period of service. Field will always be populated with a value.
+26
+182-193
+Change Reason
+12
+Alpha
+Field will contain the reason for change in award based on the Change Reason Hierarchy
+List. Default=Spaces.
+27
+194-205
+Suspense Reason
+12
+Alpha
+Field will contain the reason for award in suspense status based on the Suspense Hierarchy
+List. Default=Spaces.
+28
+206-213
+Date of Suspense
+8
+Alpha Numeric
+Format is (CCYYMMDD). Default=Spaces. Note: Suspense Date= Last Paid Date (Date Last Paid).
+29
+214-221
+Total Gross Award Amount
+8
+Numeric
+Total Gross Award Amount=The total amount of cash benefits that a family unit is entitled
+to per award. Field will always be populated with a value. Default=0 (zeros). Note: Field will display monthly amount.
+30
+222-229
+Total Gross Award Date
+8
+Alpha Numeric
+Field will contain the award effective date of the Total Gross Award Amount. Format
+is (CCYYMMDD). Field will always be populated with a value.
+31
+230-237
+Payment Amount
+8
+Numeric
+Payment Amount=The final recurring amount of the payment that goes to the Beneficiary.
+Field will always be populated with a value. Note: Field will display monthly amount paid to each beneficiary.
+32
+238
+Pay Month/ Frequency Code
+1
+Numeric
+Values are: (0)= Monthly; (3)= Quarterly; (2)= Semi-Annual; (1)= Annual. Field will
+always be populated with a value.
+33
+239-246
+Beneficiary Income Amount
+8
+Numeric
+Beneficiary Income Amounts=All income for Beneficiary. Field will always be populated
+with a value. Default=0 (zeros). Note: Field will display total annual amount.
+34
+247
+Beneficiary Earned Income Indicator
+1
+Alpha
+Values=(Y)Yes or (N)No. Field will always be populated with a value. Note: If the Beneficiary has any earned income, set the indicator to (Y).
+35
+248
+Beneficiary Retirement Code
+1
+Alpha
+Values=(B)Black Lung; (C)Civil Service Retirement; (O)Other (Type Unknown); (M)=Military
+Retirement; (R) Railroad Retirement Board; (S)Social Security; and (X)Multiple Retirement
+Codes. If None=Send Spaces.
+36
+249-256
+Beneficiary Retirement Amount
+8
+Numeric
+Beneficiary Retirement Amount=Total Amount of All Retirement Income for Beneficiary.
+Note: Field will display annual amount. If the Beneficiary is not in receipt of retirement
+benefits, send (0) zeros.
+37
+257-264
+Spouse Income Amounts
+8
+Numeric
+Spouse Income Amounts=All Income for the Spouse. Field will always be populated with
+a value. Default=0 (zeros). Field will display the total annual amount. Note: If Spouse Income is used to calculate the IVAP, it will be in the SSA Record Layout
+for VA Interface.
+38
+265
+Spouse Earned Income Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: If the Spouse has any earned income that is used to calculate the IVAP, set the indicator
+to (Y).
+39
+266
+Spouse Retirement Code
+1
+Alpha
+Values=(B)Black Lung;(C)Civil Service Retirement; (O)Other (Type Unknown); (M)Military
+Retirement; (R)Railroad Retirement Board; (S)Social Security; and (X)Multiple Retirement
+Codes. If None=Send Spaces.
+40
+267-274
+Spouse Retirement Amount
+8
+Numeric
+Spouse Retirement Amount=Total Amount of All Retirement Income for the Spouse. Note: Field will display annual amount.
+41
+275-282
+MAPR Amount
+8
+Numeric
+MAPR=Maximum Annual Pension Rate. Field will always be populated for Pension (Income
+Based) Benefits. Default=0 (zeros). Note: Field will display annual amount.
+42
+283-290
+MAPR without A&A/HB Amount (Formerly MAPR without Amount)
+8
+Numeric
+This field includes the Maximum Annual Pension Rate without A&A of Housebound Field
+will always be populated with a value for Pension (Income Based) Benefits. Default=0
+(zeros). Note: Field will display annual amount.
+43
+291
+Programmatic Overpayment Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: Indicator will be set to (Y) if a30B A/R exists with a deduction amount. If not,
+the indicator will be set to (N).
+44
+292-299
+Total Deduction Amount
+8
+Numeric
+Field will always be populated with a value. Default=0(zeros). Note 1: Total Deduction Amount=Total Deduction Amount Being Taken Out of Monthly Recurring
+Check. Note 2: Field will display monthly amount. Note 3: VA will only send data for those deductions that are on the SSA approved list.
+45
+300-307
+Total Withholding Amount
+8
+Numeric
+Field will always be populated with a value. Default=0 (zeros). Note 1: Field will display monthly amount. Note 2: VA will only send data for those withholdings that are on the SSA approved list.
+Note 3: If there are two or more withholdings, VA will send the total amount of all the withholdings.
+46
+308-315
+Total A/R Amount
+8
+Numeric
+Field will always be populated with a value. Default-0 (zeros). Note 1: Total A/R Amount=Total Amount Being Taken Out of Monthly Check. Note 2: Field will display monthly amount. Note 3: VA will only send data for those A/Rs that are on the SSA approved list.
+47
+316-323
+Total Proceeds Amount
+8
+Numeric
+Field will be populated with a default value equal to zeros (0). Note: Field will remain in SSA Record Layout for VA Interface. SSA would like a default
+value of zeros sent at this time.
+48
+324-331
+Total Apportionment Amount
+8
+Numeric
+Field will always be populated with a value. Default=0 (zeros). Note 1: Field will contain the total amount of all Apportionments on the Primary Beneficiary
+award. Note 2: Field will display monthly amount.
+49
+332-339
+Income for VA Purposes
+8
+Numeric
+Field will only be populated for Pension (Income Based) benefits. Default=0 (zeros).
+Note: Field will display annual amount.
+50
+340-347
+Medical Expenses Amount
+8
+Numeric
+Field will only be populated for Pension (Income Based) benefits. Default=0 (zeros).
+Note 1: Field will display the total amount of medical expenses reported to VA for the family
+unit. Note 2: Field will contain an annual amount.
+51
+348
+Fiduciary Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: Field
+will contain a (Y) value if a 3rd Party (not the Beneficiary) is receiving the payment.
+52
+349
+DIC 2 Year Kicker Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: Set the value to (Y) if the surviving spouse has one or more children under the age
+of 18 on the award and has entitlement to the transitional benefit (38 USC 1311(f)).
+53
+350
+DIC 8 Year Kicker Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: Set the
+value to (Y) if at the time of the Vet’s death, the Vet was in receipt of or entitled
+to receive compensation for a service connected disability rated totally disabling
+(including a rating based on individual un-employability) for a continuous period
+of at least 8 years preceding death AND the surviving spouse was married to the Vet
+for those same 8 years (38 USC 1311 (a)(2)).
+54
+351-352
+DIC Pay Grade Code
+2
+Alpha Numeric
+Field will be populated with a value if the Beneficiary is being paid DIC benefits
+based on the Veteran’s pay grade. Default=Spaces.
+55
+353
+Foreign Address Indicator
+1
+Alpha
+Values=(Y) Yes or (N) No. Field will always be populated with a value. Note: Field will contain a (Y) value if there is an address with a country code.
+56
+354
+Address Type Code (formerly Address Type Indicator)
+1
+Alpha
+Values=(C) Corporate and (B) BDN. Field will always be populated with a value.
+57
+355-854
+Address Data
+500
+Alpha
+Will contain 1 of 2 address formats. (B) Address Type will contain the standard BDN
+120 position address (6 lines of 20 positions each). (C) Address Type will contain
+the following fields (i.e., layout): Address Name (35 bytes); Address Fiduciary Type
+(50 bytes); Address Name Beneficiary (90 bytes); Address Line 1 (35 bytes); Address
+Line 2 (35 bytes); Address Line 3 (35 bytes); City Name (30 bytes); State Name (2
+bytes); Country Type Name (50 bytes); Foreign Postal Code (16 bytes); Province Name
+(35 bytes); Territory Name (45 bytes); Military Postal Type (12 bytes); Military Post
+Office (12 bytes) and Filler 18 bytes.
+58
+855-859
+Zip Code
+5
+Numeric
+If None=Send Spaces. Note: If the record has a foreign address, the field will be populated with zeros (0).
+59
+860-867
+Spouse Date of Birth
+8
+Date
+Format is (CCYYMMDD). If None=Send Spaces.
+60
+868-876
+Spouse SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+61
+877-906
+Spouse First Name
+30
+Alpha
+If None=Send Spaces.
+62
+907-936
+Spouse Middle Name
+30
+Alpha
+If None=Send Spaces.
+63
+937-966
+Spouse Last Name
+30
+Alpha
+If None=Send Spaces.
+64
+967-974
+Child 1 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+65
+975-983
+Child 1 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+66
+984-1013
+Child 1 First Name
+30
+Alpha
+If None=Send Spaces.
+67
+1014-1043
+Child 1 Middle Name
+30
+Alpha
+If None=Send Spaces.
+68
+1044-1073
+Child 1 Last Name
+30
+Alpha
+If None=Send Spaces.
+69
+1074
+Child 1 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and ins school, set the indicator to “Y.” If
+the child is not over the age of 18 or not in school, set the indicator to “N.”
+70
+1075-1082
+Child 2 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+71
+1083-1091
+Child 2 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+72
+1092-1121
+Child 2 First Name
+30
+Alpha
+If None=Send Spaces.
+73
+1122-1151
+Child 2 Middle Name
+30
+Alpha
+If None=Send Spaces.
+74
+1152-1181
+Child 2 Last Name
+30
+Alpha
+If None=Send Spaces.
+75
+1182
+Child 2 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+76
+1183-1190
+Child 3 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+77
+1191-1199
+Child 3 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+78
+1200-1229
+Child 3 First Name
+30
+Alpha
+If None=Send Spaces.
+79
+1230-1259
+Child 3 Middle Name
+30
+Alpha
+If None=Send Spaces.
+80
+1260-1289
+Child 3 Last Name
+30
+Alpha
+If None=Send Spaces.
+81
+1290
+Child 3 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+82
+1291-1298
+Child 4 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+83
+1299-1307
+Child 4 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+84
+1308-1337
+Child 4 First Name
+30
+Alpha
+If None=Send Spaces.
+85
+1338-1367
+Child 4 Middle Name
+30
+Alpha
+If None=Send Spaces.
+86
+1368-1397
+Child 4 Last Name
+30
+Alpha
+If None=Send Spaces.
+87
+1398
+Child 4 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+88
+1399-1406
+Child 5 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+89
+1407-1415
+Child 5 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+90
+1416-1445
+Child 5 First Name
+30
+Alpha
+If None=Send Spaces.
+91
+1446-1475
+Child 5 Middle Name
+30
+Alpha
+If None=Send Spaces.
+92
+1476-1505
+Child 5 Last Name
+30
+Alpha
+If None=Send Spaces.
+93
+1506
+Child 5 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+94
+1507-1514
+Child 6 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+95
+1515-1523
+Child 6 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+96
+1524-1553
+Child 6 First Name
+30
+Alpha
+If None=Send Spaces.
+97
+1554-1583
+Child 6 Middle Name
+30
+Alpha
+If None=Send Spaces.
+98
+1584-1613
+Child 6 Last Name
+30
+Alpha
+If None=Send Spaces.
+99
+1614
+Child 6 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+100
+1615-1622
+Child 7 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+101
+1623-1631
+Child 7 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+102
+1632-1661
+Child 7 First Name
+30
+Alpha
+If None=Send Spaces.
+103
+1662-1691
+Child 7 Middle Name
+30
+Alpha
+If None=Send Spaces.
+104
+1692-1721
+Child 7 Last Name
+30
+Alpha
+If None=Send Spaces.
+105
+1722
+Child 7 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+106
+1723-1730
+Child 8 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+107
+1731-1739
+Child 8 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+108
+1740-1769
+Child 8 First Name
+30
+Alpha
+If None=Send Spaces.
+109
+1770-1799
+Child 8 Middle Name
+30
+Alpha
+If None=Send Spaces.
+110
+1800-1829
+Child 8 Last Name
+30
+Alpha
+If None=Send Spaces.
+111
+1830
+Child 8 School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+112
+1831-1838
+Child 9 Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+113
+1839-1847
+Child 9 SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+114
+1848-1877
+Child 9 First Name
+30
+Alpha
+If None=Send Spaces.
+115
+1878-1907
+Child 9 Middle Name
+30
+Alpha
+If None=Send Spaces.
+116
+1908-1937
+Child 9 Last Name
+30
+Alpha
+If None=Send Spaces.
+117
+1938
+Child 9 New School Indicator (New Field)
+1
+Alpha
+Values (Y) Yes or (N) No. Field will always be populated with a value. Rule: If the child is over the age of 18 and in school, set the indicator to “Y.” If the
+child is not over the age of 18 or not in school, set the indicator to “N.”
+118
+1939-1946
+Father Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+119
+1947-1955
+Father SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+120
+1956-1985
+Father First Name
+30
+Alpha
+If None=Send Spaces.
+121
+1986-2015
+Father Middle Name
+30
+Alpha
+If None=Send Spaces.
+122
+2016-2045
+Father Last Name
+30
+Alpha
+If None=Send Spaces.
+123
+2046-2053
+Mother Date of Birth
+8
+Alpha Numeric
+Format is (CCYYMMDD). If None=Send Spaces.
+124
+2054-2062
+Mother SSN
+9
+Alpha Numeric
+If None=Send Spaces.
+125
+2063-2092
+Mother First Name
+30
+Alpha
+If None=Send Spaces.
+126
+2093-2122
+Mother Middle Name
+30
+Alpha
+If None=Send Spaces.
+127
+2123-2152
+Mother Last Name
+30
+Alpha
+If None=Send Spaces.
+NOTE: The VA Extract File will display the children present on the VA Interface from youngest
+to oldest based on date of birth.
+2. VA Legend
+a. General Payee Number Codes
+Description
+Value
+Veteran
+00
+Spouse or Surviving Spouse
+10
+Child #1
+11
+Child #2
+12
+Child #3
+13
+Child #4
+14
+Child #5
+15
+Child #6
+16
+Child #7
+17
+Child #8
+18
+Child #9
+19
+Father
+50
+Mother
+60
+b. Payee Number Codes for Awards Under 38 U.S.C. 421(a) Only
+Description
+Value
+Spouse or Surviving Spouse
+70
+Child #1
+71
+Child #2
+72
+Child #3
+73
+Child #4
+74
+Child #5
+75
+Child #6
+76
+Child #7
+77
+Child #8
+78
+Child #9
+79
+Institutional Award to Veteran Under 38 CFR 3.852
+99
+c. Record Type Codes
+Description
+Value
+Apportionment
+A
+Spouse Improved Pension Death
+B
+Compensation
+C
+Child Dependency Indemnity Compensation (DIC)
+D
+Month of Death (MOD)
+E
+Child Improved Pension
+F
+Spouse Dependency Indemnity Compensation (DIC) Pay Grade
+G
+Improved Pension Live
+I
+Medal of Honor (MOH)
+M
+Override
+O
+Parent Dependency Indemnity Compensation (DIC)
+P
+Spouse Dependency Indemnity (DIC) Reform
+R
+Protected Rate
+X
+d. Entitlement Codes
+Description
+Value
+Converted BDN Entitlement Code
+CV
+Death DIC – Korean Conflict
+37
+Death DIC – Mexican Border Period
+67
+Death DIC – Peacetime
+47
+Death DIC – Persian Gulf War
+07
+Death DIC – Philippine – WWII
+97
+Death DIC – Philippine Peacetime
+99
+Death DIC – Special Allowance – Korean Conflict
+39
+Death DIC – Special Allowance – Peacetime
+49
+Death DIC – Special Allowance – Vietnam Era
+79
+Death DIC – Special Allowance – WWI
+29
+Death DIC – Vietnam Era
+77
+Death DIC – WWI
+17
+Death DIC – WWII
+27
+Death DIC – War with Spain
+57
+Death Improved Pension – Korean Conflict
+3D
+Death Improved Pension – Mexican Border Period
+6D
+Death Improved Pension – Peacetime
+4D
+Death Improved Pension – Persian Gulf War
+0D
+Death Improved Pension – Vietnam Era
+7D
+Death Improved Pension – WWI
+1D
+Death Improved Pension – WWII
+2D
+Death Improved Pension – War with Spain
+5D
+Death Pension – PL86-211-Korean Conflict
+38
+Death Pension – PL86-211-Mexican Border Period
+68
+Death Pension – PL86-211-Vietnam Era
+78
+Death Pension – PL86-211-WWI
+18
+Death Pension – PL86-211-WWII
+28
+Death Pension – PL86-211-War with Spain
+58
+Death Pension-Protected-Civil War
+86
+Death Pension-Protected-Indian War
+66
+Death Pension-Protected-Korean Conflict
+36
+Death Pension-Protected-WWI
+16
+Death Pension-Protected-WWII
+26
+Death Pension-Protected-War with Spain
+56
+Death Compensation-Korean Conflict
+35
+Death Compensation-Peacetime
+45
+Death Compensation-Philippine WWII
+95
+Death Compensation-Vietnam Era
+75
+Death Compensation-Wartime-WWI
+15
+Death Compensation-Wartime-WWII
+25
+Disability Compensation-Korean Conflict
+31
+Disability Compensation-Mexican Border Period
+61
+Disability Compensation-Peacetime
+41
+Disability Compensation-Persian Gulf War
+01
+Disability Compensation-Philippine-WWII
+91
+Disability Compensation-Vietnam Era
+71
+Disability Compensation-WWI
+11
+Disability Compensation-WWII
+21
+Disability Compensation-Month of Death
+51
+Disability Improved Pension-Korean Conflict
+3L
+Disability Improved Pension-Mexican Border Period
+6L
+Disability Improved Pension-Persian Gulf War
+0L
+Disability Improved Pension-Vietnam Era
+7L
+Disability Improved Pension-WWI
+1L
+Disability Improved Pension-WWII
+2L
+Disability Improved Pension-Month of Death
+43
+Disability Pension-PL86-211/670-Korean Conflict
+34
+Disability Pension-PL86-211/670-Mexican Border
+64
+Disability Pension-PL86-211/670-Vietnam Era
+74
+Disability Pension-PL86-211/670-WWI
+14
+Disability Pension-PL86-211/670-WWII
+24
+Disability Pension-PL86-211/670-War with Spain
+54
+Disability Pension-Protected(SAW 90 Days) KC
+32
+Disability Pension-Protected(SAW 90 Days) WWI
+12
+Disability Pension-Protected(SAW 90 Days) WWII
+22
+Disability Pension-Protected-War with Spain
+52
+EOR – PL2-73/PL743
+05
+Medal of Honor-Civil War
+8M
+Medal of Honor-Gulf War
+0M
+Medal of Honor-Korean Conflict
+3M
+Medal of Honor-Mexican Border
+6M
+Medal of Honor-Peacetime
+4M
+Medal of Honor-Philippines
+9M
+Medal of Honor-Spanish American War
+5M
+Medal of Honor-Vietnam Era
+7M
+Medal of Honor-World War I
+1M
+Medal of Honor-World War II
+2M
+e. Current Award Status Codes
+Description
+Value
+Active
+A
+Terminated
+T
+Suspended
+S
+f. Change Reason Codes
+Description/Value
+SSA Conversion
+Original Award
+00
+Entitled Month of Death (MOD) Benefit
+90
+Month of Death Benefits End
+(MODEND)
+99
+Death of Beneficiary (DB)
+22
+Failed to Furnish Requested Evidence (FFRE)
+16
+Compensation Rating Adjustment (31)
+37
+Change in Spouse Status (23)
+15
+Forfeiture (FORF)
+04
+No Longer A&A (NLAA)
+51
+Change in Parent Status
+24
+Hospitalized Basic Pension Adjustment
+01
+Hospitalized SMC Adjustment
+38
+Incarceration Adjustment
+13
+Pension Rating Adjustment
+27
+Special Monthly Compensation Adjustment
+32
+Special Monthly Entitlement Adjustment
+40
+Special Monthly Pension Adjustment
+33
+Countable Income Adjustment
+15
+Not on SSA Hierarchy or None
+Blank

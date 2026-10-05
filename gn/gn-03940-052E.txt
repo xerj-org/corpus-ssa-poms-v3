@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 03940.052 - Fee Agreements — SSI Couples Cases
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940052 (fetched 2026-10-04)
+
+E. Procedure – Withholding and Making Direct Payment
+When we include EI's additional past-due benefits in calculating ES's representative's
+fee, and when ES's representative has not waived a fee and is eligible for direct
+payment of the authorized fee, the claims specialist must manually:
+•
+Calculate and withhold EI's past-due benefits,
+•
+Make direct payment to the representative or eligible entity if there is a valid assignment
+(see GN 03920.021) from EI's additional past-due benefits, and
+•
+Issue fee notice(s) to EI.
+Follow the procedures in GN 03940.052C and the examples in GN 03940.052D to calculate EI's past-due benefits to include in the past-due benefits for fee purposes.
+To make direct payment to the representative, or eligible entity if there is a valid
+assignment, from EI's past-due benefits, take the following actions:
+•
+Input a U TAC to withhold EI's past-due benefits.
+•
+Input an A-OTP to pay EI the difference between EI's additional past-due benefits
+and 25 percent of the additional past-due benefits or the amount to be paid to the
+representative, if known.
+•
+On the next day, input A-OTP via the UPOF screen in MSSICS (see MSOM BUSSR 003.025)
+the amount payable to the representative or entity from EI's past-due benefits. (If
+ES filed concurrent Titles II and XVI claims, query the Single Payment System (SPS)
+to determine the total fee authorized based on ES's Title II and Title XVI past-due
+benefits. Use that sum in determining whether to authorize and pay an additional fee
+amount based on EI's past-due benefits.)
+•
+Code the user fee, if any, on the UPOF. Obtain a SPS query to determine if the maximum
+user fee cap was reached (see GN 03920.019A) when we made direct payment to the representative or entity from ES's past-due benefits.
+•
+Send a manual fee notice to EI, ES, and the representative. Do not send a copy of
+the award notice or other protected information (e.g., claimant information) to the
+entity's POC unless the information included is the minimum amount of information
+necessary for the POC to review to resolve fee-related issues. Only disclose information
+that is not relevant or necessary to resolve fee-related issues if the claimant has
+expressly consented on a Form SSA-3288 or other written consent that meets the requirements
+of GN 03305.003. Notice language is in the Document Processing System (DPS) General/Fee section.
+•
+Remove the U TAC. This releases any balance of withheld past-due benefits to EI.
+NOTE: The system automatically withholds 25% of the Title XVI past-due benefits or the
+remaining past-due benefits if that amount is less than 25% after SSA makes any interim
+assistance reimbursement. This amount is withheld for direct payment of authorized
+fees in a Title XVI only claim or the Title XVI claim in a concurrent claim situation.
+Please note that the Title XVI past-due benefits withheld in a concurrent claim situation
+is prior to offset of the Title XVI past-due benefits. To ensure that direct payment
+of an authorized fee does not exceed 25% of past-due benefits in a concurrent claim
+situation, offset the Title XVI past-due benefit per the instructions in GN 03920.031B.2 prior to direct payment of an authorized fee. In addition, the system automatically
+releases the remaining Title XVI past-due benefits to the claimant after repaying
+interim assistance reimbursement (IAR), withholding for authorized fees, and collecting
+overpayments. This payment is subject to dedicated account and installment payment
+provisions – see SI 02101.010 and SI 02101.020.

@@ -1,0 +1,443 @@
+SSA Program Operations Manual System (POMS) - GN 02613.865 - Title II Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 10/07/2016 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613865 (fetched 2026-10-04)
+
+E. Appeals Case Processing
+Beneficiaries who were suspended for “fleeing to avoid prosecution or custody or confinement
+after conviction” for a felony (arrest warrants with offense codes other than 4901,
+4902, 4999, 5011, 5012, 8101 or 8102) prior to 01/01/07, but who had a pending appeal
+or an administrative appeal determination related to the fugitive felon suspension
+issue on or after 01/01/07, are included in the post-2006 Martinez class. For more
+information on the terms of the Martinez Settlement for administrative appeals, see
+GN 02613.860B.3.
+1. Identifying class members
+The Office of Systems identified appeals cases. The identification of beneficiaries
+was over-selective to capture every beneficiary requesting any type of fugitive felon
+suspension or overpayment appeal.
+We listed these class members on the CATS with a CCID of F3 Title II Appeals. Processing
+Center (PC) management distributed the list of F3 Martinez settlement appeals cases
+so PC personnel could take the following actions.
+2. Queries on fugitive felon suspension or overpayment appeal issues
+a. Review the MBR data
+Review the following data on the MBR for these selected cases:
+MBR Data
+Review of MBR Data
+CO MSG1 line
+MARTINEZ COURT CASE APPEALS REVIEW
+HISTORY line
+S9 payment history months with the HFRST of FUGFEL anytime between 01/01/05 through
+12/31/06. See GN 02613.868B.3. for more information on reviewing the MBR.
+FUGITIVE line
+Check the warrant data. The warrant offense code must not be 4901, 4902, 4999, 5011,
+5012, 8101, or 8102. See GN 02613.868B.3. for information on reviewing the MBR.
+b. Review the Recovery Overpayment Accounting Record (ROAR) data
+Review the ROAR record on the bottom of the MBR to determine the appeal history of
+your case and the date the beneficiary requested their appeal.
+ROAR
+Review Action
+BENEFIT line
+Find the current balance due for all overpayments for the beneficiary in BBAL-$$$$$
+field.
+EVENT line
+Find the Event Identifier (EI) for the fugitive felon overpayment (e.g., 01, 02) for
+fugitive felon warrant in the administrative appeal fields.
+Find the Type of Event (TOE) for the fugitive felon overpayment on the EVENT data
+line, (e.g., T2 FUF SUS/FEL WAR, OTHER OR CONSOLIDATED LDO).
+Find the STATUS of the current recovery effort for the fugitive felon overpayment
+(e.g., BEN ADJ, DUE PROCESS).
+HISTORY line
+Determine when ROAR received the fugitive felon overpayment amount and the administrative
+appeal in these fields. Check:
+RUN DATE = date of administrative appeal at the field office.
+TRANS = 23
+AMOUNT = fugitive felon overpayment amount
+SRC = 3—DO DOCXXX
+WRI-W--WAIVER REQUEST,
+or
+WRI - R – RECON REQUEST
+WRI – H –HEARING REQUEST
+NOTE: The RUN DATE must be 01/01/07 or later.
+Example of a waiver request on ROAR:
+RUN DATE = date of the administrative appeal (waiver request on the fugitive felon
+overpayment) at the field office.
+TRANS = 23
+AMOUNT = fugitive felon overpayment amount
+SRC 3—DO DOCXXX
+WRI- WAIVER REQUEST
+Then followed by the personal conference date:
+(ROAR data same as above example except for the following items.)
+WRI-P- PERSONAL CONF
+SOURCE-XXX WHLD-100.00 COM – 01/07
+NOTE: The final decision (e.g., personal conference) HISTORY RUN DATE entry must be 01/01/07
+or later to qualify for post-2006 Martinez settlement relief. The HISTORY RUN DATE
+entry must be 01/01/07 or later if the WAIVER REQUEST is the only action annotated
+to ROAR for the T2 FF SUS/FEL WAR overpayment to qualify for post-2006 Martinez settlement
+relief.
+NOTE: An entry of INFORMAL WAIVER or PART W/H REQUEST on ROAR means the person inquired
+about waiver but did not request a waiver, or the person asked about recovery through
+partial withholding. Neither effects an administrative appeal. If that entry is the
+last entry, give the beneficiary pre-2007 Martinez relief. Process the pre-2007 Martinez
+relief for this CCID F3 case following the instructions under GN 02613.865E.7.e. in this section.
+Example of ROAR History:
+Example
+1
+RUN DATE TRAN AMOUNT SRC
+12/23/05 12 $6705.40
+08/11/06 23 $6705.40 3--DO DOC-C51
+WRI-N--INFORMAL WAIVER
+09/14/06 43 $0.00 SOURCE-C51 WHLD-775.00 COM-10/06
+SSC-2
+10/19/06 23 $6705.40 3--DO DOC-C51
+WRI-W--WAIVER REQUEST
+01/03/07 23 $6705.40 3--DO DOC-C51
+WRI-P--PERSONAL CONF HLD – 100.00 COM – 01/07
+The last administrative appeal decision on this case on 01/03/07.
+Example
+2
+RUN DATE TRAN AMOUNT SRC
+11/15/06 12 $9515.00
+11/29/06 23 $9515.00 3--DO DOC-927
+WRI-N--INFORMAL WAIVER
+01/29/07 41 $250.00 SOURCE-927 WHLD-250.00 COM-03/07
+LST WH-03/07 SSC-2
+04/09/07 23 $9265.00 3--DO DOC-927
+WRI-A--PART W/H REQUEST
+04/10/07 41 $1350.00 SOURCE-927 WHLD-30.00 COM-05/07
+LST WH-01/11 SSC-2
+07/01/09 22 $584.00 SSC-T
+The beneficiary did not administratively appeal. The final determination made on the
+T2 FF SUS/FEL WAR issue was an overpayment determination on 11/15/06. This case qualifies
+for pre-2007 Martinez settlement relief instead. Process cases similar to this situation
+following the instructions under GN 02613.865E.7.e. in this section.
+Carefully review the HISTORY line on the ROAR record for all periods of administrative
+appeal. Determine the last level of appeal that the beneficiary requested (i.e., waiver
+or reconsideration request, Administrative Law Judge (ALJ) hearing or Appeals Council
+(AC) review) for the fugitive felon overpayment based on your review of the ROAR record.
+Next, determine the last date of the administrative appeal request:
+Status of Administrative Appeal Decision
+Determination for Appeal Date
+closed (PC, ALJ or AC decision on appeal) or
+closed (FO decision on waiver) (no higher administrative appeal requested)
+Appeal date equals the date of the determination for the last highest level of appeal
+of the fugitive felon suspension overpayment.
+pending (no PC, ALJ or AC decision) or
+pending (no final waiver decision) (no higher administrative appeal requested)
+Appeal date equals the date that the beneficiary filed their latest request for administrative
+review, but there is no final decision on the administrative review now.
+Then, process the information for the beneficiary’s last level of appeal per the instructions
+in this section for that particular level of appeal.
+Waiver or PC Reconsideration appeal cases
+Process waiver or reconsideration appeal cases under GN 02613.865E.3. in this section.
+NOTE: If the last administrative appeal is at the ALJ level, obtain an administrative appeal
+query before processing the case to learn the status of the administrative appeal.
+Review the administrative appeals query system in GN 02613.865E.2.c. in this section.
+ALJ hearings
+To process ALJ cases, see GN 02613.865E.4. in this section.
+AC cases
+To process AC appeal cases, see GN 02613.865E.5. in this section.
+c. Review the Case Processing and Management System (CPMS) or Appeals Review Processing
+System (ARPS) data
+•
+Obtain a CPMS query or an ARPS query via the Intranet. Review the GENERAL INFORMATION on either query to determine
+if the beneficiary requested an administrative appeal for the fugitive felon suspension
+or the fugitive felon suspension overpayment. If the administrative appeal information
+on the query does not relate to the fugitive felon suspension or overpayment, do not
+use this information. Evaluate the next lower level of appeal associated with the
+fugitive felon suspension or overpayment issue.
+If the ALJ or AC administrative appeal request is associated with the fugitive felon
+suspension or overpayment issue on which you are granting post-2006 Martinez settlement
+relief, determine if the appeal is closed or pending using the chart below:
+Status of Appeals Decision
+Action on Appeals Decision
+closed (unfavorable ALJ or AC decision, fugitive felon suspension is still on record)
+If there are no other pending administrative appeals on the case, provide Martinez
+post-2006 Settlement relief without vacating the ALJ or AC decision. Process the post-2006
+Martinez relief for cases per the chart in GN 02613.865E.3.c. in this section.
+pending (no decision made on appeal request)
+Notify the specified contact for the ALJ or AC that the beneficiary is eligible for
+post-2006 Martinez settlement relief. Inform the specified ALJ or AC contact of the
+Martinez relief per GN 02613.865E.4. and GN 02613.865E.5., respectively in this section.
+3. Waiver and PC reconsideration appeal processing
+a. Pending and closed PC appeals—fugitive felon issue only
+If the last level of appeal on the record is waiver or PC reconsideration after 2006,
+use the chart to determine what action to take.
+Status of Appeal
+Status of Post-2006 Martinez Relief
+PC Processing Action
+closed (PC RECON decision) or
+closed (FO denied waiver)
+None for the warrant
+Process the closed period post-2006 Martinez settlement relief per GN 02613.865E3.c. in this section.
+closed (PC RECON decision) or
+closed (FO denied waiver)
+Relief given
+Take no action.
+pending (no final PC RECON decision) or
+pending (no final FO waiver decision)
+None for the warrant
+Process the closed period post-2006 Martinez settlement relief per GN 02613.865E.3.c. in this section.
+pending (no final PC RECON decision) or
+pending (no final FO waiver decision)
+Relief given
+Take no action.
+b. Pending PC reconsideration appeals with multiple issues
+If the appeals request that is pending also concerns issues other than those related
+to a fugitive felon suspension or overpayment issue, resolve all appeal issues at
+the same time.
+c. Processing closed period post-2006 Martinez settlement relief for administrative appeals
+cases
+Resume benefits for the closed period as indicated in the chart below:
+Steps
+Required Actions
+1
+Send the class member a post-2006 informational notice. Prepare a manual information
+notice via AURORA (E4002), per GN 02613.867B. Date and then release the notice. Send a copy of the notice to ORS.
+2
+Hold the case for two days to allow for mailing and delivery of the manual informational
+notice.
+Do not prepare a fugitive felon good cause determination.
+3
+On the FFSCF, annotate the warrant disposition to the FUGITIVE FELON WARRANT DUE PROCESS/
+GOOD CAUSE (FFDG) screen. In the update mode, enter the mandatory entries and then
+enter on the GOOD CAUSE DETERMINATION section of the screen:
+GOOD CAUSE ESTABLISHED(Y/N): Y
+IF
+YES, GOOD CAUSE REASON: CRT
+good cause decision date (mmddccyy):  99999999
+(use
+current date)
+REMARKS: Martinez Appeals case. Post-2006 relief
+applies for closed period MM/YY to MM/YY.
+4
+USE MADCAP/MACADE to resume benefits for the closed period of fugitive felon suspension.
+Select the dates for the closed period of fugitive felon suspension that you will
+now resume for the beneficiary (MM/YY to MM/YY) for the MACADE history accrual.
+From the MACADE HST screen:
+Enter ENT in the TRANSFER TO field
+Select #31 FUGITIVE FELON (FFEL) on the ENTITLEMENT AND ELIGIBILITY MENU.
+5
+On the FFEL screen in MACADE, annotate the following entries:
+GOOD
+CAUSE ESTABLISHED(Y/N): Y
+IF YES,
+GOOD CAUSE REASON: CRT
+good
+cause decision date (mmddccyy):  99999999 (use
+current date)
+REMARKS: Martinez Appeals case. Post-2006 relief
+applies for closed period MM/YY to MM/YY.
+6
+Send a closed period resumption notice via MADCAP. Add to the notice the additional
+post-2006 Martinez relief caption and paragraph in GN 02613.867A.3. Follow the instructions for processing requests for special notices for blind or
+visually impaired claimants and beneficiaries as indicated in EM-09088 SEN dated 12/31/09
+and EM-10021 SEN dated 03/17/10.
+d. Office of Hearing Operations (OHO) appeal
+If there is an administrative appeal pending in Office of Hearings Operations (OHO),
+(either at the Office of Appellate Operations (OAO) or Office of the Chief Administrative Law Judge (OCALJ)) you must notify the
+appropriate administrative appeal organization of the post-2006 Martinez settlement
+relief. Process ALJ appeal cases using GN 02613.865E.4. in this section. Process OAO appeal cases using GN 02613.865E.5. in this section.
+4. Administrative Law Judge (ALJ) appeal processing
+a. Pending and closed ALJ appeals—Fugitive felon issue only
+Use the chart to process ALJ appeals as follows:
+Status of Appeal
+Status of Post-2006 Martinez Relief
+PC Processing Action
+closed (ALJ decision)
+None for this warrant
+Process the closed period post-2006 Martinez relief per GN 02613.865E.3.b. in this section.
+closed (ALJ decision)
+Relief given
+Take no action
+pending (no final ALJ decision)
+None for this warrant
+Calculate the benefits due the beneficiary for the closed period of fugitive felon
+suspension that we are removing. Take no action to process the post-2006 closed period
+Martinez settlement relief at this time.
+Contact the Hearing Office (HO)
+–
+Obtain the HO code (3-position code) from the beneficiary’s CPMS /ARPS query.
+–
+Use the Detailed Office/Organization Resource System (DOORS) on the Mainframe to locate
+the HO’s email address.
+–
+Email the HO the following information:
+Subject: Martinez Settlement Case
+Message to HO for the ALJ
+SSN
+Name of Beneficiary/BIC
+Name of ALJ Assigned to Hearing from the CMPS/ARPS Query
+–
+Explain that the beneficiary is eligible for post-2006 Martinez settlement relief.
+Provide the facts found in the MBR, ROAR, CPMS or ARPS or on ORS and indicate the
+period of time for which we will resume the monthly benefits. If payment should remain
+suspended because of other higher priority suspension or payment issues that will
+occur once the fugitive felon suspension event is closed, explain this.
+–
+Send the completed email message to the HO. The HO will refer the Martinez settlement
+email to the appropriate ALJ for consideration.
+Do not provide post-2006 Martinez settlement relief for this beneficiary’s record until
+the HO forwards the case to the PC for subsequent action on the post-2006 Martinez
+relief. The HO will place an alert in the Alert and Message section in eView to notify
+the PC technician of Martinez settlement involvement.
+When the HO forwards the case to the PC for action, process the closed period post-2006
+Martinez settlement relief per GN 02613.865E.2.b. in this section.
+pending (no final ALJ decision)
+Relief given
+Contact the HO
+–
+Obtain the HO code (3-position code) from the beneficiary’s CPMS /ARPS query.
+–
+Use the Detailed Office/Organization Resource System (DOORS) on the Mainframe to locate
+the HO’s email address.
+–
+Email the HO the following information:
+Subject: Martinez Settlement Case
+Message to the HO for the ALJ
+SSN
+Name of Beneficiary/BIC
+Name of ALJ Assigned to Hearing from the CMPS/ARPS Query
+Notify the ALJ that we already gave the beneficiary post-2006 Martinez settlement
+relief. Provide the ALJ with the date we gave the relief (MM/DD/CCYY). Give the dates
+for the period involved for the post-2006 Martinez settlement relief.
+–
+Send the completed email message to the HO. The HO will refer the Martinez settlement
+email to the appropriate ALJ for consideration.
+After the ALJ makes a decision, the HO will forward the case to the PC. The HO will
+place an alert in the Alert and Message section in eView to notify the PC technician
+of Martinez settlement involvement.
+–
+No action is necessary by the PC technician on the Martinez relief.
+b. Pending ALJ appeals with multiple issues
+If the appeals request that is pending with the ALJ concerns issues other than those
+related to a fugitive felon suspension or overpayment issue, the case will remain
+with the HO, even if the beneficiary is due relief under the Martinez settlement.
+Provide the HO with information on the post-2006 Martinez settlement relief due the
+beneficiary, per the chart in GN 02613.865E.4.a. in this section. Process the ALJ decision in accordance with the chart in GN 02613.865E.4.a. in this section.
+5. Appeals Council (AC) appeal processing
+a. Pending and closed AC Appeals—Fugitive felon issue only
+The chart provides instructions for processing AC appeal cases for a Title II beneficiary
+for the fugitive felon suspension or overpayment.
+Status of Appeal
+Status of Post-2006 Martinez Relief
+PC Processing Action
+closed (AC decision)
+None for this warrant
+Process the closed period post-2006 Martinez settlement relief for the beneficiary
+per GN 02613.865E.3.b. in this section.
+closed (AC decision)
+Relief given
+Take no action.
+pending (no final AC decision)
+None for this warrant
+Calculate the benefits due for the closed period of fugitive felon suspension that
+we are removing. Take no action to process the post-2006 closed period Martinez settlement
+relief at this time.
+Contact the specified AC contact via email.
+•
+Email Roni Lasher in OAO and provide the following information:
+Subject: Martinez Settlement Case
+Message for the AC
+SSN
+Name of Beneficiary/BIC
+Name of Appeals Council Judge assigned to the hearing from the CMPS/ARPS Query
+•
+Explain that the beneficiary is eligible for post-2006 Martinez settlement relief.
+Provide the facts found in the MBR, ROAR, CPMS or ARPS, or on ORS and indicate the
+period of time for which we will resume the monthly benefits. If payment should remain
+suspended because of other higher priority suspension or payment issues that will
+occur once the fugitive felon suspension event is closed, explain this.
+•
+Roni Lasher of OAO will refer your email request to the appropriate AC for consideration
+Do not provide post-2006 Martinez settlement relief for this beneficiary’s record until
+OAO forwards the case to the PC for subsequent action on the post-2006 Martinez relief.
+•
+OAO will send the case back to the PC after the AC makes a decision regarding all
+appeal issues. OAO will return the case to the PC via form HA-505, “Transmittal by
+Office of Disability Adjudication and Review,” identified as “Martinez Settlement
+Case.” OAO also adds a red “Special” label to form HA-505 prior to remanding the case
+to the jurisdictional PC.
+•
+When receiving the HA-505, process Martinez relief per GN 02613.865E.5. in this section. Add the following message to the MBR - “Martinez Settlement Appeal
+Post-2006 Relief Processing.”
+pending (no final AC decision)
+Relief given
+Contact the specified AC contact via email.
+•
+Send an email to Roni
+Lasher in OAO and provide the following information:
+Subject: Martinez Settlement Case
+Message
+SSN
+Name of Beneficiary/BIC
+Name of Appeals Council Judge assigned to the hearing from the CMPS/ARPS Query
+•
+Notify the AC that we already gave the beneficiary post-2006 Martinez settlement relief.
+Provide the AC with the date we gave relief (MM/DD/CCYY). Give the dates for the period
+involved for the post-2006 Martinez settlement relief.
+•
+Roni Lasher in OAO will refer your email request to the appropriate AC for consideration.
+•
+OAO will send the case back to the PC after the AC makes their decision on the appeal
+issue. OAO returns the case to the PC via form HA-505 “Transmittal by Office of Disability
+Adjudication and Review” identified as “Martinez Settlement Case.” OAO also adds a
+red “Special” label to form HA-505 prior to remanding the case to the jurisdictional
+PC.
+•
+No action is necessary by the PC center technician on the Martinez relief.
+NOTE: A beneficiary or recipient who has received a final Federal court decision about
+a fugitive felon suspension may not be a class member. If you learn of such a decision,
+refer the case to your PC Coordinator who will contact the Office of General Counsel
+(OGC) for advice.
+b. Pending OAO AC appeal case, multiple appeal issues
+If the appeals request that is pending with the AC concerns issues other than those
+related to a fugitive felon suspension or overpayment issue, the case will remain
+with OAO, even if the beneficiary is due relief under the Martinez settlement.
+Provide the AC with information on the post-2006 Martinez settlement relief due the
+beneficiary. Use the chart in GN 02613.865E.5.a. in this section to email the Martinez settlement relief information to the AC. When
+the AC makes a decision on all issues on the appeal, process the AC decision in accordance
+with the chart in GN 02613.865E.5.a. in this section.
+6. Notifying class members of potential relief
+Martinez class members eligible for post-2006 relief based on a pending or closed
+unfavorable administrative appeal must receive notice of the terms of the Martinez
+settlement, if they did not already receive a post-2006 Martinez settlement informational
+notice. The informational notice is available in AURORA as exhibit number E4002.
+For instructions on generating the informational notice via AURORA, see GN 02613.867B. Shortly after your release of the informational notice (E4002), resume benefits for
+the closed or pending administrative appeal periods of fugitive felon suspension to
+these Martinez class members.
+7. Miscellaneous case processing items
+a. Processing multiple warrants
+To process multiple warrant cases, see GN 02613.865A.2. in this section.
+b. Processing cases that show current prisoner or fugitive felon status
+We cannot pay underpayments to beneficiaries who are in prison, or have a warrant
+record with an offense code of 4901, 4902 or 4999. To process these cases, see GN 02613.865A.3. in this section.
+c. Processing concurrent cases (entitlement or eligibility to both title II and title
+XVI monthly benefits)
+•
+Process the Martinez settlement actions on concurrent cases (i.e., title II and title
+XVI) independently under each title.
+•
+Process title II Martinez cases in accordance with instructions in GN 02613.860D.2. (chart, CCID Codes F1, F2, F3), and process title XVI Martinez cases as indicated
+in the instructions in GN 02613.860D.2. (chart, CCID Codes F4, F5, F6 and F7)
+d. Other case processing items
+For information regarding other case processing issues (e.g., Medicare, CDRs, etc.)
+is in GN 02613.870.
+e. Processing pre-2007 Martinez Relief for CCID F3 cases
+If you find the computer over-selection includes a beneficiary who did not have a
+pending administrative appeal for a fugitive felon suspension or overpayment on or
+after January 1, 2007, give the beneficiary pre-2007 Martinez settlement relief. Information
+on pre-2007 Martinez settlement relief is in GN 02613.868. Process the pre-2007 Martinez settlement relief for CCID F3 identified cases as
+indicated in the chart below:
+Steps
+Required Actions
+1
+Send the class member a pre-2007 informational notice. Prepare a manual information
+notice via AURORA (E4003). Instructions for issuing the notice are in GN 02613.869C. Once the notice is prepared, date and then release the notice.
+Send a copy of the notice to ORS.
+2
+Hold the case two days to allow for mailing and delivery of the manual pre-2007 Martinez
+settlement informational notice.
+3
+Continue to process the case per the instructions in GN 02613.868B.2. for pre-2007 Martinez settlement relief.
+4
+Add a new SP MSG field to the MBR and enter REMARKS:  “Martinez Appeals case. Pre-2007
+overpayment relief applies for closed period MM/YY to MM/YY.”

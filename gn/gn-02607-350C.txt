@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02607.350 - Title II Sexually Dangerous Person (SDP) Provisions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607350 (fetched 2026-10-04)
+
+C. Master beneficiary record (MBR) coding for SDPs
+1. Coding during the psychological evaluation
+A beneficiary’s benefits are generally in prisoner suspense (i.e., ledger account
+file (LAF) status of S7, Reason for Suspension or Termination (RFST) code of PRISON)
+before an institution permanently confines them following an SDP judgment. During
+the psychological evaluation period, leave the beneficiary’s benefits in LAF code
+S7 and RFST PRISON on the MBR. Do not make any changes to the Prisoner Suspension
+Data Line (PRSNDATA) during the evaluation period. For information on PRSNDATA, see
+SM 00510.395.
+2. SDP suspension coding
+When a court issues an order declaring the beneficiary an SDP and confines them to
+an institution for more than 30 days, process the SDP decision via MACADE or MADCAP
+as follows:
+enter on the existing PRSNDATA line a SUSPENSE STOP date equal to the month before
+the SDP suspension effective date;
+a.
+enter on a new PRSNDATA line:
+•
+SUSPENSE START date equal to the SDP suspension effective date; and
+•
+the CONFINE TYPE of PREDTR; and
+b.
+enter on the MBR HISTORY data line, an RFST code of "PREDTR" effective with the date
+of the SDP commitment order. Benefits remain in LAF S7 suspension status.
+For more information on the MBR HISTORY data line, see SM 00510.585.
+NOTE: When a beneficiary’s reason for suspension changes from PRISON (prisoner) to an SDP
+(PREDTR), send the beneficiary a new suspension notice explaining the SDP suspension
+reason. For information on the suspension notice to send an SDP beneficiary, see GN 02607.972A.2.c.
+3. Example
+A court convicted Jack of a sexual crime and sentenced Jack to 5 years in prison.
+We suspended Jack's Title II benefits (LAF S7, RFST PRISON) when the court convicted
+Jack of the sexual crime. After Jack completed the prison sentence, the court issued
+a temporary detainment order transferring Jack to a mental hospital for psychological
+evaluation to determine if Jack is sexually dangerous. Jack's benefits remained in
+prisoner suspension during the SDP psychological evaluation. Upon the mental hospitals
+submission of its evaluation, the court issued an order on 04/11/2015 declaring Jack
+a sexual predator. The court also ordered Jack confined to the mental institution
+indefinitely.
+After Jack served more than 30 continuous days in the institution as an SDP (05/11/2015),
+we took the following actions:
+•
+on the existing PRSNDATA line, entered a SUSPENSE STOP date of 03/2015;
+•
+on a new PRSNDATA line, entered a suspension start date of 04/2015 and changed CONFINE
+TYPE from PRISON to PREDTR; and
+•
+on the MBR HISTORY data line, entered the RFST code of "PREDTR" effective 04/2015.
+Jack remains suspended until the court officially releases Jack from the institution.

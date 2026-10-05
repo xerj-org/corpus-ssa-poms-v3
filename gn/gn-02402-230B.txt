@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.230 - Death of an International Direct Deposit (IDD) Beneficiary
+Effective Dates: 06/07/2022 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402230 (fetched 2026-10-04)
+
+B. How to process the death information
+The key to successfully process death information is close coordination between OEIO,
+the Federal Reserve Bank of Kansas City (FRBKC), the Federal Benefit Units (FBU) and
+border offices. When death information is received by one of these entities, it needs
+to be shared with others to prevent erroneous payments after death and to aid in recovery
+of payments released before the death report is successfully processed to the Master
+Beneficiary Record (MBR).
+1. Reported death from an Outside Source
+A report of death of an IDD beneficiary from a source other than FRBKC or an FBU,
+requires the following actions:[MO1]   [MO1]Another option: DIO must take the following
+actions when receives report of death of an IDD beneficiary from a source other than
+FRBKC or an FBU:
+•
+Obtain the date of death if it was not included in the report.
+•
+Process death termination through DIPS. Manual action for death input is only required
+if DIPS action excepts.
+•
+Manually convert the B to D in ITS.gov, if appropriate..
+•
+Request a FRBKC intercept if the beneficiary had IDD to a FI in a country not listed
+and applied death input to the record after the cutoff. Input death stop in ITS and
+if appropriate initiate reclamation.
+2. Report of death from an FBU
+A report of death of an IDD beneficiary from an FBU requires the following actions:[MO1]
+[MO1]Consider alternative language similar to that in previous comment
+•
+Verify that the FBU coded the death termination, and initiated the reclamation in
+ITS.gov.
+•
+Reclaim incorrect payments that went out after death, see GN 02408.900 to GN 02408.950.
+3. Report of death from FRBKC
+A report of IDD beneficiary from FRBKC requires the following actions:
+•
+Process the death termination through DIPS. MADCAP action required if DIPs input excepts;
+•
+Manually convert the B to D conversion in ITS, if appropriate;
+•
+Reclaim any incorrect payments that went out after death.

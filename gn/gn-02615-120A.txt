@@ -1,0 +1,201 @@
+SSA Program Operations Manual System (POMS) - GN 02615.120 - Title II Clark Court Order Manual Processing
+Effective Dates: 06/25/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615120 (fetched 2026-10-04)
+
+A. Processing Center (PC) Clark manual relief
+1. Clark manual relief workload
+After releasing the Clark Informational Notice on December 11, 2012, we forwarded the records selected for
+manual processing directly to the PC. The PCs will administer Clark relief for Class Members whose records have:
+•
+A 10/24/2006 or later pending administrative appeal on either probation or parole
+violation (PPV) suspensions or overpayments, or
+•
+An overpayment history exists that prohibits the system from automatically calculating
+paid versus payable correctly without manual review and processing, or
+•
+Multiple warrants that require review of each warrant and subsequent manual relief
+processing.
+In addition, if a record has a Central Office Message (CO MSG) of CLARK COURT ORDER—CASE
+SELECTED FOR CLARK RELIEF AND MEDICARE REVIEW, the technician will review the case
+to determine if the beneficiary is eligible to receive Clark relief and subsequently determine if Medicare relief is also appropriate. For instructions
+on processing Clark Medicare relief, see GN 02615.140.
+The Social Security numbers and names of the Class Members who received the informational
+notices are on the Civil Action Tracking System (CATS) with a Court Case Identifier
+(CCID) of C2.
+2. Processing Center Action Control System (PCACS) Clark manual workload identification
+The Clark relief cases will have a Processing Center Action Control System (PCACS) issue to
+alert the technician that the case is available for processing. The PCACS for the
+Clark cases will contain the following information to identify the case.
+TOEL1: STATUS TOEL2: FELRESU TOEL3: ALERT TOEL4: CLARK
+3. Record review to determine relevant warrants and overpayments
+All single warrant cases have a PPV suspension or overpayment initial determination
+dated 10/24/2006 or later, or have a PPV administrative appeal request pending 10/24/2006
+or later. All multiple warrant cases require a review of each warrant to determine
+if that warrant meets the requirements for Clark relief. The chart below provides information on our records and data elements that
+you must review to determine the PPV suspension period and correctly process the Clark relief.
+Payment record
+Review of payment record
+Result of Review
+Master Beneficiary Record (MBR) query
+CO MSG1 line will include information about the type of Clark relief that the beneficiary is due.
+Confirm that the special message data line states: “CLARK COURT ORDER — CASE SELECTED
+FOR CLARK REVIEW.”
+If the Class Member may qualify for Medicare relief, the CO MSG1 will state: “CLARK
+COURT ORDER — CASE SELECTED FOR CLARK RELIEF AND MEDICARE REVIEW.”
+FUGITIVE line will show warrant information.
+Check the data entries in this data field to determine for each warrant the:
+Warrant date and Originating Agency Indicator,
+warrant type: Felon Status = VIOLATION, and
+current warrant status.
+If the warrant is actionable (i.e., not satisfied), there is no MBR WARRANT SATISFY
+field. If the warrant is closed, there are data entries in the WARRANT SATISFY and
+SATISFIED RSN fields.
+NOTE: If the beneficiary is deceased (i.e., LAF T1) or in terminated status (e.g., T4,
+T6, etc.), the WARRANT SATISFY date entry and SATISFIED RSN entry will remain blank.
+Do not closeout the warrant as “satisfied” when the beneficiary’s status terminates.
+For information on multiple warrant processing, see GN 02615.120C in this section.
+O/U PAY line shows the most recent overpayment occurrence on the record and the reason for
+the overpayment.
+Check the data line to confirm a PPV suspension overpayment.
+The Due Process Overpayment Type (DPOT) T2 FF/SUS/VIO, (Type of Event (TOE 74), will
+show if this is a PPV overpayment. The Due Process Overpayment Amount (DPO) should
+be identical to the amount that appears on the ROAR record PPV overpayment event.
+NOTE: In some instances, Beneficiary Overpayment/Underpayment Data (BOUD) may not show
+a TOE 74 even though there is a TOE 74 event on ROAR. If the BOUD TOE is not 74 or
+your estimate of the PPV suspension overpayment amount does not equal the overpayment
+posted in BOUD, check ROAR to see if BOUD may contain multiple overpayments.
+HISTORY line will reflect a history of payment changes to the record.
+Check the data entries in this line to determine the S9 period(s) with an HRFST of
+FUGFEL between 01/05 – present.
+Check the following fields in the HISTORY data line:
+STATUS CODE--Position 3, Benefit Paid Designation (BPD) of this entry shows if the
+monthly benefit was paid, code “1;” or, not paid, code “0.”
+Reason for Suspension or Termination (SUS/TERM)--The code will be “9” with an HRFST
+of “FUGFEL.”
+Monthly Benefit Credited (MBC) – MBC is the monthly title II benefit due after any
+appropriate dollar rounding (considering a deductible of supplementary medical insurance
+(SMI) premium), but prior to the actual collection of any obligation of the beneficiary
+(including SMI premium). Determine any overpayment or underpayment amount and check
+amount based on the MBC amount.
+Recovery Overpayment Accounting Record (ROAR)
+BENEFIT line
+Identify the total current balance due for all overpayments for the beneficiary stated
+on the BBAL-$$$$$ data line.
+EVENT line
+Find the Event Identifier (EI) for the PPV overpayment (e.g., 01, 02, etc.).
+Find the Type of Event (TOE) for the PPV overpayment on the EVENT data line, (e.g.,
+T2 FF SUS/VIO WAR, T2 FF SUS/FEL WAR, PRIS SUS NON-MENT, OTHER OR CONSOLIDATED LDO,
+etc.).
+Find the STATUS for the PPV overpayment. Determine from the STATUS code entry the
+current PPV overpayment recovery effort (e.g., BEN ADJ, DUE PROCESS, etc.).
+HISTORY line
+Identify the entries in the data line to determine when ROAR established the PPV overpayment
+amount.
+RUN DATE
+TRAN
+AMOUNT
+NOTE: If the PPV suspension caused an overpayment, the ROAR HISTORY RUN DATE entry for
+the PPV overpayment event establishment is important when determining the initial determination date for applying Clark relief. The establishment event transaction code (TC) is generally a TC12, but sometimes
+ROAR establishes the event as a TC 10.
+Fugitive Felon System Control File (FFSCF)
+Fugitive Felon Warrant Data (FFWQ) Screen
+Review the following data fields on this screen to determine if you need to distinguish
+the suspension for this warrant from other warrants that the beneficiary may have.
+WARRANT DATE
+OFFENSE CODE (PPV warrants =5011, 5012, 8101, or 8102)
+OFFENSE CHARGE SYMBOL (PROBATION/PAROLE VIOLATION)
+WARRANT NUMBER
+NCIC NUMBER
+WARRANT FILE REPORT DATE
+NOTE: For specific PPV warrant data codes applicable to Clark class members, see GN 02615.100B.1.
+Fugitive Felon Warrant Status (FFSQ) Screen
+Review the OIG SUBJECT STATUS DATE. If it is blank, it means that the Office of the
+Inspector General (OIG) did not verify the warrant nor refer it for PPV suspension.
+Payment History Update Query (PHUS)
+TRANS line
+The PHUS retains the entire Transaction line as a permanent record of actual payment
+history. Review the transaction on PHUS to see what we actually paid the beneficiary.
+If you need more information on the TRANS data line of the PHUS query, see SM 00545.275.
+4. Determining the initial PPV suspension date for a multiple warrant case
+For multiple PPV warrants, determine the PPV initial suspension determination date
+for each warrant by using the following chart.
+Steps
+Actions
+1
+Review the PPV warrant on FFSCF. Go to the Fugitive Felon Warrant Status Query (FFSQ)
+screen and find the OIG SUBJECT STATUS DATE: MM/DD/CCYY. This data represents the
+date that OIG referred the PPV warrant to us for review and suspension processing.
+Use this date as the beginning reference point for searching for the PPV suspension
+determination date. Benefit suspension always occurs after this date, if appropriate.
+Go to step 2.
+If there is no OIG subject status date, search the Online Retrieval System (ORS) for
+title II PPV initial suspension and or overpayment determination notices dated 01/01/05
+and later.
+2
+After determining the FFSQ beginning month and year reference point, review the MBR
+HISTORY PPV period of S9 FUGFEL. Find the posted MBR PPV suspension processing transaction.
+Use this date to search ORS for the notice, go to step 3.
+If this warrant does not have a MBR PPV suspension processing transaction, stop. Go
+back to step 1 and start over with the next warrant.
+NOTE: If the PPV suspension caused an overpayment, review the ROAR HISTORY data line.
+Check the ROAR PPV suspension overpayment posting date (i.e., RUN DATE and TC12 T2
+FF/SUS/VIO). The ROAR PPV overpayment posting date corresponds with the POS FFEL or
+MACADE/MADCAP action date that processed the PPV suspension. Use this date to search
+for the notice on ORS, go to step 3.
+3
+Locate the beneficiary’s ORS PPV initial suspension notice and any related overpayment
+notice. Obtain the mailing date of the beneficiary’s PPV initial suspension and any
+overpayment determination notice, and go to step 5.
+If the PPV suspension and any overpayment notice is not in ORS, go to step 4.
+4
+If you cannot find the beneficiary’s ORS PPV suspension and overpayment notice, recheck
+the beneficiary’s MBR and locate the MADCAP/MACADE PPV suspension action. This processing
+action will provide the beneficiary’s notice information that we included on the PPV
+suspension and overpayment notice. Add five days to the processing date and use this
+date as the PPV suspension and overpayment initial determination date, and go to step
+5.
+If MACADE/MADCAP did not process the PPV suspension, go to the MBR DED/ADD line and
+review the transactions to locate the system that processed the PPV suspension. Find
+the UPDATED field for the transaction and use the UPDATED date entry plus 5 working
+days as the initial PPV suspension determination date, and go to step 5.
+5
+If the initial PPV suspension determination is 10/24/2006 or later, the PPV warrant
+qualifies for Clark relief, process the reinstatement action. For reinstatement instructions,
+see GN 02615.120E.2 in this section.
+NOTE: The title II PPV suspension and related overpayment determinations are contained
+in the same initial determination notice.
+If the initial PPV suspension determination is earlier than 10/24/2006, the PPV warrant
+does not qualify for reinstatement unless the beneficiary has a pending administrative
+appeal. This warrant requires no further action. Go to step 1 to review the next warrant
+until you review all of the beneficiary’s PPV warrants.
+If there is a 10/24/2006 pending administrative appeal on the PPV suspension or overpayment
+action on the record, process the record following instructions in GN 02615.130.
+5. Clark relief processing actions
+After reviewing the payment records, determine how you will process the relief for
+each warrant.
+a. Administrative appeal
+The ROAR review reveals that there was a PPV suspension or overpayment (e.g., T2 FF
+SUS/VIO WAR, T2 FF SUS/FEL WAR, or Consolidated LDO) with a TC 23 protest (e.g., WAIVER,
+RECON, HEARING, etc.) and, there is:
+•
+No further indication of a decision on the protest (i.e., administrative appeal request),
+or
+•
+A 10/24/2006 or later unfavorable PPV decision on ROAR (e.g., event TC 27, TC 41,
+TC 43 or TC55 following the TC 23).
+If you have this situation, the instructions for processing pending administrative
+appeals are in GN 02615.130.
+b. Overpayment adjustments necessary before relief processing
+Your review of the ROAR record reveals that we adjusted the PPV overpayment amount
+to a different amount by imposing partial recovery on an incorrect PPV overpayment
+amount, or on multiple combined overpayment events; or, we used MACADE/MADCAP to force
+a correct balance which mistakenly reduced or removed the PPV overpayment amount that
+is due Clark relief.
+For instructions on processing overpayment adjustment cases, see GN 02615.120B in this section.
+c. Multiple warrants
+The MBR FUGITIVE line review shows that there is more than one PPV warrant entry in
+the line. FFSCF review also shows warrant information for more than one PPV warrant.
+For multiple warrant processing instructions, see GN 02615.120C in this section.
+NOTE: After Clark relief processing, evaluate the beneficiary’s potential Medicare relief
+if the record has the CO MSG: CLARK COURT ORDER—CASE SELECTED FOR CLARK RELIEF AND
+MEDICARE REVIEW. For Medicare review instructions, see GN 02615.140.

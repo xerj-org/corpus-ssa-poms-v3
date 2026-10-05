@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 28084.005 - Identifying Information (Items 1 to 7)
+Effective Dates: 10/27/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428084005 (fetched 2026-10-04)
+
+H. Item 3 - wage earners name (SSA-833) or address (SSA-832)
+1. For cases involving the Form SSA-833
+Enter the name of the wage earner whose SSN appears in Item 1A if the case is a CDB
+or DWB.
+2. For cases involving the Form SSA-832:
+Enter the following information:
+•
+the latest mailing address for the recipient or the representative payee;
+•
+if the representative payee's address is entered in Item 3 and the recipient is legally
+competent, enter the recipients address in Item 24 (Remarks);
+•
+the zip code as part of the address;
+•
+do not show the bank address if direct deposit is involved; and
+•
+if the recipient is deceased do not complete the address entry, enter "recipient deceased".
+NOTE: The DDS will obtain the ADDR segment of a Supplemental Security Income Selective
+Request (SSI2) query to verify that the address in file has not changed. The DDS will
+contact the FO using an AR with current address information, so the FO will update
+the SSR with the most recent address if necessary. ODO, PSC-DCR and OEIO will follow
+their direct input procedures.

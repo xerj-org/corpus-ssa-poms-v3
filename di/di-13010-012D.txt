@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - DI 13010.012 - Protection from Medical Review Based on Work Activity
+Effective Dates: 06/29/2017 - Present | TN 71 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010012 (fetched 2026-10-04)
+
+D. Procedure - when “protection from medical review based on work activity” applies
+1. Background
+When a beneficiary is initially approved (and in subsequent disability reviews) for
+disability, we establish a medical improvement diary. Depending on the type of medical
+improvement diary, work activity can prompt a medical review before the regularly
+scheduled diary date.
+For a concurrently entitled Title II and Title XVI beneficiary, if the medical CDR
+is deferred on the Title II portion, the deferral also applies for Title XVI; this
+includes 1619 initial eligibility and 1619 status change CDRs. An exception to work
+activity prompting a medical improvement review may apply if the beneficiary is participating
+in the Ticket to Work program (see DI 55025.000).
+2. Types of Medical Improvement Diaries
+The types of diaries are: Medical Improvement Expected (MIE), Medical Improvement
+Possible (MIP), and Medical Improvement Not Expected (MINE).
+a.
+MIE Diary: Query the Query Medical Information Data (QMID) screen of the Disability
+Control File (DCF) to view the Medical Re-Exam Date and Reason codes. The medical
+diary information may be on the SSA-831, or on the National Disability Determination
+Services System (NDDSS). An alpha code in the Medical Re-Exam Reason field indicates
+an MIE diary.
+b.
+MIP Diary: Query the QMID screen under the DCF to view the Medical Re-Exam Date, Medical
+Re-Exam Reason and Disability Permanent codes. The medical diary information may be
+on the SSA-831, or on the NDDSS. A “3” in the Medical Re-Exam Reason field and an
+“N” in the Disability Permanent field indicates a MIP diary.
+c.
+MINE Diary: Query the QMID screen under the DCF to view the Medical Re-Exam Date,
+Medical Re-Exam Reason and Disability Permanent codes. The medical diary information
+may be on the SSA-831, or on the NDDSS. A “5” or “7” in the Medical Re-Exam Reason
+field and a “P” in the Disability Permanent field indicates a MINE diary.
+See Also:
+DI 13005.005 – Medical Improvement Diaries
+3. Procedure for MIE diaries
+If the Beneficiary has a MIE diary, and...
+And Protection from Medical Review...
+Then...
+Reports SGA or Non-SGA level work
+Does Apply
+Defer the medical CDR, and document work activity, see DI 13010.020.
+Does Not Apply
+Document work activity based on instructions found in DI 13010.000. Perform medical file review process (DI 40510.040) and if medical CDR is needed follow instructions in DI 13005.025 for initiating the CDR.
+Is selected for a medical review or has a matured medical diary
+Does or Does Not Apply
+Screen out cases according to instructions in DI 13005.020 or DI 28003.005.
+If CDR is needed, follow instructions in DI 13005.025 for initiating the CDR
+The beneficiary or a 3rd party reports medical improvement
+Does or Does Not Apply
+Follow instructions in DI 13005.000 to initiate the medical CDR.
+Submits additional evidence which raises a medical CDR issue. (See DI 13001.005I.)
+Does Apply
+Follow instructions in DI 13005.000 for initiating the CDR—only if information pertains to medical evidence.
+Does Not Apply
+Follow instructions in DI 13005.000 for initiating the CDR.
+4. Procedure for MIP and MINE diaries:
+If the Beneficiary has a MIP or MINE diary, and...
+And Protection from Medical Review...
+Then...
+Reports SGA or Non-SGA level work
+Does or Does Not Apply
+Document work activity based on instructions found in DI 13010.000. Establish diary for TWP.
+Is selected for a medical review or has a matured medical diary
+Does or Does Not Apply
+Screen the cases according to instructions in DI 13005.020 or DI 28003.005.
+If CDR is needed, follow instructions in DI 13005.025 for initiating the CDR
+Completes TWP
+Does Apply
+Defer the medical CDR, and document the TWP, per DI 13010.090.
+Does Not Apply
+Perform medical file review process (DI 40510.040), and if medical CDR is needed, follow instructions in DI 13005.000 for initiating the CDR.
+The beneficiary or a 3rd party reports medical improvement
+Does or Does Not Apply
+Follow instructions in DI 13005.000 to initiate the medical CDR.
+Submits additional evidence which raises a medical CDR issue. (See DI 13001.005I.)
+Does Apply
+Follow instructions in DI 13005.000 for initiating the CDR—only if information pertains to medical evidence.
+Does Not Apply
+Follow instructions in DI 13005.000 for initiating the CDR.

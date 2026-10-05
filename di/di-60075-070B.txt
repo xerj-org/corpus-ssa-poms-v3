@@ -1,0 +1,1240 @@
+SSA Program Operations Manual System (POMS) - DI 60075.070 - Promoting Opportunity Demonstration (POD) Notices
+Effective Dates: 07/01/2024 - Present | TN 5 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075070 (fetched 2026-10-04)
+
+B. POD universal text identifiers (UTI)
+1. New Caption DIBC14
+Promoting Opportunity Demonstration (POD)
+2. New Caption REFC08
+If You Have Questions About POD
+3. New Caption REFC09
+If You Have Questions That Are Not About POD
+4. New UTI ALS101
+ALS101 is the standard appeals language for any beneficiary enrolled in POD.
+New Language:
+If you think this information is not correct or you want to report any changes in
+your work plans or earnings, please get in touch with your benefits counselor at Abt
+Associates. Please call their toll-free number at 1-888-771-9188 to report any changes.
+New Language with Fill-Ins:
+If *F1 this information is not correct or *F2 to report any changes in *F3 work plans
+or earnings, please get in touch with *F4 benefits counselor at Abt Associates. Please
+call their toll-free number at 1-888-771-9188 to report any changes.
+Fill-Ins:
+*F1-1 you think
+*F1-2 [Beneficiary name] thinks
+*F2-1 you want
+*F2-2 they want
+*F2-3 they want
+*F3-1 your
+*F3-2 their
+*F3-3 their
+*F4-1 your
+*F4-2 their
+*F4-3 their
+5. New UTI BEN128
+Caption: None
+Use BEN128 for all POD BRI adjustment notices.
+New Language:
+We may have let you know earlier that we would increase your benefits to $700.00 per
+month due to the rise in the cost of living. Because of your participation in the
+Promoting Opportunity Demonstration (POD), we have refigured your benefits. This notice
+corrects the calculation to apply the cost of living increase to your original benefit
+before the reduction for POD earnings. Your new monthly amount (before deductions)
+is $600.00.
+New Language with Fill-Ins:
+We may have let *F1 know earlier that we would increase *F2 benefits to *F3 per month
+due to the rise in the cost of living. Because of *F4 participation in the Promoting
+Opportunity Demonstration (POD), we have refigured *F5 benefits. This notice corrects
+the calculation to apply the cost of living increase to *F6 original benefit before
+the reduction for POD earnings. *F7 new monthly amount (before deductions) is *F8.
+Fill-Ins:
+*F1-1 you
+*F1-2 Name
+*F2-1 your
+*F2-2 their
+*F2-3 their
+*F3-1 BRI/MBR monthly benefit amount in $$$$$.¢¢ format
+*F4-1 your
+*F4-2 their
+*F4-3 their
+*F5-1 your
+*F5-2 their
+*F5-3 their
+*F6-1 your
+*F6-2 their
+*F6-3 their
+*F7-1 Your
+*F7-2 Their
+*F7-3 Their
+*F8-1 New offset amount monthly benefit amount in $$$$$.¢¢ format
+6. New UTI BEN134
+Caption: Your Benefits
+Use BEN134 for all POD End Date of Participation notices.
+New Language:
+You are no longer eligible for the project because you have had benefits terminated
+prior to the POD start date of participation. If you are receiving benefit payments
+based on disability, your payments may stop the first month you do substantial gainful
+work.
+New Language with Fill-Ins:
+*F1 no longer eligible for the project because *F2 *F3. If *F4 receiving benefit payments
+based on disability, *F5 payments may stop the first month *F6 substantial gainful
+work.
+Fill-Ins:
+*F1-1 You are
+*F1-2 Beneficiary full name is
+*F2-1 you have
+*F2-2 they have
+*F2-3 they have
+*F3-1 had benefits terminated prior to the POD start date of participation
+*F3-2 participated in another demonstration
+*F3-3 moved to a foreign country
+*F3-4 received benefits paid by the railroad
+*F3-5 elected to receive benefits not based on a disability
+*F3-6 no longer met the POD eligibility criteria
+*F4-1 you are
+*F4-2 they are
+*F4-3 they are
+*F5-1 your
+*F5-2 their
+*F5-3 their
+*F6-1 you do
+*F6-2 they do
+*F6-3 they do
+7. New UTI BEN135
+Caption: Why We Cannot Pay You
+Use BEN135 if an auxiliary's benefits end in suspense for the current month.
+New Language:
+We cannot pay you benefits for January 2017 under the rules of the Promoting Opportunity
+Demonstration (POD). This is due to John Doe’s work and earnings. This does not change
+any current benefits you receive.
+New Language with Fill-Ins:
+We cannot pay *F1 benefits for *F2 under the rules of the Promoting Opportunity Demonstration
+(POD). This is due to *F3 work and earnings. This does not change any current benefits
+*F4.
+Fill-Ins:
+*F1-1 you
+*F1-2 [Beneficiary name] possessive
+*F2-1 MM/CCYY
+*F2-2 MM/CCYY through MM/CCYY
+*F3-1 Name (POD participant) possessive
+*F4-1 you receive
+*F4-2 they receive
+*F4-3 they receive
+8. New UTI BEN136
+Caption: None
+Use BEN136 in all POD Earnings Notices that include an underpayment.
+New Language:
+You will soon receive a check for $500.00. This check is for benefits due to you for
+January 2017 through March 2017 under the rules of the Promoting Opportunity Demonstration
+(POD). You are due this check because of a change in your work and earnings. This
+does not change any current benefits you receive.
+New Language with Fill-Ins:
+*F1 will soon receive a check for *F2. This check is for benefits due to *F3 for *F4
+under the rules of the Promoting Opportunity Demonstration (POD). *F5 due this check
+because of a change in *F6 work and earnings. This does not change any current benefits
+*F7.
+Fill-Ins:
+*F1-1 You
+*F1-2 Beneficiary full name
+*F2-1 Refund amount in $$$$$.¢¢ format
+*F3-1 you
+*F3-2 them
+*F3-3 them
+*F4-1 MM/CCYY
+*F4-2 MM/CCYY through MM/CCYY
+*F5-1 You are
+*F5-2 They are
+*F5-3 They are
+*F6-1 your
+*F6-2 their
+*F6-3 their
+*F6-4 POD beneficiary's name (possessive)
+*F7-1 you receive
+*F7-2 they receive
+*F7-3 they receive
+9. New UTI BEN130
+Caption: None
+Use BEN130 when a POD EOYR reconsideration results in no change to benefits.
+New Language:
+Thank you for providing us with information about your earnings for last year. You
+asked us to determine if there has been a change in the amount of benefits payable
+to you under POD because of this information. Based on this evidence, we have determined
+that there is no change to your monthly benefit amount for this period. This decision
+does not change any benefits you may be currently receiving.
+New Language with Fill-Ins:
+Thank you for providing us with information about *F1 earnings for last year. *F2
+asked us to determine if there has been a change in the amount of benefits payable
+to *F3 under POD because of this information. Based on this evidence, we have determined
+that there is no change to *F4 monthly benefit amount for this period. This decision
+does not change any benefits *F5 may be currently receiving.
+Fill-Ins:
+*F1-1 your
+*F1-2 Beneficiary full name [possessive]
+*F2-1 You
+*F2-2 They
+*F2-3 They
+*F3-1 you
+*F3-2 them
+*F3-3 them
+*F4-1 your
+*F4-2 their
+*F4-3 their
+*F5-1 you
+*F5-2 they
+*F5-3 they
+10. New UTI BEN129
+Caption: None
+Use BEN129 when a POD EOYR reconsideration results in a change to benefits.
+New Language:
+Thank you for providing us with information about your earnings for the last year.
+You asked us to determine if there has been a change in benefits payable to you under
+POD because of this information.
+New Language with Fill-Ins:
+Thank you for providing us with information about *F1 earnings for the last year.
+*F2 asked us to determine if there has been a change in benefits payable to *F3 under
+POD because of this information.
+Fill-Ins:
+*F1-1 your
+*F1-2 Beneficiary full name [possessive]
+*F2-1 You
+*F2-2 They
+*F2-3 They
+*F3-1 you
+*F3-2 them
+*F3-3 them
+11. New UTI BEN137
+Use as a lead paragraph for all POD EOYR Reconsideration notices.
+New Language:
+We received a request for an explanation.
+New Language with Fill-Ins:
+We received a request *F1.
+Fill-Ins:
+*F1-1 for an explanation
+*F1-2 that we not collect the overpayment
+*F1-3 that we review our decision
+*F1-4 that we review our decision and not collect the overpayment
+*F1-5 that we withhold a different amount
+12. New UTI BEN138
+Use when POD participant's participation period is over.
+New Language:
+You have been a participant in the Promoting Opportunity Demonstration (POD). The
+special rules for POD will no longer apply to you beginning July 2021. You asked to
+be withdrawn from the project. If you are receiving benefit payments based on disability,
+your payments may stop the first month you do substantial gainful work.
+New Language with Fill-Ins:
+*F1 been a participant in the Promoting Opportunity Demonstration (POD). The special
+rules for POD will no longer apply to *F2 beginning *F3. *F4.
+Fill-ins:
+*F1-1: You have
+*F1-2: Beneficiary name has
+*F2-1: you
+*F2-2: them
+*F2-3: them
+*F3-1: Date in MM/CCYY format
+*F4-1: You asked to be withdrawn from the project. If you are receiving benefit payments
+based on disability, your payments may stop the first month you do substantial gainful
+work.
+*F4-2: They asked to be withdrawn from the project. If they are receiving benefit
+payments based on disability, their payments may stop the first month they do substantial
+gainful work.
+*F4-3 They asked to be withdrawn from the project. If they are receiving benefit payments
+based on disability, their payments may stop the first month they do substantial gainful
+work.
+*F4-4: Null
+13. New UTI BEN131
+Use in the POD End Date of Participation notice.
+New Language:
+Your participation period ends June 2021. Payments may end with the month you do substantial
+gainful work after June 2017.
+New Language with Fill-Ins:
+*F1 participation period ends *F2. Payments may end with the month *F3 substantial
+gainful work after *F4.
+Fill-ins:
+*F1-1: Your
+*F1-2: Beneficiary name possessive
+*F2-1: Date in MM/CCYY format
+*F3-1: you do
+*F3-2: they do
+*F3-3: they do
+*F4-1: Date in MM/CCYY format
+14. New UTI BEN132
+Use BEN132 in an End of Year Reconciliation notice or an EOYR Reconsideration notice
+when either notice results in an overpayment or underpayment.
+New Language:
+This overpayment resulted from the difference in the total amount of earnings that
+you submitted during 2018 and the actual amount that you earned, during that year.
+We determined the overpayment after we recalculated your offset based on your actual
+annual earnings.
+New Language with Fill-Ins:
+This *F1 resulted from the difference in the total amount of earnings that *F2 submitted
+during *F3 and the actual amount that *F4 earned, during that year. We determined
+the *F5 after we recalculated *F6 offset based on *F7 actual annual earnings.
+Fill-ins:
+*F1-1: overpayment
+*F1-2: underpayment
+*F2-1: you
+*F2-2: they
+*F2-3: they
+*F3-1: EOYR year in CCYY format
+*F4-1: you
+*F4-2: they
+*F4-3: they
+*F5-1: overpayment
+*F5-2: underpayment
+*F6-1: your
+*F6-2: their
+*F6-3: their
+*F7-1: your
+*F7-2: their
+*F7-3: their
+15. New UTI BEN133
+Use BEN133 when a beneficiary has not reported earnings for three months and we send
+a reminder notice.
+New Language:
+If you are working and have not submitted your earnings, please contact Abt Associates
+immediately. We show their contact information under the heading, “If You Have Questions
+About POD”. If you do not submit earnings, we may pay you incorrect benefit payments.
+New Language with Fill-Ins:
+If *F1 working and *F2 not submitted *F3 earnings, please contact Abt Associates immediately.
+We show their contact information under the heading, “If You Have Questions About
+POD”. If *F4 not submit earnings, we may pay *F5 incorrect benefit payments.
+Fill-ins:
+*F1-1: you are
+*F1-2: Name is
+*F2-1: you have
+*F2-2: they have
+*F2-3: they have
+*F3-1: your
+*F3-2: their
+*F3-3: their
+*F4-1: you do
+*F4-2: they do
+*F4-3: they do
+*F5-1: you
+*F5-2: them
+*F5-3: them
+16. New UTI BEN139
+Use BEN139 when benefits are offset due to earnings.
+New Language:
+Based on your offset your monthly benefits are
+Amount Date
+$800.00 April 2018
+New Language with Fill-Ins:
+Based on *F1 offset *F2 monthly benefits are
+Amount Date
+*F3 *F4
+Fill-ins:
+*F1-1: your
+*F1-2: Beneficiary's name possessive
+*F2-1: your
+*F2-2: their
+*F2-3: their
+*F3-1: POD MBC for that month in $$$$$.¢¢ format
+*F4-1: Date in MM/CCYY format
+17. New UTI BEN140
+Use BEN140 when more than one month is needed for BEN139. This will continue the columns
+at the end of the BEN139. No further language required. Repeat as many times as needed.
+New Language:
+$1000.00 May 2018
+New Language with Fill-Ins:
+*F1 *F2
+Fill-ins:
+*F1-1: POD MBC for that month in $$$$$.¢¢ format
+*F2-1: Date in MM/CCYY format
+18. New UTI BRR081
+Caption: None
+Use BRR081 if offset results in beneficiary coming out of suspense status in current
+month.
+New Language:
+Because of your work and earnings, benefits are payable to you under the rules of
+the Promoting Opportunity Demonstration (POD). If your work or earnings change, we
+may not be able to pay some benefits in the future.
+New Language with Fill-Ins:
+Because of *F1 work and earnings, benefits are payable to *F2 under the rules of the
+Promoting Opportunity Demonstration (POD). If *F3 work or earnings change, we may
+not be able to pay some benefits in the future.
+Fill-Ins:
+*F1-1 your
+*F1-2 POD [Beneficiary full name] possessive
+*F2-1 you
+*F2-2 them
+*F2-3 them
+*F3-1 your
+*F3-2 their
+*F3-3 their
+19. New UTI BRR082
+Use BRR082 if action results in full earnings offset in the current month.
+New Language:
+Because of your work and earnings, no benefits are payable to you now under the rules
+of the Promoting Opportunity Demonstration (POD). If your work or earnings change,
+we may be able to pay some benefits in the future.
+New Language with Fill-Ins:
+Because of *F1 work and earnings, no benefits are payable to *F2 now under the rules
+of the Promoting Opportunity Demonstration (POD). If *F3 work or earnings change,
+we may be able to pay some benefits in the future.
+Fill-Ins:
+*F1-1 your
+*F1-2 POD [Beneficiary full name] possessive
+*F2-1 you
+*F2-2 them
+*F2-3 them
+*F3-1 your
+*F3-2 their
+*F3-3 their
+20. New UTI ERN095
+Use ERN095 if the participant submitted IRWE above the standard threshold.
+New Language:
+You have submitted impairment-related work expenses that have raised the threshold
+to $1000 for January 2018. This threshold will return to $870.00 next month if you
+do not submit impairment-related work expenses for that month.
+New Language with Fill-Ins:
+*F1 submitted impairment-related work expenses that have raised the threshold to *F2
+for *F3. This threshold will return to *F4 next month if you do not submit impairment-related
+work expenses for that month.
+Fill-ins:
+*F1-1: You have
+*F1-2: Beneficiary Name has
+*F2-1: Total approved IRWE for that month in $$$$$.¢¢ format
+*F3-1: Date in MM/CCYY format
+*F4-1: TWP rate
+21. New UTI ERN096
+Use ERN096 whenever earnings are reported by the participant.
+New Language:
+You submitted earnings of
+Amount Date
+$4,000.00 April 2017
+New Language with Fill-Ins:
+*F1 submitted earnings of
+Amount Date
+*F2 *F3
+Fill-ins:
+*F1-1: You
+*F1-2: Beneficiary Name
+*F1-2: Total earnings submitted for that month in $$$$$.¢¢ format
+*F1-3: Date in MM/CCYY format
+22. New UTI ERN097
+Use ERN097 when more than one month is needed for ERN096. This will continue the columns
+at the end of the ERN096. No further language required. Repeat as many times as needed.
+New Language:
+$3000.00 May 2018
+New Language with Fill-Ins:
+*F1 *F2
+Fill-ins:
+*F1-1: Total earnings submitted for that month in $$$$$.¢¢ format
+*F2-1: Date in MM/CCYY format
+23. New UTI REF172
+Use REF172 in all POD notices.
+New Language:
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or set up an appointment
+with the POD local office that serves your area. When you call, please have this letter
+with you. It will help the counselors at Abt Associates answer your questions.
+New Language with Fill-Ins:
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or set up an appointment
+with the POD local office that serves your area. When you call, please have this letter
+with you. It will help the counselors at Abt Associates answer your questions.
+24. New UTI TER035
+Use TER035 in all POD termination notices.
+New Language:
+You have been receiving $0 in benefits for twelve consecutive months because of work.
+Therefore, you are no longer disabled as of January 2017 according to POD rules. The
+last month for which you are eligible to receive benefits is December 2016.
+If you receive disability benefits in the future, contact Abt Associates to report
+earnings. We show their contact information under the heading, “If You Have Questions
+About POD”.
+New Language with Fill-Ins:
+*F1 been receiving $0 in benefits for twelve consecutive months because of work. Therefore,
+*F2 no longer disabled as of *F3 according to POD rules. The last month for which
+*F4 eligible to receive benefits is *F5.
+If *F6 disability benefits in the future, contact Abt Associates to report earnings.
+We show their contact information under the heading, “If You Have Questions About
+POD”.
+Fill-ins:
+*F1-1: You have
+*F1-2: Beneficiary’s name has
+*F2-1: you are
+*F2-2: they are
+*F2-3: they are
+*F3-1: Date in MM/CCYY format
+*F4-1: you are
+*F4-2: they are
+*F4-3 they are
+*F5-1: Date in MM/CCYY format
+*F6-1: you receive
+*F6-2: they receive
+*F6-3: they receive
+25. New UTI WDS024
+Use WDS024 whenever offset is applied due to earnings.
+New Language:
+In POD, a qualified individual is provided an opportunity to work and earn over a
+$870.00 threshold and have $1 of benefits withheld for every $2 earned over this amount.
+New Language with Fill-Ins:
+In POD, a qualified individual is provided an opportunity to work and earn over a
+*F1 threshold and have $1 of benefits withheld for every $2 earned over this amount.
+Fill-ins:
+*F1-1: TWP rate
+26. New UTI WDS025
+Use WDS025 whenever benefits are offset.
+New Language:
+We determine how much to reduce your benefit payments under the $1 for $2 offset based
+on your submitted earnings from the prior month.
+Next, we subtract the POD threshold amount from the earnings you submitted and divide
+the remaining amount by two. This is the monthly offset amount. The monthly offset
+amount is the amount by which your benefits are reduced under the benefit offset.
+Based on the earnings you submitted and the computations above, your monthly offset
+is
+Amount Date
+$200.00 April 2018
+New Language with Fill-Ins:
+We determine how much to reduce *F1 benefit payments under the $1 for $2 offset based
+on *F2 submitted earnings from the prior month.
+Next, we subtract the POD threshold amount from the earnings *F3 submitted and divide
+the remaining amount by two. This is the monthly offset amount. The monthly offset
+amount is the amount by which *F4 benefits are reduced under the benefit offset. Based
+on the earnings *F5 submitted and the computations above, *F6 monthly offset is
+Amount Date
+*F7 *F8
+Fill-ins:
+*F1-1: your
+*F1-2: Beneficiary Name possessive
+*F2-1: your
+*F2-1: their
+*F2-3: their
+*F3-1: you
+*F3-2: they
+*F3-3: they
+*F4-1: your
+*F4-2: their
+*F4-3: their
+*F5-1: you
+*F5-2: they
+*F5-2: they
+*F6-1: your
+*F6-2: their
+*F6-3: their
+*F7-1: Monthly offset amount in $$$$$.¢¢ format
+*F8-1: date in MM/CCYY format
+27. New UTI WDS026
+Use WDS026 when more than one month is needed for WDS025. This will continue the columns
+at the end of the WDS025. No further language required. Repeat as many times as needed.
+New Language:
+$350.00         May 2018
+New Language with Fill-Ins:
+*F1             *F2
+Fill-ins:
+*F1-1: Monthly offset amount in $$$$$.¢¢ format
+*F2-1: Date in MM/CCYY format
+Sample Notices
+1. POD Reminder – No earnings submission for three months
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved]
+We are writing to give you new information about the *F1 (Disability) benefits which
+*F2 (you receive) on this Social Security record.
+[INFC08 – Approved] – Things to Remember
+[POD UTI BEN133]
+If *F1 (you are) working and *F2 (you have) not submitted *F3 (your) earnings, please
+contact Abt Associates immediately. We show their contact information under the heading,
+“If You Have Questions About POD”. If *F4 (you do) not submit earnings, we may pay
+*F5 (you) incorrect benefit payments.
+[RCT053 – Approved]
+*F1 (You) must promptly report any changes that may affect *F2 (your) benefits. Failure
+to do so could mean *F3 (you) may have to repay any benefits not due. Let us know
+if:
+•
+*F4 (You) went to work since *F5 (your) last report or *F6 (you return) to work in
+the future; or
+•
+*F7 (You) already reported *F8 (your) work, but *F9 (your) duties or pay changed.
+(Remember to keep records of work and earnings such as pay statements from the employer);
+or
+•
+*F10 (Your) doctor says *F11 (your) condition has improved even if *F12 (you return)
+to work now; or
+•
+*F13 (You) applied for, start getting or have a change in the amount of *F14 (your)
+workers compensation or another public disability benefit; or
+•
+*F15 (You start) paying for work expenses related to *F16 (your) disability such as
+special transportation or the amount paid for these work expenses changes or *F17 (you)
+no longer *F18 (pay) for such expenses. (Remember to keep records and proof of payment
+for any work expenses.)
+[POD Caption REFC08] - If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions That Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+2. POD Earnings Offset Notice
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved]
+We are writing to give you new information about the *F1 (Disability) benefits which
+*F2 (you receive) on this Social Security record.
+[POD Caption DIBC14] – Promoting Opportunity Demonstration (POD)
+[POD UTI WDS024]
+In POD, a qualified individual is provided an opportunity to work and earn over a
+*F1 (TWP rate) threshold and have $1 of benefits withheld for every $2 earned over
+this amount.
+[CHKC09 – Approved] – Your Benefits
+[POD UTI ERN096] Use ERN097 to continue paragraph if more than one month submitted
+*F1 (You) submitted earnings of
+Amount     Date
+*F2 (earnings) *F3 (month).
+[POD UTI ERN095] Repeat if more than one month of earnings supplied
+*F1 (You have) submitted impairment-related work expenses that have raised the threshold
+to *F2 (approved IRWE amount) for *F3 (month). This threshold will return to *F4 (TWP
+amount) next month if you do not submit impairment-related work expenses for that
+month.
+[POD UTI WDS025] Use WDS026 to continue paragraph if more than one month submitted
+We determine how much to reduce *F1 (your) benefit payments under the $1 for $2 offset
+based on *F2 (your) submitted earnings from the prior month.
+Next, we subtract the POD threshold amount from the earnings *F5 (you) submitted and
+divide the remaining amount by two. This is the monthly offset amount. The monthly
+offset amount is the amount by which *F6 (your) benefits are reduced under the benefit
+offset. Based on the earnings *F7 (you) submitted and the computations above, *F8
+(your) monthly offset is
+Amount Date
+*F9 (POD offset amount) *F10 (first month).
+[POD UTI BEN139] Use BEN140 to continue paragraph if more than one month submitted
+Based on *F1 (your) earnings *F2 (your) monthly benefits are
+Amount Date
+*F3 (POD MBC) *F4 (first month)
+[PAYC38 – Approved] – What We Will Pay
+[RNS034 – Approved]
+•
+You will soon receive a payment for $$$$$.¢¢, which is the money you are due through
+MM/YYYY.
+•
+After that you will receive $$$$$.¢¢ on or about the 3rd of each month.
+[POD UTI BRR081] Use if offset results in beneficiary coming out of suspense status in current month
+Because of *F1 (your) work and earnings, benefits are payable to *F2 (you) under the
+rules of the Promoting Opportunity Demonstration (POD). If *F3 (your) work or earnings
+change, we may not be able to pay some benefits in the future.
+[POD UTI BRR082] Use if offset ends in suspense in current month
+Because of *F1 (Your) work and earnings, no benefits are payable to *F2 (you) now
+under the rules of the Promoting Opportunity Demonstration (POD). If *F3 (your) work
+or earnings change, we may be able to pay some benefits in the future.
+[POD UTI BEN136] Use if late earnings are submitted and back payment is due
+*F1 (You) will soon receive a check for *F2 (PMA amount). This check is for benefits
+due to *F3 (you) for *F4 (months adjusted) under the rules of the Promoting Opportunity
+Demonstration (POD). *F5 (You are) due this check because of a change in *F6 (your)
+work and earnings. This does not change any current benefits *F7 (you receive).
+[ALSC01 – Approved] – Do You Think We Are Wrong
+[POD UTI ALS101]
+If *F1 (you) think this information is not correct or *F2 (you want) to report any
+changes in *F3 (your) work plans or earnings, please get in touch with *F4 (your)
+benefits counselor at Abt Associates. Please call their toll-free number at 1-888-771-9188
+to report any changes.
+Optional paragraphs, only use if Medicare Part B is being deducted from benefits
+[HIBC01 - Approved] - Information About Medicare
+[HIB187—Approved]
+We will continue to deduct Medicare premiums from your monthly checks.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is *1-888-771-9188. They will help you by phone or they will set
+up an appointment with the POD local office that serves your area. When you call,
+please have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+3. POD BRI Adjustment Notice
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved]
+We are writing to give you new information about the *F1 (Disability) benefits which
+*F2 (you receive) on this Social Security record.
+[POD UTI BEN128]
+We may have let *F1 (you) know earlier that we would increase *F2 (your) benefits
+to *F3 (MBA that appears on MBR) per month due to the rise in the cost of living.
+Because of *F4 (your) participation in the Promoting Opportunity Demonstration (POD),
+we have refigured *F5 (your) benefits. This notice corrects the calculation to apply
+the cost of living increase to *F6 (your) original benefit before the reduction for
+POD earnings. *F7 (Your) new monthly amount (before deductions) is *F8 (MBA after
+POD BRI).
+[ALSC01 – Approved] – Do You Think We Are Wrong
+[POD UTI ALS101]
+If *F1 (you) think this information is not correct or *F2 (you want) to report any
+changes in *F3 (your) work plans or earnings, please get in touch with *F4 (your)
+benefits counselor at Abt Associates. Please call their toll-free number at 1-888-771-9188
+to report any changes.
+[POD Caption REFC08– If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+4. POD End of Year Reconciliation Notice
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved] Use if there is an underpayment
+We are writing to give you new information about the *F1 (disability) benefits which
+*F2 (you receive) on this Social Security record.
+[OPT161 – Approved] Use if there is an overpayment
+We are writing to give *F1 new information about the *F2 (disability) benefits which
+*F3 (you receive) on this Social Security record. In the rest of this letter, we will
+tell *F4 (you):
+How we paid *F5 (you) *F6 (amount of overpayment) too much in benefits; and
+What to do if *F7 (you think) we are wrong about the overpayment.
+[CHKC09 – Approved] – Your Benefits
+[BEN106 - Approved]
+Based on *F1 (your) earnings of *F2 (earnings amount) for *F3 (year of EOYR), we should
+have paid *F5 (new POD MBC) *F6 (first adjusted month).
+[BEN120 – Approved] Use with BEN106 for all subsequent months if more than one month adjusted
+[OPT179 – Approved]
+We paid *F1 (you) $*F2 (MBC Paid) for *F3 (mm/ccyy, mm/ccyy through mm/ccyy). Since
+we should have paid *F4 (you) $*F5 (MBC should have been paid) for *F6 (mm/ccyy, mm/ccyy
+through mm/ccyy), we paid *F7 (you) $*F8 (amount of overpayment/underpayment) *F9
+(more, less) than *F10 (you were) due.
+[POD UTI BEN132] Use if an underpayment or overpayment is generated
+This *F1 (overpayment/underpayment) resulted from the difference in the total amount
+of earnings that *F2 (you) submitted during *F3 (EOYR year) and the actual amount
+that *F4 (you) earned, during that year. We determined the *F5 (overpayment/underpayment)
+after we recalculated *F6 (your) offset based on *F7 (your) actual annual earnings.
+[POD UTI BEN138] Use if EOYR is run after POD period is over
+*F1 (You have) been a participant in the Promoting Opportunity Demonstration (POD).
+The special rules for POD will no longer apply to *F2 (you) beginning *F3 (month after
+POD end date).
+[OPTC05 – Approved] – How To Pay Us Back Only used in case of overpayment
+[RFU001 – Approved] Use if the current LAF indicates anything other than current pay or deferred
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to "Social Security Administration," and send it to us in the enclosed
+envelope. Include *F1 (your) claim number (as shown above) on your check or money
+order.
+If you cannot refund the full *F2 (overpayment amount) now, please send:
+A partial payment
+An explanation of why you cannot pay the full amount now, and
+A plan to repay the money.
+[RFU012 – Approved] Use if the current LAF indicates current pay or deferred
+You should refund this overpayment of *F1 (overpayment amount) within 30 days. Please
+make your check or money order payable to "Social Security Administration," and send
+it to us in the enclosed envelope. Include *F2 (your) claim number (as shown above)
+on your check or money order.
+If we do not receive your refund within 30 days, we will hold back *F3 (your) full
+benefits starting with the payment you would normally receive about *F5 (end date
+of deferral). We will continue holding back *F6 (your) benefits until we recover the
+overpayment.
+If you cannot refund the full overpayment now or cannot afford to have us hold back
+*F7 (your) full benefits, you may ask us to hold back a smaller amount each month.
+Contact us to discuss your plan for repaying the balance. You may need to show us
+proof of *F8 (your) assets, monthly income, and expenses.
+[OPT165 – Approved] Use if REFU012 is used above
+We will pay you a monthly check of *F1 (current month benefit) until we start to collect
+the overpayment.
+[ALSC06 – Approved] – Do You Think We Are Wrong About The Overpayment Use for overpayment
+[WAV002 – Approved]
+You have certain rights with respect to this overpayment and its recovery.
+1.
+Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.
+Right to Request Waiver: You also have the right to request a determination concerning
+the need to recover the overpayment. An overpayment must be refunded or withheld from
+benefits unless both of the following are true:
+The overpayment was not your fault in any way; and
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the overpayment will
+not have to be recovered until the case is reviewed. This review is described in more
+detail on the attached Form SSA-3105, Important Information About Your Appeal and
+Waiver Rights. The people in any Social Security office will be glad to help you complete
+the forms for requesting reconsideration (SSA-561-U2, Request for Reconsideration)
+and/or waiver (SSA-632-F4, Overpayment Recovery Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if you have any questions or need more information.
+Please take this letter with you if you do visit an office.
+[ALSC27 – Approved] – If You Want To Appeal
+[ALS120 – Approved]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision which you believe are wrong and will look at any new facts you have.
+We may also review those parts which you believe are correct and may make them unfavorable
+or less favorable to you.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+5. POD Auxiliary Notice – action ends in suspense
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved] Use if there is an underpayment
+We are writing to give you new information about the *F1 (disability) benefits which
+*F2 (you receive) on this Social Security record.
+[OPT161 – Approved] Use if there is an overpayment
+We are writing to give *F1 new information about the *F2 (disability) benefits which
+*F3 (you receive) on this Social Security record. In the rest of this letter, we will
+tell *F4 (you):
+How we paid *F5 (you) *F6 (amount of overpayment) too much in benefits; and
+What to do if *F7 (you think) we are wrong about the overpayment.
+[CHKC09 – Approved] – Your Benefits
+[POD UTI BEN135]
+We cannot pay *F1 (you) benefits for *F2 (mm/ccyy) under the rules of the Promoting
+Opportunity Demonstration (POD). This is due to *F3 (Name of POD participant's) work
+and earnings. This does not change any current benefits *F4 (you receive).
+[OPT169 – Approved] Use if there is an overpayment
+Since we paid *F1 (you) *F2 (amount paid) for *F3 (dates paid), we paid *F4 (you) *F5
+(amount of overpayment/underpayment) *F6 (more/less) than *F7 (you were) due.
+[OPTC05 – Approved] – How To Pay Us Back Only used in case of overpayment
+[RFU001 – Approved] Use if the current LAF indicates anything other than current pay or deferred
+You should refund this overpayment within 30 days. Please make your check or money
+order payable to "Social Security Administration," and send it to us in the enclosed
+envelope. Include *F1 (your) claim number (as shown above) on your check or money
+order.
+If you cannot refund the full *F2 (overpayment amount) now, please send:
+A partial payment
+An explanation of why you cannot pay the full amount now, and
+A plan to repay the money.
+[RFU012 – Approved] Use if the current LAF indicates current pay or deferred
+You should refund this overpayment of *F1 (overpayment amount) within 30 days. Please
+make your check or money order payable to "Social Security Administration," and send
+it to us in the enclosed envelope. Include *F2 (your) claim number (as shown above)
+on your check or money order.
+If we do not receive your refund within 30 days, we will hold back *F3 (your) full
+benefit starting with the payment you would normally receive about *F5 (end date of
+deferral). We will continue holding back *F6 (your) benefits until we recover the
+overpayment.
+If you cannot refund the full overpayment now or cannot afford to have us hold back
+*F7 (your) full benefit, you may ask us to hold back a smaller amount each month.
+Contact us to discuss your plan for repaying the balance. You may need to show us
+proof of *F8 (your) assets, monthly income, and expenses.
+[OPT165 – Approved] Use if REFU012 is used above
+We will pay you a monthly check of *F1 (current month benefit) until we start to collect
+the overpayment.
+[ALSC06 – Approved] – Do You Think We Are Wrong About The Overpayment Use for overpayment
+[WAV002 – Approved]
+You have certain rights with respect to this overpayment and its recovery.
+1.
+Right to Appeal: If you disagree in any way with this overpayment determination, you have the right,
+within 60 days of the date you receive this notice, to request that the determination
+be reconsidered. If you request this independent review of the overpayment determination,
+please submit any additional information you have which pertains to the overpayment.
+2.
+Right to Request Waiver: You also have the right to request a determination concerning
+the need to recover the overpayment. An overpayment must be refunded or withheld from
+benefits unless both of the following are true:
+The overpayment was not your fault in any way; and
+You could not meet your necessary living expenses if we recovered the overpayment,
+or recovery would be unfair for some other reason.
+If you request waiver, we may need a statement of your assets and monthly income and
+expenses.
+If you request reconsideration and/or waiver within 30 days, the overpayment will
+not have to be recovered until the case is reviewed. This review is described in more
+detail on the attached Form SSA-3105, Important Information About Your Appeal and
+Waiver Rights. The people in any Social Security office will be glad to help you complete
+the forms for requesting reconsideration (SSA-561-U2, Request for Reconsideration)
+and/or waiver (SSA-632-F4, Overpayment Recovery Questionnaire).
+Even if you do not want to request reconsideration or waiver, please call, write or
+visit any Social Security office if you have any questions or need more information.
+Please take this letter with you if you do visit an office.
+[ALSC27 – Approved] – If You Want To Appeal
+[ALS023– Approved]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+You have 60 days to ask for an appeal.
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD UTI REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+6. POD Auxiliary Notice – action puts auxiliary back in pay status
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved]
+We are writing to give you new information about the *F1 (disability) benefits which
+*F2 (you receive) on this Social Security record.
+[PAYC38 – Approved] – What We Will Pay
+[POD UTI BEN136]
+*F1 (You) will soon receive a check for *F2 (amount). This check is for benefits due
+to *F3 (you) for *F4 (months of backpay) under the rules of the Promoting Opportunity
+Demonstration (POD). *F5 (You are) due this check because of a change in *F6 (POD
+participant's) work and earnings. This does not change any current benefits *F7 (you
+receive).
+[ALSC27 – Approved] – If You Want To Appeal
+[ALS023– Approved]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+You have 60 days to ask for an appeal.
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+7. EOYR Reconsideration – no change in benefits
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[POD UTI BEN137]
+We received a request *F1 (that we review our decision).
+[CHKC09 – Approved] – Your Benefits
+[POD UTI BEN130]
+Thank you for providing us with information about *F1 (your) earnings for last year.
+*F2 (You) asked us to determine if there has been a change in the amount of benefits
+payable to *F3 (you) under POD because of this information. Based on this evidence,
+we have determined that there is no change to *F4 (your) monthly benefit amount for
+this period. This decision does not change any benefits *F5 (you) may be currently
+receiving.
+[BEN107 – Approved]
+This means we paid *F1 (you) correctly based on the evidence *F2 (you) provided for
+the reconciliation year.
+[ALSC01 – Approved] – Do You Think We Are Wrong
+[POD UTI ALS101]
+If *F1 (you) think this information is not correct or *F2 (you want) to report any
+changes in *F3 (your) work plans or earnings, please get in touch with *F4 (your)
+benefits counselor at Abt Associates. Please call their toll-free number at 1-888-771-9188
+to report any changes.
+[ALSC27 – Approved] – If You Want To Appeal
+[ALS023– Approved]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+You have 60 days to ask for an appeal.
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+8. EOYR Reconsideration – change in benefits
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[POD UTI BEN137]
+We received a request *F1 (that we review our decision).
+[CHKC09 – Approved] – Your Benefits
+[POD UTI BEN129]
+Thank you for providing us with information about *F1 (your) earnings for the last
+year. *F2 (You) asked us to determine if there has been a change in benefits payable
+to *F3 (you) under POD because of this information.
+[OPT179 – Approved]
+We paid *F1 (you) *F2 (MBC Paid) for *F3 (period of EOYR). Since we should have paid
+*F4 (you) *F5 (MBC should have been paid) for *F6 (period of EOYR), we paid *F7 (you)
+*F8 (amount of overpayment/underpayment) *F9 (more, less) than *F10 (you were) due.
+[POD UTI BEN132]
+This *F1 (overpayment/underpayment) resulted from the difference in the total amount
+of earnings that *F2 (you) submitted during *F3 (EOYR year) and the actual amount
+that *F4 (you) earned, during that year. We determined the *F5 (overpayment/underpayment)
+after we recalculated *F6 (your) offset based on *F7 (your) actual POD earnings.
+[POD UTI BEN138] Use if EOYR reconsideration is run after POD period is over
+*F1 (You have) been a participant in the Promoting Opportunity Demonstration (POD).
+The special rules for POD will no longer apply to *F2 (you) beginning *F3 (month after
+POD end date). *F4
+[ALSC01 – Approved] – Do You Think We Are Wrong
+[RCN021 – Approved]
+We changed our earlier decision because of new facts we received.
+If you think we are wrong, you have the right to request a hearing. At the hearing,
+a person who has not seen your case before will look at it. That person is an Administrative
+Law Judge. In the rest of our letter, we will call this person an ALJ. The ALJ will
+review those parts of the decision, which you believe are wrong. The ALJ will look
+at any new facts you have and correct any mistakes. The ALJ may also review those
+parts, which you believe are correct and make them unfavorable or less favorable to
+you.
+You have 60 days to ask for a hearing.
+The 60 days start the day after you get this letter.
+You must have a good reason if you wait more than 60 days to ask for a hearing.
+You have to ask for a hearing in writing. If you want to make a request, please contact
+one of our offices. We can help you complete the required form.
+Please read the enclosed pamphlet, "Your Right To An Administrative Law Judge Hearing
+And Appeals Council Review Of Your Social Security Case." It contains more information
+about the hearing.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+9. POD End Date of Participation
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[LIS004 – Approved]
+We are writing to give you new information about the *F1 (disability) benefits which
+*F2 (you receive) on this Social Security record.
+[CHKC09 – Approved] – Your Benefits
+[POD UTI BEN138]
+*F1 (You have) been a participant in the Promoting Opportunity Demonstration (POD).
+The special rules for POD will no longer apply to *F2 (you) beginning *F3 (first day
+of the month after POD end date). *F4.
+*F4-A: You asked to be withdrawn from the project. If you are receiving benefit payments
+based on disability, your payments may stop the first month you do substantial gainful
+work.
+*F4-B: They asked to be withdrawn from the project. If they are receiving benefit
+payments based on disability, their payments may stop the first month they do substantial
+gainful work.
+*F4-C They asked to be withdrawn from the project. If they are receiving benefit payments
+based on disability, their payments may stop the first month they do substantial gainful
+work.
+*F4-D: Null
+[POD UTI BEN134] Use if BEN138 fill-in 4 is A, B, or C)
+*F1 (You are) no longer eligible for the project because *F2 (you have) *F3 (no longer
+met the POD eligibility criteria). If *F4 (you are) receiving benefit payments based
+on disability, *F5 (your) payments may stop the first month *F6 (you do) substantial
+gainful work.
+[POD UTI BEN131] Use if BEN138 fill-in 4 is D)
+*F1 (Your) participation period ends *F2 (POD end date). Payments may end with the
+month *F3 (you do) substantial gainful work after *F4 (POD end date).
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]
+10. POD Termination Notice
+Social Security Administration
+Retirement, Survivors and Disability Insurance
+Date:
+Claim
+Number:
+Name and address
+[TER039 – Approved]
+We are writing to tell *F1 (you) that *F2 (you no longer qualify) for *F3 (disability)
+benefits beginning *F4 (termination date).
+[CHKC09 – Approved] – Your Benefits
+[POD UTI TER035]
+*F1 (You have) been receiving $0 in benefits for twelve consecutive months because
+of work. Therefore, *F2 (you are) no longer disabled as of *F3 (termination date)
+according to POD rules. The last month for which *F4 (you are) eligible to receive
+benefits is *F5 (month before termination date).
+If *F6 (you) receive disability benefits in the future, contact Abt Associates to
+report your earnings. We show their contact information under the heading, “If You
+Have Questions About POD”.
+[ALSC01 – Approved] – Do You Think We Are Wrong
+[POD UTI ALS101]
+If *F1 (you) think this information is not correct or *F2 (you want) to report any
+changes in *F3 (your) work plans or earnings, please get in touch with *F4 (your)
+benefits counselor at Abt Associates. Please call their toll-free number at 1-888-771-9188
+to report any changes.
+[ALSC27 – Approved] – If You Want To Appeal
+[ALS023– Approved]
+If you disagree with this decision, you have the right to appeal. We will review your
+case and consider any new facts you have. A person who did not make the first decision
+will decide your case. We will correct any mistakes. We will review those parts of
+the decision, which you believe are wrong and will look at any new facts you have.
+We may also review those parts, which you believe are correct and may make them unfavorable
+or less favorable to you.
+You have 60 days to ask for an appeal.
+The 60 days start the day after you get this letter. We assume you got this letter
+5 days after the date on it unless you show you did not get it within the 5-day period.
+You must have a good reason for waiting more than 60 days to ask for an appeal.
+You have to ask for an appeal in writing. We will ask you to sign a form SSA-561-U2,
+called “Request for Reconsideration”. Contact one of our offices if you want help.
+Please read the enclosed pamphlet: “Your Right to Question the Decision Made on Your
+Social Security Claim”. It contains more information about the appeal.
+[POD Caption REFC08] – If You Have Questions About POD
+[POD UTI REF172]
+If you have any questions about POD, you may call our partner Abt Associates. Their
+toll-free number is 1-888-771-9188. They will help you by phone or they will set up
+an appointment with the POD local office that serves your area. When you call, please
+have this letter with you. It will help the counselors at Abt answer your questions.
+[POD Caption REFC09] – If You Have Questions that Are Not About POD
+[CTDO – Approved]
+If you have any questions, you may call us at *F1 (1-800-772-1213) or call your local
+Social Security office at *F2 (Local FO#). We can answer most questions over the phone.
+You may also write or visit any Social Security office. The office that serves your
+area is located at:
+*F3 (FO Address)
+*F4 (FO Address)
+*F5 (FO Address)
+*F6 (FO Address)
+If you do call or visit an office, please have this letter with you. It will help
+us answer your questions. Also, if you plan to visit an office, you may call ahead
+to make an appointment. This will help us serve you more quickly.
+[Signature]

@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - DI 80830.020 - Ways That Actions on a Fully Electronic Case Can Enter Processing Center (PC) Workflow
+Effective Dates: 04/07/2006 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0480830020 (fetched 2026-10-04)
+
+DI 80830.020 Ways That Actions on a Fully Electronic Case Can Enter Processing Center (PC) Workflow
+PCs will receive fully electronic actionable work in various ways:
+•
+Stub Record - this process is similar to the stub record process currently being used
+for A101s. An Action Control Record (ACR) is automatically created in Paperless that
+will show the Type-of-Event-Levels (TOELs) of the work involved. For example, an ALJ
+reversal will show the TOEL APPEAL HEARING CPMS REVERSL so the technician knows to
+access eView for the ALJ decision and process the required action. The stub record
+process is also called the “tap-on the-shoulder” process.
+•
+Fax Into Paperless – this process will be used by some fully electronic components until the stub record
+process is implemented. The component processing the case electronically will fax
+information about the action into the PC’s Paperless fax number. The fax will provide
+the TOEL 1/2 and the type of action so the action can be indexed to the proper location.
+When the technician sees the ACR, he/she will access eView, Case Processing Management
+System (CPMS), or other electronic records to find the documentation and take the
+appropriate action.
+•
+eMail – some components will be sending emails to managers or technicians about cases requiring
+actions. This is an interim method until eDib creates the appropriate interface between
+the fully electronic resource and the PC’s Paperless Process Center (PPC) system (see
+DI 80830.075B.).
+PCs will also continue to receive some workloads from the traditional processes. The
+weekly Disability Control File (DCF) alerts (currently using the stub record process)
+will continue to be loaded into Paperless on a weekly basis. The current process for
+continuing disability review (CDR) mailer alerts and enforcement alerts will not change.

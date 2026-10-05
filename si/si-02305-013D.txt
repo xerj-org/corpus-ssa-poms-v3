@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - SI 02305.013 - RZ Error Profiles
+Effective Dates: 02/12/2014 - Present | TN 56 (10-07)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305013 (fetched 2026-10-04)
+
+D. Description of PE RZ Profile Codes
+The PE profile codes and the error category for each are described below.
+PE Profile Codes
+Description
+Error Category
+A
+Profile based on error score
+LEP
+B
+Profile based on error score
+MEP
+C
+Profile based on error score
+HEP
+E
+Record reached maximum entries, meets TREBDET exclusion
+HEP
+K
+Critical Birthday Age 18 (KB diary)
+MEP
+M
+Record reached maximum entries, doesn't meet TREBDET exclusions
+HEP
+O
+RZ pending 24 months or more
+MEP
+S
+Martinez Court Case Settlement
+HEP
+V
+Disabled/blind children overseas
+MEP
+W
+1619b cases
+MEP

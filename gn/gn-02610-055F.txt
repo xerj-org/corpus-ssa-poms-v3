@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - GN 02610.055 - Processing Administrative Law Judge (ALJ) Decisions in the Processing Center (PC) when Windfall Offset May be Involved
+Effective Dates: 02/22/2012 - Present | TN 34 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610055 (fetched 2026-10-04)
+
+F. CA/CTE procedure for processing Title II-only ALJ decisions and withholding retroactive
+benefits due to Title XVI eligibility on prior record or current SSR
+If the ALJ made a Title II only decision, but the individual was eligible for Title
+XVI payments on a prior terminated or current SSR for any month of Title II entitlement,
+withhold retroactive Title II benefits pending windfall offset development. Process
+the case as follows.
+1. MCS input
+•
+IDEN screen - Enter “1” (Yes) to the question “Filed or Intends to File for SSI” on
+the IDEN screen.
+•
+BECF screen - Enter “6” (Windfall Offset) in the “Select Miscellaneous Factors” field
+on the BECF screen.
+2. MCS-EC trigger
+•
+Do a pre-adjudicative EC to determine if adjudication can occur through MCS-EC. Clear
+any alerts, processing limitations, and exceptions. For information about the pre-adjudicative
+EC, see MSOM MCSEC 001.004.
+•
+If no processing limitations or exceptions prevent processing the case, adjudicate
+the case through MCS-EC with the past-due benefits in suspense LAFS9/WINFAL.
+•
+If the PSY on the SSR shows a termination code, route the claim to the BA/PETE.
+•
+Advise the BA/PETE to send an e4345 to the field office (FO) for an offset determination
+with the comment “SSR terminated, possible Title XVI Offset.”
+3. A101 needed
+If there is an MCS processing limitation or exception, process the case as follows.
+•
+Adjudicate the case with an A101 and route the A101 to the BA/PETE per established
+procedures.
+•
+Request the BA/PETE to suspend the past-due benefits (LAF S9/WINFAL).
+•
+If the SSR is a terminated record, the BA/PETE must initiate an e4345 to the FO for
+an offset determination because the MBR/SSR interface will not occur. Include a comment
+on the e4345, “SSR terminated, possible Title XVI Offset.”
+•
+If the SSR is not a terminated record, the MBR/SSR interface will occur and the e4345
+is not necessary.

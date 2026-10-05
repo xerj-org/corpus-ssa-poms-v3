@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02403.161 - Social Security Electronic Remittance System (SERS) for Programmatic and Conserved Funds Remittances
+Effective Dates: 11/18/2024 - Present | TN 60 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403161 (fetched 2026-10-04)
+
+H. ​SERS limitations
+1. Display errors
+SERS will not display debt data for the following scenarios
+•
+The date of birth fields on the MBR and Numident do not match;
+•
+The Title XVI debtor is deceased (applies to Programmatic Remittances only); or
+•
+The web service, or any of the other internal data services, encounter an error.
+2. Dollar amount thresholds
+•
+SERS will not allow a payment greater than the total overpayment or debt amount due.
+Example: The SERS Programmatic store displays a debt of $400.00; however, you entered a remittance
+check for $500.00. You must request a new check for the correct overpayment amount.
+.

@@ -1,0 +1,218 @@
+SSA Program Operations Manual System (POMS) - GN 00410.010 - Application and Evidence Procedures in Disasters
+Effective Dates: 07/25/2023 - Present | TN 26 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200410010 (fetched 2026-10-04)
+
+B. Obtaining and processing applications
+800 Number Agents should schedule claims and appointments through the Workload Support
+Unit (WSU) or the Field Office Support Unit for individuals within the Region affected
+by disasters.
+Consider sending staff on site or to Disaster Recovery Centers (DRCs) to take claims,
+if appropriate. Follow normal claims taking procedures.
+If an individual filing as a direct result of a disaster visits a field office (FO)
+anywhere in the country, immediately process applications, using the designated Unit
+Code, issued as part of the Emergency Message, in the Development Worksheet (DW01)
+screen.
+See Details
+•
+GN 00201.000, Program – Related Claims Practice - Table of Contents
+•
+GN 01010.000, Adjudicative Policy and Standards - Table of Contents
+•
+MSOM MCS 005.001, Title II DADE Application Screens - Overview
+1. Protective filing in disasters
+There is a potential loss of benefits to survivors, who may not be aware of the number
+holder's death, or emotionally unable to apply for benefits in time to permit full
+retroactivity. This is particularly true for aged widow(er)s because of the limited
+retroactivity available.
+Use a blanket protective writing covering all individuals potentially eligible for
+survivor benefits. If any survivor applies for benefits after the date where they
+can receive full retroactivity, as evidence of a protective filing date, field components
+should cite Processing Payment Actions in Disasters GN
+00410.010D.1.
+2. Special unit code for disaster related claims
+Input a unique unit code for all initial claims filed because of disaster. This special
+unit code facilitates the identification later of any claim generated because of the
+disaster.
+All initial claims, both Title II and Title XVI that are filed as a result of disasters
+and the aftermath, should be identified by placing the date (month and day) of the
+disaster in the last three digits of the unit code on the DW01. For disasters that
+have occurred in the months of October, November, or December, code the first position
+“O” (for October), “X” (for November) or “R” (for December) and the second and third
+positions be the day of the month.
+Follow your standard local procedures for the first three digits of the six-digit
+unit code.
+a. Indicators for special handling of Title II & Title XVI coding for disaster cases
+While the use of the Unit Code is limited to individuals filing as a direct result of the disaster, you may apply a designated indicator to the record of any individual affected by disasters. The purpose of these indicators is to alert technicians to
+the need for special handling.
+b. Special message code for MBR
+If an MBR is established and there is no message in the Special Message Code field,
+enter a Special Message Code. The message should read “DISASTER PROCEDURES APPLY FOR
+BIC(S) (followed by the applicable BIC(S)”.
+Follow the instructions:
+•
+SM 00510.075, Special Message (SP MSG 1) Data Line
+•
+SM 00514.035, Special Message Data
+•
+MS 06302.005, Special Message (PESM)
+c. CG field indicator for Title XVI
+Add the designated CG field indicator to the SSR as needed. Follow procedures in,
+Case Redetermination Data - CRZD SM 01601.460.
+3. Signature and proper applicant process
+As of 06/2004, SSA no longer requires a wet signature, follow guidelines for alternative
+signature methods in GN
+00201.015. In situations where attestation is not possible, follow GN
+00204.003B.1.c. to determine if a signature is not required.
+4. Coding in the claims screens
+Follow normal instructions to complete the claim in MCS and process these claims quickly
+by using MCS and Earning Computation (EC). If the application is completed off-site
+and SSA systems are not available, take a paper application and enter it into MCS.
+In some situations, the applicant may not have all the information needed to adjudicate
+the claim. For fields in MCS that accept a “?” entry and still allow adjudication,
+develop the missing information post-adjudicatively. Annotate the RPOC screen. For
+other fields, use the following guidelines:
+a. APPL screen proof of age codes
+Use an IDN code of “P” on the Numident as proof of age for claims purposes. If the
+IDN code on the NUMI is “P”, enter a Proof of Age code of “B” with a Proof Type of
+“O”.
+If the IDN code on the NUMI is other than “P” or “B”,refer to GN 00302.030 to determine
+if tolerances apply.
+Follow the instructions in
+•
+RM 10235.005, Parts of the Basic Numident Query Response
+•
+GN 00302.030, Tolerances for Developing Evidence of Age
+b. IDEN screen for prior filing questions
+If the applicant does not have complete information about prior filings for Title
+II, Title XVI or Medicare, answer each question “No.” Add information about any knowledge
+of prior filings on the RMKS screen.
+c. NMAR and BMAR screens for marriage begin date
+If the applicant does not know the date the marriage began, enter a date one calendar
+year from date of application (if prior marriages terminated before that date) and
+annotate remarks that the actual date is unknown.
+For surviving divorced spouses, the duration of marriage must be at least 10 years
+see, Child-in-Care RS 00208.005. Ensure the screens show a marriage duration that allows benefits to be paid, if
+the claimant alleges the marriage lasted at least 10 years.
+The marriage duration requirement does not apply to surviving divorced mothers or
+fathers per RS 00208.010.
+d. CREL for relationship proof
+Enter “Y” or “N,” to indicate if the child's relationship to the NH was proven. If
+you did not review the proof and the Numident is not sufficient, annotate the RPOC
+screen per GN
+00207.055D.5.
+e. CLCZ for citizenship proof
+1.
+If “U.S. Citizen” is answered "Y" and proof exists, select the appropriate proof type
+(i.e. enumeration, title 2/18/16, other).
+2.
+If you did not review the proof, select the appropriate option (i.e. development pending/no
+proof) and annotate the RPOC screen per GN
+00207.055D.5.
+NOTE: Establish U.S. citizenship from the following SSA sources
+•
+U.S. place of birth is shown on the Numident, and
+•
+the evidence code in the IDN field on the account line of the Numident is “P;” or
+•
+the IDN code is “C,” “D,” or blank (absent), and the cycle date (CYD) on the Numident
+is more than 5 years before the current date.
+f. CLLP for alien status start date
+•
+If “U.S. Citizen” is “N” on CLCZ but the applicant does not know when the individual
+started living in the U.S., enter a date 30 days prior to the event, or the date of
+the event in the Alien Status Start Date.
+•
+If the date entered is 30 days prior to the event, annotate the remarks screen that
+the exact date is unknown and, under penalty of perjury, the individual has been in
+the U.S. lawfully for at least the last 30 days.   (The applicant will “sign” via
+attestation or if SSA systems are not available, sign a paper application.)
+•
+If the date of the event is entered, annotate the remarks screen that the exact date
+is unknown.
+NOTE:  Only use this procedure if electronic sources (SAVE, NUMI, MBR, etc.) do not contain
+this information.
+g. Other unavailable information
+For a mandatory MCS field, which the applicant does not know the answer (e.g., Active
+U.S. Military, Worked for the railroad),
+•
+enter an “N”, and
+•
+annotate the RPOC screen for this entry.
+h. Child's SSN unknown or child does not have an SSN
+•
+Establish the claim on MCS, with a “?” for the Claimant SSN field, if you anticipate
+entering a representative payee applicant in RPS.
+•
+Indicate the need for appropriate proofs (age, citizenship) on the MCS screens. MCS
+automatically establishes an issue of “CLUNK” on the DW01. Leave the receipt date
+blank.
+•
+If you will be entering a representative payee application for a beneficiary whose
+SSN is unknown, on the Representative Payee Main Menu (RPMM) screen, you must answer
+the (following question) in the “BENEFICIARY/RECIPIENT SSN” field. The question is
+“OR UNKNOWN (Y/N) __ “. You must answer this question with a “Y”. The RPS path will
+then prompt you to show the NH's SSN, and describe the beneficiary. You will not be
+able to adjudicate the RPS application with the unknown SSN.
+•
+To adjudicate the claim, a member of management must enter the “Management Override”
+function, which is #27 on the MCS System Menu (MENU) screen. The override must be
+#3, “CLMT SSN UNKNOWN.”
+5. EC exceptions
+If you cannot process the case via EC, prepare an A-101. On the BCRN screen, enter
+the remark: “Disaster Survivor Claim - expedite per (cite this section GN 00410.010)”.
+6. Number holder's name on application disagrees with Numident
+Adjudicators may encounter situations where the deceased number holder's name shown
+on the application differs from that shown on the Numident. In these situations, adjudicators
+may use information provided by anyone as proof of the number holder’s married or
+currently used name and use the Numident as proof of the maiden or prior name.
+7. Representative payee issues
+All custody development is post-adjudicative for payee categories except a natural
+parent with custody. In the event of a widespread disaster, do not initiate follow-up
+custody development for a natural parent who has custody. Follow normal procedures
+for local disasters. The undue hardship exception to the face-to-face interview requirement
+applies to any representative payee applications completed.
+When a potential representative payee does not have a SSN, do not process the payee
+application in the Representative Payment System. Payees residing in the U.S. must
+have a verifiable SSN before they can be appointed as payees. Issue an SSN to any
+payee applicant who is entitled to have one but does not. If the applicant is not
+entitled to be issued an SSN, develop alternative payee applicants.
+EXCEPTION: If the applicant is a parent filing to be payee for their minor child and cannot be
+issued an SSN, appoint the parent as payee, if otherwise suitable, take a paper SSA-11-BK
+representative payee application and complete the paper SSA-101 to adjudicate the
+claim.
+See Details
+•
+GN 00502.113, Interviewing the Payee Applicant
+•
+GN 00502.117, Verifying Information Provided by Payee Applicants
+8. Signed applications
+If the claimant is completing their application in a teleclaim interview, have the
+applicant sign the application via attestation.
+In situations where the applicant refuses to sign via attestation,
+•
+print the summary of the application from MCS and mail it to the applicant for signature.
+•
+Advise the applicant that they must sign and return the application as soon as possible.
+•
+Set a 15-day tickle for the return of the application signed by the applicant.
+9. Adjudicative actions
+Claims adjudicated using applications signed by a CR or WSU still require additional
+evidence and development:
+1.
+Advise the applicant that payment will be effectuated based on the information provided.
+The applicant needs to submit a signed application, missing information or evidence
+as soon as possible.
+2.
+Diary the claim; annotate any diaries on the DECI screen for proofs needed and the
+signed application (set the month and year for 3 months in the future).
+3.
+When not all of the information or evidence is available or you adjudicate the claim
+based on a CR or WSU signature, annotate the RPOC screen with the following:
+•
+Adjudicated per (cite this POMS Section)
+•
+The following evidence is needed: (List needed evidence)
+•
+The following information is needed: (List needed information)
+Enter the date the CR signed the application in the DW01 receipt field for the application.
+Do not X out the application issue on the DW01. Annotate the RPOC screen "Ap. Mailed."

@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - DI 14510.007 - Field Office (FO) Procedures for Section 301 Cases after Office of Disability Operations (ODO) Determination
+Effective Dates: 11/01/2024 - Present | TN 17 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510007 (fetched 2026-10-04)
+
+H. Procedure when FO learns that participation in VR or similar program ceased or the
+program ended
+The FO may receive new or revised information about the beneficiary’s participation
+in a VR or similar program from the beneficiary or the service provider during a Redetermination
+(RZ) or other Post-Entitlement (PE) actions.
+1. Title II cases
+During any PE discussions, if the MBR has a 301 indicator or 301 payment remarks,
+ask the beneficiary or representative payee if thebeneficiary is participating in
+VR or a similar program. If the beneficiary stopped participating or the program ended,
+accept the allegation and:
+•
+Obtain a statement from the beneficiary on an SSA-5002 (Report of Contact) showing
+the date the program ended or the date participation ceased and fax it into eView
+or EP;
+•
+Send a manual due process notice. Follow the instructions in DI 14510.007H.3;
+•
+Wait 15 days for a response to the due process notice;
+If there is no response or the information you receive does not change the decision
+to suspend benefits, input an S9 suspension the month after participation ended and:
+•
+Input a 60-day diary (301DEC) using the CDRW on the DCF for case control;
+•
+Transmit the Potential
+Section 301 Case Flag and SSA-5002 to ODO using the EP's 4290 Barcode. Select the "Yes" on the Document
+Information screen, to make the transmission actionable when PC involvement is required;
+•
+Check the block “Case S9.” Provide the effective S9 date and the date participation
+stopped or the program ended;
+•
+Update the remarks on the MBR, “Section 301 participation ended. Sent to ODO MM/DD/YY.”
+2. Title XVI cases
+During an RZ or any other PE event, if the case has a VP diary, ask the beneficiary
+or representative payee if they are participating in VR or a similar program. If the
+beneficiary states that the program ended for any reason, accept the beneficiary’s
+allegation, and:
+•
+Obtain a statement from the claimant on an SSA-5002 or on the Person Statement page
+in the Consolidated Claims Experience (CCE) Supplemental Security Income pages, showing
+the date the program ended or the date participation ceased and fax it into eView
+or EP;
+•
+Send a manual due process notice. Follow instructions in DI 14510.007H3; and
+•
+Wait 15 days for a response to the due process notice.
+If you receive no response, or the information you receive does not change the decision
+to suspend benefits:
+•
+Input payment status N05 with the next Current Operating Month (COM) to avoid multiple
+overpayments;
+•
+Establish a tickle on the DCF or the Development Worksheet page for case control;
+•
+Suppress the systems-generated notice;
+•
+Add the Remark, "N05 due to pending 301 determination, participation ended MM/YY”
+to the SSR;
+•
+Transmit the Potential
+301 Flag and SSA-5002 to ODO using the EP's 4290 Barcode. Select the "Yes" on the Document Information screen,
+to make the transmission actionable when PC involvement is required;
+•
+Check the block “Case N05.” Provide the effective N05 date and the date participation
+stopped or the program ended.
+3. Due process notice
+For Title II cases, send the SSA-L951-U2 (Social Security Notice Letterhead). For Title XVI cases, send an SSA-8165-U2 (Important Information) notice to the beneficiary and the representative payee using
+the following language:
+“We plan to suspend your benefits, effective MM/YYYY, because you told us that you
+are no longer participating in your approved program of vocational rehabilitation,
+employment training, educational, or other support services.
+On <fill in date of previous notice>, we notified you that your disability had ended,
+but we would continue to pay you because you were participating in an appropriate
+program of vocational rehabilitation, employment training, or educational or other
+services.
+You told us that you stopped participating in your program in MM/YYYY.
+Another office will make the special decision about whether you are eligible for payments
+for the month your disability ended through the month your participation in the program
+ended. We will notify you of their decision in another letter.
+If you have any questions, you may contact your local Social Security office. The
+address and telephone number are printed at the top of this notice. If you call or
+visit a Social Security office, please have this notice with you. It will help us
+answer your questions.”

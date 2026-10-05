@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.417 - Coding Curacao Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 288 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402417 (fetched 2026-10-04)
+
+G. Example of coding bank data for Curacao
+The customer provides us with a signup form for Curacao containing the account number:
+1234567890123
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 730000024
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Curacao
+•
+Start with the country code of “P” designated for Curacao; and
+•
+Code 13-digit Customer Account Number “1234567890123”
+a. You must obtain this information
+•
+RTN: 730000024
+•
+Checking
+•
+DAN: P1234567890123
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000024
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: P1234567890123
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN: 730000024
+•
+DAN: CP1234567890123

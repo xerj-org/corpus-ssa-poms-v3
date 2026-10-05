@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 00501.418 - Blind or Disabled Children of Military Personnel Stationed Overseas - Systems Input
+Effective Dates: 04/07/2016 - Present | TN 83 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500501418 (fetched 2026-10-04)
+
+B. Procedure - Initial Claim System Input
+When processing a MSSICS or Non-MSSICS initial claim establish an SSI record using
+the following criteria:
+•
+Unit (UN) No. Field: Use “ZZZ” for the unit in the UN field. “ZZZ” in the UN field will exclude processing time;
+•
+State Agency (SA) Field: Use office code “V22” in the SA field. “V22” is the office number for OIO;
+•
+Mailing Address (AD) field – Input the APO/FPO/DPO (Army Post Office or Foreign Post Office, or Diplomatic
+Post Office) address as provided by the applicant (e.g., AD395th QM BN.);
+•
+Mailing Address City (AY) Field – Input “APO” or “FPO” or “DPO” for the city (e.g., AYAPO.);
+•
+Mailing State (AT) Field – Input the two letter code that corresponds to the geographic location of the U.S.
+military base. (e.g., ATAE.; ATAA.; ATAP.);
+•
+Mailing Zip Code (ZP) Field – Input the zip code for the APO as provided (e.g., ZP09169);
+•
+Residence Address (RA) Field – Input the child's foreign address;
+•
+Residence Address City (RY) Field – Input “Cumberland” for the city (e.g., RYCumberland.);
+•
+Residence State (RT) Field – Input “MD” for the state (e.g., RTMD.);
+•
+Residence Zip Code (ZC) Field – Input Cumberland's zip code “21502” (e.g., ZC21502.);
+•
+Federal Living Arrangement (LA) Field – Input the state and county code for Cumberland, MD “21000A” (e.g., LA050421000ACZ);
+•
+Override (SO) Field – Systems override needed “ST”, input SOST;
+•
+Third Party Insurance (PT) Field – Input “F”, to suspend Medicaid eligibility and the four position date (MMYY) of the
+application effective date (e.g., PTF0504) (See SI 00601.009 – Application Effective Date);
+•
+Complete all other fields on the SSA-450 SI based on the full application, taking
+into consideration all factors of SSI eligibility. (See SM 01005.000 – SSA-450 Input
+Instructions).

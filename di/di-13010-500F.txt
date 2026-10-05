@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+F. Adding actions to the DCF
+Establish and control all CDR and EXR related actions in eWork (see FO Responsibilities
+in Work Issue CDRs DI 13010.025). eWork establishes the action in the DCF.
+Two actions for the same type cannot be pending at the same time (e.g., you cannot
+establish a work CDR if a work CDR is already pending in the DCF), determine if an
+action is already pending by reviewing the STATUS area of the screen.
+To manually add actions to the DCF:
+1.
+Select #32, DISABILITY CONTROL FILE from the MAIN, SSA Menu. The next screen is the
+MCDR screen.
+2.
+Select #8 in the MCCDR SELECT field to ESTABLISH DISABILITY REVIEW. Enter the applicable
+SSN. If there is a disability case present in the DCF, it will propagate to the ECDR
+screen.
+3.
+On the ECDR screen, enter the type of action to be established in the SELECT field:
+•
+Prior to establishing an action on the DCF, review the STATUS area of the screen
+–
+to determine if an action is already pending; the DCF does not allow duplicate actions
+to be established.
+–
+for information regarding “Ticket” assignment status under the Ticket to Work Program.
+•
+If the status indicates that we assigned a Ticket to the beneficiary, consider whether
+you should apply the medical CDR protections provided in the Ticket to Work program
+(see, Determining Ticket Status DI 55025.001).
+•
+If there are no conflicts, enter the appropriate selection code for the action to
+be established, and press ENTER. This will bring the Disability Review Establishment
+(DRES) screen into the path.
+4.
+Use the DRES screen to establish a work CDR in the DCF (see DI 13010.610).
+5.
+5. If there are no surface edits, the action is established and the system reverts
+to the MCDR screen. If necessary, resolve any surface edits and reenter the action
+to add the CDR to the DCF.
+NOTE: If you input EVENT TYPE 07, ASSISTANCE REQUEST, two issues automatically open on
+the CDRW screen to control the assistance request.

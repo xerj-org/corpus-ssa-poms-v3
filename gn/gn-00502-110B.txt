@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - GN 00502.110 - Taking Applications in the eRPS
+Effective Dates: 08/26/2022 - Present | TN 84 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502110 (fetched 2026-10-04)
+
+B. Procedure
+Field Office (FO) technicians can use eRPS to create a new application and update
+a pending application through the “Representative Payee Applications” from the eRPS
+home screen (MS INTRANETERPS 001.002).
+For active payees, you can make updates through the “Search/View/Update” and search
+by beneficiary, individual, organization, or beneficiary/payee relationship.
+1. Representative Payee Applications/Create New Application
+The eRPS Home screen (MS INTRANETERPS 001.002) displays “the Create New Application”
+link under the Representative Payee Applications section. You must select this to
+start the application process. When you create a new application, eRPS will ask you
+the following questions on the Introduction screen.
+•
+Interview Type;
+•
+Applicant Type;
+•
+Applicant SSN;
+•
+Is the applicant filing for multiple minor children in their household; and
+•
+Claimant SSN, if known.
+There are three types of applicants in eRPS:
+•
+Individual Payees;
+•
+Organizational Payees; and
+•
+Self-payees( beneficiary applying for direct payment, custody code “SEL” SM 00550.080)
+The specific information in the application path varies depending on the answers to
+each individual question. Information included in the payee application path includes:
+•
+Applicant’s proof of identity (GN 00502.117 and MS INTRANETERPS 009.011);
+•
+Applicant’s contact information including address and phone number (MS INTRANETERPS
+009.009 and MS INTRANETERPS 009.010);
+•
+Applicant’s relationship to the claimant (MS INTRANETERPS 009.005);
+•
+Custody information ( GN 00502.139 and MS INTRANETERPS 009.006);
+•
+Legal guardian information ( MS INTRANETERPS 009.007);
+•
+Criminal history information ( MS INTRANETERPS 010.001);
+•
+Permission to run a background check, if applicable (MS INTRANETERPS 009.014);
+•
+Applicant’s income (GN 00502.117A.4 and MS INTRANETERPS 009.013);
+•
+Claimant’s capability (MS INTRANETERPS 009.017);
+•
+Claimant’s entitlements (GN 00502.060 and MS INTRANETERPS 009.018);
+•
+Other people who live with or show an interest in the claimant (MS INTRANETERPS 009.019);
+•
+Miscellaneous information that includes why the applicant will be the best payee and
+how the applicant intends to meet the needs of the beneficiary (MS INTRANETERPS 009.008);
+•
+Printing the SSA-11 and Attestation (MS INTRANETERPS 009.021).
+2. Search/View/Update/Applications
+Using the Search/View/Update/Applications” function updates applications that are
+pending.
+The “Search/View/Update” function allows you to make changes to a beneficiary currently
+served by a payee or a payee who is currently serving a beneficiary.
+To update a payee who is currently serving a beneficiary you should use “Search/View/Update”
+from the eRPS home screen (MS INTRANETERPS 001.002). The “Search/View/Update” is equivalent
+to a P/E action in RPS.
+NOTE: Search/View/Update is different than “Search/View/Update/Applications”
+You can search by the beneficiary SSN or name, individual representative payee SSN
+or name, organizational payee name, or zip code. The “Beneficiary/Payee Search” will
+display all relationships associated with the SSN. Once a payee is serving the beneficiary,
+you can update the payee/beneficiary information under Case Details.
+For example, a search by an individual payee’s SSN will display a list of beneficiaries the payee
+is currently serving, all terminated relationships, and all non-selections.

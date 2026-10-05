@@ -1,0 +1,112 @@
+SSA Program Operations Manual System (POMS) - GN 03314.155 - Automated Data Exchanges between the Social Security Administration (SSA) and State Agencies
+Effective Dates: 02/20/2020 - Present | TN 5 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203314155 (fetched 2026-10-04)
+
+B. Kinds of data exchange systems
+1. Beneficiary Earnings and Data Exchange (BENDEX)
+BENDEX is a centralized computer process available to States under written agreements
+with us. BENDEX can verify or provide Title II information about payment status, benefit
+amounts, entitlement and termination dates, health insurance data, and other information
+relevant to eligibility for State assistance programs. For a full description of the
+BENDEX system, see SM 10801.000.
+2. Beneficiary Earnings Exchange Record (BEER)
+BEER is a subset within the BENDEX system. It provides tax return information (employer
+data for the last calendar year) to those entities authorized to receive tax return
+information. For information on the disclosure of tax return information, see GN 03314.002 and GN 03320.015.
+3. State Data Exchange (SDX)
+SDX is an automated system available to States under written agreements with us. SDX
+provides Title XVI data maintained in the Supplemental Security Income Record, which
+includes Title XVI eligibility, benefit, and demographic data, as well as Title VIII
+Special Veterans Benefits.
+4. State Verification and Exchange System (SVES)
+SVES is an overnight batch system that provides Social Security Number (SSN) verification,
+Title II benefit information, and Title XVI information to State agencies through
+a uniform data response based on authorized user-initiated queries. In support of
+our data minimization policy, there are four types of SVES responses:
+a. SVES I
+This batch response strictly provides SSN verification and is available to State agencies
+that are approved use of this data for the administration of health maintenance and
+income maintenance programs.
+NOTE:
+There is a separate subset of SVES I that provides SSN verification and citizenship
+data; this subset is referred to as SVES I/Citizenship. Consult the regional office
+DEC or PAC for information on the permissible use of citizenship data.
+b. SVES II
+This batch response provides SSN verification and Title II benefit information and
+is available to State agencies that are approved use of this data for the administration
+of health maintenance and income maintenance programs.
+c. SVES III
+This batch response provides SSN verification and Title XVI benefit information and
+is available to State agencies that are approved use of this data for the administration
+of health maintenance and income maintenance programs.
+d. SVES IV
+This batch response provides SSN verification, Title II, and Title XVI benefit information
+and is available to State agencies that are approved use of this data for the administration
+of health maintenance and income maintenance programs.
+5. State Online Query (SOLQ)/State Online Query-Internet (SOLQ-I)
+SOLQ and SOLQ-I are real-time online systems that provide SSN verification, Title
+II, and Title XVI benefit data to State agencies that are approved use of this system
+for the administration of certain health-maintenance and income-maintenance programs.
+The data provided via real-time is similar to the data provided through SVES IV. SOLQ
+is an online exchange (typically with the States in a mainframe), while SOLQ-I is
+a web-based application.
+NOTE: SOLQ and SOLQ-I also provide strictly SSN verification and citizenship data (similar
+to SVES I/Citizenship) via SOLQ/Citizenship and SOLQ-I/Citizenship. Consult the regional
+office DEC or PAC for information on the permissible use of citizenship data.
+6. Unemployment Insurance Query (UIQ)
+UIQ is an online system that provides SSN verification to State agencies that administer
+the unemployment insurance (UI) program. We may also disclose Title II information
+to State agencies that administer UI programs. However, Title II data is typically
+restricted to only those State agencies that offset UI benefits by the receipt of
+Title II benefits. UIQ transactions are transmitted through the U.S. Department of
+Labor’s Interstate Connection Network (ICON) Hub. There are two types of UIQ responses:
+a. UIQ I
+This transaction provides strictly SSN verification to State agencies approved use
+of this system.
+b. UIQ II
+This transaction provides SSN verification and Title II benefit information to State
+agencies approved use of this system.
+7. Low Income Subsidy (LIS)
+LIS is a batch system that provides data from the LIS Application for Medicare Part
+D beneficiaries to State agencies approved use of this system for the administration
+of Medicare Savings Program.
+8. Medicare 1144
+Medicare 1144 is a batch system that provides information to State agencies that are
+approved use of this system for the administration of the Medicare 1144 (Outreach)
+program. This system provides a list of individuals on our rolls who may be eligible
+for medical assistance for the following:
+•
+payment of the Medicare cost-sharing under the Medicaid program pursuant to Sections
+1902(a)(10)(E) and 1933 of the Social Security Act (Act);
+•
+transitional assistance under Section 1860D-31(f) of the Act; or
+•
+premiums and cost-sharing subsidies for low income individuals under Section 1860D-14 of the Act.
+9. Prisoner Update Processing System (PUPS)
+PUPS is an overnight batch system that provides confinement data we receive from over
+2000 State and local institutions, such as jails, prisons, or other penal institutions
+or correctional facilities. PUPS matches the data we receive with the data on the
+Master Beneficiary Record and the Supplemental Security Income Record and subsequently
+generates alerts for review/action.
+10. Quarters of Coverage (QC)
+QC is an application triggered via SVES that provides qualifying quarters of coverage
+data (the minimum and maximum number of QCs a number holder has on our records), as
+well as railroad service months, and the pattern of the qualifying QCs. This overnight
+batch information is available to State agencies approved use of this data for the
+administration of health maintenance and income maintenance programs.
+11. Enumeration Verification System (Batch)
+Through a Batch system, we provide overnight SSN verification to State agencies that
+are approved use of this system. Our SSN verification routines vary in how the SSN
+verification searches are conducted, tolerances used in those searches, and in what
+information is returned to the users.
+12. Help American Vote Verification (HAVV) System
+HAVV is the verification system that provides verification of the last four digits
+of the SSN to State agencies responsible for voter registration administration. State
+agencies should only utilize this system when the new voter registrant does not have
+a valid driver’s license. We provide HAVV to the States through the American Association
+of Motor Vehicle Administrator’s (AAMVA) AAMVAnet network.
+13. Social Security Online Verification (SSOLV)
+SSOLV is a real-time system that provides SSN verification to State Motor Vehicle
+Administrations and State agencies charged with administration of drivers’ licenses
+and identification cards. AAMVA’s AAMVAnet network acts as the conduit through which
+authorized State agencies receive SSOLV.

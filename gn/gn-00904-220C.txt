@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 00904.220 - Requesting Assistance from the Federal Benefit Unit in Foreign Cases
+Effective Dates: 08/08/2024 - Present | TN 27 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200904220 (fetched 2026-10-04)
+
+C. IBO procedures for completing the Administrative Message
+Send initial and followup requests to FBUs and the Veteran's Affars Regional Office
+(VARO) in the Manila FBU via the administrative message.
+Field
+Enter
+Transfer to field
+Leave blank
+Addressee routing indicators (RIs)
+The alpha RI for each FBU listed in the “TO” field.
+NOTE:
+RIs are shown in the Foreign Service Post Directory in the Telecommunications Routing
+Indicator Directory (TRID).
+To
+The rank of the FBU. Since DOS's communications software requires a precise format
+and recognizes only two FBU acronyms, enter either:
+•
+“AMEMBASSY”; or
+•
+“AMCONSUL."
+After the rank enter a space and show the city in which the FBU is located.
+Enter ATTN FBU or ATTN SSA DIVISION (for VARO).
+Use a single slash to separate the RI from the FBU rank and city and double slashes
+to surround the attention portion of the “To” line.
+If there is more than one FBU, repeat the RI for each office.
+Show “INFO” before the RI for any FBU which is to receive an informational copy.
+Examples of what to enter after the RI:
+One FBU:
+•
+AMEMBASSY MANILA//ATTN SSA DIVISION//
+•
+AMCONSUL HERMOSILLO//ATTN FBU//
+Multiple FBUs:
+•
+AMCONSUL GUADALAJARA//ATTN FBU//RUEHME/AMEMBASSY MEXICO CITY//ATTN FBU//
+One FBU with an Information Copy to the RFBO:
+•
+(RFBO)RUEHMD/AMEMBASSY MADRID//ATTN FBU//INFO RUEHRO/AMEMBASSY ROME//ATTN RFBO//
+From
+SOCIAL SECURITY ADMINISTRATION BALTIMORE
+Subject
+The subject of the message (e.g., Request for Services, Followup to Request for Services,
+Response to Your Request Dated (date), etc.).
+Text
+Enter the message, the SSN, name of the NH and of the claimant, and the name and telephone
+number of the preparer in case the FBU needs to discuss the case.
+Transmit
+If another page is needed to complete the message, enter “N” in the “TRANSMIT” field
+and press “enter” or “PF8” to page forward.
+To send the message, enter “Y” in the “TRANSMIT” field and press “Enter.”

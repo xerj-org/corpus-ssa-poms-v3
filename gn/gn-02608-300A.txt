@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - GN 02608.300 - Post-entitlement Processing
+Effective Dates: 03/01/2024 - Present | TN 62 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608300 (fetched 2026-10-04)
+
+A. Field office (FO) or processing center (PC) post-entitlement development for months
+of entitlement prior to January 2024
+An FO or a PC receives reports of new entitlement to a pension or an increase to a
+pension already on a spouse’s record. The Regular Transcript Attainment and Selection
+Pass (RETAP) generates alerts in the PC to follow up for future pension entitlement
+or for pension increases.
+If the report is for a new entitlement to a pension, obtain a completed SSA-3885 (Government Pension Questionnaire).
+For pensions based on a combination of government and private employment, request
+verification of the pension amount based on only the government employment from the
+employer or pension-paying agency (for more information, see GN 02608.400).
+For processing a report of pension entitlement or pension increase from the Office
+of Personnel Management (OPM), see GN 02608.301.
+NOTE: If the spouse is entitled to retirement (RIB) or disability (DIB) benefits on their
+own Social Security number, the Windfall Elimination Provision (WEP) may be applicable
+to the computation of the primary insurance amount (PIA) on their RIB or DIB record.
+For more information about WEP, see RS 00605.360.
+1. Processing a beneficiary’s report of pension entitlement or a RETAP alert for future
+pension entitlement
+a.
+If an exemption to the GPO applies:
+•
+Develop and obtain evidence according to instructions in GN 02608.101 through GN 02608.107; and
+•
+Enter information about the exemption that applies in the appropriate GPO data input
+screens.
+A periodic pension can cause either partial or total GPO; for information about the
+types of GPO, see GN 02608.100B.
+b.
+If total GPO applies:
+•
+Obtain and verify evidence for the beginning month of the periodic pension.
+•
+Process a Post Entitlement Online System (POS) action by selecting option 27=GOVT
+PENSION OFFSET on the POS Selection List (PESL) screen and complete the GPO screens.
+For information on completion of the GPO screens, see MS COMMON 003.001.
+c.
+If partial GPO applies:
+•
+The claimant must provide evidence from the employer or pension-paying agency (e.g.,
+an award letter) that shows the gross pension amount, including pension amount changes
+as necessary, and the effective date of the pension. For additional types of evidence,
+see GN 02608.200B.
+•
+Process a POS action by selecting option 27=GOVT PENSION OFFSET on the PESL screen
+and complete the GPO screen.
+•
+Enter the future month and year of the expected increase in the NEXT EXPECTED PENSION
+INCREASE DATE field on the Government Pension Periodic Payments (GPP1) screen if the
+claimant expects an increase in the current pension amount or for any known State
+or local pension increases.
+•
+Do not enter a Stop Date for the current pension amount for an expected pension increase in the future. This
+may stop the GPO.
+The system calculates the Social Security benefit amount based on the non-covered
+periodic pension information in the GPO screens.
+2. Processing a report of pension increase
+a.
+Process a POS action by completing the following steps:
+•
+Select option 27=GOVT PENSION OFFSET in POS on the PESL screen and complete the GPO
+screens. For information on completion of the GPO screens, see MS COMMON 003.001 et
+seq.
+•
+Enter the future month and year of the expected increase in the NEXT EXPECTED PENSION
+INCREASE DATE field on the GPP1 screen if the claimant expects an increase in the
+current pension amount or for any known State or local pension increases.
+•
+Do not enter a Stop Date for the current pension amount for an expected pension increase in the future. This
+may stop the GPO.
+The system calculates the Social Security benefit amount based on the non-covered
+periodic pension information in the GPO screens.
+b.
+Secure evidence of the pension increase if:
+•
+The report is from a source other than the employer or pension-paying agency; and
+•
+A change in the pension will result in an increase to the benefit amount payable (e.g.,
+a total offset changes to partial offset); and either
+•
+The pension information of record was not previously verified; or
+•
+The pension information of record is more than two years old.
+c.
+Obtain acceptable evidence of pension increase as stated in GN 02608.200B; additionally:
+•
+Accept a report from the employer or pension paying agency at face value; or
+•
+Accept the spouse's statement as evidence when we previously verified the pension
+amount on record, even if the verification is currently more than two years old, if
+it will not result in an increase to the spouse’s benefit amount payable.
+If there is reason to believe that an unreported increase in the pension occurred
+(e.g., we know that the particular pension plan pays increases annually), verify that
+the increase occurred and the amount of the increase before adjusting benefits.
+Electronically store the SSA-3885 and evidence required through the Non-Disability
+Repository for Evidentiary Documents (NDRed) system in the Evidence Portal. For information
+about storing documents through NDRed, see GN 00301.322.
+3. PC processing RETAP alerts for expected pension increase
+a.
+When a RETAP alert generates for an expected pension increase, contact the beneficiary
+via direct contact (DIRCON) to get the effective date and the new periodic pension
+amount. For information on DIRCON, see GN 01070.305.
+b.
+Contact the pension-paying agency if unable to contact the beneficiary.
+c.
+Provide an advance notice to the beneficiary before reducing benefits if the pension-paying
+agency furnishes the information. For information about advance notices, see GN 03001.015.
+d.
+Complete the GPP1 screen with the new pension amount and enter the month and year
+of any expected pension increase in the NEXT EXPECTED PENSION INCREASE DATE field.
+For information on completion of the GPO screens, see MS COMMON 003.001 et seq.
+e.
+Do not enter a Stop Date for the current pension amount if GPO continues to apply.
+f.
+If the beneficiary fails to respond to the request for status of the pension increase,
+follow the steps for suspension of benefits in GN 02608.300B.3. in this section.

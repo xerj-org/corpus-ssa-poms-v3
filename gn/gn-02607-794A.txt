@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02607.794 - Additional Processing Instructions for Suspension and Reinstatement Actions on 3BOP PUPS Alerts/Records
+Effective Dates: 07/15/2002 - Present | TN 89 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607794 (fetched 2026-10-04)
+
+A. Procedure – suspension of Title II benefits using PUPS
+1. Advance notice
+Send the beneficiary an advance notice to the address on the MBR. Give the beneficiary
+30 days for protest of the suspension action. (See GN 02607.970 for more information on advance notices to send to the title II beneficiary. See
+GN 02607.972 for the exhibit notices to send in advance notification situations.)
+2. PUPS coding
+If suspension is appropriate, input the suspension through PUPS per GN 02607.700 – GN 02607.750.
+Coding on PUPS Record for Suspension of title II benefits:
+Annotate the PU02 screen in PUPS. Select DUE PROCESS TYPE Number “2, 30-day due process
+notice.”

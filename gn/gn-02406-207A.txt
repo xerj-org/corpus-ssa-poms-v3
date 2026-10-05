@@ -1,0 +1,104 @@
+SSA Program Operations Manual System (POMS) - GN 02406.207 - Nonreceipt of Courtesy Disbursement or Replacement Check/ Type 9 Payment -- Field Office and Teleservice Center Instructions -- Title XVI
+Effective Dates: 01/21/1999 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406207 (fetched 2026-10-04)
+
+A. Procedure
+The TSC/FO must follow these procedures to resolve a nonreceipt of a title XVI courtesy
+disbursement or replacement check (type 9 payment):
+1. Does the Treasury status query for the original check show an interim reply code 01?
+•
+If no, go to Step 2.
+•
+If yes, go to Step 3.
+For information on how to read the Q query control, see SM 01315.206.
+2. Have at least 10 days passed since the nonreceipt was input?
+•
+If no, advise the claimant to contact after 10 days have passed. STOP.
+•
+If yes, go to Step 3.
+3. Is an F-Stop reflected on the Treasury status query for the replacement (courtesy)
+check (this would indicate that the original check was cashed)?
+The TSC/FO will:
+•
+If no, input an A-Stop on the replacement and go to Step 4.
+•
+If yes, go to Step 5.
+4. Is this a dire need situation (see criteria in SI 02004.100)?
+If no:
+•
+The TSC will: Forward via MDW to FO to issue AOTP for full amount of the missing check.
+The FO will: Issue an AOTP for the full amount of the original check.
+When the system computes an overpayment, a B-3 diary will be established.
+•
+Input an N-TAC on the AOTP to temporarily resolve the overpayment.
+•
+Enter “AOTP for MMDDYYYY CK” (original check) in the SSR RMKS segment.
+•
+Stop.
+If yes:
+The TSC will: Refer the case to the FO via MDW.
+The FO will:
+•
+Issue an immediate payment (IP) for the amount of the check not to exceed $5,000.00
+(NOTE: The limit was $999.00 prior to 10/23/2023). (The IP is an advance against future
+payments. Depending on systems cutoff dates, the full amount will be recovered from
+the first or second check.)
+•
+Issue an AOTP for the full amount of the missing check (to satisfy immediate replacement requirement). For more
+information on IP, see SI 02004.100
+•
+Input an N-TAC on the AOTP to temporarily resolve the overpayment.
+•
+Enter “Dire need $    IP issued; AOTP of $    also issued for MMDDYY CK” in the SSR RMKS segment.
+5. If an F-Stop is reflected on the Treasury status query:
+•
+Remove the N-TAC.
+•
+Release the overpayment letter.
+•
+Do not issue an AOTP.
+•
+Go to step 6.
+6. Does claimant allege forgery? (See also GN 02406.310.)
+If yes:
+The TSC will: Refer case to FO via MDW.
+The FO will:
+•
+Obtain a signed SSA-561-U2.
+•
+Input an L-TAC (after receiving the completed 561) to stop overpayment recovery.
+•
+Have recipient complete an FMS-1133 claims package.
+•
+Photocopy the claims package and keep for 1 year.
+•
+Forward claims package and check photocopy to Treasury. Go to step 7.
+If no:
+•
+Begin recovery process.
+7. Was the check forged? (See IMPORTANT information below in this section.)
+If yes:
+•
+Issue an AOTP for the full amount of the missing check.
+•
+Annotate SSR RMKS segment.
+If no:
+•
+Delete the L-TAC.
+•
+Begin recovery process. Stop
+IMPORTANT: Examine the situation before taking action. There are 4 scenarios that may occur in this process:
+•
+The claimant may have cashed the original and not the replacement, in which case the
+claimant is not due any further money and there is no overpayment.
+•
+The claimant may not have cashed the original but did cash the replacement, in which
+case the claimant is not due any further money and there is no overpayment.
+•
+The claimant may not have cashed either check, in which case the claimant is due a
+payment and there is no overpayment.
+•
+The claimant may have cashed both checks, in which case there is a DCN overpayment.
+(See GN 02406.310, SI 02220.000, GN 02210.000.)
+When credits are received from Treasury, either because checks were not cashed or
+because of reclamation causing an excess decision, delete the N- or L-TAC on the overpayment.

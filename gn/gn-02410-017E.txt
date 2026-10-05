@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - GN 02410.017 - Requesting Voluntary Tax Withholding (VTW)
+Effective Dates: 08/30/2018 - Present | TN 60 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410017 (fetched 2026-10-04)
+
+E. DE case scenarios
+1. Dually Entitled beneficiary submits one W4-V
+a. DE payments combined
+Most often, when a dually entitled beneficiary is receiving one combined DE payment,
+he or she will request VTW on the total payment.
+•
+Process the VTW request as if DE were not involved;
+•
+Have the beneficiary complete one W-4V form; and
+•
+Input the request on the full DE payment Claim Account Number (CAN)/Beneficiary Identification
+Code (BIC) via Post Entitlement Online System (POS) or Manual Adjustment, Credit,
+and Award Data Entry (MACADE).
+The other DE account does not need VTW request data (VTAX REQ),
+as long as we are not issuing payments from that account.
+When a beneficiary files a claim that will result in a combined DE payment, the same
+filing rules apply as in post entitlement (PE) actions except that an MCS application
+may replace the W-4V form.
+NOTE: Since VTW and DE are involved, process the award via MACADE. Do not code VTAX REQ
+data on any other DE record where we are not issuing payments.
+b. DE payments separate
+If a dually entitled beneficiary is receiving separate entitlement payments and requests
+the same tax rate withheld from each record:
+•
+Have the beneficiary complete one form identifying the two CAN/BICs to which we should
+apply the tax rate; and
+•
+Input an action against each active DE payment records’ CAN/BIC via POS or MACADE.
+The same filing rules apply when awarding separate DE payments as in PE actions, except
+that the MCS application may replace the W-4V form. Be sure to post VTAX REQ data
+on all active payment records.
+2. Dually Entitled Beneficiary makes multiple VTW requests
+a. DE payments separate
+Complete two W-4V forms if a dually entitled beneficiary wants different tax rates
+withheld from two active records.
+•
+Have the beneficiary complete one W-4V for each record indicating the respective VTW
+percentages; and
+•
+Process each request against the respective DE payment via POS or MACADE.
+The same filing rules apply if a beneficiary is receiving separate DE payments, except
+that the MCS application(s) may replace the W-4V forms. VTAX REQ data must be on both
+records when we take the two MACADE actions.
+b. DE payments combined
+If a dually entitled beneficiary wants different tax rates withheld from each record
+and we are currently combining both payments on one record, separate the existing
+combined DE payments via MACADE.
+•
+Have the beneficiary complete two W-4V forms. One for each record indicating the respective
+withholding percentages.
+•
+Route all W-4V forms to the controlling PC.
+•
+Instruct the PC to separate the payments due to VTW via MACADE.
+•
+The PC will take the two MACADE actions (VTAX REQ data must be on both records).
+For DE awards when the beneficiary or his or her representative payee want different
+withholding rates on each record, the same rules apply as above, except that the MCS
+application may replace the W-4V forms.
+c. Decombining DE payments for non-VTW reasons when the beneficiary also has VTW
+When splitting DE payments for a non-VTW reason, and the beneficiary has VTW, tax
+resulting payments based on the existing VTW request via MACADE. Post the VTAX REQ
+data from the previous payment record the new payment record.

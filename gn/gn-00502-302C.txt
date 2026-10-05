@@ -1,0 +1,181 @@
+SSA Program Operations Manual System (POMS) - GN 00502.302 - Processing Criminal Background Check Work Issues on Payees
+Effective Dates: 11/16/2023 - Present | TN 89 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502302 (fetched 2026-10-04)
+
+C. Procedure for Processing Criminal Background Check Work Issues on Payees
+Field offices (FO) will receive criminal work issues in the electronic Representative
+Payee System (eRPS) Workload Management, when we receive criminal information through
+our eRPS criminal background check. Management or other designated staff must assign
+the criminal work issues.
+The following types of criminal work issues are generated in eRPS:
+•
+VRFCRM - when a payee or payee applicant has criminal history after the criminal background
+check, the criminal history needs verification, and the payee's suitability needs
+to be reassessed.
+•
+FELONY - when a payee or payee applicant has a felony crime conviction and the payee's
+suitability needs to be reassessed.
+•
+CRM202 - when a payee or payee applicant has a barred crime conviction and development
+is needed for a successor payee.
+•
+PYE202 - when a payee has criminal history that needs to be verified and has not responded
+to the eRPS Come-in/Call-in notice or the DPS Call-in notice.
+NOTE: These criminal work issues are time sensitive. SPSSBA requires all non-exempt current
+payees with a barred crime be removed and replaced by January 1, 2024. You must initiate
+work issues within 15 calendar days of receipt and complete payee development, when
+appropriate, within 30 calendar days of receipt of the work issue. Criminal work issues
+must be resolved for all records including cases in suspense.
+NOTE: Criminal work issues are also located in the Workload Action Center (WAC)
+1. Accessing Criminal Work Issues in eRPS
+a.
+Access eRPS home screen, select “Search for Pending/Transferred Cases” under Manage
+Workload.
+b.
+On the Workload Management screen, select the following options:
+•
+Process Type: "All"
+•
+Work Item Status: "All"
+•
+Assignment Status: "All"
+•
+Rep Payee Type: "All"
+•
+Click: "Display Items"
+•
+Click: "Show Summary"
+•
+Click: “Add'l Filters”
+•
+On the bottom of the Refine Search page, select the corresponding Issue Code and click
+“Submit”.
+NOTE: You can only select one issue code at a time. Criminal work issues are: VRFCRM, FELONY,
+CRM202 and PYE202.
+2. Accessing Criminal Work Issues in WAC
+a.
+Access WAC RPS Workload.
+b.
+Under Available Lists select “Tickle List”.
+c.
+Sort eRPS work issues by name. Criminal work issues are: VRFCRM, FELONY, CRM202 and
+PYE202.
+3. Verifying Criminal History
+A payee or payee applicant's criminal history is important to the suitability determination
+and requires verification before making a retain payee determination. Review the criminal
+information on the Criminal Background Check Results screen in eRPS and discuss with
+the payee or payee applicant.
+When a background check for a payee or payee applicant returns criminal records, the
+Criminal Background Check Results screen will display the background check results.
+This screen allows you to view the background check details. See Criminal Background
+Check Results screen in the eRPS User Guide for additional information.
+You must verify a payee or payee applicant's criminal history using the Criminal Verification
+Screen. If the answer to the question, “Is this a felony crime?” is “No,” select from
+the drop-down menu how you verified the non-felony. See Criminal History Verification
+Screen in the eRPS User Guide for additional information.
+After selecting the appropriate drop-down option, you must document the information
+requested in the text box.
+If a payee or payee applicant indicates they were convicted of any of the crimes listed
+in GN 00502.133A, there is no reason to request further documentation. The payee or payee applicant's
+allegation of a conviction for one of these crimes is the only verification needed.
+4. Processing a VRFCRM Work Issue
+Use the following steps to process a VRFCRM work issue:
+1.
+Review the criminal information on the Criminal Background Check Results screen (MS
+07410.007) in eRPS.
+2.
+Attempt to contact the payee by telephone to verify the criminal information
+a.
+If you cannot reach the payee on the first telephone attempt leave a voicemail with
+your contact information (name and telephone number), and let the payee know SSA will
+call again.
+b.
+Make a second attempt to reach the payee by telephone on a different business day.
+If you cannot reach the payee on the second attempt, leave a voicemail with your contact
+information (name and telephone number), and let the payee know SSA will send a letter
+requesting contact.
+c.
+Document your telephone attempts on the Report of Contact Details screen (MS 07416.002).
+d.
+If you cannot contact the payee by telephone on the second attempt, you must send
+the automated eRPS Come-in/Call-in notice or the DPS Call-in notice requesting contact
+within 15 days. To send the automated eRPS notice, select the "Request Come-In/Call-In
+Notice" tab on the Come-In/Call-In Notice - Criminal History screen (MS 07410.011).
+NOTE: In rare instances, a payee with a foreign address will require a DPS Call-in Notice.
+Use the eRPS Call-in Notice available under the National Rep Payee folder in DPS.
+For these cases, you must create a 15-day tickle within the VRFCRM work issue.
+e.
+If you cannot contact the payee within 15 calendar days after sending the notice,
+follow the steps outlined in GN 00502.302C.7. to remove the payee and develop for a new payee.
+3.
+When speaking with the payee or payee applicant take the following action:
+a.
+Verify the payee's identity (GN 00502.117) and relationship with the beneficiaries the payee serves (MS 07420.010);
+If the payee is hesitant to verify PII or questions the legitimacy of the call, send
+a call-in notice to the payee.
+b.
+Read the following Privacy Act statement:
+Sections 205(a), 205(j), and 1631(a) of the Social Security Act allow us to collect
+your information, which we will use to determine your eligibility to serve as a representative
+payee. Providing this information is voluntary, but not providing the information
+may prevent us
+from assisting you. As law permits, we may disclose your information per routine uses
+in Systems of
+Records Notices 60-0089, 60-0222, and 60-0320; available at www.ssa.gov/privacy. Your
+information
+may also be used in computer matching programs to establish or verify eligibility
+for Federal
+benefit programs and to recoup debts under these programs; and
+c.
+Explain to the payee the criminal information provided in the background check. Follow
+the steps in GN 00502.117B.3 to verify the payee's barred crime, felony crime, or non-felony criminal information.
+If the payee or payee applicant indicates a crime on the background check is erroneous,
+follow the instructions in GN 00502.117B.3.c.
+4.
+After you review the payee or payee applicant's criminal history, select the "Unverified"
+link on the Criminal Background Check Results screen. If you cannot verify the payee's
+criminal history, follow the instructions in GN 00502.117B.3.a.
+5.
+Answer all the questions on the Criminal History Verification screen (MS 07410.008).
+6.
+If the crime is a barred crime, select the appropriate barred crime from the drop-down
+box.
+5. Processing a FELONY Work Issue
+After verifying a payee or payee applicant's criminal history on the Criminal History
+Verification screen (MS 07410.008), you will receive a FELONY work issue if one of
+the crimes is a felony and not one of the barred crimes listed in GN 00502.133A.3. Use the following steps to process this work issue:
+1.
+Determine if the payee is still suitable. A payee with criminal history is a questionable
+payee and should only continue serving if the criteria in GN 00502.132A.2. is met.
+2.
+Go to the Payee Retention Decision - Criminal History screen (MS 07410.009) and select
+the "Decision" link.
+3.
+Answer the "Is a change of payee needed?" question.
+4.
+If you retain the payee, check and document the reasons for retaining the payee. If
+you remove the payee, develop for a new payee by following the steps in GN 00502.000 Determining the Need for, Developing and Selecting a Representative Payee.
+6. Processing a CRM202 Work Issue
+After verifying a payee's criminal history on the Criminal History Verification screen
+(MS 07410.008), you will receive a CRM202 work issue if the payee has a barred crime
+conviction listed in GN 00502.133A.3. Use the following steps to process this work issue:
+1.
+Go to the Payee Retention Decision - Criminal History screen (MS 07410.009) and select
+the “Make Decision” link.
+2.
+You must remove the payee from serving any beneficiaries they serve where the payee
+does not meet one of the exceptions as outlined in GN 00502.302B in this section.
+3.
+Develop for a new payee by following the steps in GN 00502.000 Determining the Need for, Developing and Selecting a Representative Payee.
+7. Processing a PYE202 Work Issue
+When a payee does not respond to an eRPS Come-in/Call-in notice or DPS Call-in notice
+within 15 days, you will receive the PYE202 work issue. Use the following steps to
+process this work issue:
+1.
+Go to the Payee Retention Decision - Criminal History screen (MS 07410.009) and select
+the “Make Decision” link.
+2.
+You must remove the payee from serving any beneficiaries they serve where the payee
+does not meet one of the exceptions as outlined in GN 00502.302B in this section.
+3.
+Develop for a new payee by following the steps in GN 00502.000 Determining the Need for, Developing and Selecting a Representative Payee.

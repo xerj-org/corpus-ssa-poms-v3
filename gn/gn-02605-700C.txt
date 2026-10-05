@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02605.700 - ZIP Code Software and Change of Address (COA) Action
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605700 (fetched 2026-10-04)
+
+C. Description of ZIP code
+1. ZIP +4 data
+The ZIP +4 data is the last four digits of a 9-digit ZIP code. ZIP +4 data represent
+United States Postal Service (USPS) sector or segment numbers.
+2. ZIP Delivery Point Code (ZDPC) for bar coding
+The ZDPC consists of two USPS authorized digits representing the last two digits of
+the house or box number and a one-position control character as determined by the
+ZIP +4 Software. These three additional ZIP Code data items are used as part of the
+USPS Bar Code and are not shown as part of the 9-digit ZIP Code in the address. During
+the ZIP Maintenance Operation, the ZDPC automatically generates and annotates to the
+SSR and MBR.
+3. ZIP code master file
+The ZIP Code Master File contains comprehensive ZIP Code information, Post Office
+data, and corresponding ZIP Codes.
+NOTE: This file is based on the USPS database of address information and is used by ZIP
+Code software. This file updates monthly.
+4. ZIP code and ZIP-ADD-ON fields (Title II)
+The ZIP Code and ZIP-ADD-ON fields are on the MBR and house ZIP Code data. Five digits
+are housed in the ZIP Code field and ZIP+4 data are housed in the ZIP-ADD-ON field.
+5. ZIP code flag (Title II and National Change of Address (NCOA) processing)
+The ZIP Code Flag represents a special designation for the ZIP Code. The flag is used
+to override automatic processing action or to indicate why the system is unable to
+derive the ZIP-ADD-ON portion of the ZIP Code. In addition, the ZIP Code Flag is used
+to reflect the status of NCOA processing. For an explanation of ZIP code flag uses,
+refer to GN 02605.710 and SM 00510.115C.
+6. ZIP code flag date (Title II)
+The ZIP Code Flag Date is the month and year the flag applies to the MBR.

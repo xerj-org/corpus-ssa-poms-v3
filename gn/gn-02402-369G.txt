@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02402.369 - Coding Albania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 285 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402369 (fetched 2026-10-04)
+
+G. Example of coding Albania direct deposit
+The customer provides us with the signup form for Albania containing the account number:
+"AL47212110090000000235698741"
+•
+The first two characters of an Albanian IBAN are “AL,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next 8 characters of the IBAN represent the 8-digit bank code.
+•
+The last 16 characters represent the 16-digit account number.
+1. Derive the RTN
+The technician codes the RTN.
+•
+Code the prefix of 71;
+•
+Code the first 6 digits of the 8-digit bank code “212110”;
+•
+Code the 1-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technicians codes the DAN.
+•
+Start with a country code of "S" designated for Albania;
+•
+Code the last 2 digits of the bank code “09”;
+•
+Code the first 14 digits of the 16-digit account number “00000002356987”
+3. Obtain the following information
+•
+RTN: 712121107
+•
+Checking
+•
+DAN: S0900000002356987
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 712121107
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: S0900000002356987
+•
+CANCEL DIRECT DEPOSIT (Y):
+b. The MBR reflects the following information
+•
+RTN-712121107
+•
+DAN- CS0900000002356987

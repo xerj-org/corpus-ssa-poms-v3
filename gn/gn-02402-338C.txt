@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02402.338 - Coding Mexico Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/03/2024 - Present | TN 278 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402338 (fetched 2026-10-04)
+
+C. Description of Mexico Bank Data
+There are two possibilities for Mexico bank data: the 18-digit CLABE for a regular
+bank account, or the 3-digit bank code plus the 16-digit Debit Card information, totaling
+19 digits.
+The 18-digit CLABE is constructed as follows:
+•
+3-digit ABM Bank Number (#ABM de Banco),
+•
+3-digit Locality (Plaza),
+•
+11-digit Account Number (Número de Cuenta), and
+•
+1-digit Check Digit (Digito Verificador).
+If the beneficiary requests direct deposit to a Debit Card Account (Tarjeta de
+Débito), the necessary information is as follows:
+•
+3-digit ABM Bank Number (#ABM de Banco),
+•
+16-digit Debit Card Number (Tarjeta de Débito). The Debit Card Number is shown on
+the Debit Card.

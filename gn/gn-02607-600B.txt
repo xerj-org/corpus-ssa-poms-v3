@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02607.600 - Developing Prisoner Update Processing System (PUPS) Records and Alerts
+Effective Dates: 05/12/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607600 (fetched 2026-10-04)
+
+B. Developing inmate identity
+1. EVS identity review
+EVS reviews all incoming inmate identity and SSN information and assigns a code to
+the SSN verification to indicate the degree of identity accuracy. When EVS cannot
+verify identity automatically, the Office of Central Operations conducts a manual
+SSN verification. EVS assigns codes of "E" and "F" to the manually verified SSNs.
+For an explanation of each EVS code, see GN 02607.510.
+First, locate the EVS code on the PUPS record or the verification description on the
+PUPS alert. Then, develop for identity based on the EVS code as instructed in GN 02607.600B.3. and GN 02607.600B.4. in this section.
+2. Locating the EVS code
+a. PUPS record
+The PUPS record displays the EVS code as an alpha or numeric character field on the
+Prison Report History (PURS) screen. For information on the PURS screen, see MSOM
+PRISON 003.005.
+b. PUPS alert
+The PUPS alert displays the degree of SSN verification accuracy using the description
+of each EVS code in word format. An example of a PUPS alert is located in GN 02607.975C.
+3. Processing EVS codes V and L
+EVS codes V and L indicate a high degree of identity accuracy and do not require identity
+development before taking a suspension action.
+4. Developing EVS codes 2, 3, 4, A, B, E, and F
+These codes indicate a lower degree of identity accuracy. PUPS may associate these
+records with the wrong beneficiary or recipient, particularly if the reported inmate
+is using a false identity or the identifying data on the report is inaccurate or incomplete.
+Step through the following instructions to verify whether the PUPS record belongs
+to the identified beneficiary or recipient.
+a. Check existing records
+Compare the identity information on the alert with identity information in existing
+records (e.g., the Master Beneficiary Record, Supplemental Security Record, ALPHIDENT,
+NUMIDENT). If the PUPS inmate information belongs to the beneficiary, continue to
+process the alert. If the PUPS inmate information does not belong to the beneficiary
+or recipient, clear the alert per GN 02607.600D.1.
+b. Resolving question of identity
+When you cannot determine whether the PUPS inmate information belongs to the identified
+beneficiary or recipient from existing records, contact the beneficiary, recipient,
+or representative payee to verify identity via a face-to-face contact according to
+GN 00203.003A. For instructions on resolving questions of identity during a face-to-face contact,
+see GN 00203.020.
+c. Contact a third party
+When the beneficiary, recipient, or representative payee cannot provide the data needed
+to verify identity, contact one of the third party sources listed in GN 02607.680 or GN 02607.682 to resolve any identity discrepancies.
+When contacting a confining facility, use the inmate number from the PUPS record as
+a reference rather than the beneficiary’s or recipient’s name. A confining facility’s
+records may not match exactly with the beneficiary’s or recipient’s identity information
+and, therefore, may not be sufficient to resolve the identity discrepancy. However,
+the facility’s records may resolve an identity discrepancy if they establish differences
+in race, sex, or other facts that would confirm that the inmate is not the beneficiary
+or recipient.
+d. BOP alerts
+When the BOP is the source of the alert, follow instructions in GN 02607.790 when needing to contact a third party for verifying identity. Do not contact the
+BOP or any Federal prison.

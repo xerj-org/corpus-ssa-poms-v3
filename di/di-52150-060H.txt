@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 52150.060 - Prorating a Workers’ Compensation/Public Disability Benefit (WC/PDB) Lump Sum Settlement
+Effective Dates: 08/01/2023 - Present | TN 36 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150060 (fetched 2026-10-04)
+
+H. LS case situations requiring special ICF considerations
+There is a continually evolving area of identified system limitations and program
+problems. These cases require special consideration when processing. For a list of
+program limitations and case specific processing instructions, see Interactive Computations Facility (ICF)
+Resource Page for WC/PDB Offset Computations .
+1. Multiple injury or disability cases
+Prorate LS awards for different injuries or disabilities separately. The total amount
+of WC for offset purpose can exceed the State maximum in this situation.
+a. Manual computations
+For offset purposes, add together monthly amounts for any concurrent period. See DI 52170.030 - Manual Proration of a Lump Sum Award.
+b. ICF
+Enter any concurrent injury or disability into ICF as separate claims. The system
+has the capability of processing a maximum of four separate WC/PDB claims at one time.

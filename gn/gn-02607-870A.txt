@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02607.870 - Processing a Resumption Action for an Incorrect Title II Benefit Suspension
+Effective Dates: 10/12/2004 - Present | TN 6 (10-04)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607870 (fetched 2026-10-04)
+
+A. PROCEDURE – FO PROCESSING RESUMPTION OF AN INCORRECT BENEFIT SUSPENSION
+1. FO Instructions for Resuming Benefits for an Incorrect Prisoner/NGRI Suspension
+In some circumstances, we incorrectly suspend an individual's benefits because of
+misidentification of the incarcerated individual or misinformation about the confinement
+period. When we discover the error and must resume the benefits to the suspended individual,
+take the following actions.
+•
+Reinstate benefits via the POS, Prisoner Suspensions and Reinstatement (PRSN) screen
+by selecting option 5 of the Post Entitlement Selection List (PESL) and option Prisoner
+Suspensions and Reinstatements (LAF-S7) on the PEST screen.
+•
+If PUPS is present, PRSN automatically mini-paths to PUPS. Update the PU02 with the
+RELEASED DATE. (TYPE OF ACTION of 5 for REINSTATEMENT is pre-filled.)
+NOTE: Post a RELEASED DATE equal to the DATE OF CONFINEMENT that is currently on the PUPS
+record.
+•
+Press ENTER on PU02, you will return to the POS, PRSN screen. Complete any overpayment
+fields that are present. (See MSOM COMMON 005.027 for additional information when you have an existing BOUD or Partial Recovery Field
+on the MBR for the beneficiary.) Press ENTER to finally trigger the reinstatement
+action. You will receive a message indicating whether a POS processing exclusion exists
+on your action or if the case processed.
+•
+Explain on the REMARKS screen that the case is an erroneous suspension and briefly
+state the circumstances of the case and why we need to reinstate the benefits.
+2. Effective Date for the Resumption of Benefits
+The resumption action begins benefits effective with the month of suspension.

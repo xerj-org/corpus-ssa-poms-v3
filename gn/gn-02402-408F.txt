@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - GN 02402.408 - Coding Vietnam Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402408 (fetched 2026-10-04)
+
+F. Policy to code bank data for Vietnam
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us.
+When you use our system to establish or change IDD bank data for Vietnam (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)), you
+must go to ITS.gov to enter:
+•
+account ownership;
+•
+account type;
+•
+account number;
+•
+eight digit CITAD number enter in the Country Bank Info field;
+•
+bank code (only required for Agribank);
+•
+bank address - NOTE: Enter the bank address in this format: VN/Town/Name. Start with the ISO country code for Vietnam (VN);
+•
+beneficiary address - NOTE: Enter the beneficiary's address in this format: VN/Town/Name. Start with the ISO country code for Vietnam (VN);
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+NOTE: Technicians must annotate the entire middle name instead of the initial in the payee
+legend field on the MBR;
+•
+payee indicator.
+1. Enter the bank code into ITS.gov
+Enter an 8-digit bank code in the Country Bank Info field for Agribank).
+If the bank code is either 01204001 (Agribank Main Office) or 01204009 (Agribank Payment
+Centre), you must enter an indirect bank code after entering the direct bank code
+in the Country Bank Info field.
+Beneficiaries must supply the indirect bank code of the Agribank branch at which they
+have an account (Example: 0120400186754300).
+2. Process initial award
+Prior to processing an initial award, you must update ITS.gov with the bank account information to ensure that the beneficiary receives his or
+her payment.
+If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to us.
+3. Add or update bank data using our systems
+When you add or update IDD bank data using our system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the chart in this section when you process within four business days of the current
+operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP. REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a VND account in Vietnam? If no, STOP. REASON:
+Beneficiaries in Vietnam can only receiveIDD payments in VND accounts.
+If yes, go to step 4.
+4
+The RTN is 680000145 RTN for Vietnam. It contains the:
+–
+Multi-country prefix 68 for Vietnam IDD is
+–
+U.S. check digit code 5 for all IDD accounts in Vietnam (at the end of the RTN).
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+–
+S for savings, or
+–
+C for checking.
+If the beneficiary does not indicate an account type, use a C for checking account.
+6
+To code the Depositor Account Number (DAN) for Vietnam, code:
+–
+W designated for Vietnam
+–
+the 14-digit account number
+7
+You must take action on the same business day to enter all the information into ITS.gov as listed in the introduction of GN 02402.408F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+FRBKC rejects the payment and returns it to us when we do not send all required information.

@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - DI 81010.080 - Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS)
+Effective Dates: 04/27/2026 - Present | TN 91 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010080 (fetched 2026-10-04)
+
+B. Flags
+Flags are added by users to alert other components of special case handling situations
+(e.g., TERI, AIDS case). For a complete list of Flags that can be added to a CEF,
+see Electronic
+Folder Flags List.
+NOTE: See DI 81010.080B.1.c. for additional instructions for TERI Flags.
+1. Creating Flags
+Users can create flags in either EDCS or eView (DDS users can create flags in their
+case processing systems). Multiple flags may exist, but only one flag of each type
+(e.g., TERI) can exist for a folder. Each flag consists of the flag type and optional
+text of up to 250 characters. The following four flag Special types do not display
+identifying text in the title:
+•
+Special-S (Suicide Threat);
+•
+Special-H (Homicidal/Potential Violent);
+•
+Special-F (Possible Fraud or Similar Fault); and
+•
+Special-A (AIDS Case).
+a. eView
+To create a flag in eView:
+•
+Select the Edit (Lock Case) field on the Secondary Title Bar (see Title Bars - DI 81005.035);
+•
+Select the Add Flag button; and
+•
+Select the appropriate flag for the case on the Flags Information page;
+•
+Add any appropriate text;
+•
+Select OK;
+•
+Select the Unlock Case field when action is complete.
+b. EDCS
+To create a flag in EDCS:
+•
+Select Flags under the Flags/Messages folder from the menu on the left side of the
+screen;
+•
+Select the Add Flag button; and
+•
+Select the appropriate flag for the case on the Flags Information page and add any
+appropriate text;
+•
+Add remarks if appropriate;
+•
+Click OK
+c. TERI Flag Descriptors
+Additional criteria required for TERI flags:
+Use the Flag Description box to indicate the specific criteria (condition/situation)
+used to identify the case for TERI processing per DI 11005.601C.
+2. Viewing a Flag
+After adding a flag to a case, view it in EDCS and eView. The Flags page displays
+the following information:
+•
+Flag type;
+•
+Date it was added; and
+•
+Office type and code of the component adding the flag.
+•
+Keyed information added when flag was created
+To view the flag, select the description link from the Flags screen.
+a. eView
+In eView:
+•
+A maximum of two flags are displayed on the Secondary Title Bar. If more than two
+flags exist, the word More displays after the title of the second flag.
+•
+Flags considered to be priority are displayed first, they are:
+Special S
+Special H
+Special F
+Special A
+TERI Case
+Military Casualty
+100% Perm & Total
+HIT
+HALE Case
+b. EDCS
+EDCS displays priority flags first. For a list of priority flags, see DI 81010.080B.2.a.
+3. Deleting Flags
+Flags:
+•
+Are not automatically deleted at case closure.
+•
+Exist for the life of the case, including appeals unless manually deleted.
+•
+Can be deleted by all EDCS and eView users in eView.
+•
+Must be deleted if they are no longer appropriate.
+•
+Should only be deleted if they are incorrect.
+To delete a flag:
+•
+Select View/Details Edit next to the Flags field;
+•
+Choose the flag that you would like to delete from the Flag Type box;
+•
+Select Delete.

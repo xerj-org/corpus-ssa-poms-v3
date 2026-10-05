@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - GN 02607.410 - SSA’s Prisoner Systems and Matching Operation
+Effective Dates: 06/19/2015 - Present | TN 94 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607410 (fetched 2026-10-04)
+
+A. SSA's prisoner systems
+SSA built several unique systems to receive, process, control, and monitor inmate
+information and to suspend benefits through an automated matching operation. These
+unique systems are:
+1. Incarceration Reports Control System (IRCS)
+The IRCS is a series of automated screens and queries that record and display information
+about all federal, State, and local correctional and mental institutions. These institutions
+include both participating and non-participating inmate reporting institutions.
+IRCS maintains information about:
+•
+Correctional institutions -- Including the institution’s name and contact information;
+•
+Reporting entities -- Including the reporter's name, contact information, type of media used to send
+data to SSA, and data about each report;
+•
+Reporting agreements -- Including the reporter’s name, type of agreement, expiration date of agreement,
+reporting frequency, and reporting media used;
+•
+Incentive payment agreements -- Including incentive facility’s payee name, bank data, contact information, and
+employer identification number; and
+•
+Incentive payments -- Including total incentive payment amount, total number of inmates involved, and
+incentive payment date.
+For more information on the IRCS system and the information it maintains, see GN 02607.420 and MSOM PRISON 002.001.
+2. Prisoner Update Processing System (PUPS)
+The PUPS system:
+•
+maintains reported inmate information two years for non-beneficiaries and non-recipients
+and indefinitely for beneficiaries and recipients;
+•
+generates and controls prisoner alerts;
+•
+suspends Title II benefits and Title XVI payments when possible. For more information
+on when PUPS can process a suspension, see GN 02607.700 and GN 02607.705;
+•
+calculates the incentive payment for certain beneficiaries and recipients suspended
+because of inmate reports, calculates the total incentive payment due a reporter,
+pays the reporter, and creates the notice of incentive payment to the reporter; and
+•
+records benefit and recipient reinstatements.
+For a further description of the PUPS system, see MSOM PRISON 003.001.
+3. Prisoner Tracking Management Information System (PTMI)
+SSA manages and monitors the PUPS pending workloads through the PTMI. The PTMI system maintains all PUPS pending records and lists them by the servicing
+field office (FO) at the time PUPS creates the records. Every Monday, PTMI generates
+a listing to each FO that has pending PUPS records. SSA management personnel, service
+representatives, claims representatives, and PSC personnel may access the PTMI site
+through the Enterprise MI
+Portal.
+4. Unverified Prisoner System (UPS)
+UPS facilitates Social Security Number (SSN) verification of reported inmates who
+fail to verify through the automated Enumeration Verification System (EVS). When EVS
+cannot match an inmate’s identity, it sends the unverified SSN to the Office of Central
+Operations (OCO) for manual verification. When locating a correct SSN, the OCO technician
+adds the SSN to UPS, which reenters the SSN into the matching operation. UPS also
+stores the SSN for possible future use. If the inmate later submits the same name
+and incorrect SSN to the authorities, UPS will automatically notify EVS of the correct
+name and SSN. For additional information on UPS, see MSOM PRISON 004.001.

@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 00306.110 - Section 216(h)(3) – Federal Standard for a Parent-Child Relationship Based on Court Decree or Court Order for Support
+Effective Dates: 06/11/2026 - Present | TN 145 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200306110 (fetched 2026-10-04)
+
+D. Child's biological relationship to the NH
+Do not raise the issue of the child's biological relationship to the NH if the Numident:
+•
+includes an iteration that shows a "6" in the form code (FMC) field of the INTERNAL
+line, indicating an Enumeration at Birth (EAB) record;
+•
+shows the NH's name in the mother's name at birth (MNA) or father's name (FNA) field
+of the EAB record, setting aside minor discrepancies as described in GN 00203.020A.3
+and taking into consideration any other names the alleged parent may have used;
+•
+does not show a name other than the NH's in the same field (MNA or FNA) in iterations
+following EAB; and
+•
+if the NH is deceased, shows the EAB record was established prior to the NH's death.
+If there is no Numident record meeting this criteria, obtain a full birth certificate
+(BC), i.e., one with spaces for parents' names. If the full BC shows the NH as the
+child's parent or the space for the parent's name is blank, do not raise the issue
+of biological parentage unless information in the file casts some doubt on the issue
+or there is any other reason to doubt the biological relationship (see GN 00306.105E).
+If the full BC shows someone other than the NH as the child's parent or if a BC without
+spaces for parents' names is the only BC that can be obtained, e.g. because the State
+does not issue full BCs, document this on the MCS RPOC screen and follow the guidelines
+in GN 00306.125 to develop biological relationship.

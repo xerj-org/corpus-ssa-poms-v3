@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - GN 02406.310 - Request for Reconsideration of DCN Overpayment or Forgery Determination
+Effective Dates: 05/10/2024 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406310 (fetched 2026-10-04)
+
+I. Recording reconsideration/appeal due process events
+Although the MBR and SSR indicate if a DCN has occurred in the preceding 2 years,
+neither Title II nor Title XVI has a dedicated query/field to indicate that a forgery
+determination has been requested, decided, appealed, denied, etc. The presence of
+this information is important to determining misuse/a pattern of reporting nonreceipt
+as well as providing a diary of due process events. In order to supplement data carried
+on the MBR/SSR, enter the following information in remarks or the Special Message
+Field as follows.
+•
+Claimant protests the overpayment resulting from the DCN and the date of the check(s)
+involved (Example: “MM/DD/YYYY Protest O/P of 11/03/97 CK”);
+•
+Date the FS-1133 is sent to Treasury for a forgery determination (if known) (Example:
+“1133 Treasury MM/DD/YYYY”);
+•
+Treasury's decision on the forgery claim obtained from the claims disposition notice
+(Example: “MM/DD/YYYY No Forgery on 11/03/97 CK”);
+•
+Forgery claim denied and claimant protests the denial (Example: “MM/DD/YYYY protest
+Treasury denial”);
+•
+Beneficiary/recipient is true DCN abuser. Add the phrase, “DCN Abuse - Input as C-stop
+until mm/yy” in the “RMKS” field on the SSR and/or “SPMSG” field on the MBR. If additional
+DCN abuse occurs, the date should be changed to reflect the most recent occurrence
+of the abuse.
+Remember that a Title II protest can be recorded, and overpayment recovery ceased
+(if appropriate) as soon as the objection to the DCN overpayment is made. The Title
+XVI protest should not be recorded, nor overpayment recovery ceased until the signed
+SSA-561 is received.

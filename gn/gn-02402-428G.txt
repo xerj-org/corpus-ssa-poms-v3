@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.428 - Coding Sudan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/25/2023 - Present | TN 231 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402428 (fetched 2026-10-04)
+
+G. References
+The customer provides us with a signup form for Sudan containing the account number:
+12345678901122334455667788990
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 730000095
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Sudan
+•
+Start with the country code of “H” designated for Sudan; and
+•
+Code the first 16 digits of the 29-digit Customer Account Number “1234567890112233”
+a. You must obtain this information
+•
+RTN: 730000095
+•
+Checking
+•
+DAN: H1234567890112233
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000095
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN: 730000095
+•
+DAN: CH1234567890112233

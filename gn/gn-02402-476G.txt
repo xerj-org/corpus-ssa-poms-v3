@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02402.476 - Coding Kuwait Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/12/2024 - Present | TN 280 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402476 (fetched 2026-10-04)
+
+G. Example of coding Kuwait direct deposit
+The customer provides us with a signup form for Kuwait containing the account number:KW81CBKU0000000000001234560101.
+•
+The first character of IBAN is “KW,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The next 4 characters of the IBAN represents the bank code.
+•
+The last 22 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 750000046
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “G” designated for Kuwait; and
+•
+Code the 16 digits of the 22-digit Account Number “0000000000001234”
+3. Obtain the following information
+•
+RTN: 750000046
+•
+Checking
+•
+DAN: G0000000000001234
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000046 • ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: G0000000000001234
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 750000046
+•
+DAN CG0000000000001234

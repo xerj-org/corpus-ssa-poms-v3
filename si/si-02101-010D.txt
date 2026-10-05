@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - SI 02101.010 - Past-Due Benefits Payable - Individual Alive Under Age 18 with Representative Payee - Dedicated Account Required
+Effective Dates: 04/13/2026 - Present | TN 40 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502101010 (fetched 2026-10-04)
+
+D. Examples
+1. Individual under age 18 with payee - past-due benefits payable - dedicated account
+required
+June is the payee for their child, Jake, a 7-year old who has a disability. The SSI
+claim was filed on January 3, 2023. On October 22, 2024, the FO receives a favorable
+disability determination from DDS that the child has a disability as of January 3,
+2023.
+The FO knows that the child's past-due benefit will exceed 6 times the adjusted FBR
+plus any federally administered optional State supplements ($914 + 75 State supplement
+for 2023 and $943 +$75 State supplement for 2024). The FO conducts the prepayment
+review ($21,059 in past-due benefits for February 2023 – October 2024), completes
+the UOUP screen through Direct SSR Update, and enters the appropriate selection.
+The system holds the past-due benefits, sets the appropriate UPV code and diary, and
+issues an alert, if necessary. No IAR or representative fees are involved. The automated
+notice is released to the payee explaining the requirements of a dedicated account.
+After receiving the dedicated account notice, the payee visits the FO with the required
+financial institution information. The FO has the payee sign and date the SSA-552,
+Dedicated Account Use of Funds Statement, explaining the limited expenditures authorized
+from this account.
+The FO transmits the financial institution information on the UPOA screen and issues
+the first installment payment of $3,054 by A-OTP into the account. This resolves the
+EA diary. The system establishes an IN diary to indicate the next installment payment
+is due.
+Two months prior to the second installment payment, June visits the FO to request
+$1,500 to purchase special equipment that is related to Jake’s impairment. The technician
+documents June’s request for the additional underpayment installment amount on a Report
+of Contact and issues an A-OTP to June to purchase the special equipment.
+2. An individual with a disability attains age 18 prior to the determination of eligibility
+for past-due benefits - dedicated account is not required
+Jean is payee for their child, Ross. Jean filed an SSI claim for Ross on February
+3, 2024. On November 27, 2024, the FO receives a favorable DDS disability determination
+that Ross has a disability as of February 3, 2024. Ross attained age 18 on September
+2, 2024.
+The FO determines that Ross needs a payee. Although the past-due benefits exceed 6
+times the FBR + OSS, because Ross attained age 18 prior to SSA issuing a determination
+they are eligible for past-due benefits, the past-due benefits are not subject to
+the dedicated account requirements, but we must pay them in installments.
+Therefore, after prepayment review, if the underpayment is $15,000 or more, the FO
+adjudicates the case to pay and the system releases the past-due benefits in installment
+payments to the representative payee, along with an award notice.
+3. IAR involved - dedicated account not required
+The FO receives a favorable disability determination from the DDS on November 25,
+2024 that Matt, who is ten years old, has a disability as of February 11, 2024. Matt's
+parent is selected as the payee.
+Although there is an IAR, the FO believes the past-due benefits may still exceed 6
+times the FBR + OSS, after we have paid the State. After we receive the SSA-L8125-F6
+from the State and issue an A-OTP for the IAR, the past-due benefits no longer exceed
+6 times the FBR + OSS. Therefore, a dedicated account is not required. If installments
+apply, the system releases the first installment to the payee and sets the UPV to
+‘2’ to control for the next installment.

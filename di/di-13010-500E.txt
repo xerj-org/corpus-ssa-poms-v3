@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+E. How to query and verify earnings
+Review the QERN and VERN screens to obtain more in-depth information on work activity
+performed during a period of work activity, and to avoid edits when processing work
+CDRs in eWork.
+1.
+Select #32, DISABILITY CONTROL FILE from the MAIN, SSA Menu. The next screen is the
+MCDR screen.
+2.
+Complete the MCDR screen, CDR SELECTION MENU, Select “12” or “13” as applicable, QUERY
+EARNINGS or VERIFY EARNINGS. The next screen is the Entitlement Selection (ESEL) screen.
+3.
+Select the claim you are querying or verifying. Review the summary of the selected
+entitlement on the next screen, the Entitlement Summary (ESUM) screen.
+4.
+The next screen is the Query Earnings (QERN) screen.
+5.
+If the QERN does not provide the amount of detailed information needed, enter Y in
+the MORE DETAIL field to request additional earnings information.
+•
+This will bring the VERN screen into the path. You can only move from the QERN to
+the VERN in this manner in the QUERY mode.
+•
+The VERN provides a separate screen for each month of earnings listed on the QERN
+screen.
+•
+The VERN includes information on the total amount of earnings not counted, the type
+of earnings not counted for earnings purposes, and the TWP completion date, if entered.
+6.
+The PAGE field lists the total number of monthly VERN screens available.
+7.
+The TWP COMPLETION DATE field indicates the last month of the TWP.
+8.
+The TOTAL fields provide the total earnings amounts for each title program (Title
+II and or Title XVI), as well as separate gross earnings and net earnings totals.
+9.
+The AMOUNT NOT COUNTED indicates the amount deducted from the gross earnings amount
+reported for the earnings month shown on the screen.
+10.
+The TYPE field indicates the type of exclusion (AMOUNT NOT COUNTED) deducted from
+gross earnings. The possible codes are:
+•
+WE, Work Expenses (Impairment-Related Work Expenses (IRWE) Blind Work Expenses (BWE),
+etc)
+•
+SB, Subsidy Exclusion (Title II only)
+•
+SC, Special Conditions (Title II only)
+•
+PA, Pass amount (Title XVI only)
+•
+SI, Student Earned Income (Title XVI only)

@@ -1,0 +1,84 @@
+SSA Program Operations Manual System (POMS) - SI 01210.610 - Special Blind Income Disregards - Recipient With Nonblind or <Quote>Nonconverted</Quote> Eligible Spouse
+Effective Dates: 11/06/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210610 (fetched 2026-10-04)
+
+C. Procedure
+1. Example
+A blind grandfathered recipient living in State X marries a nonblind or “nonconverted” SSI recipient. The blind recipient has the following income:
+•
+$220.00 wages
+•
+$15.00 BWE under both Federal and State plan rules
+•
+$135.00 RSDI benefit
+The spouse has $110.00 wages and no work expenses.
+The State plan income disregards used in the chart below are typical. Actual disregards
+vary by State.
+2. Chart: Determining CI
+STEP
+1
+Compute BCI for blind receipient only
+Apply the applicable State plan income disregards (SI 01210.500) to the income of the blind recipient only.
+Unearned Income of Blind Recipient
+$135.00   RSDI
+-  8.00   two $4 RSDI passalongs
+$127.00
+-   7.50   general disregard
+$119.50  countable unearned income
+​
+​
+​
+Earned Income of Blind Recipient
+$220.00  wages
+-  85.00   earned income disregard
+$135.00
+÷   2   disregard of one-half of remainder
+$ 67.50
+- 15.00   BWE
+$ 52.50  countable earned income
+​
+​
+​
+BCI of Blind Recipient Only
+$119.50  countable unearned income
++52.50   countable earned income
+$172.00  BCI
+2
+Compute BCI for couple
+Add the spouse's gross income to the step 1 result. Do not apply disregards.
+$ 172.00  BCI of blind recipient only
++110.00   spouse's income
+$ 282.00  BCI for couple
+3
+Compute CI/FR for couple
+Apply the SSI exclusions to the couple's income.
+Unearned Income
+$135.00  RSDI
+- 20.00   general income exclusion
+$115.00  countable unearned income
+​
+​
+The system performs this computation, except for cases requiring a manual computation.
+Earned Income
+$330.00  wages (both spouses)
+- 65.00   earned income exclusion
+$265.00
+÷   2   exclusion of one-half of remainder
+$132.50
+- 15.00   BWE
+$117.50  earned income
+​
+​
+​
+CI/FR
+$ 115.00  countable unearned income
++ 117.50   countable earned income
+$ 232.50  CI/FR
+4
+Determine CI
+Compare BCI from step 2 with CI/FR from step 3. Use the lower amount of income as CI.
+$232.50 CI (CI/FR from step 3)
+​
+​
+After gross income and BCI have been input, the system performs this comparison, except
+for cases in force due.

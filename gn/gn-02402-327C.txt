@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.327 - Coding Maltese Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402327 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processor bank in Malta will have a prefix of "71" at the beginning of the Routing
+Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “J” assigned for Malta.

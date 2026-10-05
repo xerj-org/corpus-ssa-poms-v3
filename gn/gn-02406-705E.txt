@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 02406.705 - Determination for Mass Loss of Checks
+Effective Dates: 06/25/2024 - Present | TN 131 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406705 (fetched 2026-10-04)
+
+E. Nonreceipt reports and inputs for Title II and Title XVI
+A declaration of mass loss affects FO, TSC, and PC processing of nonreceipt reports.
+Technicians must follow the instructions below when DFPC authorizes OAIPO to input
+mass loss non-receipts.
+1. Title XVI mass loss nonreceipt inputs
+The FO or TSC must use only UPER (see MS 00303.021) to make Title XVI mass loss nonreceipt
+inputs when:
+•
+USPS cannot deliver the checks and
+•
+SSAlerts indicates the required Operational mass loss nonreceipt inputs (i.e., theft
+or destruction of a mailbag or mail truck).
+The FO or TSC inputs the mass loss nonreceipt using #1 on the UPER screen. The UPER
+screen is only available on check-delivery day (e.g., the 1st of the month) and the
+next day (the 2nd).
+Do not use the UPER screen for regular nonreceipt and delay in delivery (PDAS) situations
+(i.e., when a group of checks has not arrived at designated postal stops for sorting
+or delivery and postal authorities are searching for the checks). These situations
+require a 3-day mailing waiting period so that the checks may arrive before the nonreceipt
+is input.
+NOTE:
+Mailing delivery days are Monday through Saturday. Exclude Sundays and postal holidays.
+See How to Process Mass Loss Cases in SM 01315.185 and Early Mission Check Report
+(UPER) in, MS 00303.021.
+2. Title II mass-loss nonreceipt inputs
+When a beneficiary or recipient reports nonreceipt of a Title II check to an FO, TSC
+or PSC in a designated mass loss situation, input a Title II mass loss nonreceipt,
+using NONRECEIPT TYPE 3 (MASS LOSS). This action sends a B-stop to Treasury and applies
+code A to the Payment History Update System (PHUS).
+Do not consider previous double-check negotiations in mass-loss situations. See Direct
+Input of a Nonreceipt, Photocopy or Stop Payment Request in, SM 00609.001 and Nonreceipt
+2 (PEN2) in MS 06303.029.
+3. Title II and Title XVI Central Office (CO) Mass Loss Systems Input for Replacement
+Check
+An indication will appear on SSAlerts when CO invokes the Central Office Mass Loss
+Systems Input for Replacement Check procedures for Title II or Title XVI. When this
+occurs, nonreceipt reports do not require an input. In this scenario, CO has made
+nonreceipt reports to Treasury for all affected beneficiaries and recipients in the
+area without waiting for individual reports from the affected persons.
+EXCEPTIONS: Record a mass-loss nonreceipt input for a beneficiary or recipient after the CO has
+invoked the Central Office Mass Loss Systems Input for Replacement Check procedures
+when:
+•
+The PHUS/Treasury Status Query shows no nonreceipt action 4 days after the check delivery
+date (See Treasury Status Query (UPTQ) in MS 00303.020 .); or
+•
+The zip code on the beneficiary or recipient’s record is incorrect and the person
+lives in an area affected by the mass loss.
+If there is more than one Beneficiary Identification Code (BIC) involved for a Title
+II record when CO invokes the Central Office Mass Loss Systems Input for Replacement
+Check procedures, the Return Check Action (REACT) program sends a nonreceipt report
+for one BIC per day to Treasury, one by one in priority order. For example, if the
+household contains a BIC A and a BIC B receiving checks (i.e., the record contains
+2 BICs), REACT sends the nonreceipt for BIC A on the first day and the nonreceipt
+for BIC B the following workday.

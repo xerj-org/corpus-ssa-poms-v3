@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02406.150 - When to Request Payment after Status C-Stop - Normal and Dire Need Situations
+Effective Dates: 04/01/2008 - Present | TN 129 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406150 (fetched 2026-10-04)
+
+A. Policy for requesting payment after status for C-STOP
+When the beneficiary, recipient, or representative payee timely reports nonreceipt
+of a check, SSA will usually replace the payment with a courtesy disbursement check
+without waiting for the Department of the Treasury (Treasury) to determine the status
+of the original payment. With a C-Stop code, SSA instructs Treasury to issue a replacement
+check only after Treasury determines the status of the original check (i.e., if the check was cashed). SSA inputs a C-Stop when the beneficiary, recipient, or
+representative payee:
+•
+is unsure if they received a payment; or
+•
+has a history of abusing the nonreceipt reporting process.
+The following policy explains the situations when payment after status (C-Stop) may
+apply.
+1. Reporter is uncertain if they received payment
+Input a C-Stop in the following scenarios when the beneficiary, recipient, or representative
+payee:
+•
+is “uncertain” about having received several checks during the past year.
+•
+cannot remember receiving a check for a date during the past year.
+•
+requests our assistance to confirm payment of their check(s) without alleging nonreceipt.
+2. SSA is aware of Double Check Negotiation (DCN) abuse by beneficiary, recipient, or
+representative payee
+Technicians may use the C-Stop if, within the 2 years immediately preceding the claim
+for nonreceipt, a beneficiary, recipient, or representative payee :
+a.
+Had a forgery claim denied and it is not under appeal; or
+b.
+Negotiated both an original and a replacement check and has not claimed that either
+endorsement was forged; or
+c.
+The following remark appears in the “RMKS” field on the Supplemental Security Record
+(SSR) or “SPMSG” field on the Master Beneficiary Record (MBR): “DCN Abuse - Input
+as C-Stop through mm/yyyy.”  Additional DCN abuse should not occur during this period;
+however, if it does, change the date to reflect the new 24-month period.
+IMPORTANT: For further information on how to identify DCN abuse see GN 02406.150B.For procedures when dire need is alleged in this situation, see GN 02406.150C.
+Example of how to process a DCN situation where SSA is aware that the
+person
+has misused the reporting system:
+A beneficiary, recipient, or representative payee incurs a DCN in July 2024. Because
+they are known to abuse the DCN system, enter the warning statement in Remarks/Special
+Message field as, “DCN Abuse - Input as C-Stop through July 2026,". Any nonreceipt
+allegations made from July 2024 through July 2026 will be input as a C-Stop; beginning
+in August 2026, allegations can be input as a B-Stop.

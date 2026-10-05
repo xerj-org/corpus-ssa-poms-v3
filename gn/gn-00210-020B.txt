@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 00210.020 - Processing Instructions for Title II Same-Sex Relationship Claims, Reconsiderations, and Hearing Requests
+Effective Dates: 10/05/2017 - Present | TN 69 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200210020 (fetched 2026-10-04)
+
+B. Processing a reconsideration or hearing request
+Load the reconsideration or hearing request in MCS.
+Enter the code on the DW01 that corresponds to the type of same-sex relationship alleged
+by the claimant at the time of application.
+Enter the first four positions of the unit type code as listed:
+•
+Marriage (including common law marriage), enter code 626M
+•
+Civil union, enter code 626C
+•
+Domestic partnership, enter code 626D
+•
+Reciprocal beneficiary, enter code 626R
+•
+Other same-sex relationship, enter code 626O
+Add the unit code as an “Issue” on the DW01 screen and enter “See RPOC” on the “Remarks”
+line.
+Enter the following information on the Report of Contact (RPOC) screen:
+•
+Pertinent information about the reconsideration
+•
+POMS references used to make the prior determination
+Fax newly associated proofs into the Non-Disability Repository for Evidentiary Documents
+(NDRED) and the Evidence (EVID) screen in Shared Processes.
+IMPORTANT: Retain the unit code, regardless of the determination or changes made in the adjudicative
+level of the case.

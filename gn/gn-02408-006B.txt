@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02408.006 - Title II and Title XVI Check Operations Re-Engineering Effort (CORE)
+Effective Dates: 09/10/2026 - Present | TN 95 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408006 (fetched 2026-10-04)
+
+B. CORE process for checks cashed after death
+The CORE process acts as a true stop-payment and enables the KFRB to deny payment
+to a financial institution (FI) that cashes a check after the death of the beneficiary,
+recipient, or representative payee.
+The Bureau of the Fiscal Service (Fiscal Service) sends a daily file containing death
+information to the KFRB when we advise (Fiscal Service) that the payee is deceased
+(through the death input and subsequent E-stops generated, see GN 02408.010 Automated E-Stop Process for Check/EFT Payments) and is not due any payments issued after death.
+The information is matched against checks sent to the KFRB for payment.
+When there is a match, the check is stamped, "Not Negotiable, Payee Deceased/Not Entitled,
+QuestionsContact Authorizing Agency."
+DT cancels the check and returns it to the FI unpaid.
+DT then returns a credit for the amount of the check to SSA.
+FI receives instructions to give the non-negotiable check back to the individual who
+cashed it and resolve any problems resulted from the transaction with that individual.
+The matter is now between the FI and the person who cashed the check, not SSA.
+FI may take additional steps to recover the funds, such as debiting the person's account.
+EXCEPTION: If a check issued after the death of a beneficiary or recipient is cashed before
+SSA is aware of the death (late notification of death), the CORE process cannot prevent
+these checks from being paid.
+NOTE: When an E-stop is generated and the payment after death is not cashed, SSA will receive
+a credit from Treasury. If a returned check for a payment issued after death is received
+and benefits are suspended, the returned-check amount will be placed on the Special
+Payment Amount (SPA) line of the Master Beneficiary Record (MBR). Treasury will no
+longer accept a check issued after death from the FI, and SSA would not receive a
+returned check from a Treasury credit.

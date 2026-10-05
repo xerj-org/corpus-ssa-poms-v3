@@ -1,0 +1,121 @@
+SSA Program Operations Manual System (POMS) - SI 00870.025 - Documenting and Reviewing a Plan to Achieve Self-Support (PASS)
+Effective Dates: 01/02/2025 - Present | TN 52 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500870025 (fetched 2026-10-04)
+
+A. PASS review requirements
+1. Discuss PASS with the individual
+The Plan to Achieve Self-Support (PASS) Specialist should contact the individual within
+30 days after receiving the PASS application. Discuss the application even if you
+have not reviewed it. Provide an overview of the PASS process: how it works, what
+the Social Security Administration (SSA) will do and what the program expects of individuals.
+Emphasize adherence to the PASS savings and spending schedule and reaching the plan's
+milestones. If the individual wishes to pursue the PASS, follow the instructions in
+this section. If the individual chooses not to pursue the PASS, document the file
+and send a notice per SI 00870.040.
+2. Review the PASS
+The PASS Specialist should use discretion and best judgment to support the allowance
+of a PASS plan. Review the PASS as soon as possible. Any delay can result in loss
+of a job or training opportunity. While reviewing the SSA-545-BK, ensure that the
+applicant answered all relevant questions and signed all the forms and releases, where
+appropriate. Determine whether all elements of a PASS are present and addressed per
+SI 00870.006.
+NOTE: The PASS Specialist must document all PASS applications and decisions using
+the PASS Control and Information System
+(CIS).
+3. Modify the PASS
+a.
+Policy for modifying the proposed plan
+If modifying the proposed plan could result in a favorable decision, offer the individual
+an opportunity to do so before disapproving a PASS. For modifications to an active
+PASS, see SI 00870.050.
+b.
+Procedure for modifying a PASS
+When offering an individual the opportunity to modify a PASS, follow the procedures
+and take the following steps:
+1.
+Identify any unresolved issue in the proposed plan as submitted per SI 00870.006.
+2.
+Advise the individual, payee, or representative and agency of the need to modify the
+plan. Obtain a signed authorization before speaking with someone other than the individual
+or payee regarding modifications to the plan. Mail out the proposed revision for the
+individual's signature and document the file.
+3.
+If the individual makes the requested changes, determine the start month per SI 00870.007.
+4.
+If the individual does not respond within 15 days, send a follow up request allowing
+15 additional days to provide a response.
+5.
+If the individual or agency responds by asking for additional time, follow up accordingly.
+6.
+If the individual neither modifies the plan nor requests additional time, make a systems
+input and issue a notice per SI 00870.040.
+7.
+Document all contacts in file and retain as plan addenda per SI 00870.025E in this section.
+4. Determine the starting month
+Determine the starting month per SI 00870.007.
+5. Determine the exclusion
+Compute the income and resource exclusion as follows:
+•
+Determine the total estimated PASS expenses. Compute this amount based on SSA-545-BK
+(section D.1) and contact with the individual, if needed.
+•
+Subtract from this total the value of current resources to be used for the PASS. The
+remainder is the amount that must be paid with income that will be excluded under
+the PASS. Derive the current resources from SSA-545-BK (sections D.2 and E.1) and
+contact with the individual, if needed.
+•
+Determine the income exclusion that is most advantageous to the individual, considering
+countable income (including any known Social Security Disability Insurance (SSDI)
+cost of living adjustment (COLA), interest on excluded resources, etc.), fluctuations
+in income (seasonal or otherwise), and the schedule of planned expenditures.
+NOTE: If SSDI benefits or Retirement, Survivor Insurance (RSI) benefits based on a disability
+are excluded, you may estimate when they cease due to substantial gainful activity
+(SGA). Check the Trial Work Period (TWP) field in the Disability Control File (DCF).
+Be sensitive to the need to amend a PASS due to changes in expenditures or income
+(including COLAs), see SI 00870.050.
+•
+Determine the highest amount of excluded resources expected to accumulate in any month
+prior to the first progress review. This is the amount of resources to be excluded
+under the PASS until it is amended, extended, reviewed, terminated, or completed.
+6. Making the systems input
+a. PASS approved
+If the individual is receiving Supplemental Security Income (SSI), follow the instructions
+in SM 01005.170 and SM 01305.105.
+Input in the Supplemental Security Income Record (SSR) EN field as type “D” income:
+•
+the amount of income to be excluded (earned and unearned); or
+•
+$0.01 (1 cent) with a “C” frequency code when only resources are being excluded or
+for an active PASS with no current income exclusions.
+If an SSI application is pending, advise the field office (FO) of the appropriate
+inputs. For instructions on entering PASS information in the SSI Claims System, see
+MS 08114.067.
+b. PASS not approved
+Input type “D” income of $0.01 (1 cent) with an “N” frequency code for the month the
+denial notice is dated.
+7. Issuing notices
+Send a manual notice of approval or disapproval per SI 00870.040.
+8. Scheduling reviews
+a. Progress checks
+Schedule a progress check within 30 to 60 days of approval, or the first milestone,
+if earlier. Usually, a brief telephone call can confirm the participant is following
+the plan steps and does not have questions. Set up a schedule of subsequent progress
+checks between progress reviews based on the circumstances of each PASS. PASS participants
+frequently encounter problems related to saving PASS funds as agreed, retaining proof
+of expenditures, and handling unanticipated expenses shortly after being approved,
+see SI 00870.055.
+b. Progress reviews
+Schedule progress reviews based on the following:
+•
+time allowed ends for a goal of “Vocational Rehabilitation (VR) evaluation;”
+•
+critical milestones;
+•
+six-month intervals during which funds will be accumulated for PASS expenses but not
+disbursed;
+•
+when the individual files a self-employment tax return;
+•
+when achievement of the work goal is expected; and
+•
+any other factor you consider appropriate.

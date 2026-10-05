@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 01703.230 - Totalization Status Codes (TSC)
+Effective Dates: 01/27/2017 - Present | TN 3 (02-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703230 (fetched 2026-10-04)
+
+C. Procedure
+Follow this procedure for documenting and posting the TSCs.
+1. Documenting the folder
+Enter TSC codes on Forms EF-101, A101, e4962, etc. to reflect the status of and/or
+the determination made on U.S. totalization claims.
+2. Automatic posting to the MBR
+(When an initial claim is processed through MCS, and the TB FAC code is entered, MCS
+will automatically post TSCs of D1, D3, D4, and P1 to the MBR in the “TOTAL” field.)
+If the FAC of TB was not entered through MCS, do not post these TSCs to the MBR through
+MACADE.
+3. Manual posting to the MBR
+When processing awards, disallowances (including disability denials), or terminations
+manually (via MACADE), post TSCs of A1, A3, D2, D4, E2, and T1 along with the totalization
+country code to the MBR.

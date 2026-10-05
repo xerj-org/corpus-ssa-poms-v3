@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 81010.050 - Fields and Edits in the Electronic Disability Collect System (EDCS)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010050 (fetched 2026-10-04)
+
+A. Types of Mandatory Fields
+Cases cannot be transferred in EDCS unless the mandatory fields are complete. There
+are two types of mandatory fields in EDCS:
+•
+“Mandatory for Page Exit” fields; and
+•
+“Always Mandatory for Transfer” fields.
+1. “Mandatory for Page Exit” fields
+“Mandatory for Page Exit” fields:
+•
+Require completion before moving to the next screen in EDCS; and
+•
+Have a prefix of an asterisk (e.g., “*First Name”).
+2. “Always Mandatory for Transfer” fields
+“Always Mandatory for Transfer” fields:
+•
+Require completion before transferring jurisdiction of a case; and
+•
+Do not have an identifying mark on the EDCS screen (e.g., an asterisk).
+EDCS provides a transfer edit check that allows you to verify that all “Always Mandatory
+for Transfer” fields have been completed.

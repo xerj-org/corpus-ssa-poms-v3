@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - DI 14510.035 - Appeals Process for Cases Involving Section 301 Determinations
+Effective Dates: 11/01/2024 - Present | TN 18 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510035 (fetched 2026-10-04)
+
+A. Procedure for appeal of medical cessation
+1. Reconsideration request
+If the Disability Determination Services (DDS) issues a medical cessation determination,
+the beneficiary may request a reconsideration of the decision.
+a. Appeal filed within 10 days with payment continuation
+If the beneficiary files an appeal within 10 days, with a payment continuation request:
+•
+Suspend Section 301 development;
+•
+Process the payment continuation;
+•
+Complete the request for reconsideration and route the claim to Disability Determination
+Services (DDS);
+•
+Annotate the master beneficiary record (MBR) special message field or the supplemental
+security record (SSR) remarks field with “Potential 301 case pending medical cessation
+recon MM/DD/YY.”
+NOTE: If the DDS subsequently confirms the cessation, the FO receives a 301RECON tickle
+on the DCF CDRW screen (WAC CDR Tickles list). Receipt the tickle and resume Section
+301 development per DI 14510.003C.
+b. Payment continuation not applicable
+When a payment continuation request is not applicable:
+•
+Process the reconsideration and route the claim to DDS;
+•
+Complete Section 301 development and fax the SSA-4290-F5 (Development of Participation In Vocational Rehabilitation or Similar Program) and
+supporting documents into eView or the Evidence Portal (EP);
+•
+Transmit to the Office of Disability Operations (ODO) by uploading the Potential
+301 Flag along with the SSA-4290 and related documents to ODO's Paperless Processing Center
+(PPC) system using the EP's 4290 Barcode. Select the "Yes" on the Document Information
+screen, to make the transmission actionable when PC involvement is required;
+•
+Annotate the MBR special message field or SSR remarks field with “Potential Section
+301 determination sent to ODO MM/DD/YY.”
+2. Hearing request before an administrative law judge (ALJ)
+After the DDS makes a reconsideration determination , the beneficiary may request
+a hearing before an ALJ.
+a. Hearing request filed within 10 days with payment continuation
+If the FO receives a hearing request filed within 10 days with a payment continuation
+request:
+•
+Suspend Section 301 development;
+•
+Process the payment continuation;
+•
+Process the hearing request;
+•
+Annotate the MBR special message field or the SSR remarks field with, “Potential 301
+case pending medical cessation hearing MM/DD/YY.”
+NOTE: If the ALJ finds that the beneficiary's disability medically ceased , the FO receives
+a 301ALJ tickle on the DCF CDRW screen (WAC CDR Tickles list). Receipt the tickle
+and resume Section 301 development per DI 14510.003.
+b. Payment continuation not applicable
+When a payment continuation request is not applicable:
+•
+Process the hearing request;
+•
+Complete the Section 301 development and fax the SSA-4290-F5 and supporting documents
+into eView or EP;
+•
+Annotate the MBR special message field or SSR remarks field with, “Appeal pending
+at the Office of Hearings Operations (OHO), SBC declined, and potential Section 301
+determination sent to ODO on MM/DD/YY.”
+•
+Transmit to ODO by uploading the Potential
+301 Flag along with the SSA-4290 and related documents to ODO's PPC using the EP's 4290 Barcode.
+Select the "Yes" on the Document Information screen, to make the transmission actionable
+when PC involvement is required.

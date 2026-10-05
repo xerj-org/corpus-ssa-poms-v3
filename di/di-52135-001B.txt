@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 52135.001 - Introduction to State Specific Public Disability Benefits (PDB)
+Effective Dates: 07/27/2023 - Present | TN 22 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452135001 (fetched 2026-10-04)
+
+B. PDB payable for a prescribed period
+1.
+Code the verified expected end date when imposing offset where benefits are payable
+for only a prescribed period. When the end date is on the Master Beneficiary Record
+(MBR), Regular Transcript and Selection Pass Alerts (RETAP) sends a finder to T2 permitting
+the system to automatically adjust the Workers’ Compensation/Public Disability Benefit
+(WC/PDB).
+EXCEPTION: RETAP (RT47) selects California PDB cases after 52 weeks; therefore, no manual diary
+is necessary unless payments are not expected to continue the usual 52 weeks.
+2.
+Verify that PDB ceased, before resuming full DIB benefits.
+3.
+If a State has a reverse offset plan, code the case with offset type “REV JURISDICTION”,
+and the appropriate start and stop dates. For additional instructions for coding the
+Interactive Computations (ICF) WC/PDB Claims Data (WCCD) screen, see DI 52165.010C.7.

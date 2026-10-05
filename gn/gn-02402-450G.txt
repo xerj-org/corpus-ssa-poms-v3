@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.450 - Coding Andorra Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/25/2023 - Present | TN 231 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402450 (fetched 2026-10-04)
+
+G. Example of coding Andorra direct deposit
+The customer provides us with a signup form for Andorra containing the account number:
+AD1200012030200359100100
+•
+The first character of the IBAN is “AD,” represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth through eight characters of the IBAN represent the four-digit bank code.
+•
+The nineth through 12 characters of the IBAN represents the four-digit branch code.
+•
+The last 12 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 740000072
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “ H ” designated for Andorra ; and
+•
+Code the 12 -digit Account Number “ 200359100100 ”
+3. Obtain the following information
+•
+RTN: 740000072
+•
+Checking
+•
+DAN: H200359100100
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000072
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H200359100100
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 740000072
+•
+DAN CH200359100100

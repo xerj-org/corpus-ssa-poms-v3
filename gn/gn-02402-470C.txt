@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.470 - Coding Guinea Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/23/2023 - Present | TN 235 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402470 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Guinea will have a prefix of “73” at the beginning of the Routing
+and Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “E” assigned for Guinea.

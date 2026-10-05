@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 03940.055 - Title XVI and Concurrent Titles II and XVI Claims - Field Office Processing of the Fee Agreement Notice
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940055 (fetched 2026-10-04)
+
+C. Procedure - Title XVI Only Automated Fee Notices
+The title XVI system produces automated fee notices in many fee agreement cases. In
+addition to the standard “Things to Remember” and the “If You Have Questions” sections,
+these notices include the captions and paragraphs identified in GN 03940.055C.1. and GN 03940.055C.2. Also, refer to GN 03940.055E. if SSA revises an authorized fee amount, and to GN 03940.055F. if the claimant has an interim assistance reimbursement (IAR) agreement with a State
+agency and the representative is eligible for direct fee payment.
+1. CR Disapproves Fee Agreement - No Past-Due Benefits Withheld
+The CR is the decision maker when a claim is favorably decided at the initial and
+reconsideration levels.
+When the CR disapproves the fee agreement and there are no past-due benefits, or there
+are past-due benefits but the representative is not eligible for direct payment, the
+notice includes UTI XVI720 (FEE038 in DPS), caption XVI358 (ATYC08 in DPS) and UTIs
+XVI535 (FEE060 in DPS), XVI534 (ATY050 in DPS) and XVI728 (ATYC02, ATY817, ATYC09,
+and FEE093 in DPS).
+2. CR Approves Fee Agreement and Authorizes Fee - No IAR
+a. Introduction and Fee Agreement Approval
+Use UTI XVI720 (FEE038 in DPS), caption XVI357 (ATYC06 in DPS) and UTI XVI527 (ATY020
+in DPS).
+b. Authorize Fee
+Use caption XVI717 (ATYC10 in DPS) and UTI FEE008 (FEE008 in DPS). In addition:
+•
+When the representative is ineligible for direct payment, use UTI FEE022 (FEE022 in
+DPS).
+•
+When the representative is eligible for but has waived direct payment, use UTI FEE033
+(FEE033 in DPS).
+•
+When the representative is eligible for direct payment and SSA is making direct payment,
+include the UTIs in GN 03940.070C.2.d.
+c. Administrative Review
+Use UTI XVI727 (ATYC02, FEE052, FEEC09, and FEE056 in DPS).
+d. Past-Due Benefits Withheld for Direct Payment and Paid to One Representative
+Use caption FEEC11 (ATYC03 in DPS) and UTIs FEE035 (FEE035 in DPS), FEE046 (FEE080
+in DPS) and FEE047 (FEE047 in DPS)
+NOTE: If the claimant had an IAR agreement with a State agency, see GN 03940.055F.
+3. ALJ or AAJ Approves Fee Agreement - No IAR
+a. CR Disapproves Fee Agreement Based on No Past-Due Benefits
+Use UTI XVI720 (FEE038 in DPS), and caption XVI358 (FEEC10 in DPS) and UTIs XVI532
+(FEE061 in DPS), XVI534 (ATY050 in DPS) and XVI728 (ATYC02, ATY817, ATYC09, and FEE093
+in DPS).
+NOTE: When an ALJ or AAJ approves a fee agreement, the approval is contingent on whether
+the claim results in past-due benefits. If it does not, the CR disapproves the fee
+agreement.
+b. CR Authorizes Fee
+Use UTI XVI720 (FEE038 in DPS), and caption XVI717 (ATYC10 in DPS) and UTIs FEE003
+(FEE003 in DPS) and FEE008 (FEE008 in DPS). In addition:
+•
+When the representative is ineligible for direct payment, use UTI FEE022 (FEE022 in
+DPS).
+•
+When the representative is eligible for, but waived direct payment, use UTI FEE033
+(FEE033 in DPS).
+Use UTI XVI727 (ATYC02, FEE052, FEEC09, and FEE056 in DPS) to explain administrative
+review rights.
+•
+When the representative is eligible for and SSA is making direct payment, use caption
+FEEC11 (ATYC03 in DPS) and UTIs FEE035 (FEE035 in DPS), FEE046 (FEE080 in DPS) and
+FEE047 (FEE047 in DPS).
+NOTE: If the claimant had an IAR agreement with a State agency, see GN 03940.055F.

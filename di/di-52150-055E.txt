@@ -1,0 +1,421 @@
+SSA Program Operations Manual System (POMS) - DI 52150.055 - Protected Increases and Breaks in Workers’ Compensation/Public Disability Benefit (WC/PDB) Payments, Offset and Entitlement
+Effective Dates: 04/05/2018 - Present | TN 35 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150055 (fetched 2026-10-04)
+
+E. Examples
+The following examples explain how SSA benefit increases affect rates payable after
+offset in various situations. In most cases, the ICF process computes offset (i.e.,
+a manual computation is not necessary).
+1. Fourth auxiliary entitled - WC/PDB offset and protected increases
+12/2006 – DIB MOET and First Month of Offset –HA, HB2, HC2, HC1 entitled
+Family Max
+$1373.80
+HA PIA
+$915.90
+HB2, HC2, HC1 MBA
+$ 152.63 each (rounded down to $152.60)
+TFB
+$1373.70
+80% ACE
+$1154.00
+WC
+$ 399.00 (monthly)
+Because the TFB is higher than the 80%ACE, use the TFB amount to calculate offset
+(i.e., the TFB is the controlling factor when computing offset).
+Using TFB to calculate Offset
+$1373.70 TFB
+​
+- 399.00 Monthly WC
+​
+$ 974.70 Payable to the family after offset
+​
+-$915.90 HA's MBA (PIA).
+This amount is less than the amount payable to the family after offset. Therefore
+HA is not offset and their full MBA is payable.
+​
+$ 58.80 remainder (payable to the auxiliaries). Divide by 3 auxiliaries = $19.60 payable to each auxiliary after offset.
+​
+COLA 12/2007:
+​
+12/2007 - HA PIA $936.90 (HA – no offset)
+$21.00 increase
+12/2007 - HB2, HC2, HC1 MBA $156.13 (rounded down to $156.10 each)
+$3.50 MBA increase for each auxiliary
+Because HA's MBA is not offset, they receive the full increase and their rate payable
+effective 12/2007 is $936.90. Each auxiliary receives $23.10 in 12/2007 after offset
+($19.60 12/2006 + $3.50 12/2007 increase).
+In 01/2008, HC3 becomes entitled and shares in the protected increase. To calculate
+the rate payable after offset in 01/2008:
+Go back to the first possible month of offset (12/2006)
+and recalculate the offset amount as though HC3 were entitled
+12/2006
+HA PIA
+$ 915.90
+​
+12/2006
+HB2, HC3, HC2, HC1 MBA
+$114.475 each (rounded down to $114.40 each)
+​
+TFB
+$1373.50
+​
+WC
+-399.00 (monthly)
+​
+$ 974.50 payable to family after offset
+​
+-915.90 HA’s MBA is less than the amount payable to the family after offset. Therefore HA
+is not offset.
+​
+$ 58.60 remainder (payable to the auxiliaries). Divide by 4 auxiliaries = $14.65 (rounded down to $14.60) payable to each auxiliary after offset.
+​
+12/2007 COLA:
+​
+12/2007
+HA PIA
+$936.90 (HA is not offset – due full PIA)
+$21.00 PIA increase
+12/2070
+HB2, HC3, HC2, HC1 MBA
+$117.10 - MBA for each auxiliary
+$2.70 MBA increase due each auxiliary
+$14.60 payable after offset for 12/2006 for each auxiliary
++ 2.70 12/2007 COLA (protected increase)
+01/2008 - HC’3’s Actual Month of Entitlement:
+​
+01/2008 (four aux. entitled)
+$17.30 - amount payable after offset effective 01/2008 for each auxiliary
+​
+HA is still not offset. Each of the four auxiliaries receives $17.30 after offset effective 01/2008 ($14.60 12/2006 + $2.70 12/2007 protected increase for four auxiliaries).
+NOTE: If the ACE was the applicable limit in computing offset (rather than the TFB), the
+expedient in DI 52150.070C. can be used.
+2. Unreduced HB entitlement – WC/PDB offset and protected increases
+Situation (HB rate limited by DMAX):
+02/2003
+HA month of entitlement (MOET) (HA in Partial WC Offset) – PIA $657.00
+12/2007
+HB MOET (full retirement age, or “FRA” - Unreduced for age)
+Compute the spouse's protected increases as though they were entitled in the first
+month of offset (02/2003). Assume total offset for the HB in 02/2003 (because HA is
+in partial offset effective 02/2003). Their benefit payable after offset in 12/2007
+(their MOET) is $25.10, the amount of the protected increases from the first possible
+month of offset (02/2003) through their HB MOET (12/2007). (Assume the January 2006
+triennial redetermination of the ACE did not yield an increase.)
+Determine the amount payable to HB effective 12/2007 by calculating the protected
+increases as follows:
+Date & DMAX
+HA PIA
+HB MBA
+HB MBA INCREASES
+02/2003 – $820.50
+$657.00
+$163.50
+$ 0.00
+12/2003 – 837.70
+670.70
+167.00
+3.50
+12/2004 – 860.30
+688.80
+171.50
+4.50
+12/2005 – 895.50
+717.00
+178.50
+7.00
+12/2006 – 925.00
+740.60
+184.40
+5.90
+12/2007 – 946.20
+757.60
+188.60
+4.20
+Total
+$25.10 payable to HB effective 12/2007 (their MOET – also their FRA)
+3. HB entitlement – reduced for age - WC/PDB offset and protected increases
+When computing the protected increases for a spouse entitled to a benefit reduced
+for age, use the same reduction factor (RF) for the first possible month of offset
+as the RF applicable for the spouse’s actual month of entitlement.
+In Example #2 above, if HB is entitled in 12/2007 with a RF of 24, use the same RF
+of 24 in determining their fictitious MBA effective 02/2003 (the first possible month
+of offset). MBAs retroactive to 02/2003 are needed to establish all protected increases
+from the first possible month of offset to their actual HB MOET (12/2007), thereby
+determining the HB amount payable after offset effective 12/2007.
+4. Dually entitled spouse - WC/PDB offset and protected increases
+NOTE: The interactive computation facility (ICF) programs #31 and #32 cannot calculate
+offset for dual entitlement or technical entitlement situations. These computations
+must be done manually and input via OREO.
+A spouse (HB) is entitled on their spouse's SSN effective 11/2003 (four years after
+their spouse's DIB MOET of 11/1999) and the HB is subject to WC offset on the spouse's
+DIB account. The HB is also entitled to retirement benefits on their own SSN effective
+11/2003:
+1999
+Eligibility year (ELG)
+​
+​
+11/1999
+HA DIB MOET
+PIA $950.00
+First possible month of offset
+11/1999
+WC $375.00 (monthly)
+ACE $1350.00 (higher than TFB – ACE controls offset)
+11/2003
+HB MOET (DOB 10/15/1941)
+11/2003
+11/2003
+HB entitled on their own RIB
+RIB PIA $300.00
+12/2003
+RIB PIA $306.30
+01/2004
+RIB Recomputed PIA $314.00
+In this dual entitlement example, HB/A benefits must be reduced for age. The reduction
+factor (RF) for their RIB and spouse's benefit is 43 based on their age and MOET.
+Take into consideration any fictitious or actual REDETS that may apply.
+When computing offset for HB, determine all protected benefit increases as though
+HB is entitled effective with the first possible month of offset (11/1999), and compute
+the “fictitious” MBAs for 11/1999-10/2003 (since HB isn’t really entitled until 11/2003)
+using the same RF (43). If HB was actually entitled in 1999, their ELY would be 1999.
+Therefore, the special 07/2001 COLA is included in their protected increases.
+NOTE: ICF programs #31 and #32 cannot calculate a monthly benefit amount based on an RF
+of 43. To compute the reduced spouse’s rate effective 11/2003, use the WNPSC Tools
+Rate Computations - Click here.
+You must de-convert the 11/2003 HB MBA (and their own RIB PIA) back to the first possible
+month of offset (11/1999). To determine HB’s protected increases for 12/2003 and 12/03,
+ICF de-converts the 11/2003 RIB PIA of $300.00 (based on an ELY of 1999) as follows:
+EFF DATE
+RIB PIA
+12/2002
+300.00
+12/2001
+295.90
+07/2001
+288.50
+12/2000
+288.20
+12/1999
+278.50
+11/1999
+272.00
+The protected increases for 11/2003 and 12/2003 are calculated as follows:
+Effective Date
+DIB PIA
+½ DIB PIA
+HB’s own RIB PIA
+Full LEMBA
+Reduced LEMBA- RF of 43
+Protected Increases
+11/1999
+950.00
+475.00
+272.00
+203.00
+146.30
+0.00
+12/1999
+972.80
+486.40
+278.50
+207.90
+149.80
+3.50
+12/2000
+1006.80
+503.40
+288.20
+215.20
+155.10
+5.30
+07/2001
+1007.70
+503.80
+288.50
+215.30
+155.10
+0.00
+12/2001
+1033.90
+516.90
+295.90
+221.00
+159.30
+4.20
+12/2002
+1048.30
+524.10
+300.00
+224.10
+161.50
+2.20
+Total protected increases as of 11/2003
+15.20
+12/2003
+1070.30
+535.10
+306.30
+228.80
+164.90
+3.40
+Total protected increases as of 12/2003
+18.60
+To figure their protected increases effective with the 01/2004 PIA Recomp, ICF deconverts
+the 01/2004 RIB PIA of $314.00 (based on an ELY of 1999) as follows:
+EFF DATE
+RIB PIA
+12/2002
+307.60
+12/2001
+303.40
+07/2001
+295.80
+12/2000
+295.40
+12/1999
+285.50
+11/1999
+278.90
+The protected increases effective 01/2004 are calculated as follows:
+Effective Date
+DIB PIA
+½ DIB PIA
+HB’s own RIB PIA
+Full LEMBA
+Reduced LEMBA- RF of 43
+Protected Increases
+11/1999
+950.00
+475.00
+278.90
+196.10
+141.30
+0.00
+12/1999
+972.80
+486.40
+285.50
+200.90
+144.80
+3.50
+12/2000
+1006.80
+503.40
+295.40
+208.00
+149.90
+5.10
+07/2001
+1007.70
+503.80
+295.80
+208.00
+149.90
+0.00
+12/2001
+1033.90
+516.90
+303.40
+213.50
+153.80
+3.90
+12/2002
+1048.30
+524.10
+307.60
+216.50
+156.00
+2.20
+12/2003
+1070.30
+535.10
+314.00
+221.10
+159.30
+3.30
+Total protected increases as of 01/2004
+18.00
+•
+The WC monthly amount of $375.00 effective 11/1999 remains unchanged.
+•
+The spouse is not offset:
+ACE $1350.00 - $375.00 monthly WC = $975.00 payable after offset
+$975.00 payable - DIB PIA $950.00 11/1999 = $25.00 remainder (payable to HB)
+•
+Their total protected increases for 11/1999-11/2003 ($15.20) are added to the $25.00
+remainder to compute the amount payable after offset for HB effective 11/2003 ($40.20),
+their date of entitlement to spouse’s benefits.
+•
+The protected increase for 12/2003 ($3.40) is added to compute the amount payable
+after offset to HB effective 12/2003 ($ 43.60).
+•
+The total protected increases for 11/1999-01/2004 ($18.00) are added to the $25.00
+remainder to compute the amount payable after offset to HB effective 01/2004 ($ 43.00).
+(The 01/2004 recomputation increase in their own RIB PIA results in a lower amount
+payable after offset as a spouse (HB) effective 01/2004.)
+5. Complex Example - Parisi provision involved with WC and protected increases CFM
+HA entitled 07/1999; PIA 885.20, FMAX = 1327.80D
+No recomps apply in this case.
+100% ACE = 2388.00
+80% ACE = 1910.40
+TFB will remain lower than 80% ACE for the entire entitlement period
+WC Received = 340.57 Weekly (= 1475.80 per month)
+HA will receive 434.60 after offset in 7/1999.
+Protected increases are added in 12/1999, 12/2000, 07/2001, 12/2001;
+MBA after offset in 12/01 is 512.80
+Triennial redetermination in 01/2002 raised the 80% ACE to 2128.00; the redetermined
+HA rate was 652.20.
+In 09/2002, HA's PIA is 963.40, and the table maximum is 1445.10D.
+B2 and C1 become entitled. B2 is also entitled to their own HA, at a PIA of 465.30;
+a combined maximum of 1910.40 becomes effective.
+The family rates are figured as if B2 and C1 were always entitled, but using the table
+maximum. The increase due to the combined maximum is treated as a protected increase:
+To determine protected increases for B2 and C1 as of 01/02, we re-work the original
+07/99 offset comp:
+- HC1 benefit (adjusted for DMAX) = 221.30
+- B2 is technically entitled, so that their LEMBA is effectively zero.
+80% ACE
+= 1910.40
+- monthly WC
+= 1475.80
+Payable
+=    434.60
+— All goes to HA, none to C1.
+Protected increases to C1 total 19.50 due to COLA increases through 12/01.
+B2 is still technically entitled, so they get no protected increases.
+A's redetermined rate is 632.40, and C1 remains with the protected increases of 19.50.
+The increase due to the CMAX is then treated as a protected increase:
+- C1's benefit (before offset) adjusted for the CMAX:
+473.50
+- C1's benefit (before offset) adjusted for the DMAX:
+240.80
+- Protected increase due to CMAX:
+232.70
+- Plus prior benefit after offset:
+19.50
+- Total C1 payable after offset (before Parisi):
+252.20
+- B2's LEMBA (before offset) adjusted for the CMAX:
+8.20
+- B2's LEMBA (before offset) adjusted for the DMAX:
+0
+- Protected increase due to CMAX:
+8.20
+- Plus prior benefit after offset:
+0
+- Total B2 payable after offset (before or after Parisi):
+8.20
+We then deal with Parisi:
+- Amount of CMAX not used because of B2's Dual Entitlement:
+465.30
+- Amount to be made available to C1:
+- C1 adjusted benefit (before offset):
+- C1 original benefit:
+473.50
+481.70
+- Amount to be added to C1 benefit after offset:
+8.20
+- Previously computed C1 benefit after offset:
+252.20
+- Total payable to C1 in 09/2002:
+260.40

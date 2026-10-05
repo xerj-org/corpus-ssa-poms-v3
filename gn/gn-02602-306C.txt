@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02602.306 - Processing Completed Form SSA-1588-SM (Beneficiary Recontact Reports) and Handling Inquiries
+Effective Dates: 10/12/2023 - Present | TN 103 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602306 (fetched 2026-10-04)
+
+C. FO processing
+Generally, a young surviving spouse will contact the local FO because we stopped their
+benefits when we did not receive a response to the mailing. When this happens, take
+the following actions:
+1.
+Review the RECNTACT data line on the Master Beneficiary Record (MBR) to determine
+why we stopped benefits. For more information on the RECNTACT data line, see SM 00510.260.
+2.
+Explain to the young surviving spouse that we stopped their benefits because they
+did not return the initial or follow-up form.
+CAUTION: If the young surviving spouse is also the child’s representative payee, who still
+has a child-in-care, and failed to cooperate in responding to the attempts made to
+obtain the necessary information, a change in the representative payee may be appropriate.
+3.
+Verify the young surviving spouse’s address. If incorrect, input the correct address
+via POS.
+4.
+Ask the young surviving spouse if they are married, the date of the marriage (if applicable),
+and whether they still have a child in their care.
+5.
+Make the necessary inputs to POS, following the chart listed in GN 02602.306B.1 in this section, based on the young surviving spouse’s responses regarding any reported
+change in the suspension date from that on the MBR.
+6.
+Request the PSC to reinstate benefits via Modernized Development Worksheet (MDW) request
+when the young surviving spouse states that they are not married.
+Note: If the young surviving spouse contacts the FO because the SSA-1588 was not received
+or misplaced, do not issue a new form. Follow GN 02602.306C.3 through GN 02602.306C.5.

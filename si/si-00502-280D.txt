@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - SI 00502.280 - Indigence Exception to Sponsor Deeming
+Effective Dates: 09/04/2025 - Present | TN 59 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502280 (fetched 2026-10-04)
+
+D. Procedure - Developing and documenting deeming exception
+Cases involving the indigence exception are sensitive cases and, as such, require
+tactful questioning.
+There are several prompts that indicate the indigence exception should be developed:
+•
+while you are discussing deeming provisions SI 00502.240G.3. the applicant alleges the indigence exception applies to their case; or
+•
+while developing the income/resources, the alien indicates they get little or no support
+from their sponsor.
+1. Determine whether deeming exception applies
+a.
+If the alien lives with their sponsor, determine that the exception does NOT apply.
+b.
+If the alien lives apart from their sponsor, develop the alien’s income and resources. If the income (including excluded income
+per SI 00502.280B.1.b.) the alien actually receives is less than the FBR and resources available to the
+alien are under the applicable resource limit, determine that the alien meets the
+criteria for exception from deeming.
+2. Contact the sponsor
+Contact the sponsor to confirm the alien’s allegations regarding amounts of income
+and resources the sponsor provides or makes available to the alien.
+If the alien does not know the sponsor's whereabouts, contact DHS using the Systematic
+Alien Verification for Entitlements (SAVE) program; to obtain the sponsor's address,
+see GN 00303.600.
+If you cannot locate the sponsor, accept the alien’s signed allegation if the allegation
+is credible and does not conflict with other information in file.
+If the allegations are not creditable or conflict with other information in file,
+weigh all evidence in file and make a decision based on all the information you have
+obtained.
+3. Determine income and resources
+Determine the amount of the income the alien actually receives and the amount of resources
+owned by the alien, see SI 00502.280D.
+4. Document the file
+Prepare a Report of Contact (either SSA-5002 or Report of Contact page) to document
+the file with your determination on the indigence exception (including the facts you
+considered in making that determination, and the basis for resolution of any questionable
+or conflicting evidence) and the amount of income and resources charged to the alien.
+5. Notice requirements
+Because the system is unable to determine that deeming is suspended under the indigence
+exception, a manual notice is required.
+Suppress the automated notice, see SM 01005.535 or SM 01301.675, and prepare a manual
+notice including the language in SI 00502.550B.
+6. System input and annotate the Supplemental Security Record (SSR)
+Since no deeming computation is necessary, MSSICS can process new version affidavit
+cases if deeming is suspended under the indigence exception. For completion of the
+Alien Status page, see MS 08108.007. Post any chargeable income and resources under
+current procedures.
+Annotate the Remarks field of the SSR "DEEMING EXCEPTION--INDIGENCE," followed by
+the month and year in which the deeming exception is effective in the case , see SM
+01301.841. For MSSICS processing, enter this remark via the CRMK screen, MSOM MSSICS
+023.003.
+Set a manual redetermination diary (RT diary) see SI 02305.022A.6. on the SSR with a maturation date near the end of the exception period so that the
+alien can be recontacted BEFORE the exception period ends. In MSSICS, the RT diary
+is set after you enter a “Y” in the INDIGENCE APPLIES field and the appropriate month
+and year for the DATE ESTABLISHED on the second page of the Alien Status page. You
+may update an RT diary and the date per diary instructions in MSOM BUSSR 002.019,
+Update Diaries (UDIA). Since a complete picture of the alien’s income, resources and
+living arrangements is necessary to determine if the indigence exception continues
+to apply, a full redetermination is needed.
+7. Processing affected cases when exception ceases to apply
+Resume deeming the sponsor’s income and resources effective with the month following
+the last month for which the exception applies.
+Suppress the automated notice and issue a manual SSA-L8155, Notice of Planned Action,
+explaining the reason for the resulting change in the alien’s eligibility or payment
+amount. For language to include in your notice, see SI 00502.550C.

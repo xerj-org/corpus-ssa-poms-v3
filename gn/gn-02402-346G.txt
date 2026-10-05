@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 02402.346 - Coding Turkey Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 04/11/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402346 (fetched 2026-10-04)
+
+G. Example of coding bank data for Turkey
+The customer provides us with a sign-up form for Turkey that contains: TR330006100519786457841326.
+•
+The first two characters of the IBAN are “TR” that represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit.
+•
+Never code the IBAN country code and the check digit to the MBR for Turkey.
+•
+The fifth through ninth characters represent the bank identifier.
+•
+The tenth character is a filler “0.”
+•
+The last 16 characters represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Prefix “66” (the multi-country prefix for Turkey);
+•
+Five-digit bank code “00061” based on FI name after checking the ITS.gov help file;
+•
+Filler “0”;
+•
+One-digit check code “8” (obtained from the Title II interactive Comps from the Main
+Menus 07/Sub Menu 16); and
+•
+Type of account as a “C” for checking or an “S” for savings. If no account type indicated,
+use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+“T” (for Turkey), and
+•
+16-digit account number “0519786457841326.”
+3. Obtain the following information
+•
+RTN: 660006108
+•
+Checking
+•
+DAN: T0519786457841326
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660006108 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: T0519786457841326
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660006108
+•
+DAN-CT0519786457841326

@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 01010.245 - Processing Concurrent Claims When Dual Entitlement (DE) Does Not Apply
+Effective Dates: 07/26/2023 - Present | TN 61 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010245 (fetched 2026-10-04)
+
+B. Processing concurrent claims
+1. Number Holder (NH) is entitled to retirement (“A”) benefits but not entitled to spouses
+(“B”) OR widow (“D”) benefits
+Use the following procedure on concurrently filed “A-B” or “A-D” claims when the claimant
+is not entitled to the spouse (“B) or widow(er) (“D”) benefit:
+•
+Input the proper information in the NH marriage (NMAR) screen to cross-refer the NH's
+and spouse's or widow(er)'s SSNs and a note in the development worksheet (DW01) indicating
+the other application’s SSN involved and the respective BICs;
+•
+Process the “A” award using the Modernized Claims System (MCS) Earnings Computation
+(EC) method;
+•
+Process the spouse or widow(er) denial through MCS EC. If there is an MCS EC system
+limitation, input the denial via Manual Adjustment Credit and Award Data Entry (MACADE),
+see SM 00380.500;
+•
+Select the appropriate language in the notice 3 (NOT3) screen to explain the disallowance
+to the spouse or widow(er) claimant. In the same screen, you can suppress the notice
+on the “B” or “D” claim when possible and notify the claimant about both decisions
+on the “A” award notice.
+MCS generates two notices when you process both claims via MCS EC. If the spouse or
+widow(er) is disallowed or only technically entitled due to higher benefits on their
+“A” claim, the universal text indicator (UTI) “DSL037” or “ENT056” (respectively)
+will be generated on the spouse's or widow(er)'s disallowance notice (see NL 00725.005).
+2. The claimant is entitled to “B” or “D” benefits but not insured for “A” benefits
+Use the following procedure on concurrently filed “A-B” or “A-D” claims when the claimant
+is not insured for the “A” benefit:
+•
+Input the proper information in the marriage (NMAR) screen to cross-refer the NH's
+and spouse's or widow(er)'s SSNs and a note in the development worksheet (DW01) indicating
+the other application’s SSN involved and the respective BICs.
+•
+Process the spouse or widow(er) award via MCS EC whenever possible, otherwise process
+the claim using the automated 101 (A101) or Electronic Form 101 (EF101).
+•
+Process the “A” denial via MCS EC. If there is a MCS EC system limitation, input the
+denial via MACADE;
+•
+Select the appropriate language to explain the retirement (“A”) denial, see MCS UTI
+INS021 in NL 00725.005.
+NOTE:
+The appropriate MCS UTI (e.g. CLOR20) should be included on the award notice.

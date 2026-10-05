@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 52155.005 - Initial Claims and Appeals Requiring Diary Control for Workers’ Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 11/06/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155005 (fetched 2026-10-04)
+
+B. MCS systems generated diaries
+MCS will establish a Diary Code 042 based on entries on the WPCL screen. Diary code
+042 is generated when:
+•
+INTEND-TO-FILE equals Y or
+•
+WC/PDB CLAIM PENDING equals Y or
+•
+CLAIM DENIED equals Y and APPEAL PENDING equals Y or
+•
+PERIODIC PAYMENTS AWARDED equals Y and “APPEAL PENDING equals Y or
+•
+LUMP SUM AWARDED equals Y and APPEAL PENDING equals Y

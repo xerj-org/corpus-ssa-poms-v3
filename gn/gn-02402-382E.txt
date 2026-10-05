@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.382 - Coding Bulgaria Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 311 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402382 (fetched 2026-10-04)
+
+E. Description of Bulgaria IDD bank data
+The data to code IDD for Bulgaria comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI.
+The full length of the IBAN for Bulgaria consists of 22 characters.
+However, the bank data on the MBR consists of 19 characters including Bulgaria’s country
+code of G.

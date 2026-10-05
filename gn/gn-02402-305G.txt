@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02402.305 - Coding Norwegian Bank Data for the MBR
+Effective Dates: 07/19/2016 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402305 (fetched 2026-10-04)
+
+G. Example of coding Norwegian direct deposit
+The beneficiary's bank card contains the following information: "konto 0629 19 12345."
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 530000004
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the 11-digit account number: 06291912345
+3. Obtain the following information
+•
+RTN: 530000004
+•
+Checking
+•
+DAN: 06291912345
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 530000004 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 06291912345
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 530000004
+•
+DAN- C06291912345

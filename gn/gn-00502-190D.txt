@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 00502.190 - Processing Manual Representative Payee (Payee) Selections
+Effective Dates: 11/08/2018 - Present | TN 71 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502190 (fetched 2026-10-04)
+
+D. Other Manual Payee Actions
+1. T2R Output
+The PC is responsible for manually processing fallout from T2R (alert and exception
+processing). Process T2R outputs in accordance with SM 03005.195. Process exceptions
+using MACADE. The payee application in eRPS remains in a “ready to process” status
+until the MACADE action processes. You can view the status of the payee application
+under “Search/View/Update Applications” in eRPS.
+2. Notice Output
+When you receive a “Review Notice” alert, review the alert and query eRPS to determine
+the proper recipient of the notice. If required, print a copy of the SG-SSA-11 from
+the Online Retrieval System to obtain necessary information.

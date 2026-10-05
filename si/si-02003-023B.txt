@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - SI 02003.023 - Processing eIAR Exception Cases
+Effective Dates: 07/28/2025 - Present | TN 34 (07-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003023 (fetched 2026-10-04)
+
+B. Determining if the case is an eIAR exception
+Due to the complexity of these cases, the specific cause of the eIAR exception may
+be difficult to identify. Assume that the case is an eIAR exception case if it has
+the following characteristics:
+•
+IAR reimbursement is due the State;
+•
+the system cannot build a UPV: V and there is no U2 diary on the SSR and no U TAC
+on the SSR;
+•
+eIAR has not processed the reimbursement to the State; and
+•
+the system did not generate an I-9 alert.
+The FO may learn of the exception when the State IAR agency contacts the SSA regional
+office to inquire about an unreimbursed case. The FO may identify the exception by
+reviewing the SSR for the following factors:
+•
+the case has a start date;
+•
+the first SSI payment was released in the start date month; and
+•
+no underpayment was built for the start date record.

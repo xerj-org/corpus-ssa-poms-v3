@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 26510.015 - Completing Item 16A and 16B (Primary and Secondary Diagnosis, Body System Code, and Impairment Code) on the SSA-831 Disability Determination and Transmittal
+Effective Dates: 08/06/2024 - Present | TN 47 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0426510015 (fetched 2026-10-04)
+
+C. Determining the primary and secondary diagnoses
+Complete items 16A and 16B as follows:
+1. Diagnosis code based on medical evidence
+Evaluate all of the medical evidence in the file, and determine diagnoses for the
+period reviewed.
+Enter the diagnosis of the claimant's primary and secondary impairment (if any) at
+the established onset date (EOD) in an allowance or at the alleged onset date (AOD)
+in a denial.
+Include other diagnoses present at the time of adjudication in the determination rationale.
+2. Primary diagnosis or Item 16A
+The primary diagnosis in an allowance refers to the basic condition that rendered
+the person disabled, or in a denial, the one that the evidence shows to have the most
+significant effect on the person's ability to work.
+When the case is a denial, and no diagnosis is established, enter “none
+established.”
+Use impairment code “0000” when there is no medical evidence in the file.
+Use impairment code “6490” when medical evidence in the file is not sufficient to
+establish a diagnosis.
+a. Drug addiction and alcoholism (DAA) materiality
+When the case is a denial because DAA is material, enter the appropriate code for “alcoholism” (3030 – Substance Addiction or Psychoactive
+Substance Dependence Disorders (Alcohol)) or “drug addiction” (3040 – Substance Addiction
+or Psychoactive Substance Dependence Disorders (Drugs)) as the primary impairment.
+When the case is an allowance because DAA is not material, enter the mental or physical impairment that would be disabling, absent the effects
+of DAA, as the primary diagnosis.
+See also:
+DI 90070.050 DAA Material Determinations
+b. Statutory blindness
+IMPORTANT: A claimant has statutory blindness only if the visual disorder meets Listing 2.02
+or 2.03A for adults, or Listing 102.02 or 102.03A for children.
+Use the term “Statutory Blindness” as the primary diagnosis.
+1.
+Enter body system “02” and impairment code “3694” in the blocks provided.
+2.
+In Item 16B (Secondary Diagnosis), show the underlying cause of the blindness and
+the corresponding diagnosis code.
+3.
+Enter “Statutory Blindness” as the secondary diagnosis when the basis of the EOD is
+a different impairment and that impairment’s onset date is before the onset date of
+statutory blindness.
+3. Secondary diagnosis or Item 16B
+When the evidence does not include a secondary diagnosis or no medical evidence is
+in the file, enter "0000" and “none” will show in block 16B. Use impairment code "6490"
+when medical evidence in the file is not sufficient to establish a diagnosis. The
+secondary diagnosis in all determinations is the most significant diagnosis following
+the primary diagnosis in severity, except in the following situations.
+a. Symptomatic human immunodeficiency virus (HIV) infection
+If the primary diagnosis is symptomatic HIV infection, enter the diagnosis of the
+most significant HIV-related complication as the secondary diagnosis.
+If there is no HIV-related complication, enter the most significant diagnosis following
+the primary diagnosis.
+b. DAA is present but not material
+When DAA is present but not material, enter “alcoholism” or “drug addiction,” as appropriate,
+as the secondary diagnosis.
+c. Statutory blindness
+Enter “Statutory Blindness” as the secondary diagnosis when the basis of the EOD (Item
+15A) is not statutory blindness and the impairment’s onset date is before the onset
+date of statutory blindness.
+1.
+In Item 16A (Primary Diagnosis), enter the diagnosis of the other impairment at the
+established onset date. Enter the related body system code and diagnosis code.
+2.
+In Item 16B (Secondary Diagnosis), enter “Statutory Blindness” as the secondary diagnosis
+and show diagnosis code 3694. Because item 16B can only show “Statutory Blindness,”
+you cannot include the underlying cause on the SSA-831. Document additional information
+in a Case Note in the Disability Case Processing System (DCPS), or on the Case Development
+Worksheet (CDW).
+REMINDER: For additional instructions about completing Item 18 (Case of Blindness), see DI 26510.025.

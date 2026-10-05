@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 11005.072 - Field Office Disability Claims Process of Statutory Blind Allowances
+Effective Dates: 04/02/2026 - Present | TN 133 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005072 (fetched 2026-10-04)
+
+C. How to identify a stat blind case on the MBR and SSID
+One or more indicators may be present.
+1. Identifying stat blind entitlement on MBR
+Identify stat blind entitlement on the MBR by any of the following:
+•
+Diagnosis code 3694 (DIG or SDIG) on the DIB line (as of December 1, 2012); or
+•
+0A1 in the RDD field of the beneficiary denial/disallowance data (BEN DENY) line;
+or
+•
+STAT BLIND indicated in the INSURED data line; or
+•
+An adjusted blind onset date (ABOD) in the BENEFIT data line; or
+•
+DAC code of L, N, P, S, or T in the disability insurance benefit (DIB) line; or
+•
+A special message regarding stat blind determination.
+2. Identifying stat blind entitlement on SSID
+Identify stat blind entitlement on the SSID by any of the following:
+•
+ID of BI, BC, or BS;
+•
+DIG code 3694 (as of December 1, 2012) on the Disability Data (DISB) line; or
+•
+Special message regarding stat blind determination.
+NOTE: Review the SSA-831 and any subsequent SSA-833 determination if the MBR or SSID does
+not indicate stat blind and you have information that indicates a visual impairment.

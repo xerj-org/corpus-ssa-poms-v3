@@ -1,0 +1,404 @@
+SSA Program Operations Manual System (POMS) - GN 02603.060 - Deduction Before Reduction Examples
+Effective Dates: 12/16/2011 - Present | TN 11 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202603060 (fetched 2026-10-04)
+
+A. Examples of permanent full deductions
+1. Full deduction
+The primary insurance amount (PIA) is $300.40 and the family maximum is $548.40. A
+parent (E) and three surviving children (C3, 2, 1) are entitled. E is subject to a
+full deduction. The original benefit for each of them (75% of the PIA) is $225.30.
+The total original benefit (TOTOB) is 225.30 x 4 survivors (E, C3, C2, and C1). The
+adjusted benefit is the rate initially payable. That is $548.40 divided by 4 individuals
+= 137.10.
+Using the formula in GN 02603.050C.2. to compute the readjusted rate, each C rate is:
+_______OB x PTAP_________ = 225.30 x 548.40 = 182.80
+TOTOB – OB for E 901.20 – 225.30
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED BENEFIT
+READJUSTED RATE
+E
+225.30
+137.10
+0
+C3
+225.30
+137.10
+182.80
+C2
+225.30
+137.10
+182.80
+C1
+225.30
+137.10
+182.80
+Because only one deduction applies we can disregard E and divide the $548.40 by three
+as explained in GN 02603.050B. Each C will receive $182.80.
+2. Full deduction and deduction amount exceeds the adjusted benefit
+The PIA is $300.40 and the family maximum is $548.40. A parent (E) and two children
+(C2, 1) are entitled to benefits. The original benefit for each of them (75% of the
+PIA) is $225.30. The adjusted benefit is the rate initially payable. The total original
+benefit (TOTOB) is 225.30 x 2 survivors (E, C1). We do not include the share for C2
+since C2 is subject to a full deduction. That is $548.40 divided by 2 individuals
+= 225.30.
+Using the formula in GN 02603.50C.2. the rate for E and C1 is:
+_______OB x PTAP_________ = 225.30 x 548.40 = 274.20
+TOTOB – OB for C2 675.90 – 225.30
+Since the result is greater than the OB, E and C1 will only receive the OB of 225.30.
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED BENEFIT
+READJUSTED RATE
+E
+225.30
+182.80
+225.30
+C2
+225.30
+182.80
+0
+C1
+225.30
+182.80
+225.30
+Because only one deduction applies, we can disregard C2 and divide the $548.40 by
+2 as explained in GN 02603.050B, E and C1 could each be entitled to $274.20 However, each is limited to the OB of
+$225.30.
+3. Full work deduction and WC/PDB offset is Involved
+The PIA is $600.00 and the family maximum is $900.00. The number holder, a spouse
+(HB2) and three children (HC3, 2, 1) are entitled. Each auxiliary is subject to WC
+or PDB offset of $10.00. HB2 is also subject to a full work deduction. Using the formula,
+each HC rate is:
+_______OB x PTAP*_________ = 300.00 x 290.00 = 96.60
+TOTOB – OB for HB2 1200.00 – 300.00
+*Derive the PTAP ($290.00) by subtracting the PIA ($600.00) and the WC or PDB offset
+amount ($10.00) from the family maximum ($900.00).
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED BENEFIT
+AFTER WC or PDB
+READJUSTED RATE
+AFTER WC or PDB
+HB2
+300.00
+75.00
+65.00
+0 .00
+0 .00
+HC3
+300.00
+75.00
+65.00
+96.60
+86.60
+HC2
+300.00
+75.00
+65.00
+96.60
+86.60
+HC1
+300.00
+75.00
+65.00
+96.60
+86.60
+4. Full deduction for dual entitlement and WC or PDB offset is involved
+A disabled wage earner is entitled to a PIA of $289.40 and a family maximum of $434.10.
+A spouse (HB) and two children from a prior marriage (HC2, 1) are entitled. The spouse
+is full retirement age (FRA). Each auxiliary is entitled to $48.20 reduced to $6.80
+after WC or PDB offset. HB becomes entitled on their own record to a PIA of $140.00
+that is less than one-half of the $289.40. A combined family maximum (CFM) does not
+apply. Adjust their benefit as a spouse to $0.00 (it does not terminate). Under the
+old rule, rates to HC2 and HC1 do not change.
+Under the new rule if this case meets the criteria in GN 02603.045, disregard HB’s entitlement; HC2, and HC1 would each be entitled to $72.30. WC or
+PDB offset would make HC2 and HC1 each due $10.20 after offset. (For more information
+on redistributing the WC, see DI 52150.070)
+Using the formula, each HC rate is:
+_______OB x PTAP_________ = 144.70 x 144.70 = 72.30
+TOTOB – OB for HB 434.10 – 144.70
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+AFTER
+WC or PDB
+HB
+144.70
+0.00
+0.00
+HC2
+144.70
+72.30
+10.20
+HC1
+144.70
+72.30
+10.20
+For a more complex example involving the Parisi court decision along with workers' compensation, protected increases and combined family maximums,
+see Example 5 in DI 52150.055.
+5. Full deduction for dual entitlement
+The PIA is $400.00 and the family maximum is $650.00. A number holder, spouse (B),
+and two children (C2, C1,) from a prior marriage are entitled.
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+A
+400.00
+400.00
+B
+200.00
+83.30
+C2
+200.00
+83.30
+C1
+200.00
+83.30
+B becomes entitled on their own record. Their PIA is $100.00 and because they are
+FRA, they are entitled to an unreduced benefit of $100.00. A CFM does not apply. Their
+benefit as a B does not terminate because their own PIA is less than 1 /2 the PIA
+on that record. Therefore, they are technically entitled as a B. Adjust their rate
+to $0.00. Under the old procedure, the children would have continued to receive $83.30
+each. Under the new procedure, the children will receive more because of B's reduced
+rate. Because there are no other deduction events, we can disregard B and divide the
+$250.00 by two. C2, C1 are each due $125.00.
+It may appear that we can just redistribute B's $83.30. However, because of rounding
+each child would then be due $124.90 and lose $0.10. Instead, we must redistribute
+the maximum to the two children. Each is then due $125.00.
+Using the formula in GN 02603.050C also yields a benefit of $125.00 each.
+_______OB x PTAP*_________ = 200.00 x 250.00 = 125.00
+TOTOB – OB for B 600.00 – 200.00
+*PTAP = family maximum minus PIA = 650.00 – 400.00 = 250.00
+The rates payable are then:
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+READJUSTED RATE
+A
+400.00
+400.00
+400.00
+B
+200.00
+83.30
+0.00 (100.00 on their own record)
+C2
+200.00
+83.30
+125.00
+C1
+200.00
+83.30
+125.00
+6. Full deduction because of dual entitlement with combined family maximum
+The PIA is $400.00 and the family maximum is $650.00. A number holder, spouse (B),
+and three children (C3, C2, C1) are entitled.
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+A
+400.00
+400.00
+B
+200.00
+62.50
+C3
+200.00
+62.50
+C2
+200.00
+62.50
+C1
+200.00
+62.50
+B and the children become entitled on B's record. B's PIA is $160.00 and the maximum
+is $280.00. Rates will change on the first record because of the new combined family
+maximum of $930.00.
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+A
+400.00
+400.00
+B
+200.00
+132.50
+C3
+200.00
+132.50
+C2
+200.00
+132.50
+C1
+200.00
+132.50
+Because B is FRA, they are entitled to an unreduced benefit of $160.00. Their benefit
+as a B does not terminate because their own PIA is less than 1/2 the PIA on that record.
+They are therefore technically entitled as a B. Adjust B's rate to $0.00. Under the
+old rule, rates for the children would not increase. Under the new rule, using the
+formula in GN 02603.050C each C rate is:
+_______OB x PTAP*_________ = 200.00 x 530.00 = 176.60
+TOTOB – OB for B 800.00 – 200.00
+*PTAP = family maximum minus PIA = 930.00 – 400.00 = 530.00
+The rates payable are then:
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED BENEFIT
+READJUSTED RATE
+A
+400.00
+400.00
+400.00
+B
+200.00
+132.50
+0.00 (160.00 on their own record
+C3
+200.00
+132.50
+176.60
+C2
+200.00
+132.50
+176.60
+C1
+200.00
+132.50
+176.60
+7. Full deduction because of dual entitlement and combined family maximum allows increase
+for the dually entitled person
+The PIA is $400.00 and the family maximum is $650.00. A number holder, (A) spouse
+(B), and one child (C1) are entitled.
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+A
+400.00
+400.00
+B
+200.00
+125.00
+C1
+200.00
+125.00
+B and C1 become entitled on B’s own record. B's PIA is $160.00 and the maximum is
+$280.00. Because B is FRA, B is entitled to an unreduced benefit of $160.00. Their
+benefit as a B does not terminate because their own PIA is less than 1/2 the PIA on
+that record. Therefore, they are technically entitled as a B. Adjust B's rate to $0.00.
+Under the new rule, we can disregard B's entitlement and pay C1 the full OB of $200.00.
+Using the formula in GN 02603.050C will also C1's rate as $200.00.
+_______OB x PTAP*_________ = 200.00 x 250.00 = 250.00
+TOTOB – OB for B 400.00 – 200.00
+*PTAP = family maximum minus PIA = 650.00 – 400.00 = 250.00
+Since the result is greater than the OB rate and C1 cannot receive more than the OB
+amount, only the OB of $200.00 is payable.
+When using either method to compute C1's rate, the result is that C1 will receive
+the full OB. This might lead one to assume that there is no reason to consider a combined
+family maximum (CFM.) However, when combining the maximums, B would also be entitled
+to their full OB before making the deduction for dual entitlement. Their rate as a
+B would then be $40.00. ($200.00 minus their own PIA of $160.00.)
+The rates payable are $400.00 to A, $40.00 to B (plus $160.00 on their own record)
+and $200.00 to C1.
+NOTE: The same rates are therefore payable using either the old or the new rule.
+8. Full deduction because of dual entitlement and age reduction applies to the dually
+entitled person
+The PIA is $400.00 and the family maximum is $650.00. A number holder, spouse (B),
+and two children (C2, C1) from a prior marriage are entitled. B is age 62 and reduced
+for age; the children are in another household and not in their care.
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+A
+400.00
+400.00
+B
+200.00
+62.40 (83.30 reduced for age)
+C2
+200.00
+83.30
+C1
+200.00
+83.30
+B is entitled on their own record. A CFM does not apply. Their PIA is $100.00 and
+because their month of entitlement (MOET) is 36 months prior to FRA, reduce their
+benefit to $80.00. Their benefit as a B does not terminate because their own PIA is
+less than 1/2 the PIA on that record. Therefore, they are technically entitled as
+a B. Reduce their rate to $0.00. Under the old procedure, the children would have
+continued to receive $83.30 each. Using the formula in GN 02603.050 their rates would have been:
+_______OB x PTAP*_________ = 200.00 x 166.70 = 83.30
+TOTOB – OB for B 600.00 – 200.00
+*PTAP = 650.00 – 400.00 – 83.30 = 166.70
+Under the new procedure described in GN 02603.045, the children will receive more because of B's dual entitlement. Using the formula
+in GN 02603.050, each C rate is:
+_______OB x PTAP*_________ = 200.00 x 250.00 = 125.00
+TOTOB – OB for B 600.00 – 200.00
+*PTAP = 650.00 – 400.00 = 250.00
+The PTAP = 650.00 - 400.00 = 250.00
+The rates payable are 400.00 to A, 0.00 to B (80.00 on B's own record), 125.00 to
+C2, and 125.00 to C1.
+This example shows that B's age reduction has no effect because we consider their
+dual entitlement first. Therefore this case can be worked using the method in GN 02603.050B. Disregard B's entitlement and divide the maximum two ways. C2 and C1 are each due
+$125.00.
+9. Full deduction because of dual entitlement and age reduction applies to another beneficiary
+The PIA is $600.00 and the family maximum is $900.00. A number holder, spouse (B)
+and two children (C1, C2) from a prior marriage are entitled. B receives a reduced
+benefit because their MOET is 36 months prior to their full retirement age (FRA);
+the children are in another household and not in their care. The B is not entitled
+on their own record.
+BIC
+ORIGINAL BENEFIT
+ADJUSTED
+BENEFIT
+A
+600.00
+600.00
+B
+300.00
+75.00 (100.00 reduced for age)
+C2
+300.00
+100.00
+C1
+300.00
+100.00
+C2 becomes entitled to disability benefits on their own record. C2’s own PIA is $200.00.
+The benefit as C2 does not terminate, but is reduced it to $0.00. Under the old procedure,
+the rates of the other auxiliaries would not change because of C2’s dual entitlement.
+Under the new procedure described in GN 02603.045, the other auxiliaries will receive an increase because of C2's reduced rate. We
+can disregard C2 and distribute the $300.00 to B and C1 or use the formula:
+_______OB x PTAP*_________ = 300.00 x 300.00 = 150.00
+TOTOB – OB for C2 900.00 – 300.00
+*PTAP = 900.00 – 600.00 = 300.00
+Either way, we would apply B's age reduction to the result.
+The rates payable are then:
+BIC
+ORIGINAL BENEFIT
+ADJUSTED BENEFIT
+READJUSTED
+RATE
+A
+600.00
+600.00
+600.00
+B
+300.00
+75.00
+112.50 (150.00 reduced for age)
+C2
+300.00
+100.00
+0.00 (200.00 on own record)
+C1
+300.00
+100.00
+150.00

@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - DI 52165.030 - Interactive Computations Facility (ICF) Workers’ Compensation/Public Disability Benefit (WC/PDB) Notices
+Effective Dates: 02/19/2016 - Present | TN 6 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165030 (fetched 2026-10-04)
+
+C. Preparing the ICF notice for dictated language
+1. When dictated language may be necessary
+Dictated language may be necessary if:
+•
+MADCAP paragraphs do not adequately provide all necessary notice information.
+•
+Enclosure Notice Block (ENB) characters exceed the 445 maximum amount allowed. If
+the notice exceeds 445 characters, use either dictated language in ICF or prepare form SSA-573 Special Typing Instructions- not both. (The PC processes SSA-573 notice instructions.)
+2. Where to code dictated language in ICF
+Code dictated language on the following two ICF screens:
+•
+WCDL (Dictated Notice Language - Primary)
+•
+WCNA (Auxiliary Notice Data) - this screen includes both the ENB field for MADCAP
+paragraphs and a dictated language field for dictated text.
+3. How to add dictated language (text, tables, charts) on the ICF screens
+To add dictated language, code either of the following UTIs in the ENB field:
+•
+AAA031 - for dictated language (i.e., text)
+•
+TBL019 - to construct a table or chart
+You can use both UTIs multiple times at different points in the notice. However, do
+not code the same UTI back-to-back (for example, do not code C*AAA031*AAA031*etc).
+Place AAA031 or TBL019 where you want the dictated language or chart to appear:
+EXAMPLE#1 - WCEP (Enclosure Notice Block - Primary) Screen:
+ENB: C*WCP012,10/2010*AAA031*TBL019*WCPR22,4200.00*AAA031.
+After completing the ENB with AAA031 or TBL019, answer “Y” to the question “Dictated
+Language Needed?” on the WCEP screen to generate the WCDL screen for the number holder
+(NH). When MADCAP encounters a # sign in the dictated language, it returns to the
+ENB until it encounters another AAA031 (or TBL019), then it returns to the dictated
+language portion of the notice.
+NOTE: For auxiliary notices, code both MADCAP paragraphs and dictated language on the WCNA screen.
+EXAMPLE #2 - NH notice with dictated language and chart:
+WCEP (Enclosure Notice Block - Primary) screen:
+WCDL (Dictated Notice Language - Primary) Screen:
+Our records show that we paid you $700.00 more than you
+are due for January 2010 through December
+2010.
+Date
+Paid
+Payable
+Difference
+Overpaid
+January 2010
+April 2010
+$1,402.00
+$1,392.00
+$10.00
+$40.00
+May 2010
+October 2010
+$1,402.00
+$1,397.00
+$5.00
+$30.00
+November 2010
+December 2010
+$1,402.00
+$1,087.00
+$315.00
+$630.00
+Total Overpayment
+$700.00#

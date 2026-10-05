@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 11015.010 - Field Office (FO) Processing of a Disabled Widow(er)s Case in the Electronic Disability Collect System (EDCS)
+Effective Dates: 04/09/2012 - Present | TN 31 (10-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015010 (fetched 2026-10-04)
+
+A. Create the certified electronic folder (CEF) via EDCS
+Once the claimant files the necessary application(s) (e.g., SSA-10), completion of
+the Disabled Widow(er)s Benefit (DWB) claim follows the same process as a Disability
+Insurance Benefit (DIB) claim. Establish the DWB case in EDCS under the claimants
+own Social Security number (SSN) to create the CEF to house specific disability-related
+claim information.
+NOTE: Also establish cases that do not require a new application (i.e., conversion from
+widows benefits to DWB) in EDCS as MCS-exclusion cases per DI 81010.020B.
+EDCS computes the required fields for the prescribed period and the controlling date
+on the Prior Filing page of the 3367 Disability Report - Field Office. However, for
+widow(er)s (E beneficiaries) who are filing for DWB, do not use the EDCS computation.
+Instead, use the chart in DI 11005.050C to manually compute the controlling date and then enter it in EDCS.
+References:
+•
+DI 11005.016 Forms Used in Disability Claims
+•
+DI 81010.025 Completing Electronic Disability Collect System (EDCS) Forms for Initial Claims
+•
+RS 00207.005 Widow(er)s Benefits Conversion of Benefits Policy

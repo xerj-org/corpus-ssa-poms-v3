@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - GN 02610.035 - Computing Manual Windfall Offset Amount
+Effective Dates: 01/06/2011 - Present | TN 23 (05-13)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610035 (fetched 2026-10-04)
+
+A. When the system cannot compute the offset amounts
+The system automates the windfall offset computation for most cases. However, the
+field office (FO) must manually compute the offset amount for cases where the system
+cannot automate the computation.
+1. Situations that require the FO to manually compute the offset amount
+We require the FO to manually compute the offset amount when:
+•
+The Processing Center (PC) sends an SSA-e4345, Record of Manual Title II Offset Computation
+to the FO, or the FO receives a system diary for an offset computation and the FO
+cannot trigger an automated computation due to one of the limitations described in
+SM 01320.120. For additional information on how to trigger an automated title II offset
+computation, see SM 01320.100.
+•
+Dual entitlement exists and the FO cannot trigger an automated computation. For additional
+information on 7W diaries associated with dual entitlement cases, see SM 01320.013B.
+•
+A recomputation of the offset applies. For additional information on the recomputation
+of title II offset, see GN 02610.016, SI 02006.200, and SM 01320.400.
+Reference information the FO needs to compute manual offset
+For information about:
+•
+How to process windfall offset, see GN 02610.016 and SM 01320.005.
+•
+Computing benefits for title XVI, see SI 02005.001.
+•
+Determining the offset period, see GN 02610.022.
+•
+eComputations, see SSI eComputations User Guide.
+•
+Using the SSA-4968, Retrospective Monthly Accounting (RMA) Payment Worksheet, see
+SI 02005.090.
+•
+Using the SSA-4346, Supplemental Security Income (SSI) Offset Summary Form to compute
+the offset amount, see GN 02610.045.
+•
+The meaning and resolution of windfall offset diaries and alerts, see SM 01320.010C.
+•
+Situations where the FO initiates the record of manual title II offset computation,
+SSA-e4345, see GN 02610.010C.
+•
+Windfall offset data on the Master Beneficiary Record (MBR), see SM 00510.150.
+•
+How to post results of a manual title II offset computations to the Supplemental Security
+Record (SSR), see SM 01320.201.
+•
+How to process cases when we release the title II retroactive benefits erroneously
+before applying windfall offset, see GN 02610.050.
+•
+How to compute manual title II offset for both members of an SSI couple simultaneously,
+see GN 02610.040.
+•
+How to post a manual title II offset result to a couple’s record, see SM 01320.204.
+•
+How to process a negative or excess manual title II offset computation, see SM 01320.206.
+2. Reference information the PC needs to compute manual offset
+For information about how to:
+•
+Read offset data on the SSR, see SM 01601.820.
+•
+Post offset data to MBR, see SM 00815.001 and SM 00815.500.
+•
+Complete the SSA-e4345, see GN 02610.047 and GN 02610.049.
+•
+Process Administrative Law Judge (ALJ) decisions when windfall offset is involved,
+see GN 02610.055.
+•
+Processing offset with representative fees involved, see GN 02610.053.
+•
+Process offset with a collectible title XVI overpayment, see SI 02220.021.
+•
+Process complex windfall offset situations, see GN
+02610.050.

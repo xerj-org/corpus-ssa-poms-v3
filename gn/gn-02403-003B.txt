@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - GN 02403.003 - The Field Office Remittance Input
+Effective Dates: 03/10/2026 - Present | TN 62 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403003 (fetched 2026-10-04)
+
+B. Procedure - Field Office remittance input
+Follow MS 01103.006 to input the remittance into DMS.
+Use the following procedures to complete the input process:
+1.
+Did DMS print the receipt and payment coupon or both?
+•
+If yes, remove the automated receipt(s)/payment coupon(s) from the printer, go to step 2.
+•
+If no, go to step 3.
+2.
+Is the receipt(s)/payment coupon(s) damaged, illegible, or does it contain incorrect
+information?
+•
+If yes, go to step 3.
+•
+If no, go to step 6.
+3.
+Request a Correct Field Office Receipt screen (RCFR), see MS 01103.022) for using
+the receipt number or the FO code and date fields for each:
+•
+account DMS did not print a receipt/payment coupon for, or
+•
+damaged, illegible, or incorrect receipt/payment coupon.
+Go to step 4.
+4.
+Change the account name field to either add or delete the middle initial (create one
+if the person does not have a middle initial) to replace a damaged or illegible receipt/payment
+coupon or correct the incorrect information. (Since DMS has no procedure for issuing
+a duplicate receipt/payment coupon, this “tricks” the system to make a change, rather
+than a duplicate). If appropriate, annotate the remittance ID field to indicate that
+FO correction was performed because the original receipt/payment coupon did not print.
+RESULT: DMS will send a corrected receipt/payment coupon to the printer. The corrected receipt
+can be given to the remitter and the payment coupon can be forwarded along with the
+remittance to MATPSC.
+Remove the "made up” entry after producing the corrected receipt.
+Go to step 5.
+5.
+Is the information on the new automated receipt(s)/payment coupon(s) correct?
+•
+If yes, go to step 6.
+•
+If no, repeat correction process in step 3.
+6.
+Did the remitter submit an unendorsed returned benefit check(s)?
+•
+If yes, write the automated receipt number(s) on the check(s). (When making an input to
+DMS, code the REASON field with B. See MS 01103.001C).
+REFERENCE: GN 02405.010 and GN 02405.100 explain unendorsed returned benefit checks.
+Go to step 8.
+•
+If no, go to step 7.
+7.
+Is the remittance cash?
+•
+If yes, prepare a cash log (see GN 02403.010) with the following information, and give to the remittance clerk: account number,
+automated receipt number(s).
+•
+If no, on the remittance write the account number(s) and receipt number(s).
+Go to step 8.
+8.
+Give the remittance and any related documentation, including the payment coupon or
+forwarding instruction sheet to the Remittance Clerk.
+9.
+Is the remitter present?
+•
+If yes, give the remitter the receipt(s).
+•
+If no, mail the remitter the receipt(s).
+10.
+Tear off the FO coupon, attach the remittance to it, and forward to MATPSC along with
+the FORT and CCFORT at the end of each business day. If the day’s FORT and remittances
+cannot be mailed the same day that the FORT is produced, they should be secured and
+mailed the next business day. Remember that MATPSC will use the coupon
+to process the remittance via a
+scanner; therefore, please be careful
+when
+separating it from the rest of the sheet. Please avoid jagged
+edges; do not staple remittances to the coupons.
+IMPORTANT: Do not send the forwarding instruction sheet. Destroy it.
+References:
+MS 01103.006 Field Office Remittance Input (RFOR)
+MS 01103.022 Correct Field Office Receipt (RCFR)
+GN 02405.010 How to Process Unendorsed Title II Returned Treasury Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the Field Office
+GN 02405.100 How to Process Unendorsed Title XVI Returned Benefit Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the Field Office
+GN 02403.010 Completing the Cash Log

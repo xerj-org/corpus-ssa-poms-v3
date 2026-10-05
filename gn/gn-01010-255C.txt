@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 01010.255 - Adjudication of Foreign Claims
+Effective Dates: 12/08/2014 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010255 (fetched 2026-10-04)
+
+C. Procedure for foreign claims
+When appropriate, handle foreign address claims as a FO to FO transfer to the component
+in IBO serving as a FO (i.e., E15) or as a FO to Processing Center (PC) transfer to
+PC8, depending on which component has adjudicative authority, see GN 01010.001B.11.
+1. Diaries & listings
+Input diaries or listings on the Modernized Claims System (MCS) decision (DECI) screen
+(see MSOM MCS 009.013). This input will interface with the Processing Center Action
+Control System (PCACS) per MSOM PCACS 001.001 and establish the diary or listing.
+If the report of contact (RPOC) screen is available, document the details of the diary code(s) and all issues under development, or justification for the listing.
+If no RPOC screens are available, annotate a paper report of contact (RC) with the
+above information and alert the PC on the printed routing screen or paper form.
+EXCEPTIONS: If you process the claim manually (e.g., automate 101 (A101)), the diary or listing
+must be established in OIO. Annotate the RPOC, A101 Benefit Continuity Remarks/Notice
+(BCRN) screen or the paper SSA-3601 with the applicable diary listing code(s) and
+all issues under development.
+2. Completion of miscellaneous entries
+a. Consular codes
+Show the consular code on the account data (ACCT) screen of the A101. For a list of
+geographic and consular codes, see NL 01510.001. Show the 5-digit geographic code in lieu of State and County code information.
+b. Non-Citizen (alien) exception
+Show non-citizen exception codes on the Alien Taxation (FCAC) screen (MSOM MCS 009.006
+FCAC), the Benefit Continuity Remarks/Notice (BCRN) screen of the A101 (MSOM MCS 014.006)
+or the Electronic Form 101 (EF101). Show a code for each beneficiary and for the deceased
+number holder (NH) if you award a Lump Sum Death Payment (LSDP).
+NOTE: The system generates an exception based on information provided on the SSA-21 (Supplement
+to Claim of Person outside the U.S.). Guidelines for the use of the SSA-21 are in
+GN 00205.170 and GN 00205.185.
+If the non-citizen is subject to the withholding tax provision of the 1983 amendments,
+show the withholding status code (WSC) for each beneficiary on the FCAC screen. See
+MSOM MCS 014.006, for coding requirements. For guidelines in determining whether a
+beneficiary is subject to withholding see GN 05010.001. Alert OIO on the appropriate printed transmittal screen or paper form to put the
+WSC on the Master Beneficiary Record (MBR) when withholding is necessary.
+c. Canadian addresses
+Enter the Canadian postal code as the sole entry on the last line of the address as
+required by the Canadian Postal authorities.
+EXAMPLE:
+John Doe
+23 Poole Street
+Norval, On., Canada
+LOP 1KO
+d. Student provisions
+Verify full time attendance for all students outside of the U.S. (see RS 00205.700). Send the SSA-1372-BK-FC form to every student awarded monthly benefits. When authorizing
+an award to a student outside of the U.S., include the remark “SEND SSA-1372-BK-FC
+TO C (SUBSCRIPT)” on RPOC, BCRN, SP MSG and the printed routing screen or paper form.
+The SSA-1383-FC is self-explanatory and there is no need to send it with the award
+notice.

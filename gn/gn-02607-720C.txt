@@ -1,0 +1,141 @@
+SSA Program Operations Manual System (POMS) - GN 02607.720 - Processing Cases Through PUPS Where the Inmate Is Not Currently Convicted/Commitment
+Effective Dates: 09/04/2007 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607720 (fetched 2026-10-04)
+
+C. Procedure - FO Instructions - Beneficiary is not Currently Convicted or not Found
+NGRI, Incompetent to Stand Trial, or Sexually Dangerous
+1. Conviction/Commitment Status Pending - SSA is Developing for Trial Date -
+Based on the results of the current development efforts:
+If the conviction or commitment status is pending (e.g., charged but not convicted,
+not confined pending appeal (conviction date has not been posted to the PUPS record
+yet), confined but awaiting trial, psychological evaluation pending, out on bail,
+released on own recognizance, etc.), take the following steps:
+STATUS OF PUPS RECORD
+STEPS INVOLVED IN PROCESSING TRIAL
+PENDING ANNOTATION
+PUPS RECORD is annotated with following key entries:
+PUPS RECORD STATUS:
+“PENDING”
+DATA ENTRIES ON PUPS RECORD:
+CONVICTION DATE: Blank
+RELEASED
+DATE: Blank or Date Entered
+Identify the PUPS record to be updated and update the PUPS record using code "8- TRIAL
+PENDING" on the PUO2 screen.
+Complete the "EXPECTED TRIAL DATE" field on the PUPS report. This date should reflect
+the date the beneficiary will go to trial for their crime or the date the court will
+issue the court order for commitment. See GN 02607.720C.2. for instructions on annotating the correct EXPECTED TRIAL DATE to the PUPS report
+with a STATUS of TRIAL PENDING.
+Annotate the REMARKS screen with the jurisdiction where the trial/appeal is pending.
+NOTE: Do not close the PUPS record as "NO SUSPENSION" and do not post a conviction/commitment date to the PUPS record if the date of conviction or
+date of the court order for commitment is not known
+These actions will close the title II PUPS report, if it is PENDING.
+PUPS RECORD is Annotated with following key entries:
+PUPS RECORD T2 STATUS:
+“NO
+SUSPENSION”
+DATA ENTRIES ON PUPS RECORD:
+CONVICTION
+DATE: Blank
+RELEASED DATE: Blank or Date Entered
+Identify the PUPS record to be updated and update the PUPS record using code "7" -
+REOPENING. This will reopen a closed PUPS report.
+Update the reopened PUPS record with code "8- TRIAL PENDING" on the PUO2 screen.
+Complete the "EXPECTED TRIAL DATE" field on the PUPS report. This date should reflect
+the date the beneficiary will go to trial for their crime or the date the court will
+issue the court order for commitment. See GN 02607.720C.2. for instructions on annotating the correct EXPECTED TRIAL DATE to the PUPS report
+with a STATUS of TRIAL PENDING.
+Annotate the REMARKS screen with the jurisdiction where the trial/appeal is pending.
+NOTE: Do not close the PUPS record as "NO SUSPENSION" and do not post a conviction/commitment date to the PUPS record if the date of conviction or
+date of the court order for commitment is not known
+This will close the title II PUPS report, if it is PENDING.
+PUPS RECORD is Annotated with following key entries:
+PUPS RECORD T2 STATUS:
+“PENDING”
+DATA ENTRIES ON PUPS RECORD
+CONVICTION DATE: Date Entered in MM/DD/YYYY format
+RELEASED DATE: Blank or Date Entered in MM/DD/YYYY format
+You cannot update a PUPS PENDING record with a TRIAL PENDING date if the PUPS record
+contains or had contained a conviction date. If an input is done and the PUPS record
+has or had a conviction date posted to the record, either currently or in the past,
+the following error message will appear at the bottom of the screen, INVALID TYPE
+OF ACTION-CONVICTION DATE PRESENT. (This alert will be created even if a prior conviction
+date was deleted. This is because PUPS keeps an ongoing history record of all transactions
+done for a particular confinement event.) When this situation is encountered, close
+the Title II PUPS PENDING record as a “NO SUSPENSION”.
+Continue processing the new PUPS record as indicated in the last block in the chart
+located in GN 02607.720C.1.
+PUPS RECORD is Annotated with following key entries:
+PUPS RECORD T2 STATUS:
+“NO
+SUSPENSION”
+DATA ENTRIES ON PUPS RECORD
+CONVICTION
+DATE: Date Entered in MM/DD/YYYY format
+RELEASED
+DATE: Blank or Date Entered in MM/DD/YYYY format
+You cannot update a PUPS record with a TRIAL PENDING" date if the PUPS record was
+closed as “NO SUSPENSION” and the record contains a conviction date. Leave this PUPS
+record alone and create a new PUPS record.
+Establish a new PUPS record with the same inmate information on the prior PUPS record
+that was closed as NO SUSPENSION with the conviction date, except for the date of confinement. The date of confinement on the new PUPS record must
+equal:
+Day of confinement from the prior PUPS record + 1 day.
+NOTE
+(1) There is a PUPS edit that does not allow you to establish a new PUPS record with the
+same day of confinement that already exists on PUPS. Increase the day of confinement
+by 1 day to allow PUPS to establish the new PUPS record.
+NOTE (2): Do not add the date of conviction date to the new PUPS record.
+Update the PUPS record using code "8- TRIAL PENDING" on the PUO2 screen. This will
+close the title II PUPS report.
+Complete the "EXPECTED TRIAL DATE" field on the PUPS report. This date should reflect
+the date the beneficiary will go to trial for their crime or the date the court will
+issue the court order for commitment. See GN 02607.720C.2. for instructions on annotating the correct EXPECTED TRIAL DATE to the PUPS report
+with a STATUS of TRIAL PENDING.
+Annotate the REMARKS screen with the jurisdiction where the trial/appeal is pending.
+When the EXPECTED TRIAL DATE is reached, PUPS changes the record back to a PENDING
+record. (When the case reverts to a PUPS PENDING record it will start with zero days
+in pending status.)
+PUPS will not generate a new paper alert when the status is changed from TRIAL PENDING to PENDING.
+Instead the PENDING SSN will appear on the FO PTMI pending list.
+NOTE: If you cannot obtain a trial date, process per GN 02607.720C.2.
+2. EXPECTED TRIAL DATE Entries
+Develop to obtain the EXPECTED TRIAL DATE entry as shown below:
+•
+Contact the beneficiary or representative payee source to obtain the expected trial
+date for the beneficiary or the date the court will issue the order of commitment.
+Post the date the beneficiary or representative payee provides to SSA as the EXPECTED
+TRIAL DATE entry on the PUPS record. Add REMARKS to the PUPS record to explain where
+the information came from and why you are posting this date to the EXPECTED TRIAL
+DATE entry to the PUPS record.
+•
+If the beneficiary or representative payee cannot provide the expected trial date
+or the expected commitment date, develop to the third party sources as listed in GN 02607.680. Post the date the third party source provides to SSA as the EXPECTED TRIAL DATE
+entry on the PUPS record.
+•
+If the EXPECTED TRIAL DATE matures and PUPS has changed the record back to pending,
+determine if the beneficiary actually went to court on the EXPECTED TRIAL DATE. If
+they did not, obtain a new court date for the beneficiary and enter this date as the
+new EXPECTED TRIAL DATE.
+•
+If you cannot obtain a new court date, add 60 days to the current date and enter this
+date in the EXPECTED TRIAL DATE field. Add REMARKS to the PUPS record to explain that
+you are posting the fictitious EXPECTED TRIAL DATE entry to the PUPS record.
+NOTE: If SSA learns of the beneficiary's conviction date or court order of commitment date
+before the EXPECTED TRIAL DATE diary is scheduled to mature, suspend benefits per
+GN 02607.730B.
+•
+If you still cannot obtain an approximate court date from the beneficiary, representative
+payee or third party sources after the diary matures, add 60 more days to the current
+date. Post this date as the EXPECTED TRIAL DATE entry on the PUPS record. Add additional
+REMARKS to the existing REMARKS on the PUPS record to explain that you are still waiting
+a conviction/commitment date. (Keep a running chronological history of your attempts
+to obtain an expected conviction/commitment date in the PUPS PMRK screen.) You will
+continue repeating this diary action until you finally receive an accurate EXPECTED
+TRIAL DATE.
+3. SSA Receives Information on Beneficiary's Conviction or Commitment - EXPECTED TRIAL
+DATE - Diary Not Matured
+After the beneficiary goes to court and a decision is made about their case, obtain
+the conviction/commitment date and post it to the PUPS TRIAL PENDING record using
+TYPE OF ACTION of 7 REOPENING. The PUPS system will reopen the PUPS record to a PENDING.
+Process the suspension per GN 02607.730.

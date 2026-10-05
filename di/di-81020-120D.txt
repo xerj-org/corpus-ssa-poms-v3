@@ -1,0 +1,115 @@
+SSA Program Operations Manual System (POMS) - DI 81020.120 - Subsequent Claim Filed While a Prior Claim or Appeal is Pending at the Appeals Council (AC)
+Effective Dates: 01/25/2017 - Present | TN 13 (08-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020120 (fetched 2026-10-04)
+
+D. DDS electronic processing issues applicable to subsequent claims
+The AC takes action on a pending appeal while a subsequent claim is pending in the
+DDS or OQR. The following provides instructions for when the claim is or is not selected
+for OQR review and for the DDS case processing system versions.
+1. AC appeal is remanded to the Hearing Office (HO) while the subsequent claim is pending
+at the DDS or OQR
+If the AC appeal is remanded to the HO while a subsequent claim is pending at the
+DDS or OQR and the HO determines a common issue exists, the HO adds a message to the
+subsequent claim in eView advising the DDS to “Stop Processing Duplicate Claim.”
+If the claim is not selected for OQR review is:
+•
+Close the claim with a No Determination (ND) with ND reason “Stopped Processing Duplicate
+Claim”; and
+•
+Return the claim to the servicing FO.
+NOTE: EFI automatically adds a new document, SSA-5058 Subsequent Application Duplicate,
+to the red section of the electronic folder (EF), stating “Processing Stopped because
+the claim became a duplicate claim on (MM/DD/YYYY), at the request of the Appeal Council
+or Hearing Office.”
+If the claim is selected for OQR review:
+•
+Annotate “Do Not Process” next to the SSA-831 in eView [see GN 04440.232 Non-substantive Technical Corrective Actions (TCAs)];
+•
+Close the claim with an ND with ND reason “Stopped Processing Duplicate Claim”; and
+•
+Send the claim to OQR or to the servicing FO.
+A message is automatically posted to the Actions Page notifying the FO of the ND.
+NOTE: EFI automatically adds an SSA-5058 to the red section of the EF stating, “Processing
+Stopped because the claim became a duplicate claim on (MM/DD/YYYY), at the request
+of the Appeals Council or Hearing Office.”
+2. The AC makes a fully favorable decision on an appeal while the subsequent claim is
+pending at the DDS
+If the AC makes a fully favorable decision on an appeal and a subsequent claim is
+pending at the DDS, a message is automatically sent to the subsequent claim notifying
+the DDS of the decision, “AC made a fully favorable decision on an earlier filed application
+for this SSN (insert SSN). Stop Processing Subsequent Application.”
+If the claim is not selected for OQR review:
+•
+Close the claim with an ND with ND reason “Stopped Processing Duplicate Claim”; and
+•
+Return the claim to the servicing FO.
+NOTE: EFI automatically adds an SSA-5058 to the red section of the EF stating, “Processing
+Stopped because the claim became a duplicate claim on (MM/DD/YYYY), at the request
+of the Appeals Council or Hearing Office.”
+If the claim is selected for OQR review:
+•
+Annotate “Do Not Process” next to the SSA-831 in eView [see GN 04440.232 Non-substantive Technical Corrective Actions (TCAs)];
+•
+Close the claim with an ND with ND reason “Stopped Processing Duplicate Claim”;
+•
+Send the claim to OQR or to the servicing FO.
+NOTE: EFI automatically adds an SSA-5058 to the red section of the EF stating, “Processing
+Stopped because the claim became a duplicate claim on (MM/DD/YYYY), at the request
+of the Appeals Council or Hearing Office.”
+3. The AC makes a partially favorable decision on an appeal while the subsequent claim
+is pending at the DDS
+If the AC makes a partially favorable decision on an appeal and a subsequent claim
+is pending at the DDS, a message is automatically sent to the subsequent claim notifying
+the DDS of the decision, “AC made a (insert decision) on an earlier filed application
+for this SSN (insert SSN).”
+If the established onset date (EOD) in the AC decision is earlier than the alleged
+onset date in the subsequent claim pending at the DDS:
+•
+Prepare a fully favorable determination; and
+•
+Send the claim to OQR or to the servicing FO.
+If the EOD in the AC decision is later than the alleged onset date in the subsequent
+claim:
+•
+Continue current case processing;
+•
+Review the AC decision and determine what issues, if any, remain to be resolved with
+respect to the subsequent claim;
+•
+Prepare a determination; and
+•
+Send the claim to OQR or to the servicing FO.
+If the AC decision is a closed period allowance:
+•
+Continue current case processing;
+•
+Review the AC decision and determine what issues, if any, remain to be resolved with
+respect to the subsequent claim or what effect the AC’s decision has on the pending
+claim;
+•
+Prepare a determination; and
+•
+Send the claim to OQR or to the servicing FO.
+4. The AC makes an unfavorable decision on an appeal while the subsequent claim is pending
+at the DDS
+If the AC makes a decision to dismiss or to deny an appeal when a subsequent claim
+is pending at the DDS, a message is automatically sent to the subsequent claim notifying
+the DDS of the decision, “AC made a (insert decision) on an earlier filed application
+for this SSN (insert SSN)”:
+•
+Continue current case processing;
+•
+Prepare a determination; and
+•
+Send the claim to OQR or to the servicing FO.
+5. The AC makes a favorable decision on an appeal while an informal remand (IR) subsequent
+claim is pending at the DDS
+If the AC makes a favorable decision on an appeal while an IR subsequent claim is
+pending at the DDS and the DDS case processing system is at version 14.0, a message
+is automatically sent to the subsequent claim notifying the DDS of the decision, “AC
+made a fully favorable decision on an earlier filed application for this SSN (insert
+SSN). Stop Processing Duplicate Application”:
+•
+Close the claim with a ND, with ND reason “Hearing Office Recalls Claim (HORC)”; and
+•
+Return the claim to the originating HO that requested the IR.

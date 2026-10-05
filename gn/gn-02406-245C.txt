@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02406.245 - Payment Over Cancellation (POC)/Credit Reversal
+Effective Dates: 10/15/1997 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406245 (fetched 2026-10-04)
+
+C. Procedure to determine status of the courtesy disbursement check
+1. Determine if the courtesy disbursement check has been returned:
+a.
+Title II: Examine PHUS to see if the courtesy disbursement check has been returned.
+If so, no action is necessary.
+b.
+Title XVI: Examine SSR to see if the returned check is indicated by an “S“ in
+Payflag 3.
+2. Courtesy disbursement check not returned:
+a.
+Title II: If the courtesy disbursement check has not been returned, input an F-stop
+through thePESP screen or SSA-4510 web application (MSOM MS 05602.005 and MS 05602.005),
+in order to determine the status of that check (TSCs and FOs will have to request
+that this action be taken by the PC). Obtain the check range and pay date from the
+listings provided by Treasury or from TCIS. Prepare a 30-day PCACS diary to ensure
+that the stop payment processes correctly. Take the appropriate action once the final
+disposition is received from Treasury. When interim/final disposition information
+is received, see SM 00609.610.
+b.
+Title XVI: When the original check is cashed, the SSI nonreceipt system automatically
+transmits an F-stop on the courtesy disbursement check. If Treasury determines this
+check has been cashed, an overpayment is computed and posted to the SSR.
+3. If courtesy disbursement check was:
+a.
+Returned and cancelled, no further action is necessary.
+b.
+Not cashed, Treasury will cancel the payment and return the credit to SSA. No further
+action is necessary.
+4. If courtesy disbursement check negotiated:
+a.
+Follow DCN procedures found at GN 02406.300.
+b.
+If the original nonreceipt claim was Mass Loss, process per GN 02406.700.

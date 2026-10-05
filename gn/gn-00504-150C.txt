@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 00504.150 - FO Processing of S8/S08 Alerts
+Effective Dates: 02/28/2011 - Present | TN 37 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504150 (fetched 2026-10-04)
+
+C. Procedure
+Process the alerted items as follows:
+Step
+Action
+1.
+Review the MBR/SSR to verify the beneficiary is still in S8/S08 status. If the payment
+status has now changed, no action is necessary.
+2.
+Query the RPS to determine if there is a current pending RP application. If so, process
+to completion. If not, go to step 3.
+3.
+Develop for a new RP using guides in GN 00502.100. Other family members on the MBR/SSR may be a valuable source of a payee lead. If
+a payee cannot be found, initiate direct payment (if permitted) using instructions
+in GN 00504.105 and GN 00504.185 while you continue your search for a suitable RP.
+4.
+If unable to find a suitable RP and direct payment is not permissible, leave the beneficiary
+in S8/S08 status while you continue to locate a suitable RP. Document your efforts
+in the Special Message field of the MBR (MSOM T2PE 007.008) or the Remarks field of
+the SSR (SM 01301.841).

@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02607.420 - Incarceration Reporting and Control System (IRCS)
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607420 (fetched 2026-10-04)
+
+D. IRCS alerts
+IRCS generates diary alerts to FO managers and the FOPCs to inform them that a report
+is overdue or that an informal reporting agreement is about to expire. For more information
+on IRCS alerts, see MSOM PRISON 002.001.
+1. Overdue report alert
+IRCS generates an overdue report alert 14 days after the receipt date of the institutions
+last report as shown on the IRID screen plus the number of days associated with the
+institutions reporting frequency and every 30 days thereafter until the reporter submits
+a new report. IRCS establishes a receipt date each time CO or an FO processes an inmate
+report. For an exhibit of an overdue report alert, see GN 02607.420E.1 in this section.
+When receiving an overdue report alert:
+•
+review the QARR screen to determine the agreement status, the reporting method, and
+the last report date. To access the QARR screen, see MSOM PRISON 002.009C;
+•
+compare the alert information to the institutions last inmate report date;
+•
+if the date of the last report predates the alert date, contact the institution and
+determine why they did not submit a new inmate report;
+•
+annotate the results of your contact on the IRI2 screen in the INCARCERATION REMARKS
+section; and
+•
+if the institution states that they did submit a new inmate report, contact the FOPC
+to help investigate the cause of the missing inmate report.
+For institutions that submit paper reports to the FO, you can help avoid receiving
+overdue report alerts by monitoring these institutions regular reporting cycles and
+processing their reports timely.
+2. Agreement expiration alert
+IRCS generates an alert 120 days before the expiration of an informal reporting agreement
+as a reminder for the parallel FO manager or the FOPC to renegotiate the agreement.
+IRCS sends follow-up alerts every 30 days until the negotiator places new agreement
+data on IRCS. For an exhibit of an agreement expiration alert, see GN 02607.420E.2 in this section.

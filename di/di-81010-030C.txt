@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - DI 81010.030 - Certified Electronic Folder (CEF) Exclusions and Limitations
+Effective Dates: 02/29/2024 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010030 (fetched 2026-10-04)
+
+C. Processing Multiple Claims When At Least One of the Claims is an EDCS Exclusion
+When multiple claims are filed at the same time and at least one of the claims is
+an EDCS exclusion, the official folder for all claims in the folder is paper. For
+partially electronic cases, the official folder is paper because there is no data
+in eView for the EDCS exclusion claim. Use EDCS to enter information on the non-exclusion
+claim(s), and file documentation that pertains solely to the excluded claim in the
+paper MDF. In eView, upload any documents that apply to both the electronic and the
+paper claim.
+The FO will take the following actions to document both the electronic and paper folders
+properly:
+•
+Establish non-exclusion claim(s) in EDCS;
+•
+Create a paper MDF for EDCS exclusion claim(s);
+•
+File the documents that pertain solely to the excluded claim in the MDF (for example,
+SSA-831 form). In eView, upload any documents that apply to both the electronic and
+the paper claim (for example, SSA-3368, SSA-3441, and SSA-827);
+•
+Add a message to the EDCS case indicating that a related paper claim exists. Provide
+the current claim level, type, and SSN for the paper claim, conversion, or appeal
+along with the reason for the exclusion;
+•
+Update the paper folder indicator (PFI) by answering the questions on the EDCS Transfer
+Screen to indicate that a paper folder has been created for this filing, see DI 81010.085D;
+•
+Transfer the case in EDCS;
+•
+Print an EDCS routing form for the MDF and annotate the form with the following remark
+to shown an EDCS exclusion is associated with the case: “EDCS exclusion-associate
+with EDCS case transferred on MM/DD/YYYY."; and
+•
+Mail the paper MDF to the adjudicating office the same day as EDCS transfer to avoid
+processing delays.
+NOTE:If there is an EDCS case for a claim that has already been transferred out of the
+FO, and there is a subsequent claim filed that is an EDCS exclusion, follow the steps
+for creating the paper MDF in DI 81010.030C in this section. Utilize the Update After Transfer functionality when creating the
+message for the EDCS case stating that a paper claim exists, and inform the DDS that
+it is necessary to update the PFI in eView.
+The DDS will:
+•
+Electronically process the electronic portion of the claim;
+•
+Only print documentation that pertains solely to the excluded claim (for example,
+SSA-831 and determination notice), and associate these items in the MDF for FO adjudication
+after making a determination;
+•
+In eView, upload any documents that apply to both the electronic and the paper claim.
+At case closure, the DDS will upload a copy of the decisional documents (SSA-831/DDE)
+and notice(s) for the paper claim(s) in the electronic portion of the case in eView;
+and
+•
+Return the electronic and paper portions of the case to the FO after adjudication.
+The Hearing Office (HO) will:
+•
+Fax or scan all documentation from the excluded paper claim into the electronic folder.
+This ensures all folder documentation is stored in the electronic folder at the hearing
+level. Documentation includes the application, development, notices, and decision;
+•
+Add a message in eView that all documents from the paper claim have been added to
+the electronic portion of the case. ; and
+•
+Print and mail or fax a copy of the hearing decision for the excluded claim to alert
+the FO or Program Service Center to process the decision.
+IMPORTANT: When all claims in a case convert to paper, all documents must be printed. For example, when the
+DDS closes a case without a determination and the "No Determination" reason is to
+"Stop Electronic Processing," all documents must be printed and added to the paper
+folder.
+•
+Essential Claims Folder Material – DI 20503.000;
+•
+Paper Folder Preparation – DI 32001.020; and
+•
+Paper Modular Disability Folder – DI 70005.000.

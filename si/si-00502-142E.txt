@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - SI 00502.142 - Qualified Aliens Who Are Blind Or Disabled And Were Lawfully Residing In The U.S. On 8/22/96
+Effective Dates: 04/12/2018 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502142 (fetched 2026-10-04)
+
+E. Procedure - Processing Initial Claim for Claimant Under Age 65
+1. Obtain Medical Decision
+Complete all necessary disability forms and forward them to the Disability Determination
+Services (DDS). If appropriate, make a presumptive disability determination (DI 11055.230 and DI 11055.240). Since the claimant is under age 65, SSI eligibility cannot be determined until a disability decision is made.
+NOTE: If the individual is under age 65 and receiving Title II benefits based on a (prior)
+determination that the individual is disabled, add the "Potential Collateral Estoppel
+Apply" flag in EDCS and request a disability determination from the DDS.
+2. Establish Systems Record
+Follow current systems instructions pertaining to individuals under age 65 who are
+filing for SSI based on blindness or disability. Routine processing can be used for
+both MSSICS and non-MSSICS claims effective 5/11/98, with the following exception:
+Do not close the MSSICS event prior to receipt of the DDS decision.
+IMPORTANT: Leave the case in H80. Otherwise, MSSICS will build an erroneous N13 denial.
+3. Case is Medically Allowed
+Follow current update procedures if an allowance is returned. MSSICS will process
+these cases correctly once the Disability Clearance page is completed.
+4. Case is Medically Denied
+If the case is medically denied, the DDS will release the medical denial notice and post the medical denial code to the Supplemental Security Record (SSR). If the denial is not posted by the DDS,
+the medical denial code can be keyed into the Denial Code option on the Adjudicative
+Decision (DADJ) screen (over-key the systems-generated N13 denial).
+IMPORTANT: An individual under age 65 must be blind or disabled in order to receive SSI. If
+the DDS determines the individual is neither blind nor disabled, the individual is
+ineligible for SSI-based on medical reasons and irrespective of alien status.

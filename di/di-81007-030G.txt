@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - DI 81007.030 - i3368 - Adult Disability Report
+Effective Dates: 01/28/2014 - Present | TN 13 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007030 (fetched 2026-10-04)
+
+G. iCAL – Compassionate allowances in the i3368
+The Compassionate Allowances (CAL) initiative is an effort to expedite disability
+determinations for people whose medical conditions invariably result in allowances.
+To promote the CAL initiative, we added a distinctive feature to the i3368, iCAL.
+The iCAL feature within the i3368 works in two different ways.
+1.
+The iCAL feature screens for the word “cancer.” When the IU enters “cancer” in the
+list of alleged medical conditions, a pop-up message appears on the IU’s screen. The
+message instructs the IU to add the type of cancer and stage of the cancer, if not
+already shown.
+2.
+The IU enters into the i3368 all medical conditions that affect the claimant’s ability
+to work. When the IU selects the “Next” button to move forward, the i3368 sends a
+“call” to the CAL selection software. If one or more alleged medical conditions match
+any defined CAL condition, the CAL selection software determines the case is a CAL
+case and sends a CAL indicator of Y (yes) to the i3368. See DI 23022.080. for defined CAL conditions.
+When the CAL indicator equals Y, the i3368 automatically curtails the work and education/training
+sections of the i3668. Curtailment means the IU does not have to answer the work and
+education sections of the i3368. This curtailment is identical to the curtailment
+EDCS users can invoke within EDCS. Subsequent changes to the list of medical conditions
+do not send another call to the CAL selection software. The call to the CAL selection
+software happens only one time. Once curtailed, the i3368 remains curtailed through
+to submission, through propagation to EDCS, and through transfer to DDS.
+H.
+eAuthorization
+The i3368 presents up to two methods by which users may submit a signed SSA-827 (827),
+the Authorization To Disclose Information to The Social Security Administration (SSA).
+eAuthorization allows most claimants who complete the i3368 personally to sign an
+electronic SSA-827 (e827). Claimants who do not sign an e827 must submit a signed,
+paper SSA-827 (827).
+1. eAuthorization in the i3368 screen path
+Near the end of the i3368 screen path, the i3368 offers eAuthorization to IUs who:
+•
+Successfully pass all the screening criteria for the iClaim; and
+•
+Submit the iClaim; and
+•
+Personally complete the i3368.
+The eAuthorization page asks potential e827 users to choose whether they want to sign
+the e827 or submit a signed 827 (see DI 11005.056D. about e827 eligibility). Most eligible e827 users sign electronically, but some choose
+not to sign the e827 and others make no selection at all. Eligible e827 users can
+move forward in the i3368 without making a selection. The i3368 does not require them
+to make a choice. When eligible e827 users who choose to sign the e827 electronically
+submit their i3368s, they automatically submit the e827 also.
+2. The SSA-827
+The i3368 instructs IUs who are not eligible for, or do not sign the e827 to:
+•
+Print, sign, and date a printed 827; or
+•
+If the IU is a third party, have the claimant sign and date a printed 827; and
+•
+Mail or take the SSA-827 to the FO.
+If the FO receives both an iClaim and an i3368 from the Internet, but not an e827
+or 827, the FO must try to obtain one. If there is no response to normal follow-up
+requests, follow close out procedures in DI 11018.005. - Field Office Responsibilities When a Claimant Fails to Cooperate (FTC).

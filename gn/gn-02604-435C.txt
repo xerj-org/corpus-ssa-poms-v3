@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02604.435 - Imposing the Administrative Sanction
+Effective Dates: 08/24/2023 - Present | TN 68 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202604435 (fetched 2026-10-04)
+
+C. Deferred administrative sanctions
+When the FO makes a decision to impose an administrative sanction, and the person
+is not currently entitled/eligible for either Title II or Title XVI benefits, we must
+defer the sanction period. The sanction period cannot begin until the person is entitled
+or eligible to some payment under either Title II or Title XVI. There is no limit
+on how long we wait to impose the sanction. The sanction period begins with the first
+month that we schedule a payment under either Title II or Title XVI. Entitlement or
+eligibility for a payment of even a partial or intermittent benefit will cause the
+sanction period to start (see GN 02604.447J.9.). The administrative sanction is all inclusive of any type of payment made under
+either title.
+If we decide to defer a sanction because we denied the claim or no payment is due
+for any reason, enter the following as a Special Message on the MBR for Title II or
+a Remark on the SSID for Title XVI:
+“Admin Sanc apply when entitled/eligible under Title II or Title XVI Refer to Administrative
+Sanctions Tool”.
+In addition, enter the sanction information Administrative Sanctions (SPAS) screen
+in the Client database (see GN 02604.440).
+When entitlement or eligibility under either title begins, follow the procedure in
+GN 02604.440.
+NOTE:
+If a potential sanction applies to a person who filed a false claim using another
+person’s SSN, establish an MBR (or SSID) on the SSN belonging to the person we sanction.
+Process a denial using the same denial code used on the first record. Do not send
+a notice on the second denial. Enter the above remark on the MBR or SSID to ensure
+we impose the sanction in the future.

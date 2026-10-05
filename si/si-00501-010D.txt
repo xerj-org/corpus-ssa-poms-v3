@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - SI 00501.010 - Determining Child Status for Supplemental Security Income (SSI) Purposes
+Effective Dates: 01/04/2024 - Present | TN 87 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500501010 (fetched 2026-10-04)
+
+D. Establishing head of household
+1. Determining whether someone is the head of their household
+A head of household is someone who is no longer under their parents or stepparents
+control, and:
+•
+has left their parents or stepparents home on a permanent basis to be responsible
+for the day-to-day decisions on the operation of their own household;
+•
+has left their parental home on a permanent basis to live with others, where everyone
+has an equal voice in the decision-making (e.g., a group of students sharing off-campus
+housing); or
+•
+lives with their parent(s) or stepparent and makes the day-to-day decisions of the
+household (e.g., due to parental illness).
+2. Initial simultaneous development claim systems input instructions for head of household
+under age 18, not transitioning out of foster care
+Within the SSI Claims System, if you establish that a claimant under age 18 is head
+of household (claim ID of DI) before having transferred the case to the Disability
+Determination Services (DDS) for a medical decision, you will prevent case handling
+in the Electronic Disability Collect System (EDCS), because EDCS assigns the conflicting
+claim ID of DC.
+Instead, do not answer the head of household question within the SSI Claims System, Home Ownership
+and Rental Liability page for a simultaneously developed case until you have first
+established the disability portion of the claim in EDCS for any claimant who is:
+•
+under age 18 and
+•
+the head of their household but
+•
+not in the process of transitioning out of foster care (under Title IV-E).
+Re-enter the SSI Claims System to answer the head of household question after you
+have established the claim in EDCS.
+3. Initial claim systems input instructions for head of household under age 18, transitioning
+out of foster care
+See systems input instructions in SI 00601.011D for a claimant who is under age 18 and transitioning out of foster care (under Title
+IV-E).

@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02402.302 - Coding Germany Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402302 (fetched 2026-10-04)
+
+G. Example of coding Germany direct deposit
+The customer provides us with a signup form for Germany containing the following information:
+"DE89370400440532013000".
+•
+The first 2 characters of the German IBAN are “DE,” the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The next 8 characters represent the 8-digit bank identifier.
+•
+The next 10 characters of the IBAN represent the 10-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 52 (SSA designated prefix for IDD).
+•
+Code the first six digits of the eight-digit bank code “370400”;
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technicians codes the DAN.
+•
+Code the last two-digits of the eight-digit bank code “44”
+•
+Code the 10-digit account number “0532013000”
+3. Obtain the following information:
+•
+RTN: 523704008
+•
+Checking
+•
+DAN: 440532013000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 523704008 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 440532013000
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 5263704008
+•
+DAN- C440532013000

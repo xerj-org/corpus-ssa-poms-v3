@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02301.320 - How to Pay the PPL
+Effective Dates: 01/11/1999 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301320 (fetched 2026-10-04)
+
+B. Procedure
+When a recipient appeals an adverse action processed to their record and qualifies
+for payment continuation, use the chart below to decide:
+•
+when to pay the PPL on the record,
+•
+when to manually recompute the PPL and input to pay a new PPL, and
+•
+when and how to issue a manual notice.
+REMINDER: The PPL and other DPD entries displayed in the DUPR segment enable the system to pay
+continuing benefits at the PPL. The system posts the PPL when it processes an adverse
+action and issues an automated GK notice. FOs input the PPL with an adverse action
+that requires a manual GK notice.
+If...
+then...
+and send...
+the adverse action is due to a single change
+the adverse action is due to multiple changesandrecipient does not request payment based on changes not under appeal*
+the recipient requests payment continuation after waiving it
+pay the PPL on the record including any past benefits due based on the PPL
+NOTE: For eligible couples, pay the PPL couples, pay the PPL to both or reduced benefits
+only to a member who requests it.
+•
+no manual notice if unreduced benefits will continue uninterrupted
+OR
+•
+an SSA-L8165-U2 with no appeal rights to restore reduced benefits to the PPL. Select appropriate paragraphs
+from NL 00803.025. Include GBKM01 when paying past benefits due.
+the adverse action is due to multiple changesandrecipient requests payment based on changes not under appeal*
+recompute the PPL using only changes not under appeal, input those changes with the
+new PPL. Pay the new PPL including any past benefits due based on the new PPL
+no manual notice (the system will issue an SSA-L8165 with no appeal rights).
+the recipient requests a reduced payment and disagrees with the amount or reconsiders and requests unreduced benefits based on
+the original PPL
+input and pay the original PPL including any past benefits due based on the original
+PPL (subject to subsequent changes, see SI 02301.325)
+•
+no manual notice, if unreduced benefits will continue uninterrupted
+OR
+•
+an SSA-L8165-U2 with no appeal rights to restore reduced benefits to the PPL. Select appropriate paragraphs
+from NL 00803.025. Include GBKM01 when paying past benefits due.
+*REMINDER: A recipient must on their own initiative request a reduction in the PPL based on changes
+that are not under appeal. See instructions in SI 02301.310B, on explaining payment continuation.

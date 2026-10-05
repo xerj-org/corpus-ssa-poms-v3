@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - SI 02006.201 - Special Considerations for Month of Actual Receipt of Retroactive Title II Benefits—PMA Month
+Effective Dates: 05/12/2009 - Present | TN 14 (03-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006201 (fetched 2026-10-04)
+
+B. Procedure - amount of income for month(s) benefits received
+The amount of any additional type A income for the months must be determined as follows
+whenever it is material and A. 3. above applies.
+1. All Retroactive Title II Received in One Payment
+Determine the retroactive benefits, if any, that are income for that month for SSI
+purposes, as follows:
+•
+Add the amounts of title II income remaining after adjustment per SI 02006.200.C. above for the months prior to the first month of possible SSI eligibility (the
+total for column E of the SSA-2894 (see SI 02006.210 C. and D.)).
+•
+Determine the actual amount of the title II retroactive benefit payment for the month
+of receipt.
+•
+Use the lesser amount of these two amounts, as the additional amount of type A income
+for the month of receipt. Add that amount to the title II benefits regularly due and
+paid that month.
+2. Retroactive Title II Benefits Were Paid and Received in More Than One Month
+When a claimant receives retroactive title II benefits in 2 or more months, count
+the adjusted title II income in the latest month or months (at the END of the payments
+of retroactive benefits). This approach follows the rule that the earliest retroactive
+income should be adjusted for expenses.
+•
+After adjusting the title II income amounts as explained in B.1. above by using the
+SSA-2894, look at the total amount of retroactive benefits remaining only for those
+months before the SSI DOE. This is the total in column E. of SSA-2894 (Offset Case
+Authorized Fee Worksheet) (see SI 02006.210 C. and D.). Do not count more than this amount as the additional type A income added
+to regularly due and paid title II (type A) income for any month the retroactive benefit
+is received.
+•
+Use a PHUS query or a PSC or ODIO-provided explanation to identify all months and
+amounts of payment of title II retroactive benefits. (See SI 02006.205 D. for development procedures.)
+•
+Use an SSI query to identify those type A monthly entries in the UM field that include
+retroactive benefits. These are entries in amounts greater than the monthly title
+II benefits which are regularly due. Review these entries to see which correlate with
+months in which retroactive benefits were paid per the PHUS query or the PSC explanation.
+•
+Start with the amount of the latest (last) payment of retroactive benefits (per the
+PHUS query or PSC explanation) and compare it to the total amount of retroactive benefits
+remaining (from Column E.).
+•
+If these 2 amounts are equal or the latest (last) payment is larger, use the total
+amount of retroactive benefits remaining as the additional amount of type A income
+to be added to the regularly due title II for that month. This total is the type A
+income amount for that month. No type A entry for any prior month should include any
+retroactive benefits. (See SI 02006.215 for procedures to correct prior type A entries, pay any underpayments due, and send
+notices.)
+•
+If the amount of the latest (last) payment is less than the total amount of retroactive
+benefits remaining, use only the amount of the latest (last) payment as the additional
+type A income to be added to the regularly due title II for that month. Subtract the
+amount of the latest payment from the total amount of retroactive benefits remaining.
+This is the difference yet to be counted (see the next paragraph).
+•
+Identify the month and amount of the prior (next-to-last) payment of retroactive benefits
+(per the PHUS query or the schedule). Compare this amount to the difference yet to
+be counted.
+•
+If these 2 amounts are equal or the prior payment is larger, use the difference as
+the additional amount of type A income to be added to the regularly due title II benefit
+for that month. This is the total type A income amount for that month. No type A entry
+for any prior month should include any retroactive benefits.
+•
+If the amount of the prior (next-to-last) payment is less than the difference, use
+only the amount of the payment as the additional type A income to be added to the
+regularly due title II for that month. Subtract the amount of the prior payment from
+the difference to find the remaining difference. This amount is yet to be counted.
+Use the methods just described month-by-month to compute the additional type A amount
+from the next prior retroactive payment to be counted. Repeat this process as necessary
+until all of the remaining difference is counted. Once all of the difference is counted,
+no type A entry for any prior month should include any retroactive benefits.

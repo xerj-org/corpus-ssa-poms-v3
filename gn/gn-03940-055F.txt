@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 03940.055 - Title XVI and Concurrent Titles II and XVI Claims - Field Office Processing of the Fee Agreement Notice
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940055 (fetched 2026-10-04)
+
+F. Procedure - Fee Agreement Approved - Fee Authorized - IAR - Representative Eligible
+For Direct Payment
+When IAR and direct fee payment are involved, SSA reimburses the State agency before
+making direct payment to the representative. (See SI 02003.025, IAR Payment Processing.) In these cases, it is necessary to include IAR payment
+information in the fee notice. Many of these notices are automated.
+To prepare the fee notice, with two exceptions, follow the procedures in:
+•
+GN 03940.055C.2., CR Approves Fee Agreement and Authorizes Fee - Title XVI Only;
+•
+GN 03940.055C.3., ALJ or AAJ Approves Fee Agreement (Title XVI Only); or
+•
+GN 03940.055D.3., Title II Fee Amount Known - Title XVI Fee Authorized - Concurrent Title II and XVI
+Claims.
+Replace FEE035 (FEE035 in DPS) and FEE046 (FEE080 in DPS) (under the caption FEEC11
+(ATYC03 in DPS), “Information About Past-Due Benefits Withheld to Pay (1) (2)”) as
+described in this chart:
+IAR-Direct Payment UTIs
+(SSI system and DPS)
+Situation UTI Describes When Past-Due Benefits Withheld and Fee Authorized
+Replaces Non-IAR UTI
+FEE040
+Withholding for IAR and fee payment and IAR not yet known.
+FEE035 (FEE035 in DPS)
+FEE041
+(use with FEE042, FEE043, FEE044, or FEE045)
+IAR known and State agency paid, now advising about direct fee payment
+FEE046 (FEE080 in DPS)
+FEE042
+Paying none of fee to representative.
+FEE043
+Paying part of fee to representative.
+FEE044
+Paying fee to representative. No benefits left to pay claimant.
+FEE045
+Paying fee to representative. Benefits left to pay claimant.

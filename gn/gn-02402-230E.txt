@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 02402.230 - Death of an International Direct Deposit (IDD) Beneficiary
+Effective Dates: 06/07/2022 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402230 (fetched 2026-10-04)
+
+E. FBU receives report of death of an IDD beneficiary
+The FBU must take the following actions when they learn of the death of an IDD beneficiary:
+1.
+Ask for the date of death.
+2.
+Process the death termination through DIPS.
+3.
+Intercept any payment(s) that might go out after death. This will prevent any further
+payments from reaching the FI.
+4.
+Code the death on ITS.gov.
+5.
+Does the routing number through which the deceased individual's payments were being
+sent begin with 51, 61, 62, 70, or 71?
+•
+If yes, code the death on ITS.gov.
+•
+If no, go to step 5.
+6.
+Is your FBU in the country where the FI is located?
+•
+If yes, code the death to ITS.gov, and also send a reclamation request to the FI for
+any payments already paid after death and not returned.
+•
+If no, notify the appropriate FBU of the death.
+•
+Is this a joint bank account or rep-payee involved? - if yes stop
+•
+If no, initiate reclamation in ITS for countries listed in GN 02408.920F
+7.
+Follow GN 02408.900 to GN 02408.950 to reclaim any incorrect payments that went out after death.

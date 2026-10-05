@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02402.336 - Coding St. Kitts and Nevis Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 194 (06-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402336 (fetched 2026-10-04)
+
+G. Example of coding St. Kitts and Nevis direct deposit
+The customer provides us with a signup form for St. Kitts and Nevis containing the
+account number: “1234567890112233445566”.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000043
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “E” designated for St. Kitts and Nevis; and
+•
+Code 12 digits account number “123456789011”
+3. Obtain the following information:
+•
+RTN: 740000043
+•
+Checking
+•
+DAN: E123456789011
+a. POS reflects the direct deposit information
+• DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000043 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: E123456789011
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 740000043
+•
+DAN- CE123456789011

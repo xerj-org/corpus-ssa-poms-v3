@@ -1,0 +1,240 @@
+SSA Program Operations Manual System (POMS) - GN 02610.045 - How To Complete SSI Offset Summary — SSA-4346-U2
+Effective Dates: 08/31/2022 - Present | TN 31 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610045 (fetched 2026-10-04)
+
+B. SSA-4346-U2
+1. Number of Forms
+Only one SSA-4346-U2 is necessary for a case with:
+•
+dual entitlement (D/E),
+•
+Retirement and Survivor Insurance Benefits/Disability Insurance Benefits (RSI/DIB),
+or
+•
+in couple's cases where both members are entitled to retroactive Title II benefits.
+However, when using form SSA-4346-U2 to perform computations, technicians must save
+the form SSA-4968 (or printouts from eComps they were able to use eComps to complete
+the RMA computations) along with a copy of the completed SSA-4346-U2.
+If you are computing the Title II offset amounts for both members of a SSI couple
+simultaneously, use the step action chart in SI 02610.040C along with the chart below to complete the offset computations.
+2. Step Action Chart
+STEP
+ACTION
+1
+Collect the queries.
+a.
+Obtain an SSR Full History query, which will contain the Computation History Segment
+(CMPH) for the individual(s). ( SM 01601.790)
+b.
+Obtain a FULL MBR (FACT) for the Title II benefits the individual(s) would have received
+in the windfall offset period if the Title II benefits had been paid when due.
+2
+Gather the form(s) from the
+inForm
+Library
+a.
+Obtain a copy of the SSA-4346-U2 – SSI Offset Summary.
+b.
+Obtain a copy of the SSA-4968 – SSI RMA Payment Worksheet.
+NOTE: If you are able to complete the monthly RMA computations in eComps, you do not also
+need to complete a paper SSA-4968.
+3
+Complete
+the following cells at the top of the SSA-4346-U2
+form:
+a.
+SSN-NUMBER HOLDER
+•
+The SSN of the insured or deceased person on the Title II record from which the individual
+is eligible to receive Title II benefits. It may be the individual’s own record, a
+parent’s, or a spouse’s Title II record.
+b.
+NAME-NUMBER HOLDER
+•
+The name of the insured or deceased person on the Title II record from which the individual
+is eligible to receive Title II benefits. It may be the individual’s own record, a
+parent’s, or a spouse’s Title II record.
+c.
+SSN-OFFSET CLAIMANT
+•
+The SSN of the individual(s) who received (or will receive) SSI benefits in the windfall
+offset period.
+d.
+NAME-OFFSET CLAIMANT
+•
+The name of the individual(s) who received (or will receive) SSI benefits in the windfall
+offset period.
+e.
+STATE CODE
+•
+This is only required when the individual(s) resided in a state that provides a state
+supplementary payment during the windfall offset period. The SSI Claims System will
+prefill a State and county code in the CMPH segment based on the residence ZIP code,
+see SM 01601.790. For more information about state supplementary payments, see SI 01400.000.
+4
+Complete
+the SSI OFFSET PERIOD cell and the “1 COMP” column on form
+SSA-4346-U2:
+a.
+Locate the SSI OFFSET PERIOD cell at the top of the table.
+b.
+Record the month of the windfall offset begin date (WOBD) after the word “FROM”.
+c.
+Record the month of the windfall offset end date (WOED) after the word “THRU”.
+d.
+Locate the “1 COMP” column directly below the SSI OFFSET PERIOD cell.
+e.
+List the months in the windfall period in column "1 COMP" in chronological order from
+top to bottom.
+For definitions of WOBD & WOED, see GN 02610.022 .
+5
+Collect
+the FAM data from the SSR.
+Locate the SSI federal amount due (FAM) for each month of the windfall period in the
+CMPH field of the SSR.
+6
+Record
+the SSR FAM data on
+SSA-4346-U2.
+a.
+If the individual would have received (or already received) DIB in the windfall offset
+period, then enter the FAM for each month of the offset period in column "2 DIB".
+b.
+If the individual would have received (or already received) RSI benefits in the windfall
+offset period, then enter the FAM for each month of the offset period in column "3
+RSI".
+c.
+If the individual would have received (or already received) both DIB and RSI benefits
+in the same month, DIB is the primary benefit. Enter the FAM for each month of the offset period
+in column “2 DIB”.
+d.
+If the individual would have received (or already received) DIB and RSI benefits in
+different months of the windfall offset period, then enter the FAM under the “2 DIB” or “3
+RSI” column for the appropriate months.
+To determine the type(s) of Title II benefit(s) the individual is receiving or due,
+you may need to review:
+•
+the information sent by the PC to the FO through the e4345 application or on a paper
+SSA-4345-U2,
+•
+the UMIH section of the SSR ( SM 01601.760), or
+•
+lines on the Full MBR(s) (FACT) from which the individual is receiving benefits, such
+as the INSURED line ( SM 00510.071) or the BENE ENT line ( SM 00510.190).
+7
+If
+necessary, collect the SAM data from the SSR record the SAM
+data on the
+SSA-4346-U2.
+Locate the state amount due (SAM) for each month of the windfall period in the CMPH
+field of the SSID.
+If the individual also received payments from a federally administered state supplement
+program, record the SSR SAM data on SSA-4346-U2. Follow the same procedure from Steps
+3 through 4 above to complete state amount due (SSR SAM) for columns "4 DIB" and "5
+RSI" on the SSA-4346-U2.
+8
+Compute the NEW FAM & NEW SAM.
+To compute the NEW FAM/NEW SAM amounts, follow the instructions in SI 02005.090 and complete form SSA-4968 (SSI RMA Payment Worksheet) for each month in the offset
+period. Completing the SSA-4968 for each month in the windfall period will provide
+you with the new monthly SSI federal amount due (NEW FAM) and new monthly state supplement
+amount due (NEW SAM) for each month. The NEW FAM and NEW SAM are the federal and state
+SSI amounts that would have been due to the individual if the individual’s Title II benefits had been issued when they
+were due.
+NOTE: If you are able to complete the monthly RMA computations in eComps, you may use a
+printout of the RMA computations from eComps instead of completing the paper SSA-4968.
+General Reminders:
+•
+Count the Title II benefits as income in the months the payments would have been received
+even if the individual has not yet received the payments. ( SI 00830.010B.1)
+•
+Account for any legal expenses, such as representative’s fees (GN 03920.001) or certain out of pocket legal expenses ( GN 03920.010A.4.), as is required by SI 00830.100. SI 02006.210 provides instructions about how to deduct legal expenses from the amount of retroactive
+Title II benefits counted as income.
+Title II Payment Data:
+•
+Use the Title II payment information sent by the PC to the FO through the e4345 application
+or a paper SSA-4345-U2 to complete these computations.
+•
+If you do not have the retroactive Title II benefit information from the PC, review
+the HISTORY data line on the MBR to determine the Title II benefits that would have been
+paid in the windfall offset period if Title II benefits had been paid when they were due.
+( SM 00510.585 & SM 00510.175) Keep in mind the HISTORY data line will only show a
+new line when something changes, so a benefit from one line will continue each month
+at the same rate until a new line is posted, indicating a change. Also, remember the
+MBR will show the month for which the Title II benefit is due, not the month in which the individual(s) received (or would have received) the Title II benefit payment.
+9
+Record the NEW FAM & NEW SAM amounts on the
+SSA-4346-U2.
+a.
+Enter the NEW FAM amounts into the appropriate columns ("2 DIB" and "3 RSI") on the
+SSA-4346-U2 for each of the months for which you computed a new benefit amount using
+the SSA-4968 (or eComps).
+b.
+If the individual also received payments from a federally administered state supplement
+program, enter NEW SAM amounts into the appropriate columns ("4 DIB" and "5 RSI")
+on the SSA-4346-U2 for each of the months for which you computed a new benefit amount
+using the SSA-4968 (or eComps).
+10
+Compute the FOA and SOA for each month listed on the
+SSA-4346-U2.
+a.
+In columns "2 DIB" through "5 RSI" on the SSA-4346-U2, subtract the NEW FAM or NEW
+SAM amount from the SSR FAM or SSR SAM amount for each row. The results will be the
+federal offset amount (FOA) and state offset amount (SOA) for each month.
+•
+(SSR FAM – NEW FAM = FOA)
+•
+(SSR SAM – NEW SAM = SOA)
+b.
+Record the results in the appropriate FOA or SOA columns under columns "2 DIB" through
+"5 RSI" on the SSA-4346-U2, even if the result is a negative number.
+11
+Compute the FOA and SOA totals.
+Total the FOA's and SOA's on bottom of their respective columns on the SSA-4346-U2.
+NOTE: If the total for any of the FOA or SOA columns would be a negative number, write
+zero in as the total for that column.
+12
+Complete the last row on the form with your
+information.
+a.
+Record your name on the box labeled DETERMINED BY.
+b.
+Record your job title in the box labeled TITLE.
+c.
+Record the date you completed the form in the box labeled DATE.
+13
+Update the SSR.
+Follow steps in SM 01320.201 to post the results of the manual Title II offset computations
+to the SSR for the individual or both members of a couple’s case. Make sure you fill
+out every field in SM 01320.201B that applies to your case.
+14
+Save copies of the worksheets.
+a.
+Open eView and locate the individual’s electronic file using the SSN in the SSN-OFFSET
+CLAIMANT cell at the top of the SSA-4346-U2 worksheet. If the individual does not
+have an electronic file in eView, use Evidence Portal (EP). Open the EP application,
+select Store Evidence, and enter the individual’s SSN to create NDRED fax cover sheets
+for the forms. You can access EP at View Evidence -
+Evidence Portal (ssa.gov)
+•
+Both eView and NDRed have specific fax cover sheets for the SSA-4968 and SSA-4346-U2.
+b.
+Print the appropriate fax cover sheet for each document you used to complete these
+computations.
+c.
+Store copies of the SSA-4346-U2, SSA-4968 (or a printout of the eComps RMA computation
+results), and any other documents you filled out to complete these computations into
+the individual(s) electronic folder
+15
+Send the windfall offset information to the
+PC.
+The e4345 application was developed to enable the Processing Center (PC) and FO to
+be able to exchange windfall offset data electronically. It is a web-based version
+of the paper SSA-4345-U2.
+Follow the instructions in the Field Office User's
+Guide to complete the e4345. Refer to GN 02610.049 – How to Complete Sections II and III of SSA-4345-U2 and GN 02610.047 – How to Complete Section I of Record of Manual Title II Computation – SSA-4345-U2
+as needed.
+NOTE: If the e4345 application is unavailable, follow the steps in GN 02610.047 and GN 02610.049 to record the data on a paper SSA-4345-U2. Once the application becomes available,
+you will need to enter the data into the e4345 application. If your case cannot wait
+until the e4345 application is available again, use EP to fax the paper SSA-4345-U2
+into the individual’s electronic folder and notify the appropriate PC of the actions
+you took and the location of the SSA-4345-U2.

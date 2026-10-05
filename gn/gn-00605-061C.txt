@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - GN 00605.061 - Explanation of Computer Printed Entries on Accounting Reports
+Effective Dates: 04/13/2009 - Present | TN 23 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605061 (fetched 2026-10-04)
+
+C. Description of Data Entries on SSA-623-OCR-SM
+The following chart describes the computer printed entries on the 8/2007 version of
+the SSA-623-OCR-SM.
+ACCOUNTING INFORMATION
+Entries
+Description
+Payee's Name and Address
+The payment legend and address.
+Report Period
+The 12-month period for which the payee must account for the manner in which the benefits
+were used.
+Social Security Number
+•
+Title II - The beneficiary's claim number; i.e., the number holder's SSN on which
+the benefits are paid.
+•
+Title XVI (and concurrent) - The SSN under which the SSR is established and payment
+is made.
+Beneficiary
+The beneficiary or recipient for whom the payee must account.
+CF Conserved Funds
+The amount of conserved funds (savings) that was recorded from the last accounting
+report.
+TAA Total Accountable Amount
+The amount of benefits the payee received during the report period plus any conserved funds reported on the last accounting report. For title II cases the
+TAA includes the amount of benefits the payee received during the report period plus any amount reported as saved on the last accounting report. For Title II cases the
+TAA includes the yearly amount paid derived from the PHUS record, plus the previously
+reported conserved funds. For Title XVI and concurrent cases, the TAA is derived from
+the SSR and the Title II amounts are obtained from the UMIH segment (see SM 01601.760)
+of the SSR, plus previously reported conserved funds.
+The Economic Recovery One-Time Payment is not included in the TAA and the payee is
+not required to report on how they used it. See GN 02820.030 for details.
+MBR/SSR CODED INFORMATION
+Entries
+Description
+FP - Force Pay Indicator
+An F is displayed if an F is shown in the force flag indicator on the SSR. SSA-6230 Title
+XVI only – E or F indicates force pay. G, H or blank not in force pay
+ID - Individual Recipient Identification
+This code identifies the type of SSI eligibility and the type of recipient.
+NOTE: For concurrent cases, the ID and BIC codes will both be displayed.
+BIC – Beneficiary Identification Code
+This code identifies the type of title II benefits that are payable.
+D - Direct Deposit Indicator
+A Y/N (Yes/No) code indicates whether payments are being direct deposited.
+TP, CC, GS - Type of Payee, Custody Code, Guardianship Status
+Payee coding as shown on the MBR/SSR. The various codes are in SM 00550.080.
+PC – Processing Center
+The PC with SSN jurisdiction for title II payments (also shown in concurrent cases).
+DOC - District Office Code
+The payee's servicing field office.
+PF - Approved Collective Savings/Checking Account Code
+A Y indicates that the payee's approved collective/checking account is recorded on
+the RP accounting precedent file.
+BSSN - Beneficiary's Social Security Number
+•
+Title II - The beneficiary's SSN. For BIC A this field will contain zeros.
+•
+Title XVI (and concurrent) - This field will be blank.
+SPECIAL INFORMATION
+Entries
+Description
+[ ]
+The blank area below the data entry fields includes space for the scanlines. These
+scanlines are electronically read in WBDOC to clear the system control on the record.

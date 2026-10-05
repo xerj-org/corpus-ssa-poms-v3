@@ -1,0 +1,82 @@
+SSA Program Operations Manual System (POMS) - GN 02403.030 - Processing Medicare Premium Remittances Received in the Field Office (FO)
+Effective Dates: 08/31/2026 - Present | TN 68 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403030 (fetched 2026-10-04)
+
+B. Procedure - Medicare Premium Remittances
+Payment of premiums in the FO should be discouraged for the reasons given in HI 01001.025.
+To handle Medicare Premium payments received in the FO, only if the beneficiary insists
+on paying their premiums in the FO, follow the steps in HI 01001.090.
+1. Interviewer
+a. If the premium payment is received:
+•
+with a Medicare Premium Bill (CMS-500), or
+•
+other than installment payment (this occurs when the DBS cannot produce a bill), or
+•
+without a bill but with the entire SSN or a Medicare Number and beneficiary name annotated
+on the check (This occurs when the DBS cannot produce a bill), stamp the remittance
+For Deposit Only, CMS.
+In DMS or eFOR system, record the remittance under Trust Fund Code "N" (Not Applicable)
+and Reason Code "H" (CMS Lockbox Premium). These payments are excluded from Social
+Security Electronic Remittance System (SERS) processing.
+CAUTION: Do not deposit a beneficiary payment intended for Medicare premiums into Social
+Security Trust Fund. Depositing the funds into Social Security Trust Fund will initiate
+the Inter-Governmental Payment and Collection (IPAC) system process and will cause
+an even more significant delay.
+b. If the premium payment is received:
+•
+is a retroactive premium being paid based on an installment agreement,
+•
+has no SSN or Medicare Number
+Process a regular remittance per procedure GN 02403.006 and send it to MATPSC.
+In DMS or eFOR systems, record the remittance under Trust Fund Code "O" (Other) and
+Reason Code "P" (Premium Installments). These payments are excluded from Social Security
+Electronic Remittance System (SERS) processing
+Include a CMS-500 or some other documentation that is clearly marked to alert the
+PSC to the purpose of the remittance. (See example of CMS-500 below). DMS will generate
+a payment coupon in addition to the receipt. Give the receipt to the remitter. Mail
+the CMS-500 payment coupon with the remittance and the FORT to MATPSC.
+If a single remittance represents a lump sum retroactive payment and a regular monthly
+premium, forward the full amount to the Medicare Premium Collection Center lockbox
+(address below), and let the PSC know what has occurred.
+NOTE:The Medicare Number must be clearly shown on the check/money
+order. The letters B,I,L,O,S and Z aren't used in Medicare numbers because they are similar
+to certain numerals.
+Medicare Premium Collection Center
+P.O. Box 790355
+St. Louis, MO 63179-0355
+Do not accept a premium payment before the HI/SMI award is prepared, the Medicare
+Premium Collection Center is not equipped to accept payments before a beneficiary
+record exists.
+c. Enter the payment into the system via eFOR system, and give the automated receipt
+to the remitter, and explain the advantages of paying their future premiums directly
+to the Medicare Premium Collection Center: it saves the time and expense of visiting
+the FO, and also helps hold down administrative costs, which affects the cost of premiums
+each year. Payments received in the FO could delay the payment process by at least
+5-7 days. Additionally, note that credit card payments cannot be accepted in the SSA
+field office or over the phone. In addition to the receipt, DMS will generate a forwarding
+instruction sheet indicating how to handle the remittance.
+Reference: See MS 01103.006, MS 00303.007 for how to input acceptable remittance and how to
+obtain an automated FO receipt.
+d. Enter the receipt number and the Medicare Number on each check.
+e. If the payment is cash, follow steps GN 02403.009B.1.
+f. Give the remittance to the remittance clerk.
+2. Remittance Clerk
+a. Obtain Field Office Daily Report Listing (FODRL) and compare the remittance to
+it.
+Reference: See how to obtain the FODRL MS 01104.009.
+b. Hand carry the FODRL and premium remittance to the remittance supervisor.
+3. Remittance Supervisor
+a. Review any mailroom or reception area logs completed that day. Ensure any premium
+remittances annotated on a log are included on the FODRL.
+b. Record any discrepancies and resolve them with the remittance clerk and/or interviewer.
+c. Place all premium remittances in an envelope addressed to:
+Medicare Premium Collection Center
+P.O. Box 790355
+St. Louis, MO 63179-0355
+Seal the envelope and mail it the same day to reduce possible delays as much as possible.
+Forward the CMS-500 to the Medicare Premium Collection Center with the remittances;
+Do
+not send any FO control forms, photocopies of the DMS receipts, or Receipt File Query Display.
+d. If the beneficiary later alleges that he or she was not given credit for the remittance,
+follow the procedures in HI 01001.375.

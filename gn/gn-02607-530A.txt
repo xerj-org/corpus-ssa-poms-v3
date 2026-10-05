@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02607.530 - Correcting PUPS Records With Missing Inmate Data
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607530 (fetched 2026-10-04)
+
+A. Procedure - correcting PUPS records with blank receipt dates
+If you receive a PUPS alert/record and the receipt date is blank, you should enter
+the date shown in the REPORT DATE field of the alert as the RECEIPT DATE on the PU02
+screen.
+EXAMPLE:
+(Inmate Data Recorded on the PUPS ALERT)
+CONFINEMENT DATE: 03131998
+RECEIPT DATE: REPORT DATE: 03141998
+(Correction to PUPS Record):
+CONFINEMENT DATE: 03131998
+RECEIPT DATE: 03141998 REPORT DATE: 03141998

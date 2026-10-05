@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.449 - Coding Papua New Guinea Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 03/03/2021 - Present | TN 185 (03-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402449 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Papua New Guinea will have a prefix of “74” at the beginning
+of the Routing and Transit Number (RTN). The first letter of the Depositor Account
+Number (DAN) field has the letter “A” assigned for Papua New Guinea.

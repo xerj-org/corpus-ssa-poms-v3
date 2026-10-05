@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02604.440 - Suspense Actions for Administrative Sanctions Cases
+Effective Dates: 11/18/2020 - Present | TN 38 (11-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202604440 (fetched 2026-10-04)
+
+A. Suspending benefits in administrative sanction cases
+The sanction period must be the same for both Title II and Title XVI. When a sanction
+applies for a particular month, the affected payment is the one payable for that month. For example, a sanction for March would stop the Title II March benefit
+that is payable in April, while the sanction would stop the Title XVI March benefit that is payable in March.
+For more information on administrative sanction periods when a person does not request
+reconsideration, see GN 02604.435A.
+All other normal entitlement rules continue to apply. If another event occurs that
+requires termination or suspension, take the appropriate action for that event. Once
+the sanction period begins, it must run continuously for the prescribed period (i.e.,
+6, 12, or 24 months), regardless of whether the the person is entitled, or eligible,
+for all months of the sanction period.
+Enter a remark in the Shared Process Menu, the Master Beneficiary Record (MBR) or
+Supplemental Security Income Record (SSR) to identify the reason for the sanction
+and the sanction period. This remark must remain on the MBR and SSR indefinitely to
+identify the sanction period for future inquirers. The sanction period will appear
+in the Administrative Sanctions Tool.
+When the Regional Sanction Coordinator concurs with the sanctions determination and
+notice(s), FO technicians should impose the administrative sanction and release the
+notice(s) within 14 days. Untimely processing of an administrative sanction will create an overpayment on
+the record.
+1. Suspending Title II benefits
+To suspend Title II benefits:
+•
+After the field office (FO) sends the initial notice that includes information about
+appeal rights, and person does not file an appeal or the appeal affirms the decision,
+no future due process notice is necessary. Under the Title II Redesign process, Post-entitlement
+Online System (POS) suspensions generate subsequent due process notices automatically;
+however, in administrative sanction cases, the Administrative Sanctions Suspension
+(ADMSANCT) data line on the MBR suppresses the second notice.
+•
+Use POS following instructions in MS T2PE 003.013 and the instructions on administrative
+sanctions in MS COMMON 005.005. Only use POS to suspend benefits for the current and
+later months. Use the Manual Adjustment Credit and Data Entry (MACADE) system to suspend
+for other months and suspense reasons having a higher priority per GN 02602.025.
+NOTE: Medicare coverage will continue for beneficiaries while we impose administrative sanctions.
+The beneficiary is responsible for paying the Part B premiums during the sanction
+period.
+2. Suspending Title XVI benefits
+To suspend Title XVI benefits:
+•
+The FO suspends benefits after the recipient has received due process as provided
+in the initial administrative sanctions notice.
+•
+The FO enters N24, the administrative sanctions non-pay suspense code for providing
+false or misleading statements affecting benefit eligibility or amount.
+•
+The FO suppresses the notice that the N24 payment status (PSY) would otherwise generate.
+•
+If another event occurs that requires termination or suspension, take the appropriate
+action for that event. Change the N24 PSY to the appropriate PSY (e.g. N01 for non-pay
+for excess income, N04 for non-pay for excess resources, etc.). Changing the PSY code
+will notify Medicaid of the recipient's ineligibility.
+NOTE: Medicaid coverage will continue for recipients in PSY N24.
+3. Suspending concurrent benefits
+Suspend both Title II and Title XVI benefits for a concurrent beneficiary for the
+same months benefits are due. False statements or omissions under one program affect
+the payment of benefits under both programs. The sanction period must be the same
+for both programs. If a sanction applies for a particular month, the affected payment
+is the one payable for that month.
+For EXAMPLE, in a concurrent case, a sanction for March means we stop the Title II
+payment for March (payable in April) and the Title XVI payment for March (payable
+in March.) To suspend benefits under both titles, take the actions indicated in GN 02604.440A.1 and GN 02604.440A.2 (in this section).

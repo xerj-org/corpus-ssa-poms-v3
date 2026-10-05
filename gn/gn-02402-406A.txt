@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02402.406 - Coding Palestine Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402406 (fetched 2026-10-04)
+
+A. Background for coding Palestine bank data
+This section describes how to code bank data for international direct deposit (IDD)
+of Title II benefits to a financial institution (FI) in Palestine. We store IDD bank
+data on the MBR in the same fields used for United States (U.S.) direct deposit.
+Special coding identifies the bank data as a Palestine direct deposit. This allows
+us to route benefit payments through the Federal Reserve Bank of Kansas City (FRBKC)
+and the processor bank in Palestine to the beneficiary's local FI.
+Forward IDD requests received in a U.S. domestic (non-border) field office (FO) to
+International Operations (IO), International Benefits and Processing (IBP) to process.
+For detailed instructions on IDD requests and forwarding information, see:
+•
+GN 02402.201 Background and Policy for Direct Deposit Outside the U.S.
+•
+GN 02402.205 Direct Deposit Enrollment Outside the U.S.
+•
+GN 01010.255 Adjudication of Foreign Claims
+•
+GN 01702.310C Routing of Claims for U.S. Benefits Involving Totalization

@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.300 - Coding Canadian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 287 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402300 (fetched 2026-10-04)
+
+E. Procedure - Coding Direct Deposit for U.S. Dollar Accounts at Banks in Canada Other
+Than Royal Bank of Canada
+Follow these steps to code direct deposit of Title II benefits to U.S. dollar accounts at FIs in Canada, except see Royal Bank of Canada, GN 02402.300F.
+1.
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR will not accept the International Direct Deposit (IDD) information if the
+address is in the U.S.
+2.
+Code the Account type for Checking or Savings. If you do not know which it is, code
+it as Checking.
+3.
+If you receive the information by phone and do not have a check copy, ask the beneficiary
+to read all the numbers at the bottom of the check. Write down those numbers. Ask
+the beneficiary to read the check serial number at top right. Find the check serial
+(or sequence) number in the MICR line you've written down (usually the first 3 digits),
+and line through it. Remember not to code the check serial number.
+4.
+Code the Depositor Account Number field.
+•
+Start by coding the 3-digit institution code (which follows the 5-digit branch code on a check). Do not code a dash before or after the institution code. Do not code the check serial (sequence) number. Do not code a lead zero before the 3 digits of the institution code.
+•
+Code the account number. If the account is in a Caisse Populaire at institution #815 or 829, code a dash
+before the 7th digit, which is the check digit. If the beneficiary gives you fewer than 7 digits
+for a Caisse Populaire account number, ask the beneficiary to read you the MICR line
+of a check, so you will have the 7th digit.
+REASON: The Canadian account number field can contain up to 12 characters. For some FIs, if
+you include the dashes, the total number of characters will exceed 12. FRBKC drops
+any characters beyond the 12 when formatting a payment for the Canadian system. The
+payment then contains incorrect account information and may reject or be deposited
+to the wrong account.
+5.
+Code the Routing and Transit Number field.
+•
+Start with 62, the prefix SSA has designated for IDD to a U.S. dollar account in Canada.
+•
+Code the 5 digit branch code/transit number.
+•
+Add a zero (0).
+•
+Add the U.S. check digit. Obtain the check digit by using the Check Digit Code program on Title II/Interactive
+Comps.
+EXAMPLE 1: Mr. Client requests direct deposit to his U.S. dollar account at a bank in Canada.
+The branch code is 54321, the institution number is 004, and the account number is
+54327234567. DIO codes the RTN 625432105. (The final digit, 5, is the U.S. check digit
+for 62543210.) DIO codes the Depositor's Account Number as 00454327234567.
+EXAMPLE 2: Mr. Benefit requests direct deposit to his U.S. dollar account. His letter gives
+the name and address of his bank, and his account number, 70-13. The border FO looks
+up the bank information in the Canadian Payments Association directory and finds that
+the bank is branch # 42440, bank code 002. For 002, the account number needs 7 or
+12 digits, so the FO codes zeroes in front of the given account number to make it
+0007013. (The FO does not code the dash.) The RTN is 624244006. The DAN is 0020007013.

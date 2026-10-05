@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - SI 00830.537 - AmeriCorps and National Civilian Community Corps (NCCC) Payments
+Effective Dates: 09/10/2008 - Present | TN 215 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830537 (fetched 2026-10-04)
+
+D. Procedure for AmeriCorps State and National and AmeriCorps NCCC payments effective
+for benefits payable on or after September 1, 2008
+1. Verification
+Verify the payment was provided by AmeriCorps State and National or AmeriCorps NCCC
+by using documentation in the individual’s possession or contacting AmeriCorps State
+and National or AmeriCorps NCCC. Accept the individual’s allegation of amount(s) and
+date(s) of receipt.
+2. Documentation
+Document the verified information, including type of payment, amount, date received,
+contact information, or documents in the individual’s possession, on a locked Report
+of Contact page, EVID screen, or upload the documentation (i.e., SSA-5002) into Evidence
+Portal (EP), or the Certified Electronic Folder (CEF)) or the electronic folder (EF),
+as appropriate.
+3. Systems input
+In MSSICS situations, for income that would have been considered earned income prior
+to September 1, 2008 (e.g., living allowance), enter such income as wages on the Wages
+page and deduct the same amount from wages on the same screen. In OTHER DEDUCTION
+AMOUNT REASON state “AmeriCorps Exclusion”. This should help to resolve interface
+alerts.
+In non-MSSICS situations, use an SSA1719B to add a remark to the SSR indicating the
+receipt of the income and the exclusion (SM 01301.841, SM 01301.900).

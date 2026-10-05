@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - SI 02006.204 - Field Office Processing Instructions for Concurrent Cases Involving Unknown or Unresolved Representative Fees
+Effective Dates: 07/28/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006204 (fetched 2026-10-04)
+
+A. Overview
+We are required to perform Title II windfall offset calculations on concurrent awards
+that have an overlapping past period of eligibility. Authorized fees and out-of-pocket
+expenses can affect windfall offset calculations by reducing the total amount of Title
+II past-due benefits that we count as income in the windfall period.
+Cases with representative fees that are unknown or unresolved at the time of effectuation
+add additional complexity. When the fee determination is delayed, you may need to
+first calculate the windfall offset before the fee is authorized or approved and hold
+back past-due benefits for direct fee payment. This section describes how to process
+cases with unknown fees at the time of effectuation. When performing the offset, do
+not temporarily show a fee of $.01 (i.e. the obsolete penny process).
+NOTE:
+The e4345 application does not allow for a blank fee amount, so technicians may still
+see e4345s showing a fee of $.01. Do not route back to PC until after the Representative
+fee has been resolved. Leaving fees unresolved allows the system to set an RF diary,
+explained in SM 01005.800C.

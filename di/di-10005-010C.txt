@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - DI 10005.010 - Field Office (FO) and Disability Determination Services (DDS) Exchange of Information and Coordination of Actions
+Effective Dates: 08/31/2026 - Present | TN 14 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410005010 (fetched 2026-10-04)
+
+C. Obtaining case status information
+1. eView
+eView is a web-based application that enables users involved in case processing to
+view, print, copy to CD, and take specific action on the disability information contained
+in the CEF. For complete instruction on the use of eView, see DI 81005.000.
+2. Disability Determination Services Query (DDSQ)
+The DDS inputs data on the National Disability Determination Services System (NDDSS).
+FOs obtain and review this disability information on the NDDSS by obtaining a DDSQ.
+Use this query to respond to routine inquiries from claimants and to check the progress
+of DDS case processing.
+NOTE: DDSQ information may not always reflect revisions made by the Disability Quality
+Review (DQR). Critical adjudicative details should be verified against the final SSA-831
+to help prevent potential processing errors.
+Request the DDSQ by completing the UNIT, RS, and AN fields on the DDSQ mask. The table
+below contains a quick explanation guide to the most frequently used fields in the
+query.
+DDSQ Field
+Explanation
+SRD
+DDS Receipt Date
+LUN
+DDS Unit
+LEX
+DDS Examiner
+MDF
+Medical Deferment Date
+SO
+N = No System Override All Data Transmitted to SSA Systems
+C = Case Movement Only Decisional Data Suppressed
+D = Decisional Data Only Case Control Data Suppressed
+Y = System Override Suppresses Transmission of All Data to SSA Systems
+SCD
+State Agency Closure Date
+DST
+Clearance Destination (See NOTE below)
+DEC
+Decision Code
+NOTE: If the DST shows a location beginning with R, the case has been selected for Office
+of Quality Performance quality review and is still pending.
+CAUTION: The DDSQ provides information about Title II and Title XVI claims, and it may also
+provide information concerning a Medicaid or a Medical Assistance (MA) claim. Since
+a Title XVI DDSQ looks nearly identical to a Medicaid (or MA) query, note the following
+differences to ensure you provide accurate information to a claimant questioning the
+status of his or her claim. For Medicaid (MA) queries the:
+1.
+Beneficiary Identification Code (BIC) field contains an AR, which indicates an assistance
+request.
+2.
+Study List Code (SLC) contains an N, which indicates the claim is a non-federal claim.
+3.
+District Office Code (DO) field contains a DDS code rather than a DO code.
+4.
+Destination Code (DST) contains letters designating a county destination rather than
+a DO code.
+References:
+•
+SM 06002.100 How to Complete the NDDSS Master File Menu (DDSM)
+•
+SM 06002.200 Parts of a Full Query Response
+•
+MSOM DDS 001.006 NDDSS Master File Menu (DDSM)

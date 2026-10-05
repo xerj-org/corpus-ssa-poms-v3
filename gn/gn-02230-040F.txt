@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02230.040 - Non-Entitled Debtors (NED) – Collection of Overpayments from Representative Payees of Deceased Title II Beneficiaries
+Effective Dates: 10/31/2017 - Present | TN 14 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230040 (fetched 2026-10-04)
+
+F. Other situations - responsible party other than payee
+IMPORTANT: Since we can only refer LDOs to our external collection tools, the NED
+system is only capable of processing LDOs and only for the debts described in section C and D of this POMs.
+In rare cases, the representative payee captured by NED may provide evidence showing
+that he or she is not responsible for repaying the benefits of a deceased beneficiary.
+For example, someone else may have stolen and cashed the checks sent to the representative
+payee after the death of the beneficiary.
+NOTE:
+We use the Non-Entitled Debtor Status Change (NESC) screen to change the debtor NED
+STATUS and the NED STATUS REASON recorded on the NED database. If the representative
+payee is not responsible for the debt, use the NESC screen to change the NED status
+reason to Not Responsible, which change the NED Status from active to inactive. For
+more information about the NESC screen, see MSOM DMS 012.006.
+SSA has very limited automated support to collect debts from these individuals or
+entities. In addition, the Social Security Act in some cases precludes the collection
+of debts from benefits payable to the responsible party.
+If there is an indication that fraud was involved, reference GN 02201.050.
+1. Responsible party other than payee not entitled to benefits
+If the responsible party is not the payee and is not entitled to benefits, establish
+a ROAR record for that party using the Establish Debt (SMED) data screen per instructions
+in MSOM DMS 002.003. The PC should be sure to establish the ROAR record on the claim
+account number of the deceased beneficiary using the “X” beneficiary identification
+code (BIC), as described in SM 00610.772 - Non-Entitled Overpaid Persons. Also, be
+sure to delete the overpayment from the deceased beneficiary’s ROAR record, per instructions
+in MSOM DMS 002.011 Transaction Correction, otherwise it will cause the same debt
+to be recorded twice. Take the following steps to collect the debt:
+•
+•
+If fraud was involved but OIG declined to pursue the case, send an initial overpayment
+notice to the responsible party. Since the debt is not a LDO, do not include waiver
+rights or reconsideration rights. For more information on what is, and is not an LDO,
+see GN 02201.001
+•
+Ask for full repayment within 30 days.
+•
+Follow-up in 60 days from the input to SMED for the presence of a repayment. To control
+the follow-up, the ROAR system automatically generates diary code 5 (processing center
+(PC) alert-regular), as a result of the input to SMED.
+•
+If the responsible party does not repay, send a ROAR reminder notice.
+•
+Check the status of repayment in about 60 days when ROAR automatically generates another
+diary code 5.
+•
+If the debtor has not repaid, stop any further collection efforts to collect the debt.
+•
+Input a termination of collection efforts by using the Terminate Collection (DFTE)
+screen described in MSOM DMS 007.003.
+2. Responsible party other than payee entitled to benefits
+If someone other than the representative payee is responsible for accepting the payments,
+then the responsible party owes a debt for those payments. The specific circumstances
+of the indebtedness dictate whether or not benefit withholding is authorized. Each
+case must be examined on its own merits.
+For example, individuals who negotiate stolen or forged checks generally cannot be
+subject to benefit withholding under section 204 of the Social Security Act. Section
+207 of the Social Security Act prohibits collecting the debt by withholding benefits.
+If you identify a case in which an individual other than the representative payee
+is responsible for the overpayment, contact your program analyst (in the PC) or other
+designated individual in the RO, as appropriate, for additional guidance. That designated
+individual will provide guidance or will contact Central Office for more information
+about the authority to withhold benefits. Do not take action to
+initiate benefit withholding.

@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02402.460 - Coding Cote d'Ivoire Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 04/05/2023 - Present | TN 233 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402460 (fetched 2026-10-04)
+
+G. Example of coding Cote d’Ivoire direct deposit
+The customer provides us with a signup form for Cote d’Ivoire containing the account
+number: “12345678901122334455667788990.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000140
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “M” designated for Cote d’Ivoire; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 740000140
+•
+Checking
+•
+DAN: M1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000140 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+b. The MBR reflects the following information
+•
+RTN- 740000140
+•
+DAN- CM1234567890112233

@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 11055.275 - Disability Determination Services Notifications to the Field Office
+Effective Dates: 09/03/2009 - Present | TN 89 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411055275 (fetched 2026-10-04)
+
+B. Procedure for handling representative payee issues in Title XVI claims
+The DDS is responsible for alerting the FO of representative payee issues.
+1. Claimant capable
+If the DDS believes a claimant is capable after another individual filed to be the
+claimant’s representative payee, the FO:
+•
+Secures an updated application from the disabled claimant; and
+•
+Initiates all outstanding non-medical development including lay evidence, if applicable,
+of the claimant's capability.
+2. Claimant incapable
+If the DDS believes the claimant is incapable based on medical evidence in file, the
+DDS takes the following action:
+•
+Provides a capability recommendation in Remarks (Item 34) of the SSA-831 (Disability
+Determination and Transmittal);
+•
+Posts a “Y” in the CDF field of the Disability Determination Services Query (DDSQ);
+and
+•
+Creates a Special Message in eView regarding capability.
+For more information about how to complete the NDDSS Master File Menu (DDSM), see
+SM 06002.100.
+For more information about parts of a full query response, see SM 06002.200.
+The DDS does not input disability data on the Modernized Supplemental Security Income
+Claims System (MSSICS) on medically allowed claims when the claimant filed their own
+application and the evidence obtained by the DDS indicates they are not capable of
+handling their own funds.
+Unless the FO discovers contrary evidence, the FO must:
+•
+Secure a representative payee application; and
+•
+Initiate all outstanding non-medical development.
+NOTE: The DDS alerts the FO (on the Remarks section of the SSA-831) when there is evidence
+in a Title XVI childhood case that the impairment relates to a maternal substance
+abuse, the child's parent or legal guardian suffers from substance abuse, or the child
+is being abused. In this situation, the FO must determine if the parent or legal guardian
+is the proper payee.

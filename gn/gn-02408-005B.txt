@@ -1,0 +1,110 @@
+SSA Program Operations Manual System (POMS) - GN 02408.005 - Check Stop-Payments in Non-Entitlement Due to Death Situations
+Effective Dates: 11/03/2008 - Present | TN 76 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408005 (fetched 2026-10-04)
+
+B. Process for Titles II and XVI
+1. E-Stop due to the death of the beneficiary or recipient with no representative payee
+involved
+When the date of death is input to the deceased’s record, an E-stop is automatically
+generated for each check issued after the date of death to which the beneficiary or
+recipient was not entitled (incorrect payment). (For systems exclusions and when E-stops
+must be input manually, see GN 02408.012.)
+E-stops:
+•
+identify checks issued after the death of the beneficiary/recipient;
+•
+enable Treasury to reclaim funds for checks that are fraudulently cashed after the
+death of the beneficiary or recipient; and
+•
+enable RFRB to deny payment for checks that are cashed after the beneficiary/recipient’s
+death by using the CORE process (see GN 02408.006).
+NOTE: E-stops, W-stops, and reclamations do not apply if SSA is notified of a death prior
+to the processing cutoff date because the death can be input in time to prevent incorrect
+payments from being issued.
+2. F-stop due to the death of the beneficiary or recipient who has a representative payee
+involved
+Input F-stops for checks issued to a representative payee after the death of the beneficiary
+or recipient (see GN 02408.007). When negotiated, these checks issued after death are not considered "incorrect
+payments”; they are overpayments to the representative payee and are collected accordingly
+(see General Information - Overpayments Table of Contents GN 02201.000).
+Although the date of the beneficiary's or recipient's death is input on their record,
+and checks may go out after the date of death, an automated E-stop does not post to
+those payments when a representative payee is on the record.
+NOTE: E-stops are only input to collect incorrect payments. E-stops should NEVER be
+used to collect an overpayment because overpayments require due process. Therefore, manual E-stops should not be input on any payments issued to a representative
+payee after the death of a beneficiary.
+3. F-Stop due to death of the representative payee in Title XVI cases only
+The Title XVI system no longer has a specific stop code for this category; the "R"
+that was formerly used is no longer accepted by Treasury. Therefore, use the F-stop
+for checks that are issued after the representative payee’s death. This prompts Treasury
+to return credit for the uncashed checks so they can be reissued to the new representative
+payee.
+F-stops (in this context):
+•
+identify checks issued after the death of the representative payee;
+•
+return credit for uncashed checks;
+•
+result in a check claims package for checks cashed after a representative payee's
+death; and
+•
+enable Treasury to reclaim funds for checks that are fraudulently cashed after the
+death of the representative payee.
+4. W-Stop due to death of the representative payee in Title II cases only
+When SSA learns of the death of the representative payee in a Title II case, input
+a W-stop on each payment issued after the date of death. W-stops post to the Payment
+History Update System (PHUS) as E-stops and E-stops are sent to Treasury.
+W-stops:
+•
+identify checks issued after the death of the representative payee;
+•
+enable Treasury to reclaim funds for checks that are fraudulently cashed after the
+death of the representative payee; and
+•
+enable the Richmond Federal Reserve Bank (RFRB) to deny payment for checks that are
+cashed after the representative payee’s death by using the Check Operations Re-Engineering
+Effort (CORE) process (see GN 02408.006).
+5. Late notification of death and the 12-month limit
+Due to various reasons, SSA may receive a late notification of death. One situation
+that often presents a problem is when the death occurred more than 12 months in the
+past. Treasury can only reclaim for checks issued within 12 months back from the date
+that SSA learns of the death.
+EXAMPLE: The beneficiary dies on January 15, 2001, but SSA is not notified until June 16,
+2008, at which time the date of death is input in the system. Treasury can only reclaim
+back to July 3, 2007 (June benefit). The improper check payments issued from January
+16, 2001 to June 3, 2007 (May 2007 benefit) are not reclaimable. For Limited Payability
+Death Cases, see GN 02401.917.
+6. Erroneous day of death and correct day of death are within the same month
+If the wrong day of death is reported and it is within the same month of death, transmitting
+the correct day may not always involve a payment correction. (For Title XVI, see Systems
+Processing of Subsequent Reports of Death, SM 01301.378 and for Title II, see Correction
+of Date of Death on the MBR, SM 00706.075.)
+7. Erroneous day of death and correct day of death are in different months
+Sometimes a date of death is input incorrectly in a different month from the month
+of death, causing stop-payments to be put on checks to which the beneficiary/recipient
+was actually entitled.
+EXAMPLE: A beneficiary died in March but the date of death was input as January. The beneficiary
+was actually entitled to the checks issued in February and March. To correct this
+problem, correct the date of death, then request abandon reclamation for the checks
+issued in February and March. Use the abandon reclamation request form found at GN 02408.302. Use the abandon reclamation request whether the funds have already been reclaimed
+from the FI or not.
+IMPORTANT: Sometimes SSA is contacted by an FI requesting that we return funds collected by
+reclamation in error. Treasury prefers that SSA use the abandon reclamation process rather than settling with the FI ourselves. The abandon reclamation process allows
+the money to flow back to the FI the same way it was collected so both agencies do
+not perform the same work. See Abandon Reclamation – Checks, GN 02408.302C.
+8. Early delivery date and payment is due
+Do not use a stop-payment when the payment is an early delivery payment and the beneficiary
+or recipient died on the early delivery date because the payment is due. For special
+overpayment situations, see GN 02201.007E.2.
+In Title XVI cases, when a date of death is equal to an early delivery payment date,
+an incorrect overpayment is computed. The overpayment is incorrect and should be annotated
+as an incorrect overpayment (see SM 01311.340).
+EXAMPLE 1: The March 2008 SSI payments were issued 02/29/08 (03/01/08 was a Saturday and 03/02/08
+was a Sunday). If the SSI recipient was alive as of 12:01 a.m. on 02/29/08 but died
+later that day, the recipient was due the payment issued even though the payment was
+for 03/01/08. Assume that the recipient died after payment was received. Annotate
+the overpayment as an incorrect overpayment.
+EXAMPLE 2: Title II payments for April 2008, must be delivered on 05/02/08 because 05/03/08
+is a Saturday. If the Title II beneficiary is alive as of 12:01 a.m. on 05/01/08 but
+dies later that day, the beneficiary is due the payment even though the payment was
+dated 05/03/08.

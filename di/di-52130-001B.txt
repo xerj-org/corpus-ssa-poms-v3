@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 52130.001 - Types of Federal Public Disability Benefit (PDB) Payments
+Effective Dates: 09/08/2025 - Present | TN 2 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452130001 (fetched 2026-10-04)
+
+B. Federal PDB exclusion test
+1. DIB onset is 05/01/1986 or later
+If the PDB plan is based on a period of service that was used both to establish eligibility
+to the PDB and to compute the amount of the PDB, and that period of service is at least 85 percent
+covered service, the PDB is not offset.
+However, if the PDB plan is based on one period of service to establish eligibility
+to the PDB, and a different period of service to compute the amount of the PDB, either period can exclude the PDB from offset if at least 85 percent of the period used
+is covered. In these situations, take the following steps to determine if the PDB
+is offsettable:
+•
+Evaluate the first period of service (e.g., the period of service used to establish
+eligibility to the PDB). If this period is based on at least 85 percent covered service,
+the PDB is excluded from offset.
+•
+If the first period of service does not satisfy the 85 percent test, look at the second
+period of service (e.g., the period of service used to compute the amount of the PDB).
+If the second period of service (evaluated on its own and without regard to the first
+period) satisfies the 85 percent test, the PDB is excluded from offset.
+•
+If the second period also does not satisfy the 85 percent test (i.e., neither period
+satisfies the 85 percent test), the PDB is offset.
+NOTE: The 85 percent must be satisfied by one of the periods considered alone. Do not add
+the separate percentages from the two periods. See DI 52125.010, Determining When a Public Disability Benefit (PDB) is Based on Covered Service,
+for more information and examples on determining when a PDB is offsettable.
+2. DIB onset 03/01/1981 through 04/30/1986 and month of entitlement (MOET) 09/1981 or
+later
+Do not offset if Federal PDB is based on at least one day of covered service.
+NOTE: A coverage indicator “Y” on the Informational/Certified Earnings Record Screen (ICERS)
+or a “Y” in the CS ANNUITY SSA COV: field on the Civil Service Data (DCSD) screen in the Modernized Claim System Earnings
+Computation (MCS EC) path is verification of covered service. However, you must check
+the Detailed Earnings Query (DEQY) for the years in question to make sure the covered
+employment is Federal and not private employment. MCS cannot distinguish between Federal
+and private employment and may errantly provide the remark “PDB Exception.” See obtaining
+proof of Federal PDB in DI 52130.001D in this section.
+3. DIB onset prior to 03/01/1981 or MOET prior to 09/01/1981
+Do not offset. PDB offset did not exist prior to the 1981 Social Security Amendments.

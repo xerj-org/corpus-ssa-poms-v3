@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - DI 11005.604 - Processing Compassionate Allowances (CAL) in the Field Office (FO)
+Effective Dates: 07/17/2026 - Present | TN 139 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005604 (fetched 2026-10-04)
+
+G. Request for review at the Appeals Council (AC) and a subsequent claim is filed that
+is CAL identified or removed from CAL processing
+If a case is pending at the AC and a subsequent claim is filed, and identified as
+a CAL upon transfer of the new claim through EDCS to the DDS, the AC is notified via
+the following message in eView:
+"Another case with this SSN: (insert SSN) has been identified as Compassionate Allowance
+because of the following conditions: <insert conditions>."
+Conversely, if a case is pending at the AC and a subsequent case is removed from CAL
+processing by the DDS, the AC is notified via the following message in eView:
+"Another case with this SSN: (insert SSN) has been removed from the Compassionate
+Allowance process."

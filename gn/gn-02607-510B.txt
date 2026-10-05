@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - GN 02607.510 - Enumeration Verification System (EVS) Codes On PUPS Records And PUPS Alerts
+Effective Dates: 04/14/2015 - Present | TN 3 (02-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607510 (fetched 2026-10-04)
+
+B. Process - EVS codes found on PUPS records and PUPS alerts from the unverified prison
+system (UPS)
+1. EVS codes in UPS—central office (CO) computer matching operation
+When the CO Prisoner Computer Matching EVS Operation cannot verify identity, EVS sends
+the unverified SSNs to OCO to review and find possible SSNs that belong to the unverified
+SSNs. OCO selects an SSN and enters the selected SSN into the Unverified Prisoner
+System (UPS). UPS transmits the manually verified SSN back through the Prisoner Suspension
+Computer Matching Operation. PUPS creates new PUPS pending records and skeleton records
+from this process. EVS assigns EVS codes of "E" and "F" to the manually verified OCO
+selected SSNs. The FO will always receive PUPS pending records with EVS codes of E
+and F. These codes need very careful identity review and resolution as well as other
+missing inmate data development action. See GN 02607.975A. for a description of the EVS codes.
+a. UPS EVS codes of "E"
+E = MANUALLY CORRECTED--The input SSN did not verify and a possible SSN was located by a manual process
+(OCO). When OCO initially locates an SSN for an unverified record, the PUPS alert
+will reflect a verification code of "E."
+b. UPS EVS codes of "F"
+F = AUTO CORRECTED--The input SSN did not verify and the SSN was auto-corrected by matching to previously
+corrected data (UPS).
+When OCO locates an SSN for an incoming unverified SSN, OCO annotates the manually
+verified SSN into the UPS history file as a verified SSN. If SSA receives a subsequent
+report where the identifying information (SSN) matches information already on the
+UPS history file, UPS will automatically correct the new unverified item to equal
+the SSN information on the UPS history file. UPS will pass this SSN back to the Prisoner
+Suspension Matching Operation. The UPS SSN will create a new PUPS alert and the EVS
+code on the PUPS record will change to "F."
+2. Processing PUPS alerts with EVS codes of E and F
+See GN 02607.600 for resolving identity issues for PUPS records with EVS codes of E and F. Some of
+the EVS Codes E and F are error-prone. If the EVS codes of E or F identifies an incorrect
+person, clear the PUPS records as CLEAR CONTROL - ERRONEOUS PERSON on the PUPS record,
+and correct the BOAN. See MSOM 216-O for instructions on correcting the BOAN if it
+is incorrect. See MSOM PRISON 003.001-13 for erroneous person PUPS procedures.
+NOTE: FO personnel should recognize that "E" and "F" EVS codes represent a manual identification
+of the SSNs. Manually verifying SSNs is generally more human "guess work" than the
+automated matching of SSNs done through the regular EVS process. Handle the process
+of verifying identity for EVS codes of "E" and "F" on PUPS alerts with sensitivity
+when contacting beneficiaries. Often, you will find the PUPS records with EVS codes
+of E or F are not a good identity match.
+3. Distribution of UPS alerts codes of E and F
+FOs receive all PUPS pending records with EVS codes of "E" and "F" for processing.

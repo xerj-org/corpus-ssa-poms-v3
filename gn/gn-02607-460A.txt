@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - GN 02607.460 - Field Office Processing of Inmate Reports
+Effective Dates: 08/14/2014 - Present | TN 27 (08-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607460 (fetched 2026-10-04)
+
+A. Manually entering inmate information into PUPS
+If an FO receives an inmate report from either someone other than an institution or
+from an institution that submits inmate information non-electronically, the FO processes
+the report by manually establishing a PUPS record for each reported inmate. Establishing
+a PUPS record requires completing a series of input screens to access PUPS, verify
+the reported Social Security Number (SSN), and enter inmate data. With this data,
+PUPS completes the inmate matching operation as described in GN 02607.410B.
+When PUPS creates inmate records from manual FO inputs, it assigns jurisdiction of
+the PUPS pending record to the FO servicing the beneficiary's or recipient's mailing
+address, but does not generate a PUPS alert to the servicing office. Nevertheless,
+the servicing FO is responsible for working the case to completion. Therefore, when
+a non-servicing office creates a PUPS record manually, it should immediately notify
+the servicing FO of the new pending PUPS record.
+1. Accessing PUPS
+a.
+Select Function 33 (Prison System/Fugitive Felons) on the SSA Main Menu to display
+the Prison Systems/Fugitive Felons Sub-Menu (PFSM) screen. For information on the
+PFSM, see MSOM PRISON 001.002;
+b.
+Select Function 1 (PUPS) on the PFSM to display the Prison System Menu (PSMU) screen;
+c.
+On the PSMU screen, enter:
+•
+“1” (Establish) in the SELECT MODE field;
+•
+“1” (Prisoner) in the SELECT FUNCTION field; and
+•
+the inmate’s own SSN in the Beneficiary/Recipient SSN field to display the PUPS Prisoner
+SSN Verification (PUSV) screen.
+2. SSN verification
+Complete the PUSV screen as instructed in MSOM PRISON 003.002. Upon completion of
+the PUSV screen for each reported inmate, PUPS matches the SSN and other identification
+on the screen with the NUMIDENT to verify the reported inmate SSN and generates a
+message on the results of the SSN verification.
+3. Completing the PUPS record
+The steps for completing a PUPS record depend on whether the SSN verifies.
+a. SSN verifies—no Title II entitlement or Title XVI eligibility found
+Take no further action on the PUPS record. Press ENTER to start a new record or PF3
+to exit from the PUSV screen. PUPS creates a skeleton record of the reported inmate
+for possible future use. For information on skeleton records, see MSOM PRISON 003.001-J
+and GN 02607.520.
+b. SSN verifies—active Title II entitlement or Title XVI eligibility
+On the PUSV screen:
+•
+for first-party reports, enter “SELF” in the RID field; or
+•
+for third-party reports, enter “OTHR” in the RID field.
+On the Prisoner Report History (PURS) screen:
+•
+enter the inmate data as instructed in MSOM PRISON 003.005. If inmate data needed
+for completing the PURS screen is missing from the report, contact the reporting institution
+as indicated on the Facility Identification Query (QFID). (For information on QFID,
+see MSOM PRISON 002.013.); and
+•
+complete the INMATE NUMBER field, if known. The inmate number is critical in determining
+the identity of the inmate.
+On the Prisoner Remarks (PRMK) screen, add all other information that may be helpful
+in processing the case, such as where the inmate is/was confined. For instructions
+on completing the PRMK screen, see MSOM PRISON 003.010.
+NOTE: If the name, date of birth and confinement date on an inmate report match a pending
+PUPS record, PUPS will not establish a second PUPS record. If necessary to reestablish
+a PUPS record (e.g., an erroneously cleared PUPS record), enter the confinement date
+as one day before or one day after the actual confinement date. Document why you reestablished
+the record on the PRMK screen.
+c. SSN does not verify
+Try to obtain an accurate SSN by either contacting the institution or from an ALPHIDENT
+query. If you find a valid SSN, complete the PURS screen. If you cannot find an accurate
+SSN, no further action is necessary.
+To obtain an ALPHIDENT query, see MSOM QUERIES 003.003.

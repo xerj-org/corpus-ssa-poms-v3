@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 02210.220 - Request for Waiver - $2,000 Tolerance - Debt Contact Representative (DCR)/Debt Specialist (DS) Actions
+Effective Dates: 01/03/2019 - Present | TN 83 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210220 (fetched 2026-10-04)
+
+B. Procedure for DCR actions on a waiver request
+1. How to Take Request
+a.
+Review the ROAR record to verify the amount of the original overpayment before taking
+a waiver request using this provision.
+Title II - Review the MBR or Inquiry Response (QRSL) to determine the total household liability.
+Refer to the DS for appropriate action when there is more than one debtor on the MBR.
+Title XVI - Obtain an SSR to determine total liability.
+b.
+If the original overpayment was $2,000 or less, obtain and input into the Remarks
+(RMKS) screen in DMS (MSOM DMS 009.003) the following information from the debtor
+:
+•
+debtor's statement that they are requesting waiver,
+•
+amount of the overpayment,
+•
+account number on which the overpayment was made,
+•
+debtor's name, and
+•
+number holder's name (if different).
+2. How to Document Decision
+If there is a single debtor on the MBR, document the waiver determination following
+the instruction in GN 02250.315 and proceed as follows:
+a. Title II Debt
+•
+Enter the Debt Number on the Debt Resolution Menu (DRMU) screen per ( MSOM DMS 006.002 ).
+•
+Input the waiver approval to the Waiver Approval under $2,000 (DRWP) screen per (MSOM
+DMS 006.006 ).
+•
+Document the Remarks screen with your decision;
+•
+Example: Laura Cole requested waiver for her $350 overpayment 05/01/2017. Approving
+the waiver based on the $2,000 admin waiver tolerance as it appears she is not at
+fault in causing the overpayment. – Sandy Smith, FO C88
+•
+Send the waiver approval notice.
+b. Title XVI Debt
+•
+Input an SSA-1719 OPUP with a completed waiver (WA) field. Complete the WA field to
+send an automated notice to the address on the SSR.

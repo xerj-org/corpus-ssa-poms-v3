@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 52165.005 - Workers' Compensation/Public Disability Benefits (WC/PDB) Offset Data on the Master Beneficiary Record (MBR)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165005 (fetched 2026-10-04)
+
+C. Updating the MBR for documentation
+1. MBR data is incorrect
+When the MBR data is incorrect, make the necessary inputs to correct it. Correct the
+error when it is found to prevent further errors and additional handling from erroneous
+alerts. T2R uses the account data information from the MBR when processing an action
+and, consequently, incorrect data on the MBR may lead to inaccurate results. If administrative
+finality applies, see DI 52165.020A. - Use Interactive Computational Facility (ICF) Function 34 Online Record Entry Operations
+(OREO) to Process ICF Problems and Limitations.
+2. Updating WC/PDB data on the MBR when offset will not apply
+Code the WC/PDB data in ICF or MCS EC, even if the disability insurance benefit (DIB)
+payment is not reduced. It is important for future actions. For example, if the current
+WC payment is too low to result in actual offset, we want the information about the
+WC claim to be present on the MBR to facilitate possible later benefit adjustments,
+due to changes in the WC payments.
+3. Processing Center (PC) action is necessary
+See DI 52140.010 – Processing Center (PC) Responsibilities When Case Involves Workers’ Compensation/Public
+Disability Benefit (WC/PDB) Offset.
+4. Field Office (FO) action is necessary
+See DI 52140.001 – Field Office (FO) Responsibilities for Workers’ Compensation/Public Disability
+Benefit (WC/PDB) Offset.

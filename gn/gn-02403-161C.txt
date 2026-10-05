@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 02403.161 - Social Security Electronic Remittance System (SERS) for Programmatic and Conserved Funds Remittances
+Effective Dates: 11/18/2024 - Present | TN 60 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403161 (fetched 2026-10-04)
+
+C. How to determine which store to use
+1.
+Check the SERS Programmatic store for debts or conserved funds. To process a remittance in the SERS Programmatic
+store, an overpayment or debt must exist on the Master Beneficiary record (MBR) or
+Supplemental Security Record (SSR). If there is an established overpayment or debt
+on the MBR, SSR, Recovery of Overpayments, Accounting, and Reporting (ROAR), or External
+Collection Operation (ECO), SERS displays the overpayment or debt.
+2.
+If there is no established overpayment or debt on the MBR, SSR, ROAR or ECO, SERS
+will not display the overpayment or debt. If SERS does not identify and display overpayments
+or debts, follow the current procedures in GN 02403.001 through GN 02403.160, to process the non-Conserved Funds remittance through the Debt Management System
+(DMS). If this is a Conserved Funds remittance with no associated debt on the record,
+go to step 3.
+3.
+If this is a Conserved Funds remittance and no debt is found in the SERS Programmatic
+store, the Conserved Funds remittance should be entered in the SERS Conserved Funds
+store.

@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.319 - Coding Cyprus Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402319 (fetched 2026-10-04)
+
+D. Overview of IDD for Cyprus
+IDD payments sent to Cyprus must be in Euro accounts at local FIs. The data for coding
+IDD for Cyprus will come from the International Bank Account Number (IBAN) provided
+to the beneficiary from his or her FI. The IBAN will be 28 characters (see Section
+F). Technicians will use the IBAN to derive the RTN and DAN when processing an IDD
+request.

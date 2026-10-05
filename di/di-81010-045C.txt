@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 81010.045 - Data Repropagation in Electronic Disability Collect System (EDCS)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010045 (fetched 2026-10-04)
+
+C. Fields that Repropagate
+1. All Claims
+If new or modified mainframe data is found, the repropagate function collects the
+information, propagates the data into the EDCS system, and overlays non-editable fields,
+such as:
+•
+Claimant’s Name and date of birth;
+•
+Claimant’s Address and telephone number;
+•
+Language Preference;
+•
+Number Holder’s SSN;
+•
+Claim Type(s);
+•
+Alleged Onset Date;
+•
+Number Holder Date of Death; and
+•
+Attorney Representation.
+2. Additional Fields that Repropagate for Child Claims
+Additional fields that can repropagate for child claims are:
+•
+Applicant Relationship to Child;
+•
+Applicant Information;
+•
+Applicant Name (First, Middle, Last, Suffix, or Agency Name); and
+•
+Applicant Address and phone number.

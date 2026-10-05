@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.453 - Coding Mongolia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 04/15/2022 - Present | TN 291 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402453 (fetched 2026-10-04)
+
+E. Description of Mongolia IDD bank data
+The data for coding IDD for Mongolia will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN is 20 characters.
+However, the bank data reflected on the MBR consists of 12 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.

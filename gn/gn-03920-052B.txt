@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 03920.052 - Pursuing Recovery of Excess Fees Paid to Representatives or Entities and Referrals for Ineligible for Direct Payment Entity (IDPE) List
+Effective Dates: 01/29/2025 - Present | TN 66 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203920052 (fetched 2026-10-04)
+
+B. Pursuing recovery of excess fee payments made to representatives
+When a technician identifies an excess fee payment made to a representative, follow
+these steps:
+1. Confirm the excess fee meets the conditions for pursuing recovery from a representative
+When a technician identifies a potential excess fee issue, the technician must first
+ensure that the excess fee is one for which we will pursue recovery and that the excess fee was paid to the representative.
+For more information on the circumstances under which we will pursue recovery of an
+excess fee, see GN 03920.051B.
+2. Document the situation
+If the excess fee issue meets the criteria for pursuing recovery and the fee in question
+was paid to a representative, the technician will document the situation in a Report
+of contact (ROC) in the Registration, Appointment and Services for Representatives
+(RASR) report of contact screen.
+The ROC should include the following information:
+•
+The representative(s) involved (identify representative(s) and date(s) of appointment);
+•
+The fee process involved (fee petition or fee agreement);
+•
+The past-due benefit period and amount (include amounts for claimant and any affected
+auxiliaries);
+•
+The date of fee authorization (for fee agreements use date of fee setting notice);
+•
+The date fee authorization was amended or reversed by decision maker or person with
+fee setting authority, if applicable;
+•
+An explanation of the incorrect fee payment, including the amount; and
+•
+An indication of whether we correctly paid the claimant and any affected auxiliaries.
+3. Verify that the claimant and representative have been notified of the correct authorized
+fee
+Before requesting a refund of an incorrect fee payment, verify that the decision maker
+or person with fee setting authority sent the correct fee authorization or rescission
+notice. We must notify both the claimant and the representative of the correct fee.
+For information on the proper authorities for authorizing fees or reviewing requests
+for administrative review, see:
+GN 03930.015 and GN 03950.005 (fee petitions), and
+GN 03940.002 and GN 03960.015 (fee agreements).
+If the excess fee resulted from a reduction in the fee we authorized, ensure that
+notice of the revised fee action was sent to the claimant and representative.
+For a fee petition case, the decision maker will have issued a corrected or revised
+fee authorization notice.
+For a fee agreement case, the processing center (PC) (for Title II claims) or field
+office (FO) (for Title XVI claims) will have sent notice of the revised fee amount,
+which includes the fee authorization language specified in GN 03940.008B.
+4. Issue a refund to the claimant, if necessary
+If the relevant instructions in GN 03920.051B direct us to issue a refund to the claimant, the technician will refund any erroneously
+withheld benefits to the claimant.
+For information on refunding the excess fee withholding, see
+SM 01901.005 and SM 01901.015 for Title XVI claims, and
+SM 00848.330 for Title II claims.
+NOTE: The claimant is not due a refund if we did not withhold past-due benefits for the
+fee payment. Also, the claimant may not be due a refund if the revised past-due benefits
+and fee resulted in an overpayment to the claimant.
+5. Issue any required notices
+Notify the representative of the amount they must refund to us within 30 days. For
+sample language, see GN 03970.025.
+6. Establish the excess fee in the appropriate systems
+Technicians annotate the incorrect fee payment or debt owed to us in the Debt Management
+System (DMS) for T2 claims, per SM 00610.772B.7.
+Manually control debts for T16 claims and debts owed to claimants, see GN 03920.052C.7.
+Annotate a special message or remark regarding the incorrect payment to the Master
+Beneficiary Record (MBR) or Consolidated Claims Experience.
+For more information regarding special messages and remarks, see SM 00510.075 for
+T2 and SM 01301.841 for T16.
+7. Establish a diary
+Technicians will establish a 45-day diary to follow up on the refund request. PCs
+may establish an ATFEE EXCESS diary through the Processing Center Action Control System
+(PCACS). For additional information on establishing PCACS diaries, see MS 04909.002
+Diary Request Menu (DRMN). FOs may establish an issue on the Development Worksheet
+page or on the MDW screen.
+For additional information on establishing FO follow-ups, see:
+MS 08122.004 Development Worksheet, and
+MS 03901.002 Modernized Development Menu (MMEN).
+8. Follow-up actions
+a. The representative refunds the excess fee
+If the representative refunds the excess fee payment to us, the technician will:
+1.
+Verify receipt (and clearance) of remittance. See the references below for remittance
+and returned fee payment processing instructions.
+2.
+Document recovery of the representative’s debt by creating an ROC in RASR as well
+as the claimant’s electronic or paper file. If the FO or PC received the remittance
+but the Mid-Atlantic Program Service Center (MATPSC) Remittance and Accounting Unit
+(RAU) has not processed it, document the pending status of the remittance.
+3.
+After the MATPSC RAU processes the remittance for T2 claims, the remittance may require
+manual DMS and Payment History Update System (PHUS) annotation if an automated interface
+does not occur.
+4.
+After the MATPSC RAU processes the remittance for T16 claims, clear any manual controls
+for the representative’s debt.
+For more information on remittance and returned fee payment processing, see:
+GN 02403.006 Processing Remittances Received in the Field Office (FO)
+GN 02405.010 How to Process Unendorsed Title II Returned Treasury Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the FO
+GN 02405.100 How to Process Unendorsed Title XVI Returned Benefit Checks and Unendorsed Claimant
+Representative Attorney Fee Checks Received in the Field Office
+MS DMS 003.003 PC Remittance Input (REMI)
+MS DMS 003.008 Verif/Corr of FO Remittances (RFOV)
+SM 01311.634 How to Resolve a B4 Diary
+SM 00610.291 Completion of SSA-124-U3 for Misrouted Remittances
+SM 00610.296 Allegation of Remittance
+b. The representative did not refund the excess fee
+If, after the 45-day diary expires, the representative has not refunded the full excess
+fee payment or if the representative intentionally misrepresented their direct payment
+eligibility (e.g., non-attorney falsely claimed EDPNA status), we:
+1.
+Refer the matter to OGC for possible sanctions action, following the instructions
+in GN 03970.017 or GN 03970.025, along with any documentation (i.e., copy of the incorrect fee check(s), proof of
+direct deposit with the referral, copy of the remittance receipt.)
+2.
+If a response or remittance is received from the representative, add a new ROC in
+RASR documenting the new information.
+3.
+Forward the information in the new ROC to OGC, along with any new documentation (i.e.,
+copy of the incorrect fee check(s), proof of direct deposit with the referral, copy
+of the remittance receipt) within 2 business days.

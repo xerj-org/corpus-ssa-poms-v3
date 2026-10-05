@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 52155.001 - Completing Modernized Claims System (MCS) Screens When Workers’ Compensation/Public Disability Benefit (WC/PDB) Is Involved
+Effective Dates: 09/25/2008 - Present | TN 2 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155001 (fetched 2026-10-04)
+
+B. Complete the WC/PDB common screens in MCS
+When a response is provided on the DISB screen indicating the NH has filed or intends
+to file for WC/PDB, the WC/PDB Claim Data (WPCL—MSOM COMMON 001.003) screen comes
+into the MCS claims path.
+1.
+Complete the WPCL with all available information regarding the first WC or PDB claim.
+Additional screens are brought into the path according to how this screen is completed.
+2.
+Complete the WC/PDB Claim Data Employer/Payer Name and Address (WPAD—MSOM COMMON 001.004)
+screen for all WC/PDB claims. Include as much information as possible regarding the
+employer as well as the address, contacts and information about the company or entity
+that is paying the WC/PDB.
+Additional screens will come into the path as applicable:
+•
+WC/PDB Periodic Payments (WPPR—MSOM COMMON 001.005)
+•
+WC/PDB Periodic Payments Ongoing Expenses (WPOX—MSOM COMMON 001.006)
+•
+One-Time Only Excludable Expenses for Periodic Payments (WPEX—MSOM COMMON 001.007)
+•
+WC/PDB Lump Sum Award Data (WPLS—MSOM COMMON 001.008)
+When the screens are completed for the first claim, the WC/PDB Selection Menu (WPMU—MSOM
+COMMON 001.002) appears in the path. If additional claims need to be added, enter
+Y in ADD NEW OCCURRENCE at the bottom of the screen.
+After all claims are entered into the WC/PDB COMMON screens, the WPMU screen is used
+to select a specific claim for correction or update.
+Once the WC/PDB COMMON Screens are established in MCS, they can also be viewed in
+the T2 SHARED DATA SCREENS.
+For information about accessing T2 Shared data, see MSOM ICD 005.003.
+3.
+There are occasions where it will be necessary to delete WC/PDB data from the claims
+path. Some examples are:
+•
+After loading the information, you find that the benefit is clearly NOT WC/PDB.
+•
+The WC/PDB event was in the past and, after doing the computation, you find the LS
+proration does not extend into this claim period.
+•
+The WC was repaid by a third party settlement.
+•
+The WC award was annulled on appeal.
+To delete a specific claim, select the claim from the WPMU. On the WPCL enter Y after
+DELETE THIS CLAIM.

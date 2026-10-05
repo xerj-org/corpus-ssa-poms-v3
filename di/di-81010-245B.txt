@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 81010.245 - Processing Electronic Continuing Disability Review (eCDR) Decisions
+Effective Dates: 03/16/2010 - Present | TN 30 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010245 (fetched 2026-10-04)
+
+B. Returns with No Medical Determination
+1. No Decision
+The DDS may return an eCDR to the FO with a No Decision (ND) indicator on the SSA-832/833.
+See EDCS Action Page - DI 81010.100F. for scenarios when the DDS returns claims with an ND indicator. Since a determination
+is not made by the DDS, the FO must close the eCDR in the Electronic Disability Collect
+System (EDCS). Use the following steps to close out the EDCS case:
+•
+Enter the Social Security Number in EDCS and select the eCDR claim;
+•
+Select the Claims Actions tab;
+•
+Select the claim(s) and click on “Add FO Determination”;
+•
+Select Misc. Clearance and close the case.
+NOTE: Don’t forget to close out the CDR on the DCF.
+•
+From the MCDR screen, select 2=FO UPDATE;
+•
+Input the SSN and BIC (if other than “A”);
+•
+SELECT the appropriate CDR Type;
+•
+SELECT EVENT TYPE: 5=SSR/MBR CONDITIONSSTOP CDR; and
+•
+On the CDR Remarks Input Screen (IRMK), explain why the CDR was stopped.
+2. Beneficiary Moves to Another State
+If a beneficiary moves to another state during the CDR evaluation, see Beneficiary
+Moves to Another State before Electronic Continuing Disability Review (eCDR) Determination
+is Final - DI 81020.245.

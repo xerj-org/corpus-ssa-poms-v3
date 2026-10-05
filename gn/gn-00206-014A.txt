@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 00206.014 - Processing a Withdrawal (WD) Request made after Adjudication
+Effective Dates: 12/02/2022 - Present | TN 29 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200206014 (fetched 2026-10-04)
+
+A. Field Office (FO) responsibilities before submitting a WD request to the Processing
+Center (PC)
+The PC has jurisdiction of a WD request submitted after the adjudication of the application.
+However, the FO must take actions before forwarding the WD request to the PC.
+1. Reviewing and processing the WD request
+The FO technician must follow the steps below to process the WD request:
+•
+review the WD request to ensure it meets the requirements listed in GN 00206.005.
+•
+print a fax cover sheet for the Paperless repository using the Evidence Portal (EP)
+under TOEL “CLAIM WITHDR” with remarks “WITHDRAW- Claim Withdrawal [Post-adjudicative]”;
+•
+annotate the cover sheet with the following message if the WD does not meet the time
+requirement for a (RIB) request : “WITHDR REC MM/DD/CCYY over 12 months or exceeds
+lifetime limit, previous withdrawal on file”;
+•
+fax the WD request and any associated documentation via EP to the servicing PC Paperless
+repository and the Non-Disability Repository for Evidentiary Documents (NDRed). Once
+the documentation is stored and viewed in EP (i.e. making sure all forms and documents
+are clear and legible), you can destroy the paper document(s). To determine which
+PC has jurisdiction, see GN 01070.245;
+•
+suspend the claimant’s monthly benefit using the WDSP screen in Post-entitlement Online
+System (POS) as of the month the WD request was received;
+•
+add the following special message to the Master Beneficiary Record (MBR) via the Miscellaneous
+Online Edited Transaction System (MONET): “WITHDR REC MM/DD/CCYY forwarded to PC#
+on MM/DD/CCYY”; include additional remarks if the WD does not meet the time requirement
+(e.g. over 12 months or exceeds lifetime limit);
+•
+inform the claimant we will forward the request for WD to another component and the
+claimant will receive a subsequent request for repayment to remit funds in the envelope
+provided.
+•
+advise the claimant to wait for the formal WD determination (i.e. notice of WD approval)
+before filing a new claim for the same benefit. If the claimant insists on filing
+a new claim prior to the WD approval, the FO must process the claim as a duplicate
+application. Follow instructions for duplicate applications in GN 00204.028.
+2. Repayment submitted with the WD application request
+Advise the claimant that the PC will mail a notice requesting repayment. However,
+if the claimant insists on repayment, accept any repayment in the form of money order,
+credit card, cashier's check, certified check or personal check. Advise the claimant
+that we will notify them of the final repayment amount required for the WD approval.
+Discourage the use of cash repayment by mail and advise the claimant that they are
+responsible for any lost cash payments. For information about processing remittances
+received in the FO, see GN 02403.006. Add a Special Message to the MBR with the date and amount of remittance.
+3. Suspending benefits
+Suspend benefits on the current claim using the claim withdrawal suspension (WDSP)
+per SM 03020.270. See the Modernized Systems Operation Manual MSOM MS 00705.032 for
+instructions on the Withdrawal of Claim – Suspension screen. Do not include independently
+entitled divorced spouse (IEDS) beneficiaries when suspending benefits. For more information
+about IEDS, see RS 00202.100.
+IMPORTANT: Do not suspend auxiliary benefits where the WD requester is the NH unless the auxiliary
+(or representative payee) has consented to the WD request.

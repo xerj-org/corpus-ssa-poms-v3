@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02402.349 - Coding Luxembourg Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402349 (fetched 2026-10-04)
+
+G. Example of coding Luxembourg IDD
+The customer provides us with a signup form for Luxembourg containing the account
+number: "LU360029152460050000".
+•
+The first two characters of a Luxembourg IBAN are “LU,” which represent the International Organization for Standardization (ISO) country
+code (never coded to the MBR).
+•
+The third and fourth characters of the IBAN are the IBAN Check Digits. The technician
+should never code the IBAN ISO country code or the check code to the MBR.
+•
+The next three characters of the IBAN represent the three-digit bank code.
+•
+The next 13 characters of the IBAN represent the 13-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 66 (the multi-country prefix for Luxembourg).
+•
+Code three filler zeros “000”.
+•
+Code the three-digit bank code “002”.
+•
+Code the one-digit check code (i.e., 8).
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no indication
+of account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Use the letter “M” (for Luxembourg); and
+•
+The 13-digit account number “9152460050000”.
+3. Obtain the following information
+•
+RTN: 660000028
+•
+Checking
+•
+DAN: M9152460050000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000028 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M9152460050000
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660000028
+•
+DAN- CM9152460050000

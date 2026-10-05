@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02406.125 - Transmitting Reports of Nonreceipt, Loss, Theft, or Destruction -- Title II and Title XVI -- Recurring Checks and PMA Checks -- Normal and Dire Need Situations
+Effective Dates: 03/28/2000 - Present | TN 14 (04-00)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406125 (fetched 2026-10-04)
+
+E. Process - Endorsed Check Lost, Stolen or Destroyed
+•
+When a check is endorsed by the payee prior to being lost or stolen and the check
+is presented to DT for payment, DT will send a status code 17 (paid--endorsement may
+prohibit claims action; photocopy and claim to follow) in response to the G-stop.
+DT's internal process is set up to send a claims package to SSA. Although the claimant
+has alleged that the check was signed prior to being lost or stolen, if he or she
+wishes to review the claims package and check photocopy, the package should be made
+available. If the claimant wishes to complete the FMS-1133 package and allege forgery
+because they were mistaken about having signed the check, process the claims package
+through normal procedures found at GN 02406.160. If the check in question is part of a DCN overpayment situation, process according
+to GN 02406.310.
+•
+If the original check has not been cashed, DT will not issue a replacement check but
+will credit SSA for the funds. SSA will then reissue the payment to the payee if it
+is still due.
+•
+If the original check is later presented for payment, DT sends a claims package (same
+rationale as above) with a code 63 (Payment over Cancellation). SSA is debited and
+the payee is liable for the overpayment if the check bears the genuine endorsement
+of the payee. Any recovery of the loss on behalf of the payee would have to be handled
+by local law enforcement officials dealing with the theft of the check. If the claimant
+insists the endorsement is not his (and the FMS-1133 was not completed before), have
+him complete the FMS-1133 and refer it to DT for a forgery determination (GN 02406.160).
+•
+See GN 02406.235 for instructions involving Holder in Due Course; check endorsed,
+cashed, then lost before being returned to the RFC.

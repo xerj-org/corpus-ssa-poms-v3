@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 02406.210 - Nonreceipt of Interim Assistance Reimbursement (IAR)
+Effective Dates: 09/25/2019 - Present | TN 69 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406210 (fetched 2026-10-04)
+
+B. Processing IAR nonreceipt claims
+1. When recipient contacts the FO alleging nonreceipt of an IAR payment annotation on
+the SSR
+If the recipient contacts the FO alleging nonreceipt of an IAR payment, before transmitting
+an IAR nonreceipt, the SSR must show that SSA issued an IAR payment to the State or
+Local Agency. The Regional Office IAR Coordinator will instruct the technician to
+transmit a nonreceipt of IAR reimbursement payments made to State agencies only when
+:
+a.
+A representative of the State agency that advanced the funds alleges that the payment
+was not received; and
+b.
+The SSR shows an IAR payment was issued (PMTH PAYFLAG 3 = 1 or 5)
+NOTE:
+SSA used to identify Zebley court cases with a “5” in PAYFLAG 3. However, now the
+“5” indicates the issuance of an IAR payment.
+IMPORTANT: When the SSI system cannot automate the scheduled IAR payment to a state agency,
+a manual FO intervention is required to release it. The PMTH segment will display
+the payment as 4N1 in PAYFLAG 1, 2 and 3, respectively. See SM 01005.625 for more
+information.
+2. Transmitting an IAR nonreceipt
+a.
+Use the Direct SSR Update Missing Check (UPMC) screen to process nonreceipts for IAR
+check payments as shown in MS 00303.013.
+b.
+Use the Direct SSR Update Missing Direct Deposit (UPMD) screen to process nonreceipts
+for IAR direct deposit payments as shown in MS 00303.014.
+c.
+Reissue the check via A-OTP to the IAR state or local agency. Include the complete
+IAR agency address on the One-Time Payment Address (UPOA) screen as shown in MS 00303.023.

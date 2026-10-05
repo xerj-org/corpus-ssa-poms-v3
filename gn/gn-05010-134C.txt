@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 05010.134 - SSA Refunds Too Much Tax
+Effective Dates: 01/27/1999 - Present | TN 8 (05-95)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0205010134 (fetched 2026-10-04)
+
+C. Procedure
+1. Beneficiary in Current Pay
+a.
+Advise the beneficiary of the:
+•
+Tax amount refunded;
+•
+Amount which should have been refunded;
+•
+Amount and reason for the excess refund; and
+•
+Excess refund will be withheld from his current benefit(s).
+Do not include the due process notice or SSA appeal language since it is an IRS matter
+and not subject to these SSA processes.
+b.
+Recover the excess refund amount as follows:
+•
+Withhold (manually until the system is revised to handle these cases) the excess refund
+amount from the current monthly benefits.
+Compute the tax due on the benefit from which the refund is recovered before withholding the excess tax refund.
+•
+Credit the amount withheld to recover the excess refund to PHUS as a tax withheld.
+(ETD is date the excess refund was paid.)
+Make this PHUS annotation after the full amount has been recovered or, if recovery
+extends over more than 1 calendar year,before the annual statement for each year is
+prepared. Limit the annotation to the amount recovered in the year for which the statement
+is due.
+•
+Change the MBR alien tax field only to the extent, if any, it was changed by the excess
+tax refund (see D.1.).
+If payment stops before the repayment is complete, annotate the MBR, if appropriate,
+to show the repayment and take action as explained in b. and c.
+2. Beneficiary in Nonpay Status (Not Terminated)
+Send the beneficiary a notice as explained in 1.; however, revise it to ask him to
+repay the excess refund.
+Diary the case for 90 days.
+a. Beneficiary Repays the Excess Refund
+Increase the tax amount shown on PHUS by the amount repaid (ETD is the date the excess
+refund was paid).
+Change the MBR alien tax field to the extent,if any, it was changed by the excess
+refund.
+See b. below for action on the portion not repaid if the beneficiary repays only part
+of the excess refund and refuses to repay the remainder.
+b. Beneficiary Does Not Repay the Excess Refund
+Post the unpaid amount to the MBR as an unpaid tax liability.
+3. Beneficiary Terminated
+a. Beneficiary is Deceased
+Do not attempt to recover the excess tax refund. Do not post it to the MBR as an unpaid
+tax liability.
+b. Beneficiary is Alive
+Send a notice as explained in 2. above asking him to repay the excess refund.
+Diary the case for 90 days.
+Do not take any further action to recover the excess refund if, upon diary expiration,
+the beneficiary has not repaid the excess refund.
+Post the excess tax refund to the MBR if the beneficiary was entitled as an HA, a
+spouse or surviving spouse and could be reentitled to benefits at a later time.

@@ -1,0 +1,503 @@
+SSA Program Operations Manual System (POMS) - GN 02230.055 - Civil Monetary Penalty (CMP) - Posting
+Effective Dates: 01/12/2023 - Present | TN 26 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230055 (fetched 2026-10-04)
+
+A. Posting a CMP
+Regardless of the program in which the violation occurred, SSA can collect the CMP
+from any benefits the debtor is currently receiving.
+See the Chart of Scenarios for posting CMPs in GN 02230.055B in this section.
+For trust funding instructions see GN 02230.055A.8 in this section.
+1. Parts of a CMP
+CMPs can have two parts, the penalty, and the assessment.
+Penalty – The penalty is an amount determined by the Office of the Inspector General (OIG)
+that relates to the number of instances the person falsified, withheld information
+from SSA, or engaged in other program-related misconduct. OIG can impose a penalty
+of up to $9,966. The penalty amount is adjusted annually.
+For historical penalty amounts for each violation, see GN 02230.050C.1.
+Assessment – The assessment (or assessment in lieu of damages) represents the overpayment caused
+by the fraudulent action or other program-related misconduct. The assessment takes
+the place of the overpayment and may be equal to, greater than, or occasionally less
+than the overpayment caused by the misconduct. Therefore, adjust the record when posting
+the assessment so that SSA does not collect both the overpayment and the assessment.
+OIG may not always impose an assessment when it imposes a penalty.
+IMPORTANT: Always post a CMP in its entirety as one amount (penalty and assessment combined),
+unless State Supplementation is involved in the overpayment. For instructions on posting
+CMPs to the SSR when State Supplementation is involved, see GN 02230.055A.5.
+2. Posting the penalty amount of a CMP
+OIG’s transmitting route slip (or other final administrative or judicial decision)
+specifies the amount of the penalty imposed.
+Post the penalty to the record of the program in which the violation occurred. If
+collection can happen by posting the CMP to the debtor’s record other than the program
+where the violation occurred, post the CMP to that record. See instructions for posting
+the penalty to the MBR/SSR in GN 02230.055A.4.-5 and GN 02230.055A.8.
+Penalty imposed but no assessment imposed
+If OIG imposed a penalty but did not include any assessment in the CMP, and the violation
+occurred in one program and collection can be accomplished by posting the penalty
+to the debtor’s record in another program, post the penalty to the record in the other
+program. Include Remarks or Special Messages on all records involved identifying the
+program where the violation occurred.
+3. Posting the assessment amount of a CMP
+If an assessment is imposed,
+•
+The amount can be less than, equal to, or up to twice the amount of the overpayment
+that occurred as a result of the statement, representation, or other misconduct, which
+was the basis for the penalty.
+•
+The overpayment represents the damages sustained by the United States as a result
+of the person’s actions or omissions, and SSA collects the assessment instead of the
+overpayment.
+SSA cannot collect both the assessment and the overpayment amount.
+If the assessment is equal to or more than the overpayment.
+•
+Reduce the overpayment to zero and
+•
+Post the entire CMP amount. See instructions for posting the assessment to the MBR/SSR
+in GN 02230.055A.4.-5.
+EXAMPLE 1: CMP Imposed and assessment greater than overpayment
+Overpayment on record
+$ 5,000
+CMP imposed
+​
+Penalty
+$ 3,000
+Assessment
+$10,000 (2 times overpayment amt)
+Total CMP
+$13,000
+Reduce Overpayment to zero
+​
+Title II
+use TC 53, Reason code 97, via DRWD screen
+(suppress any waiver decision notice)
+Title XVI
+use Z TAC for terminated records and
+records with a force pay flag (FFLF) use NT TAC for all other Title XVI records
+NOTE: A NT TAC in excess of $2,000 requires management approval. A NT TAC in excess of
+$20,000 requires RO approval. See 02220.005
+Post $13,000 CMP
+​
+Title II
+under TOE Code 61 via SMED screen
+(MS
+01102.003)
+Title XVI
+use a P TAC via UOMA screen as a Federal amount. This will show as a P99 on the SSR
+(MS
+00304.014)
+Add Remarks and/or Special Messages to the record that a $13,000 CMP was imposed and
+the overpayment was reduced because of the assessment.
+Sample Remarks and/or Special Messages for this scenario: $13K CMP ($3K PENALTY &
+$10K ASSMNT) – ASSMNT REPRESENTS 2X O/P AND O/P REDUCED TO ZERO-DO NOT DELETE REMARK
+If the assessment is less than the overpayment, reduce the overpayment amount by the
+assessment amount. The remaining overpayment balance is subject to normal overpayment
+recovery procedures. Post the entire penalty and assessment amount.
+EXAMPLE 2: CMP Imposed and assessment less than overpayment
+Overpayment on record
+$ 15,000
+CMP imposed
+​
+Penalty
+$ 5,000
+Assessment
+$10,000
+Total CMP
+$15,000
+​
+​
+Reduce the Overpayment on record to
+$ 5,000
+Title II
+with TC 53, Reason code 97, for $10,000 or
+​
+​
+Title XVI
+with Z TAC for $10,000 (terminated or force pay flag record) or
+with NT TAC for $10,000 (other than terminated record)
+​
+​
+Post Combined Penalty and Assessment
+(same as in example 1 above)
+$15,000
+Add Remarks and/or Special Messages to the record that a $15,000 CMP was imposed and
+the overpayment was reduced because of the assessment.
+Sample Remark for this scenario: $15K CMP ($5K PENALTY & $10K ASSMNT) ASSMT REPRESENTS
+2/3s OF O/P- O/P REDUCED TO $5K-DO NOT DELETE REMARK
+4. Posting a CMP to the MBR
+a. Debtor in current pay status for Title II
+1.
+Post the entire CMP amount to the debtor’s MBR using Type of Event (TOE) Code 61.
+See instructions on how to establish a debt in MS
+01102.003.
+2.
+Establish the debt under the name and SSN of the person the CMP was imposed on. For
+example, if the CMP was imposed on a representative payee for Double Check Negotiation
+(DCN) of the beneficiary’s benefits, establish the CMP on the representative payee’s
+own record under the representative payee’s name and SSN. Do not put the CMP on the
+beneficiary’s record.
+NOTE: If the CMP debtor does not have their own MBR, but is receiving benefits as an auxiliary
+(e.g., receiving benefits as a C1), post the entire CMP debt to the individual’s record
+of entitlement under their BIC.
+3.
+Establish the recovery rate. The recovery rate should be the negotiated rate stated
+in the settlement agreement or full withholding if there is no settlement agreement.
+Full withholding applies because the CMP is a result of fraud or related misconduct.
+See instructions on how to establish the recovery rate in MS
+01106.015.
+4.
+Input a TC 53, Reason code 97 (Other), to reduce the overpayment represented by the
+assessment. Do not adjust the CMP amount when posting to the record. Post the CMP
+in its entirety. See examples of posting the assessment amount of a CMP in GN 02230.055A.3.
+5.
+Add a fraud indicator. See how to post a fraud indicator in GN 02230.055A.7.
+6.
+Add DMS Remarks and a Special Message on the MBR that include:
+•
+Amount of the CMP;
+•
+Any associated SSNs;
+•
+That the CMP is not subject to waiver or discharge in bankruptcy;
+•
+The overpayment was reduced because of the assessment (if applicable);
+•
+A remark stating not to delete the Remarks; and
+•
+Any additional necessary information.
+7.
+Send a notice stating that SSA plans to start withholding the person’s benefits to
+collect the CMP debt. See the CMP withholding notice in NL 00703.963.
+IMPORTANT: We must contact OGC and notify them that a CMP is involved in the bankruptcy
+and indicate the penalty amount and how much remains on the assessment. In a Chapter
+7 bankruptcy, neither the “assessment” nor the “penalty” part of the CMP can be discharged
+in bankruptcy.  However, the law for Chapter 13 allows only the “assessment” part
+of the CMP to be excepted from and lets the debtor discharge the “penalty” part of
+the CMP.
+b. Debtor in non-pay status for Title II
+1.
+Post the entire CMP amount to the debtor’s MBR using Type of Event (TOE) Code 61.
+If there is no MBR, establish a ROAR using TOE Code 61. See instructions on how to
+establish a debt in MS
+01102.003.
+2.
+Establish the debt under the name and SSN of the person the CMP was imposed on. For
+example, if the CMP was imposed on a representative payee for DCN of the beneficiary’s
+benefits, establish the CMP on the representative payee’s own record (or a ROAR record),
+name, and SSN. Do not put the CMP on the beneficiary’s record.
+NOTE: If the CMP debtor does not have their own MBR, but is entitled as an auxiliary (e.g.,
+entitled as a C1), post the entire CMP debt to the individual’s record of entitlement
+under their BIC.
+3.
+Input a TC 53, Reason code 97 (Other), to reduce the overpayment represented by the
+assessment. Do not adjust the CMP amount when posting to the record. Post the CMP
+in its entirety. See examples of Posting the Assessment amount of a CMP in GN 02230.055A.3.
+4.
+Add a fraud indicator. See how to post a fraud indicator in GN 02230.055A.7.
+5.
+Add DMS Remarks and a Special Message on the MBR that include:
+•
+Amount of the CMP;
+•
+Any associated SSNs;
+•
+That the CMP is not subject to waiver or discharge in bankruptcy;
+•
+The overpayment was reduced because of the assessment (if applicable);
+•
+A remark stating not to delete the Remarks; and
+•
+Any additional necessary information.
+6.
+There is no notice required for a non-pay situation.
+5. Posting a CMP to the SSR
+Currently, there is no specific Decision Code for CMPs. If no State Supplementation
+is involved, post the CMP in its entirety as a Federal amount to the SSR as a P TAC
+using the MSSICS UOMA screen. This will create a P99 TAC in the OPDD segment of the
+SSR. For information on the MSSICS UOMA screen, see MS
+00304.014.
+If there is an assessment that represents the overpayment and there was State Supplementation
+involved in the overpayment, post the CMP by breaking down the CMP into a Federal
+and a State amount.
+IMPORTANT: Add Remarks to the SSR identifying the Overpayment Sequence (OPSQ) number(s) where
+the CMP is posted. For more information on the OPSQ segment, see SM 01311.035.
+a. Debtor in current pay status for Title XVI
+1.
+Post the CMP to the SSR as a P TAC using the MSSICS UOMA Screen. This creates a P99
+TAC in the OPDD segment of the SSR. For information on the MSSICS UOMA screen, see
+MS
+00304.014. If an assessment was imposed, see examples of posting the assessment amount of a
+CMP in GN 02230.055A.3.
+2.
+Establish the debt under the name and SSN of the person the CMP was imposed on. For
+example, if the CMP was imposed on a representative payee for DCN of the recipient’s
+payments, establish the CMP on the representative payee’s own record under the representative
+payee’s name and SSN. Do not post the CMP on the recipient’s record.
+3.
+If an assessment is imposed and no State Supplementation is involved in the overpayment,
+record a P TAC for the CMP as a Federal amount only, via the MSSICS UOMA Screen.
+4.
+If an assessment is imposed and State Supplementation is involved in the overpayment,
+you must determine the State amount of the overpayment. If the overpayment contains
+State funds, use the MSSICS UOMA screen to record a State specific P TAC as a State
+amount for the State overpayment portion of the assessment. Use a P TAC as a Federal
+amount for the remainder of the CMP amount (i.e., rest of assessment amount plus the
+penalty amount). For examples of CMP impositions with an assessment that takes the
+place of an overpayment involving State Supplementation, see below. For a list of
+State fund codes see, SM 01301.535.
+5.
+Enter a notice date on the UOMA screen when you add the amount(s). Use the date of
+the final administrative or judicial action. The final action could be one of the
+following:
+•
+A signed settlement agreement by the Office of the Inspector General;
+•
+OIG demand letter imposing the CMP;
+•
+Health and Human Services’ (HHS) ALJ’s post-hearing decision;
+•
+HHS DAB’s recommended decision;
+•
+Commissioner decision reversing or modifying the HHS DAB’s recommended decision; or
+•
+U.S. Court of Appeals decision.
+6.
+Establish the recovery rate using the UOCR or UOPD screen. For information about check
+adjustment, see MS
+00304.013, MS
+00304.008, and SM 01311.125. The recovery rate could be either:
+•
+The negotiated rate stated in the settlement agreement; or
+•
+Full withholding if there is no settlement agreement. Full withholding applies because
+the CMP is not an overpayment, was the result of fraud or other misconduct, and is not subject
+to limitations on the amount SSA can withhold from current Title XVI payments to recover
+an overpayment.
+7.
+Add a fraud indicator. See how to post a fraud indicator in GN 02230.055A.7.
+8.
+Add Remarks on the SSR that include:
+•
+Amount of the CMP;
+•
+OPSQ number where CMP posted;
+•
+Any associated SSNs;
+•
+That the CMP is not subject to waiver or discharge in bankruptcy;
+•
+The overpayment was reduced because of the assessment (if applicable);
+•
+A remark stating not to delete the Remarks; and
+•
+Any additional necessary information.
+9.
+Send a notice stating that SSA plans to start withholding the person’s payment to
+collect the CMP debt. See the CMP withholding notice in NL 00703.963.
+b. Debtor in non-pay status (other than T50/T51) for Title XVI
+1.
+Post the CMP to the SSR as a P TAC using the MSSICS UOMA Screen. This creates a P99
+TAC in the OPDD segment of the SSR. For information on the MSSICS UOMA screen, see
+MS
+00304.014. If an assessment was imposed, see examples of Posting the Assessment amount of a
+CMP in GN 02230.055A.3.
+2.
+Establish the debt under the name and SSN of the person the CMP was imposed on. For
+example, if the CMP was imposed on a representative payee for DCN of the recipient’s
+payments, establish the CMP on the representative payee’s own record under the representative
+payee’s name and SSN. Do not post the CMP on the recipient’s record.
+3.
+If an assessment is imposed and no State Supplementation is involved in the overpayment,
+record a P TAC for the CMP, as a Federal amount only, via the MSSICS UOMA Screen.
+4.
+If an assessment is imposed and State Supplementation is involved in the overpayment,
+you must determine the State amount of the overpayment. If the overpayment contains
+State funds, use the MSSICS UOMA screen to record a State specific P TAC as a State
+amount for the State overpayment portion of the assessment. Use a P TAC as a Federal
+amount for the remainder of the CMP amount (i.e., rest of assessment amount plus the
+penalty amount). For examples of CMP impositions with an assessment that takes the
+place of an overpayment involving State Supplementation, see below. For a list of
+State fund codes see, SM 01301.535.
+5.
+Enter a notice date on the UOMA screen when you add the amount(s). Use the date of
+the final administrative or judicial action. The final action could be one of the
+following:
+•
+A signed settlement agreement by the Chief Counsel to the Inspector General;
+•
+OCIG demand letter imposing the CMP;
+•
+HHS ALJ’s post-hearing decision;
+•
+HHS DAB’s recommended decision;
+•
+Commissioner decision reversing or modifying the HHS DAB’s recommended decision; or
+•
+U.S. Court of Appeals decision.
+6.
+Add a fraud indicator. See how to post a fraud indicator in GN 02230.055A.7.
+7.
+Add Remarks on the SSR that include:
+•
+Amount of the CMP;
+•
+OPSQ number where CMP posted;
+•
+Any associated SSNs;
+•
+That the CMP is not subject to waiver or discharge in bankruptcy;
+•
+The overpayment was reduced because of the assessment (if applicable);
+•
+A remark stating not to delete the Remarks; and
+•
+Any additional necessary information.
+8.
+There is no notice required for a non-pay situation.
+EXAMPLE 1:CMP imposed, assessment equal to the pre-existing overpayment involving State Supplementation
+CMP imposed = $1,100 ($1,000 penalty and $100 assessment)
+Pre-existing overpayment = $100 ($75 Federal/$25 State Supplementation)
+To delete/zero out the $100 overpayment:
+•
+Use a Z TAC on terminated records or records with a force pay flag (FFLF) via MSSICS
+UOPD Screen (MS
+00304.008); or
+•
+Use an NT TAC on all other Title XVI records via MSSICS UOPD Screen (MS
+00304.008).
+Post the CMP as follows via the MSSICS UOMA Screen:
+•
+$1,075 Federal amount ($1,000 for the penalty and $75 for the Federal overpayment
+portion of the assessment). This creates a P99 TAC in the OPDD segment of the SSR.
+•
+$25 State amount for the State overpayment portion of the assessment. This creates
+a State specific P TAC in the OPDD segment of the SSR.
+EXAMPLE 2: CMP imposed, assessment greater than pre-existing overpayment involving State Supplementation
+CMP imposed = $1,200 ($1,000 penalty and $200 assessment)
+Pre-existing overpayment = $100 ($75 Federal/$25 State Supplementation)
+To delete/zero out the $100 overpayment:
+•
+Use a Z TAC on terminated records or records with a force pay flag (FFLF) via MSSICS
+UOPD Screen (MS
+00304.008)
+•
+Use an NT TAC on all other Title XVI records via MSSICS UOPD Screen (MS
+00304.008).
+Post the CMP as follows via the MSSICS UOMA screen:
+•
+$1,175 Federal amount ($1,000 for the penalty + $100 for the amount of the assessment
+that is greater than the overpayment + $75 for the Federal overpayment). This creates
+a P99 TAC in the OPDD segment of the SSR.
+•
+$25 State amount for the state overpayment portion of the assessment. This creates
+a State specific P TAC in the OPDD segment of the SSR.
+6. Establishing a ROAR record when no MBR/SSR exists
+In order to have an automated record when a CMP is imposed for a person who has never
+been entitled to benefits (and therefore has no MBR or SSR), the debt must be established
+on a ROAR record. The PSC is responsible for establishing a ROAR record. The ROAR
+record must be established on the CMP debtor’s own SSN using BIC A. See instructions
+on how to establish a debt in MS
+01102.003.
+7. Posting a fraud indicator
+Always include a fraud indicator on the record when posting a CMP.
+Title II – Post a “Y” fraud indicator to ROAR on the Modify Debt Statistics (SMMD) screen
+when posting the CMP. For information on the SMMD screen, see MSOM DMS 002.005.
+Title XVI – Although the SSR does not have a specific fraud indicator, use the UOSD screen
+and select “4” (Fraud) under Suspend Billing. The suspend billing code should remain
+indefinitely. This allows the system to recognize it is a fraud debt. For information
+on the UOSD screen, see MS
+00304.006.
+NOTE: The fraud indicator is the only way to prevent the debt from being billed through
+the Recovery and Collection of Overpayment (RECOOP) Process system and from being
+selected for collections via the Treasury Offset Program (TOP).
+8. Posting a CMP to a record in a program other than the program in which the violation
+occurred – trust funding
+When posting a CMP to a record in a program other than the program in which the violation
+occurred, manual trust fund corrections may be necessary.
+EXAMPLE 1: Title XVI CMP posted to a Title II record
+A CMP is imposed on a Title XVI recipient’s representative payee, and the representative
+payee does not have an SSR or MBR.
+•
+Establish a ROAR record for the representative payee;
+•
+Choose the SSI trust fund indicator when establishing the ROAR; and
+•
+Post payments received to the ROAR record.
+The system automatically credits the SSI general fund with remittance amounts.
+EXAMPLE 2: Title II CMP posted to a Title XVI record
+A CMP is imposed on a Title II recipient’s representative payee, and the representative
+payee only has a Title XVI record.
+•
+Post the CMP to the representative payee’s Title XVI record;
+•
+Post payments received to the Title XVI record; and
+•
+Complete an SSA-666 (Adjustment in Trust Fund Accounts) for remittances SSA receives
+to ensure the Title II trust fund is credited properly. Do not transfer the entire
+CMP amount unless all payments have been received. Make the transfers on a periodic
+basis as payments are received (e.g., quarterly). However, you must complete all transfers
+of funds SSA actually received before the end of each fiscal year. For instructions
+on completing the SSA-666, see SM 00610.230B, steps 5 and 6.
+9. PSY T50/T51 on SSR
+The system does not allow overpayments to be posted to an SSR when the PSY is T50/T51.
+If a CMP is imposed for a Title XVI violation and the SSR PSY is T50/T51:
+•
+Post the CMP to the MBR, if one exists, or establish a ROAR record;
+•
+Establish the debt and select the SSI trust fund indicator;
+•
+Add DMS Remarks or a Special Message on the MBR explaining the situation; and
+•
+Credit any payments to the MBR or ROAR.
+10. Enter Remarks on the SSR or a Special Message on the MBR and in DMS
+•
+Always enter information describing the CMP on the person’s own and any associated
+MBRs or SSRs. For Title II, also document the DMS Remarks screens (this includes when
+a stand-alone ROAR record is established).
+•
+Specify the amount of the penalty and assessment and include any information that
+would help clarify the CMP. For example, cross-reference SSNs that may have been involved,
+a representative payee situation, or the assessment has taken the place of the overpayment.
+•
+Annotate that the CMP is not subject either to waiver or to discharge in bankruptcy.
+In addition, include that these remarks should not be deleted.
+EXAMPLES of Remarks entered on the SSR, MBR, or in DMS:
+$5K CMP IMPOSED FOR DCN ON JOHN DOE XXX-45-XXXX FRAUD-DO NOT WAIVE OR DISCHARGE-COLLECT
+O/P THEN CMP-DIARY SET FOR MM/DD/YY-DO NOT DELETE REMARK (Use this remark in the relatively
+rare circumstance when OIG’s settlement agreement provides for completion of collecting
+the overpayment before the CMP.)
+$5K CMP IMPOSED FOR MISUSE POSTED ON O/P SEQ #__ -X/R TO XXX-45-XXXX, XXX–56-XXXX-DO
+NOT WAIVE OR DISCHARGE-DO NOT DELETE REMARK
+$5K PENALTY & $1200 ASSMNT IMPOSED-FRAUD-ASSMNT SUBSUMES $700 O/P DO NOT WAIVE OR
+DISCHARGE DO NOT DELETE REMARK
+CMP ON BANKRUPTCY PET SENT TO RCC COPY TO RO or PSC CMP CONTACT ON MM/DD/YY DO NOT
+DELETE REMARK
+IMPORTANT: On the SSR, always include the OPSQ number of the CMP in Remarks.
+11. CMP imposed against a representative payee
+If the CMP is imposed against a representative payee, take the following actions in
+addition to posting the CMP:
+•
+Query the eRPS system using the representative payee’s SSN. Refer to MS
+07407.003.
+•
+Annotate the misuse determination on the RPS via the RMIS screen, if the CMP is imposed
+due to misuse. For information on the RMIS screen, see MS
+07406.007.
+•
+Add a statement to the representative payee special text screen about the CMP finding;
+include the reason for the CMP, date imposed, program, related claim number(s), and
+CMP amount. For information on entering remarks in RPS, see MS
+07415.002.
+•
+Conduct a continued suitability investigation if the representative payee is currently
+serving for other beneficiaries/recipients. For information on determining the need
+for a new representative payee, see GN 00504.100.
+12. Enter Remarks on the Representative Payee System (RPS)
+If a CMP is imposed on a person, who is serving or has previously served as a representative
+payee, enter information about the CMP on the Make note screen in RPS, see MS
+07415.002, and include associated SSNs. For information on entering remarks in RPS, see MS
+07415.002 and GN 00502.132B.
+13. Relationship of non-legally defined overpayment (LDO) to assessment
+If the overpayment resulting from the CMP debtor’s conduct is not an LDO and an assessment
+is imposed that represents that non-LDO, the assessment takes the place of the non-LDO.
+For collection purposes, treat the non-LDO like an LDO. Post the penalty and assessment
+according to these POMS. For information on erroneous payments that are not overpayments,
+see GN 02201.001.

@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 22505.022 - Developing Medical Evidence of Record (MER) from the Department of Veterans Affairs (VA) Veterans Health Administration (VHA) Medical Facilities
+Effective Dates: 03/24/2017 - Present | TN 24 (05-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0422505022 (fetched 2026-10-04)
+
+F. Procedure to use a MEGAHIT User Trigger to request MER from the VHA
+1. How to initiate a User Trigger request
+To initiate a User Trigger request to obtain evidence from VHA:
+•
+Confirm the availability of a valid electronic SSA-827;
+•
+Using your legacy system or the stand-alone web-based application;
+•
+Identify and select the Social Security number;
+•
+Search the medical facilities list for “VA sites” and select it;
+•
+Enter the requested date range; and
+•
+Click on the “Initiate Request” button to make the User Trigger request.
+You will receive a confirmation notice in the blue section of the EF that the VHA
+is processing the request. Allow five hours for a response.
+NOTE: Use only a valid electronic SSA-827 for a VHA request. If the only valid SSA-827
+in file is wet-signed, do not use a user trigger request and instead use procedures
+the in DI 22505.022G or DI 22505.022H.
+2. Reasons for the DDS to initiate a MEGAHIT User Trigger request
+The most common reasons for the DDS to send user triggered HIT requests to the VHA
+are:
+•
+A HIT source was not originally identified by MEGAHIT;
+•
+A HIT source is identified after case transfer;
+•
+HIT MER in file needs to be updated;
+•
+HIT MER is needed for an adjudicative level other than the initial level;
+•
+A HIT response document indicates a time out error; or
+•
+The dates for MEGAHIT request timeframe are outside of the timeframe needed.
+NOTE: See DI 81020.020 Electronic Case Development for more information.

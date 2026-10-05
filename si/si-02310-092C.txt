@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - SI 02310.092 - Processing Title XVI Federal Bureau of Prison PUPS Alerts
+Effective Dates: 06/19/2015 - Present | TN 73 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310092 (fetched 2026-10-04)
+
+C. Procedure - review of the 3BOP PUPS alert
+1. Review EVS codes on PUPS
+Review the EVS codes on the PUPS alert/record for accuracy. (See GN 02607.975A. for a description of the EVS Codes generated on PUPS alerts.).
+a.
+EVS codes of "2," "3," "4," "A," "B," "E," and "F" contain questionable identity issues
+and require verification. Develop the questionable identity issues per SI 02310.092D.3.
+b.
+EVS codes of "V," "L," are generally valid matches for identity. Do not develop for
+identity issues on these EVS codes.
+2. Check to see if inmate is a representative payee
+Check the RPS to determine if the prisoner/inmate serves as a representative payee.
+Evaluate the suitability of the payee if they are the inmate. Develop and process
+per GN 00504.000.
+3. Review PUPS record for missing inmate information
+Review the remaining incoming inmate information on the 3BOP PUPS alert. Check that
+the "throughout a month" requirement was met; check for valid or missing inmate dates
+of confinement; check for missing FID codes, etc. Develop missing, incomplete, or
+questionable inmate information using the guidelines shown in SI 02310.092D.4.
+NOTE (1): Do not contact the Federal Bureau of Prisons for any missing or questionable inmate information.
+NOTE (2): A change in an inmate status code and a change in the date of confinement for an inmate results in another PUPS alert and
+PUPS record for the inmate.
+4. Concurrent PUPS alerts
+In concurrent cases, each title will have its own pending PUPS record. Complete all
+development and update each PUPS record. See the instructions in SI 02310.092D. for development actions required on title XVI PUPS records and GN 02607.790 for title II BOP PUPS records.
+5. Application of administrative finality, similar fault versus fraud in prisoner case
+processing.
+See GN 02607.705 for the procedure.

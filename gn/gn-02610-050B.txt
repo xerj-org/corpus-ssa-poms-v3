@@ -1,0 +1,408 @@
+SSA Program Operations Manual System (POMS) - GN 02610.050 - Complex Offset Situations with Case Examples
+Effective Dates: 03/14/2013 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610050 (fetched 2026-10-04)
+
+B. Case type: recomputing windfall offset when the Title II date of entitlement (DOE)
+or the Title II benefit amount changes due to amended Title II award.
+Due to an amended award which changes the Title II DOE or benefit amount, a recomputation
+of windfall offset may be needed.
+Do not change the windfall offset end date (WOED) when recomputing windfall offset
+due to a Title II amended award. Any additional Title II benefits for months later
+than the original WOED are countable Title II income when received. Input this income
+as type A unearned income on the SSR in the month paid.
+When providing offset information to each other, the processing center (PC) and field
+office (FO) must clearly communicate what the amounts represent; e.g., whether the
+offset is recomputed for the entire period or only for additional Title II benefits
+due. The e4345 is used to communicate and exchange information. For instructions on
+completing the e4345 see Field Office User's
+Guide and Program Center
+User's Guide .
+Location of specific instructions and examples for cases with amended Title II awards:
+•
+For examples for recomputing the offset in these cases, see GN 02610.050B.1 through GN 02610.050B.2 in this section.
+•
+For an example of when a recomputation is not needed, see GN 02610.050B.3 in this section.
+•
+For instructions about applying administrative finality when a recomputation is required,
+see GN 02610.050B.4 in this section.
+•
+For processing center (PC) instructions after the FO has completed the recomputation,
+see GN 02610.036B.
+•
+For processing center (PC) instructions on completing the e4345, see e4345 PC User
+Guide.
+•
+For field office (FO) instructions on completing the e4345, see the e4345 FO User
+Guide.
+•
+If a recomputation causes an overpayment or underpayment, see SM 01320.400A and SI 02006.010
+1. Title II DOE changes to a later date than the MBR DOE and the Title II benefit amount
+does not change or it decreases.
+Adjust the windfall offset begin date (WOBD) if the month after the Title II amended
+DOE is later than the month of eligibility for Title XVI and recompute the offset.
+Do not adjust the WOBD if the Title II amended DOE is prior to the month of eligibility
+for Title XVI. The WOED does not change. Recompute the offset using the unchanged
+or lower Title II benefit amount by triggering an automated recomputation if possible.
+EXAMPLE 1: DOE changes to later date and Title II benefit amount does not change within
+the offset period.
+In this example the Title II DOE changes from 03/08 to 07/08. Adjust the offset period
+to 08/08- 11/08. Recompute the offset using the unchanged Title II benefit by triggering
+an automated recomputation if possible.
+SSR shows:
+WOBD: 4/08
+WOED: 11/08
+WIN: F
+WPA: $1104.00
+SSI payment data: 4/08 - 11/08: $637.00
+SSI payment data: 12/08-12/08: $473.00
+SSI payment data: 1/09 on: $504.00
+NOTE: The acronyms “WOBD” and “WOED” do not appear on the SSR. They will be used throughout
+the examples in this section to identify the windfall offset begin dates and the windfall
+offset end dates that are on the SSR.
+Social Security unearned income is posted as follows:
+Type W: 04/08-09/08 $184.00
+10/08-11/08 $0.00
+Type A: 10/08-12/08 $184.00
+01/09- $190.00
+MBR Shows:
+2008 Title II MBP: 4/08 - 12/08: $184.00
+2009 Title II MBP: 1/09 on: $190.00
+Amended Award received in 11/09 shows:
+Title II DOE: 7/08
+MBP remains unchanged
+PC procedure for EXAMPLE 1:
+1.
+Using an e4345, the PC requests the FO complete an offset recomputation for the new
+period 8/08 through 11/08.
+2.
+Show $0.00 as the amount paid and $184.00 as the amount due for 07/08-08/08.
+3.
+Explain in remarks that the change is based on an amended award to a later month of
+entitlement. The breakdown represents the new total retroactive benefits subject to
+offset.
+4.
+When the PC receives the e4345 from the FO, compare the old and new offset amounts
+and follow instructions in GN 02610.036.
+FO procedure for EXAMPLE 1:
+1.
+When the FO receives an e4345 from the PC, recompute the offset using 08/08, (the
+month after the month of the revised DOE) as the WOBD. The WOED (11/08) does not change.
+2.
+Complete the e4345 with the recomputation results and return the e4345 to the PC.
+3.
+Do not recompute the months from the DOE on the MBR to the revised DOE since those
+months are no longer within the offset period and do not affect SSI eligibility.
+Based on the amended award the SSR will show:
+WOBD: 08/08
+WOED: 11/08
+WPA: $368.00
+Type W: 08/08-09/08 $184.00
+10/08-11/08 $0.00
+Type A: 10/08- $184.00
+01/09- $190.00
+NOTE: Type W amounts in the original offset period from the DOE on the MBR to the revised
+DOE are no longer included in the total Title II retroactive amount or the windfall
+period of the recomputed offset.
+EXAMPLE 2: DOE changes to later date and Title II benefit amount decreases.
+The amended award changes the Title II DOE from 03/08 to 07/08. The new offset period
+will be from 08/08 through 11/08:
+SSR shows:
+WOBD: 4/08
+WOED: 11/08
+WIN: F
+WPA: $2400.00
+Social Security unearned income is posted as follows:
+Type W: 04/08-09/08 $400.00
+10/08-11/08 $0.00
+Type A: 10/08-12/08 $400.00
+MBR shows:
+2008 Title II MBP: $400.00
+Amended award shows:
+Title II DOE: 07/08
+MBP: $370.00
+PC procedure for EXAMPLE 2:
+1.
+Request a recomputation from the FO of the revised offset period using an e4345. Provide
+a breakdown showing new MBP beginning with new DOE.
+2.
+When the FO returns the e4345 with the new figures, the PC compares the old and new
+offset amounts and follows instructions in GN 02610.036.
+FO procedure for EXAMPLE 2:
+1.
+Recompute the revised offset period of 8/08 - 11/08 using the MBP of $370.00.
+2.
+The FO sends the results to the PC using the e4345.
+Based on amended award the SSR will show:
+WOBD: 08/08
+WOED: 11/08
+WPA: $740.00
+Revised Social Security unearned income is postedby CR as follows:
+Do not overlay the current type A income with the revised type A income.
+Type W: 08/08-09/08 $370.00
+10/08-11/08 $0.00
+Type A: 10/08-12/08 $400.00
+01/09- 02/09 $420.00
+03/09-on $380.00
+CMA paid in 04/09 for 03/09- The correct Title II benefit amount is posted since the
+Title II system processed the action in time to reduce the 03/09 benefit.
+NOTE: Type W amounts in the original WP from the DOE on the MBR to the revised DOE are
+no longer included in the total Title II retroactive amount or the windfall period
+of the recomputed offset.
+2. Title II DOE changes to an earlier month than the MBR DOE and Title II benefit amount
+increases, decreases, or stays the same
+EXAMPLE 1: Title II DOE changes to an earlier month and the Title II benefit amount
+increases
+In this example the Title II DOE changes from 11/03 to 12/02. Adjust the offset period
+and recompute the offset using the earlier WOBD (01/03) and the increased Title II
+benefit amount. The WOBD is the month after the revised earlier DOE or the month of
+Title XVI eligibility, whichever is later. The WOED does not change.
+SSR shows:
+Current Title II offset information for the completed windfall offset period
+Title XVI DOE 05/1999
+WOBD: 12/03
+WOED: 01/05
+WPA: $2390.00
+Social Security unearned income posted as follows:
+Type W: 12/03 $190.00
+01/04-11/04 $200.00
+12/04-01/05 $0.00
+Type A: 12/04- $200.00
+01/05-on $210.00
+MBR shows:
+2003 Title II MBP: $190.00
+2004 Title II MBP: $200.00
+2005 Title II MBP: $210.00
+CMA paid in 12/04 for 11/04: $200.00
+Amended award shows:
+DOE: 12/02
+2003 Title II MBP: $200.00
+2004 Title II MBP: $210.00
+2005 Title II MBP: $220.00
+CMA paid in 12/04 for 11/04: $200.00
+PC procedure for EXAMPLE 1:
+1.
+Request a recomputation from the FO of the revised offset period (01/03 – 01/05) using
+an e4345. Provide a breakdown showing new MBP beginning with new DOE through 10/04.
+Enter the CMA paid amount as the original 11/04 paid in 12/04.
+2.
+In remarks provide amount of increases withheld for months after the CMA paid month.
+The FO may need this information to ensure there are sufficient retroactive benefits
+to cover the revised offset.
+3.
+When the FO returns the e4345 with the new figures, compare the old and new offset
+amounts following the instructions in GN 02610.036 and determine the net underpayment due, including the increases due for the CMA paid
+month and later.
+FO procedure for EXAMPLE 1:
+1.
+The FO adjusts the offset period to 01/03 – 01/05 using the revised MBP for 2003 and
+2004.
+2.
+The FO sends the results to the PC using the e4345.
+Base on the amended award the SSR will show:
+CMA paid in 06/05 for 5/05: $220.00
+Revised WOBD: 01/03
+Unchanged WOED: 01/05
+WPA: $4710.00
+Total retroactive Title II benefits used to recompute the offset: $4710.00
+$200.00 x 12 months (01/03 through 12/03) = $2400.00
+$210.00 x 11 months (01/04 through 11/04) = $2310.00
+Social Security unearned income posted as follows:
+Type W: 01/03-12/03 $200.00
+01/04-11/04 $210.00
+12/04-01/05 $0.00
+Type A: 12/04-12/04 $200.00
+01/05-05/05 $210.00
+06/05- on $220.00
+Increased Title II CMA amount paid in 06/05 for 05/05: $220.00
+Title II increase payable from 12/04-05/05 is counted as Type A income
+when received. The increase from 12/04-05/05 is $10.00 for each month. Type A income
+counted when received is $60.00 ($10 x 6 months)
+EXAMPLE 2: DOE changes to an earlier month and the Title II benefit amount decreases.
+Adjust the offset period and recompute the offset using the earlier WOBD and the reduced
+Title II benefit amounts. The WOBD is the month after the revised Title II DOE, or
+the month of eligibility for Title XVI, whichever is later. The WOED does not change.
+SSR shows:
+Current Title II offset information for the completed offset period:
+WOBD: 6/08
+WOED: 11/08
+WIN: F
+WPA: $1600.00
+Title XVI DOE: 04/08
+Social Security unearned income is posted as follows:
+Type W: 06/08-09/08 $400.00
+10/08-11/08 $0.00
+Type A: 10/08-12/08 $400.00
+01/09-on $420.00
+MBR shows:
+Title II DOE: 05/08
+2008 MBP: $400.00
+2009 MBP: $420.00 (amount paid prior to amended award)
+Amended award shows:
+Title II DOE: 3/08
+2008 MBP: $380.00
+2009 MBP: $400.00
+PC procedure for EXAMPLE 2:
+1.
+Request a computation of the revised offset period (04/08-11/08) using an e4345. Provide
+a breakdown showing the new MBP beginning with the new DOE through 08/08. Enter the
+CMA paid amount as the original 09/08 CMA paid in 10/08.
+2.
+In remarks explain that a revised computation is needed due to an amended award with
+decreases in benefit amount. The breakdown represents the revised amounts subject
+to offset.
+3.
+When the FO returns the e4345 with the new figures, compare the old and new offset
+amounts as instructed in GN 02610.036.
+4.
+The PC must determine the net amount due or overpaid and take into account the total
+decreases for the CMA paid month and later.
+FO procedure for EXAMPLE 2:
+Adjust the offset period and recompute the offset using the reduced Title II amount
+($380.00) and the Title II DOE (3/08). Return the e4345 to the PC with the required
+results.
+Based on the amended award the SSR will show:
+CMA paid in 03/09 for 02/09: $410.00
+WOBD - 4/08
+WOED - 11/08
+2008 MBP: $380.00
+2009 MBP: $400.00
+WPA: $2280.00
+Total retroactive Title II benefits used to recompute the offset: $2280.00
+NOTE: Based on the amended award the MBR will show Title II overpayment for 10/08- 01/09.
+Type W: 04/08-09/08 $380.00
+10/08-11/08 $0
+Type A: 10/08-12/08 $400.00
+01/09- $410.00
+EXAMPLE 3: Title II DOE changes to an earlier month, but the Title II benefit amount
+stays the same.
+Adjust the offset period using the earlier WOBD and unchanged Title II benefit amount.
+The offset period begins with the month after the revised earlier Title II DOE or
+the month of Title XVI eligibility whichever is later. The windfall end date does
+not change.
+SSR shows:
+Title XVI DOE 02/08
+WOBD: 5/08
+WOED: 11/08
+WPA: $2000.00
+Social Security unearned income is posted as follows:
+Type W: 05/08-09/08 $400.00
+10/08-11/08 $0.00
+Type A: 10/08-12/08 $400.00
+01/09-on $420.00
+MBR shows:
+Title II DOE: 4/08
+2008 MBP: $400.00
+2009 MBP: $420.00
+Amended award shows:
+DOE: 2/08
+MBP: $400.00
+PC procedure EXAMPLE 3:
+1.
+Request a recomputation of the revised offset period 03/08-11/08 using an e4345. Provide
+breakdown beginning with new DOE through 08/08.
+2.
+In remarks, inform the FO that a recomputation is needed based on amended award with
+earlier MOE and no change to original Title II monthly benefits amount.
+FO procedure: Recompute offset and return the e4345 to the PC with the necessary information.
+Based on amended award the SSR will show:
+WOBD -- 3/08
+WOED -- 11/08
+2008 MBP-- $400.00
+2009 MBP-- $420.00
+WPA: $2800.00
+Total retroactive Title II benefits used to recompute the offset: $2800.00.
+($400.00x 7 months (03/08-09/08) = $2800.00
+Type W: 03/08-09/08 $400.00
+10/08-11/08 $0
+Type A: 10/08-12/08 $400.00
+01/09- on $420.00
+3. The Title II DOE does not change and Title II benefit increases or decreases.
+As explained in GN 02610.036, if the DOE does not change and the Title II benefit increases, do not recompute
+the offset period.
+When the DOE does not change and the Title II benefit decreases, recompute the windfall
+offset using the decreased Title II benefit.
+EXAMPLE 1: Title II DOE does not change and Title II benefit increases
+In this example, the FO does not recompute the offset and takes no action in this
+situation. The PC will process the case using the increased Title II benefit. The
+PC will not send an e4345 to the FO.
+SSR shows:
+WOBD: 7/08
+WOED: 11/08
+WIN: F
+MBR Shows:
+2008 Title II MBP: $400.00
+Amended Award shows:
+Title II MBP effective 06/08: $410.00
+PC procedure EXAMPLE 1:
+1.
+No recomputation is needed by the PC.
+2.
+The PC will process the Title II benefit increase.
+3.
+The PC does not send an e4345 to the FO.
+FO procedure EXAMPLE 1:
+1.
+The FO does not recompute the months in the offset period -7/08 through 11/08.
+2.
+If the PC requests a recomputation, the FO should return the request.
+3.
+The FO will explain that no computation is required as described in GN 02610.036.
+EXAMPLE 2: Title II DOE does not change and Title II benefit decreases.
+In this example, the FO recomputes the offset using the decreased Title II benefit
+amount.
+SSR shows:
+WOBD: 7/08
+WOED: 11/08
+WIN: F
+WPA: $1230.00
+Social Security unearned income is posted as follows:
+Type W: 07/08-09/08 $410.00
+0/08-11/08 $0.00
+Type A: 10/08-12/08 $410.00
+01/09- on $420.00
+MBR shows:
+2008 Title II MBP: $410.00
+2009 Title II MBP: $ 420.00
+Amended award shows:
+2008 Title II MBP: $400.00
+2009 Title II MBP: $410.00
+PC procedure for EXAMPLE 2:
+1.
+Request a recomputation of the offset by providing the revised breakdown for the offset
+period 07/08-11/08.
+2.
+Provide a breakdown showing $0.00 paid and the new lower benefit due for the DOE through
+08/08.
+3.
+In remarks explain that a revised offset computation is needed due to amended award
+with decrease in rates.
+4.
+The PC should determine the net overpayment after the FO returns the revised computation.
+FO procedure for EXAMPLE 2: Recompute the months in the offset period and send the
+results using an e4345.
+Based on the amended award the SSR will show:
+WOBD: 07/08
+WOED: 11/08
+WPA: $1200.00
+Total retroactive Title II used to recompute the offset: $1200.00 ($400.00x 3 months
+(07/08-09/08) = $1200.00.
+Revised Social Security unearned income:
+Do not overlay the current type A income with the revised type A income
+Type W: 07/08-09/08 - $400.00
+10/08-11/08 - $0.00
+Type A: 10/08-12/08 - $410.00 (amount paid before amended award received)
+01/09-02/09 - $420.00
+03/09 on- $410.00-correct CMA paid and posted on the SSR because Title II system processed
+the action in time to reduce the CMA.
+4. Applying administrative finality rules in windfall offset recomputations involving
+DOE changes
+When evidence for a windfall offset case with an amended award shows that the FO/PC
+made a previous determination of Title II entitlement and Title XVI eligibility, see
+GN 02610.058 to decide which administrative finality rules will apply.
+An application for Title XVI is an application for Title II benefits. If SSA did not
+make an initial determination of entitlement or close out the Title II application
+at the same time an individual filed for Title XVI, the rules of administrative finality
+do not apply. The program center reopens the claim and prepares an amended award with
+an earlier DOE and any necessary changes in Title II monthly benefit rates. The FO
+will recompute the offset from the revised DOE. The WOED does not change and any Title
+II received outside the windfall offset period is income in the month received.

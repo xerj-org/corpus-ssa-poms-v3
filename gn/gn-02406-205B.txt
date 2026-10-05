@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02406.205 - Nonreceipt of Title XVI Underpayment Check/Type 2 and One-Time Payment/Type 4 Payment -- Field Office (FO) and Teleservice Center (TSC) Instructions
+Effective Dates: 01/09/2023 - Present | TN 101 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406205 (fetched 2026-10-04)
+
+B. Non-receipt alleged and MOTP is not on SSR
+•
+TSC: Refer the inquiry to the servicing FO for action via the MDW or a Development Worksheet
+, as appropriate.
+•
+FO: If the recipient alleges a nonreceipt, but there is no evidence of a payment on the
+SSR, check the FO manual OTP control file to determine if we issued an MOTP but it
+was not posted to the SSR. (See SM 01901.420)
+•
+FO: If the OTP action never occurred, and is still appropriate, initiate an OTP immediately.
+EXCEPTION: If the ineligible spouse or parent contacts the FO or TSC and alleges nonreceipt
+of an OTP, input the nonreceipt. The TSC will send an MDW to the FO for possible immediate
+payment action.

@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 02301.230 - Voluntary Termination (N19)
+Effective Dates: 08/30/2023 - Present | TN 78 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301230 (fetched 2026-10-04)
+
+B. When to use N19
+Use N19 to effectuate a voluntary termination:
+•
+the first month after a dated written request that the system can actually stop benefits
+based on the monthly recurring payment tape cutoff, or
+•
+the month that the individual requests only when they pay back or assure that they will pay back all payments made for months
+after SSI eligibility ends.
+SYSTEMS LIMITATION: The system cannot accept an N19 input to terminate SSI for a member of an eligible
+couple. The FO must T30 the couple's record, establish a SD record for an eligible
+individual with an ineligible spouse and issue manual notices. See E.4, below for
+notice instructions.
+CAUTION: Do not use N19 when a recipient wishes to voluntarily withdraw from the SSI program and pay
+back all payments received since entitlement began. Instructions on voluntary withdrawal
+(N12) are in SM 01305.001O.11. and SI 00601.050.

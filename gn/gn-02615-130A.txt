@@ -1,0 +1,168 @@
+SSA Program Operations Manual System (POMS) - GN 02615.130 - Title II Clark Court Order Administrative Appeal Processing
+Effective Dates: 11/02/2017 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615130 (fetched 2026-10-04)
+
+A. Appeals case processing
+Beneficiaries who were suspended for probation or parole violation (PPV) outstanding
+warrants (i.e., 5011, 5012, 8101 or 8102) prior to 10/24/2006, but who had a pending
+appeal or an administrative appeal determination related to the PPV suspension issue
+(or PPV suspension-related overpayment issue) on or after 10/24/2006, are included
+in the Clark Court Order. For more information on the terms of the Clark Court order
+regarding administrative appeals, see GN 02615.100.
+1. Identifying Class Members
+We sent the Clark administrative appeal cases along with all the other Clark manual
+cases directly to the processing centers (PCs) for processing. We listed these Class
+Members on the Civil Action Tracking System (CATS) with a CCID of C2 Clark Court Order
+Manual cases. For information on Clark Court Order manual case processing, see GN 02615.120A.
+2. Queries on PPV suspension or overpayment appeal issues
+a. Review the MBR data
+For information on the MBR data items, see GN 02615.120A.3.
+b. Review the Recovery Overpayment Accounting Record (ROAR) data
+Locate the beneficiary’s ROAR record on the bottom of the MBR. Review the beneficiary’s
+appeal history and determine the PPV suspension or overpayment appeal date from the
+chart.
+ROAR
+Review Action
+BENEFIT line
+Find the current balance due for all overpayments for the beneficiary in BBAL-$$$$$
+field.
+EVENT line
+Find the Event Identifier (EI) for the PPV overpayment (e.g., 01, 02) for the PPV
+warrant in the administrative appeal fields.
+Find the Type of Event (TOE) for the PPV overpayment on the EVENT data line, (e.g.,
+T2 FF SUS/VIO, T2 FF SUS/FEL, OTHER, OR CONSOLIDATED LDO).
+Find the STATUS of the current recovery effort for the PPV overpayment (e.g., BEN
+ADJ, DUE PROCESS).
+HISTORY line
+Determine when ROAR received the PPV overpayment amount and the administrative appeal
+in these fields. Check:
+RUN DATE = FO established administrative appeal date (FO). TRANS = 23 AMOUNT = PPV
+overpayment amount SRC = 3—DO DOCXXX WRI-W--WAIVER REQUEST, or WRI - R – RECON REQUEST,
+or WRI – H –HEARING REQUEST
+Example of a waiver request on ROAR:
+RUN DATE FO established administrative appeal date (waiver request on the PPV overpayment).
+TRANS = 23 AMOUNT =PPV overpayment amount SRC 3—DO DOCXXX WRI- WAIVER REQUEST
+Then, followed by the personal conference date: (ROAR data same as the above example,
+except for the following items.) WRI-P- PERSONAL CONF SOURCE-XXX WHLD-100.00 COM –
+11/06 09/23/10 55 $3047.70 1-PSC SOURCE-001 CAT -- 67 --SPECIAL PAYMENTS DCAT-D1
+NOTE: When evaluating Clark relief for an unfavorable PPV suspension or overpayment appeal
+determination (e.g., waiver denial, reconsideration denial, etc.) the HISTORY RUN
+DATE entry shows 10/19/2006 (HISTORY RUN DATE =10/19/06 plus five mailing days for
+the initial determination notice = 10/24/2006) or later date to qualify for Clark
+relief. For a pending administrative appeal, the HISTORY RUN DATE entries must show
+that there is no final appeal determination 10/19/2006 (HISTORY RUN DATE =10/19/06
+plus five mailing days for the initial determination notice = 10/24/2006) or later
+for the relief qualifying T2 FF SUS/VIO overpayment.
+NOTE: A ROAR entry of INFORMAL WAIVER or PART W/H REQUEST means the person inquired about
+waiver, but did not request a waiver, or the person requested overpayment recovery
+through partial withholding. Neither ROAR entry qualifies as an administrative appeal.
+If the WRI- WAIVER REQUEST is the last TC 23 pending ROAR appeal entry, give the beneficiary
+Clark relief. For processing instructions, see GN 02615.130B in this section.
+Examples of ROAR History:
+Example 1
+RUN DATE TRAN AMOUNT SRC
+12/23/05 12 $6705.40
+08/11/06 23 $6705.40 3--DO DOC-C51
+WRI-N--INFORMAL WAIVER 09/14/06 43 $0.00 SOURCE-C51
+WHLD-775.00 COM-10/06 SSC-2
+10/19/06 23 $6705.40 3--DO DOC-C51
+04/08/11 23 $20691.00 3--DO DOC-C80 WRI-
+W--WAIVER REQUEST
+06/22/11 43 $20691.00 SOURCE-C80 WHLD-1881.40 COM-06/11
+09/23/11 23 $20691.00 1-PSC DOC-000 WRI-E—
+EXPLANATION REQUEST
+10/21/11 43 $0.00 WHLD-1948.90 COM-12/11 SSC-2
+11/12/11 23 $20691.00 1-PSC DOC-000 RI-R--RECON REQUEST
+The beneficiary is eligible for Clark relief because the last pending administrative
+appeal request (i.e., reconsideration) on this case was 11/12/11.
+Example 2
+RUN DATE TRAN AMOUNT SRC
+04/17/08 12 $36828.00
+10/21/08 41 $0.00 WHLD-50.00 COM-10/08 SSC-T
+10/30/08 84 $36828.00 1-PSC OLD1--PCMOD NEW2--PCDCU DOC-000
+DY-PSC ALERT 12/03/08
+11/04/08 23 $36828.00 3--DO DOC-600 WRI-P--PERSONAL CONF
+11/21/08 84 $36828.00 1-PSC OLD2--PCDCU NEW1--PCMOD DOC-000
+DY-PSC ALERT 02/02/09
+02/12/09 42 $3173.20 WHLD-3173.20 COM-02/09
+LST WH-02/09 SSC-B
+05/04/09 22 $0.05 SSC-B
+05/04/09 42 $1569.70 WHLD-1569.70 COM-05/09
+LST WH-05/09 SSC-B
+05/13/09 55 $36828.00 1-PSC SOURCE-600
+CAT-97--OTHER DCAT-D1
+06/25/09 43 $5800.00 WHLD-1450.00 COM-07/09
+LST WH-10/09 SSC-2
+11/12/09 23 $26285.05 3--DO DOC-600
+WRI-R--RECON REQUEST
+12/08/09 27 $26285.05 1-PSC
+01/25/10 23 $26285.05 3--DO DOC-600
+WRI-H--HEARING REQUEST
+01/27/10 43 $4350.00 WHLD-1450.00 COM-02/10
+09/27/10 43 $14682.55 WHLD-1450.00 COM-10/10
+LST WH-08/11 SSC-T
+The beneficiary is eligible for Clark relief because the last pending administrative
+appeal request (i.e., hearing) on this case was 01/25/10.
+Example 3
+RUN DATE TRAN AMOUNT SRC
+10/15/06 12 $9515.00
+11/29/06 23 $9515.00 3--DO DOC-927
+WRI-N--INFORMAL WAIVER
+01/29/07 41 $250.00 SOURCE-927 WHLD-250.00 COM-03/07
+LST WH-03/07 SSC-2
+04/09/07 23 $9265.00 3--DO DOC-927
+WRI-A--PART W/H REQUEST
+04/10/07 41 $1350.00 SOURCE-927 WHLD-30.00 COM-05/07
+LST WH-01/11 SSC-2
+07/01/09 22 $584.00 SSC-T
+The beneficiary did not administratively appeal. The beneficiary inquired about waiver
+or had subsequent partial overpayment withholding. We made the final T2 FF SUS/VIO
+determination on the initial PPV overpayment on 10/15/06. This beneficiary is not
+eligible for Clark relief because the beneficiary did not file an administrative appeal
+before 10/24/2006 and there was no appeal pending on or after 10/24/2006.
+Review the ROAR HISTORY line for all administrative appeal periods. Determine the
+beneficiary’s last level of PPV administrative appeal (i.e., waiver, reconsideration,
+Administrative Law Judge (ALJ) hearing or Appeals Council (AC) review).
+Next, determine the last administrative appeal request date.
+Status of Administrative Appeal Decision
+Determination for Appeal Date
+closed (PC, ALJ or AC action on appeal) or
+closed (FO determination on waiver) (no higher administrative appeal requested)
+Appeal date equals the determination date for the last highest level of PPV suspension
+or overpayment appeal.
+pending (no PC, ALJ or AC action) or
+pending (no final waiver decision) (no higher administrative appeal requested)
+Appeal date equals the date that the beneficiary filed their latest administrative
+review request, but there is no final administrative review action.
+Process the beneficiary’s last administrative appeal request per the instructions
+in this section for that particular appeal level:
+•
+Denied Waiver or PC Reconsideration appeal cases
+For instructions on processing denied waiver or reconsideration appeal cases, see
+GN 02615.130B in this section.
+NOTE: If the last administrative appeal is the ALJ level, obtain a current administrative
+appeal query to learn the beneficiary’s appeals status. For information on reviewing
+the administrative appeals query system, see GN 02615.130A.2.c. in this section.
+•
+ALJ hearings
+For instructions on processing ALJ cases, see GN 02615.130C in this section
+•
+AC cases
+For instructions on processing AC appeal cases, see GN 02615.130D in this section.
+c. Review the Case Processing and Management System (CPMS) or Appeals Review Processing
+System (ARPS) Query
+Obtain a CPMS query or an ARPS query via the Intranet. Review the beneficiary’s CPMS or ARPS
+query to determine if the beneficiary requested an administrative appeal of a PPV
+suspension or overpayment. If the administrative appeal information on the query does
+not relate to the PPV suspension or overpayment, do not use this information. Evaluate
+the next lower level of appeal associated with the PPV suspension or overpayment issue.
+If the ALJ or AC administrative appeal request is associated with a Clark PPV suspension or overpayment issue, determine if the appeal is closed or pending
+using the chart below:
+Status of Appeals Decision
+Action on Appeals Decision
+closed (unfavorable ALJ or AC decision, or AC denial of request for review, PPV suspension
+is still on record)
+If there are no other pending administrative appeals on the case, provide Clark relief without vacating the ALJ or AC decision, or the AC denial of review. For processing
+an ALJ level case, see GN 02615.130C.1 in this section For processing an AC level case, see GN 02615.130D.1 in this section.
+pending (no action taken on appeal request)
+Notify the ALJ or AC that the beneficiary is eligible for Clark relief. Inform the specified ALJ or AC contact of the Clark relief. For processing an ALJ level case, see GN 02615.130C.1 in this section. For processing an AC level case, see GN 02615.130D.1 in this section.

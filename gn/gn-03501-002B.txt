@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - GN 03501.002 - Coding Instructions - Identified Cases
+Effective Dates: 01/03/2011 - Present | TN 4 (08-03)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203501002 (fetched 2026-10-04)
+
+B. Procedure
+1. Coding for Field Offices, Regional Offices and Processing Centers
+The Civil Action Tracking System (CATS) is being used to house coding information
+related to the acquiescence process. Instructions for accessing and inputting into
+CATS can be found in MSOM CATS 002.001 ff. The specific code (referred to as a court case identifier) necessary to identify the case in question will be provided in the EM. Coding instructions
+for the Office of Disability Adjudication and Review (ODAR) are in the HALLEX.
+On the SSA MAIN MENU
+SELECT 1. MANAGEMENT INFORMATION SERVICES FACILITY/PROD REGION MENU [hit ENTER]
+On the SUPPORT MENU
+SELECT M1. ADMIN/MI CICS LOGIN [hit ENTER]
+NOTE: A logon screen comes up before the MISF CICS Menu. Logon as usual.
+On the MISF CICS MENU
+SELECT: 01 CATS [hit ENTER]
+ON CATS MAIN MENU
+SELECT 2. REQUEST FOR REVIEW/ADDRESS RESPONDER UPDATE
+[hit ENTER]
+On REQUEST FOR REVIEW/ADDRESS RESPONDER UPDATE screen
+For COURT CASE IDENTIFIER enter (code supplied in EM)
+Enter SSN
+Enter last name [hit TAB] to move to DOB line
+Enter DOB [hit ENTER]
+[hit ENTER] again
+On REQUEST FOR REVIEW SCREEN (MSOM CATS 010.005 )
+Enter first name [hit TAB] to move to middle initial field
+Enter middle initial (if relevant) or [hit TAB]
+Enter Street Address [hit TAB] to move down
+Enter City/State/Zip [hit TAB]
+Enter Rep Payee (if relevant) [hit TAB]
+Enter 1st Claim # & BIC [hit TAB]
+Enter Additional Claims (if relevant)
+[hit PF6]
+[hit PF6] again
+Repeat process to add more records, if necessary,
+or hit PF4 to end
+[hit PF3]
+On the MISF CICS MENU
+SELECT: 99 EXIT [hit ENTER]
+2. Coding for Disability Determination Services (DDS)
+a. Initial/Reconsideration Claims
+•
+Follow SM 06001.410 to enter on NDDSS.
+•
+Input 3-position code provided in EM for the specific Acquiescence Ruling when inputting
+cases for clearance. See SM 06001.410B., 25 – 30 for 831/832/833 instruction.
+b. Continuing Disability Reviews
+•
+Follow SM 06001.505. to enter on NDDSS.
+•
+Input 3-position code provided in EM for the specific Acquiescence Ruling when inputting
+cases for clearance. See SM 06001.410B., 36 – 41 for 831/832/833 instruction.
+3. Coding When an Individual Self-Identifies
+An individual may self-identify either before the AR is issued or after an AR is issued.
+If an individual contacts a FO or operating component prior to the issuance of an
+AR (or after the issuance of an AR but prior to the issuance of a stop coding EM)
+about the application of the pending AR or review of their case under a circuit court
+decision, the FO should:
+•
+obtain the full name of the circuit court decision and the date that decision was
+made;
+•
+determine whether a Coding Instruction EM was released either through PolicyNet or
+field office reference materials containing released EM's;
+•
+use the court case identifier to query the CATS (MSOM CATS 002.001 ff.) to see if the inquirer has already been identified and proper information entered
+into CATS, if a Coding Instruction EM was released; and
+•
+explain the criteria noted in the Coding Instruction EM and then determine if the
+criteria apply to the individual's case, if a Coding Instruction EM was released but
+CATS does not reflect an entry. If the criteria apply or it is unclear whether they
+apply, assume the individual meets the criteria and key in the necessary identifying
+information.
+•
+not code if the coding criteria does not apply.
+NOTE: If an AR has already been issued, and the individual self identifies, also consider
+whether the claimant contact should be identified and processed as a request for readjudication.

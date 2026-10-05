@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.422 - Coding Macao Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/07/2018 - Present | TN 122 (02-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402422 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Macao will have a prefix of “73” at the beginning of the Routing
+and Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “Q” assigned for Macao.

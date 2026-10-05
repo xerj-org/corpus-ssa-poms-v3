@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02607.510 - Enumeration Verification System (EVS) Codes On PUPS Records And PUPS Alerts
+Effective Dates: 04/14/2015 - Present | TN 3 (02-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607510 (fetched 2026-10-04)
+
+A. Process - EVS codes found on PUPS records and PUPS alerts
+Some correctional facilities report their inmate data directly to CO. Some facilities
+report in electronic formats (diskettes, faxes, etc) or via paper reports through
+the FOs. EVS first processes all the incoming data to electronically verify the SSN.
+EVS assigns an EVS code to an SSN to indicate the degree of SSN validation or accuracy.
+See the EVS codes listed in GN 02607.975A.
+1. EVS codes on PUPS alerts
+The PUPS alert shows the EVS code as alpha or numeric character field. See GN 02607.975A. for the character descriptions for this field. A facsimile of a PUPS alert is located
+in GN 02607.975D.
+2. EVS codes on PUPS records
+The PUPS record, specifically, the PURS screen (see MSOM PRISON 003.005 for the description of the PURS screen) shows the EVS code as one-position alpha
+or numeric code. See GN 02607.975A. for the code entries for this field.
+NOTE: Incoming records may not always include month of confinement, i.e., month of confinement
+is blank, but PUPS will generate an alert if there is a match based on other data.
+Check the confinement dates carefully to ensure accurate case processing.
+3. Analyzing the EVS code for identity accuracy
+When verifying the identity of the reported inmate by using the EVS code generated
+on the PURS screen, or on the PUPS alert, remember that:
+NOTE: See GN 02607.975A. for the values for the EVS codes.
+•
+EVS Codes of V, L, generally do not require identity resolution but must be reviewed
+for accuracy to ensure that SSA has identified the correct SSA beneficiary for possible
+suspension,
+•
+EVS codes of 2, 3, 4, A, B, E, and F, require the technician to check other SSA records,
+e.g., the MBR, SSR, ALPHIDENT, NUMIDENT, etc., to try and verify the identity of the
+inmate on the PUPS alert/record. EVS uses NUMIDENT data that may not always agree
+with MBR/SSR data; e.g., an EVS code “3” PUPS record shows discrepant dates of birth
+(DOB) between the incoming data and the SSR. (See GN 02607.600 for instructions on processing questionable identity issues.), or
+NOTE: If SSA properly establishes the DOB on the Client Identification (ACID) screen from
+the Integrated Client Database (ICDB), or MBR/SSR, i.e., proof of birth code of "B,"
+consider this a positive identification.
+•
+EVS codes of 2, 3, 4, A, B, E, and F, may require further contact with the beneficiary
+to be sure that the inmate is really the same individual as our beneficiary if SSA
+records cannot resolve the identity discrepancy. See GN 02607.600 for resolving identity issues for a beneficiary.

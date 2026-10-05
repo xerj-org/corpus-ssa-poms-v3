@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - GN 00302.010 - Evidence of Established Age in SSA Records
+Effective Dates: 05/21/2024 - Present | TN 39 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200302010 (fetched 2026-10-04)
+
+C. Procedure for established DB indicators
+Refer to the entries shown in the chart to determine whether a claimant's DB has previously
+been established for SSA purposes. Follow this chart for needed development relating
+to these entries. For the proof code to show on the current claim, see GN 00302.011.
+NOTE: The general requirement that the SSA record be established at least 5 years prior
+to the current filing date does not apply to the records shown in the chart.
+Record
+Indicator
+Comments
+Further Development Requirements
+MBR or microfiche or MCS screens
+“P”, “B”, “C” (convincing proof), or “Q” (age established, but no other code applies) (Whether claim awarded or disallowed)
+Codes are printed immediately after the DB.
+None
+“F” (age already proven on SSA records)
+•
+Prior claim had a post-1977 month of entitlement (MOET)
+NOTE: “F” signifies that the DB was previously established for SSA purposes.
+None
+•
+Prior claim had a pre-1978 MOET
+NOTE: Because of a systems problem, an unknown number of claims with a pre-1978 MOET were
+erroneously coded “F.”
+Treat such DBs as being established only if the prior benefit was one for which age was an immediate factor of entitlement.
+(See GN 00302.001.)
+If age was not an immediate factor of entitlement for the prior benefit, request pre-1978 entitled
+claimants to resubmit evidence of age; otherwise, the information must be requested
+from the prior folder.
+No code - Claimant is/was entitled to benefits for which age is a factor of entitlement.
+Includes BICs such as “A”“B,” or “D” for claims filed before 1977.
+None
+No code or “A” (alleged but not proven, or age not a factor of eligibility)- Claimant was entitled
+to DIB — attained full retirement age (FRA).
+DI beneficiaries are automatically converted to Retirement Insurance Benefits (RIB)
+at FRA and the DB is considered to be established as of the date of the conversion
+from DIB to RIB.
+Show the DB for a claim filed subsequent to the DIB/RIB as previously established
+(code F) unless there is a discrepancy in the age allegation or the RIB claim is not
+active. When an age issue appears on the DW01 or DW02 screen, annotate that the MBR
+was the source of the DB.
+If the claimant questions the established DB, and presents evidence showing the MBR
+DB is incorrect, follow the rules of administrative finality to determine whether
+corrective action can be taken on the DB in the RIB record. (See GN 04030.010.)
+Even if correcting the DB on the RIB claim is precluded, the corrected DB must be established for a claimant awarded benefits subsequently as an auxiliary or survivor.
+(See
+GN 04030.010.)
+Claim was previously disallowed and the claimant's DB was established.
+No additional evidence of age is needed.
+None
+NUMIDENT
+“P” or “B”
+Codes are annotated to the NUMIDENT when the SSN applicant submits a birth record
+established before age 5.
+Question the “P” or “B” code if shown with a foreign place of birth.
+SSR
+“B” or “C”
+Codes are printed immediately after the DB
+None
+“F”
+See prior entry for “MBR or microfiche or MCS screen.”
+See prior entry for “MBR or microfiche or MCS screens.”
+Record
+Indicator
+Comments
+Further Development Requirements
+“E” (proof for birth date but type is unknown) or “No Code”
+•
+Currently receiving payments as an aged individual or a blind or disabled child or
+claimant was entitled to payments as an aged individual or a blind or disabled child
+but terminated for a reason other than age.
+None
+•
+Currently receiving payments as a blind or disabled individual or previously received
+payments as a blind or disabled individual. This includes a blind or disabled individual
+who attains age 65.
+Full development required.

@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - SI 00830.302 - Veterans Affairs (VA) Pension Payments
+Effective Dates: 01/12/2018 - Present | TN 245 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830302 (fetched 2026-10-04)
+
+C. Procedure for developing and verifying VA pension payments
+Use the procedures in this chart to develop and verify VA pensions:
+Step
+Action
+1
+Screen for unreimbursed medical expenses per SI 00830.312.
+2
+Develop for augmentation if dependents are involved per SI 00830.314.
+3
+Screen for A&A or HBA per SI 00830.308.
+NOTE: Check the VAA field in the PRSN line on the Supplemental Security Record (SSR) for
+A&A and HBA or ask the Supplemental Security Income (SSI) recipient whether they receive
+A&A or HBA. See SM 01601.475 for Person-Related Data (PRSN) field identifiers on the
+SSI2 query.
+4
+Are unreimbursed medical expenses, augmentation, A&A, or HBA at issue in the case?
+•
+If yes, go to Step 5.
+•
+If no, go to Step 6.
+5
+Verify the gross amount and frequency of payment on the same SSA-L1103-U3 (Supplemental Security Income Request for Information) used to verify the issue in
+Step 1, 2, or 3. STOP.
+6
+Verify the gross amount and frequency of payment using (in order of priority):
+•
+A VA award letter or comparable document in the individual's possession;
+•
+A benefit check in combination with a signed statement from the individual that provides
+the frequency of payment and affirms that VA makes no deductions (such as insurance
+premiums, loan payments, and overpayment deductions); or
+•
+An SSA-L1103-U3 from the Veterans Affairs Regional Office (VARO). For instructions on use of Form
+SSA-L1103-U3, see SI 00830.320..
+NOTE: To verify certain current benefit information for veterans and surviving spouses, you may call the VA at 1-800-827-1000.
+Information about payment history, augmentation, educational benefits, unreimbursed
+medical expenses, A&A, or HBA is not available by phone.

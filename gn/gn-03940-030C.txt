@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - GN 03940.030 - Field Office (FO) and Processing Center (PC) Processing of Fee Agreements on Title II Portion of Concurrent Titles II and XVI Claims
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940030 (fetched 2026-10-04)
+
+C. Title II — Processing Center Actions
+Refer to the fee agreement procedures in GN 03940.020.
+1.
+Determine the fee amount.
+2.
+Determine the past-due benefits payable before Title II offset in order to include
+that amount in the notice described later in this subsection, in GN 03940.030C.5. See GN 03920.032 for an explanation of why past-due benefits payable is included in the notice.
+3.
+If the representative is a non-attorney, review the Eligible for Direct Pay Non-Attorney
+(EDPNA) query in RASR. If new information is received about the non-attorney’s direct
+payment status, follow the procedure at GN 03940.020E.1. to determine the non-attorney’s current status.
+4.
+When the representative is eligible for direct payment, refer to GN 02610.053 for instructions on applying Title II offset (“second day action” processing).
+5.
+Prepare a notice advising the claimant of the:
+•
+Title II past-due benefits amount (see GN 03920.030B. for discussion of past-due benefits);
+•
+Title II past-due benefits payable amount before Title II offset if known;
+•
+Title II fee amount based on the Title II past-due benefits;
+•
+The right to request administrative review of the fee amount; and
+•
+Payment of the fee to the representative if the representative is eligible for direct
+payment, or to an entity if there is a valid assignment.
+If you do not know the Title II past-due benefits payable before Title II offset when
+you are preparing a Notice of Award advise the claimant that we are withholding all
+past-due benefits until we know if any Title XVI benefits the claimant received will
+reduce the Title II past-due benefits amount. The notice will inform the claimant
+that we will issue another notice when we determine the amount of benefits due after
+consideration of any necessary adjustments. When preparing the post entitlement notice,
+include the appropriate paragraph with the completed fill-in(s) to advise the claimant
+of the offset determination.
+6.
+Send the notice to the claimant and a copy to the representative. Also send an e-mail
+message to the Office of Hearings Operations (OHO) or Office of Appellate Operations
+(OAO) decision maker, if requested, to advise the decision maker that the award notice
+with the fee authorization and the fee amount is available in the Online Retrieval
+System (ORS).
+NOTE 1: To request the notification for the purpose of possibly requesting administrative
+review, the OHO or OAO decision maker will flag the claim and provide an e-mail address
+to which to send the notification. Refer to Hearings, Appeals, and Litigation (HALLEX)
+manual I-1-2-45 for the initial procedures an OHO or OAO decision maker will follow to request administrative
+review of the fee amount.
+NOTE 2: Posting the amount of the authorized fee to the MBR automates the Title XVI procedure.
+If there is a problem with the interface of the information posted to the MBR, the
+system will generate an alert.
+7.
+Certify direct payment to the representative, or to an eligible entity if there is
+a valid assignment and release any remaining past-due benefits to the claimant and
+any auxiliaries unless there is Federal court involvement or if the claimant filed
+concurrently for Title II and Title XVI benefits, and windfall offset is still pending.
+NOTE 3: If a Title II claim involving a representative’s fee is processed after we have authorized
+a fee on the concurrent Title XVI claim and the Title XVI fee information has been
+updated to the SPS, the system will generate an SPS exception (91-Invalid Data on
+Interface Records) and a Processing Center Action Control System (PCACS) alert. The
+technician must query the SPS to determine the fee amount that has been authorized
+and paid to the representative based on the Title XVI past-due benefits. (Title XVI
+payments to representatives recorded on the SPS will not have a Payment Identification
+Code; the status will indicate “SSI PAID.”) Then the technician must manually calculate
+and input the additional authorized fee amount based on the Title II past-due benefits,
+manually calculate the assessment, and certify direct payment to the representative
+or to an entity if there is a valid assignment. The SPS Processing of the Payment
+Transaction Menu (SPPT) provides a list of all fees paid from Title II and Title XVI
+past-due benefits to attorneys, non-attorneys eligible for direct payment, and entities
+when the technician selects “Option 3”. To view fees paid to entities, enter an X
+in the query line above a fee paid and the system will display if direct payment of
+the fee was assigned to an entity. See SM 00834.405, SPS Processing of the Payment
+Transaction Menu (SPPT).

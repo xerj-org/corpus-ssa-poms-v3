@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - SI 00603.040 - Special Adjudication Procedures for Disability Claims
+Effective Dates: 03/28/2012 - Present | TN 11 (05-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500603040 (fetched 2026-10-04)
+
+D. Procedure - Posting Medical Data
+1. Introduction
+When ALJs, the Appeals Council, or courts allow a disability, there will probably
+be no SSA-831-C3/U3 prepared. Since the systems record must contain the permanent
+disability indicator, medical diagnosis code, and medical review period, this information
+must be determined in another manner. The procedures which follow fill this gap.
+2. Title XVI Only Claims
+NOTE: Some regions have different procedures for posting medical data in title XVI only
+claims. Refer to regional procedures where they exist.
+a. Systems Input
+For ALJ and AC decisions, use the diagnosis codes found on the Office of Disability
+Adjudication and Review (ODAR) Case Processing Management System (CPMS) or the diagnosis
+found in the medical findings of the ALJ or AC decision.
+Follow the instructions below to make an interim entry when making the payment effectuating
+input for US District court cases only. For non-MSSICS claims, complete the medical
+data (MD) field of the 1719B (SSI Posteligibility Input) per SM 01305.900 ff. with
+an interim entry of N00103.
+For claims in MSSICS, enter a non-permanent disability, a diary reason of 3 and a
+medical diagnosis code of 0010.
+b. Do Not Send the Folder to the Disability Review Section (DRS)
+It is not necessary to forward the claim folder(s) to the Disability Review Section
+for the diagnosis coding and medical diary information.
+3. Concurrent Claims
+a. Master Beneficiary Record (MBR) Established
+If an MBR has been established for the title II claim and a new record is being established
+to pay the claim, input this medical data postadjudicatively per SM 01005.140.
+b. MBR Not Yet Established
+If the MBR has not yet been established for the title II claim when you are about
+to adjudicate the title XVI claim, complete the MD field of the 1719B (SM 01305.900
+ff.) with an interim entry of N00013.
+CAUTION: Do not leave the interim data on the system as the Social Security Administration
+relies on the diagnosis code for statistical purposes. In addition, an incorrect medical
+review period may generate unnecessary alerts to the DRS.

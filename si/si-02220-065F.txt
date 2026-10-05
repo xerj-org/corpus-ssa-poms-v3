@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 02220.065 - Repayment by Alien Sponsors
+Effective Dates: 08/04/2023 - Present | TN 111 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220065 (fetched 2026-10-04)
+
+F. Appeal of determination that repayment by sponsor applies
+The determination that a sponsor must repay the SSI received by the sponsored alien
+is an initial determination. Therefore, the sponsor has the same appeal rights as
+with any other initial determination.
+1. Reconsideration
+If the sponsor objects to the determination as detailed in this section, the FO technician
+should:
+•
+Obtain a Request for Reconsideration (Form SSA-561-U2).
+•
+Terminate internal collection with a transaction code 71 via the Terminate Collection
+(DFTE) screen when a request for reconsideration is filed within 60 days of the date
+of the notice of the initial determination that Section 213A is applicable, as described
+in this section, see MS 01107.003 and SM 00610.516.
+–
+When the SSA-561 is received in the FO, follow instructions in MS 01106.019 to input
+the protest and stop recovery efforts.
+–
+When the SSA-561 is received in the PC, follow instructions in MS 01106.003 to input
+the protest and stop recovery efforts. Since the debt originated from SSI payments,
+transfer the appeal to the FO of jurisdiction for a determination.
+–
+Add DMS remarks stating the sponsor filed an appeal.
+•
+Consider any additional evidence and statements, including checking the Systematic
+Alien Verification for Entitlements (SAVE) for possible updated information or whether
+the sponsorship obligation has ended.
+•
+Make the reconsideration determination (SI 04020.000) using the same criteria that was used to make the initial determination. Also, review
+SI 00502.240. A technician who did not make the initial determination must complete the reconsideration
+determination.
+•
+Follow MS 01106.011 to input the reconsideration determination.
+•
+Notify the sponsor of your determination using a Notice of Reconsideration, Form SSA-L8457-CL.
+•
+Resume recovery efforts only after making an unfavorable reconsideration determination
+that reaffirms the determination made by the previous technician that a sponsor must
+repay SSI benefits using transaction code 77 via the DFRE screen, see MS 01107.005
+and SM 00610.516.
+2. Additional appeal levels
+If the sponsor objects to the prior appeal determination:
+•
+Obtain the next level of appeal form depending on the prior determination level.
+•
+Follow instructions in:
+–
+SI 04030.000 for Administrative Law Judge Hearings process
+–
+SI 04040.000 for Appeals Council Review process
+NOTE: Continue recovery efforts if the sponsor requests further appeals, i.e., Hearing,
+Appeals Council.
+3. Waiver of repayment is not applicable
+Because repayment by the sponsor is not an overpayment, do not apply overpayment waiver
+procedures to the amount the sponsor owes.

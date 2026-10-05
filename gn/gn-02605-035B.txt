@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02605.035 - COA in SSI Cases
+Effective Dates: 12/07/2004 - Present | TN 40 (12-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605035 (fetched 2026-10-04)
+
+B. PROCEDURE
+1. Different RSDI and SSI Addresses
+•
+Discourage requests for different mailing addresses for SSI and RSDI purposes.
+•
+The mailing address does not have to be the same as the residence address (see SM
+01301.390 and SM 01301.485).
+•
+Develop a single address whenever different RSDI and SSI addresses are detected; do
+not wait until a redetermination is scheduled.
+2. Household Composition, Living Arrangements, In-Kind Support and Maintenance, Institutionalization,
+Income, and the House as a Principal Place of Residence
+•
+Determine whether the COA has resulted in a change in household composition, living
+arrangements, in-kind support and maintenance, institutionalization or income. See
+SI 02305.022 and SI 02305.092 for a discussion of events which may trigger unscheduled re-determinations. Even
+though a re-determination may not be required, the above changes will need to be developed
+in conjunction with the address change. Be alert to the need for new residence state
+and county coding.
+•
+Determine whether the COA results in a move from a house reported as the primary place
+of residence. Refer to the resource indicator (RE) in the PRSN segment of the SSR.
+If it is coded “A,” the recipient is moving from a house in which he/she has ownership
+interest and was previously excluded from the resource determination for eligibility.
+Ascertain the disposition of the house and initiate a new resource determination.
+Refer to SI 01130.100 (THE HOME).
+3. State Supplement
+Determine whether the change of residence (i.e., from one State to another or even
+within certain States) affects eligibility or payment amount because of State supplementation.
+See SM 01005.100 and SM 01301.365 if residence Zip code will not match living arrangement
+state and county code for state supplementation for systems override procedure.
+4. Foreign Addresses
+•
+SSI payments generally should not be directed outside the 50 States, the District
+of Columbia, or the Northern Mariana Islands. See GN 00303.700. Under special circumstances check/mail can be directed outside of the U.S.
+•
+If an SSI recipient requests an in-care-of address which borders on Canada or Mexico,
+determine whether he/she will be leaving the U.S. for 30 or more days. See SI 02301.225.
+NOTE: For SSI cases, Puerto Rico and the Virgin Islands are considered foreign addresses.
+See SM 01301.425 for exceptions to posting foreign addresses in SSI cases. If an SSR
+in current pay has a foreign mailing address, but a residence address for a Social
+Security Office serving as a Central Processing Site, this may be a Special Veterans'
+Benefit case (see VB 04001.001). These cases can also be identified by an SVB indicator of “Y” in the header line
+of the SSID.
+5. Input
+•
+A single input cannot change both the MBR and the SSR. Separate inputs must be made
+to the MBR and SSR in dual SSI/RSDI cases.
+•
+Except for Debt Management Branches, and some PC employees, who are functioning as
+800 number agents, PCs do not have the capability to process SSI COAs. PCs will refer
+these COAs to the FOs for processing.

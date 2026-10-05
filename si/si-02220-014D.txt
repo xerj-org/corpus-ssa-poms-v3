@@ -1,0 +1,158 @@
+SSA Program Operations Manual System (POMS) - SI 02220.014 - Reporting Title XVI Overpayment Debts to Credit Bureaus
+Effective Dates: 05/06/2025 - Present | TN 132 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220014 (fetched 2026-10-04)
+
+D. Handling debtor inquiries or protests after Credit Bureau Reporting
+Generally, inquiries and protests received after the debt has been reported to the
+credit bureaus will be updated when SSA's systems automatically pass current debt
+balance and last payment information to the credit bureaus. Once a debt has been reported,
+it will remain on the debtor's credit record (with a few exceptions as explained below).
+1. Consumer disputes report with the credit bureau
+Consumers have the right to dispute the accuracy of information about them reported
+to credit bureaus, including information reported by SSA. This will most likely occur
+after the debtor has received a copy of their report and sees that information reported
+by SSA has been posted to the report. The consumer can dispute either the amount or
+the fact of the debt. In some cases, consumers will dispute the accuracy by contacting
+the credit bureaus directly.
+When the credit bureau is notified by the consumer of the dispute, it will contact
+SSA and request that we verify our records of the debt. The contact will occur via
+an online system called the Automated Consumer Dispute Verification (ACDV) system,
+which links the credit bureaus with SSA. (Currently, the ACDV process is handled by
+the NEPSC.)
+Under the provisions of the Fair Credit Reporting Act, we have 30 days to respond
+to the dispute or the debt is deleted from the credit report. In most cases, SSA need
+only verify the fact or amount of the debt on the SSR and notify the credit bureau
+via the online program that the debt is correct as reported.
+IMPORTANT: Do not process the consumer dispute as a request for reconsideration of the fact or
+amount of the debt. Requests for reconsideration of the fact or amount of the debt
+must be made directly to SSA and should be handled as described in SI 02220.012D.6.b.
+2. Allegation of pending protest or waiver request
+If a debtor alleges that they filed a protest or requested waiver before or during
+the 60-day due process period but never received a decision, proceed as follows:
+Obtain an SSID query.
+a. FO instructions
+Follow the steps:
+Step 1 - Develop the existence of a protest before or during the 60-day due process period.
+•
+Develop the protest by looking for a:
+•
+–
+SSA-632-BK
+–
+letter from the debtor or their representative; or
+–
+Form SSA-795 in FO records or in the claims folder (for SSI folder retrieval instruction,see
+SM
+01201.205 through SM 01201.235 ).
+–
+pending waiver or appeal request posted in the OPDD section of the SSR (for codes
+and definitions,see SM
+01311.421).
+If you find evidence a protest exists before or during the 60 day due process period,
+but no decision has been made and released, a determination must be completed (see
+SI 04070.010B). Continue to step 2.
+If SSA finds:
+•
+No evidence of a protest or waiver filed, or
+•
+A collection decision (meaning waiver or protest denied) is reflected on the SSR
+Then notify the debtor the reporting was correct.
+•
+Ask if the debtor wishes to file a new waiver request.
+–
+If yes, see SI 02220.014D.3.
+–
+If no:
+•
+Advise the debtor that since the issue has been resolved, credit bureau reporting
+was appropriate.
+•
+Provide the debtor with a copy of the decision, if requested.
+•
+Do not have the debt deleted from the credit record.
+Step 2 - If the protest request is not present on the SR, post the protest request to the
+SSR by completing:
+•
+Waiver - MSSICS Waiver (UOWV) screen (see MS 00304.009 and SM
+01311.423) or
+•
+Appeal - MSSICS Appeal (UOAP) screen (see MS 00304.010 and SM
+01311.423).
+Continue to step 3.
+Step 3 - Process the:
+•
+Waiver in accordance with GN 02250.002.
+•
+Appeal in accordance with SI 02220.017.
+If the waiver is approved:
+•
+see MS 00304.007G and MS 00304.007H and
+•
+change the waiver request to a waiver approval by completing the Direct SSR Update
+Waiver (UOWV) screen.
+If the waiver is not approved:
+•
+Document the waiver denial by changing the waiver to a waiver denial by completing
+the UOWV screen (see MS 00304.009).
+If the appeal is approved or denied:
+•
+Update the determination on the MSSICS Appeal (UOAP) screen, and
+•
+send a determination notice.
+Step 4 - If the protest is approved - address the credit report
+•
+Inform the debtor the debt will be removed from the credit report, and
+•
+Contact an NEPSC Program Analyst by phone, or request assistance by email from the
+RO indicating the debt should be deleted from the credit record. The DMS will contact
+the SSA person with authority to delete the item from the credit record.
+b. PC instructions
+If the debtor contacts the processing center directly regarding an allegation of a
+pending waiver or protest before or during the 60-day due process period, forward
+the information to the FO as follows:
+•
+Refer a priority Modernized Development Worksheet (MDW) to the jurisdictional FO:
+–
+Request the FO to develop the allegation of pending waiver or protest.
+•
+Annotate the referral Necessary Action - Credit Bureau Case - Do Not Backlog.
+The FO should follow the instructions in SI 02220.014D.2.a.
+3. Request for waiver
+If a request for waiver is received after the 60
+day due process period, and the debt has been reported to the credit bureau, the FO should proceed as follows:
+•
+Obtain an SSA-632-BK (see TC 26001.080 and TC
+27040.025)
+•
+Advise the debtor that:
+–
+the waiver will be processed as soon as possible.
+–
+the debt will remain reported to the credit bureau until a decision is made.
+–
+if the debt is eventually waived, SSA will update the credit report to show a balance
+of zero.
+4. Request for installment payments
+If the debtor wants to repay the debt by monthly installments, to negotiate a reasonable
+monthly payment amount followSI
+02220.025B.2 .
+Advised the debtor:
+•
+the debt will remain reported to the credit bureau.
+•
+SSA will update the balance to reflect each recent payment.
+For instructions on adding the installment agreement G TAC, on the SSR, see SI
+02220.025B.2, SM 01311.235, and MS
+00304.008).
+5. Report of bankruptcy action
+If the debtor alleges a bankruptcy petition was filed and the debt was discharged,
+obtain a copy of the petition or discharge order.
+If proof is received:
+•
+Complete actions in SI 02220.012D.11.
+•
+Inform the debtor the debt will be removed from the credit report.
+•
+Contact an NEPSC Program Analyst by phone or email the RO requesting the debt should
+be deleted from the credit record. The DMS will contact the SSA person with authority
+to delete the item from the credit record.

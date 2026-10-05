@@ -1,0 +1,256 @@
+SSA Program Operations Manual System (POMS) - DI 52165.030 - Interactive Computations Facility (ICF) Workers’ Compensation/Public Disability Benefit (WC/PDB) Notices
+Effective Dates: 02/19/2016 - Present | TN 6 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165030 (fetched 2026-10-04)
+
+B. MADCAP paragraphs for preparing the ICF notice
+1. System generated paragraphs and requested paragraphs
+Effective May 2011, the MADCAP Universal Text Identifier (UTI) prefix of “J” for WC/PDB
+paragraphs is converted to a Target Notice Architecture (TNA) UTI prefix of “WCP.”
+The paragraphs are in NL 00720.395 WCP Workers’ Compensation. The conversion chart in B.2. in this section contains
+only the WC/PDB paragraphs.
+•
+The reporting responsibility paragraph (previously J43, now WCP 032) automatically
+generates and does not require manual input in the Enclosure Notice Block (ENB) of the WCEP and WCNA screens in ICF.
+•
+Some Requested paragraphs have some or all system generated fill-ins.
+2. Conversion Chart for MADCAP WC/PDB Paragraphs converted from prefix “J” to prefix
+“WCP”
+The following chart shows every WC/PDB MADCAP Universal Text Identifier (UTI) paragraph
+(prefix “J”) and its equivalent conversion to Target Notice Architecture (TNA) paragraphs
+with a prefix of “WCP.”
+The chart indicates which paragraphs are System Generated (no input necessary) and
+which must be Requested (manual input necessary).
+The chart also indicates whether a Requested paragraph has some or all system generated fill-ins. For the actual paragraph and fill-in language, see NL 00720.395 WCP Workers’ Compensation.
+OLD
+UTI
+NEW UTI
+TITLE OF PARAGRAPH
+GENERATED PARAGRAPH?
+or
+REQUESTED PARAGRAPH? -
+(and if fill-ins are generated or requested)
+J19
+WCP012
+Offset Imposed First Month N/H
+Receives DIB and WC and/or
+Other Disability Payment
+REQUESTED
+(Some fill-ins generated)
+J20
+WCP028
+Benefits Offset N/H May File For Reduced RIB
+REQUESTED
+(Some fill-ins generated)
+J21
+WCP010
+Total Or Partial WC Offset N/H Only
+REQUESTED
+(Some fill-ins generated)
+J22
+WCP048
+Total Or Partial Offset Aux. Only
+REQUESTED
+(Some fill-ins generated)
+J23
+WCP049
+Amount Of Benefit Received After Offset
+REQUESTED
+(Fill-ins manually completed)
+J25
+WCPR07
+Amount Of Offset Based On Estimate For One Or More Years High 5
+REQUESTED
+(Some fill-ins generated)
+J26
+WCPR13
+Offset Imposed After Date Of Notice
+REQUESTED
+(All fill-ins are System generated)
+J27
+WCP018
+Removal Of Offset WC Or Other Disability Payments Terminated
+REQUESTED
+(Some fill-ins generated)
+J28
+WCP019
+Removal Of Offset N/H Age 62 Or 65
+REQUESTED
+(Some fill-ins generated)
+J29
+WCP029
+WC Or Other Disability Claim Pending N/H Only
+REQUESTED
+(All fill-ins generated)
+J30
+WCP008
+WC Or Other Disability Claim Pending - Aux. Only
+REQUESTED
+(All fill-ins are System generated)
+J31
+WCP015
+Increase In Benefits Due To A Redetermination
+REQUESTED
+(All fill-ins are System generated)
+J32
+WCP017
+Increase In Benefits After WC Offset First Imposed
+REQUESTED
+(Some fill-ins generated)
+J33
+WCP021
+Possible Excludable Expenses WC
+REQUESTED
+(Some fill-ins generated)
+J36
+WCPR20
+Offset Based On Lump Sum Ending Date Of Proration
+REQUESTED
+(All fill-ins are System generated)
+J37
+WCP005
+Offset Determined By ACE
+REQUESTED
+(Some fill-ins generated)
+J38
+WCP009
+N/H Appealing WC Decision - N/H Only
+REQUESTED
+(Some fill-ins generated)
+J39
+WCPR02
+N/H Appealing WC Decision - Aux. Only
+REQUESTED
+(All fill-ins are System generated)
+J40
+WCPR31
+N/H Appealing WC Decision - N/H And Aux
+REQUESTED
+(All fill-ins are System generated)
+J41
+WCPR27
+Offset Based On Unverified Allegation
+REQUESTED
+(All fill-ins are System generated)
+J42
+WCPR22
+WC Excludable Amounts Deducted
+REQUESTED
+(Some fill-ins generated)
+J43
+WCP032
+All Letters Involving Receipt Of WC Or Other Disability Payments N/H
+GENERATED
+J44
+WCP004
+N/H Receiving WC Or Other Disability Payments No Offset
+REQUESTED
+(Some fill-ins generated)
+J45
+WCPR23
+Offset Based On Lump Sum Proration Method A
+REQUESTED
+(Some fill-ins generated)
+J46
+WCPR24
+Offset Based On Lump Sum Proration Method B
+REQUESTED
+(Some fill-ins generated)
+J47
+WCPR25
+Offset Based On Lump Sum Proration Method C
+REQUESTED
+(All fill-ins are System generated)
+J48
+WCP003
+Definition Of WC Offset
+REQUESTED
+(No fill-ins)
+J49
+WCPR06
+Amount Of Offset Based On Estimate For One Or More Years High 1
+REQUESTED
+(Some fill-ins generated)
+J57
+WCPR09
+Interim Notice Pending ACE Determination
+REQUESTED
+(All fill-ins are System generated)
+J59
+WCP001
+N/H Expressed Intent To File For WC and/or Another Disability Payment
+REQUESTED
+(All fill-ins are System generated)
+J75
+WCP050
+Subsequent Adjustment To Proration Period Based On New Evidence
+REQUESTED
+(Some fill-ins generated)
+J76
+WCP051
+Change In Amount Of The Average Current Earnings (ACE)
+REQUESTED
+(Some fill-ins generated)
+J77
+WCP052
+Resumption Of Offset N/H Only
+REQUESTED
+(Some fill-ins generated)
+J78
+WCP053
+Resumption Of Offset Auxiliaries Only
+REQUESTED
+(Some fill-ins generated)
+J79
+ENT075
+New Beneficiary Entitled To Benefits
+REQUESTED
+(Some fill-ins generated)
+J80
+WCP026
+Beneficiary No Longer Entitled To Benefits
+REQUESTED
+(Some fill-ins generated)
+J81
+WCP058
+Change In WC Rate and/or Other Disability Payment And Offset Adjusted N/H Only
+REQUESTED
+(Some fill-ins generated)
+J82
+WCPR15
+Change In WC Rate and/or Other Disability Payment And Offset Adjusted Auxiliary Only
+REQUESTED
+(Some fill-ins generated)
+J83
+WCP054
+Verified Rate Of WC and/or Other Disability Payment
+REQUESTED
+(Some fill-ins generated)
+J84
+WCP055
+Third Party Involvement
+REQUESTED
+(All fill-ins are System generated)
+J85
+WCP013
+Change In Reduction Of Workers' Compensation Benefits (Because Of Change In State
+Law)
+REQUESTED
+(Some fill-ins generated)
+J91
+WCP057
+Removal Of Offset Lump-Sum Proration Ended
+REQUESTED
+(All fill-ins are System generated)
+N/A
+WCP060*
+WC/PDB Removal of Offset – NH Attains Full Retirement Age (FRA)
+REQUESTED
+(Some fill-ins generated)
+N/A
+WCP061*
+Benefits Offset to FRA- NH May File for Reduced RIB
+REQUESTED
+(Some fill-ins generated)
+*NOTE: Addition of two new paragraphs due to the ABLE Act effective December 19, 2015, WC
+offset termination now extends from age 65 to Full Retirement Age (FRA). See 2015
+Amendment in DI 52101.005.

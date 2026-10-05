@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - DI 28001.003 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/09/2023 - Present | TN 41 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428001003 (fetched 2026-10-04)
+
+C. Procedure -- Sending Out the Mailer Form and Establishing Systems Controls
+1. Sending Out the Mailer Form
+The mailer form, a generic cover notice and instruction insert, and a reply envelope
+are sent to the beneficiary or representative payee. An initial mailer form or "1st-request" form is sent. If it is not returned and receipted within a specific time
+frame, a "2nd-request" mailer form is sent. If neither mailer is returned and receipted within
+a specific time frame, a nonresponder alert is generated to the servicing PC.
+The four-page generic cover notice and instruction insert explains the mailer process
+and what outcomes may result when the Agency processes the mailer. The insert also
+stresses the importance of responding and specifies time frames for responding. The
+insert includes telephone numbers for contacting SSA if the individual has additional
+questions. The insert also includes two pages of instructions on how to complete the
+form, including sections on each question that provide more in-depth explanations
+(than can be included on the mailer form) as to what information is being requested.
+2. When Mailer Forms Are Sent
+a. Scannable Mailer Form SSA-455-OCR-SM
+Central Office initiates five scheduled releases of large numbers of scannable mailer
+forms SSA-455-OCR-SM during the Agency's fiscal year (FY), which begins on October
+1 and ends on September 30 of the following calendar year.
+Scannable mailer forms SSA-455-OCR-SM are sent to Title II-only and concurrently entitled
+beneficiaries or their representative payees in October, February and June of the
+FY.
+Scannable mailer forms SSA-455-OCR-SM are sent to Title XVI-only recipients or their
+representative payees in February and August of the FY.
+The five scheduled mailings of scannable mailer forms in a FY, including 1st-request and 2nd-request mailer forms, often total in excess of 1,000,000 forms.
+b. Hard Paper Mailer Forms SSA-455
+Since FY 1996, SSA has not used the hard paper form for the large scheduled mailings.
+These forms are used on an as-needed basis by the PCs and FOs.
+3. Establishing Systems Controls for Receipt of the CDR Mailer Form
+When a case is selected to receive a Title II-only, concurrent Title II/Title XVI,
+or Title XVI-only mailer, time-sensitive controls are established on the Disability
+Control File (DCF) by means of posting an EVENT 001 - “T2 INITIAL MAILER SENT, T2/16
+INITIAL MAILER SENT or T16 INITIAL MAILER SENT” or EVENT 002 - “T2 SECOND MAILER SENT,
+T2/16 SECOND MAILER SENT or T16 SECOND MAILER SENT” which can be viewed by querying
+the QCDR screen in the DCF.
+For a detailed explanation of this process, see DI 13004.005C.3.
+4. Responding to the Mailer Form
+The mailer form is completed by the beneficiary or representative payee and returned
+to the WBDOC (form SSA-455-OCR-SM), or to the PC or FO (form SSA-455). The address
+of the SSA component to who the mailer form should be returned is printed on the reply
+envelope provided with the mailer form.

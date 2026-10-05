@@ -1,0 +1,90 @@
+SSA Program Operations Manual System (POMS) - GN 02402.330 - Coding New Zealand Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402330 (fetched 2026-10-04)
+
+F. Procedure for coding New Zealand bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for New Zealand using an SSA system (e.g.
+Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+6-digit bank code
+•
+10-digit account number
+•
+beneficiary address
+•
+reclamation country
+1. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a NZD account in New Zealand? If no, STOP.
+REASON: Beneficiaries in New Zealand can only receive IDD payments in NZD accounts.
+If yes, go to step 4.
+4
+To derive the 9-digit RTN for New Zealand, code as follows:
+–
+Prefix of 71 (the multi-country prefix SSA designated for New Zealand),
+–
+6-digit bank code,
+–
+U.S. check digit obtained through Title II Interactive Comps from the Main Menus 07/Sub
+Menu 16.
+5
+Code the account type:
+–
+"S" for savings, or
+–
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the DAN for New Zealand, code:
+–
+“L ” as designated for New Zealand,
+–
+10-digit account number
+NOTE: ITS.gov will add zeroes to the beginning of the account number if the data entered
+is less than 10 digits. Please be sure to enter the full 10-digit account number with
+the zeroes in the correct position to avoid return of payment.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.330F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

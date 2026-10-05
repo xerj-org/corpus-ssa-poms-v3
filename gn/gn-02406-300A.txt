@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02406.300 - Original and Courtesy or Replacement Check Cashed – Double Check Negotiation (DCN) – Potential Overpayment
+Effective Dates: 04/26/2013 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406300 (fetched 2026-10-04)
+
+A. Process
+When nonreceipt is transmitted as a B-stop, “payment before status,” The Department
+of the Treasury (Treasury) issues a courtesy disbursement check to replace the missing
+original check. A courtesy disbursement check is issued before the status of the original
+check is known and bears a different check number from the original check. The bottom
+of the check will also have a statement “Replaces check #12345678 dated MM/DD/YY.”
+An A-stop for mass loss works the same way as a B-stop – payment before status, because
+SSA’s system changes it to a B before sending it to Treasury. Therefore, if the original
+check is cashed after a courtesy disbursement check is issued and cashed, a DCN will
+occur and Treasury will send out claims packages for both checks. DCNs in mass loss
+situations should be processed as any other DCN situation. See instructions below.
+If a C-stop (“payment after status”) is input and the original check has not been
+cashed, DT will issue a replacement check.
+Although the beneficiary/recipient is advised not to cash both the original and courtesy
+disbursement, or replacement check, the original may be subsequently cashed and is
+a potential overpayment situation. This section explains what occurs when Treasury
+determines that the original and a courtesy disbursement or replacement check are
+cashed for the same benefit month.
+•
+Debit and credit information is posted to the PHUS, SSR, and the Treasury status query
+control record when the original check is cashed, and reflects each credit given or
+overpayment being charged to SSA. See SM 00545.295H.4. for debit and credit codes
+for Title II and SM 01315.200 for Title XVI.
+A credit will usually be posted to PHUS, SSR, and ARS when Treasury has refunded money
+in stop payment cases.
+•
+SSA treats the courtesy disbursement or replacement check as an overpayment and initiates
+recovery action, and
+•
+SSA sends the claimant a notice of overpayment that explains the 60-day appeal period
+and the right to request reconsideration by SSA, waiver, personal conference, or a
+different rate of adjustment. It also explains that overpayment recovery will begin
+in 90 days unless a request for reconsideration is received.
+IMPORTANT: Double check negotiations should NOT be waived as they indicate an intention to
+commit fraud by falsely stating that the check was not received. Similarly, the $1,000.00
+waiver tolerance does not apply because the beneficiary or claimant is not “without
+fault.”

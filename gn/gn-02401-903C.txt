@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02401.903 - Allegations of Nonreceipt Not Filed Timely
+Effective Dates: 04/18/2014 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401903 (fetched 2026-10-04)
+
+C. Procedure when the diary matures after the 13-month timeframe has passed
+The technician should take the following steps to verify if the LP credit is on the
+record.
+1. Analyze beneficiary or recipient record to verify if LP credit posted on the record
+Analyze the MBR and PHUS for title II or the MSSICS Treasury Status Query and SSID
+for title XVI to determine whether an LP credit is on the record.
+2. Title II diary matures
+a. LP credit received and posted to record
+If we receive the LP credit, the returned check program (REACT) creates and posts
+an EVENT 169 UNNEG CK on PHUS and creates a notice record, and sends it to the beneficiary
+for review. The Department of the Treasury (Treasury) informs us of the type of action
+taken on the credit by sending various codes, which REACT annotates to the Reclamation
+Reason (RCLRN) field on the PHUS record. The codes could be “B”, “C”, “N”, or “I.”
+b. LP credit did not post to PHUS record
+If we receive the LP credit and it did not post to the PHUS, the RCEDIT program generates
+two types of exceptions indicating the LP credit did not process. The RCCOLA RCCLIMEX
+is a surface edit exception RCEDIT creates before the REACT program processes the
+LP file. When REACT cannot process the LP credit, it produces an LP REACT exception.
+c. LP credit did not post to MBR record
+If the LP credit did not post to the MBR, the PC technician should check the Treasury
+Check Information System (TCIS) or call Treasury at (855) 868-0151 to determine the
+status of the credit. If Treasury sent the LP credit to SSA, the PC technician should
+alert their appropriate operations analyst to obtain assistance and guidance.
+3. Title XVI diary matures
+a. LP credit posted to record
+If SSA received a title XVI LP credit, the title XVI system posts the LP credit to
+the Unnegotiated Check Indicator (UCI) segment of the Payment History (PMTH) field
+on the SSR and generates a K5 diary to the field office (FO) for investigation.
+FO technician will review the UCI field in the PMTH segment on the SSR to verify the
+status of the limited payability credit.
+b. LP credit did not post to record
+If the LP credit did not post to the SSR, the FO technician should check TCIS or call
+Treasury at (855) 868-0151 to determine the status of the credit. If Treasury sent
+the LP credit to SSA, the FO technician should alert their appropriate regional analyst
+to obtain assistance and guidance.
+See details:
+•
+MSOM BUSSR 003.020 Treasury Status Query (UPTQ)
+•
+SM 00624.420 FO/PC Processing of a Returned Check More Than One Year Old
+•
+SM 00624.405 How to Process PC Limited Payability Exceptions
+•
+SM 01315.100 How the System Issues Unnegotiated Check/Limited Payability Alerts
+•
+SM 01315.101 The Limited Payability (K5) Diary
+•
+SM 01601.835 Payment History - PMTH

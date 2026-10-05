@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 13015.007 - Failure to Cooperate- Insufficient Evidence Decision (FTC) Reinstatement Procedures for a Continuing Disability Reviews (CDR)- Field Office (FO)
+Effective Dates: 01/06/2020 - Present | TN 9 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015007 (fetched 2026-10-04)
+
+D. Beneficiary cooperates after Title II work cessation by the FO
+1. Work issue cases
+Refer to DI 13010.145 Reconsideration or Reopening of Continuing Disability Work Issue Cases- Title II.
+2. Work and medical issue
+If benefits ceased for FTC in a work CDR and the beneficiary cooperates after the
+work cessation, obtain an appeal if within the appeal period along with the medical
+CDR forms. If the appeal determination reverses the cessation determination and entitlement
+based on earnings can continue, transfer the medical CDR to the DDS.
+3. Manually close the CDR in DCF for Title II FTC termination cases
+If the Title II FTC termination posts to the MBR, the input sends a transaction to
+DCF during the DCF batch run. This transaction will usually close the CDR event in
+DCF. FOs should identify these cases in the Workload Action Center (WAC) and ensure
+the CDR event closes in DCF. If the CDR event is not closed, manually close the Title
+II FTC CDR issue on DCF by annotating STOP CDR (see DI 13010.620 and MSOM CDR 001.007).

@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 11052.010 - Processing End-Stage Renal Disease Medicare Claims with Railroad Retirement Board Involvement
+Effective Dates: 08/13/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052010 (fetched 2026-10-04)
+
+D. Process award when a Medicare record is already established under an RLCN
+Complete an SSA-892 (End-Stage Renal Disease (ESRD) Medicare Determination) and follow
+procedures in this subsection.
+1. Beneficiary is entitled to HI/SMI on MBR and RRB has jurisdiction of medical insurance,
+LAF code is not “E”
+•
+MANCLR segment to your field office (FO) code to close and lock segment
+•
+Prepare an SSA-3601 (Non-CAPS Routing) – Enter in remarks: “Route to Benefit Technical
+Examiner (BTE) for Processing. Send an SSA-3103 (SSA Certification of Title II Monthly
+Benefits to RRB for Payment or Adjustment) to RRB”
+•
+Enter HI eff.         and SMI eff.         (only if ESRD dates are more advantageous than dates on MBR)
+•
+Indicate appropriate notice (For notice paragraph, see DI 45001.102)
+2. Beneficiary is entitled to HI/SMI on MBR and MBR does not indicate RRB has jurisdiction
+of medical insurance, claimant has Medicare under an RLCN
+•
+Do not prepare an A101 (Beneficiary is already on MBR.)
+•
+MANCLR segment to your FO code to close and lock segment
+•
+Prepare SSA-3601 (Non-CAPS Routing) – Enter in remarks: “Route to Benefit Authorizer
+(BA) for Processing. Send an SSA-3103 (SSA Certification of Title II Monthly Benefits
+to RRB for Payment or Adjustment) to RRB”
+•
+Enter HI eff.         and SMI eff.         (only if ESRD dates are more advantageous than dates on MBR)
+•
+Indicate appropriate notice (For notice paragraph, see DI 45001.347)
+3. No record of claimant on MBR, claimant has Medicare under an RLCN
+•
+Prepare an A101 on beneficiary’s own SSN with a BIC of “T”. Indicate RRB has jurisdiction.
+•
+Indicate appropriate notices on the report of contact (RPOC) screen and in remarks
+– “See RPOC for notices.”
+•
+On A101 route sheet-- Enter in remarks: “Route to Benefit Authorizer (BA) for Processing.
+Send an SSA-3103 (SSA Certification of Title II Monthly Benefits to RRB for Payment
+or Adjustment) to RRB”
+•
+Route the SSA-3601 to PC7.
+In all cases in which RRB established a Medicare record under an RLCN, the BA in PC7
+completes Form 3103 and forwards it to RRB.

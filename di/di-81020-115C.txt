@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - DI 81020.115 - Processing Reopenings
+Effective Dates: 05/05/2021 - Present | TN 20 (05-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020115 (fetched 2026-10-04)
+
+C. Processing electronic reopenings
+EDCS/eView/EFI allows a reopening to be processed electronically when the prior folder(s)
+is a Certified Electronic Folder (CEF). If the DDS determines a CEF is a possible
+reopening and the prior folder(s) is a CEF, and the DDS case processing system has
+been upgraded to version 14.0:
+1.
+Go to the Status/History Tab and select the “Reopen Prior Claim” link;
+2.
+Place a checkmark in the box beside the claim(s) to be reopened;
+3.
+Click on the “List prior CEF Claims” button at the bottom of the page;
+4.
+Select the claim with the earliest appropriate filing date. The prior claim effective
+date propagates into the “Update the current claim with the reopened filing date of
+MM/DD/YYYY” field;
+5.
+Select “OK”;
+NOTE: If there are intervening claims, the following confirmation message is displayed,
+“You are reopening the following claim(s): Are you sure you want to reopen these claims?”
+Select “OK” on the confirmation box to reopen the intervening claim(s) or select “Cancel”
+to return to the previous page.
+6.
+Return to the Reopening Process page;
+Contact information of the person responsible for the reopening is propagated. The
+system defaults to the contact information of the logged-in user, however, this field
+can be overkeyed.
+7.
+Complete the SSA-831 per Completion of Form SSA-831-U5 in Title II Reopening Cases
+- DI 27530.015 and Completion of Form SSA-831-U5 in Title XVI Reopening Cases - DI 27530.025.
+Once the reopening is complete, the system automatically completes the following actions:
+•
+Prior claims are annotated with “reopened” in the Claims Action History Page;
+•
+Prior folder documents, including documents from any intervening folders, are copied
+into the current case;
+•
+A message is displayed below the Alerts and Messages Tab on the current folder, “This
+folder was combined with a prior folder to establish a reopening. View Prior Folder”;
+•
+“Yes” is displayed in the “Has Reopened Prior Claim” field;
+•
+A message is displayed on a prior folder that has been reopened along with any intervening
+claim(s) that has been reopened, “Decision(s) in this folder have been reopened. View
+reopened claim(s). [Claim Type(s)]”;
+•
+The DMA Document Tab displays “PF” and does not distinguish levels (e.g., IC, HR)
+on documents from prior folders within the initial folder when linked to a prior folder;
+and
+•
+A new link shows a history of when a claim is either reopened or canceled.

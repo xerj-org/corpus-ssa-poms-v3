@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.235 - Intercepting Incorrect International Direct Deposit (IDD) Payments
+Effective Dates: 02/03/2016 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402235 (fetched 2026-10-04)
+
+A. Policy for intercepting IDD payments
+To intercept a payment, the Federal Reserve Bank of Kansas City (FRBKC) removes it
+from the payment file before sending the file to the central or processor bank. There
+are basically two processes for intercepting IDD payments.
+1. Intercept request coded on International Treasury Services ITS.gov
+An authorized SSA technician at the Office of Earnings and International Operations
+(OEIO):
+•
+codes the intercept request on the beneficiary’s ITS.gov record.
+•
+enters the death or other reason on the Enrollment Status pull-down menu through View/Update.
+FRBKC then intercepts the payment based on the entered information. For any reason
+other than death, the employee must then remove the code from the ITS.gov record after correcting the situation causing
+the intercept request to avoid subsequent payments automatically intercepted.
+When death information has been coded erroneously to ITS.gov for a beneficiary, the death information must be removed from ITS.gov
+after the beneficiary has been determined to be alive. FRBKC must also be informed,
+so that subsequent payments will not be intercepted.
+a. Example 1
+Information to correct the direct deposit coding for a payment was received and input
+after the cutoff. To avoid having the payment go to someone else’s account, the FBU
+coded an intercept request on ITS.gov. FRBKC intercepted the payment and returned
+it to SSA. A prior month accrual (PMA) payment then went out with the corrected direct
+deposit data. The FBU removed the intercept request from ITS.gov.
+b. Example 2
+A payment was intercepted with reason “closed account.” The coder input new information
+to the master beneficiary record (MBR) but forgot to remove the request from ITS.gov,
+and two more payments were intercepted before the error was corrected. The intercept
+information was removed from ITS.gov and the next payment went to the new account.
+c. Example 3
+Romano reported that his spouse had died, but the coder misunderstood the message
+and erroneously coded the death to Romano’s ITS.gov record. When Romano notified the
+FBU of his nonreceipt the following month, the FBU removed the death information from
+Romano’s ITS.gov record, correctly coded the death of Mrs. Romano, and notified FRBKC
+and OEIO of the corrections. OEIO corrected SSA’s Master Beneficiary Record and released
+a payment for Mr. Romano.
+2. Bank Match
+For some countries, FRBKC
+•
+matches SSA’s payment file against the file of bank data provided by the processor
+bank;
+•
+intercepts and returns the rejected payments;
+•
+intercepts and returns any multicountry payments that have either no country code
+or an unacceptable country code.
+a. Example 1
+A Canadian payment is intercepted because the bank code does not match any Canadian
+bank/transit code on file.
+b. Example 2
+A payment with prefix 66 shows a country code of C. Since there is no country code
+of C for prefix 66, the payment is intercepted.

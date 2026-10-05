@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - DI 13050.030 - Provisional Payments - Title XVI
+Effective Dates: 02/17/2006 - Present | TN 16 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050030 (fetched 2026-10-04)
+
+I. Procedure - Initiating Provisional Payments
+Upon initial verification, if it appears the individual is eligible for EXR based
+on non-medical eligibility requirements; begin provisional payments through force
+due procedures. Establish a start date record using a SSA-450SI and follow the instructions
+below (see SM 01701.080 and SM 01005.020).
+•
+The start date month must be the month after the EXR request was filed, and no earlier
+than 02/01/01.
+•
+Enter a CG entry of EXRE.
+•
+Enter a code of PP with the diary date the last day of the month following the input
+month.
+After establishing the start date record, use the Force Due process in Direct SSR
+Update to begin provisional payments. Refer to SM 01701.080 for screen completion
+instructions. State supplemental payments are not payable during the provisional payment
+period.
+Issue a provisional payment start-up notice (see DI 13050.105).

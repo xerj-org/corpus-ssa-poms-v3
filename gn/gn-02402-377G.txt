@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02402.377 - Coding Romania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402377 (fetched 2026-10-04)
+
+G. Example of coding Romania direct deposit
+The customer provides us with a signup form for Mauritius containing the account number:
+RO49AAAA1B31007593840000
+•
+The first two characters of a Romania IBAN are “RO,” which represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next four characters of the IBAN represent the 4-digit bank code.
+•
+The last 16 characters represent the 16-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code an RTN of 710000044
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+Start with a country code of Q designated for Romania;
+•
+Code the 16-digit Account Number “1B31007593840000”
+3. Obtain the following information:
+•
+RTN: 710000044
+•
+Checking
+•
+DAN: Q1B31007593840000
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000044 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Q1B31007593840000
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-710000044
+•
+DAN- CQ1B31007593840000

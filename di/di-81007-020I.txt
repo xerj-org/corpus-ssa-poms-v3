@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 81007.020 - Elements Common to Internet Disability Reports (IDR)
+Effective Dates: 11/16/2023 - Present | TN 11 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007020 (fetched 2026-10-04)
+
+I. Purging IDR partials from the database
+If the IU does not submit an IDR partial within a certain amount of time, the system
+will archive that IDR, or set of IDRs, in the inactive file. The system will purge
+archived IDRs from the inactive file at defined intervals. In general:
+•
+An unsubmitted i3368 partial will move to the archive file 30 days after the 6-month
+protective filing period ends. If there is a set of partials, the 6-month period starts
+with the date the IU started the earliest i3368 in the set.
+•
+An unsubmitted i3820 partial will move to the inactive file 30 days after the 60-day
+protective filing period ends. If there is a set of partials, the 60-day period starts
+with the date the IU started the earliest i3820 in the set.
+•
+An unsubmitted i3441 partial will move to the inactive file 3 months after the IU
+started it. If there is a set of partials, the 3-month period starts with the date
+the IU started the earliest i3441 in the set.
+•
+Until the system purges it, FO technicians can retrieve and print any IDR held within
+the inactive file with a query obtained through the Internet query facility (see DI 81007.070.). However, it is not possible to restore archived files to the IDR database for
+submission and later propagation to EDCS.
+•
+The system purges archived IDRs after 30 days. There is no way to retrieve a purged
+IDR.

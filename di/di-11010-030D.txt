@@ -1,0 +1,117 @@
+SSA Program Operations Manual System (POMS) - DI 11010.030 - Field Office (FO) Operating Instructions for Deferred Title II Initial Claims
+Effective Dates: 11/07/2013 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010030 (fetched 2026-10-04)
+
+D. Nonmedically completing the claim
+When Nonmedical Completion (NMC) criteria apply, and sufficient nonmedical development
+of eligibility is complete prior to the medical determination, the FO inputs NMC to
+set an auto-initiated adjudication trigger. Upon receipt of the medical determination
+from the DDS, NMC completes processing the claim through EC without manual intervention.
+NOTE: NMC does not automate the sequential evaluation process to determine disability (i.e.,
+the medical determination, as described in DI 22001.001). When auto-initiated adjudication is successful, NMC automatically completes certain
+nonmedical processes (e.g., benefit computation, award notice, payment release) through
+existing systems. The automated processes are transparent and completed claims remain
+available for review in applicable claims systems.
+In deferred development DIB claims, NMC criteria apply when the claimant meets the
+nonmedical requirements for eligibility and none of the following special conditions
+are involved:
+•
+Appointed representative fee, see GN 03940.015B
+•
+Statutory blindness DIB freeze, see DI 11005.071
+•
+Prisoner or fugitive felon (FF) issues, see sections in GN 02607.000
+For DIB eligibility requirements, see DI 10105.005.
+1.  Age and citizenship development
+When proof of age development is unnecessary for eligibility (as explained in DI 11010.055), input the trigger for NMC without further proof of age development. Do not delay
+an award effectuation while developing to resolve an age discrepancy unless the discrepancy
+materially affects whether the claimant is entitled to the benefits awarded.
+Use caution in effectuation of a DIB allowance without proof of citizenship:
+•
+Although not an entitlement factor for DIB or a DIB freeze, citizenship or lawful
+presence is required for payment of benefits (as explained in RS 00204.010).
+•
+To avoid potential suspended payment status, develop necessary evidence of citizenship
+or lawful presence, following instructions in RS 00204.015, before NMC.
+•
+Adjudicate an award into suspended payment status for absence of citizenship or lawful
+presence proofs only if required attempts to obtain the proofs were unsuccessful.
+Suspended Payments
+If
+Then
+A DIB allowance is input without the applicable proof of citizenship or lawful presence:
+The MBR Ledger Account File (LAF) will display suspended payment status, e.g., LAF-S9
+(NOUSCP).
+The FO obtains required proof to remove the LAF-S9 status on the MBR:
+Complete reinstatement inputs in applicable systems (e.g., Post-Entitlement Online
+System (POS), Consolidated Claims Experience (CCE)) to release the payment and related
+notice.
+If the FO’s reinstatement input excepts (i.e., is unsuccessful) due to other special
+conditions pending on the MBR (e.g., attorney fee due, Title XVI windfall offset):
+Applicable screen alerts display and an Action Control Record (ACR) generates to notify
+the processing center (PC) of manual PC action necessary to complete the reinstatement.
+2. Offset development
+When material workers compensation or public disability benefit (WC/PDB) development
+is unresolved, exclude the disability claim from NMC. In general, WC/PDB development
+is:
+•
+“material” when the WC/PDB payments offset (i.e., reduce) the potential Social Security
+payments, and
+•
+“unresolved” when requested evidence necessary to establish the offset remains outstanding.
+NOTE: In the electronic claim path, the SSA-546 (WC/PDB Questionnaire) is part of the application
+screens and displays a statement explaining that any entitlement to or change in WC/PDB
+payments must be reported to SSA immediately.
+•
+Accept any evidence that the claimant offers with the application and, when necessary,
+request additional evidence to verify WC/PDB payments (following instructions in DI 52140.001A).
+•
+Review the DIB application and related information to determine WC/PDB offset (following
+instructions in DI 52140.001B).
+•
+When applicable, use the State maximum rate for the offset until we receive requested
+WC/PDB documentation (following instructions DI 52140.001C).
+WC/PDB development need not be completed prior to NMC in the following situations:
+a.
+No WC/PDB offset applies.
+•
+For reverse jurisdiction, see DI 52105.001.
+•
+For other payments which will not cause WC/PDB offset, see DI 52125.005 and DI 52105.015.
+b.
+The claimant neither received any WC/PDB payment to date nor knows when to expect
+any future WC/PDB payment and whether the potential payment type could cause an offset.
+For example, when the claimant alleges:
+•
+a pending WC/PDB claim where reverse jurisdiction applies, or
+•
+merely an intent to file an unspecified type of WC/PDB claim at some unknown date
+in the future. (For how WC/PDB types and “unknown” responses appear on the signed/attested
+SSA-546, see DI 52140.005C.)
+c.
+If the actual amount of compensation is unverified at the initial interview, the FO
+may input the trigger for NMC when using the claimant's allegation or the State maximum
+amount until receipt of requested proofs, unless lag earnings affect the Average Current
+Earnings (ACE) (explained in DI 52150.010) or Title XVI windfall offset applies.
+•
+Advise caution when alleged future WC amounts are above the applicable limit (explained
+in DI 52150.015) and below the State maximum (explained in DI 52150.045), as this range affects the specific offset computation. To help avoid future overpayments,
+the claimant may use the State maximum or give the highest applicable estimate for
+WC payment projections (as explained in DI 52140.001F).
+•
+When appropriate, remind the claimant that failure to timely report WC/PDB updates
+may lead to overpayments and obtain a repayment statement (as explained in DI 52140.001E).
+3. Lag earnings development
+When the claimant alleges lag earnings, request proof of lag earnings following instructions
+in RS 01404.005.
+Unverified Earnings
+If
+Then
+Unverified lag earnings leave insured status in question:
+Resolve required lag earnings development prior to NMC or award effectuation.
+Unverified lag earnings affect only the potential Title II benefit amount (i.e., insured
+status is currently met and no Title XVI windfall offset applies):
+Exclude the lag earnings from EC and input the trigger for NMC.
+Receipt of evidence verifies lag earnings:
+Update the claim to record new verified lag earnings and, as applicable, complete
+or recomplete NMC inputs.

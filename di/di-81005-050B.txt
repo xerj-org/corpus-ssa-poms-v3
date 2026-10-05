@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - DI 81005.050 - Case Documents Tab
+Effective Dates: 05/02/2012 - Present | TN 4 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005050 (fetched 2026-10-04)
+
+B. Case documents tab capabilities
+From the Case Documents screen, users with appropriate security access can:
+1.
+Obtain, view and save queries to the EF;
+2.
+Import applicable documents from the Online Retrieval System (ORS);
+3.
+View individual documents, including those marked as “Sensitive” by clicking on a
+document from the list of documents in each section. To open multiple documents:
+•
+Check the box next to the document(s) name; and
+•
+Click the “Open” button at the bottom of the screen
+4.
+Create barcodes to fax or scan images to the EF. For more information on creating
+barcodes, see DI 81010.090 and DI 81020.035;
+5.
+Perform edit functions, such as move document management architecture (DMA) imaged
+documents to another section in Case Documents. See DI 81001.040;
+6.
+Add documents to the Exhibit List (limited to Office of Hearings Operations [OHO]
+and Office of Appellate Operations [OAO] users);
+7.
+Copy documents to a CD. See DI 81001.035;
+8.
+Print Documents. See DI 81005.065;
+9.
+Edit information about documents (meta-data) stored in the electronic folder (EF)
+via the “Details” link. For example, a user can add, change, or delete a note about
+a document stored in the EF;
+10.
+Add or remove a Sensitive Document Indicator via the “Details” link. A yellow icon
+containing an exclamation point preceding any document indicates the document is marked
+as “sensitive”;
+IMPORTANT: Documents containing sensitive information must not be disclosed. For details on allowing
+access to medical records, see GN 03340.035.
+NOTE:
+The sensitivity of a document cannot be changed after OHO or OAO has permanently marked
+an Exhibit Number on the imaged page of an electronic exhibit.
+11.
+View an Outstanding Document Request Query, which lists all non-receipted documents
+with a barcode created in eView. Details about the outstanding request(s) include
+the Document Type, Site ID, Request ID, Request Creation Timestamp, Treatment Source
+Name, and Level. Only documents with barcodes created in eView are included in the
+list.
+NOTE:
+This applies only to barcodes created in eView. It does not apply to barcodes created
+in the Disability Determination Services (DDS) Legacy systems or in OHO’s Case Processing
+and Management System (CPMS) and OAO’s Appeals Review Processing System (ARPS).
+12.
+View a list of bookmarks for all documents in the case by selecting the “Bookmarks”
+button at the bottom of the Case Documents screen. The resulting page provides the
+following information:
+•
+Bookmark Text;
+•
+Document Name;
+•
+The name of the source of the document;
+•
+Bookmarked page number;
+•
+Exhibit Number, if applicable;
+•
+Date the document was received into the Electronic Folder;
+•
+Section in which the document is stored; and
+•
+User ID, which is the identifying information for the user who added the bookmark.
+Selecting a document from the bookmark list opens the DMA viewer directly to that
+page of the document.
+13.
+View a list of categorized pages associated with all documents in the case by selecting
+the “Categories” button at the bottom of the Case Documents screen. The resulting page provides the following
+information:
+•
+Document Name;
+•
+Categorized page number;
+•
+Category Type (for example, Mental, Physical, Mental and Physical);
+•
+The name of the source of the document;
+•
+Exhibit Number, if applicable;
+•
+Date the document was received into the Electronic Folder; and
+•
+Section in which the document is stored.
+Selecting a document name hypertext link(s) opens the DMA viewer directly to the page(s)
+of that document and of the category selected.

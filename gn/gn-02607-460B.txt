@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - GN 02607.460 - Field Office Processing of Inmate Reports
+Effective Dates: 08/14/2014 - Present | TN 27 (08-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607460 (fetched 2026-10-04)
+
+B. Additional processing for reports from institutions
+In addition to establishing a PUPS record for each reported inmate as instructed in
+GN 02607.460A.3. in this section, other actions may be necessary depending on whether the facility
+submits a single report or multiple monthly reports and whether the FO will process
+the report data in one day or over multiple days.
+1. Facility submits single monthly report—FO processes in one-day
+If keying all inmate data from the monthly report to PUPS in one day, process as follows:
+a.
+Keep stroke tallies of the number of SSNs that verify and those that do not verify
+as displayed on the Prisoner Entitlement Selection List (PUSL) screen. You will need
+these tallies to complete the Incarceration Report Identification Data (IRID) screen
+in the Incarceration Reporting Control System (IRCS). For information on IRCS, see
+MSOM PRISON 002.001.
+b.
+After completing all PUPS entries, complete the IRID screen. For instructions on completing
+the IRID screen, see MSOM PRISON 002.004.
+2. Facility submits single monthly report—FO processes over multiple days
+If keying the inmate data into PUPS over multiple days, process as follows:
+a.
+Enter information from the current report in the following IRID fields:
+•
+Receipt Date;
+•
+Report Date; and
+•
+Reporting Period
+b.
+Delete existing information from the following IRID fields:
+•
+Process Date;
+•
+Verified Count; and
+•
+Unverified Count
+c.
+Keep a stroke tally of the number of SSNs that verify and those that do not verify.
+d.
+After completing all PUPS entries, return to the IRID screen and complete the following
+fields:
+•
+Process Date—enter the date you completed the PUPS entries;
+•
+Verified Count; and
+•
+Unverified Count
+3. Facility submits reports for multiple months
+Processing of multiple monthly reports depends on whether the submitted reports are
+for successive or non-successive months. Always enter report data for multiple monthly
+reports into IRCS in sequential date order. Reports processed out of sequence may
+cause erroneous overdue prison report alerts.
+a. Months not in succession
+Beginning with the earliest submitted month, process each monthly report as instructed
+in either GN 02607.460B.1. or GN 02607.460B.2. in this section depending on whether you complete the processing in one or multiple
+days. Repeat this process for each of the multiple monthly reports. You can enter
+multiple inmate reports into IRID using the same receipt and report dates.
+b. Months in succession
+Establish individual PUPS records for the multiple monthly inmate reports as instructed
+in either GN 02607.460B.1. or GN 02607.460B.2. in this section depending on whether you complete the processing in one or multiple
+days. The following IRID fields require unique entries:
+•
+Reporting Period—enter the beginning and ending dates for the report months (e.g.,
+01012014 THRU 03312014);
+•
+Process Date—enter the date you completed the PUPS entries for all of the monthly
+reports;
+•
+Verified Count—enter the total count for all of the months; and
+•
+Unverified Count—enter the total count for all of the months.

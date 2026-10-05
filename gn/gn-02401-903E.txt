@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02401.903 - Allegations of Nonreceipt Not Filed Timely
+Effective Dates: 04/18/2014 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401903 (fetched 2026-10-04)
+
+E. Title XVI FO procedure when the credit is present after 13 months
+FO personnel should refer to the following instructions.
+1. Analyze the Treasury Check Information System (TCIS)
+FO technician reviews the TCIS to obtain the status of the payment.
+NOTE: Prior to releasing payment, the FO personnel should refer to instructions in GN 02401.903E.2. and GN 02401.903E.7. in this section.
+2. Analyze and review Supplemental Security Record (SSR)
+Analyze and review SSR to determine the codes posted in the Unnegotiated Check Indicator
+(UCI) LP fields.
+If the UCI field is coded with an L, the system already reissued the payment if it
+was due or resolved the overpayment if caused by the check.
+If an M is in the UCI field, the recipient:
+•
+acknowledges receipt of check; or
+•
+is unable to locate the check; or
+•
+does not respond; or
+•
+is deceased.
+The FO technician should update the record if the recipient later inquires about the
+LP credit and if we determine the recipient was due the payment. For additional information
+regarding LP codes, see SM 01601.835C.9.
+3. Recipient is now deceased
+If the recipient is now deceased and check replacement is appropriate, make payment
+as defined in SI 02101.003.
+4. Recipient is no longer entitled
+Attempt to contact the recipient directly. If direct contact is unsuccessful, obtain
+a current address from the FO servicing the last known address. For notice language
+to use when the recipient is not entitled, for more information see NL 03001.025.
+5. Recipient has an overpayment present on the record
+If there is an overpayment on the record, adjust any underpayment due to recover any
+collectible overpayment per SI 02101.002A.
+6. Recipient entitled to benefits and no overpayment on record
+FO technician places the following message in the REMARKS field of the SSR with the
+type of payment issued. Remember to use the payment date of the check for which the
+LP credit represents.
+“Limited Payability Case MM/DD/YYYY.”
+7. Possible prior check replacement
+Review the recipient’s record to ensure the check is due.
+NOTE: Take extreme care to avoid replacing the check again and possibly causing an overpayment.
+8. Reissue check
+Only reissue the check if it is still due the recipient.
+a. LP credit on SSR
+When the LP credit is already posted to the SSR (UCI of I or M in PMTH segment), and
+the payment is still due, use the limited payability screens in MSSICS to release
+the payment via a one-time payment (OTP). For additional instructions on the completion
+of the screen, for more information see MSOM BUSSR 003.006.
+b. Verify address
+Review the OTP for current address or rep payee data prior to issuance.
+c. Release payment
+When MSSICS releases the payment, the system will reissue the payment if it is due
+or will resolve an overpayment created by the check.
+9. Send notice
+Send notice informing recipient that they are entitled to the payment per NL 03001.025.

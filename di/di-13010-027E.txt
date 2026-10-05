@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 13010.027 - Continuing Disability Review (CDR) Earnings Enforcements
+Effective Dates: 08/14/2025 - Present | TN 88 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010027 (fetched 2026-10-04)
+
+E. DCF jurisdiction
+1. Work review
+Enforcement alert output documents are assigned to the PSC that maintains jurisdiction
+of the CDR case. To prevent duplication of development efforts, it is important to
+keep the location of the work review the same in both the eWork and DCF systems. If
+a work CDR is currently open in the DCF, follow these guidelines to process a QEP
+or CDREO alert:
+•
+Check eWork for a pending work review. If there is no pending eWork review or an eWork
+review is pending in your location, continue processing the CDR.
+•
+If an eWork review is pending in another location (FO or other PSC), transfer the
+DCF event to that location, document the reason for the transfer on the DCF remarks
+screen and in the General Remarks of the eWork development worksheet, and clear the
+CDREO alert.
+•
+Fax all development documentation into eView or Evidence Portal (EP).
+2. Pending work report
+If a work report is pending in eWork, but no one initiated a work review, the FO maintains
+jurisdiction of the work report and subsequent work review. Follow the steps below:
+•
+Enter a dated remark on the eWork development worksheet and the CDR Remarks Input
+(IRMK) screen explaining that you are transferring the CDREO or QEP alert based DCF
+event to the FO location based on the pending work report; and
+•
+Clear the Paperless controls as “NAN,” and add a comment that you transferred the
+enforcement to the FO.

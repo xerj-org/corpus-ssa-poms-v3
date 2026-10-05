@@ -1,0 +1,177 @@
+SSA Program Operations Manual System (POMS) - GN 02406.175 - Exclusions to the Nonreceipt Process
+Effective Dates: 08/30/2024 - Present | TN 126 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406175 (fetched 2026-10-04)
+
+A. Exclusions for Title II and Title XVI nonreceipt
+The nonreceipt process cannot handle certain types of payments. These exclusions require
+timely processing to ensure that the Social Security Administration Trust Fund and
+the Treasury General Fund receive credit for amounts due.
+Many Title II exclusions require action by the servicing processing center (PC). These
+situations require the field office (FO) and teleservice center (TSC) to notify the
+PC via the Modernized Development Worksheet (MDW). The list of exclusions are as follows:
+1. Current representative payee reports nonreceipt of check issued to former payee
+New representative payee reports of nonreceipt may occur when the change of payee
+action processed too late to affect payment. To investigate and resolve current and
+former representative payee nonreceipt reports, locate information from the payee
+query or the query response selection list (see GN 00502.185 for instructions on documenting payee selections /non-selections and post-entitlement
+actions in eRPS). For handling representative payee nonreceipt reports, take the following
+actions:
+a. FO and TSC procedure for processing nonreceipt reports
+For handling representative payee nonreceipt reports take the following actions:
+Step
+Action
+1
+Review the Master Beneficiary Record (MBR) and Supplemental Security Record (SSR)
+to determine the payee change.
+2
+Determine the latest date a change could be made to the record (systems processing
+cutoff date; consider payment cycling window period)
+3
+If the change of representative payee input missed the cutoff date, explain that payment
+was sent to the former payee and why.
+4
+The TSC must forward the case to the servicing FO to contact the former representative
+payee.
+5
+The FO should contact the former payee to determine if they received and used the
+check to benefit the beneficiary or recipient. If so, explain to the current payee
+that, since the beneficiary received the benefit of the check, this does not constitute
+nonreceipt. If the representative payee cashed the check but did not use it for the
+beneficiary or recipient or if the former representative reports that they received
+and used the check for the beneficiary or recipient but the beneficiary does not agree,
+refer to Misuse of Benefits Investigation, Determination & Restitution GN 00604.000.
+6
+For Title II, if the former rep payee alleges nonreceipt, request (via MDW) the PC
+to input a stop payment action (F-Stop). For Title XVI cases, the FO/TSC can input
+the F-Stop.
+b. PC procedure for processing nonreceipt
+Input an F-Stop payment action to reissue any returned funds or credits to the new
+payee, as appropriate. .
+2. Former representative payee reports nonreceipt
+If a former payee alleges nonreceipt of a payment certified before SSA processed the
+change of payee action:
+a.
+FOs and TSCs should take the following actions:
+•
+For Title II, send an MDW request to the servicing PC to complete an SF-1184 stop
+payment action;
+•
+For Title XVI, input the F-Stop.
+b.
+PCs should take the following actions:
+•
+Process the request per MS 05602.005B. (PESP screen), and
+•
+Reissue any replacement payments to the current payee when the credit posts to the
+record.
+3. Payment issued under an incorrect account number
+Alleged nonreceipt situations may occur when a payment was issued under an incorrect
+account number and the MBR and SSR records were corrected after the payment was made.
+a.
+FO and TSC, take the following actions:
+•
+Forward via MDW to the PC and FO of jurisdiction.
+•
+Alert the PC and FO, “Payment Issued Under SSN--XXX-XX-XXXX--Stop Payment Action Required.”
+b.
+PC and FO, process against the incorrect SSN according to PESP screen MS 05602.005.
+4. Partial payment received when total payment expected
+FO, TSC, and PC, obtain a Payment History Update System (PHUS), MBR and SSR and attempt
+to reconcile the discrepancy.
+If the payment is due:
+•
+FOs and TSC should refer to the servicing FO and PC, as appropriate for action via
+MDW.
+•
+PC: issue the payment according to the current Manual Adjustment, Credit, and Award
+Process (MADCAP) and Manual Adjustment, Credit, and Award Data Entry (MACADE) procedures
+(SM 00810.000.)
+•
+Tell the claimant to expect receipt of remaining payment in 5 - 7 mail delivery days.
+5. Miscellaneous overpayment situations
+Do not use the nonreceipt of payment process for the following miscellaneous overpayment
+situations:
+•
+Partial monthly benefit cases involving overpayments (with active partial recovery).
+•
+When the Title XVI recipient requests resumption of full benefits.
+•
+Conversion cases for Title II beneficiaries who receive payments at the old rate rather
+than at the converted rate.
+Refer these cases to the PC and FO of jurisdiction for action.
+6. Nonreceipt report received more than 1 year after the issue date of the check
+Process according to the instructions for Limited Payability Cases for Title II and
+Title XVI in GN 02401.901.
+7. Check is not due claimant and check date is 12 months or less prior to date of the
+nonreceipt reports
+Request the PC, via MDW, to input an SF-1184 stop payment (F-Stop) action for Title
+II checks. FOs can input Title XVI F-Stops.
+8. Settlement check
+Follow the instructions, Nonreceipt of a Settlement Check for Title II and Title XVI
+in GN 02406.202.
+9. Attorney fees
+Request assistance from the PC via MDW. The PC should process according to instructions
+in Nonreceipt of Paper Check Payments Made to Non-Beneficiaries per GN 02406.127.
+10. Nonreceipt of payments made to non-beneficiaries
+Follow the instructions for Nonreceipt of Paper Check Payments Made to Non-Beneficiaries,per
+GN 02406.127.
+11. Nonreceipt of Interim Assistance (IA) payments made to State agencies
+When a state Agency notifies a FO of nonreceipt of an IA payment, refer the Agency
+to the Regional Office’s Interim Assistance Reimbursement Coordinator per SM 01311.662
+12. Suspension Present on the Record
+If a nonreceipt is filed and there is a suspension on the record, refer to the below:
+a. Individual suspended pending development of address
+•
+S6 for Title II, see How the Returned Check Action (REACT) Program Processes Returned
+Checks and SF-1184 (“00”) Credits SM 00624.010;
+•
+S06 for Title XVI, see, Issuing SSI Checks, SM 01315.001A.
+b. Individual suspended pending development of a representative payee
+•
+S8 for Title II, see FO Processing of S8/S08 Alerts GN 00504.150
+•
+S08 for Title XVI
+13. Payment due after death
+When an individual reports nonreceipt for a deceased beneficiary or recipient, Stop
+payment processing is required as follows:
+a. Title II
+The FO and TSC should send an MDW to the servicing PSC for SF-1184 stop payment action
+requests. The FO completes underpayment development (SSA-1274, Claim for Amounts Due in the Case of a Deceased) if applicable. For the statutory
+order of priority for Title II underpayments, see GN 02301.030A. The PC processes via the PESP screen .
+b. Title XVI
+For Title XVI cases, the FO and TSC should input the F-Stop. The FO should complete
+underpayment development (see SI 02101.000).
+14. “Not due” payments for reasons other than death
+This situation usually occurs when:
+•
+an overpayment is on the record;
+•
+a recent change of payee is on the record; or
+•
+the payee or beneficiary is declared legally incompetent.
+This situation requires Stop payment processing.
+a. Title II
+FOs and TSCs should request that the PC of jurisdiction request an SF-1184 stop payment
+action. PCs process via the PESP Screen
+b. Title XVI
+FOs and TSCs should input the F-Stop.
+15. Processing returned payments
+Returned Title II and Title XVI payments posted on the PHUS and SSR do not require
+an input of nonreceipt. Identify the reasons for the returned payment and determine
+if repayment is due. For returned check reason codes, see SM 00530.020B. If repayment
+is still due, take necessary action to reissue the payment with reason code MS (Miscellaneous):
+Step
+Action
+1
+Check the Special Message Field on the MBR and SSR for prior development or for a
+reason to explain the check return code “MS”.
+2
+Review the record to determine if there has been a recent change such as direct deposit,
+address, or other action that could explain the returned payment. If any of these
+conditions exist, take appropriate action to resolve the issue.
+3
+If the payment is still due, take necessary action to reissue the payment for reason
+code = MS (Miscellaneous).
+4
+If you determine that payment is due, explain to the beneficiary or recipient that
+we will reissue the payment and to allow 15 days for receipt of the payment.

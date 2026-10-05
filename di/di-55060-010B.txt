@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - DI 55060.010 - FO Role in Providing Assistance in the EN Payment Process
+Effective Dates: 07/28/2022 - Present | TN 4 (07-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455060010 (fetched 2026-10-04)
+
+B. Process
+Initially, FO will review/process/resolve the monthly generated earnings verification
+request (VY) issues prior to the TPM/ORDES receiving an EN payment request for processing.
+There are times, during the case review, where earnings related actions cannot be
+completed timely and additional activity must be taken to resolve the issue and make
+monthly verifications. During this time, the EN may have submitted a payment request
+and the TPM/ORDES must act in processing the request. The OPAYMENT issue is generated
+to advise the FO that an EN payment request has been submitted for the associated
+month and priority processing activity is needed to comply with the Agency’s mission
+regarding timely payments.
+It is important to know that the comment area of the OPAYMENT issue will be used to specifically explain what FO actions are
+needed to resolve the related issue.
+Additional information pertaining to the FO responsibilities for handling reports
+of earnings from the TPM can be found in DI 55030.015.
+The following is an example of how an OPAYMENT issue with comments will appear on
+the CDRW screen:
+CDRMS CDR DEVELOPMENT WORKSHEET SCREEN
+PAGE 01 OF 02 CDRW
+OWNER OFFICE: 000 UNIT: EWORK
+DCF ID: xxxxxxxxx CAN: xxxxxxxxx A TYPE OF SELECTION: TICKET
+NAME: JANE DOE
+CATEGORY: SGA
+LOC UNIT TYPE ISSUE REQUEST F/UP 1 F/UP 2
+TICKLE CLOSED
+036 11475 ERNGS INVTWP 081904
+091804
+COMMENTS:
+L11 CPU TICKET MSPYT01 091604
+100104
+COMMENTS: MS PERIOD 0504;PMRD-08022004;CHECKLIST FAXED;EN IS UNABLE
+TO OBTAIN ALL OF THE REQUIRED INCOME FOR 5/04;LINDA
+036 ROW TICKET OPAYMENT 092004 100504
+COMMENTS: NEED T2 CR TO VERIFY AND POST WAGES (01/05) AND MAKE
+CONTINUING DISABILITY DECISION.
+REMARKS (Y): QUERY (Y): MORE (Y): Y
+PF6=DISPLAY LAST PAGE PF10=INFORMATION
+PF12=NOTEPAD

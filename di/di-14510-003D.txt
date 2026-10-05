@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 14510.003 - Field Office (FO) Procedures for Cases Involving Participation in Vocational Rehabilitation (VR) or Similar Program
+Effective Dates: 11/01/2024 - Present | TN 18 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0414510003 (fetched 2026-10-04)
+
+D. Transmitting case to ODO
+1. Title II cases
+Section 301 continues payments (and Medicare) to the beneficiary and any auxiliaries
+on the record. Benefits continue while the section 301 determination is pending. The
+FO must:
+•
+Add the remark, “Potential Section 301 determination sent to ODO on MM/DD/YY” to the
+special message field of the MBR;
+•
+Create a 301DEC issue on the DCF using the CDRW and tickle the case for the month
+program participation is expected to end, or for one year from the current month,
+whichever is earlier;
+•
+Fax the SSA-4290-F5 and any supporting documents into eView or EP ; and
+•
+Transmit the case to ODO by uploading the Potential
+Section 301 Case Flag along with the SSA-4290 and related documents, to ODO’s PPC using the EP's 4290 Barcode.
+Select "Yes" on the Document Information screen, to make the transmission actionable
+when PC involvement is required.
+NOTE:
+Do not conduct a work CDR on individuals receiving Section 301 benefits as they are
+medically ceased.
+2. Title XVI cases
+Due to the automated N07/N08 process, benefit payment termination may trigger before
+ODO makes the Section 301 determination. Benefits continue pending the Section 301
+determination. While the Section 301 determination is pending, the FO must:
+•
+Input a Vocational Rehabilitation Plan (VP) diary using the diaries (UDIA) function
+in Direct SSR Update with a diary date of one year from the date of the medical cessation
+(see MS BUSSR 002.019.) The VP diary prevents the case from updating to an N07/N08
+payment status;
+•
+Annotate the SSR Remarks, “Potential Section 301 determination sent to ODO on MM/DD/YY;”
+•
+Create a 301DEC issue on the DCF using the CDRW and tickle the case for the month
+program participation is expected to end, or for one year from the current month,
+whichever is earlier;
+•
+Create an issue on the Development Worksheet;
+•
+Fax the SSA-4290-F5 and any supporting documents into eView or EP; and
+•
+Transmit the case to ODO by uploading the Potential
+Section 301 Case Flag, along with the SSA-4290 and related documents, to ODO’s PPC using the EP's 4290
+Barcode. Select the "Yes" on the Document Information screen, to make the transmission
+actionable when PC involvement is required.
+NOTE:
+All Title XVI eligibility provisions, including income counting and resource guidelines
+continue to apply while the Section 301 determination is pending.

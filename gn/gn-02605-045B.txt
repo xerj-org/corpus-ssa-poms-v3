@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02605.045 - Mass COA Reported by USPS
+Effective Dates: 05/01/2012 - Present | TN 23 (12-04)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605045 (fetched 2026-10-04)
+
+B. Process
+Based on report(s) of mass COA, the Office of Retirement and Survivors Insurance Systems
+(ORSIS) performs automated updates to the master files using data selected from the
+MBR/SSR and the ZIP +4 Software. These changes generally affect the last line of address,
+i.e., city name and/or ZIP Code.
+Although no one has actually moved, SSA must update master files (MBR/SSR) for all
+beneficiaries affected by these postal changes.
+ORSIS takes the following actions:
+1. ZIP Changes
+•
+Verifies that ZIP Code is reflected in the ZIP +4 Software.
+•
+Selects all records on the master file (MBR/SSR) affected by the ZIP change.
+•
+Processes these records through the ZIP +4 Software to determine the correct ZIP changes
+and the +4 sector/segment number of the ZIP.
+•
+Updates the MBR/SSR with the new ZIP Codes.
+NOTE: MBR updates are done monthly by Title II and usually occur 30-45 days after the effective
+date of the change. SSR updates are done three times a year: April, August and December.
+•
+Updates ZIP Tables used for front end editing.
+NOTE: Updates are done monthly. These tables are used to ensure that a valid ZIP is being
+input. ZIP Codes which are not in the tables will result in edits/rejects for Title
+XVI.
+•
+Prepares a list of unmatched Title II records for any addresses which cannot be verified
+by the ZIP +4 Software. Sort into address configuration display, and send the list
+to the FO.
+•
+Generates a Z7 alert/diary for Title XVI whenever the ZIP +4 Software cannot determine
+the correct ZIP and/or ZIP +4.
+2. City Name Change
+•
+Verifies the name change,
+•
+Selects records from the master file affected by the change,
+•
+Updates master files with changes.
+3. Address Conversions/Problems
+•
+Verifies if change is appropriate,
+•
+Selects all records on the master files affected by the change,
+•
+Updates MBR/SSR.

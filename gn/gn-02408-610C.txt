@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02408.610 - Overview of the Reclamation Process for Title II and Title XVI Electronic Funds Transfer (EFT) Payments
+Effective Dates: 09/03/2020 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408610 (fetched 2026-10-04)
+
+C. Process when an FI responds to a notice of reclamation
+1. All/Partial funds are available
+The FI returns any funds that are available. The FI completes the FI portions of the
+FS-133 and sends the form to Treasury. For information about the FI's possible responses,
+see GN 02408.625.
+If only part of the funds remain in the FI, the FI returns the partial funds AND provides
+the name and address of the last withdrawer of the funds on the FS-133 for contact
+by SSA.
+When the FI returns the funds, Treasury returns them to SSA. A Title II return can
+be shown as “009 EVENT RET CHECK” on PHUS, it may also be returned as a remittance.
+A Title XVI return is shown as a slash (/), S, T, or U in Payflag 1 on the SSR and
+may also be posted on the Overpayment Refund Data (OPRR) segment of the SSR. For more
+information on erroneous EFT payment returns from FIs and individuals, see GN 02408.665 and GN 02408.670.
+NOTE: For situations where Title II benefits have been deposited into an account shared
+with a spouse or parent, see exclusions in GN 02408.615D.2. Also see, GN 02201.001F and GN 02205.003C.3.
+2. No funds are available
+When the account does not contain any funds at all, the FI must return the FS-133
+to Treasury. The FI must provide the name and address of the last withdrawer on the
+FS-133 for a Title II and Title XVI reclamations, see GN 02408.630. If the FI does not return a completed FS-133 timely, Treasury debits the account
+of the FI or its correspondent bank at the Federal Reserve Bank, and returns the funds
+to SSA. For the amount of the FI's liability, see GN 02408.625.
+3. FI sends “120-day” protest
+The FI protests to Treasury if it believes that SSA sent the reclamation request more
+than 120 days after learning of the death. The 120-day period is usually counted from
+the date the death notification entry (DNE) was sent to the FI. However, in some cases
+the FI protests because it believes we had the death information before that time.
+If the FI submits a protest of reclamation involving the 120-day rule, SSA will have
+30 days to send a response to Treasury with documentation reflecting that SSA submitted
+the reclamation timely.
+Analysts who respond to 120-Protests should provide Treasury with:
+•
+Proof of when our agency received constructive knowledge of death; and a
+•
+Short narrative explaining why our agency had no knowledge of death prior to sending
+the Notice of Reclamation.
+The proof provided to Treasury could be a screen shot of an Modernized Development
+Worksheet (MDW), Numident, Report of Contact, the archived Master Beneficiary Records
+(MBR) section reflecting the suspension for address development, etc…. If SSA does
+not provide proof to Treasury, our agency is presumed to have knowledge of death at
+the time we stop certifying recurring payments.
+NOTE: If a technician receives documentation reflecting that an FI is submitting protest
+of reclamation involving the 120-day rule, please forward the documentation to your
+Lead PSC Analyst for a Title II Reclamation. If the 120-day protest involves a reclamation
+for a Title XVI benefit, please forward the documentation to OBASA.TOB@ssa.gov.
+For Title II, if the Lead PSC Analyst receives a 120-day protest forwarded from a
+technician or the mail room, forward the document to Treasury and request Treasury
+to determine if the 120-day protest has been addressed.
+4. Treasury responds to FI's 120-day protest
+When the FI protests a reclamation to Treasury because the reclamation arrived more
+than 120 days after the FI believes we learned of the death, Treasury notifies us
+of the protest. SSA will have 30 days to send a response to Treasury with documentation
+reflecting that SSA submitted the reclamation timely. After examining our response
+to the protest, Treasury determines whether we sent the request more than 120 days
+after learning of the death. If Treasury determines more information from SSA is needed
+to make their determination, they will contact the SSA Analyst who provided the original
+response. The SSA Analyst will need to respond immediately to this second request
+within 3 business days.
+When Treasury determines that we sent the request too late and the FI's Federal Reserve
+account has been debited, the funds due back to the FI will be reversed. If Treasury
+determines that we sent the request within 120 days, the reclamation process continues.

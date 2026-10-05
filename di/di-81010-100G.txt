@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 81010.100 - Electronic Disability Collect System (EDCS) Actions Page
+Effective Dates: 08/07/2025 - Present | TN 89 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010100 (fetched 2026-10-04)
+
+G. DDS Processes a No Determination (ND)
+DDS processes an ND when:
+•
+The current adjudicating component does not need a medical decision; or
+•
+DDS is processing a reopening.
+The ND:
+•
+Appears on the EDCS Actions Page as a Transfer or TR; and
+•
+Does not close the EDCS case.
+To determine why the DDS input the ND so that appropriate action can be taken on the
+case, the FO must:
+•
+Open eView; and
+•
+Review the messages and/or documents in file (e.g., SSA-831, SSA-5002, DDS case development
+worksheet).
+NOTE: A TR received on the Actions Page does not always mean that a medical decision is
+not needed on the case or that MCS and/or MSSICS should be closed out.
+There are two common scenarios where an ND is input by DDS:
+1. No Medical Decision Needed
+DDS determines that:
+•
+DDS processing should stop; and
+•
+A medical decision is no longer required.
+DDS may determine that no medical decision is needed if they are notified that the
+claimant:
+•
+Has died;
+•
+Has returned to work; or
+•
+Withdraws the claim.
+The FO must:
+•
+Evaluate the DDS reason and determine if additional action is needed (i.e., evaluate
+work activity (SGA), claimant requested withdrawal of claim, etc.);
+•
+Input a FO Determination in EDCS (see Processing Field Office (FO) Determinations
+- DI 81010.140) if a medical determination is not needed; and
+•
+Close out MCS and/or MSSICS as appropriate by following current instructions for each
+title.
+Refer to the following references for close out procedures:
+–
+For MCS: FO Action on Return of Title II Disability Determination from DDS - Initial Title
+II Technical Denials and Claims Not Requiring a Disability Determination - DI 11010.075
+–
+For MSSICS: Adjudicating Supplemental Security Income (SSI) Claims General - SI 00601.080
+NOTE: If the adjudicating component prepares the ND because the claimant has returned to
+work, the FO must determine whether the work is SGA before closing the EDCS claim.
+If the work is SGA, see Processing Field Office (FO) Determinations DI 81010.140. If the work is not SGA or if the SGA could be protected by the Trial Work Period
+for Title II claims or 1619 (a) or 1619(b) for Title XVI claims, transfer the EDCS
+claim by UAT back to the DDS for a medical decision.
+2. DDS Transfers the Claim to another DDS
+In this scenario, a medical decision is still needed when a DDS transfers the case
+to another DDS. The DDS adds a message to the CEF to document the case transfer to
+another DDS.
+Upon receipt of the alert for the message, the FO must:
+•
+Check eView for a message regarding case transfer, change of address, etc.;
+•
+Input new address information into MCS and/or MSSICS as appropriate; and
+•
+Transfer the claims in MCS and/or MSSICS to the appropriate office using current procedures.

@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02613.760 - Processing T2 Suspension Exception Cases from POS/FFEL
+Effective Dates: 08/02/2022 - Present | TN 36 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613760 (fetched 2026-10-04)
+
+B. Procedure - T2 exceptions
+When you input a Title II suspension action to the FFEL screen, T2 processes the suspension
+transaction and annotates the MBR that the beneficiary is in LAF S9 and posts an RFST
+of FUGFEL. If the MBR cannot be annotated with the suspension action, an exception
+is sent to the PSC.

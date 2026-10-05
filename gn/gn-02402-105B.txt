@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02402.105 - Correcting Routing Transit Numbers (RTNs) and Deposit Account Numbers (DANs)
+Effective Dates: 01/25/2018 - Present | TN 89 (01-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402105 (fetched 2026-10-04)
+
+B. Process
+1. FI input
+The FI uses a Notification of Change (NOC) to notify SSA of each RTN and DAN change.
+IMPORTANT: The new information (from a NOC) will appear on the Title II or Title XVI record,
+but it will not lift an S6 or S06 suspense
+a. Where to find NOC instructions
+Chapter 6 of the Department of the Treasury's (Treasury) “Green Book”, contains NOC instructions for FIs.
+NOTE: An FI or FO may view Treasury's “Green Book” online.
+b. How NOCs are transmitted to SSA
+FIs transmit NOCs to SSA electronically via the Automated Clearing House (ACH) system.
+(The ACH is a computer network maintained by the Federal Reserve, through which FIs
+transmit and receive credits and debits).
+2. Field office (FO) and teleservice center (TSC) input
+The FO and TSC input an RTN and DAN correction initiated by the beneficiary, recipient
+or representative payee.  When a beneficiary or recipient with a representative payee
+requests a change or correction in direct deposit, verify that the payee is still
+acting prior to inputting the new information.
+The FI should use a NOC to make RTN and DAN changes. When a FI contacts a FO to report
+a RTN change, the FO advises the FI to use NOC procedures and asks to contact the
+servicing Federal Reserve Bank.

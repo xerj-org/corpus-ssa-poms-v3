@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - DI 81010.020 - Creating Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 02/02/2024 - Present | TN 82 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010020 (fetched 2026-10-04)
+
+E. Creating an EDCS case when a prior EDCS case exists
+1. Using the Copy from Prior button in new EDCS case
+The Copy from Prior button appears when you create a new EDCS case and a prior closed
+EDCS case exists. Once you select the Copy from Prior button, the Copy Prior Folder
+Information page appears. This page contains two summary boxes:
+a.
+The top summary box displays information available for copying.
+b.
+The bottom summary box displays information already collected.
+After selecting information from the Available for Copying summary box, the information:
+•
+Propagates into the new EDCS case,
+•
+displays in the Already Collected summary box, and
+•
+can be changed, updated, or deleted in EDCS.
+Review and update any information propagated from a prior EDCS case (e.g., verify
+the address and telephone number for each source copied from a prior case or update
+information such as the date the claimant last saw the source, the next appointment,
+the reason for seeing the source, etc.). The original information still exists in
+the prior EDCS case, remains available for copying, and is not deleted from the Available
+for Copying summary box.
+NOTE: When the technician creates a new EDCS case, they have the option to key in all new
+disability report information or use the Copy from Prior utility in EDCS.
+2. Prior EDCS case is erroneously pending
+If a prior EDCS case is erroneously pending, though it was properly closed on the
+mainframe or downstream systems:
+•
+Verify the case is closed in other systems by reviewing mainframe queries (for example,
+MBR or SSR) and downstream case processing systems (for example, Case Processing and
+Management System (CPMS)), and
+•
+Close the old EDCS case using the Manual Clearance option.
+This will allow the technician to create a new EDCS case, and use the Copy from Prior
+EDCS case functionality.
+NOTE: For details on manual clearance, see DI 81010.105.
+NOTE: It is never appropriate to use the UAT utility to add a new claim to an erroneously
+pending EDCS case when we establish a new MCS or MSSICS/CCE application(s).

@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - DI 60090.001 - The 4-State Benefit Offset Pilot Demonstration (BOPD)
+Effective Dates: 06/18/2007 - Present | TN 1 (06-07)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460090001 (fetched 2026-10-04)
+
+C. General—BOPD responsibilities-FO and TSC
+All SSA administrative activities for the BOPD, including work CDRs and TWP service
+month determinations, will be centralized in the Office of Central Operations' Office
+of Disability Operations (OCO). General FO and TSC responsibilities are described
+in this section.
+1. BOPD inquiries
+FOs and TSCs will not have any role in selecting project participants or implementing
+the BOPD project. Recruitment and enrollment of BOPD participants will be done by
+state project personnel-see DI 60090.001E. If a caller inquires about the BOPD, refer the caller to the appropriate project
+contact in DI 60090.001E.
+2. Identifying project participants
+Project participants can be identified in several ways:
+•
+Special message on the MBR reading as follows:
+Attention: Benefit Offset Demonstration Case. DO NOT TAKE ANY ACTION before calling (analyst
+name) in OCO CPS for instructions.
+•
+The same message will also be recorded on the Remarks screen of the DCF and the Development
+Worksheet of eWork.
+•
+a code of "D3" in the DEMO INDICATOR field of the DEMO screen on the DCF,see MSOM
+CDR 005.002. The PARTICIPATION START DATE reflects the date the beneficiary enrolled
+in the BOPD, i.e., the date that the beneficiary signs the informed consent.
+•
+Participants who are subject to offset will also have the code "D3" in the DPI field
+(Demonstration Project Indicator) on the BENEFIT line of the MBR (see MSOM T2PE 007.045
+and SM 00510.175). The DST field (Demonstration Project Start Date) indicates the
+first month the beneficiary is subject to offset.
+•
+a listing code of GBODP in PCACS.
+If a beneficiary says he or she is a BOPD participant and the DCF and MBR do not reflect
+the indicator codes or special message, contact BOPD staff immediately (either the
+person listed in DI 60090.001E. or another individual designated through locally agreed upon procedures) to confirm
+participation. If the BOPD contact confirms participation, forward this information
+to OCO CPS for the appropriate input using the ADMIN MSG. The routing indicator for
+OCO CPS is SAXIZ. If the BOPD contact cannot confirm participation, refer the individual
+to the BOPD contact for their state.
+3. Disclosure
+Under the contracts that make up the BOPD, the BOPD projects have an "agent" relationship
+with SSA for conducting the demonstration. To become BOPD participants, individuals
+(or their representative, as appropriate) must sign an informed consent form that
+advises them of how the project will be conducted and that participation is voluntary.
+SSA has approved the consent forms. FOs may release information to the designated
+project contact listed in DI 60090.001E. without obtaining an additional consent form.
+4. Work reports
+In most cases project participants will report their earnings to the BOPD projects,
+which will forward this information to OCO over the beneficiary's signature. If a
+BOPD participant reports earnings to the FO or TSC, establish a work report in eWork
+and issue a receipt following normal procedures outlined in DI 13010.020 or TC 17001.075. All BOPD participants have eWork work reviews pending in the OCO
+BOPD Workgroup location, so the work report will automatically be transferred to their
+location. Also, alert OCO CPS via an ADMIN MSG or call the phone number indicated
+in the MBR special message to alert BOPD workgroup members to the work report (see
+MSOM ADMIN 002.004). The Routing Indicator for this project is SAXIZ. Refer the beneficiary
+to the appropriate BOPD project contact listed in DI 60090.001E. and ask them to make any future work and earnings reports during their project participation
+through these state contacts.
+5. Overpayments
+FO's are responsible for routine overpayment development and must have an understanding
+of the BOPD program rules. If a BOPD participant is overpaid, take requests for waiver
+and/or appeal and make the appropriate ROAR inputs.
+Overpayments for BOPD participants will be handled following the usual overpayment
+policy and procedures in GN 02201.000. If information is needed regarding offset benefits to determine without fault, contact
+the appropriate state project contact in DI 60090.001E. or the BOPD Workgroup. If a beneficiary who is receiving offset payments agrees to
+partial withholding, make input to ROAR and notify OCO/CPS of the withholding agreement
+either by ADMIN MSG or via phone using the number on the MBR. OCO will adjust the
+offset payments to begin overpayment withholding.
+6. Work CDR in progress
+If a work review is pending and development has started when a beneficiary enrolls
+in the BOPD, the BOPD Workgroup will contact the FO to and request the FO to complete
+development following usual procedures, then transfer the review and any supporting
+documentation to the workgroup in OCO. DO NOT effectuate any work issue determinations,
+or send any notices to a BOPD participant.
+7. Medical CDRs for project participants
+Initiation of medical CDRs for project participants will be suspended as of the date
+they sign the informed consent. If a beneficiary says that he or she signed an informed
+consent for the BOPD project on or before the CDR initiation date, check the PARTICIPATION
+START DATE field of the DEMO screen of the DCF to determine the date of enrollment.
+The CDR initiation date is the date the CDR notice is sent-see DI 13010.610D. Check the DIRECT RELEASE INITIATION DATE field of the QCDR screen of the DCF to determine
+the date the notice was sent.
+•
+If the CDR was initiated before the date the informed consent was signed, the CDR
+will continue.
+•
+If the CDR was initiated on or after the date the beneficiary enrolled in the BOPD,
+stop the CDR. Close the medical CDR in the DCF with an entry of STOP CDR. Send the
+CDR deferral notice in NL 00705.355. Also, contact OCO/CPS via phone or using the ADMIN MSG as described in DI 60090.001C.5. to ensure the case is not re-selected for a medical CDR.

@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - SI 01730.045 - Third Party Liability for Medicaid Eligibility
+Effective Dates: 07/27/2016 - Present | TN 10 (06-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501730045 (fetched 2026-10-04)
+
+D. Procedure — completing BTPL
+In general, the SSA-8019-U2 (and BTPL, which is an electronic version of the SSA-8019-U2)
+is logically laid out for completion. Below are pointers to help you correctly complete
+the MSSICS screens and what to do when you cannot complete the screens before adjudication.
+1. Pointers
+a. Covered Services
+Situation:
+Before you get to the name of the policy holder, you are asked to complete a list
+of services that are covered.
+Enter all services that are covered by all health insurance policies for the claimant.
+EXAMPLE: If the claimant's parent has two health insurance policies which cover her, one which
+covers hospital, prescription, physician, outpatient, emergency and laboratory services,
+and another which covers dental services, make sure you complete two separate iterations
+of the BTPL screens (or two separate sections of a paper SSA-8019-U2 when appropriate).
+b. Name and Address Fields
+Situation:
+Claimant data on BTPL are propagated from the application itself. All other name and
+address fields (i.e., for insurance companies, the attorney, other insurance company
+against which the claimant filed a claim) on BTPL are at present free format.
+Try to get the exact name of the company, Post Office box number when applicable,
+the street address, city, State and ZIP code. It is very important in PE MSSICS to
+enter the coverage ending dates when available and appropriate.
+NOTE: The States have requested that address data be posted to BTPL in a fixed format, so
+that the State agencies can use those data to run computer interfaces against their
+records and records supplied by health insurance intermediaries/carriers. At some
+point, the BTPL fields will be modified for fixed format input, rather than free format.
+2. Information Not Available at Adjudication
+If you have entered a “?” in the BHLT question about third party insurance, e.g., the applicant alleges the
+claimant has third party insurance, but has not provided the information you need
+to complete BTPL, do not delay adjudication to complete TPL data. Instead:
+•
+Make sure there is a “Y” in the BHLT question about insurance other than Medicare/Medicaid,
+•
+Complete the services covered if you can, or check “Other”,
+•
+Complete “Name of Policy Holder” and “Relationship” if you can,
+•
+In “Name and Address of Insurance Co.”, as shown in MS INTRANETSSI 019.020 Health Expenses & Third Party Liability, enter
+“PAPER TO FOLLOW”, and
+•
+Contact the applicant (or claimant, or representative payee), complete a paper SSA-8019-U2,
+and route the completed form to the Medicaid State agency.

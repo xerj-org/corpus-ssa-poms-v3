@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 25501.320 - Date Last Insured (DLI) and the Established Onset Date (EOD)
+Effective Dates: 08/12/2015 - Present | TN 24 (05-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0425501320 (fetched 2026-10-04)
+
+C. Component instructions regarding the relationship between the date last insured and
+EOD
+1. Field office (FO)
+Determine the claimant’s DLI.
+•
+For more information on computing the DLI, see RS 00301.101 through RS 00301.800.
+•
+The FO may use electronic tools such as DISCO and DIBwiz.
+•
+Record the DLI in item 6 of the SSA-3367 (Disability Report – Field Office).
+•
+Provide the DLI for blindness if the claimant alleges a visual impairment.
+NOTE: After the FO creates a case in the Electronic Disability Collect System (EDCS), the
+DLI will propagate to EDCS from the mainframe. However, the DLI will only propagate
+to EDCS if you run the MCS EC Computation (#2 and #21 on the MCS Main Menu) before
+entering EDCS. For more information concerning data propagation and for directions
+on how to change propagated data, see DI 81010.035.
+2. DDS
+Establish the EOD at the earliest possible date based on medical, vocational, and
+technical factors provided by the FO.
+Deny the claim if you cannot establish the EOD on or prior to the DLI.
+REMINDER: You must always establish that severity of the impairment(s) is expected to last
+for 12 months from the onset date (the duration requirement), even if the DLI is in
+the past.  That is, you may need to request medical evidence of record after the DLI
+is expired. For the definition of the onset date see DI 25501.200. For the definition of the duration requirement see DI 25505.025.

@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02402.304 - Coding Italian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/12/2018 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402304 (fetched 2026-10-04)
+
+E. Description of Italy IDD bank data
+The data for coding IDD for Italy will come from the International Bank Account Number
+(IBAN) provided to the beneficiary from his or her FI. The IBAN will be 27 characters.
+However, the bank data reflected on the MBR will be 25 characters. Technicians will
+use the IBAN to derive the RTN and DAN when processing an IDD request.
+The Customer Account Number may contain numbers, letters, hyphens, slashes, or periods,
+and it may contain spaces between characters. SSA's system accepts only numbers, letters, and hyphens. If a slash, period, or space is shown, a hyphen must be used instead.
+EXAMPLE 1: The account number is 2456/26. The input should be 2456-26.
+· If the Bank Code Number or Branch Code contains a period followed by 1 or more digits,
+you must ignore the period and any digits following it.
+EXAMPLE 2: The Branch Code is displayed as 92046.3.The correct Branch Code to use is 92046.
+If the Bank Code Number or Branch Code is displayed as four digits followed by a period
+and 1 or more digits, you must add a zero in front and drop the period and any additional digits.
+EXAMPLE 3: The Branch Code is shown as 1234.5. You would use 01234.
+· If the Bank Code is displayed as five-digits with no period but the first digit is not a 0 or 1, you must add a zero in front and drop the final digit.
+REASON: Sometimes an FI will code five-digits without putting in the period. However, all
+Italy Bank Codes begin with 0 or 1.
+EXAMPLE 4: The Bank Code is displayed as 20021. You need to code 02002.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

@@ -1,0 +1,132 @@
+SSA Program Operations Manual System (POMS) - DI 11005.085 - Prior Claims Activity
+Effective Dates: 12/02/2024 - Present | TN 127 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005085 (fetched 2026-10-04)
+
+B. FO procedures for prior claims
+1. Identifying prior claims
+The FO asks about prior filings early in the interview. The FO may obtain information
+from the following sources, as appropriate:
+•
+Master Beneficiary Record (MBR) query.
+•
+Processing Center Action Control System (PCACS) query.
+•
+Supplemental Security Income Display (SSID) query.
+•
+Disability Determination Services Query (DDSQ).
+•
+eView or Evidence Portal (EP).
+•
+A printout of the pre-interview screen showing no prior claims activity.
+2. Documenting the current folder
+The FO completes item 7 on the SSA-3367 (Disability Report - Field Office) to document
+the prior filings as outlined in DI 11005.045A.3. For more information on completing the SSA-3367 using the Electronic Disability Collect
+System (EDCS), see DI 81010.025A.2.
+3. When to request and associate a prior paper folder(s)
+When a prior folder is a certified electronic folder (CEF), the official folder is
+electronic and all of the evidence is available in eView or EP.
+For information on determining if the prior folder is a CEF, see DI 81001.015. For more information on the types of folders, see DI 81001.005C.
+When a claimant files a new claim, the FO must request the prior folder(s) if the
+official folder is paper in the following situations:
+a.
+A prior folder(s) includes a medical determination or decision and is located in any
+FO.
+b.
+An acquiescence ruling (AR) requires the DDS to consider the prior Administrative
+Law Judge (ALJ) or Appeals Council (AC) findings when making a determination.
+•
+For the Earley AR, see DI 52707.015.
+•
+For the Albright AR, see DI 52715.015.
+•
+For the Chavez AR, see DI 52755.015.
+c.
+Collateral estoppel potentially applies, see DI 11011.001.
+d.
+Res judicata potentially applies, see DI 27516.001.
+e.
+A prior allowance exists and benefits were terminated for medical or nonmedical reasons,
+such as incarceration, excess income or resources, failure to cooperate, etc.
+f.
+A prior denial exists and the potential onset date (POD) in the new claim is within
+the prior period adjudicated.
+g.
+Evidence indicates fraud or similar fault may be involved in the new or prior claims,
+see DI 11006.010.
+h.
+A prior folder(s) is needed for any other reason, such as a special project.
+4. How to locate a prior paper folder(s)
+The FO locates the prior folder(s) by using:
+•
+T2Fld and T16Fld macros that are included in Query Master and PCOM toolbars, or
+•
+Directly through PCOM by following these steps.
+Title II
+Title XVI
+•
+Obtain queries, beginning with a PCACS query.
+•
+If PCACS indicates not in file (NIF), obtain a Full Master Beneficiary Record (FACT)
+and DDSQ query.
+•
+If the prior folder still cannot be located, unarchive the prior Modernized Claims
+System (MCS) record and check the development worksheet (DW01) and Remarks for clues.
+NOTE: If the prior folder contains a Title II denial over 5 years old and PCACS is NIF,
+the prior folder most likely has been destroyed.
+•
+Obtain queries, beginning with a SSID query.
+•
+If the prior folder cannot be located, obtain a DDSQ query.
+•
+If the prior folder still cannot be located, unarchive the prior SSI record and check
+the Development Worksheet and Remarks page for clues.
+NOTE: Location codes: L47=Destroyed; L50=Lost; L51=Lost; J00=Lost.
+5. How to find the contact information for the location code
+The FO uses the Detailed Office/Organization Resource System (DOORS) to find the contact information for the location code, such as the telephone
+number, fax number, email address, etc.
+6. How to request a prior paper folder(s)
+IF
+THEN
+AND
+AND
+Title II folder is reading in PC7 - Office of Disability Operations (ODO) or Program
+Service Center (PSC).
+Request the folder via PCACS Folder Request (see MS 04909.011).
+The system generates an automatic follow-up after 14 days.
+If no movement after 30 days, call or email the module (MOD) in ODO or PSC.
+NOTE: The FO uses DOORS to find the contact information for the MOD.
+Title XVI folder is reading in L00, L86, L88, L89, L94, L95, L96, L97, L98, L99, L01,
+etc.
+Request the folder via SSA-8028 AR33 (see SM 01201.210).
+If the folder is not received after 60 days, see SM 01201.235.
+​
+Title II or Title XVI folder is reading in a FO.
+If the folder is located at another FO, the FO with the new claim will request the
+folder via telephone, fax, or email and ask that it be routed directly to the DDS.
+NOTE: When contacting the FO to search for a prior folder(s), request a search using the
+claimant's current name. Reference all prior names used by the claimant because the
+folder may be stored under a different name.
+If no reply in 7 days, make a second request.
+If no reply in 14 days, make a third request to the FO manager.
+Title II or Title XVI folder is reading in Docket & Files (5012), SSA National Records
+Center (N88 or N93) or Appeals Council (5801-5824).
+Do not request the folder.
+​
+7. Documenting the paper folder requests in the current folder
+The FO completes Item 7 on the SSA-3367 (Disability Report - Field Office) to document
+the prior folder request as outlined in DI 11005.045A.3. For more information on completing the SSA-3367 using EDCS, see DI 81010.025A.2.
+The FO must document request efforts and all responses (positive or negative) when
+trying to obtain the paper folder(s). No response is the same as a negative response.
+If the search is unsuccessful, the FO documents all locations searched, responses
+from these locations, and a summary of the efforts on an SSA-5002 (Report of Contact).
+This documentation must be available to the DDS in the current folder.
+NOTE: For more information on the electronic process when unable-to-locate (UTL) folders,
+see DI 81010.242. If the search is unsuccessful, complete the UTL Report of Contact and include a
+copy in the current folder.
+8. Transferring the new claim and the prior paper folder(s) to DDS
+The FO documents the prior folder request as outlined in DI 11005.085B.7 in this section and will not delay transfer of the new claim to DDS while waiting
+for the prior folder(s) PCACS (for Title II claims) and the automated recall process
+(for Title XVI claims) send the prior folder(s) to the requesting office.
+The FO will forward the prior folder(s) to the DDS upon receipt.
+The FO will document on the SSA-408 (Route Slip) to associate the prior paper folder
+with the new claim.

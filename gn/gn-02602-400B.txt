@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - GN 02602.400 - Processing Reports of Divorce
+Effective Dates: 01/07/2014 - Present | TN 81 (08-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602400 (fetched 2026-10-04)
+
+B. Field office (FO) processing instructions
+When the FO receives a report of divorce, the FO technician takes the following actions.
+1. Terminate a spouse due to divorce
+If a spouse is entitled on the record, who is younger than age 62 in the month of divorce:
+•
+Complete the BMAR screen to update the marital status per MS COMMON 005.007; and
+•
+Fax the divorce decree (if applicable) into the Non-Disability Repository for Evidentiary
+Documents (NDRed). For more information on when we require proof of a marriage termination,
+see GN 00305.140.
+For access to NDRed, see GN 00301.310.
+If the spouse is age 62 or older in the month of divorce, see RS 00202.005.
+2. Terminate a stepchild due to divorce
+If a stepchild is entitled on the record, who the NH did not legally adopt, complete
+the CREL screen to update the end date of the child relationship and reason per MS
+COMMON 005.012.
+NOTE: Code the BMAR and CREL screens separately because they are independent of each other.
+For more information on the BMAR screen, see SM 03020.040.
+For more information on the CREL screen, see SM 03020.070.
+3. Allegation of adoptive relationship between the NH and stepchild
+If there is an allegation that the NH legally adopted a child who is entitled on the
+record as a stepchild:
+•
+Develop for the adoptive relationship following the instructions for a legally adopted
+child in GN 00306.135;
+•
+Place the stepchild in S9 miscellaneous suspension pending development of adoptive
+relationship;
+•
+Send necessary suspension notice;
+•
+Document your action via special message with the reason for S9 miscellaneous suspension;
+and
+•
+Create an MDW to control for response.
+•
+If there is no response after two attempts, complete the CREL screen to update the
+end date of the child relationship and reason per MS COMMON 005.012.
+a. Stepchild meets the requirements as a legally adopted child
+If the stepchild meets the requirements as a legally adopted child:
+•
+Update the new relationship type effective the date of adoption; and
+•
+Fax the proof of adoption into NDRed.
+b. Stepchild does not meet the requirements as a legally adopted child
+If the stepchild does not meet the requirements as a legally adopted child:
+•
+Complete the CREL screen to update the child relationship end date and reason per
+MS COMMON 005.012; and
+•
+Fax any documentation related to the adoption into NDRed.
+4. Monitor the Post-entitlement Online System (POS) inputs for the BMAR and CREL screens
+Monitor the Master Beneficiary Record (MBR) to see if the POS input for the CREL or
+BMAR screens processed successfully. If Title II Redesign (T2RD) processes the POS
+inputs successfully, do not take further action. If the POS input creates an exception,
+do not complete a duplicate input; take the following actions:
+•
+Check the Transaction History (THIS) query, Processing Center Action Control System
+(PCACS) query, or Evidence Portal (EP) to see if the T2RD processing Action Control
+Record (ACR) is pending for action by the processing center (PC).
+•
+If there is no action pending after three business days, contact the servicing PC
+via MDW and request that they take the necessary action on the Title II exception.
+For more information on the T2RD system basic processing, see SM 03001.001.

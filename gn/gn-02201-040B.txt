@@ -1,0 +1,231 @@
+SSA Program Operations Manual System (POMS) - GN 02201.040 - Collection of Title II/Title XVI Overpayments by Administrative Wage Garnishment
+Effective Dates: 05/25/2012 - Present | TN 45 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201040 (fetched 2026-10-04)
+
+B. Process – Initiating AWG
+1. ECO System Selects Debtors
+SSA's AWG program is designed to be as fully automated as possible, though some manual
+actions are necessary and are described in the AWG instructions in GN 02201.042. The selection of debtors subject to AWG is an automated process. By design, there
+is no capability to initiate AWG manually on a case-by-case basis.
+Using the AWG selection criteria listed in GN 02201.040A.3., the ECO system automatically selects debtors who meet the criteria for AWG. Since
+the selection process is run at regular intervals, it ensures a maximum number of
+selections for AWG, TOP and credit bureau reporting. If a debtor does not meet the
+selection criteria at a particular selection run, but meets it later, the system automatically
+selects the person at that time.
+NOTE:
+When the debtor owes both Title II and Title XVI debts and both are eligible for AWG,
+the debt with the earliest delinquency start date will be selected for recovery first.
+2. SSA Notifies Debtors
+SSA uses the same automated process as described in GN 02201.030A.3. to notify debtors about the potential AWG action. Once a month, SSA prints and
+mails the 60-day pre-offset notices. The notices contain information about all applicable
+ECO debt collection tools SSA plans to use. In addition to providing the standard
+language about repaying the debt in a lump sum or by an installment agreement and
+the right to request waiver, the 60-day notices provide the following information
+specific to AWG:
+•
+The law allows SSA to collect the overpayment from the person's pay;
+•
+SSA may order the employer to withhold and send us as much as 15 percent of the person's
+disposable pay every payday;
+•
+The employer must withhold that part of the person's pay and send it to SSA until
+we collect the debt in full;
+•
+The disposable pay is the amount left after deduction for health insurance premiums
+and deductions required by law, such as taxes;
+•
+SSA will collect the overpayment at a higher rate than 15 percent of disposable pay
+if the person asks us to do so;
+•
+The law prohibits the person's employer from firing, laying off or taking other disciplinary
+actions against the person based on the AWG order;
+•
+The debtor may request review of the debt;
+•
+SSA will not order the employer to conduct AWG if the person was fired or laid off
+and has not had 12 continuous months of work since the adverse action;
+•
+The person should tell SSA in writing about a change in employment by calling or visiting
+any Social Security office;
+•
+The person has the right to ask us to lower the amount we would collect from the pay
+and that we will lower the amount if the person shows it would cause hardship (see
+GN 02201.040A.6.b.).
+If the notice is returned as undeliverable, SSA does not begin AWG unless and until
+we get a current address and succeed in delivering the 60-day notice. Unless the notice
+is returned as undeliverable, assume that it was delivered to the person at the correct
+address. (See GN 02201.030F.2. for instructions on handling allegations of non-receipt of the 60-day pre-offset
+notice.)
+If the notice is returned as undeliverable after AWG has been started, see GN 02201.042D.3. for instructions on how to handle.
+3. ECO System Checks Master Earnings File (MEF)
+After the 60-day pre-offset notice is mailed, ECO checks the MEF for employment and
+earnings information.
+a. MEF Indicates Employment (Debtor Meets Earnings Profile)
+If the MEF indicates current employment, the system reviews the earnings of the debtor
+and selects those who meet pre-determined earnings profile. The earnings profile is
+set by central office and is driven by a variety of factors, such as AWG laws pertaining
+to minimum wage thresholds.
+When the debtor meets the earnings profile, the system flags the record for future
+AWG. At the expiration of the 60-day due process period, the ECO system screens the
+debtor's overpayment record to determine if AWG is still appropriate; e.g., no waiver
+request pending, debt not paid in full, debtor not paying by installments, etc. If
+so, the system automatically triggers the next step of AWG, which is the mailing of
+the AWG order and other instructions to the employer, all of which are called the
+AWG Employer Package. (See GN 02201.040B.4.).
+b. MEF Indicates Employment (Debtor Does Not Meet Earnings Profile)
+In this case, AWG activity is suspended because the debtor does not meet the earnings
+profile and AWG would not be appropriate or productive. The ECO system will check
+the MEF periodically for employment and earnings, and resume AWG activity when the
+debtor meets the earnings profile.
+c. MEF Does Not Indicate Employment
+The ECO system will check the MEF periodically for employment and earnings, and resume
+AWG activity when the debtor meets the earnings profile.
+4. SSA Sends AWG Employer Package
+When all conditions for AWG are met, SSA sends the AWG Employer Package to the selected
+employer. The package includes the following documents:
+•
+Letter to Employer & Important Notice to Employer (SF- 329A)
+•
+Wage Garnishment Order (SF- 329B)
+•
+Wage Garnishment Worksheet (SF- 329C)
+•
+Employer Certification (SF- 329D)
+•
+Scannable Payment Coupons
+To view the AWG Employer Package, except for the scannable coupons, see the following
+Internet website:
+https://fiscal.treasury.gov/files/cross-servicing/SF329.pdf
+a. Letter to Employer & Important Notice to Employer (SF- 329A)
+This document serves four purposes. The mailing of this package activates the debtor
+in AWG. It announces to the employer the Agency's intent to garnish the wages of the
+employee. It also provides a brief explanation of important aspects of the law and
+regulations governing AWG; e.g., Federal law supersedes State law in the matter of
+AWG, defines disposable pay, and informs the employer about the consequences of failing
+to comply with the order and of taking unlawful adverse action against the employee
+based on AWG.
+Lastly, SF-329A conveys the other three documents that constitute the AWG Employer
+Package.
+NOTE: SSA also sends a copy of the SF-329A to the overpaid person at the same time we send
+it to the employer. This serves to keep the debtor informed about the status of SSA's
+use of AWG. We do not send the debtor copies of the other forms in the employer package.
+b. Wage Garnishment Order (SF- 329B)
+This form orders the employer to deduct money from the employee's disposable pay and
+send it to SSA. It also orders the employer to begin deductions immediately, unless
+the first pay day is within 10 days after the employer receives the order. In that
+case, the employer may begin deductions on the second pay day after receipt of the
+order. Finally, SF-329B orders the employer to continue deductions until notified
+by the Agency to suspend or discontinue the withholding.
+SSA's automated system pre-fills the order with information required by the employer
+to conduct garnishment. The following information is displayed on the AWG Order:
+•
+Date of the order and date mailed to employer;
+•
+Claim account number, or housed under number;
+•
+Employee name and Social Security Number;
+•
+Employer name and mailing address;
+•
+SSA mailing address and contact information, including Social Security's internet
+e-mail address: http://www.socialsecurity.gov/employer/fqa.htm;
+•
+Debt amount due;
+•
+Mailing address for check payments;
+•
+Wage garnishment amount.
+The wage garnishment amount can vary depending upon the overpaid person's circumstances.
+The AWG law and regulations allow for the possibility of four different methods to
+determine the AWG amounts.
+The wage garnishment amount is the smallest of the following first three amounts:
+1.
+Fifteen percent of the employee's disposable pay; or
+2.
+The amount by which the employee's disposable pay exceeds an amount equivalent to
+30 times the minimum wage; or
+3.
+The amount determined by subtracting amounts withheld under other garnishment orders
+with priority, such as orders pertaining to family support, from twenty-five percent
+of the employee's disposable pay.
+OR:
+4.
+The debtor and the Agency may negotiate a garnishment amount. See GN 02201.041B.5., GN 02201.041B.6., SI 02220.018B.5. and SI 02220.018B.6. for instructions on how to input an AWG amount negotiated between the debtor and
+the Agency.
+IMPORTANT: It is the employer's responsibility to determine the correct wage garnishment amount,
+except when SSA negotiates an amount with the debtor. In the absence of a negotiated
+amount, SSA accepts without question or challenge the AWG amount sent to SSA by the
+employer. However, if the debtor challenges the employer's calculation of the garnishment
+amount and establishes the correct amount, SSA will revise the payment schedule. See
+GN 02201.040A.6.
+c. Wage Garnishment Worksheet (SF- 329C)
+This worksheet is designed to help the employer calculate the appropriate wage garnishment
+amount. The employer is not obligated to return a copy of the completed form SF-329C
+to SSA. As explained in the next section, however, the employer may return the worksheet
+if he/she so desires.
+The employer should not complete the form when a negotiated amount was arranged between
+SSA and the debtor. (See GN 02201.042B.2. for instructions on handling employer questions about the withholding amount).
+d. Employer Certification (SF- 329D)
+The Employer Certification is the employer's response to SSA's garnishment order.
+The certification contains fill-in blocks for the employer to complete. It elicits
+information such as whether or not the employee is currently working, the employment
+termination date (if applicable) the wage garnishment amount, employee's last known
+address and telephone number, information about any other AWG orders with priority.
+(See GN 02201.042C.1. for instructions on handling employer responses on the certification form.)
+The employer must complete and return the certification to SSA within 20 days of receipt.
+The system will control the case for a response from the employer. (See GN 02201.040 B.5.c.). Also, no follow-up will be needed for incomplete information on the form. The PC
+with jurisdiction over the claim account number/housed under number receives the form
+and inputs the information to the Debt Management System AWG Employer Response screen
+(TRER). (See MSOM DMS 014.010 for instructions on the use of the TRER screen).
+5. ECO System Monitors Employer Response
+After the AWG Employer Package is sent, the ECO system automatically monitors the
+employer response to the AWG Employer Package. Depending upon the response (or lack
+thereof), the system determines the next course of action. The following sections
+contain brief summaries of the possible employer responses and how the ECO system
+controls them. More detailed information about how to handle the employer responses
+can be found in GN 02201.042C.
+a. Employer Returns Certification (SF-329D)
+The Employer Certification contains two possible responses: (1) debtor currently employed
+and has adequate earnings to garnish; and (2) debtor no longer employed. When the
+responses are input to the appropriate DMS screens by the PC, the ECO system controls
+the case for subsequent actions.
+•
+Debtor Currently Employed
+The system sets a control for receipt of the garnishment payment. If the payment is
+not received as expected, the system sends a first follow-up notice to the employer.
+This notice will be sent about 35 days from the mailing of the garnishment package
+or from the date of the last payment.
+If the employer does not send the payment in response to the first follow-up notice,
+the system sends a second follow-up notice about 15 days later. If the employer does
+not respond to the second follow-up notice, the system generates an alert 15 days
+later to the PC Debt Management Section to contact the employer. (See GN 02201.042D.2. for instructions on contacting the employer.)
+•
+Debtor No Longer Employed
+The ECO system first checks to determine if another eligible employer is available.
+If so, the system sends an AWG Employer Package to that employer.
+If another eligible employer is not available, then the system sets an automatic control
+to check for earnings. If the ECO system later finds an eligible employer and the
+debtor meets the criteria for AWG, the ECO system resumes activity by sending another
+AWG Employer Package to the appropriate employer.
+b. AWG Employer Package Returned as Undeliverable
+Undeliverable AWG Employer Packages are returned to central office, where they are
+scanned and recorded to the ECO system. This creates a transaction for ECO to read
+the Employer Identification File for a different address for that employer. If ECO
+finds another address, the system generates an action to re-mail the AWG Employer
+Package.
+If ECO does not find a new address for that employer, it reads the MEF to determine
+if another qualifying employer is available for AWG. If so, the system sends an AWG
+Employer Package. If no new employer is found, the system creates an alert to contact
+the employer. (See GN 02201.042D.3. and SM 00610.080 for more information about processing the alert).
+c. No Response from the Employer
+The ECO system checks for the indication of an employer response about 35 days after
+the original AWG Employer Package was sent. The employer response could be the Employer
+Certification (Form SF-329D), a phone call from the employer and/or receipt of an
+AWG payment. If SSA does not receive a response, the system checks for a new address
+for the employer and re-sends the package if a new address is available.
+If there is no new address, the system sends two follow-up notices to the employer
+requesting a response. The first follow-up notice is sent 35-days after the initial
+employer package was sent. It will include the package as well as the notice. The
+second follow-up notice is sent about 15 days after the first follow-up. If the employer
+does not respond to the follow-ups, the system generates an alert to the PC to contact
+the employer. (See GN 02201.042D.2. for instructions on contacting the employer.)

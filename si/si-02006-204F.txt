@@ -1,0 +1,81 @@
+SSA Program Operations Manual System (POMS) - SI 02006.204 - Field Office Processing Instructions for Concurrent Cases Involving Unknown or Unresolved Representative Fees
+Effective Dates: 07/28/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006204 (fetched 2026-10-04)
+
+F. Procedure for annotating and adjusting the record once fee is authorized
+After you receive notification from the PC, OHO, or OAO of the total authorized fee,
+update the fee data for the offset as soon as possible but no later than 120 days after the final fee
+authorization.
+Reminder: If you are still waiting for a fee decision for an auxiliary claim the you
+have not received the total authorized fee, set a Tickle date for the “FEE UPDATE”
+issue 60 days in the future. You will need to continue to follow up with this case
+every 60 days until all fees for all associated claims have been finalized.
+Step
+Action
+1
+Locate the “FEEAUTHPEND” issue on the CCE development worksheet or MDW. Type the date
+the PC, OHO, or OAO notified your office of the fee approval in the Received date
+column.
+NOTE:
+PC should contact the FO through a HP MDW when auxiliary claims with a fee are adjudicated.
+Note 2: You must proceed to step 3 in this chart before the 120 day deadline established
+by SI 02006.204C above.
+2
+If the initial offset was completed as indicated by WIN B, C or E on the MBR then
+determine if there are any SSI fees to pay and issue all A-OTP payments prior to proceeding
+to step 3
+If the initial offset was not completed or if the windfall offset was posted to the
+SSR but payment center has not processed the windfall on the MBR to release past-due
+benefits, determine if there are any SSI fees to pay and issue all A-OTP payments
+prior to proceeding to step 4.
+3
+Update the UFEE screens MS 00302.014 to reflect the total authorized fees (Title II
+NH and AUX fees plus Title XVI) and send the updated information to the SSR.
+Ensure the type U unearned income deduction is posted to the SSR correctly in the
+UMIH segment representing the monthly amount fees to be deducted from the retroactive
+monthly Title II payment amounts posted as type W unearned income on the SSR.
+If the Type U unearned income is posted correctly, move on to step 5 in this chart
+4
+•
+Post the total authorized fee (Title II NH and AUX fees plus Title XVI) to UFEE MS 00302.014.
+•
+Post the windfall offset.
+•
+Confirm the UMIH segment on the SSR shows type U unearned income equal to the total
+amount of excludable legal expenses. If the type U is correctly posted, process the
+windfall offset and go to step 5. If the type U does not post correctly, exit the
+processing system (PF3 out) and continue to the next bullet.
+•
+Use the SSA-2894 following SI 02006.210 to manually decrement the total fee from the retroactive Title II income, beginning
+with the first month in Section III, column A (the first month of Title II eligibility)
+and going forward.
+•
+If Title II is due prior to the Title XVI date of entitlement (DOE), make note of
+the total of the gross Title II
+during the windfall
+period
+*
+•
+Re-enter the offset path and post the windfall using the entire Title II retroactive
+amount as the WPA/WTA and the adjusted type W income.
+•
+Review the simulated SSR and deduct the offset amount from the RCRD segment from the
+total of the gross Title II due during the windfall period figured above. *to
+The result is the correct non-countable income (NCI/WNC) per SM 02101.240.
+If this amount is the same as the WNC shown in the RCRD segment, send the computation
+to the SSR.
+If this amount is not the same as the WNC shown in the RCRD segment, send the computation
+to the SSR then;
+•
+Return to the windfall pathway and change the offset from automated to manual.
+•
+Correct the WNC amount per SM 02101.240 and page through the remaining screens
+•
+Upload the SSA-2894 into the claimant’s electronic folder using evidence portal
+•
+Continue to step 5.
+5
+Locate the “FEEAUTHPEND” issue on the DW01 or MDW. Type the date you complete the
+adjustment to the SSR in the RECEIVED column.
+If there is an e4345 for the case you are working on, follow the e4345 FO User Guide
+to complete the e4345.

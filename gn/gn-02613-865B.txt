@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02613.865 - Title II Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 10/07/2016 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613865 (fetched 2026-10-04)
+
+B. PC instructions for resuming benefits when an exception occurs
+Review the PCACS action with the FELRESU TOEL and process as follows:
+•
+Resume benefits via MACADE. The FFEL data input via the automated processing updates
+to TII Shared. Therefore, when the FFEL screen appears, the updated data propagates
+to the screen. Verify this data before processing the MACADE transaction. Do not delete
+the FFEL data.
+•
+Release the Martinez underpayment without regard to the presence of a Windfall Offset
+data (WOD) line on the MBR.
+•
+Do not prepare a fugitive felon good cause determination.
+•
+Send a resumption notice via MADCAP. Add to the notice the additional post-2006 Martinez
+relief caption and paragraph in GN 02613.867A.3.

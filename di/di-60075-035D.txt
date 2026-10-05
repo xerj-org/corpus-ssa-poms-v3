@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - DI 60075.035 - Promoting Opportunity Demonstration (POD) Participation Period
+Effective Dates: 11/14/2024 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075035 (fetched 2026-10-04)
+
+D. Extended period of Medicare coverage (EPMC)
+A POD participant in treatment group 2 who has their SSDI benefit reduced to zero
+for 12 consecutive months had their SSDI entitlement terminated. If the participant
+was entitled to Medicare and had entitlement terminated due to 12 consecutive months
+of zero benefit, the POD provided 93 months of EPMC from the month of termination
+as long as the participant continued to have the same disabling impairment(s) that
+provided the basis for the prior SSDI entitlement and met the other SSDI entitlement
+requirements. The automatic 93 months of EPMC applied only to participants who terminated
+due to POD offset rules.
+To calculate the Medicare end date for a beneficiary that completed POD participation
+and terminated under regular SSDI SGA rules, follow these steps:
+•
+determine the POD start date;
+•
+determine the date of the last work CDR decision prior to the POD start date;
+•
+determine the POD end date;
+•
+use steps outlined in HI 00820.025A.4 to determine the Medicare end date; and
+•
+exclude all months from the date of the last work CDR decision to the POD end date
+in the EPMC calculation.
+Example:
+DIB LINE information provided for termination:
+DDO-05/11/2010 DIG-3890 DIB DOED-11/2010 MEDICARE DOED-11/2010 ADC-04/16 CDR-E DBC-10/2021
+EBD-04/16
+According to the HISTDEMO on the Master Beneficiary Record (MBR), a beneficiary participated
+in the POD from 01/2018 to 06/2021. The last work CDR decision prior to the start
+of their POD participation was 05/10/2017. In 10/2023, a post-POD work CDR was completed
+and it determined that their benefits terminate 08/2023 due to SGA.
+According to the DIB LINE on the MBR, the beneficiary's extended period of eligibility
+(EPE) begin date (EBD) is 04/2016. Their cessation date (ADC) is also 04/2016, which
+is prior to the 14th month of the EPE. To determine their Medicare end date, we must determine if they
+worked in the 16th month of the EPE.
+Since the POD does not evaluate the period from the beneficiary's pre-POD work CDR
+to the end of POD participation under regular SGA rules, the period from 06/2017 to
+06/2021 does not apply when calculating the Medicare end date.
+To determine the 16th month of the EPE, count from the first month of the EPE through the month of the
+last work CDR decision prior to POD. That is 04/2016 to 05/2017, which is 14 months.
+Then, exclude the period starting 06/2017 through 06/2021. Begin counting the EPE
+again starting the month after POD participation ends. The 16th month of the EPE is 08/2021.
+Use HI 00820.025A.4 to determine the Medicare end date. If the beneficiary worked above SGA in the 16th month of the EPE (08/2021), their Medicare ends the last day of the 57th month (01/2028) following the end of the 36-month EPE (04/2023). If they did not
+work above SGA in the 16th month of their EPE (08/2021), Medicare ends the last day of the 77th month following the first month SGA occurs.

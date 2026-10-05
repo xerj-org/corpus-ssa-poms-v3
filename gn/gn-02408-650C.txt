@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02408.650 - Title II Beneficiary Receiving EFT Payments Dies After the End of the Month but Before the Payment Date
+Effective Dates: 04/19/2022 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408650 (fetched 2026-10-04)
+
+C. Policy due to Treasury rule
+Treasury’s “Green
+Book ,” a comprehensive guide for FIs processing Federal government electronic payments
+and collections, states that the FI must return all direct deposit payments that arrive
+after the FI learns of the death of a beneficiary. This is to make sure that the agency
+makes the decision as to whether the recipient was due the money.
+1. FI learns of the death after posting the payment
+The FI may choose to wait for a reclamation to arrive, if the payment was already
+posted before the FI learned of the death. When an FI contacts SSA to find out whether we will
+reclaim, determine whether the payment is due. If the beneficiary was entitled to the payment, advise the FI that no reclamation
+is necessary.
+2. FI learns of the death before the payment arrives
+The FI is instructed to return any payment that arrives after the FI learns of the death. Also, from the time the FI learns of the death, the FI
+may not allow any further withdrawals of post-death Federal benefit payments. When
+the FI asks whether the money should be returned, determine whether the payment is
+due. If the payment is due and therefore no reclamation request is issued, inform
+the FI that there will be no reclamation.
+IMPORTANT: Do not provide a manual notice to the FI with the notice of death information
+regarding the Title II beneficiary or Title XVI recipient. The Death Notification
+Entry (DNE) per GN 02408.605 and Notice of Reclamation (NOR) per GN 02408.600 serve as ways for SSA to report death information to FIs.
+NOTE: SSA does not send a Notice of Reclamation (FS-133), for payments sent to a representative
+payee for a deceased beneficiary or recipient. A payment sent to a representative
+payee after the Title II beneficiary or Title XVI recipient's death is a legally defined
+overpayment. We process the overpayment, giving due process per GN 02408.615.
+3. “Green Book” references
+The “Green Book” may be found on the Internet at http://www.fiscal.treasury.gov/fsreports/ref/greenBook/greenbook_home.htm . “General Information on Returns” is in the Returns chapter, and “What to do upon
+Notification of Death with Payments Already Posted and Subsequent Payments” is in
+the Reclamations chapter. The applicable Treasury Regulation is 31 CFR 210.

@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 00502.075 - Child Beneficiary Becomes Entitled Based on Disability
+Effective Dates: 12/30/2022 - Present | TN 81 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502075 (fetched 2026-10-04)
+
+B. Process for when a child beneficiary becomes entitled based on disability
+1. Title II - Disability established at age 16
+Five months before the last child in a spouse's care attains age 16, the system generates
+a notice to the spouse to determine if the spouse can remain entitled based on having
+a disabled child in care (see DI 10115.010A.). If the child files a disability claim and is found to be disabled, the Program
+Service Center (PSC) enters a date of entitlement to disability (DOED) code on the
+master beneficiary record (MBR) so that the child's benefits will automatically convert
+to childhood disability benefits (CDB) at age 18.
+2. Title II - CDB conversion at age 18
+When disability coding is not present on the MBR for a minor child, the system sends
+a notice at age 17-1/2 advising the child that benefits will terminate at age 18 unless
+they are disabled or qualifies as a full-time student.
+When disability coding is present (if the PSC input a DOED code based on the age 16
+alert), the system automatically converts the child to a CDB at age 18. When C produces
+the CDB award output, the Claims Authorizer (CA) or other designated technician reviews
+it.
+3. Title XVI - Critical Birthday (KB) diary
+A KB diary is set at the beginning of the fiscal year in which a recipient will attain
+age 18. We select a record with a KB diary for a scheduled redetermination (RZ); chosen
+in the month before the month the recipient will attain age 18. (See SI 02309.003 for development instructions.)

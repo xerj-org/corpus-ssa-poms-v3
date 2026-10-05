@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02402.240 - Rejected Canadian International Direct Deposit (IDD) Payments
+Effective Dates: 07/03/2019 - Present | TN 277 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402240 (fetched 2026-10-04)
+
+A. Background for rejected Canadian IDD payments
+A payment for an account in Canada that does not arrive at the endpoint of the Financial
+Institution (FI) may have been rejected and returned by the processor bank.
+Before sending any payments to the endpoint FIs, the processor bank for Canada matches
+SSA's payment files (one for Canadian dollar accounts and one for U.S. dollar accounts)
+against a file of bank routing numbers and depositor account number formats provided
+by the FIs.
+If a payment contains an invalid bank number, an invalid depositor account number
+(DAN), or a DAN for the wrong currency, the processor bank removes the payment from
+the file, returns the payment to the Federal Reserve Bank of Kansas City (FRBKC),
+and sends FRBKC a reject listing. FRBKC sends an email to the Office of Earnings and
+International Operations (OEIO) and to the Office of Payment and Recovery Policy (OPRP).
+After the scheduled payment date, FRBKC returns the payment to SSA.

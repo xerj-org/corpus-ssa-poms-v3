@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 10505.005 - Determining and Verifying Gross Earnings from Employment
+Effective Dates: 01/10/2025 - Present | TN 34 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0410505005 (fetched 2026-10-04)
+
+C. Payroll information exchange (PIE)
+The Bipartisan Budget Act of 2015 (BBA) amended sections 225, 1184, and 1631(e) of
+the Social Security Act (Act). On December 31, 2024, the agency published regulations
+describing the agency’s procedures for implementing access to and use of information
+held by payroll providers (PDP) in order to efficiently administer the Social Security
+Disability Insurance (SSDI) and Supplemental Security Income (SSI) programs. Employers
+who participate in a payroll service with a PDP send their wage and employment information
+to the PDP. The payroll information exchange (PIE) automates the reporting process
+and helps reduce improper payments by ensuring timely and accurate submission of wage
+and employment reports.
+To obtain wages from the PDP, request wage and employment information authorization
+(WEIA) on form SSA-8240 or through attestation via the WEIA screen from the appropriate
+individual during initial claims, work CDRs, and requests for expedited reinstatement
+(EXRs). For instructions on obtaining authorization, see GN 00204.150. Technicians may view, print, and save wage and employment information received from
+the PDP and myWageReport (myWR) via the Wage and Employment Information (WEI) Repository.
+For more information on the WEI, see the WEI User Guide. For post-entitlement cases,
+if eWork receives PDP data from an employer and the Employer Identification Number
+(EIN) does not match any EIN for the beneficiary currently in eWork, eWork will add
+the employer to the Work Review Summary Screen. The wage and employment information
+obtained from the PDP will propagate into the eWork pay stub table with the source
+code of PDP and the monthly earnings for that employer will display on the Earnings
+Details Screen.
+NOTE: The work CDR Due Process notice advises beneficiaries that we may have used earnings
+from a PDP and offers the beneficiary Fair Credit Reporting Act (FCRA) language.

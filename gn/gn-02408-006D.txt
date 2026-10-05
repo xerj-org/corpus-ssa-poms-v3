@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - GN 02408.006 - Title II and Title XVI Check Operations Re-Engineering Effort (CORE)
+Effective Dates: 09/10/2026 - Present | TN 95 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408006 (fetched 2026-10-04)
+
+D. CORE process for correcting erroneous death situations
+1. Title II
+The beneficiary's LAF code is T1 because of an erroneous death termination. The FO
+should follow procedures to:
+•
+reinstate the beneficiary's payment record, see SM 00810.200 Restoring a Terminated Beneficiary to Entitled Status;
+•
+prevent an underpayment check from being issued, if appropriate; or
+•
+prevent the returned credit from being applied to an existing overpayment;
+•
+reimburse the FI.
+The FI usually contacts SSA concerning the funds. SSA does not know which FI is reclaimed
+against.
+One of two scenarios may occur with an erroneous death termination:
+a. Scenario one
+The beneficiary cashes the check and gets their money. Under the CORE process, the
+KFRB returns the check unpaid to the FI that cashed the check. DT returns the credit
+to SSA.
+•
+The SSA technician must obtain proof of identity from the claimant/caller and verify
+that all development for the erroneous death termination is completed per GN 02602.055
+If an Individual Deceased on SSA Records is Alive.
+•
+Review the PHUS for EVENT CODE 070 to ensure credit has been returned (CDAMT - $$$$$
+cc and TDSC-32 check outstanding because the KFRB returned it to the presenting FI
+unpaid). Do
+not issue a payment via
+the
+Critical Payment System
+(CPS). The beneficiary has received the proceeds of the check in question and is whole.
+•
+The FI is due an underpayment. When the FI address is received, pay an underpayment
+via the Single Payment System (SPS).
+b. Scenario Two
+The beneficiary cashes the check and gets their money. The KFRB returns the check
+unpaid to the presenting FI. When the FI receives the physical check back from the
+KFRB stamped non-negotiable, they may debit the account of the beneficiary causing
+bounced checks, etc. In this situation, issue a Critical Payment System (CPS) payment
+to the beneficiary.
+•
+The SSA technician must obtain proof of identity from the claimant or caller and verify
+that all development for the erroneous death termination is completed per GN 02602.055
+If an Individual Deceased on SSA Records is Alive.
+•
+Review the PHUS for EVENT CODE 070 to ensure credit has been returned (CDAMT - $$$$$.cc
+and TDSC-32 check outstanding because the KFRB returned it to the presenting bank
+unpaid).
+•
+Verify the bank debited the account of the beneficiary.
+•
+Issue a payment via CPS for the amount of the check. The beneficiary received the
+proceeds of the check in question, but the FI reclaimed the money from the account.
+Therefore, the beneficiary must be made whole by receiving the payment due.
+IMPORTANT: Although penalties or overdraft fees may be applied to the bank account because of
+insufficient funds, SSA has no mechanism for paying these fees. Often the bank waives
+the fees if SSA calls and explains what happened.
+2. Title XVI
+The recipient is in T01 status because of an erroneous death termination. The objective
+is to resurrect the recipient's record but NOT let the system issue an underpayment check to the recipient when the credit is returned
+from the KFRB.
+NOTE: The system may apply a returned credit to an existing overpayment if the underpayment
+is not held. This amount must be adjusted. The recipient already has their money.
+SSA needs to reimburse the FI or business that cashed the check by special voucher
+procedures. See Special Voucher Payments SM 01315.143 How to Request a Special Voucher Payment.
+Depending upon what the SSR shows for the payment, take the following action:
+Scenario
+Action
+If there is an
+"S" in pay flag 3
+•
+S indicates Treasury returned the credit to SSA.
+•
+Obtain proof of identity from the recipient or caller and verify that all development
+for the erroneous death termination is completed per GN 02602.055 If an Individual Deceased on SSA Records is Alive.
+•
+Contact the Reclamations Team (Reclaims) in Internal Control at OBASA.TOB@ssa.gov. Reclaims overlays the "S" with a "U."
+•
+After the "U" posts to the record for that payment, Reclaims issues a special voucher
+payment to the party (FI, check cashing establishment, etc.) who is owed the money.
+•
+To reinstate SSI benefits, see SI
+02301.210 Reinstatement.
+If there is no
+"S" in pay flag 3
+•
+Obtain proof of identity from the recipient or caller.
+•
+Before resurrecting the case, the FO should input a P-TAC for an amount equal to the
+amount paid in the month of the erroneous death input to establish an overpayment.
+•
+Post a notice date for the overpayment more than 65 days in the past and post a D-TAC
+to prevent the underpayment from being released.
+•
+To reinstate SSI benefits, see GN 02602.055 If an Individual Deceased on SSA Records is Alive.
+•
+Contact the Reclamations Team (Reclaims) in Internal Control at OBASA.TOB@ssa.gov and request they issue a special voucher payment to the party that is owed the money.
+See SM 01315.143 How to Request a Special Voucher
+Payment.
+•
+The P-TAC remains on the SSR to balance the credit caused by the erroneous death termination.

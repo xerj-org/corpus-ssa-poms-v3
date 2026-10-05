@@ -1,0 +1,98 @@
+SSA Program Operations Manual System (POMS) - GN 02402.360 - Coding Colombia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402360 (fetched 2026-10-04)
+
+F. Procedure for coding Colombian routing and account numbers
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Colombia using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+Bank address - NOTE: Technicians must enter the bank address in the following format: CO/Town/Name. Start with the ISO country code for Colombia (CO).
+•
+account ownership
+•
+account type
+•
+account number
+•
+beneficiary address - (no P.O. Box address
+allowed). NOTE: Technicians must enter the beneficiary's address in the following format: CO/Town/Name. Start with the ISO country code for Colombia (CO)
+•
+beneficiary phone number
+•
+country
+•
+enrollment status
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+reclamation country
+1. Process initial award
+Prior to processing an initial award to ensure that the beneficiary receives payment
+you must update the bank account informationITS.gov.
+When the payment processes, the payment rejects and returns to our agency if the complete
+bank account information is not inITS.gov.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update on the same dayITS.gov;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If yes, go to step 3.
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+3
+Is the beneficiary's account a USD account in Colombia ? If no, STOP .
+REASON:
+Beneficiaries in Colombia can only receive IDD payments in USD accounts.
+If yes, go to step
+4.
+4
+To derive the 9-digit RTN for Colombia, code as follows:
+•
+prefix of 66 (the multi-country prefix SSA and FRBKC designated to use for IDD to Colombia),
+•
+2 filler zeros 00s,
+•
+4-digit bank code based on FI name after verifying accuracy against either the ITS.gov
+help file or the listing in GN 02402.360H in this section, and
+•
+1-digit check code, (obtained through Title II Interactive Comps).
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the account type:
+•
+S for savings, or
+•
+C for checking.
+If the beneficiary does not indicate an account type, use a C for checking account.
+6
+To derive the DAN for Colombia, code as follows:
+•
+U designated for Colombia, and
+•
+account number (up to 16-digits in length).
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.360F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

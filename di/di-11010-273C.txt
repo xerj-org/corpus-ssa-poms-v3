@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 11010.273 - Disability Claim or Appeal Filed Under a New Social Security Number (SSN)
+Effective Dates: 03/17/2026 - Present | TN 87 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010273 (fetched 2026-10-04)
+
+C. New SSN obtained for other reasons
+If the Numident does not have the special indicator “6” and multiple SSNs are cross-referenced
+on the record, ask the claimant to clarify the reason for the multiple SSNs.
+NOTE: An individual may have received a new SSN for authorized reasons other than HALE,
+e.g., adoption. However, if there is not an authorized reason for the claimant to
+have received a new SSN, the additional SSN(s) can be an indicator that an error or
+problem has occurred. For instructions on SSN policy, general procedures, and resolving
+issues, see RM 10200.000.
+1. Current claim filed under new SSN, prior claim under former SSN
+If the current disability claim is based on a new impairment (i.e., not the same impairment
+alleged in the prior claim) and the alleged onset date is after the date of the final
+determination or decision on the prior claim, process the current claim under normal
+procedures (including electronic process procedures). Add an EDCS message, marked
+sensitive, to the current case indicating that a prior claim under a different SSN
+exists and include the claim level, type, and SSN for the prior claim.
+If the impairment alleged on the current claim is the same as in the prior claim or
+the alleged onset date is within the period adjudicated in the prior claim, annotate
+on item 5 of the SSA-3367 (Disability Report - Field Office), or EDCS 3367, the former
+SSN and name under which the prior claim was filed to notify the Disability Determination
+Services (DDS) or Office of hearing office of possible relevant evidence contained
+in the prior filing.
+For the additional FO responsibilities and required actions involving a prior folder,
+follow instructions in DI 11005.085.
+NOTE: If the claimant files a new disability claim under a new SSN while the claimant has
+a prior claim pending administrative review under the former SSN, the FO may need
+to determine whether a common issue exists. For instructions on common issue cases,
+see DI 12045.005 and DI 12045.010.
+2. Appeal filed under new SSN on existing claim under former SSN
+If the claimant uses a new SSN to file an appeal in an existing claim under a former
+SSN, this is an EDCS exclusion.
+Convert the appeal to a paper folder, print documents from the electronic folder and
+place them in the paper folder.
+Use an SSA-5002 to:
+•
+document the reason for the conversion to a paper folder, and
+•
+document the former SSN and name.
+Place the SSA-5002 in the paper folder. Add a message to the EDCS case explaining
+the reason for converting the case and the date the case was converted.
+NOTE: The FO prints the documents from sections A, B, and D to add to the paper folder.
+The DDS or hearing office prints other documents and adds them to the paper folder
+when necessary.

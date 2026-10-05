@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - SI 00601.011 - Filing Supplemental Security Income (SSI) Applications for Disabled Youth Transitioning out of Foster Care
+Effective Dates: 10/04/2010 - Present | TN 72 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500601011 (fetched 2026-10-04)
+
+D. Procedure for taking a SSI application from disabled youth under age 18 transitioning
+out of foster care.
+Use the following MSSICS coding for a claimant in foster care who is under age 18
+as of the application filing date to build the SSR as a (DI) or (BI). NOTE: In order to generate the SSA-3368 in EDCS, it is necessary to code the claimant
+as Head of Household in MSSICS. A full application is required to place a claimant
+in the Head of Household (HD) living arrangement.
+1. Residence Address and Jurisdiction
+Code the Residence Address and Jurisdiction page as follows:
+RESIDENCE TYPE: “1” for house, apartment, mobile home, or houseboat.
+2. Home Ownership and Rental Liability
+Code the Home Ownership and Rental Liability page as follows:
+CLAIMANT IS HEAD OF HOUSEHOLD: Y
+SELECT: “3” for no one in household owns or rents
+3. SSR Remarks (CRMK)
+Add the remark “YOUTH TRANSITIONING OUT OF FOSTER CARE” to the SSR.
+4. Electronic Disability Collect System (EDCS)
+Complete the following to document the EDCS.
+•
+Complete the SSA-3368 (Disability Report — Adult). For the policy on creating EDCS
+cases, see DI 81010.020.
+•
+Complete the SSA-3367 (Disability Report – Field Office) portion of EDCS with a potential
+onset as the date the claimant attains age 18 and the remark “Youth transitioning
+out of foster care. Hold determination input until age 18 attainment. No payment due
+before age 18 attainment.” For additional information on completing the SSA-3367,
+see DI 81010.025.
+•
+Add a "Special Handling" flag and annotate "Youth in foster care - no payment before
+age 18." For information on alerts, flags, and messages in, see DI 81010.080.
+•
+Add a message "Youth in foster care - no payment before age 18," to the electronic
+folder. For information on alerts, flags, and messages in EDCS, see DI 81010.080.
+•
+On the Title II/Title XVI Summary page, select the [Edit Claim(s)] button. Once the
+Title II/Title XVI Information page is displayed, add “FOS” to the Litigation Code
+field and add “Youth transitioning out of foster care” in the Transfer Remarks field.
+NOTE: For non-MSSICS cases, use form SSA-450-SI (Supplemental Security Income Data Input
+and Determination) and code the Type of Claim (TP) field as DI, and include the Head
+of Household (HD) field, the Living Arrangement (LA) field with Federal Living Arrangement
+Code of A (FLA A), and the Remark field with “Youth transitioning out of Foster Care”
+following the instructions in SM 01005.010, SM 01005.160, SM 01005.315, and SM 01301.841.
+Document the paper SSA-3367 as described per SI 00601.011.D.4 in this section.

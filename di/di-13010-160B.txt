@@ -1,0 +1,72 @@
+SSA Program Operations Manual System (POMS) - DI 13010.160 - Suspending Benefits for Title II
+Effective Dates: 06/25/2024 - Present | TN 81 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010160 (fetched 2026-10-04)
+
+B. Suspension of benefits
+1. Direct input of suspension
+The eWork system automates the POS DIB CESS action. Use the Disability Cessation (PEC1)
+screen in the post entitlement (PE) online system (POS) to suspend or terminate benefits
+after you complete a CDR and have found SGA by using eWork. The DIB CESS effectuates
+the S7 suspension, and generates a suspension notice. For manual input procedures
+on eWork exclusion cases, see MSOM T2PE 003.024.
+a. When the suspension input excepts and does not process
+•
+The DIB CESS input action excepts and the suspension is not effectuated and the final
+notice is not released.
+•
+Do not use the FAX procedure in DI 13010.215B1b or make another DIB CESS input.
+•
+The Terminations, Attainments, Transfers and Terminations (TATTER) program automatically
+generates an exception alert for Office of Central Operations, Processing Center (OCO,
+PC) to resolve.
+•
+The FO may input an interim suspension to prevent improper payments while the exception
+is resolved. See interim suspension guidelines and procedures in DI 13010.160B.2 in this section.
+Monitor the exception by establishing a work issue on the eWork development worksheet.
+Check the progress of the exception using the Processing Center Action Control System
+(PCACS) or Paperless Read Only Query System (PPL ROQS).
+b. When suspension is a POS exclusion and does not process
+If the case does not process due to a POS exclusion, see DI 13010.025 and use the FAX procedures in DI 13010.215B1b.
+eWork:
+•
+identifies POS exclusions,
+•
+prepares the FAX form to be sent to the PSC,
+•
+prepares final notice for the FO to release to the beneficiary, and
+•
+posts a DIB CESS tickle issue to the eWork development worksheet.
+Track the processing of the exclusion by reviewing the DECEFFECT issue on the eWork
+development worksheet. The FO may input an interim suspension to prevent improper
+payments while the exclusion is resolved. See interim suspension guidelines and procedures
+in DI 13010.160B.2.
+2. Continuing Disability (CDIB) interim suspension input
+Input an S0 suspension using the CDIB work suspension input in POS and add a special
+message to the Master Beneficiary Record (MBR) stating why you are inputting the suspense.
+The CDIB suspense input results in a S0 suspense code on the MBR which is effective
+with the current operating month (COM). Use the CDIB suspension action for POS exceptions as an interim step to prevent further
+months of improper payments. For more information on SO suspension, see MSOM COMMON 005.008 and SM 03020.050.
+FO technicians should use discretion when utilizing the CDIB input and carefully follow
+the CDIB input procedure.
+Use the CDIB input ONLY when ALL three conditions exist:
+•
+the final action is an ongoing suspension or termination;
+•
+a final determination notice has NOT been sent.
+NOTE: See the “Adjudicative Forms” screen on eWork. If this screen only shows a “Due Process”
+notice, then we did not issue a final determination notice If this screen shows both
+a Due Process notice and a Decision Notice, then a final determination notice has
+been produced by eWork, and the case is not a candidate for SO suspension by FO direct
+input to POS.
+and
+•
+the MBR verifies the claimant is in current pay.
+After completing the suspension input, check to make sure the MBR updates and correctly
+shows LAF S0 effective with the COM in which the S0 suspension processes through POS.
+NOTE: The FO may also have to reinstate benefits from a suspense status code of S0, to
+a current pay (ledger account file (LAF) C) status code on the MBR (i.e., the beneficiary
+works SGA and non-SGA months in the extended period of eligibility (EPE). When a beneficiary
+has some months of SGA, and some months of non-SGA during the EPE, the reinstatement
+action may “except,” and the Benefit Authorizer (BA) from the PC takes the necessary
+action to reinstate benefits. For detailed information on reinstating benefits from
+an SO input, see SM 03020.050 and MSOM COMMON 005.008.

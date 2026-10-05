@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 52165.001 - Using the Interactive Computations Facility (ICF) to Compute Workers' Compensation (WC) Public Disability Benefit (PDB) Offset and ICF Terms
+Effective Dates: 01/26/2017 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165001 (fetched 2026-10-04)
+
+C. ICF functions and what they do
+•
+ICF #31 performs offset calculations without affecting the record. To process to completion,
+the data must be propagated into #32 or #34. The record can only be saved as pre-adjudicate.
+•
+ICF #32 performs offset calculations and posts the information to the MBR through
+T2R or creates a record to use with an A101 or EF101. You have the option to adjudicate
+the record or save the record in a pre-adjudicate format similar to #31.
+NOTE: When processing actions in ICF, T2R does not use ICF computations when posting the
+information to the MBR. The ICF input data is sent to T2R. T2R is a data-driven system
+that performs its own computations using MBR and T2 Shared data. If you use fictitious
+data or manipulate the ICF inputs to arrive at the desired ICF results, the resulting
+T2R WC/PDB offset computation may differ from your ICF results.
+•
+ICF #33 allows you to view data from prior pre-adjudicate and adjudicate records. All adjudicated
+datasheets are stored in the Online Retrieval System (ORS) once the data has been
+either transmitted to T2R or propagated into MADCAP Direct Data Entry (MACADE). Only
+the most recent pre-adjudicate data are stored in ICF since the data is periodically
+purged after 18 months.
+•
+ICF #34 does not perform any offset calculations or directly posts the information to the
+MBR through T2R. The calculations must be done manually. Data from a previously saved
+#31 or #32 record can be propagated into OREO and overkeyed as necessary. A processing
+center (PC) benefit authorizer/benefit technical examiner (BA/BTE) effectuates the
+changes using a MACADE action.

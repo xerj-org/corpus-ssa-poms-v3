@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 52110.005 - Vocational Rehabilitation (VR) Payments
+Effective Dates: 05/28/2009 - Present | TN 3 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452110005 (fetched 2026-10-04)
+
+B. When not to offset VR payments
+Do not offset VR payments that are paid in addition to WC if the NH is participating or
+required to participate in a VR plan. This applies to both periodic WC payments and
+LS settlements.
+NOTE: In the Interactive Computation Facility (ICF), show VR payments not subject to offset as special amounts deducted from the gross not as excludable expenses. If the payments
+are input as expenses, ICF will not compute the offset correctly. See DI 52165.000 - WC/PDB Computations through Interactive Computation Facility (ICF).
+EXAMPLE 1: Periodic WC.
+An injured worker receives weekly Temporary Partial (TP) WC of $275. The worker agrees
+to participate in a VR program. The carrier pays a VR payment of $75 in addition to
+the TP of $275 per week. Offset does not apply to the $75 VR payment because the worker
+is participating in a VR program and the VR payment is in addition to WC.
+EXAMPLE 2: WC lump sum (LS).
+NH receives a $100,000 WC LS. The compromise and release papers show $20,000 of the
+settlement is for VR. The FO/PC confirms the NH is participating in a VR plan. Process
+the case as a $100,000 LS and list the $20,000 VR payment in ICF as a special amount
+to deduct from gross. Annotate action in ICF Remarks section.
+EXAMPLE 3: WC LS involves periodic VR payments.
+The NH received a permanent partial (PP) WC rating and negotiated a LS settlement
+with a cash payment of $51,000 and periodic VR payments of $185 per week in return
+for participating in an approved VR program. The cash payment was prorated at the
+previous WC periodic payment rate of $365 per week and may cause offset.
+Offset does not apply because the VR payments are in addition to the WC cash settlement.
+For ICF input, annotate in the Remarks section why the VR is not subject to offset.
+The $185 weekly VR is not part of the input.

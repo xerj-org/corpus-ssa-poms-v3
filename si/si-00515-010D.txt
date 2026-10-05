@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - SI 00515.010 - Processing Certain Financial Permission Cases When a Deemor Refuses Permission and the Claimant Turns Age 18
+Effective Dates: 05/27/2026 - Present | TN 12 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500515010 (fetched 2026-10-04)
+
+D. Processing initial claims when a full application is filed
+When processing cases that meet the criteria in SI 00515.010C in this section, follow these procedures to maintain the original protective filing
+date and to provide benefits accordingly.
+IMPORTANT: Do not use the Modernized Supplemental Security Income Claims System (MSSICS) to build the
+Supplemental Security Record (SSR) for these cases as an N18 denial (i.e., failure
+to cooperate or failure to give permission to contact financial institutions) will
+result and erroneously deny the claim for the life of the application.
+1. Actions to take before sending the claim for a disability determination
+Before sending the claim for a disability determination, you must take the following
+actions:
+a. Document deemors refusal to provide financial permission
+Explain to the deemor that financial permission is an eligibility requirement for
+SSI benefits.
+Document the deemors refusal to provide financial permission as follows:
+•
+Print a copy of the Financial Permission Request - Deemor (T16) letter from the General
+section of the Document Processing System (DPS). Have the deemor read and sign the
+document, indicating their refusal to provide financial permission. For more information
+related to obtaining financial permission, see SI 00515.001.
+•
+Document the deemors refusal to provide financial permission on the Shared Processes
+(EVID) screen.
+b. Build the Supplemental Security Record (SSR)
+Take the following actions to build the SSR:
+•
+Lock the MSSICS pending file (if the claim was initiated in MSSICS).
+•
+Input the claims information using form SSA-450-SI (Supplemental Security Income Data
+Input and Determination) with procedures found in SM 01005.000.
+IMPORTANT: Input the original protective filing date in the Application Date (AP) field.
+•
+Input payment status code H80 (i.e., Hold early input) in the Payment Status (PS)
+field of the SSA-450-SI.
+•
+Once the SSR is established, use an SSA-1719-B (Supplemental Security Income Posteligibility
+Input) to input FAILURE TO GIVE FINANCIAL PERMISSIONDEEMOR NAME NO GOOD CAUSE- MMDDYY
+in the remarks section of the SSR.
+After completing the actions in SI 00515.010D.1.a. in this section, send the claim for a disability determination.
+NOTE: These cases are excluded from Electronic Disability Collect System (EDCS) processing.
+2. Actions to take when the claim is returned from the Disability Determination Service
+(DDS)
+If the claim is medically denied, no further action is needed. DDS will generate the
+medical denial notice.
+Take the following actions for medical allowances.
+NOTE: For cases in which a pre-effectuation review (PERC) is necessary, only take these
+actions after the PERC has been completed. See SI 00603.031 for instructions as to when a PERC is required.
+a. Input payment status N05
+Input payment status code N05 (i.e., Nonpay - failure to give permission to contact
+financial institutions and other nonpay events) in the PS field of the SSA-450-SI
+for each month of the protective filing period occurring prior to, and including,
+the month of age 18 attainment.
+The system will properly post payment status E02 (i.e., Nonpay eligible for benefits
+but not due a payment (applies to first month of eligibility only) in the earliest
+of:
+•
+The month after the month of age 18 attainment, or,
+•
+The first month after attainment of age 18 that the recipient meets all eligibility
+criteria.
+b. Issue a manual notice of award
+Suppress the automated notice using the Notices (NP) field on the SSA-450-SI and issue
+a manual notice of award using the procedures in NL 00801.010. For additional information about using the NP field to suppress automated notices,
+see SM 01005.535.

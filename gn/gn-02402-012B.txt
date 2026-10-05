@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 02402.012 - Field Office (FO) Instructions for Non-Receipt Alleged Fraud
+Effective Dates: 06/03/2019 - Present | TN 139 (06-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402012 (fetched 2026-10-04)
+
+B. Reimbursing Victims of Fraud
+Once an unauthorized redirection of payment is determined, the technician takes action
+to reimburse the victim’s missing payment through the following instructions:
+1.
+Input the B-Stop. Annotate a “Y” in the FRAUD ALLEGED NON-RECEIPT TYPE B ONLY field,
+for each potentially fraudulent allegation of non-receipt. For Direct Express (DE)
+cases, input an R16 request via Direct Express R14/R16 Application per GN 02402.007K.
+(See SM 00609.110, MSOM T2PE 003.028, GN 02406.011 and GN 02406.007 for more information).
+NOTE: A non-receipt input for each DD or Direct Express (DE) payment will generate a trace
+request; it will not generate a courtesy disbursement or a replacement check.
+Important: Fraud Alleged Identifier information will display on the Payment History Update
+System (PHUS), EVNT 069 – Fraud Alleged for a non-receipt claim processed, by the
+Return Check Action Program (REACT).
+2.
+Decide if a payment should be issued through either the Critical Payment System (CPS)
+(see SM 00635.001), as an Immediate Payment (IP) (see SI 02004.100), or as an Automated One Time Payment (A-TOP) (See SM 01901.005). In addition to
+these respective payment’s policies, complete the instructions for the corresponding
+payment method:
+a.
+If issuing a payment through either Title II, CPS, or as an IP, then perform the following:
+1.
+Annotate the “Instructions for Processing Center” field on the Critical Payment Details
+(CRSN) screen with “Alleged D/D Fraud, Review Teletrace Result - Possible Delay in
+O/P Collection.”
+2.
+Have the beneficiary or representative payee sign an SSA-795 Statement of Claimant
+or Other Person form for Title II (TII) benefits, per RS 02801.500.
+3.
+Scan the SSA-795 into the electronic claims folder or Non-Disability Repository for
+Evidentiary Documents (NDRed).
+b.
+If issuing a payment via an IP for Title XVI (TXVI), then perform the following:
+1.
+Have the recipient or representative payee sign an SSA-8102 Advance Payment Receipt
+and Notice form, per SI 02004.130.
+2.
+Scan the SSA-8102 into the electronic claims folder or NDRed.
+c.
+If issuing a payment through A-OTP for TXVI, then perform the following:
+1.
+Document the “REASON FOR PAYMENT” field of the SSA-4904-U2 Supplemental Security Income
+Monthly Payment Computation Summary form, with “Alleged D/D Fraud, Review Teletrace
+Result - Possible Delay in O/P Collection.”
+2.
+Scan the SSA-4904-U2 into the electronic claims folder or NDRed (See SM 01901.015).
+3.
+Post a Special message on the MBR or Remarks on the SSR "Alleged Direct Deposit or
+Direct Express Fraud for MMDDYY Payment CPS or AOTP issued.”
+Important:
+Before issuing a replacement payment, verify that the bank data on the current record
+is correct.

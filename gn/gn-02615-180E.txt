@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+E. Processing cases not in SSTNG
+Cases not in SSTNG included terminated payment status codes of T30, T31, T33, T50,
+T51, and T01. Processing these cases depends on the type of termination as explained
+in this section.
+1. Cases in payment status code of T30, T31, or T33
+Send a manual Clark RZ appointment letter following instructions in GN 02615.180C.2. in this section. If the class member responds to the Clark appointment letter, conduct the RZ by start dating the record, and proceed as follows:
+a.
+After completing the RZ, take a manual action to pay the Clark relief and post any additional data necessary to process the correct payment by using
+the SSA-450-SI (SSI Data Input and Determination) or the SSA-1719-B (SSI Post eligibility
+Data Input) forms. For specific instructions on when to use each form, refer to GN 02615.180E in this section.
+•
+Records in T31 (with previous months of M02) or T33 status, post force due (M02) to
+overlay periods of N25 when granting Clark relief and issue payments due by A-OTP.
+For records in T30, you cannot place a M02 to show the manual calculations for the
+N25 period. For additional instructions on M02, see SM 02101.250.
+•
+When correcting, adding, or deleting data fields on the SSR without transmission of
+an entire SSA-450-SI, complete an SSA-450-SI PR9. For additional information on the
+SSA-450-SI, see SM 01000.000, SM 01005.000, and SM 01010.000; or
+•
+Complete an SSA-1719-B to update post-eligibility data on the SSR. For additional
+information on the SSA-1719-B, see SM 01301.000 and SM 01305.000.
+•
+Transmit an SSA-450-SI PR9 or SSA-1719-B input by selecting #15 (SSI Data Inputs)
+from the Main Menu. Select the type of input from the Title XVI Menu (SXVI). For additional
+information on the SXVI screen, see MSOM T16INPUTS 001.002.
+b.
+If the post office returns the appointment letter, try to locate the person following
+normal procedures in SI 02301.240C.
+c.
+If, after sending the 15-day follow-up letter, the recipient still does not respond
+within 60 days of the issuance date of the appointment letter, complete the following:
+•
+Post a remark on the SSR: Clark Court Order Non-Responder using a SSA-1719-B. For
+additional instructions on processing post eligibility data to terminated records,
+see SM 01305.090; and
+•
+Send an SSA-L991 located in the Post Entitlement category in DPS using Clark language.
+d.
+If a recipient responds after the 60-day period, complete the RZ following instructions
+in this section.
+e.
+If during your review you discover no Clark eligibility, e.g., the N25 suspension period does not concern a PPV warrant, add
+a remark to the SSR, No PPV Suspension.
+2. Cases in payment status code of T50 or T51
+Since these cases may require an initial application and medical determination to
+effect Clark relief, consider the following and take the appropriate action:
+a.
+If we denied the T50 or T51 record due to N25, but the record shows a posted medical
+allowance, reopen the application and complete an RZ back to the earliest N25 period.
+There is no medical determination required.
+b.
+If the current T50 record has a prior record of T31 or T33, consider the following:
+•
+Verify if the suspension on that record was due to N25, the record terminated because
+of the N25 suspension, and an initial determination on the fugitive felon suspension
+was on or after October 24, 2006. Complete an RZ back to the earliest N25 period.
+After completing the RZ, take manual action to pay the Clark relief and post any additional
+data to process the correct payment following instructions in GN 02615.180E.1.a in this section.
+•
+If the prior termination on the T31 or T33 was not due to N25 or there is no prior
+record with a T31 or T33 status, send a manual Clark RZ appointment letter following instructions in GN 02615.180C.2 in this section. Send an Adult Disability Starter Kit along with the Clark RZ letter.
+c.
+If we receive a response within the 60-day period and a medical determination is required,
+complete an initial claim based on the following information:
+•
+The protective filing date for the claim is the protective filing date of the previously
+denied claim involving the N25 period.
+•
+On the miscellaneous data (CMSC) screen in MSSICS, select option 1 for the reason
+the protective filing date is over 90 days old.
+•
+If a MSSICS exclusion case, complete the Application Status (AP) field on the SSA-450SI,
+using code A after the application date.
+•
+Place ZZZ in the first three positions of the unit field to identify and exclude Clark cases from processing time statistics. Send the case to DDS for a medical determination
+using the instructions in DI 52522.001.
+d.
+If the post office returns the appointment letter, follow the normal procedure to
+locate the person using instructions in SI 02301.240C.
+e.
+If after sending the 15-day follow-up letter, the recipient does not respond within
+60 days of the issuance of the appointment letter, complete the following:
+•
+Send an SSA-L991 located in the Post Entitlement category in DPS using Clark language.
+f.
+If a recipient responds after the 60-day period, take action to complete either an
+RZ or an initial application following instructions in this section.
+3. Cases in payment status code of T01
+Certain parties may potentially be entitled to Clark relief underpayments on the accounts of deceased class members. Follow normal processing
+instructions in SI 02101.003 and SI 02101.007. If there is no potential party eligible for the underpayment, input CRNG in the
+CG field on the SSR, which identifies the case as a non-responder and add the following
+Remarks to the SSR: No Clark Relief Granted. For additional instructions on processing
+PE data to terminated records, see SM 01305.090. After your review, issue the Clark
+relief underpayment or determine that there is no potential party eligible for the
+underpayment.

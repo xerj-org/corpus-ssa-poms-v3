@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02403.007 - Field Office (FO) Remittance Automated and Manual Receipt Process
+Effective Dates: 03/05/2012 - Present | TN 31 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403007 (fetched 2026-10-04)
+
+D. Processing Corrections to Field Office Receipts
+1. Remittance in the FO
+If the FO realizes that an error was made in the entry of a remittance on the Field
+Office Remittance Input (RFOR) screen in DMS and the remittance is still at the FO,
+then:
+•
+Take corrective action in DMS through the Correct Field Office Receipt (RCFR) screen,
+or if the change involves the amount, the Manager makes the Corrections or Deletions
+in the FO Receipt (RMCR) screen. (see MS
+01103.022 and MS
+011004.011 for additional information.)
+•
+After the correction is made, DMS generates a new payment coupon (see MS
+01103.007). Forward the NEW payment coupon along with the remittance to MATPSC to post to the
+correct account.
+•
+Destroy the incorrect payment coupon.
+2. Remittance and Coupon No Longer in the FO
+If the FO realizes that an error was made in the entry of a remittance on the RFOR
+screen or the AND the remittance has already been forwarded to MATPSC, then:
+•
+Do not correct through RCFR or RMCR since the coupon has already been mailed to MATPSC.
+•
+Notify the jurisdictional Processing Center (PC) of the remittance keying error by
+following the procedures for Modernized Development Worksheet (MDW) in GN
+01070.228. The message should inform the PC about the error and explain necessary corrective
+action. The PC should be contacted after the erroneous remittance is posted or creates
+an exception. MATPSC should not be contacted unless they are the jurisdictional PC.
+3. Corrected Automated Receipt
+See MS
+01103.007 Section F. for an example of the automated receipt and section H. for an explanation
+of fields on the coupon.
+4. Field Office - Generated Coupon
+See MS
+01103.007 Section G. to see an example of the Field Office - Generated Coupon and section H.
+for explanation of the fields on the coupon.

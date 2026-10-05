@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02604.180 - Processing Instructions for Annual Earnings Test and the Penalties for Late Filing
+Effective Dates: 08/31/2011 - Present | TN 19 (08-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202604180 (fetched 2026-10-04)
+
+C. Procedure for AJS-3 exceptions
+If the AJS-3 is unable to process an action, it will produce an exception error. Fix
+the error using a manual action. If a late annual report (AR) entered through AJS-3
+results in an exception error that does not contain the penalty remark below, then
+the AJS-3 program determined that a penalty does not apply.
+Penalty diary MM/YY collect penalty $$$$.¢¢
+•
+Reason for exception
+A late annual report penalty applies, the penalty diary is now mature, and the penalty
+recovery should begin; however, AJS-3 is unable to process the action.
+•
+Action to take
+Begin withholding the amount of penalty and delete the diary.

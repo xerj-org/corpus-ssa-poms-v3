@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02408.610 - Overview of the Reclamation Process for Title II and Title XVI Electronic Funds Transfer (EFT) Payments
+Effective Dates: 09/03/2020 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408610 (fetched 2026-10-04)
+
+B. Process when Treasury responds to SSA's reclamation request
+Treasury matches the information in the reclamation request (E-stop) against its records
+and does the following:
+•
+When the requested payment matches Treasury's records and has not been returned, Treasury
+returns a code 01 to SSA. For Title II, the 01 is posted as part of the SF-1184 information
+on the Payment History Update System (PHUS) under event code 070. For Title XVI the
+01 is posted on the Treasury Status Query (UPTQ) screen, see MS 00303.020.
+•
+Treasury then sends the FI a form FS-133, Notice of Reclamation, that contains the
+date, payment amount, social security number (SSN), and other payment identification
+information for all payments made after death that are subject to reclamation. This
+form is found in the Reclamations section of Treasury's Green
+Book.
+•
+Treasury informs SSA when the requested payment has already been returned. For Title
+II, disposition code 04 is posted on PHUS as part of the SF-1184 information (PHUS
+event code 070), and a “Returned Check” entry gives the payment information. For Title
+XVI, disposition code 04 is posted on the UPTQ screen as part of the Stop-Payment
+information, and Payflag 1 of the PMTH field on the SSR has a slash (/), A, B, C,
+D, J, K, L, M, S, T, or U for that payment, depending on the type of payment and whether
+it is returned by the Field Office, Treasury, or both.
+•
+When the requested payment information does not match Treasury's records, Treasury
+rejects the request and sends a disposition code 07. (This code is often the result
+of an input error at SSA.) For Title II the response is posted on PHUS under event
+code 070. For Title XVI the response on the UPTQ screen shows “07 – NO PAYMENT ISSUED.”
+SEE ALSO:
+•
+SM 00609.610 - for Treasury's Title II disposition codes.
+•
+MSOM BUSSR 003.020 - for Treasury's Title XVI disposition codes.
+•
+SM 00624.010B - for “returned check” reason codes shown on PHUS.
+•
+GN 02408.010 - for the automated E-stop process for check/EFT payments.
+•
+GN 02408.012 - for the manual E-stop process for checks.

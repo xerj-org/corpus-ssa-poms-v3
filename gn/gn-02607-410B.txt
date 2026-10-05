@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02607.410 - SSA’s Prisoner Systems and Matching Operation
+Effective Dates: 06/19/2015 - Present | TN 94 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607410 (fetched 2026-10-04)
+
+B. Automated inmate matching operation
+Federal, State and local correctional institutions and mental health facilities send
+inmate reports either to SSA’s Central Office (CO) via electronic transmissions or
+to local FOs on paper listings. FOs either convert the paper inmate reports to electronic
+data and transmit that data to CO or manually enter inmate information into PUPS.
+For more information on FO processing of inmate reports, see GN 02607.460.
+The automated matching operation processes all inmate reports in the following steps:
+1. Verify inmate identity
+If a reported inmate’s SSN meets verification criteria, we match the inmate’s identity
+through the EVS or, if needed, UPS. When the incoming report does not include an inmate’s
+SSN or a reported SSN does not meet the verification criteria, we electronically screen
+the records against the ALPHIDENT file for possible SSN matches. We continue the matching
+operation for only those SSNs verified through the EVS, UPS, or ALPHIDENT processes.
+2. Identify incarcerated beneficiaries and recipients
+We match verified inmate SSNs with SSNs on the Master Beneficiary Record (MBR) and
+the Supplemental Security Record (SSR) to identify inmates with current Title II entitlement
+or Title XVI eligibility. When the MBR or SSR match finds a period of entitlement
+or eligibility, PUPS processes the match as follows:
+a.
+If PUPS received the inmate report electronically, it automatically establishes a
+pending record and generates a PUPS alert to either the servicing FO or Processing
+Center (PC) for processing if the:
+•
+Title XVI recipient's inmate record reflects a total period of confinement that is
+one full calendar month or more;
+•
+Title II beneficiary's inmate record reflects a total period of confinement of more
+than 30 days; or
+•
+concurrent (both Title II and Title XVI) beneficiary's inmate record reflects a total
+period of confinement of more than 30 days and one full calendar month or more.
+b.
+If an FO manually submits inmate information, PUPS establishes a pending record regardless
+of the length of confinement. For more information on FO manual processing of inmate
+reports, see GN 02607.460.
+c.
+If we receive a second inmate report for the same name, SSN, and date of birth (DOB)
+with the same confinement date, PUPS will not establish a second record or generate
+a second alert. However, if PUPS receives two different confinement dates for the
+same name, SSN, and DOB, PUPS will create a new pending record and alert. Incoming
+inmate reports may not always include the date of confinement, but PUPS will generate
+an alert if there is a match on the other data.
+For more information on how PUPS establishes or updates PUPS records, see MSOM PRISON
+003.001 and MSOM PRISON 003.002.
+3. PUPS skeleton records
+When the MBR or SSR match does not find a period of beneficiary entitlement or recipient
+eligibility during the period of confinement, PUPS creates a skeleton record containing
+only the incoming inmate information. We periodically rematch the "skeleton" records
+with MBR and SSR records to identify any subsequent entitlement or eligibility. When
+identifying active entitlement or eligibility, PUPS overwrites the "skeleton" record
+with a pending PUPS record and generates an alert to the appropriate location for
+processing. For more information on skeleton records, see GN 02607.520 and MSOM PRISON 003.001J.

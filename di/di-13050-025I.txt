@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - DI 13050.025 - Provisional Benefits for Title II Claimant
+Effective Dates: 09/04/2024 - Present | TN 33 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050025 (fetched 2026-10-04)
+
+I. Initiating provisional benefits
+If the claimant is eligible for EXR based on non-medical eligibility requirements,
+begin provisional benefits via the Post Entitlement Online System (POS). Do not use
+the Critical Payment System (CPS) to initiate provisional payments as any monies withheld
+from CPS payments for supplemental medical insurance (SMI) premiums are not credited
+until the provisional benefit action is processed and may result in an incorrect termination
+of SMI due to non-payment of premiums. For non-receipt of EXR provisional payments,
+see DI 13050.100. If subsequent development determines that the claimant’s EXR request does not meet
+the non-medical requirements, see instructions in MS 06303.024.
+1. Using POS to start provisional benefits
+Input the request for provisional benefits on the Provisional Payment (PEPP) screen
+of the Title II POS. Instructions are in MS 06303.040. Follow these steps to access
+the PEPP screen:
+a.
+Select option “2”, Title II/PE, on the SSA MAIN menu and press “Enter”.
+b.
+On the POS Menu (PEMU) screen, select “1” to establish and complete the required fields,
+then press “Enter”.
+c.
+On the Post Entitlement Selection List (PESL) screen select “item 1” (Addr/Dir Dep/Tel)
+and “item 7” (Provisional Payments) for the appropriate BIC and, press “Enter”.
+d.
+On the Post Entitlement Address (PEAD) screen, enter any changes to the claimant’s
+address, direct deposit, or telephone number propagated to the PEAD screen from the
+MBR. If no changes are necessary , press “Enter” to advance to the PEPP screen.
+e.
+On the PEPP screen, enter the provisional payment start month in MMYY format. Add
+any necessary remarks, and press “Enter”. The provisional benefit start month is the
+month we receive the EXR request package. However, if the claimant engaged in SGA
+in the month of the request, the provisional payment start month is the following
+month. If the provisional benefit start month is later than the current operating
+month (COM), hold the POS input after the next COM changes.
+NOTE: If the claimant engaged in SGA in both the month of the EXR request and the following
+month, deny the request for EXR. For denials, see DI 13050.065
+2. Processing exception cases for provisional benefits
+Some cases require manual processing in the PC to start provisional benefits. The
+following situations will generate an exception alert in the PC:
+•
+concurrent Title II/Title XVI cases and a prior month accrual (PMA) check is payable;
+•
+DWB and CDB cases in which there are other entitled auxiliaries on the same record;
+and
+•
+cases where the individual requesting EXR is already entitled to another Title II
+benefit.
+If the direct input excepts, do not
+re-input
+through POS. Check PCACS for an Action Control Record (ACR) with TOELs DIPROV PAYMENT. It may
+take up to three business days for the ACR to appear in PCACS. If the ACR does not
+appear in PCACS after three business days, contact the PC of jurisdiction.
+If the ACR appears in PCACS, tickle the case for 15 business days to allow for PC
+processing. If the MBR does not update after 15 business days, contact the PC of jurisdiction
+and tickle the case for 15 days for follow up.
+To contact the PC of jurisdiction:
+•
+Use PCACS to identify which PC/Module has jurisdiction.
+•
+Access the Detailed
+Office/Organization Resource System (DOORS) using the search SSN function to send an email to the appropriate PC module with
+the subject line "Provisional Benefit Request." Add a special message to the MBR indicating
+the date the request was sent.
+If the MBR does not update after the second 15-day tickle or if a dire need/adverse
+public relation situation exists, FOs will use the Manager-to-Manager process to contact
+the PC per GN 01070.228.
+3. Processing exclusion cases for provisional benefits
+Do not make a POS input for exclusion cases as they require manual action by the PC.
+Some examples of exclusion cases are:
+•
+the provisional benefit is not payable in the first month of the provisional period
+(payment is suspended) or
+•
+the EXR request date is more than 60 months after the previous termination (good cause
+found for late filing)
+Do not use CPS to start provisional benefits, as any monies withheld from CPS payments
+for supplemental medical insurance (SMI) premiums are not credited until the provisional
+benefit action is processed and may result in an incorrect termination of SMI due
+to non-payment of premiums. Requests for initiation of provisional benefits are high
+priority actions.
+To contact the PC of jurisdiction:
+•
+Use PCACS to identify which PC/Module has jurisdiction.
+•
+Access the Detailed
+Office/Organization Resource System (DOORS) using the search SSN function to send an email to the appropriate PC module with
+the subject line "Provisional Benefit Request." Add a special message to the MBR indicating
+the date the request was sent.
+Tickle for 15 days to follow up. If the MBR does not update after the 15-day follow
+up tickle expires or if a dire need/adverse public relation situation exists, use
+the Manager-to-Manager process to contact the PCs per GN 01070.228.

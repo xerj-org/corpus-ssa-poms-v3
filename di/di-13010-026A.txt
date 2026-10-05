@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - DI 13010.026 - Processing eWork Exclusion Cases
+Effective Dates: 01/03/2025 - Present | TN 84 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010026 (fetched 2026-10-04)
+
+A. eWork exclusions
+Some of the eWork exclusions include, but are not limited to:
+•
+non-entitlement or terminated cases;
+•
+reconsiderations of work issue continuing disability reviews (CDRs) and initial reinstatement
+period (IRP) determinations made outside of eWork;
+•
+BICs of E, T1-9, TC, TV, TW, TX, TY, and TZ;
+•
+expedited reinstatement (EXR) cases with months of non-payment within the initial
+reinstatement period (IRP) due to reasons other than substantial gainful activity
+(SGA). For example, a beneficiary who is in prisoner suspense, or was deported;
+•
+concurrent retirement and disability cases where the beneficiary remains entitled
+to disability but has elected to receive reduced retirement;
+•
+beneficiaries in statutory benefit continuation (SBC) pending appeal of a medical
+cessation;
+•
+reopenings based on return to work within one year of onset for statutorily blind
+beneficiaries who remain entitled to disability freeze;
+•
+statutorily blind disability attainment cases where the beneficiary’s benefits was
+previously ceased or terminated due to SGA, and already completed a trial work period
+(TWP).
+1. eWork exclusion case procedure
+Although you cannot effectuate exclusion cases in eWork, you can use the initial claim
+(IC) functionality feature within eWork to assist you in making an SGA decision, and
+to obtain certain necessary adjudicative documents (e.g., SSA-821 (Work Activity Report-Employee),
+L-725 (Employer Verification of Monthly Wages), and the SSA-833-U5 (Cessation or Continuance
+of Disability or Blindness Determination and Transmittal).
+2. IC functionality procedure
+Since you cannot use eWork to effectuate the case, the earnings information cannot
+“push” to the DCF. Follow the instructions below to use the IC functionality in eWork
+exclusion cases:
+1.
+Access the IC functionality in eWork by selecting “Initiate/Update IC Evaluation”
+on the eWork Main Menu screen.
+2.
+Establish a work review, and enter the date of onset, date of filing, and the date
+of entitlement.
+3.
+Select “IC” case, then click on “Establish Work Review.”
+4.
+From the Work Review Summary Screen, post any earnings for employers and generate
+your development forms.
+5.
+Process your decision, clicking on the “Preview/Process Decision” button.
+6.
+Use the document processing system (DPS) to prepare due process (or manually produce
+them, if needed) and final notices.
+7.
+Save the determination in eWork.
+8.
+Manually input earnings and work determination information to the verify earnings
+(VERN) screen of the disability control file (DCF).
+9.
+Clear the work CDR in the DCF.
+10.
+Route the documents following the instructions in DI 13010.026B in this section.
+IMPORTANT: Using the IC functionality will not allow you to produce notices. You must manually
+prepare the due process or final notice in DPS. For due process and notice procedure,
+see DI 13010.185 and NL 00701.000.
+3. Manual process procedure
+If you cannot use eWork to adjudicate the work CDR, follow this procedure:
+•
+Manually input the monthly earnings and WORK DET (Work Determination) code for each
+month of earnings in the review period to the VERN screen of the DCF;
+•
+Clear the work CDR in the DCF;
+•
+Prepare the DIB CESS Exclusion Fax cover sheet document using the paperless barcode
+fax for “eWork DECEFFECT – Effectuation of eWork decision,” the SSA-833-U5, the SSA-4268-C4
+(Explanation of Determination), and the earnings and event report to the PC of jurisdiction;
+•
+Annotate what the exclusion is, and provide clear instructions on what you need the
+PC to do (e.g., notice language, MBR coding, etc.); and
+•
+Route the documents following the instructions in DI 13010.026B in this section.
+For the eWork DECEFFECT Tickle Guide, go to the KCNET Site.
+See also:
+•
+DI 13010.145 Reconsideration or Reopening of Continuing Disability Work Issue Cases – title II
+•
+DI 13010.610 The Disability Review Establishment Screen (DRES)
+•
+DI 13010.675 The Verify/Update Earnings Screen (VERN)
+•
+DI 41005.010 Claimant in Freeze Status Files for DIB

@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - GN 02402.319 - Coding Cyprus Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402319 (fetched 2026-10-04)
+
+G. Example of coding Cyprus direct deposit
+The customer provides us with a signup form for Cyprus containing the following information:
+"CY17002001280000001200527600".
+•
+The first 2 characters of the Cyprus IBAN are “CY”, which represents the International
+Organizational for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO country code or check digit to the MBR.
+•
+The next three characters are the three-digit bank code.
+•
+The next five-characters are the five-digit branch code.
+•
+The last sixteen-characters are the sixteen-digit bank account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 71(SSA designated prefix for IDD).
+•
+Code the three-digit bank code “002”
+•
+Code the first three digits of the branch code “001”
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+2. Derive the DAN
+The technician codes the DAN.
+•
+Code the country code of “D”
+•
+Code the last two digits of the branch code “28”
+•
+Code the first 14 digits of the 16-digit account number “00000012005276”
+When you input the full IBAN through ITS.gov, the final digit of the DAN will annotate.
+The MBR will only house up to 17 characters in the DAN field.
+3. Obtain the following information
+•
+RTN: 710020018
+•
+Checking
+•
+DAN: D2800000012005276
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710020018 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: D2800000012005276
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 710020018
+•
+DAN- CD2800000012005276

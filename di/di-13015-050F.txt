@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - DI 13015.050 - OCO/PSC Retrieving The Title II and Title II Portion of the Concurrent TII/TXVI CDR Folder/Medical Evidence
+Effective Dates: 12/09/2013 - Present | TN 23 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015050 (fetched 2026-10-04)
+
+F. Procedure - Folder Reading in ODAR, OIG, or OGC Location
+The following are OCO/PSC actions if the folder(s) is in ODAR, OIG, or OGC:
+1.
+Obtains a query (e.g., OHAQ) to confirm the folder is still in ODAR, OIG or OGC.
+•
+If the case is still active in one of these locations, documents on the SSA-5002 (example
+see DI 13015.250).
+•
+Closes out the CDR on the Disability Control File (DCF) by selecting “8.SSR/MBR CONDITIONS–STOP
+CDR” on the CDR PC Input (IPCA) screen (see MSOM CDR 001.005 ).
+•
+Annotates in the remarks of the DCF that the CDR is not being pursued pending return
+of the folder from ODAR, OIG, or OGC.
+•
+Discards the direct release alert.
+•
+Will not tickle for return of the folder. Central Office monitors completion of all
+CDRs - no additional actions are needed.
+2.
+If the query, i.e., OHAQ, shows the folder is not active in ODAR, OIG or OGC, OCO/PSC
+will search for the folder in the new location reflected on the query.
+3.
+If unable to locate the folder(s), OCO/PSC will follow DI 40525.070.

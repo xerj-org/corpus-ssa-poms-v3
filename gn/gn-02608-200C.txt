@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02608.200 - Processing Initial Claims
+Effective Dates: 03/26/2026 - Present | TN 63 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202608200 (fetched 2026-10-04)
+
+C. Processing center (PC) initial claims processing for months of entitlement prior to
+January 2024
+If the FO is unable to process the spouse’s claim via MCS, the FO uses an A101 or
+EF101 to manually award the claim and then transfers the case to the servicing PC.
+1. Procedure when GPO applies
+If GPO applies:
+•
+The information from the Government Pension Offset Determination (GPOD) screen propagates
+into MACADE when the PC receives the A101. For additional information about how to
+access GPO screens, see SM 00883.400C.
+•
+Process the claim through MACADE.
+•
+Include additional notice paragraphs as appropriate. For notice instructions, see
+NL 00720.060.
+•
+If the case involves future entitlement to a pension, the RETAP process generates
+an alert the month before the expected entitlement date to the pension. It is not
+necessary to establish a diary.
+2. Procedure when GPO exemption applies
+If a GPO exemption applies:
+•
+Code the exemption on the GPOD screen.
+•
+If the exemption involves an OPM Federal periodic benefit, post an “N” to the CSGPO
+field on the MBR. For information about the GPO application process, see SM 03030.020.

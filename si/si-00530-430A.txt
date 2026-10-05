@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - SI 00530.430 - How Do I Process a Report of Fugitive Status From a Third Party through MSSICS?
+Effective Dates: 06/06/2013 - Present | TN 11 (08-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530430 (fetched 2026-10-04)
+
+A. Procedure
+When you have sufficient evidence to conclude that an SSI recipient meets the ineligibility
+criteria in SI 00530.001 and does not meet the good cause criteria in SI 00530.015 take the following steps to suspend payments. See SI 00530.010 to determine ineligibility months.
+Step
+Action
+1
+Open a stand-alone PE event.
+2
+Go to the Person Screen Status (PERS) and select ALEF, if listed
+3
+If ALEF is not listed on PERS, select the SSI Claims Application (ACLM) screen. Press
+enter.
+4
+Continue through the general identification path. Entry of ACLM will place ALEF in
+the path
+5
+Document data on the new MSSICS screens.
+6
+Suppress the systems-generated notice on the second page of the CMSC screen.
+7
+Per instructions in SI 00530.017, issue a manual Notice of Planned Action, SSA-8155-U2 or an Important Information
+Notice, SSA-8166, as appropriate, using DOCS. If necessary, a manual overpayment notice
+must also be issued.

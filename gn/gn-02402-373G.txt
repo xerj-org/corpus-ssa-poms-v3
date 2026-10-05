@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02402.373 - Coding Latvia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 247 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402373 (fetched 2026-10-04)
+
+G. Example of coding Latvia direct deposit
+The customer provides us with a signup form for Latvia containing the IBAN "LV80BANK0000435195001."
+•
+The first 2 characters of the Latvian IBAN are “LV,” the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The next 4 characters represent the 4-digit bank identifier.
+•
+The next 13 characters of the IBAN represent the 13-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code an RTN of 660000013
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “G” designated for Latvia; and
+•
+Code 13 digits of the account number “0000435195001”
+3. Obtain the following information:
+•
+RTN:660000013
+•
+Checking
+•
+DAN: G0000435195001
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000013
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: G0000435195001
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660000013
+•
+DAN- CG0000435195001

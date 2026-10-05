@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 55060.010 - FO Role in Providing Assistance in the EN Payment Process
+Effective Dates: 07/28/2022 - Present | TN 4 (07-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455060010 (fetched 2026-10-04)
+
+C. Procedure - field office role to monitor OPAYMENTS
+The FO needs to monitor and control the cases identified by TPM/ORDES as OPAYMENT
+issues through the Workload Management System (WMS) to ensure timely processing. In
+order to obtain the WMS control listing, the following procedure should be performed:
+1.
+Select item “25” (WMS Listing) from the SSA Menu screen
+2.
+Select “8” (CDR) in the desired system field. Complete all other fields as appropriate
+on the RQST screen
+3.
+Select “7” (CDR Ticket list summary) on the CDRM screen
+4.
+On the “CWTL” screen, fields are already pre-filled with default indicators. Make
+ONLY the changes as directed: Select Event = 5, Select Tickle Type = 2, Select Issue = 9, Select, MOVE YOUR CUSOR DOWN to “9.IND ISSUE:” and type OPAYMENT on the line. Leave
+all other defaults the same.
+5.
+Press enter. If you have any OPAYMENT issues in your office they will appear on the
+display screen. If not, you will receive a reply message that says “No pending items
+match your request”
+NOTE: The OPAYMENT process mentioned above is in addition to the “VY ” issues that FO/OESP/PM are required to generate and resolve as appropriate in the
+Ticket to Work Program. Keep in mind that, if these issues remain pending unresolved
+in the WMS system, they will eventually appear on the OESP issued “Over 60 Day Ticket” listing.
+This listing is currently in place for RO/FO to respond to on a monthly basis. The OPAYMENT process is a best practice procedure for RO and
+FO to
+determine which ticket related cases, have payment issues (VY or other) that need
+to be
+processed/resolved to assist in making EN payments in a timely fashion.

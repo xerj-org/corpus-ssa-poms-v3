@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.381 - Coding Tunisia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402381 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI for Tunisia has a prefix of 68 at the beginning of the Routing Transit
+Number (RTN). The first letter of the Depositor Account Number (DAN) field has the
+letter “F” assigned for Tunisia.

@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02402.353 - Coding Samoa Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402353 (fetched 2026-10-04)
+
+E. Description of Samoa direct deposit bank data
+The data for coding IDD for Samoa will come from banks the FRBKC has determined can
+handle the IDD process. The FRBKC identified and listed the participating banks on
+the International Treasury Services (ITS.gov) website as part of the ITS help file. If you do not have access to ITS.gov, you should refer to the listing in GN 02402.353G to verify bank codes when processing direct deposit to Samoa banks.
+The IDD coding for Samoa bank data consists of up to 26 characters, including the
+country code of O for Samoa. The account number contains a:
+•
+nine-digit RTN 66000BBBX: where 66 is the country code field, position three through five are always zeros, BBB = three-digit
+bank code based on FI name (which you should verify as correct by checking the ITS.gov help file for assistance or the listing in GN 02402.353G), X = the check digit code; and
+•
+a 17-digit DAN OAAAAAAAAAAAAAAAA that consists of a one-digit country code of O, for Samoa, followed by an account
+number of 16-digits. If account number is less than 16 digits, add lead zeros (0)
+to make account number 16 digits.
+NOTE: Account type when enrolling in International Treasury Services (ITS.gov) can be defaulted to checking if there is no indication of whether the account is
+a checking or a savings account.

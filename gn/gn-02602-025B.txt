@@ -1,0 +1,169 @@
+SSA Program Operations Manual System (POMS) - GN 02602.025 - Priority in Applying Provisions Affecting Benefit Payments
+Effective Dates: 08/25/2023 - Present | TN 102 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602025 (fetched 2026-10-04)
+
+B. Procedure – Priority list
+1. Termination/Suspension or Deduction Event
+Follow the priority list as shown to accurately determine monthly benefit amounts:
+LAF Code
+Reason for Termination/Suspension or Deduction Event
+T/TA/TJ
+Claim withdrawal terminations
+T9
+Not defined; Erroneous DOD death
+T1
+Death
+T9
+Aged beneficiary in long-term suspense for at least 7 years
+T8
+Primary no longer disabled-auxiliaries terminated
+T8
+Child no longer disabled-mother/spouse terminated
+T2
+Auxiliary terminated due to death of primary
+T3
+Marriage/divorce/remarriage/annulment/stepchild termination.
+T4
+Child in Care Spouse terminates- Child attains age 16 and not disabled/ child age
+18 and not FTS and not disabled
+T6
+Child no longer FTS or child disability terminates; mother terminated for death or
+marriage of last remaining child
+T5
+•
+Entitled to benefits on another claim
+•
+BOAN not determined-Refused enumeration
+S9
+Withhold benefits pending verification of death
+S9
+Trial Work Period Fraud (RFST-TWPFRD)
+S4
+•
+No Child-in-care
+•
+Young spouse Attains Age 62 in Same Month that the Last Child of the NH Attains age
+16 (Young Spouse not born on the 1st or 2nd of the month)
+S9
+•
+Withhold benefits pending withdrawal of claim
+•
+Withhold benefits for auxiliaries or survivors in delayed status pending claims development
+SD
+Withhold benefits for technical dual entitlement – Disability family maximum provision
+has reduced MBA to zero
+S8
+Withhold benefits pending payee development
+S6
+Withhold benefits because check returned for better address
+S0
+Withhold benefits pending CDR
+S9
+Withhold benefits pending CDB determination
+S9
+Withhold benefits due to whereabouts unknown
+S9
+Withhold benefits for failure to submit postadjudicative development
+(Recontact form, student enforcement, and foreign enforcement forms)
+S9
+Withhold benefits for a dually entitled widow. A/B benefits currently are being paid
+on her own record. Widow's benefits are withheld pending the certificate of election
+for reduced widow's benefits (CERTEL)
+S9
+•
+Withhold benefits for spouse (age 62-FRA) whose last entitled child on the record
+has attained age 16 and is not disabled; or
+•
+A widow(er) who has attained FRA and the number holder was fully insured (these include
+both development for certificate of election (CERTEL) and age (DEVAGE)).
+SJ
+Alien outside U.S.
+SK
+Deportation/removal from the U.S.
+SL
+•
+Barred Country
+•
+Withhold benefits for subversive activity conviction
+S7
+•
+DIB or DAC Blind engaging in SGA
+•
+Prisoner (RFST: PRISON, MENTAL, or PREDTR)
+•
+EPE SGA suspension
+•
+Suspend Prouty barred country, receiving another public benefit, receiving GPO
+S9
+Fugitive Felon Suspension (RFST – FUGFEL)
+SW
+Receipt of WC/PDB
+SH
+Receipt of GPO
+S1
+Foreign Work
+S2
+Beneficiary worked in the U.S.
+S3
+Primary beneficiary worked in the U.S.
+S9
+Beneficiary Not U.S. Citizen or Not Lawfully Present in U.S.
+2. Withholdings/ Deductions from the Retroactive S9 Suspension Period
+In these situations, follow the priority list as shown to accurately determine monthly
+benefit amounts:
+LAF Code
+Withholdings, Deductions from the Retroactive S9 Suspension Period
+S9
+•
+Administrative Sanctions
+•
+Apply dollar down rounding
+•
+Withhold Maritime Tax
+•
+Compute and withhold Title II/Title XVI Offset
+•
+Compute Overpayment
+•
+Compute penalty
+•
+Apply household netting
+•
+Withhold overpayment
+•
+Withhold penalty
+•
+Compute representative’s fee (attorney and nonattorney) in fee
+agreement cases and withhold anticipated attorney’s fee.
+•
+Withhold alien tax
+•
+Withhold retroactive alien taxes
+S9
+Withhold supplemental medical insurance premiums in this order:
+•
+B Premiums
+•
+D Premiums
+•
+C Premiums
+•
+Withhold benefits because monthly benefit amount is less than $1.00 (LESSDO SMI cases)
+NOTE: Beginning with benefits for December, 2006, the system will automatically pay a monthly
+benefit amount less than $1.00 just as it pays all other benefits.
+S9
+•
+Apply garnishment
+•
+Apply IRS levy
+•
+Apply waiver of benefits
+•
+Withhold voluntary tax (provision was effective with the December 1996 monthly check
+paid on January 3, 1997)
+•
+Legislation
+•
+Miscellaneous
+•
+Voluntary DRCs

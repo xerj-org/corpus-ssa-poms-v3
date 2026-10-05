@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 11080.005 - Processing Consolidated Omnibus Budget Reconciliation Act (COBRA) Disability Cases
+Effective Dates: 04/08/2024 - Present | TN 9 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411080005 (fetched 2026-10-04)
+
+D. Individual meets the non-disability requirements for concurrent Title II and Title
+XVI
+When an individual applies for COBRA extension, we must still process the case in
+MCS and MSSICS. To ensure proper handling of COBRA cases use the following procedures:
+1.
+Take a disability claim in MCS and in MSSICS:
+•
+Add COBRA as an ISSUE on the Development Worksheet screens to help identify COBRA
+cases easily;
+•
+Add the date of the application to the REQ field;
+•
+Establish a 30 day tickle for the first follow up with the DDS;
+•
+Receipt in the COBRA issue with the date the DDS returns a medical determination;
+•
+In MCS, ensure the DW01 has the issue DDSDEC to control for case return from DDS;
+and
+•
+In MSSICS, ensure the ADIB screen is complete, and the Development Worksheet has the
+issue DDSDEC.
+2.
+Establish and complete the EDCS screens for concurrent Title II (DIB, DWB or CDB)
+and Title XVI claim:
+•
+Complete an SSA-5002 (Report of Contact). Include the statement: Individual must be
+found to meet the medical requirements for disability during the period MM/DD/YYYY
+through MM/DD/YYYY to qualify for extension of COBRA continuation coverage. Include
+the primary beneficiarys name and social security number. (Enter the dates of the
+first 60 days of COBRA coverage);
+•
+Annotate COBRA case and the date that the employee must notify the health plan administrator
+on the SSA-5002 (end of initial 18 months of COBRA coverage) and in the remarks section
+of the SSA-3367 (Disability ReportField Office);
+•
+Add the Special Handling flag, and annotate COBRA Case in the description field, to
+ensure that the DDS can easily identify the COBRA case and make a timely determination;
+and
+•
+Transfer the case to the DDS
+3.
+Advise the individual that the DDS will make a medical determination and if favorable,
+he or she may use the award notice to notify the plan administrator.
+NOTE: For non-electronic cases, follow routing instructions in DI 11080.005D.2. in this section.

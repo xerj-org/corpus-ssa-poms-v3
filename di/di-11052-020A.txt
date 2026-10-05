@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - DI 11052.020 - Adjudication Considerations for Initial End-Stage Renal Disease Case Processing
+Effective Dates: 05/31/2011 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052020 (fetched 2026-10-04)
+
+A. Unable to process claim via Earnings Computation (EC) or A101
+Whenever you do not process the claim via EC or A101, you must manually clear (MANCLR)
+the claim to close and lock the segment you have established in Modernized Claims
+System (MCS).

@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 52165.020 - Use Interactive Computation Facility (ICF) Function 34 Online Record Entry (OREO) to Process ICF Problems and Limitations
+Effective Dates: 11/30/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165020 (fetched 2026-10-04)
+
+D. Processing WC/PDB using OREO
+The OREO program functions similar to ICF #31 and #32. The screens and the navigation
+keys are the same. See DI 52165.010 - How to Complete ICF WC/PDB Screens.
+1. Gathering OREO data
+OREO will not perform calculations, but it allows you to propagate information.
+•
+ICF function #31 or #32 may perform some or all of the offset calculation depending
+on the limitation.
+•
+Manually calculate any calculation that cannot be performed and propagated by ICF
+#31 or #32 and enter in OREO.
+•
+You can use the e2455+ tool or the Monthly WC Calculator when calculating offset rates. The e2455 tool propagates the offset rates into OREO.
+•
+ICF #9 and #28 can help to perform manual calculations. See DI 52170.001 - Manual Calculations and DI 52165.025 – for ICF 9 and 28.
+2. F10 key
+ICF allows you to save information and exit the system by pressing the F10 key. It
+saves the record in pre-adjudicate format for later propagation.
+3. Adjudication
+OREO adjudicates through the system just like ICF #32. However, it does not use T2R
+to post changes to the MBR. OREO makes the information available in MACADE to a BA/BTE
+in the PC.
+4. Documentation
+Prior to adjudication, annotate the exception or limitation that requires using OREO
+in the “Special Instructions” field of the WCDA screen.

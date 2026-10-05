@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02402.387 - Coding Macedonia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/06/2024 - Present | TN 279 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402387 (fetched 2026-10-04)
+
+G. Example of coding Macedonia direct deposit
+The customer provides us with a signup form for Macedonia containing the following
+information: "MK07250120000058984".
+•
+The first two characters of Macedonia IBAN is “MK,” represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. The technicians
+should never code the IBAN country code or check digit to the MBR.
+•
+The fifth through seventh characters of the IBAN represent the three-digit bank code.
+•
+The next ten digits of the IBAN represent the account number.
+•
+The last two digits depict the check digit for the account number (never coded to
+the MBR).
+The technician should take the following action:
+1. Derive the RTN as follows
+•
+Code the prefix of 68
+•
+Code three filler zeros, “000”
+•
+Code the three-digit bank code, “250”
+•
+Code the one-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN as follows
+•
+Start with a country code of “L” designated for Macedonia;
+•
+Code the 10 digit Customer Account Number “1200000589”
+3. Obtain the following information
+•
+IBAN: MK07250120000058984
+•
+RTN: 680002507
+•
+Checking
+•
+DAN: L1200000589
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680002507
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L1200000589
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following
+•
+RTN- 680002507
+•
+DAN-CL1200000589

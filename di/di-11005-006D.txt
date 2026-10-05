@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 11005.006 - Field Office (FO) Instructions for Claims Development and Processing for Military Casualty (MC)/Wounded Warrior (WW) Cases
+Effective Dates: 09/19/2023 - Present | TN 105 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005006 (fetched 2026-10-04)
+
+D. Claims documentation
+1. Development worksheet (DW01) screen in MCS or CCE Development Worksheet page
+•
+Establish a UNIT code of “___XRQ” on the MCS DW01 screen or CCE Development Worksheet
+page for claimants who meet the MC/WW definition in DI 11005.003A.1.
+Use the first three characters of the unit code per local instructions (e.g., unit
+number, initials).
+•
+Establish an ISSUE of “MC/WW” to track the case.
+2. Decision input (DECI) screen in MCS
+Establish a listing code of 108 (for a list of the codes see GN 01040.100).
+3. MC/WW flag
+a. Certified electronic folder
+If the MC/WW flag does not automatically propagate to the claim in EDCS, follow instructions
+in DI 81010.080B Alerts, Flags, and Messages in the Electronic Disability Collect System (EDCS) to
+create an MC/WW flag in EDCS. The flag will alert the DDS to expedite processing of
+the claim.
+b. Paper modular disability folder (i.e., EDCS exclusion)
+Attach an MC/WW flag to the front of the folder before sending to the DDS. (See an
+exhibit of the MC/WW flag in DI 11005.006I in this section.)

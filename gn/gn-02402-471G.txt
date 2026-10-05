@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02402.471 - Coding Libya Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/23/2023 - Present | TN 306 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402471 (fetched 2026-10-04)
+
+G. Example of coding Libya bank data
+The customer provides us with the IBAN LY83 002 048 0000201001 20361.
+•
+The first two characters of a Libyan are "LY", which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The next three characters of the IBAN represent the 3-digit bank code.
+•
+The next three characters of the IBAN represent the 3-digit branch code.
+•
+The last 15 characters represent the 15-digits account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740002216
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “R” designated for Libya; and
+•
+Code 15-digit account number derived from the IBAN
+3. Obtain the following information:
+•
+RTN: 740002216
+•
+Checking
+•
+DAN: R000020100120361
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER:
+740002216 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: R000020100120361
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 740002216
+•
+DAN- CR000020100120361

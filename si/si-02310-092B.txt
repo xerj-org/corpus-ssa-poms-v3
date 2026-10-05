@@ -1,0 +1,82 @@
+SSA Program Operations Manual System (POMS) - SI 02310.092 - Processing Title XVI Federal Bureau of Prison PUPS Alerts
+Effective Dates: 06/19/2015 - Present | TN 73 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310092 (fetched 2026-10-04)
+
+B. Procedure special inmate information provided by BOP under the SSA/BOP computer reporting
+agreements
+1. BOP inmate information 4/4/02 and continuing
+BOP Data on PUPS Alert/Report
+Values for the Field
+Information About the BOP Inmate Data
+Inmate Status Code
+Y
+Convicted (individual has been convicted of a crime i.e., felony or misdemeanor).
+C
+Confined but not convicted (individual is confined in a correctional institution but
+has not been convicted of a crime).
+P
+Parole/Probation Violator (individual has violated parole or probation). An official
+determination has been made to return the individual to confinement at a correctional
+institution.
+Released Date
+Blank
+BOP does not provide SSA with released dates. See SI 02310.092E.5.a. for information on obtaining released date information for BOP inmates that are now
+released.
+Correctional Facility Identification Code
+6-digit FID Code
+BOP provides SSA with a 3 digit-facility code the PUPS system converts into a 6-digit
+BOP facility code located on IRCS. PUPS will translate the 6-digit code to the name
+of the correlating correctional facility on actionable PUPS alerts.
+See SI 02310.092D.2. for instructions on determining the FID code if it is blank on the PUPS alert.
+NOTE: BOP's correctional facility code represents the inmate's place of confinement or
+destination of confinement at the time the report was prepared. If the inmate is "In-Transit"
+from one BOP correctional facility to another, the facility code will change from
+one monthly report to another.
+Date of Confinement
+MM/YY/YYYY and the Inmate Status Codes of:
+Y or C
+For the Inmate Status Codes of "Y" or "C," BOP provides a date of confinement equal
+to the date that BOP assigns the inmate to the correctional facility and is under BOP custody.
+MM/YY/YYYY and the Inmate Status Code of:
+P
+The date for code P represents the date the inmate was returned to BOP custody because
+the inmate's parole or probation has been officially revoked.
+2. BOP inmate information 10/03/99 through 4/3/02
+BOP Data on PUPS Alert/Report
+Values for the Field
+Information About the BOP Inmate Data
+Inmate Status Code
+Y
+Convicted and sentenced to more than 12 months;
+S
+Convicted and sentenced to 12 months or less
+N
+Convicted, sentence length is not known
+D
+Not convicted (pre-trial inmates, individuals awaiting medical/mental examinations,
+etc.) (See SI 02310.092A.4. for the dependency relationship with the date of confinement and the inmate status
+code of "D.")
+Released Date
+Blank
+BOP does not provide SSA with released dates. See SI 02310.092E.5.a. for information on obtaining released date information for BOP inmates that are now
+released.
+Correctional Facility Identification Code
+6-digit FID Code
+BOP provides SSA with a 3 digit-facility code the PUPS system converts into a 6-digit
+BOP facility code located on IRCS. PUPS will translate the 6-digit code to the name
+of the correlating correctional facility on actionable PUPS alerts.
+See SI 02310.092D.2. for instructions on determining the FID code if it is blank on the PUPS alert.
+NOTE: BOP's correctional facility code represents the inmate's place of confinement or
+destination of confinement at the time the report was prepared. If the inmate is "In-Transit"
+from one BOP correctional facility to another, the facility code will change from
+one monthly report to another.
+Date of Confinement
+MM/YY/YYYY and the Inmate Status Codes of: Y, S & N
+For the Inmate Status Codes of "Y," S, N, BOP provides a date of confinement equal
+to the date that BOP assigns the inmate to the correctional facility and is under BOP custody.
+MM/YY/YYYY and the Inmate Status Code of: D
+For the Inmate Status Codes of "D," BOP provides the date that BOP admits the inmate
+to a BOP facility. If SSA receives multiple reports of confinement for the same inmate
+and the inmate status code remains "D" and the reporter code remains "3BOP," assume
+the earliest reported date of confinement for this inmate is the actual initial date
+of confinement.

@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - GN 02401.901 - Limited Payability Policy for Title II and Title XVI
+Effective Dates: 05/28/2024 - Present | TN 48 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401901 (fetched 2026-10-04)
+
+D. Limited Payability (LP) exception policy
+If an LP credit, correction, determination, or reversal does not process, the item
+rejects and generates an exception for investigation.
+1. Title II LP exception process
+When an initial LP action does not process, the item rejects to the processing center
+(PC) for investigation. The system generates two types of exceptions: RCCOLA RCLIMEX
+exceptions and LP REACT exceptions. The exception indicates only the first error condition.
+The PC technician must thoroughly review the exception and reenter the correct data,
+when possible, via the intranet SSA-4208 (Reclamation Data Input) form.
+NOTE: Actions taken using the intranet SSA-4208 (Reclamation Data Input) form to correct
+the exception will not produce a notice. The PC technician must prepare a manual notice
+identifying the uncashed check(s), using the language shown in SM 00624.400E.
+2. Title XVI LP exception process
+The Title XVI system receives LP credits on daily files from Treasury. When an initial
+LP transaction does not process and post to the SSR, the item rejects for investigation.
+SSI systems processes the rejected transactions to exception files made available
+on a daily basis to the Division of Benefit Certification and Systems Analysis (DBCSA),
+Treasury Operations Branch (TOB). Treasury sends TOB a listing of all the excepted
+LP credits. TOB analyzes the SSR to determine why the transaction rejected and if
+the system posted the credit. If the credit is:
+•
+on the record, the TOB technician purges the exception from the list; or
+•
+not on the record, TOB updates the credit to the UCI field on the SSR. The update
+sends a K5 alert to the servicing FO and sets a K5 diary on the SSR. The FO will then
+process the credit using instructions in GN 02401.904B.

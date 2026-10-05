@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 11080.005 - Processing Consolidated Omnibus Budget Reconciliation Act (COBRA) Disability Cases
+Effective Dates: 04/08/2024 - Present | TN 9 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411080005 (fetched 2026-10-04)
+
+C. Individual meets the non-disability requirements for Title XVI disability benefits
+When an individual applies for COBRA extension, we must still process the case in
+the Modernized Supplemental Security Income Claims System (MSSICS). To ensure proper
+handling of COBRA cases use the following procedures:
+1.
+Take a full Supplemental Security Income (SSI) disability claim in the MSSICS:
+•
+Add COBRA as an ISSUE on the Development Worksheet screen to help identify COBRA cases
+easily;
+•
+Add the date of the application to the REQ field;
+•
+Tickle for the first follow up with the DDS for 30 days;
+•
+Receipt in the issue with the date the DDS returns the medical determination; and
+•
+Ensure the ADIB screen is complete and the Development Worksheet has the DDSDEC issue
+to control for case return from the DDS.
+2.
+Complete EDCS screens for the SSI claim:
+•
+Complete an SSA-5002 (Report of Contact). Include the statement: Individual must meet
+the medical requirements for disability during the period MM/DD/YYYY through MM/DD/YYYY
+to qualify for extension of COBRA continuation coverage. Include the primary beneficiary
+name and social. (Enter the dates of the first 60 days of COBRA coverage);
+•
+Annotate COBRA case and the date that the employee must notify the health plan administrator
+on the SSA-5002 (end of initial 18 months of COBRA coverage) and in the remarks section
+of the SSA-3367 (Disability ReportField Office);
+•
+Add the Special Handling flag, and annotate COBRA Case in the description field to
+ensure that the DDS can easily identify the COBRA case and make a timely determination;
+and
+•
+Transfer the case to the DDS.
+NOTE: Claims in which the individual requests to file for disability benefits and requests
+a COBRA determination are the jurisdiction of the DDS. (COBRA only determinations
+are the jurisdiction of the ODO DCR. See DI 11080.005E in this section).
+3.
+Upon receipt of a Title XVI allowance, prepare a separate letter for the individual
+advising him or her of the date of onset and that he or she meets the disability criteria
+under Title XVI of the Social Security Act within the first 60 days of COBRA coverage.
+This should be on the SSA-5002.
+IMPORTANT: The systems generated Title XVI allowance notice will not have the actual established
+onset date (EOD) determined by the DDS. It is best for the claims specialist (CSR)
+to use the notice general notice template housed in the Document Processing System
+(DPS) to manually generate a notice and input the correct EOD. Advise the individual
+to use the award notice to notify the plan administrator. For non-electronic cases,
+follow routing instructions in DI 11080.005D.2. in this section.

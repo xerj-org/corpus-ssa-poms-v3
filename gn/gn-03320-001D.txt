@@ -1,0 +1,120 @@
+SSA Program Operations Manual System (POMS) - GN 03320.001 - Disclosure of Tax Return Information
+Effective Dates: 12/19/2017 - Present | TN 17 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203320001 (fetched 2026-10-04)
+
+D. Definitions
+1. Tax return information
+Tax return information in our possession means such information as defined in the
+IRC. In part, the IRC defines “return information” as “a taxpayer's identity, the
+nature, source, or amount of his income, payments, receipts, deductions, exemptions,
+credits, assets, liabilities, net worth, tax liability, tax withheld, deficiencies,
+over-assessments, or tax payments.” (26
+U.S.C. §
+6103(b))
+Examples of tax return information:
+•
+Any tax return or schedule filed with the IRS or with us for the IRS;
+•
+Form SS-4 (Application for Employer Identification Number) and any information derived
+from this form;
+•
+Any information taken from such a return or schedule, whether the information is kept
+separate or is incorporated into a system of records;
+•
+Any information pertaining to identifiable taxpayers that has been taken from returns
+and schedules, including Summary Earnings Query (SEQY), Detail Earnings Query (DEQY),
+and the Full Claims Earnings Record (FCER);
+•
+Earnings information that is a part of the Informational/Certified Earnings Records
+System (ICERS);
+•
+Earnings information on the Interactive Computation Facility (ICF);
+•
+Earnings information reported directly to us by employers on Form W-2 such as employer
+names and addresses, employee first and last names and Social Security numbers (SSN),
+the amount of wages earned and the period(s) during which such wages were earned;
+•
+Business addresses of self-employed individuals and the identities and addresses of
+employers of individuals if taken from IRS records;
+•
+Earnings data received by us from IRS prior to 1/1/1976;
+•
+The summary earnings portion of the Social Security Statement online query output;
+and
+•
+Tax returns and employer reports (schedules attached to Form 941, the Employer's Quarterly
+Federal Tax Return) filed with IRS. This also includes Form 942, which IRS used prior
+to 1978 for reporting wages of household and agricultural employees.
+•
+DECOR letters (currently suspended) – We prepared and sent DECOR letters, commonly
+referred to as employee “no-match” letters, to employees, self-employed persons, and
+employers (only when there was no valid employee address), relating to Form W-2 reports
+and self-employment income reported on the Schedule SE in which the first and last
+name and SSN combination does not match our records.
+•
+EDCOR letters – We are sending EDCOR letters to employers, commonly referred to as
+employer "no-match" letters.
+a. Detailed Earnings Query (DEQY)
+A DEQY is an immediate response online query that displays requested earnings information
+and related data such as the wage earner’s first and last name and SSN extracted from
+the Master Earnings File (MEF) and or the Employer Identification File (EIF). For
+a detailed discussion of the DEQY, see SM 00344.000.
+The types of earnings information and related data displayed on a DEQY are:
+•
+Wage earner’s SSN, first and last name, date of birth (month and year), and sex (if
+available) (If the input SSN for a DEQY is cross-referred to another SSN, the cross-referred
+SSN will appear on the DEQY, see SM 00344.008.)
+•
+Covered wage details
+•
+Self-employment earnings details
+•
+Medicare for Qualified Government Employment (MQGE) and Health Insurance (HI) excess
+Medicare details
+•
+Non-covered earnings details
+•
+Pension information
+•
+Railroad employment data
+•
+Special wage payment data
+•
+Employer address information
+•
+Last employer address information
+b. Summary Earnings Query (SEQY)
+A SEQY is an immediate response online query that displays yearly earnings totals
+and the corresponding years from the wage report extracted from the MEF. The SEQY
+contains the wage earner’s SSN, first and last name, date of birth (month and year),
+and sex (if available). (If the input SSN for a SEQY cross-refers to another SSN,
+the cross-referenced SSN will appear on the SEQY.) For additional information about
+the entries on the SEQY, see SM 00345.900.
+c. Earnings portion of the Social Security Statement
+The portion of the statement identifying a person’s earnings is tax return information.
+d. Earnings record(s)
+Earnings record(s) information refers generically to any of the various forms of tax
+return information defined in GN 03320.001D.1. in this section.
+2. Non-tax return information
+Non-tax return information is any earnings or wage information we receive from any
+source other than a tax return or schedule filed with IRS, as well as information
+such as benefit entitlement or eligibility data, payment data, and medical records.
+Examples of wage and employment data that are non-tax return information:
+•
+Form SSA-1099 (including deceased individuals);
+•
+Quarters of coverage (QC) and average current earnings (ACE);
+(Although QC and ACE data are derived from tax return information, the IRS formally
+advised us that these data are not tax return information because once we use this
+information in our computations, the tax return information cannot be “backed out”);
+•
+Earnings or wage data provided to us by the wage earner or self-employed person from
+their own records (e.g., W-2 or photocopies of the person's tax return);
+•
+Information furnished by an employer other than on a tax report filed with IRS (e.g.,
+forms SSA-7010-U5 (Notice of Determination of FICA Wages) or SSA-7011-F4 (Statement
+of Employer)); and
+•
+Employee State government tax returns filed with us prior to January 1, 1987 for Social
+Security coverage. (State government employees file these returns with IRS beginning
+January 1, 1987. The IRS defines them as tax return information).

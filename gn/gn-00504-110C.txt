@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 00504.110 - When We May Suspend Benefits
+Effective Dates: 04/15/2016 - Present | TN 36 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504110 (fetched 2026-10-04)
+
+C. How to suspend benefits
+If you determine that we cannot pay the beneficiary directly while resolving the representative
+payee issue use the following guidelines to suspend benefits.
+1. Suspending an initial award
+Process the initial “no payment” award suspending all benefits, and promptly continue
+representative payee development.
+a. Suspending title II claims
+•
+Establish the Master Beneficiary Record (MBR)
+•
+Input the payee issue using the Special Message Field on the (CIPM) screen (MS 05601.001)
+NOTE: Modernized Claims System (MCS) can process these claims and build a notice based on
+the suspension action.
+b. Suspending title XVI claims
+Prepare a manual award notice, using language in NL 00801.010B.2.
+Input the payee issue in the Remarks field.
+2. Suspending benefits after adjudicating the claim
+•
+Input the suspense code action (S8/S08). The system generates the appropriate notice
+language.
+•
+Expedite payee development.
+•
+Suspend payment for reason “whereabouts unknown” rather than for representative payee
+development if you are unable to make direct payment because you cannot locate the
+beneficiary.
+•
+Input suspense code S9 for title II and enter “WHEREU” in the RFST field
+•
+Input suspense code S06 for title XVI.
+For more information on reasons for suspension or termination (RFST) see SM 00510.175C.11.
+For guidance on lack of representative payee or address unknown, see SM 01305.590.
+REMEMBER: If the reason for suspension is NOT suitable for the payee, you may contact the payee
+of record to act on the beneficiary's behalf in SSA related matters.
+3. Suspending concurrent claims
+Before suspending the claim
+•
+Determine if the beneficiary has concurrent claims.
+•
+Take appropriate action on both records.
+•
+Verify status on each by querying the MBR and Supplemental Security Record (SSR).
+•
+Query the Representative Payee System (eRPS) to determine if a payee application is
+pending.
+4. Documenting your reasons for suspending benefits
+Input the reason for suspense on the MBR/SSR, and indicate why direct payment is not
+possible.
+Input direct payment as an interim measure on the Report of Contact Details screen
+of eRPS (MS 07416.002).
+Input information for title II cases using the Special Message field of the MBR on
+the CIPM screen. Use the Remarks field to record this information on the SSR.
+Use language such as “pye died-direct payment prohibited - unable to locate payee
+- development in process” or “misuse by pye - substantial harm - new payee not available.”

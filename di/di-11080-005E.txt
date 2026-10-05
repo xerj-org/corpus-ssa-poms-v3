@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - DI 11080.005 - Processing Consolidated Omnibus Budget Reconciliation Act (COBRA) Disability Cases
+Effective Dates: 04/08/2024 - Present | TN 9 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411080005 (fetched 2026-10-04)
+
+E. Individual does NOT wish to file for disability benefits and does Not meet the non-disability
+requirements for Title II nor Title XVI
+Do not take a Title II application unless individual wants to file. If the individual
+does want to file a Title II application, process an abbreviated application (ABAP)
+in MCS. Otherwise, ensure the individual received a Title II close out notice. Also,
+close out Title XVI by issuing an SSI informal denial notice (SSA-L-991) or by securing
+and processing and an ABAP in MSSICS.
+1.
+Forward COBRA determinations requests to the ODO DCR, and take the following actions:
+•
+Complete a paper SSA-3368 (Disability Report Adult) or SSA-3820 (Disability Report
+Child) as needed;
+•
+Document medical sources from the alleged onset date;
+•
+Obtain as much medical evidence as possible from the applicant. If the claimant can
+obtain medical evidence not in his or her possession, advise him or her to bring it
+into the office immediately, but do not delay mailing the application and all related
+documents in the claims folder to PH-DCR more than two days;
+•
+Obtain an SSA-827 (Authorization to Disclose Information to the Social Security Administration);
+•
+Complete an SSA-5002 (Report of Contact). Include the statement: Individual must be
+found to meet the medical requirements for disability during the period MM/DD/YYYY
+through MM/DD/YYYY to qualify for extension of COBRA continuation coverage. (Enter
+the dates of the first 60 days of COBRA coverage);
+•
+Annotate COBRA case and the date that the employee must notify the health plan administrator
+on the SSA-5002 (end of initial 18 months of COBRA coverage) and in the remarks section
+of the SSA-3367 (Disability ReportField Office);
+•
+Assemble the material in a yellow modular folder; and
+•
+Add the Special Handling flag, and annotate COBRA Case in the description field to
+ensure that the ODO DCR can easily identify the COBRA case and make a timely determination.
+2.
+Do NOT prepare a disability determination and transmittal (SSA-831). Send COBRA only
+cases via UPS (express or overnight mail) annotate routing cover with COBRA Case.
+Mail to:
+Social Security Administration
+DIB Processing Branch
+Mail stop Room
+2312 (COBRA)
+6401 Security Blvd.
+Baltimore, MD 21235-6401
+3.
+Fax subsequent information provided by the claimant to the ODO DCR.The information
+should indicate that it should be associated with the pending COBRA case.Fax the information
+to 833-914-1671 for expeditious handling.
+4.
+The ODO DCR prepares and releases the appropriate notice for these cases and returns
+the completed case to the field office (FO), along with a special determination (SSA-553)
+of disability and a copy of the notice.
+•
+Use the Manual Development Worksheet (MDW) to control and document these cases. Retain
+the MDW in your jurisdiction for case control. You can verify receipt via DDS Query
+(DDSQ).
+•
+Retain COBRA files for individuals not entitled to benefits in the FO for six months
+to ensure that the information is still available should the claimant re-contact the
+FO. Files maybe destroyed after six months.

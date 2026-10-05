@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 03940.051 - Field Office Processing of Fee Agreements in Title XVI or Concurrent Titles II and XVI Claims Involving Mental Capability
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940051 (fetched 2026-10-04)
+
+B. Procedure
+1. Claims Specialist (CS) Actions — Development Incomplete
+If the issues of mental capability or payee development are pending when you effectuate
+the favorable decision and you are paying the claimant current benefits directly pending
+resolution of the capability issue or representative payee selection, take these actions:
+•
+Review the fee agreement to determine that it meets the statutory requirements of
+the Act for approval and is not otherwise excepted (see GN 03940.003).
+EXCEPTION: Do not approve the fee agreement for claims already decided by the Title II CS or
+decided at the hearing or Appeals Council review level. You are not the decision maker
+at these levels.
+•
+Document your determination on a Form SSA-553 (Special Determination).
+•
+Complete the representative data in the “AUTH Segment” on the supplemental security
+record (SSR). On the UFEE screen (see MS 00302.014), for the FEE SITUATION field,
+select "1,” Unresolved Fee Agreement/Petition. If the representative has not waived
+a fee and is eligible for direct payment, make sure direct payment is indicated on
+the SSR.
+•
+Prepare a manual notice advising the parties that you will defer authorizing a fee
+under the fee agreement process until after resolution of the capability issue. If
+the representative has not waived a fee and is eligible for direct payment or there
+is an entity with a valid assignment, also advise that you are withholding past-due
+benefits for possible direct payment to the representative or to the entity.
+NOTE: An entity is not a party to the fee agreement (see GN 03940.003B.2 and GN 03960.001D.5) and will generally not need to receive a copy of this notice. If there is a valid
+assignment of direct payment of a representative’s fee to an entity, the entity’s
+point of contact (POC) may need to review fee-related information to resolve fee-related
+issues. However, do not send a copy of the award notice or other protected information
+(e.g. claimant information) to the entity’s POC unless it is the minimum amount of
+information necessary for the POC to review it to resolve fee-related issues. Only
+disclose information that is not relevant or necessary to resolve fee-related issues
+if the claimant has expressly consented on a Form SSA-3288 or other written consent
+that meets the requirements of GN 03305.003. For information on assignment of direct payment of fees, including the roles and
+responsibilities of a POC, see GN 03920.021.
+2. CS Actions — Development Complete
+If you have resolved the issues of mental capability and selection of a representative
+payee, take these actions:
+•
+Change the FEE SITUATION status to “2,” “Resolved Fee Agreement.”
+•
+Authorize a fee under the fee agreement process following the instructions in GN 03940.046A for Title XVI only claims and GN 03940.050C in concurrent claims.
+•
+When the fee is computed, the system will issue a notice advising the parties (i.e.,
+the representative and the claimant,) of the authorized fee and of the right to request
+administrative review. The system will also make direct payment to the representative,
+if the representative is eligible for direct payment, or to the eligible entity if
+there is a valid assignment, and include direct payment information in the fee notice.
+•
+Notify the decision maker of the authorized fee by email, if the decision maker has
+requested notification.
+NOTE: The Supplemental Security Income (SSI) automated notice system will send a copy
+of the notice to the decision maker if the notice is automated.

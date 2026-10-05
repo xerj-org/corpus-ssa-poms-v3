@@ -1,0 +1,99 @@
+SSA Program Operations Manual System (POMS) - GN 02406.205 - Nonreceipt of Title XVI Underpayment Check/Type 2 and One-Time Payment/Type 4 Payment -- Field Office (FO) and Teleservice Center (TSC) Instructions
+Effective Dates: 01/09/2023 - Present | TN 101 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406205 (fetched 2026-10-04)
+
+D. Procedure when a recipient has a history of nonreceipt abuse
+This section provides instructions for handling allegations of nonreceipt from a recipient
+who has a possible history of nonreceipt abuse. In this situation, we need to know
+the status of the missing check BEFORE Treasury issues the replacement check. Take the appropriate action using the instructions
+in the following chart.
+For more information on the criteria for non-receipt abuse, see GN 02406.150.
+Step
+Action
+1
+Have seven days elapsed since the payment history run date?
+•
+If no, ask the recipient to call back after 7 days have elapsed.
+•
+If yes, input an A-Stop on the missing check.
+Go to Step 2.
+2
+Do not issue an AOTP at this
+point.
+•
+NOTE: Due to a recipient’s possible history of double check negotiation (DCN) abuse, we
+need to know if the recipient cashed the check.
+Go to Step 3.
+3
+Is this situation dire need (see criteria in SI
+02004.100)?
+If yes, go to Step 4.
+If no, go to Step 5.
+4
+When the recipient alleges dire need
+TSC
+The TSC must forward case to FO via priority MDW.
+FO
+The FO must issue an IP for up to $999 and enter “Dire need $______IP issued:’ in
+SSR RMKS segment.
+Explain to the recipient that the IP is an advance against future payments.
+Go to Step 5.
+Depending on systems cutoff dates, the full amount of the IP will be recovered from
+the first or second check issued after the IP is made.
+5
+Diary for three weeks and check the disposition code on the Treasury Status Query
+(UPTQ) in SSI Claims System.
+If Treasury sends a disposition code 32 (outstanding check cancelled; agency credit
+to follow) to the UPTQ:
+•
+Issue an AOTP for the full amount of the missing check.
+NOTE: Before issuing the AOTP, check the PMTH field to make sure the system has not already
+reissued the check
+•
+Enter “AOTP for MM/DD/YYYY CK’ in remarks on the SSR. STOP.
+NOTE: The AOTP will create an overpayment.
+•
+Diary the case for 60 days to ensure the credit is posted.
+•
+After the credit posts to the SSR, delete the overpayment .
+If Treasury sends a status code 11 (check paid, photocopy to follow) to the UPTQ:
+Do not issue an AOTP. Go to Step 6.
+6
+Does recipient allege forgery?
+If yes:
+•
+Have recipient complete the FMS-1133 claims package.
+•
+Forward the FMS-1133 and check photocopy to Treasury.
+•
+Keep the completed claims package copy for our records.
+•
+Establish a tickle file for 60 days.
+•
+Go to Step 7.
+If no:
+No additional benefits are due; no further action necessary. STOP.
+7
+After 60 days, is there a code on the SSR under the Payment
+history forgery indicator (SM 01601.835C.12) in the PMTH segment
+indicating a forgery determination from Treasury?
+If no, go to Step 8.
+If yes, go to Step
+9.
+8
+Does the SSR have a forgery indicator in the PMTH
+segment?
+•
+If yes, Check the TCIS for forgery information. Select the payment history tab for the payment
+and view the claims history information.
+•
+If no, contact Treasury’s call center at 855-868-0151 for status of the forgery claim.
+9
+Was the check forged?
+•
+If yes, issue an AOTP for the full amount of the missing check.
+•
+NOTE: Before issuing the AOTP, check the PMTH field to make sure the system has not already
+reissued the check. STOP.
+•
+If no, no additional benefits are due the recipient.

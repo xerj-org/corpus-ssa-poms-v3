@@ -1,0 +1,63 @@
+SSA Program Operations Manual System (POMS) - DI 81010.232 - Creating a Record for an Age 18 Disability Redetermination in the Electronic Disability Collect System (EDCS)
+Effective Dates: 03/02/2016 - Present | TN 72 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010232 (fetched 2026-10-04)
+
+C. Age 18 redetermination for medical creation in EDCS
+After verifying that the TMR field on the SSR has changed from child to adult (e.g.DI
+or BI), the eCDR can be transferred in EDCS.
+Upon opening EDCS for the Age 18 Disability Redetermination, the CR must complete
+the eCDR screens in the following order:
+•
+Enter the Recipient/Client SSN on the Disability Case Selection Page in EDCS;
+•
+Select “CDR Initial” on the Select Case Level screen;
+•
+Select “An Age 18 Redet” on the Confirm Case Creation screen;
+•
+EDCS automatically propagates the Comparison Point Decision (CPD) date field as 12
+months prior to the CDR case creation date (this date cannot be keyed over);
+•
+Select “Create Case” on the Confirm Case Creation screen to establish a case for this
+person.
+REMINDER: Change the claim type from DC/BC to DI/BI or DS/BS in the TMR field of the SSR prior
+to transferring the claim in EDCS.
+•
+Select the appropriate forms to be keyed into EDCS from the Forms Selection screen;
+(e.g., SSA-3368 (Disability Report - Adult), SSA-3369 (Work History Report) and SSA-3367
+(Disability Report-Field Office);
+•
+Select the appropriate folder to link from the Link Folder screen;
+•
+Ensure the correct mailing address, telephone number, and representative information
+has propagated from MSSICS;
+NOTE: If information (e.g. address, Representative Payee information) propagated from MSSICS
+is incorrect, the CR must key over the information in EDCS and also correct the information
+in the mainframe.
+•
+Enter the CDR information, SSA-3368 (Disability Report – Adult), SSA-3367 (Disability
+Report-Field Office), and SSA-3369 (Work History Report) data in EDCS on the Forms(s)
+Selection screen (See Completing Electronic Disability Collect System (EDCS) Forms
+for Initial Claims – DI 81010.025);
+•
+Enter the appropriate response concerning the need for DDS capability development
+(for information regarding determining capability see Representative Payment – Overview
+- GN 00502.001, Component Responsibilities - DI 23001.005, and When to Develop Capability - DI 23001.005B);
+IMPORTANT: If DDS capability development is needed, the answer “yes” will not propagate from the mainframe. However, once the information is entered on the CDR
+information screen, it is displayed on the SSA-3367 in the capability field.
+•
+Transfer the Age 18 Redet in EDCS;
+NOTE: EDCS automatically adds the “Potential 301 Case” flag at transfer when the answer
+to the Vocational Rehabilitation (VR) question on the SSA-3368 is “Yes”.
+•
+Ensure that the proper actions have been made on the Disability Control File (DCF)
+and CDR WAC Web Worksheet; and
+•
+Obtain the proper number of SSA-827s (Authorizations to Disclose Information to the
+Social Security Administration) from the claimant and forward to the disability determination
+service (DDS) per Regional instructions.
+REMINDER: The Update after Transfer functionality is not available for eCDR. Once an eCDR record
+has been established in EDCS and transferred to the DDS, there is no repropagate function
+for Age 18 Redeterminations. If the CR corrects information in MSSICS after they have
+already created and transferred the EDCS record for the Age 18 Redetermination, EDCS
+will not update. Changes, such as change of address, must be reported using a message
+and an SSA-5002 (Report of Contact) with narrative remarks.

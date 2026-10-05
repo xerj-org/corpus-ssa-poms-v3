@@ -1,0 +1,96 @@
+SSA Program Operations Manual System (POMS) - GN 02607.730 - Processing Cases Through PUPS After the Conviction/Commitment Is Confirmed
+Effective Dates: 06/25/2004 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607730 (fetched 2026-10-04)
+
+B. PROCEDURE - REOPENING OF PUPS RECORDS WHEN THE CONVICTION/COMMITMENT DATE IS KNOWN
+1. PUPS Record Previously Closed as "NO SUSPENSION" or TRIAL PENDING
+NOTE: If the PUPS record was previously closed as a "NO SUSPENSION" or a TRIAL PENDING
+action, do not post a conviction date to the PUPS record before reopening the PUPS
+record. (See MSOM PRISON 003.001-5 for reopening instructions for PUPS records.)
+Suspending Benefits After Reopening of PUPS Record
+•
+Mail advance notification to the beneficiary at the address of record on the MBR.
+NOTE: Do not change the mailing address of the beneficiary unless the beneficiary personally requests
+it.
+•
+On the PUPS Record take the following actions:
+Check to see if a PUPS automated processing exclusions exists for the PUPS record.
+See GN 02607.740 for PUPS Automated Processing Exclusion instructions. If no PUPS automated processing
+exclusion exists, continue process as indicated below:
+(See MSOM PRISON 003.001-5 for PUPS processing instructions on reopening of closed PUPS records.)
+ACTION
+PUPS DATA FIELD
+INPUT DATA
+SELECT
+TYPE OF ACTION =
+1 - SUSPEND BENEFITS
+POST
+ACTION
+EFFECTIVE DATE =
+the date suspension is effective
+POST
+CONFINEMENT TYPE =
+1 - PRISON or 2 - MENTAL
+CORRECT
+RECEIPT DATE =
+Change the receipt date to the date you learned of the conviction or the date the court order for commitment was obtained.
+POST
+NOTICE DATE =
+the date the advance notice is mailed
+POST
+DUE PROCESS DATE =
+1- 10 days or 2- 30 days
+CHECK & CORRECT
+REPORTER ID CODE =
+Reporter who gave SSA conviction information
+CHECK & CORRECT
+FACILITY ID CODE =
+Facility under the reporter who gave SSA conviction information
+CHECK & CORRECT
+CONFINEMENT DATE =
+the date the inmate was confined
+POST
+CONVICTION DATE =
+the date the inmate was convicted of a crime or
+the date the inmate was committed because of a court order
+CHECK
+RELEASED DATE =
+delete the released date from the PUPS record if one is present. You cannot suspend
+benefits through PUPS if a released date is on the PUPS record.
+POST
+REMARKS =
+add an explanation of the suspension action.
+•
+If there are multiple PUPS records for the same individual, PUPS generates a question,
+"OTH REPORT NUMBER ARE PENDING. SHOULD THESE BE CLEARED NO SUSPENSION (Y/N).” Answering
+this question with a "Y" allows you to clear all PENDING PUPS reports with a single
+input. Make sure that all other records are cleared as "NO SUSPENSION," except the
+one you are using to suspend benefits.
+NOTE: When choosing TYPE OF ACTION 1, "SUSPENSION" on the PUO2 screen, the PUPS record
+status is changed back to PENDING. Annotate all revised data elements to the PUPS
+record.
+•
+Forward the "PRONG FILE" case materials to the jurisdictional PC/OCO-ODO after you
+check the PUPS record to be sure it is closed. (See GN 02607.990 for addresses for
+the PCs/OCO-ODO.)
+•
+If the PUPS record does not close, use the 2795 Prisoner Processing Fax process to
+notify the PC/OCO-ODO to manually suspend the benefits. See GN 02607.995 for preparation of the 2795 Fax form. Leave the PUPS record PENDING, the suspension
+action will close the PUPS record when the MBR interface occurs. See GN 02607.750 for PUPS cases where a T2R exception precludes suspension processing for the PUPS
+record.
+•
+Transfer the PUPS PENDING record to the PC/OCO-ODO per GN 02607.465.
+NOTE (1): The ACTION EFFECTIVE DATE is the date SSA suspends benefits (places the beneficiary in LAF S7 on the MBR; i.e.,
+the DOST date) for prisoner/NGRI suspension.
+NOTE (2): If there is something wrong with the MBR or the case is a T2R exclusion, the jurisdictional
+PC/OCO-ODO automatically receives the T2R exception for suspension processing. See
+GN 02607.750 for instructions on processing T2R exception cases.
+NOTE (3): If a PUPS automated processing exclusion exists on the PUPS record, use the 2795
+FAX procedure to notify the PC/OCO-ODO to suspend the benefits. Close the PUPS PENDING
+Record as “NO SUSPENSION.” Add remarks to the PRMK screen to explain why the PUPS
+record was closed. See GN 02607.740 for additional instructions on processing PUPS automated processing exclusion cases.
+2. PUPS Record is Currently in "PENDING" Status (EXPECTED TRIAL DATE Entry Matured)
+Process as indicated in GN 02607.730B.1.
+3. PUPS Record is Currently In "TRIAL PENDING" Status (EXPECTED TRIAL DATE Diary Has
+Not Expired)
+Process as indicated in GN 02607.730B.1.

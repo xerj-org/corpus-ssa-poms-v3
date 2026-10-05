@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.409 - Coding Taiwan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402409 (fetched 2026-10-04)
+
+E. Description of IDD bank data for Taiwan
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us.
+The bank data on the MBR reflects 25 characters including the country code of K.

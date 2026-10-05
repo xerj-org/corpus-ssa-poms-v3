@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - SI 04070.030 - Development Required When a Prior SSI Determination or Decision is Reopened
+Effective Dates: 05/10/2023 - Present | TN 14 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504070030 (fetched 2026-10-04)
+
+G. Examples – Budget Month Income
+Although the examples involve deemed initial determinations, RMA could also be a consideration
+in a case involving an actual determination.
+1. Example - Budget Month Income Creates No Mispayment for the Barred Months
+On June 15, 2003, the FO learns that a SSI recipient had $30 more income than shown
+on their record beginning with January, 2001 and continuing, but they remain eligible
+throughout. The earliest determination the FO can reopen and revise is the July 1,
+2001 deemed initial determination. To change the payment amount for July 2001 and
+August 2001, the FO must input the correct amount of income received in May 2001 and
+June 2001. The input in this case is straightforward; the eligibility and payment
+determinations for months before July 2001 are not affected by the changes to the
+budget months.
+2. Example - Budget Month Income Creates an Incorrect Overpayment
+Bobby K. is a disabled child who lives with their parent. At a redetermination conducted
+in the office on June 15, 2003, the FO learns that Bobby's parent has been working
+since May 2001, making enough in some months to make Bobby ineligible. (The earliest
+month the FO can revise the determination for is July 2001.) In May 2001, Bobby's
+parent worked a lot of overtime and their deemed income caused Bobby to exceed the
+income limit. In June and July, they didn't earn that much and Bobby is eligible for
+these months. The wages fluctuate each month, but Bobby isn't ineligible again until
+December 2001. Although the wages for May and June must be input to correct the payment
+determination for July and August, this creates an erroneous overpayment for May and
+June, which are barred from correction. Therefore, the FO suppresses the automated
+notices and after the system computes the overpayment, the FO places the record in
+force due (PS M02) to change the due amount. The FO then terminates this record and
+starts a new one. The FO also prepares an SSA-L8155-U2 (Notice of Planned Action)
+and an overpayment notice because the automated notices were suppressed.
+3. Example - Budget Month Income Creates an Incorrect Overpayment in the Budget Months
+Barred to Correction
+On April 13, 1999, SSA staff initiated a redetermination. At that time, the Agency
+discovered that the individual was receiving more income than was previously reported
+but did not find fraud or similar fault. Consequently, SSA staff reviewed the period
+from March 1997 to March 1999, which was within 26 months. Under administrative finality,
+May 1997 is the earliest month that can be revised. Since budget month income will
+create an overpayment in this case, SSA should input the excess income, suppress automated
+notices, and wait for the record to compute the overpayment. Then, SSA should use
+the force due procedure (PS M02) to change the due amount on the SSR to the original
+amount so that the overpayment is zero for the 2 months (March & April) which are
+barred to correction. Once the record has been placed in PS M02, the record should
+be terminated and a start date record should be established. (See SI 04070.030F., MSOM BUSSR 002.001 E, and SM 02101.250.)
+4. Example - Budget Month Income Creates an Underpayment
+Based on a Federal benefit rate of $500 and countable income of $480, a SSI recipient
+was receiving $20 in SSI each month. At a redetermination interview on June 15, 2003,
+they reported that in May 2001 a friend gave them $1,000, making them ineligible in
+that month. At the same time, they stopped taking meals at their parents' house (May
+2001 was the last month they received this income). This in-kind support and maintenance
+was valued at $50 on the SSR. The FO determines that the earliest month for which
+the determination can be revised is July 2001 and so inputs the receipt of the $1,000
+income in May 2001 and removes the $50 income for June 2001 on so that payments for
+July 2001 and continuing will be computed correctly. However, these inputs will create
+an overpayment for May 2001 and an underpayment for June 2001 with a net underpayment
+for these two months. Because the underpayment for these two months is incorrect,
+the FO places a “U” TAC on the record when it inputs the income changes. Once the
+system has computed the underpayment, the FO deletes the “U” TAC and places the record
+in PS M02, force due, to change the due amount so that the total underpayment on the
+record does not include the amount for May and June of 2001. The FO issues an SSA-L8151-U2
+(Notice of Change in Payment).

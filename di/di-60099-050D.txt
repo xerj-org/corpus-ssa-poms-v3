@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - DI 60099.050 - Benefit Offset National Demonstration (BOND) Stand-Alone System (BSAS)
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099050 (fetched 2026-10-04)
+
+D. BSAS processing limitations
+The BSAS suspends processing if the BOND beneficiary’s own account number (BOAN) does
+not match the BOAN on the BSAS participant list, or there is no applicant disability
+cessation (ADC) date on the Master Beneficiary Record (MBR). BSAS performs a processing
+limitations check each time it takes action on a case.
+If any of the following characteristics apply, the BSAS cannot complete the action
+and creates a processing limitation:
+1.
+Deductions and reductions that apply to the MBA:
+•
+worker’s compensation (WC), and
+•
+government pension offset (GPO).
+2.
+Overpayments when:
+•
+partial recovery (PARREC) is greater than or equal to the MBA after offset is applied;
+•
+the incoming action creates an overpayment, and there is an existing overpayment in
+due process (i.e., beneficiary overpayment and underpayment date (BOUD) line on the
+recovery of overpayment accounting and reporting (ROAR)); and
+•
+the incoming action places the MBR into full suspension (LAF SQ) and partial recovery
+is on the MBR.
+3.
+Medicare, when the monthly benefit rate after offset is less than the SMI Medicare
+premium amount and requires a dictated notice.
+4.
+Child Disability Benefits (CDB), when the Monthly Benefit Amount (MBA) does not:
+•
+equal 75 percent of the primary insurance amount (PIA) survivor rate,
+•
+equal 50 percent of the PIA life rate.
+5.
+DWB, when the monthly benefit amount does not equal 71.5 percent of the PIA.
+6.
+Triple Entitlement; and
+7.
+Dual Entitlement, if the beneficiary receives a combined check. If we separate the
+checks, automated processing can occur.

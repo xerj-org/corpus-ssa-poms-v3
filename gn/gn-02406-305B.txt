@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - GN 02406.305 - Nonreceipt Alleged for Title XVI Recurring or Supplemental Payment and Forgery Indicator Alert
+Effective Dates: 01/27/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406305 (fetched 2026-10-04)
+
+B. Process for possible Double Check Negotiation (DCN) abuse alert
+The SSI system examines the payment history (PMTH Column F) on the most recent Supplemental
+Security Record (SSR) to determine if there is a possible DCN within the prior two
+years. If the system detects a possible DCN within the prior two years, the following
+alert shows at the bottom of the Missing Recurring or Supplemental Check (UPMR) screen
+when first displayed:
+ALERT: POSSIBLE DCN - SECOND PIN REQUIRED TO REPLACE NOW – PRESS PF1 FOR HELP

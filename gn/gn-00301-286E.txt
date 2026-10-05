@@ -1,0 +1,183 @@
+SSA Program Operations Manual System (POMS) - GN 00301.286 - Electronic Evidence Documentation and Retention
+Effective Dates: 06/14/2023 - Present | TN 125 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200301286 (fetched 2026-10-04)
+
+E. Procedure for documenting evidence on the EVID screen
+Record evidence not captured on MCS or Person Information in CCE on EVID using the
+following instructions.
+REMINDER: If an individual brings documents for a Workload Support Unit (WSU) pending claim
+into the FO, follow the instructions in GN 01070.781.
+IMPORTANT: If the document appears fraudulent or suspicious, see GN 00301.045 and GN 00301.050. Also, see the Documentation Verification
+Website.
+1. Accepting FO certification of evidence
+All subsequent claims-handling personnel are to accept the FO certification of evidence
+for adjudicative purposes unless there is a subsequent indication that the evidence
+was forged or otherwise fraudulent. For personnel authorized to certify documents
+and records, see GN 00301.090.
+2. Recording document information on the EVID screen
+a. Audit trail and supporting evidence
+Record sufficient information from the evidence as described in GN 00301.288 to:
+•
+establish an audit trail and permit obtaining the document; and
+•
+support the determination made as a result of the evidence when viewed in combination
+with the MCS/Person Information in CCE detail screens.
+REMINDER: Once completed, the EVID screen cannot be updated. EVID can only be deleted by management.
+Complete all document information; including all pertinent annotations in the free
+form “COMMENTS” field, e.g., document does not prove issue, discrepancy between document
+and allegation, claim taken on paper.
+b. Conflicting information exists
+If the information conflicts with the information on the application, record the conflict
+in the “COMMENTS” portion of EVID, see GN 00301.288E.5.
+NOTE: If additional documentation is needed after completion of the EVID, use the MCS
+RPOC or the Report of Contact page in CCE as needed for comments.
+c. Evidence received via online access to State and local databases
+If evidence certified by the custodian of record is received via online access to
+State or local databases, record online access to State or local databases as the
+source of the evidence in the “COMMENTS” field of EVID to avoid any future discrepancies
+that may result from the subsequent submission of a paper document, see GN 00301.288G.6.
+3. Documents and forms not to record on the EVID screen
+Do not use the EVID to record the documents or forms listed, as follows:
+a. Documents not to code on the EVID screen
+Do not code the following categories of documents on the EVID:
+•
+Alien registration document, e.g., I-551, I-766 or I-688. Fax both sides of the alien
+registration document into the Non-Disability Repository for Evidentiary Documents
+(NDRed) using the Evidence Portal;
+•
+Medical evidence of record (MER);
+•
+Foreign language documents translated by someone other than a SSA employee;
+•
+Workers' Compensation Public Disability Benefit (WC/PDB) documents must be permanently
+retained by faxing them into the Certified Electronic Folder to provide the most comprehensive
+documentation. Annotating the Evidence Screen, or coding proof in Interactive Computation
+Facility is not sufficient since WC/PDB verification often involves complex State-specific
+forms and documents that routinely involve a certain degree of interpretation.
+•
+Extraneous documents, i.e., documents submitted which have no bearing on a determination
+of the factor of eligibility.
+•
+Trust language/information, see documentation guidelines in SI 01120.200- SI 01120.203.
+b. Forms not to code on the EVID screen
+Do not code the following SSA forms on the EVID.
+•
+SSA- 21, Supplement to Claim of Person Outside the United States
+•
+SSA-552, Dedicated Account Use of Funds Statement
+•
+SSA-624-F5, Representative Payee Evaluation Report
+•
+SSA-662, Reconsideration Determination
+•
+SSA-723-F4, Statement Regarding Presumed Death Due to Unexplained Absence
+•
+SSA-753, Statement Regarding Marriage
+•
+SSA-754, Statement of Marital Relationship
+•
+SSA-760-F4, Certificate of Support
+•
+SSA-766, Statement of Self Employment Income
+•
+SSA-781, Certificate of Care and Responsibility for Welfare of Child Not in Applicant’s
+Custody
+•
+SSA-783, Statement Regarding Contributions
+•
+SSA- 924, Folder Documentation
+•
+SSA-2514, Claimant's Intent to File
+•
+SSA-2519, Child Relationship Statement
+•
+SSA- 2854/SSA- 2855, Statement of Funds You Provided to Another/Statement of Funds
+You Received
+•
+SSA-2894, used to adjust Title II income and offset
+•
+SSA-4162, Child-Care Dropout Questionnaire
+•
+SSA-4164, Advance Notification of Representative Payee
+•
+SSA-4169, used to document burial expenses
+•
+SSA-4345-U2, Record of Manual Title II Offset Computation
+•
+SSA-4346, SSI Offset Summary
+•
+SSA- 4968, SSI RMA Payment Worksheet
+•
+SSA-6233-BK, Representative Payee Report of Benefits and Dedicated Accounts
+•
+SSA-7104, Partnership Questionnaire
+•
+SSA- 7156, Farm Self Employment Questionnaire
+•
+SSA-7157-F4, Farm Arrangement Questionnaire
+•
+SSA-8019, Third Party Liability Information Statement
+•
+SSA-8060, used to document claimant's intent to sell excess resources
+•
+SSA-8102, Advance Payment Receipt and Notice
+•
+SSA-8450, District Office Record of Reconsideration
+4. Evidence to code on the EVID screen
+Use the EVID to record the evidence listed in this section.
+a.
+domestic evidentiary documents not captured on MCS/Person Information in CCE;
+b.
+evidentiary documents not captured on MCS/Person Information in CCE that are used
+in a special determination to resolve a material discrepancy or complex entitlement
+issue, see GN 01010.360;
+c.
+English language documents that originate in one of the countries listed in GN 00301.288D.;
+d.
+evidence certified by the custodian of record obtained through online access to State
+data; and
+e.
+foreign language evidentiary documents that are:
+•
+submitted as proof in a domestic claim or are vital statistic documents submitted
+as proof in a foreign claim;
+•
+translated by SSA translators other than the adjudicator
+•
+translated by the adjudicator, see GN 00301.391;
+•
+created and issued domestically or by one of the countries listed in GN 00301.288D.; or
+•
+created and issued by a country not listed in GN 00301.288D. If the document is from a country not listed in GN 00301.288D, keep a copy of the original document certified by the custodian of the record system.
+NOTE: SSA translators who receive documents for translation can code EVID even if they
+are not the adjudicator. When the SSA translator codes the translation to EVID, the
+CR, FR, or CA responsible for the claim may proceed with adjudication. If the SSA
+translator codes the translation on EVID, they do not need to complete the SSA-533,
+Translation Request.
+5. Recording evidence for concurrent and subsequent claims on EVID
+a. It is not necessary to record information twice in EVID
+If a concurrent or subsequent claim is filed under a different SSN (e.g., an SSI claim
+is filed for someone concurrently filing for widows benefits), it is not necessary
+to record evidence used for both claims twice. Annotate the evidence information on
+EVID using the claimant's SSN following GN 00301.288. Enter related SSN(s) in the “CROSS REFERENCE SSN” field(s).
+If the EVID screen has already been coded and thus is locked, use the MCS RPOC or
+the Report of Contact page in CCE as appropriate to capture additional information
+pertaining to the EVID screen.
+b. Evidence for concurrent or subsequent claims where one claim is not electronic
+In concurrent or subsequent claims situations where the first claim was taken electronically
+but the other claim(s) cannot be taken electronically, do not retain a copy of evidence
+documents in the paper file. In these situations, annotate the “REMARKS” section of
+the paper application with the system (e.g., MCS, CCE, and EVID) and the SSN used
+to electronically record the evidence.
+6. Retrieving a document coded on EVID
+When conducting integrity or assessment reviews or possible fraud situations, ask
+the claimant to resubmit pertinent evidentiary documents or contact the custodian
+of record and if needed, retain a certified photocopy of the evidentiary documents.
+7. Coding proofs previously established on the same SSN
+If our system of records shows we previously proved an issue and contains sufficient
+audit information, do not code the evidence on EVID in claims situations. This includes
+previously proven issues that do not need to be proven again, e.g., death, and issues previously proven for one program
+where another program uses the same criteria for proving the issue, e.g., age, see
+GN 00301.289A.3.
+8. Imaging a document
+For situations where the imaging of a document is an issue, see GN 01085.030.

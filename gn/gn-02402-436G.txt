@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02402.436 - Coding French Polynesia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/21/2023 - Present | TN 232 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402436 (fetched 2026-10-04)
+
+G. Example of coding French Polynesia direct deposit
+The customer provides us with a signup form for French Polynesia containing the account
+number: PF1420041010050500013M02606
+•
+The first character of IBAN is “PF,” represent the International Organization for
+Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the IBAN country code or check digit to the MBR.
+•
+The next 5 characters of the IBAN represents the bank code.
+•
+The last 18 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 720000144
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “M” designated for French Polynesia; and
+•
+Code the 16 digits of the 18-digit Account Number “010050500013M026”
+3. Obtain the following information
+•
+RTN: 720000144
+•
+Checking
+•
+DAN: M010050500013M026
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000144
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: M010050500013M026
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 720000144
+•
+DAN CM010050500013M026

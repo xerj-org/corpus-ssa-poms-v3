@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - GN 02607.710 - Selecting the Correct Inmate Report for Processing When Multiple Reports Exist
+Effective Dates: 01/08/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607710 (fetched 2026-10-04)
+
+A. Multiple Prisoner Update Processing System (PUPS) reports exist
+PUPS establishes inmate reports based on confinement dates. When PUPS establishes
+an inmate report, it assigns a report number. For a description of the report number,
+see MSOM PRISON 003.001.
+Often, facilities transmit multiple reports for the same inmate because they report:
+•
+using an improper format;
+•
+blank or "default" (00 for the day) confinement dates (For instructions on correcting
+blank or "default" confinement dates, see GN 02607.530.);
+•
+new confinement dates;
+•
+conviction dates;
+•
+moves between facilities; or
+•
+any combination of the above.
+When receiving multiple inmate reports, PUPS performs the following actions:
+•
+Assigns a new report number each time it receives a report with a new confinement
+date.
+•
+Maintains the existing report number when receiving a new report with the same confinement
+date. PUPS updates the existing report with any new data for the inmate.
+•
+Displays the latest inmate information and maintains a history for each report number.
+To view the revisions made in each report, complete the Show Report History field
+on the Prisoner Summary (PUST) screen. For more information on the PUST screen, see
+MSOM PRISON 003.004.
+1. Selecting a PUPS report for processing
+Review the PUST and Prison Report History (PURS) screens to determine which reports
+are pending and whether there are multiple reports for the same period of confinement.
+Take action on the Title XVI PUPS report effective with the earliest date of confinement.
+Take action on the Title II PUPS report effective with the earliest date the beneficiary
+is both convicted and confined. For instructions on suspending benefits, see GN 02607.700 and GN 02607.705.
+2. Clearing duplicate PUPS reports
+If you discover duplicate reports for the same period of confinement, clear the duplicates
+by entering:
+a.
+“2” (CLEAR CONTROL - NO SUSPENSION NECESSARY) in the SELECT TYPE OF ACTION field on
+the T2 Prisoner Update (PU02) screen or the T16 Prisoner Update (PU16) screen. (For
+more information on the PU02 and PU16 screens, see MSOM PRISON 003.006 and MSOM PRISON
+003.008); and
+b.
+the remark "Duplicate record--suspension processed on PUPS record XX" on the Prisoner
+Remarks (PRMK) screen on each duplicate record. (For more information on the PRMK
+screen, see MSOM PRISON 003.10.)

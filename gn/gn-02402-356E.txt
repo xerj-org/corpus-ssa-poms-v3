@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - GN 02402.356 - Coding Brazilian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 02/13/2018 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402356 (fetched 2026-10-04)
+
+E. Description of Brazilian IDD bank data
+The data for coding IDD for Brazil comes from banks determined by the FRBKC. Beneficiaries
+need to ask their bank to provide the bank and branch number for enrollment. Additionally,
+technicians must derive the account number from the last 12 digits of the International
+Bank Account Number (IBAN) provided by the beneficiary. The bank data for Brazil consists
+of 19 characters. However, the bank data reflected on the MBR will reflect up to 24
+characters including the country code of B for Brazil.

@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - DI 60099.030 - Field Office (FO), Processing Service Center (PSC), and National 800 Number Network (N8NN) Responsibilities under the Benefit Offset National Demonstration (BOND)
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099030 (fetched 2026-10-04)
+
+C. Process work CDRs
+How work CDRs are processed:
+•
+eWork identifies a participant in the BOND project and modifies the notice feature
+for cases with a BOND participant to prevent the generation of incorrect notices.
+•
+eWork automatically generates a BOND paragraph on the L1013 notice and IRP Decision
+notice reminding participants they are in BOND.
+1. FO and PSC processing work CDRs
+Under normal work CDR processing guidelines eWork allows FOs and PSCs to process the
+following BOND cases:
+•
+Trial work period (TWP) determinations;
+•
+Extended period of eligibility (EPE) continuances;
+•
+Initial reinstatement period (IRP) determinations for expedited reinstatement (EXR)
+cases; and
+•
+Work review period starting with the month following the BOND participation stop date
+on the DCF.
+See normal processing procedures:
+•
+DI 13010.023 Processing Center (PC) Responsibilities for Continuing Disability Reviews (CDRs)
+involving Work Activity
+•
+DI 13010.025 Field Office (FO) Responsibilities in Work Continuing Disability Reviews (CDRs)
+2. FO processing exclusions
+eWork does not allow an FO to process a work CDR that displays the DD (BOND) or D3
+(4-State demonstration cases) code in the DCF in the following instances:
+•
+Cases with a work cessation (applicant’s disability cessation (ADC) date and CDR =
+E) on the MBR and the beneficiary is still within the BOND participation period on
+the DCF; and
+•
+Cases that result in a work cessation determination for the current decision.
+Transfer these cases to L5R OFFICE L5R NO LONGER OPERATING per DI 60099.030D in this section.
+IMPORTANT: There are no restrictions on the FO, PSC, or N8NN for updating or changing the Supplemental
+Security Income (SSI) records of concurrently entitled BOND participants or beneficiaries.
+All requirements for wage reporting, changes of address, changes of living arrangement,
+etc. for SSI recipients continue (via the local FO) according to current policy.

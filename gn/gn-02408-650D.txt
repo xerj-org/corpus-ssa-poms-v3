@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02408.650 - Title II Beneficiary Receiving EFT Payments Dies After the End of the Month but Before the Payment Date
+Effective Dates: 04/19/2022 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408650 (fetched 2026-10-04)
+
+D. Process if the payment was due
+1. FI learns of the death
+When the FI learns that a beneficiary has died after the end of the month for which
+a payment is due, but before the payment date, the FI generally follows the same rule
+as if the payment were not due: the payment is returned to the Government agency.
+There is a risk to the FI if it does not return the money and later finds that the
+payment was actually not due. The FI is then liable if the funds have been removed
+from the account.
+2. FI asks SSA if a reclamation will be sent
+When the FI asks us if a reclamation will be sent, determine whether the payment is
+due. When the payment is due, inform the FI that no reclamation request will be sent.
+IMPORTANT: Do not provide a manual notice to the FI with the notice of death information
+regarding the Title II beneficiary or Title XVI recipient. The Death Notification
+Entry (DNE) per GN 02408.605 and Notice of Reclamation (NOR) per GN 02408.600 serve as ways for SSA to report death information to FIs.
+NOTE: SSA does not send a Notice of Reclamation (FS-133), for payments sent to a representative
+payee for a deceased beneficiary or recipient. A payment sent to a representative
+payee after the Title II beneficiary or Title XVI recipient's death is a legally defined
+overpayment. We process the overpayment, giving due process per GN 02408.615.
+3. EFT intercept (internal intercept)
+In certain situations, including death of the beneficiary, SSA intercepts the payment
+as it is on its way to Treasury. The payment never reaches the FI, even if it is due.
+It is shown on the Payment History Update System (PHUS) with EI as the reason for
+return.
+SEE DETAILS:
+•
+SM 00624.003 - Overview of the Electronic Funds Transfer (EFT) Intercept Hold Process
+•
+GN 02407.010B.1.b. - Processing Post-Entitlement (PE) Events for Cycles 2, 3, and
+4 During a “Window” Period
+When the FI, the estate, or a survivor reports nonreceipt of a final payment that
+was due the beneficiary, check the PHUS to see if the payment has been returned. When
+the return reason is EI, explain that the payment was automatically intercepted at
+SSA and an underpayment is due. For how to handle an underpayment inquiry, see GN 02408.650E in this section.
+4. Deciding who should receive the underpayment
+When a payment is returned, decide who is the correct person(s) to receive any underpayment
+that a deceased beneficiary was due. The statutory priority of those eligible to receive
+the underpayment for Title II is listed in GN 02301.030.

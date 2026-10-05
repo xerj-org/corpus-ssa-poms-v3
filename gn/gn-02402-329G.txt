@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.329 - Coding Sint Maarten Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 288 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402329 (fetched 2026-10-04)
+
+G. Example of coding Sint Maarten direct deposit
+The customer provides us with a signup form for Sint Maarten with the account number:
+"1234567890123."
+1. Derive the RTN:
+The technician enters the information for the RTN.
+•
+Code the RTN of 700000070
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN:
+The technician codes the DAN for Sint Maarten.
+•
+Start with the country code of “N” designated for Sint Maarten; and
+•
+Code up to 13 digits of the account number “1234567890123”
+a. Obtain the following information
+•
+RTN: 700000070
+•
+Checking
+•
+DAN: N1234567890123
+b. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000070
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: N1234567890123
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects the following information
+•
+RTN: 700000070
+•
+DAN: CN1234567890123

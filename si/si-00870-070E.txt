@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - SI 00870.070 - Suspension, Termination Or Resumption Of A Plan to Achieve Self-Support (PASS)
+Effective Dates: 12/16/2024 - Present | TN 52 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500870070 (fetched 2026-10-04)
+
+E. Final Accounting
+1. Conducting the Final Accounting
+The PASS expert conducts a final accounting when the PASS is suspended or terminated.
+The PASS expert compares the money spent on PASS approved expenditures (accounted
+items) with the excluded funds. The PASS expert determines whether the excluded funds
+and the approved expenditures are “equal” to each other. When the excluded funds equal,
+or are considered equal to, the approved expenditures, no further action is necessary.
+See examples in section 4 below.
+When the amount of the excluded funds is not equal to the amount spent on the approved
+expenditures, the PASS expert may need to make a retroactive adjustment to the record
+as discussed further in this section.
+2. Excluded Funds Equal Approved Expenditures
+Excluded funds are considered “equal” to approved expenditures if the total for the
+excluded funds does not exceed the total for approved expenditures (including items
+still planned to be purchased) by more than any administrative waiver tolerance amount
+in SI 02260.030. No overpayment will arise for periods during which the PASS was in effect as long
+as these figures are equal. See examples in section 4 below.
+NOTE:
+This “considered to equal” computation incorporates the instructions in GN 02250.350 that the agency may administratively waive an overpayment up to a tolerance amount;
+this applies the administrative waiver without requiring the individual with a suspended
+or terminated PASS to request a waiver.
+3. Excluded Funds Do Not Equal Approved Expenditures
+If the excluded funds exceed the approved expenditure amount by more than the tolerance
+discussed in section D.2, the participant must return the unaccounted excess funds
+to SSA. The PASS expert will calculate and remove type "D" income equal to the amount
+of unaccounted funds.
+Terminate the type "D" income exclusion in the EN field on the SSI record (SSR) see
+SM 01305.105 and SM 01305.101. Make any other changes as needed, such as inputs for
+other exclusions e.g. Impairment Related Work Exclusions (e.g. IRWE).
+Adjust the type "D" income retroactively as appropriate when the excluded funds exceed
+(and are not considered to equal) the approved expenditures. Do not make any retroactive
+input until you have completed a final accounting for the PASS.
+4. Examples of a Final Accounting
+Example 1: After the PASS expert determined that Mr. Johnson reached their goal as of 7/15,
+the PASS expert reconciles the approved PASS expenditures with the amount of excluded
+income. Mr. Johnson submits receipts totaling $5,350. The total amount of income excluded
+under the PASS was $5,700. Since the difference is less than the administrative waiver
+tolerance provided in GN 02250.350, ($1,000 for 7/15), no overpayment exists. If the difference was more than $1,000,
+the PASS expert would adjust the type “D” earned income retroactively.
+Example 2: During a progress review for a PASS that has been in existence for less than 12 months,
+the individual informs the PASS expert that they are no longer pursuing the goal.
+They set aside $1,200 of their SSDI benefit as explained in their plan. Although they
+saved the funds as required by the plan, they did not use the funds as planned. The
+PASS expert advise them that they will suspend the PASS unless they approve an amendment
+with a timetable and milestone(s) for using the saved funds. They do not wish to submit
+an amendment. The PASS expert offers to help them pursue a different work goal under
+a new PASS. They decline the offer. Because the expenditures do not equal the excluded
+income (and assuming that administrative finality is not a factor), the PASS expert
+adjusts the type “D” earned income back to the first month of the PASS.
+NOTE:
+The overpayment generated as a result of removing type “D” earned income will not
+always equal the amount of unaccounted for funds. The individual cannot be overpaid
+more SSI than they received regardless of the exclusion amount. For example, the PASS
+expert excluded $1,000 /month for 01/2018-03/2018 of SSDI benefits. Due to the exclusion,
+the individual received $910 /month in SSI (based on the claimants living arrangements,
+state supplement amount, etc.) for 01/2018-03/2018. After completing the accounting
+process, the individual had $3,000 of unaccounted PASS funds. As a result, the PASS
+expert removes all $3,000 of type “D” earned income from 01/2018-03/2018. The system
+recalculates SSI eligibility for 01/2018-03/2018 now using the previously excluded
+income, which results in ineligibility for all three months. The individual is overpaid
+$2,730. Even though the individual did not account for $3,000, they also did not receive
+$3,000 in SSI for the period.

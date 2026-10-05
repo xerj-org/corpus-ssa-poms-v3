@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02402.400 - Coding Kenya Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/05/2023 - Present | TN 240 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402400 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Kenya
+The customer provides us with a signup form for Kenya with the account number: 12345678901122334455667788990
+1.
+Code the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as “660000026”
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for checking.
+2.
+Code the DAN
+The technician codes the DAN:
+•
+Start with country code “X” designated for Kenya; and
+•
+Code 16 digits of the 29-digit Customer Account Number “1234567890112233”
+3.
+Technician obtains this information
+•
+Checking
+•
+DAN: X1234567890112233
+a.
+POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000026
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: X1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b.
+MBR reflects the direct deposit information
+•
+RTN 660000026
+•
+DAN CX1234567890112233

@@ -1,0 +1,181 @@
+SSA Program Operations Manual System (POMS) - SI 02310.092 - Processing Title XVI Federal Bureau of Prison PUPS Alerts
+Effective Dates: 06/19/2015 - Present | TN 73 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310092 (fetched 2026-10-04)
+
+E. Procedure -- actions on 3BOP PUPS alert/records after development completed
+1. Resolution of development of questionable identity
+a.
+If the recipient cannot provide all the identifying data or they cannot satisfactorily
+explain the discrepancy, or development to one of the other third party sources listed in SI 02310.092D.1. otherwise raises questions about the claimant's identity and does not resolve the discrepancy, then process per SI 02310.092E.1.b.
+b.
+Conduct a face-to-face interview and obtain additional proof of the claimant's identity
+per GN 00203.020A.4. and resolve the identity issue.
+c.
+If the recipient does not respond to a request for a face-to-face contact, assume
+the title XVI recipient identified on the PUPS record/alert is the inmate in BOP custody.
+2. FO processing based on the result of contact efforts for missing inmate information
+a. If the recipient or the representative payee responds and agrees with the report:
+•
+Input the appropriate suspension action through PUPS.
+•
+Follow Goldberg/Kelly procedures if applicable. (See SI 02301.300 for Goldberg/Kelly procedures.)
+b. If the recipient or the representative payee responds and disagrees with the report,
+and the third party confirms the report:
+•
+Conduct a face-to-face interview per GN 00203.003B.1.g.
+•
+Act on the inmate report from the third party per SI 02301.010C.3.
+•
+Update PUPS with the appropriate action necessary based on the result of the face-to-face
+interview and any additional development done to resolve disagreement between recipient
+and third party.
+•
+Apply Goldberg/Kelly due process procedures per SI 02301.300, if suspension applies.
+NOTE: If recipient will not respond to the request for a face-to-face interview, suspend
+benefits through PUPS effective with the date of confinement on the 3BOP PUPS alert
+after the inmate was in the correctional institution throughout a calendar month.
+Apply Goldberg/Kelly due process procedures per SI 02301.300.
+c. If the recipient or their representative payee responds and cannot provide the information,
+and the third party cannot provide the information to corroborate the report:
+•
+Suspend benefits via PUPS using the date of confinement on the 3BOP PUPS alert/record.
+Be sure the throughout a calendar month requirement has elapsed before suspending
+benefits through PUPS.
+•
+Apply Goldberg/Kelly due process procedures per SI 02301.300.
+d. If the recipient or their representative payee will not respond or will not cooperate
+and the third party cannot provide the information to corroborate the report:
+•
+Suspend benefits through PUPS using the date of confinement on the PUPS record.
+•
+Apply Goldberg/Kelly due process procedures per SI 02301.300
+3. Suspending benefits through PUPS
+•
+See GN 02607.705 for PUPS processing of suspension actions.
+•
+See GN 02607.705 for special PUPS processing actions.
+4. Goldberg/Kelly (G/K) due process requirements
+G/K due process procedures in SI 02301.300 (including a 10 day advance notice) apply to all suspensions of current SSI benefits
+for confinement in a public institution. During the G/K temporary period each month
+(see SI 02301.301C.2. for an explanation of the G/K temporary period), FOs must be sure to issue a manual
+G/K notice and input special Due Process Data (DPD entries) between the G/K cutoff
+date and the recurring cutoff date each month.. This will suppress the systems generated
+notice to stop the following month's benefit if it is not due. See PUPS instructions
+in MSOM Chapter 92 or SSA-1719B input instructions in SM 01305.530.
+5. Reinstatement for SSI inmates
+a. Evidence of release from BOP custody
+A recipient must provide SSA with official BOP discharge papers or proof of release
+from BOP custody in order for SSA to consider the inmate released. BOP states that
+they provide release documents to all individuals when they are released from BOP
+custody. If the recipient cannot locate their release documents and needs assistance
+in obtaining the document or proof of their release from BOP custody, see SI 02310.092E.5.b. for instructions on obtaining the release documents or verifying proof of release.
+b. Verifying proof of release or obtaining official release documents from BOP
+BOP now provides an Internet site that contains released inmate information. SSA can
+use this Internet site to verify official BOP released inmate documents for accuracy
+and completeness, if the BOP documents are missing information or need additional
+clarification. Also, if the beneficiary's official BOP release papers are not available,
+you may use information found on the BOP Internet site to represent proof of an inmate's
+release from a BOP correctional facility.
+•
+Ask the beneficiary at what BOP facility were they last incarcerated and the approximate
+date of their release from BOP custody.
+•
+Compare this information with the PUPS record to see if the beneficiary's report of
+their last incarceration at a BOP facility matches SSA's PUPS record. Use the information
+on the PUPS record (Inmate Identification Code) to query the BOP Inmate Locator Directory.
+•
+Using the BOP Inmate Locator Internet site:
+–
+Use the Internet and locate BOP's Internet site. You will use this site to locate and verify the released date information
+for an inmate.
+–
+Select "Inmate Locator" from the BOP main page.
+–
+On the Search Our Inmate Database page, "Search by Identification Number" heading,
+you will then continue your search by using:
+Number Type: Register Number Number: XXXXX-XXX (This will be the first eight digits of the ID number from the PUPS record)
+–
+Type the inmate ID number off the PUPS record in the Number field. (Type in the first
+5 digits of the number from the PUPS ID field then add a "-" and then type in the
+last 3 digits from the ID field on the PUPS Record. This is the SSN that BOP used
+to report the inmate to SSA and the number they use in the BOP inmate system to locate
+the inmate.)
+Example: ID number on PUPS record: 9999999900 Number on BOP Number field: 99999-999.
+–
+The search of the directory will provide a response similar to the following:
+Search Results for JANE DOE:
+Inmate Register Number: 99999-999
+Name: JANE DOE
+Age: 40
+Race: WHITE
+Sex: FEMALE
+Date Released: 3/31/2001
+After verifying the released date information from the BOP Internet site, document
+the PUPS records with your evidence review per SI 02310.092E.5.c.
+NOTE (1) If the beneficiary cannot provide a copy of their official release papers from BOP,
+you can use the released date information from the BOP Internet site as proof of the
+inmate's release from BOP custody. Document the PUPS record with the released inmate
+information as indicated in SI 02310.092E.5.c.
+NOTE (2) Do not use the BOP Internet site for any purpose other than obtaining released date
+information for a beneficiary or for obtaining information on filing FOIA requests
+with BOP. Using this website to access inmate information for any other reason than
+specifically stipulated in this procedure will violate SSA's matching agreement with
+the Federal Bureau of Prisons.
+c. Recipient cannot provide proof of release from a BOP correctional facility and proof
+of release is not on BOP internet site
+If the recipient cannot provide proof of their official release from a BOP correctional
+facility and the released inmate information is not available on the BOP Internet
+site, try to obtain verification of the beneficiary's release from other third party
+sources. See SI 2310.092.D.1.b. for other third party sources of contact for Bureau
+of Prisons inmate information. The recipient's parole officer, social worker, counselor,
+or attorney may provide the best information on the release of the inmate. You may
+also try to obtain the information from the PACER system. (See SI 02310.092D.1. for information about the PACER system.) See the instructions in GN 02607.790D.2.b. for information about accessing the PACER system.
+d. Documenting the third party contact's release information and documenting the PUPS
+record with released date information
+Documenting the Third Party Contact's Release Information
+•
+Obtain a signed statement by the third party source to confirm the recipient's release
+from the BOP correctional facility. Make sure the statement contains the name and
+address of the correctional facility that released the inmate, and the date and time
+of the release. Have the statement signed by the third party reporter. If the release
+information is taken over the phone by the SSA technician from the third party source,
+document the release on a report of contact and sign the statement. Make sure the
+statement contains the name, address, and telephone number of the third party source
+and the title of the third party source that provided the information to SSA.
+•
+If the release information is taken over the phone by the SSA technician from the
+third party source, document the release information on a report of contact and sign
+the statement. Make sure the statement contains the name, address, or telephone number
+of the third party source and the title of the third party source that provided the
+information to SSA.
+•
+Once you have verified the official release from BOP and the identity of the inmate,
+see GN 02607.875 for instructions on processing the reinstatement actions for title XVI cases.
+Documenting the PUPS Record With Released Date Information
+After reviewing and verifying the official BOP released documents for the inmate or
+reviewing the released inmate information from the BOP Internet site, you must add
+information to the PUPS record to document your evidentiary review.
+Documenting the PUPS record:
+•
+Add a released dated to the PUPS record to reflect the date the inmate was released
+from BOP's custody. See GN 02607.840A.2. for the effective date for reinstating benefits.)
+•
+Add a remark to the PUPS record to indicate that you are verifying the released date
+information you viewed to be accurate and indicate where you got the released date
+information. Also add the date you obtained the information and your name.
+See SI 02310.092E.5.f. for additional instructions on reinstating benefits to title XVI recipients.
+NOTE: Documenting the PUPS record with the appropriate remarks and adding the released
+date to the PUPS record will serve as evidentiary proof of release.
+e. Third party cannot verify release of inmate
+If the third party sources contacted cannot provide information on the beneficiary's
+release, have the beneficiary file a FOIA request for the release information from
+the Federal Bureau of Prisons. See SI 02310.092D.1.c. on obtaining FOIA requests from the Federal Bureau of Prisons. Once you have verified
+the official release from BOP and the identity of the inmate, see GN 02607.875 for instructions on processing the reinstatement actions for title XVI cases.
+NOTE: SSA employees should not directly contact any Federal Bureau of Prisons facility
+for release information for a title XVI recipient.
+f. Processing the reinstatement of benefits
+•
+See GN 02607.875 for instructions on establishing eligibility to title XVI benefits.
+•
+Post a released date to PUPS when reestablishing benefits to a title XVI recipient
+because they are no longer incarcerated.

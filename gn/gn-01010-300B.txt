@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - GN 01010.300 - Handling Unknown Address Claims
+Effective Dates: 07/26/2023 - Present | TN 63 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010300 (fetched 2026-10-04)
+
+B. Procedure for claims with continuing monthly benefits
+Use the following procedure when you cannot find a correct address for the number
+holder (NH) and immediate processing is necessary.
+1. Benefits payable to auxiliaries
+Continue to pursue the unknown address development on a post adjudicative basis when
+benefits are currently due to beneficiaries.
+a.
+If the claimant with the unknown address is the NH and auxiliary benefits are payable:
+•
+Show the last known address for the NH in the Modernized Claims System (MCS) address
+(ADDR) screen;
+•
+Use the report of contact (RPOC) screen to document the file describing the steps
+you took to locate the NH and the various responses received that led you to conclude
+that the NH's address is unknown.
+•
+Access the MCS suspension screen by selecting function # 8 (Suspension events) on
+the MCS System Menu (MENU) and select suspension code #12 (Develop for address) per
+MCS 009.016.
+•
+Establish a diary to control the address development using the MCS DECI screen, see
+GN 01010.260.
+•
+Process the claim via MCS Earnings Computation (EC) whenever possible, otherwise process
+manually via Automated 101 (A101).
+The Master Beneficiary Record (MBR) updates claims processed with proper “Address
+Unknown” coding to a suspense status “S-6”.
+NOTE: Exercise caution in approving the award if there is uncertainty regarding the NH's
+present work deduction status. Failure to enter proper deduction data could lead to
+substantial overpayments.
+b.
+If an auxiliary or survivor has an unknown address, the family maximum is involved
+and immediate payment is due to the other beneficiaries, process the claim as:
+•
+A partial award per GN 01010.110 and GN 01010.120; or
+•
+Delay payment to the claimant with the unknown address per GN 01010.140; and
+•
+Document the claims file using the RPOC to explain the partial adjudication reason
+or delay payment.
+2. Claims with no auxiliaries involved
+If the claimant is a sole survivor or a NH without auxiliaries and the address is
+unknown, place the beneficiary in suspense status S-6 (Address Unknown) using procedures
+in GN 01010.300B1.a.1.

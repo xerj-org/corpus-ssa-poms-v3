@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 81010.020 - Creating Electronic Disability Collect System (EDCS) Cases
+Effective Dates: 02/02/2024 - Present | TN 82 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010020 (fetched 2026-10-04)
+
+F. Curtailing completion of the EDCS 3368, i3368 or EDCS 3820
+EDCS allows curtailing disability data collection for some cases (i.e., Terminal Illness
+(TERI), Presumptive Disability (PD), Compassionate Allowance (CAL), and Military Service
+Casualty Cases (MSCC) cases). For details, see DI 11005.020.
+1. Choosing the curtailment option on the Form(s) Selection page
+If you choose the curtailment option on the Form(s) Selection page:
+•
+The EDCS 3369 (Work History Report) is grayed out,
+•
+EDCS does not allow you to select one of the associated radio buttons for form SSA-3369
+(i.e., Key, Paper, or None), and
+•
+EDCS does not allow you to collect information about work history, education, or training.
+2. Changing from curtailed to full development
+To change from curtailed to full development:
+•
+Return to the Form(s) Selection page, and
+•
+change the answer on the Curtail Form Completion question to "No."
+3. When you cannot curtail EDCS 3368 or EDCS 3820
+You cannot curtail full development of an EDCS 3368 or EDCS 3820 if:
+•
+You selected the paper option for form 3369-BK Work History Report on the Form(s)
+Selection page, or
+•
+an Internet Disability Report has propagated into the EDCS case.
+4. Curtailing the EDCS 3368 and i3368 for CAL cases
+a. Allegations from an i3368
+When the claimant completes the Conditions screen on the i3368, the Predictive Model
+(PM) runs to determine if one or more of the allegations entered are CAL conditions.
+If the PM determines there is a CAL condition, the i3368 curtails the job and education
+history sections.
+When the curtailed i3368 propagates to EDCS, EDCS automatically curtails the 3368,
+and the Curtail Form Completion field on the Form(s) Selection page defaults to "yes."
+If the i3368 is curtailed due to CAL, it remains curtailed in EDCS. The technician
+may add or modify conditions in the 3368, which could change the CAL indicator from
+"yes" to "no," but it will not uncurtail the 3368.
+b. FO keys allegations in EDCS 3368
+The FO technician may key in disabling allegations on the Medical Conditions and Physical
+and Mental Condition Information EDCS screens. After the technician leaves those screens,
+EDCS runs the PM and alerts the technician about the potential impact to curtailment.
+The technician can curtail the 3368 by changing the Curtail Form Completion to "yes"
+on the Form(s) Selection Page, unless one of the exceptions in DI 81010.020F.3 applies.
+c. Curtailing the EDCS 3820
+The PM does not run automatically when completing the EDCS 3820, so the Calculate CAL button remains
+on the 3820. However, you still have the ability to change curtailment at any point
+by changing the Curtail Form Completion answer on the Form(s) Selection page.
+EDCS runs the PM at transfer to DDS to determine whether Quick Disability Determination
+(QDD) or CAL applies. EDCS sends the most recent CAL indicator to the DDS.

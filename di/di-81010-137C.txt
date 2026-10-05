@@ -1,0 +1,142 @@
+SSA Program Operations Manual System (POMS) - DI 81010.137 - Receiving Documents Submitted through iAppeals
+Effective Dates: 12/28/2023 - Present | TN 70 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010137 (fetched 2026-10-04)
+
+C. FO transfer of cases that have Internet documents
+Prior to transfer of an EDCS case, the EDCS user must take action on documents submitted
+via Internet.
+1. FO action when user has not entered a retention action for associated document(s)
+a.
+If the EDCS user has not specified a retention action for one or more associated Internet
+documents, EDCS will present the following edits:
+1.
+When the Document Submission Status is “Successful,” EDCS presents an error message
+that directs the EDCS user to enter a retention action (retain or discard) for each
+document;
+2.
+Transfer is not possible if the submission status for one or more documents is “Processing.”
+If the Document Submission Status is “Processing,” EDCS presents an error message
+that directs the user to wait for the document(s) to become viewable. When the document
+becomes viewable, the user enters a retention action; or
+3.
+If the Retention Action for a document is “Retain” and the Document Type is “Other
+Evidence or Form,” EDCS presents an error message that directs the user to change
+the document type.
+b.
+The EDCS user resolves the edits by entering the correction on the Internet Documents
+page.
+2. FO transfer when all document edit conditions have been resolved
+EDCS does not prompt the user to review submitted documents. EDCS commits the retention
+actions for documents on the Internet Documents page automatically.
+a.
+For any document on the Internet Documents page where the retention action is Retain,
+EDCS:
+1.
+Tells DMA to move the document to the permanent location;
+2.
+Copies the metadata for the retained document to the case in the electronic folder;
+3.
+Removes the document from the Internet Documents page;
+4.
+Makes the document available for viewing on the Case Documents page in eView; and
+5.
+Makes the document and details visible on eView’s Internet Documents History page.
+Select the Internet Documents History link in the navigation tree under the eView
+Case Data tab to gain access to the Internet Documents History page.
+b.
+For any documents on the Internet Documents page where the retention Action is “Discard,”
+and the discard reason is not “Not Related to Case,” or “Third Party PII,” EDCS:
+1.
+Removes the document from the Internet Documents page; and,
+2.
+Makes the document image and details viewable through the eView Internet Documents
+History page. Select the Internet Documents History link in the navigation tree under
+the eView Case Data tab, to gain access to the Internet Documents History page.
+c.
+For any documents on the Internet Documents page where the retention action is “Discard,”
+and the discard reason is “Not related to Case,” or “Third Party PII,” EDCS:
+1.
+Tells DMA to discard the document;
+2.
+Remove the Document Control ID from the discarded document;
+3.
+Removes the document from the Internet Documents page; and
+4.
+Makes details about the discarded document viewable on the Internet Documents History
+page. The image of the document will not be available, however.
+d.
+If any of the document retention actions fail, the case transfer will fail.
+e.
+eView users can gain access to the Internet Documents History page from the eView
+navigation tree on the Case Data tab.
+f.
+eView will display the document status and retention action (retain or discard) associated
+with each Internet document on the Internet Documents History page. Select the Internet
+Documents History link in the navigation tree under the Case Data tab, to gain access
+to the eView Internet Documents History page.
+3. Associating documents after EDCS transfer
+It is possible that an EDCS user will create a case in EDCS before the IU uploads
+the documents they want to submit through iAppeals. Since the IU did not complete
+submission of the Internet documents before creation of the EDCS case, the Internet
+Documents page will be empty.
+If the IU subsequently submits the documents, the submission will appear on the iWMI
+listing (iAppeals and MSSICS). If after EDCS transfer, the iWMI listing(s) indicates
+receipt of Internet documents:
+a.
+Open EDCS and select the Internet Documents page;
+b.
+The upper box on the Internet Documents page will not show that any of the documents
+have been associated with the case. The documents will appear in the lower box in
+the Internet documents submitted for other filings table;
+c.
+Review the documents in the list. An Add to Case button will appear next to each document
+available for association with the case (Retention Status equals “Successful” or “Failed”);
+d.
+Select the Add to Case button for each document to consider for addition to the case.
+EDCS presents the Internet Document Detail page; and
+e.
+Update the document details. The Internet Document Detail page will activate the Send
+to EF, OK, and Cancel buttons, depending upon the retention action.
+f.
+When the user selects the OK button or Send to EF button EDCS presents any applicable
+edit conditions.
+1.
+If the Retention Status for a document is “Undecided” and the Document Submission
+Status is “Successful,” EDCS will present an error message that directs the user to
+enter a specific retention action (retain or discard) for the document.
+2.
+If the Document Retention Action is “Retain,” and the Document Type is “Other Evidence
+or Form,” EDCS will direct the user to change the document type.
+g.
+When the EDCS user resolves all the edits for a “Retain” action that has been sent
+to the EF, EDCS will:
+1.
+Notify DMA to move the document(s) to the permanent location;
+2.
+Copy the metadata for the retained documents to the case in the EF;
+3.
+Display a confirmation message, “The document has been sent to the Electronic Folder
+(EF) and is now viewable through eView’s Case Documents tab;”
+4.
+Return the EDCS user to the Internet Documents page; and
+5.
+Notify the office with jurisdiction of the case that Internet documents have been
+added to the case.
+h.
+When the EDCS user resolves all the edits for a Discard action and selects the OK
+button, EDCS will:
+1.
+Display a confirmation message that says, “Are you sure you want to discard the document?
+Discarded documents containing discard reason of ‘3rd Party PII’ or ‘Not Related to Case’ will be permanently deleted from DMA Viewer and
+cannot be accessed later.”
+2.
+If the user selects the OK button and the Discard Reason is “Third Party PII” or “Not
+Related to Case,” EDCS notifies DMA to delete the document.
+3.
+If the user selects the Cancel button, EDCS returns the user to the Internet Document
+Detail page without notifying DMA.
+4.
+The office with jurisdiction does not receive notice of any discarded documents.
+i.
+When the EDCS user selects the Cancel button, EDCS returns the user to the Internet
+Documents page without adding the document to the case.

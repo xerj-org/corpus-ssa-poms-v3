@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - GN 02607.600 - Developing Prisoner Update Processing System (PUPS) Records and Alerts
+Effective Dates: 05/12/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607600 (fetched 2026-10-04)
+
+D. Taking action based on inmate data development
+The goal of developing the reported inmate’s identity and confinement period is to
+obtain the information necessary to make a decision whether to suspend the beneficiary’s
+or recipient’s benefits. Take action on the PUPS record or alert based on the following
+results of your development.
+1. Beneficiary or recipient is not the inmate
+Clear PUPS alert by:
+•
+entering CLEAR CONTROL- ERRONEOUS REPORT (selection #3) in the SELECT TYPE OF ACTION
+field on the T2 Prisoner Update (PU02) or the T16 Prisoner Update (PU16) screen. For
+instructions on processing an erroneous Title II suspension, see GN 02607.870. For information on the PU16 screen, see MSOM PRISON 003.008.
+•
+annotating the PRMK screen explaining why you are not suspending benefits.
+When the beneficiary or recipient requests us to delete the erroneous record from
+PUPS, follow instructions in GN 02607.890. Correct the Beneficiary Own Account Number (BOAN) if needed.
+NOTE: Review the incentive payment (IP) data to determine if the IP was incorrectly paid
+to correctional or mental institution because of the erroneous report. If PUPS incorrectly
+paid an IP for the erroneous report, take action to recoup the incorrect IP, see instructions
+in GN 02607.830B.
+2. Beneficiary or recipient is the inmate and suspension required
+Suspend benefits following instructions in GN 02607.700 or GN 02607.705 when a beneficiary or recipient:
+•
+meets the requirements for suspension in GN 02607.001 or GN 02607.050;
+•
+verifies their identity and agrees with the report of confinement;
+•
+verifies their identity and disagrees with the report of confinement, but a third party source confirms the report; or
+•
+verifies their identity, is unable to provide missing confinement data, and no third
+party source can corroborate the report.
+If the beneficiary, recipient, or representative payee does not respond to your request
+for confinement information or identity verification or will not cooperate, suspend
+benefits (S7 or N22) using the confinement date on the PUPS record. For instructions
+on annotating Title II RFST codes for LAF S7, see SM 00848.425I.
+3. Confined for 30 days or less or less than calendar month
+a. Title II beneficiaries
+When confined for 30 calendar days or less:
+•
+clear the PUPS record or alert per GN 02607.730C;
+•
+review IP data for a potential incorrect IP payment; (For instructions on recouping
+an incorrectly paid IP, see GN 02607.830B.) and
+•
+annotate the modernized development worksheet (MDW) to prevent possible duplicate
+development, if appropriate.
+b. Title XVI recipients
+When confined for less than a full calendar month, clear the PUPS record or alert
+per GN 02607.705E.2. and review the IP data for a potential incorrect IP payment. For instructions on
+recouping an incorrectly paid IP, see GN 02607.830B.
+4. Released from confinement after 30 days or full calendar month
+If the institution has officially released the beneficiary or recipient, suspend benefits
+for the appropriate past months and reinstate benefits for:
+•
+Title II beneficiaries per GN 02607.840;
+•
+beneficiaries found not guilty by reason of insanity per GN 02607.850;
+•
+beneficiaries found incompetent to stand trial per GN 02607.852;
+•
+beneficiaries in an institution as sexually dangerous persons per GN 02607.854; and
+•
+Title XVI recipients per GN 02607.875.
+Annotate the release date to the PUPS record when reinstating benefits.
+5. Title II Beneficiary confined and awaiting trial
+Process the inmate report per GN 02607.720.
+6. Inmate confined by the Federal Bureau of Prisons
+For unique Title II processing requirements, see GN 02607.792.

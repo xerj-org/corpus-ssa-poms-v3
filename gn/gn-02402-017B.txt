@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02402.017 - Handling Overpayments Attributed to Alleged Fraud and Other Unauthorized Redirection of Payments
+Effective Dates: 08/22/2022 - Present | TN 307 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402017 (fetched 2026-10-04)
+
+B. Handling Title XVI overpayments due to unauthorized redirection of payments:
+For Treasury issuing credits for reports of non-receipt, see SM
+00609.610. If Treasury does not issue a credit for the report of non-receipt, you must select
+from the following actions:
+If an IP replaced an unauthorized redirected payment, the next available payment will
+automatically recover the IP. In these cases, issue an A-OTP to replace that payment.
+If an A-OTP resulted in an overpayment, then review these instructions:
+1.
+Do not send the overpayment notice;
+2.
+Stop overpayment collection and write off the overpayment as an erroneous overpayment
+decision (NT TAC), see SM
+01311.280. Document the determination, per SI
+02220.005.
+NOTE: Previous instructions involve the use of the MO TAC (SM 01311.220) which created a BZ diary. Correct any MO TAC input with NT TAC if it meets the criteria
+in this section.
+If Treasury subsequently issues a credit for a nonreceipt, review these instructions:
+1.
+If SSA wrote off the overpayment with an erroneous overpayment decision (NT TAC),
+any credit received from Treasury will not automatically reduce the overpayment and
+will appear in either the PMTH or OPRR segments of the SSR. The SSR should reflect
+remarks stating, "Alleged direct deposit or direct deposit fraud for MMDDYYYY Payment
+CPS or ATOP issued", per GN
+02402.012B. NOTE: If a partial credit is received from Treasury, it will post to the OPRR segment
+with a DOC code of 534. If a full credit is received, it will reflect in the PMTH
+segment with a "/" next to the date of the payment.
+2.
+When the credit is received from Treasury, the remittance will create an excess decision
+to be resolved in the form of an OPX/B4 in the MPMT section and a B4 diary alert.
+The technician should reduce the NT TAC decision to resolve the excess and account
+for the remittance amount. For more information on how to resolve a B4 diary alert,
+see SM
+01311.634.
+NOTE: If the FO receives a case involving Title II, contact the Processing Center
+(PC) via Modernized Development Worksheet (MDW) or Request for Assistance (RQFA).

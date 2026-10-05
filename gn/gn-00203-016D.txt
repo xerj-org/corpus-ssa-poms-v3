@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - GN 00203.016 - iAppointments (iAppt)
+Effective Dates: 06/26/2026 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200203016 (fetched 2026-10-04)
+
+D. Processing instructions for claims
+At the time of the appointment, take the following steps before establishing the claim in MCS or the Modernized Supplemental Security Income Claims
+System (MSSICS).
+1. Discuss Filing Options
+Identify all benefits for which the claimant may be eligible and discuss filing options
+per GN 00203.002 .
+2. Verify information in eLAS
+a. SSN on Lead/Protective Filing screens belongs to the claimant
+If the SSN on the Lead/Protective Filing screens in eLAS belongs to the claimant,
+correct any erroneous information on the Lead/Protective Filing screens if necessary.
+After all information is verified, select the Verify PI button on the eLAS summary
+page. This will "receipt in" the UNVER issue on the WKSH screen to acknowledge verification
+of the correct appointment information. This allows the previously isolated “unverified”
+data to become part of the CLIENT database. Then follow normal claims-taking procedures
+in GN 00203.004. For more information on the WKSH screen, see MS 00601.013 .
+b. SSN on Lead/Protective Filing screens does not belong to the claimant
+If the SSN on the Lead/Protective Filing screens does not belong to the claimant,
+print the Lead/Protective Filing screens so that you can transcribe any correct information
+from the “unverified” screens to the claim manually. Review eLAS for possible earlier
+protective filing dates under the correct SSN, and determine whether they are relevant
+(e.g., still within the protective filing closeout period). Then follow normal claims-taking
+procedures in GN 00203.004.
+Document the claim with the correct protective filing date from the Lead/Protective
+Filing screens. After the
+interviewer documents the claim
+with the correct protective filing date per GN
+00204.007, refer the protective filing with the incorrect SSN to management personnel to delete
+it from eLAS.
+NOTE: Only local FO management can delete these erroneous protective filings. For instructions
+on deleting protective filings, see MS 00601.004.

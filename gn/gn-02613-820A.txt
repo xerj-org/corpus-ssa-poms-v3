@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - GN 02613.820 - Receiving and Processing Warrant Information Under the Fowlkes Acquiescence Ruling (AR)
+Effective Dates: 12/04/2006 - Present | TN 37 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613820 (fetched 2026-10-04)
+
+A. Process – Reporting Warrant Information to Social Security Administration (SSA) Under
+The Fowlkes AR
+1. Source of Warrant Report
+For the chart describing the sources of warrant reports, the type of reports and where
+the report is received, see GN 02613.150A.1.
+NOTE: In connection with the Fowlkes AR, SSA will alter further processing of Third Party
+Computer Generated Reports on the chart for residents of Connecticut (CT), New York
+(NY), or Vermont (VT).
+SSA will continue to process outstanding warrant information for probation or parole
+violators who reside in CT, NY or VT via the Fugitive Felon Computer Matching program.
+For additional information about the Third Party Computer Matching Operation, see
+GN 02613.100.
+2. Receipt of Warrant Information by SSA Office and Overall Processing of All Warrant
+Information (Fugitive Felon and Probation or Parole Warrants)
+Continue to forward all incoming warrant information received by SSA offices to the
+Office of the Inspector General (OIG) via email as described in GN 02613.150A.2.
+Processing of the outstanding warrant information for beneficiaries residing within
+the Second Circuit will be altered in connection with the Fowlkes AR.
+Do not develop additional information about these warrants. OIG will take the appropriate
+action on the warrant.
+3. Identification of Felony Warrants from the Fugitive Felon System Control File (FFSCF)
+Utilize the following FFSCF data fields in order to determine if a warrant is for
+a felony-type crime:
+Obtain a Felony warrant Query (FFWQ) for the beneficiary (for information on the FFWQ query,
+see MSOM PRISON 006.010).
+Check the following fields on the FFWQ to determine if the warrant is for a felony or a
+probation or parole violation:
+•
+OFFENSE CODE (See MSOM PRISON 006.010E for a description of this field. See GN 02613.900 for information on determining if a warrant is for a violent crime. Most of the crimes
+listed on the offense code list except for offense codes 5011 and 5012 (probation
+or parole violator offense codes) are generally felony-type crimes);
+•
+OFFENSE TYPE (See MSOM PRISON 006.010E for a description of this field.);
+•
+OFFENSE CHARGE SYMBOL (See MSOM PRISON 006.010E for a description of this field.);
+and
+Check the following fields on the Fugitive Felon Status Query (FFSQ) (see MSOM PRISON 006.011
+for information on this screen) to determine if the warrant is for a felony or probation
+or parole violation.
+FELON STATUS (See MSOM PRISON 006.011E for a description of this field.)

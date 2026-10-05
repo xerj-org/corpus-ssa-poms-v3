@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.472 - Coding Mauritania Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/23/2023 - Present | TN 235 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402472 (fetched 2026-10-04)
+
+G. Example of coding Mauritania direct deposit
+The customer provides us with a signup form for Mauritius containing the account number:
+MR1300020001010000123456753.
+•
+The first character of the IBAN is “MR,” represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth thru ninth characters of the IBAN represents the bank code.
+•
+The tenth thru fourteen characters of the IBAN represent the branch code.
+•
+The last 13 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740002012
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “U” designated for Mauritania; and
+•
+Code the 13-digit account number “0000123456753”
+3. Obtain the following information:
+•
+RTN: 740002012
+•
+Checking
+•
+DAN: U0000123456753
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740002012 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U0000123456753
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 740002012
+•
+DAN- CU0000123456753

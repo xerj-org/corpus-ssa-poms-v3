@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 81010.095 - Using the Update-After-Transfer (UAT) Utility
+Effective Dates: 09/09/2009 - Present | TN 67 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010095 (fetched 2026-10-04)
+
+B. Updating Certain MCS or MSSICS Changes in EDCS
+Once an EDCS case is transferred, EDCS locks and no changes can be made directly to
+the disability report forms. Limited data can be repropagated into EDCS (e.g., claimant
+name, address, and telephone number) using the UAT procedure. See DI 81010.045 for more information.
+To update MCS or MSSICS information on a case after transfer of jurisdiction of an
+EDCS case:
+•
+Correct the information in MCS or MSSICS;
+•
+Open the case in EDCS;
+•
+Select Transfer/Updates tab on the toolbar at the top of the EDCS screen path;
+•
+Review the changes on the Summary of Updates screen on the Mainframe Updates tab;
+and
+•
+Click the OK button to send update to DDS or OHO.
+NOTE: For UATs on the Mainframe Updates and Other Updates tab, EDCS will automatically
+determine the office that currently has jurisdiction and notify the office of the
+update. For UATs on Transfer Claims tab, EDCS allows users to choose which office
+the claim(s) should be transferred to from a drop-down list, or it will allow them
+to manually enter an office destination.

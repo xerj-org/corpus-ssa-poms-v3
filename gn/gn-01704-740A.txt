@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 01704.740 - Claims Packages for the Folketrygdkontoret for Utenlandssaker (FFU)
+Effective Dates: 02/22/2017 - Present | TN 2 (09-85)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201704740 (fetched 2026-10-04)
+
+A. Claims filed in Norway
+Claims packages will not have to be prepared for claims filed in Norway because claimants
+who file claims with a local office of the Norwegian Insurance Institute (NII) and
+appear eligible for benefits from the United States will be given protective filing
+statements and referred to the U.S. FSP to complete their claims for benefits from
+the United States. Likewise, if claimants file claims for U.S. benefits at the FSP
+in Norway and appear eligible for Norwegian benefits, the claimants will be given
+protective filing statements and referred to a local office of the NII to complete
+claims for benefits from Norway. Even if documentation is missing, assume the FSP
+personnel have taken this action.
+In addition, the FSP in Norway will request Norwegian coverage certifications from
+the FFU for claimants for U.S. benefits who appear to be PET. The FFU will forward
+the earnings certifications directly to the modules in DIO.
+Follow the guidelines below in processing claims for U.S. benefits filed in the FSP
+in Norway by a PET claimant.
+FSP requested an
+earnings certificate:
+When
+Action
+1. Yes
+More Than 180 Days Ago
+a)
+Prepare USA/N 3 status request;
+​
+​
+b)
+Show date of FSP request in item V.D.
+​
+​
+c)
+Enter “U.S. FSP request” in “VI. Remarks.”
+​
+​
+d)
+Diary for 180 days (TOE 190)
+2. Yes
+Less Than 180 Days Ago
+​
+Diary for 180 days from date of FSP request (TOE 190)
+3. No
+N/A
+a)
+Prepare USA/N 3 request for Norwegian earnings certificate
+​
+​
+b)
+Diary for 180 days (TOE 190)

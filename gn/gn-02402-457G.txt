@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.457 - Coding Ukraine Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/03/2022 - Present | TN 213 (05-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402457 (fetched 2026-10-04)
+
+G. Example of coding Ukraine direct deposit
+The customer provides us with a signup form for Ukraine containing the account number:
+UA213223130000026007233566001
+•
+The first character of the IBAN is “UA,” represent the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR
+•
+The fifth through tenth characters of the IBAN represent the six-digit bank code.
+•
+The last 19 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN:
+•
+Code RTN as 730000121
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code “H” designated for Ukraine; and
+•
+Code the 12-digit Account Number “200359100100”
+3. Obtain the following information
+•
+RTN: 730000121
+•
+Checking
+•
+DAN: H200359100100
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000121
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H200359100100
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 730000121
+•
+DAN CH200359100100

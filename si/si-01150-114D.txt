@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - SI 01150.114 - Posteligibility Cases with Period of Ineligibility
+Effective Dates: 09/27/2002 - Present | TN 48 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501150114 (fetched 2026-10-04)
+
+D. Procedure — Systems input
+1. Payment Status Input
+a.
+Input payment status N04 for any months that the individual is in a period of ineligibility
+and does not meet the requirements to be eligible based on undue hardship. (See SM
+01305.001.) The case must be taken out of MSSICS to input N04.
+b.
+Suppress the automated notice using the NP field (SM 01305.530) or by inputting the Goldberg-Kelly
+fields (SM 01305.510).
+c.
+Suppress the AONS notice if the N04 for past months will create an overpayment on the record
+(SM 01310.305).
+2. SSR Remarks field input
+An SSR Remarks field input is required for these cases. Follow the instructions in
+SI 01150.112D.2.
+3. Diary code input
+a. RT diary
+Follow the instructions in SI 1150.112D.3.a. to diary the case for recontact if the
+individual will be eligible for benefits based on undue hardship for future months.
+b. MN diary
+Input the MN diary whenever the individual has transferred a resource for less than
+fair market value. The MN diary date is the date that the resource was transferred.
+Follow the instructions in SI 01150.112D.3.b. for the MN diary input and deletion.
+NOTE: The MN diary is propagated automatically by MSSICS when the Property/Cash Given or
+Sold (RGIV) page is completed (See MSOM INTRANETSSI 013.034). To prevent MSSICS from
+setting an unnecessary MN diary, select "OTHER" as the "Method of Transfer" on the
+Property/Cash Given or Sold (RGIV) page when the individual disposes of an item of
+no value such as a junk car. Selecting "GIVEN AWAY" in that situation will generate
+an MN diary even though the disposed item has no value.
+c. ME diary
+Input the ME diary in the Diary (DA) field using an SSA-1719B or the PE input screen
+whenever the individual has transferred a resource for less than fair market value
+and will be subject to a period of ineligibility. The ME diary date is the last day
+of the final month of the period of ineligibility. See SI 01150.112D.3.c. for additional instructions on inputting and deleting the ME diary.

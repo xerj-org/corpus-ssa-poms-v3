@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02408.005 - Check Stop-Payments in Non-Entitlement Due to Death Situations
+Effective Dates: 11/03/2008 - Present | TN 76 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408005 (fetched 2026-10-04)
+
+A. Background
+Generally, checks that are issued after death are returned in the mail or brought
+into the servicing field office; however, sometimes these checks are not returned
+and remain outstanding. In Titles II and XVI, when a death input is transmitted to
+the Master Beneficiary Record (MBR) or Supplemental Security Income Record (SSR),
+the system generates an E-stop for each check issued after the posted date of death,
+unless the E-stop must be input manually (see Manual E-Stop Process GN 02408.012).
+The E-stop alerts the Department of the Treasury (Treasury)) of the non-entitlement
+of the payment due to death and identifies the payment in question. Treasury investigates
+the status of the check and provides SSA with a disposition code indicating whether
+the check remains outstanding or has been cashed (see Treasury RFC and CSD Disposition
+Codes SM 00609.610 and How to Respond to Treasury Process Messages SM 01315.200).
+If a check has been cashed, Treasury reclaims the funds from the presenting financial
+institution (FI) based on the E-stop (see Check Reclamation – Titles II and XVI, GN 02408.301). If the check has not been cashed or returned, the E-stop prompts Treasury to cancel
+the check and return credit to SSA. If the check is subsequently cashed, it is detected
+with Treasury’s Check Operations Re-engineering Effort (CORE) system at the Richmond
+Federal Reserve Bank (RFRB) and returned unpaid to the presenting FI (GN 02408.006).
+E-stops are not automatically generated, and should not be input manually, on check
+payments made to a representative payee after the death of the beneficiary. These
+payments after death are processed as overpayments made to the representative payee
+(see GN 02201.000).
+IMPORTANT: It is important for SSA to post the date of death promptly, as Treasury can only
+reclaim check payments going back 12 months from the date that SSA learns of the death
+(see GN 02408.005B.5. in this section). For Limited Payability Death Cases, see GN 02401.917.

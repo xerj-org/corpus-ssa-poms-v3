@@ -1,0 +1,12 @@
+SSA Program Operations Manual System (POMS) - DI 13010.640 - The Modify Medical Information Data (MMDS) Screen
+Effective Dates: 11/27/2002 - Present | TN 15 (11-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010640 (fetched 2026-10-04)
+
+D. Procedure – Reading and Completing the MMDS
+The MMDS contains the disability related decisional and diary data. The information
+displayed will depend on the method of accessing the MMDS and will be propagated based
+upon determination data on file. If accessing via SELECT 15 from the MCDR screen,
+all data will be displayed. Incomplete or incorrect data can be entered by correcting
+the incorrect data or filling-in missing data. Corrective data should be taken from
+the SSA-832/SSA-833 in file if it has not propagated correctly. When accessing the
+MMDS screen through the IPCA screen the first column will be left blank.

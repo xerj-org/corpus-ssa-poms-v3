@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - GN 02402.374 - Coding Martinique Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 247 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402374 (fetched 2026-10-04)
+
+G. Example of coding Martinique direct deposit
+The customer provides us with a signup form for Martinique containing the information:
+"FR1420041010050500013M02606."
+•
+The first two characters of a Martinique IBAN are “FR,” which represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next 5 characters represent the 5-digit bank code.
+•
+The next 5 characters represent the 5-digit branch code.
+•
+The next 11 characters represent the 11-digit account number.
+•
+The last 2 digits of the IBAN represent the national check digits. The technician
+will code these characters in ITS.gov, but the MBR will not reflect them.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the prefix of 70
+•
+Code the 5-digit bank code “20041”
+•
+Code the first digit of the 5-digit branch code “0”
+•
+Code the 1-digit check code (i.e., 7) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16); and
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with a country code of "U" designated for Martinique;
+•
+Code the last 4 digits of the 5-digit branch code “1005”
+•
+Code the 11 digits of the Account Number “0500013M026”
+3. Obtain the following information
+•
+RTN: 702004107
+•
+Checking
+•
+DAN: U10050500013M026
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 702004107
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: U10050500013M026
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 702004107
+•
+DAN- CU10050500013M026

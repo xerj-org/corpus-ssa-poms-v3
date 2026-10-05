@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 81010.137 - Receiving Documents Submitted through iAppeals
+Effective Dates: 12/28/2023 - Present | TN 70 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010137 (fetched 2026-10-04)
+
+D. Manual clearance action taken prior to FO transfer
+If the FO manually clears a case before transfer:
+1.
+EDCS un-associates any previously associated documents that have not been committed
+to the EF.
+2.
+All document updates such as notes, document type changes, and retention action stay
+with the document. EDCS does not reset the document updates to their original state.
+3.
+If a user accesses the case after manual clearance, the Internet Documents page will
+appear as a read-only page.
+4.
+If the user opens the Preview Internet Documents page after a manual clearance, the
+documents from the manually cleared case will appear in the search results under the
+document’s SSN.
+5.
+Any documents previously committed to the case are still viewable in eView.
+NOTE: Disassociating documents from a manually cleared case allows the documents to be
+systematically associated to a new case, at case creation, if the new case has the
+same Internet Control ID as the disassociated documents. It also allows documents
+to be re-associated if an EDCS user reactivates the case.

@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 02402.326 - Coding Jamaican Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 262 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402326 (fetched 2026-10-04)
+
+E. Description of Jamaican IDD bank data
+The bank data for Jamaica will come from financial institutions (FIs) that the FRBKC
+has determined can process handle the IDD. The FRBKC identified and listed the participating
+FIs on the International Treasury Services (ITS.gov) website as part of the ITS help file.
+The bank data on the MBR consists of up to 25 characters, including the country code
+of “M” for Jamaica.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must
+be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process
+to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

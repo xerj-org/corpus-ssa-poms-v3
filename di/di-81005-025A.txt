@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 81005.025 - Case Selection Screen
+Effective Dates: 01/03/2025 - Present | TN 11 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005025 (fetched 2026-10-04)
+
+A. Search Criteria
+The drop-down list box on this screen can be used to search for cases using any of
+the following variables.
+•
+Client Name – Enter at least the first two letters of the claimant’s last name.
+•
+Client SSN – Enter the claimant’s own SSN. Selecting this option will give the user
+every case available with that specific SSN.
+•
+Number Holder SSN – Enter the number holder’s SSN if the claimant is filing an auxiliary
+beneficiary claim (for example, CDB, DWB). Selecting this option will give the user
+every case available for that specific SSN.
+•
+EDCS Folder Number – A unique identifying number is assigned to a case when the Field
+Office (FO) creates it in EDCS. It appears on the EDCS routing form, which is automatically
+generated in the FO and mailed to the receiving component when a case is transferred
+successfully. Using this number to search for a case takes the user directly to the
+case.
+The eView Case Selection screen remembers which option was selected on the most recent
+search and automatically defaults to that option the next time eView is accessed or
+when the New Case Search option is used.

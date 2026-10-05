@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - DI 23515.005 - Disability Determination Services (DDS) Receipt, Development, and Evaluation of Non-Citizen Cases
+Effective Dates: 02/24/2011 - Present | TN 2 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423515005 (fetched 2026-10-04)
+
+B. Identifying non-citizen and non-citizen age 65 and over cases
+1. Electronic claims:
+Check eView or the Disability Case Processing System (DCPS) for a special case handling
+flag (see DI 81010.080B.2).
+2. Paper claims
+Check the SSA-3367 (Disability Report - Field Office) for the remark “Non-citizen
+Case - Date of U.S. Admission (date)” or “Title XVI Aged Non-Citizen Case - Blindness/Disability
+Alleged - Systems Limitation.”
+3. Age 65 or over claims
+Suppress the NDDSS systems input to the SSI record by using system override Code “C”
+and send the decision to the FO.

@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.418 - Coding El Salvador Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/25/2018 - Present | TN 115 (10-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402418 (fetched 2026-10-04)
+
+E. Description of IDD Bank Data for El Salvador
+The data for coding IDD for El Salvador comes from the International Bank Account
+Number (IBAN) provided to the beneficiary by his or her FI. The full length of the
+IBAN for El Salvador consists of 28 characters.

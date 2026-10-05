@@ -1,0 +1,86 @@
+SSA Program Operations Manual System (POMS) - SI 02301.305 - Online Goldberg Kelly (GK) Notices
+Effective Dates: 07/26/2023 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301305 (fetched 2026-10-04)
+
+C. Examples
+1. Adverse action during the GK temporary period-online notice selected
+Freddy Freeland’s continuing monthly benefit amount is $450. During the GK temporary
+period in September 2005, they reported that they are working and earning $200 per
+month. This change results in a reduction in their benefit amount. The FO makes the
+changes through MSSICS, selects to produce an online handed or mailed notice (depending
+on if the change is reported in person) and sends the information to the SSR. The
+required DPD entries are built by the system and an online GK notice is produced to
+reduce the October 2005 payment on time.
+NOTE:
+All online GK notices have the time (Eastern Standard) in the upper right hand portion
+on the notice indicating at what time they were produced. An indicator in the NOTC
+field on the SSR is also displayed showing the date, the time, and an indicator to
+show whether the notice was handed (OH) or mailed (OM).
+For additional information see SM 01305.530 through SM 01305.670.
+2. Online GK notices are mailed and then handed later to the SSI recipient during the
+GK temporary period
+Wilbur Wednesday mailed in their payment stubs causing a reduction in their due amount.
+The FO makes the inputs during the GK temporary period and elects to have the system
+produce an online GK notice. The FO mails the online Notice of Planned Action (SSA-L8155) to Wilbur Wednesday on 09/15. Later,
+Wilbur Wednesday comes into the office on 09/16 and reports additional wages which
+reduce their due amount to zero. The FO completes the inputs during the GK temporary
+period and hands the SSA-L8155 to them.
+Situation:
+The 1st notice (with amount due) will arrive after the 2nd notice (with no payment amount due) is handed to the claimant. Even though the 2nd notice contains the most recent and updated information and states Wilbur Wednesday
+is not eligible for payment, the 1st notice will arrive later in the mail indicating they are eligible for payment.
+First Notice:
+The first notice to Wilbur Wednesday was printed and mailed from the FO. It is dated
+09/15 and arrives at the mailbox a few days later. This notice indicated that they
+are eligible for payment.
+Second Notice:
+The second notice to Wilbur Wednesday was printed and handed to them in the FO. It
+is dated 09/16 and indicated that they are not eligible for payment.
+Explanation:
+FOs should be aware of these types of situations and be prepared to explain them to
+SSI recipients and document the file that this was explained.
+REMEMBER: The time in the upper right hand portion of the notice indicates that an online GK
+notice was produced and can be viewed in ORS. The notice type in ORS will be displayed
+as “GK Online Notice.”
+3. Online GK notice is handed to SSI recipient and an automated systems generated notice
+is sent out in the overnight process
+Mickey Milestone reports an action on 10/06/04 that increases their due amount to
+$300. This action results in an automated systems generated notice being sent in the
+overnight process. The notice is dated 10/13/04 (7 days processing time added). Four
+days later on 10/10/04, they come into the office and reports an action that reduces
+their due amount to $100. An online GK notice is produced and handed to them. It is
+dated 10/10/04.
+Situation:
+Mickey Milestone was handed an online notice dated 10/10/04 from the FO indicating that their SSI payment is
+$100. A few days later, they receive the automated systems generated notice dated
+10/13/04 that was mailed in the overnight process which states their due amount is $300.
+Although the notices contain correct information, Mickey might be confused because
+they received a notice dated 10/13/04 containing outdated information.
+Explanation:
+FOs should be aware of these types of situations and be prepared to explain them to
+SSI recipients and document the file that this was explained.
+REMEMBER: The time in the upper right hand portion of the notice indicates that an online GK
+notice was produced and can be viewed in ORS. The notice type in ORS will be displayed
+as “GK Online Notice.”
+For additional information see SM 01305.510 through SM 01305.620.
+4. A notice will not be produced if the due amount at the beginning of the day equals
+the due amount at the end of the day and there are no other changes on the SSI record
+Otis Bridger’s SSI payment is $444.00 beginning in 11/2004. On 11/11/2004 they come
+in to the office early in the morning and reports that they will be receiving rental
+assistance from their family. This report will reduce their payment. An online GK
+notice is produced and handed to Otis. Later that same afternoon, Otis comes into
+the office and reports that their family has decided not to provide them with any
+rental assistance. As a result, their SSI payment will increase back to the $444.00
+just like it was at the beginning of the day.
+Situation
+The notice system will not produce a notice if the due amount in the Computation History
+at the end of the day equals the due amount in the Computation History at the beginning
+of the day and there were no other changes on the record. Normally, this is not an
+issue unless you produce an Online GK notice earlier in the day.
+Explanation
+If changes are made in the due amount that result in an Online GK notice being produced
+during the day and then these changes are later undone causing no change in the due
+amount at the end of the same day, FOs must prepare a manual notice to tell the SSI
+recipient that their benefit is no longer being decreased. The SSI notice system will
+not issue a Notice of Important Information (SSA-L8166) in this situation, so a manual
+notice is required.
+(See NL 00803.085 for information regarding the SSA-L8166)

@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - SI 02310.200 - Payroll Data Provider (PDP) Wages Received through the Payroll Information Exchange (PIE) - EE Diary
+Effective Dates: 03/26/2025 - Present | TN 71 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310200 (fetched 2026-10-04)
+
+B. Policy for resolving EE diaries
+1. Requirements when the EE diary is the only wage diary present.
+To clear the EE diary, technicians are required to develop all wages and employment
+associated with the report received from the PDP. For wage development instructions,
+see SI 02310.200C.1.b. Because EE diaries typically arise when an SSI recipient or deemor returns to work
+or changes jobs, development may include resolving wages from a prior employer(s).
+The scope of the review is limited to the months involved in the new period of employment
+or employer change when the EE diary is the only wage-related diary present.
+When multiple PDP pending pages are present, technicians are required to resolve all
+of them to clear the diary. The EE diary will not clear and any associated LI or RZ
+will not close until a selection is present on all PDP pending pages.
+2. Requirements when EE diary and other wage-related diaries are present.
+When other wage diaries are present, technicians are required to resolve those diaries
+prior to clearing the EE diary. Develop other wage alerts according to normal policies.
+The controlling time period involved in the review when multiple wage diaries are
+present depends on the diaries. For example:
+•
+EE and S2 or S7 - Develop all quarters implicated by the wage mismatch diary in addition
+to resolving the PDP Pending Wage page or PDP Pending Wage Report page. See SI 02310.062F.4 for situations that may require development in other quarters.
+•
+EE and J3, J5, K6, or K7 - Develop wages for the year implicated by the Master Earnings
+File (MEF) diaries in addition to resolving the PDP Pending Wage page or PDP Pending
+Wage Report page.
+Note:
+See SI 02305.034B for the period of review required when clearing the EE diary as a part of an RZ or
+LI, see SI 02305.034B. See SI 02310.005C.5 for administrative finality considerations involved in interface operations.

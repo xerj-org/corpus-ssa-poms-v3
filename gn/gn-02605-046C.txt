@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02605.046 - National Change of Address (NCOA) Processing
+Effective Dates: 10/04/2019 - Present | TN 35 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605046 (fetched 2026-10-04)
+
+C. Procedure
+If a beneficiary asks that we not change his/her address, reinput the old address
+exactly as shown on the old MBR. The address will be updated to the MBR and the system
+will then post an “X” in the ZIP flag field to prevent the case from being reselected
+in the next NCOA matching operation. (For more information on updating the ZIP flag
+field see MSOM T2PE 007.024).
+For “call-in” letters, input a COA through normal COA procedures. If we do not hear
+from the beneficiary, the ZIP flag of “L” will remain on the MBR, and the record will
+be reselected for NCOA processing again at some future date. For automatic address
+updates, the ZIP flag of “L” will change to “P” when the transaction processes the
+update.

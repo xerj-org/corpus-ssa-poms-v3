@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.344 - Coding India Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402344 (fetched 2026-10-04)
+
+D. Processing India bank data
+1. Reviewing India bank data
+The Veterans Administration Regional Office (VARO) in Manila reviews the forms and
+returns them for additional information or correction if necessary. Route all completed
+enrollment forms for review and input to one of the following addresses:
+Federal
+Benefits Unit
+US Embassy
+1201
+Roxas
+Boulevard
+Ermita, Manila 0930
+Philippines
+Or
+Social Security Administration
+Office of
+Earnings and
+International Operations
+PO Box 17769
+Baltimore, MD 21235-7769, USA
+Direct any questions about the validity of any bank data for an India FI to the servicing
+Embassy, Consulate General, or Consulate in India.
+If routing information for the selected bank is not yet on the list at FRBKC, the
+beneficiary must obtain the full name and address of the bank, and its Society for
+Worldwide Interbank Financial Telecommunication (SWIFT) code. If a bank or branch
+uses another bank to route its direct deposits, provide all routing information for
+that bank.
+2. Applying India bank data to the MBR
+VARO examines the bank data to see if it is already on the list of India banks that
+FRBKC can reach with payments. If not, VARO asks the FRBKC to add the data to their
+internal list.
+The VARO staff keys the approved data into Treasury’s ITS.gov. FRBKC then sends the data to SSA through Automated Enrollment for input to the MBR.
+If DIO receives the documents, they input the data through the applicable SSA software
+or ITS.gov. If it is within 4 days of the cutoff for direct deposit, DIO must code the data directly
+to the MBR.
+NOTE:
+When the Depositor Account Number (DAN), including the alpha code of “I” is longer
+than 17 characters, you must use ITS.gov to code the full banking information, as the MBR cannot house over 17 characters
+in the DAN field.

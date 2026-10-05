@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 60099.050 - Benefit Offset National Demonstration (BOND) Stand-Alone System (BSAS)
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099050 (fetched 2026-10-04)
+
+A. How the BSAS works
+BSAS works in the following ways:
+1.
+deducts the offset amount from the number holder (HA) only, childhood disability benefits
+(CDB) only, or disabled widow’s benefit (DWB) only record;(NOTE: In dual entitlement situations (HA and CDB, or HA and DWB), the BSAS deducts the
+offset amount from the primary HA record first);
+2.
+creates a manual adjustment credit and award process (MADCAP) action that updates
+the Master Beneficiary Record (MBR);
+3.
+provides universal text indicator (UTI) information as part of the MADCAP action;
+4.
+creates (after the previous action) a special message on the MBR indicating that this
+is a BOND beneficiary as well as adds the “DD” demonstration code and the start and
+ending dates of offset to the MBR; and
+5.
+calculates the offset amount, when receiving an earnings estimate from BODS; retrieves
+information from the MBR, and determines if it can process the case automatically
+through MADCAP.
+If BSAS cannot process the case, it generates processing exceptions, processing limitations
+and alerts that L5R OFFICE L5R NO
+LONGER OPERATING and the centralized unit in the Office of Central Operations (OCO) will process. If
+a case cannot be retriggered, the BSAS database will be updated with offset information,
+monthly benefit amounts, and other data needed to perform the offset calculation so
+automated processing can occur in the future.

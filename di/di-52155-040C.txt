@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 52155.040 - Processing Disability Claims with a Federal Public Disability Benefit (PDB)
+Effective Dates: 09/09/2025 - Present | TN 3 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155040 (fetched 2026-10-04)
+
+C. MCS EC PDB Remarks
+When you adjudicate a claim involving PDB through MCS EC, the system generates one
+of a number of remarks to alert you to the possibility of PDB offset or a PDB offset
+exclusion. Some development is still needed because the system cannot always make
+all of the determinations necessary to arrive at the correct conclusion regarding
+offset. Also, when processing the initial claim, consider the reductions and offsets
+listed in DI 52130.001- Types of Federal Public Disability Benefit (PDB) Payments, subsection C. – Relationship
+of Federal PDB to other offsets.
+1. PDB Offset
+This remark means the CSRS annuity is subject to SSA offset because it is not based
+on any service covered for SSA purposes. This remark will be generated on all cases
+with a DIB onset of 03/01/1981 through 04/30/1986 and MOET 09/1981 or later where
+the CS COV = N on the DCSD screen.
+2. PDB EXCL
+This remark appears on cases with a DIB onset 03/01/1981 through 04/30/1986 when the
+month of entitlement (MOET) is 09/1981 or later and the CS COV = Y.
+Verify that the covered employment is actually from the federal job and not a second
+job in private employment.
+3. PDB Offset 85 Percent Not Poss
+If this remark is present, offset the CS disability benefit. Two conditions will generate
+this alert message:
+4. DOO is 05/01/1986 or Later and CS COV = N
+Offset. The CS disability benefit is not based on any covered service.
+5. Onset is 05/01/1986 or Later and CSCOV = Y
+Offset. The system has determined that while some covered employment exists, there
+is not enough covered employment to meet the covered service exception.
+6. Poss PDB Offset Verify 85 Percent
+This remark appears for cases with DIB onset of 5/1/1986 or later, when CS COV = Y
+and the system determined that the individual may meet the 85 percent exclusion but
+cannot make the final determination.
+Verify whether the covered service exclusion is met. Often, the covered service picked
+up by the system is from private employment outside of the federal government, which
+of course does not figure into the exclusion determination.

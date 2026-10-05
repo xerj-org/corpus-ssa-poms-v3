@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - DI 81010.040 - Source Reference File (SRF)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010040 (fetched 2026-10-04)
+
+A. Overview
+Electronic Disability Collect System (EDCS) contains a database of doctors, hospitals,
+schools, and other sources of information called the Source Reference File (SRF).
+1. SRF is State Specific
+Each state has its own vendor file. An extract of the state vendor file is used to
+create the SRF. EDCS defaults to the state file of the claimant’s mailing address
+for domestic claims. The search function allows for searches in the SRF of another
+state or the Foreign Service Post (FSP).
+2. Updating the SRF by Disability Determination Services (DDS) Vendor File Extract
+Sources provided via DDS vendor file extract:
+•
+Update on a periodic basis determined by individual DDSs;
+•
+Contain a DDS vendor number which allows DDS to expedite requests for medical evidence;
+and
+•
+Display an “*” (asterisk) between the Name/Organization column and the Street Address
+column to notify users the source was provided via DDS vendor file extract.
+3. Purging Sources Entered by the Field Office (FO)
+EDCS purges FO entered sources if they are not selected for use within 120 days.
+4. SRF for Foreign Service Posts (FSPs)
+There is only one FSP SRF and the file is populated solely by FSP user entries.
+5. Source Types within the SRF
+a. Initial Adult EDCS Cases
+•
+Doctor/HMO/Therapist
+•
+Hospital/Clinic
+•
+Vocational Rehabilitation
+•
+Special Education
+•
+Other
+b. Initial Children’s EDCS Cases
+•
+Doctor/HMO/Therapist
+•
+Hospital/Clinic
+•
+School and Vocational Rehabilitation
+•
+Additional Source
+•
+Other
+c. Appeals Cases
+•
+Doctor/HMO/Therapist
+•
+Hospital/Clinic
+•
+Additional Source
+•
+Other

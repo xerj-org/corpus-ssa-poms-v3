@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - DI 81020.125 - Electronic Case Routing Before Final Determination
+Effective Dates: 10/18/2012 - Present | TN 35 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020125 (fetched 2026-10-04)
+
+B. Routing to Another DDS
+The sending DDS must:
+•
+Document the Certified Electronic Folder (CEF) that the case is being sent to another
+DDS and include the reason (e.g., if the claimant has moved, document the new address
+and phone number). All documentation must be included in an electronic SSA-5002 (Report
+of Contact);
+•
+Add a message in the CEF to notify the FO that the case is being sent to another DDS
+and the reason. Alert the FO to the message through the EDCS Action Page. NOTE: Messages
+are limited to 200 characters. The DDS may include in the message a reference to the
+SSA-5002;
+•
+Clear the case on the National Disability Determinations Service System (NDDSS) with
+a decision code (DEC) of No Determination (ND) or Transfer (TR) (see DI 32005.020 – No Determination Routing). Enter the destination code of the receiving DDS on NDDSS.
+If the CEF being sent to another office includes a paper Modular Disability Folder
+(MDF) (i.e., an EDCS exclusion claim):
+•
+Print and file all documentation in the paper MDF;
+•
+Prepare an EDCS routing form using eView with the notation “CEF Sent to (receiving
+DDS)” in the remarks section of the routing form. See DI 81010.087 for instructions on preparing the routing form;
+•
+Attach the EDCS routing form to the paper MDF;
+•
+Mail the EDCS routing form and paper MDF to the receiving DDS.

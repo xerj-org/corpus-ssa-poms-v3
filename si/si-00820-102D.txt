@@ -1,0 +1,160 @@
+SSA Program Operations Manual System (POMS) - SI 00820.102 - Cafeteria Benefit Plans
+Effective Dates: 11/20/2023 - Present | TN 91 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820102 (fetched 2026-10-04)
+
+D. Procedure for cafeteria benefit plans
+1. Assumption of cafeteria plan compliance
+Unless you become aware that the IRS has determined otherwise, assume, absent evidence
+to the contrary, that a cafeteria plan complies with IRS requirements, and that the
+employer correctly classified payments as either wages or qualified benefits under
+a salary reduction agreement.
+2. How to develop cafeteria plan precedents
+If a precedent is needed, per SI 00820.102D.3. in this section, contact the appropriate human resource or accounting office of the
+employer (by phone, if possible) and ask if the employer offers a cafeteria plan.
+Proceed as follows:
+a. Employer does not offer a cafeteria plan
+Prepare and retain in field office (FO) files a precedent showing:
+•
+employer name, address, and phone number; and
+•
+name, title of person contacted and date of contact; and
+•
+a statement that the employer does not offer a cafeteria plan.
+b. Employer offers a cafeteria plan
+Ask the employer to forward a copy of its employee-benefits package given to new employees,
+which explains its particular cafeteria plan.
+Prepare and retain in FO files a precedent showing:
+•
+employer name, address, and phone number;
+•
+name, title of person contacted and date of contact;
+•
+effective date of the plan;
+•
+employee positions covered by the plan;
+•
+benefits offered under the plan;
+•
+which deductions on the pay slips are nontaxable; and
+•
+any additional information needed to determine chargeable gross wages from pay slips.
+NOTE: Update precedents periodically, and secure updates or revisions to the employee benefits
+package since the last contact. Updating precedents is critical to ensure accurate
+wage determinations involving cafeteria plans.
+3. Case development and documentation for cafeteria plans
+Apply the following steps to:
+•
+decide whether cafeteria-plan development is needed and, if so,
+•
+establish whether a cafeteria plan is involved and, if so,
+•
+determine chargeable wages.
+REMINDER: Most cafeteria plans have a salary reduction agreement. However, there are instances
+when an employee uses payroll deductions to purchase cafeteria-plan benefits in addition
+to, or instead of, cafeteria plan benefits provided under a salary-reduction agreement
+or employer contribution. If the paystub indicates there are voluntary contributions,
+determine the benefits offered under the employer’s cafeteria plan and what benefits
+were provided through voluntary employee contributions. Treat the amount of the employee’s
+contributions under a cafeteria plan as wages, per SI 00820.102C.4. in this section.
+NOTE: It is not necessary to separately document responses to the questions in the following
+chart, except where indicated.
+STEP
+ACTION
+1
+Are pay slips available to verify wages?
+•
+If yes, go to step 2.
+•
+If no, verify wages using other forms of primary evidence of wages in SI 00820.130A.1, except do not seek secondary evidence prior to contacting the employer for wage
+verification when documenting cafeteria plans.
+STOP
+2
+Does a cafeteria-plan precedent exist for this employer?
+•
+If yes, use it to compute chargeable wages and go to Step 8.
+•
+If no, go to Step 3.
+3
+Ask the individual if they participate in a cafeteria plan.
+•
+If yes or uncertain, or there is any indicator of a cafeteria plan, such as those in SI 00820.102B.5. or one of the “CAF” codes in Step 9, go to Step 4.
+•
+If no, and there is no other indication of a cafeteria plan, compute chargeable wages accordingly.
+STOP.
+4
+•
+If “FICA wages” or a comparable term is shown, count the amount shown as chargeable
+wages. Go to Step 9.
+•
+For calendar years other than 2011 and 2012 - If “FICA wages” are not shown, compute
+chargeable wages by multiplying the FICA tax shown (including Medicare tax) by 13.071
+(use the Cafeteria Plan Worksheet in SI 00820.102G, if desired.) Go to Step 9.
+•
+For calendar years 2011 and 2012 only - If “FICA wages” are not shown, compute chargeable
+wages by multiplying the FICA tax shown (including Medicare tax) by 17.699. Go to
+Step 9.
+EXCEPTION: If you are aware of a reason other than a cafeteria plan that causes FICA wages to
+differ from the gross wages shown, or that causes the FICA tax to differ from 7.65%
+of gross wages or 5.65% in calendar years 2011 and 2012 only, (i.e. voluntary employee
+contribution) go to Step 5.
+•
+If neither “FICA wages” nor “FICA tax” (or a comparable term) is shown, go to Step
+5.
+5
+Is the employer's payroll office located in your service area?
+•
+If yes, go to Step 7.
+•
+If no, go to Step 6.
+6
+Request a precedent from the employer's servicing FO. If none exists, ask the servicing
+FO to develop one per SI 00820.102D.2. in this section. Upon receipt of the precedent, compute chargeable wages. Retain
+a copy of the precedent.
+Go to Step 8.
+NOTE: If a precedent cannot be established (e.g., employer will not cooperate), do not
+attempt to determine whether certain pay slip entries represent cafeteria-plan itemizations;
+If employer will not verify wages, then develop wages using the appropriate source
+per SI 00820.130.
+STOP.
+7
+Contact the employer and develop a precedent per SI 00820.102D.2. in this section.
+•
+If a precedent can be established (including a negative precedent), use it to compute chargeable wages, retain it, and
+go to Step 8.
+•
+If a precedent cannot be established (e.g., employer refuses to cooperate), and employer will not verify wages, then develop
+wages using the appropriate source per SI 00820.130.
+STOP.
+8
+Document that a precedent exists and that there is, or is not, a cafeteria plan on
+EVID, or a Report of Contact and lock it. Store the precedent in the Claims File User
+Interface (CFUI) using the Evidence Portal (EP) or in eView.
+For non- SSI Claims system (i.e., non-MSSICS) situations, document on an SSA-5002
+(Report of Contact) and store it in the Non-Disability Repository (NDRED) using EP
+or the Certified Electronic Folder (CEF), as appropriate.
+Go to Step 9.
+9
+In the CG field, input the applicable code (below) followed by the month and year.
+In the remarks field of the SSID, show the employer's name, if applicable, and include
+any other useful information. Delete entries that no longer apply. (This aids in any
+future S2 alert developments.)
+•
+CAF1 - Claimant or recipient participates in a cafeteria plan.
+•
+CAF2 - Ineligible spouse participates in a cafeteria plan.
+•
+CAF3 - Eligible spouse participates in a cafeteria plan.
+•
+CAF4 - Father participates in a cafeteria plan.
+•
+CAF5 - Mother participates in a cafeteria plan.
+•
+CAF8 - Essential person who is not a living-with spouse or parent participates in a cafeteria
+plan.
+•
+CAF9 - Essential person who is a living-with spouse or parent participates in a cafeteria
+plan.
+•
+CAFN - No cafeteria plan exists.
+•
+CAFS - Sponsor of alien participates in a cafeteria plan.

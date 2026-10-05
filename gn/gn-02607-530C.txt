@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02607.530 - Correcting PUPS Records With Missing Inmate Data
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607530 (fetched 2026-10-04)
+
+C. Procedure blank date of confinement/display of zeroes in the date field
+Reporters sometimes provide SSA with a day of "00" in the date of the confinement
+field. PUPS subsequently receives the incorrect 00-day entry as it passes through
+the Prisoner Suspension Matching Operation.
+Do not leave a display of zeroes in the day of confinement date field on a PUPS record.
+You must change the day entry to a legitimate date if the date of confinement field
+contains zeroes. Develop to determine the correct date of confinement for the individual
+per GN 02607.600. The corrected date allows the pending PUPS to properly process.
+NOTE: The corrected confinement date cannot be the same as the confinement date on another
+PUPS record for this same SSN.

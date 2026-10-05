@@ -1,0 +1,113 @@
+SSA Program Operations Manual System (POMS) - GN 02403.155 - Investigating Lost Remittances - FO Procedure
+Effective Dates: 03/11/2013 - Present | TN 34 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403155 (fetched 2026-10-04)
+
+B. Missing personal check or money order
+This subsection explains the procedures for investigating commercial money orders,
+postal money orders, or personal checks that the FO received and subsequently lost. If the person is overpaid,
+the loss of a check or money order in this situation does not alter the fact that
+the person has remitted the money to SSA and has terminated responsibility for repayment
+of that part of the overpayment. With proper proof of payment, you may credit the
+individual's overpayment. However, do not credit the trust fund until it has been
+established that SSA negotiated the check or money order.
+1. Obtain a copy of check or money order
+Ask the individual to provide a copy of the front and back of the money order or personal
+check that shows an endorsement. An individual can trace a postal money order by visiting
+a post office and completing PS Form 6401. If the individual provides a copy, follow
+the instructions in GN 02403.155B.2 in this section.
+If the individual refuses to request and provide a photocopy of the check or money
+order, the FO should obtain the photocopy. If you obtain the photocopy, follow the
+instructions in GN 02403.155B.2 in this section.
+If you cannot get a copy of the check or money order, follow the instructions in GN 02403.155B.4 in this section.
+2. Examine check or money order
+Examine the back of the check to determine if SSA negotiated the check or money order.
+If check or money order is made payable to SSA, it will be stamped FOR DEPOSIT ONLY
+or FOR DEPOSIT ONLY SSA on the back. If check is a U.S. Treasury check made payable
+to an individual beneficiary and endorsed on the back, it will likely be stamped FOR
+DEPOSIT ONLY SSA.
+a. SSA negotiated check or money order
+•
+If part of the endorsement shows 'FRB-CLEVE,' SSA deposited the check or money order
+to the Federal Reserve Bank in Cleveland.
+–
+Fax the photocopy of the front and back of the negotiated check or money order as
+a 'bank document' into NDRED. For information on sending documents to NDRED and viewing
+them in CFUI, see GN 00301.313 and SM 008 01.000.
+–
+Contact the MATPSC RAU via email address ||PHI ARC PCO RDDB
+DMS to have them research their records to determine if they processed the remittance.
+–
+Type 'Proof SSA negotiated checkResearch Request' in the subject line of the email.
+Provide in the body of the email the account number, receipt number, amount of the
+remittance, and the date the FO entered the remittance into the Debt Management System
+(DMS). Advise that a copy of the remittance is in CFUI.
+–
+MATPSC will verify it processed the remittance, negotiated the check, and will credit
+the record. Follow the instructions in GN 02403.155B.4 in this section and STOP.
+NOTE:
+If no response to initial email, wait at least 30 days before sending a follow-up
+email to MATPSC.
+•
+If the check or money order endorsement shows 'FRB-BALTIMORE,' SSA likely sent the
+check or money order to SSA's Office of Finance (OF) in Baltimore for processing as
+a remittance.
+–
+Follow the instructions in the bullets above to scan the proof into NDRED and send
+an email to MATPSC.
+–
+The MATPSC will work with OF to have the funds transferred to the individual's account.
+Follow the instructions in GN 02403.155B.4 in this section and STOP.
+b. SSA did not negotiate the check or money order
+If none of the check endorsements above are shown on the back of the check or money
+order, or if the check or money order was received by another Federal agency (e.g.,
+IRS), we can conclude that SSA did not receive the money.
+To request a replacement check or money order for non-negotiated checks technicians
+are to take the following actions:
+•
+Ask the individual to make a second remittance, explaining that since SSA did not
+negotiate the money order or check, SSA has not received payment. If the individual
+objects to making a second remittance because of the cost involved, see GN 02403.160.
+•
+Tell the individual that if SSA negotiates the original money order or check after
+receipt of the second payment, SSA will return the amount of the original money order
+or check.
+3. Is a second refund submitted?
+•
+If yes, process as a regular remittance and issue a new receipt, see MS 011 03.006. Whenever
+possible, process through the Social Security Electronic Remittance System (SERS),
+see GN 02403.161.
+If it is reasonable to assume that the original remittance will not be found, use
+the Manager Clear Unverified FO Receipt (RMUR) screen in DMS to clear the Unverified
+Alert when the second refund has been posted to ROAR or SSR, see MS 011 04.012. Enter
+the Receipt Number and in the cleared field enter 'Y.' STOP.
+•
+If no, obtain a statement from the individual giving his or her reasons for declining to
+make another remittance. Document the FO development efforts, scan into NDRED, and
+clear the unverified alert following the instructions in GN 02403.155B.4 in this section. For information on sending documents to NDRED and viewing them in
+CFUI, see GN 00301.313, and SM 008 01.000.
+NOTE: Call the individual at least three times and send one call-in letter. If you are
+unable to obtain a statement from the individual, document your attempts and scan
+into NDRED. Include an explanation of the events concerning the lost remittance and
+your attempts to obtain a statement from the individual.
+4. Document the actions and clear the unverified alert
+a. Document actions taken
+Document the FO investigation using the Remittance ID field on the Correct Field Office
+Receipt (RCFR) screen in DMS, see MS 011 03.022. Managers should use the Manager Correct/Delete
+FO Receipt (RMCR) screen to record FO actions to resolve the discrepancy, see MS 011
+04.011. For example, if the alerted remittance was processed or posted to ROAR or
+the SSR, enter the following information:
+•
+Block and item number from the Remittance File Query display,
+•
+The date posted to ROAR from the history field for TC 31, or
+•
+The date posted to the OPDR field with a TR 1 of HU or HUU
+If there is no trace of the remittance in ROAR or on the SSR, document that the lost
+check procedures were implemented or other action taken and date. Use the Remarks
+Index (RMKI) screen to enter remarks about the action taken. See MS 011 09.002
+b. Clear the alert
+Mark the receipt as verified by the FO Manager through an input to the Manager Clear
+Unverified FO Receipt (RMUR) screen in DMS, see MS 011 04.012. Print any queries reviewed
+as documentation for the investigation. Once the receipt is marked as verified through
+RMUR, the receipt will no longer appear on the Unverified FO Receipt Alert Listing.
+STOP.

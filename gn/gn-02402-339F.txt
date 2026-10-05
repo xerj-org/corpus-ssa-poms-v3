@@ -1,0 +1,109 @@
+SSA Program Operations Manual System (POMS) - GN 02402.339 - Coding Greek Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402339 (fetched 2026-10-04)
+
+F. Procedure for coding Greece bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Greece using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+International Bank Account Number (IBAN)
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+•
+beneficiary address
+•
+reclamation country
+1. Obtain SWIFT-BIC code from FI
+The SWIFT code consists of 8 to 11 alphanumeric characters. When an 8-digit code is
+given, it refers to the primary office:
+•
+First 4 characters - bank code (alpha only)
+•
+Next 2 characters - ISO 3166-1 alpha-2 country code (alpha only)
+•
+Next 2 characters - location code (alpha and numeric) (passive participant will have
+"1" in the second character)
+•
+Last 3 characters - branch code, optional ('XXX' for primary office) (alpha and numeric)
+2. Process initial award
+Secure IBAN and SWIFT-BIC coding from the beneficiary at the time of filing. The FBU
+inputs an initial IDD claim if the beneficiary elects the option of direct deposit.
+All initial IDD claims that an FBU takes for Greece require input into ITS.gov and an SSA system (i.e. MCS, MACADE, etc.) on the same
+day. You must complete all initial claims that the International Benefits Office (IBO)
+takes. You must input all initial claims involving Greece IDD into ITS.gov and an
+SSA system (i.e. MCS, MACADE, etc.) on the same day.
+NOTE: If there is dire need or hardship involved, advise the beneficiary of the option
+of initiating payment via a paper check. Inform the beneficiary that the bank may
+charge for cashing the check. If the beneficiary chooses the option of paper check,
+the FBU documents and processes the initial claim.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a EUR account in Greece? If no, STOP .
+REASON: Beneficiaries in Greece can only receive IDD payments in EUR accounts.
+If yes, go to step 4.
+4
+Code the RTN (9 digits total) as follows:
+–
+Start with 65, the prefix SSA has designated for Greek IDD.
+–
+Code the 3-digit bank code (obtained through the IBAN; see GN 02402.339G).
+–
+Code the first three digits of the 4-digit branch code.
+–
+Code the U.S. check digit, which you will obtain through Title II Interactive Comps
+from the Main Menus 07/Sub Menu 16.
+5
+Code the account type:
+–
+“S” for savings; or
+–
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the DAN for Greece, code:
+–
+The fourth digit of the branch code; and
+–
+The 16-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.339F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

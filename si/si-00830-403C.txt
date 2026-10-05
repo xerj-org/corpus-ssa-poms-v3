@@ -1,0 +1,158 @@
+SSA Program Operations Manual System (POMS) - SI 00830.403 - Temporary Assistance For Needy Families (TANF)
+Effective Dates: 08/01/2023 - Present | TN 264 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500830403 (fetched 2026-10-04)
+
+C. PROCEDURE – DETERMINING AN INDIVIDUAL'S SHARE OF A TANF GRANT
+1. Verify the Amount of the TANF Grant
+Consult regional instructions for the appropriate verification procedures, including
+how and when to use rate charts, and to determine whether the State pays the TANF
+grant based on an incremental basis or a flat rate.
+a. Contact the State Agency
+Absent regional instructions, verify the information needed to determine an individual's
+share of a TANF grant and the TANF termination date as follows:
+1.
+Consult an office precedent to determine whether the State pays the TANF grant based
+on an incremental rate or flat rate so that you know how to develop one person's share
+of the grant. See SI 00830.403C.2.
+2.
+Contact your local State TANF agency.
+3.
+Ask the TANF agency to verify:
+•
+the amount of the TANF grant paid to the family for each month, and
+•
+in States that pay a incrementally computed grant, to provide the amount the grant
+would be without the SSI claimant(s), or
+•
+in States that pay a flat rate grant, the number of people in the family.
+IMPORTANT: Sanctions or recovery of an overpayment may affect the amount of the TANF grant
+(see SI 00830.403A.6.). If the individual alleges receiving TANF in an amount that is different from the
+grants paid to other similar households, verify the amounts with the TANF agency,
+and do not use rate charts that may be in regional instructions. Compute the individual
+share using the amounts the State provides and following the instructions in SI 00830.403 B.2 and SI 00830.403C.
+b. Information Obtained Orally
+If you receive the TANF information about the payment amount or increment orally:
+•
+process the case based on the oral information, and
+•
+ask for written confirmation of the information. No follow-up on this request is required.
+NOTE: Regional instructions may supersede this instruction.
+c. Oral and Written Information Inconsistent
+If the written confirmation you receive later is different from the oral information:
+•
+compute the individual's share again, using the written information, and
+•
+post the adjusted information to the SSR.
+2. How to Calculate an Individual's Share of a TANF Grant—Incremental Method
+a. Calculate the Individual's Share
+When the State computes the TANF grant on an incremental basis, follow these steps
+to figure how much income an individual derives from TANF (i.e., the individual's
+share):
+•
+Start with the amount of the TANF payment the family received.
+•
+Subtract the amount the TANF payment would have been if that individual had not been
+included in the grant.
+•
+The result is the SSI claimant's share of the grant.
+EXAMPLE: John Smith, a disabled child, files for SSI. John is a member of a TANF household
+that includes John's parent and two ineligible children. The State informs you that
+the family's TANF grant is $650 per month and the grant without John would be $575
+per month. John's share of the TANF grant is $75 ($650 minus $575).
+See SI 00830.403C.4. for special rules for calculating an individual's share when there are 2 or more
+SSI claimants in the TANF household.
+IMPORTANT: If the TANF agency advises that the family's TANF grant without inclusion of the
+SSI claimant is the same as, or more than, the grant with the claimant included, the
+TANF income received by the SSI individual is 0. If the TANF agency prefers to provide
+you with the amount of the individual's share, then accept this amount without further
+development.
+b. Post the Income to the System
+•
+For MSSICS cases, on the IADC screen, post the TANF grant amount including the SSI
+claimant in the “Family Grant Amount” field and the amount without the SSI claimant
+in the “Amount Without Individual” field. (See MSOM MSSICS 015.005 for instructions on the IADC screen.)
+•
+For non-MSSICS cases, input the individual's share as type "F" income in the UM field
+per SM 01005.180-SM01005.185 (initial claims) or in SM 01305.200-SM 01305.215 (post-eligibility
+actions).
+3. How to Calculate an Individual's Share of a TANF Grant—Per Capita Method
+IMPORTANT: This method is only used with applications filed 10/01/00 or later. The date the claim is processed does not matter; the application date is the controlling
+factor for use of this calculation method.
+a. Calculate the Individual Share
+When the State pays a flat rate TANF grant, follow these steps to figure how much
+income an individual derives from TANF (i.e., the individual's share):
+•
+Start with the amount of the TANF payment the family received.
+•
+Divide the family grant by the number of individuals included in the grant to obtain
+the SSI claimant's share of the grant.
+•
+The result is the SSI claimant's share of the grant.
+EXAMPLE: Mary Jones, a disabled child, files for SSI. Mary is a member of a TANF household
+that includes Mary's parent and three ineligible children. The State informs you that
+the family's TANF grant is $600 per month. Mary's share of the grant is $120 per month
+($600 divided by 5).
+b. Post the Income to the System
+•
+For MSSICS cases, on the IADC screen, post the TANF grant amount in the "Family Grant
+Amount" field. Subtract the individual's share from the total grant and post the difference
+in the "Amount Without Individual" field. (See MSOM MSSICS 015.005 for instructions on the IADC screen.)
+•
+For non-MSSICS cases, input the individual's share as type "F" income in the UM field
+per SM 01005.180-SM01005.185 (initial claims) or in SM 01305.200-SM 01305.215 (post-eligibility
+actions).
+4. Special Rules for Two or More SSI Claimants In Incremental Rate State
+a. Two Or More Found Eligible And In Pay Status At Same Time
+If two or more persons from the same TANF unit are found eligible for SSI benefits
+at the same time (i.e., will be put into pay status at the same time), follow these steps to compute
+the amount of TANF income for each SSI eligible person:
+•
+Start with the amount of the TANF payment made to the family (i.e., the amount before
+any of the SSI individuals are removed from the grant).
+•
+Subtract the amount the TANF payment would have been if the SSI-eligible individuals
+had not been included in the grant.
+•
+Divide the remainder by the number of SSI-eligible persons.
+•
+The result is the amount of TANF income for each SSI-eligible person.
+EXAMPLE: Harold, Nancy, and Debbie file for SSI and are found eligible at the same time.
+They are members of a TANF household that includes 5 individuals. The amount of the
+TANF grant for the entire household is $600. The amount that would have been paid
+without Harold, Nancy, and Debbie is $330. The difference of $270 is the amount attributable
+to Harold, Nancy, and Debbie. Their individual shares are $90 each ($270 divided by
+3).
+b. Two or More Apply and One Found Eligible Before the Other
+If two or more individuals from the same TANF household unit apply for SSI and one
+is found eligible before the other, determine the first eligible person's share per SI 00830.403C.2.
+c. Two Or More Eligible For Same Period And One In Pay Status First
+If two or more individuals from the same TANF unit are found eligible for the same period but one was paid SSI before the determination is made for the other, do not recompute the TANF income of the
+person who has already been paid. Instead, follow these steps to compute the individual
+shares of the TANF grant:
+•
+Start with the amount of the TANF payment the family received.
+•
+Subtract the amount the TANF payment would have been if the SSI-eligible individuals
+had not been included in the grant.
+•
+The result is the total amount of TANF income for the SSI-eligible individuals.
+•
+From that amount, subtract the TANF income already charged to the individual who has
+already been paid SSI.
+•
+Charge the difference as TANF income to the second and, if appropriate, subsequent
+persons in equal amounts.
+•
+Continue this computation for future months.
+EXAMPLE: Bill, Susan, and Steven file for SSI and are found eligible. They are members of
+a TANF household that includes 5 individuals. The amount of the TANF grant for the
+entire household is $600. The amount that would have been paid without Bill, Susan,
+and Steven is $330. The difference of $270 is the amount attributable to Bill, Susan,
+and Steven. However, Susan was put into pay status before Bill and Steven. At that
+time, Susan's individual share of the TANF grant was $60. The difference between the
+$270 attributable to Bill, Susan, and Steven and the $60 already determined to be
+Susan's share is $210. Bill and Steven are charged with $105 as their individual shares.
+5. Document the File
+Document the file to support your determination of the TANF grant amount and the individual's
+share for each month on a report of contact (SSA-5002 or Report of Contact page),
+the EVID screen, or other written documentation from the TANF agency.

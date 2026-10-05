@@ -1,0 +1,52 @@
+SSA Program Operations Manual System (POMS) - DI 41005.001 - General Completion of the SSA-833-U5 for Statutory Blindness Cases Discussed in this Subchapter
+Effective Dates: 08/27/2015 - Present | TN 1 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0441005001 (fetched 2026-10-04)
+
+T. Items 21 and 22 - primary and secondary diagnosis
+Extract the information (including both secondary and primary diagnoses as well as
+body system and ICD codes) from the most recent SSA-831-U5 or SSA-833-U5 in the file.
+If this information is not available, see 1. and 2. below.
+1. Item 21 - primary diagnosis
+Enter the primary diagnosis using DI 28084.035 as a guide. Show the diagnosis of statutory blindness in parenthesis.
+a. Body system
+In the block provided, enter the applicable body system code from the following list:
+Code Number
+Body System
+01
+Musculoskeletal Disorders
+02
+Special Senses and Speech
+03
+Respiratory Disorders
+04
+Cardiovascular System
+05
+Digestive Disorders
+06
+Genitourinary Disorders
+07
+Hematological Disorders
+08
+Skin Disorders
+09
+Endocrine Disorders
+10
+Congenital Disorders that Affect Multiple Body Systems
+11
+Neurological Disorders
+12
+Mental Disorders
+13
+Cancer
+14
+Immune System Disorders
+19
+Low Birth Weight and Failure to Thrive
+20
+Special/Other
+b. Code number
+In the block provided, enter the impairment code number pertinent to the primary diagnosis.
+See DI 41005.035, Exhibit 6 for a list of impairment codes for visual impairments.
+2. Item 22 - secondary diagnosis
+Develop the secondary diagnosis using DI 28084.035 as a guide. Also, enter the impairment code number pertinent to the secondary diagnosis.
+If there is no secondary diagnosis, write “None” in the space.

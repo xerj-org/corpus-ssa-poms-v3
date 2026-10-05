@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02401.001 - General Information on Title II Checks
+Effective Dates: 04/26/2013 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401001 (fetched 2026-10-04)
+
+B. Check file processing
+After SSA certifies the payments and transmits the file to Treasury, Treasury prints
+and disburses Title II checks to our beneficiaries.
+1. Updating check data
+The Master Beneficiary Record (MBR) is the main data source for certifying payments.
+Every month, the MBR updates by segment on a varying schedule, depending on the number
+of workdays in the month. The Regional Financial Center (RFC) maintains a check-writing
+file of the accounts handled by the processing centers. The RFC maintains the file
+by ZIP Code in SSN sequence. Upon receipt of the updated MBR data, the RFC updates
+its file and prints the checks.
+2. Check production
+Treasury prints the checks; a machine encloses them in envelopes and places them in
+trays by ZIP Code and check number, awaiting pickup by the U.S. Postal Service (USPS).
+3. Check stuffer
+Treasury includes a check stuffer with all PMA checks, unless there is a foreign address,
+advising the beneficiary that a letter of explanation will follow shortly.
+From time to time, Treasury includes a stuffer with recurring checks to suggest that
+direct deposit is a better way to receive payments. In addition, all courtesy disbursement
+or replacement checks have an insert warning against cashing both the original and
+the enclosed check.
+4. Regular transcript index (RINDEX) file
+The RFC maintains a RINDEX file on tape. The file represents a visual record of all
+benefit checks that Treasury printed, but did not necessarily release, in a given
+month.

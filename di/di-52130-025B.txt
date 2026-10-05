@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 52130.025 - Field Office (FO)/Processing Center (PC) Input of the Civil Service Public Disability Benefits (CSPDB) Indicator
+Effective Dates: 07/30/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452130025 (fetched 2026-10-04)
+
+B. How to code the CSPDB indicator
+The appropriate codes should be:
+1 = if offset applies; or
+1 = if offsettable PDB applies but the High ACE precludes offset; and
+2 = if offset does not apply (Input only via MACADE or, if deleting WC/PDB Data, via
+ICF).
+The code can be annotated in one of two ways:
+•
+In ICF WC by completing the CSPDB field on the WC/PDB OFFSET – DISPOSITION (WCDA)
+screen, or
+•
+In MACADE via the Civil Service Payments (CS) screen (see SM 00842.028 MACADE CS Screen).
+The Modernized Claims System (MCS) does not annotate the CSPDB code. Therefore, when
+initial claims involving CSRS or offsettable FERS disability benefits are triggered
+through MCS without an ICF entry, the processing center (PC) must take a MACADE action
+in order to annotate the code.

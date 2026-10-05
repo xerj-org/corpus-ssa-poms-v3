@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - GN 03940.046 - Title XVI — Field Office Processing of Fee Agreements on Favorably Decided Title XVI Only Claims
+Effective Dates: 12/09/2024 - Present | TN 54 (06-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940046 (fetched 2026-10-04)
+
+A. Claims Specialist (CS) Actions Based on Decision Levels
+1. Initial and Reconsideration Levels
+Take the actions listed below to process a fee agreement.
+a.
+Approve or disapprove the fee agreement using the instructions in GN 03940.003.
+b.
+Determine if automated or manual fee processing applies. See GN
+03940.046C.
+In most cases, when the fee agreement is approved, the Supplemental Security Record
+(SSR) automatically computes the Title XVI fee amount and issues a fee authorization
+notice. Refer to SM
+01308.100, MS 00302.012, MS
+00302.013, and MS 00302.014 for information on automated representative fee processing.
+If the fee agreement is approved and the case is excluded from automated processing
+(see GN
+03940.046C.2), follow the procedures in GN 03940.046A.1.c through GN 03940.046A.1.g in this section.
+c.
+Determine the amount of the retroactive payment by examining the payment history (PMTH
+segment), underpayment information (MPMT segment), and computation history (CMPH segment)
+on the SSR. (See SM 01311.025 PMTH (Payment History), SM 01601.865 Miscellaneous Payment
+Data (MPMT), and SM 01601.790 Computation History — CMPH.)
+d.
+Reduce the Title XVI retroactive payment amount by any benefits and/or payments that
+are not considered past-due benefits for representative fee purposes. (See GN 03920.031 and GN 03940.007 for information on past-due benefits). The result is the Title XVI past-due benefit
+amount for the fee computation.
+e.
+Authorize a fee that equals the least of:
+•
+25 percent of the Title XVI past-due benefits;
+•
+the percentage of past-due benefits or the flat fee amount specified in the fee agreement;
+or
+•
+the applicable specified dollar amount of the fee cap indicated in GN
+03940.003B.3.
+NOTE: Refer to GN
+03940.052 for policy on calculating the representative's fee in Supplemental Security Income
+(SSI) couple's cases.
+f.
+If the representative has not waived their fee and is eligible for direct fee payment,
+refer to GN
+03940.046D for procedures to record the fee and the assessment on the SSR.
+g.
+Prepare and issue a Title XVI Fee Agreement Notice if a manual notice is required
+(see GN
+03940.008 and GN
+03940.055 for notice policy and procedures).
+If you are the decision maker (see GN
+03960.001D.4) and believe a request for administrative review of the authorized fee amount is
+appropriate (see GN
+03940.001E), you must file the request within 15 days of the date of the notice. See GN
+03960.040 for information on requesting administrative review.
+2. Hearing or Appeals Council (AC) Level
+Verify that the OHO or OAO decision maker (see GN
+03940.002C and D) approved the fee agreement by looking for a Form HA-L15 (Fee Agreement Approval)
+at the hearing level, a Determination of Fee Agreement in the AC Decision, or other
+fee agreement determination document.
+If the fee agreement determination is correct and manual processing is required (see
+GN
+03940.046C), go to GN
+03940.046A.1.c.
+If the decision maker did not make a determination, see GN
+03940.046E.
+If you believe the decision maker incorrectly approved the fee agreement, see GN
+03940.046F.
+Note:
+Approval of a fee agreement is contingent on whether the claim results in past-due
+benefits. (See HALLEX HA 01120.012). If the claim does not result in past-due benefits, disapprove the fee agreement.
+Refer to GN
+03940.055C.3.a for a description of the fee agreement disapproval notice.

@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02610.037 - How to Compute Title II Offset In Couples Cases Where Offset Was Previously Computed For One Member
+Effective Dates: 11/09/2004 - Present | TN 11 (09-90)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610037 (fetched 2026-10-04)
+
+B. PROCEDURE
+The FO will trigger an automated computation whenever possible (SM 01320.100B.2.).
+To compute the offset for the newly eligible member manually, the FO must:
+STEP
+ACTION
+1
+Do an offset computation for the couple following steps 1 through 8 of GN 02610.035.
+2
+Subtract the offset previously computed for the other member from the results of Step
+1. if offset periods overlap.
+3
+Subtract the results of step 2 from the newly eligible member's retroactive title
+II benefits due.
+4
+If the results of step 3 are less than the retroactive benefits due the new member
+in the offset period, this is the new member's NCI.
+5
+Post offset results to the SSR (SM 01320.204). If unable to post or the PC initiates
+the request, call the PC with offset results and send them the worksheets with instructions
+to “prong
+file.”
+The PC will:
+•
+post data to MBR,
+•
+subtract the offset amount from the retroactive title II benefits due the newly eligible
+beneficiary,
+•
+transfer the offset amount from the trust fund to the general fund,
+•
+subtract any SSI collectible overpayment - see SI
+02220.021.
+•
+release any remaining title II benefits to the beneficiary.

@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - GN 02402.371 - Coding Cape Verde Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402371 (fetched 2026-10-04)
+
+F. Procedure for coding Cape Verde bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Germany using an SSA system (i.e. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE).).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+16-digit account number
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+•
+beneficiary address; (no P.O. box address allowed)
+•
+reclamation country
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code should consist of 11 alphanumeric characters:
+•
+First four characters - bank code (alpha only);
+•
+Next two characters - ISO 3166-1 alpha-2 country code (alpha only);
+•
+Next two characters - location code (alpha and numeric) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (alpha and
+numeric).
+2. Process initial award
+Secure the beneficiary’s name, address, and full SWIFT-BIC code at the time of filing.
+The FBU inputs an initial IDD claim if the beneficiary elects the option of direct
+deposit. All initial IDD claims that an FBU takes for Cape Verde require input into
+ITS.gov and an SSA system (i.e. MCS, MACADE, etc.) on the same day. You must complete
+all initial claims that the International Benefits Office (IBO) takes. You must input
+all initial claims involving Cape Verde IDD into ITS.gov and an SSA system (i.e. MCS,
+MACADE, etc.) on the same day.
+NOTE: If there is dire need or hardship involved, advise the beneficiary of the option
+of initiating payment via a paper check. Inform the beneficiary that the bank may
+charge for cashing the check. If the beneficiary chooses the option of paper check,
+the FBU documents the initial claim.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR will not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Cape Verde? If no, STOP.
+REASON: Beneficiaries in Cape Verde can only receive IDD payments in USD accounts.
+If yes, go to step 4
+4
+The RTN is 710000028 for Cape Verde. It contains the:
+•
+Multi-country prefix of "71" for Cape Verde IDD;
+•
+U.S. check digit code of "8" at the end of the RTN for all IDD accounts in Cape Verde.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Cape Verde, code:
+•
+“O” designated for Cape Verde,
+•
+Up to 16 digits of the account number
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.371F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

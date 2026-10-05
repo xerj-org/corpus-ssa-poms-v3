@@ -1,0 +1,120 @@
+SSA Program Operations Manual System (POMS) - SI 00835.482 - Loans of In-Kind Support and Maintenance
+Effective Dates: 10/01/2024 - Present | TN 125 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500835482 (fetched 2026-10-04)
+
+E. Procedure for developing living arrangements in loan situations for simultaneously
+developed cases
+Use the following procedure for initial claims that have been simultaneously developed
+and are awaiting only the DDS medical decision input. These are cases for which POMS
+requires simultaneous development (e.g., TERI cases). These also include cases for
+which the field office follows local guidelines for doing simultaneous development
+instead of deferred development. For information about the types of cases that require
+simultaneous development, see SI 00603.002.
+NOTE: Simultaneous development includes the CS determination and documentation of whether
+the individual has a bona fide loan of ISM.
+1. Loan of ISM is not bona fide
+If the loan of ISM is not bona fide, develop and count ISM using normal ISM rules
+for the entire period (i.e., back to the application date). Continue with simultaneous
+development to prepare the claim for the DDS medical decision input.
+2. Loan of ISM is bona fide and covers the pro rata share of household expenses
+If the individual has a bona fide loan of ISM, and the individual and the lender allege
+that the loan covers the full pro rata share, follow these steps:
+1.
+Verify that the loan covers the household expenses for the period covered by the loan;
+2.
+Document the file with the individual’s allegation under the Remarks section on the
+Househhold Expenses and Contributions page in the SSI Claim System and with the lender’s
+statement on a Report of Contact page;
+3.
+Determine that the individual is in FLA/A with no ISM starting from the application
+date;
+4.
+Complete simultaneous development of the claim for the DDS medical decision input;
+and
+5.
+Set an RT diary to contact the individual within 3 months after they receive the first
+SSI check to develop the living arrangement.
+NOTE: The CS may need to reset the RT diary if it matures before the DDS disability determination
+is made.
+NOTE: When a bona fide loan of ISM exists and it covers the pro rata share, it is not necessary
+to develop the household expenses and contributions for the retroactive period.
+3. Loan of ISM is bona fide and does not cover pro rata share of household expenses
+If the individual and lender do not allege that the bona fide loan covers the full
+pro rata share, follow these steps to determine whether the individual has received
+countable ISM:
+1.
+Develop household operating expenses beginning with the month of application. For
+information about household expenses, see SI 00835.465;
+2.
+Compute the individual's pro rata share. For information on sharing and the pro rata
+share, see SI 00835.160;
+3.
+Determine whether the loan of ISM (plus any cash contribution) covers the value of
+the food and shelter received (if not, the difference is countable ISM); and
+4.
+Process the inside ISM development normally in SSI Claim cases:
+•
+Input the monthly loan amount (plus any additional cash) in the MONTHLY LOAN AMOUNT
+field on the Household Expenses and Contributions page;
+•
+Input any cash contribution in the AMOUNT CLAIMANT CONTRIBUTES field. The SSI Claim
+System correctly computes the ISM and determines whether the one-third reduction rule
+(VTR) or presumed maximum value rule (PMV) applies. For information about the Household
+Expenses and Contributions page, see MS INTRANETSSI 010.013 and the Household of Another
+page, see MS INTRANETSSI 010.014;
+•
+Complete simultaneous development of the claim so it will be ready for the DDS medical
+decision input; and
+•
+Set an RT diary to contact the individual within 3 months after they receive the first
+SSI check to develop the living arrangement. The CS may need to reset the diary if
+it matures before the DDS makes a disability determination.
+REMINDER: The VTR (FLA/B) applies only if:
+•
+the loan amount plus the cash contribution, if any, does not cover the pro rata share
+of the food and shelter received from within the household, and
+•
+the applicant receives both food and shelter from within the household of another for the entire month.
+When the VTR does not apply, use the PMV rule to determine ISM, if any. For additional
+instructions on determining ISM under the PMV rule, see SI 00835.340. For instructions on determining the pro rata share, see SI 00835.020B.25.
+4. Input RT diary to re-contact individual after SSI benefits start
+When the CS processes a simultaneous development claim to completion based on a bona
+fide loan of ISM, it is necessary to contact the individual after SSI benefits have
+started to close out the loan of ISM period and to develop the individual’s new living
+arrangement period after the loan period ending date. If the CS does not contact the
+individual, they may receive SSI benefits for many months based only on the loan of
+ISM. Follow these steps to contact the individual after receipt of SSI benefits has
+begun:
+1.
+Input an RT diary to contact the individual within 3 months after the estimated first
+month of SSI payments per the diary instructions in MSOM BUSSR 002.019, “Update Diaries
+(UDIA);
+2.
+When the diary matures, contact the individual to develop living arrangements and
+ISM beginning with the month after the month of the first SSI payment. Do not conduct a redetermination if the only
+reason for contact is to develop the living arrangement;
+3.
+Do full living arrangement development beginning the month after the individual receives
+the first SSI payment to determine whether the individual’s cash contribution covers
+the pro rata share of household expenses; and
+4.
+If the contribution does not cover the value of food and shelter the individual receives,
+determine the amount of ISM and count it beginning with the month after the month
+of the first SSI payment.
+EXAMPLE: Simultaneous development claim with RT diary for re-contact
+Alfred files for SSI on 03/12/2009, alleging that they live in their siblings home
+and receives both food and shelter covered by a loan agreement. The CS completes simultaneous
+development of the claim on 04/07/2009, and determines that Alfred has a bona fide
+loan of ISM that is presumed to cover the pro rata share for food and shelter. Alfred’s
+living arrangement under the loan of ISM is FLA/A with no ISM. The CS adjudicates
+the claim and inputs an RT diary set for 07/07/2009. At this point, the claim is complete
+except for the input of the DDS medical determination.
+DDS completes its evaluation and inputs a medical allowance on 06/05/2009. Alfred
+receives their first SSI check on 06/19/2009. When the RT diary matures on 07/07/2009,
+the CS contacts Alfred to determine their living arrangements beginning 07/01/2009
+and to close out the loan of ISM.
+On 07/12/2009, the CS interviews Alfred to develop their living arrangements. The
+CS establishes that Alfred’s pro rata share is $400 per month and that Alfred contributes
+$300 per month toward the expenses. Based on this information, The SSI Claim System
+determines that Alfred is in FLA/B and subject to the one-third reduction starting
+in July 2009 (the month after the month the first SSI payment was received).

@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 55025.001 - Determining Ticket Status
+Effective Dates: 07/23/2024 - Present | TN 5 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455025001 (fetched 2026-10-04)
+
+C. Initiating a medical CDR for a ticket holder
+To determine if we can initiate a medical CDR for a Ticketholder, review the “General
+Ticket Query” (TKQY) screen in the DCF to determine the ticket status of a Ticketholder.
+This query will show information about the Ticketholder's ticket status. For information
+on the general ticket query, see MSOM CDR 004.003.
+The following chart shows the ticket status terms on the general ticket query and
+the relationship of the ticket status to the policy on medical CDRs for Ticketholders.
+Ticket Status
+Initiate Medical CDR?
+POMS section
+Eligible
+Yes
+DI 55025.001C Note
+Mailed
+Yes
+DI 55025.001C Note
+Assigned In Use
+No
+DI 55025.001B.2
+Assigned Not In Use – Inactive
+Yes
+DI 55025.001B.8
+Assigned Not In Use – FTPR
+Yes
+DI 55025.001B.9
+In Use SVR
+No
+DI 55025.001B.2
+Not In Use SVR – Inactive
+Yes
+DI 55025.001B.8
+Not In Use SVR– FTPR
+Yes
+DI 55025.001B.9
+Not Assigned In Use – Extended
+No
+DI 55025.001B.5
+Not Assigned Not In Use
+Yes
+None
+Not Assigned Not In Use - FTPR
+Yes
+DI 55025.001B.9.
+Terminated
+Yes
+None

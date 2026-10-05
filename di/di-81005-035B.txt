@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - DI 81005.035 - Title Bars
+Effective Dates: 03/19/2012 - Present | TN 4 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005035 (fetched 2026-10-04)
+
+B. The Secondary Title Bar
+The secondary title bar appears above the eView Tabs and includes:
+1. Flags indicator
+The “Flags” indicator appears on the far-left of the secondary title bar. Users can
+view details of flags, edit existing flags, and add new flags to a case by using the
+“View Details/Edit” link next to the flags indicator. For details on adding flags
+to a case, see DI 81010.080.
+2. Office of Quality Review (OQR) Sample indicator
+The OQR Sample indicator remains blank unless OQR selects the case to sample. If the
+case is selected, eView displays the most recent OQR sample date.
+3. Certified Electronic Folder (CEF) indicator
+The CEF indicator displays a “Y” if the filing is a CEF. If there is a paper modular
+disability folder (MDF), there is an “N” for “No”, which means the filing is not a
+CEF.
+4. Continuing Disability Review (CDR) CEF/CPD (Comparison Point Decision) CEF indicator
+If the case is an eCDR, the eCDR CEF and CPD CEF indicators appear on the secondary
+title bar. eView displays the following indicator(s):
+a. CDR folders
+If the CDR folder is a CEF, eView displays CDR CEF “Y”.
+If the CDR folder is paper, eView displays CDR CEF “N”.
+b. CPD folders
+If the CPD folder is a CEF, eView displays CPD CEF “Y”
+If the CPD folder is paper, eView displays CPD CEF “N”
+c. Unable to locate CPD folder
+If the Field Office is unable to locate the CPD folder, eView displays CPD CEF “UTL”
+5. Disability Case Processing System (DCPS) indicator
+A “Y” entry indicates the case is being processed using the Disability Case Processing
+System (DCPS) instead of the Disability Determination Services (DDS) legacy system.
+An ”N” indicator indicates the case is processed in the DDS legacy system.
+6. Quick Disability Determination (QDD) indicator
+The QDD indicator appears to the right of the CEF indicator. A “Y” or “N” is present
+next to the indicator to inform the user whether the case has been identified as a
+QDD case. Selecting the “QDD” link brings users to the Quick Disability Determination
+screen. This screen displays:
+•
+Current and historical QDD status;
+•
+The date the case was identified as QDD; and
+•
+The history of any QDD actions taken (including date, type of action taken, office
+code of the action, and the reason for the action).
+7. Compassionate Allowance (CAL) indicator
+The CAL indicator (Compassionate Allowance) shows a “Y” or “N” to indicator whether
+the case has been identified as a CAL case and acts as hyperlinked text to the CAL
+History page.
+The CAL history screen displays the following:
+•
+Historical data chronologically ordered and including whether CAL was automatically
+selected or manually added
+•
+Type of action (Added/Reinstated/Removed)
+•
+Reason for action
+•
+Office code for historical actions
+•
+CAL conditions for the specific case with a link to information about that particular
+disease or condition
+For more information on processing CAL cases, see DI 23022.000 and DI 11005.604.
+8. Medical Evidence Regulation (MedEv) indicator
+The MedEv indicator displays the current or prior medical evidence regulation. The
+indicator also links to the Medical Evidence Regulation history screen in eView, which
+provides the jurisdiction and ability to update the indicator, if necessary.
+9. Electronic Claims Analysis Tool (eCAT) indicator
+The eCAT indicator appears on the secondary title bar to inform users of eCAT involvement
+on initial and reconsideration-level cases.
+10. High Risk Indicator
+The High Risk Indicator quickly identifies, for downstream components, individuals
+that have a High Risk Alert placed on their record in the Visitor Intake Process (VIP)
+database. eView does not display a High Risk Alert if an alert is not found or is
+inactive at the time of the VIP query.
+11. eBB indicator
+The eBB indicator appears on the secondary title bar and provides a link to the Electronic
+Bench Book (eBB) application. The link only displays to users associated with a Hearing
+Office, when the folder contains a Hearing Office level case or higher, and the eView
+folder does not contain a case is a ‘BC’ or ‘DC’ claim or a CDR.

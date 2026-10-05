@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - GN 02402.338 - Coding Mexico Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/03/2024 - Present | TN 278 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402338 (fetched 2026-10-04)
+
+E. Examples – Coding Mexico Direct Deposit
+EXAMPLE 1: A signup form for Mexico contains the following information:
+#ABM de Banco:               541
+Plaza:                               123
+Número de Cuenta               12345678901
+Digito Verificador                3
+The coder begins the Routing and Transit Number with 63, followed by the ABM de Banco
+(541), followed by 00, followed by the first digit of the ABM de Banco (5), followed
+by the U.S. check digit of 2.
+The Routing and Transit Number will be 635410052. (The final digit, 2, is the U.S.
+check digit for 63541005.)
+The coder codes the Depositor Account Number field with the second and third digits
+of the ABM de Banco (41), the 3-digit Plaza 123), the 11-digit
+Número de Cuenta (12345678901) and the 1-digit Digito Verificador (3).
+The Depositor Account Number will be 41123123456789013.
+EXAMPLE 2: The beneficiary sends the following information by fax to OIO:
+“My CLABE is 856345123456789017.”
+The Routing and Transit Number will be 638560080. (The final digit, 0, is the U.S.
+check digit for 63856008.)
+The Depositor Account Number will be 56345123456789017.
+EXAMPLE 3: The enrollment form has an ABM number of 123 and a Debit Card Number (Tarjeta de Débito)
+of 4445556667778889.
+The coder begins coding the Routing and Transit Number (RTN) with 63, the prefix assigned
+to IDD for Mexico.
+Next the coder codes the 3-digit ABM number, 123, followed by two zeros (00).
+Next comes the first digit of the 16-digit Debit Card number, 4, followed by the U.S.
+Check Digit for 63123004, which is 5.
+The RTN will be 631230045.
+The coder then codes the Depositor Account Number (DAN) field with the remaining 15
+digits of the Debit Card Number, 445556667778889.
+The DAN will be 445556667778889.

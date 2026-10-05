@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - SI 02310.020 - Federal Benefit Interfaces – VA, RRB, OPM
+Effective Dates: 02/27/2001 - Present | TN 28 (02-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310020 (fetched 2026-10-04)
+
+B. Process - VA/RRB/OPM interfaces
+1. Recurring Benefit Change
+If there is a change in the recurring VA/RRB/OPM payment amount, the SSR:
+•
+Updates the unearned income (UM) entry with the new amount;
+•
+Updates the UM verification code; and
+•
+Generates a notice that advises the recipient of the VA/RRB/OPM payment change and
+the effect that change will have on the recipient"s SSI payment amount.
+2. Other Issue(s) Detected
+If the interface detects a change other than a change in the VA/RRB/OPM payment amount
+(such as an indication that development of retroactive benefits is needed), it updates
+the SSR to show the new recurring amount and generates an alert to the servicing FO.
+3. Augmented VA
+See SI 00830.314 for instructions on augmented benefits.
+4. References
+•
+VA - SM 02002.001 ff.
+•
+RRB - SM 02002.100 ff.
+•
+OPM - SM 02002.200 ff.
+•
+“double-counting” alerts - SI 00830.110

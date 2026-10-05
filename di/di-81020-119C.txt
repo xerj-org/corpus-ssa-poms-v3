@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - DI 81020.119 - Processing Electronic Informal Remands
+Effective Dates: 11/25/2008 - Present | TN 3 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020119 (fetched 2026-10-04)
+
+C. DDS processing of an electronic IR case
+Review earnings queries for possible work activity after the claimant’s alleged onset
+date (AOD) and follow normal case processing rules for development and adjudication.
+1. Fully favorable determination
+If the DDS can make a fully favorable determination on all claims in the case:
+•
+Prepare a revised SSA-831-U5 (Disability Determination and Transmittal) and enter
+“Informal Remand Case” in the remarks section (Item 34) of the SSA-831-U5. See DDS
+Action Upon Receipt of Informal Remand Cases DI 27520.005.
+•
+Close the claim on the DDS case processing system, the EFI, and the National Disability
+Determination Services System (NDDSS).
+•
+Prepare and release the required Notice of Determination (Title II and Title XVI)
+to the claimant advising of the revised determination.
+•
+Enter the decision code of UE (reversal without development) or VE (reversal with
+development).
+•
+Enter the Regulation Basis Code (RBC), the medical listing number (MLN) (if appropriate),
+diary date, and all other data per SM 06001.410B.6.
+•
+Enter SCF code of “E” to manually exclude the case from Office of Quality Performance
+(OQP) sampling.
+•
+Return the claim to the servicing Field Office (FO).
+NOTE: The EFI notifies ODAR of the fully favorable determination. ODAR accesses the CEF
+for copies of the claimant notices and the SSA-831-U5.
+2. Unable to make a fully favorable determination
+If, after development, the DDS cannot make a fully favorable determination on all
+claims:
+•
+Annotate the electronic folder (EF) with a SSA-5002 (Report of Contact), documenting
+the basis for the No Determination (ND) decision code.
+•
+Prepare a ND with ND reason Unable to Make a Fully Favorable Determination (UFFD).
+See Processing “No Determination” Claims DI 81020.127.
+•
+Return all claims to the originating ODAR that requested the IR.

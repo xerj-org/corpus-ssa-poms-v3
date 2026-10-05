@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - GN 02408.400 - EFT Stop-Payments
+Effective Dates: 11/03/2008 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408400 (fetched 2026-10-04)
+
+A. General
+Three stop codes are available for Electronic Funds Transfer (EFT) payments that are
+not due. This table shows the three situations when these stops should be used.
+Stop Code
+Purpose
+E-stop
+An EFT (direct deposit) payment (Title II or Title XVI) was issued after death and is not due. An E-stop triggers a reclamation request at Treasury. See EFT Reclamations
+starting at GN 02408.600.
+F-stop
+A Title II EFT payment was not due for a reason other than death, AND Treasury Offset Program (TOP) was involved. This can be either Benefit Payment Offset (BPO) or Federal Payment
+Levy Program (FPLP).
+Treasury reverses the offset amount from the agency to which it was sent and returns
+it to SSA. See GN 02408.405 Treasury Offset Program (TOP) Involved.
+W-stop
+A Title II EFT payment was issued to a deceased representative payee.

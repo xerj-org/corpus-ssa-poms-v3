@@ -1,0 +1,55 @@
+SSA Program Operations Manual System (POMS) - GN 00301.288 - What Information is Needed on EVID and the Report of Contact page in the Consolidated Claims Experience (CCE) in PE Situations to Identify the Type of Evidence Submitted
+Effective Dates: 08/15/2023 - Present | TN 105 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200301288 (fetched 2026-10-04)
+
+G. Recording Specific Evidence Types
+1. W-2 Forms
+When entering the event date in the “DOCUMENT EVENT DATE” field on EVID or “REPORT
+TEXT” on the Report of Contact page in CCE, enter the last day of the year as stated
+on the W-2.
+Information about the amount of income may be shown in the “COMMENTS” field on EVID
+or the “REPORT TEXT” field on the Report of Contact page in CCE. The amount of income
+must be entered in the system for which the substantive information is being captured (e.g.,
+MCS, MSSICS, etc.). Record the employer's EIN in the “RIN” field on EVID or the “REPORT
+TEXT” field on the Report of Contact page in CCE.
+The date recorded and the date issued are not needed.
+In an initial claims situation, when a claimant brings in two or more W-2s from different
+employers as proof of wages, complete two different EVID screens. Show all W-2's on
+one Report of Contact page in CCE. (If proof of prelag wages is presented, completion of the Earnings Modernization screens is sufficient
+to capture an audit trail about the employer.)
+2. Tax Return Information
+When coding tax return information on EVID or the Report of Contact page in CCE, show
+as the event date the last day of the tax year as stated on the tax return.
+Show information about the amount of income in the “COMMENTS” or “REPORT TEXT” field.
+However, the amount of income must be entered in the system for which the substantive information is being captured (e.g.,
+MCS, MSSICS, etc.).
+The date the tax return was signed by the taxpayer (if shown) should be recorded in
+the “DATE RECORDED” field or “REPORT TEXT” field on the Report of Contact page in
+CCE.
+3. Monthly Pay Stub Information
+In title XVI PE situations where the local requirements call for SSI recipients to
+provide proof of income on a monthly basis, the FO can annotate EVID or the Report
+of Contact page in CCE with the first month reporting; do not code subsequent months. Record/store subsequent months' information according to SI 00820.141C.2.b. In the “COMMENTS” field of EVID or “REPORT TEXT” field on the Report of Contact page
+in CCE, include a statement “Future monthly income stored locally.”
+4. Military Service
+When coding military service (DD-214) information, show the discharge date in the
+“DOCUMENT EVENT DATE” field on EVID or “REPORT TEXT” field on the Report of Contact
+page in CCE. Show the active duty start date in the “COMMENTS” field on EVID or “REPORT
+TEXT” field on the Report of Contact page in CCE. If there are several periods of
+active military service with a break in service, show the very last discharge date
+as the event date. Enter the other periods in the “COMMENTS” field on EVID or “REPORT
+TEXT” field on the Report of Contact page in CCE.
+If a person has multiple periods of active military service with no break in service,
+show as one period of service. You may annotate the fact that there were several DD-214s
+covering this period in the “COMMENTS” field on EVID or the “REPORT TEXT” field on
+the Report of Contact page in CCE. However, the military service periods must be entered
+in the system for which the substantive information is being captured (e.g., MCS).
+Neither the date recorded nor date issued is needed.
+5. Veteran Administration Benefit Query
+If VBAQ is used to prove a period of military service, annotate on EVID/Report of
+Contact page in CCE. When VBAQ is an issue, see MS 05203.020.
+6. Online Evidence
+When evidence certified by the custodian of record that is received via Online Data
+Exchange is being recorded, show that it is “Online” evidence. Record the date of
+access, name of the agency whose records were accessed, the name or number of screens
+accessed and data element used as evidence.

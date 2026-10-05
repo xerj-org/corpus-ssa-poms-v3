@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - GN 02408.012 - Manual E-Stop Process for Checks
+Effective Dates: 10/28/2013 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408012 (fetched 2026-10-04)
+
+A. Background
+E-stops are normally input automatically when a death termination is input. However,
+sometimes a manual input is necessary.
+Input E-stops manually when the following occur:
+•
+When it is determined that a beneficiary's or recipient's date of death occurred earlier
+than previously reported, transmit a manual E-stop for each check within the newly
+prescribed period.
+•
+When checks issued after the date of death have not been returned and no E-stops are
+present on the Payment History Update System (PHUS) query for Title II (SM 00630.270)
+or the Treasury Status Query for Title XVI (MSOM BUSSR 003.020), transmit manual E-stops.
+See also GN 02408.010B.1., third bullet re: E-stops orbiting.
+•
+On rare occasions, a death input does not generate E-stops on payments issued after
+death. However, this is especially true for Title II prior month accrual (PMA) checks issued
+after the date of death that contain underpayments due the deceased beneficiary. These checks should be reclaimed so an entitled survivor can apply for the underpayment
+per GN 02301.030.
+NOTE: Because automated E-stops do not post to PMA payments, the situation sometimes goes
+unnoticed unless there is a dispute about the funds.

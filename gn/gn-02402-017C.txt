@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - GN 02402.017 - Handling Overpayments Attributed to Alleged Fraud and Other Unauthorized Redirection of Payments
+Effective Dates: 08/22/2022 - Present | TN 307 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402017 (fetched 2026-10-04)
+
+C. Handling Title II overpayments due to unauthorized redirection of payments - PSC Actions
+Review the Master Beneficiary Record (MBR) special messages (SP MSG) and the remarks
+field (RMKS) on the Critical Payment System (CPS) output, to determine if alleged
+direct deposit fraud is involved. The remark on the CPS output should indicate "Alleged
+DD Fraud, Review Teletrace Result - Possible Delay in O/P Collection," per GN
+02402.012B2c.
+If the CPS involves alleged Direct Deposit fraud, take action to make the Total Amount
+Paid (TAP) equal to the Total Amount Recovered (TAR) on the CPS record.
+If the MBR and CPS output identify the case as possible Direct Deposit fraud, take
+the following actions:
+1.
+If you determine the CPS input is missing the required remark identifying the involvement
+of fraud, add a Special Message "Alleged D/D Fraud, Review Teletrace Result-Possible
+Delay in O/P Collection."
+2.
+Establish an overpayment for the non-entitled debtor on the beneficiary's SSN via
+the Establish Debt (SMED) screen in the Debt Management System (DMS) to post the overpayment
+to the affected BIC with a subscript of "X" . Use the ROAR's Debt Management System
+(DMS) to post the overpayment to the affected BIC with a subscript of "X" (e.g., "AX"
+or "CX").
+3.
+Use a Type of Event (TOE) code of 65, with the fraud indicator of No (N) (see SM 00610.515F).
+4.
+Post the overpayment using the following: FIRST NAME: DIRECT MIDDLE NAME: DEPOSIT LAST NAME: FRAUD
+5.
+Annotate DMS remarks with the details of the overpayment.
+6.
+Post a Special Message to the MBR: "ALLEGED DD PAYMENT FRAUD-DO NOT INITIATE OVERPAYMENT
+RECOVERY OR CONTACT BENEFICIARY." Do not send an overpayment notice.
+7.
+On the next business day, review the ROAR record to determine if the case processed
+correctly.
+8.
+If the case processed correctly, establish a 90-day diary via the ROAR Diary Processing
+screen (DRDY) in DMS .
+9.
+If the 90-day diary matures and no additional guidance or credits is received, annotate
+the case with the listing code 119 and terminate collection activity for the overpayment
+(See subsection GN 02402.017E).
+NOTE: Ensure the name input for the Non-Entitled Debtor (NED) remains as FIRST NAME: DIRECT MIDDLE NAME: DEPOSIT LAST NAME: FRAUD. Do not change the name of the debtor to reflect the alleged bank account owner shown
+in the Teletrace response. Do not charge the alleged bank account owner an overpayment
+unless instructed to do so by Program Integrity, Risk, and Fraud Prevention (PIRFP)
+or OIG.

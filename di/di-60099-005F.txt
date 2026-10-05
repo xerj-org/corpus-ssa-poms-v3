@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - DI 60099.005 - Overview of the Benefit Offset National Demonstration (BOND) Project
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099005 (fetched 2026-10-04)
+
+F. Implementation responsibilities for FO, PSCs, and N8NN
+1. Abt Associates (Abt)
+To minimize the impact BOND has on agency resources, SSA contracted with Abt to design
+and implement BOND. Abt has a national call center. They designed the BOND Operations
+Data System (BODS) that sends data to SSA via the BOND stand-alone system (BSAS).
+They recruited and enrolled Social Security disability insurance (SSDI) beneficiaries
+for the project.
+As the implementation contractor, Abt’s staff:
+•
+assist BOND participants with obtaining proof of income, impairment-related work expenses
+(IRWE), subsidy, un-incurred business expenses, or special conditions;
+•
+issue receipts to BOND participants for each work estimate received;
+•
+assist with notice explanation or clarification; and
+•
+assist with waiver, reconsideration, and hearing requests for BOND overpayments.
+2. BOND work continuing disability review (CDR) unit (L5R) - OFFICE L5R NO LONGER OPERATING
+The BOND processing office L5R is no longer operating.
+The Office of Research, Demonstration, and Employment Support (ORDES) established
+a centralized unit in the Office of Program Development (OPD) to process the work
+CDRs for BOND participants. ORDES established a special unit to handle the work CDRs
+and issue specialized notices for BOND participants because the work CDRs need special
+processing to protect the eligibility months of the beneficiary for the BOND offset
+rules. The CDR unit is also responsible to code the Disability Control File (DCF)
+and update the BOND computer systems for beneficiaries who are eligible to receive
+the $1 for $2 offset.
+a. ORDES BOND mailing address - OBSOLETE ADDRESS, OFFICE L5R NO LONGER OPERATING
+The mailing address for ORDES is:
+Social Security Administration
+Bond Project/OPDR/ORDES/ORD
+6401
+Security Boulevard
+Annex Building 4303/ORD 4-P-8-F
+Baltimore, Maryland 21235
+b. ORDES BOND fax number
+The BOND Fax number in ORDES is (410) 597-0149. BOND FAX OBSOLETE, NO LONGER AVAILABLE
+If you need to resolve a problem that you cannot handle under normal procedures, use
+the BOND fax number.
+c. BOND office code - THIS IS AN OBSOLETE POLICY – BOND PROJECT ENDED
+The BOND office code is L5R. OFFICE L5R NO
+LONGER OPERATING To transfer a case in eWork to L5R OFFICE L5R NO
+LONGER OPERATING, see instructions in DI 60099.030D.
+Always fax documentation into NDRED or eView. Send an MDW to L5R OFFICE L5R NO
+LONGER OPERATING when the case is a high priority. Do not fax information to L5R OFFICE L5R NO
+LONGER OPERATING if you take the actions described DI 60099.005H.2. in this section.
+For more information on the BOND work CDR unit responsibilities, see DI 60099.045.
+3. BOND Stand-Alone System (BSAS)
+The BSAS maintains a list of the names and Social Security Numbers (SSNs) of all treatment
+group beneficiaries randomly assigned to the BOND project. These beneficiaries are
+eligible to receive the $1 for $2 offset. In addition, the BSAS accepts a nightly
+file from Abt’s processing system (BODS) that contains earnings estimates for the
+beneficiaries who are eligible for the $1 for $2 offset.
+The BSAS processes the earnings estimate and automatically creates a MACADE action
+to adjust the monthly benefit and generate a notice to the beneficiary. If the BSAS
+cannot generate the Manual Adjustment Credit and Award Data Entry (MACADE) action,
+a Manual Adjustment, Credit and Award Processing (MADCAP exception, or processing
+limitation results, L5R OFFICE L5R NO
+LONGER OPERATING or Office of Central Operations (OCO) receives and develops the edit to completion
+and updates the BSAS with the corrected information.
+If a MADCAP exception results from the MACADE action, OCO resolves the exception and
+updates the BSAS with the corrected information. OCO established this centralized
+unit to work the processing limitations generated when BSAS cannot automate the MACADE
+action and works MADCAP exceptions because L5R OFFICE L5R NO
+LONGER OPERATING does not have access to paperless processing. If an FO encounters an unworked case,
+send an MDW to L5R. OFFICE L5R NO LONGER OPERATING

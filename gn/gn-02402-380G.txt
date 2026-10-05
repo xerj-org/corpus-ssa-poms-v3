@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.380 - Coding Costa Rica Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 252 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402380 (fetched 2026-10-04)
+
+G. Example of coding Costa Rica direct deposit
+The customer provides us with a signup form for Costa Rica containing the account
+number: "CR05015202001026284066".
+•
+The first two characters of a Costa Rica IBAN are “CR,” which represents the International Organization for Standardization (ISO) country
+code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technicians
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The fifth through eighth characters of the IBAN represent the four-digit bank code.
+•
+The last 14 digits of the IBAN represent the 14-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN :
+•
+the prefix of “68”;
+•
+three filler zeros “00”
+•
+three-digit bank code, “0152”
+•
+one-digit check code (i.e., 7) (obtained from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16); and
+•
+the type of account as a “C” for Checking, or an “S” for Savings. If there is no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+start with a country code of “E” designated for Costa Rica; and
+•
+code the 14 digit Account Number “02001026284066.”
+3. Obtain the following information
+•
+RTN: 680001527
+•
+Checking
+•
+DAN: E02001026284066
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680001527 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: E02001026284066
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 680001527
+•
+DAN-CE02001026284066

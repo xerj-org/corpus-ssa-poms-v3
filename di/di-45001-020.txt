@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 45001.020 - Processing ESRD Claims of Railroad Retirement Beneficiaries
+Effective Dates: 03/05/2025 - Present | TN 25 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001020 (fetched 2026-10-04)
+
+DI 45001.020 Processing ESRD Claims of Railroad Retirement Beneficiaries
+The FO’s should process most of the initial ESRD Medicare claims involving the Railroad
+Retirement Board (see DI 45001.324). ERE’s should only become involved when initial ESRD Medicare allowances result
+from reconsideration or higher appeals decisions, referrals from quality review components
+or an inquiry from CMS, OD, RO, etc.
+The basic issue concerning railroad retirement beneficiaries entitled to Medicare
+based on ESRD is whether SSA or the RRB is responsible for billing for SMI premiums.
+For the purpose of the ERE"s responsibility for resolving this issue in the adjudication
+of initial ESRD Medicare allowances, the ERE needs only to determine if: (a) the claimant
+is already entitled to Medicare based on age 65 or disability and (b) RRB has jurisdiction
+of the claim. If so, the RRB is responsible for billing for SMI premiums; otherwise,
+SSA is responsible for billing for SMI premiums.
+The ERE will determine if the claimant is already entitled to Medicare based on age
+65 or disability and if RRB has jurisdiction of the claim by reviewing the MBR or
+ESQ.
+If the MBR shows a HOC or SOC of “P” and the LAF code indicates an allowance, complete Form SSA-892-U3, delete the CAPS
+orbit if one exists, prepare an SSA-559 to have BA correct MBR to show HENC/SENC of
+“K” and ESRD dates of entitlement, if earlier than the dates on record, and complete
+an SSA-573 with appropriate notice information.
+If the MBR or ESQ indicates the claimant is already entitled to Medicare and the RRB
+has jurisdiction but the MBR does not show a HOC or SOC of “P”, take the actions shown immediately above and send the claim post-adjudicatively to OD, SPB; 3-M-25 Operations Building. Show in
+remarks “Claimant entitled to Medicare, RRB jurisdiction. MBR shows HOC/SOC other than P”. OD will take necessary actions with SSA Systems and CMS to determine why the MBR
+is not properly annotated. OD will also inform ODO as to any additional adjudicative
+action required to insure correct billing. If the MBR shows “no record” for the claimant, but the ESQ shows the claimant has Medicare under a RRN, prepare
+an SSA-101-U3 using a BIC of “T” and SEC of “K” , show HOC and SOC of “P” in item 11, prepare an SSA-573 for notice information and prepare an SSA-892-U3 and
+any other forms necessary for adjudication.
+In all cases, notify RRB of ESRD award action by completing and forwarding Form SSA-3103
+(SSA Certification of Title II Monthly Benefits to RRB for Payment or Adjustment)
+as follows:
+A.
+Enter the beneficiary’s name and SSN in the appropriate blocks and the RRN, if known.
+B.
+Enter the HI and SMI effective dates and the SMI premium rate in the blocks provided.
+In the “remarks” section enter the phrase “ESRD Medicare Award.”
+C.
+If SSA has collected SMI premiums, enter in “Remarks” section: “SSA collected premiums for coverage months from   (month/year)   through   (month/year)   .”
+D.
+Forward the completed SSA-3103 to:
+Railroad Retirement Board
+Attention: Medicare Program Section
+844 North Rush Street
+Chicago, Illinois 60611–2092
+MARK ENVELOPE: “DO NOT OPEN IN MAILROOM.”
+Do not send a temporary notice of eligibility.
+Send a manual award notice (see DI 45001.102 for suggested language.) It is important that the beneficiary be advised that Medicare
+continues under the Railroad Retirement number.

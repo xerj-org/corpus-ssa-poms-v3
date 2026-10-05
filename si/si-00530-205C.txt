@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - SI 00530.205 - Fugitive Felon Automated Case Processing (FFAP)
+Effective Dates: 07/25/2022 - Present | TN 9 (07-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530205 (fetched 2026-10-04)
+
+C. Procedure -- notification for field office action
+For each case that would have been generated to an FO, an e-mail will be sent to that
+servicing FO with the OI-5D information. The e-mail will notify you that the case
+was processed to completion, partially processed, excluded from automation or returned
+to OIG. The e-mail will explain what action is required.
+1. Is any action required on fully automated cases?
+FFAP automates the fugitive felon development, but not the representative payee development
+required by GN 00504.100. When the field office receives the e-mail notification of the completed case, they
+must query the Representative Payee System (RPS). If the fugitive felon is a payee,
+determine whether a continued suitability review is needed. Until an ongoing RPS/Fugitive
+Felon interface is operational, this action must be done by the field office.
+2. Which cases will be partially processed by the system?
+The following cases will have N25 posted, the notice sent, and feedback sent to OIG,
+but will require FO review and possible action:
+a.
+The individual was arrested and the period of incarceration must be verified. Use
+the information provided in the record to identify the warrant issuing agency or the
+institution/jail to contact to verify/resolve incarceration questions.
+b.
+The SSR RMKS segment is full and the automated process is unable to add the required
+remark. The FO must add warrant information to the RMKS segment.
+c.
+The period of N25 spans two or more records. The FO must post the period of N25 to
+prior records.
+3. Which cases will be excluded from the new system?
+•
+A pending claim on the SSR.
+•
+The SSR is a couple’s record.
+•
+The SSR is in M01/M02,T33 payment status.
+•
+The payment status on the record cannot be overlaid by N25. (See POMS SM 01305.001H.
+for restrictions regarding overlaying payment status codes.
+4. How do we notify OIG about the action taken on partially processed or excluded cases?
+Complete the OI-5E on the FFAP system. Click on the “View OI-5D” button then select the “Complete the OI-5E” option
+on the screen. The screen will be partially pre-filled with information propagated
+from the OI-5D. Fill in the blocks in the same manner as on the e-mail or paper version
+of the OI-5E.
+When you are finished completing the OI-5E, carefully review the entries before clicking
+on “Clear the OI-5E”. After clicking on the clearance button, you will receive a confirmation
+screen. Once the “Clearance Date” is posted to FFAP the case will drop from the FO
+FFMI pending list the following week. You will not need to send the RFFC or OIG anything
+via fax or email.
+Once you click on the “Clear the OI-5E” button and you discover that you have made
+a data entry error, you will need to notify the RFFC on the error and the item(s)
+to be corrected. If you need information from OIG, please contact your RFFC via email
+or phone. DO NOT
+CONTACT OIG. All warrant information is available on the FFAP website.

@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 60075.030 - Field Office (FO), Processing Center (PC), and National 800 Number Network (N8NN) Responsibilities under the Promoting Opportunity Demonstration (POD)
+Effective Dates: 02/01/2018 - Present | TN 7 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460075030 (fetched 2026-10-04)
+
+E. Ticket to Work program cases
+A beneficiary participating in the Ticket to Work (TTW) program was eligible for the
+POD. However, the POD will applied an alternate rule for issuing payments to a qualified
+service provider assigned a ticket by a POD participant in treatment groups 1 and
+2.
+The outcome period for a POD participant will started after all Phase 2 Milestone
+payments were paid. Since there were no work CDRs during POD participation, outcome
+payments are determined by averaging posted earnings from one of two internal systems
+available to SSA: state quarterly wage reporting or annual IRS reporting. If averaged
+earnings are above the standard SGA threshold, then the Employment Network (EN) qualifies
+for payment. While the SGA threshold determines outcome payments, the POD does not
+make a formal SGA determination. Therefore, outcome payments are not tied to benefit
+suspension.
+Payments to EN providers for POD participants are automatically evaluated on a quarterly
+basis as part of the existing ePay process without the EN having to submit proof of
+earnings in the usual manner.
+The maximum of 36 total payments for SSDI beneficiaries, whether through a combination
+of milestone-outcome payments or all outcome payments, still applies.
+1. Verify Earnings (VY) issues
+If the FO receives a systems-generate TICKET VY issue for a POD participant, view
+the DEMO screen in the DCF for the DP demo indicator and close the issue by keying
+the current date in the CLOSED field. In the remarks section, mark the reason for
+close out as "POD case". Tickles may reappear if alleged wages continue to post to
+the DCF and no verified wages are posted for the POD cases. The FO should continue
+to close the T2VY issues and only verify and post T16 wages to the SSID.
+The TTW program staff in the Office of Research, Demonstration, and Employment Support
+(ORDES) at Headquarters in Baltimore, MD, will manually process Employment Network
+(EN) payments for these T2VY issues. For more information on VY issues for TTW cases
+and the Continuing Disability Review Worksheet (CDRW) screen, see DI 55030.010 and DI 13010.605.

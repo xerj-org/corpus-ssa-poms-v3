@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - DI 52165.001 - Using the Interactive Computations Facility (ICF) to Compute Workers' Compensation (WC) Public Disability Benefit (PDB) Offset and ICF Terms
+Effective Dates: 01/26/2017 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165001 (fetched 2026-10-04)
+
+D. How to determine which ICF function to use
+If you start to process an action in ICF #31 or #32, that same information can later
+be propagated into #32 or #34, if necessary.
+•
+ICF #31 - Use #31 to run sample calculations or when you do not want to immediately
+process the action.
+•
+ICF #32 - Use #32 to adjudicate your decision and post the WC/PDB data to the MBR
+in Post Entitlement issues or save the computation for use in an A101 or EF101 in
+claims situations.
+•
+ICF #34 - Use #34 when you need to adjudicate your action and a processing limitation
+or policy requirement will not allow you to use #32. For limitations, see MSOM ICFT2
+031.001D. Also see the Interactive Computational Facility (ICF) Resource Page for WC/PDB Offset Computations
+See ICF Resource Page. Consider using e2455+ calculator – Click here.

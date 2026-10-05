@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - DI 13015.060 - Special Search - After Initial Pull Period – Preparation of a Duplicate CDR Folder
+Effective Dates: 12/09/2013 - Present | TN 1 (01-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413015060 (fetched 2026-10-04)
+
+B. Process – Special Search in OCO/PSC
+1. PCACS Shows a "QUES QUES" or "TEMP QUES" Entry
+•
+AT THE END OF the initial pull period (not to exceed 90 days), if ODO/PSC is unable to locate the folder, OCO/PSC changes PCACS to read "AUXRH
+QUES QUES", or "AUXRH TEMP QUES" or " CAVES QUES QUES" or “PC1-6 QUES QUES”. NO FO ACTION NECESSARY: see the Chart in DI 13015.100C.
+•
+In addition, OCO and the PSCs update the FOLDER RECONSTRUCTION field on the CDR PC Input (IPCA) screen of the Disability Control File (DCF) to read
+"Q". A "Q"in the FOLDER RECONSTRUCTION field of the DCF indicates that the PSC is still searching for the Title II medical
+CDR folder in other locations. A "Q"entry in the FOLDER RECONSTRUCTION field means the folder was not in the location shown on PCACS and its physical location is in question.
+2. Special Search – Other Locations and Preparation of a Duplicate/Replacement Folder
+•
+OCO and the PSCs can take up to 120 days from the initial "QUES QUES" entry date to locate the Title II and Title II portion
+of the concurrent TII/TXVI folder(s) in "other" locations.
+•
+If the PCACS query reflects "QUES QUES" or "TEMP QUES" and OCO/PSC"s other location
+search is unsuccessful (not to exceed 120 days), OCO/PSC updates the DCF IPCA FOLDER RECONSTRUCTION field to "L". Also see the CHART in DI 13015.100C. OCO/PSC enters an "L" in the FOLDER RECONSTRUCTION field of the DCF, which indicates
+that the medical folder is lost.
+•
+OCO/PSC prepares a duplicate folder and forwards it to the FO to initiate the CDR
+(see DI 13015.070).
+•
+The duplicate folder will usually contain: a FACT, NUMI, copy of the earnings record,
+the direct release alert, documentation of search efforts (see example SSA-5002 in
+DI 13015.250), and a SSA-5526-U2-OPS routing form which instructs the FO that folder reconstruction
+may be necessary.

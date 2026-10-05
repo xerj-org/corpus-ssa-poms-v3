@@ -1,0 +1,351 @@
+SSA Program Operations Manual System (POMS) - GN 00210.810 - Same-Sex Relationships - <Italic>Thornton</Italic> District Court Decision - Processing Claims, Appeals, and Reopening Requests for Widow(er)'s Benefits
+Effective Dates: 04/09/2025 - Present | TN 66 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200210810 (fetched 2026-10-04)
+
+F. Processing instructions for claims, appeals, and requests to reopen
+1. Initial Claims
+•
+If the claim is not already pending in MCS with “529” in the Unit Code, take a claim
+in MCS. On the RMKS screen, include this statement: “Claimant is pursuing a claim
+as a result of Thornton v. Commissioner of Social
+Security and, per the court’s order, is entitled to allege a marriage date despite having
+not participated in a ceremonial marriage with the deceased NH.”
+•
+If the claim is not already pending in MCS with “529” in the Unit Code, enter “529”
+in the last 3 positions of the Unit Code on the Development Worksheet (DW01) in MCS.
+This code will help us identify these cases. If a pending claim already has “626”
+and a letter in the first 4 positions of the Unit Code, delete the “626” and letter
+coding before entering “529” in the last 3 positions. For new claims, do not enter
+“626” and a letter in the first 4 positions of the Unit Code as you normally would
+for a same-sex relationship claim per GN 00210.020A. When a claim has "529" coding, these instructions supersede and replace the instructions
+in GN 00210.020A regarding the unit type code for same-sex relationship claims.
+•
+Advise the claimant we need more information to determine if we can treat the marriage
+requirement as satisfied based on the decision in Thornton v.
+Commissioner.
+•
+Use GN 00210.810C, D, and E in this section to develop evidence and determine whether the couple would
+have married but for an unconstitutional State law prohibiting same-sex marriage and,
+if so, what date the couple would have married.
+•
+Prepare an RPOC in MCS clearly stating the rationale for determining whether the claimant
+either is or is not entitled to benefits under Thornton v.
+Commissioner. Explain (1) your reasons for concluding the couple would or would not have married
+if an unconstitutional State law had not prohibited same-sex marriage before the NH
+died; (2) if you find the couple would have married, how you determined what date
+they would have married; and (3) whether or not the claimant is entitled to widow(er)’s
+benefits pursuant to Thornton.
+NOTE: If you are unable to make a determination based on the evidence provided, or if
+you determine the couple would have married less than 9 months before the NH died,
+submit the claim for a legal opinion following instructions in GN 01010.815. Upon receipt of the legal opinion, follow instructions in GN 01010.830.
+a. Couple would have married but for an unconstitutional State law
+If, based on the information provided and evidence obtained, you determine the claimant
+would have met the marriage requirement but for an unconstitutional State law prohibiting
+same-sex marriage, and the claimant meets all other factors of entitlement for widow(er)’s
+benefits, determine what date the claimant would have married the NH and adjudicate
+the application recognizing the claimant as the NH's surviving spouse.
+•
+If the evidence supports the date the claimant alleges they would have married the
+NH if not prohibited by State law, as recorded on the NH Marriage (NMAR) and Beneficiary
+Marriage (BMAR) screens, enter “Y” in the marriage date “Proof” field on these screens.
+When the evidence supports a different date of marriage from what the claimant alleged,
+update the NMAR and BMAR screens in MCS with the date of marriage that was determined
+by evaluation of the evidence and enter “Y” in the marriage date “Proof” field on
+these screens.
+NOTE 1: If the claimant identifies a time period when they would have married the NH, and
+the information provided supports that time period, enter the earliest date within
+that time period for the claimant’s marriage date. For example, if the claimant alleges
+the couple would have married in June or July 1990, enter June 1, 1990, as the marriage
+date.
+NOTE 2: If you determine the couple would have married at least 9 months before the NH’s
+death but the information provided does not allow you to identify a specific date
+on which they would have married, enter a date that is exactly 9 months earlier than
+the date of the NH’s death. However, if you determine the marriage date would not
+have been at least 9 months before the NH’s death, submit for a legal opinion following
+the instructions in GN 01010.815.
+•
+Review the claimant’s record to determine whether the claimant is currently receiving
+other benefits. If the claimant is entitled to widow(er)’s benefits pursuant to Thornton and is currently receiving other benefits, see GN 00210.810F.1.c in this section.
+•
+Enter listing code “529” on the Decision Input (DECI) screen in MCS.
+•
+If the claimant is entitled to widow(er)’s benefits pursuant to Thornton, enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice and
+adjudicate the award using standard procedures.
+•
+If the claim will be processed via Automated 101 (A101) or Electronic Form 101 (EF101),
+use the claim report of contact (RPOC), the A101 Benefit Continuity Remarks/Notice
+(BCRN) or the EF101 remarks continued (EFBCRN) screens to alert the PC they must follow
+the Thornton processing instructions in this section.
+b. Couple would not have married but for an unconstitutional State law
+If you determine the claimant is entitled to additional consideration pursuant to
+Thornton and you determine that the couple would not have married even if there had been no
+unconstitutional State law prohibiting same-sex marriage, follow these instructions:
+•
+Obtain secondary review of the claim from either a management official or CTE.
+•
+If the management official or CTE concurs with the determination, the management official
+or CTE will prepare a RPOC in MCS clearly stating the rationale for determining the
+claimnt does not qualify for benefits under Thornton v.
+Commissioner.
+•
+If the management official or CTE disagrees with the determination, the management
+official or CTE will prepare a RPOC in MCS clearly stating the rationale for determining
+the claimant qualifies for benefits under Thornton v.
+Commissioner. To resolve conflicting rationales, contact Regional Office (RO) Support Staff for
+additional guidance. If the final determination is the claimant qualifies for benefits
+under Thornton v. Commissioner, see instructions in GN 0021.810F.1.a in this section.
+•
+If the final determination is the claimant would not have married, enter an “N” in
+the marriage date “Proof” field on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “529” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the denial using standard procedures.
+If you determine the claimant is not entitled to additional consideration pursuant
+to Thornton (see GN 00210.810D in this section) and you determine that the couple would not have married even if
+there had been no unconstitutional State law prohibiting same-sex marriage, follow
+these instructions:
+•
+Do not obtain a secondary review.
+•
+Enter an “N” in the marriage date “Proof” field on the NMAR and BMAR screens in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the denial using standard procedures.
+c. Adjudicating a claim where an individual eligible for widow(er)’s benefits under Thornton is receiving other benefits
+If an individual eligible for widow(er)’s benefits under Thornton is currently receiving other benefits, determine whether an award of widow(er)’s
+benefits would affect (1) the claimant’s eligibility for those other benefits, or
+(2) the monthly benefit amount the claimant is receiving:
+•
+Consider benefits that were available to the claimant at the time of their prior application(s).
+•
+Consider prior filings when presenting the claimant with the possible options available
+because of the eligibility for widow(er)’s benefits under the NH’s record.
+•
+Consider entitlement to AUXSPO benefits during the established period of marriage
+to the deceased NH and apply deemed filing as appropriate per GN 00204.035.
+•
+Present options that consider prior filings, deemed filing, monthly benefit amounts,
+retroactive payments, delayed retirement credits (DRC), Government Pension Offset
+(GPO), and the Supplemental Security Income (SSI) requirement to file for other program
+benefits.
+If we determined that a claimant and the NH would have been married had they not been
+prevented from marrying by unconstitutional laws barring same-sex marriage, the claimant
+may file for the benefits that they would have been entitled to as a spouse. While
+current regulations and policy limit withdrawals of Retirement Insurance Benefits
+(RIB) applications to one approved RIB withdrawal per lifetime, because of the court’s
+decision and the agency’s agreement to end litigation, we will permit withdrawal requests
+by claimants who are awarded widow(er)’s benefits. In these cases, we will:
+•
+Allow an individual eligible for widow(er)’s benefits pursuant to Thornton who is receiving RIB on their own record to submit a withdrawal request more than
+12 months after the first month of entitlement on their own record;
+•
+Not count an approved withdrawal of a previous RIB claim toward the limit of one approved
+RIB withdrawal in the claimant’s lifetime; and
+•
+Require that all other criteria in GN 00206.005A be met, including repayment of all benefits received.
+NOTE: These instructions also apply to awards resulting from an appeal or request to reopen.
+Follow instructions in GN00210.810F.1.a in this section for processing the award.
+2. Appeals
+•
+Confirm we denied the initial claim using denial code 030 (Not the spouse/widower,
+under State law or deemed marriage provision), 208 (Cash benefits (same sex marriage)
+Pre-Windsor Court decision 06/26/13), or 209 (Cash benefits (same sex marriage) denied
+based on non-recognition state of domicile).
+•
+Load the appeal in MCS.
+•
+Enter “529” in the last 3 positions of the Unit Code on the DW01 in the MCS. This
+code will help us identify these appeals. If the appeal already has “626” and a letter
+in the first 4 positions of the Unit Code, delete the “626” and letter coding before
+entering “529” in the last 3 positions. When an appeal has "529" coding, the instructions
+in this POMS section supersede and replace the instructions in GN 00210.020B regarding unit type code for same-sex relationship appeals.
+•
+Advise the claimant we need more information to determine if we can treat the marriage
+requirement as satisfied based on the decision in Thornton v.
+Commissioner, which is a requirement for entitlement to widow(er)’s benefits.
+•
+Use GN 00210.810C, D, and E in this section to develop evidence and determine whether the couple would
+have married before the NH’s death but for an unconstitutional State law that prohibited
+same-sex marriage and can be treated as meeting the marriage requirement under Thornton.
+•
+Prepare an RPOC in MCS clearly stating the rationale for determining whether the claimant
+qualifies for benefits under Thornton v. Commissioner. Explain (1) your reasons for concluding the couple would or would not have married
+if an unconstitutional State law had not prohibited same-sex marriage before the NH
+died; (2) if you find the couple would have married, how did you determine what date
+they would have married; and (3) whether or not the claimant is entitled to widow(er)’s
+benefits pursuant to Thornton.
+a. Reconsideration - initial determination reversed
+For claims pending at the reconsideration level of the administrative review process,
+if reversing a prior denial of benefits based on the decision in Thornton v.
+Commissioner:
+•
+If the evidence supports the date the claimant alleges they would have married the
+NH if not prohibited by State law, as recorded on the NMAR and BMAR screens, enter
+“Y” in the marriage date “Proof” field on these screens. When the evidence supports
+a different date of marriage from what the claimant alleged, update the NMAR and BMAR
+screens in MCS with the date of marriage that was determined by evaluation of the
+evidence and enter “Y” in the marriage date “Proof” field on these screens.
+NOTE 1: If the claimant identifies a time period when they would have married the NH and
+the information provided supports that time period, enter the earliest date within
+that time period for the claimant’s marriage date. For example, if the claimant alleges
+the couple would have married in June or July 1990, enter June 1, 1990, as the marriage
+date.
+NOTE 2: If you determine the couple would have married at least 9 months before the NH’s
+death but the information provided does not allow you to identify a specific date
+on which they would have married, enter a date that is exactly 9 months earlier than
+the date of the NH’s death. However, if you determine that the marriage date would
+not have been at least 9 months before the NH’s death, submit for a legal opinion
+following the instructions in GN 01010.815.
+•
+Review the claimant’s record to determine whether the claimant is currently receiving
+other benefits. If the claimant is entitled to widow(er)’s benefits pursuant to Thornton and is currently receiving other benefits, see GN 00210.810F.1.c in this section.
+•
+Enter listing code “529” on the DECI screen in MCS.
+•
+If the claimant is entitled to widow(er)’s benefits pursuant to Thornton, enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice and
+effectuate the award using standard procedures.
+b. Reconsideration - initial determination affirmed
+For claims pending at the reconsideration level of the administrative review process,
+if you determine the claimant is entitled to additional consideration pursuant to
+Thornton and the couple would not have married even if there had been no unconstitutional
+State law prohibiting same-sex marriage, follow these instructions:
+•
+Obtain secondary review of the claim from either a management official or CTE.
+•
+If the management official or CTE concurs with the determination, the management official
+or CTE will prepare a RPOC in MCS clearly stating the rationale for determining the
+claimant either does or does not qualify for benefits under Thornton v. Commissioner.
+•
+If the management official or CTE disagrees with the determination, the management
+official or CTE will prepare a RPOC in MCS clearly stating the rationale for determining
+the claimant either does or does not qualify for benefits under Thornton v. Commissioner. To resolve conflicting rationales, contact RO Support Staff for additional guidance.
+If the final determination is the claimant qualifies for benefits under Thornton v. Commissioner, see instructions in GN 00210.810F.1.a in this section.
+•
+If the final determination is the claimant would not have married, enter an “N” in
+the marriage date “Proof” field on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “529” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the appeal using standard procedures.
+For claims pending at the reconsideration level of the administrative review process,
+if you determine the claimant is not entitled to additional consideration pursuant to Thornton (see GN 00210.810D in this section) and an unconstitutional State law prohibiting same-sex marriage
+did not prevent the couple from being married:
+•
+Do not obtain a secondary review.
+•
+Enter an “N” in the marriage date “Proof” field on the NMAR and BMAR screens in MCS.
+•
+Enter listing code “529” on the DECI screen in MCS.
+•
+Enter a “Y” next to “Incomplete” on the NOT3 screen for an incomplete notice.
+•
+Adjudicate the appeal using standard procedures.
+c. Hearing Requests
+Confirm we denied the initial claim and reconsideration using denial code 030 (Not
+the spouse/widow(er), under State law or deemed marriage provision), 208 (Cash benefits
+(same sex marriage) Pre-Windsor Court decision 06/26/13), or 209 (Cash benefits (same
+sex marriage) denied based on non-recognition state of domicile).
+•
+Follow established procedures for sending non-medical appeals to the Office of Hearings
+Operations.
+•
+Ensure the subject line of any email correspondence includes the comment “Thornton court case”.
+•
+FO will add comment “Use case characteristic THOR to identify as Thornton District Court Decision Case” in the body of any email correspondence.
+3. Requests to reopen
+These instructions apply to the surviving partners of same-sex relationships who question
+a prior final determination or decision in which we denied their claim for widow(er)’s
+benefits for failure to meet the marriage requirement.
+NOTE: If the claimant is deceased and someone contacts SSA on their behalf, see GN 00210.810F.3.c in this section.
+Because we may have based these prior final determinations or decisions on unconstitutional
+State laws prohibiting same-sex marriage, reference GN 04010.020A and GN 04020.080 on how to reopen such claims.
+•
+Ensure we denied the claim using denial code 030 (Not the spouse/widower, under State
+law or deemed marriage provision), 208 (Cash benefits (same sex marriage) Pre-Windsor
+Court decision 06/26/13), or 209 (Cash benefits (same sex marriage) denied based on
+non-recognition state of domicile).
+•
+Load a new segment in MCS. On the RMKS screen, include a statement that the claimant
+thinks the prior determination was incorrect. Since this application is not a new
+application requiring attestation, do not include the following statement that is
+to be added in RMKS for new claims: “Claimant is pursuing a claim as a result of Thornton v. Commissioner of Social Security and, per the court’s order, is entitled to allege a marriage date despite having
+not participated in a ceremonial marriage with the deceased NH.”
+•
+Enter “529” in the last 3 positions of the Unit Code on the DW01 in MCS to identify
+these cases. If the claim already has “626” and a letter in the first 4 positions
+of the Unit Code, delete the “626” and letter coding before entering “529” in the
+last 3 positions. When a claim has "529" coding, these instructions supersede and
+replace the instructions in GN 00210.020A regarding the unit type code for same-sex relationship claims.
+•
+Advise the claimant we need more information to determine if we can treat the marriage
+requirement as satisfied based on the decision in Thornton v.
+Commissioner.
+•
+Use GN 00210.810C, D, and E in this section to develop evidence and determine whether the couple would
+have married but for an unconstitutional State law prohibiting same-sex marriage and,
+if so, what date the couple would have married.
+NOTE: If you are unable to make a determination based on the evidence provided, or if
+you determine that the couple would have married less than 9 months before the NH
+died, submit the claim for a legal opinion following instructions in GN 01010.815.
+a. Couple would have married
+If, after developing the evidence, you determine the couple would have been married
+but for an unconstitutional State law prohibiting same-sex marriage:
+•
+Reopen the claim pursuant to GN 04010.020A and GN 04020.080.
+•
+Prepare a RPOC in MCS clearly stating the rationale for determining the claimant qualifies
+for benefits under Thornton v. Commissioner. Explain (1) your reasons for concluding the couple would have married if an unconstitutional
+State law had not prohibited same-sex marriage before the NH died; (2) if you find
+the couple would have married, how you determined what date they would have married;
+and (3) whether or not the claimant is entitled to widow(er)’s benefits pursuant to
+Thornton.
+•
+Follow the instructions in GN 00210.810 F.1.a in this section.
+b. Couple would not have married
+If, after developing the evidence, you determine the couple would not have married
+even if there had been no unconstitutional State law prohibiting same-sex marriage:
+•
+Do not reopen the claim.
+•
+Prepare a RPOC in MCS clearly stating the rationale for determining the claimant does
+not qualify for benefits under Thornton v. Commissioner. Explain your reasons for concluding the couple would not have married even if there
+had been no unconstitutional law prohibiting same-sex marriage.
+•
+Refer the case to a management official or CTE for a secondary review of the determination
+not to reopen the prior denial, before sending any notice in GN 00210.810G in this section.
+NOTE: If the claimant is not entitled to additional consideration pursuant to the Thornton decision (see GN 00210.810D in this section), the claim does not require a secondary review.
+•
+If the management official or CTE concurs with the determination, the management official
+or CTE will prepare a RPOC in MCS clearly stating the rationale for determining the
+claimant does not qualify for benefits under Thornton v.
+Commissioner.
+•
+If the management official or CTE disagrees with the determination, the management
+official or CTE will prepare a RPOC in MCS clearly stating the rationale for determining
+the claimant qualifies for benefits under Thornton v.
+Commissioner. To resolve conflicting rationales, contact RO Support Staff for additional guidance.
+If the final determination is the claimant qualifies for benefits under Thornton v. Commissioner, see instructions in GN 00210.810F.1.a in this section.
+•
+If the final determination is the surviving partner does not qualify for benefits
+under Thornton v. Commissioner, manually clear the claim.
+•
+Prepare and send the “Thornton Class Action - Refusal to Reopen” notice via DPS, which includes Universal Text Identifiers
+(UTI) CAS029 and CAS027. For UTI language, see GN 00210.810H in this section.
+c. Claimant is deceased
+If the claimant is deceased and someone contacts SSA on their behalf based on the
+Thornton decision, such as a family member of the deceased claimant or other individual familiar
+with the relationship:
+•
+If that person provides the deceased claimant’s name and SSN, and would be eligible
+to receive an underpayment on the deceased claimant’s record (see GN 02301.030), follow the instructions in GN 00210.810F in this section.
+•
+If that person would not be eligible to receive an underpayment on the deceased claimant’s
+record (see (GN 02301.030), explain to them that we can take another look at the deceased person’s claim if
+someone who would be due an underpayment on the deceased person’s record contacts
+us.

@@ -1,0 +1,127 @@
+SSA Program Operations Manual System (POMS) - GN 02603.060 - Deduction Before Reduction Examples
+Effective Dates: 12/16/2011 - Present | TN 11 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202603060 (fetched 2026-10-04)
+
+B. Examples of permanent partial deductions
+1. Partial deduction
+The PIA is $300.40 and the family maximum is $548.40. A parent (E) and three children
+(C3, 2, 1) are entitled to benefits. E is subject to a partial deduction of $99.90
+a month leaving a benefit due of $37.20. Using the formula, each survivor rate is:
+_______OB x PTAP*_________ = 225.30 x 511.20 = 170.40
+TOTOB – OB for E 901.20 – 225.30
+*PTAP = 548.40 – 37.20 = 511.20
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+READJUSTED
+RATE
+E
+225.30
+137.10
+37.20
+C3
+225.30
+137.10
+170.40
+C2
+225.30
+137.10
+170.40
+C1
+225.30
+137.10
+170.40
+2. Partial deduction and age reduction Involved
+The PIA is $500.00 and the family maximum is $750.00. A number holder, spouse (B),
+and two children (C2, C1) from a prior marriage are entitled to benefits. B is subject
+to age reduction. The children are in another household and not in B's care.
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+A
+500.00
+500.00
+B
+250.00
+62.40 (83.30 reduced for age)
+C2
+250.00
+83.30
+C1
+250.00
+83.30
+B has a retirement insurance benefit (RIB) PIA of $80.00 on their own record and they
+became entitled 36 months prior to FRA and are entitled to $64.00 (the RIB is reduced
+because of their age). Due to their dual entitlement, their rate as a B is:
+Unreduced B Rate of $83.30 – RIB PIA of $80.00 = $3.30
+Reduce the $3.30 for age to $2.40.
+In order to redistribute only the amount being withheld because of dual entitlement
+we must account for the entire $83.30 due B. Of that amount $80.00 is withheld for
+dual entitlement, $2.40 is payable and $0.90 is withheld for age reduction. We then
+have $80.00 to redistribute.
+Using the formula in GN 02603.050, rates for the two Cs are:
+_______OB x PTAP*_________ = 250.00 x 246.70 = 123.30
+TOTOB – OB for B (deductee) 750.00 – 250.00
+*PTAP = family maximum minus PIA minus age reduction for the deductee minus partial
+payable to the deductee = 750.00 – 500.00 – 0.90 – 2.40 = 246.70
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+READJUSTED
+RATE
+A
+500.00
+500.00
+500.00
+B
+250.00
+62.40 (83.30 reduced for age)
+2.40 (3.30 reduced for age)
+C2
+250.00
+83.30
+123.30
+C1
+250.00
+83.30
+123.30
+3. Partial deduction for dual entitlement and WC or PDB offset is involved
+The PIA is $289.40 and the family maximum is $434.10. A spouse (HB) and two children
+from a prior marriage (HC2, 1) are entitled. The spouse is FRA. Each auxiliary is
+entitled to $48.20 but reduced to $6.80 after applying WC or PDB offset. HB becomes
+entitled on their own record to a PIA of $8.20. A combined family maximum (CFM) does
+not apply. Their benefit as a spouse does not terminate, but is reduced to $40.00.
+Under the old rule, rates to HC2 and HC1 would not increase because of the decrease
+in HB's rate.
+Do not apply the new rule, because this scenario does not meet the criteria in GN 02603.050B. Instead, we must compute benefits using the formula in GN 02603.050C.
+Using this formula, each HC rate is:
+_______OB x PTAP*_________ = 144.70 x 104.70 = 52.30
+TOTOB – OB for HB 434.10 – 144.70
+*Derive the PTAP of 104.70 by subtracting the PIA of 289.40 from the maximum of 434.10
+and then subtracting HB's partial payable of 40.00.
+Compute the WC offset using the new benefit amounts. DI 52170.010 explains how to compute offset when beneficiaries are entitled to different amounts.
+BIC
+ORIGINAL
+BENEFIT
+ADJUSTED
+BENEFIT
+READJUSTED
+RATE
+HB
+144.70
+40.00
+5.60
+HC2
+144.70
+52.30
+7.40
+HC1
+144.70
+52.30
+7.40

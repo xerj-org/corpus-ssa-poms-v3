@@ -1,0 +1,136 @@
+SSA Program Operations Manual System (POMS) - GN 02607.832 - Recovery of Incorrectly Paid Prisoner Incentive Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607832 (fetched 2026-10-04)
+
+B. The IP recoupment process
+1. FO or PC/OCO-ODO actions for requesting return of an incorrectly paid IP
+Steps
+Actions
+1
+Review Prisoner Update Processing System (PUPS) records or alerts to identify incorrectly
+paid IPs. Some common situations to look for while processing your prisoner cases
+include:
+•
+Beneficiary was in a CI or MHI for 30 days or less, or a recipients confinement in
+a public institution was for less than one full calendar month;
+•
+Beneficiary is confined in a CI or MHI, but not convicted of a crime or legally committed
+by a court order, respectively;
+•
+PUPS misidentification of an incarcerated inmate as our beneficiary or recipient,
+(i.e., questionable EVS code of 2, 3, 4, A, B, E and F on the PUPS record) were not
+verified before we accomplished the suspension or non-payment action. (For more information
+about a questionable EVS code verification, see GN 02607.510.);
+•
+We paid the IP payment to an incorrect CI or MHI (i.e., a different institution reported
+the inmate or, not the institution recorded on the PUPS record).
+For a detailed list of reasons why we incorrectly paid an IP to a CI or MHI, see GN 02607.832A.1. in this section.
+Once you identified one of these reasons, review the PUPS T2 Prisoner Status Query
+(P2QY), or the T16 Prisoner Status Query (T6QY) screens to determine if PUPS paid
+an IP for the Title II or the Title XVI prisoner report.
+If PUPS paid a Title II or Title XVI IP, proceed to step 2.
+If PUPS did not pay an IP, STOP, you do not need to take further action.
+2
+After finishing your other actions on the beneficiary’s or recipient's prisoner issue,
+(e.g., reinstatement of monthly benefits or payments; annotating the Prisoner Remarks
+(PMRK) screen with information regarding an incorrect identity issue) prepare an SSA-L4020
+for the CI or MHI that received the incorrect IP.
+3
+After you complete the SSA-L4020, print a copy of the completed form.
+Find the CI or MHIs address on the PUPS QPID screen and mail the completed and printed
+SSA-L4020.
+For information to obtain the address to complete the SSA-L4020 and its mailing envelope,
+see GN 02607.832C.2. For information on the QPID screen, see MS PRISON 002.014
+Place the CIs or MHIs addressed envelope in your components OUTGOING mailbox for delivery.
+4
+Hit the SUBMIT by EMAIL button embedded on the bottom of the SSA-L4020. This action
+produces two email messages that transfer the completed form to other CO components.
+One email message transmits a copy of the completed SSA-L4020 to the Administrative
+Debt Management Team (DMT), Office of Finance (OF). This email displays the completed
+SSA-L4020 information, notifies the DMT about the incorrect IP amount and identifies
+the institution who received the incorrect IP. DMTs receipt of the completed SSA-L4020
+starts their tracking and control operation for return of the incorrectly paid IP
+from that specific CI or MHI.
+A second email message transfers another copy of the completed SSA-L4020 to the PUPS
+Systems Manager (i.e., Office of Income Security Programs, Office of Representative
+Payee and Due Process Policy). The PUPS Systems Manager adds their copy of the completed
+SSA-L4020 to the universally viewable SSA-L4020 IP Recoup Forms SharePoint site.
+2. CI or MHI inquiries about the SSA-L4020
+Use the SSA-L4020 IP Recoup Forms SharePoint site to review completed copies of a CIs or MHIs SSA-L4020 that we mailed when responding
+to inquiries. For additional information on using the SharePoint site to locate a
+completed SSA-L4020, see GN 02607.832B.2.a. in this section.
+a. Locating a SSA-L4020 that we mailed to a CI or MHI
+If you receive an inquiry from a CIs or MHIs completed SSA-L4020, access and review
+the SSA-L4020 on this SharePoint site to assist in responding to the inquiry at SSA-L4020 IP Recoup Forms SharePoint site.
+To respond to a CIs or MHIs inquiry and to locate the completed SSA-L4020, use the
+chart:
+Steps
+Actions
+1
+Ask the CI or MHI inquirer for information located on the completed SSA-L4020 in their
+possession including:
+•
+name of the CI or MHI (incentive payee name indicated on the first two lines of the
+address field of the SSA-L4020), and
+•
+facility ID code on the SSA-L4020 form notice (the facility ID code is located underneath
+the date), and
+•
+location of the CI or MHI (the name of the city and the state code abbreviation for
+the CI or MHI is on the last line of the address field on the SSA-L4020), and
+•
+date on the completed and mailed SSA-L4020 form notice.
+2
+After you obtain the information from the inquirer, access the SSA-L4020 IP Recoup SharePoint site to locate the completed SSA-L4020.
+NOTE: This SharePoint site is a view-only site. You can read or print the completed SSA-L4020
+from this site. You cannot edit or revise the SSA-L4020 using the SSA-L4020 IP Recoup SharePoint site.
+3
+After accessing the SSA-L4020 IP Recoup SharePoint site, go to the tab labeled State. Select the appropriate State using the information
+from the completed SSA-L4020 provided by the inquirer.
+Next, locate the completed SSA-L4020 by looking for the incentive payees name that
+you obtained from the inquirer. The incentive payees name is located on the first
+and second lines of the completed SSA-L4020.
+Review the completed SSA-L4020 to locate the facility ID code. You will find the facility
+ID underneath the date on the completed SSA-L4020. Make sure the facility code matches
+the information provided by the inquirer.
+Finally, to ensure you have the exact notice the inquirer is referencing, match the
+completed SSA-L4020s date entry to the notice date information provided by the inquirer.
+EXAMPLE: The location of the CIs or MHIs completed SSA-L4020 on the SharePoint site is:
+•
+State Tab = Maryland (This tab is the name of the state belonging to the state abbreviation
+that is part of the FID code for the facility, e.g., MD0000 = Maryland)
+•
+Incentive payee name = Department of Corrections and Hygiene for Maryland
+•
+Facility ID = MD0000
+•
+Date = January 02, 2016
+4
+Once you locate and review the CIs or MHIs mailed SSA-L4020 from the SSA-L4020 IP
+Recoup Forms SharePoint site, respond to the CIs or MHIs inquiry. For instructions
+on answering inquiries on completed SSA-L4020s, see GN 02607.832.B.2.b. in this section.
+b. Answering the inquiry
+1.
+Answer the inquiry, using the information on the CIs or MHIs mailed SSA-L4020 that
+is in the SSA-L4020 IP Recoup SharePoint site, and the IP information contained on the CIs or MHIs incentive payment records.
+2.
+The IP payment records include:
+•
+the CIs or MHIs original IP payment letter found in ORS, and
+•
+information contained on the CIs or MHIs PUPS QIPD screen, and
+•
+information contained on the PUPS QIPA screen.
+3.
+Send any other inquiries about the completed SSA-L4020 to OFs Customer Service at
+(410) 966-0113, via email to OF
+Debt Management Team or the PUPS Systems Manager for a response. The SSA-L4020 directs the correctional or mental health institution
+to contact the OF Customer Service telephone number or OF
+Debt Management Team e-mail address for assistance in repaying the incorrectly paid IP.
+4.
+Any other inquiries from the identified correctional or mental health institution
+that deal with the cause of the incorrect IP (inquiries other than how to repay the
+IP), to the PUPS Systems Manager for response via email.
+3. Processing Center (PC)/Office of Central Operations-Office of Disability Operations
+(OCO-ODO) identifies incorrectly paid IP
+For Title II processing instructions for incorrectly paid IPs, see GN 02607.832B in this section.

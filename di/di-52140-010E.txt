@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - DI 52140.010 - Processing Center (PC) Responsibilities for Processing Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 09/13/2017 - Present | TN 11 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140010 (fetched 2026-10-04)
+
+E. Post-entitlement (PE) action when the case involves WC/PDB offset
+Post-adjudicative receipt of information from beneficiaries, insurance carriers, etc.,
+indicating a change in the WC/PDB rate, dates, or LS settlement requires a review
+of the MBR offset data and possibly a recomputation of the offset.
+1. Use the following ICF functions for post-adjudicative offset calculations and updates
+to the WC/PDB MBR data:
+•
+ICF Function 32 (Adjudicate WC/PDB Claim (WCDA)) propagates certain data from the
+MBR, propagates data from one ICF screen to another, and computes offset. T2R processes
+the offset unless there is an exception, which would then go to a BTE/BA for MADCAP
+processing. See MS 02434.004.
+•
+Use ICF Function 34 (WC/PDB Offset - OREO) screens to input manual WC/PDB computations
+to create an electronic version of the offset computation. For additional information
+on ICF WC/PDB Computations, see DI 52165.000. For an overview of OREO, see MS 02436.001.
+ICF creates a Datasheet that is available for view/print via ICF - “WCPDB: DATASHEET/QUERY
+MENU” Function #33 or through the Online Retrieval System (ORS) in the EP or Master
+File Query Menu (MFQM) Function #25. The Datasheet contains all WC/PDB information
+from the ICF action, including offset computation results, special instructions, and
+notice information.
+2. Reviewing for proof as a PE action
+Search all available internal resources to determine if WC/PDB verification has been
+previously secured (e.g., paper file, Paperless completed side of the folder, EF,
+EP, MBR special message field, Shared Process evidence screens, and MCS development
+screens). Take note of the following reminders:
+•
+In Paperless, use the “Get Folder” feature on every case and review the entire list
+of active and archived ACRs before taking your action. The necessary WC/PDB proof
+may already be available in Paperless.
+•
+We consider WC/PDB evidence of periodic payments as current in PE actions if it is
+no more than
+one year
+old. To count this period, we review the date posted on the WC/PDB evidence in the file
+as a starting point. Therefore, if proof in the file is more than one year
+old, you must obtain updated proof. See DI 52145.001G for the re-verification rule and two exceptions to the rule.
+•
+If you find no WC/PDB proof, initiate the direct contact procedures previously mentioned
+in DI 52140.010B.1.
+•
+Retain the oldest active ACR until the action is complete. When initiating direct
+mail development, be sure to keep the oldest ACR in DHF, document what you are requesting,
+and keep the ACR open until you receive WC/PDB proof. Close any other WC/PDB-related
+ACRs, adding a comment that the ACR is cross-referred to the oldest ACR.
+3. Re-imposing offset after reverse offset ends
+To re-impose offset after reverse offset ends, use the most recent periodic payment
+rate to adjust the benefits and develop on a post-adjudicative basis for current proof
+of WC/PDB payments. Carefully review reverse offset instructions and examples in:
+•
+DI 52105.001G Reverse Offset Plans
+•
+DI 52150.020E WC/PDB Offset First Considered Date and Offset Effective Date
+4. Taking non-WC/PDB-related PE actions
+When non-WC/PDB-related PE actions (such as Automatic Earnings Reappraisal Operation
+(AERO) or earnings enforcements) are involved, we do not require re-verification of
+proof of the WC/PDB periodic payments unless there is knowledge that a WC/PDB event
+occurred and is material to current processing of the action. Use the quickest means
+available (online access, DIRCON, etc.) to obtain WC/PDB verification/proof, if needed.
+5. Deleting the WC/PDB data from the MBR
+It may be necessary to delete WC/PDB data previously established on the MBR. This
+situation can occur if all the WC/PDB payments are repaid as the result of a third-party
+settlement or if a pending WC claim is subsequently denied and there is no request
+for appeal. Per DI 52165.015, deleting the WC/PDB data is appropriate if the WC/PDB data was added erroneously
+to the record and WC/PDB is not involved in the disability claim, i.e., if the WC/PDB
+periodic payments and/or lump-sum settlement ended prior to the date of entitlement.
+T2R Release 3 and the expansion of the MBR make the deletion process more complicated,
+but you can still delete WC/PDB data using ICF. Annotate the special message field
+on the MBR of the deletion of previous WC/PDB data and state the reason.
+Be sure to review the MBR the next day to verify that all WC/PDB data fields were
+removed and to check that any process to correct payment is complete. For deleting
+WC/PDB data through ICF, see DI 52165.015.
+Specific instructions on how to delete the data are also available using the following
+link: Interactive
+Computations Facility (ICF) Resource Page for WC/PDB Offset Computations.

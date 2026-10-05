@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02406.305 - Nonreceipt Alleged for Title XVI Recurring or Supplemental Payment and Forgery Indicator Alert
+Effective Dates: 01/27/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406305 (fetched 2026-10-04)
+
+D. Procedure when DCN abuse is present or not present
+The charts in this section describes actions to take when DCN abuse is present or
+not present.
+If
+Then
+after review of the SSR(s), PHUS or MBR for a concurrent case, DCN abuse is present
+within the past 24 months...
+input a C-stop by selecting “2” in 4-C on the UPMR screen – “Replace after investigation.”
+NOTE: Treasury does not issue a replacement check until Treasury determines the status
+of the missing original payment. If Treasury finds that the check has been cashed,
+Treasury does not issue a replacement check unless they have established forgery.
+after review of the SSR(s), PHUS or MBR for a concurrent case, DCN abuse is not present
+within the past 24 months after the investigation ....
+Input a B-stop by selecting “1” in 4-C on the UPMR screen – “Replace Now.” This is
+the first PIN authorization for a replacement check your office wants to issue prior
+to Treasury’s investigation of the status of the original payment. The system displays
+the following alert:
+ALERT: POSSIBLE DCN - SECOND PIN REQUIRED TO REPLACE NOW – PRESS PF1 FOR HELP
+The system requires a second PIN to input the B-stop to issue an immediate
+replacement. The second PIN is input on the same day as the first input to allow issuance of the
+replacement payment. If this does not occur, the system drops the request for the
+replacement payment overnight (no second PIN input). This results in no nonreceipt
+input. See GN 02406.305E in this section for instructions to obtain second PIN authorization immediately.

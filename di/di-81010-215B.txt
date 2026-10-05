@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - DI 81010.215 - The Comparison Point Decision (CPD) Date and Folder
+Effective Dates: 05/03/2023 - Present | TN 60 (05-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010215 (fetched 2026-10-04)
+
+B. CPD Folder - General
+The CPD folder contains the medical and vocational evidence from the most recent favorable
+medical decision finding that the individual was disabled or continued to be disabled.
+Most CPD folders are now CEFs. Follow the instructions in DI 81010.215B.1 to ensure that the CPD folder is a CEF. Do not send additional paper folders, if
+the CPD folder is a CEF. If the CPD folder is paper, locate and send it to the Disability
+Determination Services (DDS) for CDR processing. It is essential that the paper CPD
+folder contain a FLAG so that subsequent paper folder handlers know that there is
+an electronic component to the office folder. Paper folders must follow the current
+eCDR during all steps of adjudication, review, and appeal. See Associating the CPD
+Folder with an eCDR - DI 81010.235 Associating the CPD Folder with an eCDR The following POMS sections contain instructions
+for locating potential CPD paper folders from different locations:
+•
+Initially Obtaining the CPD Medical Folder (Initially Obtaining the CPD Medical Folder
+- DI 13015.030)
+•
+Title XVI Medical Folder(s) - FO Location (Title XVI Medical Folder(s) - FO Location
+- DI 13015.035)
+•
+Folder in WBFSO/FRC, DDS, or ODAR Locations - FO Actions (Folder in WBFSO/FRC, DDS,
+or ODAR Locations - FO Actions - DI 13015.040)
+•
+OCO/PSC Retrieving The Title II and Title II Portion of the Concurrent TII/TXVI CDR
+Folder/Medical Evidence (OCO/PSC Retrieving The Title II and Title II Portion of the
+Concurrent TII/TXVI CDR Folder/Medical Evidence - DI 13015.050)
+•
+FO Retrieving The Title II and Title II Portion of the Concurrent TII/TXVI CDR Folder/Medical
+Evidence (FO Retrieving The Title II and Title II Portion of the Concurrent TII/TXVI
+CDR Folder/Medical Evidence - DI 13015.055)
+NOTE: Folder location functionality is available through other official sources such as
+the T2Fld and T16Fld macros that are included in Query Master and PCOM toolbars (PCOM
+Toolbar Support site). You may refer to the T2Fld User Guide and the T16Fld User Guide
+for more information. In addition to these PCOM toolbars/macros, folder location information
+is also available in WAC, and the custom 5002 Report of Contact for Unable to Locate
+folder situations that the AFL produces will soon be available in Express Forms within
+WAC. Users will be able to select this customized 5002 RPOC UTL form when working
+through the CDR Toolbox, EXR Assistant, etc.
+1. Electronic CPD Folders
+If the most recent favorable medical decision was made after 01/27/2005, the CPD folder
+is most likely a Certified Electronic Folder (CEF). CEFs are identified by using eView.
+Use the following instructions to identify if the CPD folder is a CEF:
+•
+Open eView using the beneficiary’s Social Security Number (SSN);
+•
+Select the “Status/History” tab in eView;
+•
+Review the “Initial Case Status Summary”. If “A paper folder has been created for
+this filing” is checked, locate the paper CPD folder. If the checkbox is not checked,
+then the CPD was processed electronically.
+NOTE: The FO will link the electronic CPD folder to the eCDR (See Associating the CPD Folder
+with an eCDR - DI 81010.235C.)
+2. CPD Folder Look-alikes
+The Field Office (FO) should carefully review the folders to ensure that the correct
+folder is identified as the CPD folder. CPD folders must have medical evidence and the most
+recent favorable SSA-831, SSA-832/833, or decision. The following are examples of
+folders that are not CPD folders and should not be associated with the eCDR:
+a. FO Adoption and Collateral Estoppel Cases without Current Medical Evidence
+Per Comparison Point Decision - DI 28010.020B.1., adoption decisions without development of the level of current medical evidence
+needed for a “regular” disability decision are not CPD folders.
+b. Brown Title XVI Folders
+Concurrent disability claims involving Title XVI may have been processed with a two-part
+brown folder stapled to the Modular Disability Folder (MDF) per Assembling and Transmitting
+the Official Folder to Disability Determination Services (DDS) – DI 11010.210. Title XVI non-medical material is stored in the brown folder. The MDF and the brown
+folder may have been separated upon adjudication of the claim and routed to different
+storage facilities or remained in the FO. The brown folder may contain an SSA-831,
+SSA-832/833, or decision, but the folder is not a CPD folder because it does not contain
+medical evidence.

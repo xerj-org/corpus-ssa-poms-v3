@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 52150.030 - Considering the Retirement Insurance Benefit (RIB) Option
+Effective Dates: 03/18/2026 - Present | TN 48 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150030 (fetched 2026-10-04)
+
+D. DIB election at age 65
+For NHs born 01/02/1938 or later, full retirement age (FRA) is later than age 65,
+but WC/PDB offset still terminates at age 65 before December 19, 2015.
+Effective December 19, 2015 or later, WC offset termination now extends from age 65
+to FRA.
+NOTE: Since WC offset now continues to FRA for individuals attaining age 65 on December
+19, 2015 or later, there will be no need for the comparison (reduced RIB to higher
+DIB). See the 2015 amendment in DI 52101.005.
+A RETAP alert, “NH Age 65-Dev DIB Election,” generates in the PC when:
+•
+NH is age 64 and 9 months;
+•
+Concurrently entitled to DIB and RIB but elected reduced RIB; AND
+•
+WC/PDB offset applied to the DIB.
+For the RETAP alert, see SM 00619.096.
+The Claims Specialist (CS) determines if DIB results in a higher benefit amount. For
+information regarding the NH’s election, see RS 00615.110.
+If DIB results in a higher benefit amount, contact the NH to offer the option of electing
+DIB payment at age 65.

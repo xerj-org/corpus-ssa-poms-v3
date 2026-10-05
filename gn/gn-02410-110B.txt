@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 02410.110 - Federal Payment Levy Program (FPLP) and Tax Levy Database System (TAXY)
+Effective Dates: 11/02/2010 - Present | TN 30 (11-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410110 (fetched 2026-10-04)
+
+B. Procedure for Tax Levy Data Base System (TAXY)
+1. Making payment
+The new Internal Revenue Service Tax Levy Data Base System (TAXY) is a national online
+system that SSA uses to automate the processing of IRS issued levies for Title II
+cases when a Form 668W, Notice of Levy, or 668D, Release of Levy, is received in the
+PC and the beneficiary is not under FPLP.
+NOTE: Only Processing Centers (PCs) are able to input information into TAXY; however, PCs,
+field offices (FOs) and Teleservice Centers (TSCs) are able to query the system to
+verify that payments have been released to IRS.
+•
+PCs will use TAXY whenever the paper Form 668W or Form 668D is received from IRS.
+•
+Follow SM 00833.000 for TAXY processing instructions.
+•
+See GN 02410.105 for Levy Exemptions
+•
+Input a special message to the MBR, per MSOM T2PE 007.008 through MSOM T2PE 007.009,
+as follows:
+“IRS LEVY”
+EFF (Levy effective date)
+$$$$$.¢¢ (Total Amount of Levy)
+“QUESTION CLAIMS OF NON-RECEIPT”
+2. Notification of Levy
+When the levy is implemented, TAXY will issue appropriate notice to the levied beneficiary
+and IRS.
+3. Documentation of levy
+Fax the TAXY generated exemption statement notice, which has been completed by the
+beneficiary, into NDRed and forward a copy to IRS for their records.
+4. Stopping levy
+Withhold until the amount shown on a notice of release of levy is withheld. If no
+amount is specified on the Release, stop withholding immediately. When a form 668D
+is received from IRS, access TAXY and take the steps outlined in SM 00833.080 (How
+to Modify/ Terminate a Tax Levy Cases) to terminate the ongoing tax levy.
+5. Notification of release of levy
+When the levy ceases, TAXY issues appropriate notice to the levied beneficiary and
+IRS

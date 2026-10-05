@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 01010.205 - Modernized Claims System (MCS) Earnings Computation (EC) Processing
+Effective Dates: 05/17/2018 - Present | TN 22 (05-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010205 (fetched 2026-10-04)
+
+A. Importance of EC processing
+1. Process claims through MCS EC whenever possible. Processing claims fully through MCS
+EC has many advantages. Some of the advantages of using the EC process are:
+•
+Higher payment accuracy levels;
+•
+Generation of MCS online edits;
+•
+Immediate availability of entitlement data to claimant;
+•
+Shorter processing time to issue payments; and
+•
+No duplication of claims control information (e.g., Workload Management System (WMS)).
+NOTE: The Pre-adjudicative EC Request is a useful claim development tool and can help
+to identify and develop potential issues within a claim before making an Adjudicative
+EC Request, see MS MCSEC 001.004.
+2. If an EC processing limitation (PROCLIM) or exception occurs:
+•
+Attempt to resolve limitations and exceptions using the guide here before starting an Automated 101 (A101).
+•
+Separate cases involving multiple claimants on the same MCS segment to process claims
+through EC, when appropriate.
+•
+Verify EC benefit computations and consider the accuracy of rates subject to the family
+maximum before separating cases in MCS involving multiple claimants on the same MCS
+segment.
+•
+Prepare a manual award via an A101 or Electronic Form 101 (EF101) if you cannot process
+an award via MCS EC or if separating claims on the same MCS segment will incorrectly
+pay the beneficiary.
+•
+Prepare a manual denial via the Manual Adjustment Credit and Award Data Entry (MACADE)
+if you are not able to process a denial via MCS EC.

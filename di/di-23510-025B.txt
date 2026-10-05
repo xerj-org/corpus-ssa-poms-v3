@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - DI 23510.025 - Death Prior to Filing – Title II (Chart)
+Effective Dates: 05/25/2022 - Present | TN 14 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423510025 (fetched 2026-10-04)
+
+B. DDS actions (chart)
+To determine required DDS actions regarding Form SSA-831 (Disability Determination
+and Transmittal), notification, and any special routing instructions use this chart:
+Situation
+Claim type
+Determination
+DDS action
+Childhood disability beneficiary (CDB) or disabled widow(er) (DWB) filed after claimant’s
+death
+CDB or DWB
+No Determination
+Field Office (FO) Jurisdiction
+Return the case to the FO.
+(See DI 81020.127 Processing “No Determination” Claims.)
+Application filed more than three months after the wage earner's death
+Disability insurance benefit (DIB)
+No Determination
+(FO Jurisdiction)
+Return the case to the FO.
+(See, DI 81020.127 Processing “No Determination” Claims.)
+Alleged onset date (AOD) less than five full months before the month of death (and
+no possibility of earlier onset) See also DI 23510.001D
+DIB (Initial or Reconsideration)
+No Determination
+(Program Service Center [PSC] jurisdiction unless a possible earlier onset date needs
+to be developed.)
+Return the case to the FO.
+(See, DI 81020.127 Processing “No Determination” Claims.)
+Established onset date (EOD) same as AOD
+DIB (Initial or Reconsideration)
+Allowance
+(DDS Jurisdiction)
+SSA-831
+Complete as usual with the following exceptions:
+Item 17 (Diary): Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Item 29 (Ltr./Par. No.): Leave Blank
+EOD after AOD (whether EOD is more than or less than five full months before the month
+of death);
+or
+Closed Period
+DIB (Initial or Reconsideration)
+Partially Favorable Allowance
+(DDS Jurisdiction)
+SSA-831
+Complete as usual with the following exceptions:
+Item 17 (Diary): Enter
+•
+“NXP” for the diary type,
+•
+“0000” for the diary date (may be 4 or 6 characters depending on DDS legacy system), and
+•
+“7” for the diary reason.
+Notification
+DDS prepares a personalized disability explanation in the third person.
+Routing
+Route the folder to the FO with a Special Handling flag (see, DI 81020.085 Certified Electronic Folder (CEF) Flags).
+Alert the FO via email to release the notice attachment when the case is processed.
+For electronic disability insurance benefit (eDib) cases, see DI 81020.130B Electronic Case Closure.
+Severe impairment did not last 12 months nor was it the cause of death
+DIB (Initial or Reconsideration)
+Denial
+(DDS Jurisdiction)
+SSA-831
+Complete as usual.
+Notification
+DDS prepares and releases notification and a personalized disability explanation in
+the third person.

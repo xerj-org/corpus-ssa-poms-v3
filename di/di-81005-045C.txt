@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 81005.045 - Case Data Tab
+Effective Dates: 01/10/2013 - Present | TN 4 (04-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005045 (fetched 2026-10-04)
+
+C. Record of Change (ROC)
+To maintain the integrity of the electronic case, the ROC captures and maintains a
+record of change for certain case information.
+The ROC:
+•
+Tracks changes to the record and creates an audit trail of when and who made the changes;
+•
+Consists of a “snapshot” or picture of how the case looked before the changes;
+•
+Identifies the event that caused the change, the person who made it and when the snapshot
+was taken (that is, receipt of internet data);
+•
+Provides a history of changes made to the record and the affected information. If
+a user deletes an EDCS case, the entire record, including any ROCs, is deleted.
+NOTE:
+The ROC contains a snapshot of all information in every section and does not identify
+what information was changed. You must compare data in the record to determine what
+changed.
+1. When a ROC is Captured
+The ROC captures and stores data when:
+•
+An Internet Disability Report (IDR) is propagated to EDCS;
+•
+A case with an IDR is transferred;
+•
+An FO enters a determination on one or more claims (thereby changing the case’s status
+to closed); or,
+•
+A case is updated after case transfer via the UAT.
+2. ROC Display
+If a ROC exists on a case, eView displays a ROC folder icon on the Case Data Tab.
+Selecting the ROC folder icon displays a list of ROC “snapshots”. Snapshots are views
+of the data associated with a particular case at the moment a user makes a change
+on the case. The ROC header includes all the following information:
+•
+The date of the snapshot;
+•
+Who took the action that caused the snapshot;
+•
+The office code of the person making the change; and
+•
+The event that caused the snapshot.
+Under the Case Data tab in the ROC folder, the hypertext links in the navigation tree
+displays historical data snapshots based on the appropriate adjudicative level (Initial,
+Reconsideration, and Hearing).

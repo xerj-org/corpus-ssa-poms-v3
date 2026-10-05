@@ -1,0 +1,19 @@
+SSA Program Operations Manual System (POMS) - SI 02310.065 - Unemployment Compensation Match (U5 Diary)
+Effective Dates: 05/15/2019 - Present | TN 48 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310065 (fetched 2026-10-04)
+
+F. Procedure - Clearance
+1. Developing and Verifying Receipt of UC Payments
+See SI 00830.230 for instructions for developing and verifying receipt of UC payments.
+2. Clear the Diary
+a. Documentation-MSSICS
+Individual has unemployment compensation income - Document the income development
+on the IUEM screen (MSOM MSSICS 015.016).
+b. Documentation-Non-MSSICS
+Individual has unemployment compensation income - See SI 00830.230
+3. Diary Clearance Input
+a. MSSICS
+Complete the DUEM screen as a ppropriate. For directions on completing the screen,
+see MSOM MSSICS 022.017.
+b. Non-MSSICS
+Delete the diary via the Update Diary (UDIA) screen in the Direct SSR Update process.

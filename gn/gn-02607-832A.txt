@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02607.832 - Recovery of Incorrectly Paid Prisoner Incentive Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607832 (fetched 2026-10-04)
+
+A. Reasons we issue an incorrect incentive payment (IP)
+The reasons we may incorrectly pay an IP to a CI or MHI include the following:
+1. Wrongly suspended Title II benefits
+When we wrongly suspended benefits, we:
+•
+did not completely develop a Prisoner Update Processing System (PUPS) alert to learn
+if a court convicted a beneficiary of a crime, or a court legally committed a beneficiary to an MHI at public expense in connection
+with a verdict or decision that the beneficiary is:
+a.
+guilty but insane in connection with their criminal offense, or
+b.
+not guilty by reason of insanity for their criminal offense, or
+c.
+incompetent to stand trial or has another mental condition and is not legally liable
+for their crime.
+•
+discovered after suspending benefits that a court convicted a beneficiary of a crime,
+but sentenced a beneficiary to confinement at a CI for 30 continuous days or less,
+or a court did legally commit a beneficiary for 30 days or less to an MHI at public expense
+in connection with a verdict or decision that the beneficiary is:
+a.
+guilty but insane in connection with their criminal offense, or
+b.
+not guilty by reason of insanity for their criminal offense, or
+c.
+incompetent to stand trial or has another mental condition and is not legally liable
+for their crime.
+2. Wrongly stopped Title XVI payments
+When we wrongly stopped title XVI payments, we:
+•
+did not completely develop a recipients or eligible spouses incarceration in a public
+institution (e.g., CI, jail, detention center, etc.) throughout a full calendar month,
+or
+•
+acted upon information about a recipients or eligible spouses incarceration, but the
+institution gave us incorrect information due to a miscommunication (e.g., incorrect
+identification issue, inmate made bail after providing the incarceration information).
+3. Prisoner Update Processing Systems (PUPS) created a PUPS alert for an incorrect beneficiary
+or recipient
+We suspended or stopped a beneficiary’s or recipients benefits or payments without
+resolving their questionable Enumeration Verification System (EVS) code (i.e., identity
+verification) on the PUPS alert. PUPS automatically paid an IP to the facility on
+an incorrect PUPS alert, after the suspension or non-payment action processed, and
+PUPS ran the IP payment sweep.
+4. PUPS paid the IP to the wrong CI or MHI because of incorrect facility coding on the
+PUPS record
+The facility identification code (FID) on the PUPS record does not belong to CI or
+MHI where the confined inmate resides.
+5. Recovery of an incorrectly paid IP
+To recover the incorrectly paid IP, send the CI or MHI a Prisoner Incentive Payment
+Recoupment form notice, SSA-L4020. The SSA-L4020 is a fillable form notice that a
+technician completes to inform the CI or MHI of an incorrect IP and request its return.
+For instructions on requesting return of an incorrectly paid IP from a CI or MHI using
+the SSA-L4020, see GN 02607.832B. in this section.

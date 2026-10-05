@@ -1,0 +1,176 @@
+SSA Program Operations Manual System (POMS) - GN 02410.215 - How Garnishment Withholding Is Calculated
+Effective Dates: 03/20/2024 - Present | TN 66 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202410215 (fetched 2026-10-04)
+
+A. General
+Although the system calculates the garnishment withholding, this section provides
+a synopsis of how it is done. See MSOM SPECPAYSYS 003.001 through MSOM SPECPAYSYS
+003.020, Court Order Garnishment System (COGS), for processing instructions.
+1. Garnishment Order Specifies Withholding a Dollar Amount Per Week
+If the garnishment order specifies withholding a dollar amount per week, multiply
+the amount specified by 52, then divide by 12 and round up to the next dime.
+Example: Withholding requested $137.00 x 52 = $7124.00; $7124.00 divided by 12 = $593.66.
+Rounded up to the next dime = $593.70.
+2. Garnishment Amount Calculated from Beneficiary’s MBC After All Deductions
+The garnishment withholding is calculated from the beneficiary's monthly benefit credited
+(MBC) after all other deductions (e.g., SMI premiums, overpayment recovery, representative
+fees, etc.) have been made. Garnishment will apply against title 2 payments and underpayments,
+including lump-sum death payments, misused funds, returned checks, and conserved funds.
+We will not garnish Supplemental Medical Insurance (SMI) premiums or Medicare benefits.
+IRS levies take priority over garnishment only if the levy was received before the
+date of the garnishment order.
+3. Garnishment Limited to Lesser of State Maximum or Maximum Under CCPA
+The system limits the garnishment amount to the lesser of the State maximum or the
+maximum under the Consumer Credit Protection Act (CCPA) (15 U.S.C. 1673(b)) and is
+based on the law of the State where the beneficiary resides. Hereafter, the CCPA limit
+is referred to as the “Federal” limit. The CCPA limits garnishment to:
+•
+50%, if the beneficiary is supporting a spouse and/or child other than the spouse
+and/or child whose support has been ordered.
+•
+60%, if the beneficiary is not supporting another spouse and/or child.
+•
+55% or 65% respectively, if the garnishment order or other evidence submitted indicates
+the original support ordered is 12 or more weeks in arrears.
+4. Multiple Orders
+Garnishment orders for child support are no longer paid on a ‘first come, first served”
+basis. 5 CFR 581.303(a) and 5 CFR 581.305(d ) require that some money be paid on each
+order for current child support if there is more than one withholding order. Current
+child support takes priority over child support arrearages. Garnishment for alimony
+is not included in the prorating. It will be considered after child support payments
+(both current and arrearages) are calculated.
+If there is enough allowable disposable income, pay the full amount of current child
+support due for each order. If not, follow the allocation method of the state or territory
+of the garnished beneficiary’s residence to determine how much to pay for each order.
+Use one of the following two methods when allocation is necessary:
+•
+Prorate by allocating a percentage to each order based on the total dollar amount
+of current child support ordered; or
+•
+Share equally by dividing the allowable disposable income by the total number of orders.
+For multiple orders, COGS will prorate or divide equally, based on the “Allocation
+of Orders,” for the appropriate jurisdiction. To find State requirements, develop
+through the State income withholding contact in the Income Withholding Matrix at https://www.acf.hhs.gov/css/contact-information/state-new-hire-reporting-contacts-and-program-requirements.
+NOTE: Allocation of garnishment by either the prorating formula or the equal sharing formula
+will apply to both monthly garnishment payments and lump sum dispersal. To find State
+lump sum contacts and program requirements, use the Lump Sum Matrix at https://www.acf.hhs.gov/css/resource/state-lump-sum-contacts-and-program-requirements.
+a. Prorating formula
+•
+Add the total current support due on all withholding orders for current child support.
+•
+Divide each order’s current support due by the total of all orders to figure each
+order’s percentage total.
+•
+Withhold the percentage of allowable disposable income for each order.
+EXAMPLE:
+The maximum that can be withheld is $550. There are three orders. Order A is for $220;
+order B is for $200; and order C is for $180. The total current support owed is $600.
+Order A is for $220 which is 36.7% of $600. Order B is for $200 which is 33.3%. And
+order C is for $180 which is 30%. The maximum that can be withheld is $550. Order
+A will be paid $201.85 (36.7%); .order B will be paid $183.15 (33.3%); order C will
+be paid $165 (30%).
+b. Equal Sharing Formula
+Divide the amount that can be garnished by the number of orders. If that yields an
+amount that is more than one of the orders requires, subtract the amount of that order
+from the total. Divide the remainder by the number of remaining orders and pay that
+to the remaining orders.
+EXAMPLE:
+The maximum that can be withheld is $550. There are three orders. Order A is for $220;
+order B is for $200; and order C is for $180. Dividing by 3 yields $183.33 to be applied
+to each order. Additional calculations are necessary because order C only asks for
+$180.
+Subtract the $180 from the total $550. Divide the remainder ($370) by 2. Pay $185
+to orders A and B.
+5. Prior Month Accruals (PMAs)
+If a PMA of $500.00 or more is due, COGS will apply the Federal limit (CCPA) and withhold
+that amount from the PMA. The beneficiary will be paid the amount that exceeds the
+Federal limit. An alert will be generated to the PC for development. The PC will contact
+the court for instructions on how much of the PMA the court should receive. (SM 00832.900)
+6. Overriding the Withholding Limit
+This can only be done if the court order instructs SSA to override the Federal limits
+because the beneficiary has other resources. See SM 00832.260.
+7. Processing Illinois Department of Revenue Order Labeled “Delinquent Child Support,
+Notice of Levy on Wages, Salary, and Other Compensation”
+Illinois orders labeled “Delinquent Child Support, Notice of Levy on Wages, Salary,
+and Other Compensation” requesting payment to the Illinois Department of Revenue (IL
+Dept of Revenue) because the SSA beneficiary did not pay his/her child support are
+processed differently than Illinois garnishment orders.
+These withholding orders entitle the claimant to an exempt amount (similar to a tax levy). This amount is calculated by multiplying the federal minimum wage times 45 which is multiplied by 52 weeks and divided by 12 months.
+Determine the withholding amount as follows: (This is a simplified version of filling
+out columns A-H, Step 2 on the Illinois Form EDC-111.)
+•
+Determine the current MBP as shown on the MBR query. If the MBP is the exempt amount
+or less, SSA cannot comply with the withholding order since the exempt amount is not
+met or it is just met with no excess for withholding.
+•
+If the MBP is greater than the exempt amount, subtract the exempt amount from the
+MBP; calculate 15% (.15) of the MBP. The amount to send to the Illinois Department
+of Revenue is the smaller of these two amounts.
+•
+Enter the amount from this calculation into COGS. Do not enter a percentage amount.
+Due to the unique calculation of the garnishment amount for these orders, an actual
+money amount must be entered into COGS.
+If the case number of an existing order (s) is the same as the new order from the
+IL Department of Revenue, both orders must be honored. Send the money on both the
+existing order and the newly calculated amount to the Illinois SDU, P.O Box 5400,
+Carol Stream, Il 60197-5400.
+These orders may not contain a court order case number and generally request that
+the payment be made using the Debtor I.D. number, which is the beneficiary’s SSN.
+We cannot comply with this request because doing so would result in the SSN being
+visible in the check envelope window which violates our confidentiality regulations.
+If these orders do not have a court case number, use the contact information provided
+to obtain a court case number. If the order does not contain contact information,
+contact RO support staff or PC OA staff for guidance.
+EXAMPLE 1—Exempt amount not met.
+Existing garnishment deduction of $65.00
+The current MBP from the MBR query is $999.00. Since the MBP is less than the exempt
+amount, SSA cannot comply with the order. Send a manual notice to the IL Dept of Revenue
+explaining that SSA cannot comply with the order because the beneficiary’s benefits
+are below the exempt amount. We will continue to send $65 to the IL SDU. Do not enter
+into COGS because it is not yet programmed to accept this type of reject.
+EXAMPLE 2—Exempt amount met.
+Existing garnishment deduction of $30.00
+The current MBP from the MBR query is $1500.00. Since the MBP is greater than the
+exempt amount, continue with the following steps.
+a.
+MBP of $1500.00 minus the exempt amount = $86.25
+b.
+Calculate 15% (.15) of MBP of $1500.00 or $225.00
+c.
+Compare a. and b. and take the smaller amount or $86.25
+d.
+The withholding amount input to COGS and sent to the IL Dept of Revenue is $86.25.
+We will continue to send $30 to the IL SDU.
+NOTE: If the amount due under the two orders exceeds the Federal limits, the payments will
+be prorated. That calculation will be done by COGS.
+EXAMPLE 3—Exempt amount met, no existing garnishment.
+The current MBP from MBR query is $1840.00. Since the MBP is greater than the exempt
+amount, continue with the following steps.
+a.
+MBP of $1840.00 minus the exempt amount = $426.75
+b.
+Calculate 15% (.15) of MBP of $1840.00 or $276.00
+c.
+Compare a. and b. and take the smaller amount or $276.00
+d.
+The withholding amount input to COGS and sent to IL Dept of Revenue is $276.00.
+If an inquiry is received about an Illinois “Delinquent Order” because we have reduced
+the withholding rate, inform the beneficiary that SSA has corrected the withholding
+amount based on a communication received from the Illinois Department of Revenue.
+If they want to dispute amounts previously withheld, tell them that SSA is unable
+to repay any benefits previously withheld based on federal law. They must take their
+dispute to the Illinois Department of Revenue.
+If an inquiry from is received from an individual because the amount of money he/she
+receives from the State of Illinois has been reduced as a result of this change, refer
+the individual to the Illinois Department of Revenue.
+8. Dual entitlement and garnishment
+The garnishment will be established on the account with the highest benefit amount.
+If both accounts are pending adjudication when the garnishment order is received:
+•
+run a computation of benefits for both accounts; and
+•
+post the garnishment to COGS for the most advantageous record
+We want to provide for the highest rate of garnishment should both benefits be awarded.
+A special message will be posted if an MBR is present to alert the adjudicating technician
+that a dual entitlement garnishment exists. A comparable remark should be annotated
+to MCS if this is the only available electronic record for both claims.

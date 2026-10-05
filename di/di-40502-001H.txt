@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - DI 40502.001 - Processing Center Instructions for Continuing Disability Review Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/23/2016 - Present | TN 5 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0440502001 (fetched 2026-10-04)
+
+H. Procedure for PC processing of undeliverable mailers
+1. Types of undeliverable mailers - general
+As discussed in this section at DI 40502.001E., most undeliverable mailers are processed in WBDOC. However, the PC mailroom may
+receive undeliverable hard paper SSA-455s from the processes described in DI 40502.001I. or DI 40502.001J. in this section. In these cases, the mailroom or DCR remails all undeliverables,
+see Title II Undeliverable Mail COA GN 02605.055.
+2. Processing undeliverable mailers
+Establish a workload control for undeliverable mailers by making an input to the DCF
+and by selecting EVENT TYPE UNDELIVERABLE (currently event type 7) on the IPCA screen,
+see MSOM CDR 001.005.
+Query the MBR and/or SSR for a current address.
+If no new address is available for the mailer, make an input to the DCF by selecting
+EVENT TYPE REVIEW NONRESPONDER (currently event type 6) on the IPCA screen, and then
+process as a nonresponder per DI 40502.001I. in this section.
+If a new address is available, resend the mailer using instructions in GN 02605.055.
+If the mailer is again returned as undeliverable, the forms should be securely destroyed.
+After 150 days from the send request the UNDELIVERABLE mailer will automatically update
+as NONRESPONDER to the DCF.

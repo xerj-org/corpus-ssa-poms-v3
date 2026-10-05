@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - GN 02402.475 - Coding Azerbaijan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/27/2024 - Present | TN 284 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402475 (fetched 2026-10-04)
+
+F. Procedure for coding Azerbaijan bank data
+The FRBKC relies on us to provide complete bank data to ensure correct posting of
+payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Azerbaijan using an SSA system (e.g.,
+Modernized Claims System (MCS), or Manual Adjustment Credit and Award Data Entry (MACADE).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership;
+•
+account type;
+•
+beneficiary address;
+•
+beneficiary phone number;
+•
+country;
+•
+enrollment status;
+•
+first and last name of beneficiary;
+•
+bank name and address;
+•
+IBAN
+•
+payee indicator;
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+NOTE: In the Country Bank info field, type BIK followed by Beneficiary Bank's 6 digit
+code. Ex: BIK 123456.
+NOTE: In the Beneficiary ID field, type VOEN followed by Tax ID. Ex: VOEN 123456789.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award
+You must update ITS.gov using the bank account information prior to processing the
+initial award to ensure the beneficiary receives payment. If the complete bank account
+information is not in ITS.gov when the payment processes, the payment rejects and
+returns to our agency.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Azerbaijan?
+If no, STOP.
+REASON: Beneficiaries in Azerbaijan can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+The RTN is 750000130 for all IDD to Azerbaijan. It contains the:
+•
+Multi-country prefix of “75” for Azerbaijan IDD;
+•
+U.S. check digit code of “0” at the end of the RTN for all IDD accounts in Azerbaijan.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” savings, or
+•
+“C” checking.
+If no indicated account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Azerbaijan, code:
+•
+“J” designated for Azerbaijan
+•
+16-digit of the 20-digit account number
+7
+You must take action on the same business day to enter into ITS.gov all the information
+as listed in GN 02402.475F.
+You must access ITS.gov or ask a co-worker to update the required information into
+ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

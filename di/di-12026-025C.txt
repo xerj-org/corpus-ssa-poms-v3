@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - DI 12026.025 - Field Office (FO) Processing Guidelines for Requesting a Reconsideration in a Medical Continuing Disability Review (CDR) Determination
+Effective Dates: 08/12/2026 - Present | TN 19 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412026025 (fetched 2026-10-04)
+
+C. Folder preparation for the CDR appeal
+1. Electronic continuing disability review (eCDR) appeals
+The eCDR includes electronic folder (EF) case processing for initial continuing disability
+reviews (CDRs) and Age-18 redeterminations. If the disabled individual is appealing
+a CDR we processed in EDCS, process the reconsideration electronically. For processing
+appeals using eCDR in electronic folder cases refer to:
+•
+DI 81010.255 (Electronic Continuing Disability Review (eCDR) Cessation Reconsiderations); and
+•
+DI 81010.257 (Electronic Continuing Disability Review (eCDR) Cessation Appeals-ALJ Hearing).
+2. eCDR appeal exclusions
+When the FO is unable to load the CDR reconsideration appeal cases into MSSICS or
+EDCS, the MBR and SSR are unable to automatically update the DCF. Cases that are not
+in the EDCS will not be visible for tracking and are only available for tracking in
+MI Central.
+The FO must record a CDR reconsideration appeal with an exclusion for a Title XVI
+case using the following actions:
+a.
+For MSSICS cases, input the CDR reconsideration information in MSSICS. For more information, see MS
+MSSICS 020.001 (Appeals - Overview); and
+b.
+For non-MSSICS cases, use MSSICS direct SSR update
+to establish the CDR reconsideration, see MS 00302.001. For more information, see
+MS 00302.001 (Direct SSR Update - Overview).
+To record a CDR reconsideration appeal with an exclusion for a Title II only case,
+use the EDCS Exclusion Appeal (EEAI) screen to input the appeal request in the DCF.
+To see additional information on completing the EEAI screen inputs, see CDR 001.025.
+The DCF will pass the appeal request and SBC information to the T2R background program,
+which will automatically update the MBR. The Title II case will not require a POS
+input.
+For the Title II case reconsideration, once the appeal information is loaded to the
+DCF, the case will become visible in MI Central. EDCS will not be able to automatically
+update the location of the appeal case. At the time of the cessation or continuance
+determination, the DCF will automatically receive the determination and will automatically
+update the MBR.
+For a Title II case hearing appeal, after inputting the appeal request using the EEAI
+screen, the DCF will automatically create an ALJT2EX tickle. These cases will not
+appear in the DCF pending file or in MI Central. When there is a medical decision
+on the hearing appeal, the FO must receipt it in the tickle on the DCF. A hearing
+affirmation, abandonment, dismissal, or withdrawal will continue to automatically
+post to the MBR. Hearing reversals will require a POS input to update the MBR.
+3. Paper folders (Modular disability folder [MDF] and brown [non-MDF] folder)
+Process the paper folder as follows:
+a. Folder(s) available in the FO
+Place the request for reconsideration, any supporting forms, and any evidence provided
+by the individual in the official disability folder. For document filing instructions
+see DI 70005.005B.
+b. Folder(s) unavailable in the FO
+Request the CDR folder and annotate on the request that there is a disability hearing
+pending. The following references provide information about requesting an MDF:
+•
+Title II - DI 40525.100 (Processing Center Action Control System [PCACS] Coordination).
+•
+Title XVI (except foreign cases) - SM 01601.415 (Case Control Data CCTL), and SM 01201.035
+(Alert Response [AR] Codes on the SSA-8028).
+•
+Foreign Case - DI 12026.020B.5. (Field Office [FO] Responsibilities when an Individual Wants to Request a Continuing
+Disability Review [CDR] Reconsideration).
+•
+Obtain any needed prior folder(s) - DI 13015.080 (Unable to Locate Medical Folder after Initial FO Search - Detective Work).
+•
+Unable to locate the prior folder - GN 03105.010 (Reconstruction of Destroyed or Missing Paper Claims Folders), DI 20502.030 (Folder Reconstruction), and DI 28035.000 (Processing of Lost Folders/Medical Evidence).

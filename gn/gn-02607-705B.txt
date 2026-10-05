@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02607.705 - Suspending Title XVI Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607705 (fetched 2026-10-04)
+
+B. Suspending Title XVI payments using MSSICS
+If an inmate has an active MSSICS record, suspending through PUPS will lock the MSSICS
+record. For active MSSICS records, suspend payments as follows:
+1.
+Access the PUPS Title XVI Prisoner Update (PU16) screen following instructions in
+MSOM PRISON 003.008.
+2.
+Update the following PU16 fields on the PUPS record warranting a suspension action:
+•
+TYPE OF ACTION CODE--enter 6 (CHANGE INFORMATION ONLY) - the PUPS status will remain
+PENDING;
+•
+ACTION EFFECTIVE DATE--enter the suspension effective date; and
+•
+FACILITY ID update if not already present.
+3.
+Enter "MSSICS CASE" on the PUPS Prisoner Remarks (PRMK) screen. For information on
+the PRMK screen, see MSOM PRISON 003.010.
+4.
+Clear all other PUPS pending records by selecting TYPE OF ACTION = 2 (CLEAR CONTROL
+- NO SUSPENSION NECESSARY) on the PU16 screen. To issue a correct incentive payment,
+there must be only one PUPS record pending when you input the suspension.
+5.
+Update the MSSICS screens to record and post the proper period of payment status N22
+(inmate of a penal institution) by selecting Prisoner from the dropdown list for Confinement
+Reason on the Institution Residence screen. For more information on the LINS screen,
+see MSOM INTRANETSSI 010.009.
+6.
+The CLAIM FILE BEGIN DATE, if present, on the Claims Home page in CCE must be at least
+1 month before the N22 payment status date is effective. For more information on the
+Claims Home page, see MS 09901.002.
+The SSR sends feedback to PUPS once it posts the N22 payment status. This feedback
+changes the PUPS status from PENDING to SUSPENSION. PUPS determines whether an incentive
+payment (IP) is due the reporting facility, computes the IP amount, and posts the
+IP amount and the date paid to the T16 Prisoner Status Query (P6QY) screen.
+NOTE: If the PUPS record still shows PENDING after the MSSICS action posts the N22 payment
+status to the SSR, report the problem to your Field Operations Prisoner Coordinator
+(FOPC). For a list of FOPCs, see GN 02607.990.

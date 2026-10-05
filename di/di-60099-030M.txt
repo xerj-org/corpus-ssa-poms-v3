@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 60099.030 - Field Office (FO), Processing Service Center (PSC), and National 800 Number Network (N8NN) Responsibilities under the Benefit Offset National Demonstration (BOND)
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099030 (fetched 2026-10-04)
+
+M. Special processing scenarios
+When you encounter situations where special processing applies, use the instructions
+in this chart to assist you.
+Scenario
+Alert
+Action
+You attempt to create a Work Report in eWork when the BOND case has an ADC and is
+still within the BOND participation Period.
+BOND Beneficiary – Issue work receipt through DPS and refer beneficiary to the BOND
+Call Center (877)-726-6309
+Complete the Work Report Normally and refer the beneficiary to the BOND Call Center.
+You attempt to create a Work Review when an ADC date is on the MBR and the Work Review
+created is during the BOND Participation Period (DCF).
+BOND Beneficiary. The Beneficiary for Claim SSN xxx-xx-xxxx BIC_ BOAN xxx-xx-xxxx
+is currently within Offset phase of the BOND project. A new review cannot be established
+at this time.
+PSC User:
+Annotate the Action Control Record (ACR) “NAN-BOND beneficiary in offset period” if
+you are attempting to set this case up in eWork because the continuing disability
+review enforcement operation (CDREO).
+Send the ACR to FIN.
+Clear the Enforcement via the CDR PC Input (IPCA) screen on the DCF using 8=SSR/MBR
+CONDITIONS-STOP CDR
+FO User:
+Clear the Enforcement via the CDR FO Input (IFOA) screen using 5=SSR/MBR/STOP CDR
+There is no ADC date on the MBR but eWork shows the latest determination is a cessation.
+The current date is after the BOND Participation Stop Date on the DCF.
+The prior eWork decision was an EPE cessation but there is no ADC date on the MBR.
+A new work review cannot be established until the prior eWork decision is processed
+to the MBR.
+Do you want to reopen the prior EPE cessation processed on mm/dd/yyyy?
+Send an MDW to L5R OFFICE L5R NO
+LONGER OPERATING with information on this BOND case and the message you received. Tickle the eWork
+development worksheet for 10 days. Once L5R posts the ADC date on the MBR, process
+your work CDR normally.
+Jurisdiction of these cases remains with the originating component.
+A non-BOND office user attempts to establish a review in the same month that we made
+a previous decision, and the previous review contains protected BOND months.
+There was a prior eWork decision processed mm/yyyy. You cannot establish a new Work
+Review in the same month a prior decision was made.
+This prior decision is blocked due to BOND Beneficiary participation and can only
+be reopened by L5R OFFICE L5R NO LONGER OPERATING.
+Send an MDW to L5R OFFICE L5R NO
+LONGER OPERATING with the information on this BOND case and the message you received.
+A non-BOND office user attempts to save new information for a protected BOND month
+in a Short Path, or attempts to reopen a month in the protected period from a prior
+review on the Earnings Details Screens.
+Work Review Summary Screen will display:
+***Prior BOND Beneficiary***
+The information you changed is in the Short Path period. The EPE events (e.g. EPE
+Begin Month, Cessation, Reinstatements, and Suspensions) during the Short Path period
+are based on the months previously entered. This period contains months within a protected
+BOND demonstration period and cannot be reopened. Please transfer to L5R OFFICE L5R NO LONGER OPERATING for special processing.
+Send an MDW to L5R OFFICE L5R NO
+LONGER OPERATING with the information on this BOND case and the message you received.
+FO reopening case to process a denial.
+There is no alert for this scenario.
+If there is no ADC date on the MBR, FO may reopen the case.
+If there is a prior ADC date, you cannot reopen the case.
+Send MDW to L5R OFFICE L5R NO LONGER OPERATING.
+A non-BOND office navigates to the Case Summary screen for a case determined a BOND
+beneficiary.
+BOND Demonstration beneficiary, please transfer to BOND office L5R OFFICE L5R NO LONGER OPERATING to complete adjudication.
+Send an MDW to L5R OFFICE L5R NO LONGER OPERATING.

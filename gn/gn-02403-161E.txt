@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02403.161 - Social Security Electronic Remittance System (SERS) for Programmatic and Conserved Funds Remittances
+Effective Dates: 11/18/2024 - Present | TN 60 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403161 (fetched 2026-10-04)
+
+E. End-of-Day listing for SERS remittances
+The end-of-day listing establishes a control and audit trail between the receipt of
+a remittance in the FO check log and receipt of the remittance in SERS. The Order
+Tracker screen within the SERS application allows you to pull a daily listing of all
+check or money order remittances submitted in SERS, and the scanned check or money
+order images.
+At the end of each day, the remittance supervisor must retrieve the daily SERS end-of-day
+listing from the Order Tracker Screen. The remittance supervisor reviews the daily
+end-of-day listing and compares it with all the remittances submitted in SERS that
+day and annotated on the check log to ensure that all remittances are correctly input,
+processed, and submitted. When an input error is detected, see GN 02403.161G.3.
+REMINDER: At the end of each day, the Remittance Clerk is still required to print the Field
+Office Remittance Transmittal, (FORT), Credit Card (CCFORT), and Field Office Daily
+Receipt Listing (FODRL) for non-SERS remittances entered into the DMS and mailed to
+MATPSC. The remittance supervisor must review the remittances on the FORT and ensure
+the only remittances that are mailed to MATPSC are the remittances that cannot be
+processed in SERS. For FORT and CCFORT instructions, see GN 02403.020. For FODRL instructions, see GN 02403.021. Do not send checks or money orders processed through
+SERS to MATPSC. This will result in duplicate processing.

@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - DI 52135.030 - California Public Disability Benefits (PDB)
+Effective Dates: 01/13/2026 - Present | TN 29 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452135030 (fetched 2026-10-04)
+
+E. Processing RETAP RT47 alerts
+We mail an automated direct contact letter requesting proof that SDI payments ended
+if SDI offset is still in effect 13 months from the periodic payment start date. See
+DI 52135.030I.3. for Exhibit 3 - Facsimile of CA SDI offset removal letter. If offset remains on
+the MBR, RETAP generates alert RT47 to the PC 18 months from the periodic payment
+start date.
+1. Verification of SDI termination received but not processed
+Use ICF WC/PDB #32 to process the adjustment.
+2. Offset in effect and no evidence of SDI termination received
+If offset is still in effect, SSA received no response to the automated letter requesting
+evidence of SDI termination, and there is no indication that SSA previously received
+the necessary evidence (e.g., a special message or unprocessed evidence in paperless
+Completed):
+•
+Make one follow-up contact with the beneficiary or with EDD, as appropriate, requesting
+proof of SDI termination.  If sending a DIRCON letter, model it after Exhibit 3 but
+show the PSC of jurisdiction’s return address.  Refer to DI 52135.030H. in this section for additional information regarding contacting the CA EDD offices.
+•
+Do not establish a diary control.  No further follow up is required.
+•
+Leave PDB offset in effect if there is no further response and there is no evidence
+already in the record to support removing offset.
+3. Offset is correct and based on a PDB other than California SDI
+Process as follows:
+•
+Annotate a special message to the MBR stating the source of the California PDB payments.
+•
+Read the Action Control Record (ACR) files in (FIN).

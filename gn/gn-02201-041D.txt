@@ -1,0 +1,109 @@
+SSA Program Operations Manual System (POMS) - GN 02201.041 - Debtor Reactions to Collection of Title II Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 02/22/2021 - Present | TN 69 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201041 (fetched 2026-10-04)
+
+D. Procedure - debtor allegations about employment
+1. Report of employment termination
+At any time in the garnishment process, a debtor may report to SSA that his/her employment
+terminated; e.g., debtor quit, was fired or laid off, employer went out of business.
+There are two types of employment terminations; (1) involuntary separation, and (2)
+voluntary separation.
+Involuntary separation occurs when a person is fired or laid off, the employer goes
+out of business or the job was abolished. Law and regulations do not allow for a resumption
+of garnishment until the individual has been continuously reemployed for at least
+12 months. The debtor bears the burden of informing SSA of the circumstances surrounding
+an involuntary separation from employment. SSA's automated garnishment system will
+not resume AWG until the required 12 months have elapsed.
+Voluntary separation occurs when a person quits or retires. In that case, the automated
+system will periodically check for re-employment and resume garnishment when available.
+A 12-month re-employment period for garnishment resumption is not required.
+Important: When processing debtor reports of employment termination, it is critical to try to
+ascertain the specific reason for the termination and input the information to the
+system. In doing so, you will ensure that the automated system resumes garnishment
+at the proper time. In addition, SSA requires documentation of the employment termination
+before any input is made to the system.
+Proceed as follows when a person alleges employment termination:
+a. TSC Action
+•
+Ascertain the specific reason for employment termination and the date it occurred.
+•
+Advise the caller to submit his/her documentation to the servicing FO. Acceptable
+documentation includes, but is not limited to, a pay stub, a letter from the employer,
+or documentation of receipt of unemployment compensation.
+•
+Provide the debtor with the address of the servicing FO.
+•
+Enter a brief description of the debtor's allegation on the DMS Remarks. Include the
+reason for employment termination and the date.
+•
+Do not make any input to stop garnishment.
+b. FO Action
+•
+Obtain and review documentation of the employment termination (a pay stub, a letter
+from the employer, or documentation of receipt of unemployment compensation),
+•
+If, in your judgment the documentation supports the debtor's allegation, input the
+information to the AWG Debtor No Longer Employed (TREN) screen. (See MSOM DMS 014.012
+for more detailed instructions about this screen). Be sure to input the specific reason
+for and date of the employment termination so that the system can take the next appropriate
+action for garnishment.
+•
+Tell the debtor SSA will annotate its records to show the employment termination and
+that garnishment action will stop.
+•
+Advise the debtor that SSA will check periodically in the future for re-employment.
+If the debtor becomes re-employed, SSA will resume garnishment, if available.
+•
+If the debtor does not have any documentation, explain that SSA cannot act on the
+report of employment termination. Make no input to the TREN screen if the debtor does
+not provide documentation or provides unacceptable documentation.
+Note: A debtor's written or typed report of employment termination without any corroboration
+is not acceptable documentation. It is not necessary to provide written notice to
+the debtor when documentation is not provided or is found to be inadequate.
+c. PC Action
+•
+If the debtor calls to report employment termination, ascertain the specific reason
+and the date it occurred.
+•
+Advise the caller to submit his/her documentation to the PC of jurisdiction. Acceptable
+documentation includes, but is not limited to, a pay stub, a letter from the employer,
+or documentation of receipt of unemployment compensation.
+•
+Provide the debtor with the address of the PC with jurisdiction.
+•
+Enter a brief description of the debtor's allegation on the DMS Remarks. Include the
+reason for employment termination and the date.
+•
+Do not make any input to stop garnishment.
+•
+When you receive documentation that supports the debtor's allegation, input the information
+to the AWG Debtor No Longer Employed (TREN) screen. (See MSOM DMS 014.012 for more
+detailed instructions about this screen). Be sure to input the specific reason for
+and date of the employment termination so that the system can take the next appropriate
+action for garnishment.
+•
+If the debtor submits documentation that is not acceptable, do not act on the report
+of employment termination. Make no input to the TREN screen.
+Note: It is not necessary for the PC to provide written response to the debtor when documentation
+is not adequate.
+2. Report of employer adverse action against debtor
+Federal law prohibits an employer from using an AWG order as the basis for taking
+adverse action against an employee. An individual may file a civil action in Federal
+or State court against an employer who violates the prohibition.
+If a debtor alleges being fired or otherwise disciplined by the employer due to the
+AWG order, take the following actions:
+TSC/FO/PC Action
+•
+If the debtor alleges terminated employment due to AWG, follow the applicable instructions
+for your component in GN 02201.041D.1.
+•
+If the debtor alleges some other form of disciplinary action (but not a termination
+of employment), tell the person that under Federal law (31 U.S.C. 3720D) an employer
+is prohibited from using AWG as the basis for taking disciplinary action against him/her.
+•
+Advise the debtor that the law and regulations allow a person to file a civil action
+against the employer in a Federal or state court of competent jurisdiction.
+•
+Explain that SSA can not act in any official capacity for the debtor against the employer.
+•
+Record the information on DMS Remarks.

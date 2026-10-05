@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02604.180 - Processing Instructions for Annual Earnings Test and the Penalties for Late Filing
+Effective Dates: 08/31/2011 - Present | TN 19 (08-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202604180 (fetched 2026-10-04)
+
+B. Procedure for processing penalties for late filing
+1. Manual input of penalties
+•
+The Processing Center (PC) must manually impose penalties for late reports that are
+processed manually (e.g., direct input exclusions). Establish the PENALTY data field
+and withhold the penalty manually via a Manual Adjustment, Credit, and Award Process
+(MADCAP) action.
+•
+Systems limitations require that we combine some penalties with overpayment data even
+though they are not overpayments (e.g., when entitlement terminates and we have collected
+a partial penalty).
+2. Full benefit withheld
+•
+Do not record the penalty amount on the Recovery of Overpayments, Accounting and Reporting
+(ROAR) system or on the MBR as a legally defined overpayment (LDO) or special payment
+amount (SPA).
+•
+If the beneficiary requests a partial adjustment of the overpayment, assume the request
+also applies to the penalty. Record the combined overpayment and penalty amounts on
+ROAR to continue partial withholding until we collect the full combined amount. For
+more information on partial recovery with a penalty involved, see SM 00610.716.
+3. Penalty withheld from benefits later found to be “not due”
+If we withhold a penalty from benefits and later discover the penalty is not due,
+we still need to collect the penalty deduction. However, because of summarization
+rules, the MBR benefit history will reflect we paid the benefits and collected the
+penalty. Consequently, later automated action will process in ignorance of the penalty
+withholding. Although we still need to collect the penalty, do not rework the automated
+action to reestablish the penalty unless the beneficiary questions the action. If
+so:
+a.
+Correct the Beneficiary Overpayment or Underpayment Data (BOUD) or Special Payment
+(SPA) amount to reflect the correct payment amount due.
+b.
+Control the collection of the penalty amount manually.
+NOTE: Do not revise the penalty field for that year on the MBR.

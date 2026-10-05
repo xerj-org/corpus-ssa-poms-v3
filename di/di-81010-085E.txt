@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - DI 81010.085 - Transferring Cases in the Electronic Disability Collect System (EDCS)
+Effective Dates: 11/22/2023 - Present | TN 81 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010085 (fetched 2026-10-04)
+
+E. FO sends SSA-827s to DDS but fails to transfer the EDCS case
+Once DDS receives the EDCS Routing Form and SSA-827s from the FO:
+•
+the case is receipted into the DDS system; and
+•
+EDCS data is displayed within the DDS case processing screens.
+FO failure to transfer jurisdiction of the EDCS case to DDS prevents:
+•
+EDCS data from propagating into the DDS case processing screens during DDS’s receipt
+process; and
+•
+DDS from processing the case electronically until the FO transfers the case to DDS.
+NOTE: The FO maintains jurisdiction of the case until case transfer to DDS. The FO can
+change information in EDCS until the case is transferred. After transfer, the FO can
+still view the EDCS disability report information via eView.
+If DDS determines the FO failed to transfer the case, DDS must contact the FO and
+ask them to transfer the case.
+For more information on DDS procedures, see Electronic Folder Interface (EFI) Download
+DI 81020.005.

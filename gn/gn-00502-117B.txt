@@ -1,0 +1,232 @@
+SSA Program Operations Manual System (POMS) - GN 00502.117 - Verifying Information Provided by a Payee or Payee Applicant
+Effective Dates: 04/14/2014 - Present | TN 102 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502117 (fetched 2026-10-04)
+
+B. Procedure for verifying information a payee or payee applicant provides
+1. Verifying payee applicant's SSN and EIN
+Verify an individual applicant's SSN before you appoint the individual as payee.
+Obtain the EIN for an organizational payee applicant and verify against the Employment
+Identification File (EIF) when initially establishing an organizational payee in electronic
+Representative Payee System (eRPS) by following the instructions in GN 00502.118.
+a. Application processed through the eRPS
+When processing an application through eRPS, verifying the SSN is part of the application
+process. eRPS accesses the NUMIDENT/ICD and displays the payee applicant's name and
+date of birth. Ask the applicant for that information and compare it to the data displayed
+to verify ownership of the SSN. If the information matches, no further verification
+is needed.
+b. Application processed outside eRPS
+When the payee applicant does not have an SSN, we manually process a payee application
+for a parent filing to be payee for their minor child. These are the only cases processed
+outside of eRPS. For information on manual payee actions, see GN 00502.190.
+c. SSN not verified because there is a death indicator on NUMIDENT
+If the payee applicant's NUMIDENT has a death indicator, eRPS cannot verify the SSN.
+If there is a death indicator, follow the instructions in GN 00304.100.
+2. Verifying payee applicant’s identity
+a. Individual payee applicant
+During an in-person interview, ask the individual payee applicant to furnish documents
+to verify their identity.
+NOTE: Examples of acceptable evidence of identity include a valid driver's license, state
+issued I.D. card, U.S. passport, or government issued I.D. The evidence of identity
+must be unexpired.
+Document a description of the evidence presented on the Proof of Applicant's Identity
+screen in the eRPS (MS 07409.011).
+During a telephone interview, verify the payee applicant's identity consistent with
+the claimant identity process outlined in GN 00203.020A.2.b.
+EXCEPTION: Do not ask for verification of identity if during this interview
+session the applicant proved identity in conjunction with a claim for benefits.
+b. Organizational payee applicant
+Ask the employee of an organizational payee to provide the following information to
+verify identity:
+•
+their name and job title;
+•
+the name of the organization;
+•
+the organization’s address; and
+•
+the organization’s EIN (Employer Identification Number).
+Use the Rep Payee Applicant “Note Type” on the Make Note screen to document the employee’s
+name and job title in eRPS.
+3. Verifying criminal history
+A payee or payee applicant's past criminal record is important to the suitability
+determination and requires verification before making your selection or retain payee
+determination. To perform a criminal background check through eRPS, see GN 00502.113D.3.
+Review the criminal information on the Criminal Background Check Results screen in
+eRPS and discuss with the payee or payee applicant. To process the VRFCRM work issue,
+see GN 00502.302.
+Most crimes received in eRPS are either felonies or barred crimes. To verify a non-felony,
+you must select one of the four dropdown options on the Criminal History Verification
+screen (MS 07410.008):
+•
+Court Document/Prison Release Papers;
+•
+Regional Chief Counsel Opinion;
+•
+Erroneous Criminal Information; or
+•
+Misdemeanor in the Offense Type Field (see field on the Criminal Background Check
+Results screen)
+After selecting the appropriate dropdown option, you must document the information
+requested in the text box.
+If a payee or payee applicant indicates they were convicted of any of the crimes listed
+in GN 00502.133A, there is no reason to request further documentation. The payee's or payee applicant's
+allegation of a conviction for one of these crimes is the only verification needed.
+a. Requesting court documents or prison release papers
+If you determine the criminal information is incomplete and it affects your determination:
+1.
+Inform the payee or payee applicant that they need to provide the appropriate court
+documents that reflect the information you need.
+a.
+If the Prisoner Update Processing System (PUPS) record does not reflect a release
+date, the payee or payee applicant must provide release papers.
+b.
+If you need to determine the type of conviction or type of crime, the payee or payee
+applicant must produce documentation that provides this information.
+2.
+Control for the return of the court documents or prison release papers using the VRFCRM
+work issue for the payee or payee applicant and follow up with them via telephone
+or mail as necessary. For instructions on how to process the VRFCRM work issue, see
+GN 00502.302.
+a.
+If, after 15 days, the payee or payee applicant has not contacted you or submitted
+the court documents or prison release papers, begin developing for another payee or
+consider direct payment.
+b.
+If, after 30 days, from the initial request for information, the payee applicant has
+not contacted you or submitted the court documents or release papers, “non-select”
+the payee applicant and use the Rep Payee Applicant “Note Type” on the Make Note screen
+to document the reasons why you did not select the payee applicant. If you cannot
+verify the criminal history for a payee who is currently serving after 30 days, use
+the following steps:
+•
+Complete the Payee Retention Decision – Criminal History screen (MS 07410.009).
+•
+Answer "Yes" to the "Is a change of payee needed?" question.
+•
+Document the reasons why you removed the payee on the Make Note screen under the Representative
+Payee Details Page in eRPS.
+•
+Process a payee application and appoint a new suitable payee or consider direct payment,
+if applicable.
+3.
+When the payee or payee applicant submits the court documents or prison release papers:
+a.
+Review the information carefully; and
+b.
+Follow up with the payee or payee applicant to clarify previous answers, if necessary.
+c.
+Review the barred crimes state digest in GN 00502.301. This digest breaks down the barred crimes discussed in GN 00502.133A.4 based on the state or territory where they committed the crime.
+4.
+Use the Rep Payee Applicant or Rep Payee “Note Type” on the Make Note screen to document
+the payee's or payee applicant’s criminal history information or prison release information
+if it is relevant to the suitability determination, including the following:
+•
+criminal history information:
+–
+name of the court;
+–
+state and county of the court's location;
+–
+court case number;
+–
+conviction, including whether the conviction is a felony or a misdemeanor; and
+–
+sentence.
+•
+prison release information:
+–
+prison confinement date; and
+–
+prison release date.
+If the payee or payee applicant reports difficulty obtaining the court documents or
+release papers, you can assist them by contacting the prison or correctional institution.
+For additional guidance on obtaining court documents or prisoner information, see
+the list of third-party sources to use to locate missing inmate information in GN 02607.680. For information on when and what information can be disclosed to the prison or correctional
+facility, see GN 03301.005 and GN 03316.065.
+If the court or prison is in another state or region, you can assist the payee or
+payee applicant by sending an SSA-562 (Request for Assistance) to the local servicing
+field office of the court or prison. For information on requesting help from other
+field offices, see GN 00301.205.
+NOTE: If the payee or payee applicant is currently serving as payee for other beneficiaries,
+follow current policy instructions on questionable payee choices in GN 00502.132A.2. and the payee preference list in GN 00502.105. A history of criminal behavior by the payee or payee applicant may be an indicator
+that they are not suitable to serve as a payee.
+b. Requesting an opinion regarding the payee's or payee applicant’s criminal history
+If, after reviewing the barred crimes state digest in GN 00502.301, you are unsure whether you should bar the individual from serving as a payee and
+you received court documents from the payee or payee applicant, contact the regional
+office (RO) and send the court documents to your RO contact.
+The RO should take the following actions:
+1.
+Contact your appropriate Office of General Counsel contacts and send the court documents
+along with a request for an opinion asking whether the payee's or payee applicant's
+criminal history would bar them from serving as payee based on the policy in GN 00502.133A.4.
+2.
+Forward the opinion from the appropriate Office of General Counsel contacts to the
+local FO.
+c. Handling erroneous criminal information received from eRPS
+If the payee or payee applicant indicates there is an error when you discover a crime
+while performing a criminal background check in eRPS, use the following steps in the
+order below to determine if you need to verify the payee's or payee applicant’s allegation:
+1.
+Compare the payee's or payee applicant’s identifying information with the identifying
+information received from eRPS;
+2.
+Ask the payee or payee applicant if they ever lived in the state where the crime was
+committed;
+3.
+If the identifying information is discrepant and the payee or payee applicant denies
+ever living in or traveling to the state where the crime was committed, use the Rep
+Payee Applicant or Rep Payee “Note Type” on the Make Note screen to document the information;
+and
+4.
+After documenting the Make Note screen, continue processing the payee application
+or retain payee determination. It is not necessary to request further documentation
+from the payee or payee applicant.
+If the identifying information is correct or the payee or payee applicant lived in
+the state where the crime was committed, request further documentation from the payee
+or payee applicant:
+•
+Copy and paste the relevant criminal information from the Criminal Background Check
+Results screen in eRPS into a Word document and provide the payee or payee applicant
+with a printed copy of the criminal information; and
+•
+Request court documentation from the payee or payee applicant and follow the steps
+in GN 00502.117B.3.a in this section.
+4. Verify source of income
+a. Verify employment/self-employment
+To verify employment/self-employment:
+•
+Request a Details Earnings Query (DEQY) or other valid employment documentation to
+verify the payee applicant's employment allegation.
+•
+Use the Rep Payee Applicant “Note Type” on the Make Note screen in eRPS with the results
+of your employment verification.
+Employment allegations are collected on the Applicant Income screen (MS 07409.013)
+in eRPS or question 15 on the SSA-11-BK.
+NOTE: Failure to provide correct information about employment is a good indicator that the
+payee applicant may have provided other incorrect information and may not be a suitable
+payee.
+b. Verify receipt of benefits for applications taken in eRPS
+To verify receipt of benefits for applications taken in eRPS:
+•
+Use screening queries to verify the payee applicant's allegations; or
+•
+obtain an FACT/SSID query.
+EXCEPTION: You do not need to verify source(s) of income for the payee applicants who complete
+abbreviated SSA-11-BKs, see GN 00502.107B.2.
+c. Do not request information from non-SSA Sources
+Do not request information from the following non-SSA sources:
+•
+Department of Veterans Affairs (VA) benefits;
+•
+Worker’s Compensation (WC) payments).
+5. Verify custody
+You may use discretion as to the need to verify custody. However, when the payee applicant
+is a parent who alleges custody of a minor child and they allege the other parent
+does not live in the same household, you should request a copy of a court order establishing
+a custody arrangement from the payee applicant. If a court order is not available,
+you must contact a third party (such as a school official, day care provider, or doctor’s
+office) to verify custody. Use the Rep Payee/Bene Relationship “Note Type” on the
+Make Note screen in eRPS (MS 07415.002) to document custody verification.
+EXAMPLE:
+Make Note screen documentation: 11/05/12 Mr. John Doe at Elm Elementary School, Baltimore, MD, verified Mrs. Mary
+Jones has custody of Ann Jones.

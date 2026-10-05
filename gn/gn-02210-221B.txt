@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - GN 02210.221 - How to Process Death Cases - Debt Contact Representative (DCR) and Debt Specialist (DS) Actions
+Effective Dates: 04/03/2025 - Present | TN 88 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210221 (fetched 2026-10-04)
+
+B. Procedure for when someone reports a death
+1. Information needed for death reporting
+If someone reports a death that is not posted to the MBR or SSR (i.e., A DCR or DS
+receives the initial report of death), obtain the following information from the reporter:
+•
+The name, date of death (if available), and claim number of the deceased.
+•
+The name, address, and phone number of the person making the report.
+•
+The relationship of the reporter to the deceased person (e.g., relative, friend, neighbor,
+etc.).
+•
+Use the Death Information Processing System (DIPS) to input the death. For information
+on DIPS, see the DIPS User
+Guide.
+NOTE: You can make an input to DIPS on the same day that you make inputs to the Control
+Record Delete Screen (DTXI) (see MS MISCINPUTS 002.009), and the Control Record Delete
+Approval Screen (DTXA) (see MS MISCINPUTS 002.010).
+2. Title II Debt
+a. Deceased not billed - other debtors on bill
+If the deceased is not the person being billed, resume billing by making an input
+to the Record Installment Agreement (DRIN) screen (see MS DMS 006.014). Do not delete the deceased from the bill.
+b. Deceased is person billed - other debtors on bill
+If the deceased is the person being billed, but there are other debtors on the record,
+resume billing to the survivors via input to the DRIN screen. Be certain that SSA
+removed the deceased’s name and his or her debt amount from the bill.
+Query the Query Response Selection List (QRSL) (see Queries 006.002) to determine
+if any other person is currently receiving benefits on the same record. Follow the
+instructions listed in GN 02210.221B.2.c. or GN 02210.221B.2.d., in this section for appropriate action against the deceased.
+c. Debt under $3,000 - no other person(s) receiving benefits
+Terminate collection for the deceased via the Terminate Collection (DFTE) screen.
+(For more information, see MS DMS 007.003).
+d. Debt any amount - other person(s) receiving benefits or estate development needed
+Retirement and Survivors Insurance (RSI) debt - Refer the deceased debtor's debt to the DS to either propose adjustment against another
+person(s) or, if no other person is eligible, develop for recovery from estate if
+the debt is $3,000 or greater (see GN 02205.001 Liability for Title II Overpayment Recovery and GN 02215.050 Liability of Deceased's Estate).
+Disability (DI)debt – Input a Transfer Jurisdiction (DFTJ) screen and terminate collection for the deceased
+via the Terminate Collection (DFTE) screen. Refer the debt to Division of International
+Operations (DIO) or Office of Disability Operations (ODO) with the following information:
+•
+Account number and Beneficiary Identification Code (BIC)
+•
+Deceased debtor's name
+•
+Date of death, if known
+•
+State the amount of the deceased's debt and ask that ODO or DIO take appropriate action
+(e.g. adjustment against other person(s), or develop for recovery from the estate
+when the debt is $3,000 or greater).
+3. Title XVI debt
+After reporting the date of death of an eligible or ineligible person on the SSR,
+follow the procedures below.
+a.
+The DS prepares and completes an SSA-1719 DM with a completed death (DH) field. For
+more information, see SM 01301.375.
+b.
+When the outstanding debt is $5,000 or less (see section c), terminate collection
+unless there is:
+•
+A representative payee; or
+•
+A responsible spouse; or
+•
+A sponsor of an alien recipient (for more information, see SI 02201.020, SI 02205.001); or
+•
+Refund has been received; or
+•
+A complex overpayment issue; or
+•
+Fraud.
+If none of the above apply:
+•
+Input a Type of Action (TAC) N to the SSR to delete the debt from RECOOP.
+•
+Prepare an overpayment notice addressed to “the estate of (Name of deceased)”. Develop
+a notice similar to the notices used in the automated B9 diary process. Show the address
+and telephone number of the appropriate Field Office (FO).
+•
+Forward all material to the appropriate FO.
+c.
+When the outstanding debt exceeds $5,000, or one of the conditions in GN 02210.221B.3.b. in this section apply, input the date of death and input a TAC B to the SSR. (The
+TAC B input will alert the FO to take follow-up development.)
+NOTE: Any overpayment decision for non-collection, suspense, or waiver over $2,000.00
+requires management approval. The approval MUST be approved the same day, see MS 00304.020.

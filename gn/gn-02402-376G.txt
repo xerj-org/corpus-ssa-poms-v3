@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02402.376 - Coding Peru Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/14/2022 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402376 (fetched 2026-10-04)
+
+G. Example of coding Peru direct deposit
+The customer provides us with a signup form for Peru containing the Account Number
+1234567890123456.
+1. Derive the RTN
+The technician must code the RTN as follows:
+•
+Code an RTN of 700000025;
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+To derive the DAN, code as follows:
+•
+Start with an alpha country code of “Q” designated for Peru;
+•
+Code up to 16-digits of the Account Number “1234567890123456”.
+a.
+The technician must obtain the following:
+•
+RTN: 700000025
+•
+Checking
+•
+DAN: Q1234567890123456
+b.
+The coding in an SSA System reflects:
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000025
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Q1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c.
+The MBR reflects the following information:
+•
+RTN- 700000025
+•
+DAN- CQ1234567890123456

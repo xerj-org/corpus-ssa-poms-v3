@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - GN 02402.353 - Coding Samoa Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402353 (fetched 2026-10-04)
+
+G. Example of coding Samoan direct deposit
+The customer provides us with a signup form for Samoa containing the following information:
+•
+Bank Name: Central Bank of Samoa
+•
+Bank Code 102, (based on SSA-1199 and confirming after checking the listing in GN 02402.353G)
+•
+Account Number: 1122334455667
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+Code the prefix of 66(the multi-country prefix for Samoa).
+•
+Code three filler zeros 000.
+•
+Code the three-digit bank code 102 based on FI name after checking the ITS.gov help file or see the listing in GN 02402.353G.
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16).
+•
+Code the type of account as a C for Checking or an S for Savings. If no type of account
+indicated, use a C for Checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+Use the letter O (for Samoa); and
+•
+The up to 13-digit account number 1122334455667.
+3. Obtain the following information
+•
+RTN: 660001028
+•
+Checking
+•
+DAN: O1122334455667788
+a. POS reflects the direst deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660001028ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: O1122334455667
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660001028
+•
+DAN-CO1122334455667
+(NOTE: The C in the DAN means that the account is a checking account.)

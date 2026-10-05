@@ -1,0 +1,82 @@
+SSA Program Operations Manual System (POMS) - DI 52150.010 - Average Current Earnings (ACE)
+Effective Dates: 11/09/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150010 (fetched 2026-10-04)
+
+C. Compute the ACE
+In most cases, the High-1 method is the highest ACE. If the NH’s highest year of earnings
+is in the year of onset or one of the five years immediately preceding the year of
+onset, the High-1 ACE is the highest of the three methods. Therefore, in this case,
+it is not necessary to manually compute the High-5 or the AMW ACE.
+1. Computing the ACE
+Use the following chart to compute each ACE method. MCS EC and the interactive computation
+facility (ICF) automatically compute all three methods and select the highest ACE
+when computing WC/PDB offset.
+NOTE: If the MCS EC ACE or ICF ACE must be refigured due to over-maximum earnings, see
+DI 52150.010D.
+“High-1”
+“High-5”
+AMW
+Select the highest yearly earnings from the year of current onset and the 5 previous
+years and
+Take the sum of the 5 consecutive years after 1950 with the highest unindexed earnings
+and
+Divide the total unindexed earnings for the computation years (dividend) by number
+of months in the computation years (divisor)
+Divide the yearly total by 12 months
+Divide by 60 months
+Round to the next-lower dollar amount
+Round to the next-lower dollar amount
+Round to the next-lower dollar amount
+2. Example of ACE computation
+•
+Date of onset: 08/05/07
+•
+Entitlement date: 02/08
+•
+12/2007 PIA: $543.80
+•
+300 divisor months
+•
+Total of the highest earnings for 25 years: $203,416.33
+Highest actual earnings amounts (unindexed and after maximum earnings amounts):
+2002   $16,782.16
+2003   $16,703.38
+2004   $18,915.10
+2005   $21,762.44
+2006   $29,876.05
+2007   $ 8,789.77
+“High-1”
+“High-5”
+AMW
+High year is 2006:
+$29,876.05 divided by 12 = 2489.67
+16,782.16
+16,703.38
+18,915.10
+21,762.44
+29,876.05
+104,039.13
+203,416.33 divided by 300 = 678.05
+104,039.13 divided by 60 =
+1733.98
+100% ACE = 2489
+100% ACE = 1733
+100% ACE = 678
+Highest of the three methods above is the “High-1” with a 100% ACE of $2,489.
+3. Changing the original ACE
+The originally established ACE can be changed in the following situations.
+a. Recalculated ACE
+Recalculate the original ACE if additional earnings change the calculation of the
+original ACE. A recalculated ACE is effective in the first possible month of offset
+and is treated the same as the original ACE.
+b. Recomputed ACE
+Changes in the statutes caused recomputation of the ACE:
+•
+In February 1968, the first month earnings above the statutory limit could be used
+in the High-5 computation.
+•
+In January 1973, the first month the High-1 computation is used.
+Compute the ACE under the High-5 or AMW method. This may occur if the NH works after
+onset and the earnings are higher than the earnings previously used in the ACE. The
+recomputed ACE, based on additional earnings, is effective in January of the year
+immediately following the last year used in the computation of the new ACE.

@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - DI 81005.070 - Editing a Case from eView
+Effective Dates: 10/17/2023 - Present | TN 5 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481005070 (fetched 2026-10-04)
+
+C. Unlock an eView case after editing
+To remove the case lock after a user is finished editing the case, click on the yellow
+“Unlock” link at the top of the page.
+Cases may lock if a system error occurs or a user exited incorrectly. Locked cases
+can only be unlocked by the person who locked it or by a member of management.
+A case lock in eView expires after 30 minutes of inactivity. The system sends an alert
+to the user regarding loss of the case lock. Click the “OK” button on the alert to
+extend the session in edit mode. There is no limit to the number of extensions a user
+may request. If the user does not extend the session, the case automatically unlocks
+and returns eView to view only mode.

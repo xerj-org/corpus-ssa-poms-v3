@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - GN 02406.207 - Nonreceipt of Courtesy Disbursement or Replacement Check/ Type 9 Payment -- Field Office and Teleservice Center Instructions -- Title XVI
+Effective Dates: 01/21/1999 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406207 (fetched 2026-10-04)
+
+B. Procedure history of abuse (See criteria in GN 02406.150A.2. through GN 02406.150A.3.)
+When a known abuser of the nonreceipt reporting system alleges nonreceipt of the original
+check, a C-Stop is input to obtain status of the original check before a replacement
+(type 9 payment) is issued. Therefore, it may take 3-5 weeks for status of the original
+check to show on the Treasury status query for:
+•
+the replacement to be issued if the original was not cashed, and
+•
+the replacement check to be considered a nonreceipt.
+IMPORTANT: The following instructions do NOT pertain to nonreceipt of a settlement check (check
+issued after Treasury determines original was cashed over a forged signature). For
+nonreceipt of a settlement check, see GN 02406.202.
+1. Status of C-stop input
+Check the Treasury status query to determine the status of the C-Stop nonreceipt input
+and whether a replacement check has been issued.
+If dire need is alleged:
+•
+TSC: Forward case to FO via priority MDW.
+•
+FO: Issue an IP for up to $5,000.00 (NOTE: The limit was $999.00 prior to 10/23/2023)
+and annotate the SSR RMKS segment.
+2. “01” Interim Reply on Treasury status query
+If the Treasury status query shows a C-Stop was input and an “01” interim reply code, Treasury is investigating the status of the original . No replacement check has been issued yet. Continue to monitor the Treasury status
+query for status. Go to step 3.
+3. CP&R Code “31”
+In addition to the C-Stop and the 01 status code, if there is a CP&R reply code of
+31, the replacement check was issued, probably about 5 days after the date of the
+CP&R code, signifying that the original check was NOT cashed. If sufficient mail time
+has elapsed (about 5 days), go to step 5; otherwise, go to step 4.
+4. CP&R Code “11”
+If the CP&R code is 11, the original check was cashed; Treasury will send a claims
+package directly to the recipient. No settlement check will be issued unless Treasury
+determines forgery was involved. Go to step 9.
+5. Is an F-Stop reflected on the Treasury status query for the replacement check?
+If yes:
+•
+Go to step 10.
+If no:
+•
+Input an A-Stop and go to step 6.
+6. Do not issue an AOTP at this point.
+Tell the recipient that status of the missing check must be obtained before a replacement
+can be made. Go to step 7.
+7. Diary
+Diary for 2-3 weeks for return of status code because of the A-Stop on the replacement
+check. Go to step 8.
+8. Was type 9 check cashed?
+If no:
+•
+The TSC will: Forward case to FO via priority MDW.
+•
+The FO will: Issue an AOTP for the full amount of the missing check.
+If yes:
+•
+Go to step 9.
+9. F-stop on Treasury status query?
+If the Treasury status query shows an F-stop on the replacement check, this indicates
+the original was cashed after Treasury determined that it was not cashed and issued
+the replacement check.
+•
+Release the overpayment letter.
+•
+Do not issue an AOTP.
+•
+Go to step 10.
+10. Does claimant protest the overpayment? (See also GN 02406.310.)
+If yes:
+The TSC will: Forward case to FO via MDW.
+The FO will:
+•
+Have claimant complete an SSA-561-U2 and FMS-1133 claims package.
+•
+Input an L-TAC once a completed, signed SSA-561-U2 is received.
+•
+Photocopy completed claims package and forward original to Treasury. Go to step 11.
+If no:
+•
+Begin overpayment recovery.
+11. Was check forged?
+If yes:
+•
+Treasury will issue a settlement check, if appropriate.
+If no:
+•
+Remove the L-TAC.
+•
+Begin overpayment recovery.

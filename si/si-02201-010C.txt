@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - SI 02201.010 - SSI - What Is Not An Overpayment
+Effective Dates: 12/20/2022 - Present | TN 14 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502201010 (fetched 2026-10-04)
+
+C. Procedure
+1. Recipient deceased
+If the individual negotiates the early delivered check and dies before the month for
+which payment is due, do not attempt recovery of the early payment.
+Likewise, if there is an event (or events) which cause an early issued payment to
+be incorrect in addition to death (e.g., excess income), do not attempt recovery of
+the early payment.
+2. Systems considerations
+When an early payment has been made and the recipient dies before the month for which
+the payment is due, add an UNCOLLECTABLE decision (N TAC) through the UOPD screen
+(see MS
+00304.008 and SM 01311.280).
+3. Early payment made to a representative payee
+When representative payment has been made, document the file showing how the incorrectly
+paid funds were expended. Do not attempt recovery when the documentation shows the
+funds were expended on the recipient.

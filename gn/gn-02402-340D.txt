@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02402.340 - Coding Poland Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/03/2018 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402340 (fetched 2026-10-04)
+
+D. Description of Poland bank data
+1. The IBAN code
+The IDD coding for Poland bank data uses the International Bank Account Number (IBAN),
+which consists of 28 characters, as follows:
+•
+PL, the IBAN code for international payments to Poland;
+•
+2 check digits;
+•
+An 8-digit bank and branch code (This must have all 8 digits.); and
+•
+A 16-digit account number. (This must have all 16 digits.)
+2. Poland bank data on the MBR and ITS.gov
+Because there are not enough total spaces in the Routing and Transit Number (RTN)
+and the Depositor Account Number (DAN) fields on the MBR, only a portion of the full
+IBAN code goes on the MBR. However, the full IBAN code must be on the website for the International Treasury Services (ITS.gov), a Department of the Treasury Internet-based program used by FRBKC for IDD.

@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - SI 02305.024 - Limited Issues (LIs) with Continuing Type "F" Income
+Effective Dates: 11/02/2006 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305024 (fetched 2026-10-04)
+
+D. Procedure for Handling Type "F" Income Limited Issues
+The use of RZwiz is required when processing any LIs, RZs, and wage related diaries.
+See SI 02305.071. Once you have pulled up the RZwiz review sheet(s), follow the instructions below.
+1. Identifying LIs Selected For Development of Continuing Type "F" Income
+Check the case RZ data (CRZD) segment of the SSR for a profile code of "X" and a selection
+indicator of "F". If the profile code of "X" and a selection indicator of "F" are
+present, then this case was selected for LI development because the record indicates
+continuing type "F" income. For more information on the CRZD segment, see SM 01601.460.
+2. Developing LIs with Continuing Type "F" Income
+In the UMIH segment of the SSR, ensure the UMI coding is correct. D.3 & D.4 below
+provide the correct UMI coding based on the type of income. There may be type "F"
+income for the recipient, an ineligible spouse, an ineligible parent, or an ineligible
+child if any of these individuals are receiving or has received TANF payments for
+the period of review. For more information about deeming, see SI 01310.000.
+a.
+If the continuing type "F" income is AFDC, follow instructions in SI 00830.400D and terminate the AFDC for anyone on the record.
+b.
+If the continuing type "F" income is TANF, review the criteria in the two paragraphs
+below to determine if verification of the continued TANF amount is required.
+1.
+Verification of Continued TANF Eligibility Is Not
+Required
+If an individual (recipient, an ineligible spouse, an ineligible parent or an ineligible
+child) on the record is receiving TANF payments, and this individual has not received any wages during the review period, and the alleged TANF information is consistent with information on the SSR for the review
+period, do not verify the TANF payments.
+Proceed to D.3 if you can update the SSR through the SSI Claims system or D.4 if you
+cannot update the SSR through the SSI Claims system.
+2.
+Verification of Continued TANF Eligibility Is Required
+If an individual (recipient, an ineligible spouse, an ineligible parent or an ineligible
+child) on the record is receiving or has received TANF payments for the period of
+review, and this individual has also received wages during the review period, verify the TANF payments. Follow the instructions in SI 00830.403C.1 and any regionally issued POMS instructions to verify the TANF payments. Verify only
+the continued TANF eligibility for the individual receiving wages. Do not verify the
+amount of the grant. If there is an indication that the individual received TANF and
+wages during the same time, do not assume this individual remains eligible for TANF
+without verification. Then, proceed to D.3 in this section if you can update the SSR
+through the SSI Claims system or D.4 if you cannot update the SSR through the SSI
+Claims system.
+3. Documenting Continuing Type "F" Income in the SSI Claims System
+a. State of residence does not allow for receipt of both TANF and SSI
+If the recipient resides in a State that does not allow individuals to receive both
+TANF and SSI, complete the appropriate page(s) in the SSI Claims system for each individual
+on the record receiving TANF. Complete the ID field with the UMI code provided below.
+Once you have completed the pages for anyone receiving TANF, proceed to d.
+SSI CLAIMS SYSTEM PAGE
+TYPE OF INCOME
+UMI CODE
+Temporary Assistance for Needy Families
+Aid to Families with Dependent Children (Should only apply to periods prior to July
+1997)
+IADC
+Temporary Assistance for Needy Families
+Temporary Assistance for Needy Families (State does not allow for receipt of both
+TANF and SSI)
+TANF
+Refugee Cash Assistance
+Refugee Cash Assistance; Cuban & Haitian Entrant Cash Assistance; and Federally Reimbursed
+General Assistance Payments to Refugees
+IRFG
+Bureau of Indian Affairs Assistance
+Bureau of Indian Affairs General Assistance
+IBIA
+Bureau of Indian Affairs Assistance
+Bureau of Indian Affairs Adult Custodial Care & Child Welfare Assistance Payments
+IOIA
+Adoption, Foster Care, or Kinship Guardianship Assistance
+Title IV-E Foster Care
+IIBN
+b. State of residence allows for receipt of both TANF and SSI
+If the recipient resides in a State that allows individuals to receive both TANF and
+SSI, complete the appropriate page(s) in the SSI Claims system for each individual
+on the record receiving TANF. Complete the ID field with the UMI code provided below.
+Once you have completed the pages for anyone receiving TANF, proceed to d.
+SSI CLAIMS SYSTEM PAGE
+TYPE OF INCOME
+UMI CODE
+Temporary Assistance for Needy Families
+Temporary Assistance for Needy Families (States allow for receipt of both TANF and
+SSI)
+TANFC
+c. Multiple sources of type "F" income
+If an individual (recipient, an ineligible spouse, an ineligible parent or an ineligible
+child) on the record receives more than one category of
+continuing type "F" unearned income, the system will show MULTI in the UMI field for that individual. Once you have completed the pages for anyone
+receiving TANF, proceed to d.
+EXAMPLE: Recipient received TANFC and IOIA payments. The system will show MULTI in the UMI.
+d. Update the SSR and Close the Limited Issue
+Once you have transmitted the data you entered in the SSI Claims system to the SSR
+and closed the event, the CRZD field should indicate the limited issue is complete.
+4. Documenting Continuing Type "F" Income for Cases that Cannot be Updated Using the
+SSI Claims System
+For cases that cannot be updated using the SSI Claims system, you will need to refer
+the instructions in SM 01300.000 to complete form SSA-1719-B and update the SSR using
+the information on the form. The instructions below will provide you with the UMI
+code to enter in the CLAIM OR ID NO field of the UM field on the SSA-1719-B.
+a. State of residence does not allow for receipt of both TANF and SSI
+If the recipient resides in a State that does not allow individuals to receive both
+TANF and SSI, enter the UMI code shown below for each individual (recipient, an ineligible
+spouse, an ineligible parent or an ineligible child) on the record in the CLAIM OR
+ID NO field in the UM field on the SSA-1719-B:
+TYPE OF INCOME
+UMI CODE
+Aid to Families with Dependent Children (Should only apply to periods prior to July
+1997)
+IADC
+Temporary Assistance for Needy Families (State does not allow for receipt of both
+TANF and SSI)
+TANF
+Refugee Cash Assistance; Cuban & Haitian Entrant Cash Assistance; and Federally Reimbursed
+General Assistance Payments to Refugees
+IRFG
+Bureau of Indian Affairs General Assistance
+IBIA
+Bureau of Indian Affairs Adult Custodial Care & Child Welfare Assistance Payments
+IOIA
+Title IV-E Foster Care
+IIBN
+b. State of residence allows for receipt of both TANF and SSI
+If the recipient resides in a State that allows individuals to receive both TANF and
+SSI, enter the UMI code shown below in the CLAIM OR ID NO field in the UM field on
+the SSA-1719-B.
+TYPE OF INCOME
+UMI CODE
+Temporary Assistance for Needy Families (States allow for receipt of both TANF and
+SSI)
+TANFC
+c. Multiple sources of type "F" income
+If an individual (recipient, an ineligible spouse, an ineligible parent or an ineligible
+child) on the record receives more than one category of
+continuing type "F" unearned income, enter the alpha code "MULTI" in the CLAIM OR ID NO field on the SSA-1719-B.
+EXAMPLE: Claimant received TANF and IOIA payments. Enter MULTI in the CLAIM OR ID NO. field
+on the SSA-1719-B.
+d. Update the SSR and Close the Limited Issue
+Follow the instructions in SM 01501.004 to complete the RZ field and update the SSR
+with the information from the SSA-1719-B.

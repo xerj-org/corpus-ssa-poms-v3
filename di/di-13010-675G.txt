@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 13010.675 - The Verify/Update Earnings (VERN) Screen
+Effective Dates: 10/01/2012 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010675 (fetched 2026-10-04)
+
+G. Edits for fraud conditions
+Edit conditions are also present for input of fraud information to suspend benefits
+during the TWP, see DI 13010.035. In addition to the edit conditions listed above for TWP months, use of the “F” VRFD
+indicator must meet the following conditions:
+•
+All months must be in or after 03/2004 and before the date in the FRAUD DECISION DATE
+field
+•
+An entry must be present in the FRAUD DECISION DATE field for each TWP fraud month.
+•
+The “F” indicator in the VRFD field must be for a TWP month.
+•
+The “F” indicator must be input with a WORK DET code of one through nine.

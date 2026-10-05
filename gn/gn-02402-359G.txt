@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.359 - Coding Ghana Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402359 (fetched 2026-10-04)
+
+G. Example of coding Ghana bank data
+The beneficiary or recipient provides us with a sign-up form for Ghana containing
+the following information:
+•
+Bank Code: 123, and
+•
+Account Number: 4567890123456.
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+prefix of 66 (the multi-country prefix for Ghana),
+•
+3 filler zeros 000,
+•
+3-digit bank code 123 after verifying accuracy against either the ITS.gov help file
+or the listing in GN 02402.359H in this section,
+•
+1-digit check code (i.e., 8) (obtained from the Title II interactive Computations
+from the Main Menus 07/Sub Menu 16), and
+•
+type of account as an S for savings or a C for checking . If there is no indicated
+account type, use a C for checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+K (for Ghana), and
+•
+13-digit account number 4567890123456.
+3. Obtain the following information:
+•
+RTN: 660001238
+•
+Checking
+•
+DAN: K4567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660001238 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: K4567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN-660001238
+•
+DAN-CK4567890123456

@@ -1,0 +1,69 @@
+SSA Program Operations Manual System (POMS) - DI 81010.230 - Creating an EDCS Record for an Electronic Continuing Disability Review (eCDR)
+Effective Dates: 11/25/2019 - Present | TN 36 (08-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010230 (fetched 2026-10-04)
+
+C. CDR claims screen
+The CDR Claims screen displays a summary table containing all claims applicable to
+the CDR. All of the information is propagated from the mainframe for all claims (Title
+II and Title XVI). Select the claim to view the CDR claim information.
+NOTE: For each entitlement listed in the summary table, review the MBR or SSR to ensure
+entitlement has not been terminated and that screen out criteria does not apply (See
+DI 13005.020)
+1. Claim information screen
+Information for this screen is propagated from MBR/SSR.
+2. Representative payee information
+To access this screen, select the name hypertext link in the summary table under the
+Representative Payee Information header of the CDR Representatives page.
+NOTE: If the claimant does not have a representative payee, this screen is not utilized.
+EDCS collects only one representative payee per CDR case. This screen also indicates
+whether the payee is the individual’s legal guardian. The representative payee information
+on this screen is propagated from the mainframe via the MBR/SSR or entered by the
+user. If there is no representative payee information propagating from the mainframe,
+the user can enter a representative payee using this screen when appropriate.
+NOTE: Under no circumstances should a beneficiary have multiple representative payees
+listed. Ensure that only one representative payee name and address is captured. If
+more than one is listed, delete all except the correct payee prior to transfer. If
+there are multiple representative payees for Title II and Title XVI, make appropriate
+corrections in the mainframe.
+3. Appointed representative information
+EDCS no longer distinguishes between Attorney and Non-Attorney contact types. All
+contacts are now referred to as Appointed Representative. The appointed representative
+information displayed on this screen is entered in EDCS by the user.
+The Appointed Representative screen is accessed from the:
+•
+Appointed Rep folder of the Navigation Tree;
+•
+3367 Capability/Remark page (when there is no 3369 (Work History Report ) folder present);
+•
+3369 Remarks page; or
+•
+Flags page.
+For initial, reconsideration, and hearing level eCDR cases, the sources of data for
+the appointed representative are Registration, Appointment Services for Representatives
+(RASR), the SSR and any active Modernized Claim System (MCS) Check/Notice 2 (NOT2)
+screen. EDCS collects one appointed representative per case level (i.e. initial, reconsideration,
+and hearing).
+For appeal level cases, EDCS displays the appointed representative data collected
+in the prior level. For example, if an appointed representative was entered at the
+initial level, EDCS displays the initial level information in the appropriate fields
+of the reconsideration level. If the information is incorrect, change the information
+in the appropriate system then repropagate the case in EDCS.
+When the user enters the Case Selection page for the first time to establish a case,
+the question, “Does this person have an appointed representative?” is pre-filled with
+“yes” if appointed representative data propagates from the RASR or the mainframe.
+If no appointed representative data propagates and the user answers “yes” to the question,
+“Does this person have an appointed representative?” complete the additional fields
+including the name, and contact information, for the appointed representative.
+EDCS automatically sets the “Representative Involved” flag when appointed representative
+data exists or is added on the Appointed Representative screen. EDCS automatically
+removes the “Representative Involved” flag if appointed representative data is deleted
+by changing the appointed representative question radio button from [Yes] to [No].
+NOTE: Users are able to set the Representative Involved flag manually. As indicated, certain
+conditions will trigger EDCS to set or remove the flag automatically.
+Once an electronic record is created, the FO faxes the SSA-1696 (Appointment of Representative)
+form to the electronic folder (EF) using current faxing procedures.
+4. Legal guardian information
+Legal guardian information is collected on the CDR Representative Payee Information
+page to indicate if the representative payee is also the legal guardian. The field
+displays a “Yes” or “No” answer when the representative payee information displayed
+on the screen is propagated from the mainframe. Otherwise, the field must be completed.

@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.396 - Coding Montenegro Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 244 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402396 (fetched 2026-10-04)
+
+E. Description of Montenegro IDD bank data
+The data for coding IDD for Montenegro comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The full length of the IBAN for
+Montenegro consists of 22 characters. The bank data on the MBR consists of 24 characters
+including the country code of W.

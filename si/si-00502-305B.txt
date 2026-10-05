@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - SI 00502.305 - Aliens Whose 7-year Eligibility Ended but Never Filed for SSI - New Applications
+Effective Dates: 07/07/2011 - Present | TN 64 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502305 (fetched 2026-10-04)
+
+B. Case sent to DDS for medical determination
+If the person is seeking benefits based on disability or blindness, follow current
+guidelines for requesting a medical decision, see DI 11005.000.
+1. DDS returns favorable medical decision
+Other non-disability factors
+Complete development of all other non-disability factors, if a deferred application
+was taken or complete a PERC if a full application was taken and 120 days have passed.
+2. Systems processing
+Process as follows:
+Non-M02 Case:
+•
+Complete the MSSICS application,
+•
+Input the time limited extension information on the Alien Status page.
+•
+Build the SSR.
+If the alien is eligible for the benefit extension, the system will establish the
+SSR with an AER (Alien Eligibility Reason) value to control for the extension. The
+system will put the case into N13 at the end of the claimant’s extension period.
+If the alien is not eligible for the benefit extension, the system will build N13.
+NOTE: The system cannot generate an automated N13 for those aliens whose application date
+is nine years or greater from the date of attainment of their alien status, and who
+were under age 18 as of October 1, 2008. Process these cases outside the MSSICS through
+an SSA-450-s.
+M02 Case:
+If the case is paid and put into M02 (this should be very rare):
+•
+Input code “2608” in the first four positions of the CG field of the SSR. Move existing
+CG codes to the next available positions.
+•
+Annotate the Remarks field “Paid according to the provisions of P.L. 110-328.”

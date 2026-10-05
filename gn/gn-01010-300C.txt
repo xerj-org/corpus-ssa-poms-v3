@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 01010.300 - Handling Unknown Address Claims
+Effective Dates: 07/26/2023 - Present | TN 63 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010300 (fetched 2026-10-04)
+
+C. Procedure for claims involving lump sum death payments (LSDP) or Medicare entitlement
+Do not use the procedure in section B of this chapter for Lump Sum (LSDP), Medicare-only,
+uninsured Medicare or End-stage Renal Disease (ESRD) claims. They are system exceptions
+and cannot be process properly thru MCS EC.
+1. Exception actions
+Process the claims for LSDP, Medicare-only, Uninsured Medicare or ESRD via A101 or
+Electronic Form 101 (EF101) and transfer the claim to the proper Processing Center
+(PC). You must include the following remark on the RPOC “ADDRESS UNKNOWN” and document the attempts taken to locate the beneficiary
+2. Field Office (FO) referral
+If there are other unique issues (e.g., fraud) or questions regarding proper handling
+of an “Address Unknown” claim, refer them to the proper Regional Office (RO) component.
+3. PC Actions
+Refer all District Office Final Authorization (DOFA) claims processed using the above
+“Address Unknown” to a claims authorizer (CA) for post adjudicative review. The CA will ensure that the prior adjudicator explored all necessary avenues
+of development. If after review, the CA concludes that “whereabouts” is unknown, the
+CA must follow procedures in SM 03020.290.

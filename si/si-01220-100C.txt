@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - SI 01220.100 - Criteria for Application of State Resource Limitations and Exclusions
+Effective Dates: 12/03/2024 - Present | TN 11 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501220100 (fetched 2026-10-04)
+
+C. Procedure
+1. Identify Protected Cases
+When redetermining converted recipients, determine whether the case is protected.
+2. State Disregards “Protection”
+a.
+In a redetermination involving a converted individual or couple, when eligibility
+for State plan resource limits and exclusions is material, request a complete payment
+history (see SM 01601.175) to ascertain whether the individual or couple was, prior
+to September, 1987, in federally administered State-supplement-only status for a period
+of more than 6 consecutive months without loss of grandfathered rights (and so is
+protected as described in SI 01220.100B.3.). In some cases, it will be necessary to obtain offline queries (see SM 01601.310).
+b.
+If, after reviewing both the payment history and the offline query, you are unable
+to establish whether protected status applies, assume that the individual or couple
+had a period of federally administered State supplementary payments only for more
+than 6 consecutive months prior to September, 1987, and is therefore “protected.”
+c.
+When it is determined that an individual/couple should be given “protected” status,
+input RE82 to the CG field (see SM 01301.785) to identify that fact. If grandfathered
+rules are being applied to real property in the form of land input RE80 to the CG
+field. When applying grandfathered rules to real property other than land use CG code
+RE81 to document the determination.
+3. No State Disregards “Protection”
+a.
+When an individual/couple does not have protected status, input RE 83 to the CG field
+(SM 01301.785) to identify that fact.
+b.
+For converted individuals or couples who enter State-supplement-only status and are
+not “protected,” diary for the anticipated fourth consecutive month of State-supplement-only payments.
+c.
+If State disregards are being used in the resources computation, send a manually prepared
+notice of planned action (see SI 01220.100C.4.) and take appropriate steps to adjust payments beginning with the seventh consecutive
+month of non-eligibility for Federal SSI benefits. In cases where overpayments result
+from this change, see SI 02220.001 for instructions.
+4. Notice Procedure
+If the nonprotected individual's resources exceed the Federal limit and State disregards
+can no longer be applied:
+a.
+Suppress the automated notice (SM 01301.675).
+b.
+Prepare a manual SSA-L8155 and include manual paragraph RESM08 per NL 00804.180.

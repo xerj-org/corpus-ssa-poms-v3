@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02408.302 - Abandon Reclamation Request Needed on a Check
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408302 (fetched 2026-10-04)
+
+A. Background
+Occasionally, there is a need to ask the U.S. Department of the Treasury (Treasury)
+to abandon (reverse) a reclamation request. This can occur when an erroneous death
+or erroneous date of death is posted to the beneficiary’s or recipient’s record. Although
+the payee was alive and actually due the payment(s), Treasury reclaims the money based
+on our incorrect E-stop input for each check issued after the alleged date of death.
+To stop Treasury from processing the reclamation on the bank account, we send Treasury
+an abandon reclamation request.
+If the error is realized before the money is reclaimed from the financial institution (FI), Treasury tells the FI
+to ignore (abandon) the reclamation request.
+If the error is realized after the money is reclaimed, the abandon reclamation request authorizes Treasury to reverse
+the reclamation and reimburse the bank for the money improperly reclaimed.

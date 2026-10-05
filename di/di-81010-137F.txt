@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - DI 81010.137 - Receiving Documents Submitted through iAppeals
+Effective Dates: 12/28/2023 - Present | TN 70 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010137 (fetched 2026-10-04)
+
+F. FO determination action and not all document edits resolved
+If the FO makes a determination, EDCS will present any outstanding document edits:
+1.
+If the Document Submission Status displays “Successful,” EDCS presents an error message
+that directs the user to enter a Retention Action (retain or discard) for each submitted
+document.
+2.
+If the Document Submission Status is “Processing,” EDCS presents an error message
+that directs the user to wait until the document is viewable.
+3.
+If the Retention Action is “Retain” and the Document Type is “Other Evidence or Form,”
+EDCS presents an error message that directs the user to change the document type.
+4.
+In each instance, open the Internet Documents page to resolve the edits. See DI 81010.137C.2.

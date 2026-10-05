@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.349 - Coding Luxembourg Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 02/13/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402349 (fetched 2026-10-04)
+
+E. Description of Luxembourg IDD bank data
+The data for coding IDD for Luxembourg will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from FI. The IBAN for Luxembourg consists
+of up to 20 characters. However, the bank data reflected on the MBR will consist of
+23 characters. Technicians will use the IBAN to derive the RTN and DAN when processing
+an IDD request.

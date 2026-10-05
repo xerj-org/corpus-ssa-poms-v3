@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02201.025 - Title II Overpayment Reconsideration Request
+Effective Dates: 05/28/2024 - Present | TN 82 (01-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201025 (fetched 2026-10-04)
+
+B. FO instructions for handling reconsideration requests
+1. Reviewing the request
+The request for reconsideration provides the reason the overpaid individual disagrees
+with the decision. If the reason is not clear, ask the individual if they disagree
+with the fact they were overpaid or the overpayment amount. Clearly document the reason
+on the SSA-561-U2 Request for Reconsideration, per GN 03102.225. For example, the reason should state, “I did not work” or “I did not receive a pension,”
+rather than just the generic statement, “I do not agree with the determination.”
+Do not use the SSA-561-U2 form if the overpaid individual is requesting an explanation of
+the overpayment, refer to GN 02201.017.
+Do not use the SSA-561-U2 form if the overpaid individual is requesting a waiver for an
+overpayment that is over $2,000, refer to GN 02250.001.
+2. Stopping recovery
+•
+Stop recovery using the Protest/Stop Recovery Request (FO) (DRPF) screen in the Debt
+Management System (DMS) (MSOM DMS 006.019).
+•
+If the overpaid individual submits a signed SSA-632-BK form with the reconsideration
+request, use #4, Recon Fact/Amount, as the protest reason or #5, Waiver and Recon
+Fact/Amount.
+•
+On the remarks screen annotate “Reconsideration Request for (beneficiary identification
+code (BIC) e.g. HA) sent to PC (number) on MM/DD/YY.” Include a remark about the good
+cause determination if applicable.
+•
+Fax the SSA-561-U2 to the servicing PC, via Paperless fax, with the SSA-409 Post Adjudicative
+Routing cover sheet or equivalent.
+NOTE:
+Upload a copy of the SSA-561-U2 and any evidence into Evidence Portal or eView, refer
+to MS 09701.003. If this is a misuse case, a FO technician will process the reconsideration
+request per GN 00604.064. Do not send the request to the PC for misuse cases.
+3. Non-receipt (DCN) allegation
+Do not use the SSA-561-U2 for non-receipt double check negotiation (DCN) allegations.
+Instead, use the SSA-795, Statement of Claimant or Other Person, and follow instructions
+in GN 02406.310 to process this allegation.
+4. When to treat a request for reconsideration as a request for waiver
+We will only presume the overpaid individual requested a waiver in addition to requesting reconsideration
+of the overpayment, if the overpayment amount is $2,000 or less regardless of the
+wording on the reconsideration request, per GN 02250.002. A technician in the PC will process the waiver after making a formal reconsideration
+determination that is not fully favorable to the individual or dismisses the reconsideration.
+Do
+not make a waiver request input in DMS since we have stopped overpayment recovery.

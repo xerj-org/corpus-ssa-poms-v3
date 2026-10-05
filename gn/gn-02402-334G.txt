@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.334 - Coding Switzerland Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402334 (fetched 2026-10-04)
+
+G. Example of coding Switzerland direct deposit
+The customer provides us with a signup form from Swizerland containing the IBAN: "CH9300762011623852957."
+•
+The first 2 characters of a Swiss IBAN are CH, which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters are the IBAN check digits. The technicians should
+never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next 5 characters represent the 5-digit bank code.
+•
+The remaining 12 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+code the prefix of "71";
+•
+a filler zero 0;
+•
+the 5-digit bank code 00762;
+•
+U.S. check digit (i.e., 7, which is obtained from the Title II interactive Comps from
+the Main Menus 07/Sub Menu 16); and
+•
+the account type of C for Checking or an S for Savings. If no account type indicated,
+use a C for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+start with a country code of N designated for Switzerland; and
+•
+code the 12-digit account number: 011623852957.
+3. Obtain the following information
+•
+RTN: 710007627
+•
+Checking
+•
+DAN: N011623852957
+a. POS reflects the direct deposit informaton
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710007627
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: N011623852957
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 710007627
+•
+DAN- CN011623852957

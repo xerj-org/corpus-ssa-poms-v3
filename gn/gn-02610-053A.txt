@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02610.053 - How To Process Title II Offset Cases When a Representative Fee Is Involved - Action to Apply Offset Taken On Or After July 1, 1991 (Second Day Action In The PC)
+Effective Dates: 05/15/2023 - Present | TN 36 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610053 (fetched 2026-10-04)
+
+A. Policy
+1. General
+Effective July 1, 1991, the Omnibus Budget Reconciliation Act of 1990 (OBRA 1990)
+requires us to calculate the amount of a representative's fee based on the total amount
+of past-due Title II benefits from a favorable award prior
+to reducing the total Title II past-due benefit amount for windfall offset.
+Additionally, if the representative requests and is eligible for direct payment, we
+must withhold 25 percent of the past-due benefits from the total past-due Title II
+benefits prior to reducing the Title II past-due benefits for windfall offset. This ensures the representative
+can receive their fee. Occasionally, we may even need to reduce the total windfall
+offset amount to ensure there are sufficient funds available from the total past-due
+Title II benefits for the representative's fee.
+These rules apply to cases with fee agreements and fee petitions. See GN 03940.000 and GN 03940.050 for an explanation of representative fee agreements and amounts. See GN 03930.001 and GN 03930.010 for an explanation of fee petitions and amounts.
+2. How Representative Fees Affect Offset Computations
+Title II benefits are counted as income on a Title XVI record. When determining Title
+XVI payment amounts, including payment amounts in an offset period, the Title XVI
+systems must count Title II benefits as income.
+However, under Title XVI income counting rules, certain legal expenses, such as approved
+or authorized fees, are not counted as income. For the field office (FO) to properly compute the Title XVI payment
+amounts, FO technicians must subtract the total amount of approved or authorized fees
+from the payment computations. This is true regardless of whether we directly pay
+the representative, or the representative collects the fee from the claimant, and
+it also applies to any out-of-pocket expenses that are not part of the approved or
+authorized fee, but are paid by, or billed to, the claimant. Generally, the system
+will account for the fees when computing payment amounts. In some cases, such as when
+the representative files a fee petition months after the case was approved or when
+the number holder (NH) signs a fee agreement and there are potential auxiliaries on
+the record, the payment center (PC) will need to provide the fee information to the
+FO on the e4345, or a high priority (HP) modernized development worksheet (MDW), if
+the e4345 is not necessary, so the FO can take manual action to update the Title XVI
+record. The PC may also receive a request to update the offset amount from the FO
+if the FO is notified of additional out-of-pocket expenses that are not part of the
+fee, but are paid by, or billed to, the claimant
+When computing Title XVI payment amounts in an offset period, the total offset amount
+must be equal to or less than the total past-due Title II benefits minus the representative's fee. If the total
+offset amount computed by the system is more than the total past-due Title II benefits minus the representative's fee, the PC
+must send a request to the FO through the SSA-e4345 application to recalculate the
+offset amount. The FO will reduce the offset amount until the offset amount is equal
+to the total past-due Title II benefits minus the representative's fee. The FO will
+communicate the updated offset amount to the PC through the SSA-e4345 application.
+The PC will then update the offset amount on the master beneficiary record (MBR) (i.e.complete
+the second day action).
+3. Representative fees when auxiliaries are involved
+When the number holder and their representative have signed a fee agreement and there
+is at least one auxiliary beneficiary present on the record, consult GN 03940.035 to determine if fees should be withheld from any Title II past-due benefits due as
+a result of the auxiliary beneficiary's claim.
+4. Communicating the fee amount to the FO
+When the claim is awarded, if the representative did not file a fee agreement and
+did not waive the right to a fee, the representative can file a fee petition later.
+In these cases, the FO will complete the initial offset without the fee information. See SI 02006.204 for FO processing of unknown or unresolved Representative fees.
+If the representative files a fee petition at a later time, the PC must communicate
+the fee amount to the FO through a HP MDW, see GN 03930.080C. The FO will then update the Title XVI record with the new fee information and attempt
+to trigger an automated update to the Title XVI record. If the FO cannot automate
+the update to the Title XVI record, (i.e. Start Date or couples case) the FO will
+communicate the updated offset information to the PC through the SSA-e4345 application.
+NOTE: Inform the FO of any approved or authorized fee as quickly as possible. Any changes
+to the windfall offset information due to an authorized or approved fee must be applied
+to the Title XVI record within 120 days of the date the fee was authorized or approved.
+If any changes are made to the fee amount after the SSA-1560A is sent to the FO, the
+PC should send a HP MDW to the FO to inform them of the additional change (e.g., one
+or more auxiliary claims not filed with the NH.)

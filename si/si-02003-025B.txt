@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - SI 02003.025 - IAR Payment Processing for Exception Cases and Proration Cases
+Effective Dates: 12/29/2023 - Present | TN 30 (10-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003025 (fetched 2026-10-04)
+
+B. Procedures for paying retroactive SSI benefits when IAR is involved
+1. Summary of the rules that affect payment of retroactive SSI
+P.L. 108-203 requires SSA to withhold and make direct payment of all or part of the
+authorized fee to an attorney or non-attorney whom SSA has found eligible for direct
+payment. These requirements apply to fees authorized under the fee agreement or fee
+petition process. The law specifies that direct payment must occur after any IAR is
+paid to the State. It also specifies that the past-due benefits for dedicated account
+purposes and installment payment purposes are those remaining after any withholding
+for payment of the attorney or eligible non-attorney's fee. Therefore, SSA will pay
+all or part of the attorney or eligible non-attorney's fee when an underpayment remains
+after the FO has paid the State the amount claimed on the IAR Payment Pending accounting
+form. For more information about the fee process, see GN 03920.017, GN 03920.031, and GN 03920.033.
+2. FO prepayment steps for IAR payment pending cases
+Follow these instructions to prepare for issuing retroactive SSI benefits when the
+underpayment cannot be computed on the SSR:
+a.
+Manually compute the underpayment for the entire period.
+b.
+Determine if the total U/P requires processing under the dedicated account, installment,
+attorney or eligible non-attorney procedures in GN 03930.030., SI 02101.010., and SI 02101.020.
+c.
+When the underpayment cannot be computed on the SSR, prepare an SSA-L8125 (IAR Payment
+Pending Case). Send it to the State or local agency by mail or fax to obtain the amount
+of IAR the State is due.
+NOTES:
+•
+Following the instructions in SI 02003.024, complete the claimant’s identifying information including payee and retroactive
+amount due summary data on the manual SSA-L8125. The SSA-L8125 form tells the State
+to complete the form and return it to the servicing FO within 10 working days.
+•
+For Attorney or Eligible Non-attorney Fee Payment, Dedicated Account, or Installment
+Payment information, see GN 03920.017, SI 02101.010, or SI 02101.020.
+d.
+Use the Development Worksheet to establish an issue to control the return of the SSA-L8125
+from the State. You should set the control period for 15 working days from the date
+that you send the SSA-L8125 to the State.
+NOTE: If a systems limitation precludes the use of MSSICS to establish an issue to control
+the return of the SSA-L8125 from the State, use the MDW to set a tickle date for 15
+days for the return of the SSA-L8125.
+e.
+If the SSA-L8125 is not received from the State within 15 working days of the diary
+control, follow up by either:
+•
+sending a Form SSA-L8125 to the State marked SECOND REQUEST; or
+•
+contacting the State to discuss the status of the SSA-L8125.
+f.
+Forward a copy of the second request to the RO for handling (or follow any supplemental
+RO instructions) if the State fails to respond to the second request within 10 working
+days of the date the second request was forwarded to the State. If the State fails
+to return the form within 15 working days of the second request, SSA will release
+the retroactive amount to the SSI individual to protect the individual from hardship
+that may arise from the State's failure to adhere to SSA IAR processing requirements.
+3. FO steps for releasing IAR payment to State
+Upon receipt of a completed SSA-L8125:
+a.
+Send an A-OTP to the State for the amount shown in number 2 of the “State's Account
+of Reimbursement Claimed” section of the SSA-L8125;
+b.
+If the remaining past due benefits are covered by the Dedicated Account, Installment,
+Attorney or Eligible Non-attorney Fee provisions, issue an A-OTP and process the case
+following the instructions in SI 02101.010 - SI 02101.020.
+c.
+Complete the bottom portion on page three of the SSA-L8125 and fax a copy of the paper
+form to the appropriate electronic folder.
+d.
+Prepare the manual notice, if applicable, following SI 02101.010 - SI 02101.020. The system is able to produce an automated notice in most situations.
+NOTE: Complete the claimant’s identifying information including payee and retroactive amount
+due summary data. The SSA-L8125 form tells the State to complete the form and return
+it to the servicing FO within 10 working days.
+4. No IAR due State
+If the completed SSA-L8125 indicates the State is not due IAR, release the past due
+benefits to the individual or the representative payee or legal guardian unless the
+dedicated account, installment, attorney or eligible non-attorney fee instructions
+in SI 02101.010 - SI 02101.020 apply. If so, follow those instructions.
+NOTE: The GR code must be deleted before releasing the past due payment to the individual.

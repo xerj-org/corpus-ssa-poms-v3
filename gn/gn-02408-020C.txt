@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02408.020 - The F-stop Process
+Effective Dates: 05/15/2024 - Present | TN 78 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408020 (fetched 2026-10-04)
+
+C. Treasury process
+When Treasury receives an F-stop request and the check is outstanding, Treasury cancels
+the outstanding check and returns a credit to SSA. Credit will appear on Title II/Title
+XVI queries and on the Treasury Check Information System (TCIS).
+When the check is outstanding (disposition code 32) and then subsequently cashed ,
+Treasury debits SSA. Procedures for payment over-cancellation apply, see GN 02406.245.
+When the check is already cashed at the time of the F-stop, Treasury transmits a disposition
+code 11. Additionally. Treasury sends an FS-1133 claims package to the beneficiary
+or recipient and makes the package available on TCIS. The disposition code appears
+on Payment History Update Screen (PHUS) for Title II and the Treasury Status Query
+for Title XVI.
+This section describes possible scenarios.
+1. When the check has been cashed
+When an F-stop is already input and the check has been cashed, Treasury sends an FS-1133
+claims package to the beneficiary or recipient (FS-1133, FS-3858, and check photocopy).
+When the beneficiary or recipient protests the overpayment created when the check
+was cashed and they do not recognize the signature as their own, have the beneficiary
+or recipient complete the FS-1133, see GN 02406.160. If the beneficiary or recipient returns the FS-1133 to the FO, scan the completed
+FS-1133 with the check photocopy into Evidence Portal and forward the completed FS-1133
+with the check photocopy to Treasury for a forgery determination. For instructions
+on mailing the FS-1133, see GN 02406.160H.
+2. When the check has not been cashed
+When Treasury finds that the check has not been cashed or negotiated within 12 months
+after the issue date, it cancels the check and will credit the funds back to SSA.
+The F-stop ensures that Treasury can reclaim the funds from the Financial Institution
+(FI) if the check is cashed over a forged signature at a later date. For instructions
+concerning follow up see GN 02406.160C. Treasury gathers information on checks not submitted for payment (determined to be
+uncashed). After the 12th month determination, Treasury furnishes SSA with (Limited
+Payability) LP credits. The credits contain identifying information and represent
+the funds for uncashed checks. If the replacement check is more than 12 months old
+from the date of issue follow limited payability policies, see GN 02401.901.
+3. When the check is returned
+When the check is returned, a credit is posted to the MBR/SSR. The SSI system does
+not automatically reissue funds in non-entitlement situations. For Title II, the Return
+Check Action program (REACT) automatically reissues the returned payment, even when
+not due, if the reason for return is AD (address) (see GN 02408.020B.2. in this section). When the reason for return is MS (miscellaneous) or DC (duplicate
+check), REACT does not automatically reissue the payment.

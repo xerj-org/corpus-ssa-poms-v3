@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+B. Guidance for case processing
+In order to provide Clark relief, complete an RZ back to the first PPV suspension month as stated in GN 02615.100. Consider the following guidance for processing these cases.
+1. Initial claim pending after a N25 termination
+If a recipient filed a new initial claim after their record terminated due to N25
+suspension and the claim is still pending in the field office (FO) or at the Disability
+Determination Service (DDS), process as follows:
+a.
+Explain to the recipient the advantages of withdrawing the new initial claim. If the
+recipient elects to withdraw the new application, follow instructions in SI 00601.050.
+b.
+If the recipient withdraws the pending application and the claim is still at the DDS,
+recall the pending disability case following instructions in DI 23015.001.
+c.
+Post the withdrawal (PSY N12) to the current record and terminate the record. Start
+date the record terminated due to N25 the following day with the appropriate start
+date month and complete an RZ back to the earliest N25 suspension period covered by
+the Clark relief. For additional information on start dating records, see MSOM MSSICS 007.003.
+d.
+If the recipient does not wish to withdraw the new application, treat the Clark relief period as a closed period and complete an RZ ending with the month of the
+subsequent application. Manually compute the payment due and determine the priority
+order for release of the underpayment, following the instructions in SI 02101.001.
+2. Cases with overpayments or underpayments
+Selected cases may require additional actions if an overpayment or underpayment exists.
+Consider the following when providing relief:
+a.
+If there is an overpayment on the record for the N25 period, the reinstatement of
+the recipient back to the first N25 suspension date effectively removes any outstanding
+parole or probation overpayment balance. However, an overpayment could result if the
+RZ period uncovers that we paid a recipient more than they were due for another reason.
+You may have to balance the overpayment sequences. For additional information on balancing
+overpayment sequences, see SM 01311.390.
+b.
+If a person received an initial determination on an overpayment, but repaid their
+benefits, and the record is in current payment status, the system will automatically
+recover any other overpayment balance due and then release any amounts due when you
+remove the N25 suspension months.
+c.
+The system cannot compute the correct monthly due amounts on a terminated record.
+Manually compute the monthly due amounts and post M02 amounts where applicable, e.g.,
+T33 record. Where you cannot use M02 procedures, manually compute any underpayment
+or overpayment on the record for the reinstatement period. Follow priority of payments
+rules when issuing a payment. Follow the automated one-time payment (A-OTP) procedures
+for issuing a payment. For information on the M02 procedure, see SM 02101.250.
+d.
+If a prior overpayment exists and we waived the uncollected overpayment, do not pay
+the same funds again; i.e., person should not receive money twice for the same period.
+e.
+For all instances where Clark relief is due, follow our normal underpayment rules located in SI 02101.001. This includes the two reviewer requirement for underpayments over $5,000 located
+in SI 02101.025. Any remaining underpayment is subject to installment processing as described in
+SI 02101.020.
+f.
+Prior to releasing any past due payments, review the Prisoner Update Processing System
+Data (PUPS) and the FFSCF to determine the recipients status. For instructions, refer
+to EM-10013 SEN, No Social Security Benefits for Prisoners.
+g.
+Prior to applying Clark relief underpayments to collect outstanding overpayment balances caused by other
+reasons, verify that we sent an initial determination for that overpayment by reviewing
+ORS. If no initial determination is present, send the recipient an overpayment notice
+with appeal rights before collecting the overpayment balance. Do not apply the Clark underpayment against an outstanding overpayment if we did not send the recipient
+a notification of the initial determination of the overpayment.
+3. Other processing considerations
+The following are possible situations that you may encounter while providing relief:
+a.
+If an initial determination of a suspension or denial period made October 24, 2006,
+or later includes consecutive months prior to and after October 24, 2006, reinstate
+payments back to the beginning of the suspension period after considering all SSI
+non-medical factors and resolving any subsequent unfavorable medical decisions. For
+additional information on subsequent unfavorable medical decisions, see GN 02615.180C.4 in this section.
+b.
+If an individual filed a new initial claim after their record terminated due to N25
+suspension and the FO denied the claim for a non-Clark technical issue, pay only those months from the beginning of the N25 period through
+the month prior to the application month of the denied initial claim.
+c.
+If an individual filed a new initial claim after their record terminated due to a
+N25 suspension and DDS medically denied the subsequent claim, refer to GN 02615.180C.4 in this section.
+d.
+Reinstatement is possible when the initial determination of a suspension or denial
+took place on or after October 24, 2006, but the suspension or denial was for a closed
+period with all N25 months occurring prior to October 24, 2006.
+e.
+If a record terminated for reasons other than N25, do not provide Clark relief for any payment status period other than N25. Consider the following:
+•
+Complete the RZ for the N25 period only and pay any retroactive payments according
+to normal manual one-time payment (M-OTP) or automated one-time payment (A-OTP) procedures.
+•
+In situations where a termination processed with less than 12 months of N25 (e.g.,
+N25 for eight months, then excess income (N01) for four months), fully develop eligibility
+from the earliest point of Clark relief forward. If development reveals 12 consecutive months of ineligibility for
+reasons other than N25, conduct an RZ only for the applicable closed period.
+•
+If development reveals 12 consecutive months of ineligibility for reasons other than
+N25, conduct an RZ only for the applicable closed period.
+•
+If the claimant alleges a current disability, take a new claim under normal procedures.
+To determine the correct application date, follow GN 00204.007.
+f.
+Do not apply the rules of Administrative Finality to prevent delivery of Clark relief.

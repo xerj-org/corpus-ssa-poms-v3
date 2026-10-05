@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02603.050 - Computing Deductions Before Reduction
+Effective Dates: 07/11/2023 - Present | TN 15 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202603050 (fetched 2026-10-04)
+
+D. Procedure for temporary deductions
+1. Definitions used in the formulas
+When the annual earnings test applies before the close of the work year, consider
+the deduction event temporary. See RS 02510.005 when temporary work deductions are involved; use the following formula to compute
+benefit amounts when family maximum reduction is required. This ensures that a beneficiary
+in a separate household will not receive an increase in benefits because of temporary
+work deductions. The benefit increase applies only when the deduction becomes permanent
+when a closed year report of earnings is processed.
+Definitions used:
+•
+BIC = Beneficiary Identification Code
+•
+OB = original benefit (including any applicable widow(er) delayed retirement credits)
+TOTOB = total of all original benefits
+HH = household
+TTAP = (temporary total amount payable)
+The family maximum minus:
+•
+PIA on life cases
+•
+Total amount of work deductions to be imposed against auxiliaries or survivors due
+to the number holder’s work
+•
+Workers' compensation (WC) or public disability benefit (PDB) offset amount for any
+worker in the same HH
+•
+Age reduction amount for any worker in the same HH
+•
+Government pension offset (GPO) amount for any worker in same HH prior to January
+2024
+•
+Partial benefit payable to any other deductee
+•
+For cases where the new rule in GN 02603.045 does not apply - the dual entitlement reduction amount for all workers or deductees
+2. Formula for temporary deductions
+The worker's rate will always be $0.00 because there are no partial deductions for
+temporary work deductions.
+The non-worker or non-deductee rate =
+OB x TTAP
+TOTOB - OB for any worker in same HH
+and - OB for any other deductee
+When different OBs are involved, calculate the rate for each OB. Use the OB if the
+result of this calculation is greater than the OB. Reduce the non-worker or non-deductee
+rate for age, worker’s compensation (WC), public disability benefits (PDB), government
+pension offset (GPO) when prior to January 2024, and, on cases where the new rule
+in GN 02603.045 does not apply, the dual entitlement amount.
+3. Claims Processing
+Enter the adjudicated benefit amount on the MBEN screen of the A101. This is the amount
+before applying deduction before reduction.

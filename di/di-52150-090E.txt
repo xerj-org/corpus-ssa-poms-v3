@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - DI 52150.090 - Taxation of Benefits when Workers' Compensation/Public Disability Benefit (WC/PDB) Offset is Involved
+Effective Dates: 07/14/2026 - Present | TN 52 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150090 (fetched 2026-10-04)
+
+E. Combined WC and PDB offset determining the amount of offset attributable to WC only
+Computations involving a combination of WC and PDB processed through Modernized Claims System (MCS) or Interactive Computation Facility
+(ICF) function #32 (WC/PDB: Adjudicate Claim) automatically compute the correct amount
+of reduction due to receipt of WC only. MCS and ICF #32 actions post this amount to the WC ONLY field (on the OFFSET Data
+Line of the MBR) to build the PHUS record. The PHUS record contains the data used
+to produce the annual SSA-1099 or SSA-1042S.
+However, there are certain situations that require a manual offset calculation (for
+example, combined family max cases). NOTE: Code manual calculations into ICF function #34 (OREO - Online Record Entry Operation)
+to create an electronic version of the calculation. For more information about OREO,
+see DI 52165.020.
+For manual calculations, take the following steps to determine the amount of offset
+on a PIC (Payment Identification Code) basis, how much of the offset is attributable to WC only, and the applicable coding on the WCPO (PIC Offset Data) screen in ICF function #34
+OREO.
+1. Step 1 Formula to determine what percentage of the combined WC/PDB amount is WC only
+a.
+Divide the monthly WC benefit by the combined monthly WC and PDB benefits. (Example:
+$1346.50 monthly WC divided by $1687.90 monthly WC/PDB.)
+b.
+Take the result out to four decimal places and round to three decimal places. (Example:
+$1346.50 / $1687.90 = .7977 rounded to .798.)
+c.
+The result is the percentage of the total combined monthly WC and PDB that is attributable
+to WC only. (Example: .798 = 79.8 percent, which means, of the total combined $1687.90 WC/PDB
+amount, 79.8 percent is WC only.)
+2. Step 2 Calculating the COMBINED OFFSET AMT and the WC ONLY OFFSET AMT for input on
+the WCPO screen
+a.
+To calculate the combined WC and PDB offset amount (COMBINED OFFSET AMT):
+•
+Subtract the amount payable after offset for each beneficiary (each PIC) from their
+MBA.
+•
+Enter the resulting amount for each PIC in the COMBINED OFFSET AMT field on the WCPO
+screen.
+b.
+To calculate the WC ONLY OFFSET AMT:
+•
+Multiply the combined WC and PDB offset amount for each beneficiary (each PIC) by
+the percentage determined in the Step 1 formula in DI 52150.090E.1.c. in this section.
+•
+Round up to the next ten cents and enter the amount as the WC ONLY OFFSET AMT on the
+WCPO screen.
+3. Examples
+In 12/2011, HA is receiving a combined WC/PDB monthly amount of $500.00 ($300.00 WC
+and $200.00 PDB). HAs MBA is not offset due to a High 1 ACE, but each auxiliary's
+$160.10 MBA is offset and the amount payable after offset to each auxiliary is $8.70.
+We apply the formula and calculation in Step 1 and Step 2 of DI 52150.090E. in this section:
+Step 1 - Formula to determine what percentage of the combined WC/PDB amount is WC only.
+•
+Divide the monthly WC amount by the total combined monthly WC and PDB amount:
+$300.00 / $500.00 = .6
+•
+The result is the percentage of the total combined monthly WC and PDB that is attributable
+to WC only:
+.6 = 60 percent of the total combined $500.00 WC/PDB amount is WC only.
+a. Worker receives both WC and PDB
+In 12/2011, HA is receiving a combined WC/PDB monthly amount of $500.00 ($300.00 WC
+and $200.00 PDB). HAs MBA is not offset due to a High 1 ACE, but each auxiliarys $160.10
+MBA is offset and the amount payable after offset to each auxiliary is $8.70. We apply
+the formula and calculation in Step 1 and Step 2 of DI 52150.090E. in this section:
+Step 1 - Formula to determine what percentage of the combined WC/PDB amount is WC only.
+•
+Divide the monthly WC amount by the total combined monthly WC and PDB amount:
+$300.00 / $500.00 = .6
+•
+The result is the percentage of the total combined monthly WC and PDB that is attributable
+to WC only:
+.6 = 60 percent of the total combined $500.00 WC/PDB amount is WC only.
+Step 2 - Calculating the COMBINED OFFSET AMT and the WC ONLY OFFSET AMT for input on the WCPO
+screen.
+To calculate the combined WC and PDB offset amount (COMBINED OFFSET AMT):
+•
+Subtract the amount payable after offset for each beneficiary (each PIC) from their
+MBA.
+$160.10 - $8.70 = $151.40 (offset amount of each auxiliary)
+•
+Enter $151.40 for each PIC in the COMBINED OFFSET AMT field on the WCPO screen.
+To calculate the WC ONLY OFFSET AMT:
+•
+Multiply the combined WC and PDB offset amount for each beneficiary (each PIC) by
+the percentage determined in the Step 1 formula.
+$151.40 x .6 (WC only percentage) = $90.840
+•
+Round up to the next ten cents and enter this amount as the WC ONLY OFFSET AMT for
+each auxiliary on the WCPO screen.
+$90.840 rounded up = $90.90
+b. Worker receives both WC and PDB and PDB terminates
+Using the same scenario as the Example in DI 52150.090E.3. in this section, the following change occurs.
+The worker no longer receives PDB effective 02/01/2012. Since there is no combined
+WC and PDB amount, there is no WC ONLY percentage to compute (i.e., you do not need to perform the Step 1 formula in DI 52150.090E.1. in this section). Each auxiliarys MBA is still $160.10, but the amount payable after
+offset is now $75.30.
+Step 2: Calculating the COMBINED OFFSET AMT and the WC ONLY OFFSET AMT for input on the WCPO
+screen
+To calculate the combined WC and PDB offset amount (COMBINED OFFSET AMT):
+Subtract the amount payable after offset for each beneficiary (each PIC) from their
+MBA.
+$160.10 - $75.30 = $84.80 (offset amount of each auxiliary)
+To calculate the WC ONLY OFFSET AMT:
+You do not need a calculation. Since there is no PDB, the COMBINED OFFSET AMT and
+the WC ONLY OFFSET AMT entered on the WCPO screen is the same amount: $84.80 for each
+auxiliary PIC.

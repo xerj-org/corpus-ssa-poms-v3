@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - SI 01730.048 - Medicaid Trusts
+Effective Dates: 11/15/2001 - Present | TN 10 (06-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501730048 (fetched 2026-10-04)
+
+E. Procedure — development and documentation, section 1634 states
+When you discover a trust, follow the procedures in SI 01120.200 to determine if the trust is countable for SSI purposes. If the individual resides
+in a section 1634 State, do not attempt to determine whether the trust is countable or excludable for Medicaid purposes
+or whether counting it as income and/or resources and/or treating it as a transfer
+might be waived by the Medicaid State agency.
+Copy any trust information provided. Follow regional and local procedures for where
+to send this information; if none are available, send to the same State agency address
+used for copies of the SSA-8019-U2.
+Existence of a Medicaid trust will result in a referral of the case to the Medicaid
+State agency for a Medicaid eligibility decision. Explain to the individual that the
+Medicaid State agency will determine Medicaid eligibility.
+NOTE: Posteligibility discovery of a Medicaid trust in a section 1634 State will not result in a correct automated paragraph. Suppress any automated notice and prepare
+the manual notice using Medicaid paragraph 1147 in NL 00804.110. See NL
+00801.010C. for notice suppression references.
+1. Paper environment
+Code a “Q” and the date of discovery of the trust or similar legal instrument or device in the
+Third Party Liability (PT) field of the Supplemental Security Record.
+2. MSSICS
+The “Q” will post on the SSR from the Trust (RTRS) page discussed in MSOM INTRANETSSI 013.005
+Trust.

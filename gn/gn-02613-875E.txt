@@ -1,0 +1,118 @@
+SSA Program Operations Manual System (POMS) - GN 02613.875 - Title XVI Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613875 (fetched 2026-10-04)
+
+E. Title XVI (T16) post-2006 Martinez class members who have a hearing for a fugitive
+felon issue
+If a recipient has a hearing pending or has a hearing decision posted on or after
+January 1, 2007, and the appeal is for a non-medical fugitive felon issue (appealing
+the fugitive felon issue, appealing the fact of an overpayment due to fugitive felon
+status, or appealing a waiver denial decision on a fugitive-felon related overpayment),
+hold the case until any remand decision is received from the Office of Hearings Operations
+(OHO) or the Appeals Council Review (AC). When the decision is received in the FO,
+complete the Martinez Redetermination (RZ) or develop for a new claim as listed in
+GN 02613.875A in this section.
+1. Cases for review of pending medical appeals
+Cases needing a medical decision will remain in the appeal process and OHO will make
+a determination on the medical issue.
+Use the following chart when reviewing F4 and F6 cases:
+Issue
+Medical Appeal
+FO Actions
+Medical appeal with fugitive felon information
+(There may or may not be an N25 on the SSR. Fugitive Felon info will be in Remarks
+on SSR.)
+Case stays at OHO or AC for a medical decision
+•
+Check the APPE field on the SSR for a pending appeal
+•
+Check to see if medical issue present (RSN = DI)
+•
+Review the N25 claim for a medical determination. If a medical determination exists,
+notify OHO of any earlier protective filing date. If no medical determination exists,
+see the NOTE in this section.
+•
+Add a remark under fugitive felon information on the SSR stating: If favorable medical
+allowance, develop for possible Martinez relief per GN 02613.875.
+•
+If RSN is other than DI, refer to GN 02613.875E.2. in this section.
+NOTE: If a hearing is pending on a medical issue and a fugitive felon (N25) claim never
+had a medical determination, reopen the N25 claim and route to DDS following instructions
+in DI 52520.005. Notify OHO that the FO sent the case to DDS for a disability determination on the
+Martinez relief period. After you receive the disability determination from DDS for
+the Martinez relief period, route the claim to OHO to associate with the pending hearing.
+2. Cases for review with non-medical fugitive felon issue.
+If a case has an unfavorable decision on the record and there has been no request
+for an AC or court review, we will provide Martinez relief when we identify these
+cases from the RZ selection. There is no need to vacate the OHO or AC decision.
+a. Reviewing F4 and F6 non-medical cases pending at the OCALJ
+If a case is pending in OHO, it may remand the Martinez case issue to the field office
+(FO). Once the case is remanded to the FO and Martinez relief has been applied, action
+will be required to close out the hearing appeal on the SSR record.
+Use the chart when reviewing F4 and F6 non-medical cases pending in OHO:
+Issue
+OHO Actions
+FO Actions
+Non-medical fugitive felon issue
+fugitive felon status, or
+fact of an overpayment due to fugitive felon status, or
+waiver denial decision on a fugitive-felon related overpayment
+Remand the appeal back to the FO
+Flag the case Martinez Settlement Case
+Check the APPE field on the SSR for a pending non-medical appeal
+Check to see if a non-medical issue is present (RSN = OT, OP, WA, or blank).
+If present, check CPMS to verify the appeal is for a fugitive felon issue.
+If CPMS indicates the appeal is not for a fugitive felon issue, the case will stay
+at OHO for a decision.
+If a fugitive felon appeal issue exists, take the following action to close out the
+appeal on the SSR record:
+MSSICS cases:
+On the MSSI menu, select 2 (Update) and 9 (Appeals).
+On the ADIS screen, input the Decision Type as the Other Disposition Type and select
+3 (Closed for Other Reason).
+Non-MSSICS cases:
+On the MSSI menu, select 2 (Update) and 19 (Direct SSR Update).
+On the UAPD screen, input the Decision Type as Other Disposition Type and select 8
+(Closed for Other Reason.)
+Input the following message on the SSR - Martinez Settlement Relief Processing.
+Process Martinez relief, as appropriate, per GN 02613.875A.3. or GN 02613.875A.6. in this section.
+b. Reviewing F4 and F6 non-medical cases pending at the AC:
+If a case is pending at the AC level, the AC may take action to vacate the hearings
+decision and remand the case to the field office.
+Use the chart when reviewing F4 and F6 non-medical cases pending at the AC:
+Issue
+AC Actions
+FO Actions
+Non-medical fugitive felon issue
+fugitive felon status, or
+fact of an overpayment due to fugitive felon status, or
+waiver denial decision on a fugitive-felon related overpayment
+Issue an order vacating the unfavorable decision by the Administrative Law Judge (ALJ).
+Return the case to the local FO via form HA-505 Transmittal by Office of Disability
+Adjudication and Review identified as Martinez Settlement Case. A red Special label
+will be added to form HA-505 prior to remanding the case to the FO.
+Check the APPE field on the SSR for a pending non-medical appeal
+Check to see if a non-medical issue is present (RSN = OT, OP, WA, or blank).
+If present, check CPMS to verify the appeal is for a fugitive felon issue.
+If CPMS indicates the appeal is not for a fugitive felon issue, the case will stay
+at the AC for a decision.
+If a fugitive felon appeal issue exists, take the following action to close out the
+appeal on the SSR record:
+MSSICS cases:
+On the MSSI menu, select 2 (Update) and 9 (Appeals).
+On the ADIS screen, input the Decision Type as the Other Disposition Type and select
+3 (Closed for Other Reason).
+Non-MSSICS cases:
+On the MSSI menu, select 2 (Update) and 19 (Direct SSR Update).
+On the UAPD screen, input the Decision Type as Other Disposition Type and select 8
+(Closed for Other Reason.)
+Input the following message on the SSR - Martinez Settlement Relief Processing.
+Process Martinez relief, as appropriate, per GN 02613.875A.3. or GN 02613.875A.6. in this section.
+NOTE: For N25 periods before January 1, 2007, the Post-2006 Martinez Relief phase affects
+individuals with an administrative appeal pending as of August 11, 2008. However,
+an individual who has received a final Federal court disposition regarding payment
+or nonpayment of benefits due to a fugitive felon status is not a class member with
+respect to nonpayment months. If you learn of a Federal court decision on a class
+member case, refer the case to your Field Operations Fugitive Felon Coordinator (FOFFC)
+who will contact the Office of General Counsel for advice on whether it precludes
+giving Martinez relief.

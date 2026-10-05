@@ -1,0 +1,73 @@
+SSA Program Operations Manual System (POMS) - DI 28001.003 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/09/2023 - Present | TN 41 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428001003 (fetched 2026-10-04)
+
+H. Procedure -- Processing Center (PC) Processing of the Mailer Form
+The following is an abbreviated description of PC processing of the mailer form. For
+a thorough description, see DI 40502.001, especially DI 40502.001I. and DI 40502.001J. The PC:
+1.
+processes hard paper forms initiated by and returned to the PC, including undeliverable
+hard paper forms;
+2.
+sorts and processes forms referred to the PC by the WBDOC;
+3.
+processes nonresponder alerts that are generated when a response (a confirmation file)
+is not received in response to the 1st-request and 2nd-request mailer forms within a specified time frame (see DI 13004.005C.3.), using the PC direct telephone contact (DIRCON) procedures in GN 01070.305 and GN 01070.315. Two DIRCON attempts are made; busy signals are not counted as attempts.
+a.
+if DIRCON is successful, the PC obtains the answers to the questions, sends out the
+mailer form and controls for a response, and upon receipt processes the mailer to
+a deferral action (see DI 28001.003H.11.) or a DO CDR action (see DI 28001.003H.11.).
+b.
+if DIRCON is unsuccessful because the individual cannot be located or is located but
+refuses to cooperate, the case is processed as a "DO CDR" to the servicing field office
+(see DI 28001.003H.11.).
+In addition to the DCF input described in DI 28001.003H.11., the PC annotates in the special message field (SP MSG 1) on the MBR, or the remarks
+section of the CDR PC Input Screen B (IPCB, see Modernized System Operations Manual
+(MSOM CDR 001.006) of the DCF, that the beneficiary was a nonresponder and the case is being referred
+to the FO to initiate a full CDR per DI 13005.000.
+NOTE: The mailer form process is not a CDR. Consequently, an inability to locate an individual
+to complete a mailer form, or an individual's refusal to provide responses to questions
+on the mailer form is not a basis for a cessation or suspension action under the PCs'
+whereabouts unknown (WU) or failure to cooperate (FTC) procedures of the CDR process.
+It is, however, a basis to refer the case to a FO to initiate a CDR. Once a CDR is
+initiated, it may then be appropriate to apply the FOs' WU or FTC procedures in DI 13015.001 through DI 13005.025 and/or the DDSs' WU or FTC procedures in DI 28075.000.
+4.
+obtains answers to questions, or to resolve conflicting responses;
+5.
+receives, prints and associates the OCDRS decision logic alert, facsimile and profile
+sheet;
+6.
+obtains translations;
+7.
+obtains query responses;
+8.
+resolves reports of work and earnings received in connection with the mailer form;
+9.
+in rare situations, obtains a claim folder in order to process the mailer form;
+10.
+reviews the alert message, the mailer form or mailer facsimile, any attachments or
+other information, and the profile sheet;
+11.
+processes the mailer form to either a deferral or DO CDR action:
+a.
+Deferral Action - The appropriate DCF input is made (see DI 40502.001J.3.), which causes an automated notice (see NL 00705.355) to be generated and mailed to the beneficiary (or representative payee), and sets
+a new medical reexamination diary date.
+The DCF will show EVENT 013 "T2 CDR DEFERRED BY PC", "T2/T16 CDR DEFERRED BY PC",
+or "T16 CDR DEFERRED BY PC".
+The medical diary reason (MDR) code at the time the case was selected for mailer form processing is used to reset
+the medical reexamination diary date. Note that if the MDR was/is blank, the default
+MDR value of “3” is used and a medical reexamination diary 36 months in the future
+is set.
+In the unusual situation in which the claims folder has been obtained to do the PC
+review, it is returned to the National Records Center (SSANRC).
+b.
+DO CDR/Full Medical CDR Referral Action - The appropriate DCF input is made, and the case is referred to the FO to notify
+the beneficiary and the representative payee, if any, that a CDR is being initiated.
+i.
+In Title II cases, if a full medical CDR is needed, update the mailer in DCF to DO
+CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+ii.
+In Title XVI cases, if a full medical CDR is needed, update the mailer in DCF to DO
+CDR and transfer the CDR to the FO. The FO can request the folder if needed.
+The DCF will show EVENT 009 "T2 CDR INITIATED BY PC", "T2/T16 CDR INITIATED BY PC",
+or "T16 CDR INITIATED BY PC".

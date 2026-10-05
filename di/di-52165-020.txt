@@ -1,0 +1,13 @@
+SSA Program Operations Manual System (POMS) - DI 52165.020 - Use Interactive Computation Facility (ICF) Function 34 Online Record Entry (OREO) to Process ICF Problems and Limitations
+Effective Dates: 11/30/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452165020 (fetched 2026-10-04)
+
+DI 52165.020 Use Interactive Computation Facility (ICF) Function 34 Online Record Entry (OREO)
+to Process ICF Problems and Limitations
+The OREO program processes WC/PDB inputs that cannot be processed correctly using
+ICF #32. The OREO program will not perform any calculations, and it uses the same
+input screens as ICF #31 and #32. Although OREO does not perform its own calculations,
+it will allow propagation from #31 or #32. You may be able to produce an accurate
+calculation in #31 or #32 and then use that information in OREO. Only the incorrect
+data needs to be overkeyed. The completed information is propagated into MACADE by
+the Benefit Authorizer (BA)/Benefit Technical Examiner (BTE).

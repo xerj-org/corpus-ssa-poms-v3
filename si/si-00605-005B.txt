@@ -1,0 +1,44 @@
+SSA Program Operations Manual System (POMS) - SI 00605.005 - Completing Preliminary Information on the Application for Supplemental Security Income (SSI) SSA-8001-BK
+Effective Dates: 04/11/2007 - Present | TN 16 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500605005 (fetched 2026-10-04)
+
+B. Preliminary information blocks
+1. TEL block
+Mark the TEL block located in the application header if the application interview
+is by telephone.
+2. Date stamp block
+Write in or use a date stamp to show the month, day, and year we received the signed
+application in the date stamp block after the header.
+3. Deferred development block
+If you are deferring development, mark the deferred development block. For information
+on deferred development, see SI 00603.003.
+4. Abbreviated Application Process (ABAP) block
+If you are using the abbreviated application process, mark the ABAP block. For information
+on the ABAP, see SI 00602.001.
+5. SNAP (Supplemental Nutrition Assistance Program)-SSA/APP or SNAP-referred block
+Mark the appropriate box indicating whether you completed a SNAP application or you
+referred the claimant to the SNAP agency after completing Part 5-Supplemental Nutrition
+Assistance Program (SNAP). We use this information to bill the Food and Nutrition
+Service (FNS) for the number of SNAP applications we complete.
+6. Filing date block
+Mark the filing date. The filing date is the earliest date between the date we receive
+the application and the protective filing date. To determine the filing date, see
+GN 00204.007.
+a. Receipt date block
+If the receipt date is the same date as the filing date, mark the receipt block.
+b. Protective filing date block
+If there is a protective filing date, mark the protective filing block. For information
+on written protective filing, see GN 00204.010. For information protective filing by oral inquiries, see SI 00601.025.
+NOTE: If we issued a closeout notice for the protective filing date, and the claimant
+submits an application form after the protective filing closeout period, then we cannot
+use the protective filing date as the filing date. However, if an open protective
+filing exists, use that date.
+7. Preferred language block
+If claimants preferred language is not English, indicate the language the claimant
+prefers to write and speak. Write the language preferences in the space provided.
+For a list of language preferences, see SM 01005.545.
+NOTE: The client language (CLLG) screen collects this information for applications taken
+in MSSICS. For more information on the CLLG screen, see MSOM ICD 002.004.
+8. Type of claim block
+Mark the box that indicates the type of claim the claimant is filing. For instructions
+on how to complete this block, see SI 00604.010.

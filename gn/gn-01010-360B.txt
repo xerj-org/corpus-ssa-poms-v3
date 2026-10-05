@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - GN 01010.360 - Special Determinations for Claims Adjudication
+Effective Dates: 11/10/2011 - Present | TN 13 (11-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010360 (fetched 2026-10-04)
+
+B. Procedure for preparing special determinations
+Whenever possible, record the special determinations electronically (e.g., report
+of contact (RPOC), remarks (RMKS), etc.) by following instructions on section B.3
+of this chapter. Also, refer to GN 00301.288 for a list of documents and the appropriate coding to include.
+All special determinations that include public documentation (e.g. birth certificate,
+divorce decree, etc.), must be annotated in the evidence (EVID) screen with the appropriate
+identifying data. See GN 00301.286 and MSOM EVID 001.001 for specific information about the evidence screen.
+1. Types of special determinations
+There are two types of special determinations:
+•
+Formal, and;
+•
+Informal.
+2. Screens and forms used for special determinations
+If the RPOC screen is available, use it to record the special determination. However,
+determinations may be recorded using paper forms if the electronic screens are not
+available.
+•
+General Use Forms:
+•
+SSA-553 - Special Determination;
+•
+SSA-5002 - Report of Contact; or
+•
+SSA-924 - Folder Documentation (processing center (PC) only).
+NOTE: You must electronically store all paper determinations in the Claims File Records
+Management System (CRFMS) or electronic DIB folder (eDIB) as per GN 00301.322.
+•
+Specific Use Forms:
+FORM NAME
+FORM NUMBER
+POMS
+REFERENCE
+•
+Date of Birth Determination
+•
+SSA-2038-F3
+•
+GN 00302.430
+•
+Federal Determination of Error in State Wage Reports (in limited situations)
+•
+SSA-4500-U6
+•
+OS 15020.479
+•
+Disability Determinations
+•
+SSA-831-U5
+•
+DI 11010.035
+•
+Reconsideration Determination
+•
+SSA-662
+•
+GN 03102.450
+•
+Evaluation of Fee Petition
+•
+SSA-1560-U4
+•
+GN 03930.010
+•
+Waiver Determination
+•
+SSA-635
+•
+GN 02250.315
+•
+NOTE: You can use these forms alone or in conjunction with the MCS screens.
+3. Report of contact (RPOC)
+When using the RPOC screens to record a special determination, type in capital letters:
+•
+“SPECIAL DETERMINATION” in the RPOC PERSON CONTACTED field and “NONE” in the RELATIONSHIP/TITLE field;
+•
+The date the determination is made in the DATE CONTACTED field;
+•
+“3” in the HOW CONTACTED field; and
+•
+“N/A” in the SPECIFY/OTHER SPECIFY field.
+Refer to MSOM MCS 008.007 and the NOTE in GN 01010.007C.3 for more detailed information about the RPOC screen.
+4. Special Determinations for wages, self employment income (SEI) and coverage issues
+The Item Correction (ICOR) process of the Earnings Modernization (EM) system processes
+adjustments to an individual's earnings record. ICOR provides several wage and SEI
+determination screens for justification of the earnings action taken.
+You may request the appropriate determination screen, or depending on the “Basis for
+Change” code, it automatically propagates. Certain “Basis for Change” codes require
+a determination and if selected, it automatically propagates the appropriate determination
+screens. If more than, one issue is involved in the earnings adjustment (e.g., an
+employer or employee relationship or coverage issue and an earnings adjustment), discuss
+each issue with the claimant and document the justification. However, be aware that
+only one determination screen propagates to address all pertinent issues. For more
+information about ICOR screens, see MSOM EM 019.001 thru MSOM EM 031.001.
+If you determined that there is no need to adjust the earnings record, prepare the
+special determination as instructed in GN 01010.360B.2 to explain the reason for no adjustment.
+5. Who prepares special determinations
+Field Offices (FO) adjudicators usually prepare the special determinations for both,
+claims and earnings discrepancy cases. However, in some situations, the PC has information
+not available to the FO, in those cases; the determination will be prepared in the
+PC.

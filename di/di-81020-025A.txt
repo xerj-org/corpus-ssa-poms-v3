@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 81020.025 - Processing Electronic Reconsideration Cases
+Effective Dates: 04/17/2025 - Present | TN 39 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020025 (fetched 2026-10-04)
+
+A. Processing reconsideration cases when SSA-3441 not received from claimant
+When a claimant files a request for appeal, but does not provide the necessary forms,
+including the SSA-3441 (Disability Report – Appeal), the Field Office (FO) transfers the case to the Disability
+Determination Services (DDS) for a disability determination. See Processing a Reconsideration
+Request for a Medically Denied Initial Disability Claim - DI 12005.005D and DI 12005.005E.
+1. FO identifies cases without a claimant-completed SSA-3441
+The FO annotates in EDCS that a 3441 was not received. These cases are identified
+by an alert on the Alerts and Message tab in eView titled “5002: 3441 not received”
+along with the description, “See Case Documents tab for detailed information.” Under
+the Case Documents tab, there is an SSA–5002(report of contact) documenting the reason for appeal and the FO attempt(s) to obtain
+the 3441.
+2. SSA-3441 received after case transfer to DDS
+a. FO receives SSA-3441
+If the FO receives a paper SSA-3441 after transferring the electronic reconsideration
+case, the FO updates the Certified Electronic Folder (CEF) by:
+•
+Creating a barcode and faxing the SSA-3441 into the CEF; and
+•
+Adding a message with no expiration date stating, “Claimant’s SSA-3441 received MM/DD/YY,
+faxed into CEF.”
+NOTE: The alert and SSA–5002 indicating SSA-3441 not received remains in the CEF.
+b. DDS receives SSA-3441
+If the DDS receives a paper SSA-3441 after receipting the electronic reconsideration
+case, the DDS updates the CEF by:
+•
+Creating a barcode coversheet and scanning the disability report into the CEF;
+•
+Adding a message, with no expiration date, stating “Claimant’s SSA-3441 received MM/DD/YY
+scanned into CEF;” and
+•
+Retain the alert and imaged SSA-5002 indicating SSA-3441 not received in the CEF.

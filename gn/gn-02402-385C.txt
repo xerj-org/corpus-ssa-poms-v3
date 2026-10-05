@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.385 - Coding Malaysia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 243 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402385 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI for Malaysia has a prefix of "68" at the beginning of the Routing
+Transit Number (RTN).The first letter of the Depositor Account Number (DAN) field
+has the letter “J” assigned for Malaysia.

@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - DI 11005.071 - Title II Statutory Blindness Insured Status and Freeze Development
+Effective Dates: 12/05/2013 - Present | TN 43 (12-13)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005071 (fetched 2026-10-04)
+
+B. Title II statutory blind freeze applications
+A visually impaired or blind number holder (NH) who meets all other non-medical requirements
+and performs above blind SGA levels may file a Title II disability claim to be entitled
+to a freeze only without cash benefits. For information on freeze eligibility, refer
+to DI 10105.005C.
+NOTE: Claimants filing for disabled widow(er)’s benefits (DWB) or childhood disability
+benefits (CDB) cannot be entitled to a freeze only; see DI 10105.005.
+1. Claimant elects to file a disability claim for freeze purposes
+When a blind or visually impaired claimant requests to file a disability claim for
+purposes of entitlement based on a freeze, the FO will:
+•
+Enter a “Y” response to the BLIND and FREEZE question on the Disability Information
+(DISB) screen in Modernized Claims System (MCS).
+•
+Complete the SSA-3368 (Disability Report – Adult) and SSA-3367 (Disability Report
+– Field Office) in the Electronic Disability Collect System (EDCS).
+•
+Document any work activity on the SSA-820 (Work Activity Report – Self-Employed Person)
+or SSA-821 (Work Activity Report – Employee) and your determination on the SSA-823
+(Report of SGA Determination).
+•
+Document your request for a stat blind determination on the SSA-3367 in EDCS; see
+DI 11005.045.
+•
+Forward the claim to DDS for a stat blind determination.
+NOTE: Do not apply the non-medical completion process to blind or visual impairment allegation
+cases. For information on non-medical completion, see DI 11010.115.
+2. DDS determines stat blind allowance for freeze entitlement:
+Upon receipt of the claim from DDS, the FO will:
+•
+Change “Y” to the freeze question on the DISB screen in MCS to “N.”
+•
+Enter disallowance reason 0A1 on the BECF screen in MCS.
+•
+Enter 03 DIB TECH DENY on the DECI screen in MCS.
+•
+Prepare and release a notice to the claimant as indicated in DI 11010.345E.2.
+•
+After adjudication, verify that the DIB line of the master beneficiary record (MBR)
+contains diagnosis code 3694.
+•
+Add a special message to the MBR to alert others of the freeze only entitlement.
+NOTE: For stat blind denials, follow usual processing procedures for denied disability
+claims.
+3. Freeze claimant files subsequent application for other Title II benefits:
+When a claimant entitled to a freeze subsequently files for other title II benefits,
+see:
+•
+RS 00605.220 The Freeze Computation – RIB, DIB, and Survivor PIAs;
+•
+RS 00605.225 Non-Freeze Computation;
+•
+RS 00605.532 Freeze Recomputation of DIB PIA; and
+•
+RS 00605.535 The Non-Freeze Recomputation of DIB PIA – Policy.
+4. How to identify entitlement to a “freeze only” on the MBR
+Stat blind beneficiaries entitled to a disability freeze only (due to performance
+of SGA) may contact the FO to report they are no longer working and request monthly
+payments or to file for other benefits. It is important to be able to identify freeze-only
+entitlements to determine the appropriate next step (e.g., DIB attainment cases).
+Identify freeze only entitlement on the MBR by the Ledger account file (LAF) code
+of “ND” on the BENEFIT line with one or more of the following:
+•
+STAT BLIND on the INSURED status line.
+•
+LAF-ND on the BENEFIT line.
+•
+Onset date on the date of disability onset (DDO) field of the BEN DENY line.
+•
+Denial code 0A1 on the DISALOW/DEN RSN field of the BEN DENY line. (For more information
+on denial codes, see SM 00380.040 and SM 00380.100.)
+•
+Diagnosis code 3694, primary or secondary, on the DIB line (effective December 1,
+2012).
+•
+A special message regarding stat blind freeze determination.

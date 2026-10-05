@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - DI 42010.230 - Effectuating Final Decision in the Program Service Center—Interim Benefits Being Paid
+Effective Dates: 03/01/2022 - Present | TN 15 (06-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0442010230 (fetched 2026-10-04)
+
+B. Unfavorable decision
+Interim benefits (IB) are payable up to the month before the month in which the Commissioner
+issues a final disability decision. The Office of Appellate Operations (OAO) does
+not issue a stop order until an appeal is filed, the appeal period ends, or the AC
+initiates its own motion review. For this reason, consider the appeal period months
+IB payments and do not create an overpayment, unless fraud is involved.
+Code the MADCAP action to ignore the erroneous payments. See SM 00865.045. Manually
+archive CPS data on the master beneficiary record. See MSOM INTRANET CPS 001.001.
+NOTE: The ALJ decision date becomes the final decision date if the claimant appeals, the
+appeal period ends, or the AC initiates its own motion review. The OAO will send a
+stop order. Do not stop IB payments until a stop order is issued.

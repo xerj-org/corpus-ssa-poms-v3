@@ -1,0 +1,66 @@
+SSA Program Operations Manual System (POMS) - SI 00530.015 - Good Cause Provision
+Effective Dates: 07/14/2022 - Present | TN 13 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500530015 (fetched 2026-10-04)
+
+D. Exhibit - good cause information in SSA records and on the OI-5D
+Use the following chart to find Good Cause information in SSA records (SSR) and on
+the OI-5D.
+Good Cause Criteria
+Available Information
+1.
+Was the offense non-violent and not drug related?
+OI-5D
+Refer to SI 00530.910 for list of 4-digit Offense Codes.
+—
+If the offense code is not in one of the categories on the chart then assume crime
+is nonviolent and not drug related.
+—
+If the crime can not be categorized because the description is not clear, refer to
+SI 00530.150 for instructions.
+2.
+Probation and Parole Violators only - Was the underlying criminal offense before probation
+or parole was granted, non- violent and not drug related?
+OI-5D
+—
+Originating Felony Charge(s): Burglary, etc.
+—
+Remarks: Name of criminal charges for the fugitive
+SSR:
+History field shows period of LAF N02/N22.
+PUPS
+PUPS records shows period of confinement for underlying criminal offense.
+3.
+Was the recipient convicted of any subsequent criminal charges for crimes that carry
+a penalty of death or imprisonment for more than 1 year?
+OI-5D
+Date of Warrant: MM/DD/YYYY (Date LEA issued warrant for the recipient’s arrest)
+SSR
+Period of N02/N22 prisoner suspension on the SSR. Suspension period starts after date
+of warrant.
+PUPS
+PUPS record indicates a period of confinement. The confinement date is after the warrant
+date. A conviction date is on PUPS. The conviction date is later than the date of
+the warrant.
+4.
+Will the law enforcement agency (LEA) that issued the violation warrant extradite
+the recipient or is the LEA willing to act on the warrant?
+OI-5D
+LEA Code: code is D
+5.
+Was the unsatisfied warrant issued 10 or more years prior to the SSA Run Date on the
+OI-5D?
+OI-5D
+Date of Warrant: MM/DD/YYYY (Date LEA issued warrant for the recipient’s arrest)
+SSA Run Date: MM/DD/YYYY
+6.
+Does the recipient have a mental impairment that would prevent them from resolving
+the unsatisfied warrant?
+SSR
+DIG Code (XXXX) in DISB data line on the SSR has one of the codes listed in SI 00530.920.
+7.
+Does the recipient have a rep payee or is recipient incapable/incompetent.
+SSR
+REPY Data line shows representative payee. To determine competency refer to SM 01601.565C.18.
+for CO codes.
+NOTE: If any of the above factors are unknown by SSA or cannot be determined at the time
+you are reviewing the SSA records or warrant information, process the case per SI 00530.010. The recipient must provide the evidence or information to make a good cause determination.

@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02408.626 - Processing the Notice of Reclamation (FS-133) and the Request for Debit of the Financial Institution's (FI) Account (FS-135) for Title II Electronic Funds Transfer (EFT) Payments by the Program Service Centers
+Effective Dates: 03/24/2023 - Present | TN 75 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408626 (fetched 2026-10-04)
+
+C. Processing the FS-135
+Technicians should obtain a copy of the FS-135 from the TCIS Dashboard 730 Debit Cancellation
+Summary Report whenever the Claims Details tab in Dashboard shows the reclamation
+status as "FI Debited." For more information on when Treasury debits the FI's Federal
+Reserve account, see GN 02408.645.
+Treasury allows for FIs to submit a debit request against their Federal Reserve account
+as a response to the FS-133. The Payment History tab within TCIS will reflect "FI
+INITIATED DEBIT REQUEST." The FS-133 will reflect the FI initiated debit in the Disbursing
+Office block on the back of the FS-133 and the information can also be found in the
+TCIS Dashboard 740 Debit Cancellation Summary. Technicians should obtain a copy of
+the FS-135 from the TCIS Dashboard 740 Debit Cancellation Summary Report and treat
+these debits requests like an FI remittance.
+Code the SSA-4208 with the amount reclaimed on the FS-135 to reduce the SPA and clear
+ARS.
+See How to Complete Form SSA-4208 for Electronic Fund Transfer Reclamations SM 00609.865C. The SSA-4208 can be input via the MAMPSC Data Input
+Page see SM 00609.850.
+If we do not recover any portion of the outstanding credit, input a second SSA-4208
+action to write-off the ARS control on the remaining outstanding payments.
+REMINDER: Technicians should use the SSA-4208 to process a credit from the FS-133 and FS-135.
+Only use MADCAP/ROAR to reduce or clear the SPA/BOUD if the prior SSA-4208 input was
+coded incorrectly or there were missing E-stops.
+For international reclamations, technicians can use the SSA-4208 to process a credit
+from the FS-133 and FS-135 for cases that Alien Taxation does not apply. The SSA-4208
+can also be used for international reclamations to process a write-off or to clear
+ARS. If the initial SSA-4208 input was coded incorrectly, or if there was a missing
+E-stop, the use of the OR sic maybe warranted. For partial recovery or no recovery
+of International Reclamations, see GN 02408.945.
+NOTE: All international reclamations should be forwarded to PC8.

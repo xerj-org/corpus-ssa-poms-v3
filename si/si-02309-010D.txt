@@ -1,0 +1,117 @@
+SSA Program Operations Manual System (POMS) - SI 02309.010 - Processing the Insured Status (KZ) Diary - Supplemental Security Income (SSI)
+Effective Dates: 09/26/2023 - Present | TN 30 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502309010 (fetched 2026-10-04)
+
+D. Processing the KZ diary
+Coordinate the processing of a scheduled redetermination and KZ diary. Develop the
+diary when you initiate development to reinstate the recipient's benefits. If an exception
+applies, you may need to develop as described in SI 02309.010B in this section.
+Do not remove the diary. Follow the steps in the chart to process the KZ diary:
+Step
+Action
+1
+Review a current SSR to see if you must take other post eligibility actions.
+2
+Ensure LAG earnings have been considered (DISCO, ICERS, etc.) and the DLI has not
+changed since the last Title II application.
+Take a Title II application even if it appears that the recipient is not insured.
+If the Title II application is for disability benefits but the claimant does not meet
+insured status, you may be able to take an abbreviated application (see GN
+00204.009).
+If the SSR contains a primary or secondary diagnosis code of 3694 or an ID code of
+BI, BC, or BS, run a blind insured status computation using the recipients date of
+birth (see SI
+02309.010A in this section).
+Consider when the recipient can file and adjudicate the application. For more information
+about an applicant filing a claim before entitlement, see GN
+00204.007C;
+Check for possible entitlement to auxiliary or survivor benefits (see GN
+00204.022);
+For disability claims, consider an earlier disability onset date than established
+for SSI. Also consider whether the evidence in file suggests disability insured status;
+Make sure there is no open Title II application based on the SSI application that
+the recipient filed previously, or an earlier date for you to establish the Title
+II application filing date;
+For more information on the scope of the application, see GN
+00204.027; and
+For protective writings, refer to GN 00204.010.
+REMINDER: Consider a possible earlier date of onset when processing the KZ diary,
+as advised in SI
+02309.010A in this section.
+Review the certified earnings record (CER) with the recipient to develop incomplete
+earnings, gaps in postings, or lag earnings.
+For more information on CERs, see GN
+01010.009.
+For more information on the wage development policy, see RS
+01404.003B.
+If an earlier application filing date does not exist, the protective filing date is
+the date we contact the claimant (or proper applicant) and determine that the claimant
+wishes to file for Title II benefits. Do not use the date the KZ diary set as a protective
+filing date.
+For more information on the application filing date policy, see GN
+00204.007.
+​
+3
+Explain the effect of receiving Title II benefits on the recipients SSI payment;
+If the recipient does not file for Title II, follow the procedures in SI
+00601.035C.4.;
+If the recipient fails to file for other benefits, follow the procedures in SI 00510.001 through SI 00510.030;
+If the recipient files for Title II, but does not elect full retroactivity, see SI 00510.001 through SI 00510.030. Suspend SSI payments using payment status code N06 when the recipient does not comply
+with the requirement to file for other benefits;
+If the recipient does not comply with the general requirement to provide information,
+such as complete a redetermination, suspend SSI payments using payment status code
+N20 (see SI 02301.235).
+For a description of the suspension codes, see SM 10802.130; and
+Do not delete the KZ diary.
+4
+Once you have a signed Title II application, transmit Title II entitlement ("A" unearned
+income) with recent filing code (code "R") to the SSR (see SM 01305.240).
+For information about posting type A unearned income using MSSICS, see MS INTRANETSSI
+014.044.
+5
+Clear the KZ diary only after you have a valid Title II application.
+Update the DDKZ screen accordingly, and clear the KZ diary without further development
+if the exception applies in SI
+02309.010B.1 in this section.
+Do not clear the KZ diary if you suspended benefits for failure to file for other
+benefits, failure to cooperate, or any other reason. Update the Report of Contact
+page accordingly.
+For non-MSSICS cases, document Form SSA-5002 and store it in the Non Disability Repository
+for evidentiary documents (NDRed) using the Evidence Portal (EP). For information
+on EP, see MS
+09701.001.
+IMPORTANT: A KZ diary can reset when it appears we approved a recipient at a hearing
+while insured for Title II, but their record does not show a Title II payment. In
+these cases, review the hearing decision to see how we addressed Title II.
+A common discovery is an administrative law judge issued a partially favorable decision
+and the onset date was later than the date last insured (DLI). Therefore, find no
+Title II eligibility for that period.
+Another common finding is that the recipient agreed to a later onset date during the
+hearing resulting in the same situation even though the decision might show as a fully
+favorable rather than a partially favorable decision. Determine the potential onset
+(POD) by evaluating the non-medical factors (e.g., work issues, DFI, DLI, prescribed
+period). That date may be earlier than the claimant's alleged onset date (AOD). Develop
+the case for the earliest POD. The claimant does not need to contact the FO to develop
+for the earliest POD.
+When a KZ diary resets, do not re-develop or clear the subsequent KZ diary if the
+case was correctly developed and documented in the claims path. Enter Remarks (RMKS)
+on the SSR and document via a Report of Contact page to identify these cases. If the
+reset diary is associated with a pending RZ or limited issue (LI) profiled for a reason
+other than the reset KZ diary, clear the KZ diary to complete the pending RZ or LI.
+Document the DDKZ screen with the file documentation remarks: Reset KZ Diary Previously
+Developed and Documented. To identify reset diaries, look for limited issues profiled
+solely on a KZ diary with following SSR characteristics:
+CRZD profile of X;
+CRZD selection indicator of X; and
+KZ is the only RZ/LI priority diary in the DIAR field.
+AND
+An RZ/LI completion in the same or previous fiscal year; or
+MSSICS DDKZ screen completed in the same or previous fiscal year.
+CAUTION: You must consider whether RIB benefits were previously considered (beginning at age
+61 years and 9 months, or older) before taking no action to re-develop or clearing
+the reset diary.
+6
+Follow up with the Title II adjudicator using local procedures to determine that the
+recipient filed and is pursuing the claim if the field office uses specialization.
+For more information on monitoring the compliance for filing for other benefits, see
+SI 00510.025.

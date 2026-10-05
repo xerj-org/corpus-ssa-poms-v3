@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - SI 01130.662 - State Annuities for Certain Veterans
+Effective Dates: 08/12/2025 - Present | TN 132 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501130662 (fetched 2026-10-04)
+
+D. Procedure — Initial claims and posteligibility
+1. Development
+If a veteran, and/or a veteran’s spouse, alleges the receipt of a State veteran’s
+annuity as outlined in SI 01130.662C, ask the individual to submit evidence that verifies the source of the State annuity.
+2. Acceptable evidence
+•
+documents in the individual's possession (i.e. award letter from the State),
+•
+office precedent, or
+•
+direct contact with the State.
+If evidence verifies that the annuity is paid by the State to a veteran and/or a veteran’s
+spouse under this provision, but not the amount or date(s) of payment, accept the
+individual's allegation of amount(s) and date(s) of receipt. Exclude the State veteran’s
+annuity payment from resources beginning with the month following the month of receipt
+and every month thereafter without further development.
+NOTE: For instructions on handling cases where excluded funds are commingled in an account
+with non-excluded funds, see SI 01130.700.
+3. Documentation
+Document the acceptable evidence on the Report of Contact page, Evidence (EVID) page,
+or by faxing the documentation (e.g., SSA-5002, award letter) into the Non-Disability
+Repository for Evidentiary Documents (NDRED) or the Electronic Folder (EF) using the
+Evidence Portal (EP) Evidence Portal (EP). Once the documentation is stored and viewed for content in
+either an eDIB claim filing or the NDRED , the artifact need not be retained.
+4. Systems Input
+In systems situations, if the State annuity payment is retained into the month following
+the month of receipt, complete the appropriate systems resource page (Financial Institution
+Account, Other Resource, Cash, etc.). Enter the retained balance in the Verified or
+Alleged Value field, as appropriate, on the systems resource page. Then enter the
+retained payment amount in the Excluded Amount field. Select “Other” as the exclusion
+reason and enter “State veteran’s annuity exclusion” as the reason.
+In non-systems situations, use an SSA-1719B to add a remark to the SSR indicating
+the receipt, frequency and amount of the payment and applicability of the State veteran’s
+annuity resource exclusion. For input instructions for the SSA-1719B Remarks fields,
+see SSR Remarks SM 01301.841 R1, R2, R3, R4, R5.
+Another option is to use an SSA-450SI to add "State veteran’s annuity exclusion" in
+the CG field, see Case Related Data SM 01005.525.   However, a PR change, or SSA-1719B
+input after systems payment, to the CG field, can entirely overlay any entries previously
+posted on the SSR.

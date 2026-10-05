@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.309 - Coding United Kingdom (U.K.) Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402309 (fetched 2026-10-04)
+
+F. Example of coding UK direct deposit
+The beneficiary calls with the following information for a pounds sterling checking
+account:
+•
+Bank Sorting Code Number (branch code): 80-83-33
+•
+Bank Account Number: 1234567
+The Depositor Account Number will be: 012345670. (Since the Bank Account Number contains
+only 7 digits, a zero is placed before the Bank Account Number. A zero is added after the Bank Account Number because this is a checking account.)
+The Routing and Transit Number will be: 508083338. (The final digit, 8, is the U.S.
+Check Digit for 50808333.)

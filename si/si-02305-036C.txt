@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02305.036 - Special Notices to Recipients - RZs
+Effective Dates: 11/02/2006 - Present | TN 54 (11-06)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305036 (fetched 2026-10-04)
+
+C. Procedure
+1. Personal Contact Interviews - Blind Recipients
+Following are the procedures to use with blind individuals.
+a.
+Explain that while the Agency is currently unable to offer Braille notices, the Agency
+is establishing a database of persons who would like to receive Braille notices.
+b.
+Offer the options listed in SI 02305.036A.
+c.
+If the individual prefers to receive notices in Braille (when the Agency is able to
+provide these notices):
+•
+Record the preference by posting a code of “4” in the “MAIL CHOICE” field on ADDR in MSSICS.
+•
+Record the individual's second preference in the Remarks Screen (CRMK) in MSSICS.
+NOTE: The notification preference can also be input using a 1719B.
+d.
+In a non-MSSICS case, document the file per NL 01001.010 (non-MSSICS case).
+e.
+In MSSICS cases, document the choice on the ADDR screen per MSOM MSSICS 008.005 and
+NL 01001.010.
+2. Personal Contact Interviews - Foreign Language Preference
+Record the recipient's choice in the Foreign Language notice (LPW) field of the SSR.
+You can use a SSA-1719B input per SM 01005.545 and NL 00801.025B.2.a using the FV field. In MSSICS cases use the Client Language (CLLG) screen. In non-MSSICS
+cases, complete the FV field on the SSA-1719b (see SM 01005.545 and NL 00801.025B.2.a.).
+3. Personal Contact Interviews - Recipients with Spanish Surnames
+Following are the procedures to use with recipients who have Spanish surnames.
+•
+Explain and offer the options in SI 02305.036B.
+•
+Document the file per NL 00801.025 if the recipient makes the choice during a RZ completed on paper forms. In MSSICS,
+document the choice on the CLLG screen per MSOM ICD 002.004.
+•
+Record the recipient's preference on the CLLG for MSSICS cases or via the FV field
+for non-MSSICS cases.
+4. Personal Contact Interviews - Other Foreign Languages
+Following are the procedures to use with recipients who would like to communicate
+with SSA in languages other than English or Spanish.
+•
+Document the file per NL 00801.025 if the recipient makes the choice during a RZ completed on paper forms. In MSSICS,
+document the choice on the CLLG screen per MSOM ICD 002.004.
+•
+Record the recipient's preference on the CLLG for MSSICS cases or via the FV field
+for non-MSSICS cases.

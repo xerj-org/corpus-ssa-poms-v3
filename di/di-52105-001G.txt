@@ -1,0 +1,126 @@
+SSA Program Operations Manual System (POMS) - DI 52105.001 - Reverse Offset Plans
+Effective Dates: 04/06/2017 - Present | TN 1 (11-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452105001 (fetched 2026-10-04)
+
+G. Reverse offset no longer applies
+1. Why reverse offset ends
+Reverse offset ends for a variety of reasons:
+a.
+WC/PDB entitlement ends;
+b.
+WC is paid by Florida (see DI 52120.055), New Jersey (see DI 52120.165) or Washington State (see DI 52120.265) where reverse offset ends at age 62. (DIB is then subject to offset at age 62 if
+DIB onset is March 1, 1981, or later and DIB MOET is September 1981 or later; DIB
+is not subject to offset at age 62 if the DIB onset is prior to March 1, 1981, or the MOET
+is prior to September 1981. See DI 52170.040, Notice Provisions - Pre-1981 Amendment Cases.)
+c.
+The type of WC/PDB changes (for example, reverse offset applies to North Dakota temporary total
+(TT) WC, but not to permanent partial (PP) WC, so if North Dakota WC payments change from TT to PP,
+reverse offset no longer applies).
+For a list of States with approved WC/PDB reverse offset plans, see the WC list in
+DI 52105.001B.1. and the PDB list in DI 52105.001B.2.
+2. How changes in reverse offset status affect WC/PDB offset computations
+The following instructions for various reverse offset situations explain:
+•
+When benefit increases are protected from offset,
+•
+When to establish a new Offset First Considered (OFC) date,
+•
+When to compute a new Total Family Benefit (TFB), and
+•
+When a new average current earnings (ACE) may be necessary.
+a. Offset First Considered (OFC) date precedes the beginning date of reverse offset
+If the OFC date precedes the beginning date of reverse offset (also known as reverse
+jurisdiction, and “RJ”), and reverse offset subsequently ceases (for example, at age
+62 attainment), and DIB is again offsettable based on the same WC/PDB injury/illness,
+all SSA benefit increases from the OFC date are protected from offset. This is true whether or not benefits are actually
+reduced prior to reverse offset (i.e., a high ACE or excludable expenses may preclude offset
+prior to the reverse offset effective month). The Interactive Computation Facility
+(ICF) has the capability to correctly compute offset in these situations.
+Protect all increases due to:
+•
+Cost of living allowances (COLAs),
+•
+Primary insurance amount (PIA) recalculations or recomputations,
+•
+Combined family maximum (CFM) first applicable in a month after the OFC date. Benefit increases that result from the CFM are protected during the
+period the CFM applies.
+The total family benefit (TFB) and average current earnings (ACE) are computed effective
+with the OFC date. (For more information on situations requiring a new TFB, see DI 52150.005D - DI 52150.005F. For more information on situations when the ACE can change, see DI
+52150.010C.3.)
+EXAMPLE: OFC date before reverse offset effective date: The claimant receives Florida WC where reverse offset begins the month of DIB adjudication.
+In June 2006, DIB benefits are awarded retroactive to April 2004. DIB is offset from
+April 2004 through May 2006 and reverse offset applies beginning June 2006 (the month
+of adjudication). The beneficiary reaches age 62 in January 2008, reverse offset no
+longer applies, and DIB is offset from age 62 up to full retirement age. The TFB is
+based on the offset first considered date (OFC) of April 2004, and the December COLA
+increases in 2004, 2005, 2006, 2007, and 2008 are protected from offset.
+b. Offset First Considered (OFC) date and the beginning date of reverse offset are the
+same month
+Benefit increases during the reverse offset period are not protected from offset when
+the OFC date and the beginning date of reverse offset are the same month.
+If the OFC date and the beginning date of reverse offset are the same month, reverse
+offset subsequently ends, WC/PDB entitlement continues, and DIB is then subject to
+offset:
+•
+A new OFC date applies effective with the first month reverse offset no longer applies;
+•
+A new TFB (based on the monthly benefit amounts effective with the new OFC date) applies;
+•
+A new ACE may apply effective with the first month reverse offset no longer applies
+if the original ACE is a High-5 or average monthly wage (AMW) ACE and there are additional
+earnings after onset resulting in an ACE recomputation. (See DI 52150.010 Average Current Earnings (ACE).)
+NOTE: See the Interactive Computation Facility (ICF) Resource Page here for correct ICF coding and workaround in these situations. Although the Resource
+Page example refers to situations when “Reverse Offset Ends at Age 62,” apply the
+same coding principles for situations when reverse offset ends for reasons other than
+age 62 attainment.
+EXAMPLE: Changes to OFC date and TFB when OFC date equals reverse offset effective
+date, reverse offset ends, WC continues and DIB is offset: A claimant receiving New Jersey permanent total (PT) WC is awarded DIB with a month
+of entitlement of June 2002. A High-1 ACE is involved. Even though reverse offset
+applies effective with the DIB MOET, the Master Beneficiary Record (MBR) coding requires
+an OFC date and TFB, so an OFC date of June 2002 and a TFB based on the monthly benefit
+amount in June 2002 are coded. The claimant attains age 62 in January 2008, reverse
+offset no longer applies, WC benefits continue, and DIB is offset effective January
+2008 requiring a “new” OFC date of January 2008 and a “new” TFB based on the monthly
+benefit amount for January 2008. The ACE remains the same. MBR coding reflects the
+2008 OFC date and TFB. The increases from June 2002 through December 2007 are not protected.
+c. Multiple WC/PDB awards result in multiple periods of reverse offset
+There are situations when WC/PDB entitlement terminates during the reverse offset
+period and a new WC/PDB claim is awarded which is also paid under a reverse offset
+plan, and there is at least one month of non-entitlement to WC/PDB between the two
+awards. The period of non-entitlement to WC/PDB closes out one period of offset and
+any subsequent WC/PDB award establishes an entire new period of offset, thereby requiring
+a new offset first considered (OFC) date and a new TFB effective with the new WC/PDB
+award. A new ACE may also be required if the previous ACE is not a High-1 ACE based
+on earnings in the year of disability onset and the five years immediately preceding
+the year of onset. See DI 52150.010C.3. for situations when the ACE can change.
+If the new OFC date precedes the new beginning date of reverse offset, increases are
+protected, as described in DI 52105.001G.2.a.
+If the new OFC date and the new beginning date of reverse offset are the same month,
+follow procedures in DI 52105.001G.2.b. regarding protected increases.
+NOTE: If a CFM in effect during the previous reverse offset period still applies when the
+subsequent reverse offset period (based on the new WC/PDB award) begins, the new TFB
+will include the CFM auxiliary rates in effect with the new OFC date. If the CFM ceases,
+the TFB must be refigured.
+EXAMPLE - Multiple WC awards result in multiple periods of reverse offset: A worker receives permanent total WC from the state of Florida and is subsequently
+awarded DIB effective April 2002. The DIB claim is adjudicated timely and reverse
+offset applies beginning April 2002. A High 1 ACE applies. Although reverse offset
+is effective with the DIB MOET and benefits are not reduced, MBR coding requires an
+OFC date and TFB. The OFC date is equal to the DIB MOET and the TFB is based on the
+monthly benefit amount effective in the DIB MOET.
+In August 2005, WC terminates because the claimant has gone back to work and a WC
+termination (STOP) date is coded on the MBR.
+In October 2005, the claimant sustains another on-the-job injury and receives a new
+WC award effective with the date of injury. Reverse offset again applies (effective
+October 2005). Although DIB is not offset, a new OFC date of October 2005 and a new
+TFB based on the October 2005 monthly benefit amount are established. The High-1 ACE
+remains the same. The claimant attains age 62 in May 2007, WC payments continue, and
+reverse offset terminates at age 62 attainment. Offset is imposed effective May 2007.
+The SSA COLA increases from April 2002 through April 2007 and a January 2006 PIA recomputation
+are not protected. Any SSA benefit increases from May 2007 are protected from offset.
+3. Triennial redeterminations (redets) of the ACE not applicable
+Triennial redets are not computed during the period of reverse offset because the
+reverse offset period represents a break in offset. However, if WC/PDB offset is continuous
+after reverse offset ends, a triennial redetermination of the ACE may apply in January of
+the third calendar year following the year reverse offset ends. (A redet ACE applies
+if it results in higher benefits payable after offset.)
+For more information on the redet ACE, see DI 52150.080 Triennial Redetermination (Redet) of the Average Current Earnings (ACE).

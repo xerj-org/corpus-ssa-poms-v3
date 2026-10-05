@@ -1,0 +1,330 @@
+SSA Program Operations Manual System (POMS) - GN 03930.030 - Title XVI Adjudicating Claims and Post-Eligibility (PE) Actions Involving Representatives Who May Petition for Fees
+Effective Dates: 07/15/2026 - Present | TN 40 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930030 (fetched 2026-10-04)
+
+C. Procedure
+1. Reviewing the Representative Information on the Supplemental Security Record (SSR)
+Review the electronic file (eView), paper claim(s) file if available, and the Registration,
+Appointment and Services for Representatives (RASR) application to identify all appointed
+representatives. Determine the status of prior representatives, if applicable. Determine
+which representatives, if any, are eligible for fees and for direct payment. Ensure
+that the SSR reflects the identity of the claimant's principal representative and
+the representative's eligibility for direct payment. If the representative is eligible
+for direct payment, review RASR to determine whether the representative has waived
+their right to direct payment. To determine if a representative is eligible for direct
+payment, take the actions in GN 03930.030C.2. If the representative has validly assigned direct payment of authorized fees to an
+entity, review GN 03920.021 for the requirements for an entity to be eligible for direct payment.
+If a representative is not on the SSR, take the following actions:
+•
+Determine if the representative is eligible for direct payment using the instructions
+in GN 03930.030C.2. If the representative has validly assigned direct payment of their authorized fees
+to an entity, review GN 03920.021 for the requirements for an entity to be eligible for direct payment.
+•
+Initial Claims: Complete the UMEN, UATH and UFEE screens using the instructions in
+MS 00302.012 - Appointed Representative Processing, MS 00302.013 - Authorized Representative
+(UATH), and MS 00302.014 - Representative Fee Update Data (UFEE).
+•
+Post-eligibility Actions: Complete the UMEN, UATH and UFEE screens using the instructions
+in MS 00302.012 - Appointed Representative Processing, MS 00302.013 - Authorized Representative
+(UATH), and MS 00302.014 - Representative Fee Update Data (UFEE).
+After ensuring that the SSR is correctly coded:
+•
+Go to GN 03930.030C.3 if the representative and entity, if there is a valid assignment, are eligible for
+direct payment.
+•
+Continue effectuating the determination or decision without withholding past-due benefits
+if no representative is eligible for direct payment and there is no Federal court
+involvement.
+2. Determining Representatives' Eligibility for Direct Fee Payment
+These procedures apply to favorable determinations or decisions we effectuate.
+a.
+Attorneys: To determine an attorney's eligibility to receive direct payment, review
+the criteria in GN 03920.016B.1. Return to GN 03930.030C.1.
+b.
+Non-attorney representatives: To determine a non-attorney's eligibility to receive
+direct payment, follow the instructions in GN 03920.016B.1 and GN 03920.018.
+Check the RASR EDPNA Query to determine if the non-attorney is eligible for direct
+payment at the time of effectuation.
+–
+If the representative is listed, go to GN 03930.030C.2.c.
+–
+If the representative states that they are eligible for direct payment, but are not
+listed on that date, take the action in GN 03930.030C.2.d and then return to GN 03930.030C.1.
+–
+If the representative did not state that they are eligible for direct payment and
+is not listed, continue effectuating the determination or decision without withholding
+past-due benefits if no representative is eligible for direct payment and there is
+no Federal court involvement.
+c.
+If RASR indicates the non-attorney representative is eligible to receive direct payment
+and has not waived direct payment, verify that there is a valid appointment in the
+file. For information that is required for a valid appointment, see GN 03910.040.
+d.
+If the non-attorney stated that they are eligible for direct payment but they are
+not, notify the representative that we cannot make direct payment and send a copy
+to the claimant (see model language below). Continue effectuating the determination
+or decision without withholding past-due benefits if no representative is eligible
+for direct payment and there is no Federal court involvement.
+Model language to use in these situations follows:
+You advised your client, (Recipient's name), and indicated on (the Form SSA-1696 (Claimant's
+Appointment of a Representative) OR notice of appointment [Use only for an appointment signed by the claimant before December 9, 2024 where the representative
+did not submit a Form SSA-1696]) that you are a non-attorney who is eligible to have
+authorized representatives' fees withheld and paid directly from a claimant's past-due
+benefits. However, [Select the conclusion that describes the status]:
+•
+you are not eligible to receive direct payment of the authorized fee,
+•
+you did not become eligible to receive direct payment of the authorized fee until
+after we effectuated the favorable decision on your client's claim, or
+•
+you failed to maintain your eligibility to receive direct payment of the authorized
+fee and were no longer eligible on the date we effectuated the favorable decision
+on your client's claim.
+Accordingly, we will not pay any authorized fee directly to you. You should look to
+the claimant for payment of the fee authorized in this case.
+3. Determine Entity's Eligibility for Direct Payment
+If the eligible representative validly assigned direct payment of the fee to an entity,
+determine if the entity is eligible to receive direct payment. Verify that the entity
+is registered and has not been placed on the Ineligible for Direct Payment Entity
+(IDPE) list in RASR. See GN 03920.021B.2 for further information on determining an entity's eligibility to receive direct
+payment and actions to take if the entity is ineligible.
+4. Adjudicating a Claim and Withholding Past-Due Benefits
+If we issued a favorable Title XVI only or concurrent favorable Titles II and XVI
+determination or decision, there are Title XVI past-due benefits, and the representative
+is eligible for direct payment and did not waive a fee or direct payment:
+•
+Annotate the UFEE screen to show that the Fee Situation is unresolved (see MS 00302.014, Representative Fee Update Data (UFEE));
+•
+Ensure that Direct Payment Waived is answered N on the UFEE screen; and
+•
+Go to GN 03930.030C.4.a. through GN 03930.030C.4.d. as the claim warrants.
+See GN 03920.031 for guidance in calculating a claimant's past-due benefits for representative fee
+purposes.
+a. No Interim Assistance Reimbursement (IAR) Involvement No Prior Overpayment
+•
+Input a U TAC to the SSR to withhold 100 percent (%) of past-due benefits. See MS 00304.018, Underpayment Processing (UOUP).
+•
+Adjudicate the claim (i.e., calculate benefits, net past-due benefits for a current
+overpayment, and pay ongoing benefits).
+•
+Establish for resolution a FEE PETITION issue on the Development Worksheet (or the
+MDW on a non-MSSICS claim) and set a follow-up date. Counting from the date of the
+FO action, set a 60-day follow-up in a case resolved by us or a 120-day diary for
+a case resolved in Federal court proceedings.
+•
+Input an automated one-time payment (A-OTP) to pay claimant 75% of past-due benefits
+or the first installment of that amount, if required. See SM 01901.000, One-Time Payments
+Process; SI 02101.010, Past-Due Benefits Payable Individual Alive Under Age 18 with Representative Payee
+Dedicated Account Required; and SI 02101.020 Large Past-Due Supplemental Security Income (SSI) Payments by Installment Individual
+Alive.
+NOTE: In Title XVI only claims, the withheld amount is 25% of the Title XVI retroactive
+benefits (i.e., past-due benefits) and the amount payable to the claimant is 75% of
+past-due benefits. In concurrent claims, we reduce the Title XVI past-due benefits
+amount by the Title XVI offset amount for the same period, regardless of whether the
+actual offset, as provided under 1127 of the Act, reduces the Title II or Title XVI
+benefits. Therefore, in concurrent claims, 25% of the Title XVI past-due benefits
+for fee purposes will usually be less than 25% of the total SSI retroactive payments.
+After determining the amount of past-due benefits for representative fee purposes,
+there may be more than 75% of the actual retroactive benefits available to pay to
+the claimant.
+•
+Send a manual notice to the claimant and representative. Refer to GN 03930.030C.4.
+•
+If the FEE PETITION issue follow-up date arrives before the fee petition is received,
+go to GN 03930.030C.6. When the fee authorization is received, go to GN 03930.032.
+b. No IAR Involvement Prior Overpayment
+•
+Delete overpayment collect decisions in the Overpayment Decision Data (OPDD) segment
+of the existing SSR that relate to an overpayment from a period not adjudicated by
+the favorable determination or decision (i.e., a prior overpayment). When the overpayment
+collect decision is deleted, a diary will be established. The diary will serve as
+a reminder to re-post the overpayment collect decision. See MS 00304.007, Add/Change/Delete Overpayment Decisions (UODC).
+•
+Input a U TAC to the SSR to withhold 100% of past-due benefits.
+•
+Adjudicate the claim (i.e., calculate benefits, net past-due benefits for a current
+overpayment, and pay ongoing benefits).
+•
+Establish for resolution a FEE PETITION issue on the Development Worksheet (or the
+MDW in a non-MSSICS claim) and set a follow-up date. Counting from the date of the
+FO action, set a 60-day follow-up in a case resolved by us or a 120-day diary for
+a case resolved in Federal court proceedings. See GN 03930.045 for further information about these diaries.
+•
+If the overpayment is less than 75% of past-due benefits, input an A-OTP to pay the
+claimant the difference between 75% of past-due benefits and the overpayment amount,
+or the first installment of that amount, if required. If the overpayment is more than
+75% of past-due benefits, make no payment to the claimant. See SI 02101.010, Past-Due Benefits Payable Individual Alive Under Age 18 with Representative Payee
+Dedicated Account Required; and SI 02101.020 Large Past-Due Supplemental Security Income (SSI) Payments by Installment Individual
+Alive.
+NOTE: In a concurrent claim, refer to the Note in GN 03930.030C.4.a.
+•
+Send a manual fee notice to the claimant and representative. Refer to GN 03930.030C.4.
+NOTE: Even if there is a valid assignment, do not send a copy of this notice to the POC
+without the claimant's express written consent. We will only provide a copy of the
+20-day closeout notice (see GN 03930.090A.3) to the POC or other individual listed in GN 03930.020A when we have information confirming that the representative has died. We will only
+provide a POC or other individual listed in GN 03930.020A with a copy of the SSA-1560 or other fee authorization document when that individual
+filed the fee petition.
+•
+If the FEE PETITION issue follow-up date arrives before the fee petition is received,
+go to GN 03930.030C.6. When fee authorization is received, go to GN 03930.032.
+c. IAR Involved No Prior Overpayment Pending
+Past-due
+benefits equal to or greater than
+$5,000 - If the underpayment or past-due benefits due to the claimant are equal to or greater
+than $5,000, the CS must complete the underpayment review and enter the appropriate
+code on the Underpayment Processing (UOUP) screen (see MS 00304.018, Underpayment Processing (UOUP)) to show that the prepayment review is complete.
+The system will generate an online build transaction SSR alert message: I9 ALERT REQUIRES
+IAR TO BE PAID BY OTP. When the CS receives the message, the CS continues with the
+transaction. The system will set the underpayment verification code to V (UPV:V),
+withhold 100% of past-due benefits, and send an automated notice to the State to request
+the IAR amount. In these cases, when the response is received from the State, take
+the actions in the bullets below.
+Past-due
+benefits less than
+$5,000 - If the underpayment is less than $5,000, the system will set the underpayment verification
+code to V (UPV:V), withhold 100% of past-due benefits, and send an automated notice
+to the State to request the IAR amount. (See SI 02003.025, IAR Payment Processing for Exception Cases and Proration Cases.) In these cases,
+when the response is received from the State, take the actions in the bullets below.
+•
+If the IAR is less than 75% of the past-due benefits:
+–
+Input a U TAC into the SSR to continue withholding 100% of past-due benefits (U TAC
+replaces UPV:V).
+–
+Input an A-OTP to pay the State the IAR amount. This also produces an automated notice
+to the State.
+–
+On the next workday, add an A-OTP to pay the claimant the difference between 75% of
+past-due benefits and the IAR amount, or the first installment payment if required.
+(Past-due benefits that are being withheld by U TAC minus IAR minus 25% of past-due
+benefits [if concurrent case, as defined in GN 03920.031B.2.] = benefits due claimant in one payment or installments.)
+–
+Establish for resolution the FEE PETITION issue on the appropriate claims Development
+Worksheet and set a follow-up date. Counting from the date of the FO action, set a
+60-day follow-up in a case resolved by us or a 120-day diary for a case resolved in
+Federal court proceedings.
+•
+If the IAR is equal to or greater than 75% of the past-due benefits, there are no
+benefits due claimant at this time.
+–
+Input a U TAC to the SSR to continue withholding 100% of past-due benefits (U TAC
+replaces UPV:V).
+–
+Input an A-OTP to pay the State the IAR amount. This also produces an automated notice
+to the State.
+–
+Establish the FEE PETITION issue on the claims Development Worksheet for resolution
+and set a follow-up date. Counting from the date of the FO action, set a 60-day follow-up
+for a case resolved by us or a 120-day diary for a case resolved in Federal court
+proceedings.
+•
+If past-due benefits minus IAR equals zero, there are no benefits for direct fee payment
+and no past-due benefits due to the claimant.
+–
+Input an A-OTP to pay the State the IAR amount. This also produces an automated notice
+to the State.
+–
+Send a manual notice to the claimant and representative to advise that payment of
+any fee we authorize is between the claimant and the representative.
+NOTE: In a concurrent claim, refer to the NOTE in GN 03930.030C.4.a.
+–
+If the FEE PETITION issue follow-up date arrives before the fee petition or authorization
+is received, go to GN 03930.030C.6. When fee authorization is received, go to GN 03930.032.
+d. IAR Involved Prior Overpayment Pending
+•
+Delete the overpayment collect decision for any overpayment with a collect decision
+in the OPDD segment of the existing Title XVI record. This removes an overpayment
+decision for an overpayment from a period not adjudicated by the favorable determination
+or decision (i.e., a prior overpayment). When the overpayment decision is removed,
+a diary will be established. The diary will serve as a reminder to re-post the overpayment
+collect decision. UPV:V (for IAR) withholds 100% of past-due benefits and sends an
+automated notice to the State for the IAR amount (see SM 01311.030 and SM 01311.045).
+•
+Adjudicate the claim (i.e., calculate benefits, net past-due benefits for a current
+overpayment, and pay ongoing benefits.)
+•
+When the response is received from the State, input a U TAC to continue withholding
+100% of past-due benefits.
+•
+Input an A-OTP to pay the State the IAR amount. This produces an automated notice
+to the State.
+•
+If past-due benefits minus IAR is greater than zero, establish for resolution a FEE
+PETITION issue on the Development Worksheet (or MDW in a non-MSSICS claim) and set
+a follow-up date. Counting from the date of the FO action, set a 60-day follow-up
+for a case resolved by us or a 120-day diary for a case resolved in Federal court
+proceedings.
+If past-due benefits minus IAR is zero, there is no withholding for fee payment. Send
+a manual fee notice to advise the claimant accordingly.
+•
+If there are remaining past-due benefits, send a manual fee notice to the claimant
+and representative. Refer to GN 03930.030C.4.
+•
+If the FEE PETITION issue follow-up date arrives before the fee petition is received,
+go to GN 03930.030C.6. When the fee authorization is received, go to GN 03930.032.
+5. Preparing Fee Notice
+If the initial or reconsideration determination on a Title XVI only claim was favorable,
+there are past-due benefits, and the representative is eligible for direct fee payment,
+send a manual fee notice to the claimant with a copy to the representative to advise
+that we are withholding the claimant's past-due benefits for possible fee payment
+and that the representative must file a fee petition or a statement of intent to file
+a fee petition within 60 days of the date of the favorable determination in order
+to receive direct payment from the claimant's withheld past-due benefits.
+If we include the claimant's eligible spouse's past-due benefits in the claimant's
+past-due benefits for representative fee purposes, send a fee notice to the spouse
+with a copy to the representative whenever we take an action that affects the spouse's
+benefits.
+NOTE: When sending notices, include only the information the party is entitled to receive.
+Claimants are entitled to only certain information about auxiliary beneficiaries.
+See GN 03316.105. Likewise, auxiliary beneficiaries should only receive certain information about
+the claimant. Notices sent to auxiliary beneficiaries must adhere to the policies
+articulated in GN 03316.110.
+If we are withholding past-due benefits on a Title XVI only claim favorably resolved
+by a Federal court, refer to GN 03930.040G. for sample language to include in the fee notice to the court attorney.
+6. Sending Copies of Notices
+Send a copy of the claimant's notice and the spouse's notice, if pertinent, to the
+representative. Also send a copy to the representative payee and/or legal guardian,
+if applicable.
+NOTE 1: Although a representative who withdrew their appointment or was discharged by the
+claimant may file a fee petition, do not send a copy of the award notice or other
+protected information (e.g., the claimants information) unless it is the minimum amount
+necessary for the former representative to review it to resolve fee-related issues.
+For information that is not relevant or necessary to resolve fee-related issues, only
+disclose it if the claimant has expressly consented in writing on a Form SSA-3288
+or other written consent that meets the requirements of GN 03305.003. We may still provide a copy of the 20-day closeout notice (see GN 03930.090A.3.) to the terminated representative.
+NOTE 2: Even if there is a valid assignment of direct payment to an entity, do not send a
+copy of the award notice or other protected information (e.g., the claimant's information)
+to the entity's POC unless it is the minimum amount necessary for the POC to review
+it to resolve fee-related issues. For information that is not relevant or necessary
+to resolve fee-related issues, only disclose it if the claimant has expressly consented
+in writing on a Form SSA-3288 or other written consent that meets the requirements
+of GN 03305.003.We will only provide a copy of the 20-day closeout notice (see GN 03930.090A.3.) to the POC or other individual listed in GN 03930.020A when we have information confirming that the representative has died, and we will
+send the SSA-1560A or other fee authorization document to the POC or other individual
+listed in GN 03930.020A when that individual filed the fee petition.
+NOTE 3: Representative payees are entitled to only certain information about the claimant
+in order to perform their duties. Notices to representative payees must adhere to
+these limitations (see GN 03316.120). Do not send a copy of the spouse's notice to the claimant's representative payee.
+7. Responding to a Matured FEE PETITION Issue Follow-up Date
+a. Title XVI Only Claim
+For a Title XVI only claim, if within 60 days, the FO does not receive a fee authorization
+from the PC, the hearing office, or the Appeals Council, and the representative, or
+other individual listed in GN 03930.020A when the representative is deceased, does not submit a fee petition, an intent to
+file a fee petition, or a statement that the representative waives the fee or waives
+direct payment, follow the procedures in GN 03930.090.
+If within 120 days the FO does not receive a fee authorization from the court, follow
+the procedures in GN 03930.091.
+For additional guidance on diaries, see GN 03930.045.
+When the fee petition is received, go to GN 03930.030C.7.
+b. Concurrent Titles II and XVI Claims
+The PC diaries receipt of the fee petition and fee authorization. If within 60 or
+120 days, the FO does not receive a fee authorization from the PC, the hearing office,
+or the Appeals Council, reestablish for resolution a FEE PETITION issue on the Development
+Worksheet and set a follow-up date for 60 days.
+If the fee petition is received in the FO, go to GN 03930.030C.7.
+8. Notifying the AC, the HO, or the PC after Petition Received that the Title XVI Claim
+is Ready for Processing
+For Title XVI only and concurrent Titles II and XVI claims, before notifying the Appeals
+Council, the hearing office, or the PC that the Title XVI claim is ready for necessary
+action on a fee petition filed by the representative, or other individual described
+in GN 03930.020A when the representative is deceased, fully adjudicate the Title XVI claim or resolve
+any existing post-entitlement issues (as GN 03930.025B. and GN 03930.025C. describe).

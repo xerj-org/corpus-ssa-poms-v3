@@ -1,0 +1,71 @@
+SSA Program Operations Manual System (POMS) - DI 52120.205 - Oregon Workers’ Compensation (WC)
+Effective Dates: 12/09/2025 - Present | TN 143 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120205 (fetched 2026-10-04)
+
+B. Oregon PT WC payments and reverse offset
+Oregon WC law provides for a reduction in PT WC if a disabled worker is also entitled
+to Social Security disability insurance benefits (DIB). This is a recognized reverse
+offset plan. For more information, see Reverse Offset Plans DI 52105.001.
+Use the following instructions when adjudicating claims and post-entitlement actions
+on or after 12/01/1984. If the case was processed before 12/01/1984, see the instructions
+in DI 52120.205H.2 below.
+1. Processing claims involving PT WC
+a.
+Offset PT WC from the first possible month of offset up to and including the month
+after the month of adjudication (but not earlier than 07/1978)
+b.
+Remove offset the second calendar month after the month of adjudication. Answer “Y”
+to “REVERSE JURISDICTION INVOLVED?” on the WC/PDB Claim Data (WPCL) screen in MCS
+or the WCCD screen in ICF WC/PDB, and input a START date equal to the second calendar
+month after the month of adjudication.
+Example:
+MCS, A101 or EF101 (Determination of Award) adjudicated: 10/15/2008
+Month of entitlement (MOET): 10/2007
+First month of offset: 10/2007
+Offset DIB: 10/2007 through 11/2008
+Remove offset (reverse offset START date): 12/2008
+For this purpose only, the month of adjudication is the month in which the adjudicator:
+•
+takes action on the MCS DECI screen, A101 ADJU screen or EF101 EFADJU screen, or
+•
+adjudicates an ICF WC/PDB to initiate DIB payment, or
+•
+adjudicates an SSA-1203 (Determination of Benefits Payable After Offset)
+NOTE: Payments under the Critical Payment System do not constitute adjudication. A delay
+in processing due to exceptions, etc., will not normally change this date.
+2. Applying offset when PT WC is effective after the DIB award
+Most cases involving PT WC will be cases where the disabled worker is already in DIB
+payment status when the PT award is made.
+•
+Offset DIB due to PT WC up to and including the month after the month you adjudicate
+ICF WC/PDB.
+•
+Remove offset the second calendar month following the month you adjudicate the ICF
+WC/PDB. On the ICF WCCD screen, enter “Y” under “REVERSE JURISDICTION INVOLVED (Y/N)”
+and a START date equal to the second calendar month after the month of adjudication.
+Example:
+DIB date claim filed: 11/15/2007
+Month of entitlement: 05/2008
+PT award effective date: 07/01/2008
+ICF WC/PDB adjudicated: 10/03/2008
+Apply offset: 07/2008 through 11/2008
+Remove offset (reverse offset START date): 12/2008.
+3. Applying offset when an appeal decision reverses DIB cessation
+Offset DIB from the month for which DIB benefits were reinstated up to and including
+the month after the month of adjudication to resume DIB.
+4. When you receive a data form from the State of Oregon
+When PT WC is awarded, the State sends us a data form requesting DIB payment information
+and also notifying us to remove offset of DIB. Take the following actions when you
+receive the State data form:
+•
+Remove offset
+•
+Complete the data form
+•
+Retain a copy of the form in the NDRed in the Evidence Portal or Paperless per DI 52145.015
+•
+Return the form to:
+Oregon Department of Consumer and Business Services
+Workers’ Compensation Division
+350 Winter St NE 3rd Floor
+Salem OR 97301

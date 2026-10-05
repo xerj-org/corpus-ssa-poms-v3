@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - GN 02615.115 - Title II Clark Court Order Automated Reinstatement Relief
+Effective Dates: 01/23/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615115 (fetched 2026-10-04)
+
+B. Processing Center (PC) Clark automated resumption exceptions, alerts, and payment
+reminders
+1. Clark MACADE/MADCAP automated exception relief processing
+To locate the MACADE/MADCAP exceptions, take the following actions.
+•
+Go to the MACADE Status Report to view all excepted Social Security numbers (SSNs).
+MACADE updates the SSNs to the MACADE pending file with a status code of EXC. The
+Expert System’s MACADE/MADCAP Clark automation run batch number is “QP.”
+•
+MACADE provides an online exception process for unsuccessful MADCAP actions. Use Function
+9 on the MAIN menu to access this MACADE online exception process. MACADE displays
+all generated alerts and exceptions on the MACADE Exception (EXC) screen.
+•
+Review the MADCAP exception and alerts codes for the SSN. For information on MADCAP
+exception codes and alerts, see SM 00860.400 and SM 00860.410, respectively.
+•
+Determine the reason the reinstatement action excepted or alerted. After correcting
+the exception or alert, reintroduce the record via MACADE/MADCAP. For MACADE/MADCAP
+resumption exception processing instructions, see GN 02615.115B.2. in this section.
+•
+Review the possible factors that could affect the reinstatement payment before reintroducing
+the MACADE/MADCAP exception. For the information on the possible factors that could
+affect processing of the reinstatement payment, see GN 02615.115C in this section.
+2. PC instructions for manually resuming benefits when an exception occurs
+Take the following actions to resume benefits via MACADE/MADCAP.
+•
+When the FFEL screen appears, the updated data propagates to the screen. Verify this
+data before processing the MACADE/MADCAP transaction. Do not delete the FFEL data.
+•
+Process the MADCAP exception using the MACADE/MADCAP coding instructions in GN 02615.120D.1. for suspense status to current payment and also for closed periods of PPV suspension.
+•
+Add a MBR SP MSG to annotate the record that you processed the Clark relief, “CLARK COURT ORDER—CLARK RELIEF PROCESSED.”

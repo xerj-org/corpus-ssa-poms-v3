@@ -1,0 +1,88 @@
+SSA Program Operations Manual System (POMS) - GN 02402.342 - Coding Panama Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 09/01/2022 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402342 (fetched 2026-10-04)
+
+G. Examples of coding Panama direct deposit
+1. Example 1
+The FBU in San Jos, Costa Rica, receives a completed enrollment form for a checking
+account in Panama. The bank data is given as follows:
+123456789 123456789012345678
+The FBU codes the full information on ITS.gov In three days, the following information appears on the MBR, having been sent from
+FRBKC through Auto Enroll:
+RTN: 641234565
+DAN: C12345678901234
+(The system has placed the C in the DAN field because the FBU selected checking in
+Type of Account. The coder should never code a C in the DAN field.)
+2. Example 2
+Three days before the cutoff date for direct deposit, DIO receives an enrollment form
+from an individual in Panama. The form contains the following information:
+Bank Number
+Account Number
+(Must have all 9 digits)
+(Up
+to 18 digits)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+The DIO technician begins the RTN field with 64, then codes the first six digits of
+the Bank Code (123456). Adds the U.S. check digit (5), at the end, making the RTN 641234565.
+Begins the DAN field with the final three digits of the bank code (789), and finishes with the first 14 digits of the Account Number, 12345678901234.
+The DAN for the MBR is now 78912345678901234.
+The technician then codes the full information from the enrollment form to ITS.gov annotates the date of input on the form, and faxes the enrollment form to the U.S.
+Embassy in Panama City for review of the bank data.
+3. Example 3
+A retired Federal employee living in Panama who is visiting their son in Minneapolis,
+MN, goes to a small field office in that area to request direct deposit of his wifes
+Social Security, for which they are the representative payee. The service rep prints
+form SSA-1199-OP21 and asks to complete it. The form is completed by the representative
+payee.
+The service rep faxes the completed form to the paperless fax number at OEIO.

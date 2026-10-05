@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02607.800 - SSA's Title II and Title XVI Incentive Payment Programs
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607800 (fetched 2026-10-04)
+
+C. Disbursement of incentive payments
+1. Disbursement process
+•
+After a Title II or Title XVI prisoner suspension occurs, PUPS calculates an incentive
+payment, if appropriate, and posts the incentive payment money amount to the INCENTIVE
+DATA field on the Title II query screen (P2QY), or the Title XVI query screen (P6QY).
+PUPS leaves the INCENTIVE DATE field blank until its monthly incentive payment sweep
+operation occurs.
+•
+On the first business day of each month, the BUCS performs a sweep operation by searching
+the entire PUPS system for records where it posted an incentive payment to the INCENTIVE
+DATA field. (The date entry for the INCENTIVE DATE field is blank.)
+•
+Once BUCS locates all unpaid incentive payment records, it passes the records to the
+Office of Finance for payment via electronic fund transfer (EFT) to the bank account
+indicated on the institutions Incentive Payment Identification (IPID) Screen.
+•
+We pay all incentive payments via EFT during the first business week of each month.
+EFTs generally transfer to the institutions (i.e., reporters) bank account within
+four business days after BUCS performs the sweep
+NOTE: We always pay incentive payments via EFT. We will not pay an incentive payment using
+alternative payment methods, e.g., paper checks, debit cards, etc. For more information
+on the incentive payment process, see MSOM PRISON 003.001. For instructions on recouping
+incentive payments paid incorrectly to a correctional or mental health institution,
+see GN 02607.830B.
+2. Stopping incentive payments before release
+Situations may occur where we initially suspend monthly benefits but then subsequently
+learn that:
+•
+a beneficiary or recipient was incorrectly identified as a prisoner,
+•
+an incarcerated beneficiary's or recipient's stay in a correctional or a mental health
+institution was less than a full calendar month or sentence was 30 days or less; or
+•
+a Title II beneficiary was not convicted of a crime or committed by court order.
+If PUPS suspended the beneficiary's or recipient's payment and calculated an incentive
+payment, but did not pay the incentive payment, we must stop payment of the incentive. For information
+on what PUPS annotates to a beneficiary's or recipients PUPS P2QY or P6QY screen,
+when it schedules a record for payment of the incentive, see GN 02607.800C.1. in this section and MSOM PRISON 003.001F.
+To stop the release of the incentive payment before the monthly sweep, update the
+beneficiary's or recipients release date to the RELEASED DATE field on the beneficiary's
+T2 Prisoner Update Screen (PU02) or the recipients T16 Prisoner Update Screen (PU06).
+For information on the T2 Prisoner Update Processing Screen (PU02), see MSOM PRISON
+003.006 and for information on the T16 Prisoner Update Processing Screen (PU16), see
+MSOM PRISON 003.008.
+When BUCS performs its monthly sweep for incentive payments, it examines each pending
+incentive payment for the presence of a RELEASED DATE and compares it to the CONFINEMENT
+DATE to determine if the suspension should have occurred. If BUCS determines that
+we should not pay the incentive, BUCS removes the incentive payment from the PUPS
+record.
+If you could not stop payment of the incorrectly paid incentive to the correctional
+or mental health institution, request its return using form SSA-L4020, Prisoner Incentive Payment Recoupment Notice. For instructions on requesting return
+of an incorrectly paid incentive payment, see GN 02607.832.

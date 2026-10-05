@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - SI 00502.142 - Qualified Aliens Who Are Blind Or Disabled And Were Lawfully Residing In The U.S. On 8/22/96
+Effective Dates: 04/12/2018 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502142 (fetched 2026-10-04)
+
+H. Procedure - Processing Posteligibility Cases
+1. Aliens For Whom Eligibility Determinations Under This Provision May Be Necessary
+Consider eligibility under this provision if an alien age 65 or older alleges being
+blind or disabled and:
+•
+the alien is not a "grandfathered" alien (SI 00502.150 and SI 00502.153);
+•
+the alien was lawfully residing in the U.S. on 8/22/96 (SI 00502.142B);
+•
+the alien is eligible under one of the time-limited categories described in SI 00502.106 (for example, is a refugee or asylee); and
+•
+no medical decision was previously obtained in the case, or the appeal period for
+a prior medical denial has ended.
+2. When to Determine Eligibility Under This Provision
+Determine eligibility under this provision:
+•
+At the time a scheduled or unscheduled redetermination is conducted; or
+•
+When the recipient contacts SSA after receiving the notice to suspend benefits at
+the end of the 7-year eligibility period. (See SI 00502.106C.3 for Goldberg-Kelly procedures for aged aliens who allege disability or blindness
+in connection with an appeal of the suspension of benefits under the 7-year rule);
+or
+•
+When the recipient contacts SSA inquiring about the 7-year time limit before the NPA
+for the time-limited suspension is sent.
+3. Developing Eligibility Under this Provision
+Ask the individual whether they are blind or disabled. If blindness or disability
+is alleged, obtain necessary disability forms and forward the forms to the DDS for
+a medical decision. Follow the applicable systems instructions in SI 00502.142E.1 to input the blindness/disability allegation and establish a systems control for
+the disability decision.
+NOTE: When the instructions in SI 00502.142E.1 are followed, the system will automatically post AER code "8" to the record. This
+will ensure that the FO gets workload credit for the disability portion of the claim.
+Refer to instructions in DI 11055.130 for preparing Form SSA-831-U3. Include the following notation in "Remarks" on the
+SSA-831-U3: "Title XVI Alien -- Blindness/Disability Alleged -- Systems Limitation."
+(See "IMPORTANT" in SI 00502.142E.1.a. regarding DDS actions when the SSA-831-U3 is annotated in this way.)
+a. Case is Medically Allowed
+•
+Issue
+the
+notice.
+Manually prepare the notice, “SSI Important Information," using the DPS. Explain that—
+Although the prior (initial claim award) notice indicated that the individual's eligibility
+was limited to seven years, the individual is now eligible to receive SSI benefits
+without a time limit (assuming all other factors of eligibility continue to be met),
+and
+This is the case because the individual is blind or disabled and was lawfully residing
+in the U.S. on 8/22/96.
+•
+Make Systems Input.
+If the case is medically allowed, leave the record as an AI and add the multi-category
+code (SM 01005.330 or SM 01301.605) to the SSR. The presence of the multi-category
+code will result in continued eligibility beyond the "7-year" eligibility period.
+b. Case is Medically Denied
+•
+Systems Data
+Disability data will be built, as appropriate, on aged alien records in the DISB segment
+of the SSR. These cases must be denied N13 either through MSSICS or via manual input
+because the requirements in SI 00502.142B.1 are not met.
+•
+Issue
+the
+notice
+Manually prepare the notice using the DPS. Include the following language in the notice:
+"We looked at your claim to see if you were disabled under our rules. We have decided
+that you are not disabled under our rules. Detailed information about our decision
+is shown on the attachment called "Information About the Disability Decision." If
+you disagree with the disability decision, please read the information later in this
+notice about filing an appeal."
+Also explain in the notice that the recipient's eligibility can continue -- based
+on their current alien status -- through the end of the applicable 7-year period.
+Mail the notice, along with the DDS write-up entitled "Information About the Disability
+Decision" (see "IMPORTANT" in SI 00502.142E.1.a) to the individual.
+Since the medical decision is an initial determination, the decision is appealable.
+The DPS version of the notice has preprinted appeal rights.

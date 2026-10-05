@@ -1,0 +1,117 @@
+SSA Program Operations Manual System (POMS) - SI 02306.010 - Change of Address or Residence
+Effective Dates: 09/26/2006 - Present | TN 6 (07-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502306010 (fetched 2026-10-04)
+
+B. Procedure
+1. Intrastate COA Reports
+To process a permanent intrastate (move within a State) COA or residence report, take
+the following steps:
+STEP
+ACTION
+1
+Determine if COA or residence results in other changes in circumstances that affect eligibility or payment amount.
+2
+Develop any breakpoints (SI 00835.510) that occurred since the latest of the following:
+•
+Month of application;
+•
+First month of eligibility;
+•
+Month of supplemental SSA-8000-BK (Application for SSI) or update;
+•
+Initiation date of the last redetermination; or
+•
+The first day of the month the most recent COA was reported.
+3
+Can a “change” or “no change” determination be made for all factors that may affect
+eligibility or payment amount prior to the recurring payment tape cutoff date?
+•
+If YES, input the new address, living arrangement (LA) information, and any other
+change information at the same time.
+•
+If NO, go to STEP 4.
+4
+Even though you have not made a determination regarding all factors, can the new address
+and LA determination be input prior to the recurring payment tape cutoff date?
+•
+If YES, input the new address and LA information. If the new address is in the service
+area of another FO, refer the case to the new FO via the DWO1 in MSSICS or the Modernized
+Development Worksheet (MDW) if the case is not in MSSICS. Advise the new office that
+a new mailing address was input, and describe what LA development and other development
+is still necessary. If the new address is in your service area, go to STEP 6.
+•
+If NO, go to STEP 5.
+5
+If determination cannot be made before the recurring payment tape cutoff date, do
+the following:
+•
+Input the new mailing and new residence address via MSSICS or SSA-1719B (SSI Post
+Eligibility Data Input), using the old Federal living arrangement (FLA) and optional
+State Supplementation (OSS) codes. If the recipient has moved to a new service area,
+refer the case to the new FO via the DWO1 in MSSICS or the MDW if the case is not
+in MSSICS. Advise the new office that a new mailing address was input, but LA development
+is still necessary. SM 01301.525 addresses FLA field inputs by SSA-1719B and SM 01301.535
+addresses OSS inputs via SSA-1719B.
+NOTE: In the State of Vermont, input the new OSS code compatible with the new county of
+residence.
+•
+Advise the recipient or representative payee to notify the Postal Service of the COA
+and remind the applicant that forwarding of mail to a new address could delay delivery
+of the next check.
+•
+If the recipient or representative payee is canceling direct deposit of the checks,
+caution the applicant not to close the bank account until after receipt of a check
+at the new address or in the new bank account.
+•
+If the recipient is in your service area, go to STEP 6.
+6
+Develop possible changes. Make any FLA and OSS corrections as soon as possible. Did
+development result in “changes”?
+•
+If YES, input the change information and develop possible overpayments or underpayments.
+•
+If NO, no further action is required. Close MSSICS event or transmit SSA-1719B, if
+necessary.
+2. Interstate COA or Residence Reported To FO in New State
+Complete the following steps when processing an interstate COA or residence request
+to a new State:
+a.
+Check MSSICS and the SSR (e.g., the Case Characteristics field (SM 01301.820) and
+the Special Message field (SM 00514.035)) to see if any special rules affecting eligibility
+or payment amount were applied in the old State (SI 01410.001A.2.). Follow the instructions in SI 02306.010B.3.
+b.
+If you are unable to determine the new LA before the recurring tape cutoff, input
+the new mailing address and the former residence address including the State and county
+code, the FLA code and OSS code for the former State (SI 01410.010). Take immediate action to develop the new residence and living arrangement so the
+correct residence information can be updated to the CMPH segment of the SSR in a timely
+manner.
+3. Interstate COA or Residence Reported to Old Servicing FO or Teleservice Center (TSC)
+Follow the procedure below to process a permanent change of address or residence to
+a new State if information is being reported to the old servicing FO or TSC:
+•
+Advise the recipient that more information is needed and that he/she will be contacted
+by the new servicing office. Provide the recipient the new servicing office address
+and business phone number.
+•
+If the COA will be input after the recurring tape cutoff, advise the recipient to
+notify the Postal Service of the COA. Also, remind him/her that forwarding of mail
+to a new address could delay delivery of the next check.
+•
+If the recipient is canceling direct deposit of the checks, caution him/her not to
+close the bank account until after receipt of a check at the new address or in the
+new account.
+•
+Input the new mailing address and the former residence address including the State
+and county code, the FLA code, and OSS code for the former State; or
+At the option of local FO management, or if directed by regional instructions, input
+the new mailing and new residence addresses if you have enough information to determine
+the new FLA and OSS codes.
+NOTE: If a recipient has a representative payee who lives separately, the recipient's new
+mailing address is entered in the residence address (RA) field. Enter the recipient's
+actual State and county code of residence in the LA field.
+•
+Refer the case to the new FO via the DWOI in MSSICS or the MDW if the case is not
+in MSSICS. Advise the new office that a new mailing address was input, but LA development
+is still necessary.
+NOTE: The new servicing office should contact the recipient to complete any outstanding
+development as soon as possible after the recipient's arrival in the new State.

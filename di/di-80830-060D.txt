@@ -1,0 +1,12 @@
+SSA Program Operations Manual System (POMS) - DI 80830.060 - Post-Entitlement (P/E) Actions
+Effective Dates: 01/23/2025 - Present | TN 13 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0480830060 (fetched 2026-10-04)
+
+D. PCACS and Paperless Will Display an Indicator That an EF Exists For a Case
+In the future a PCACS indicator will include a remark similar to the current “Image
+on File” remark to indicate that a CEF exists. The indicator will end in a discrete
+Record Type Descriptor (RTD).
+Until this indicator has been developed, technicians must be aware of the possible existence of a CEF in DIB cases. Technicians should check for a CEF before developing
+for documents from claimants or third parties. Technicians should query the Case Processing
+and Management System (CPMS), Evidence Portal (EP), and eView before requesting information
+from Office of Disability Adjudication and Reviews’ (ODAR) components.

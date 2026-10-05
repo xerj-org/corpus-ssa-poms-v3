@@ -1,0 +1,80 @@
+SSA Program Operations Manual System (POMS) - SI 02301.300 - Due Process Protections - General
+Effective Dates: 05/01/2025 - Present | TN 82 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301300 (fetched 2026-10-04)
+
+B. Definitions
+1. Advance Notice
+A GK notice is the advance notice of a proposed SSI adverse action for non-medical
+reasons. Advance notice is provided by the SSI Notice of Planned Action, Form SSA-L8155.
+It allows an individual time to appeal the action and continue to receive unreduced
+benefits.
+2. Adverse Action
+An adverse action is an action that results in a reduction, suspension, or termination of SSI benefits.
+It is an initial determination with appeal rights.
+3. Adverse Action Month (AVM)
+The adverse action month (AVM) is the future month when the adverse action will reduce benefits unless an individual files an appeal within 10 days after receiving the GK notice. An individual
+may qualify for GK payment continuation in or after the AVM if an individual files
+an appeal within 60 days of receiving the GK notice or after the 60-day period when
+good cause exist for extending the time limit.
+4. First-of-the-Month Payments
+First-of-the-month payments are dated the first day of the month on the Supplemental Security Record (SSR). However,
+the actual payment to the individual is dated earlier when the first day of the month
+falls on a Saturday, Sunday, or Federal holiday, (see SM 01315.005).
+NOTE:
+First-of-the-month payments are produced from the monthly recurring and supplemental
+payment files. Recurring payments are identified by payment type code 1 in the Pay
+Flag One field in the Payment History (PMTH) segment on the SSR. Supplemental payments
+are identified by payment type code 3.
+5. Formal Conference
+A formal conference is an appeal method at the reconsideration level. It allows the individual to examine
+the evidence in file, to present witnesses, to present oral and documentary evidence,
+to request that SSA to obtain evidence and subpoena witnesses, and to be able to cross-examine
+these witnesses, (see SI 04020.020B.7.).
+See SI 04020.050 for additional information about SSI Reconsideration Conferences.
+See SI 04005.010 for additional information about the SSI Administrative Review Process.
+6. Informal Conference
+An informal conference is an appeal method at the reconsideration level. It allows
+the individual to meet with the SSA decision maker who conducts the conference. Witnesses
+may also be presented (see SI 04020.050B.2.).
+7. Case Review
+A case review is a procedural method at the of reconsideration level. It involves
+a thorough review of all evidence in the file, including evidence submitted by the
+claimant, their representative or otherwise secured by SSA. No conference is held
+with the individual.
+8. Minimum Benefit Level (MBL)
+The MBL is the new benefit amount due after the system posts an adverse action to the record.
+9. Monthly Benefit Amount (MBA)
+The monthly benefit amount (MBA)is the total of all payments issued in the month and due for that month including first-of-the-month payments, underpayments, amounts (or
+voided amounts) withheld for overpayment recovery, penalty deductions and returned
+checks.
+10. GK Payment Continuation
+GK payment continuation is the term used for continuing or reinstating unreduced benefits
+until there is a decision at the first level of appeal. GK payment continuation applies
+only to non-disability determinations which result in a reduction, suspension, or termination of SSI benefits.
+GK payment continuation ends the month there is a determination on the reconsideration.
+See SI 02301.310 - Appeal and the Right to Goldberg Kelly (GK) Payment Continuation and SI 02301.313 - Appeal and the Protected Payment Level when a Reconsideration Request is filed
+11- 60 Days After Receipt of a Notice of Planned Action for information about appeal
+and the right to payment continuation.
+An individual's record goes into "protected payment status" to maintain or reinstate
+GK payment continuation. Special manual procedures are then required in most case
+to correct benefit amounts and issue notices. To correct protected payments due to
+changes which are under appeal including the Cost-of-Living Adjustment (COLA) (see
+SI 02301.325 - How to Pay the PPL and SI 02301.330 - How to Correct Benefits Based on Appeal Decision.)
+11. SBC
+SBC is the term used for continuing benefits during an appeal of a determination that
+an individual's disability ceased, did not exist, or is no longer disabling. SBC applies
+only to unfavorable medical disability determinations which result in the suspension
+or termination of disability benefits.
+12. Protected Payment Level (PPL)
+The PPL is the monthly benefit amount in effect prior to a proposed adverse action. It is
+the unreduced benefit amount that a recipient may continue to receive until there is a decision at the first level
+of appeal. The PPL can change during the appeal period due to changes in the recipient's
+circumstances or a change in the Federal Benefit Rate (FBR) due to a COLA.
+13. Reduction in Payment
+A reduction in payment is a new monthly payment rate that is less than the payment rate due in the last regular
+month of payment.
+14. GK Temporary Period
+The GK temporary period begins the day after the GK notice cutoff (usually between
+the 7th to 9th day of each month) and ends with the recurring tape cutoff (usually between the 15th to 21st day of the month). During this period, the system can reduce the following month's
+benefit when the FO produces an online GK notice or issues a manual GK notice. See
+SI 02301.301C.2.

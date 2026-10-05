@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - GN 00410.010 - Application and Evidence Procedures in Disasters
+Effective Dates: 07/25/2023 - Present | TN 26 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200410010 (fetched 2026-10-04)
+
+D. Processing payments
+Pay benefits for disaster casualty claims based on allegations and obtain the necessary
+evidence post-adjudicative, including evidence of school attendance for student benefits.
+1. Immediate payments/critical payment system
+If a claimant is in dire financial need for immediate payment see, Immediate Payment
+(IP) Criteria and Process RS 02801.010.
+If the claimant does not meet the requirements for immediate payment, process the
+claim through MCS using normal instructions.
+2. Payment cycling issues
+If a claimant alleges, the systems-determined payment cycle date will cause a hardship,
+change the payment cycle using POS. Once the MBR is established, make an input to
+the PECY screen to change the payment cycle:
+•
+Select #17 (Pay Cycle) from the PESL screen (the POS selection list), you must select
+this option for ALL (i.e., you cannot apply it to an individual on the record).
+•
+On the PECY screen, select Requested Cycle #1 (3rd of the month), and Request Reason
+#2 (SSI payments).
+•
+This action changes the payment cycle the following day. For example, if a beneficiary
+was entitled in March, you must issue the April payment for March as soon as possible.

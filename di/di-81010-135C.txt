@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 81010.135 - Storing Non-Medical Evidence in the Electronic Folder (EF)
+Effective Dates: 10/17/2023 - Present | TN 63 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010135 (fetched 2026-10-04)
+
+C. Post-entitlement (PE) material
+1. Determine whether the documents need to be stored in the claims file
+•
+If possible, record the evidence in MCS, RPOC or CCE Report of Contact page. Refer
+to What Information is Needed on EVID screen and CCE Report of Contact page in PE
+Situations to Identify the Type of Evidence Submitted - GN 00301.288.
+•
+Most folder documentation can be summarized on the EVID screen or CCE Report of Contact
+page.
+Some documents cannot be summarized and must be faxed into eView. To determine whether
+the document needs to be stored in the claims folder follow Electronic Evidence Documentation
+and Retention - GN 00301.286. As a general rule, if a document is signed, a signature is required, and it cannot
+be recorded using attestation, the original document should be faxed into eView. Also
+fax all WC/PDB (Workers Compensation/Public Disability Benefits) proofs for EDCS claims
+into eView.
+Examples include:
+–
+Signed Employer Report of Monthly Earnings (SSA-725s),
+–
+Representative appointment and fee documents,
+–
+Subsidy questionnaires,
+–
+Court decisions,
+–
+Cessation or Continuance of Disability or Blindness Determination and Transmittal
+for work CDRs (SSA 832/833s) and SSA-725.
+•
+Post entitlement material pertaining to non-disabled auxiliary beneficiaries entitled
+on the disabled Number Holder’s (NH) claim should also be stored in eView under the
+NH’s SSN. If the auxiliary is disabled i.e., CDB, DWB all post entitlement material
+will be stored in eView using the beneficiary’s BOAN.
+•
+Trailer Mail – follow Processing Trailer Material for CEF Cases - DI 81020.140. Trailer material must not be routed to the PC as was done in the former paper folder
+environment.
+2. To store a document for an EDCS case in eView:
+•
+Create a barcoded cover sheet, in EDCS or eView, for the document per Faxing Documents
+into the CEF - DI 81010.090.
+•
+Select the appropriate document type for the form/document that is being added to
+eView. If the document is not on the list, use the generic document type for the section:
+If the document should be filed in:
+Use Document Type:
+A section -- Yellow Front
+7010 - Misc Payment Documents
+B section -- Red
+7011- Misc Jurisdictional Documents/Notices
+C section -- Green
+7012 - Misc Current Development/Temporary
+D section -- Orange
+7013 - Misc Non Disability Development
+E section -- Blue
+7014 - Misc Disability Development
+F section – Yellow Back
+7015 - Misc Medical Records
+•
+Fax the document to the appropriate Regional DMA fax number per Faxing Documents into
+the CEF Using Barcodes - DI81010.090. (See Storing Non-Medical Evidence in the EF
+- DI 81010.135C.3., for important information about documents that require Program Center action.)
+•
+Access eView, and open the document to verify that all pages of the document were
+successfully faxed into eView.
+•
+If the image does not appear, follow local procedures for reporting problems when
+faxed documents are not immediately available in eView.
+•
+When the document has been successfully added to eView, destroy the paper document,
+even if it is signed. Keep in mind that any original documents should be returned
+to the claimant/beneficiary.
+3. If action is required in the PC the following is needed in addition to faxing into
+eView:
+•
+Use the SSA-409 (Post Adjudicative Routing) to notify the PC of the action to be taken.
+Clearly identify the actionable material so it can be assigned an appropriate TOEL.
+•
+Annotate the SSA-409 with a remark indicating the material has been faxed to the designated
+section in eView.
+•
+Fax the SSA-409 to the PC’s Paperless Processing Center System (PPC) using the Paperless
+fax number.
+PC fax numbers are available here.
+•
+Fax the document into the appropriate section using the appropriate Regional DMA fax
+number. (See Faxing Documents into the CEF Using Barcodes - DI 81010.090 for a list of Regional DMA fax numbers).
+IMPORTANT NOTE: eView will not alert the PC to take an action on the document. This is why you must also
+fax the SSA-409 to the PC’s Paperless fax number.

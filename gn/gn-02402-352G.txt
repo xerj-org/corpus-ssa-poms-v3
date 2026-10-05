@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.352 - Coding Singapore Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402352 (fetched 2026-10-04)
+
+G. Example of coding Singapore direct deposit
+The customer provides us with a signup form for Singapore containing the following
+information:
+•
+Bank Name: AFC Merchant Bank
+•
+No Bank Code has been provided
+•
+Account Number: 34567890123
+1. Derive the RTN
+•
+Code the prefix of "66", the prefix SSA has designated for Singapore IDD;
+•
+Code 2 filler zeros 00;
+•
+Code the 4-digit bank code 1009 based on FI name after checking the ITS.gov help file for Singapore bank codes);
+•
+Code the U.S. check digit (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16)
+•
+Code the type of account as a C for Checking or an S for Savings. If no indicated
+account type, use a C for Checking.
+2. Derive the DAN
+•
+Use the letter S (for Singapore); and
+•
+The account number 34567890123
+(more than 10 digits allowed)
+3. Obtain the following information
+•
+RTN: 660010098
+•
+Checking
+•
+DAN: S34567890123
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660010098 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: S34567890123
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660010098
+•
+DAN- CS34567890123

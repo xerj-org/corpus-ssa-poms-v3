@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02301.301 - Overview of Goldberg/Kelly (GK) Processing
+Effective Dates: 10/14/2004 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301301 (fetched 2026-10-04)
+
+D. Procedure
+1. Before Inputting an Adverse Action
+Before inputting an adverse action to the SSR:
+•
+Determine the effect of the change.
+REMINDER: Use the retrospective monthly accounting (RMA) rules in SI 02005.001 to compute payments and determine when to reduce a future month's benefit. Use the
+SSI eligibility rules to determine the effective month of a suspension, stop payment
+or termination event.
+•
+If the adverse action is not being processed in MSSICS, make sure to check the systems
+processing schedule to find out the first month the system can actually reduce or
+stop benefits when the following month could result in an overpayment or N05, N19,
+N20, S06 or S08. If these adverse actions can be processed in MSSICS, the system will
+select the earliest month possible for reduction based on the notice type selected.
+2. When Inputting an Adverse Action
+When inputting an adverse action, follow systems input instructions in SM 01305.500 and
+•
+Issue an online or manual GK notice for an input during the GK temporary period to
+reduce the following month’s benefit unless the input will change the record to S06, S07, S08 or N19. For these payment status
+codes (PSCs), the system will stop next month’s payment and issue an automated notice
+as long as the inputs are completed by the recurring payment tape cutoff date.
+•
+Prepare a manual GK notice if the system cannot identify the adverse action due to
+an underpayment or if the action is being processed outside of MSSICS or if the system
+cannot issue the correct notice for the situation. See SI 02301.307 for a list of manual GK notice situations.
+Be sure to input DPD entries when required during the GK temporary period to reduce
+the following month's benefit. Otherwise, the system will not reduce benefits until
+2 months later.

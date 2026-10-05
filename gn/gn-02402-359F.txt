@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - GN 02402.359 - Coding Ghana Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402359 (fetched 2026-10-04)
+
+F. Procedure for coding Ghana routing and account numbers
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Djibouti using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+Bank address - NOTE: Enter the bank address in the following format: GH/Town/Name. Start with the ISO country code for Ghana (GH).
+•
+account ownership
+•
+account type
+•
+account number
+•
+beneficiary address - NOTE: Enter the beneficiary's address in the following format: GH/Town/Name. Start with the ISO country code for Ghana (GH).
+•
+beneficiary phone number
+•
+country
+•
+enrollment status
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+reclamation country
+1. Process initial award
+Prior to processing an initial award to ensure that the beneficiary receives payment
+you must update the bank account informationITS.gov .
+When the payment processes, the payment rejects and returns to our agency if the complete
+bank account information is not in ITS.gov .
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+updateon the same day ITS.gov ;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+If yes, go to step 3.
+Is the beneficiary's account a Ghanaian Cedi account in Ghana? If no, STOP.
+REASON:
+Beneficiaries in Ghana can only receive IDD payments in Cedi accounts.
+If yes, go to step 4.
+To derive the 9-digit RTN for Ghana, follow the below instructions:
+•
+Code the prefix of 66 (the multi-country prefix SSA and FRBKC designated to use for IDD to Ghana).
+•
+Code the 3-filler zeros 000s.
+•
+Code the 3-digit bank code based on FI name after verifying accuracy against either
+the ITS.gov help file or the listing in GN 02402.359H in this section.
+When receiving IDD bank information from a beneficiary in Ghana, look up the bank
+name and city on the bank code listing found in either the ITS.gov help file or GN 02402.359H in this section.
+–
+If the bank name and city combination are on the list use the assigned pseudo or dummy
+bank number.
+–
+If the bank name appears on the list with the incorrect city name, observe the 11-digit
+corresponding Society for Worldwide Interbank Telecommunication (SWIFT) code.
+–
+If the last 3 characters of the SWIFT are "XXX", this represents the main headquarter
+or branch for that bank. Use the pseudo bank number assigned to that 11-digit primary
+SWIFT code ending in "XXX."
+If the bank name is not on the list, inform the Division of Collections (Collections)
+via email (^FM Acct
+Collections Reporting). Collections will provide ITS the information to update the bank code listing. Include
+the following information in the body of the email (request from beneficiary):
+Email Heading: Unlisted Financial Institution - IDD
+Body:
+Full Name of Financial Institution
+Street Address
+Location
+Country Code
+Currency
+•
+Code the 1-digit check code, (obtained through Title II Interactive Computations).
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain check
+digit code through the Title II Interactive Computations from the Main Menus 07/Sub
+Menu 16.
+5
+Code the account type:
+–
+S for savings, or
+–
+C for checking.
+If no account type indicated, use a C for checking account.
+6
+To code the Depositor Account Number (DAN) for Ghana , code:
+–
+Code K designated for Ghana.
+–
+Code the13-digit account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.459F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

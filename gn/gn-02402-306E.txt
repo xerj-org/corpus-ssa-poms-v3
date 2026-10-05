@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 02402.306 - Coding Portuguese Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 02/12/2018 - Present | TN 265 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402306 (fetched 2026-10-04)
+
+E. Description of Portugal IDD bank data
+The data for coding IDD for Portugal will come from the International Bank Account
+Number (IBAN) provided to the beneficiary from his or her FI. The IBAN will be 25
+characters. However, the bank data reflected on the MBR will be 24 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.
+The customer account number may contain numbers, letters, hyphens, slashes, or periods,
+and it may contain spaces between characters. SSA's system accepts only numbers, letters,
+and hyphens. Technicians must use a hyphen instead of a slash, period, or space.
+IMPORTANT: Because the DAN field can only hold up to 16 digits, complete bank information must be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - GN 02402.406 - Coding Palestine Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402406 (fetched 2026-10-04)
+
+F. Procedure to code Palestine bank data
+The FRBKC relies on us to provide complete bank data to ensure correct posting of
+payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to us. When you use one of our systems to establish
+or change IDD bank data for Palestine (e.g. Modernized Claims System (MCS), Manual
+Adjustment Credit and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+IMPORTANT: If the five digit bank code starts with any of the following two-digit prefixes
+- 37, 38, 49, 66, 74, 76, 81, 84, or 89, it is an IDD account for Palestine. Technicians
+must verify and use the correct the consular code as specified in NL 01510.100.
+•
+account ownership;
+•
+account type;
+•
+beneficiary address - NOTE: Enter the beneficiary’s address in this format: PS/Town/Name. Start with the ISO country code for Palestine (PS);
+•
+beneficiary identification;
+•
+country;
+•
+enrollment status;
+•
+first and last name of beneficiary;
+•
+payee indicator;
+•
+bank address - NOTE: Enter the bank address in this format: PS/Town/Name. Start with the ISO country code for Palestine (PS).
+•
+5-digit bank code.
+NOTE: Bank codes are usually 5 digits (2n-bank and 3n-branch). Bank code entered in ITS
+must be 6-digits. If a bank code is less than 6-digits, the technician must add leading
+zeros.
+1. Process initial award
+You must update ITS.gov with the bank account information before you process the initial award to ensure
+the beneficiary receives payment. If the complete bank account information is not
+in ITS.gov when the payment processes, the payment rejects and returns to us.
+2. Add or update bank data using our systems
+When you add or update IDD bank data using one of our systems (e.g. Post Entitlement
+Online System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the chart in this section when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account an ILS account in Palestine?
+If no, STOP.
+REASON: Beneficiaries in Palestine can only receive IDD
+payments in ILS accounts.
+4
+The RTN is 680123456 for all IDD to Palestine contains:
+•
+Multi-country prefix of 68 for Palestine;
+•
+6-digit bank code - (bank code entered in ITS must be six-digits. If Bank Code is
+less than 6-digits, add leading zeros;
+•
+U.S. check digit code for all IDD accounts in Palestine is the last digit of the RTN).
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+S savings, or
+•
+C checking.
+If no indicated account type, use a C for checking account.
+6
+Code depositor account number (DAN):
+•
+V for Palestine;
+•
+Code up to a 10-digit account number.
+7
+You must enter all bank information into ITS.gov on the same business day as listed in GN 02402.406F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to us.

@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 44001.105 - Jurisdiction of Dual Eligibility Claims
+Effective Dates: 10/02/2026 - Present | TN 10 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0444001105 (fetched 2026-10-04)
+
+E. Obtaining RR earnings information for Disability (DIB) or Disability Freeze (FZ) insured
+status
+Before identifying a claim as career RR, the FO is responsible for verifying that
+a claimant has the required months of RR service.
+Before beginning disability development, the disability processing specialists (DPS)
+should also verify the claimant's RR service months by checking the railroad employment
+screens in Modernized Claim System (MCS).
+1. In MCS
+Select screen #23. The Number Holder Railroad (NHRR) Employment screen contains the
+number of months the claimant alleges working for the railroad after 1936.
+2. In MCS/EC
+The Railroad Earnings Data (DRRE) screen contains entries:
+•
+RR 96 To Date (TD) Service Months (SM):
+•
+RR 37 TD Service Months:
+If RR 96 TD is 60 or more, or RR 37 TD is 120 or more, the case is a career RR case.
+NOTE:
+If RR 96 TD is less than "60", or the RR 37 TD is less than "120" (i.e., the claimant
+does not have enough RR SM), but the claimant has military service (MS) months creditable
+under the Railroad Act, the MS months can be added to the RR service months for purposes
+of determining career RR jurisdiction. The FO is responsible for determining creditable
+MS months, per DI 11050.001. To determine when the RRB can use MS months, refer to RS 01601.400 through RS 01601.450.
+3. Use of RR compensation for DIB insured status and for FZ insured status
+If the NH has less than 60 months of creditable RR service earned after 12/31/95 (and
+does not have a total of 120 months earned at any time), we combine the RR earnings
+with SSA earnings to meet the disability insured status requirement for DIB and for
+a period of disability freeze.
+If the NH has at least 60 months of creditable RR service earned after 12/31/95 (or
+120 months earned at any time), we consider the NH to be career RR, and RR compensation
+can be used to meet the disability insured status requirement for the period of disability
+freeze only. DO NOT use RR compensation to compute DIB insured status for cash benefit
+purposes.
+For more information, refer to RS 00301.122 and RS 00301.131
+IMPORTANT:
+If a claimant who is insured only for a period of disability freeze files a claim for DIB, the FO should explain that he or she is not insured for cash
+benefits using only FICA wages, and recommend the claimant restrict his or her Title II claim to a freeze only.
+The FO should use a Claim Type of FZ, not DIB, for these freeze only cases. DCR
+is not able to process a claim type of DIB if the claimant is not insured for cash
+DIB
+benefits.
+If the claimant insists on filing a claim for cash benefits, the FO should process
+a technical denial of the DIB claim for lack of insured status and transfer the claim
+for FZ to DCR.

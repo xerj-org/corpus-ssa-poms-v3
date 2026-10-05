@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - DI 55002.035 - Determining Why The System Did Not Select A Beneficiary/Recipient for A Ticket
+Effective Dates: 02/05/2002 - Present | TN 4 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002035 (fetched 2026-10-04)
+
+C. Procedure – reviewing the SSR in Title XVI cases
+If the individual is a title XVI recipient, obtain an SSR query and review it to determine
+why the system did not select the individual's record. The following chart will help
+in this review. Be sure to examine each listed SSR field.
+Guide For Reviewing An SSR Query When A Ticket Eligibility Question Arises
+SSR
+SEGMENT
+SSR
+FIELD
+POSSIBLE REASON TICKET SELECTION NOT MADE
+Standard Response Data
+ID
+An individual must be eligible for SSI benefits based on disability or blindness to
+be ticket-eligible (see DI 55002.005B.2.). Thus, for the title XVI record to be selected, the code in the ID (individual recipient
+identification) field (see SM 01601.430C.7.) must be a DI, DS, DC, BI, BS, or BC.
+CRZD
+CG
+An individual receiving provisional (temporary) cash benefits under the EXR provisions
+is not eligible for a ticket (see DI 55002.005C.6.). Thus, if there is a code of EXRE in the CG (case characteristic data) field (see
+SM 01601.460C.1.), the title XVI record will not be selected.
+NOTE: EXRE is entered in the CG field when an individual is receiving provisional (temporary)
+cash benefits under the EXR provisions (see SM 01701.080C.).
+PRSN
+DB
+A recipient who is under age 18, or is age 65 or older, is not eligible for a ticket
+(see DI 55002.005B.1.). Thus, the DB (date of birth) field (see SM 01601.475C.6.) must indicate that the
+recipient is at least age 18 and not yet age 65 for the title XVI record to be selected.
+PRSN
+DB
+&
+DOE
+A recipient who receives SSI disability payments based on the childhood standard is
+not eligible to receive a ticket (see DI 55002.005C.5.). Thus, if the date in the DB field (see SM 01601.475C.6.) is after August 22, 1978
+(i.e., the recipient attained age 18 on or after August 22, 1996), and the DOE (date
+of eligibility) (see SM 01601.475C.16.) is prior to the date the individual attained
+age 18, check to see if the individual has had an age-18 redetermination and been
+found eligible based on the adult disability standard.
+To do this, look at the CDR field of the DISB segment (see SM 01601.595C). If an event
+type of “3” or “4” is not displayed, the individual has not had an age-18 redetermination and the title XVI
+record will not be selected. If an event type of “3” or “4” is displayed, check the QCDR screen of the CDRCF. The QCDR screen must display “Age 18” in the category field and a “continuance” in the event field for the title XVI record to be selected.
+To get to the QCDR screen of the CDRCF, first select “32” (Continuing Disability Review File) on the SSA Main Menu. Next, select “1” (Query) and enter the SSN from the MCDR screen. Then, select “3” (PL 104-193) or “4” (LBW/CHLD/18) from the ECDR screen.
+NOTE: See MSOM 185-A, MSOM 185-B, and MSOM 185-C for more information about these CDRCF
+screens.
+ADDR
+ST
+A recipient living in a non-ticket location is not eligible for a ticket (see DI 55002.005C.8.).
+During Phase 1 , the first two digits of the ST (State and County Code) field (see SM 01601.535C.)
+must be one of the following for the title XVI record to be selected: 03, 06, 08,
+10, 14, 16, 22, 33, 37, 38, 42, 47, or 52 (representing AZ, CO, DE, FL, IL, IA, MA,
+NY, OK, OR, SC, VT, and WI, respectively).
+During Phase 2 , the first two digits of the ST must be one of the following for the title XVI record
+to be selected: 02, 03, 04, 06, 07, 08, 09, 10, 11, 14, 15, 16, 17, 18, 19, 22, 23,
+25, 26, 27, 29, 30, 31, 32, 33, 35, 37, 38, 42, 43, 44, 47, 49, or 52 (representing
+AK, AZ, AR, CO, CT, DE, DC, FL, GA, IL, IN, IA, KS, KY, LA, MA, MI, MS, MO, MT, NV,
+NH, NJ, NM, NY, ND, OK, OR, SC, SD, TN, VT, VA, and WI, respectively).
+During Phase 3 and later, the first two digits of the ST must be one of the following for the title XVI record
+to be selected: 01 through 53, 97, 98, or 99 (representing the 50 States, DC, PR,
+VI, AS, GU, and MP).
+DIAR
+Diary
+Code
+An individual receiving provisional (temporary) cash benefits under the EXR provisions
+or one receiving 301 payments is not eligible to receive a ticket (see DI 55002.005C.6. and DI 55002.005C.2., respectively). Thus, if a diary code (see SM 01601.580C.1.) of PP or VP appears,
+the title XVI record will not be selected.
+NOTE: A diary code of PP indicates the individual is receiving provisional (temporary)
+cash benefits under the EXR provisions (see SM 01701.080C). A diary code of VP indicates
+the individual receives section 301 payments.
+DISB
+DPC
+An individual receiving provisional (temporary) cash benefits under the EXR provisions
+or presumptive disability or blindness payments is not eligible to receive a ticket
+(see DI 55002.005C.6. and DI 55002.005C.7., respectively). Thus, if the DPC (disability payment code) field does not display
+an F or an S, the title XVI record will not be selected.
+NOTE: A code of F in the DPC field indicates a final medical allowance. A code of S in
+the DPC field indicates a State determination on a conversion case.
+DISB
+MG
+A recipient receiving benefit continuation payments while appealing a medical cessation
+is not eligible for a ticket (see DI 55002.005C.3.). Thus, if the MG (medical recovery) field (see SM 01601.595C) displays a code of
+T and there is no indication of an appeal reversal, the title XVI record will not be selected.
+NOTE: The system presumes there has been an appeal reversal when the APPE (Appeals Data)
+segment (see SM 01601.685C) displays the following four elements. First, there must
+be a code of P in the appeal type (T) field. Second, there must be a blank or a code
+of MC or DR in the appeal reason (RSN) field. Third, the appeal filing date (FIL)
+must be later than the date that appears after the T code in the MG field of the DISB
+segment. Fourth, there must be a code of FC, FF, or PF in the appeal decision (DSN)
+field.
+DISB
+MDR
+Recipients with MIE diaries are not eligible to receive a ticket until they have had
+at least one medical CDR and received a final disability determination that disability/blindness
+continues or have been on the disability rolls for at least 3 years (see DI 55002.005C.4.). Thus, if the MDR (medical diary reason) field (see SM 01601.595C) displays an alpha
+code (indicating a MIE diary, see DI 26525.025B) or is blank (indicating there is no established diary on the system), one of two things
+must be present for the title XVI record to be selected. One is that the date in the
+DOE (date of eligibility) field of the PRSN (Person Related Data) segment (see SM
+01601.475C.16.) must be more than 3 years prior to the current date. The other is
+that the SSR or CDRCF must show there has been a medical continuance decision.
+One indication that there has been a medical continuance is if the CDR field of the
+DISB segment of the SSR (see SM 01601.595C) displays an event type of “1”, “4” or “5” and an event code of “011”. Another indication that there has been a medical continuance is if there is a “continuance” event on the QCDR screen of the CDRCF for a CDR record type of “1” (T16 Medical), “4” (LWB/CHLD/18), or “5” (T2 Medical).
+To get to the QCDR screen of the CDRCF, first select “32” (Continuing Disability Review File) on the SSA Main Menu. Next, select “1” (Query) and enter the SSN from the MCDR screen. Then, select “1”, “4”, or “5” from the ECDR screen.
+NOTE: See MSOM CDR 001.002, MSOM 185-B, and MSOM 185-C for more information about these CDRCF screens.
+CMPH
+FAM
+If no Federal cash disability/blindness-based SSI benefit is payable, the recipient
+is not eligible for a ticket (see DI 55002.005C.1.). Thus, the amount in the FAM (Federal Amount Due) field (see SM 01601.790C.2.) must
+be greater than “.00” for the title XVI record to be selected.
+CMPH
+PS
+If no Federal cash disability/blindness-based SSI benefit is payable, the recipient
+is not eligible for a ticket (see DI 55002.005C.1.). Thus, the code in the PS (payment status) field (see SM 01601.790C.8. and SM 01601.805)
+for the current calendar month must be C01, M01, or M02, for the title XVI record
+to be selected.

@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - SI 00502.240 - Legally Enforceable/New Version Affidavit of Support (I-864)
+Effective Dates: 08/01/2008 - Present | TN 39 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502240 (fetched 2026-10-04)
+
+G. Procedure for verifying and developing sponsorship
+1. When to verify sponsorship
+Verify sponsorship for all alien claimants who are eligible for SSI. To be eligible
+for SSI, an alien claimant must meet the basic eligibility requirements in SI 00501.001.B and the alien eligibility requirements in SI 00502.100.
+IMPORTANT: Sponsorship is not a factor of SSI eligibility. Therefore, an alien who has a sponsor
+is not automatically eligible or ineligible for SSI. As long as the alien claimant
+meets all factors of SSI eligibility (e.g., be aged, blind, or disabled; have income
+and resources within the allowable limits and meets the SSI alien eligibility requirements),
+they can be paid SSI.
+See SI 00502.215C for a list of immigration codes that may indicate the alien was sponsored under a
+new version affidavit.
+Do not develop sponsorship for:
+•
+Any month in which an alien is ineligible for SSI for a reason other than deeming
+(e.g., alien is ineligible because of the alien's own income and resources).
+•
+Aliens who meet the conditions for exceptions to sponsorship listed in SI 00502.240D above.
+•
+Aliens who would be ineligible based on their own income and resources.
+Verify sponsorship for all other qualified aliens who are otherwise eligible for SSI
+and subject to deeming.
+NOTE: For aged aliens who need a disability determination, do not defer development of
+sponsorship pending the disability decision.
+2. How to Verify Sponsorship
+Request sponsorship information about the alien from DHS/USCIS via the Systematic
+Alien Verification for Entitlements (SAVE) program using the following steps:
+•
+Initiate a SAVE Initial Verification.
+•
+Enter the requested information as prompted and select SSI as the benefit the applicant
+is requesting.
+Since SSI is a federal means-tested public benefit, if sponsor information from a
+legally enforceable affidavit of support is available, SAVE will electronically return
+a response that includes the sponsor's:
+•
+First and last name and middle initial,
+•
+Social Security Number, and
+•
+Address.
+If SAVE has no sponsorship information, then “Not Applicable” will be displayed in
+the “Sponsors” section of the Case Details page in SAVE.
+In some situations, the SAVE initial verification response may instruct you to institute
+Additional Verification if you need sponsor information. In these situations, institute
+an Additional Verification with a note in the "Special Comments" field specifically
+requesting sponsor information.
+IMPORTANT: If the SAVE response includes sponsor information, then the screen will also include
+an "Answer Sponsorship Compliance Questions" button that contains sponsor deeming
+and agency reimbursement questions. DO NOT
+SELECT THIS BUTTON AND DO NOT ANSWER THESE
+QUESTIONS. SSA does not have legal authority to provide answers to these questions. You do
+not need to complete these compliance questions to verify sponsor information.
+NOTE: DHS forms G-845 and G-845 Supplement are obsolete. Therefore all of the specialized
+information previously available on these paper forms are now available electronically
+in SAVE during a case verification query. The "Additional Request" feature in SAVE
+replaces the paper G-845 Supplement.
+3. Developing the Battery and Indigence Deeming Exception
+a.
+Battery Exception
+Cases where the battery exception would apply are sensitive and require tactful handling.
+For sponsor-to-alien deeming to be suspended due to the battery exception:
+•
+a qualified alien, a qualified alien’s child, or the parent of a qualified alien child
+that has been battered or subjected to extreme cruelty by a spouse, parent, or other
+member of the family living in the same household as the alien, and in the case of
+a qualified alien whose child is abused, the alien did not participate in the abuse,
+and
+•
+there is a substantial connection between the battery and the need for benefits, and
+•
+the abusive act(s) must have taken place while the alien was in the United States,
+but the individual subject to such battery or cruelty must not currently reside in
+the same household with the individual responsible for the cruelty or battery.
+If battery or extreme cruelty is alleged and it appears the exception might apply,
+develop the battery exception following the guidelines in SI 00502.116.
+b.
+Indigence Exception
+Cases where the indigence exception would apply are sensitive and require tactful
+handling.
+To determine if the indigence exception should be developed, discuss deeming provisions
+and the exceptions with the alien. Explain to the alien that SSA considers the sponsor’s
+income and resources to be the alien's income and resources in determining eligibility
+and computing payment. Briefly explain when the indigence exception applies based
+on the criteria of SI 00502.280. If it appears the exception might apply, follow the guidelines in SI 00502.280.
+4. Verifying Sponsor’s Income and Resources
+Follow the instructions in SI 01320.920.
+5. Determining Deemed Income and Resources
+Apply the policies in SI 01320.940 - SI 01320.950 and SI 01330.500 to determine the amount of deemed income and resources.
+6. Systems Considerations
+MSSICS cannot process cases where deeming under the new version affidavit will apply.
+Input manually the sponsor’s deemed income as Type V unearned income (see SM 01005.195
+for initial claims input and SM 01305.330 for posteligibility input). Also, input
+the appropriate sponsor deeming code to the AR field (see SM 01005.630).
+7. Notice Requirement
+The notice in a case involving deeming under the new version affidavit cannot be automated.
+Suppress the automated notice (see MS 00302.018, SM 01005.535 or SM 01301.675) and
+prepare a manual notice including a general description of deeming under the new version
+affidavit. Remember to fax the manual notice into NDRed.
+NOTE: The language that describes the effect of deeming (e.g., paragraphs 1234 and 1248)
+is unchanged. See SI 00502.550A for additional language to be included in the notice to the alien.
+8. Sponsor Repayment
+Follow instructions in GN 02230.055A.6. for posting the sponsor's repayment debt and instructions in GN 02403.006 (Field Office) and OS 00501.012 (Processing Center) for processing the sponsor's
+repayment. Follow instructions in SI 02220.065 for recovery of sponsored alien's SSI payment from the sponsor.

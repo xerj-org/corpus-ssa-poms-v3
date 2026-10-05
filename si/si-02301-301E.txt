@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - SI 02301.301 - Overview of Goldberg/Kelly (GK) Processing
+Effective Dates: 10/14/2004 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301301 (fetched 2026-10-04)
+
+E. Examples
+1. Incoming Change/Adverse Action - System Sets MBL
+Evelyn English's monthly benefit amount is $100. An incoming change in July 2004 results
+in a new benefit amount of $50 for September. The system identifies the change as
+an adverse action because the new amount of $50 is less than the last amount of $100.
+The system processes the adverse action, issues an automated GK notice and posts the
+MBL of $50 to the record. The notice explains that the benefits will be reduced to
+$50 beginning in September.
+Later in July 2004, Evelyn reports a subsequent change that again affects the September
+benefit. See the examples in SI 02301.301E.2. and SI 02301.301E.3.
+2. Subsequent Change/Increase in Payment
+Same as Example 1 (SI 02301.301E.1.) except that the FO inputs the subsequent change to the system on August 2, 2004.
+Evelyn's monthly payment of $100 will change to $75 beginning September. The system
+processes the change as an increase because the new amount of $75 is greater than
+the MBL of $50 set by the last GK notice. The system issues Form SSA-L8151 (Notice
+of Change in Payment) which explains the increase to $75 beginning September 2004.
+3. Subsequent Change/Adverse Action - System Sets New MBL
+Same as Example 1(SI 02301.301E.1.), except the subsequent incoming change to the system on August 2, 2004 results in
+a new benefit amount of $25 for September instead of the MBL of $50 set by the last
+GK notice. The system processes the change as an adverse action, issues an automated
+GK notice to reduce the September 2004 payment to $25 and posts the new MBL of $25
+to the record.
+4. Inputting Adverse Action During GK Temporary Period
+During the systems GK temporary period in October 2004, Alvin Carr provides evidence
+of wages for past months. The FO computes the effect of the wages on the following
+month's benefit amount and determines that a reduction is necessary. If the changes
+are processed through MSSICS, an online GK notice can be issued and the system will
+post the required DPD entries. Otherwise, the FO inputs the required DPD entries with
+the wages and issues a manual GK notice to reduce the November 2004 payment on time.
+NOTE: If the wages did not reduce the benefit amount until December due to RMA, the FO would
+have input the wage changes through MSSICS or on a 1719B without DPD entries and the
+system would issue an automated GK notice to reduce the December 2004 payment.
+5. Inputting Adverse Action During GK Temporary Period After Period of S06, S07 or S08
+Sam Yoo's monthly SSI benefit amount is $446. Sam's record goes to non-pay effective
+April 2005 for whereabouts unknown (S06). Sam requests reinstatement in May. The FO
+determines that the correct monthly payment beginning in June is $297.34 due to the
+value of food and shelter Sam began receiving 2 months before in April. During the
+GK temporary period in May, the FO should process the change through MSSICS and select
+the online or manual GK notice option on the DBGK screen in order to reinstate benefits
+and reduce the June 2005 payment to $297.34.
+NOTE: If the FO did not select the online or manual GK notice option on the DBGK screen
+or if the FO input the changes after the GK temporary period, Sam would have been
+overpaid for June 2005. The system would have paid $446 for June and issued an automated
+GK notice to reduce the July payment to $297.34.
+6. Inputting Adverse Action During GK Temporary Period – Underpayment on SSR (payment
+type codes 2 or 4) – Manual Notice Required
+During the systems GK temporary period in January 2005, Brooklyn Bryant provides evidence
+of wages for past months. Brooklyn's SSR already shows that an underpayment is due
+(payment type code 2). The FO determines that Brooklyn's benefits should be reduced.
+If the case is in MSSICS, the FO inputs the wages, selects the manual notice handed
+or manual notice mailed option (depending on if the notice will be handed or mailed)
+on the Goldberg Kelly (DBGK) screen, sends the information to the SSR so the system
+can build the DPD entries, and prepares and issues the manual GK notice. For cases
+processed outside MSSICS, the FO inputs the required DPD entries with the wages and
+prepares and issues a manual GK notice to reduce the February 2005 payment on time.

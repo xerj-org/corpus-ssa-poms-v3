@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - DI 13010.620 - The CDR FO Input (IFOA) Screen
+Effective Dates: 04/29/2016 - Present | TN 15 (11-02)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010620 (fetched 2026-10-04)
+
+D. Procedure – Completing the IFOA Screen
+Complete the IFOA to update or transfer the FO action.
+1.
+The DCF ID, SSN, and TYPE OF SELECTION fields will be propagated.
+2.
+The UNIT code will be propagated by the DCF but can be over-keyed to correct the individual
+unit code per office procedures.
+3.
+The SELECT EVENT TYPE field reflects the update action for this transaction. The possible
+EVENT TYPES are:
+•
+1, TRANSFER CASE (CDR INITIATED/DIRECT RELEASE). Use this event type to transfer an
+initiated CDR or a direct release medical CDR to another office. This input requires
+an OFFICE RESPONSIBLE FOR THE NEXT ACTION code. Use this code to transfer an EXR approval
+to OCO/PSC (see DI 13050.000 for EXR procedures).
+•
+2, TRANSFER CASE (WHEREABOUTS UNKNOWN/FAILURE TO COOPERATE). Use this event type to
+transfer a whereabouts unknown or failure to co-operate case to another office or
+to transfer the case to the DDS for a medical determination. This input requires an
+OFFICE RESPONSIBLE FOR THE NEXT ACTION code.
+•
+3, WHEREABOUTS UNKOWN. Input this event type to update the DCF to create the whereabouts
+unknown event in the DCF. This input requires an OFFICE RESPONSIBLE FOR THE NEXT ACTION
+code.
+•
+4, FAILURE TO COOPERATE. Input this event type to update the DCF to create the failure
+to cooperate event in the DCF. This input requires an OFFICE RESPONSIBLE FOR THE NEXT
+ACTION code.
+•
+5, SSR/MBR/OTHER CONDITIONS – STOP CDR. Use this code to indicate that the CDR action
+is being terminated for miscellaneous reasons. Until future enhancements can be made,
+use this code to close T2WORK and EXR denial events when actions have been completed.
+•
+6, 301 CASE – VOC REHAB. For SSDI cases use this code to indicate a Section 301 case.
+The individual is participating in a vocational rehabilitation program and payment
+of benefits may continue after a medical cessation by DDS. SSI cases are controlled
+by use of the VP diary. (See SM 01305.993)
+•
+7, ASSISTANCE REQUEST. Use this code to request assistance from another office. This
+input requires an OFFICE RESPONSIBLE FOR THE NEXT ACTION code. When this event code
+is used two systems generated issues will be generated on the CDRW screen, see MSOM
+CDR 001.013 for information on the CDRW screen.
+•
+8, DIRECT RELEASE NOTICE INITIATION. Use this code to indicate that notice has been
+sent on a direct release CDR case. Enter the appropriate date the notice was sent.
+This action is needed to document when the CDR was initiated.
+4.
+The OFFICE RESPONSIBLE FOR THE NEXT ACTION must be completed when transferring a file
+to another office. Enter the standard three-digit office code to where the file is
+being forwarded. This field is not required for event types 5 or 8. The DCF pre-fills
+the office code with the last code on record and must be over keyed with the proper
+office code if forwarding the action out of the office.
+5.
+Complete the SEND FOLDER TO ABOVE DESTINATION field with a Y entry if forwarding the
+folder with the action. This entry will link to the PCACS FOFM screen.
+6.
+Complete the SSNX field information contained on the bar code on the folder when transferring
+a folder.
+7.
+For EDCS exclusion cases, enter Y in the ESTABLISH DDS RECORD (Y/N) field if forwarding
+an action to a DDS.

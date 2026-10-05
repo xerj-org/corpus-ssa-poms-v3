@@ -1,0 +1,30 @@
+SSA Program Operations Manual System (POMS) - DI 11035.010 - FO Processing of Medicare for Qualified Government Employment (MQGE) Disability Claims
+Effective Dates: 09/02/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411035010 (fetched 2026-10-04)
+
+B. Processing MQGE claims
+MCS Earnings Computation (EC) is the primary means for processing most claims and
+provides the yearly earnings and the insured status information, along with the primary
+insurance amount (PIA) if the individual is insured.
+•
+When a medical allowance is returned from the DDS, adjudicate the claim via EC.
+•
+When the DDS makes a determination to disallow the claim, process the denial via EC.
+NOTE: Whenever possible, process all MQGE claims through EC by indicating “PROCESS AS MQGE
+(Y/N): Y on the MREQ screen.”
+•
+If you cannot process an allowance using MCS EC, adjudicate via A101.
+•
+If you cannot process the denial via EC, input the determination via Manual Adjustment
+Credit and Award Data Entry (MACADE) (see SM 00380.500ff). If the official folder
+is paper, retain the folder for the six-month holding time.
+NOTE: If MCS EC is unable to process the allowance, use the Informational/Certified Earnings
+Record System (ICERS) to obtain an earnings record (E/R). Review the Earnings Alerts
+Query (EAQY) for earnings alerts per “Earnings Alerts Query” SM 00355.000.
+See Details:
+•
+DI 11010.030C – Field Office (FO) Operating Instructions for Deferred Title II Initial Claims
+•
+DI 81010.140 – Processing Field Office (FO) Determinations
+•
+RS 00301.120 – DIB Insured Status

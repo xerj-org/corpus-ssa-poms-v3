@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+E. Systems-generated triennial ACE redetermination alerts
+Each year redet alerts are generated to review for a possible redet increase. The
+system automatically screens out cases where the criteria for redet are not met. However,
+if the offset coding on the MBR is incorrect or incomplete, an alert may be generated
+incorrectly. To prevent future incorrect redet alerts, the Claims Authorizer/Claims
+Technical Examiner (CA/CTE) notifies the Benefit Authorizer/Benefit Technical Examiner
+(BA/BTE) to correct the MBR invalidity.
+1. ACE redetermination alerts and reverification of WC/PDB payments
+As part of the redet alert process, we reverify WC/PDB payments every three years.
+If the alert is generated for the correct year, ensure that the WC information/verification
+is current, as follows:
+•
+If WC/PDB information/verification is more than one year old, verify WC/PDB payments
+via direct contact, online access with State records, etc.
+EXCEPTION: Reverification is not required if the WC claim has been finally settled and the continuing
+offset is solely due to the proration of a previously verified lump sum settlement.
+For information on WC/PDB verification and permanent retention procedures, see DI 52145.001.
+•
+If the information/verification is not older than one year old and there is no reason
+to question it, reverification is not required.
+2. ACE redetermination alert codes
+All redet alerts contain the legend: (YEAR)-WC Redet and PCACS TOEL (S) OFFSET WCREDET.
+There are three types of redet alerts, Y, W, and Z. These codes are shown at the top
+of the redet alert.
+Code Y
+These alerts have sufficient coding (correct or not) to allow the system to identify
+these cases for a possible increase. These alerts are sent to a CA/CTE for review
+and processing.
+Code W
+These alerts indicate a lack of proper offset coding, thus the system cannot determine
+if the case has the potential for an increase. These alerts are sent to a CA/CTE for
+review and processing.
+Code Z
+Since 1984, the system has performed a modified screening computation on the potential
+code Y alerts. Thus, the system is able to screen out for prong-filing about 30% of
+the code Y alerts normally produced. Those screened out alerts are identified as code
+Z and include the remark Prong-file - (Year) Redet Not Applicable. However, Code Z alerts may no longer be
+filed without action and are processed in the same manner as Code Y alerts to ensure that WC/PDB payment
+information is current. Obtain updated WC/PDB data and, if there has been any change
+in the compensation rate, recompute offset, including any triennial redeterminations.
+3. ACE redetermination alertprocessing steps
+•
+Verify that a redet is potentially due. (For criteria that prohibit a redet, see DI 52150.080D. in this section.)
+•
+If the alert is erroneously generated, notify the BA/BTE to correct the MBR invalidity.
+NOTE: An erroneous alert is sometimes produced due to inconsistent or questionable data
+on the MBR (e.g., data fields ACE, PER PMT, WCPDBDET and WCPDBOFF). Corrections, other
+than adding a STOP date, normally require preparation of a new offset Datasheet.
+•
+Using current WC/PDB information, compute the triennial redetermination of the ACE
+via ICF, or Form SSA-3643 if a manual computation is necessary. A redet ACE may or
+may not yield an increase in benefits payable after offset.

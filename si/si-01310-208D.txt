@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - SI 01310.208 - Computing Payments and Using a Worksheet in Deeming Waiver Cases
+Effective Dates: 09/13/2016 - Present | TN 39 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501310208 (fetched 2026-10-04)
+
+D. Procedure — systems input
+1. Input force due (M02)
+Deeming waiver cases must be manually calculated. See SM 01701.000 for system force
+due procedure.
+2. Input FLA/OS
+Input code “D” in the Federal living arrangement (FLA)  field, and the appropriate State code or code “Z” in the optional supplement (OS)  field. See SM 01005.315 ff. for initial claim or SM 01301.505 for posteligibility
+input instructions.
+3. Input current and retroactive payment
+After computing payment due in B. above, make the proper systems input following the
+instructions in MSOM BUSSR 002.006.
+4. Input CG code
+Input DM18 in the case characteristics (CG)  field.

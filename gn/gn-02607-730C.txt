@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02607.730 - Processing Cases Through PUPS After the Conviction/Commitment Is Confirmed
+Effective Dates: 06/25/2004 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607730 (fetched 2026-10-04)
+
+C. PROCEDURE - PUPS PROCESSING BENEFICIARY NOT CONVICTED OR COMMITTED OR IN AN INSTITUTION
+30 DAYS OR LESS
+If the beneficiary was not convicted of a crime or committed as an NGRI, incompetent
+to stand trial individual or a sexually dangerous person, or was in a correctional
+or mental institution 30 days or less, process as indicated in the chart below:
+ACTION
+PUPS PROCESSING ACTION
+INPUT DATA
+SELECT
+Type of Action
+2 - CLEAR CONTROL--NO SUSPENSION NECESSARY
+POST
+Conviction Date
+Post conviction date if beneficiary was convicted and released before remaining in
+jail 30 continuous days or less or given time already served.
+Do not post a conviction date for individuals not convicted of a crime; e.g., NGRIs,
+etc.
+POST
+Release Date
+Date beneficiary was released from the institution.
+POST
+Remarks
+Explain the reason for the "NO SUSPENSION" clearance in the PRMK screen on the PUPS
+record.

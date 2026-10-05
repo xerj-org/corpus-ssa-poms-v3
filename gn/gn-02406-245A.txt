@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - GN 02406.245 - Payment Over Cancellation (POC)/Credit Reversal
+Effective Dates: 10/15/1997 - Present | TN 120 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406245 (fetched 2026-10-04)
+
+A. Department of the Treasury (Treasury)process
+By keying in specific stop codes, the Social Security Administration (SSA) requests
+Treasury to either issue a courtesy disbursement check prior to obtaining status of
+the original check (B-stop) or investigate the status first and issue a replacement
+check if the original check is still uncashed (C-stop). Refer to GN 02406.125 for a description of the nonreceipt codes on POS screens for Title II inputs and
+their relationship to the stop codes used by SSA and Treasury.
+The following description of these stop codes also explains the circumstances that
+may lead to a payment over cancellation (POC).
+1. Nonreceipt stop codes
+a. B-stop
+When the FO/PSC/TSC transmits a stop code of “B” (NRT = 1 or NC code B), the RFC will screen the claim and issue a courtesy disbursement
+if a check for the amount reported was issued and if the original check has not been
+returned. The claim is then sent to the Check Claims Branch (CCB) for processing.
+If the check has not been presented for payment (outstanding), CCB cancels the original
+check and uses the “credit” to fund the courtesy disbursement check.
+b. C-stop
+When the FO/PSC/TSC transmits a stop code of “C” (NRT = 2 or NC code C), the claim goes to the RFC first to determine if the original
+check was returned, if the check was issued, and to provide the check number and symbol.
+Then the RFC sends the claim to CCB who investigates to determine if the original
+check has been cashed and presented to Treasury for payment. If the check has not
+been negotiated, CCB cancels the original check, and notifies the RFC to issue a replacement
+check. The “credit” for the cancelled original check is used to fund the replacement check.
+c. G-stop
+When the FO/PSC/TSC transmits a stop code of “G” (NRT = 4 or NC code G) and the original has not been cashed, a credit is returned
+to SSA. The check can be reissued, if still due.
+2. Mass Loss
+If the Mass Loss procedure applies, the FO/PSC/TSC will transmit a stop code of “A” (NRT = 3 or NC code A) for Title II and Title XVI checks. When the “A-stop” is transmitted, Treasury will issue a courtesy disbursement if the check has not
+been returned to the RFC. The claim is then sent to CCB for processing. If the check
+is outstanding, CCB cancels the original check and returns credit to SSA. (See GN 02406.700 for additional information about mass loss.)
+3. Payment over cancellation (POC)
+A POC is negotiating any check for which Treasury has put under a stop payment order.
+For example, when Treasury cancels the original check, issues a courtesy disbursement
+check, and the original is later cashed, this is a possible POC.
+Due to updates to Treasury  regulations, the FI must take reasonable measures to avoid
+POCs or the FI will be liable for the negotiated check payment. Treasury upgraded
+its post payment system to provide check return information to financial institutions
+(FI) and ensure they have current and accurate check information. This update will
+help reduce monetary losses arising from situations when Treasury puts a stop payment
+on a check, but the FI still negotiates payment on that check. Additionally, Treasury
+will no longer charge the issuing agency (SSA) in POC situations...[BT1]   [BT1] This
+is based on EM -23074 SEN REV

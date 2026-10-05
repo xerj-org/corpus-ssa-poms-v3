@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 03101.125 - iAppeals - General and Title II Instructions
+Effective Dates: 12/02/2025 - Present | TN 22 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203101125 (fetched 2026-10-04)
+
+D. FO procedures for processing appeal requests submitted through iAppeals
+Technicians may view the iAppeals screens on SSA’s Intranet ApPages.
+1. How iAppeals assigns appeal requests
+iAppeals adds appeal requests to the Internet Disability workload management information (WMI)
+list as follows:
+•
+TII only and TII only Canadian appeal requests to the Internet Disability WMI of the
+FO that serves the zip code of the claimant’s mailing address. Appeal requests with
+a Canadian address go to the FO associated with the first three characters of the
+claimant’s mailing address postal code (see GN
+01715.320B),
+•
+other foreign TII only appeal requests to the Office of International Operations Internet
+Disability WMI TII, and
+•
+all TII and TXVI Concurrent and TXVI only appeal requests to the Internet Disability
+WMI based on the claimant’s preferred office.
+2. Identify appeal requests on the Internet Disability WMI
+iAppeals does not automatically assign appeal requests to individual technicians.
+Managers and technicians must view the Internet Disability WMI - Internet Appeals
+list. To obtain a list of appeals, access the Internet Disability WMI– FO Listing
+Menu and request a list per the instructions in MS 02801.002. An appeal remains on
+the list until a technician propagates the appeal information into the appropriate
+system.
+3. Import and process TII appeal requests
+The following are instructions to import and process TII appeal request submitted
+through iAppeals. Use the instructions in SI
+04005.035B to process TXVI appeal request submitted through iAppeals.
+a.
+Within five business days of the submit date that appears on the FO’s Internet Disability
+WMI listing take the following action(s):
+•
+import the i561 and i3441, or
+•
+import the i501 and i3441.
+Import the iAppeals appeal request into the Modernized Claim System (MCS) by opening
+an appeal event per TII Appeals Screens MS 03510.001 through MS 03510.008. Most of
+the information from the i561 or i501 propagates to MCS. However, technicians must
+enter information such as the good cause for late filing statement and other fields.
+See DI 81010.137 when the IU submits documents through the iAppeals attachment utility.
+b.
+Review the information and contact the claimant to resolve any discrepancies. MCS
+alerts a technician when the contact information in iAppeals is different than what
+is in MCS.
+c.
+Develop other issues and good cause for late filing of the appeal when necessary.
+Use MCS to document development of these issues.
+d.
+Use the EDCS to transfer the appeal request to the Disability Determination Services
+(DDS) or servicing hearing office (HO) as appropriate. Transfer a hearing request
+to servicing HO within five business days of the submit date on the FO’s Internet
+Disability WMI listing. Mail a copy of the appeal request to the claimant after loading
+it into the Online Retrieval System (ORS).
+e.
+If an IU also lists a non-medical issue as a reason for appeal, process the appeal
+request for it too.

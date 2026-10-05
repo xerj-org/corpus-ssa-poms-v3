@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - DI 52140.010 - Processing Center (PC) Responsibilities for Processing Workers’ Compensation/Public Disability Benefit (WC/PDB) Offset
+Effective Dates: 09/13/2017 - Present | TN 11 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452140010 (fetched 2026-10-04)
+
+D. Establishing a diary control in the PC
+Create a diary for a future WC/PDB action when no system output or alert will generate
+to notify the PC of the future action. For example, create a diary to notify the PC
+of the future action for known COLA increases of the WC/PDB benefit amount.
+Take the following steps, as appropriate, to establish a diary control in the PC:
+1.
+MCS - When processing an approved hearing decision, establish the diary using the DECI
+and DIAR clearance screens. The MCS diary establishes a diary control in PCACS. For
+instructions on establishing diary control for WC/PDB, see DI 52155.005.
+2.
+Non-MCS - Establish the diary through PCACS. For PCACS instructions, see Diaries and Development
+Overview in MS 04909.001 through MS 04909.013.

@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - SI 02003.023 - Processing eIAR Exception Cases
+Effective Dates: 07/28/2025 - Present | TN 34 (07-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502003023 (fetched 2026-10-04)
+
+C. Examples of IAR exception cases
+Here are two examples of where an eIAR exception can occur.
+Example 1: The individual files a subsequent claim which the CR start-dates while a prior claim
+is pending, and IAR is involved for the prior claim. When this happens, the SSI system
+does not build an underpayment on either SSR. You must use an A-OTP to pay all SSI
+payments due for the period prior to the start date. Posting the GR code would only
+affect the subsequent claim.
+Example 2: An ineligible spouse files a claim and IAR is involved. The CR establishes a couple
+start date record upon receipt of the medical determination. The CR establishes the
+start date record using the CCM as the start date month and immediately processed
+to C01 status. In this situation, there is no underpayment on the start date SSR record.
+If the CR posts a GR code, the input will generate an “L” for late or an “N” for no
+underpayment.

@@ -1,0 +1,218 @@
+SSA Program Operations Manual System (POMS) - GN 01703.710 - Completion of the e4962, Totalization Data Collection Form, via the Totalization Data Collection Program (TDCP)
+Effective Dates: 07/24/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201703710 (fetched 2026-10-04)
+
+D. Procedure for completing the e4962
+Complete the information on the e4962 via the TDCP as follows:
+1. Section I - Identification
+Always complete Section I in its entirety.
+NOTE: The TDCP can accommodate multiple receipts under multiple agreements for any SSN.
+Under TDCP, a combination of SSN, Agreement code, and Receipt code defines a TDCP
+record. The SSN alone will not identify a TDCP record.
+•
+SSN: Always enter the 9-digit U.S. SSN in the blocks provided.
+•
+Agreement: Select the appropriate Totalization country from the drop down menu to indicate the
+agreement that the application or assistance request applies.
+NOTE: As new agreements become effective, your DIO TDCP Administrator will add the new country
+into the TDCP database.
+•
+Receipt: Select the appropriate code from the drop down menu to indicate the type of receipt.
+NOTE: TDCP can accommodate up to two applications and two assistance requests per agreement for each SSN. Therefore, it is essential that you show the correct Receipt code, along
+with the SSN, and Agreement code to ensure that you identify the proper record under
+the proper agreement.
+a. Application 1
+Select this code from the drop down menu to record the initial application receipt
+for each agreement on the same SSN.
+NOTE: Consider a supplemental application obtained to change a filing restriction or a response
+to an unanswered question, e.g., part of the initial application.
+Usually, the application that you code data from is the SSA-2490, Application for
+Benefits under a U.S. International Social Security (Totalization) Agreement. However,
+if a foreign application, such as a D/USA 1, US/Italy 1, etc. is the only application
+received on the case, code the data from that application. In addition, you may code
+data from the U.S. national applications from the Direction de l'Administration des
+ententes de securite sociale (DAESS) in Quebec, Canada.
+b. Assistance Request 2
+Select this code from the drop down menu to record the initial foreign agency assistance
+request for each agreement on the same SSN. Treat follow-up requests as part of the
+initial request; i.e., do not code them as additional requests.
+c. Application 3 (DIB after Death)
+Select this code from the drop down menu to record any additional applications under
+the same SSN and same agreement. For purposes of the TDCP, this “additional application”
+pertains to situations where a worker, who files a Totalization application, dies
+prior to adjudication, and requires a surviving claimant to complete another Totalization
+application. The “additional application” also pertains to “disability insurance benefits
+(DIB) after death” claims filed by persons who already filed claims for survivor's
+benefits.
+d. Assistance request 4 (Follow-Up)
+Select this code from the drop down menu to record any subsequent assistance request
+under the same SSN and same agreement. Treat this request as a subsequent request,
+if the information requested is new or different from the information initially requested.
+2. Section II- transaction code
+Select the appropriate code from the drop down menus as follows:
+a.
+(ADD): Select this code to add a new record to the TDCP.
+Note:
+You must record every Totalization application and foreign assistance request received in DIO on the
+TDCP via transaction code A.
+b.
+(CHANGE): Select this code from the drop down menu to correct information for a record
+that already exists on the TDCP. Use this code to update or add data as long as the
+record is still pending on the TDCP.
+Select this code from the drop down menu to record the U.S. Totalization Claim Authorization
+Date for a pending TDCP record. No entries required in Parts III, IV, or V of the
+form.
+Exception: If you previously requested foreign agency development (Part V-A) and entered the
+information onto TDCP, you must record the receipt of that development in Part V-C,
+in order for this action to work.
+Use the Change transaction code to update the following to a pending TDCP record.
+•
+date claims package sent to the foreign agency, or
+•
+date of reply sent to a foreign agency.
+NOTE: If the DIO receipt date (IV-D) is incorrect on TDCP, a transaction C and the correct
+date are the only items that you must code, in addition to the mandatory SSN, Agreement
+code, and Receipt code. You cannot use this code to correct the SSN, Agreement code,
+or Receipt code.
+c.
+(DELETION): Select this code from the drop down menu to delete a record from the TDCP
+pending file. You will mostly use this code to correct the SSN, Agreement code, or
+Receipt code.
+Also, use this code, including the SSN, Agreement code, and Receipt codes to delete
+a withdrawn claim from the TDCP pending file.
+Note:
+After you select a transaction code D to delete an erroneous record, you must select
+a new transaction code A form to establish the new record.
+3. Section III - Characteristics
+Complete Section III - Characteristics for application receipts only. Complete this
+section on all transaction A forms and transaction C forms when you correct information
+in Part III.
+Note:
+Never complete this section for transaction D forms or for assistance requests (receipt
+code 2 or 4).
+Category:
+•
+Select the appropriate code from the drop down menu to indicate whether the application
+is for both U.S. and foreign benefits (1), is restricted to U.S. only (2), or restricted
+to foreign benefits only (3).
+•
+Determine the correct category from question 2 of the Totalization application, the
+SSA-2490-F4. If you receive an application for only foreign benefits, e.g., a D/USA
+1, select category 3.
+•
+Determine the category based on what DIO receives. Thus, if a border DO or FSP sends
+a foreign claim directly to the foreign agency and forwards only the U.S. claim to
+DIO, code the application as category 2 (U.S. only).
+•
+Select the appropriate code from the drop down menu code list to indicate type (retirement,
+disability, etc.) of benefits claimed. Determine the type from question 2 of the SSA-2490-F4.
+Note:
+Enter only one code per form. In most category 1 (U.S. and foreign) claims, the types
+of benefits claimed are the same. However, because of the differences in eligibility
+factors, a claimant may occasionally apply for different types of benefits from each
+country (e.g., U.S. retirement and foreign disability). In this situation, indicate
+type code 5 (OTHER).
+4. Section IV - Filing and request information
+Complete this section to obtain specific filing information for applications and assistance
+requests.
+(A) Office Code - Select the appropriate code from the drop down menu to indicate the office type
+that filed the application. Since all assistance requests are from foreign agencies,
+“3” is the only option available in the assistance request column. If appropriate,
+select an office code. The office code selections are:
+•
+F.O. - Field or district offices including DIO and VARO in Manila.
+•
+F.S.P. - U.S. Foreign Service Posts.
+•
+FOR. AGCY. - Foreign agencies (including claims that originate in Quebec, but routed
+through border DOs).
+Other - Other offices (including claims filed directly with the DIO).
+(B) Foreign agency code - For assistance requests, select the 3-digit code from the drop down menu or click
+on the “List” button option indicating the specific foreign agency that requested
+assistance. Do not make an entry for claims (applications) received in DIO.
+(C) Application date – Click on the Application Date Calendar, and select the filing date of the Totalization application. This date is generally located in the block labeled “Do not write in this space”
+in the upper right hand corner of the SSA-2490-F4, or the upper left on the SSA-2528,
+Medical Evidence (IT/USA 1). If you cannot locate the date in that block, you can
+locate the date on the back of the form. If there is more than one date shown, use
+the earliest date. Never complete this block for assistance requests.
+NOTE: Since we are attempting to measure processing time from the receipt of the actual
+application, the date entered on the e4962-U2 will not always correspond to an established
+protective filing date.
+(D) Office receipt date – Click on the Office Receipt Date Calendar and select the date your office received
+the Totalization application or foreign agency assistance request. You should stamp
+the date on the back of the application form (date of Modernized Claims System (MCS)
+input) or assistance request. If there is no date stamp, use the current date.
+5. Section V - foreign agency development
+Complete section V - Foreign Agency Development to capture the number of development
+requests sent, the number pending with foreign agencies, and the processing time.
+When requesting development for U.S. claim, complete section A and B of the e4962;
+complete section C upon receipt of the reply.
+NOTE: If the case does not require a development request to the foreign agency, there are
+no required entries for Part V. Do not complete this section for an assistance request
+or for a Category 3 application. The transmittal of a package to a foreign agency
+constitutes a development request only if it includes a request for information (usually
+an earnings record); without which, you cannot finally adjudicate the Totalization
+claim.
+Record foreign agency development information as it occurs.
+Example: When you request development from a foreign agency, complete the request date and
+agency code information. The TDCP will carry this as a pending item until it receives
+an indication that the office received this development. Thus, when you receive the
+development, you must record the receipt date in block (C). In addition, the receipt
+of the development from the foreign agency will generally permit the CTE or CR (domestic
+only) to complete final adjudication of the U.S. Totalization claim.
+(A) Date requested – Click on the Date Requested Calendar and select the date the request to the foreign
+agency was prepared by the office. If you do not request information from the foreign
+agency, leave this block blank.
+(B) Foreign agency code - Select the 3-digit code from the drop down menu or click on the “List” button option
+for the specific foreign agency where you sent the request. Complete this block if
+an entry is in the "Date Requested" (block A); otherwise, leave it blank.
+(C) Receipt date in office - Click on the “Receipt Date” calendar and select the receipt date of the foreign
+agency's response. You must complete this block when you receive development from
+a foreign agency.
+If you select a transaction code A, this entry must accompany the entries in the "Date
+Requested" and “Foreign Agency Code” blocks.
+If you select a transaction code C, you can code this entry independently of the “Date
+Requested” and “Foreign Agency Code” blocks, but must accompany the entries in the
+“Authorization Date” and “TSC” blocks in Part VI. Failure to record the receipt date
+will prohibit the entry of the U.S. authorization date in Part VI.
+6. Section VI - Final status
+Part VI of the e4962 is SSA's final disposition of the U.S. Totalization claim and
+the foreign claim or foreign agency assistance request.
+•
+If the receipt is an assistance request or an application for foreign benefits only
+(category 3), click on the “Package or Reply Date” calendar and select the appropriate
+date to clear it from the TDCP.
+•
+If there is an application for U.S. benefits only (category 2), click on the “Authorization
+Date” calendar and select the appropriate date and click on the “TSC” drop down menu
+or “List” button, and select the appropriate TSC code to clear TDCP.
+•
+If the receipt is an application for both U.S. and foreign benefits (category 1),
+click on the Authorization Date Calendar and select the appropriate date, and click
+on the TSC drop down menu or List button for the appropriate TSC code to produce a
+clearance. For many category 1 applications, the CTE or CR (domestic only) can select
+the U.S. Totalization claim authorization date at the time the record is first established;
+i.e., when preparing a transaction A. This happens often on cases where the final
+TSC is D1, D3, or D4. (You can also enter this information on transaction C forms.)
+Selecting the TSC code from the drop down menu in the TDCP is very important. Statistics
+on the number of Totalization claims processed will be unavailable from any other
+source throughout SSA. It is imperative that you make timely and accurate TSC entries.
+(A) U.S. Totalization Claim - Authorization Date - Select the appropriate date from the Authorization Date Calendar
+the U.S. Totalization claim finally adjudicates. The final authorization date will be the date the CTE or CR (domestic
+only) either awards or denies Totalization benefits, or the denial date of the claim on MCS.
+For foreign agency assistance requests (code 2 or 4 receipts) or claims restricted
+to foreign benefits only (category 3 application), do not make a selection.
+TSC (Totalization Status Code) - Select the final TSC code from the drop down menu
+applicable to the U.S. Totalization claim. If there is a date in the “Authorization
+Date” block, select a TSC code. For a list of codes, see GN 01703.230D.
+(B) Foreign claim or request - Package or reply date - Applications - Select the appropriate date from the calendar drop down menu that the claimant
+initially filed an application for foreign benefits with SSA and transmit to the appropriate
+foreign agency. No date is necessary for any subsequent packages.
+The date will generally be the same date you requested any necessary development from
+a foreign agency; i.e., the same date entered in Part V. No date is necessary for
+category 2 (U.S. only) applications.
+NOTE: If under the Canadian agreement, it is necessary to send a claims package to both
+the Canada Pension Plan and the Quebec Pension Plan, use the date that you send the
+later package.
+Assistance Requests - Select the date that you send the final reply to the foreign
+agency.

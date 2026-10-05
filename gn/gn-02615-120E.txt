@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02615.120 - Title II Clark Court Order Manual Processing
+Effective Dates: 06/25/2013 - Present | TN 12 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615120 (fetched 2026-10-04)
+
+E. Closed period case processing
+1. Determining a closed period of Clark relief
+For each closed period PPV warrant,
+Steps
+Actions
+1
+Check the PPV warrant data on the FUGITIVE data line on the MBR and on the FFSCF to
+determine the closed suspension period.
+For a closed PPV warrant, the MBR FUGITIVE warrant entries contain the following:
+WARRANT DATE = date the law enforcement agency (LEA) issued the PPV warrant
+FELON STATUS = VIOLATION
+WARRANT SATISFY= date the PPV warrant was satisfied
+SATISFIED RSN – Apprehended or Dismissed
+For a closed PPV warrant, the FFSCF Fugitive Felon Warrant Status (FFSQ) screen warrant
+entries contain the following:
+WARRANT DATE = date the law enforcement agency (LEA) issued the PPV warrant
+WARRANT STATUS = CLOSED
+IF WARRANT CLOSED, WARRANT END DATE= date the warrant was satisfied
+WARRANT ENDED REASON = Warrant Dismissed or Felon Apprehended
+WARRANT SATISFIED INPUT DATE = date the FO or PC keyed the warrant satisfied action
+2
+After reviewing the MBR and FFSCF warrant data, determine the closed PPV warrant period.
+The period begins with the WARRANT DATE or 01/01/2005 if later than the WARRANT DATE,
+and ends with the MBR WARRANT SATISFY/WARRANT ENDED DATE entry.
+NOTE: For computing the PPV closed period, remember that the earliest warrant date you
+can have is 01/01/2005 regardless of the actual PPV warrant date on FFSCF.
+EXAMPLE:
+Date of initial determination = 08/31/2008
+MBR FUGITIVE line
+DATE OF WARRANT = 02/05/2004 FELON STATUS = Violation
+WARRANT SATISFY= 07/21/2008
+SATISFIED RSN = Dismissed
+The closed period for this example = 01/01/2005 through 07/21/2008.
+3
+Determine the PPV suspension and overpayment initial determination date and if the
+PPV closed period warrant is eligible for Clark relief following instructions in GN 02615.120A.4 in this section.
+2. Reinstating benefits for a closed period of fugitive felon suspension
+For processing instructions for reinstating benefits for open and closed PPV suspension
+periods, see GN 02615.120D.1. in this section.

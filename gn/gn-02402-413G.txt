@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 02402.413 - Coding Uruguay Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/13/2019 - Present | TN 136 (05-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402413 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Uruguay
+The customer provides us with a signup form for Uruguay containing the account number:
+“12345678901122334455667788990.”
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 710000073
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Uruguay.
+•
+Start with the country code of “V” designated for Uruguay; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+a. You must obtain the following:
+•
+RTN: 710000073
+•
+Checking
+•
+DAN: V1234567890112233
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000073 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: V1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+RTN- 710000073 DAN- CV1234567890112233

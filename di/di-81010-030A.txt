@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - DI 81010.030 - Certified Electronic Folder (CEF) Exclusions and Limitations
+Effective Dates: 02/29/2024 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010030 (fetched 2026-10-04)
+
+A. EDCS Exclusions
+1. Modernized Claim Systems (MCS) Exclusions
+Most claims that are MCS exclusions cannot be created in EDCS. For a listing of MCS
+exclusions, see MSOM MCS 004.002.
+NOTE: The FO can establish an EDCS case for several types of conversion actions that do
+not require applications utilizing the MCS Exclusion Information functionality. For
+more information on these type of cases, see DI 81010.020.
+2. Department of Justice (DOJ) Changed-Identity Cases
+Social Security Administration (SSA) has jurisdiction of any Title II or Title XVI
+disability claim filed by, or on behalf of, an individual who changed their identity
+under the guidance of the DOJ (e.g., witness protection program). DDS does not have
+jurisdiction over these cases. See DI 20101.040. Due to the sensitive nature of these cases, they are not to be entered into EDCS.
+To process these EDCS exclusion cases, follow the instructions provided in DI 11055.115 for Title XVI claims and DI 11010.270 for Title II claims.
+3. Disability Claim or Appeal Filed Under a New SSN
+An individual may obtain a new SSN, with or without a name change, for various reasons,
+including in situations of harassment, abuse, or life endangerment (HALE); identity
+fraud; adoption; or religious or cultural objections to the number pattern of the
+current SSN. See DI 11010.273.
+Some of these claims are EDCS exclusions.
+a.
+New SSN due to HALE
+If a claimant who obtained a new SSN under HALE criteria files a new disability claim
+or an appeal on an existing claim, it is important to handle the new claim or appeal
+with the utmost confidentiality.
+•
+HALE claims filed with no prior filing under former SSN can be processed in EDCS.
+For instructions on processing these claims, see DI 11010.273B2a
+•
+HALE claims filed with a prior filing under the former SSN are EDCS exclusions. For
+instructions on processing these claims, see DI 11010.273B2b
+b.
+New SSN obtained for other reasons
+An individual may have received a new SSN for authorized reasons other than HALE,
+e.g., identity fraud; adoption; or religious or cultural objections
+•
+If a current claim is filed under a new SSN and a prior claim is filed under the former
+SSN, process these claims in EDCS following instructions in DI 11010.273C1.
+•
+If an appeal is filed under a new SSN on an existing claim filed under the former
+SSN, these claims are EDCS exclusions and are processed following instructions in
+DI 11010.273C2.
+4. Celebrity Cases
+For SSA purposes, a celebrity is defined as an individual of extraordinary national
+prominence (IENP).
+•
+SSA systems will identify these cases and alert the interviewer if an exclusion applies.
+•
+FO employees must not make the decision to exclude a case based on celebrity status.
+•
+FO employees must complete paper disability reports in situations involving celebrities.
+•
+FO should process this disability claim as an EDCS exclusion.
+5. Cases with Multiple Periods of Entitlement
+EDCS does not support cases that involve multiple periods of entitlement.
+6. End Stage Renal Disease (ESRD) Only Cases
+ESRD only claims for Medicare benefits that require a disability determination are
+EDCS exclusions.
+Process ESRD cases in accordance with HI 00801.186,
+HI Based on End Stage Renal Disease, through HI
+00801.186,
+Form SSA-892-U2 (ESRD Medical Determination), and
+DI 45001.001 End-Stage Renal Disease (ESRD) Entitlement Provisions, through DI 45001.340 Medicare Disallowances.
+For information on processing ESRD claims with a CEF, see Processing End Stage Renal
+Disease (ESRD) Cases DI 81010.144.
+7. Title II Statutory Blindness Determination Cases
+During a Title II work continuing disability review (CDR), a beneficiary may allege
+having a visual impairment. These statutory blind determination cases are EDCS exclusions.
+Although these cases are processed as CDRs, the DDS must make an initial statutorily
+blind determination. For paper processing procedures, see DI 13010.135.
+8. Multiple Pending Cases (MPC)
+Multiple Pending Cases (MPC) exist when both an initial claim and a CDR or Expedited
+Reinstatement (EXR), or Age 18 Redetermination case are pending for the same individual
+at the same time. Though most MPC can be processed in EDCS, there are still some scenarios
+considered exclusions. For MPC processed in EDCS, refer to DI 81010.031. For a list of MPC EDCS exclusions and paper processing procedures refer to DI 81010.030D.

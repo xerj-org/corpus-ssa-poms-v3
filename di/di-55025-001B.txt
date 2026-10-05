@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - DI 55025.001 - Determining Ticket Status
+Effective Dates: 07/23/2024 - Present | TN 5 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455025001 (fetched 2026-10-04)
+
+B. Definitions for ticket status terms
+1. Assignable ticket
+A ticket is assignable to an employment network (EN) or State vocational rehabilitation
+(VR) agency acting as an EN if a Ticketholder:
+•
+is age 18 through 64,
+•
+is in current payment status, and
+•
+is not subject to one of the exclusions listed in DI 55002.005C.
+To assign a ticket, the EN or State VR agency acting as an EN and the Ticketholder
+must complete and sign an employment plan to achieve a work goal. For more information
+on employment plans, see DI 55020.001. Once the Ticketholder assigns the ticket, the ticket’s status is “In Use” on the
+disability control file (DCF).
+NOTE: Although a beneficiary/recipient cannot assign a ticket at age 65 or later, if assigned
+the ticket prior to attaining age 65, the ticket remains active until full retirement
+age when the ticket terminates. For information on who is eligible for a ticket, see
+DI 55002.005B.
+2. Ticket “In Use” statuses
+a. In Use
+The “In Use” status means the Ticketholder assigned ticket to an EN or State VR agency
+serving as an EN to receive employment support services. The EN and Ticketholder must
+complete and sign an individual work plan (IWP).
+b. In Use SVR
+The “In Use SVR” status means a Ticketholder has a ticket that is assignable and is
+receiving VR services from a State VR agency under the VR cost reimbursement option.
+The “In Use SVR” status begins on the effective date of the individualized plan for
+employment (IPE). For information on employment plans, see DI 55020.001.
+If the Ticketholder signs the IPE when the ticket is not assignable, the “In Use SVR”
+effective date is the first day the ticket is assignable after the Ticketholder signs
+the IPE and is receiving VR services.
+3. Using a ticket
+“Using a ticket” refers to a specified period of time when the Ticketholder receives
+employment-related services from an EN or State VR agency and makes the progress toward
+self-sufficiency that is required under the regulations. The period of using a ticket
+begins on the effective date of the assignment of the ticket to an EN or State VR
+agency acting as an EN, or the date a beneficiary with a ticket begins receiving services
+from the State VR agency under the cost reimbursement option.
+4. Initiation date on medical continuing disability review (CDR)
+The CDR initiation date is the date on the notice sent to the Ticketholder that informs
+that SSA is beginning to review the disability case. The FO inputs the CDR initiation
+notice date to DCF on the CDR FO Input Screen (IFOA) following MSOM CDR 001.007.
+If you do not have the notice, you can query the following DCF screens to identify
+the CDR initiation notice date.
+•
+IFOA screen shows the notice date in the DIRECT RELEASE NOTICE INIT field.
+•
+General Ticket Query (TKQY) shows the notice date in the CDR INITIATION DATE field.
+•
+CDR Query Screen (QCDR) shows the notice date as the DIRECT RELEASE initiation DATE
+field.
+5. Extension period; 90-day period following case closure
+If a Ticketholder's ticket status is "In Use" or "In Use SVR" and the ticket becomes
+unassigned, the Ticketholder is entitled to a period of 90 days during which may reassign
+the ticket. During this period, called the extension period, the ticket is considered
+to be in use, the ticket status is "Not Assigned In Use - Extended," and the ticket
+continues to protect the Ticketholder from a medical CDR. A Ticketholder may reassign
+a ticket during this period even if disability-related cash benefits cease because
+of work and earnings.
+6. Ticket unassignment or ending “In Use SVR” status
+If a Ticketholder, an EN, or a State VR agency acting as an EN decides not to continue
+with the ticket assignment, the party dissolving the relationship must make a request
+in writing to the TPM to unassign the ticket.
+If a Ticketholder decides to discontinue working with a State VR agency that chose
+the cost reimbursement option, the Ticketholder must notify the State VR agency that
+they will no longer participate. The State VR agency will notify the TPM once the
+case closes.
+7. Ticket reassignment
+A Ticketholder may reassign a previously assigned ticket or place it in the “In Use
+SVR” ticket status if meets the ticket-eligibility criteria in DI 55002.005B and DI 55002.005C. The reassignment is effective on the first day the Ticketholder meets these requirements.
+NOTE: During the extension period or the 90-day period immediately following the case closure
+by the State VR agency, a Ticketholder can reassign the ticket whether or not meets
+the eligibility criteria described in DI 55002.005B and DI 55002.005C.
+8. Inactive status
+A Ticketholder must make a written request to the TPM to place the ticket in inactive
+status. A Ticketholder may call TPM at 1-866-968-7842 or 1-866-833-2967 (TTY) or email
+TPM at support@choosework.ssa.gov. When the ticket is in inactive status, the ticket
+remains assigned but the Ticketholder is not exempt from medical CDRs.
+A Ticketholder may reactivate the ticket by making a written request to the TPM. If
+the Ticketholder had been working with an EN or a State VR agency acting as an EN,
+the ticket may be reactivated only if the ticket remained assigned. If the Ticketholder
+had been working with a State VR agency under the cost reimbursement option, the ticket
+may be reactivated only if the ticket is available for assignment and the Ticketholder
+is receiving services from the State VR agency.
+9. Failed timely progress review (FTPR)
+When a Ticketholder does not meet the work or educational requirements for a timely
+progress review, the DCF will show the ticket status as "Assigned-Not In Use-FTPR,"
+and the Ticketholder will be subject to scheduled medical CDRs. There is no 90 day
+extension period for FTPR. The Ticketholder must meet the criteria set for the timely
+progress review before returning to “In Use” status.

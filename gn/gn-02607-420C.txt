@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 02607.420 - Incarceration Reporting and Control System (IRCS)
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607420 (fetched 2026-10-04)
+
+C. Changing a facility’s Employer Identification Number (EIN) or bank data
+After we establish a facility’s EIN and bank account data on IRCS, either or both
+may change over time. We can change these data upon receiving an acceptable request
+for the change(s).
+1. Acceptable forms of change requests
+A facility must submit a request to change its EIN or bank data in one of the following
+ways:
+a.
+A signed SF-3881 (Miscellaneous Payment Enrollment Form);
+b.
+A letter on the facility’s letterhead signed by an appropriate official with the authority
+to request the change;
+c.
+An email or FAX from an appropriate official with the authority to request the change,
+sent from the facility’s email or FAX address; or
+d.
+A telephone call from the incentive payment payee. Verify the callers identity using
+information on the Incentive Payment Identification Query (QPID) screen. For example,
+can the caller correctly provide the:
+•
+payee name;
+•
+address;
+•
+EIN;
+•
+contact name; and
+•
+bank data.
+If the supplied information conforms to the QPID screen information, accept the new
+EIN or bank data from the caller. Annotate the IRID screen with the name of the caller,
+date of the request, and the date you changed the IRCS data.
+For information on the QPID screen, see MSOM PRISON 002.014.
+2. FO procedure for changing EIN and bank account data
+If you receive an acceptable request from a facility or the FOPC notifies you that
+CO received an acceptable request, make changes to the appropriate data fields on
+the IPID screen. You may always make changes to the incentive payment data fields
+and the EIN field. You can change the bank account data fields only when the facility’s
+request requires you to establish a new EIN.
+To determine that an EIN is new or was previously established, review the Query Employer
+Identification Number (QEIN) screen. For information on the QEIN screen, see MSOM
+PRISON 002.019.
+Make changes to the EIN, incentive payment data, and bank account data as follows:
+a. Facility’s EIN changes to one not already established in IRCS
+If changing a facility’s EIN to one that is not currently on IRCS, make changes to
+all IPID fields requiring a change. For instructions on completing the IPID screen,
+see MSOM PRISON 002.007.
+Example: Several incentive payment facilities may share an EIN under an umbrella-reporting
+agency with all incentive payments sent to one central bank account. If one of the
+facilities has permission from the umbrella-reporting agency to receive incentive
+payments in a separate bank account, that facility must apply for a new EIN and then
+request that we make the EIN and the bank account information changes.
+b. Facility’s EIN does not change or changes to one already established on IRCS
+FOs have a limited role in making changes when a facility’s EIN remains the same or
+changes to an EIN already established on IRCS. A facility transferring from one umbrella-reporting
+agency to another is an example of a facility needing to change its EIN to one already
+established on IRCS. In these situations, FOs may make changes only to the following
+IPID data fields:
+•
+INCENTIVE PAYMENT ELIGIBILITY INDICATOR;
+•
+INCENTIVE PAYMENT AGREEMENT SIGNED DATE;
+•
+FACILITY INCENTIVE PAYMENT CONTACT, PHONE, EXT, FAX, EMAIL; and
+•
+EIN
+If the facility also requested a change to any of the bank data fields, email the
+facility’s request for bank data correction and accompanying material (e.g., SF-3881)
+to the FOPC. Provide the FOPC the following information in your referral:
+•
+name of facility and FID code;
+•
+the bank data changes needed; and
+•
+date you received the facility’s change request.
+3. FOPC procedure for changing bank data
+If a facility’s EIN does not change or changes to an EIN already established on IRCS,
+update the following bank data fields:
+•
+INCENTIVE PAYEE;
+•
+ADDRESS;
+•
+BANK DATA (including: ROUTING AND TRANSIT NUMBER, ACCOUNT TYPE, and DEPOSITOR ACCOUNT
+NUMBER);
+•
+CONTACT NAME;
+•
+PHONE number and EXT;
+•
+FAX; and
+•
+EMAIL.
+Use the Bank Correction (BCOR) screen from the PSMU menu to make the changes to these
+fields. Review the change request and obtain the EIN number for the incentive payment
+facility from the IPID screen. The EIN is the data element identifier that will allow
+you to correct bank data on the BCOR screen.
+a.
+To access the BCOR screen, on the PSMU screen, select:
+•
+MODE: 2 (UPDATE); and
+•
+FUNCTION: 8 (CORRECT BANK DATA)
+For information on the PSMU menu, see MSOM PRISON 001.003.
+b.
+Update or change information on the BCOR screen as follows:
+•
+input the EIN for the facility that needs data corrections;
+•
+change the bank data element(s) that needs correction following BCOR instructions
+in MSOM PRISON 002.018; in addition
+•
+change a non-bank data element along with the bank data correction or the correction
+will not process. If no other information is changing, update a non-bank data element
+by making a minor modification such as street to st, or Department to Dept.
+Changing data on the BCOR screen will change data for all facilities sharing the same
+reporter EIN. You can identify all of the facilities under a reporting entity by going
+to the IRCS Agreement/Reporter/Report Data Query (QARR) screen. For information on
+the QARR screen, see MSOM PRISON 002.009.

@@ -1,0 +1,74 @@
+SSA Program Operations Manual System (POMS) - SI 02006.215 - Record Corrections, Payments, and Notices
+Effective Dates: 06/01/2009 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006215 (fetched 2026-10-04)
+
+A. Procedure - Title XVI Offset Cases
+1. Adjusted Title II Income Changes SSI Determinations
+a. Underpayments
+An underpayment for a month caused by adjusting Title II income will be paid only
+if a claimant/recipient is eligible for the month based on all factors of eligibility. (See SI 02006.005.) The computations, which the system can do if no limitations apply, follow the rules
+for SSI computations and differ from prior computations for the same months only because
+of the Title II income change. Enter the changed Title II income amounts as type W
+or type A income depending on the month involved. See 3. below for required notices.
+•
+When an underpayment exists, decide if the system can process it. If manual computations
+are required, use RMA rules. Before entering data for payment, decide if no SSI payment was previously made and b. below applies.
+b. SSI Development Previously Curtailed
+•
+Development of eligibility factors may have been curtailed under the guidelines in SI 02006.005. If so, develop and fully resolve all eligibility factors before entering changed
+data for payment.
+•
+In a denied claim for which an
+SSI payment was never made, send the underpayment caused by reopening the prior determinations to the State/County
+due interim assistance reimbursement (IAR) if the claimant authorized it. (The SSR would show either code N or R in the GRC field
+of the MPMT segment of the SSIRD (see SM 01601.865)). If the code is N, the system
+would pay the claimant rather than send the payment to the State/County. Refer to
+SM 01901.100 B.7. in the instructions for A-OTP that explains entry of address data
+that would be needed to pay the State/County. Refer to the regional instructions that
+provide the name and address of the State/County agency that corresponds to the code
+in the GRC field. If the code is R and no systems limitations apply, delete the existing
+offset and retrigger a new one using the adjusted Title II amounts. The system will
+send the UP to the state or county.
+c. Reduced Overpayment
+A reduced overpayment for 1 or more months caused by adjusting the Title II income
+can occur either as the only result of the FO's action or in addition to an underpayment
+for 1 or more other months. If no systems limitations apply, enter the appropriate
+title II income data to the SSR so that the system will compute the correct overpayment.
+2. No Change Cases
+Do not enter the changed
+Title
+II type A amounts. However, send a notice to the claimant with a copy to the representative
+(see 3 below.). (See the example in SI 02006.220 A.2.)
+3. Notices
+a. Requirements
+Suppress any system-generated notices and manually prepare and send notices explaining
+the revised determination(s) and the results of underpayments and/ or reduced overpayments
+to both the SSI recipient and the representative. Also, notify each if the adjustment
+of the Title II income made no difference in prior SSI determinations.
+NOTE::
+Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+alleges being blind or visually impaired.
+b. Types of Notices
+Use an SSA-L8100-U2 (Notice of Revised Determination) to notify the recipient and
+the representative of an underpayment. Also, use an SSA-L8100-U2 to notify the recipient
+of a reduced overpayment when that is the only result. However, use the SSA-L8166-U2
+(Supplemental Security Income Notice) to advise of a no-change situation. Use the
+paragraphs necessary for a complete notice (i.e., exclusion from counting as resources
+paragraphs, IAR paragraph, Medicaid paragraph, etc.) as appropriate per NL 00804.100 ff.
+c. Language To Explain Changed Determinations
+In underpayments and reduced overpayments, use the following paragraphs to explain
+the reasons for the change.
+“You had monthly income which must be considered in figuring your payment as follows:
+Your social security benefits (before deductions for Medicare medical insurance premiums)
+of $$$.00 for MM/YY, $$$.00 for MM/YY and/or $$$.00 for MM/YY through MM/YY.
+In figuring your SSI before, we used $$$.00 for MM/YY, $$$.00 for MM/YY and $$$.00
+for MM/YY, as your monthly social security income. These were the amounts before deductions
+for Medicare premiums, if any. However, fees of $$$.00 were approved to pay the representative
+in your social security claim. We subtract these fees from the social security income
+we count.”
+If the SSI recipient has a representative payee, substitute for “you
+” and “your” in the paragraph, the recipient's name, “they” or “them,” or “their”, as appropriate.
+In the second paragraph, enter the amounts and the month(s) and year(s) that apply
+after subtraction of the fee. In the third paragraph, enter the prior amounts of Title
+II income and the months and years they apply. In the third paragraph, enter the amount
+of the authorized fees.

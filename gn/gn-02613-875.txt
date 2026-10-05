@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02613.875 - Title XVI Post-2006 Martinez Settlement Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 54 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613875 (fetched 2026-10-04)
+
+GN 02613.875 Title XVI Post-2006 Martinez Settlement Relief Processing
+For Supplemental Security Income (SSI) class members selected for post-2006 relief,
+a Redetermination (RZ) or a re-opening of the affected initial SSI application is
+required for reinstatement or effectuation of payments. (For exceptions to reinstatement
+or effectuation of payments, see the NOTE in GN 02613.875E.2.b.) Systems selected these cases using a wide range of criteria. For multiple warrant
+cases (CCID F6), necessary to identify the specific month(s) for which Martinez relief
+applies. See the charts in GN 02613.875 A.1 in this section.
+The post-2006 Martinez class members are included in the March RZ release with a selection
+date of April 1, 2010 and are identified by:
+•
+A profile code of S and selection indicator of J in the Case Redetermination Data
+segment (CRZD) field on the Supplemental Security Record (SSR), and
+•
+A Court Case Identifier (CCID) of F4 - T16 post-2006 class member, in the Civil Action Tracking System (CATS), or
+•
+A CCID of F6 - T16 post-2006 class member with multiple warrants. (Systems has identified these
+cases containing multiple warrants and you will need to review the Fugitive Felon
+System Control File (FFSCF) to determine the period and offense code of each warrant.)
+•
+The Martinez RZs are located in Starz and Stripes the Next Generation (SSTNG) and
+Workload Listings RZ/LI (MI Central).
+All of these cases will have a warrant record with an offense code in the FFSCF for
+other than 4901, 4902, 4999 (felony offense codes) or 5011, 5012, 8101, 8102 (probation
+or parole violation codes).
+For detailed information on the Martinez settlement relief, see GN 02613.860.

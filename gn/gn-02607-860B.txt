@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02607.860 - Processing Title II Benefit Reinstatements
+Effective Dates: 08/15/2023 - Present | TN 90 (08-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607860 (fetched 2026-10-04)
+
+B. FO Instructions if reinstatement does not process
+1. Reinstatement is not processed after 30 days (tickle matures)
+If after 30 days the PUPS record shows REINSTATEMENT but the MBR does not have a SUSPENSE
+STOP date or a RESUME INPUT date on the Prisoner Suspension (PRSNDATA) line, the benefit
+reinstatement did not process (i.e., ledger account file (LAF) S7).
+The FO must contact the PC to request action.
+•
+The FO prepares a Form SSA-2790 (Prisoner Fax Request), located in GN 02607.995. Fax the request form to the appropriate PC requesting manual reinstatement. For
+instructions on preparing the Form SSA-2790 (Prisoner Fax Request) and PC Prisoner
+Fax numbers, see GN 02607.995.
+•
+Annotate the PUPS PU02 screen with the beneficiary’s release date information for
+documentation purposes only. Add remarks to the PRMK screen indicating the reason
+for the reinstatement (i.e., you reviewed and verified the beneficiary’s official
+release document), add the date you faxed the release document into NDRED. End the
+remark with your first initial and last name, your SSA unit designation code, and
+the current date. Close the PUPS record after updating the release information and
+remarks.
+NOTE: If further contact with the PC is necessary after this follow-up action, process
+the subsequent recontact using the instructions in GN 01070.228.
+2. PC receives PCACS issue based on POS/PUPS processing exception or the FO faxed a Prisoner
+Processing Exclusion Request Form
+The PC is responsible for MADCAP/MACADE actions. If Title II Redesign (T2R) cannot
+process a POS/PUPS reinstatement action, the PC receives an issue via PCACS. T2R generates
+an issue to the PC via PCACS, with a TOEL 2 of PRIRNT (Prisoner Reinstatement) or
+PRIRESU (Prisoner Resumption). The servicing PC will use MADCAP/MACADE to reinstate
+benefits if the POS/PUPS action rejects.
+The PC Prisoner Unit will reinstate benefits using the steps in the following chart:
+Step
+Action
+1
+Verify that the beneficiary continues to meet all disability and non-disability eligibility
+factors before reinstating the benefits. Determine if a prior overpayment exists before
+issuing an underpayment.
+Review the PUPS record to confirm that there is a PRMK screen that contains the beneficiary’s
+release document and that the PUPS record is complete, correct, and closed.
+2
+Reinstate benefits via MADCAP/MACADE.
+3
+Send the beneficiary a notice. Explain to the beneficiary that they are no longer
+under prisoner suspension. Provide reconsideration and appeal rights in the notice.
+Send a copy of the notice to ORS.

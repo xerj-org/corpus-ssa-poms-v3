@@ -1,0 +1,45 @@
+SSA Program Operations Manual System (POMS) - SI 02310.046 - IRS Alert Development - General
+Effective Dates: 09/03/2010 - Present | TN 56 (11-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310046 (fetched 2026-10-04)
+
+A. Policy
+1. Developmental Tolerances
+The liquid resource tolerance in SI 01140.010 does not apply to IRS transactions unless the transaction was previously developed.
+See SI 02310.047.
+NOTE: Always apply Access to Financial Institutions (AFI) procedures when a resource-related
+diary is present on a determination or limited issue. See SI 01140.206 for electronic
+bank verification procedures.
+Otherwise, apply normal verification requirements. For example, if an IRS alert reflects
+an interest payment, develop the underlying bank account (except as noted in section
+SI 02310.045B) but verification of the interest income may not be required. See SI 00830.500.
+2. Curtailing Development
+a.
+An alert containing income indicators (e.g., unemployment compensation) may also reflect
+one or more resource indicators. Development of the resource indicator(s) is not required
+if the total amount of all resource indicators on the alert is less than the appropriate
+tolerance in SI 02310.045A.3.
+b.
+Similarly, if one or more resource indicators do not belong to the recipient/deemor
+or represent an excluded resource, do not develop remaining resource indicators if
+the total amount of those indicators is less than the appropriate tolerance in SI 02310.045A.3.
+c.
+Development of income transactions is not required if the total of all income transactions
+on the alert is less than the appropriate tolerance in SI 02310.045A.3.
+d.
+In any of these situations, treat the alerts as informational. See SI 02310.045B.2.
+3. Income or Resources Not Shown on Alert
+Development of a particular case may uncover income or resources which are not shown
+on the alert. Develop these items in accordance with appropriate POMS sections. Use
+the date the new income/resource was discovered as the date of affirmative action
+in writing.
+See SI 01140.010 (initial claims), regarding resource verification requirements.
+4. Period of Review
+The period for which evidence is required will depend on the specifics of the case.
+•
+See SI 02305.034 for cases involving redeterminations;
+•
+For limited issue cases, the period of review will cover one of the dates listed in
+SI 02305.034 or the last month for which the income or resource value was verified, whichever
+is most recent;
+•
+See SI 01110.300 for nonliquid resources.

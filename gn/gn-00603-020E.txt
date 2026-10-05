@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - GN 00603.020 - Collective Checking and Savings Accounts Managed by Representative Payees
+Effective Dates: 03/08/2023 - Present | TN 20 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200603020 (fetched 2026-10-04)
+
+E. Field offices' collective account responsibilities
+FO management or staff designated by management may approve a collective checking
+or savings account established to hold funds belonging to more than one beneficiary.
+Management or designated staff is responsible for ensuring that the payee establishes
+the collective account in accordance with our policies and procedures as described
+in this section. The FO must review collective account documentation at least once
+every three years to ensure continued compliance with SSA policies and procedures.
+We use eRPS to establish and document approved collective accounts, as follows:
+1. Establish the collective account in eRPS
+Use eRPS to document collective accounts. Enter and update approved collective accounts,
+as described in MS 07418.001 and MS 07418.002.
+When entering a newly approved collective account, set the initial expiration date
+of the approval by adding three years to the date the collective account is established.
+eRPS allows the expiration date of not less than 6 months or more than 3 years from
+the current date.
+NOTE: If the payee has more than one approved collective account, use the Make Note screen
+in eRPS to document the account information of all approved collective accounts.
+EXAMPLE: Bruce Doe is a lawyer serving as an individual payee for 15 Social Security beneficiaries.
+The law firm is not the payee. You explain the collective account requirements to
+Mr. Doe, and he opens a collective checking account titled Bruce Doe for Social Security/SSI
+Beneficiaries. He provides you with a bank statement or other bank documentation showing
+this title and the account number. You approve the account on October 13, 2024 and
+use the account documentation to set up direct deposit into the collective checking
+account for all of the beneficiaries served by Bruce Doe.
+Finally, you establish the collective account in eRPS as described above. Use the
+initial approval date (10/13/24) to determine the expiration date. In this case, set
+the expiration date to 10/13/2027.
+2. Review the collective account at least once every three years
+Select one beneficiary’s financial transactions for a one-year period. Review the
+transactions to determine if the payee is maintaining the account properly, the bank
+statements are reconciled, and the account title is correct. If the payee is complying
+with our collective account policy and procedures, approve the account and reset the
+expiration date for the next three-year period.
+If the account is not in compliance, document facts and problems using the Make Note
+screen in eRPS under the Rep Payee Details. Review the issues with the payee and follow
+up with the payee in 90 days to verify the problems are resolved.
+EXAMPLE: If the expiration date was 3/31/2019 and the payee's collective account remains compliant,
+set the expiration date to 03/31/2027.
+3. eRPS automatically terminates the payee’s collective account
+When the collective account for a payee is expiring, eRPS creates a work issue “Collective
+Account Recertification” three months before the expiration date in the Workload Management
+screen. eRPS creates a second recertification alert during the expiration month. This
+recertification can be viewed in eRPS under the Workload Management screen. Follow
+GN 00603.020E.2 for instructions on how to review the account for compliance and approval.
+If the FO fails to review and approve the account, eRPS automatically terminates the
+payee’s collective account information during the following month (30 days after expiration
+date).
+The deletion causes two issues:
+•
+If the account is no longer active in eRPS, the payee’s collective account information
+on their next accounting report will not match our files, and the electronic Representative
+Payee Accounting (eRPA) system will generate an exception. Wilkes-Barre (WBDOC) will
+initially receive the exception, but WBDOC cannot update the account information.
+WBDOC and the Processing Centers (PC) can only query eRPS. You receive a pending annual
+accounting exception case and must resolve the exception; or
+•
+If the account is no longer valid as a collective account, you must request the account
+documentation from the payee to see if the account is still active and compliant with
+our collective account policies and procedures. You must review and approve the collective
+account again.
+EXAMPLE: ABC Mental Health, Inc., a payee, has an approved collective account with a 09/2024
+expiration date. In June 2024, you receive an alert to review the account. In September
+2024, you receive the second alert. You do not review the account and eRPS automatically
+deletes it in October 2024. In January 2025, the payee submits an accounting report
+indicating they have a collective account. The report is now an exception in eRPA
+and refers the report to the field office to resolve. Since the status of this collective
+account is no longer available after four months, you must review the account documentation
+to see if it is still active and compliant. You must review, approve, and establish
+the collective account in eRPS again. Set the new expiration date based on your new
+approval date.
+NOTE: To view terminated collective accounts, see MS 07418.004 and MS 07418.005 for information
+and guidance.
+4. Representative payee site review and the collective account
+A payee that has an approved collective account may be subject to a payee site review.
+Some payees receive a site review every four years, but we must review collective
+accounts every three years. For an overview of payee site reviews, refer to GN 00605.635.
+Before the site review, query the collective account in eRPS to verify that the payee
+has an approved collective account and to determine the expiration date. After the
+site review, if the collective account is in compliance, reset the expiration date
+in eRPS. Use the review date as the basis for the next three-year interval. If the
+account is not in compliance, follow the instructions in GN 00603.020E.2. and GN 00603.020E.3.
+EXAMPLE: A site review is conducted at Sunnydale Nursing Facility in February 2024. A query
+of the collective account in eRPS shows the approval expires in 14 months (04/2025).
+After the review, the FO determines the payee maintained the collective account in
+compliance with our policies and procedures. Use the site review date (02/2024) to
+calculate the new expiration date and reset it to 02/2027.
+5. Terminating the collective account
+Terminate the collective account in eRPS when the payee no longer serves as payee,
+or when they no longer maintain a collective account for beneficiaries.

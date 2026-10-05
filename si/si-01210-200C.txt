@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - SI 01210.200 - Special Blind Income Provision - Comparing Eligibility and Payment Amount Under Federal and State Plan Rules
+Effective Dates: 01/06/1999 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501210200 (fetched 2026-10-04)
+
+C. Procedure
+1. Calculate BCI
+Calculate BCI for each month and project a continuing rate. See SI 01210.500 ff. for instructions.
+2. Input gross income and BCI
+Input to the Supplemental Security Record (SSR) the gross monthly income and any special
+exclusions that apply, such as blind work expenses (SI 00820.535).
+In the same transmission, input BCI for each month as type K unearned income.
+3. Cases in force due
+If the case is in force due, determine eligibility and payment amount for each month
+manually. This determination, as explained in A.2. and 3. above, requires a monthly
+comparison of the results of using the State plan disregards and the SSI exclusions.
+(Since April 1982, retrospective monthly accounting applies to computations using
+either State plan disregards or SSI exclusions.) Force the system to release any amounts
+due, per SM 01701.010ff.

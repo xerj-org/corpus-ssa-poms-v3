@@ -1,0 +1,309 @@
+SSA Program Operations Manual System (POMS) - DI 52120.265 - Washington (WA) Workers Compensation (WC)
+Effective Dates: 07/09/2026 - Present | TN 151 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120265 (fetched 2026-10-04)
+
+D. How Washington makes WC payments
+This section describes how WA makes WC payments under State law and provides instructions
+on how to treat these payments for SSA offset purposes.
+1. Payers
+•
+State of Washington Department of Labor & Industries (L&I)
+•
+Self-insured Employer (indicated by WC claim number with prefix S or T or W), or
+•
+Third Party Administrator (i.e., a service organization hired by the self-insured
+employer)
+2. Periodic payments
+WC Type
+How Awarded and Paid
+State offsets for receipt of SSA?
+Amount for SSA Offset
+Time Loss (TT)
+Awarded monthly (30 days) and paid every two weeks at daily rate X 14*
+•
+Yes
+•
+Based on either DIB or RIB
+•
+SSA offsets retroactive payment per DI 52120.265C.1.
+•
+Multiply the biweekly rate by 2 1/6 to get the monthly amount or enter the biweekly
+amount in Interactive Computation Facility (ICF) using Frequency code E.
+•
+If a monthly TT rate is shown on Form SSA-1709 or on a State document, divide the
+monthly amount by 30, round to the nearest penny, and then multiply by 7 for a weekly
+rate for offset (round to the nearest penny).
+•
+See Case Example 1 in DI 52120.265K in this section.
+Vocational Plan Payments (TT under Option 1)
+•
+Pilot program
+1/1/2008-6/30/2016
+•
+Under approved plan, worker has two options:
+•
+Option 1: Worker receives Time Loss (TT) payments (see above) while actively and successfully
+participating in plan.
+•
+Option 2: Worker declines further Vocational Rehabilitation services, claim is closed,
+and worker receives an amount equal to six months of Time Loss (in lieu of TT see
+DI 52110.005).
+•
+Paid biweekly under either option; option 2 may be converted to a LS.
+•
+Yes (Option 1 only)
+•
+Multiply the biweekly rate by 2 1/6 to get the monthly amount or enter the biweekly
+amount in ICF using Frequency code E.
+Loss of Earning Power (LEP)
+(TP)
+•
+Awarded monthly (30 days) and usually paid to correspond with the employers paycheck
+periods
+•
+Payable when TT claimant returns to work with only partially restored earning power
+•
+Payments are processed after L&I verifies the gross earnings paid for the calendar
+month
+No
+Add together the payments paid for the calendar month and enter the total as a monthly
+amount in ICF using Frequency code M.
+Pension
+(PT)
+•
+Awarded and paid monthly (on or about the 15th of each month)
+•
+May be reduced because a survivor annuity option was elected (effective 07/01/1986)
+•
+May be reduced for prior PP
+•
+Yes
+•
+Based on either DIB or RIB
+•
+SSA offsets retroactive payments per DI 52120.265C.1.
+•
+Use the monthly rate (round to the next lower dime). For ICF input, enter the actual
+monthly rate using Frequency code M.
+•
+See Case Example 2 DI 52120.265K in this section.
+•
+If the pension was reduced because of a survivor annuity election, use the reduced
+amount received by the NH per DI 52150.035.
+•
+For Pension awards involving prior PP LS awards, see DI 52120.265H in this section.
+*Prior to 06/01/1993, L&I made TT payments twice a month; insurance carriers and self-insured
+employers made TT payments biweekly. To determine a monthly amount follow DI 52150.035. (For periods prior to 06/01/1993, use the monthly TT rate as shown on Form SSA-1709
+or on L&I document as the monthly amount.)
+3. LS payment
+WC Type
+How Awarded and Paid
+State Offset?
+Amount for SSA Offset
+Permanent Partial Disability (PP)
+•
+LS
+•
+May specify a monthly rate
+•
+May be paid in installments
+No
+•
+Prorate the LS award following the instructions in DI 52150.060. Use the specified monthly rate, if shown.
+•
+If PP is paid in installments, do not use the installment payment amounts for purposes of proration.
+See Case Example 3, DI 52120.265K in this section.
+NOTE: Do not offset PP WC for any period prior to 01/16/1981. SSAs decision to begin imposing
+offset of PP WC is based on a change in Washington State law. Claims adjudicated prior
+to the change in SSAs policy were identified in normal case processing and had offset
+imposed with the current operating month or, if later, the month after the month of
+notice in Notice Provision cases per DI 52170.040.
+A claimant/claimant's attorney may negotiate a voluntary LS settlement agreement (sometimes
+referred to as a "sidebar agreement") directly with the employer/insurance carrier
+to settle the WC claim. The agreement usually includes language where the claimant
+agrees to an immediate claim closure, agrees not to protest or appeal the closing
+order, and acknowledges that the settlement resolves all issues relating to the WC
+claim. These agreements are subject to offset whether or not they require approval
+of the Washington State WC board, and whether or not Washington State law considers
+the payment to be payment of weekly WC. Follow proration instructions in DI 52150.060 Prorating a Workers' Compensation/Public Disability Benefit (WC/PDB) Lump Sum Settlement.
+4. Structured settlement agreement
+WC Type
+How Awarded and Paid
+State Offset?
+Amount for SSA Offset
+Structured Settlement Agreement
+•
+Approved by the Board of Industrial Insurance Appeals (BIIA)
+•
+Worker must be age 55 or over (age requirement drops to age 53 effective 1/1/2015
+and age 50 effective 1/1/2016)
+•
+Optional initial LS followed by periodic payments, usually paid monthly, but not more
+often than every two weeks.
+•
+Cannot include an amount for future medical benefits
+•
+Claim is closed in most cases; worker may still receive medical treatment under the
+claim
+•
+Board may approve a reasonable attorney fee limited to 15 percent of the total award
+amount.
+No
+•
+Prorate the initial LS using regular LS proration procedure, treat periodic payment
+rates and periods as specified in the agreement and actually paid per DI 52150.065D.
+As of January 1, 2012, State law (RCW 51.04.063) changed to include a new WC option
+for injured workers. The new option is Claim Structured Settlement Agreement. In order
+to be eligible for the new option, the injured worker must be at least 55 years old
+as of January 1, 2012 AND have an accepted L&I claim that is at least six months old.
+When the injured worker receives the structured settlement, they relinquish any further
+rights to L&I benefits or payments.
+5. Sequence of payments by type
+The sequence in which WA makes TT, PT and PP payments can vary. Generally, the payments follow one of the patterns shown below. If a worker received
+both PT and TT payments, the TT payments always precede the PT payments.
+•
+Time Loss (TT) followed by PP
+•
+Time Loss (TT) followed by PP followed by gap(s) followed by Time Loss (TT) followed
+by pension (PT)
+•
+Time Loss (TT) followed by pension (PT) (possible gaps and PP)
+•
+PP alone with no TT
+6. Cost-of-living adjustments (COLAs)
+WA pays a cost-of-living increase each July 1 for TT and PT benefits. The annual increase
+became effective 07/1984 under State law. The table below shows the COLA percentage
+increases from 1990 to the present:
+Effective Date
+Percent
+Multiplier
+07/01/2026*
+4.886%
+1.04886
+07/01/2025*
+6.755%
+1.06755
+07/01/2024*
+5.906%
+1.05906
+07/01/2023*
+2.01%
+1.02010
+07/01/2022*
+7.514%
+1.07514
+07/01/2021*
+10.101%
+1.10101
+07/01/2020*
+6.736%
+1.06736
+07/01/2019*
+5.516%
+1.05516
+07/01/2018*
+4.969%
+1.04969
+07/01/2017*
+4.769%
+1.04769
+07/01/2016*
+2.633%
+1.02633
+07/01/2015*
+4.168%
+1.04168
+07/01/2014*
+2.016%
+1.02016
+07/01/2013*
+3.4%
+1.034
+07/01/2012*
+3.6%
+1.036
+07/01/2011
+No COLA
+07/01/2010
+1.939%
+1.01939
+07/01/2009
+3.432%
+1.03432
+07/01/2008
+5.018%
+1.05018
+07/01/2007
+5.445%
+1.05445
+07/01/2006
+3.5%
+1.035
+07/01/2005
+0.6%
+1.006
+07/01/2004
+2.251%
+1.02251
+07/01/2003
+1.9%
+1.019
+07/01/2002
+0.9%
+1.009
+07/01/2001
+3.59%
+1.0359
+07/01/2000
+8.4%
+1.084
+07/01/1999
+7.8%
+1.078
+07/01/1998
+6.6%
+1.066
+07/01/1997
+5.25%
+1.0525
+07/01/1996
+4.255%
+1.04255
+07/01/1995
+2.152%
+1.02152
+07/01/1994
+0.703%
+1.00703
+07/01/1993
+6.963%
+1.06963
+07/01/1992
+5.718%
+1.05718
+07/01/1991
+4.829%
+1.04829
+07/01/1990
+3.955%
+1.03955
+*For dates of injury on or after July 1, 2011, the TT or PT COLA is not effective
+until the second July 1st after the date of injury. For example:
+Scenario #1 - WC date of injury 06/30/2011 first TT or PT COLA is 07/01/2012.
+Scenario #2 - WC date of injury 07/01/2011 (one day later than Scenario #1) first TT or PT COLA
+is 07/01/2013.
+The following rules govern how the increases are determined and paid:
+•
+All TT & PT recipients are eligible for a full COLA increase, regardless of when benefits
+began.
+•
+The COLA percentage is added to the current benefit amount and the result is rounded
+to the nearest penny.
+•
+TT COLA increases are payable immediately; PT COLA increases first appear in the August
+15 check, which will include the difference due from July 1.
+7. Third party
+Generally, when a third party settlement is awarded in WA WC, the third party reimburses
+L&I for any WC payments already made. L&I will adjust the WC payments by withholding
+future payments until the settlement amount is fully recovered. Offset does not apply
+in this situation to the extent L&I was repaid by the third party per DI 52105.010. See case Example 4, in DI 52120.265K. in this section.

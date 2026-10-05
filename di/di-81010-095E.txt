@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 81010.095 - Using the Update-After-Transfer (UAT) Utility
+Effective Dates: 09/09/2009 - Present | TN 67 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010095 (fetched 2026-10-04)
+
+E. Adding an Escalated Claim to a Case
+Use the UAT utility to add an escalated claim to a case if there is at least one claim
+at the reconsideration or hearing level, and a new claim needs to be escalated to
+that same level.
+To add an escalated claim:
+•
+Open the case in EDCS;
+•
+Select Transfer/Updates on the toolbar at the top of the EDCS screen path;
+•
+Select the Transfer Claims tab;
+•
+Select the claim pending at the field office; and
+•
+Click the OK button to send the escalated claim to DDS or OHO.
+NOTE: Never route an “escalated” claim to OQR, even if there is a pending claim in OQR.

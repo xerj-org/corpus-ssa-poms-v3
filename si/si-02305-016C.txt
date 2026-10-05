@@ -1,0 +1,92 @@
+SSA Program Operations Manual System (POMS) - SI 02305.016 - Section 1619 Records and Age 18 Critical Birthdays Redeterminations (RZs)
+Effective Dates: 11/20/2008 - Present | TN 100 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305016 (fetched 2026-10-04)
+
+C. RZ procedures for processing 1619 cases
+1. 1619(a) RZ cases
+Conduct a personal contact RZ in the Consolidated Claims experience (CCE) or on the,
+Statement for Determining Continuing Eligibility for Supplemental Security Income
+Payments (Form SSA-8203-BK, depending on the profile of the case. Attempt to conduct
+a telephone interview as the recipient is working and a face-to-face interview may
+be inconvenient. For instructions on completing an RZ when the recipient has gross
+earnings at or above SGA level, see SI 02302.030 and SI 02305.071.
+2. 1619(b) RZ Medicaid while working cases
+Under the 1619(b) provision of the Act, individuals who we determine to be blind or
+disabled are eligible for SSI payments in a subsequent month if the individual receives
+SSI payments for one month and is rendered ineligible for payments in a subsequent
+month because of their earned income.
+To determine the individuals eligibility for Medicaid, take the following actions:
+a.
+Review the record to see if there is a pending CDR diary on the Title XVI record or
+an established Title II record and check the CDR Entitlement (ECDR) on DCF, #32 on
+the Main Menu to see if there is a pending CDR. For instructions on the DCF file,
+see DI 13005.020. If there is a pending CDR conduct both the CDR and RZ. Complete full RZ to determine
+if individual meets all non-disability requirements except for earned income. For
+coordinating RZs and CDRs, see SI 02305.016E.
+b.
+Attempt to contact the recipient by phone as the recipient is working and a face-to-face
+interview may be inconvenient.
+c.
+Obtain proof of earnings. Develop and document impairment related work expenses (IRWEs)
+or blind work expenses (BWEs) as appropriate. For developing work expenses during
+an RZ interview, see SI 02305.097 for IRWEs and SI 00820.535 for BWEs. For work expense development and documentation, see SI 00820.550.
+d.
+Determine whether the individual continues to be eligible under Section 1619(b). For
+Section 1619 process and procedures, see SI 02302.030.
+e.
+Apply the Medicaid Use Test and Threshold Test at each 1619(b) redetermination. For
+instructions on the tests, see SI 02302.040 through SI 02302.045.
+f.
+For cases that are not processed through the SSI Claims System, input the results
+of the Medicaid Use and Threshold Tests using the Status Indicator for Title XIX/XX
+(SI) field. For the SI field, see SM 01305.975.
+g.
+Review the record to see if there is potential entitlement to Title II on their own
+work record including lag year earnings. Run the Disability Insured Status Calculator
+Online (DISCO) for determining entitlement to Title II disability (DIB). For information
+on accessing DISCO, go to the Toolbar Support
+Page and click on DISCO from the Active Tools menu.
+h.
+If there is potential Title II entitlement, follow the protective filing and closeout
+procedure in SI 02305.110I.
+i.
+If you discover that any of the following events have occurred, consider whether a
+full RZ (SSI Claims System without recaps or SSA-8203) is necessary:
+•
+A change of marital status. For developing marital status during the RZ interview,
+see SI 02305.083;
+•
+A change in address or individuals with whom they live. For developing residence status
+during an RZ interview, see SI 02305.084;
+•
+Recipient spent a full calendar month in a hospital, nursing home or other institution.
+For developing institutionalization during the RZ interview, see SI 02305.086;
+•
+Unreported or non-posted unearned income information. For general rules for developing
+incomes issues during an RZ interview, see SI 02305.094. For the Post Eligibility Menu, see MS 08104.008.
+Close all RZ events and build transactions to the SSR. For more information on closing
+the RZ, see SI 02305.071.
+3. Individuals ineligible for 1619(b)
+Take the following actions if the recipient is no longer eligible under 1619(b):
+a.
+Document the 1619(b) ineligibility on a Statement of Claimant or Other Person (SSA-795),
+Person Statement page, or in the Report of Contact page using MS 08122.010.
+b.
+On the documentation, explain that the individual does not need Medicaid in order
+to work. Include on the document the name and type of other medical coverage the individual
+uses (e.g. HMO, other private health insurance).
+c.
+For cases that are not processed through the SSI Claims System, input a finding of
+ineligibility per SM 01305.975.
+d.
+Review the record to see if there is potential entitlement to Title II on their own
+work record including lag year earnings. Run the Disability Insured Status Calculator
+Online (DISCO) for determining entitlement to Title II disability (DIB). For information
+on accessing DISCO, go to the Toolbar Support
+Page and click on DISCO from the Active Tools menu.
+e.
+If there is potential Title II entitlement, follow the protective filing and closeout
+procedure in SI 02305.110I.
+f.
+Close all RZ events and build transactions to the SSR. For more information on closing
+the RZ, see SI 02305.071.

@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - GN 02408.006 - Title II and Title XVI Check Operations Re-Engineering Effort (CORE)
+Effective Dates: 09/10/2026 - Present | TN 95 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408006 (fetched 2026-10-04)
+
+C. CORE process for erroneous death terminations
+If an erroneous death termination is input onto a Title II or XVI record, E-stops
+are placed on each check issued after the (erroneous) date of death (unless there
+is a representative payee, see GN 02408.005B.2 Check Stop-Payments in Non-Entitlement Due to Death Situations. The CORE process flags those checks as non-negotiable and does not return payment
+for them. Therefore, processing centers (PCs) and field offices (FOs) must take corrective
+action to reinstate the terminated record and prevent the release of underpayments.
+When an erroneous death is transmitted, the following occurs:
+•
+Title II and Title XVI record is terminated based on the death data transmitted;
+•
+Beneficiary, recipient, or representative payee presents the check to the bank and
+receives payment;
+•
+CORE handles the E-stop as if the death actually occurred;
+•
+FI presents the check to the KFRB and is denied payment based on the death data transmitted
+through CORE;
+•
+CORE process denies payment to the presenting bank although the beneficiary, recipient,
+or representative payee received payment; and
+•
+DT returns credit to SSA
+When SSA learns of the erroneous death and takes action to resurrect the terminated
+record, an underpayment is generated to the reinstated record. The SSA system detects
+a credit for the month of termination. Because the FI should be reimbursed, do not
+release the underpayment to the beneficiary, recipient, or representative payee who
+has already received the payment.

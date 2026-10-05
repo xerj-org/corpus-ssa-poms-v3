@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 02402.479 - Coding Oman Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/27/2024 - Present | TN 293 (06-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402479 (fetched 2026-10-04)
+
+G. Example of coding Oman direct deposit
+The customer provides us with the IBAN OM350180000001299123456: ".
+•
+The first two characters of an Oman IBAN are "OM," which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The next three characters of the IBAN represent the 3-digit bank code.
+•
+The last 16 characters represent the 16-digit account number.
+NOTE: The technicians should never code the IBAN ISO country code, the check digit, or the
+bank code to the MBR.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as 750000059.
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with country code “H” designated for Oman.
+•
+Code the 16 digits Account Number “0000001299123456.”
+3. Obtain the following information
+•
+RTN:750000059
+•
+Checking
+•
+DAN:H0000001299123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 750000059 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: H0000001299123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN 750000059
+•
+DAN H0000001299123456

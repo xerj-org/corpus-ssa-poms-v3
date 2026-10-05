@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - DI 13010.037 - Trial Work Period (TWP) and Fraud Conviction
+Effective Dates: 01/03/2025 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010037 (fetched 2026-10-04)
+
+E. OCO SIB procedure for inputting TWP fraud months
+From the DCF menu, select The Verify/Update Earnings (VERN) screen for the first TWP
+month that is not payable due to the fraud conviction.
+On VERN screen:
+•
+Input the conviction date into the FRAUD DECISION DATE field (MMDDCCYY);
+•
+In the VRFD field over key the “Y” with an “F”;
+•
+Use the PF8 function to input additional TWP months that are not payable, and over
+key each “Y” with an “F”;
+•
+Hit ENTER when you have recorded all of the non-payable TWP months covered by the
+fraud conviction. Since this action initiates a payment change, you will need to confirm
+your action by clicking PF9; and
+•
+Release notice (see subsection D in this section for notice language).
+If we did not record the TWP months as part of a previous work review, input the FRAUD
+DECISION DATE, and record the “F” in VRFD field and the appropriate WORK DET code
+(‘1’ through ‘9’).

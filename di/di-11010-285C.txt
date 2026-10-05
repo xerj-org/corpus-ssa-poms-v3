@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 11010.285 - Change in Processing Centers (PCs) for Special Disability Workload (SDW) Initial Claims, Appeals and Amended Awards
+Effective Dates: 04/06/2018 - Present | TN 49 (08-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411010285 (fetched 2026-10-04)
+
+C. Process – Program Service Center (PSC) actions
+Effective 10/01/03, the six PSCs receives all SDW initial claims, appeals and amended
+awards for beneficiaries residing in the United States. If the beneficiary is under
+age 54, ODO completes all post-adjudicative actions, including windfall offset. Alert
+PC of all claims, which are the final jurisdiction of ODO, as it affects Action Control
+Record (ACR) preparation, MACADE coding, and disposition of the material/folder.
+To assist the PSCs in identifying these cases, the cadre enters the remark “UNDER
+AGE 54 CASE” (in addition to the SDW remark) in the remarks portion of the A101/SSA-3601
+(Claims Routing Form).
+1. A101 processing
+Process the A101 according to current SDW procedures and relevant local instructions.
+The Type of Event Levels (TOELs) for these awards is CLAIM SPECDIB. The Benefit Authorizer
+(BA) should always check the A101 remarks to determine if additional information is
+contained on the RPOC screen(s). If the number holder is under age 54, add MADCAP
+paragraph B38 to the award notice.
+If a problem with processing the claim cannot be resolved by remarks on the A101 or
+RPOC screens, refer the issue according to local procedure for contact with the cadre
+that forwarded the case.
+2. EF 101 and amended awards
+Use the following procedure:
+•
+NH Age 54or Older - Process according to current procedures, PC has final folder jurisdiction.
+The TOELs are CLAIM DIBTRNS.
+•
+NH Under Age 54 - The route sheet contains the remark, “Under Age 54 Case.” Receipt
+the claim in PCACS under Selection 03, with a Type of Receipt 4 - DIB TRNS on the
+RCLM screen. The TOELs are CLAIM DIBTRNS.
+•
+If the action is an initial claim, do not prepare an original folder. Process the
+action as an ACR.
+•
+The original folder is prepared in ODO. After all processing has been completed, FIN
+the action and forward the material to ODO. If the action was an initial claim, alert
+ODO to establish an original folder on PCACS.
+3. Windfall offset processing
+The office that has permanent jurisdiction processes the windfall offset, as well
+as any other post-adjudicative action. For example, if the SDW award for a claimant
+under age 54 is processed in Mid-America Program Service Center (MAMPSC), ODO processes
+the offset action on that case. In most situations, the HST screen and WOD coding
+on the MACADE action is sufficient to produce an automated computation or exception
+in the jurisdictional office. There are a limited number of situations when processing
+an award requires a request to the FO for a manual computation, e.g., amended awards
+and certain dual entitlement situations. Refer to Processing Amended Awards - SM 00815.200
+and Processing Multiple Entitlement Awards - SM 00815.300 for a description of these
+situations and the required MACADE coding.
+When making a request for a manual offset computation in connection with processing
+the award, and the NH is under age 54, process as follows:
+•
+Request a manual computation from the FO via the e4345 application. If the e4345 cannot
+be used, follow local procedures, e.g., fax, PCACS Request for Assistance.
+•
+Identify the case as an SDW case and indicate to the FO to return the response to
+the appropriate module in PC 7
+•
+Obtain the module of jurisdiction from DOORS - Function 20 on the SSA MENU.
+To establish the control in ODO, change the SITE to PC7 on the DIAR screen when establishing
+a diary, e.g., for e4345 or on the RQF1 screen for Requests for Assistance if the
+e4345 cannot be used. Enter the ODO jurisdictional module for the COMPONENT and enter
+BA as the FUNCTION. The TOELs are OFFSET WINDFALL. In the text, explain the reason
+for requesting the manual computation, and if a diary is prepared to control the action,
+e.g., fax request, include the code of the FO.
+4. Other post-adjudicative actions
+If the PSC needs to initiate any other development for Number Holders under age 54,
+follow the PCACS development guidelines using the appropriate functions and TOELs.

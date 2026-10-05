@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 00605.222 - How to Evaluate Payee Response That A Dedicated Account Was Never Established
+Effective Dates: 01/15/1999 - Present | TN 15 (12-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605222 (fetched 2026-10-04)
+
+B. PROCEDURE
+1. Determine System Selection
+Review the DACT and PMTH segments of the SSR and determine if the dedicated account
+was identified based on: (1) the dedicated account balance field; (2) an “X, 1, 2, or F” in pay flag 5; (3) the payment amount (See GN 00605.205.B.1.).
+2. Selection Based on Balance in Dedicated Account
+When the system determines a dedicated account based on the dedicated account balance
+field, this indicates that the FO previously monitored the account and, at that time,
+there were funds remaining in the account. When the payee response indicates that
+a dedicated account was never established, compare SSA's records with those of the
+payee.
+•
+Conduct a face-to-face interview with the payee whenever practical.
+•
+Review the payee's financial records and receipts as appropriate.
+•
+Follow GN 00605.223 if deposits were made into the dedicated account.
+•
+Follow GN 00605.224 if funds were used from the dedicated account.
+•
+Follow GN 00605.225 to detect unreported expenditures from, and/or deposits into, the dedicated account.
+•
+Follow GN 00605.230 with required PE actions to update the SSR.
+3. Selection Based on Pay Flag 5 Indicator
+When the system determines a dedicated account based on an “X, 1, 2, or F” in pay flag 5, this indicates that FO personnel paid the past-due benefits into a
+dedicated account. When the payee response indicates that a dedicated account was
+never established, review the file which documents dedicated account financial information
+(See SI 02101.010.C.2.) and follow the instructions described in GN 00605.222B.2. above.
+4. Selection Based on Payment Amount
+When the system determines a dedicated account based on the payment amount and the
+FO determines that the past-due benefits met the dedicated account criteria, it is
+assumed that the benefits were paid into a dedicated account but the FO failed to
+establish the “X, 1, 2, or F” in pay flag 5. Review the file which documents dedicated account financial information
+(See SI 02101.010.C.2.).
+a.
+If the payee response indicates that a dedicated account was never established, and
+the FO has no record of establishing the account, and the payee does not request that an account be established, follow the instructions in GN 00605.230.B.1., DI Diary Set-No Dedicated Account Exists. FOs are required to obtain an annual accounting SSA-623.
+b.
+If the payee response indicates that SSA released the past-due benefits into a non-dedicated
+account (i.e., paper check, or checking/savings account) even though the past-due
+benefits met the dedicated account criteria, and the FO has no record of establishing
+the account, and the payee requeststhat a dedicated account now be established, the FO should take the following actions:
+•
+Determine the amount of past-due benefits paid and the unspent balance; and
+NOTE: The payee may be holding the exact amount or any portion thereof.
+•
+Notify the payee of the dedicated account requirements following the instructions
+in SI 02101.010.F.; and
+•
+Obtain proof from the payee that the dedicated account has now been established; and
+•
+Record the amount of money deposited by the payee into the dedicated account in the
+dedicated account balance field following the instructions in SM 01301.637 so that
+the account can be identified for future monitoring.
+•
+Follow GN 00605.230.B.2.b. - GN 00605.230B.2.d. with required PE actions to update the SSR.

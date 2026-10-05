@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - DI 81010.040 - Source Reference File (SRF)
+Effective Dates: 01/24/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010040 (fetched 2026-10-04)
+
+E. Deleting a Source from the SRF
+A search may yield multiple entries for the same source. This may occur for several
+reasons including:
+•
+DDS may have multiple entries in its vendor file for a single source (i.e. an entry
+for a clinic and entries for each physician in the clinic);
+•
+The FO may have established a source entry prior to its addition from the DDS vendor
+files; or
+•
+There are minor differences in the source address or spelling of the name.
+On these occasions, functionality has been provided to delete incorrect sources from
+the SRF. Regional Offices will provide additional Regional instructions if necessary.
+1. Requirements to Delete a Source from the SRF
+For a user to delete a source from the SRF, the source must be:
+•
+A keyed source entered by an FO; and
+•
+In the SRF of the state in which user’s FO is located.
+2. How to Delete a Source from the SRF
+To delete a keyed source:
+•
+Perform a source search via the “Add a Source” function within the “Sources” button
+from the Main Function Toolbar;
+•
+Select on the Name/Organization link to see the details of that source; and
+•
+Select the delete button on the Source Details screen
+EDCS enables the “Delete” button only if the entry was created by an FO. If the source
+came from a DDS vendor file extract (those with an asterisk [“*”]), the:
+•
+Delete button is disabled; and
+•
+Source cannot be deleted
+NOTE: The deletion feature deletes the source from the SRF, but has no impact on the open
+EDCS case or in any EDCS case which already contains that source.

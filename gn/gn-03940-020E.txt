@@ -1,0 +1,72 @@
+SSA Program Operations Manual System (POMS) - GN 03940.020 - Title II — Processing Center Processing of Fee Agreements on Initial Level Claims
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940020 (fetched 2026-10-04)
+
+E. NON-DOFA Award
+These instructions apply to claims favorably decided by a PC decision maker.
+1. MCS EC Award
+Approve or disapprove the fee agreement, as explained in GN 03940.001D.
+If the fee agreement is approved, determine if a non-attorney is eligible for direct
+fee payment by checking RASR. See GN 03920.018, Direct Payment for Non-Attorney Representatives, for detailed information. Record
+the results on the MCS DW01 screen as follows:
+•
+ISSUE – EDPNA (stands for “eligible for direct payment non-attorney").
+•
+REC – Input date of verification.
+•
+REMARKS – Based on results of checking the list, type “Elgble for Direct Pymnt” (or
+“EDP”), “Not elgble for direct pymnt” (or “NEDP”), or “Not on list.”
+•
+If the non-attorney representative is eligible for direct payment, the NOT2 screen
+should show “Eligible for Direct Pay Non-Attorney.” If the non-attorney representative
+is not eligible for direct payment at the time the claim is being processed, verify
+that the Appointed Representative type on the NOT2 screen shows “2,” “non-attorney”.
+See GN 03920.016B. for the requirements for a representative to be eligible for direct payment. See
+GN 03920.016C. for policy on direct payment to representatives, or to entities if there is a valid
+assignment.
+If the non-attorney states they are eligible for direct payment but our records show
+they are not eligible, advise the representative that we cannot make direct payment.
+Model language to use in these situations follows:
+You advised your client, (beneficiary's name), and indicated on the Form SSA-1696
+(Claimant's Appointment of a Representative) that you are eligible for direct payment.
+Under Titles II and XVI of the Social Security Act, certain non-attorney representatives
+have the option to have approved fees withheld and paid directly from a claimant's
+past-due benefits. However, [select the conclusion that describes the status]
+•
+you do not meet all the qualifications to be eligible for direct payment; or
+•
+you did not meet all the qualifications to be eligible for direct payment until after
+we effectuated the favorable decision on your client's claim; or
+•
+you failed to maintain your eligibility for direct payment.
+We will not make direct payment of a fee in this case. Accordingly, we will not pay
+any authorized fee directly to you. You must look to the claimant for payment of the
+fee authorized in this case.
+If a representative has validly assigned direct payment of their authorized fee to
+an entity as set forth in GN 03920.021, determine if that entity is eligible to receive direct payment of fees by querying
+RASR to ensure that the entity has registered and has not been placed on the Ineligible
+for Direct Payment Entity list.
+Follow the instructions in MS 03509.009 for MCS claims processing, and GN 03940.020D.1 or GN 03940.020D.2., as appropriate.
+NOTE 1: MCS withholds the lesser of 25 percent of past-due benefits or the specified dollar
+amount of the fee cap indicated in GN 03940.003B.3. if the representative is eligible for direct payment and has not waived direct payment
+or waived a fee.
+NOTE 2: The SPS will (1) calculate the assessment based on the fee amount SSA authorizes
+the representative who is eligible for direct payment to charge and (2) pay the authorized
+fee, less the assessment, to a representative who is eligible for and has not waived
+direct payment if SSA certifies the fee payment to the representative or an entity
+if there is a valid assignment, as per GN 03920.021, when the claimant's award is processed. Refer to GN 03940.053 for more information about the assessment, also called a “user fee,” and guidance
+on when manual calculation is required.
+Release remaining withheld funds, if any, to any beneficiaries unless the claimant
+filed concurrently for Title II and Title XVI benefits and windfall offset is still
+pending.
+2. A101 or EF101 Award
+•
+Enter the remark “Fee Agreement Case” and the name and address of the representative,
+or if there is a valid assignment the entity's name and address on the A101 BCRN screen;
+•
+Follow the procedures above in GN 03940.020E.1. that pertain to a non-attorney representative and eligibility for direct payment;
+•
+Withhold 25 percent of past-due benefits, up to the specified dollar amount of the
+fee cap indicated in GN 03940.003B.3., if the representative is eligible for direct payment; and
+•
+Designate the fee agreement paragraphs for the notice.

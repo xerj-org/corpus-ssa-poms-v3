@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - DI 81020.015 - Electronic Claim Receipt Process
+Effective Dates: 11/28/2023 - Present | TN 37 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020015 (fetched 2026-10-04)
+
+C. Receipting paper folders associated with an electronic claim
+Occasionally, a system limitation may prevent the FO from entering a new claim into
+EDCS when a related claim was previously entered on EDCS. In these situations, the
+new claim is an EDCS exclusion and the paper folder becomes the official record for
+the entire case. For a list of EDCS exclusion claims, see DI 81010.030 - Certified Electronic Folder (CEF) Exclusions. Any associated CEF must be converted
+to paper.
+NOTE: If a paper folder is received with no paper SSA-3368 (Disability Report - Adult),
+SSA-3441 (Disability Report - Appeal), or SSA-3820 (Disability Report - Child) and
+there is no corresponding EFI download, do not assume that the case is an EDCS exclusion.
+Check case status using eView and follow procedures in DI 81020.005A, Electronic Folder Interface (EFI) Download .
+If a CEF claim is pending at the DDS when the FO begins an EDCS exclusion claim, then
+the following applies:
+1. FO actions
+•
+Create a paper MDF;
+•
+Print sections A through D of the CEF and file the documentation in the paper folder;
+•
+Annotate the SSA-408 Route Slip attached to the MDF “EDCS exclusion-associate with
+claim transferred on MM/DD/YYYY”; and
+•
+Mail the paper MDF to the DDS.
+2. DDS actions
+•
+Manually receipt the paper folder.
+•
+Assign the EDCS exclusion claim and the pending CEF to the same disability examiner
+(DE). If the CEF has already been assigned, assign the EDCS exclusion claim to the
+same DE.
+•
+Prepare and upload to the CEF an SSA-5002 (Report of Contact) to document that the
+claim(s) is being processed as a paper folder.
+•
+Add a message without an expiration date to the CEF to indicate that the official
+folder is now paper.
+•
+Update the current PFI for the CEF to show a current paper folder has been created
+(see DI 81020.010, Paper Folder Indicator (PFI) ).
+•
+Print sections E and F of the CEF and file in the paper folder.
+•
+Process the case following current paper procedures. All documentation must be maintained
+in the paper folder.
+NOTE: If the EDCS exclusion claim is created before the CEF claim is transferred to the
+DDS, follow current procedures for processing paper folders.

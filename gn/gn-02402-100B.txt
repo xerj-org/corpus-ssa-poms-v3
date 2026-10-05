@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.100 - Financial Institution (FI) Closings
+Effective Dates: 08/03/2018 - Present | TN 109 (08-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402100 (fetched 2026-10-04)
+
+B. Processing Returned Payments
+SSA can receive returned payments after an FI closing because:
+•
+No FI agrees to receive and distribute direct deposit payments on behalf of the closed
+FI,
+•
+The depositor has not visited the designated FI to receive payment, or
+•
+The designated FI will no longer receive and distribute payments. The FI may perform
+this service for up to 120 days.
+1. Title II Cases
+When the FI returns a payment, the system may reissue the payment or suspend benefits,
+as follows:
+a.
+When a new address or direct deposit data is on the MBR - the Return Check Action Program (REACT) redirects the payment to
+the new address. This can take 2 to 3 weeks.
+b.
+When the system returns an electronic payment and no direct deposit data is currently on the record (direct deposit has been cancelled) - REACT redirects
+the payment to the mailing address when the record is in current pay. This can take
+2 to 3 weeks.
+c.
+When there is no new address or direct deposit data on the MBR, REACT:
+•
+Advises the PC of the returned payment, and
+•
+Suspends future payments.
+•
+The PC contacts the beneficiary about the returned payment and asks for a new payment
+address, and
+•
+Inputs the new payment address when received.
+d.
+If the beneficiary or representative payee is in dire need or a public relations problem
+exists, the FO uses the immediate payment process to issue an emergency payment (see
+RS 02801.010). If the TSC or SPIKE unit receives the information, the technician refers the beneficiary
+or representative payee to the servicing FO for an immediate payment.
+2. Title XVI Cases
+When the FI returns a Title XVI payment, the SSR system may reissue the payment or
+suspend benefits, as follows:
+a.
+When new address or direct deposit data is on the SSR - the system recomputes and reissues payment to a new address when the record is in
+current pay. This may take 2 to 3 weeks.
+b.
+When there is no new address or direct deposit data on the record, the system suspends payment. The FO contacts the recipient or representative payee
+to get new direct deposit or mailing address information and inputs the new payment
+information as soon as possible.
+c.
+When there is a dire need or a public relations problem the TSC or SPIKE unit should refer the recipient to the servicing FO for potential
+immediate payment or an A-OTP. (See SI 02004.100.)

@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - GN 00203.016 - iAppointments (iAppt)
+Effective Dates: 06/26/2026 - Present | TN 93 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200203016 (fetched 2026-10-04)
+
+B. Process for entering and using iAppt
+The only entry point to iAppt is from iClaim. After a claimant fails the verification
+checks twice in one session, an online error message provides an option to schedule
+a telephone or in-office appointment with an FO of their choice.
+NOTE: A claimant may fail verification in iClaim for various reasons. For iClaim verification
+checks, see GN
+00204.055B1. and GN
+00204.059B.
+1. Eligibility to use iAppt
+Claimants who entered iClaim by selecting the radio button labeled “I am applying
+for myself” on the iClaim Welcome page, will be displayed the iAppt link.
+If a third party entered iClaim by selecting “I am helping someone who is not with
+me, and therefore cannot sign the application at this time”, iClaim returns the appropriate
+online error message directing them to contact SSA for assistance. For iAppt purposes,
+this applies to third parties who established an intent-to-file for benefits on a
+claimant’s behalf by attempting to complete the iClaim application as indicated in
+the first sentence of GN
+00204.055B.
+Not all claimants who fail iClaim verification are eligible to use iAppt. Claimants
+with the following circumstances are not able to access iAppt:
+•
+have a Celebrity Indicator (Individuals of Extraordinary National Prominence [IENP]);
+•
+have a Master Beneficiary Record (MBR) in current payment status or a pending Modernized
+Claims System (MCS) claim on their Social Security number (SSN);
+•
+have an electronic block present on that SSN (for more information on the electronic
+block, see MS 01701.006); or
+•
+are individuals who live outside of the United States.
+For these claimants, iAppt returns an online error message directing these individuals
+to contact SSA for assistance.
+2. Required information
+The claimant’s SSN, name, date of birth (DOB), and sex propagate from iClaim to iAppt.
+The claimant cannot change the SSN. However, they have the ability to update the name,
+DOB, and sex. In addition, iAppt requires the claimant provide their mailing address
+and telephone number (if a telephone appointment is indicated), and select the type
+of appointment. The claimant also has the option of providing an email address so
+iAppt can email a confirmation notice.
+3. Appointment calendar in the enhanced Leads and Appointment System (eLAS)
+Local management establishes available appointments for the FO on a fifth calendar
+screen of eLAS. This screen is for iAppt use only, and is not available for FO or
+Teleservice Center (TSC) appointment scheduling.
+A calendar appears displaying all available appointments for the related servicing
+FO, and the claimant has the opportunity to select the most convenient time and date.
+iAppt provides the claimant the option of entering a new zip code to search for an
+appointment in another FO if they cannot find an acceptable appointment in the servicing
+FO. Upon successfully scheduling an appointment, iAppt generates an online “confirmation”
+page, providing details of the scheduled appointment, including the protective filing
+closeout date(s).
+4. Help screens
+If claimants need detailed information, “More Info” links are available throughout
+iAppt to provide assistance.
+5. Protective filing closeout in iAppt
+Protective filing closeout language and the closeout period ending date(s) appear
+on the iAppt confirmation page. The FO should not send any
+protective filing closeout notice because
+the online language closes out the:
+•
+Title II protective filing issue;
+•
+Title XVI protective filing established when the claimant responds “Yes” to the “Would
+you also be interested in Supplemental Security Income (SSI)” question on iAppt; and
+•
+Title XVI oral inquiry when the claimant indicates there is no intent to file for
+SSI.
+6. Transmitting and storing application data
+After a claimant acknowledges reading the “Important Information” page (which contains
+closeout language and dates) on the “About You” segment of iAppt and selects the “Next” button, the information on that segment transmits to eLAS. The Worksheet (WKSH) screen
+in eLAS contains the issue of UNVER to document that iAppt used “unverified” data
+to create the appointment. For more information about the UNVER issue, see MS 00601.013.

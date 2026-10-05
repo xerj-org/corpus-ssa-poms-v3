@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - SI 02220.050 - Suspension and Termination of Recovery Efforts from Living Individual
+Effective Dates: 06/11/2009 - Present | TN 37 (06-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220050 (fetched 2026-10-04)
+
+B. Procedure
+NOTE: This includes bankruptcy cases not sent to the Regional Office (RO). For policy and
+procedures on the impact of bankruptcy proceeding on overpayment recovery see SI 02220.040.
+1. Individuals in payment status E01 or subject to the $30 payment limitation (FLA-D)
+a.
+If the individual is in payment status E01 (eligible, but not payable) or subject
+to the $30.00 payment limitation (FLA-D):
+•
+Send an initial overpayment notice.
+•
+If there is neither Title XVI payment (ex. an E01 case) nor Title II eligibility on
+the individual’s own record, use the form SSA-8171-U3, SSI OVERPAYMENT. Record is
+in non-payment, refund is requested.
+•
+If there is Title II eligibility on the recipient’s own record, use the form SSA-8172-U2,
+SSI OVERPAYMENT. Record is in non-payment, cross program recovery is possible.
+•
+If the recipient is in FLA D, use the form SSA 8170-U2, Notice of Overpayment. Record
+is in current pay, payment adjustment is proposed.
+b.
+Complete the MSSICS Overpayment Decisions (UOPD) screen.
+•
+Select the RECOVER BY CHECK ADJUSTMENT to build a D-TAC decision. This allows for
+the automatic adjustment of payments if the individual is no longer subject to the
+$30 payment limitation (FLA-D).
+•
+If the overpayment can be recovered from the individual’s Title II benefits, select
+the RECOVER FROM TITLE II BENEFITS to build a K-TAC decision.
+•
+For policy and procedures on recovering Title XVI overpayments from Title II benefits
+see SI 02220.020.
+•
+For system procedures for posting a K TAC see SM 01311.105 and MSOM BUSSR 004.008.
+2. All other cases in non-payment
+•
+Determine whether there is a liable spouse, sponsor or representative payee. If there
+is, you must pursue recovery from the liable spouse, sponsor or representative payee.
+•
+If there is neither a liable spouse, nor a sponsor, nor representative payee, complete
+the MSSICS Overpayment Decisions (UOPD) screen.
+•
+For instructions on completing the UOPD screen, see MSOM BUSSR 004.008.
+•
+If the individual is unwilling to repay the overpayment select the UNWILLING TO REPAY (DB TAC) decision using the
+UOPD screen.
+•
+If the overpaid individual is unable to repay the overpayment select the UNABLE TO REPAY (DC TAC) decision using the UPOD
+screen.
+•
+For system instructions on the use of the DB TAC and the DC TAC, see MSOM BUSSR 004.008
+and SM 01311.200.
+•
+Document your overpayment disposition determination. Follow the policies and procedures
+in SI 02220.005.

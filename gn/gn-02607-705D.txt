@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 02607.705 - Suspending Title XVI Payments
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607705 (fetched 2026-10-04)
+
+D. Suspending non-MSSICS records using non-PUPS procedures
+If an inmates SSR is non-MSSICS, the following situations require non-PUPS suspension
+processing:
+•
+PUPS status is *PENDING and the SSR remains in current pay;
+•
+A PUPS exclusion exists; or
+•
+There is a closed period of N22 suspension.
+1. PUPS is *PENDING and the SSR remains in current pay
+The SSR will remain in current pay if updates to the PU16 screen result in a PE edit.
+Process the N22 suspension as follows:
+a.
+input the suspension on an SSA-1719B; and
+b.
+enter the same first month of payment status N22 on the SSA-1719B input that you used
+in the ACTION EFFECTIVE DATE field on the edited PU16 update.
+After an N22 payment status posts to the SSR, the PUPS record status should change
+to SUSPENSION. If, after the SSA-1719B input, the SSR reflects the proper period of
+N22 but the PUPS status remains *PENDING, contact your FOPC for instructions.
+2. PUPS exclusion cases
+PUPS cannot automatically generate a suspension transaction if the SSR contains:
+•
+representative payee data;
+•
+temporary institutionalization data;
+•
+Goldberg-Kelly data;
+•
+suspense or non-pay status other than payment status N01, E01, or E02; or
+•
+Federal living arrangement B for the month prior to the suspension month.
+If one of these exclusions exists, process the prisoner suspension for non-MSSICS
+records as follows:
+a.
+Update the following PU16 fields on the PUPS record warranting a suspension action:
+•
+TYPE OF ACTION CODE--Enter 6 (CHANGE INFORMATION ONLY) - the status of the PUPS record
+will remain PENDING;
+•
+ACTION EFFECTIVE DATE--Enter the suspension effective date;
+•
+FACILITY ID Update if not already present;
+b.
+Enter "PUPS Exclusion Case - 1719B needed and any other remarks that help explain
+your reason for suspending benefits on the PRMK screen;
+c.
+Clear all other PUPS pending records by selecting TYPE OF ACTION = 2 (CLEAR CONTROL
+- NO SUSPENSION NECESSARY) on the PU16 screen; and
+d.
+Input the suspension on an SSA-1719B. If you attempt to suspend benefits through PUPS,
+the following message will appear after page 2 of the PU16 screen: Suspension not
+sent to SSR, use MSSICS or SSI data inputs.
+If the SSR payment status changes to N22, feedback from the SSR changes the PUPS status
+from PENDING to SUSPENSION. PUPS determines whether an IP is due the reporting facility,
+computes the IP amount, and posts the IP amount and the date paid to the P6QY screen.
+If you must establish a new SSR to post the N22 suspension, PUPS will not recognize
+a change in payment status and the PUPS record will remain PENDING. Clear the alert
+by selecting TYPE OF ACTION = 2 (CLEAR CONTROL - NO SUSPENSION NECESSARY) on the PU16
+screen. Determine if a manual incentive payment is due.
+3. Closed period of N22 suspension
+The method for processing a closed period of N22 suspension depends on whether the
+recipient is currently eligible, in non-payment status, terminated, or in force due
+payment status. In each of these situations, first clear the appropriate PUPS records.
+For additional information on processing closed periods of suspension, see MSOM PRISON
+003.001.
+a. Clearing PUPS records
+Clear the PUPS record warranting a suspension action by entering the following information
+on the PU16 screen:
+•
+TYPE OF ACTION--Enter 6 (CHANGE INFORMATION ONLY) or, if the inmate is in force due
+or termination payment status, enter 2 (CLEAR CONTROL - NO SUSPENSION NECESSARY);
+•
+ACTION EFFECTIVE DATE--Enter the suspension effective date; and
+•
+RELEASED DATE--Post the released date if not already present.
+Clear all other PUPS pending records by entering 2 (CLEAR CONTROL - NO SUSPENSION
+NECESSARY) in the TYPE OF ACTION field on the PU16 screen.
+b. Recipient currently eligible
+Process the N22 suspension and subsequent reinstatement as follows:
+•
+input the closed-period suspension on an SSA-1719B. Feedback from the SSR changes
+the PUPS status from PENDING to SUSPENSION and pays the incentive payment to the reporting
+facility, if one is due;
+•
+suppress the automated suspension notice;
+•
+after the SSR posts the N22 payment status, input the reinstatement on an SSA-1719B;
+•
+suppress the automated reinstatement notice; and
+•
+prepare one manual notice covering both the suspension and reinstatement actions.
+c. Recipient in a non-payment status
+If, during the closed suspension period, a recipient was in a non-payment status (other
+than terminated or force due) that the N22 payment status can overlay, input the closed-period
+suspension using an SSA-1719B. The N22 payment status begin date must match the ACTION
+EFFECTIVE DATE used to clear the PUPS record. Feedback from the SSR changes the PUPS
+status from PENDING to SUSPENSION, pays the incentive payment, if one is due, and
+issues a notice.
+If, during the closed suspension period, a recipient was in a non-payment status that
+the N22 payment status cannot overlay, record the N22 suspension period in the SSR
+Remarks field. For information on which non-payment status codes that the N22 payment
+status can and cannot overlay, see SM 01305.001H.
+d. Recipient terminated or in force due payment status
+For an inmate in force due or terminated payment status, input the closed period of
+suspension on the SSR as follows:
+•
+use the force due process to transmit a zero due amount for each month of suspension.
+For more information on the force due process, see MSOM BUSSR 002.006;
+•
+record the N22 suspension period in the SSR Remarks field;
+•
+explain why you manually cleared the case on the PRMK screen; and
+•
+notify your FOPC if a manual incentive payment is due. For information on requesting
+a manual incentive payment, see GN 02607.820.
+The updated SSR will show payment status M02 (force due) with an overpayment for each
+month of suspension, if appropriate. If later SSRs exist, the system will transfer
+any overpayment to the latest record.

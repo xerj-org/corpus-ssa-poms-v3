@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - DI 45001.313 - Case Processing — Initial Awards (No Record of Beneficiary on MBR) or Claimant Had Medicare Entitlement Which Has Ceased on Own SSN
+Effective Dates: 04/22/2016 - Present | TN 1 (07-04)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0445001313 (fetched 2026-10-04)
+
+B. Non-CAPS
+Complete the following forms:
+1.
+SSA-450 Earnings Record Request
+2.
+SSA-892-U3 (HI 00801.308)
+3.
+SSA-3687-U2 to delete CAPS orbit. Use DLO6 on SSN of parent or spouse; use DLO7 on
+SSN of claimant. If MQGE provision is involved, see DI 45001.326.
+4.
+SSA-101-U3 (required to process a non-CAPS award) If not entitled to a monthly benefit,
+the claimant will be entitled to R-HI/R-SMI on his/her own SSN, even if insured status
+is met on another SSN. (See exception for MQGE's, DI 45001.326).
+Follow MS MCS 014.000 for preparation instructions.
+Entries on the SSA-101-U3 - Reminder Items
+a.
+FAC “RD” is used only on monthly benefit awards (not T or TA awards).
+b.
+If the applicant is entitled to SSI or is a Medicaid recipient, see HI 00815.030 regarding possible coverage of SMI premiums under a State buy-in agreement. If buy-in
+applies, special coding is required (FAC code PW).
+c.
+FAC code PW should be no earlier than the SMI entitlement date.
+d.
+Equitable relief coding: If the SMI entitlement date is later than the HI entitlement
+date because the claimant requests SMI to begin as of the date claim filed or current
+operating month (HI 00801.251B), code item 7 as follows: BIC = T; FAC = SI; EARN = 00BCU; code SMI entitlement date
+in YR and month blocks.
+e.
+If SMI is refused, enter SEC of R in item 6 and show “T SMIB - none” in item 11 (Remarks).
+5.
+Notice to Claimant: In item 12 of SSA-101 enter an “I” under the BIC to show incomplete
+notice. Prepare a Form SSA-5002 listing the necessary paragraphs (See a. through g.
+below); check item 4.f. on the SSA-3601 and enter “See SSA-5002 in file.” in “Remarks”
+section.
+Indicate the following paragraphs on Form SSA-5002 when needed:
+a.
+MH16: The paragraph with appropriate fill-ins should be shown if the date of entitlement
+is based on transplant.
+b.
+MH17: This paragraph should be shown if the date of entitlement is based on dialysis.
+c.
+RM30 (or its equivalent) with appropriate fill-in, when copy of notice is to be sent
+to a third party;
+d.
+Premium Arrearage of 6 Months or More—Claimant Elects SMI as of month of filing or
+current operating month - Language in DI 45001.355C.
+e.
+Waiver of qualifying period based on previous R-HI—Language in DI 45001.355B.
+f.
+Waiver based on self-care dialysis is denied—Language in DI 45001.355A.
+g.
+Equitable Relief Paragraph, if applicable.
+6.
+SSA-5015-U2 for diaries (when needed)
+7.
+SSA-1418 to clear claim to ODO
+8.
+In addition to any annotations required by 1 through 7 above, check item 2.1 (other)
+in Column 1 of SSA-3601 and indicate in Remarks:
+a.
+“Route to BPRC for EAM Processing” (if no record on MBR) or
+b.
+“Route to Benefit Authorizer for Processing” (if claimant has prior Medicare which
+has ceased on own SSN.)

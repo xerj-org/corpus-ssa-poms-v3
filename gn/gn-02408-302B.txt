@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - GN 02408.302 - Abandon Reclamation Request Needed on a Check
+Effective Dates: 05/10/2024 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408302 (fetched 2026-10-04)
+
+B. Procedure for situations requiring abandon reclamations
+1. Erroneous date of death
+A date of death (DOD) is sometimes input in error, or the beneficiary/recipient is
+deceased, but the wrong DOD was input. When an incorrect DOD is input, checks may
+be cashed that the beneficiary or recipient was entitled to, but because of the incorrect
+DOD the funds were reclaimed from the presenting financial institution (FI).
+EXAMPLE 1: Mr. Jones died on 03/12/22, but their date of death was incorrectly input as 01/12/22.
+Because E-stop death reclamations posted to their record for the February and March
+2022 payments, their FI was debited for those two checks. Mr. Jones was entitled to
+those checks and received the funds. The FI is out the money and should be reimbursed
+by SSA by processing an abandon reclamation. We request an abandon reclamation for
+the two checks using the procedures found in this section at GN 02408.302C.
+EXAMPLE 2: Mr. Smith contacted us on 03/25/22 to provide their new address. Mr. Smith's benefits
+were terminated with an erroneous death input. Mr. Smith received their 04/03/22 check
+and cashed it at their FI. Because we erroneously terminated Mr. Smith's benefits,
+an E-stop death reclamation posted to their record for the 04/03/22 check and Treasury
+reclaimed the funds from the FI. The FI, in turn, debited Mr. Smith's account. We
+should request an abandon reclamation for the 04/03/22 check using the procedures
+found in this section at GN 02408.302C. Treasury reverses the reclamation and returns the money to the FI. The FI credits
+the money back to Mr. Smith's account.
+2. Preventing erroneous underpayment release when correcting Title XVI erroneous date
+of death
+When a Title XVI erroneous date of death causes payments the recipient is due to be
+reclaimed incorrectly, the payments may or may not post to the SSR by the time we
+realize the error.
+Before we ask Treasury to abandon reclamation, we review the SSR carefully to determine
+if the credit for the reclamation is posted. Credits for the reclaimed funds are posted
+in PMTH in payflag 3 as an “S” and in payflag 5 as an “R”.
+a. When the credit is posted for improperly reclaimed funds, prevent the release of an
+erroneous underpayment.
+•
+Post a “U TAC” on the recipient’s SSR, see SM 01311.355.
+•
+Process an abandon reclamation request per GN 02408.302C in this section.
+NOTE:
+Posting the “U TAC” prevents the release of an erroneous underpayment to the recipient
+after Treasury processes the abandon reclamation. When the “U TAC” is not posted,
+an erroneous underpayment is released to the recipient making him or her overpaid.
+b. When the credit is not posted, process an abandon reclamation request per GN 02408.302C in this section.
+3. Checks cashed that were issued after death of the beneficiary/recipient
+When an incorrect payment has been issued after death, occasionally Treasury reclaims
+the funds from the FI and the family member who cashed/deposited the check(s), thinking
+the deceased was due the money, also returns the money to SSA. The following scenarios
+occur:
+•
+The FI debits the account for the amount reclaimed, sometimes causing checks to be
+returned for insufficient funds.
+NOTE:
+Although penalties or overdraft fees may be assessed to the account because of insufficient
+funds, SSA is unable to reimburse for these fees. Often the bank waives the fees if
+we call and explain what happened.
+•
+A family member protests stating he or she has repaid the amount to SSA.
+•
+The bank does not debit the account, but calls SSA and requests that we return the
+amount reclaimed because we have already received the money back from the family member.
+Request an abandon reclamation by using the procedures found in this section at GN 02408.302C.
+IMPORTANT:
+Treasury asks that we return the funds by completing and emailing the abandon reclamation
+form to them. Treasury prefers that the funds return through the same channel in which
+they were initially obtained. In normal abandon reclamation scenarios, Treasury does not want us to issue a special payment to the FI.

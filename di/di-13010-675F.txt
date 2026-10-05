@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - DI 13010.675 - The Verify/Update Earnings (VERN) Screen
+Effective Dates: 10/01/2012 - Present | TN 30 (12-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010675 (fetched 2026-10-04)
+
+F. How to avoid edits
+While eWork automates most inputs to the VERN screen, if incorrect TWP data is already
+present in the DCF, the automated input will fail. To avoid edits, follow these steps:
+•
+Review all DCF postings prior to effectuation.
+•
+If all postings appear correct, and none of the edit conditions listed above are present,
+select “No” on pop-up question within eWork to erase all postings and proceed with
+effectuation.
+•
+If any of the edit conditions are present in the current review period, select “Yes” on the pop-up question to erase all postings and proceed
+with effectuation.
+•
+If any of the edit conditions are present in the prior review period, correct them manually prior to effectuation. Follow the steps outlined
+below to correct TWP entries:
+1.
+Review the edits on the QERN screen via the ESEL and ESUM screens to determine where
+the error is. If you received an edit, use the edit messages to help you determine
+where the problem lies.
+2.
+Ensure correct postings by obtaining information from the prior TWP determination.
+Review queries, eWork, prior MRTW and PC CDR Determinations, or notices stored within
+ORS.
+3.
+Delete or over key the months that need correction by using PF7 and PF8 to navigate
+through the series of months.
+4.
+Use the ENTER key only when all corrections are completed.

@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.300 - Coding Canadian Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 10/12/2022 - Present | TN 287 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402300 (fetched 2026-10-04)
+
+A. Introduction
+The contract for Canadian International Direct Deposit (IDD) allows IDD to either
+Canadian or U.S. dollar accounts at Canadian financial institutions. Although it is
+convenient for many Canadian beneficiaries to receive their benefits in Canadian dollars,
+others prefer to receive their benefits in U.S. dollars. There are three types of
+coding to accounts in Canadian FIs; it is important to know exactly which coding to
+use. Understanding the coding also helps you identify where the payments are going
+if a problem occurs.
+NOTE: U.S. domestic (i.e., non-border) field offices (FOs) should not attempt to process
+an IDD request for this country. U.S. domestic FOs must forward all appropriate information
+to the Office of Earnings and International Operations, Division of International
+Operations (OEIO, DIO) for processing (For more information on forwarding IDD information,
+see GN 02402.205C, GN 01010.255, and GN 01702.310C).
+1. Canadian Dollar Accounts
+This is the traditional IDD to Canada. Benefits are converted to Canadian dollars
+by Federal Reserve Bank of Kansas City (FRBKC) at an excellent rate a few days before
+the payment date. The prefix for the routing and transit number (RTN) is 51. The procedure for coding IDD to Canadian dollar accounts in Canada is at GN 02402.300D.
+2. U.S. Dollar Accounts (Other than Royal Bank of Canada)
+This choice allows a beneficiary to receive the exact amount of the benefits in U.S.
+dollars at the beneficiary's U.S. dollar account in Canada. The prefix for the RTN
+is 62. If IDD to U.S. dollar accounts in Canada is erroneously coded with prefix 51, the
+payments reject and are returned to SSA. The procedure for coding IDD to U.S. dollar
+accounts at FIs in Canada is at GN 02402.300E.
+3. U.S. Dollar Accounts at Royal Bank of Canada (RBC)
+If the beneficiary's U.S. dollar account is at RBC in Canada, special coding allows
+SSA to send the benefits in U.S. dollars through RBC's branch in New York, Routing
+and Transit Number (RTN) 026004093. RBC set up this branch, which does not itself
+have accounts, to move direct deposit payments to the correct branch and account in
+Canada. Because this is a U.S. bank, no special prefix is needed.
+In the Depositor Account Number field, the coder keys the 5-digit branch number and
+the 7-digit account number.
+Because this is treated as U.S. direct deposit, Treasury processes any nonreceipt
+or reclamation actions for these payments. The FO/TSC/PC follows the same procedures
+as for any U.S. direct deposit nonreceipt, or payment after death. No forms are sent
+to FRBKC for these actions. These actions by Treasury reduce the workload for SSA.
+Therefore, this is the preferred method of coding U.S. dollar accounts at RBC.
+The procedure for coding IDD to U.S. dollar accounts at RBC in Canada is at GN 02402.300F.

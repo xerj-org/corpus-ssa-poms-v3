@@ -1,0 +1,119 @@
+SSA Program Operations Manual System (POMS) - SI 01140.010 - Resource Verification Requirements
+Effective Dates: 07/12/2012 - Present | TN 89 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501140010 (fetched 2026-10-04)
+
+B. Procedure for developing liquid resources
+1. General rules for liquid resources
+•
+Verify the value of all non-cash liquid resources if alleged liquid resources total
+$400 or more. For more information on the liquid resource tolerance, see SI 01140.010C in this section.
+•
+Accept an allegation of cash, regardless of the amount, when an individual alleges
+cash as a liquid resource. Never ask to see or count cash. Verify all other non-cash
+liquid resources if the alleged liquid resources total $400 or more.
+•
+Verify financial institution (FI) account balances using Access to Financial Institutions
+(AFI) without regard to the $400 liquid resource tolerance when processing initial
+SSI allowances and certain redeterminations (RZs) and limited issues (LIs) involving
+resource-related diaries. See SI 01140.010B.2.a and SI 01140.010B.2.b in this section for more information on when AFI verification is required during
+these events.
+NOTE:
+For instructions on how to verify financial institution (FI) accounts using AFI, see
+Electronic Financial Institution Verification SI 01140.206.
+2. Exceptions to the general rules for liquid resources
+a. FI account verification using AFI is required for all initial SSI claim allowances,
+initial claim reopenings, and appeal reversals establishing initial eligibility
+The $400 liquid resource verification tolerance discussed in this section does not
+apply to FI account verification in initial SSI claim situations. Verify the value
+of financial accounts using AFI regardless of alleged liquid resources prior to processing
+an initial claim allowance (aged or disability/blindness).
+•
+For SSI Aged (65+) claims, including initial claim reopenings and initial claim appeal
+reversals, request AFI verification prior to adjudication and payment of an allowance.
+•
+For disability and blindness awards involving deferred development (see SI 00603.003), complete AFI verification during the pre-effectuation review (PERC).
+•
+For disability and blindness claims involving simultaneous development (see SI 00603.004), complete AFI verification before processing the claim to “blank” payment status.
+Do not delay transferring the case to DDS while developing FI account balances.
+Note:
+If a PERC is required after a case has been processed to “blank” payment status, a
+new AFI verification is only required during the PERC if liquid resources are alleged
+or found to have exceeded the $400 liquid resource verification tolerance at any point
+during initial phase of development.
+To verify FI accounts, follow AFI verification procedures in SI 01140.206E for electronic
+cases; or SI 01140.206F for non-SSI Claims system cases. Include a geographic search
+request when verifying account balances during these event types.
+When processing initial claim allowances, the $400 liquid resource verification tolerance
+may still apply to all other types of liquid resources if:
+•
+the claimant alleges liquid resources below the $400 tolerance; and
+•
+the mandatory FI account verification supports that allegation (i.e., AFI verification
+combined with alleged values of other resources do not exceed the $400 threshold in
+any month subject to verification.)
+See SI 01140.010C in this section for instructions on applying the tolerance in these cases.
+b. FI account verification using AFI is required for redeterminations (RZs) and limited
+issues (LIs) involving resource-related diaries.
+Always verify FI account balances using AFI and verify liquid resources regardless
+of the liquid resource allegation when there is a resource-related diary present on
+an RZ or LI. The liquid resource verification tolerance does not apply to RZs or LIs
+with any of the following resource-related diaries:
+•
+5B Internal Revenue Service (IRS) alert,
+•
+5H pension interface alert,
+•
+SB savings bond alert,
+•
+R8 conserved funds alert, and
+•
+DI dedicated account alert.
+To verify FI accounts, follow AFI verification procedures in SI 01140.206E for electronic
+cases; or SI 01140.206F for non-SSI Claims system cases. Include a geographic search
+request when verifying account balances during these event types. For more information
+on resource-related diary development, see SI 02310.046 and SI 02310.047.
+c. When to accept the claimant’s or recipient’s allegation
+Accept the allegation and do not verify the value of liquid resources for a given
+month if the alleged value of the total countable resources meets or exceeds the applicable
+resource limit for that month and the individual does not qualify for conditional
+benefits. For information on conditional benefits, see SI 01150.200.
+d. High/low development option for verifying liquid resources
+When the tolerance for verifying liquid resources does not apply, you may be able
+to save time and effort by using the high/low development option to verify the value
+of liquid resources such as stocks, bonds, mutual funds, certificates of deposit,
+or checking and savings accounts. For more information on the high/low development
+option, see SI 01140.022.
+e. Allegation conflicts with existing evidence
+If an allegation conflicts with existing evidence, you must resolve the discrepancy
+per GN 00301.040. Do not apply the liquid resource verification tolerance when available evidence
+indicates liquid resources are $400 or more for a given month.
+f. Treatment of life insurance
+The verification tolerance for liquid resources does not apply to life insurance policies.
+When determining whether the total alleged value of liquid resources is $400 or less,
+do not include the cash surrender value (CSV) of life insurance in the calculation.
+To develop life insurance policies, follow instructions in SI 01130.300C.
+g. Burial funds
+The liquid resource verification tolerance applies to excluded burial funds when they are designated and held using the following arrangements.
+When determining whether the total alleged value of liquid resources is $400 or less,
+include these burial funds as liquid resources:
+•
+cash;
+•
+FI accounts; and
+•
+other financial instruments with a definite cash value (e.g., stocks, bonds, certificates
+of deposit (CDs), etc.).
+The verification tolerance for liquid resources does not apply to excluded burial funds held using the following arrangements. When determining
+whether the total alleged value of liquid resources is $400 or less, do not include these burial funds as liquid resources:
+•
+revocable burial contracts;
+•
+revocable burial trusts;
+•
+other revocable burial arrangements (including the value of certain installment sales
+contracts for burial spaces); and
+•
+life insurance policies and/or dividend accumulations designated for burial.
+For more information on burial funds, see SI 01130.410.
+3. Interfaces
+For information on how to develop SSI interfaces, follow the instructions in SI 02310.000.

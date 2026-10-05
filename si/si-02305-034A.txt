@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - SI 02305.034 - Period of Review Redeterminations (RZs) and Limited Issues (LIs)
+Effective Dates: 10/02/2026 - Present | TN 110 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305034 (fetched 2026-10-04)
+
+A. Definitions
+1. Period of Review
+The period of review is the time period that the RZ or LI covers,The RZ period of review covers eligibility
+factors both prospectively and retroactively. The beginning month of the period of
+review cannot exceed 2 years (plus 2 months for cases where the retrospective monthly
+accounting computation is used for income received in those months as budget months)
+retroactively from the initiation date of the current RZ or LI. The period of review
+for development ends with the last day of the month before the current RZ or LI initiation
+date.
+When RZs are completed in the SSI Claims system, the system determines the begin date
+of the period of review.
+Prior LI case completion has no effect on the current RZ period of review.
+2. Reference Date
+The reference date is the date the period of review begins. The reference date is the latest date of
+the following:
+•
+The month the last RZ was initiated (the RZI field of the CRZD segment of a SSID,
+as described in SM 01601.460);
+•
+The month of application (use the date in the AP field of the PRSN segment of a SSID,
+as described in SM 01601.475);
+•
+The month the PERC was completed (the PC field of the CRZD segment of a SSID, as described
+in SM 01601.460);
+•
+The first month of eligibility (the DOE field of the PRSN segment of a SSID, as described
+in SM 01601.460); or
+•
+2 years (plus 2 months for cases where the retrospective monthly accounting computation
+is used for income received in those months as budget months) retroactively from the
+initiation date of the current RZ or LI.
+3. Initiation Date for FO RZs
+The RZ initiation date (RZI) is the date you obtain allegations on the RZ forms. It is the date:
+•
+A redetermination event is opened in the SSI Claims system.
+•
+An RZ form is completed and signed at a face-to-face interview.
+•
+An RZ is completed by telephone interview.
+The initiation date is important because it serves as protective filing for recipients
+who are entitled to receive Title II benefits on the date the RZ is initiated. (See
+GN 00204.015 for a discussion of RZs as protective filings).
+See SI 02305.034E. for a discussion of the importance of transmitting the RZI as soon as
+possible after the RZ interview.

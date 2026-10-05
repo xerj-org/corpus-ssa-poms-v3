@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 01010.140 - Delayed Claims
+Effective Dates: 08/08/2023 - Present | TN 93 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010140 (fetched 2026-10-04)
+
+D. PC receives a delayed claimant processing alert
+The Regular Transcript Attainment and Selection Pass Alerts (RETAP) system produces
+the LAF PB delayed claimant processing alert or the LAF PT delayed terminated claimant
+processing alert when a beneficiary is located on the MBR who is in LAF PB or PT and
+whose Date of Entitlement Current (DOEC) is greater than 6 months before the current
+month, refer to SM 00619.054 and SM 00619.060. Upon receiving a LAF PB or PT Delayed
+Claimant Processing Alert, PC technicians take the following actions:
+1.
+Determine if we closed out the protective filing or writing (e.g., special messages
+on the MBR, Online Retrieval System (ORS), EP, eView, MCS segments, and paper folders.)
+2.
+If there is no protective filing closeout, request assistance from the servicing field
+office (FO) to obtain a valid application, including obtaining a payee application
+for minor children.
+3.
+If the PB/PT processing alert is received on a claim with a valid application, request
+assistance from the servicing FO to obtain the required evidence.
+4.
+If there is a protective filing closeout, process a disallowance if we did not receive
+the application within the period stated in the protective filing closeout notice.
+5.
+Suppress any disallowance notice if we did not receive a valid application within
+the 6-month closeout period.
+6.
+Send the ACR to the BA to process a disallowance.
+7.
+Provide the denial code and information needed to complete the DNY Screen in MACADE.
+Remind the BA to adjust benefits for other auxiliaries or survivors on the record.

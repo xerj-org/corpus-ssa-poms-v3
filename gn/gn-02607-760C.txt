@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02607.760 - Beneficiary Protests Suspension of Title II Benefits
+Effective Dates: 05/29/2009 - Present | TN 89 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607760 (fetched 2026-10-04)
+
+C. Procedure FO or PC/OCO-ODO BA Instructions PUPS Processing of Decision on Protested
+Suspension Action Suspension has not Occurred PUPS is *pending
+1. Protest is upheld, SSA will not suspend benefits
+Update PUPS as indicated below
+•
+Beneficiary provides evidence that they were “officially released”
+Update the PUPS report with TYPE OF ACTION 2- CLEAR CONTROL – NO SUSPENSION. Add a
+RELEASED DATE to the PUPS record. Add remarks to the PUPS record to reflect that SSA
+reviewed the beneficiary's/representative payee's protest. SSA will not suspend benefits
+because the beneficiary was officially released from the correctional institution.
+•
+Beneficiary provides evidence that causes SSA not to suspend benefits
+Update the PUPS report with 2 - CLEAR CONTROL - NO SUSPENSION. Include in the REMARKS
+field the rationale behind the determination.
+•
+Beneficiary is not the inmate
+If the suspension will not occur because the inmate is not the SSA beneficiary, close
+the PUPS record as 3- CLEAR CONTROL – ERRONEOUS PERSON. See MSOM PRISON 003.001 and
+MSOM PRISON 003.006 for processing instructions. Include in the REMARKS field the
+rationale behind the determination.
+2. Protest Denied, Suspend Benefits—PUPS Record is *PENDING, Beneficiary is LAF C on
+MBR
+Update PUPS with TYPE OF ACTION 1 - SUSPEND BENEFITS (see MSOM PRISON 003.006 for
+additional information on suspending benefits via PUPS after a protest is determined).
+Post the CONFINEMENT TYPE of prison/mental institution, if needed. Annotate an ACTION
+EFFECTIVE DATE equal to the date the suspension is effective; a NOTICE DATE equal
+to the date the advance notice was mailed, a T2 PROTEST DATE equal to the date the
+protest was filed, and a CONVICTION/CONFINEMENT DATE equal to the date the inmate
+was convicted or confined in the institution after conviction, choose whichever date
+is later. (These entries are only necessary if the PUPS record does not have them.)
+Add REMARKS to explain why SSA did not agree to the protest.
+NOTE: Do not input the protest action to PUPS and the Suspension action on the same day.
+Wait until the next day to input the suspension action or an exception will occur.

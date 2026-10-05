@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - DI 81007.080 - Internet Workload Management
+Effective Dates: 04/18/2017 - Present | TN 4 (02-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007080 (fetched 2026-10-04)
+
+C. Restoring SSN to list
+Annotating the “Delete This Report” field with a “Y” prevents propagation of the Internet
+data into EDCS. If the record is still on the database, remove the “Y” to make the
+Internet data available for propagation. See DI 81007.080D.3. in this section

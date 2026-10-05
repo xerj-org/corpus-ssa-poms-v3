@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02615.180 - Supplemental Security Income (SSI) Clark Relief Processing
+Effective Dates: 08/16/2021 - Present | TN 13 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615180 (fetched 2026-10-04)
+
+F. Processing concurrent cases
+If a recipient has two Clark CCIDs, there is potential for both T16 and T2 relief. For a list of the CCIDs, see
+GN 02615.100D. Review the master beneficiary record (MBR) to verify that the T2 Clark relief payments have processed before processing the T16 Clark relief. Based on your review of the MBR, take the following action:
+1. MBR shows current pay status
+a.
+Complete the RZ back to the first month of N25 suspension eligible for Clark.
+b.
+Post the T2 retroactive income as unearned income (UM) type A for each month of the
+retroactive period. No interface will occur for this action.
+2. MBR not in current pay status and Processing Center Action Control System (PCACS)
+or Evidence Portal (EP) exists
+If the MBR contains a special message indicating Clark relief and PCACS or EP shows there is an exception to the T2 processing requiring
+manual reinstatement by the processing centers (PC), then:
+a.
+Complete the RZ back to the first month of N25 suspension. Before you clear the RZ:
+•
+Place a U TAC on the SSR to hold the T16 underpayment.
+•
+Place a remark on the SSR, Hold T16 Clark Underpayment Until T2 Case Cleared.
+•
+Control the T16 case until the PC clears the T2 case.
+b.
+Once the MBR is in current pay:
+•
+Post the T2 retroactive income in the UM field as type A income for each month of
+the retroactive period. This will readjust the T16 underpayment.
+•
+Release the T16 underpayment by removing the U TAC. Prior to releasing the underpayment,
+see additional instructions in GN 02615.180B.2.e. in this section.
+3. MBR not in current pay status and PCACS or EP does not exist
+If the MBR is not in current pay status and the MBR contains a special message indicating
+Clark relief, but there is no PCACS or EP, send a modernized development worksheet (MDW)
+to the servicing PC requesting an update on the status of processing T2 Clark relief.

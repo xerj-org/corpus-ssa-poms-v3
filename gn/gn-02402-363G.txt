@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02402.363 - Coding Nauru Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2024 - Present | TN 264 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402363 (fetched 2026-10-04)
+
+G. Example of coding Nauru bank data
+The customer provides us with a sign-up form for Nauru containing the following information:
+•
+Bank Code: 123 and
+•
+Account Number: 4567890123456789
+•
+For Nauru Bank Codes, view PDF.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of “66” (the multi-country prefix for Nauru),
+•
+3 filler zeros “000”,
+•
+3-digit bank code “123” after verifying accuracy against either the ITS.gov help file
+or the listing in GN 02402.363G in this section,
+•
+1-digit check code (i.e., 8) (obtained from the Title II interactive Comps from the
+Main Menus 07/Sub Menu 16), and
+•
+The type of account as a “C” for checking or an “S” for savings. If there is no indicated
+account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+“N” (for Nauru), and
+•
+Start with the country code of "N" designated for Nauru; and
+•
+Code 16 digits of the account number 4567890123456789.
+3. Obtain the following information
+•
+RTN: 660001238
+•
+Checking
+•
+DAN: N4567890123456789
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660001238
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: N4567890123456789
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660001238
+•
+DAN- N4567890123456789

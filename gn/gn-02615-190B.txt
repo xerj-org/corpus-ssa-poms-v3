@@ -1,0 +1,126 @@
+SSA Program Operations Manual System (POMS) - GN 02615.190 - <Italic>Clark</Italic> Court Order Relief Inquiries
+Effective Dates: 10/06/2016 - Present | TN 11 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202615190 (fetched 2026-10-04)
+
+B. Title II inquiry about Clark relief
+We identified Title II class members as explained in GN 02615.100A.2. We added identified Title II cases to the Civil Action Tracking System (CATS) with
+a Court Case Identifier (CCID) of C1 or C2. We also posted one of the two following
+Central Office Messages (CO MSG) to the Master Beneficiary Record (MBR):
+•
+CLARK COURT ORDER – CASE SELECTED FOR CLARK REVIEW; or
+•
+CLARK COURT ORDER – CASE SELECTED FOR CLARK RELIEF AND MEDICARE REVIEW
+After processing Clark relief, we sent a class review, resumption, or reinstatement notice, and we posted
+one of the following Special Messages (SP MSG) to the MBR:
+•
+CLARK COURT ORDER – AUTOMATED RELIEF PROCESSED;
+•
+CLARK COURT ORDER – CLARK RELIEF PROCESSED;
+•
+CLARK COURT ORDER – CLARK RELIEF AND MEDICARE RELIEF PROCESSED; or
+•
+CLARK COURT ORDER – CLARK RELIEF PROCESSED, NOT ELIGIBLE FOR MEDICARE RELIEF.
+1. Inquirer’s MBR contains Clark Court Order messages
+The following chart provides N8NN, FO, and PC instructions for handling Title II inquiries
+about Clark relief based on the Clark messages on the MBR.
+MBR Messages
+Action
+MBR contains Clark CO MSG and Clark SP MSG
+1.
+Access the Online Retrieval System (ORS) and obtain a copy of the case review, resumption,
+or reinstatement notice. The notice has a posting date December 2012 or later.
+2.
+Explain the following to the inquirer:
+“The record shows we reviewed and processed your case for Clark class relief. We issued you a notice on MM/DD/CCCC (date of Clark notice) explaining how Clark relief applied to your case.”
+3.
+Provide the inquirer a copy of the case review, resumption, or reinstatement notice,
+if requested.
+MBR shows Clark CO MSG but no Clark SP MSG
+To see if we already processed relief but failed to update the MBR with the SP MSG,
+follow instructions in block 1 of the chart in GN 02615.190B.1. in this section. If there is no notice in ORS:
+•
+Refer the case to the ^Clark Order mailbox with the Subject: “No Clark MBR SP MSG”.
+•
+Include the inquirer’s name, SSN, current address, and phone number. (An email reply
+from the mailbox will provide further guidance, including the appropriate CCID code.)
+•
+Provide the following response to the inquirer:
+“We reviewed your case and are continuing our investigation. No further action is
+required from you at this time. If further action is later required, we will contact
+you.”
+NOTE:
+DO NOT PAY Title II critical or financial emergency case payments until the PC determines that
+the beneficiary is entitled to Clark relief and calculates the relief amount. For
+information on a critical or financial emergency case, see RS 02801.001.
+2. Inquirer’s MBR contains no Clark messages
+If there is no Clark CO MSG on the inquirer’s MBR, then we did not identify the inquirer as a Title II
+Clark class member.
+a. N8NN instructions
+If you receive an inquiry and there is no Clark CO MSG on the MBR, provide the following explanation to the inquirer:
+“We need to investigate your case further. Please allow us 60 days to respond to your
+inquiry. No further action is required from you at this time. If further action is
+later required, we will contact you.”
+Refer the case to the FO for investigation via Modernized Development Worksheet (MDW),
+entering the following on the MDW Worksheet (MMDW) screen:
+•
+CLARK in the ISSUE field;
+•
+ADM in the CATEGORY field; and
+•
+INQUIRY in the REMARK field.
+In addition, on the MDW Remarks (MRMK) screen explain why the inquirer believes they
+are a class member.
+b. FO and PC instructions
+If you receive an inquiry or a N8NN MDW referral with “Clark” as the ISSUE, and there is no Clark CO MSG on the MBR:
+•
+Check the Fugitive Felon System Control File (FFSCF) to determine if the inquirer
+has any warrants subject to Clark relief. Follow the instructions for using FFSCF in MSOM PRISON 006.001 through MSOM
+PRISON 006.014.
+•
+Review the FFSCF warrant information using the instructions in this chart.
+Warrant Record on FFSCF
+Action
+Offense charge symbol: FELONY on the Fugitive Felon Warrant Data (FFWQ) screen.
+•
+Provide the following explanation to the inquirer: “Clark relief is only for cases we did not pay based on probation or parole violation arrest
+warrants. Our records do not show you had such an arrest warrant;”
+•
+Prepare and provide the inquirer the Clark Court Case Notice of Inquiry located in the general folder in the Document Processing
+System (DPS); and
+•
+Send a copy of the notice to ORS.
+Offense charge symbol:
+PROBATION/PAROLE VIOLATION on the FFWQ screen.
+For specific PPV warrant data codes applicable to Clark class members, see GN 02615.100B.1.
+Determine if the inquirer’s case appears to be subject to Clark relief following the explanation on identifying class members in GN 02615.100A.2
+1.
+If it appears the inquirer’s case is subject to Clark relief:
+•
+Provide the following response to the inquirer:
+“We reviewed your case and are continuing our investigation. No further action is
+required from you at this time. If further action is later required, we will contact
+you.”
+•
+Refer the case to the ^Clark Order mailbox with the Subject: “Potential Clark Member”, and
+•
+Include the inquirer’s name, SSN, current address, and phone number; explain why the
+inquirer’s warrant appears to be subject to Clark Relief. (An email reply from the mailbox will provide further guidance including
+the appropriate CCID code, if the case qualifies for Clark relief.)
+2.
+If it appears that the inquirer’s case is not subject to Clark relief:
+•
+Provide the following explanation to the inquirer: “Clark relief is only for cases we did not pay based probation or parole violation arrest
+warrants for a certain period. Our records do not show you had such an arrest warrant
+during the required time period;”
+•
+Prepare and provide the inquirer the Clark Court Case Notice of Inquiry located in the general folder in DPS; and
+•
+Send a copy of the notice to ORS.
+No warrant information on FFSCF.
+•
+Provide the following explanation to the inquirer: “Clark relief is only for cases we did not pay based on probation or parole violation arrest
+warrants. Our records do not show you had such an arrest warrant;”
+•
+Prepare and provide the inquirer the Clark Court Case Notice of Inquiry located in the general folder in DPS; and
+•
+Send a copy of the notice to ORS.

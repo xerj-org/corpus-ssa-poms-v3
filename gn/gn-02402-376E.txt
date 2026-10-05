@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02402.376 - Coding Peru Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/14/2022 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402376 (fetched 2026-10-04)
+
+E. Description of Peru IDD bank data
+The data for coding IDD for Peru comes from banks determined by the FRBKC. The bank
+data for Peru reflected on the MBR consists of up to 27 characters including the country
+code of Q for Peru.
+IMPORTANT : Because the DAN field can only hold up to16 digits, complete bank information must
+be coded in ITS.gov for each beneficiary. Additional characters may be required for
+the IDD payment to process. Therefore, technicians must follow a two-step process
+to avoid payment rejection:
+1.
+Input all IDD bank data in ITS.gov, as outlined in Section F; and
+2.
+Input the allowable number of characters via SSA systems to update the MBR.

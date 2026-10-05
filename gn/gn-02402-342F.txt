@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02402.342 - Coding Panama Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 09/01/2022 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402342 (fetched 2026-10-04)
+
+F. Procedure for coding routing and account numbers for International Direct Deposit
+(IDD) to Panama
+If you are in
+Follow the instructions in
+1.
+the Embassy in Panama City,
+GN 02402.342E.1.
+2.
+the FBU in San Jos, Costa Rica
+GN 02402.342E.2.
+3.
+DIO, or an FBU that is not in Panama or Costa Rica,
+GN 02402.342E.3.
+4.
+a field office (FO) or regional office (RO) in the U.S., or a consular office other
+than in Panama or Costa Rica,
+GN 02402.342E.4.
+1. Instructions for the U.S. Embassy in Panama City, Panama
+STEP
+ACTION
+1.
+Review the form for accuracy.
+2.
+Is the form correctly completed with accurate information?
+•
+If yes, go to Step 3.
+•
+If no, contact the beneficiary and make any necessary corrections. Go to Step 3.
+3.
+Send the corrected form to the FBU in San Jos for input. STOP.
+2. Instructions for DIO or the FBU in San Jos, Costa Rica
+IF
+THEN
+1. You receive a completed form to input, and the cutoff date is three or fewer days
+from today,
+•
+Code the full bank and account data to ITS.gov .
+•
+Follow the instructions in GN 02402.342E.3. to code the data to the MBR.
+2. You receive a completed form to input, and the cutoff date is at least four days
+from today,
+•
+Code the full bank and account data to ITS.gov .
+•
+ITS sends the information for the MBR to DIO through Automated Enrollment. You do
+not need to code directly to the MBR.
+3. The FBU in Panama City, Panama, has not reviewed the bank and account data,
+•
+Fax the form to the FBU in Panama City, Panama, at the fax number on DOORS.
+•
+Send a note to let them know that you have input only to ITS.gov , or to both ITS.gov and the MBR. STOP.
+3. Instructions for an FBU that is not in Panama or Costa Rica
+Step
+FBU Location
+1.
+Is the beneficiarys address on the MBR outside the U.S.?
+•
+If yes, go to Step 2.
+•
+If no, return the form to the beneficiary. STOP. The MBR doesnt accept IDD information if the beneficiary has a U.S. address.
+2.
+Code the Type of Account (on the SSA screen) as checking or savings. If you dont know
+the type of account, code it as checking.
+IMPORTANT: Never code a C for checking or an S for savings as part of the Depositor Account Number
+on the input screen. A C or S coded at the start of the Depositor Account Number input
+causes the payments to reject at FRBNY.
+3.
+To begin coding the Routing and Transit Number (RTN) field (nine digits total), start
+with 64, the prefix that SSA and FRBNY have designated for Panamanian IDD.
+4.
+Code the first six digits of the nine-digit bank code.
+5.
+Code the U.S. check digit. Obtain the check digit from Title II Interactive Comps.
+6.
+Code the Depositor Account Number (DAN) field, starting with the last three digits of
+the bank code.
+7.
+Code the first 14 digits of the account number.
+8.
+Are you certified to enter data on ITS.gov ?
+•
+If yes, input the full bank and account information to ITS.gov .
+•
+If no, fax the completed form to the San Jos FBU (at the fax number on DOORS) for input to ITS.gov . Let them know you have coded the information to the MBR. STOP.
+4. Instructions if you are in an FO or RO in the U.S., or a consular office that is not
+in Panama or Costa Rica
+Step
+Procedure
+1.
+Print and complete the enrollment form for Panama, SSA-1199-OP21, which is available
+at GN 02402.342G.
+2.
+Fax the completed form to DIOs paperless fax number at (410) 597-1800. STOP.

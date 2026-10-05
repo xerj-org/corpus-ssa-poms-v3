@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - SI 01410.040 - Procedures for Determining the State and County of Residence
+Effective Dates: 02/09/2016 - Present | TN 8 (03-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501410040 (fetched 2026-10-04)
+
+E. Procedure - Correcting Records
+Use the following instructions to correct records showing the incorrect state and
+county.
+1. Children
+If you are reviewing the record of a child who is not living with the parents but
+is under parental control and who has not been placed by a jurisdiction, correct it
+by entering the State and county of residence of the parents who exercise control.
+(Instructions in the previous BASIC to this subchapter may have led you to input the
+State and county code of a school away from home as the residence even when the parents
+were exercising control.)
+Check the State and county code of residence on the SSR for all children who may be
+affected during redeterminations and other posteligibility events.
+2. ZIP Codes
+FO Responsibilities:
+Remember that most ZIP codes correspond to political lines. Also remember that, in
+the majority of cases, each ZIP code will belong wholly to one county. (However, there
+are some “border” ZIP codes which are shared by more than one county.) Use your knowledge of the service
+area to enter the appropriate State and county code on the SSR.
+Overwrite the system's incorrect prefilled codes since MSSICS LRES entries will prefill
+the State and county code from the ZIP code of the residence.
+As MSSICS is extended to include posteligibility SSI actions, be ever more careful
+to check to see if the prefilled ZIP code or the previous State and county code accurately
+reflect the SSI individual's State and county of residence.

@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - SI 02310.007 - Processing Alerts from Computer Matches
+Effective Dates: 06/23/2008 - Present | TN 43 (06-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310007 (fetched 2026-10-04)
+
+B. Procedure for full development
+Use the following procedures whenever a computer match alert generates, even if it
+is worked with a scheduled redetermination.
+1. Contact individual
+Send an SSA-L3074-U2 (Notice of Appointment) to schedule a personal contact (i.e.,
+phone or face-to-face interview) for limited issue. Otherwise send an SSA-L8003-U2
+(Request for Information).
+References:
+See SI 02310.042 for special IRS alert procedures and special language for the SSA-L3074-U2 when the
+taxpayer is not the recipient.
+See SI 02305.019 and SI 02305.814 for instructions for the SSA-L3074-U2.
+See SI 02306.020 for instructions on form SSA-L8003-U2.
+2. Confirm data
+a.
+If the individual confirms information on the alert, document this confirmation on
+an SSA-5002. Complete any additional development, if necessary, input the new data,
+and clear the corresponding diary.
+b.
+If the individual contacts the FO, but does not confirm the information on the alert
+and does not submit evidence to resolve the issue, contact the data source. Once the
+data source responds and confirms match data, input the new data and clear the corresponding
+diary.
+3. Notices about planned action
+a.
+If confirmed match data causes a prospective payment reduction, let the system send
+an SSA-L8155, Notice of Planned Action, when you input the data and clear the diary.
+NOTE: Between the GK cutoff date and the Treasury cutoff date, a Manual Notice of Planned
+Action, SSA-L8155-U2, is necessary to stop or reduce the next month's check.
+b.
+Confirmed match data may cause an overpayment, but not a prospective payment reduction.
+If this occurs, allow the system to send an automated overpayment notice if no AONS
+exclusion exists. Otherwise, a manual overpayment notice is necessary.
+4. Failure to provide information
+If the individual fails to contact the FO in response to the SSA-L3074-U2 or SSA-L8003-U2,
+follow the instructions in SI 02301.235 to issue a Notice of Planned Action, SSA-L8155, to suspend benefits for failure to
+provide information (N20). See the NOTE in SI 02310.007B.3.a.
+SI 02301.235.B explains when not to use N20.

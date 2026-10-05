@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 13010.037 - Trial Work Period (TWP) and Fraud Conviction
+Effective Dates: 01/03/2025 - Present | TN 86 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010037 (fetched 2026-10-04)
+
+G. OCO SIB procedure for court reversals
+1. If the court overturns the fraud conviction, the TWP months are payable. Apply the
+following procedures to remove the suspension months. On the VERN Screen:
+•
+Delete the date in the FRAUD DECISION DATE field and leave the field blank.
+•
+In the VRFD field, over key the “F” with a “Y” for those TWP months that are payable.
+•
+PF8 through each TWP month that needs to be reversed, then hit ENTER to record the
+decision and PF9 to confirm. Hitting “enter” after the first month will only reverse
+the decision for that TWP month.
+•
+Send a manual notice.
+2. OCO SIB procedure for correcting an erroneous input
+If the technician did not properly record the TWP months (i.e., months we should have
+suspended and did not, or we suspended months in error) or the fraud decision date
+was incorrectly recorded, follow these procedures to correct the input (only over
+key incorrect fields). On the VERN Screen:
+•
+Correct the fraud decision date: Over key the date with the correct date, or delete
+the date using the DELETE key;
+•
+Correct TWP fraud months: Start on the VERN screen for the first TWP month that needs
+correction. Over key the “F” or “Y” with the correct entry. PF8 through all months
+that need correction; and
+•
+Hit ENTER once you complete all the corrections and PF9 to confirm.
+Based on your corrections, you may need to release a revised overpayment notification
+notice.
+3. TWP fraud processing exception
+The DCF will not re-send any TWP fraud data if the update fails and it does not update
+the MBR. The PC receives a PCACS exception. Forward all exceptions regarding a TWP
+fraud input to OCO. All PCACS TWP Fraud exceptions must be input via MACADE – DO NOT re-input to the DCF.
+See also:
+•
+SM 03005.285 Trial Work Period Fraud Suspension Transactions
+•
+SM 00880.000 MACADE- Table of Contents
+•
+SM 00883.000 Overview of COMMON Screen Process-Table of Contents
+4. Subsequent work review after a TWP fraud conviction
+When you establish a work review in eWork, and the DCF indicates TWP fraud (e.g.,
+either the VRFD GRS or VRFD SE field has an “F”), the following alert shows on the
+Initiate Work Review page:
+“This is a Trial Work Period (TWP) Fraud Case. You will be able to develop and process
+this case in eWork; however, no earnings information will be pushed to DCF.”
+When you attempt to adjudicate a case that involves prior TWP fraud coding in eWork,
+a pop up box shows:
+“EXCLUSION: The DCF shows that there was a fraud decision on this case for the TWP. This is
+an exclusion from eWork input to the DCF. You will need to manually input the earnings
+to the DCF. The inputs to the DCF could directly affect payments. eWork continues
+to process the case when you click OK.”

@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02402.418 - Coding El Salvador Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/25/2018 - Present | TN 115 (10-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402418 (fetched 2026-10-04)
+
+G. Example for coding bank data for El Salvador
+The customer provides us with a signup form for El Salvador containing the following
+information: SV62CENR00000000000000700025
+The first two characters of a El Salvador IBAN are “SV,” which represents the International Organization for Standardization (ISO) country
+code and the third and fourth characters of the IBAN are the IBAN check digits. The
+technicians should never code the IBAN ISO country code or the check digit to the
+MBR. The next 4 characters of the IBAN represent the 4-digit bank code. The last 20
+characters represent the 20-digit account number.
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 720000050
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking
+2. Derive the DAN
+Enter the information for the RTN.
+•
+Code the letter “ D ” designated for El Salvador
+•
+Code 16 digits of the 20-digit account number “ 0000000000000070 ”
+•
+Coding in ITS.gov will reflect:
+The technician will obtain the following:
+IBAN:SV62CENR00000000000000700025
+RTN: 720000050 Checking
+DAN: D0000000000000070
+The coding in an SSA System will reflect:
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000050
+ACCOUNT TYPE (C/S):C
+DEPOSITOR ACCOUNT NUMBER: D0000000000000070
+CANCEL DIRECT DEPOSIT (Y):
+DIRECT EXPRESS (Y):
+The MBR will reflect the following information:
+RTN- 720000050 DAN- D0000000000000070

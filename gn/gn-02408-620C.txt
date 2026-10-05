@@ -1,0 +1,62 @@
+SSA Program Operations Manual System (POMS) - GN 02408.620 - Manual Electronic Funds Transfer (EFT) Reclamation Requests and Exclusions
+Effective Dates: 12/04/2015 - Present | TN 77 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408620 (fetched 2026-10-04)
+
+C. Process for Title II
+1. When to do a manual reclamation input
+a. Situations when the Processing Center (PC) manually inputs an E-Stop
+The PC manually inputs an E-stop in the following situations:
+•
+A death termination has been on the Master Beneficiary Record (MBR) for more than
+20 days, and the Payment History Update System (PHUS) query does not show E-stops
+(EVENT 070 -1184 SP) on payments issued after death.
+•
+The PC has corrected an incorrect month or year of death on the MBR, and not all of
+the incorrect payments after death were included in the original reclamation request.
+•
+SSA does not learn of the death until more than 50 payments have been sent out after
+death. Because of a systems limitation, the most that can be input on the same day
+(by either an automated or a manual reclamation request) for one Title II beneficiary
+is 50 payments. If more than 50 payments need to be reclaimed, the system does not
+process automated reclamations for any of the payments. It generates an exception
+to the PC, and the PC must do manual reclamation requests for all of the payments
+(up to 50 payments per day). SSA notifies the Regional Finance Center (RFC) in this
+case, to alert them to combine the requests into one Reclamation Notice to the FI
+via the Non-Entitlement Due to Death (NED) Report (see NED Report, GN 02408.660).
+•
+The FI notifies SSA of a death that occurred in the past and requests a reclamation.
+Many years of payments may be involved, and the FI wants documentation of the reason
+for returning the large sum of money.
+•
+A prior month accrual (PMA) payment was sent after death, and the beneficiary was
+not due the payment.
+Manually input PMA amounts that are not due AND are reclaimable in the SPA O/P field
+on the Master Beneficiary Record (MBR).
+b. Examples
+•
+On September 16, 2007, the Field Office (FO) received a letter saying that Ms. Jones,
+a Title II beneficiary, had died on August 12, 2006. The FO mistakenly input the date
+of death as August 12, 2007. A DNE with this information was sent to the FI, followed
+by a reclamation request to Treasury for the payment dated August 31, 2007. Upon receipt
+of the DNE, the FI notified the beneficiary's estate that it had returned the August
+31, 2007 payment to SSA because SSA had notified the FI of the beneficiary's death.
+Ms. Jones' executor called SSA to correct this information. At the request of the
+FO, the PC then input E-stops for the remaining EFT payments from August 13, 2006
+through September 16, 2007.
+•
+Mr. Beneficiary died on October 6, 2003, but SSA did not learn of the death until
+the divorced spouse filed for benefits on December 4, 2008. Title II payments sent
+to Mr. Beneficiary after the death included their regular payments through December
+3, 2008; a PMA for a cost-of-living adjustment in August 2006; and a PMA for a recomputation
+in February 2004, a total of 64 payments. The PC first inputs a manual E-stop request
+for 50 payments, starting with the most recent. The next day, the PC did a manual
+request for the remaining incorrect payments, including the PMAs since they were not
+due.
+2. Notifying the Regional Financial Center (RFC) when more payments must be reclaimed:
+When a manual reclamation request is needed for more months after an automated or
+manual reclamation request has already been sent, SSA notifies the RFC to put the
+requests together and send a reclamation notice to the FI for all incorrect payments
+at the same time using the Non-Entitled Deceased (NED) debtors report found in the
+Treasury Check Information System's (TCIS) Reclamation Dashboard. See NED Report,
+GN
+02408.660.

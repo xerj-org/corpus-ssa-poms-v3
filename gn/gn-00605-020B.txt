@@ -1,0 +1,101 @@
+SSA Program Operations Manual System (POMS) - GN 00605.020 - System Selection and Control, and Mailing of Accounting Forms
+Effective Dates: 03/13/2019 - Present | TN 50 (03-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605020 (fetched 2026-10-04)
+
+B. Process — Selection, Control and Mailing
+1. Title II Cases
+Generally, the system selects Title II records based on the date the payee was selected
+(i.e., DOS: field in the RPAYEE segment of the MBR).
+EXAMPLE: In January 2001, the system will select records with DOS: 01/2000, 01/1999, 01/1998,
+etc.
+EXCEPTION: Records are selected based on the negotiated accountability month if a date is shown
+in the NAM: field in the RPAYEE segment.
+Records for disabled adult children (DACs) converted from child beneficiaries before
+April 1, 1989, with type of payee coding “NCL” on the MBR, are selected in March of
+every year.
+NOTE:
+Payees of beneficiaries who are dually entitled on accounts from different trust funds
+receive two distinct Representative Payee Report forms. Each report shows the Social
+Security Number (SSN) to which it applies and a Total Accountable Amount (TAA) of
+only the funds paid on that account during the report period. Payees may receive these
+report forms at different times of the year, depending on the reporting periods for
+the two accounts. To determine the reporting period, see GN 00605.020B.1.a.
+a. Initial Request
+•
+The system selects records near the end of the month. The records are written to the
+offline annual accounting system control file and controlled for receipt of a completed
+report. The Electronic Representative Payee Accounting (eRPA) in the Electronic Representative
+Payee System (eRPS) is used to query or delete the system control.
+•
+The contractor mails the SSA-623-OCR-SM, SSA-6230-OCR-SM, or SSA-6234-OCR-SM forms
+to payees in the month following the month of selection.
+EXAMPLE: The initial selection was made in January 2001 and the forms mailed in February for
+report period 02/01/2000 through 01/31/2001. The report period is the 12-month period
+ending with (and including) the month of selection.
+b. Second Request
+•
+Pending records are identified as “second request” 90 days after the month of selection.
+•
+The contractor mails the “SECOND REQUEST” SSA-623-OCR-SM, SSA-6230-OCR-SM or SSA-6234-OCR-SM
+forms to payees for completion.
+EXAMPLE: The initial selection was made in January 2001 and the forms mailed in February for report period 02/01/2000 through 01/31/2001. Cases were selected
+as “second request” in April 2001 and the forms mailed in May.
+SYSTEMS LIMITATION: The “second request” SSA-623-OCR-SM, SSA-6230-OCR-SM, or SSA-6234-OCR-SM will contain
+an updated payee mailing address, if it exists on the MBR. All other data on the forms
+will be identical to that displayed on the initial request.
+c. Third (Nonresponder) Alerts
+•
+Pending records are identified as “nonresponders” 120 days after the second requests
+were selected; i.e., 7 months after the initial selection.
+EXAMPLE: The initial selection was made in January 2001 and the forms mailed in February for report period 02/01/2000 through 01/31/2001. Cases were selected
+as second request in April 2001 and the forms mailed in May. Cases were selected as “nonresponder” in August 2001.
+•
+Systems prepares two copies of the list of nonresponders. Each FO receives a list
+of records within their service area for the report period; the list is electronically
+routed to a secure printer. An electronic file copy of the entire (i.e., national)
+list is directed to the Management Information Systems Facility (MISF) for access
+by authorized RO staff.
+REMEMBER: The data displayed on the nonresponder alerts is identical to that displayed on the
+first request. (See GN 00605.085 for processing nonresponder alerts.)
+2. Title XVI and Concurrent Cases
+The system selects title XVI (and concurrent) records for the first time based on
+the date the payee was selected (i.e., S: field in the REPY segment of the SSR). When
+the system clears the control on the record, a four-position negotiated accountability
+date (referred to as the NM) is displayed in the M: field in the REPY segment. The
+date is equal to the last month of the report period. Every selection after the first
+is based on the NM date.
+a. Initial Request
+•
+The system selects records on the first Saturday of the month and sets an AR diary
+in the DIAR segment of the SSR to control for receipt of the completed report.
+•
+The contractor mails the SSA-623-OCR-SM, SSA-6230-OCR-SM, or SSA-6234-OCR-SM forms
+to payees in the same month the selection was made.
+EXAMPLE: The payee was appointed in December 1999 (i.e., S: 12/15/99). The record was first
+selected for accounting on January 6, 2001 for report period 01/01/2000 through 12/31/2000.
+The contractor mails the forms in January; WBDOC processes the completed form on February
+28, 2001; the system sets the NM date 12/00. The system thereafter selects this record
+for accounting each January, the month after the NM date.
+b. Second Request
+•
+Pending records are identified as “second request” 90 days after the month of the
+initial selection.
+•
+The contractor mails the “SECOND REQUEST” SSA-623-OCR-SM, SSA-6230-OCR-SM, or SSA-6234-OCR-SM
+forms to payees for completion.
+EXAMPLE: The initial selection was made on January 6, 2001 for report period 01/01/2000 through
+12/31/2000. Cases were selected as “second request” on April 7, 2001; the forms were
+mailed that same month.
+c. Third (Nonresponder) Alerts
+•
+Pending records are identified as “nonresponders” 90 days after the second request
+month of selection; i.e., 6 months after the initial selection.
+EXAMPLE: The initial selection was made on January 6, 2001 for report period 01/01/2000 through
+12/31/2000. Cases were selected as second request on April 7, 2001; the forms were
+mailed that same month. Cases were selected as “nonresponder” on July 7, 2001.
+•
+Systems prepares two copies of the list of nonresponders. Each FO receives a list
+of records within their service area for the report period; the list is electronically
+routed to a secure printer. An electronic file copy of the entire (i.e., national)
+list is directed to the Management Information Systems Facility (MISF) for access
+by authorized RO staff.

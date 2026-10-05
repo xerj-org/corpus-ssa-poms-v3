@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.125 - Direct Deposit for Railroad Retirement Board Cases
+Effective Dates: 04/20/2018 - Present | TN 100 (04-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402125 (fetched 2026-10-04)
+
+B. EFT process for RRB (LAF-E) applications
+The person who takes the claim asks if the claimant wants direct deposit for the benefit
+payments. The claimant or representative payee provides the routing transit number
+(RTN) and the depositor account number (DAN).
+The EFT information becomes part of the data that goes to RRB through the daily PRCORACE
+file for certification of LAF-E benefits. RRB uses the data to send the payments to
+the financial institution (FI). The FO does not send the information separately to
+the RRB for a new claim. This is an automated process.
+See Also
+GN 02402.040 Where to Find Routing Transit Numbers (RTNs) and Depositor Account Numbers (DANs)
+on Account Documentation

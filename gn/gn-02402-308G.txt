@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02402.308 - Coding Sweden Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402308 (fetched 2026-10-04)
+
+G. Example of coding Sweden direct deposit
+The customer provides us with a signup form for Sweden containing the following account
+number: "SE4550000000058398257466".
+•
+The first character of the IBAN is "SE", it represents the International Organization
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digit. Never code the
+IBAN country code or check digit to the MBR.
+•
+The fifth through seventh characters of the IBAN represents the bank code.
+•
+The last 17 digits of the IBAN represent the account number.
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN: 570000006
+•
+Code the type of account as a C for checking or an S for savings. If no account type
+indicated, use a C for checking.
+2. Derive the DAN
+The technician enters the DAN.
+•
+Code the last 17 digits of the IBAN: 00000058398257466
+3. Obtain the following information
+•
+RTN: 570000006
+•
+Checking
+•
+DAN: 00000058398257466
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 570000006 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: 00000058398257466
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 570000006
+•
+DAN- C00000058398257466

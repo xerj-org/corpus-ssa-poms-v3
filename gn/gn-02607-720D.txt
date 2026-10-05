@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02607.720 - Processing Cases Through PUPS Where the Inmate Is Not Currently Convicted/Commitment
+Effective Dates: 09/04/2007 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607720 (fetched 2026-10-04)
+
+D. Procedure - Diary for EXPECTED TRIAL DATE Matures
+1. Conviction/Commitment Status not Known
+The day following the expiration of the expected trial date the status of the PUPS
+record is changed back to PENDING and the EXPECTED TRIAL DATE entry is removed from
+the PUPS record. A new PUPS alert is not generated for this PUPS record but the SSN will appear on the PTMI pending listing.
+If the beneficiary has not been convicted or the court has not issued an order of commitment at this time, repeat the process
+in GN 02607.720C.2.
+2. Court Issues Conviction or Order of Commitment
+Process as indicated in GN 02607.730B. when you learn that the court has convicted or committed the beneficiary.
+Process as indicated in GN 02607.730C. if the beneficiary is not confined after the conviction or order of commitment; e.g.,
+the beneficiary is given time already served on their sentence; the beneficiary is
+sentenced to 30 days or less of confinement after conviction/commitment, etc.

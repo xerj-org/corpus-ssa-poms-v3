@@ -1,0 +1,10 @@
+SSA Program Operations Manual System (POMS) - GN 02402.321 - Coding Dominican Republic Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402321 (fetched 2026-10-04)
+
+C. Multi-country contract
+Citibank is the processor bank for IDD to several countries, including the Dominican
+Republic. All countries for which Citibank is the processor bank have a prefix of
+70 at the beginning of the routing number (RTN) and an assigned letter in the first
+position of the Depositor Account Number (DAN). The letter assigned for the Dominican
+Republic is J.

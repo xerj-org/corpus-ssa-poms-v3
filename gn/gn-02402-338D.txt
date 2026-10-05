@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - GN 02402.338 - Coding Mexico Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/03/2024 - Present | TN 278 (08-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402338 (fetched 2026-10-04)
+
+D. Procedure for coding Mexico Routing and Account Numbers for IDD
+Use this procedure to code direct deposit of Title II benefits to FIs in Mexico.
+1.
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2.
+Is the beneficiary’s address on the MBR in a foreign country (PCOC = 8)? If not, STOP.
+REASON: The MBR will not accept the International Direct Deposit (IDD) information if the
+beneficiary has a U.S. address.
+3.
+Is the beneficiary’s account a Mexican peso checking account at an FI in Mexico, or
+a debit card account? If not, STOP.
+REASON: Mexico banking rules do not allow deposits from outside the country to a savings
+account. It is also not legal to have an account in Mexico in U.S. dollars.
+4.
+Code the Type of Account as Checking. (Mexico savings accounts cannot be reached by
+direct deposit.)
+5.
+Is the bank information a CLABE of 18 digits?
+•
+If yes, go to Step 6.
+•
+If no, go to Step 8.
+6.
+When the bank information is a CLABE, code the Routing and Transit Number (RTN) field (9 digits total) as follows:
+•
+Start with 63, the prefix SSA has designated for Mexico direct deposit.
+•
+Code the 3-digit ABM de Banco (the first 3 digits of the CLABE).
+•
+Code two zeros (00).
+•
+Code the first digit of the ABM de Banco again. (This is the first digit of the 18-digit CLABE.)
+•
+Code the U.S. check digit. Obtain the U.S. check digit by using the Check Digit Code program on Title II/Interactive
+Comps.
+7.
+Code the Depositor Account Number (DAN) field with the 17 remaining digits of the CLABE as follows:
+•
+The second and third digits of the ABM de Banco,
+•
+The 3 digits of the Plaza,
+•
+The 11 digits of the Número de Cuenta, and
+•
+The 1-digit Digito Verificador. STOP.
+8.
+When the bank information includes a Debit Card Number (Tarjeta de Débito), code the Routing and Transit Number (RTN) field (9 digits total) as follows:
+•
+Start with 63, the prefix SSA has designated for Mexico direct deposit.
+•
+Code the 3-digit ABM de
+Banco.
+•
+Code two zeros (00).
+•
+Code the first digit of the 16-digit Debit Card Number (Tarjeta de
+Débito).
+•
+Code the U.S. check digit. Obtain the U.S. check digit by using the Check Digit Code program on Title II/Interactive
+Comps.
+9.
+Code the Depositor Account Number (DAN) field with the remaining 15 digits of the Debit Card Number.

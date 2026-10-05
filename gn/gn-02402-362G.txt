@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.362 - Coding Belize Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2024 - Present | TN 264 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402362 (fetched 2026-10-04)
+
+G. Example of coding Belize bank data
+The customer provides us with a signup form for Belize containing the account number:
+"1234567891234567."
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 660000071
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "R" designated for Belize; and
+•
+Code the 16-digit account number: 1234567891234567.
+3. Obtain the following information
+•
+RTN: 660000071
+•
+Checking
+•
+DAN: R1234567891234567
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 660000071
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: R4567890123456789
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 660000071
+•
+DAN- CR1234567891234567

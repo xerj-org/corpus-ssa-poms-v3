@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 81010.150 - Processing Claims Appeals of Medical Decisions in Electronic Disability Collect System (EDCS)
+Effective Dates: 11/16/2023 - Present | TN 73 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010150 (fetched 2026-10-04)
+
+F. Receiving a pending case alert in EDCS when a reconsideration or hearing is filed
+EDCS only allows one pending case at a time. An alert message appears if there is
+a case pending while attempting to load an appeal into EDCS. If a pending case alert
+is received, choose one of the following options:
+1. Update the existing pending case
+Use the re-propagation function on the EDCS case section screen to re-propagate all
+mainframe data into the pending EDCS case, including any new mainframe claims. See
+Data Repropagation in Electronic Disability Collect System (EDCS) - DI 81010.045.
+NOTE: Use this option when the FO has CRs who are specialized by Title II or XVI, and only
+defined the claim for one Title on the mainframe when first creating the EDCS case.
+2. Close the existing pending case prior to creating a new case
+Manually clear a pending EDCS case only when a prior EDCS case was:
+•
+Never transferred to the DDS for a medical determination; AND
+•
+Not appropriately closed (e.g., a technical denial on the mainframe that was not given
+an FO Determination in EDCS); or
+•
+Not transferred in EDCS and the existing data may no longer be accurate.
+3. Delete the existing pending case and create a new case
+For instructions and requirements for deleting an EDCS case, refer to Deleting and
+Manually Clearing Electronic Disability Collect System (EDCS) Cases - DI 81010.105.
+Use this option only to start a new EDCS case (e.g., if a case was established at
+an incorrect case level). An EDCS case cannot be deleted if:
+•
+any claims in the case were transferred; or
+•
+an FO Determination was made.
+If Internet Disability Report (IDR) data existed for a deleted case, the data propagates
+into EDCS if another EDCS case is created unless the IDR is purged (7 months from
+the first IDR for the i3368 and 90 days for the i3820 and i3441).
+NOTE: An alert message does not appear when establishing a reconsideration or hearing
+appeal in EDCS on a subsequent application when there is an Appeals Council level
+appeal pending on a prior claim.

@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.416 - Coding Bermuda Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402416 (fetched 2026-10-04)
+
+G. Example of coding bank data for Bermuda
+The customer provides us with a signup form for Bermuda containing the account number:
+12345678901122334455667788990
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 730000011
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Bermuda
+•
+Start with the country code of “N” designated for Bermuda; and
+•
+Code 16 digit of the 29-digit Customer Account Number “1234567890112233”
+a. You must obtain this information
+•
+RTN: 730000011
+•
+Checking
+•
+DAN: N1234567890112233
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000011
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: N1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN: 730000011
+•
+DAN: CN1234567890112233

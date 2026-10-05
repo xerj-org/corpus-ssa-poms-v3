@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - SI 02305.022 - Unscheduled RZs
+Effective Dates: 06/16/2017 - Present | TN 57 (01-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305022 (fetched 2026-10-04)
+
+A. Policy
+The following is the policy for conducting an unscheduled redetermination (RZ).
+1. RZ Policy - General
+When a change is reported that affects eligibility or payment amount and no scheduled RZ is pending, an unscheduled RZ may be necessary. For unscheduled RZs not required by SI 02305.022A.3, use the redetermination with recaps path in the Modernized Supplemental Security
+Income Claims System (MSSICS) whenever possible.
+2. Verification of liquid resources
+Effective 11/18/2006 permission to contact financial institutions must be requested
+at all RZs initiated by field offices (FOs) See SI 00515.001B. and SI 00515.001D.
+Assume that permission has previously been collected if:
+•
+The initial claim was filed 11/16/2006 or later, or
+•
+A redetermination has been completed by the FO 11/18/06 or later. See SM 01501.002C.8.
+for a description of the RZ disposition codes found in the Case Redetermination Data
+(CRZD) segment of the Supplemental Security Record (SSR). The exception to this assumption
+is if the FO completed a redetermination was opened in MSSICS prior to 11/18/2006.
+In this case it cannot be assumed that the financial permission question was asked,
+because the Financial Institution Permission (AFIP) screen will only appear in the
+MSSICS path for events opened 11/18/2006 and later.
+3. Events requiring unscheduled RZs
+The following events require an unscheduled RZ:
+a.
+A change that requires T30/T33/Start Date action and the new record (Start Date) will be in payment status (see SM 01801.030 for a
+description of T30/T33/Start Date actions);
+EXAMPLE: A Supplemental Security Income (SSI) recipient's spouse enters a Medicaid institution
+and the absence is not temporary as described in SI 02305.083L.
+b.
+The effectuation of certain appellate decisions including court decisions per SI 02305.065.
+c.
+Favorable Disability Determination Service (DDS) decisions on the appeal of a disability
+cessation EXCEPT when the following conditions are met:
+•
+The recipient is receiving Statutory Benefit Continuation (SBC) payments; and
+•
+We completed an RZ during the last 12 months beginning with the month of the favorable
+DDS appeal determination and counting backwards 12 months. EXAMPLE: In 10/17, DDS makes a favorable decision on the appeal of a disability cessation.
+The SSI record shows SBC payments and we completed an RZ in 12/16. An unscheduled
+RZ is not necessary to effectuate the disability cessation reversal because we completed
+the RZ during the last 12 months (11/16-10/17) and the recipient is receiving SBC
+payments.
+d.
+Student returns to the U.S. after having been absent for 30 days or more. SI 00501.412F.3.
+e.
+If the record is in Payment Status (PSY) N20 due to failure to respond for a RZ, a
+RZ is required to reinstate.
+f.
+Reinstatement after a 6 month suspension imposed under the provisions of administrative
+sanctions. See GN 02604.445B.1.
+4. Events appropriate for an unscheduled RZ
+The following events may be appropriate for an unscheduled RZ:
+a.
+Recipient offers to donate a SSI check or a portion of an SSI check;
+b.
+An event which will cause a large overpayment ($1,000 or more);
+c.
+A change in representative payee is necessary and multiple changes occur that may affect payment;
+d.
+Recipient returns to the U.S. after having been absent for 30 days or more and the
+I8 diary matures.
+See SI 02310.017 regarding the I8 diary. See SM 01301.215 for a list of diaries and alerts.
+5. Events not requiring RZ - Reinstatement following a period of ineligibility
+A redetermination is not required when reinstating a recipient whose record has been
+in non-pay (no payment issued) for one full calendar month but fewer than 12 consecutive
+months. See SI 02301.205. However, you MUST fully develop the event that caused the period of ineligibility
+BEFORE reinstating the recipient. Limit development to the event or change being reported.
+NOTE: If an RZ is pending when the recipient is reinstated, complete the pending RZ.
+6. FO discretion
+Adjudicators have discretion to conduct unscheduled RZs for circumstances other than
+those listed in SI 02305.022A.3. and SI 02305.022A.4.
+7. Diaries for future events
+FOs may identify an event likely to occur within the next 12 months which may affect
+eligibility or payment amount. They may post a Selection of a non-1619(b) RZ by the
+merge run (RT) diary to the record for completion of a future unscheduled RZ (see
+SM 01301.230 for inputting the RT diary).

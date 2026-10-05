@@ -1,0 +1,27 @@
+SSA Program Operations Manual System (POMS) - GN 02406.135 - Processing Reports of Nonreceipt, Loss, Theft, or Destruction of Payments -- Checks Due And Not Due
+Effective Dates: 10/29/2008 - Present | TN 129 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406135 (fetched 2026-10-04)
+
+C. When to accept a report of nonreceipt for nonrecurring checks
+The following chart displays necessary actions for reports of nonreceipt for nonrecurring
+checks.
+IF
+THEN
+nonreceipt for nonrecurring Title II check reported...
+SSA will accept a nonreceipt report for any nonrecurring check (courtesy disbursement,
+replacement, CPS, PMA, and OCO A-) on the seventh calendar day after the run date
+shown on the PHUS query. For more information, see GN 02406.201.
+Keep in mind the timing in connection with replacing a PMA check: if the PMA check
+is issued after the cutoff date, Treasury will not release the payment until the first
+of the following month. Be sure to advise the beneficiary, recipient, or representative
+payee that a payment issued in this period will not be delivered until the first of
+the next month. All PMAs are subject to this delay no matter what system is used to
+process the PMA.
+nonreceipt for nonrecurring Title XVI check reported...
+When a B-stop is transmitted on the original check, SSA will accept a nonreceipt report
+for a type 9 payment (courtesy disbursement check) 10 calendar days after the run
+date shown for the interim 01 on the Q query. For more information, see GN 02406.207. If the nonreceipt was input as a C-stop, it could take 3-5 weeks before a replacement
+is issued or a claims package is sent.
+Nonreceipt for type 2 and 4 payments (underpayment and AOTP, respectively) can be
+accepted 7 calendar days after the run date shown in the payment history. For more
+information, see GN 02406.205.

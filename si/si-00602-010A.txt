@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - SI 00602.010 - Completing the SSA-8001-BK as an ABAP
+Effective Dates: 04/11/2007 - Present | TN 4 (03-07)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500602010 (fetched 2026-10-04)
+
+A. Procedure
+1. General
+Partially complete an SSA-8001-BK (Application for Supplemental Security Income) to
+document a technical denial. The instructions in SI 00602.010A.2. and SI 00602.010A.3. specify which items to complete. See SI 00605.005 through SI 00605.045 for an explanation of how to complete individual items on the SSA-8001-BK.
+2. Mandatory Items
+Complete these items:
+•
+TEL block, if appropriate;
+•
+ABAP block;
+•
+Date block;
+•
+Preferred Language, if appropriate
+•
+Type of Claim;
+•
+Part 1, items 1-12, (19 and 20 are required in MSSICS);
+•
+Part 6, item 33, if appropriate;
+•
+Part 9, items 35, 36, (37 only if the spouse is also filing) item 38, if appropriate;
+and
+•
+Tear-off page ("Receipt for Claim").
+3. Additional Items
+Complete the item(s) that pertain(s) to ineligibility. If the reason for denial is:
+a. Claimant Not Age 65, No Disability/Blindness Alleged
+If the claimant will not attain age 65 in the month of filing or the next month and
+does not allege disability, deny the claim on the basis of age (N14).
+b. Living Arrangements
+Complete Part 2and document the file per SI 00835.001.
+c. Resident of a Public Institution
+Complete Part 2. Enter the name of the institution in "Remarks".
+d. Resources
+Complete Part 3, items 26- 29.
+e. Income
+Complete Part 4, item 30, to show all income alleged.

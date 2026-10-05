@@ -1,0 +1,193 @@
+SSA Program Operations Manual System (POMS) - DI 23580.001 - Amyotrophic Lateral Sclerosis (ALS) – Medicare and Five-Month Waiting Period Waived – Disability Determination Services (DDS)
+Effective Dates: 06/15/2022 - Present | TN 8 (07-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0423580001 (fetched 2026-10-04)
+
+E. Procedure – Postentitlement Processing – Claimant Currently Serving 24-Month Medicare
+Waiting Period Now Alleging ALS
+1. Control Clerk
+a. Identify
+If the claimant alleges ALS and is currently serving the 24-month Medicare waiting
+period, the FO will flag the case “ALS Case – Expedited Action Needed” and forward
+to the DDS. The DDS will receive a brown folder with documentation.
+b. Receipt
+Receipt as a continuing disability review (CDR) case and enter the following information
+on the National Disability Determination Services System (NDDSS):
+NOTE: It is not necessary to retrieve the original folder.
+If the field is:
+Then:
+LEX, LUN
+Enter the usual information.
+AN, BIC, AH, XAH, AD, ZIP
+Obtain data from the original SSA-831 (Disability Determination and Transmittal Form),
+updated information provided by the FO or a query.
+TYP
+Enter the level CD (Continuing Disability Review) followed by the claim type.
+CDT
+Enter “13” (Miscellaneous)
+SRD
+Enter the current date (MMDDYY)
+SO
+Enter “N”
+DO
+Enter the office code of the office that sent the folder to the DDS.
+c. Transfer
+If for any reason the disability examiner determines further development is needed,
+send the case to the field office (FO) for development, treat the case as a transfer case and input the AH, AN, DEC,
+DST, SCD, SO, and TYP fields. The DEC is “TR” and the SO is “C.” When the case is
+returned from the FO, receipt it again. Do not use return (RTN) input procedures when
+getting a case back from the FO after development.
+d. Clearance
+Enter the required fields on the NDDSS as follows:
+(SM 06001.499 – SM 06001.502 Data Input Screen [D833].)
+If the field is:
+Then Enter:
+BFD
+“D”
+DEC
+“CO”
+DIA
+“MR” and (MMDDYY)
+DSI
+“P33507”
+DST
+The destination code
+ESD
+Examiner signature date (MMDDYY)
+NP
+“N” if DDS prepares notice
+R2
+“30” or "46"
+SCD
+Date case leaves DDS (MMDDYY)
+SO
+“C”
+WRM
+“21”
+2. Disability Examiner
+a. Identify
+Post-entitlement ALS allegations will be forwarded from the FO to the DDS in a brown
+folder with a coversheet flag, “ALS Case - Expedited Action Needed - (P.L. 106-554
+waives 24-month Medicare waiting period for Amyotrophic Lateral Sclerosis.”) (See
+DI 23580.002 Exhibit 1 for coversheet.) The coversheet will provide the first
+month and last month of the Medicare waiting
+period. The folder will contain:
+•
+SSA-795 “Statement of Claimant or Other Person” (see DI 23580.003 Example 1). The SSA-795 shows the alleged onset date of ALS, and the name, address,
+telephone number and fax number of each medical source for ALS, effective with the
+ALS alleged onset date (AOD), and the date the claimant first saw each medical source
+for ALS.
+•
+SSA-827s “Authorization to Disclose Information to the Social Security Administration.”
+b. Process
+Follow normal procedures in DI 24580.020 (Evaluation of Amyotrophic Lateral Sclerosis) and DI 22501.000 (Case Development Procedures) for evaluating medical evidence to make an ALS onset
+determination.
+NOTE: Prior to Public Law (P.L.) 106-554 and the resulting regulatory change dated August 2003,
+a meets, equals, medical/vocational or combination of these listing criteria could
+result in an ALS allowance. Effective August 28, 2003, the revised ALS listing
+allows a finding of disability for an individual with medical evidence showing he
+or
+she has ALS, (i.e., if
+a diagnosis of ALS is properly
+confirmed the claimant will always
+meet the
+listing). In addition, the revised ALS listing
+in DI 34001.030 provides a more comprehensive
+description of this impairment.
+If the diagnosis is not properly confirmed the claimant's total neurological impairment could potentially meet or equal another
+listing, or an allowance could be correct using the medical-vocational factors. However,
+these cases are not covered by P.L. 106-554 and
+do not qualify for waiver of the 24-month Medicare waiting
+period.
+c. SSA-833 Completion - Fully Favorable and Partially Favorable
+Complete the following entries for fully favorable and partially favorable ALS determinations:
+•
+Item 10 - Check block D “OTHER.”
+•
+Item 12 - Enter Reason for Continuance Code “30” and Medical Listing Code “11.10”
+•
+Item 20 - Enter WRM code 21 (defined as “OTHER”).
+•
+Item 21 - Enter Primary Diagnosis of "Amyotrophic Lateral Sclerosis," Body System
+code of "11," and Diagnosis code of "3350." Enter the Secondary Diagnosis, Body System
+code, and Diagnosis code from the Primary Diagnosis of the previous favorable determination
+or decision.
+•
+Item 23A-C - Enter 7-year diary coding
+•
+Item 24 - Enter remark "ALS Established Beginning (MMDDYY)." For partially favorable
+determinations, add “ALS notice sent” in Item 24.
+Send the completed SSA-833 in the brown folder with the ALS coversheet flag to the
+processing center (PC) for the necessary MACADE input. For PC jurisdiction, see GN 01070.245.
+Also send a copy of the SSA-833 to the FO as notification that the DDS determination
+is complete, and the FO can close out the outstanding Modernized Development Worksheet
+(MDW) ALS control.
+d. SSA-833 Completion - Unfavorable Determinations
+If the claimant is not found to have ALS,
+complete the following entries:
+•
+Item 10 - Check block D “OTHER.”
+•
+Item 12 – Enter Reason for Continuance Code “46” and enter the Medical Listing Number
+of the original (non-ALS) impairment, if applicable (i.e., if original allowance not based on medical/vocational factors).
+•
+Item 20 - Enter WRM code 21 (defined as “OTHER”).
+•
+Item 21 - Enter the Primary and Secondary Diagnosis, Body System codes, and Diagnosis
+codes from the previous favorable determination or decision.
+•
+Item 23 A-C - Enter the same diary category and date already on file from the previous
+favorable determination or decision. The diary should be set to mature from the most
+recent full medical determination or decision date, not from the date of the ALS post-entitlement
+determination.
+•
+Item 24 - Enter remark "ALS Onset Not Established – Waiver of Medicare Waiting Period
+Denied. ALS notice sent.” (See DI 23580.005 Exhibit 3 Prototype DDS and DI 23580.007 Exhibit 5 Non-Prototype DDS for notice.)
+Send the completed SSA-833 in the brown folder with the ALS coversheet flag to the
+FO for the appeals period.
+If the claimant is found to have ALS
+after the
+24-month Medicare waiting period has expired,
+complete the following entries:
+•
+Item 10 - Check block D “OTHER.”
+•
+Item 12 - Enter Reason for Continuance Code “30” and Medical Listing Code “11.10”
+•
+Item 20 - Enter WRM code 21 (defined as “OTHER”).
+•
+Item 21 - Enter Primary Diagnosis of "Amyotrophic Lateral Sclerosis," Body System
+code of "11," and Diagnosis code of "3350." Enter the Secondary Diagnosis, Body System
+code, and Diagnosis code from the Primary Diagnosis of the previous favorable determination
+or decision.
+•
+Item 23A-C - Enter 7-year diary coding
+•
+Item 24 - Enter remark "ALS Onset Not Within 24-month Medicare Waiting Period. ALS
+notice sent.”
+Send the completed SSA-833 in the brown folder with the ALS coversheet flag to the
+processing center (PC). For PC jurisdiction, see GN 01070.245. Instruct the PC that the 24-month Medicare waiting period is not waived, but the DIG and/or SDIG must be changed to 3350 and the medical re-exam diary
+must be changed to 7 years.
+Also send a copy of the SSA-833 to the FO as notification that the DDS determination
+is complete, and the FO can close out the outstanding Modernized Development Worksheet
+(MDW) ALS control.
+e. Notices – Processing Instructions
+•
+Fully Favorable Determination
+If a fully favorable determination is made, a Medicare entitlement notice will be
+sent by the processing center (PC) upon completion of their action. No DDS notice
+is necessary.
+•
+Partially Favorable Determination
+DI 23580.006 Exhibit 4 provides the DDS post-entitlement notice for partially favorable determinations
+(i.e., onset of ALS is established later than alleged but within the 24-month Medicare
+waiting period). This exhibit notice designates where the personalized disability
+language must be included. The PC will issue the Medicare notice.
+•
+Unfavorable Determination
+DI 23580.007 Exhibit 7 provides the DDS post-entitlement notice for unfavorable determinations.
+This exhibit notice designates where the personalized disability language must be
+included.
+Page 1 of the notice, third paragraph, second fill-in, select “A” if the claimant
+is determined to not have ALS; select “B” if the claimant is determined to have ALS
+after expiration of the 24-month Medicare waiting period established by the original
+(non-ALS) onset.

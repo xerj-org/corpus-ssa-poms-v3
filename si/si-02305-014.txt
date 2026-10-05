@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - SI 02305.014 - RZs and Records Meeting Automated T32/Start Date Criteria
+Effective Dates: 09/16/2005 - Present | TN 52 (09-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305014 (fetched 2026-10-04)
+
+SI 02305.014 RZs and Records Meeting Automated T32/Start Date Criteria
+Procedure - After Clearing Profile E and M RZs
+Automated record termination occurs if;
+•
+A case meets the criteria outlined in SM 01802.002A.; and
+•
+A RZ was initiated/completed within 8 months prior to the computation run.
+If this criterion is not met, the system will set another profile E or profile M RZ,
+as appropriate.
+After completing the profile E or M RZ, check the SSR following the next computation
+run. If the record was not selected for the automated T32/Start Date process, you
+should T33/Start Date the record. This will prevent the case from being reselected
+as an E or M profile RZ in a subsequent RZ merge run.

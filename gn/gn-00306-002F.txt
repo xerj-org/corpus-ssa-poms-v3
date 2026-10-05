@@ -1,0 +1,87 @@
+SSA Program Operations Manual System (POMS) - GN 00306.002 - Parent-Child Relationship Categories for Title II Benefits - Overview
+Effective Dates: 09/13/2019 - Present | TN 43 (09-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200306002 (fetched 2026-10-04)
+
+F. Reference chart for parent-child relationship categories
+The chart in this subsection shows:
+•
+the categories of parent-child relationships under Title II of the Act;
+•
+the dependency requirement for each category;
+•
+the relationship code to be input on the Child Relationship (CREL) screen in the Modernized
+Claims System (MCS) for each child relationship category; and
+•
+references.
+Parent-Child Relationship
+Category
+Dependency Requirement
+Relationship Code for CREL
+Screen
+References
+NH’s Child Under State Intestacy Law
+(Section 216(h)(2)(A) of the Act)
+(State Law)
+Deem dependency for the child.
+EXCEPTION: Someone other than the NH adopted the child during the NH’s lifetime (see GN 00306.165 through GN 00306.170).
+Code "0" for “State Intestacy Law”
+NOTE: For claims taken prior to 11/02/19, children under State intestacy law were coded
+"1", "2", or "8" (see MS 00705.012).
+GN 00306.010 through GN 00306.015
+GN 00306.400 through GN 00306.680
+NH’s Biological Child Born During an Invalid Ceremonial Marriage
+(Section 216(h)(2)(B) of the Act)
+(Federal Law)
+Deem dependency for the child.
+EXCEPTION: Someone other than the NH adopted the child during the NH’s lifetime (see GN 00306.165 through GN 00306.170).
+Code "9" for “Other (216H3)”
+GN 00306.090
+NH’s Biological Child Under Section 216(h)(3) of the Act
+(Federal Law)
+Deem dependency for the child.
+NOTE: When using the “other satisfactory evidence” provision of the Federal law to establish
+that the NH is the child’s biological parent, you must establish living with or contributions for support as instructed in GN 00306.125A and GN 00306.125B.2.
+EXCEPTION: Someone other than the NH adopted the child during the NH’s lifetime (see GN 00306.165 through GN 00306.170).
+Code "9" for “Other (216H3)”
+GN 00306.100 through GN 00306.125
+GN 00306.270
+GN 00306.280
+GN 00306.285
+NH’s Legally Adopted Child, or Child Adopted by NH’s Surviving Spouse
+Dependency determination depends on the date of the adoption.
+A child legally adopted prior to or in the month in which the NH became entitled to
+RIB or DIB is deemed dependent on the NH at any of the points listed in GN 00306.007 at which the relationship existed.
+A child legally adopted by the NH before the NH’s death is deemed dependent on the
+NH at the time of death (see GN 00306.008).
+For dependency requirements for a child adopted by the NH after the NH’s entitlement
+to RIB or DIB, see GN 00306.137C.
+A child legally adopted by the NH’s surviving spouse can be entitled as a legally
+adopted child under certain conditions. If these conditions are met, including either
+living with or receiving one-half support from the NH at the time of the NH’s death, the child is
+deemed dependent on the NH as of the date of the NH’s death.
+EXCEPTION: Someone other than the NH adopted the child during the NH’s lifetime (see GN 00306.165 through GN 00306.170).
+Code "3" for “Adopted Child”
+GN 00306.135 through GN 00306.160
+NH's Equitably Adopted Child
+The NH must have been living with or contributing to the child's support at one of the points listed in GN 00306.007 or GN 00306.008.
+Code "4" for "Equitably Adopted"
+GN 00306.175 through GN 00306.210
+NH's Child Adopted by Estoppel
+The NH must have been living with or contributing to the child's support at one of the points listed in GN 00306.007 or GN 00306.008.
+Code "4" for "Equitably Adopted"
+GN 00306.215 through GN 00306.225
+NH's Stepchild
+A stepchild becoming initially entitled for July 1996 or later must have been receiving
+at least one-half support from the NH at one of the points in time set out in GN 00306.007 or GN 00306.008.
+Code "6" for “Stepchild”
+EXCEPTION: Use Code "7" for “Stepchild (216k)” when deeming the 9-month marriage requirement
+as explained in GN 00305.100A.
+GN 00306.230 through GN 00306.232
+GN 00306.290
+If entitlement to benefits as a stepchild depends on the NH’s same-sex marriage or
+non-marital legal relationship (NMLR), see GN 00210.505.
+NH's Grandchild, Step-grandchild, Adopted Grandchild; or NH's Grandchild Adopted by
+the NH's Surviving Spouse
+The NH must have been living with and contributing one-half support (see GN 00306.235C).
+Code "5" for “Grandchild”
+GN 00306.235 through GN 00306.255

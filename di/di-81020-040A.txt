@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - DI 81020.040 - Document Types
+Effective Dates: 04/27/2026 - Present | TN 41 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020040 (fetched 2026-10-04)
+
+A. General
+When documents are scanned or faxed into the Certified Electronic Folder (CEF), indexing
+data in the Document Management Architecture (DMA) barcode contains information that:
+•
+associates the document with a specific case;
+•
+identifies the Document Type;
+•
+identifies the section of the CEF in which the document is filed; and
+•
+provides specific information about the document, including office information (site
+ID), disposition information (e.g., to print or store in the image repository), and
+scanning contractor information (e.g. store or forward the paper document).
+For example, medical evidence requested by a Disability Determination Services (DDS)
+from a claimants treating source has a document type of Medical Evidence of Record,
+Document Type 0001 and is stored in section F of the CEF.
+This document type tells the system to:
+•
+label the imaged document as Medical Evidence of Record in the CEF case document tab;
+and
+•
+place the imaged document in Section F Medical Records (Yellow Back) of the CEF.
+It is essential that the correct Document Type be assigned when DMA barcodes are generated
+and when documents are casually scanned and manually indexed into the CEF.

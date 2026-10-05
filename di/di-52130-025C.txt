@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - DI 52130.025 - Field Office (FO)/Processing Center (PC) Input of the Civil Service Public Disability Benefits (CSPDB) Indicator
+Effective Dates: 07/30/2009 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452130025 (fetched 2026-10-04)
+
+C. Systems response when CSPDB is input
+The CSPDB field updates and overwrites the CSPDB code in the CIV SER field of the
+MBR. The indicator only needs to be coded once for each case but can be changed or
+corrected if necessary. When coding the indicator in ICF, it is important to note
+that the CSPDB field on the ICF WCDA screen is not connected to the programming logic used to compute benefit rates. The indicator of
+“2” will not stop offset from being imposed. Therefore, if the Federal PDB is not
+offsettable, do not code it in ICF.

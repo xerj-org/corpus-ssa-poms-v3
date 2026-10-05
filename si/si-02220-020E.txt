@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - SI 02220.020 - Cross Program Recovery (CPR) of SSI Overpayments from Monthly Title II Benefits
+Effective Dates: 01/17/2025 - Present | TN 127 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220020 (fetched 2026-10-04)
+
+E. Procedure – changes in debtor's Title XVI and Title II status
+1. Debtor's ledger account file (LAF) status changes from current pay
+If the debtor's LAF status changes from current pay to deferred (D), terminated (T)
+or suspended (S), the CPR will automatically stop. Due to the limitations of the existing
+MBR/SSR interface, no exchange record is sent by the MBR to the SSR regarding the
+disposition of the Title XVI overpayment. Instead, the MBR generates a PC alert.
+Handle the PC alerts in accordance with instructions in SM 00610.815.
+2. Debtor's Title II monthly benefit payable decreases
+If the debtor's monthly benefit payable decreases after mandatory CPR has begun and
+the debtor remains in LAF C or E, the amount of withholding must be decreased to the
+equivalent of 10 percent of the new Title II amount payable.
+After you determine the new rate of withholding from the Title II benefit (see SI 02220.020C.2.e. through SI 02220.020C.2.f.), follow existing instructions in MS
+01106.015 for changing the rate of withholding via the debt management system (DMS) DROA screen.
+Enter a Start Date (MMYY) of the month following the month of input (e.g., if you
+input a rate change on January 15, the Start Date would be February).
+NOTE: System limitations necessitate using the DMS DROA screen for these withholding rate
+changes. FO's have been given access to this screen.
+IMPORTANT: When the withholding rate is changed via DMS, the amount reflected in the K TAC may
+not be accurate. Check ROAR to find out what the true withholding amount is.
+If the debtor has committed willful misrepresentation or concealed material information
+that lead to the debt being collected by CPR, then do not decrease the withholding
+to an amount equivalent to 10 percent of the new Title II amount payable. Instead,
+adjust the withholding to a whole dollar amount that will result in a Title II monthly
+benefit payable of no less than $1.00 (keeping in mind the required minimum 2 withholding
+transactions). See SI 02220.020C.3. for more information about CPR when willful misrepresentation and concealment of
+material information is involved.
+3. Debtor returns to Title XVI current pay
+Due to systems limitations, SSA cannot collect a Title XVI debt by automated CPR when
+the person is receiving Title XVI payments. When a debtor, who is incurring CPR, returns
+to Title XVI current pay status (C01), the system creates a B8 diary. The B8 diary
+indicates that a Title XVI record is in C01 with an overpayment amount due and an
+inappropriate disposition code such as the K TAC.
+Handle the B8 diaries in accordance with instructions in SM 01311.638.
+4. Debtor files new SSI claim that is subsequently denied
+An overpayment on a terminated record is being collected by CPR. The recipient files
+a new claim which is subsequently denied. (See SM 01311.385 for information.) Since
+the ROAR interface cannot direct refunds to prior records, the overpayment and the
+K TAC have to be transferred to the new record. (See SM 01311.261D. for instructions
+on transferring a K TAC.)
+NOTE: When an application is filed and a new record is created, either through MSSICS or
+through the 450S batch process, the SSI system will attempt to reconcile the new SSR
+with the last terminated record on the SSR (See MS
+00304.017 for reconciliation and overpayment transfer in MSSICS).
+5. Exceptions
+Regardless of whether the CPR is initiated by the automated or manual process, exceptions
+will occur that prevent the recovery. For example, these exceptions can result from
+an attempt to set up CPR on an inappropriate Title II LAF status, such as LAF D, T
+and S. Refer to SM 00616.001B., Stages 7 and 8, for more information about exceptions
+from the SSR/MBR CPR interface.
+Process the exceptions in accordance with instructions in SM 00610.415.

@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - GN 02402.035 - Documenting Financial Institution (FI) Information
+Effective Dates: 02/08/2018 - Present | TN 94 (02-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402035 (fetched 2026-10-04)
+
+A. Procedure – Development of FI information
+Follow these procedures for documenting FI information.
+1. Information to obtain
+Obtain the following information to start or change direct deposit payments:
+•
+The FI routing transit number (RTN), and
+•
+The depositor account number (DAN), including the type of account (checking or savings).
+2. How to obtain FI information
+Follow these procedures to obtain FI information:
+a.
+Make every attempt to get the RTN and DAN from the beneficiary, recipient, or representative
+payee.
+b.
+Ask to see a personal check if the beneficiary, recipient, or representative payee
+has a checking account. (Most people have a checking account, and the check is the
+best place to look for the RTN and DAN).
+NOTE: Do not send the beneficiary, recipient, or representative payee to the FI to complete
+a SF-1199A (Direct Deposit Sign-up Form) when the RTN, DAN, or both are not available
+at the time of contact. For instances of when an SF-1199A is required, see GN 02402.070.
+c.
+Use other means to get the following information:
+•
+the RTN Database (Routing Transit Number query),
+•
+records of RTNs available in the field office (FO),
+•
+the beneficiary, recipient, representative payee, or the field office (FO) could call
+the FI for the information,
+•
+the beneficiary, recipient, or representative payee could call the FO with the RTN,
+DAN, or both from home immediately after the interview, or
+•
+if an initial claim is pending, the beneficiary, recipient, or representative payee
+could mail the voided check to the FO. Be sure to tell the person to write “VOID”
+across the check before mailing it. If the FO receives a check without “VOID” on it,
+personnel must immediately write the word on the check.
+3. Where to record FI information
+Record the FI information by entering it as follows:
+•
+directly onto a screen,
+•
+on the claim form in “Remarks”,
+•
+on a Form SSA-5002 (Report of Contact), or
+•
+on any other convenient document in file.
+4. Routing Transit Numbers (RTNs)
+Use the RTN to direct the payment to the beneficiary, recipient, or representative
+payee’s FI.
+The RTN is 9 positions, all numeric. The last position is called a “check digit” and
+is used by the system to verify the number.
+For checking accounts, locate the RTN in the coding on the check. You may also use
+records of RTNs available in the FO. Do not use the routing number on a deposit slip. This number is for the FI’s internal routing
+and may cause the payments to erroneously go through International Direct Deposit
+(IDD) when used for direct deposit enrollment.
+For savings accounts, the RTN is usually not found on account statements or passbooks.
+Therefore, use other means of getting the information (see subsection GN 02402.035A.2.c. in this section).
+For instructions on where to find the RTN on account documentation, see GN 02402.040.
+5. Depositor Account Numbers (DANs)
+Use the DAN to credit the payment to the beneficiary, recipient, or representative
+payee’s account. The DAN can be up to 17 positions.
+Any alpha or numeric combination is acceptable, and the field can contain hyphens.
+Enter any hyphens exactly as shown on the account documentation. Do not enter spaces
+in the DAN for title II. The MBR does not accept spaces.
+For checking accounts, locate the DAN in the coding on the check or account statement.
+For savings accounts, locate the DAN on the savings passbook or account statement.
+For instructions on where to find the DAN on account documentation, see GN 02402.040.
+6. Type of account
+If you do not know if an account is for checking or savings, code it as a checking
+account (“C”). Do not refuse the direct deposit action in these cases. The FI will be able to credit the
+account, and will notify the Social Security Administration (SSA) of any necessary
+correction.
+If the type of account is unclear in representative payee cases, call the FI for verification.

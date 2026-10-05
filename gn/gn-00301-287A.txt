@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 00301.287 - How Evidence is Recorded on EVID and Report of Contact page in the Consolidated Claims Experience (CCE) in PE Situations
+Effective Dates: 06/15/2023 - Present | TN 86 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200301287 (fetched 2026-10-04)
+
+A. Procedure - EVID
+1. Shared Processes Menu
+•
+There are up to sixteen iterations of EVID for a single SSN. These iterations only
+count towards the SSN they were established under, not the cross-reference SSNs.
+•
+The SHARED PROCESSES MENU (SPMN) (option 4 on SSA MAIN MENU) shows an UPDATE option.
+However, you cannot update the information on EVID once it is established. The UPDATE
+option was developed for future use with new screens that eventually will be part
+of this subsystem.
+•
+The DELETE option on SPMN does work with EVID but can only be used by management personnel.
+•
+The EVIDENCE SUMMARY (EVSM) screen is displayed when the SPMN screen is entered in
+query mode and there are two or more EVID screens completed for a particular SSN.
+The cross-reference SSNs will be displayed on the EVSM screen. However, you cannot
+query the EVID screen(s) from SPMN unless the “SSN” field on SPMN is the SSN on which
+the EVID screen was initially established.
+•
+When additional Evidence Screen(s) are needed, press enter after the EVID screen is
+completed to return to the SPMN screen. The ADDITIONAL EVIDENCE on EVID field will propagate SSN/NAME for the previous client. Therefore, if additional evidence screens
+are needed for a different client, overlay the new client's SSN/NAME on the SPMN screen.
+2. Same Document Used for Entitlement/Eligibility for More Than One Claimant
+The client is the claimant. Therefore, the claimant's SSN should be entered in the
+SSN field of the SPMN. In title II claims, if the claimant is not the NH, use the
+auxiliary's or the survivor's own SSN (i.e., BOAN) to establish EVID. In such cases,
+enter the NH's SSN in the first “CROSS-REFERENCE SSN” field. See GN 00301.300E.
+3. Same Document for Multiple Issues
+Use the same screen to identify all issues that are to be proven by a single document.
+4. Multiple Documents for the Same Issue
+If the claimant submits multiple documents for several months for the same issue,
+from the same source, at the same time and EVID has never been completed, record the
+data together and show the date of issue in the “COMMENTS” field.
+5. Multiple Documents and Multiple Issues
+Use a separate EVID screen to record each evidentiary document.

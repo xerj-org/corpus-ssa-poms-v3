@@ -1,0 +1,139 @@
+SSA Program Operations Manual System (POMS) - SI 02220.053 - Suspension and Termination of Supplemental Security Income Overpayment Recovery Efforts for a Deceased Individual
+Effective Dates: 09/17/2026 - Present | TN 142 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220053 (fetched 2026-10-04)
+
+C. Procedure for suspending and terminating recovery efforts for a deceased individual
+1. Notice to an estate
+For all overpayments of more than $85 (or for overpayment to a liable payee or in
+the case of fraud, regardless of the overpayment amount), issue notice SSA-L8171-U3,
+addressed to The Estate of (name of decedent) to the deceased individuals last known
+mailing address. Find the notice in the Document Processing System (DPS), under the
+national and overpayment notices tabs.
+If the decedent received payments via direct deposit, issue the notice to the residence
+address shown on the Supplemental Security Record (SSR).
+2. Documenting an overpayment determination
+a. If the overpayment is $85 or less
+•
+Complete the MSSICS Overpayment Decisions (UOPD) screen in Direct SSR Updates.
+•
+Select the UNCOLLECTIBLE decision, MS 00304.008.
+b. If the overpayment is more than $85 but not more than $3,000
+•
+Take minimal recovery actions unless there is a surviving eligible spouse, a liable
+payee, or a sponsor of a non-citizen.
+•
+If the payee received payments on behalf of a deceased individual for months after
+the month of the individual's death, the payee is solely liable for repaying the overpayment.
+Recover only from the payee or the payee's estate.
+•
+Complete the MSSICS UOPD screen.
+•
+Select the UNCOLLECTIBLE decision. Refer to UOPD, MS 00304.008. The system builds
+a N TAC in the OPDD segment of the SSR.
+•
+If the amount of the overpayment is more than $2,000, you must follow the 2-PIN overpayment
+documentation procedures in SI 02220.005.
+•
+Take no further recovery action unless there is
+–
+a surviving liable spouse;
+–
+a surviving sponsor of a non-citizen;
+–
+an indication of fraud; or
+–
+a refund of the full amount of the unresolved overpayment or outstanding overpayment
+balance.
+c. If the overpayment or the outstanding overpayment balance is more than $3,000
+If there is no liable payee, surviving liable spouse, or surviving sponsor of a non-citizen,
+determine whether an estate exists for the overpaid individual. Follow the procedures
+in SI 02220.045 and GN 02215.050B.
+•
+If an estate exists, obtain the information located in GN 02215.050B.3. and for further instructions, follow GN 02215.055
+•
+If the estate is closed or will not be administered, follow the procedures in SI 02220.045C.
+•
+If an estate does not exist and you cannot recover from a distributee or legal representative
+of the estate, continue recovery efforts against the liable spouse's estate.
+•
+If there is no estate of a spouse and you cannot recover from a distributee or legal
+representative of the estate, discontinue recovery efforts.
+•
+For uncollectible overpayment procedures, refer to SM 01311.280. We must refer all
+overpayments over $100,000 to the Department of Justice for a suspension or termination
+decision.
+If a distributee or legal representative of an estate requests a waiver of recovery,
+refer to GN 02250.005B.3.b and GN 02250.150G.
+If we waive recovery from the distributee or legal representative of the estate, do
+not recover from the liable spouse's estate.
+EXCEPTION: If a payee received payments on behalf of a deceased individual for any months after
+the month of the individual's death, the payee is solely liable for repayment. Recover
+only from the payee or from the payee's estate.
+3. Procedure when there is a liable payee
+Any payments we issued to a payee on behalf of the deceased overpaid individual for
+months after the month of the deceased individual's death, regardless of the amount,
+are overpayments. The responsibility for repaying these amounts lies solely with the
+payee or the payee's estate.
+If the payee is deceased, recover from the payee's estate, following procedures in
+SI 02220.045 and GN 02215.050B. For further instructions on recovering from the estate of a liable payee, refer to
+GN 02215.055.
+If the payee's estate is closed or will not be administered, follow procedures in
+SI 02220.045C.
+If an estate does not exist and you cannot recover from the distributee or legal representative
+of the estate, discontinue recovery efforts.
+For uncollectible overpayment procedures, refer to SM 01311.280. We must refer all
+uncollectible overpayment decisions over $1000,000 to the Department of Justice for
+a suspension or termination decision.
+4. Procedure when there is fraud
+We must pursue recovery when the Office of the Inspector General (OIG) has determined
+that the deceased overpaid individual, liable spouse, or the sponsor of a non-citizen,
+committed fraud, regardless of the amount of the overpayment.
+First, we will issue a notice of the overpayment and pursue recovery from the individual
+whose fraud caused the overpayment, their estate, and the distributees and the legal
+representative of their estate.
+Next, we will issue notice and pursue recovery from any other liable individual (i.e.,
+the liable spouse, or the sponsor of an eligible non-citizen), the estate of the overpaid
+individual, liable spouse or sponsor, and distributees, or the legal representative
+of such estate.
+When recovering from an estate, follow the procedures in SI 02220.045 and GN 02215.050B. For further instructions, refer to GN 02215.055.
+If an estate is closed or will not be administered, refer to procedures in SI 02220.045C.
+If an estate does not exist and you cannot pursue recovery from a distributee or legal
+representative of an estate, discontinue recovery efforts. For uncollectible overpayment
+procedures, refer to SM 01311.280. We must refer all debts over $100,000 to the DOJ
+for a suspension or termination decision.
+5. Procedures when there is no liable payee or fraud
+a. If the overpayment is $85 or less
+•
+Complete the MSSICS UOPD screen in Direct SSR Updates.
+•
+Select the UNCOLLECTIBLE decision, refer to MS 00304.008.
+b. If the overpayment is more than $85 but not more than $3,000
+•
+Take minimal recovery actions unless there is a surviving liable spouse, or sponsor
+of an eligible non-citizen.
+•
+Complete the MSSICS UOPD screen.
+•
+Select the UNCOLLECTIBLE decision, refer to MS 00304.008. The system builds a N TAC
+in the OPDD segment of the SSR.
+•
+If the overpayment amount is more than $2,000, you must follow the 2-PIN overpayment
+documentation procedures in SI 02220.005.
+•
+Take no further action unless there is a
+- surviving liable spouse;
+- surviving sponsor of a non-citizen; or
+- refund of the full amount of the unresolved overpayment or the outstanding overpayment
+balance.
+c. If there is a surviving liable spouse or the surviving sponsor of a non-citizen
+If there is a surviving liable spouse or the surviving sponsor of a non-citizen do
+not suspend or terminate recovery efforts. Continue recovery efforts against the surviving
+liable spouse or the surviving sponsor of a non-citizen.
+For policies and procedures on development of liability for repayment of an overpayment,
+refer to SI 02201.020.
+d. Refund
+Accept any refund offered. To record the refund, use the Automated Field Office (FO)
+Remittance Process in GN 02403.001.
+Reduce the amount of the NTAC overpayment decision by the amount of the refund.
+Use the MSSICS Add/Change/Delete Overpayment Decisions (UODC) screen. For systems
+instructions, refer to MS 00304.007 and SM 01311.285.

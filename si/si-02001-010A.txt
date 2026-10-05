@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 02001.010 - Rounding of Supplemental Security Income (SSI) and Payments
+Effective Dates: 01/08/1999 - Present | TN 25 (06-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502001010 (fetched 2026-10-04)
+
+A. Policy for rounding SSI payments and income rounding payments
+1. Rounding payments for an individual
+If a payment includes a fraction of a cent, raise it to the next higher cent. We round
+payments only at the last step of Federal or State payment computation. Rounding applies
+only if there is a third digit to the right of the decimal point (i.e., if the fractional
+cent is at least one-tenth of a cent). If the third digit to the right of the decimal
+point is “0,” do not round. Do not round up the fourth digit to the right of the decimal
+point to derive the third digit. Use a calculator to derive the actual third digit,
+not a rounded up fourth digit.
+EXAMPLE:
+We compute the recipient’s payment to be $446.495 for April 2010
+$446.495 Monthly amount
+$446.50 (rounded)
+2. Rounding payments for a couple
+We divide the monthly amount due a couple by two to yield the amount for each member
+of the couple. Show the amount due the couple to three digits to the right of the
+decimal, divide, then round the payment for each member.
+EXAMPLE:
+Couple was due $363.67 for April 2010
+$363.67 Monthly amount for couple
+÷      2
+$ 181.835 Monthly amount to each member
+$ 181.84 (rounded)
+3. Rounding Federal and State benefits
+Round Federal and State benefits separately, and then combine them to compute the
+total amount due.
+4. No rounding of income
+In the computation of payments, the calculation of countable income (CI) is an interim
+step to which rounding does not apply. Express income within a computation to three digits to the right
+of the decimal point.
+Individual has $100.01 earned income in April 1996:
+$100.01 Earned income
+-  20.00 General exclusion
+$  80.01
+-  65.00 Earned income exclusion
+$  15.01
+÷        2
+$  7.505 CI used to compute benefit
+5. Truncating income for system input
+Transmit income to the supplemental security record monthly in dollars and cents.
+To transmit an income amount that has a fractional cent, drop the fractional cent.
+Do not round the amount to the next higher cent.
+EXAMPLE:
+An SSI recipient expects to have net earnings of $1,004 from self-employment in 2010.
+This is $83.666 per month. Transmit a continuing earned income amount of $83.66.

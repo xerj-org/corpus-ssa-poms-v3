@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02402.425 - Coding Senegal Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/07/2018 - Present | TN 119 (01-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402425 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for Senegal
+The customer provides us with a signup form for Senegal containing the account number:
+“123456789011223344556677.”
+1. Derive the RTN
+Enter the information for the RTN.
+• Code the RTN of 730000053
+• Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+Code the DAN for Senegal.
+• Start with the country code of “M” designated for Senegal; and
+• Code 16 digits of the 24-digit account number “1234567890112233”
+a. You must obtain the following:
+• RTN: 730000053
+• Checking
+• DAN: M1234567890112233
+b. The POS coding reflects this information
+• DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 730000053 ACCOUNT TYPE (C/S): C
+• DEPOSITOR ACCOUNT NUMBER: M1234567890112233
+• CANCEL DIRECT DEPOSIT (Y):
+• DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+• RTN- 730000053
+• DAN- CM1234567890112233

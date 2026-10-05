@@ -1,0 +1,78 @@
+SSA Program Operations Manual System (POMS) - DI 13010.605 - The CDR Development Worksheet (CDRW) Screen
+Effective Dates: 02/02/2018 - Present | TN 21 (08-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010605 (fetched 2026-10-04)
+
+D. Procedure – Systems Generated Issues
+The CDRW posts automated issues based on information input to other DCF screens or
+other systems. Tickle dates for these issues are automatically established, but can
+be overkeyed. All systems generated issues can be manually closed or deleted as described
+in DI 13010.605C. See MSOM CDR 001.013 for a more detailed description of these issues.
+1. General Issues
+The systems generated issues are:
+•
+AST   , and ASSIST. These issues are generated when an ASSISTANCE REQUEST is selected from the IFOA
+or the IPCA screens. AST    is established in your location. ASSIST is established in the location to which the
+assistance request was sent.
+•
+DDSCESS is generated to the servicing FO when a 4648 transaction is received from DDS indicating
+a medical cessation. Use the DDSCESS issue to ensure the cessation is timely processed.
+Follow MSOM T2PE 003.024 and MSOM T2PE 003.025 for input of cessation and appeal data
+and close the DDSCESS issue upon completion of the input.
+NOTE: Check the MBR to see if the input took:
+a.
+If the MBR does not reflect a cessation (POS exception/exclusion), then check PCACS
+or PPL ROQS and follow-up with the PC of jurisdiction; re-tickle the issue for 10
+days.
+b.
+If the cessation took, then receipt in the tickle.
+•
+INVTWP is generated when verified earnings are input to the Verify/Update Earnings screen
+(VERN) of the DCF with a WORK DET code of 1-8. The DCF assumes the work is ongoing
+and will post a tickle date for the month after the projected end of the TWP. If the
+INVTWP issue is not needed because, for example, work is not continuing, or the issue
+is controlled within eWork, delete or close the issue.
+•
+PRIOR FL is generated when a Y is input to the PRIOR FILE field of the CDR Information (CDRI)
+screen of the DCF. This input does not request a folder. It is only an indication
+that a previous folder is involved. The tickle date for this issue is established
+at 60 days
+•
+FLDAWT is generated when a folder request is input through the DRES screen. The tickle date
+for this issue is established at 60 days.
+•
+OPAYMENT is generated on a Ticket to Work case to advise the FO that an Employment Network
+(EN) payment request has been submitted for the associated month and priority processing
+activity is needed. See DI 55060.010 for processing instructions.
+2. VY Issues
+VY issues are systems generated and indicate that earnings development and verification
+may be needed. There are two separate VY issues: T2VY and 16VY. Both are followed
+by MMYY. For example, a T2VY0305 issue indicates that verification of T2 earnings
+for March of 2005 may be needed. VY issues generated as a result of input of alleged
+earnings by the Ticket to Work Program Manager (PM) for a beneficiary using a Ticket
+will have the TYPE code of TICKET. VY issues generated as a result of an input of
+unverified earnings to the DCF or verified earnings to the SSR will have the TYPE
+code of ERNGS.
+T2VY issues may be generated in three ways:
+•
+input of alleged earnings by the PM for a T2 or concurrent beneficiary using a Ticket-see
+DI 55030.010F. (TYPE code TICKET).
+•
+input of unverified earnings to the VERN screen above the TWP or SGA guidelines for
+a T2 or concurrently entitled beneficiary (TYPE code ERNGS).
+•
+input of verified earnings to the SSR in any amount for a concurrently entitled beneficiary
+if no corresponding verified earnings are posted to the VERN screen (TYPE code ERNGS).
+If more than one month of earnings is posted to the SSR, only one T2VY issue will
+be generated for the earliest month. Although only one T2VY issue is generated, earnings
+development for subsequent months may be required.
+NOTE: Future enhancements to the DCF will apply the tolerances as outlined in DI 55030.010 to create T2VY issues resulting from input of verified earnings to the SSR.
+16VY issues are generated in two ways:
+•
+input of alleged earnings by the PM for a T16 or concurrent beneficiary using a Ticket-see
+DI 55030.010F. (TYPE code TICKET).
+•
+input of verified earnings of any amount to the VERN screen for a concurrent beneficiary
+for months April 2001 and later.
+Both T2VY and 16VY issues are automatically closed when verified earnings for the
+month in question are posted to the SSR or the DCF, and will drop off the CDRW 30
+days after closure.

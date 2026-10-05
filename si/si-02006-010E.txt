@@ -1,0 +1,68 @@
+SSA Program Operations Manual System (POMS) - SI 02006.010 - Title II Offset and SSI Changes
+Effective Dates: 06/01/2009 - Present | TN 19 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006010 (fetched 2026-10-04)
+
+E. Operating Procedure
+If the SSI system cannot compute reliably the true OP or UP, the FO must do the computation
+manually.
+1. Find the Offset
+Find the offset amounts on the SSA-4346-U2 (SSI Offset Summary).
+2. Find the Retroactive Title II Amounts
+Find the monthly retroactive title II amounts in Section I., item C. of the SSA-4345-U2
+(Record of Telecon — SSI Offset Case). These amounts are also in the benefit history
+field of an MBR query; the history field shows the months for which (not in which)
+the benefits are due.
+3. Worksheets Unavailable
+If you are unable to locate an offset worksheet in the servicing FO, contact the PC
+that has the SSI recipient's title II claim to obtain the offset amount information.
+•
+Request the information from the PSC's by using the “Field Office Request for Action-Information.” (See GN 02606.000) Request the information from the Office of Disability Operations (ODO) either by
+using the “Field Office Request” or phone.
+•
+If you request offset information in writing, state clearly at the beginning of the
+request that the title II claim involves title II offset. This notation will assist
+routing of the request.
+4. Document the Manual Computation of the True OP or True UP
+a.
+Record or document the offset amounts
+in the SSI file.
+b.
+Complete all parts of the SSA-8108
+(“SSI Overpayment and Disposition
+Determination”).
+•
+Enter the net SSI payment in the right-hand column. Change the column-heading to “was actually paid—less offset-recovery.”
+•
+Enter the net amount due in the left-hand column. Change the column-heading to “should have been paid—less offset recovery.”
+•
+The difference is the true OP or UP.
+5. Retain Documentation
+a.
+For some cases, the FO must make an input to the SSR so it will post the true OP or release the true UP. This involves transmission
+of “action codes” to the CO field of the SSA-1719B (“SSI Posteligibility Input”). Follow the instructions in SM 01320.600 ff.
+b.
+After transmitting this SSA-1719B, the servicing FO must retain it with the offset worksheets and SSI
+queries. (See GN 02610.055B. for retention requirements.)
+c.
+If the SSI recipient's servicing FO changes,
+transfer both the offset worksheets and the SSA-1719B for that claim to the new servicing
+FO.
+6. Notices
+a.
+If the true OP/UP = 0, do not send an OP or UP notice;
+b.
+If the offset has no effect on the amount of the OP/UP, prepare a notice as usual. Do not refer to the offset.
+Follow the instructions in NL 00803.010 and NL 00803.015 if there is an UP.
+c.
+If the offset has an effect on the amount of the OP/UP, prepare a notice that refers to the offset involvement.
+Follow the instructions in NL 00803.010 and NL 00803.015.
+•
+State the true OP/UP (computed considering the effect of the offset) as the overpaid/underpaid
+amount.
+•
+State the months in the period of OP/UP that are within the offset period.
+•
+Explain that to determine the OP/UP, you considered the amount that was withheld from
+title II benefits and the amount that should have been withheld.
+NOTE: Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+alleges being blind or visually impaired.

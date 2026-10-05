@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - SI 02301.330 - How to Correct Benefits Based on Appeal Decision
+Effective Dates: 11/14/2000 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301330 (fetched 2026-10-04)
+
+B. Procedure - Appeal Decisions
+When a decision at the first level of appeal is rendered on all issues, follow these
+steps to adjust benefits and correct the record:
+STEP
+ACTION
+1
+Obtain a current SSIRD. Do the DPD entries show an appeal pending (GK status codes P, I or S) and payment continuation?
+​
+IF YES, go to Step 2.
+​
+IF NO, go to Step 3.
+2
+Input GK status code R to remove protected payment status, correct the data on the record, and adjust benefits
+as necessary. Follow systems instructions in SM 01305.570. Go to Step 5.
+​
+NOTE: A DPD entry of status codeRautomatically deletes all other DPD entries on a record.
+3
+Does the record properly reflect the determinations in the appeal decision? For example,
+a record in payment statusN01shows the correct amount of excess income in the appeal decision.
+​
+IF YES, go to Step 5.
+​
+IF NO, go to Step 4.
+4
+Correct the data on the record and adjust benefits as necessary. Go to Step 5.
+5
+Input the appeal decision and the date of the decision in MSSICS via direct input.
+Refer to MSOM MS 00302.007, Direct Build Appeals, Part 4 MSSICS or MSOM MS 04420.001,
+Appeals Part 4 MSSICS.
+Go to Step 6.
+6
+Determine and resolve any overpayments resulting from payment continuation. These
+instructions are in SI 02201.005, SI 02220.001 and SI 02260.001.
+NOTE: After the system terminates a record, FOs must establish a start date (SD) record
+to reinstate benefits. These instructions are in SM 01801.001.

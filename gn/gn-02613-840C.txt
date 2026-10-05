@@ -1,0 +1,239 @@
+SSA Program Operations Manual System (POMS) - GN 02613.840 - Granting Requests for Relief Under the Fowlkes Acquiescence Ruling (AR)
+Effective Dates: 12/04/2006 - Present | TN 37 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613840 (fetched 2026-10-04)
+
+C. Process – Granting Relief Under the Fowlkes AR
+If the beneficiary meets the criteria in GN 02613.810B., the beneficiary can be granted relief (i.e., either fully favorable or partially
+favorable relief) under the Fowlkes AR. Benefits will be resumed retroactive to the
+month/year fugitive felon suspension was first applied to the record based on SSA’s
+initial suspension determination or administrative review determination on which the
+beneficiary is requesting relief under the Fowlkes AR, and ongoing if the beneficiary
+is granted fully favorable relief. If the beneficiary is granted partially favorable
+relief, benefits can only be reinstated retroactive to the month/year fugitive felon
+suspension was first applied to the record through the month before they left the
+Second Circuit (i.e., CT, NY or VT). Benefits will be suspended effective with the
+month the beneficiary left the Second Circuit until the point in time the outstanding
+felony warrant is satisfied or good cause is established for not satisfying the warrant.
+1. FO/ PSC - Resuming Benefits –Fully Favorable Relief Granted
+Resume benefits the first month benefits were first suspended LAF S9 on MBR with an
+RFST of FUGFEL on the MBR.
+a. FO/PSC Instructions - Resuming Benefits From LAF S9 USING POS/FFEL
+Use the (FFEL) screen in (POS) system (see MSOM
+COMMON 005.035 for systems processing instructions for the FFEL screen) to resume benefits from
+LAF S9 to the beneficiary. Follow the instructions in the chart below:
+Steps
+Actions
+1
+FO instructions: From the POS path, select #8 on the POS Suspensions /Terminations and Reinstatements
+(PEST) submenu. Go to Step 2.
+PSC instructions: Use MACADE to resume benefits. Go to Step 2.
+2
+Add a “Y” in the RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH on the FFEL screen.
+Enter a RESUMPTION REQUEST
+REASON: 3 = GOOD CAUSE.
+(Benefits will be reinstated the month the benefits were first suspended for fugitive
+felon suspension.)
+Enter a good cause reason: IF
+RESUMPTION REQUESTED FOR GOOD CAUSE, ENTER GOOD CAUSE REASON: DNH
+NOTE: The good cause reason DNH has been amended to grant relief under the Fowlkes AR. The
+DNH reason will now represent the following: DNH – Individual is residing in a long-term
+nursing home or mental treatment/care facility OR is granted relief under the Fowlkes AR as a resident of the Second Circuit.”
+NOTE: Do not prepare a good cause determination.
+Annotate the Special Message Field of the MBR, “Fowlkes ARFULLY FAVORABLE Relief is
+Granted, Eff MM/DD/YYYY for Warrant No. ########, Dated MM/DD/YYYY.”
+Complete FFSCF entries on the Felony warrant Due Process/Good Cause screen (FFDG),
+answer “Y” to GOOD CAUSE ESTABLISHED and enter “DNH” for the GOOD CAUSE REASON.
+3
+Check the MBR and the THIS Query on MFQ the following day to ensure that your POS
+input processed successfully. Tickle the Modernized Development Worksheet (MDW) for
+7 working days until action updates to the MBR.
+4
+Send a Fugitive Felon Exclusion Fax Request to the appropriate PSC if a processing
+exception occurred. Complete the CAN, BOAN, NAME and BIC. Check “OTHER” for Exclusion
+Category and write in the REMARKS, “PRIORITY – FOWLKES COURT CASE – RESUME BENEFITS
+EFF MM/YYYY.” See a copy of the FF Exclusion Fax Form for Fowlkes Case Processing
+at GN 02613.855.
+5
+Developing Representative Payee Suitability – Check RPS in each case where the beneficiary
+has self-reported an outstanding felony warrant. Determine if they are serving as
+a representative payee. If so, process per GN 00504.102.
+6
+An automated Title II reinstatement notice will be sent to the beneficiary by the
+T2 Notice system if the case successfully processed through the Title II system. This
+notice will not provide complete resumption information regarding the relief granted under the Fowlkes
+AR.
+SSA must send the beneficiary a second manual notice prepared in accordance with language
+provided in GN 02613.856A and GN 02613.856C.1.
+b. FO Instructions - Resuming Benefits When POS/FFEL Does Not Work
+Title II exception cases occur when a resumption action input through POS/FFEL but
+does not properly resume benefits on the MBR. Title II exceptions are caused in different
+ways. Some examples are found in GN 02613.600B.1. Title II exception cases will be referred to the PSC for processing per GN 02613.840C.1.a., Step 4.
+c. PSC Instructions for Resuming Benefits –Fully Favorable Relief Granted
+The PSC must manually resume benefits via MACADE/MADCAP when the POS/FFEL screen does
+not process correctly. In those instances, process as indicated below:
+•
+Resume benefits via MACADE.
+•
+The FFEL data input via POS will be on the T2 Shared database. There is no need to
+renter data on the screen
+•
+Add a Special Message Field to the MBR: “FOWLKES AR FULLY FAVORABLE RELIEF IS GRANTED
+EFF MM/YYYY FOR WARRANT NO ########## DATED MM/DD/YYY.”
+•
+Complete FFSCF. On the Felony warrant Due Process/Good Cause Screen (FFDG), answer
+“Y” to GOOD CAUSE ESTABLISHED, and use “DNH” code for the GOOD CAUSE REASON.
+•
+Send a reinstatement notice. GN 03501.015D provides information on the inclusion of appeal rights in the notice. It also provides
+notice language for the different decisions that may result in the case review. Remember
+to send a copy of the notice to the Online Retrieval System (ORS). See GN02613.840C.1.d
+for additional language to add to the resumption notice to explain the Fowlkes AR.
+d. PSC MACADE Resumption Notice Actions
+Include the following approved language (from GN 03501.015D.6) in reinstatement or repayment notices in Fowlkes cases in the Program Centers on
+the basis of (MACADE) transactions:
+“You asked us to look at the earlier decision on your claim because you thought the Fowlkes
+v Adamec acquiescence ruling could change the prior determination or decision we made. We have looked at your case and decided that application
+of the Fowlkes
+v. Adamec acquiescence ruling does change the prior determination or decision in your case and
+we will grant all benefits you requested in your application. If you believe this
+decision is not correct you have 60 days from the date you receive this notice to
+request appeal of our decision.”
+See GN 02613.856.D.3. for additional information on language that must be added to the resumption
+notice.
+2. FO/PSC Instructions - Beneficiary Is Not/Was Not Suspended for Fugitive Felon Suspension
+Beneficiary is granted relief under the Fowlkes AR. SSA never suspended Title II benefits
+for fugitive felon suspension but there is an outstanding warrant on the FFSCF database:
+•
+Update the FFDG screen, answer “Y” to the GOOD CAUSE REASON field and add “DNH” as
+the GOOD CAUSE REASON. See GN 02613.930A for information on the Good Cause Establishment Reasons.
+•
+Send the beneficiary a notice advising them that the request for Fowlkes AR relief
+is being granted. The notice will contain administrative appeal rights. See GN 02613.856A.1. for notice instructions when fully favorable relief is granted under the Fowlkes
+AR. See also an example of the notice as reflected in GN 02613.856C.1.
+•
+Annotate the Special Message Field of the MBR, “Fowlkes AR Fully Favorable Relief
+is Granted, effective MM/DD/YYYY for Warrant No. ########, Dated MM/DD/CCYY.” if not
+already done by the FO.
+3. FO/PSC Processing—Reinstating Benefits For a Closed Period When Partially Favorable
+Relief Granted Under Fowlkes AR
+a. FO Processing When Granting Partially Favorable Relief
+Cases that require payment of benefits for a partially favorable relief closed payment
+period under the Fowlkes AR will be processed by the PSC after the FO makes the partially
+favorable relief determination based on the instructions in GN 02613.810B. and GN 02613.830B.1.using the method indicated below:
+Steps
+Actions
+1
+Process the case per GN 02613.830B.1. Go to Step 2.
+2
+Send a Fugitive Felon Exclusion Fax Request to the appropriate PC if a processing
+exception occurred. Complete the CAN, BOAN, NAME and BIC. Check “OTHER” for Exclusion
+Category and write in the REMARKS, “PRIORITY – FOWLKES COURT CASE – RESUME BENEFITS
+EFF MM/CCYY THROUGH MM/CCYY--PARTIALLY FAVORABLE RELIEF GRANTED.” See a copy of the
+FF Exclusion Fax Form for Fowlkes Case Processing at GN 02613.855.
+3
+Developing Representative Payee Suitability -- Check RPS in each case where the beneficiary
+has an self-reported an outstanding felony warrant. Determine if they are serving
+as a representative payee. If so, process per GN 00504.102.
+b. PSC Instructions on Partially Favorable Relief Granted Case
+The PSC should process partially favorable relief closed period payment cases as indicated
+below:
+The PSC must manually resume and suspend benefits via MACADE/MADCAP using the instructions
+below:
+Steps
+Actions
+1
+From the MACADE path, Select #5 (ENTITLEMENT AND ELIGIBILITY MENU) is selected on
+the TRANS TO field and select #31 FUGITIVE FELON (FFEL) on the ENTITLEMENT AND ELIGIBILITY
+MENU,
+2
+Add a “Y” in the RESUME BENEFITS EFFECTIVE WITH FIRST SUSPENSION MONTH on the FFEL screen.
+Enter a RESUMPTION REQUEST
+REASON: 3 = GOOD CAUSE.
+(Benefits will be reinstated the month the benefits were first suspended for fugitive
+felon suspension.)
+Enter a good cause reason: IF
+RESUMPTION REQUESTED FOR GOOD CAUSE, ENTER GOOD CAUSE REASON: DNH
+NOTE: The good cause reason DNH has been amended to grant relief under the Fowlkes AR. The
+DNH reason will now represent the following: DNH – Individual is residing in a long-term
+nursing home or mental treatment/care facility OR is granted relief under the Fowlkes AR as a resident of the Second Circuit.”
+Annotate the Special Message Field of the MBR, “Fowlkes PARTIALLY FAVORABLE AR Relief
+is Granted, effective MM/DD/YYYY for Warrant No. ########, Dated MM/DD/YYYY.”
+3
+Benefits to the beneficiary must be suspended because the beneficiary is no longer
+residing in the Second Circuit. Go to Step 4.
+4
+Warrant information must be added to the FFSCF to allow SSA to reimpose the fugitive
+felon suspension once the beneficiary moves out of the Second Circuit. In order to
+suspend the beneficiary once again for the outstanding warrant, a dummy warrant must
+be added to the FFSCF that contains almost the same warrant information as previously
+record on the FFSCF. Prepare the dummy warrant as follows:
+Establish a new warrant on the FFSCF per MSOM PRISON 006.003.
+Use the warrant data already existing on the FFSCF for the felony warrant on which
+Fowlkes AR relief was granted to populate the new fictitious warrant, except for the
+warrant date and warrant number.
+Establish the dummy warrant information on the FFMN screen, add:
+•
+SSN—SSN of the account on which SSA will suspend benefits
+•
+WARRANT DATE -- (add in a date equal to the MMDDCCYY that the beneficiary left the
+Second Circuit—month the beneficiary no longer resided in CT, NY or VT)
+•
+Originating Agency Indicator (ORI) –use SSA000000 instead of the existing ORI number
+for the outstanding felony warrant on which the Fowlkes AR relief was granted.
+Go to the FFWI screen and add the following:
+•
+WARRANT NUMBER: use the warrant number on the FFSCF on which Fowlkes AR relief was
+granted
+•
+WARRANT ISSUING STATE: place the State code from the warrant on which the Fowlkes
+AR relief warrant was granted.
+•
+OIG REFERRAL (Y/N): Enter “N”
+Add in any other information from the felony warrant on which the Fowlkes AR relief
+was granted. The additional warrant information from this warrant can be obtained
+from the query screen (FFWQ) for this warrant.
+Go to the FFWD Screen and add the following:
+•
+SELECT FUGITIVE FELON STATUS: 1 FELONY CHARGE(S)/OUTSTANING WARRANT
+•
+ENTER WARRANT STATUS: 1 = OPEN
+5
+Annotate the Special Message Field of the MBR, “BIC Xx left 2nd Cir eff MM/DD/CCYY
+--Fowlkes AR No Longer Applies Reinstate Warrant No. ########, Dated MM/DD/CCYY.”
+Suspend benefits using MACAP/MACADE using the FFEL per MSOM COMMON 005.035. The warrant
+date for this action should be the date the beneficiary left their residence in the
+Second Circuit, not the original warrant date. See GN 02613.840C.3 for information regarding partially favorable relief determinations and residency.
+6
+Generate an incomplete notice using MADCAP/MACDE. Include in the notice information
+regarding the partially favorable period of relief granted under the Fowlkes AR. See
+information in GN 02613.840C.3.c. and GN 02613.856A.1.b. for the notice language to use in the manual notice to the beneficiary explaining
+the partially favorable relief granted under the Fowlkes AR.
+NOTE: The PSC will continue to be responsible for MADCAP/MACADE inputs.
+c. PSC MACADE Partially Favorable (Closed Payment Period) Fowlkes AR Notice Actions
+Include the following approved language (from GN 03501.015D.6) in reinstatement or repayment notices on Fowlkes cases in the Program Centers on
+the basis of MACADE transactions:
+“You asked us to look at the earlier decision on your claim because you thought the Fowlkes
+v Adamec acquiescence ruling could change the prior determination or decision we made. We have
+looked at your case and decided that application of the Fowlkes v. Adamec acquiescence ruling does change the prior determination or decision in your case for
+the period MM/YYYY through MM/YYYY while you resided in CT, NY or VT. We will grant
+these benefits to you for this period based on your application. If you believe this
+decision is not correct you have 60 days from the date you receive this notice to
+request appeal of our decision.”
+Add to the notice suspension paragraph below to explain the resumption of suspension
+status due to the outstanding warrant and the fact that Fowlkes AR relief can no longer
+be granted because the beneficiary is now residing outside of the Second Circuit.
+Fill-in #2 of the paragraph should be completed with the date (MM/CCYY) the beneficiary
+left the Second Circuit (i.e., CT, NY or VT).
+“We cannot pay benefits to *F1 beginning *F2 because *F3 an outstanding arrest warrant
+for a felony crime and *F4 no longer lives in Connecticut, New York or Vermont.”
+*F1 – pronoun (you/beneficiary name)
+*F2 – MM/CCYY (date beneficiary left Second Circuit)
+*F3 – pronoun (you have/they have/beneficiary name has)
+*F4 – pronoun (you/beneficiary name)
+Also add in the following language and caption in the notice about the original information
+on the outstanding felony warrant on which SSA is reimposing suspension.
+INFCO1
+FUG057 (use the warrant information from the original outstanding warrant on which
+SSA suspended the beneficiary)
+Add in reconsideration and appeals language as appropriate.
+See an example of the notice to send to the beneficiary in partially favorable relief
+cases in GN 02613.856C.4.

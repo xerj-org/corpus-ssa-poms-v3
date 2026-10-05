@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.456 - Coding Maldives Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/03/2022 - Present | TN 213 (05-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402456 (fetched 2026-10-04)
+
+G. Example of coding Maldives direct deposit
+The customer provides us with a signup form for Maldives containing the account number:
+“12345678901122334455667788990.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 740000137
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “L” designated for Maldives; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 740000137
+•
+Checking
+•
+DAN: L1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 740000137 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 740000137
+•
+DAN- CL1234567890112233

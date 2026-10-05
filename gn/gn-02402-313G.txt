@@ -1,0 +1,58 @@
+SSA Program Operations Manual System (POMS) - GN 02402.313 - Coding Austria Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402313 (fetched 2026-10-04)
+
+G. Examples- coding Austria direct deposit
+The customer provides us with a signup form for Austria containing the following information:
+"AT611904300234573201".
+•
+The first 2 characters of the IBAN are “AT”, which represents the International Organizational
+for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits. The technician
+should never code the IBAN ISO country code or the check digit to the MBR.
+•
+The next five characters represent the five-digit Bankleitzahl (bank code).
+•
+The last eleven characters represent the eleven-digit account number.
+1. Derive the RTN
+The technician enters the information for the RTN
+•
+Code the prefix of 71 (SSA designated prefix for IDD).
+•
+Code a zero “0”
+•
+Code the first digit of the branch code “19043”
+•
+Code the one-digit check code (i.e., 8) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN
+•
+Start with the country code of A, designated for Austria; and
+•
+Code the 11-digit account number “00234573201”
+3. Obtain the following information:
+•
+RTN: 710190438
+•
+Checking
+•
+DAN: A00234573201
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710190438 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: A00234573201
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following informaiton
+•
+RTN- 710190438
+•
+DAN- CA00234573201

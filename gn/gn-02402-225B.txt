@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - GN 02402.225 - Payment Operation for International Direct Deposit (IDD)
+Effective Dates: 06/07/2022 - Present | TN 274 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402225 (fetched 2026-10-04)
+
+B. Processing payment information on the internet
+View recurring payment processed and sent by FRBKC on the site International Treasury
+Services or with security access at ITS.gov. View both the USD amount and the foreign
+amount if FRBKC converted the payment to foreign currency.
+1. Example 1
+FRBKC converts payments to Germany to euros and shows both the USD and the euro amount
+on ITS.gov.
+2. Example 2
+Payments to Grenada are made in East Caribbean Dollars, but the conversion is done
+after the file arrives at the processor bank. The USD amount is shown in both the Payment
+Dollar Amount and Payment Foreign Amount columns.
+3. Example 3
+Send payments to Canada in either USD or Canadian dollars (CAD), and the FRBKC converts
+to CAD.
+A CAD payment to Canada shows both USD and CAD amounts.
+A USD payment to Canada shows the USD amount under both headings.

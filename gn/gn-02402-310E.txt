@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.310 - Coding Australia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/12/2024 - Present | TN 250 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402310 (fetched 2026-10-04)
+
+E. Description of IDD bank data for Australia
+The data for coding IDD for Australia comes from banks determined by the FRBKC. The
+bank data on the MBR reflects up to 21 characters including an account number of up
+to twelve digits and a Bank State Branch (BSB) number of up to six digits.

@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - GN 00502.117 - Verifying Information Provided by a Payee or Payee Applicant
+Effective Dates: 04/14/2014 - Present | TN 102 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502117 (fetched 2026-10-04)
+
+A. Policy for verifying information a payee or payee applicant provides
+We are legally required to verify the identity and Social Security Number (SSN) information
+(or employer identification number, (EIN) of a representative payee (payee) applicant.
+Verifying additional information provided by the applicant (e.g., income, custody,
+and criminal history) helps technicians determine a payee's or payee applicant's suitability.
+1. Verifying SSNs and EINs
+a. Payees residing in the U.S.
+All individual payees must have an SSN except in the two exception scenarios described
+in this subsection. All organizational payees must have an EIN. You must ensure that
+the payee’s SSN or EIN is obtained and recorded on the MBR or SSR.
+EXCEPTION
+1: If the payee applicant is a parent filing to be payee for their minor child and we
+cannot issue an SSN, appoint the parent as payee if they are suitable, and manually
+process the case. For information on processing manual payee selections, see GN 00502.190.
+You must verify an organizational payee applicant’s EIN. For instructions on how to
+verify an organizational payee applicant’s EIN, see GN 00502.118.
+b. Payees residing outside the U.S.
+EXCEPTION
+2: A payee who resides outside the U.S. may not have an SSN. Since we only issue SSNs
+to foreign nationals residing outside the U.S. in specific situations, we cannot require
+others to have an SSN as a condition of payee appointment. Therefore, the procedures
+for verifying SSNs do not apply to payee applicants living in foreign countries who
+cannot have an SSN. For information on processing manual payee selections, see GN 00502.190.
+2. Verifying identity
+You must verify an individual payee or payee applicant's identity in all cases. For
+additional policy instructions refer to GN 00502.117B.2.
+3. Verifying criminal history
+You must develop if:
+•
+our systems queries contain criminal history information,
+•
+a criminal background check indicates past criminal history or
+•
+an individual voluntarily provides past criminal history during the representative
+payee application.
+NOTE: Most crimes received in the electronic Representative Payee System (eRPS) from a
+criminal background check are either felonies or barred crimes, see GN 00502.133A. Before marking a crime as non-felony in eRPS, you must follow the procedures in GN 00502.117B.3. You cannot take the payee's or payee applicant's word that the crime listed from
+the criminal background check is not a felony without following the proper verification
+procedures.
+You must weigh information about the payee's or payee applicant's criminal history,
+(i.e., the nature of the crime and when the crime occurred), along with the relationship
+to and custody of the beneficiary when making a determination involving a payee or
+payee applicant. We bar individuals convicted of certain crimes from serving as payees.
+See the policy for barring individuals convicted of crimes from serving as payees
+in GN 00502.133A.
+4. Verifying income
+The source of a payee applicant's income may be a factor in determining how likely
+the applicant is to use the benefits in the beneficiary's best interests. An applicant
+who does not have a reliable source of income may be more likely to divert the beneficiary's
+funds for the payee applicant's own use. In addition, failure to provide verifiable
+information about income may be a strong indicator that the payee applicant has failed
+to provide correct information about other factors that affect payee suitability.
+5. Verifying custody
+You must verify custody when the payee applicant is a parent alleging custody of the minor
+child for whom they are filing and the other parent does not live in the same household.
+In all other cases, FOs may use discretion as to the need to verify custody. To verify
+custody, follow instructions in GN 00502.117B.5.

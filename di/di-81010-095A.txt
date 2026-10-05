@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 81010.095 - Using the Update-After-Transfer (UAT) Utility
+Effective Dates: 09/09/2009 - Present | TN 67 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010095 (fetched 2026-10-04)
+
+A. Overview
+After transferring jurisdiction of an Electronic Disability Collect System (EDCS)
+case, use the UAT utility to:
+•
+Update certain Modernized Claims System (MCS) or Modernized Supplemental Security
+Income Claims System (MSSICS), or Consolidated Claims Experience (CCE) changes in
+EDCS;
+•
+Add information to the Certified Electronic Folder (CEF) by creating an SSA – 5002
+(Report of Contact) in EDCS;
+•
+Add a claim. To add a claim, at least one claim must already have been transferred
+to the jurisdiction of the Disability Determination Services (DDS) or the Office of
+Hearings Operations (OHO); or
+•
+Add an escalated claim to a case. To add an escalated claim, at least one claim must
+already be at the reconsideration or hearing level.
+The field office user can access the UAT utility after they select a disability case
+from the Disability Case Selection page. EDCS then displays a primary page with a
+case function toolbar that allows the user to select the Transfer/Updates link. The
+Transfer/Updates link directs the user to the UAT page, which displays the Summary
+of Updates screen. The Summary of Updates screen is broken down into tabs:
+•
+Mainframe Updates,
+•
+Other Updates, and
+•
+Transfer Claims.
+NOTE: Do not initiate the UAT when adding forms (such UniForms), or documents (such as faxing
+medical records) to the CEF. An automatic alert posts to the DDS and OHO's case processing
+systems when adding a document to a CEF.
+The UAT process will be blocked in the following situations:
+•
+The claim effective filing date is more than 13 months later than the current claim's
+effective filing date; or
+•
+A new claim is being added and the initial or reconsideration level claim's effective
+filing date is more than 18 months later than the EDCS case establishment date; or
+a new claim is being added and the hearing level claim's effective filing date is
+more than 24 months later than the EDCS case establishment date.
+In these instances, EDCS will display an edit message and return the user to the previous
+page.
+NOTE: UATs are not displayed and do not update the disability reports viewable in eView.
+Data updated from MCS or MSSICS is shown under the Case Data Tab in eView (see Case
+Data Tab - DI 81005.045. EDCS produces a Record of Change for the first UAT action only. Subsequent actions
+do not produce additional ROCs..

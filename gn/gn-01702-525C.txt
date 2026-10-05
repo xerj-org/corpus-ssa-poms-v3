@@ -1,0 +1,117 @@
+SSA Program Operations Manual System (POMS) - GN 01702.525 - Totalization Coding
+Effective Dates: 09/17/2026 - Present | TN 12 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201702525 (fetched 2026-10-04)
+
+C. Definitions
+1. Totalization Status Codes (TSC)
+TSCs are two digit codes that describe the status of a claim for U.S. Totalization
+benefits. The different codes are defined below.
+a. Award Codes
+Codes
+Definition
+A1
+Number holder (NH) is insured only by combining U.S. and foreign coverage.
+A3
+NH is insured only by combining U.S. and foreign coverage and the beneficiary is entitled
+to premium-free HI as a Medicare Qualified Government Employee or an End Stage Renal
+Disease beneficiary.
+E2
+NH was initially insured only by combining U.S. and foreign coverage, subsequently
+acquired enough additional U.S. credits to be insured based on U.S. coverage alone
+but continues entitlement to Totalization benefits because they are greater (see GN 01701.305B.1.).
+b. Denial codes
+Codes
+Definition
+D1
+NH has fewer than 6 quarters of coverage (QCs) (see GN 01701.110)
+D2
+NH has at least 6 QCs but is not insured even after counting foreign coverage.
+D3
+NH is insured based on U.S. coverage alone.
+D4
+NH is insured based on U.S. coverage alone or by combining U.S. and foreign coverage
+but does not meet another entitlement factor (e.g., age).
+c. Claim pending codes
+Codes
+Definition
+P1
+NH has at least 6 QCs but is not insured and the claim cannot be adjudicated until
+the foreign coverage record is received.
+P2
+A nonTotalization claim has been awarded but Totalization may yield an earlier month
+of entitlement or disability insured status.
+d. Termination codes
+Code
+Definition
+T1
+Totalization benefits have terminated because the beneficiary became entitled to higher
+nonTotalization benefits.
+2. Totalization Country Codes (TCC)
+TCCs are 5 character alpha codes that identify, by country, the agreement under which
+a claim for U.S. Totalization benefits has been filed. Where an applicant has filed
+under more than one agreement, only one code will be shown. These codes are defined
+below.
+Name of Country
+TCC Code
+Australia
+AUSSI
+Austria
+AUSTR
+Belgium
+BELGI
+Brazil
+BRAZI
+Canada
+CANAD
+Chile
+CHILE
+Czech Republic
+CZECH
+Denmark
+DENMK
+Finland
+FINLA
+France
+FRANC
+Germany
+GERMA
+Greece
+GREEK
+Hungary
+HUNGA
+Iceland
+ICELA
+Ireland
+IRELA
+Italy
+ITALY
+Japan
+JAPAN
+Korea (South)
+KOREA
+Luxembourg
+LUXEM
+Netherlands
+NETHE
+Norway
+NORWA
+Poland
+POLND
+Romania
+ROMAN
+Portugal
+PORTU
+Slovak Republic
+SLOVA
+Slovenia
+SLOVE
+Spain
+SPAIN
+Sweden
+SWEDE
+Switzerland
+SWISS
+United Kingdom
+UKING
+Uruguay
+URUGU

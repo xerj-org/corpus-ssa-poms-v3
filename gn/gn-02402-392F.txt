@@ -1,0 +1,110 @@
+SSA Program Operations Manual System (POMS) - GN 02402.392 - Coding Russia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/17/2023 - Present | TN 242 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402392 (fetched 2026-10-04)
+
+F. Procedure for coding Russian bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency. When you use an SSA system to establish
+or change IDD bank data for Russia (e.g. Modernized Claims System (MCS), Manual Adjustment
+Credit and Award Data Entry (MACADE)), you must go to ITS.gov to enter:
+•
+account ownership;
+•
+account number, enter in the “Account Number Field”;
+•
+account type;
+•
+beneficiary address;
+•
+bank name;
+•
+bank address;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+Society of Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+•
+payee’s 12-digit Tax Payer Identification (Individualiy Nomer Nalogoplatelshika (INN)),
+enter in the “Beneficiary ID field”;
+•
+nine-digit Bank Identifier Sort Code (BIK) and 20-digit Correspondent Account Number
+for the Central Bank of Russia.
+Enter the BIK and the Correspondent
+Account Number together in the “Country Bank Info Field” in ITS.gov.
+EXAMPLE: The “5” represents the Russia BIK and the “7” represents the Correspondent Account
+for the example in this section: “55555555577777777777777777777.”
+The Correspondent Account Number is different from the 20-digit Customer Account Number. Enter the Customer Account Number in the
+“Account Number” field in ITS.gov.
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participants have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Process initial award processing
+Prior to processing an initial award, you must update ITS.gov with the bank account information to ensure that the beneficiary receives payment.
+If the complete bank account information is not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data in an SSA systems
+When you add or update IDD bank data in an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use the chart in this section when you process within four business days of the current
+operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Russia? If no, STOP.
+REASON: Beneficiaries in Russia can only receive IDD payments in USD accounts.
+4
+The RTN is 680000103 for all IDD to Russia.
+•
+Multi-country prefix for Russia IDD is “68”
+•
+U.S. check digit code for all IDD accounts in Russia is “3” at the end of the RTN.
+•
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+“S” for savings, or
+•
+“C” for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for Russia, code as follows:
+•
+“Q” is designated for Russia
+•
+16 digits of the 20-digit Customer Account Number
+NOTE: The Customer Account Number is different from the Correspondent Account Number.
+7
+You must take action on the same business day to enter all the information into ITS.gov listed in the introduction of GN 02402.392F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

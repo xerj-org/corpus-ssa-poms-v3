@@ -1,0 +1,96 @@
+SSA Program Operations Manual System (POMS) - GN 02402.390 - Coding Bangladesh Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402390 (fetched 2026-10-04)
+
+F. Procedure for coding Bangladesh bank data
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customers account.
+If the information is incomplete, the FRBKC rejects the payment and returns the funds
+to SSA.
+When establishing or changing IDD bank data for Bangladesh, you can use an SSA system
+(i.e., Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry
+(MACADE)). However, you must go to ITS.gov to enter the following information:
+•
+account ownership;
+•
+account number
+•
+account type;
+•
+Bangladesh Electronic Funds Transfer Network (BEFTN) online account number (13-17n)
+•
+bank name (enter in the bank contact info field)
+•
+bank address (enter in the bank contact info field) - NOTE: Enter the bank address in this format: BD/Town/Name. Start with the ISO country code for Bangladesh (BD).
+•
+9-digit bank code;
+•
+beneficiary address - NOTE: Enter the beneficiary's address in this format: BD/Town/Name. Start with the ISO country code for Bangladesh (BD).
+•
+nationality/citizenship;
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+NOTE: Beneficiary ID field should contain either; Bangladesh Tax ID that must match bank's
+records, or Passport Number.
+1. Process initial award
+Prior to processing an initial award to ensure that the beneficiary receives payment
+you must update the bank account information using ITS.gov.
+When the payment processes, the payment rejects and returns to our agency if the complete
+bank account information is not inITS.gov.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update on the same dayITS.gov;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a BDT in Bangladesh? If no, STOP.
+REASON: Beneficiaries in Bangladesh can only receive IDD payments in BDT accounts.
+If yes, go to step 4
+4
+The RTN is 680000093 RTN for Bangladesh. It contains the:
+•
+Multi-country prefix of 68 for Bangladesh IDD;
+•
+U.S. check digit code of 3 at the end of the RTN for all IDD accounts in Bangladesh.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type:
+•
+S for savings, or
+•
+"C" for checking.
+If the beneficiary does not indicate an account type, use a C for checking account
+6
+To code the Depositor Account Number (DAN) for Bangladesh, code as follows:
+•
+O is designated for Bangladesh
+•
+Code up to 16 characters of the Customer Account Number.
+NOTE: The full Customer Account Number can contain up to 20 characters, see
+step 7.
+7
+You must take action on the same day to enter into ITS.gov all the information listed in GN 02402.390F.
+You must access or ask a co-worker to update the required information inITS.gov.
+REMINDER: When this information is not available, FRBKC rejects the payment and returns it
+to our agency.

@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 00504.110 - When We May Suspend Benefits
+Effective Dates: 04/15/2016 - Present | TN 36 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200504110 (fetched 2026-10-04)
+
+D. Initiate direct payment for S8/S08 cases
+1.
+The Payment Center (PC) may receive suspense output when the field office (FO) input
+or a Returned Check Action Program (REACT) transaction that caused the case to be
+in S8 (e.g., check returned due to death of payee).
+•
+The Office of Systems identifies S8/S08 cases and posts them to the Management Information
+Services Facility (MISF).
+•
+The FO should initiate direct payment to the beneficiary unless there is a reason
+that prevents direct payment.
+2.
+The SSR produces an A P1/PD diary 30 days after suspension input if the S08 payment
+status is still on the SSR.
+•
+The FO should initiate direct payment to the recipient unless there is a reason that
+prevents direct payment.
+•
+Do not delete the diary until you resolve the payee issue.

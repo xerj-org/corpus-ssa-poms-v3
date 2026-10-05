@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - GN 02402.355 - Coding Argentina Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 10/12/2022 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402355 (fetched 2026-10-04)
+
+F. Procedure for coding Argentinian bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Argentina using an SSA system (e.g.
+Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+16-digit account number
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+•
+beneficiary address; (no P.O. box address allowed)
+•
+reclamation country
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+2. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR will not accept the IDD information.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Argentina? If no, STOP.
+REASON: Beneficiaries in Argentina can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+The RTN is 660000042 for Argentina. It contains the:
+•
+Multi-country code prefix of “66” for Argentina IDD;
+•
+U. S. check digit code of “2” at the end of the RTN for all IDD accounts in Argentina.
+No need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the account type as:
+•
+“S” for savings; or
+•
+“C” for checking.
+If no indicated account type, use a “C” for checking account.
+6
+To code the DAN for Argentina, code:
+•
+“A” as designated for Argentina; and
+•
+16-digit account number.
+7
+You must take action on the same business day to enter all the information into ITS.gov listed in the introduction of GN 02402.355F in this section.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

@@ -1,0 +1,75 @@
+SSA Program Operations Manual System (POMS) - GN 00605.068 - How To Evaluate Payee Responses About Conserved Funds
+Effective Dates: 11/14/2013 - Present | TN 16 (10-01)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200605068 (fetched 2026-10-04)
+
+F. Procedure — amount of conserved funds
+The amount of benefits saved may indicate either excessive or improper spending practices,
+or spending insufficient to meet the beneficiary's needs. Use the following instructions
+to determine if further development is necessary. Ask the payee to report the latest
+amount of benefits saved for the beneficiary.
+NOTE: Field offices receive an R8 alert (SI 01140.021) to review SSI cases, including
+concurrent cases, when the accounting form is processed in WBDOC and the form shows
+conserved funds exceeding $2000. In some of these cases, the payee-reported conserved
+funds may include funds set aside in a Plan to Achieve Self-Support for Blind or Disabled
+People (PASS) (SI 00870.001). PASS funds are excluded from resource limitations as long as the Plan is in effect.
+The FO would discover the existence of a PASS in their subsequent investigation of
+the conserved funds.
+If a Processing Center (PC) receives an eRPA exception alert on a case in which PASS
+funds are involved and the conserved funds exceed $2000, the PC should assume the
+FO has received the R8 alert and is developing the excessive conserved funds amount.
+The PC should ignore the conserved funds issue and resolve any other appropriate exceptions
+as necessary.
+1. Examine the amount of conserved funds
+NOTE: The payee will show any conserved funds amount in Question 3D on the SSA-623-OCR-SM
+or Question 3C on the SSA-6230-OCR-SM.
+2. Evaluate Title II conserved funds
+Decision Factors: The FO should contact the payee to ensure adequate funds are being spent for the beneficiary's
+well-being in the following scenarios:
+•
+Conserved funds reported is less than 20% of the Total Accountable Amount (TAA) and
+the TAA is greater than $25,000; or
+•
+Conserved funds reported is less than 20% of previously recorded conserved funds and
+previously recorded conserved funds is greater than $5,000; or
+•
+For Title II cases, conserved funds are greater than $10,000.
+Compute 25% of the Total Accountable Amount (if there is only one beneficiary).
+Decision Factors: Apply this instruction only if the reported conserved funds (CF) is $5000 or more
+for any beneficiary and you are contacting the payee to resolve some other issue.
+REMINDER: If the payee reported for more than one child on an SSA-6230-OCR-SM, divide the benefits
+paid amount shown on line 1 under item 3 by the number of children displayed on the
+report. Add each child's portion of that amount to the CF amount displayed for that
+child in the top portion of the form.
+Is the current amount of conserved funds greater than 25% of the conserved funds plus
+each child's portion of the benefits paid amount?
+•
+If yes, Approve the amount of conserved funds.
+•
+If no, Contact the payee for an explanation.
+EXAMPLE: The payee reported savings of $4000 for each of 3 children shown in Question 3C on
+a SSA-6230-OCR-SM. The benefits paid amount shown in line 1 under Question 3 is $10,500.
+The CF amount displayed in the top portion of the form for C1 is $2000; CF for C2
+is $6000; CF for C3 is $8000.
+Determine each child's portion of the benefits paid amount:
+$10,500 divided by 3 = $3500.
+CF for C1 is less than $5000. Stop for C1.
+For C2, CF plus benefits paid amount = $9,500; 25% = $2375.
+For C3, the sum is $11,500; 25% = $2875.
+Since the payee reported current savings greater than 25% of the CF plus the benefits
+paid amount for both C2 and C3, no further development action is necessary.
+3. Evaluate Title XVI conserved funds
+Decision Factors: The FO should contact the payee to ensure adequate funds are being spent for the beneficiary's
+well-being in the following scenarios:
+•
+Conserved funds reported is less than 20% of the Total Accountable Amount (TAA) and
+the TAA is greater than $25,000; or
+•
+Conserved funds reported is less than 20% of previously recorded conserved funds and
+previously recorded conserved funds is greater than $5,000.
+Decision Factor: A large amount of conserved SSI payments may indicate that the payee is not spending
+enough to meet the beneficiary's needs.
+Develop according to GN 00603.001B.2. if the payee shows current conserved funds more than three times the Federal Benefit
+Rate (but less than $2,000) and the payee must be contacted for another reason.
+IMPORTANT: SSI eligibility is questionable if a recipient's resources equal or exceed $2000.
+The FO must develop continued eligibility when a payee for title XVI (and concurrent) benefits indicates
+conserved funds of $2,000 or more.

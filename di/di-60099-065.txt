@@ -1,0 +1,25 @@
+SSA Program Operations Manual System (POMS) - DI 60099.065 - Benefit Offset National Demonstration (BOND) End of Year Reconciliation (EOYR)
+Effective Dates: 07/03/2024 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099065 (fetched 2026-10-04)
+
+DI 60099.065 Benefit Offset National Demonstration (BOND) End of Year Reconciliation (EOYR)
+PROCEDURE IS OBSOLETE
+BOND Project is over
+The BOND processing office L5R is no longer operating, access to the data required
+to make determinations is no longer available. All BOND decisions are final as beneficiaries
+are officially outside of their appeal period. Any reconsiderations should be considered
+automatic denials.
+During the year, the BOND stand-alone system (BSAS) calculates the BOND offset amount
+based on estimated earnings. In the following year, the BSAS performs an EOYR to compare
+the earnings estimates to actual earnings on the master earnings file (MEF), taking
+into consideration any proven deductions for work incentive provisions. For more information
+on non-countable income determinations, see DI 60099.045C. If the earnings on the MEF do not match the last countable earnings estimate, BSAS
+calculates an underpayment (U/P) or overpayment (O/P). BSAS automatically handles
+U/Ps and O/Ps via a manual adjustment credit and award date entry (MACADE) action.
+The MACADE action properly codes the offset MBA for the reconciliation year, and generates
+a notice explaining the U/P or O/P.
+The BOND EOYR does not change current year estimates for BOND beneficiaries. The BSAS
+EOYR performs partial year computations for those participants who began the offset
+period after January, or whose last month of offset is prior to December. Currently
+the BSAS can only perform the EOYR process for single entitled beneficiaries. Dual
+entitlement is a processing limitation.

@@ -1,0 +1,111 @@
+SSA Program Operations Manual System (POMS) - GN 02402.309 - Coding United Kingdom (U.K.) Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 12/12/2023 - Present | TN 246 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402309 (fetched 2026-10-04)
+
+E. Procedure - Coding U.K. Routing and Account Numbers for International Direct Deposit
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Comoros using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+account ownership
+•
+account type
+•
+account number
+•
+6-digit bank code
+•
+bank address
+•
+beneficiary address -
+•
+beneficiary phone number
+•
+country
+•
+enrollment status
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+reclamation country
+1. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+•
+If yes, go to step 3.
+•
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a pound sterling account in U.K.? If no, STOP.
+REASON: This must be a pounds sterling account.
+If yes, go to step 4.
+4
+Is the beneficiary's account a savings account in a building society?
+•
+If yes, STOP. Building society savings accounts require a roll or reference number that cannot
+be coded in SSA's systems.
+•
+If no, go to step 5.
+5
+Is the beneficiary's account in a branch that is located in the Republic of Ireland?
+•
+If yes, STOP. Go to GN 02402.303 to code this direct deposit.
+•
+If no, code the Type of Account as Checking.
+6
+Does the Bank Account Number contain any letters?
+•
+If yes, STOP. This is a building society account, and its roll or reference number cannot be coded
+in SSA's systems.
+•
+If no, go to step 7.
+7
+Code the Depositor Account Number as follows:
+•
+Does the Bank Account Number contain 8 digits? If not, code as many zeros as necessary
+at the front of the Bank Account Number to make a total of 8 digits.
+EXAMPLE: The Bank Account Number contains 6 digits. Code 2 zeros before coding the 6 digits
+in the Depositor Account Number field.
+•
+Do you know the actual type of account?
+–
+If yes, code a zero (0) for checking or 1 for savings after the Bank Account Number.
+–
+If no, code a zero after the Bank Account Number.
+8
+Code the Routing and Transit Number (9 digits total) as follows:
+•
+Start with 50, the prefix SSA has designated for U.K. IDD.
+•
+Code the 6-digit Bank Sorting Code Number. If the beneficiary gives you only the name and address of the financial institution,
+look up the code in the latest version of the “Sorting Code Numbers” directory. Do
+not code the dashes.
+•
+Code the U.S. check digit.
+Obtain the U.S. check digit by using the Check Digit Code program on Title II Interactive
+Comps.

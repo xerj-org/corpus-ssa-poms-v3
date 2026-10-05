@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02402.320 - Coding Denmark Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 263 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402320 (fetched 2026-10-04)
+
+G. Examples for coding Denmark direct deposit
+EXAMPLE 1: A signup form for Denmark contains the following information:
+Bank code 1234. Account Number 1234567890.
+•
+The RTN will be 710012346. (The final digit, 6, is the U.S. check digit for 71001234.)
+•
+The DAN will be F1234567890.
+EXAMPLE 2: Ms. Lieder calls to request direct deposit. She says her bank's registration number
+is 123 and her account number is 234567890.
+•
+The RTN will be 710001234. (The final digit, 4, is the U.S. check digit for 71000123.)
+•
+The DAN will be F0234567890.

@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.405 - Coding Liberian Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/05/2023 - Present | TN 258 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402405 (fetched 2026-10-04)
+
+G. Example of coding Liberian direct deposit
+The customer provides us with a signup form for Liberia containing the account number:
+"1234567890123456"
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN: 680000161
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with country code “Y” designated for Liberia; and
+•
+Code the 16-digit account number: “1234567890123456”
+3. Obtain the following information
+•
+RTN: 680000161
+•
+Checking
+•
+DAN: Y1234567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000161
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: Y1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 680000161
+•
+DAN CY1234567890123456

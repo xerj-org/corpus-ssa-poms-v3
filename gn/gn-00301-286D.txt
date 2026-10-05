@@ -1,0 +1,123 @@
+SSA Program Operations Manual System (POMS) - GN 00301.286 - Electronic Evidence Documentation and Retention
+Effective Dates: 06/14/2023 - Present | TN 125 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200301286 (fetched 2026-10-04)
+
+D. Procedure for documenting evidence in MCS and Person Information in CCE
+1. Documenting evidence in MCS and Person Information in CCE claims - general
+When an individual presents U.S. public documents as proof of age, death, marriage,
+divorce or citizenship, code the document information on the MCS application screens
+and in Person Information for CCE. For SSI wage verification, see SI 00820.135.
+a. Discrepancies or insufficient audit trail data exists
+If MCS or Person Information in CCE does not collect sufficient information to redevelop
+the issue for an audit or any discrepancies exist, record the document on the EVID,
+e.g. military service following GN 00301.288G.4. Resolve material discrepancies between allegations on the MCS or Person Information
+in CCE and the information on the document following GN 00301.040.
+b. Additional evidence must be obtained
+If the individual does not present preferred evidence of an issue or entitlement at
+the initial interview and additional evidence must be obtained, retain photocopies
+of submitted evidence in a temporary development file until an initial determination
+of the issue or factor is made. Destroy the temporary development file after adjudication.
+2. Documenting evidence in MCS and Person Information in CCE - initial claims
+The following chart summarizes how and when to code the claims screens. When a document
+is used for more than one claimant or for multiple purposes, see GN 00301.287A.2.
+Evidence of
+MCS
+CCE
+Age
+1.
+If the IDENTIFICATION (IDEN) screen shows a U.S. BIRTH CITY and BIRTH STATE and the CLAIMS APPLICATION (APPL) shows the date of birth PROOF as B
+(primary proof) and PROOF TYPE of P (pre-age 5 State or local public birth certificate), H (hospital
+birth record), or N (notification of birth registration), there is sufficient audit
+trail information to retrieve the document from the custodian.
+Otherwise, code EVID. Also, code EVID if a child's birth certificate is used to establish
+relationship.
+2.
+Where age was previously established on SSA records, refer to GN 00302.011 for the correct PROOF code to use for the current claim and show “O” as the PROOF
+TYPE. Annotate the RPOC screen “Proof of age established on the _______(MBR, SSR,
+or Numident).
+1.
+If the Person Information Identity Information screen on the Person Information on
+Record for page shows a U.S. BIRTHPLACE CITY and STATE and a BIRTHDATE PROOF code of B (primary evidence) and
+PROOF TYPE of P (pre-age 5 State or local public birth record), H (hospital birth
+record), or N (notification of birth registration), there is sufficient audit trail
+information to retrieve the document from the custodian. Otherwise code EVID.
+2.
+Where age was previously established on SSA records, refer to GN 00302.011 for the correct PROOF code to use for the current claim and show “O” as the PROOF
+TYPE. Annotate the Report of Contact page in the Consolidated Claims Experience (CCE)
+“Proof of age established on the _______(MBR, SSR, or Numident).
+Death
+The DECEASED (DECD) screen captures the number holder (NH) death information. When
+a public death certificate or DD-1300 is presented as proof of death, and both the
+PROOF field and TYPE OF PROOF field equal “P”, sufficient documentation exists. Other
+data in file (e.g., the presence of a military service screen with recent ending date)
+will help ascertain whether the death document was military or civilian.
+NOTE: In claims situations, when an SSA-721 is presented as proof of death and proof of
+death is not already reflected on NUMI, enter an “O” in the TYPE OF PROOF and complete
+EVID.
+When the “SOURCE OF NOTIFICATION” field on the Person Information on Record page equals
+“3” (MBR) or “4” (TREASURY) sufficient documentation exists. Code EVID when the “SOURCE
+OF NOTIFICATION” field equals “1” (FO). Complete EVID using the proof information
+submitted to the FO.
+U.S. Citizenship
+If IDEN shows a U.S. BIRTH CITY and BIRTH STATE and APPL shows the date of birth PROOF
+code as B (primary proof) and PROOF TYPE as P (pre-age 5 State or local public birth
+certificate), H (hospital birth record), or N (notification of birth registration),
+there is sufficient audit trail information to retrieve the document from the custodian;
+or the claimant is already entitled to uninsured HI/SMI and the Citizenship/Residency
+(CLCZ) screen shows U.S. CITIZEN is Y. Otherwise, code EVID.
+When the U.S. CITIZENSHIP STATUS code on the Person Information Citizenship Information
+screen is 1 (birth in the U.S.), 2 (U.S. citizen born outside U.S.), or 3 (natural
+citizen), and the U.S. CITIZENSHIP STATUS is 1, 2, 3 or 5, PROOF field is coded 2
+(NUMIDENT (meets criteria for Q citizenship status code), 3 (NUMIDENT (No U.S. place
+of birth shown)), or 4 (birth baptismal record) sufficient information exists.
+Otherwise, code EVID.
+Marriage
+The BENEFICIARY MARRIAGE (BMAR) and NH MARRIAGE (NMAR) screens captures information
+about the spouse's name, place of marriage (i.e., city, State/ Foreign Country), date
+of marriage, and place and date marriage ended. Sufficient information exists when
+marriage TYPE equals “1” (CLERGY/PUB OFF) and PROOF equals “Y”. Code EVID for all
+other situations including the city/county/borough.
+See SI 00501.150C.
+Divorce
+The BMAR screen captures information about the spouse's name, place of marriage and
+date of divorce. Sufficient information exists when reason ended TYPE equals “2”,
+end of marriage PROOF equals ”Y” or “N” and the REMARKS screen has been annotated
+with the county as appropriate. Code EVID for all other situations.
+Military Service
+To obtain evidence of military service, See RS 01701.005.
+Record the evidence of military service on the EVID.
+Wages
+For evidence of lag wages, see RS 01404.018.
+Use the Wages page to record wages. The source we used to verify the individual's
+income is not captured on the Wages page. To establish a sufficient audit trail identify
+the document used.
+Claimant Statement
+Use the RMKS screen to obtain the claimant's signed statement; unless another POMS
+section specifically requires retaining a paper copy of the claimant's signed statement.
+Use the “STATEMENT OF PERSON” portion of the Person Statement in CCE to obtain the
+claimant's signed statement; unless another POMS section specifically requires retaining
+a paper copy of the claimant's signed statement.
+Third Party Statement
+Use the RPOC screen to satisfy a Report of Contact (RC) documentation requirement
+or to summarize a signed statement from a third party, unless another POMS section
+specifically requires retaining the paper copy of the signed third party statement.
+CAUTION: When summarizing, be sure to capture completely the gist of the statement, since
+your summary will be the sole source of the information for future reference.
+Use the Report of Contact page in CCE or the “FILE DOCUMENTATION REMARKS” portion
+of the Person Statement in CCE to satisfy a RC documentation requirement or to summarize
+a signed statement from a third party, unless another POMS specifically requires retaining
+the paper copy of the signed third party statement.
+CAUTION: When summarizing, be sure to capture completely the gist of the statement, since
+your summary will be the sole source of the information for future reference.
+Child Relationship
+Where the DW01 remarks field shows that an EAB NUMIDENT was used per GN 00306.012B.1. and GN 00306.013B.2.a, sufficient information exists to establish a parent-child relationship. Code all
+the other parent child relationship evidence on EVID.
+3. Documenting evidence in CCE - Post-Entitlement (PE) situations
+Unless another POMS section specifically requires retaining a paper copy of the signed
+claimant or third party statement, use the Report of Contact page in CCE or EVID screens
+in PE situations to document evidence, including evidence presented in redeterminations
+(RZ), including unscheduled RZs, and summaries of claimant and third party statements.
+REMINDER: Once you record evidence on the Report of Contact page in CCE, lock the Report of
+Contact page. For procedures on locking the Report of Contact page in CCE, see MS 04426.001.
+4. Title II PE situations and non-CCE cases
+See GN 00301.286E.

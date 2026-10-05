@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.357 - Coding Croatian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 01/06/2023 - Present | TN 256 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402357 (fetched 2026-10-04)
+
+E. Description of Croatia direct deposit data
+The data for coding Croatia IDD will come from the International Bank Account Number
+(IBAN) provided to the beneficiary from his or her FI. The IBAN will be 21 characters
+including the country code of “Q” for Croatia.

@@ -1,0 +1,65 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+H. EXR procedure in the DCF
+Follow these guidelines when establishing an EXR case in the DCF. For a complete discussion
+on processing EXR cases see, General Workflow DI 13050.005.
+1. FO actions
+a.
+Establish the EXR case in the DCF using the same process that you used to establish
+a work CDR.
+b.
+Use the CDRW to control development issues in the DCF.
+c.
+If we deny the EXR request, use the IFOA to close the EXR action on the DCF, use EVENT
+TYPE 5.
+d.
+If we approve the EXR request, use the IFOA to transfer the EXR action to OCO/PSC.
+This will allow OCO/PSC to close the EXR action on the DCF by inputting the approval
+(continuance) when the award EF-101 is processed.
+e.
+If you are processing an EXR approval:
+•
+prior to inputting the transfer action to PC, query the DCF for Ticket eligibility
+on the EXR or any other record.
+•
+approval for EXR purposes terminates a prior Ticket on the same claim number and causes
+a new Ticket to be issued when the beneficiary is placed in permanent entitlement
+and or eligibility status.
+•
+add a remark to the EXR FAX cover sheet to advise PC to terminate the prior Ticket
+with the month in which the EXR reinstatement action is being processed (not the EXR
+entitlement month). The PC should manually terminate the prior Ticket before reinstating
+the entitlement via EXR.
+•
+do not terminate a Ticket when establishing provisional payments.
+f.
+Mail the EXR file to the appropriate location when you process the award action as
+indicated in DI 13050.000.
+2. OCO and PC Actions
+•
+Follow the guidance in this section, except use the IPCA screen to close the EXR event
+in the DCF, see DI 13010.625.
+•
+Follow all procedures for processing EXR requests in DI 13050.000.
+•
+If processing an EXR approval faxed by the FO, the FO will transfer the EXR event
+to your jurisdiction. When the EXR approval is processed, close the EXR event by using
+the IPCA screen, EVENT CODE – 9=CONTINUANCE.
+•
+Terminate an existing Ticket on the same claim number before reinstating the entitlement
+via EXR.
+•
+Do not terminate a Ticket when establishing provisional payments or we issued the
+Ticket on another claim number.
+•
+Terminate the existing Ticket when you are processing the SSA-101 to reinstate the
+beneficiary, with the month in which you are processing the EXR reinstatement action.
+(not the EXR entitlement month).
+NOTE:Do not terminate an existing Ticket if you are reinstating a beneficiary via EXR,
+but the beneficiary has received a Ticket on another entitlement record that is ongoing.
+The Ticket on the other entitlement remains valid and should not be terminated by
+the new reinstatement.
+If processing a denied EXR request or you are taking any other actions to terminate
+provisional payments, input the DCF event closure by using EVENT TYPE – 14.

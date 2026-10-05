@@ -1,0 +1,94 @@
+SSA Program Operations Manual System (POMS) - GN 02402.418 - Coding El Salvador Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/25/2018 - Present | TN 115 (10-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402418 (fetched 2026-10-04)
+
+F. Policy to code bank data for El Salvador
+The FRBKC relies on SSA to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to SSA. When establishing or changing IDD bank data
+for El Salvador, you can use an SSA system (i.e., Modernized Claims System (MCS),
+Manual Adjustment Credit and Award Data Entry (MACADE), etc.). However, you must go
+to ITS.gov to enter the following information:
+•
+account ownership;
+•
+account number
+•
+account type;
+•
+beneficiary address
+•
+country;
+•
+enrollment status;
+•
+first and last name of the beneficiary;
+•
+IBAN
+•
+payee indicator;
+•
+reclamation country
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC).
+1. SWIFT-BIC code obtained from the FI
+The SWIFT code contains a minimum of 8 characters and a maximum of 11 characters:
+•
+First four characters - bank code (only letters);
+•
+Next two characters - ISO 3166-1 alpha-two country code (only letters);
+•
+Next two characters - location code (letters and digits) (passive participant have
+"1" in the second character); and
+•
+Last three characters - branch code, optional ('XXX' for primary office) (letters
+and digits).
+2. Initial award processing
+If you are working on an initial award, you must update ITS.gov using the bank account information prior to processing the award to ensure that the
+beneficiary receives his or her payment. If the complete bank account information
+is not in ITS.gov when the payment processes, the payment rejects and returns to SSA.
+3. Adding or updating bank data using SSA systems
+You must update ITS.gov on the same day if you use an SSA system to add or update bank data on the MBR (i.e.
+Post Entitlement Online System (POS), MACADE, etc.). Enter all POS direct deposit
+changes according to normal procedures. When coding IDD bank data in an SSA system
+for El Salvador within four business days of the current operational month (COM) cutoff
+date, use the procedure outlined in the following chart:
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign
+country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD in El Salvador?
+If no, STOP.
+REASON: Beneficiaries in El Salvador can only receive IDD payments in USD accounts.
+If yes, go to step 4
+4
+The RTN is 720000050 for all IDD to El Salvador. SSA and FRBKC have designated “72”
+as the multi-country prefix for El Salvador IDD. The “0” at the end of the RTN represents
+the U.S. check digit code for all IDD accounts in El Salvador. Therefore, there is
+no need to obtain the check digit code from Title II Interactive Comps.
+5
+Code the Type of Account as an “S” for savings or a “C” for checking. If no indicated
+account type, use a “C” for checking account.
+6
+To code the Depositor Account Number (DAN) for El Salvador, code as follows:
+•
+Start with a country code of “D” designated for El Salvador
+•
+Code up to 16 characters of the 20-digit Customer Account Number.
+NOTE: The full Customer Account Number can contain up to 20 characters, see step 7.
+7
+You must take action on the same business day to enter the full Customer Account Number
+and full SWIFT and IBAN into ITS.gov along with the information listed in the introduction of GN 02402.418F in this section.
+If you do not have access to ITS.gov, ask a co-worker who has access to update the required information into ITS.gov. FRBKC will need all of this information in order to process the IDD payment. When
+this information is not available, FRBKC will reject the payment and return it to
+SSA.

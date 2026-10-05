@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - SI 02220.015 - Supplemental Security Income Overpayment - Recovery By Adjustment
+Effective Dates: 08/24/2005 - Present | TN 140 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220015 (fetched 2026-10-04)
+
+C. Procedures for overpayment adjustment
+1. Offsetting underpayments against overpayments
+a.
+In most cases, the SSI claims system will automatically offset an underpayment against
+an outstanding overpayment balance when there is a D TAC (recover by check adjustment)
+on the Supplemental Security Record (SSR). Refer to SM 01311.170.
+If the underpayment amount exceeds the overpayment balance, issue the remainder of
+the underpayment to the individual.
+b.
+In cases that require manual offsetting:
+•
+If an overpayment has been determined (i.e., after netting, refer to SI 02220.015B.5. and SI 02201.015B.), and
+•
+The overpaid individual has received an initial overpayment notice and the appeal
+period has expired SI
+02201.015C.; SM
+01311.170, then
+•
+Use any subsequent underpayment to offset the overpayment balance.
+c.
+If one member of an eligible couple is underpaid and the other member is overpaid,
+release the underpayment unless the underpaid member agrees to use their underpayment to offset their spouse's
+overpayment and the overpaid spouse has exhausted appeal rights. Refer to SI 02201.010B.4., SI 02201.015A.4., and SI 02201.022.
+2. Change to nonpayment after adjustment begins
+In almost all cases the system replaces an inappropriate type of action code (TAC)
+with the correct one. For the few cases that require manual resolution of a B8 diary,
+refer to SM 01311.638. For a B9 diary refer to SM 01311.639 and process accordingly.
+a. If the initial overpayment notice has not been issued:
+•
+Prepare and issue the notice, and
+•
+Input the notice date.
+b. If we have issued the initial overpayment notice, the period to request reconsideration
+has expired, and there is no pending request for an explanation of the overpayment,
+or waiver request that has not received an initial determination:
+•
+Determine the uncollected balance of eachD TAC on the record.
+•
+If none of the D TACs have been recovered, replace each D TAC with a G TAC equal to
+the uncollected balance. The recovery rate for the G TAC will be equal to the uncollected
+balance.
+•
+If the D TAC(s) have been partially recovered, input a D TAC equal to the recovered
+amount and a G TAC equal to the uncollected balance. The recovery rate for the G TAC
+will be equal to the uncollected balance.
+For instructions to manually place an overpaid record under RECOOP control refer to
+SM 01311.235.

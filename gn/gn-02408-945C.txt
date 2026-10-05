@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - GN 02408.945 - Partial Recovery or No Recovery of International Direct Deposit (IDD) Payments
+Effective Dates: 02/08/2016 - Present | TN 89 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408945 (fetched 2026-10-04)
+
+C. Process for OEIO after partial recovery
+If the reclamation request results in partial recovery, OEIO takes the following actions.
+1. Partial payment return
+If the returned amount includes an amount that is less than a full payment amount,
+OEIO does the following.
+•
+Enters information regarding the returned partial payment amount on the Master Beneficiary
+Record (MBR)/Payment History Update System (PHUS) record, using the information provided
+by FRBNY. IMPORTANT: If OEIO does not enter the partial return, it will not show on the record, and later
+diaries may cause OEIO to request reclamation of the same funds.
+•
+Places this message on the MBR: “FRBNY closed reclamation (date).”
+2. Remaining incorrect payment less than tolerance
+If the remaining incorrect payment amount is less than $30, OEIO processes any manual
+return resulting from the partial refund, and takes no further action.
+3. Remaining incorrect payment exceeds tolerance
+If the remaining incorrect payment amount is $30 or more, OEIO:
+•
+Places this message on the MBR: “FRBNY closed reclamation (date).”
+•
+Processes any manual return and determines whether there is an entitled survivor who
+did not share the same direct deposit arrangements.
+•
+Sends a letter to the highest ranking beneficiary on the record. The letter should
+contain language similar to that included in GN 02408.950.
+•
+Diaries the case for 60 days. If they receive no refund, they take similar actions
+with other entitled beneficiaries on the record, in descending order.

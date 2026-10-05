@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - DI 52155.030 - EF101 Processing of Claims with Workers' Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 09/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155030 (fetched 2026-10-04)
+
+B. Complete the EF101—For complete EF101 instructions see MSOM T2PE 009.001
+If the Type of Action Code on the Account Data screen (EFACCT) entered is D (disability)
+the two WC/PDB questions at the bottom of that screen must be completed.
+WC/PDB INVOLVED (Y/N) should be answered Y for all initial or subsequent claims or
+amended awards when WC/PDB data coding is required.
+•
+WC/PDB Common screens have been completed and the data needs to be posted to the MBR.
+•
+WC/PDB offset is involved.
+WC/PDB OFFSET DATA ON ICF (Y/N) should be answered Y when ICF #32 or #34 have been
+used to adjudicate an offset determination.
+The Benefit Authorizer/Benefit Technical Examiner (BA/BTE) can access the WC/PDB data
+in ICF and propagate it into the MACADE action.

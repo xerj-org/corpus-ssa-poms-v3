@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 81007.060 - Internet User (IU) Submits the Wrong Internet Disability Report (IDR)
+Effective Dates: 01/28/2014 - Present | TN 1 (01-14)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481007060 (fetched 2026-10-04)
+
+DI 81007.060 Internet User (IU) Submits the Wrong Internet Disability Report (IDR)
+Occasionally a CR will encounter an Internet Disability Report (IDR) that does not
+fit the claimant’s filing situation. For example, we receive an i3368 when the IU
+should have submitted an i3820. You cannot change the type of IDR in the Electronic
+Disability Collect System (EDCS).
+To complete the correct disability report in EDCS, you must:
+•
+Delete the EDCS and create a new case;
+•
+Print the incorrect IDR via the Customer Information Control System (CICS) Internet
+query;
+•
+Transcribe the IDR information into the correct EDCS disability report; and
+•
+Contact the claimant or proper applicant to collect any additional information required
+to complete the disability report.

@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - DI 12027.090 - Processing Title II Disability Cessation (DIB CESS) Appeal Pending Alerts
+Effective Dates: 10/16/2006 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0412027090 (fetched 2026-10-04)
+
+B. Procedure – Processing Alerts
+Take the following actions upon receiving a DIB CESS alert
+•
+Check the status of the appeal. Review the Disability Determination Services Query
+(DDSQ), if the appeal is at the reconsideration level, or the Case Processing and
+Management System (CPMS), if the appeal is at the ALJ level
+•
+Take no action if the appeal is still pending.
+If the appeal is resolved and the account is active, take the following action to
+update the record and terminate the issuing of DIB CESS Appeal Pending Alerts:
+•
+Initiate a Post Entitlement Online System (POS) transaction and select #6 (DIB Cessation)
+and enter through to the next page;
+•
+Input the cessation reason, either #1 (Medical) or #5 (Failure to Cooperate);
+•
+Input the date of the appeal determination/decision and the level of the determination/decision
+with the appropriate payment or Medicare information; and
+•
+Input the notice information.
+NOTE: If the account is terminated, update the Master Beneficiary (MBR) via the Manual
+Adjustment Credit and Award Process (MADCAP).

@@ -1,0 +1,100 @@
+SSA Program Operations Manual System (POMS) - GN 02201.013 - Administrative Tolerances Title II Overpayments
+Effective Dates: 08/18/2011 - Present | TN 71 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201013 (fetched 2026-10-04)
+
+D. Use the following criteria to manually process non-RECOOP cases when the overpaid
+beneficiary is in non-pay status
+1. For overpayments that are $30 or less
+Take the following actions:
+If…
+Then…
+The beneficiary does not respond to the initial overpayment notice and there is another
+beneficiary receiving benefits on the record,
+NOTE: For more information regarding contingent liability and the priority order if there
+is more than one contingently liable beneficiary, see GN 02210.007, GN 02210.015, and GN 02210.016.
+•
+Move the overpayment to another beneficiary receiving benefits on the same record
+via the Establish Offset (OLP) (DROL) screen in DMS.
+•
+Send an overpayment notice.
+•
+Include the required overpayment information following the instructions in GN 02201.009.
+•
+Annotate DMS Remarks to document your actions.
+NOTE: The contingently liable beneficiary will have the same waiver and appeal options
+as the original overpaid beneficiary.
+There is no response to the initial overpayment notice and there is no one else currently
+receiving benefits on the record,
+Terminate collection per GN 02215.235.
+NOTE: If the overpayment is on ROAR, the system will generate a reminder notice.
+An overpayment of more than $30 is reduced to $30 or less through benefit withholding
+and the beneficiary is no longer receiving benefits,
+•
+Send one refund request notice for the balance of the overpayment.
+•
+Terminate collection per GN 02215.235 if the beneficiary does not respond to the notice.
+An overpayment of more than $30 is reduced to $30 or less through regular installment
+payments and the payments stop,
+Follow the instructions in GN 02210.180B.2.
+2. For overpayments that are more than $30 but less than $200
+Take the following actions:
+If there is…
+Then…
+No response to the initial overpayment notice and there is another beneficiary receiving
+benefits on the record,
+NOTE: For more information regarding contingent liability and the priority order if there
+is more than one contingently liable beneficiary, see GN 02210.007, GN 02210.015, and GN 02210.016.
+•
+Move the overpayment to another beneficiary currently receiving benefits on the same
+record via the DROL screen in DMS.
+•
+Send an overpayment notice.
+•
+Include the required overpayment information following the instructions in GN 02201.009.
+NOTE: The contingently liable beneficiary will have the same waiver and appeal options
+as the original overpaid beneficiary.
+No response to the initial overpayment notice and we cannot recover the overpayment
+from a contingently liable beneficiary,
+•
+Send a follow-up notice to the original overpaid beneficiary.
+•
+Annotate DMS Remarks to document your actions.
+NOTE: If within 30 days there is no response to the follow-up notice, make limited pursuit
+of the debt (e.g., call-in letters, telephone calls) following the instructions in
+GN 02210.212 and GN 02210.213.
+3. For overpayments that are $200 or more but less than $3,000
+Take the following actions:
+If there is…
+Then…
+No response to the initial overpayment notice and there is another beneficiary receiving
+benefits on the record,
+NOTE: For more information regarding contingent liability and the priority order if there
+is more than one contingently liable beneficiary, see GN 02210.007, GN 02210.015, and GN 02210.016.
+•
+Move the overpayment to another beneficiary receiving benefits on the same record
+via the DROL screen in DMS.
+•
+Send an overpayment notice.
+•
+Include the required overpayment information following the instructions in GN 02201.009.
+NOTE: The contingently liable beneficiary will have the same waiver and appeal options
+as the original overpaid beneficiary.
+No response to the initial overpayment notice and we cannot recover the overpayment
+from a contingently liable beneficiary,
+•
+Send a final follow-up notice to the original overpaid beneficiary.
+•
+Annotate DMS Remarks to document your actions.
+NOTE: If within 30 days there is no response to the follow-up notice, make limited pursuit
+of the debt (e.g., call-in letters, telephone calls) following the instructions in
+GN 02210.212 and GN 02210.213.
+4. For overpayments that are $3,000 or more
+Take the following actions:
+If…
+Then…
+Recovery from the debtor is unsuccessful and we cannot recover the overpayment from
+anyone else on the record,
+•
+Consider civil suit following the instructions in GN 02215.150 through GN 02215.180.
+•
+Annotate DMS Remarks to document your actions.

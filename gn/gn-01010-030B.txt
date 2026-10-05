@@ -1,0 +1,51 @@
+SSA Program Operations Manual System (POMS) - GN 01010.030 - Identifying prior claims filing situations
+Effective Dates: 08/20/2021 - Present | TN 51 (12-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201010030 (fetched 2026-10-04)
+
+B. Procedures for identifying prior claims
+1. Detecting prior claims
+Use the following indicators to detect prior claims:
+•
+An affirmative answer to the prior filing question on the application;
+•
+Receipt of the message “prior claim” from the Processing Center Action Control System
+(PCACS) after input of an earnings request;
+•
+Information obtained from the claimant’s interview;
+•
+Number Holder (NH) name, SSN alerts or edits generated on the Modernized Claims System
+(MCS) application (APPL) screen;
+•
+Prior claims remarks from the earnings computation (EC) data remark (DRMK) screen;
+•
+Processing limitation remarks regarding possible dual-entitlement (DE) on the MCS
+Systems Menu (MENU) screen;
+•
+Information in EP, and;
+•
+Review of the Inquiry Response (I/R) screens or the Master Beneficiary Record (MBR)
+special message (SP MSG) fields.
+2. Determining prior filing status
+If you determine that prior filing is involved, review the MCS records and the MBR
+to determine the status of the prior claim. If an SSN is unknown, access the Alphabetical
+Identification (ALPHIDENT) query to locate the SSN. Use the NUMIDENT query to verify
+that the SSN located belongs to the claimant. See MSOM QUERIES 003.003.
+3. Subsequent claim status
+•
+If the prior filing was a DIB claim, assume that the DIB claim was a denial if:
+•
+DIB insured status is not met;
+•
+A certified earnings record shows no prior period of disability;
+•
+There is no MBR; or
+•
+There is no feedback from MCS showing a DIB award.
+•
+If the reply to an MBR or Supplemental Security Record (SSR) inquiry is Not in File
+(NIF) and enough time has elapsed for the prior claim to update to the MBR or SSR,
+process the new claim as an initial claim.
+•
+If the field office (FO) cannot confirm the prior entitlement and suspicion exists
+that the claimant may be currently entitled on another SSN, contact the processing
+center (PC) for further development. See GN 01070.200 for more information.

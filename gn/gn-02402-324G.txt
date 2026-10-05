@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - GN 02402.324 - Coding Haiti Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402324 (fetched 2026-10-04)
+
+G. Example of coding Haiti direct deposit
+The customer provides us with a signup form for Haiti containing the following information:
+•
+Account number: 123456789012
+•
+Bank code: 123
+•
+Branch code: 45678
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of 70 (the multi-country prefix for Haiti),
+•
+A filler zero "0"
+•
+3-digit bank code: 123
+•
+the first 2 digits of the branch code: "45"
+•
+U.S. check digit (i.e., 2) (obtained from the Title II interactive Comps from the
+Main Menus 07/Sub Menu 16), and
+•
+The type of account as a C for checking or an S for savings. If there is no indicated
+account type, use a C for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "L" designated for Haiti,
+•
+Code the remaining 3 digits of the branch code, and
+•
+Code 12 digits of the account number 123456789012 (Do not include any dashes or spaces).
+3. Obtain the following information
+•
+RTN: 700123452
+•
+Checking
+•
+DAN: L678123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700123452 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L678123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700123452
+•
+DAN- CL678123456789012

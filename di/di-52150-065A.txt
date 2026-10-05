@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - DI 52150.065 - Complex Lump Sum (LS) Awards and Settlements
+Effective Dates: 08/01/2023 - Present | TN 39 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150065 (fetched 2026-10-04)
+
+A. Life expectancy (LE) awards
+A lump sum award may specify a payment amount based on the number holder’s (NH) life
+expectancy determined by insurance life expectancy tables. The life expectancy of
+the NH is often given in weeks, months, or years. These awards usually specify a life
+expectancy (LE) rate.
+If the award does not stipulate a specific length of time for the life expectancy,
+develop for clarification, as necessary. List all life expectancy lump sum proration
+cases under listing
+code 557.
+NOTE: The mention of a monthly LE rate in a LS award does not bind SSA to allocate expenses
+in a specific manner.
+If the award indicates it should be prorated over the claimant's lifetime but does
+not specify a rate or time period, and the development proves unsuccessful, following is a link to a table provided by SSA's Office of the Chief Actuary to assist
+in determining the life expectancy:
+https//www.ssa.gov/OACT/HistEst/CohLifeTablesHome.html
+The cohort life tables are organized by Trustees Report year, year of birth, and sex.
+To use the cohort life tables linked above use the following steps:
+1. Select the most recent Trustee Report available using the drop-down box, and then
+select the "Go" button.
+2. Then, select the proper link based on the person's sex.
+3. From there, locate the person's year of birth in the first column of the table
+and the person's current age in the second column.
+4. The person's life expectancy can then be found in the eighth column, labeled "e(x)". This represents the person's life expectancy (the average number of years of life
+remaining for people of that sex, birth year, and age).
+1. Determining the LE rate
+If the LS award specifies a rate based on LE, determine whether excludable expenses
+were deducted in deriving the LE rate specified in the award:
+NOTE: The requirement to consider all three proration methods in a LE case represents a
+change of position (COP). Implementation of the change is effective 06/29/2006. Do
+not reopen determinations processed before that date.
+EXAMPLE 1:
+A LS award of $100,000 is approved with a valid excludable attorney fee of $20,000
+and a valid excludable medical expense of $10,000. The LS settlement states the NH’s
+LE is 2,000 weeks and a life expectancy rate of $40 per week.
+•
+The $20,000 attorney fee was taken into consideration to compute the life expectancy
+rate ($100,000 - $20,000 = $80,000 divided by 2,000 weeks = $40 week.)
+•
+The correct LE rate for proration purposes is determined by dividing the gross LS
+by the NH’s life expectancy: $100,000 divided by 2,000 weeks = $50.
+•
+To prorate the LS, the correct weekly WC rate to use is $50 (i.e., the amount to enter
+in the Modernized Claims System (MCS) or the Interactive Computation Facility (ICF)).
+•
+Medical expenses of $10,000 and attorney expenses of $20,000 are then deducted from
+the gross LS (i.e., enter expenses in the appropriate data fields in MCS or ICF).
+MCS and ICF use all three proration methods to determine the method most advantageous.
+EXAMPLE 2:
+A NH receives a LS award of $45,000 with valid attorney expenses of $11,250 and valid
+medical expenses of $1,730.77. The award contains language indicating the settlement
+represents $57.63 per month for 46.3 years. To determine whether excludable expenses
+were deducted in deriving the $57.63 LE rate in the LS award:
+•
+Multiply $57.63 x 12 (months) x 46.3 (years) = $32,019.23.
+•
+$32,019.23 + $11,250.00 + $1,730.77 = $45,000.00 (total award amount)
+This example illustrates that all attorney and medical expenses were deducted. Therefore,
+we must determine the correct LE rate for proration purposes.
+•
+Consider all three proration methods and determine which is most advantageous. Compute
+the monthly rate before deduction of the expenses.
+•
+Multiply 46.3 x 12 = 555.6 (total months represented in award)
+•
+Divide $45,000 by 555.6 = $80.99 (rounded to the next lower dime) = $80.90 (LE monthly
+rate before expenses).
+To input into the MCS and ICF programs, enter the gross LS amount of $45000, the LE
+monthly proration rate of $80.90, excludable attorney expenses of $11,250, and excludable
+medical expenses of $1,730.77.  MCS and ICF use all three proration methods to determine
+the most advantageous method.
+2. LS award language
+If the wording in an LS award appears to be unreasonable and existing Office of the
+General Counsel (OGC) precedents Workers' Compensation/Public Disability Benefits
+Offset Opinions by State (PR 02505.000), fail to provide guidance:
+•
+Prepare the case for policy submittal per DI 52140.015.
+•
+Continue to offset at the previous weekly rate to prevent overpayment but do not make
+any determination on the lump sum until receiving a submittal response.
+NOTE: Effective December 19, 2015 or later, WC offset termination now extends from
+age 65 to full retirement age (FRA). See 2015 Amendment in DI 52101.005.
+Examples of unreasonable language in an LS award include:
+•
+A proration period that greatly exceeds life expectancy
+EXAMPLE: The LE period ends when the worker attains age 200.
+•
+Stipulation of a proration start date that precludes offset
+EXAMPLE: The terms of the settlement specify that the lump sum settlement is “for WC benefits
+payable beginning at age 65." (See PR 02505.046 South Dakota)
+•
+Settlement language cites a small monthly rate up to age 65 with a significantly larger
+rate beginning at age 65 and continuing
+EXAMPLE: The plaintiff’s average weekly wage is determined to be $350. Based on this, the
+rate for temporary total WC payments is determined to be $250 weekly and permanent
+total payments to be $175.
+The NH is found permanently and totally disabled as a result of an injury occurring
+on 05/08/2001 and is awarded benefits from the date of maximum medical improvement,
+07/12/2001 and continuing.
+The award states the settlement represents weekly WC payments of $100 beginning the
+date of maximum medical improvement (07/12/2001) up to age 65 (09/02/2012) and weekly
+payments of $250 effective age 65.
+NOTE: Contradictory language in a lump sum settlement requires further development for
+clarification.

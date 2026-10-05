@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02402.343 - Coding Japan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/17/2020 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402343 (fetched 2026-10-04)
+
+C. Description of Japan IDD bank data
+The IDD coding for Japan consists of 14 or 15 characters, as follows:
+•
+A 4-digit bank code.
+•
+A 3-digit branch code.
+•
+An account number of 7 or 8 digits.
+NOTE:
+Most bank accounts in Japan are savings accounts.

@@ -1,0 +1,102 @@
+SSA Program Operations Manual System (POMS) - DI 13050.060 - Field Office (FO) Procedures for Title II Expedited Reinstatement (EXR) Awards
+Effective Dates: 09/04/2024 - Present | TN 33 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050060 (fetched 2026-10-04)
+
+B. Title II FO procedures
+When DDS issues an EXR allowance, it will appear on the EDCS Action Items list. Follow
+these procedures:
+1.
+Review the EXR approval on the SSA-833:
+•
+Item 9A will be selected;
+•
+Item 10 will show “other”;
+•
+Item 20 will show WRM code 31; and
+•
+Remarks will show “Expedited Reinstatement MOE MM/YY”.
+2.
+Transfer the EXR event on the Disability Control File (DCF) from the DDS to the FO.
+3.
+Complete the Electronic Form 101 (EF-101) following normal amended award procedures,
+see KC Net
+EXR EF101 guide. The following screens require entries unique to EXR awards:
+•
+EFACCT: Code the Critical Case indicator with “Y.” If Workers’ Compensation (WC) or
+Public Disability Benefits (PDB) is involved, code the WC/PDB Involved indicator with
+“Y.”
+•
+EFPIAD: enter Primary Insurance Amounts (PIA) beginning with the EXR MOE. Although
+EXR re-establishes entitlement to payment, for PIA computation purposes, we proceed
+as though the original period of disability has not terminated. Therefore, use the
+disability onset date for the previously terminated period of entitlement, and compute
+the PIA as if the Extended Period of Eligibility (EPE) termination never occurred.
+Use all years of earnings not previously included in the Master Beneficiary Record
+(MBR) PIA history to compute the EXR PIA. For detailed information on the EPE PIA
+computations, refer to RS 00605.238.
+•
+EFBENE: review all fields to ensure necessary screens are in the EF101 path (for example,
+garnishment or tax levy involvement).
+•
+EFBEN2: Code the “Disability Involved” indicator with “Y.” Even if work is involved,
+code the “Work Involved” indicator with “N.” Capture work information on the EFDIBWK
+screen. Bring the EFDIBWK screen into the EF101 path by coding the “SGA or EPE Involved”
+indicator on the EFBNDIB screen with “Y.” Code the “Appointed Representative Involved,”
+"Special Notice" due to Visual Impairment, and “SSI Windfall Offset” indicators as
+necessary.
+•
+EFCOMM: select Common screens which affect entitlement (for example, beneficiary marriage
+or citizenship)
+•
+EFBNDIB: the DDO is the last day of the month prior to the EXR MOE (the date of entitlement
+to disability [DOED]). For example, if the DOED is 04/22, the DDO is 03/31/2022. Code
+the DAC field with “F.”
+•
+The DOED cannot be earlier than the previous benefit termination month (BTM). The
+FO must use the MOE established by the DDS, shown on the SSA-833. The FO cannot change
+the MOE. If the FO cannot use the MOE established by the DDS (for example, because
+the claimant performed SGA in that month), send the case back to the DDS to determine
+a different MOE. If the PC discovers an incorrect MOE, designated PC technicians have
+authorization to correct certain DDS MOE determinations. If there is SGA-level work
+during the EXR Initial Reinstatement period (IRP) or the new EPE is involved, code
+the “SGA or EPE Involved” indicator with “Y.”
+•
+EFDIBWK: code SGA months in the EXR IRP and the new EPE, if applicable. Include this
+information in remarks on the EFBCRN screen.
+•
+EFBCLM: the application file date is the EXR protective filing date, if any. The application
+receipt date is the date we receive the completed EXR request.
+•
+EFBCRN: use remarks to alert the PC that this is an EXR case and requires priority
+handling. Use remarks to alert PSC to any special issues such as SGA months since
+the EXR MOE, payment of provisional benefits, WC/PDB, etc. If Medicare terminated
+prior to the EXR award date, add, “Award Medicare based on EXR – See HI 00801.166 – new IEP applicable” to remarks. However, if the claimant’s HI/SMI eligibility has
+not terminated, no additional remarks are necessary, as HI/SMI will continue based on
+EXR.
+•
+EFBNCM: this screen lists a selection of three separate menus. These screens provide
+access to Common Screens used for suspension, termination and reinstatement events
+for miscellaneous situations, disability events and foreign events.
+•
+EFMBEN: Compute the monthly amount payable as if the prior period never terminated
+due to SGA, increased by intervening COLAs and recomputations. Adjust benefits for
+any changes in offsets such as, Workers Compensation/Public Disability Benefits and
+Government Pension Offset, Windfall Elimination Provision, overpayments, and other
+payment issues with the first month of reinstated benefits.
+NOTE: Government Pension Offset (GPO) and Windfall Elimination Provision (WEP) only applies
+to months of entitlement prior to January 2024 because the Social Security Fairness
+Act (SSFA) of 2023 eliminated the reduction of Social Security benefits under WEP
+and GPO as of January 2024.
+4.
+Adjudicate and transfer the EF-101 to the program center (PC) per MS 06309.035 and
+MS 06309.036.
+5.
+Use the Print function, #8 on the EFMENU screen, to send a copy of the EF-101 to ORS.
+Do not print a paper copy of the EF-101.
+6.
+For EDCS exclusion cases store the SSA-833 in eView or the Evidence Portal (EP). If
+the forms listed in DI 13050.045B.2 are not in the electronic folder, fax them in.
+7.
+Transfer the EXR event on the DCF to the PC per DI 13010.620.
+8.
+The program center (PC) will issue the reinstatement notice.

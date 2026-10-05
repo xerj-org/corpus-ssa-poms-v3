@@ -1,0 +1,116 @@
+SSA Program Operations Manual System (POMS) - SI 02005.005 - Transitional Computational Cycle (TCC)
+Effective Dates: 10/30/2006 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005005 (fetched 2026-10-04)
+
+A. Policy
+1. TCC — Exceptions to Retrospective Monthly Accounting (RMA)
+The law provides for exceptions to the standard RMA computation. One exception is
+the transitional computational cycle (TCC). The TCC is involved when computing SSI
+payments for:
+•
+April 1982 and May 1982;
+•
+The first and second months of eligibility for payment of benefits (not E02) in an
+initial claim;
+•
+The first and second months of eligibility for payment of benefits (posteligibility
+situation) following a period of ineligibility; and
+•
+An ineligible spouse or an essential person who is also the ineligible spouse, and
+who then becomes eligible. The first month of the TCC is the first month in which
+both members are in current pay status (C01). See SI 02005.030A.3.c. for instructions for months before the TCC becomes effective.
+The eligibility tests for Federal SSI and optional state supplementary (OSS) payments
+are not changed.
+2. Formula
+The formula used for each TCC is as follows:
+a.
+For the first month in each TCC, the budget month (BM) is the same as the computation
+month (CM). (See SI 02005.007 to determine if proration of benefits applies.)
+b.
+For the second month, the BM is the month before the CM.
+c.
+For the third month (and the following months), the BM is 2 months prior to the CM
+— the standard retrospective computation.
+d.
+In all BM selections for OSS, the Federal BM is the controlling factor whenever there
+is Federal eligibility. For example, if the Federal BM is July 2005 then the OSS budget
+month is also July 2005.
+See SI 02005.005A.4. when there is nonrecurring income in the first payment month of the TCC.
+NOTE:
+In initial claims situations, the E02 month is never part of the TCC. If an eligible
+individual becomes ineligible during a TCC, this interrupts the TCC. A new TCC will
+begin once the individual is again eligible.
+3. When Eligibility is Attained
+If a person is federally ineligible but is eligible for an OSS optional benefit, the
+OSS BM is selected using the same rules used for Federal BM selection. If they become
+federally eligible, the Federal and OSS payments are computed using the TCC. If a
+person has been federally ineligible and OSS ineligible and becomes eligible for any
+benefits (Federal only, State only, or Federal and State), the payment is computed
+using the TCC.
+NOTE: If Mandatory Minimum State Supplementation (MMSS) payment is involved, see SI 02005.084.
+4. Nonrecurring Income
+a. Policy
+Beginning with the payment computation for April 1, 2005, nonrecurring income received
+in the first month of the TCC will be counted as income for payment computation purposes
+only in the first month of the TCC. For example, March 2006 is the first month in
+the TCC and includes nonrecurring income. The March nonrecurring income will not be
+used in the payment computation for April 2006 and May 2006.
+For cases where April 2005 is the last month in the TCC, the rules in SI 02005.005A.1. through SI 02005.005A.3. apply to February and March 2005, even if February has nonrecurring income. The nonrecurring
+income policy is not effective until the April 2005 payment computation. For example,
+if the February 2005 income includes a one-time pension payment, the pension amount
+is included in the February and March 2005 payment computations. The pension amount
+is not included in the April 2005 payment computation.
+For cases involving nonrecurring income where the last month in the TCC is prior to
+the April 2005 payment, follow instructions in SI 02005.005A.1. through SI 02005.005A.3.
+For purposes of this policy, nonrecurring income is any type of income (e.g., Title II, wages, automated and manual deemed income without consideration of the deemor's type of income) that is present in the first month, but not present in the second month. Also, the
+income cannot be from the same or similar sources for the same or similar purpose
+as income in the second month.
+This policy applies to IC and PE situations. Beginning with the April 2005 payment
+computation, this computation is automated. See SI 02005.005A.4. for instructions involving manual computations involving the Jones court case.
+Same and Similar Sources
+For purposes of this policy, type J and H (income from living in a household of another
+and in-kind income for support and maintenance, respectively), are treated as income
+from similar sources. All Title II types, A, W, G, are treated as income from the
+same source. An increase, decrease, or no change in the amount of income with the
+same type code present in both months (e.g. wages go from $300 to $200) does not qualify
+as nonrecurring income. In an example involving wages, an individual who received
+$900.00 in wages in the first month and $700.00 in wages from a different employer
+in the second month, received income from a similar source. The wages of $900.00 will
+be counted as income in the first, second and third months. Use the instructions in
+SI 02005.005 A.2 to determine payment amounts.
+b. Frequency Code
+The frequency code (N, T, or C) is not controlling in determining nonrecurring income.
+For example, if wages are present in the first month and coded T, but not present
+in the second month, this is nonrecurring income. Conversely, if wages are present
+in the first month and coded N or T, and wages are present in the second month and
+coded N or C, this is not nonrecurring income.
+c. More Than One Type Of Income
+There can be more than one type of nonrecurring income in the first month. For example, in the first payment computation
+month of a TCC, there is CI of $200 in wages in the first month and $100 for a pension
+received only in the first month. Neither of these types is in the second month. When
+the second month's payment is computed, both the $200 and the $100 should be subtracted
+from the individual's CI used to decide the second month's payment.
+There can also be multiple types of income in the first month, but only one of the
+types is nonrecurring income. The nonrecurring income will be counted only in the
+first month. The other recurring income types will be used in the TCC computation
+following SI 02005.005 A.2.
+d. Types R and S Income
+Beginning September 2006 the SSR will display expanded fields for type R and type
+S incomes. This change allows the SSI system to identify more specific types of income
+for types R and S income. Because of this improvement, the system will recognize recurring
+and nonrecurring income in the TCC for these types. Manual actions are not needed
+unless you must manually compute a case for another reason. See SM 01005.180 through
+SM 01005.190 and SM 01305.000 for systems instructions for this situation.
+e. Jones Court Case in the Ninth Circuit
+Process a case with nonrecurring income by following the Jones policy only if the TCC falls within the period covered by the Jones court case, May 1994 through March 2005, and months in the TCC must be recomputed
+because income in the first month was used in all three months. These cases must be
+computed manually. This is true even if some of the eligibility months are outside
+the Jones period. See SI 02005.006 for processing instructions which only apply to States in the Ninth Circuit and to
+members of the Jones class who have moved to other States.
+NOTE:
+The underpayment process discussed in SI 02005.006C still applies, but only to cases where the nonrecurring income was used to compute the CI for the first,
+second, and third month, and now the case must be recomputed to eliminate the nonrecurring
+income in the second and third months' payment computations. See the example in SI 02005.006C.
+If there is an underpayment computed outside the TCC, and nonrecurring was only used
+in the first month, and there is a collectible SSI overpayment on the record, follow
+the national policy in SI 02101.001 and SI 02101.005. The Jones court case underpayment policy does not apply.

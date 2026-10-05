@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 13010.135 - Title II Continuing Disability Considerations in Blindness Cases
+Effective Dates: 09/19/2024 - Present | TN 84 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010135 (fetched 2026-10-04)
+
+B. Determining if a beneficiary is statutorily blind
+To determine if a Title II beneficiary meets the statutory definition of blindness,
+review all of the following:
+•
+The SSA-831-U3 (Disability Determination and Transmittal) in eView or Evidence Portal (EP) for a
+diagnosis code of 3694, or an entry of statutory blindness in Item 16A, entry of A1
+in Item 22, and codes 2.02 or 2.03a (or listing 2.03B prior to 2/20/2007) in Item
+23;
+•
+The Query Medical Information Data (QMID) or Query Modify Medical Data (QMMD) screen
+of the Disability Control File (DCF) for a listing code of 2.02 or 2.03A (or listing
+2.03B prior to 2/20/2007), and a code of A1 in the REG field;
+•
+The Disability Determination System Query (DSQ) shows a listing code of 2.02 or 2.03A
+(or listing 2.03B prior to 2/20/2007), and a residual functional capacity (RFC) code
+of 30 (T2) or 70;
+•
+The Medical Listing Number (MLN) field for codes 2.02 or 2.03A and the Basis Code
+(BAS) field for A1, or an entry of Y in the Stat Blind Indicator (SBI) field of the
+DDSQ;
+•
+A date in the Adjusted Blind Onset Date (ABOD) field in the Benefit Data Line, of
+the Master Beneficiary Record (MBR); or
+•
+The Disability Award Code (DAC) for L, N, P, S, and T on the disability insurance
+benefits (DIB) line of the MBR.
+NOTE: The diagnosis (DIG) code of 3690 alone does not mean that a beneficiary meets the
+statutory definition of blindness. We use the DIG code of 3690 to describe any visual impairment. When a beneficiary meets the criteria for blindness as described
+in the Act, the disability determination impairment code is 3694 (effective December
+1, 2012), and shows the statutorily blind person meets listing code 2.02 or 2.03A
+(or listing 2.03B prior to 2/20/2007).

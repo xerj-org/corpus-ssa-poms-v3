@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 00502.112 - Identifiers for the Representative Payee System (eRPS)
+Effective Dates: 07/17/2026 - Present | TN 104 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502112 (fetched 2026-10-04)
+
+B. Procedure
+1. Individual payee
+eRPS verifies the applicant’s SSN before using it as the unique identifier of the
+individual.
+2. Sole proprietorship, general partnership, or limited partnership
+Even though the following businesses may have an EIN, record them as individual payees
+and use the owner’s or a general partner’s SSN to identify them in eRPS:
+•
+Sole proprietorship,
+•
+General partnership, or
+•
+Limited partnership.
+Record the SSN of the owner or the partner who is the SSA contact. Add a Rep Payee
+Applicant note in eRPS to keep a record of the name of the business and any EIN (MS
+07415.002). In the case of a general partnership or limited partnership, add a Rep
+Payee Applicant note to keep a list of the names and SSNs of additional general partners.
+See GN 00501.012 for more information.
+3. Entity with limited liability
+Identify entities with limited liability as organizations in eRPS; for more information,
+see GN 00501.012B. Managers document and verify the EIN in eRPS, see GN 00502.118. eRPS uses the ZIP Code of the organization’s physical location to create the Organization
+ID.
+4. Government agency
+Code government agencies as organizations, see GN 00501.012B. Managers document and verify the EIN in eRPS, see GN 00502.118. eRPS uses the ZIP Code of the organization’s physical location to create the Organization
+ID.
+5. Guardian
+A guardian may be an individual or an organization. Code based on the Rep Payee Type.
+a. Joint guardian
+Only one identifier (SSN) can be used for cases involving joint guardians. Joint guardians
+are two or more individual legal statutory guardians appointed as guardians with equal
+responsibility for the beneficiary (see GN 00502.139A.3). Enter all data about the guardians under the first named guardian's SSN and enter
+the Type of Payee relationship based on that person's relationship to the beneficiary.
+On the Payment Legend screen (MS INTRANETERPS 011.006), enter the legend preference
+exactly as shown in the court order naming the guardians.
+Add a Rep Payee Applicant note (MS 07415.002 and MS 07415.003B) with information about
+the second guardian as appropriate.
+b. Public guardian
+Public guardians are almost always organizational payees, and generally the Payment
+Legend should include the official's title.
+However, in some localities where only one person serves as the public guardian, they
+usually prefer that the payment be made in their own name (e.g., Jane Smith, Public
+GDN for -). In other localities, the law requires that the public guardian's name
+be included in the Payment Legend. In those situations, process the payee application
+as for an organizational payee (i.e., use the correct location ZIP Code and verify
+the EIN). On the Rep Payee Organization Basic Info screen (MS 07414.007), use the
+public guardian's name and title in the Payment Legend.

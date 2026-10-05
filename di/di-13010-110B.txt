@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - DI 13010.110 - Return to Work Within A Year Of Onset (Title XVI)
+Effective Dates: 08/11/2015 - Present | TN 76 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010110 (fetched 2026-10-04)
+
+B. Policy - return to work less than 12 months after onset and information received prior
+to date of final determination
+When a claimant returns to work less than 12 months after onset and prior to the date
+of the final determination the issue to be resolved is whether the work performed
+is substantial gainful activity (SGA).
+In determining if the work prior to the final determination is SGA, the nature of
+the work, the earnings, and the duration of the work prior to the final determination
+must be considered. Therefore, consider earnings under SGA guidelines (value the services
+when performed) for work performed prior to the final determination. However, handle
+work performed after the final determination under the earned income provisions of
+section 1619, see SI 02302.030.
+1. Work is substantial gainful activity (SGA)
+If the work activity is SGA and the folder is in the FO, prepare a SSA-831 denial
+determination per DI 11010.205. Place a previously prepared allowance determination in the folder and annotate Do
+Not Process in the Remarks section of the SSA-831.
+If the folder is in another location, e.g., Title II/XVI case released to Central
+Operations (CO) or Payment Service Center-Disability Case Review (PSC-DCR) for payment
+of Title II benefit, recall it. When received, prepare a SSA-831 denying benefits.
+Process a previously prepared, uneffectuated, SSA-831 allowance determination as in
+the first paragraph of this subsection.
+If the claimant returned to SGA less than 12 months after onset, but their work activity
+later stopped, send the case to the DDS to consider a later onset date. If a later
+date of onset cannot be established or the 12-month duration is not met, issue an
+SGA denial. Process a previously prepared, uneffectuated, SSA-831 allowance determination
+as in the first paragraph of this subsection. Use MISSICS to code the denial. On the
+Build SSR (DSSR) screen show Y for Close Event. On the Adjudicative Decision (DADJ)
+screen, enter Y for Close Initial Claim, 2 for initial Claim Decision, and N33 for
+Denial Code.
+2. Work is not substantial gainful activity (SGA)
+If the work is not SGA and is continuing after the date of final determination, handle
+the work activity as earned income. Consider whether the work activity should be handled
+as trial work period (TWP) service months if the claimant is also entitled to a Title
+II benefit.

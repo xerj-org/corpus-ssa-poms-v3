@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.371 - Coding Cape Verde Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402371 (fetched 2026-10-04)
+
+G. Example of coding Cape Verde direct deposit
+The customer provides us with a signup form for Cape Verde containing the following
+information: "1234567890123456."
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code an RTN of 710000028
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with an alpha country code of “O” designated for Cape Verde;
+•
+Code the 16-digits of the Account Number “1234567890123456.”
+3. Obtain the following information
+•
+RTN: 710000028
+•
+Checking
+•
+DAN: O1234567890123456
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 710000028
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: O1234567890123456
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 710000028
+•
+DAN- CO1234567890123456

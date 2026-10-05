@@ -1,0 +1,93 @@
+SSA Program Operations Manual System (POMS) - SI 00601.009 - Application Effective Date
+Effective Dates: 01/04/2024 - Present | TN 78 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500601009 (fetched 2026-10-04)
+
+D. Examples
+1. Aged Claim Application Filing Date is Before Attainment of Age 65 But Within the Same
+Month
+Elliot Smith files an SSI application in the field office (FO) on 9/15. He will attain
+age 65 on 9/29 and the FO determines that he meets all other factors of eligibility
+for September. His first payment will be on 10/1.
+For MSSICS inputs, enter 9/29 in EFFECTIVE FILING DATE on Supplemental Security Income
+Application page and 9/15 in RECEIVED on the Development Worksheet page for application.
+For non-MSSICS inputs, enter on the SSA-450-SI, 9/29 in AP and 9/15 in Date of Filing
+(DF).
+If Elliot Smith had excess resources in September and spent down in September, he
+would be eligible for SSI benefits 10/1. Assuming he meets all other factors of eligibility
+for October, his first payment would be on 11/1.
+For MSSICS inputs enter 9/29 in EFFECTIVE FILING DATE on Supplemental Security Income
+Application page and enter 9/15 in RECEIVED on Development Worksheet page for application.
+The Adjudicative Decision (DADJ) screen should reflect the payment status (PS) codes:
+N04, EFFECTIVE DATE 09/01 and C01, EFFECTIVE DATE 10/01.
+For non-MSSICS inputs on the SSA-450-SI, enter AP 9/29, DF 9/15, PS N04 09/01 and
+C01 10/01.
+NOTE: The system will overlay C01 with E02 for 10/1.
+2. Aged Claim Application Filing Date is Before Attainment of Age 65 But Attainment is
+in a Later Month
+Robert Bowman files an SSI application in the FO on 9/5. He will attain age 65 on
+10/19 and the FO determines that he meets all other factors of eligibility for October.
+The E02 month is October and his first payment will be on 11/1.
+For MSSICS inputs, enter 10/19 in EFFECTIVE FILING DATE on Supplemental Security Income
+Application page and 9/5 in RECEIVED on Development Worksheet page for application.
+For non-MSSICS inputs, enter 10/19 in AP and 9/5 in DF on the SSA-450-SI.
+3. Disability Claim - Protective Filing Date and Receipt Date are in Different Months
+Barb Jones contacts the Teleservice Center (TSC) on 8/18. She appears eligible for
+SSI in August and September. The teleservice representative (TSR) schedules a teleclaim
+appointment for 9/12. An SSI application is taken that day. The FO receives her signed
+application 10/12. The DDS determines that Barb Jones is disabled as of 10/3. Since
+she first meets all of the eligibility requirements on 10/3, her E02 month is October
+and her first payment will be for 11/1. The system will derive the correct date payment
+will begin based on the FO input and the DDS input of the onset date determination.
+For MSSICS inputs, enter 8/18 in PROTECTIVE FILING DATE and EFFECTIVE FILING DATE
+on Supplemental Security Income Application page and 10/12 in RECEIVED on Development
+Worksheet page for application.
+For non-MSSICS inputs enter 8/18 in AP and 10/12 in DF on the SSA-450-SI.
+4. Aged Claim - Protective Filing Date, Receipt Date and the Date of Attainment of Age
+65 Are Within the Same Month But the Receipt Date is Later Than the Date of Attainment
+Laura Harris contacts the TSC on 5/10. She will attain age 65 on 5/12. She appears
+eligible for May and June. The TSR schedules a teleclaim appointment for 5/15. The
+application is taken that date and mailed to the claimant for signature. The application
+is received in the FO on 5/31. Her E02 month is May and her first payment month is
+June.
+For MSSICS inputs, enter 5/10 in PROTECTIVE FILING DATE and EFFECTIVE FILING DATE
+on Supplemental Security Income Application page. When the application is received,
+enter 5/31 in EFFECTIVE FILING DATE and 5/31 in RECEIVED on Development Worksheet
+page.
+For non-MSSICS inputs, enter 5/31 in AP on the SSA-450-SI. No DF entry is required.
+5. Aged Claim - Protective Filing Date, Receipt Date and the Date of Attainment of Age
+65 are Within the Same Month But the Receipt Date is Earlier than the Date of Attainment
+Donald Filer contacts the TSC on 2/3. He attains age 65 on 2/15. The TSR documents
+the protective filing date in eLAS and schedules a teleclaim appointment for 2/5.
+The teleclaim is taken that day and sent to Donald Filer for his signature. He signs
+and mails the application to the FO the same day and it is received in the FO on 2/9.
+His E02 month is February and his first payment month is March.
+For MSSICS inputs, enter 2/3 in PROTECTIVE FILING DATE and EFFECTIVE FILING DATE.
+When the application is received on 2/9, enter 2/15 (date of age 65 attainment) in
+EFFECTIVE FILING DATE and 2/9 in RECEIVED on Development Worksheet page.
+For non-MSSICS inputs, enter 2/15 in AP and 2/9 in the DF field on the SSA-450-SI.
+6. Aged Claim - Protective Filing Date and Receipt in the Same Month (Age 65 Exception
+Does Not Apply)
+Wally Paddington, who is 68 years old, contacts the TSC on 5/10. He appears eligible
+for May and June. The TSR schedules a teleclaim appointment for 5/25. The application
+is taken that date and mailed to the claimant for his signature. The application is
+received in the FO on 5/31.
+For MSSICS inputs, enter 5/10 in PROTECTIVE FILING DATE and 5/10 in EFFECTIVE FILING
+DATE on Supplemental Security Income Application page.
+For non-MSSICS inputs, enter 5/10 in AP and 531 in the DF field on the SSA-450-SI.
+7. Disability Claim Disabled Child Attains Age 18 in Filing Date Month and Deeming Applies
+Alan Davidson files SSI disability application in the FO on 10/15. He attains age
+18 on 10/24. The DDS determines that Alan Davidson is disabled as of October. Since
+his parents' resources are deemed to him in the month of attainment of age 18, he
+is ineligible for SSI for October and eligible for November as a disabled individual
+when deeming no longer applies. His E02 month is November and his first payment month
+is December.
+For MSSICS inputs enter 10/15 in EFFECTIVE FILING on Supplemental Security Income
+Application page and on Development Worksheet page in RECEIVED. Include the parental
+information on the appropriate MSSICS screens so that the system can compute the correct
+payment month.
+For non-MSSICS inputs first establish the disabled child's claim entering 10/15 in
+AP, PS N04 for 10/01 and C01 for 11/01 on the SSA-450-SI. No DF entry is required.
+The system will overlay C01 with E02 for 11/01. Once the disabled child's record is
+established, follow SM 01305.770 for changing the record composition to disabled individual
+for November. NOTE: Please refer to POMS SI 00515.010 for Processing Certain Financial Permission Cases When a Deemor Refuses Permission
+and the Claimant Turns Age 18.

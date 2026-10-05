@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - GN 02402.401 - Coding Philippines Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/05/2023 - Present | TN 240 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402401 (fetched 2026-10-04)
+
+G. Example of coding direct deposit for the Philippines
+The customer provides us with a signup form for the Philippines containing the account
+number: 12345678901122334455667788990
+1.
+Code the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as 700000038
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for checking.
+2.
+Code the DAN
+The technician codes the DAN:
+•
+Start with country code “I” designated for the Philippines; and
+•
+up to 16 digits of the 29-digit Customer Account Number “1234567890112233”
+3.
+Technician obtains this information
+•
+Checking
+•
+DAN: I1234567890112233
+a.
+POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000038
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: I1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b.
+MBR reflects the direct deposit information
+•
+RTN 700000038
+•
+DAN CI1234567890112233

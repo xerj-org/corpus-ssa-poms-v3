@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.356 - Coding Brazilian Bank Data on the Master Beneficiary Records (MBR)
+Effective Dates: 02/13/2018 - Present | TN 257 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402356 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Brazil will have a prefix of “66” at the beginning of the Routing
+Transit number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “B” assigned to Brazil.

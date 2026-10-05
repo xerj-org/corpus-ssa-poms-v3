@@ -1,0 +1,60 @@
+SSA Program Operations Manual System (POMS) - GN 02607.760 - Beneficiary Protests Suspension of Title II Benefits
+Effective Dates: 05/29/2009 - Present | TN 89 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607760 (fetched 2026-10-04)
+
+E. Procedure PUPS Processing of Decision on Protested Suspension Action Benefits were
+Reinstated Pending Decision on Protest
+1. Suspension of Benefits After Protest is Resolved
+a. FO Process
+If suspension still applies after protest is resolved, process as follows:
+•
+Send a notice to beneficiary of our decision on the protest. Notify them that we will
+suspend benefits shortly. Do not give any additional time for rebuttal. Treat any
+further rebuttal as a request for reconsideration. (See GN 03001.025B.4. for instructions.)
+NOTE: If the individual is blind or visually impaired, see instructions at NL 01001.010 for more information on the special blind or visually impaired notice options.
+•
+Prepare an SSA-2790 Prisoner Fax form and notify PC/OCO-ODO to suspend benefits effective with the original
+date of prisoner suspension annotated to the PUPS record.
+•
+Notify the PC/OCO-ODO to send reconsideration level of appeal on the suspension notice.
+(Beneficiary has already received first level of appeal on the initial determination.)
+•
+Update the PUPS record “6 - CHANGE INFORMATION ONLY” and remove the released date
+from the PUPS record.
+•
+Add REMARKS to the PUPS record to explain why SSA did not agree to the protest after
+the adverse action matured and that we suspended benefits effective with the original
+date of conviction or confinement annotated to the PUPS record.
+NOTE: You cannot use PUPS to suspend the benefits because you will generate an incorrect
+notice to the beneficiary based on the automated suspension action.
+b. PC/OCO-ODO process
+•
+Suspend benefits (LAF S7) using MADCAP/MACADE.
+•
+Notify beneficiary of the suspension. Send reconsideration level of appeal on the
+suspension notice. (Beneficiary has already received first level of appeal on the
+initial determination.)
+NOTE: If the individual is blind or visually impaired, see instructions at NL 01001.010 for more information on the special blind or visually impaired notice options.
+2. FO or PC/OCO-ODO process protest resolved do not suspend benefits
+a. Annotations on the protested PUPS report
+Leave the beneficiary in current payment status on the MBR and annotate the PUPS report
+as indicated below.
+•
+Beneficiary Provides Evidence That Proves They Were Officially Released
+Update the PUPS report with TYPE OF ACTION 6 - CHANGE INFORMATION ONLY. Add a released
+date to the PUPS report. Add REMARKS to the PUPS report to document the reinstatement
+of benefits because of the release from the institution if still necessary. Make sure
+you add a RELEASED DATE to the PUPS record.
+•
+Beneficiary Provides Evidence That Causes SSA Not to Suspend Benefits
+Update the PUPS report with TYPE OF ACTION 6 - CHANGE INFORMATION ONLY. Include in
+the REMARKS field the rationale behind the determination not to suspend the benefits.
+•
+Beneficiary is Not the Inmate
+Update the PUPS report with TYPE OF ACTION 6 - CHANGE INFORMATION ONLY. Include in
+the REMARKS (PMRK screen) field the rationale behind the determination; ire., “Erroneous
+Person.”
+b. Notice of decision on the protest
+Send the beneficiary a letter notifying them that SSA has reviewed their protest and
+we will not suspend benefits because of our review of our initial determination.
+NOTE: If the individual is blind or visually impaired, see instructions at NL 01001.010 for more information on the special blind or visually impaired notice options.

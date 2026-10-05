@@ -1,0 +1,47 @@
+SSA Program Operations Manual System (POMS) - SI 02006.201 - Special Considerations for Month of Actual Receipt of Retroactive Title II Benefits—PMA Month
+Effective Dates: 05/12/2009 - Present | TN 14 (03-98)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006201 (fetched 2026-10-04)
+
+D. Procedure - field office
+•
+When requested by the PSC (GN 02610.053A.2.) or as a result of beneficiary request or FO case identification, perform the
+offset recomputation, taking into account the total representative's fee. See GN 03940.050C for determination of the Title XVI portion of the fee in fee agreement cases. If
+the representative's fee withheld from the Title II benefit is less than the specified
+dollar amount of the fee cap shown in GN 03940.003A.3., diary the case for 30 days. If the withheld fee is the specified dollar amount
+of the fee cap shown in GN 03940.003A.3. for fee agreement cases, or the specified dollar amount of the fee cap shown in
+GN 03940.003A.3. or more for fee petition cases, no further action is necessary.
+•
+Upon maturation of the diary, review the SSID to determine whether the PMA has been
+posted. If the PMA has not been posted, rediary for another 30 days. Repeat as necessary
+until the PMA has been posted.
+At this point, review to see if the ongoing title II is high enough to preclude ongoing
+SSI eligibility. If this is so, and the PMA was paid after the first full monthly
+payment, no further action is necessary. If, however, these conditions are not present,
+continue with step 3.
+•
+Total the NCI calculated by the SSI system and the portion of the fee not withheld from the SSI recipient's title II benefit (i.e., the title XVI fee and any
+portion of the title II fee withheld from the auxiliaries). This is the total NCI
+that should be excluded from the PMA.
+•
+Review the WNC and UMIH fields. The WNC field is posted in the PSC and represents
+the PSC determination of NCI, which does not include the title XVI fee and/or the
+part of the title II fee paid from the auxiliaries' withheld amounts.
+WNC is deducted automatically from the PMA by the system before the PMA is posted to the UMIH field. The type A income posted in the UMIH field is
+the result of the computation (PMA - WNC) +CMA (ongoing) type A. Further investigation
+is needed to determine the PMA actually paid.
+•
+Obtain a PHUS query to determine the PMA actually paid to the beneficiary. Subtract
+the amount determined in 3. above from this “PHUS” PMA. This is the PMA amount that should be used to determine what to post in UMIH
+on the SSR.
+•
+Find the amount of continuing type A unearned income posted for the month after the
+PMA. (NOTE: An exception to this occurs when the PMA is posted in December. The type
+A amount for November should be used instead of the January amount because of the
+COLA.) Add this amount to the amount determined in step 5.
+•
+Delete the PMA posted by the system and post the amount determined in step 6 as type
+A income for the month.
+•
+The system will pay out any underpayment due as long as it is still a “RIC:G” record. Otherwise, pay any underpayment through A-OTP.
+•
+Enter the following in the CG field: PMA CALC MMYY.

@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - SI 00515.001 - Requirement for Permission to Contact Financial Institutions for Supplemental Security Income (SSI) Eligibility
+Effective Dates: 07/26/2023 - Present | TN 10 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500515001 (fetched 2026-10-04)
+
+G. Processing financial permission status changes
+Process financial permission status changes the following ways:
+•
+If financial permission status changes (e.g., recipient or deemor who previously refused
+to give financial permission now gives permission), record the status change, date
+of change on the Financial Institutions Permission page, and provide the recipient
+or deemor with a printed copy of the Financial Permission Statement.
+•
+If financial permission status changes multiple times during an initial claim or a
+redetermination, do not open a new iteration of the Financial Institutions Permission
+page for each change.
+•
+Once permission status is final, open a new iteration of Financial Institutions Permission
+page to record a subsequent change.
+•
+If the FO already used the second iteration because of a previous status change, perform
+a manual clearance and reseed the pending file. For more information, see MS INTRANETSSI
+008.020.
+NOTE:
+If permission was previously given and the Financial Institutions Permission page
+still comes into the path, it will not accept a “Y” response. In this situation you
+must perform a manual clearance and reseed from the locked pending file.
+•
+If financial permission status changes after an N05 suspension, determine how to reestablish
+eligibility (i.e., reinstatement or new application) by following the instructions
+in SI 02301.205.
+NOTE:
+Do not reinstate benefits for any N05 month where the suspension was proper because
+we did not have financial permission during the entire month to contact financial
+institutions.

@@ -1,0 +1,211 @@
+SSA Program Operations Manual System (POMS) - GN 02610.053 - How To Process Title II Offset Cases When a Representative Fee Is Involved - Action to Apply Offset Taken On Or After July 1, 1991 (Second Day Action In The PC)
+Effective Dates: 05/15/2023 - Present | TN 36 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610053 (fetched 2026-10-04)
+
+B. Procedure
+1. General
+If the initial offset does not process the PC will send a request to the FO for an
+offset computation through the SSA-e4345 application following the instructions in
+the e-4345 application PC User Guide. The PC will inform the FO that a fee agreement
+or fee petition was filed and approved. and provide the FO the amount of the fee in
+the SSA-e4345 application. If the fee is unknown or unresolved (AUX pending, fee petition
+etc.) enter .01 on the e4345 and explain in the remarks the reason the fee is unknown
+or unresolved.
+The FO will adjust the Title II income for the fee amount and use the adjusted amount
+on the Title XVI record accordingly. See GN 03940.050 for fee amounts in concurrent Title II/Title XVI claims with fee agreements. See
+GN 03930.001 and GN 03930.010 for fee amounts in concurrent Title II/Title XVI claims with fee petition.
+If the FO recognizes the need for a manual computation because there is a 5W diary
+on the supplmental security record (SSR), the FO technician will query the MBR. If
+there is a WIN of L or an entry in the LPDD field, or if there is a representative’s
+name and address present on the SSR, the FO will check for the HP MDW the PC must
+send for updates to representative fee information for claims involving auxiliaries
+or when a fee petition is involved.
+If the fee amount is unknown, the FO will compute the initial offset using all the
+retroactive Title II benefits per SI 026006.204. The FO will code the fee status on
+the supplemental security record (SSR) as, "unknown or unresolved," when computing
+the initial offset. After the fee authorization is received, the PC will inform the
+FO of the total amount of the fees withheld from all related Title II claims, including
+auxiliary claims if applicable. The FO will adjust the title XVI payments according
+to SI 02006.200, SI 02006.202, and SI 02006.203.
+2. Applying Title XVI Offset
+When Title XVI offset applies, the FO will process the case following GN 02610.041 and SM 01320.040. In fee agreement cases where the entire fee amount is known at
+the time of effectuation, the FO will adjust the Title II income for the fee amount
+when it applies the offset per SI 02006.200B.2. and GN 03940.050.
+3. Applying Title II Offset — Fee Petition Cases
+a. The PC will take the following actions in fee petition cases:
+STEP
+ACTION
+1
+Calculate the amount to be withheld from the Title II prior month accrual (PMA) in
+anticipation of direct payment to the representative according to GN 03920.030.
+2
+Subtract the amount from step 1 from the total amount of the retroactive Title II
+benefits.
+3
+Compare the windfall offset amount (WOA) from the automated offset computation to
+the results of step 2.
+If the WOA is greater than the results of step 2, proceed to step 4.
+If the WOA is less than the results of step 2:
+•
+Complete the actions listed in GN 02610.041B, then return to this step.
+•
+Send the notice in NL 00703.813.
+–
+Always include paragraph 3816D.
+–
+Add the appropriate offset language to the notice following NL 00703.813B.
+–
+Add the appropriate attorney fee language to the notice following NL 00703.813B.
+•
+Diary for receipt of the fee petition request per GN 03930.035E.
+•
+When the fee petition request is received and authorized, proceed to step 5.
+4
+If the WOA is greater than the results of step 2:
+•
+Send the notice in NL 00703.813.
+•
+Diary the case for receipt of the fee petition request per GN 03930.035E.
+•
+When the fee petition request is received and authorized, proceed to step 5 below.
+5
+Take the following action when the fee authorization is received:
+•
+Upload a copy of the SSA-1560A, Authorization to Charge and Collect a Fee to eView
+using the eView application directly (or via Evidence Portal (EP) as an alternative
+means). For non-disability cases, use EP to upload the document to NDRed.
+•
+Subtract the authorized fee (up to a maximum of 25 percent of the past-due benefits)
+from the retroactive Title II benefits to determine how much we can directly pay the
+representative(s).
+•
+Pay the amount we can directly pay to the representative(s).
+•
+Follow step 6 below.
+6
+•
+Subtract the total authorized fee from the retroactive Title II benefits.
+•
+Compare the WOA to the remainder of the retroactive Title II benefits.
+–
+If the WOA is less than the remainder of the retroactive Title II benefits, follow
+step 7 below.
+–
+If the WOA is greater than the remainder of the retroactive Title II benefits, follow
+the PC User Guide for the SSA-e4345 application to send an e4345 to the FO for your
+case (make sure to include the updated fee amount in this e-4345). The FO will need
+to perform a new offset computation considering the representative’s fee. Follow step
+8 below once the FO has returned the e4345 with the updated windfall offset data.
+Note:
+The FO must know the full amount of the authorized fees to properly calculate any
+changes, which may include fees payable as a result of auxiliary claims, see GN 03940.035.
+7
+•
+Process the offset action and subtract any SSI collectible overpayment (see SI 02220.021).
+•
+Forward a copy of the fee authorization to the FO to process the adjustment of the
+Title II income. The FO must determine if any fee can be paid from Title XVI retroactive
+benefits.
+•
+See GN 03940.050 for fee agreements and GN 03930.032B.2.c for fee petitions.
+•
+Send the notice in NL 00703.813
+–
+Include paragraph 3816D.
+–
+Add the appropriate offset language to the notice following NL 00703.813B.
+–
+Add the appropriate attorney fee language to the notice following NL 00703.813B.
+Note:
+If the fee amount is later amended, such as if a second representative files a fee
+petition after we have already adjusted the record for one representative's fee, or
+if an auxiliary is later awarded and the fee agreement the NH signed applies to an
+auxiliary application which leads to additional fees, you will need to return to step
+5 in this chart and repeat the process.
+8
+Once the FO has returned the e4345 with the updated windfall offset data:
+•
+Complete the offset action by subtracting the new offset amount furnished by the FO
+from the retroactive Title II benefits.
+•
+Subtract any SSI collectible overpayment (see SI 02220.021).
+•
+Send the notice in NL 00703.813.
+–
+Do not include paragraph 3816D.
+–
+Add the appropriate offset language to the notice following NL 00703.813B.
+–
+Add the appropriate attorney fee language to the notice following NL 00703.813B.
+Note:
+If the fee amount is later amended, such as if a second representative files a fee
+petition after we have already adjusted the record for one representative's fee, you
+will need to return to step 5 in this chart and repeat the process.
+NOTE: Follow the special notice procedures in NL 01001.010 if the notice will be sent to a claimant, beneficiary, or representative payee who
+has selected special notice options alleging blindness or visual impairment.
+b. The FO will take the following actions in fee petition cases:
+When the FO receives a copy of the SSA-1560A from the PC and the offset has been applied,
+follow SI 02006.210 to adjust the Title II income for the approved representative fee and pay any SSI
+underpayment.
+If the PC sent a e4345, complete the form with the updated Title XVI information following
+the instructions in the FO User Guide for the e4345 application. Then, send the updated
+form back to the PC using the e4345 application.
+4. Applying Title II Offset — Fee Agreement Cases — No Auxiliaries
+Either the FO or the PC will have taken action to process the Title II award and sent
+a notice to the beneficiary and representative to allow them time to file a protest
+of the fee determination. (See GN 03940.001 for an explanation of the fee agreement process.)
+a. The PC will take the following action when the protest period expires and no protest
+is received:
+Note:
+For cases where a protest has been received see GN 03960.001
+STEP
+ACTION
+1
+Subtract the approved Title II fee amount from the retroactive Title II benefits.
+See GN 03930.050 through GN 03930.065 for general information on direct payment to the representative.
+2
+If the WOA is less than the remainder of the retroactive Title II benefits from step
+1:
+•
+Complete the offset action according to GN 02610.041B.
+•
+Subtract any SSI collectible overpayment (see SI 02220.021).
+•
+Send the notice in NL 00703.813.
+–
+Include paragraph 3816D if no SSI overpayment is deducted.
+–
+If there is a collectible overpayment deducted, use the notice in NL 00703.183.
+–
+Add the appropriate offset language from the notice in NL 00703.813, following NL 00703.813B.
+–
+Use the appropriate attorney fee language in NL 00703.813B.
+3
+If the WOA is greater than the remainder of the retroactive Title II benefits from
+step 1:
+•
+Follow the PC User Guide for the SSA-e4345 application to send an e4345 to the FO
+for your case. The FO will need to perform a new offset computation considering the
+representative’s fee.
+•
+Once the FO has returned the e4345 with the new offset amount, complete the offset
+action by subtracting the new offset amount furnished by the FO from the retroactive
+Title II benefits.
+•
+Subtract any SSI collectible overpayment - see SI 02220.021.
+•
+Send the notice in NL 00703.813.
+–
+Do not include paragraph 3816D.
+–
+Add the appropriate offset language to the notice following NL 00703.813B.
+–
+Add the appropriate attorney fee language to the notice following NL 00703.813B.
+b. The FO will take the following actions in fee agreement cases depending on the comparisons
+done in the PC:
+•
+Compute a new offset amount if the automated WOA is greater than the retroactive Title
+II benefits minus the authorized representative fees.
+•
+Adjust the Title II income for SSI purposes according to SI 02006.210 after the offset has been applied and the PC forwards a copy of the Title II award
+notice containing the authorized fee amount according to GN 03940.050. The notice will also explain that we recouped the collectible SSI overpayment.

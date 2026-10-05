@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02610.049 - How To Complete Sections II and III of SSA-4345-U2
+Effective Dates: 09/12/2025 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610049 (fetched 2026-10-04)
+
+C. Recomputations
+When performing a recomputation of a windfall offset, check to see if the Title II
+monthly amounts currently provided by the PC are different than the Title II monthly
+amounts used in the initial windfall offset computation. If the Title II monthly amounts
+differ by less than $1.00 due to HI/SMI rounding:
+1.
+Use the Title II monthly amounts from the original windfall offset in your computations
+in eComps so you do not have to account for the $1.00 tolerance found in SM 03045.910
+when calculating any difference in the original windfall offset amount and the recomputed
+windfall offset amount.
+2.
+Annotate that you used the Title II monthly amounts from the original windfall offset
+in the e4345 application to account for the $1.00 tolerance found in SM 03045.910.

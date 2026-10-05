@@ -1,0 +1,85 @@
+SSA Program Operations Manual System (POMS) - GN 00204.045 - Assisting Title II Surviving Spouse or Surviving Divorced Spouse Claimants with Month of Election (MOEL) Decisions when the Retirement Insurance Benefit – Limitation (RIB LIM) Applies
+Effective Dates: 11/05/2008 - Present | TN 129 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200204045 (fetched 2026-10-04)
+
+C. Procedure for determining the highest widow insurance benefits (WIB) payable
+We use the method in Table 1 to determine the month that we will pay the maximum WIB
+amount. That month is the highest benefit because the WIB amount will not increase
+beyond this month. Do not use this method if the widow(er)’s:
+•
+entitlement is in the year of death, and
+•
+RIB primary insurance amount (PIA) differs from the NH’s death PIA.
+Table 1: Highest Benefit MOEL Computation Method
+Step
+Procedure
+Example
+1
+Divide the RIB LIM amount by the unreduced WIB amount.
+$633.50 $740.50 = 0.85550
+(RIB LIM) (WIB PIA)
+(Drop everything after 5th decimal)
+2
+Subtract the result of Step 1 from 1.0.
+1.0 – 0.85550 = 0.1445
+3
+Use Table 2 to determine the decimal factor for the widow's full retirement age (FRA)
+0.00396
+(Factor for age 66 FRA)
+4
+Divide the result of Step 2 by the result of Step 3 and round down to the nearest
+whole number.
+0.1445 0.00396 = 36.49
+(Step 2 results) (Step 3 results)
+(Rounded to 36 months)
+5
+Determine the month of FRA attainment.
+11/2016
+6
+Start with the month of FRA and count back the number of months from Step 4 to determine
+the MOEL for the highest WIB benefit payable.
+Starting at 11/16 and counting back 36 months gives 11/13. This is the highest benefit
+month of entitlement for WIB.
+Table 2: Reduction Factor Decimal Equivalents
+Date of Birth
+WIB FRA
+Factor
+Through 1/1/40
+65
+0.00475
+1/2/40 thru 1/1/41
+65 + 2
+0.00460
+1/2/41 thru 1/1/42
+65 + 4
+0.00445
+1/2/42 thru 1/1/43
+65 + 6
+0.00432
+1/2/43 thru 1/1/44
+65 + 8
+0.00419
+1/2/44 thru 1/1/45
+65 + 10
+0.00407
+1/2/45 thru 1/1/57
+66
+0.00396
+1/2/57 thru 1/1/58
+66 + 2
+0.00385
+1/2/58 thru 1/1/59
+66 + 4
+0.00375
+1/2/59 thru 1/1/60
+66 + 6
+0.00365
+1/2/60 thru 1/1/61
+66 + 8
+0.00356
+1/2/61 thru 1/1/62
+66 + 10
+0.00347
+1/2/62 or later
+67
+0.00339

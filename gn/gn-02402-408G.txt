@@ -1,0 +1,43 @@
+SSA Program Operations Manual System (POMS) - GN 02402.408 - Coding Vietnam Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402408 (fetched 2026-10-04)
+
+G. Example of coding bank data for Vietnam
+The customer provides us with a signup form for Vietnam containing the account number
+12345678901234.
+1. Derive the RTN
+Enter the information for the RTN.
+•
+Code the RTN of 680000145
+•
+Code the type of account as a C for checking or an S for savings. If no account type
+indicated, use a C for checking.
+2. Derive the DAN
+Code the DAN for Vietnam
+•
+Start with the country code of W designated for Vietnam; and
+•
+Code 14 account number 12345678901234
+a. You must obtain this information
+•
+RTN: 680000145
+•
+Checking
+•
+DAN: W12345678901234
+b. The POS coding reflects this information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680000145
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: W12345678901234
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects this information
+•
+RTN: 680000145
+•
+DAN: CW12345678901234

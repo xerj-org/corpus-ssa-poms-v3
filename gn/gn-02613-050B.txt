@@ -1,0 +1,182 @@
+SSA Program Operations Manual System (POMS) - GN 02613.050 - Initial Claims Determining Fugitive Status
+Effective Dates: 04/24/2026 - Present | TN 53 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202613050 (fetched 2026-10-04)
+
+B. Procedure for completing Title II applications
+Follow these procedures to complete all Title II and Medicare only applications.
+1. Title II applications
+•
+Do not ask the Title II claimant if they have an unsatisfied felony or violation of
+probation or parole warrant.
+•
+Do not add the felony or the probation or parole violator warrant information to application
+print-out statements or to the Modernized Claims System (MCS) Remarks Screen.
+2. Concurrent (Title XVI and TII) applications
+When taking concurrent claims in the FO, ask the fugitive felon questions only on
+the Title XVI application.
+a. Title II or Title XVI claims filed simultaneously
+If the claimant provides a first-party report regarding an unsatisfied warrant on
+the Title XVI claim, process the Title XVI claim per instructions found in SI 00530.005B.1. and the instructions located in SI 00530.140. The Yes answer to the felony and probation or parole violator questions on the Title
+XVI application regarding the outstanding warrants will be considered a first-party
+report for the Title II claim. If insured status is met on the Title II claim, process
+the Title II claim per GN 02613.050B.3.b.
+b. Title II claim filed after Title XVI claim is adjudicated
+If the Title II claim is filed after the Title XVI claim is filed (at different points
+in time), then review the SSID to determine if any periods of fugitive felon suspension (N25) appear
+on the Title XVI record. If N25 is indicated on the SSID, review prior Title XVI records
+(including the Title XVI application) to determine if the outstanding warrant that
+caused the N25 period will impact the payment of Title II benefits. The Yes answer
+to the felon warrant or the probation or parole violator warrant questions on the
+Title XVI application will be considered a first-party report for the Title II claim.
+If insured status is met on the Title II claim, process the Title II claim per GN 02613.050B.3.b.
+c. Title XVI claim is filed after Title II claim is adjudicated
+If the Title XVI is filed after the Title II claim is filed (at different points in time),
+then continue to ask the fugitive felon questions on the Title XVI claim. All actions on
+Title II cases that also involve Title XVI entitlement (concurrent entitlement) should
+be coordinated with the appropriate FO technician working on the Title XVI denial
+or suspension of benefits. Review the fugitive felon warrant questions on the Title
+XVI claim and the effect of the unsatisfied warrant on the Title XVI benefits. If
+the claimant provides a first-party report regarding an unsatisfied warrant on the
+Title XVI claim, the Yes answer(s) to the felony or the probation or parole violator
+warrant questions on the Title XVI application regarding the unsatisfied warrants
+will be considered a first-party report for suspension of Title II benefits. For instructions
+on processing first-party reports of warrant information, see GN 02613.150.
+d. Title II claim is filed and SSA queries indicate a warrant exits in FFAP or FFSCF
+If
+Then
+A claimant wishes to file a Title II claim and you receive or become aware of:
+•
+an alert from the Customer Service Record that the claimant or applicant has a warrant
+record on the FFSCF database; or
+•
+information on the MBR that reflects that a warrant is present on the FFSCF; or,
+•
+information on the SSID that reflects a period of N25 and a warrant record is found
+in FFAP or on the FFSCF;
+Review the warrant information and determine if the warrant will preclude paying benefits on the Title II claim.
+Process the warrant as indicated in the chart:
+Warrant Status
+Action
+Warrant is SatisfiedNo Suspension applies
+Do not establish a warrant record in FFSCF.
+Do not withhold the Title II benefits for the fugitive felon suspension.
+Unsatisfied Warrant-- Suspension Will
+Apply
+Do not establish a warrant record since the warrant information already exists on
+the FFSCF. Update the SELECT PROGRAM ENTITLEMENT field to support the Title II fugitive
+felon suspension. For additional instructions about this update action, refer to MSOM
+PRISON 006.004.
+Process the claim through MCS. Suspend benefits via the FFEL screen. Within MCS, the
+FFEL screen will be generated when #8 (Suspension Events) is selected off of the MCS
+System Menu and #17 is selected on the SUSP menu screen. (For additional information
+on the FFEL screen for MCS and A101 processing, see MSOM COMMON 005.035.)
+Do not send an advance notice of proposed suspension since benefits have not been
+paid to the claimant yet.
+Send a manual award plus fugitive felon suspension notice and good cause information
+to the claimant. See NL 00755.100 for the notice to send in this situation.
+If the beneficiary wants to pursue a request for good cause after receiving the award
+notice, they must contact SSA to request good cause. (For instructions on processing
+requests for good cause, see GN 02613.030).
+3. Self-Reported (first-party) warrants received during application process
+In most situations, claimants or applicants who report having an unsatisfied felony
+or probation or parole violation warrant will not have all of the warrant information
+necessary to establish a warrant record in FFSCF. Send the warrant information received
+from a first party to OIG for investigation and verification of the warrant before
+taking any action. For information about foreign warrants that are self-reported by
+a claimant or applicant, see GN 02613.250.
+a. OIG actions on email referral and return email to requesting FO
+Take the following actions on the self-reported warrant.
+Step
+Actions
+1
+Request via email that the Office of the Inspector General, Fugitive Felon Program
+Manager at SSA determine if a warrant exists and that OIG will provide the missing
+information for the warrant. The email address is: ^Fugitive Felon. In the Subject
+Line of the email, include your District Office (DO) or Processing Center (PC) code.
+The email message must contain the following information:
+•
+SSN (mandatory)
+•
+Name (mandatory)
+•
+Date of Birth of Fugitive (mandatory)
+•
+Place of Birth of Fugitive (if available)
+•
+Parent's Name (if available)
+•
+Sex (mandatory)
+•
+Warrant Number (if known)
+•
+Date Warrant Was Issued (if available)
+•
+County/State Where Warrant Was Issued: (if available)
+•
+Name and Address of the Agency that Issued the Warrant (if available)
+•
+Date of Crime (if available)
+•
+Nature of Crime (if available).
+NOTE: Request OIG to provide the ORI for the warrant issuing agency.
+2
+OIG will conduct a criminal history search based on the information provided by the
+FO. If a criminal history for the applicant or claimant is discovered, OIG will then
+check for warrants.
+OIG will respond to the warrant verification request via email to the requesting FO.
+If the FO does not receive a response after two weeks, refer the case to your Field
+Operations Fugitive Felon Coordinators (FOFFC) (see GN 02613.990 for the FOFFC list).
+If a warrant is located, OIG will provide the following:
+•
+warrant number,
+•
+date the warrant was issued,
+•
+county/state that issued the warrant
+•
+name, address, telephone number and ORI of the agency that issued the warrant, and
+•
+any other pertinent warrant information (e.g., status of the warrant).
+3
+Explain the good cause provisions to the claimant. For reasons to allow good cause
+for not satisfying a warrant, see GN 02613.025. (The award notice (NL 00755.100) to the applicant or claimant will explain the good cause provisions in great detail.)
+Do not solicit for requests for good cause statements at this time because OIG must
+verify the warrant status before SSA can make a decision regarding good cause. (For
+instructions on good cause statements required to request good cause, see GN 02613.030).
+4
+Once OIG returns the verified warrant information via email to the requesting FO,
+process the warrant information per GN 02613.050B.3.b.
+NOTE: All actions on Title II cases that also involve Title XVI entitlement (concurrent
+entitlement) should be coordinated with the appropriate FO technician working on the
+Title XVI suspension for the beneficiary.
+b. OIG returned verification of warrant
+OIG Verification of Warrant
+Action on Claim
+Warrant Satisfied or No Warrant ExistsNo
+Suspension
+If OIG emails the FO that a warrant was not located for the applicant or claimant or that the warrant was not active as of the date or entitlement to Title II benefits (i.e., the fugitive felon
+provisions would not apply for any period of time the warrant was unsatisfied), dispose
+of the lead. No further action will be taken to try and identify the warrant for this
+applicant or claimant.
+Do not establish a warrant record in FFSCF.
+Unsatisfied Warrant Suspension Will Apply
+Establish a warrant record in FFSCF per MSOM PRISON 006.003. Use any additional information
+provided by OIG. (Establish a warrant record for the beneficiary on the FFWI and FFPI
+screens in FFSCF. Access FFPI in Update mode).
+Process the claim through MCS. Suspend benefits via the FFEL screen. Within MCS, the
+FFEL screen will be generated when #8 (Suspension Events) is selected off of the MCS
+System Menu and #17 is selected on the SUSP menu screen. (For additional information
+on the FFEL screen for MCS and A101 processing, see MSOM COMMON 005.035.)
+Send a manual award plus fugitive felon suspension notice and good cause information
+to the claimant. For the notice to send in this situation, see NL 00755.150.
+If the beneficiary wants to pursue a request for good cause after receiving the award
+notice, they must contact SSA to request good cause. (For instructions on processing
+requests for good cause, see GN 02613.030.)
+NOTE: For disability claims, forward the Title II claim to DDS for a medical determination
+before suspending for fugitive felon status and before resolving good cause issues
+on the fugitive felon suspension.
+NOTE: Since the fugitive felon and probation or parole violator provisions are a Title
+II nonpayment issue, not a factor of entitlement as it is in SSI (Title XVI), DDSs
+should not return Title II claims only because the Title II claimant has an unsatisfied
+warrant. If a DDS office does this, send the claim back to the DDS office and advise
+them to continue processing until they reach a medical determination.

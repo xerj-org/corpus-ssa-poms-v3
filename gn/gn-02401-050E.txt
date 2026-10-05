@@ -1,0 +1,137 @@
+SSA Program Operations Manual System (POMS) - GN 02401.050 - Use of Field Office (FO) Address when a Title II or Title XVI Claimant does not have a Permanent Mailing Address
+Effective Dates: 05/25/2023 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202401050 (fetched 2026-10-04)
+
+E. Considerations after approving FO address
+1. Changing the address to the FO
+IMPORTANT: Always start the address lines with “C/O SSA.”
+EXAMPLE: How to input change of address for FO recordkeeping.
+Claimant
+Representative Payee
+Payee line>>
+John Smith
+Payee line>>
+Betty Smith for John Smith
+Address line >>
+C/O SSA
+123 Main St.
+Anywhere U.S. 99999
+Address line >>
+C/O SSA
+123 Main St.
+Anywhere U.S. 99999
+2. FO recordkeeping
+FO manager actions when a claimant uses the FO address:
+a.
+Obtain and store a signed statement, Form SSA-795 (Statement of Claimant or Other Person), from the claimant in the electronic folder
+stating that they understands:
+•
+we require proper identification for personal pickup; and
+•
+we hold checks in the FO for no more than 7 business days.
+NOTE: If the FO receives a check because the representative payee fails to submit an accounting
+report (non-responder) or due to possible misuse of benefits, you will not be able
+to obtain the signed SSA-795. However, all of the other record-keeping requirements
+are the same.
+b.
+Even if the claimant receives electronic payment, emphasize to the claimant that we
+do not mail checks to another address once it is at the FO and we return all checks
+to Treasury after the 7th business day after the check delivery date.
+c.
+Create and maintain a record of all approved cases, including:
+•
+Claimant Name,
+•
+Check Number, Date, and
+•
+Number of checks the FO received.
+The FO may use a modified version of the Miscellaneous Money Control Record (MMRC),
+see exhibit GN
+02401.050F in this section.
+d.
+Designate a controlling official to receive the checks and match them against the
+master list to prevent unauthorized additions or deletions. If there is an assigned
+person as a backup, that employee should control the checks only when the controlling
+official is out of the office.
+e.
+Establish a separate control on each check received on an MMCR. The FO may use a photocopy
+of the exhibit GN 02401.050E in this section, or an FO version of the form. For privacy reasons, an FO version
+of the form must contain information for only one claimant.
+f.
+Ensure that a separate control record is maintained for each beneficiary whose check
+is being mailed to the FO.
+g.
+Keep checks in a secure cabinet. The employee releasing the check to the payee must
+initial the MMCR and have the payee sign the MMCR.
+h.
+Determine if the claimant has been able to establish a new mailing address.
+i.
+Annotate the receipt number on the FO remittance log when returning a check to Treasury.
+j.
+Ensure that control records for benefit checks mailed to the field office are retained
+in NDRED, or in a secure holding file in the office for 3 years after distribution.
+Once the files are scanned into it (and verified that they have been uploaded properly),
+the actual paper file may be destroyed as there is no need to retain the hardcopy.
+3. Releasing checks
+FO manager actions when releasing a check to the claimant or representative payee:
+•
+Establish special procedures in the reception area to facilitate check pickup.
+•
+Establish reasonable measures to ensure proper claimant and payee identification.
+For verifying identity of both claimants and payees, follow instructions in GN 00203.020.
+•
+Report any checks the FO did not receive or stolen checks using regular non-receipt
+procedures.
+For Nonreceipt1 Input (PEN1), see MS T2PE 003.027; for Nonreceipt1 Output (PEN1),
+see MS T2PE 003.028; and for Nonreceipt2 (PEN2), see MS T2PE 003.029.)
+•
+If the FO did not receive the check or lost the check and the claimant or payee comes
+into the FO to pick it up, advise him or her that you followed non-receipt procedure
+and Treasury will deliver a new check. If the situation involves dire need, see GN 02406.125C and GN 02406.125D. For requirements to qualify as a dire need situation, see RS 02801.010.
+•
+For regular monthly checks, hold the check for pickup until the 7th business day after
+the check delivery date, starting the day after the check delivery date. Return the
+check to Treasury at the conclusion of the 7th business day. For more information
+on unclaimed checks returned to Treasury after conclusion of the 7th business day, see GN 02401.050E.4. in this section.
+EXCEPTION: In payee accounting non-responder cases, we can hold a check up to 30 calendar days.
+For more information on how to handle non-responder cases, see GN 00605.085.
+•
+If the claimant or payee does not pick up the check, instruct the controlling official
+to return the check to Treasury. For more information on unclaimed checks returned
+to Treasury, see GN 02401.050E.3. in this section. This action puts the claimant in LAF S6 or PSY SO6 suspense, as
+applicable. The technician must develop for a new address.
+•
+Treasury regulations prohibit us from mailing checks to another address, to another
+FO, or to a P.O. Box.
+4. Return all unclaimed checks to Treasury after conclusion of the 7th business day
+Follow these instructions to process returned Title II and Title XVI benefit checks:
+a. Title II
+Take the following actions:
+•
+To process unendorsed checks returned to the FO, follow instructions in GN 02405.010;
+•
+Use “AD” for the returned check code; and
+•
+Be sure to annotate the receipt number on the MMCR.
+b. Title XVI
+Take the following actions:
+•
+To handle remittances in the FO mailroom and reception area, follow instructions in
+GN 02403.004;
+•
+To process unendorsed checks in the FO see GN 02405.100; and
+•
+Use “AD” for the returned check reason code.
+Instructions for systems input of Title XVI returned checks through MSSICS Direct
+SSR Update are in MS BUSSR 003.004 and MS BUSSR 003.005.
+Be sure to annotate the receipt number on the MMCR.
+NOTE: We can hold checks up to 30 calendar days in payee accounting non-responder (third
+alert) cases. For more information on how to handle non-responder cases, see GN 00605.085.
+For checks you return to Treasury in non-responder cases, use the return code "CP"
+for both Title XVI and Title II. These inputs place the claimant in S08 for Title
+XVI and S8 for Title II.
+5. Delivering notices
+Inform the claimant timely of any notices mailed to the FO. If there is a delay in
+an appeal request because of untimely notification, establish good cause.
+NOTE: If possible, the beneficiary or payee should provide their telephone number or a
+number for a third-party contact.

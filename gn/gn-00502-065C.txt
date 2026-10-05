@@ -1,0 +1,84 @@
+SSA Program Operations Manual System (POMS) - GN 00502.065 - Documenting a Capability Determination
+Effective Dates: 06/08/2026 - Present | TN 103 (06-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200502065 (fetched 2026-10-04)
+
+C. Where do I document a capability determination?
+You must document your capability determination in the following locations.
+1. Case established in eRPS – Completing a representative payee application in eRPS
+Follow these procedures when you are completing a representative payee application
+in eRPS, whether you select or not select the applicant to serve as the representative
+payee.
+While in the eRPS application:
+a
+Choose the “Add Note” link, per MS 074015.002;
+b
+From the “Note Type” drop down choose “Bene Capability Determination”;
+c
+Document the details of your capability determination in the “New Note” box; and
+d
+Hit the “Save Note” button.
+NOTE: Document all relevant legal, medical, and/or lay evidence in eRPS per MS 07409.017.
+eRPS automatically saves your capability determination in the notes of the Summary
+section of the application and propagates your capability determination to the Beneficiary
+Details notes, so the determination is always associated with the beneficiary’s eRPS
+record.
+For these cases, you view completed capability determinations:
+•
+In the “Summary” section of the application, per MS 07409.022; and
+•
+In “Beneficiary Details” notes, per MS 07415.002.
+2. Case established in eRPS - No new representative payee application being completed
+in eRPS
+Follow these procedures when there is an established beneficiary’s case in eRPS, but
+there is no new representative payee application in eRPS. This means in the past a
+representative payee application was completed in eRPS, so the beneficiary’s case
+is established in eRPS, whether the beneficiary still has a representative payee or
+not.
+EXAMPLE: You may need to use this process when a beneficiary, who had a prior payee, is now
+in direct pay and a family member notifies SSA the beneficiary may need a payee again;
+however, the family member does not want to apply to be the payee. Based on the family
+member questioning capability, you develop the beneficiary’s capability and determine
+the beneficiary is still capable, so there is no new representative payee application
+in eRPS.
+Add your capability determination by following these steps:
+a
+Go to the “Beneficiary Details” screen per MS 07407.002;
+b
+On the “Beneficiary Details” screen, choose the “Add Note” link, per MS 07415.002;
+c
+From the “Note Type” drop down choose “Bene Capability Determination”;
+d
+Document the details of your capability determination in the “New Note” box; and
+e
+Hit the Save Note button.
+IMPORTANT: Make sure you are on the Beneficiary Details screen before adding your capability
+determination so your capability determination is always associated with the beneficiary’s
+eRPS record.
+View completed capability determinations in “Beneficiary Details” notes, per MS 07415.003.
+3. Case not established in eRPS
+Follow these procedures for all beneficiary cases not established in eRPS.
+EXAMPLE:
+•
+SSA approves a beneficiary for disability benefits and the state Disability Determination
+Services (DDS) provided an opinion that the beneficiary may need a representative
+payee; however, you develop for capability and determine the beneficiary is capable;
+therefore, there is no representative payee application or any previously established
+eRPS case for the beneficiary; or
+•
+For cases where the representative payee does not have an SSN and the beneficiary
+has no prior eRPS case established.
+a. For TII or concurrent cases
+•
+Complete the “Report of Contact” (RPOC) in MCS.
+•
+Write in the “Report” section, “CAPABILITY DETERMINATION” before adding the details
+of your determination, see MS MCS 008.007.
+b. For TXVI only cases
+•
+Complete the “Report of Contact page” in the Consolidated Claims Experience (CCE).
+•
+Write in the “Report ” section “CAPABILITY DETERMINATION” before adding the details
+of your determination, see MS 07416.002.
+c. Cannot establish a RPOC in MCS or Report of Contact in CCE
+Use the paper Form SSA-5002 (Report of Contact) and store it in NDRed using EP or
+in eView using EP or the eView application.

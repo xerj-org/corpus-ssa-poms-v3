@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 28001.003 - An Overview of Processing Continuing Disability Review (CDR) Mailer Forms SSA-455 and SSA-455-OCR-SM
+Effective Dates: 08/09/2023 - Present | TN 41 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0428001003 (fetched 2026-10-04)
+
+G. Procedure -- Office of Continuing Disability Reviews Support (OCDRS) Decision Logic
+Actions
+As part of OCDRS decision logic processing, OCDRS:
+1.
+retrieves the data files prepared by the NCC on the basis of receipt of data files
+from the WBDOC;
+2.
+processes the data through a decision logic program, resulting in one of three actions
+(deferral, DO CDR, or PC Review. (Approximately 80% of mailer form electronic data
+files received by OCDRS can be processed directly to a deferral or DO CDR action.
+The rest require PC Review.)
+3.
+makes the appropriate input to update the DCF to reflect the results of decision logic
+processing.
+a.
+When the OCDRS Decision logic action input is a deferral action, the DCF shows EVENT 018 "T2 CDR DEFERRED BY AUTOMATED REVIEW", "T2/T16 CDR DEFERRED
+BY AUTOMATED REVIEW", or "T16 CDR DEFERRED BY AUTOMATED REVIEW". The input also causes
+a deferral notice (see NL 00705.355) to be printed and sent to the beneficiary (or representative payee).
+b.
+When the OCDRS Decision logic action input is a DO CDR action, the DCF shows EVENT 014 "T2 CDR INITIATED BY AUTOMATED REVIEW", "T2/T16 CDR INITIATED
+BY AUTOMATED REVIEW", or "T16 CDR INITIATED BY AUTOMATED REVIEW".
+c.
+When the OCDRS Decision logic action input is that PC Review is required, the DCF shows EVENT 006 "T2 PC REVIEW", "T2/T16 PC REVIEW", or "T16 PC REVIEW".
+4.
+For each case requiring PC Review, OCDRS creates electronic files containing:
+a.
+an output CDR MAILER PSC REVIEW ALERT sheet;
+b.
+an electronic facsimile of the completed, scanned mailer form, and;
+c.
+a profile sheet that includes much of the data used to profile the case.
+5.
+makes the electronic PC Review files available to the PCs.
+For a very detailed description of OCDRS decision logic, see DI 40502.001F.

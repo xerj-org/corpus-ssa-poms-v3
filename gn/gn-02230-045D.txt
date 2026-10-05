@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - GN 02230.045 - Remittance process for repayments of Supplemental Security Income (SSI) payments paid to a sponsored alien
+Effective Dates: 01/06/2023 - Present | TN 25 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202230045 (fetched 2026-10-04)
+
+D. Posting the sponsor’s initial debt amount and posting and tracking of sponsor remittance(s)
+The PSC is responsible for establishing and maintaining a ROAR record. The ROAR record
+must be established on the sponsor’s own SSN using a Benefit Identification Code (BIC)
+subscript X, AX, BX, CX, etc... See instructions on how to establish a debt in MS
+01102.003.
+A sponsored alien debt case requires action on both the ROAR and the Supplemental
+Security Income (SSR).
+1. Establishing sponsor’s Initial Debt Balance on the ROAR
+The PSC receives the SSA-5002 sponsor documentation information from the FO and establishes
+the ROAR to post and track repayment on the sponsor’s own SSN using BIC subscript
+X and enter remarks in the Debt Management System (DMS). See MS 01102.003 for how
+to establish a debt to the ROAR. For the sponsor’s debt, use the following inputs
+when establishing the ROAR:
+a. Use the sponsor’s name and SSN
+b. For the SAC1 input “AN” when the sponsor does not have an already established Master
+Beneficiary Record (MBR).
+c. For debt reason, use the TOE code “33” for other.
+2. Moving the Debt from the alien’s SSR to the sponsor’s ROAR
+Post a Q TAC to the debt, indicating the overpayment amount was transferred to the
+sponsor’s ROAR. See SM 01311.350 and MS 00304.007 for posting Q TACs.
+3. Processing Remittances for sponsored Alien Debts
+Once a remittance is received, the PSC needs to adjust the ROAR balance to reflect
+the amount of the remittance. When the FO or PSC receives a remittance from a sponsor
+for a sponsor’s debt, Operations will follow normal remittance business process to
+record the remittance via the Electronic Field Office Remittance Application (eFOR)
+or DMS and update remarks on DMS and/or the SSR to reflect collecting the remittance.
+See MS 01103.001 for input of the remittance and use the following:
+•
+Use the sponsor’s name and SSN for input of the remittance
+•
+For the Reason Code, use “N” for other
+•
+For Trust Fund, use “S” for Supplemental Security Income
+NOTE: Manual trust funding is needed when posting the sponsor’s remittance to a record
+in a program other than the program in which the payment occurred.
+4. Enter Remarks on the SSR or a Special Message on the MBR and in DMS
+Always enter information describing repayment on the sponsor’s own SSN on the established
+stand-alone ROAR record. Document the DMS Remarks screens.
+Document the DMS Remarks screens and specify the amount of the remittance including
+the Alien’s cross-reference SSN from the SSR record. In addition, include that these
+remarks should not be deleted.
+EXAMPLES: Remarks entered on the SSR, and/or in DMS:
+DD/MM/YY - $1000 SPONSOR REMITTANCE CREDITED ON BEHALF OF DEBT FOR SSI RECEPIENT JOHN
+DOE XXX-45-XXXX THEN SPONSOR REPAYMENT-DIARY SET FOR MM/DD/YY-DO NOT DELETE REMARK
+IMPORTANT: On the SSR, always include the Overpayment Sequence Segment (OPSQ) number of the
+sponsor repayment in Remarks.

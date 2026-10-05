@@ -1,0 +1,11 @@
+SSA Program Operations Manual System (POMS) - GN 02402.337 - Coding Israel Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402337 (fetched 2026-10-04)
+
+G. Example for coding Israel direct deposit
+A signup form for Israel contains the following information:
+Bank code 123456. Account Number 123456789.
+•
+The RTN will be 710124564. (The final digit, 4, is the U.S. check digit for 71012456.)
+•
+The DAN will be R123456789

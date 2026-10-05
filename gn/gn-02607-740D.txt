@@ -1,0 +1,336 @@
+SSA Program Operations Manual System (POMS) - GN 02607.740 - PUPS Automated Processing Exclusions
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607740 (fetched 2026-10-04)
+
+D. Processing earlier period of conviction/confinement cases
+1. Earlier conviction/confinement period continuous through current conviction/confinement
+period--same facilities involved
+a. FO processing
+When additional inmate data is received for a continuous period of conviction/confinement
+to the same correctional facility: annotate the PUPS PENDING record as follows:
+•
+Update the existing PUPS record (PUO2 Screen) with a 2 - CLEAR CONTROL - NO SUSPENSION
+action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit earlier. If the receipt date currently on PUPS
+was annotated from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the REMARK to the PU02 screen: PUPS Automated Process Exclusion -Continuous Period
+of Suspension - FAX TO PC MM/DD/YYYY.
+•
+Prepare 2790-FAX form to send to the PC/OCO-ODO for manual suspension processing.
+Annotate remark on 2790-FAX form, Continuous Period of Suspension Pups Exclusion (For
+additional processing instructions on SSA-2790-FAX processing, see GN 02607.995.)
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+b. PC/OCO-ODO processing
+When additional inmate data is received for a continuous period of conviction/confinement
+to the same correctional facility: annotate the PUPS PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 2 - CLEAR CONTROL - NO SUSPENSION
+action, if not already annotated by the FO.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit. If the receipt date currently on PUPS was annotated
+from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Check the Remarks screen. Add the REMARK to the PU02 screen: PUPS Automated Process
+Exclusion Continuous Period of Suspension if not annotated already by the FO.
+•
+Suspend the benefits S7 on the MBR via MADCAP/MACADE for the appropriate period of
+suspension. Add the RFST of PRISON for a prisoner, MENTAL for an NGRI or PREDTR for
+a sexually dangerous person.
+NOTE: Advance notice of proposed suspension is not necessary for this situation. Prepare
+a new suspension notice and advise the beneficiary of the new date of the suspension
+and the additional overpayment money amount, if appropriate. Provide the beneficiary
+with the reconsideration and appeal language with the notice.
+2. Earlier conviction/confinement period NOT continuous through current conviction/confinement
+period--closed period of conviction/confinement applies--same facility involved
+a. FO processing
+When additional inmate data is received for a non-continuous period of conviction/confinement
+(i.e., closed period) to the same correctional/mental facility as is indicated on
+the current PUPS record, annotate the new PUPS PENDING record should as follows.
+•
+Update the existing PUPS PENDING record (PUO2 Screen) with a 1 - SUSPENSION action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit earlier. If the receipt date currently on PUPS
+was annotated from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the released date for this period of confinement to the PUPS record.
+•
+Add the REMARK to the PU02 screen: Closed Period of Earlier Conviction/Confinement
+Suspension.
+b. PC/OCO-ODO processing
+When additional inmate data is received for a non-continuous period of conviction/confinement
+(i.e., closed period) to the same correctional/mental facility as is indicated on
+the current PUPS record, annotate the new PUPS PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 1 - SUSPENSION action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit. If the receipt date currently on PUPS was annotated
+from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the RELEASED DATE to the PUPS record to reflect the date the inmate was officially
+released from the correctional/mental institution for this period of confinement.
+•
+Add the REMARK to the PU02 screen: Closed Period of Earlier Conviction/Confinement
+Suspension Case.
+3. Earlier conviction/confinement period continuous through current confinement period-different
+facilities involved
+a. FO processing
+When additional inmate data is received for a continuous period of conviction/confinement
+to different correctional/mental facility, annotate the PUPS PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 2 - CLEAR CONTROL - NO SUSPENSION
+action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit earlier because the beneficiary was convicted
+and confined for a criminal offense before the current period of LAF S7 on the MBR
+and accompanying PUPS record. If the receipt date currently on PUPS was annotated
+from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the REMARK to the PU02 screen: PUPS Earlier DOC (Date of Conviction/Confinement)
+Exclusion--Continuous Period of Suspension - FAX TO PC MM/DD/YYYY.
+•
+Prepare 2790-FAX form to send to the PC/OCO-ODO for manual suspension processing.
+Add remark to the 2790-FAX form, PUPS Earlier DOC (Conviction/Confinement) Exclusion-Continuous
+Period of Suspension. (For processing instructions on SSA-2790-FAX processing, see
+GN 02607.995.)
+NOTE: A manual incentive payment is not payable for this earlier period of conviction/confinement
+to a different facility unless the receipt date for the earlier period of conviction/confinement is a date that
+is earlier than the receipt date for the current or later PUPS conviction/confinement
+record. If the receipt date on the earlier period of conviction/confinement precedes
+the current or later conviction/confinement receipt date on the PUPS record and the facility on the earlier period of conviction/confinement is eligible to receive
+an incentive payment for this earlier conviction/confinement (see GN 02607.800C. for the rules in determining if a facility is eligible for an incentive payment)
+report, forward the case to your FOPC to process per GN 02607.830B.
+b. PC/OCO-ODO processing
+When additional inmate data is received for a continuous period of conviction/confinement
+to different correctional/mental facility, annotate the PUPS PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 2 - CLEAR CONTROL - NO SUSPENSION
+action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit. If the receipt date currently on PUPS was annotated
+from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank, add the conviction date
+to the PUPS record. The conviction date should reflect the date the individual was
+found guilty as charged in a criminal trial; guilty plea was accepted; parole or probation
+was officially revoked, or the date of an NGRI court order for confinement to a mental
+institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Suspend the benefits S7 on the MBR via MADCAP/MACADE for the appropriate period of
+suspension. Add the RFST of PRISON for a prisoner, MENTAL for an NGRI or PREDTR for
+a sexually dangerous person.
+•
+Check to make sure that the FO added the REMARK to the PU02 screen: PUPS Earlier DOC
+(Conviction/Confinement) Exclusion--Continuous Period of Suspension - FAX TO PC MM/DD/YYYY.
+If this remark is not present, add the remark to the PUO2 screen.
+4. Earlier conviction/confinement period NOT continuous through current conviction/confinement
+period--closed period of conviction/confinement applies--different facilities involved
+a. FO processing
+When additional inmate data is received for a closed period of conviction/confinement
+to a different correctional/mental facility, annotate the PUPS PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 1 - SUSPENSION action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit earlier. If the receipt date currently on PUPS
+was annotated from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the RELEASED DATE for this period of suspension to the PUPS PENDING record.
+•
+Add the REMARK to the PU02 screen: Closed Period of Earlier Conviction/Confinement
+Suspension Case.
+b. PC/OCO-ODO processing
+When inmate data is received for a closed period of suspension, annotate the PUPS
+PENDING record as follows.
+•
+Update the existing PUPS record (PUO2 Screen) with a 1 SUSPENSION action.
+•
+Check the receipt date on the PUPS record to make sure it reflects the date that SSA
+received the report of conviction and confinement for the beneficiary that causes
+SSA to suspend the title II benefit. If the receipt date currently on PUPS was annotated
+from the beneficiary's previous arrest (without a conviction), update the receipt date to equal the date that SSA received the conviction and confinement
+information. (See MSOM PRISON 003.001 , Incentive Date for dates that must be used when changing the receipt date entry
+on PUPS to an earlier receipt date.)
+•
+Check the conviction date. If the conviction date is blank or incorrect, add the conviction
+date to the PUPS record. The conviction date should reflect the date the individual
+was found guilty as charged in a criminal trial; guilty plea was accepted; parole
+or probation was officially revoked, or the date of an NGRI court order for confinement
+to a mental institution was issued for this period of confinement.
+NOTE: For NGRIs, Incompetent to Stand Trial Individuals and Sexual Predators, the date
+of conviction should be equal to the date of the court order for confinement or the
+date of confinement to the institution after the commitment order was issued by the
+court, use whichever date is later.
+•
+Check the ACTION EFFECTIVE DATE. Add or correct the ACTION EFFECTIVE DATE to equal
+the date the new suspension should begin. This date should reflect the date the individual
+was found guilty as charged in a criminal trial; a guilty plea was accepted; parole
+or probation was revoked; or the date of an NGRI court order for confinement to a
+mental institution; or, the beginning date of confinement in the correctional or mental institution after
+the individual was found guilty as charged in a criminal trial; a guilty plea was
+accepted; parole or probation was revoked; or the date of an NGRI court order for
+confinement to a mental institution was issued, choose whichever date occurs later.
+•
+Add the RELEASED DATE to the PUPS record to reflect the date the inmate was officially
+released from the correctional/mental institution for this period of confinement.
+•
+Add the REMARK to the PU02 screen: Closed Period of Earlier Conviction/Confinement
+Suspension Case.

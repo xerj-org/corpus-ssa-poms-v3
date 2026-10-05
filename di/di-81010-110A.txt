@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - DI 81010.110 - Processing Field Office (FO) Technical Reactivations
+Effective Dates: 02/21/2023 - Present | TN 56 (02-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010110 (fetched 2026-10-04)
+
+A. Overview for reactivating claims in EDCS
+Electronic Disability Collect System (EDCS) provides the ability for FOs to reuse
+most EDCS records for cases closed as:
+•
+FO Determinations; or
+•
+No Determinations.
+To differentiate between reactivations on medical denials, reactivations on FO Determinations
+(technical denials) are called “Technical Reactivations.”
+For details on FO Determinations or No Determinations, see Processing Field Office
+(FO) Determinations - DI 81010.140. For information on processing medical reactivations in eView, see Processing Medical
+Reactivations – DI 81010.143.
+EDCS allows technical reactivations on a case or on individual claim within a case.
+Reactivating FO Determination or No Determination claims allows FOs to update and
+transfer these EDCS claims to the Disability Determinations Service (DDS) for an initial
+medical determination. For more information on processing reactivations for appeals,
+see Processing Reconsideration Request of Field Office Determinations - DI 81010.145
+and Processing a Reconsideration Request of an Initial Denial Based on Non-medical
+Issues - DI 12005.010.
+NOTE: Once the FO reactivates a claim with an FO Determination or No Determination, a record
+of the prior closed EDCS case is stored and is viewable in eView (see Viewing EDCS
+Case Technical Reactivation Information – DI 81010.110C. of this section).
+1. EDCS requirements for technical reactivation
+The following rules apply to EDCS technical reactivations:
+•
+Only initial-level claims can be reactivated;
+•
+Claims to be reactivated must be in the most recent case in EDCS;
+•
+Claims to be reactivated must have been closed with an FO Determination or No Determination;
+NOTE: If one title of a concurrent claim is transferred to the DDS and an FO Determination
+is made on the other title, the claim with the FO Determination can be reactivated
+through EDCS. If the most recent FO Determination is performed while the claim is
+still pending in the DDS, the FO will not reactivate the case until notification is
+received on the EDCS Actions Page that the claim has been closed in the DDS or the
+FO will allow up to 5 business days before reactivating the claim, whichever occurs
+first. This allows the DDS to close the claim on their system. This only applies if
+no medical determination has been made on any claim in the case.
+NOTE: Although collateral estoppel (“FA” determination code) is an allowance based on
+a prior medical determination, it is not considered a medical determination for reactivations.
+•
+There must be at least one closed mainframe (i.e., Modernized Claim System (MCS) or
+Modernized Supplemental Security Income Claim System (MSSICS)) claim for the EDCS
+case being reactivated.
+NOTE: MCS exclusion claims cannot be reactivated in EDCS. This includes concurrent and
+multiple entitlement claims where one of the claims is a MCS exclusion.
+2. Mainframe requirements for technical reactivation
+For each technically denied EDCS claim being reactivated, the FO must establish a
+new open mainframe claim that:
+•
+Matches the claim type(s) of the FO determined claim(s);
+•
+Matches the Number Holder (NH) name; and
+•
+Has the same filing date(s) as the FO determined claim(s).
+NOTE: If any claims within the case cannot be reactivated, follow Certified Electronic
+Folder (CEF) Exclusions - DI 81010.030C, for processing appeals of SGA and other technical denials.

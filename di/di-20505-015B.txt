@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - DI 20505.015 - Disability Determination Services (DDS) Actions to Obtain a Prior Paper Folder
+Effective Dates: 11/03/2017 - Present | TN 8 (01-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0420505015 (fetched 2026-10-04)
+
+B. How to locate and request Title XVI folders
+1. Title XVI query search
+Review the following queries to determine the Title XVI prior folder location:
+a.
+SSI Display Query (SSID) or Supplemental Security Income (SSI) online query; or
+b.
+SSI Query (select segments) (SSI2) online query with the Case Control Data (CCTL)
+segment; and
+c.
+Use Alert Response (AR) 25 to request the SSI Control System offline query.
+2. Contacting the Federal Records Center or the National Records Center to request a
+Title XVI folder
+Review the CCTL segment of the SSID or SSI2 query, which provides the location of
+the Title XVI prior folder. If the query shows the National Records Center (SSANRC)
+location (L0E) or an FRC location (LNN e.g. L96, L97, L98), request the folder from
+SSANRC or FRC using the SSA-8028 SSI Claims Control procedure with the AR code of
+33. The SSANRC will retrieve all SSI folders stored in the SSANRC and the FRC for
+the requested SSN, consolidate the material, and send it to the requesting DDS. For
+additional instructions, see SM 01201.055 and SM 01201.210.
+If the Current Folder Location (CFL) field shows L50 or L51 (unable to locate in SSANRC
+or FRC), do not request the folder. It can take from two to six weeks for the DDS
+to receive the prior folder(s), depending on the number of prior folders the SSANRC
+must obtain and where they are stored; e.g., retrieval time increases when prior folders
+are stored in the FRCs.
+When the SSANRC/FRC is unable to locate the requested folder(s), the DDS receives
+an alert message “FOLDER/PE REQUESTED FROM SSANRC UNABLE TO LOCATE”. The DDS should
+take no further action to obtain the prior folder(s) from the SSANRC/FRC.
+Use the folder location information on these queries to request the prior folder(s)
+from all possible locations simultaneously.
+3. Contacting a Field Office (FO), Office of Hearing Operations (OHO), the Appeals Council
+(AC) or another DDS to request a Title XVI folder
+After determining the location of the Title XVI prior paper folder, follow DI 20505.015A.2 in this section to request the folder.

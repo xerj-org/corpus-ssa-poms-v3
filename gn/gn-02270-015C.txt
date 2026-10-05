@@ -1,0 +1,107 @@
+SSA Program Operations Manual System (POMS) - GN 02270.015 - Initial Waiver Determination After the Personal Conference - Title II & Title XVI
+Effective Dates: 01/28/2025 - Present | TN 21 (05-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202270015 (fetched 2026-10-04)
+
+C. Procedure for documenting and processing the initial waiver determination
+1. Documenting and processing the waiver determination
+Complete all required fields on Form SSA-635, Waiver Determination. For instructions
+on how to prepare the SSA-635, refer to GN 02250.315.
+a. Title II
+On the DMS Remarks Index (RMKI) screen, select 5=OTHER and title the remark "Initial
+Waiver Determination." For additional information about DMS, complete the Process
+Personal Conference (DRPC) screen in the DMS after you have conducted the personal
+conference and prepared your decision, refer to MS 01106.009.
+You must annotate the initiate waiver determination (approval, partial approval or
+denial) on the Debt Management System (DMS) Remarks (RMKS) screen,by stating “Refer
+to the SSA-635 dated mm/dd/yyyy documenting the waiver determination in the Evidence
+Portal (EP), name and title of deciding or reviewing official, office code and date
+of the decision.” For more information on EP, refer to MS 09701.001.
+If you are denying a Title II waiver that we completely recovered, request the payment
+center (PC) repost the overpayment to the Recovery of Overpayments Accounting and
+Reporting (ROAR) system. Document DMS Remarks. Explain that once you deny the waiver
+request, we will ask the PC to take another action to correct the balance of the new
+overpayment to $0 after posting the waiver denial. Once reposted, enter the waiver
+request and denial.
+Prepare and send the waiver determination notice using the DPS. You must complete
+all Title II waiver determination notices manually.
+NOTE: The decision-maker must complete the Waiver Disposition (DRWD) screen for the corresponding
+overpayment event to complete the DRPC screen. The decision-maker cannot complete
+the DRPC screen if they also completed the DRWD screen. For instruction on completing
+these screens, refer to MS 01106.000, MS 01106.004, and MS 01106.009.
+Fax any new documents, including the SSA-635, into the Non-Disability Repository for
+Evidentiary Documents (NDRed) using the Evidence Portal (EP).
+b. Title XVI
+You must annotate the initial waiver determination (approval, partial approval or
+denial) on the Report of Contact (DROC) screen in CCE as follows “Refer to the SSA-635
+dated [mm/dd/yyyy] documenting the waiver determination in the Evidence Portal, name
+and title of deciding or reviewing official, office code and date of the decision."
+For additional information about the Report of Contact, refer to MS 08122.010. Fax
+any new documents, including the SSA-635, into NDRed using the EP.
+Complete the Direct SSR Update screens: Overpayment Decisions (UOPD), Add/Change/Delete
+Overpayment Decisions (UODC), and Waiver (UOWV).
+For instructions on completing the direct SSR input for a waiver decision and the
+Direct SSR Update screens, refer to MS 00304.007 through MS 00304.009. Waiver approval
+notices are automated, unless an exclusion to systems-generated notices applies. We
+complete waiver denial notices manually in DPS. Refer to NL 0803.205 and NL 00803.210. For a list of exclusions to systems-generated notices, refer to NL 00801.010.
+Send the manual notice of waiver decision to the overpaid individual (for waiver denials,
+include the SSA-4017 (SSI payment stub) with a refund envelope). If the overpaid individual
+has a representative payee (payee), send the payee a copy of the notice with the appropriate
+payee cover letter (for waiver denials, include the SSA-4017 (SSI payment stub) to
+the payee with a refund envelope).  Additionally, if the overpaid individual has a
+legal guardian or appointed representative who is not the payee, send a copy of the
+notice with the cover letter SSA-L4031, located in the Cover Letter section of the
+Document Processing System (DPS).
+Refer to NL 00803.225 for notice distribution information.
+2. Processing waiver approval, partial approval, and denial determinations
+a. Waiver approval
+Title II procedure
+After completing the approval notice, post the waiver approval to the ROAR. If the
+case requires review, the reviewer will process the approval by completing the Review
+Personal Conference (DRPW) screen in DMS, refer to MS 01106.010.
+If the waiver approval covers months in which we withheld or recovered benefits to
+recover the waived overpayment, the jurisdictional PC will refund the amount we withheld
+or recovered. Do not refund any amounts if there is another overpayment for a different
+overpayment period or an unresolved overpayment.
+Title XVI procedure
+Process the initial waiver determination using Modernized SSI Claims System (MSSICS)
+Direct SSR Update and the UOWV screen to post the approved waiver decision to the
+SSR. For waiver input instructions, refer to MS 00304.009. For instructions on sending
+the approval notice, refer to GN 02250.370.
+If the waiver approval covers months in which we withheld or recovered benefits to
+recover the waived overpayment, refund the amount we withheld or recovered. Use the
+automated one-time payment (A-OTP) process to refund the recovered amount. For instructions
+on the A-OTP process, refer to SM 01901.005 and MS 00304.003 through MS 00304.009
+and MS 00303.022. Do not refund any amounts if there is another overpayment for a
+different overpayment period or an unresolved overpayment.
+b. Partial waiver approval
+When we approve waiver of recovery for a portion of the overpayment, we relieve the
+overpaid individual from the obligation to repay that part of the overpayment. The
+individual is still responsible for repaying the remainder of the overpayment. For
+the portion of the overpayment that we are waiving, refer to GN 02250.370D. For the portion of the overpayment we are denying, send a manual waiver denial notice.
+For more information about which denial notice to send, refer to GN 02270.015C.3.c.
+Title II procedure
+Prepare the Partial Waiver Approval (Initial Waiver Determination) notice in DPS as
+described in GN 02270.015C.3. and complete the DRPC screen to process the decision to the ROAR.
+Title XVI procedure
+Process the partial approval using the UOWV screen to issue the notice for the waived
+amount and to post the partial waiver approval to the SSR. Refer to GN 02270.015C.3. for instructions on issuing the notice for the overpayment amount not waived.
+c. Waiver denial
+Complete the applicable systems waiver denial screens and issue a notice of waiver
+denial per GN 02270.015B.2.
+Title II procedure
+Complete the DRPC screen to post the waiver denial decision to the ROAR.
+Title XVI procedure
+Complete the UOWV screen to post the waiver denial decision to the SSR.
+3. Notice distribution and document storage
+Store the initial waiver determination notice in the Online Retrieval System (ORS).
+a. Case involves a paper folder
+Title II procedure
+Include a copy of the SSA-635 Waiver Determination in the folder returned to the jurisdictional
+PC and fax a copy of the SSA-635 to NDRed via EP. Annotate DMS with the date you return
+the paper folder to the PC.
+Title XVI procedure
+Include a copy of the SSA-635 Waiver Determination in the folder and fax a copy of
+the form to NDRed via EP.
+b. Case involves an electronic folder
+If the case has an electronic folder (EF), fax the SSA-635 into the EF via EP (non-disability)
+or eVIEW (disability). For eDIB claim folders, refer to DI 81010.090 Faxing Documents into the Certified Electronic Folder (CEF) Using Barcodes.

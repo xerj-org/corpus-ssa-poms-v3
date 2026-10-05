@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 02402.383 - Coding Sierra Leone Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 10/18/2023 - Present | TN 243 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402383 (fetched 2026-10-04)
+
+G. Example of coding Sierra Leone direct deposit
+The customer provides us with a signup form for Sierra Leone containing the account
+number: 123456789012345678
+1. Derive the RTN
+The technician enters the following information for the RTN.
+•
+Code the prefix of 68.
+•
+Code the six-digit bank code “123456”
+•
+Code the one-digit check code (i.e., 4) (obtained from the Title II interactive Comps
+from the Main Menus 07/Sub Menu 16);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician codes the DAN for Sierra Leone as follows:
+•
+Start with a country code of “H” designated for Sierra Leone; and
+•
+Code 16 digits of the 18-digit Customer Account Number “1234567890123456”
+The technician obtains the following:
+RTN: 681234564
+Checking
+DAN: H1234567890123456
+The coding in POS reflects:
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 681234564
+ACCOUNT TYPE (C/S): C
+DEPOSITOR ACCOUNT NUMBER: H1234567890123456
+CANCEL DIRECT DEPOSIT (Y):
+DIRECT EXPRESS (Y):
+The MBR reflects the following information:
+RTN- 681234564 DAN - CH1234567890123456

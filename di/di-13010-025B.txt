@@ -1,0 +1,200 @@
+SSA Program Operations Manual System (POMS) - DI 13010.025 - Field Office (FO) Responsibilities in Work Continuing Disability Reviews (CDRs)
+Effective Dates: 05/08/2026 - Present | TN 94 (05-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010025 (fetched 2026-10-04)
+
+B. FO processing of work CDRs
+1. Establishing work reviews in eWork
+To begin the work review process, follow these guidelines:
+•
+Select Initiate/Update Work Review from the eWork main menu;
+•
+If this is the first work review established in eWork for this beneficiary, you must
+enter information on previous work determinations made outside of eWork.
+•
+Review the master beneficiary record (MBR), the disability control file (DCF), and
+the folder (if available) for previous work determinations. Check the MBR special
+message field for prior modernized return to work (MRTW) activity. Check the MBR payment
+HISTORY. In addition to the DIB data not having the ADC, if HISTORY shows either a
+WIC-2 or prior S7 EPESGA suspense months, there has been a prior cessation If MRTW
+data migration was not successful, work development may be in another office. If necessary,
+contact the other office for needed information.
+•
+Develop all work activity and work incentive information as necessary, and control
+all actions within eWork.
+•
+Effectuate the determination in eWork when development is complete.
+•
+Fax all documentation into eView or Evidence Portal (EP). Documents include forms
+SSA-833 (Cessation or Continuance of Disability of Blindness Determination and Transmittal),
+SSA-4268 (Explanation of Determination), SSA-821 (Work Activity Report - Employee) or SSA-820 (Work Activity Report Self-Employment), SSA-823 (Report of SGA Determination For SSA Use Only), earnings verifications and any other
+supporting documents.
+2. Pending work reviews in eWork
+When you establish a work review in eWork, eWork establishes a simultaneous T2 work
+CDR in the DCF. To maintain control and avoid duplication of work efforts:
+•
+keep the eWork review and the DCF together, pending in the same location; and
+•
+if you need to transfer a work review to another component, use the eWork Case Movement
+function.
+eWork automatically transfers the T2 Work CDR in the DCF to the correct component.
+If the eWork review is pending at another component determine proper jurisdiction
+by reviewing:
+•
+the current address of the beneficiary;
+•
+the stage of development of the current work review; and
+•
+a beneficiary-initiated jurisdiction request.
+Depending on jurisdiction either:
+•
+transfer all development and the work review in eWork to the other component (use
+the view case movement feature); or
+•
+contact the other component and request a transfer of the work review from eWork and
+the DCF to your location.
+3. Use eWork to develop and adjudicate the CDR
+When using eWork to develop earnings and to adjudicate the work CDR:
+•
+Complete all development and adjudication of work CDRs using eWork (unless an eWork
+exclusion applies). Some cases appear to be eWork exclusions due to incorrect data
+on the master beneficiary record (MBR). The most common occurrence is a missing disability
+cessation date (ADC) code on the disability (DIB) line when we processed a previous
+cessation.
+•
+Instead of processing these cases as eWork exclusions, correct the MBR by contacting
+the PC of jurisdiction using the modernized development worksheet (MDW) process with
+a high priority coding of 2560HP.
+You can develop a work CDR exclusion case using the initial claim (IC) functionality. For more information
+on the IC functionality, see DI 13010.026.
+4. Post-entitlement online system (POS) direct input exclusions and terminations, attainments,
+transfers, and Terminations (TATTER) exceptions
+a. POS exclusions
+Processing POS exclusions:
+•
+eWork produces a DIB Cess Exclusion Fax that documents all suspension and reinstatement
+actions needed for POS exclusion cases. If manual action is needed, fax the DIB Cess
+Exclusion Fax document to the PCs paperless processing center using the eWork bar
+code for eWork DECEFFECT/effectuations of eWork decisions. Paperless fax numbers are
+found at: Centralized FAX Numbers for ALL PSCs.
+•
+eWork posts a DECEFFECT alert for 5 days (to show PC action is pending).
+•
+When the alert matures, check the MBR payment history, DIB line, and the SSA-833 (Cessation
+or Continuance of Disability or Blindness Determination and Transmittal) to determine
+if the PC updated the MBR. If the action has not processed, follow up with the PC
+of jurisdiction. PC contact information is located in: KCNet
+PSC Contacts
+page.
+For detailed instructions on processing DECEFFECT alerts, go to the: KCNet
+DECEFFECT Tickle Guide.
+b. TATTER exceptions
+Follow the guidelines below to process TATTER exceptions:
+•
+If the POS input does not process, the system generates a TATTER exception alert in
+PCACS with type of event levels (TOELs) of STATUS DIBCESS for the PC to resolve. If
+the POS input excepts, do not re-input your decision in POS.
+•
+Set a DECEFFECT issue in eWork and tickle for 15 days. Continue to check the processing
+center action control system (PCACS) for status, and initiate a follow up in 15 days
+if the alert remains unresolved. You do not have to notify the PC for TATTER exceptions.
+For more information on suspension exceptions, see Suspending Benefits for Title II
+in DI 13010.160.
+•
+Review the MBR after the PC processes the exception decision to verify that the MBR
+is correctly updated. If the MBR is not correctly updated, manually set a DECEFFECT
+tickle for another 15 days and refer the case to your regional office (RO) coordinator
+for corrective action.
+•
+To ensure accuracy, carefully review the MBR changes for the beneficiary and auxiliaries
+that are eligible on this account.
+5. Questionable results produced by eWork
+eWork relies on the user to input accurate information. The ultimate responsibility
+for work determinations belongs to the adjudicator. If eWork does not produce the
+anticipated result:
+•
+verify that all information you entered is correct; and
+•
+contact your RO through your Area Work Incentives Coordinator (AWIC) to report systems
+problems or to request policy guidance.
+6. Determining jurisdiction for a work review pending in PC
+Use these guidelines to determine jurisdiction when a work review is already pending
+in the PC:
+•
+Determine if PC initiated development by checking the PCACS query. Check for an action
+control record (ACR) with type of event levels (TOELs) of DISAB CDRENF, or DISAB CDRWORK,
+and DISAB WORK.
+•
+If PCACS shows the location of the enforcement is COS, no development has begun. Assume
+jurisdiction of the Work CDR by establishing the eWork work review. Promptly transfer
+the T2 Work CDR in the DCF to your FO. Telephone the PC to clear the PCACS COS ACR.
+To obtain the telephone numbers for the PCs, go to the KCNet
+PSC
+Contacts page.
+•
+If PCACS shows one of the work CDR related ACRs shown in the first bullet pending
+in a location other than COS, call the PC to determine jurisdiction of the work review
+based on the level of development already completed. If the PC has not begun development,
+assume jurisdiction of the Work CDR and advise the PC to clear their ACR.
+•
+If telephone contact is unsuccessful, check eWork to determine if development has
+started. Assume jurisdiction if development has not started, and the case is not an
+eWork exclusion. Leave a telephone message advising the PC that you established a
+work review, and the PC can clear their Work CDR ACR.
+•
+If telephone contact is unsuccessful, eWork does not show development, and the case
+is an eWork exclusion, leave a detailed telephone message to determine if PC has pending
+development.
+•
+Follow up with PC via telephone contact. If you do not receive a response within 15
+days, leave another message and update the DCF on the CDR Remarks (IRMK) Screen, that
+you transferred the DCF to your location and began development.
+•
+If telephone contact is unsuccessful and eWork shows development started, but the
+beneficiary requests to work with local FO personnel, the PC must transfer eWork to
+your location before you can assume jurisdiction.
+•
+Leave a detailed telephone message requesting PC contact you or transfer jurisdiction.
+If you do not receive a response within 15 days contact your RO to request jurisdictional
+transfer.
+7. Jurisdiction when a medical CDR is pending in the FO and the work CDR is pending in
+the PC
+If a medical CDR is pending in the FO and a work review or CDR enforcement is pending
+in the PC, check eWork and the DCF to determine if the PC has begun work development,
+then follow these instructions:
+•
+If PC has not begun work development, jurisdiction belongs to the FO. Transfer eWork
+(and the DCF, if necessary) to your location. If PCACS shows a work CDR in COS, telephone
+the PC, advising them that you assumed jurisdiction of the CDR, and that they can
+clear their ACR.
+•
+If PC began work development, allow at least 45 days from when the PC initiated the review for them to complete development. If after
+45 days the PC has not completed development, contact your RO to request a jurisdictional
+transfer within 3 work days. Annotate eWork and the DCF Remarks screen with the reason for the work
+CDR transfer. If PC does not transfer the case, re-contact the RO for assistance.
+If the beneficiary is in the FO, do not wait 45 days. Call the RO immediately to resolve
+jurisdiction.
+•
+Resolve any outstanding work development issues, make the substantial gainful activity
+(SGA) determination in eWork, and forward the case to the DDS for a medical determination.
+See also:
+•
+DI 81010.200 Electronic Continuing Disability Review (eCDR) Short Term Process Overview
+•
+DI 81010.240 Transferring the Electronic Continuing Disability Review (eCDR)
+8. PC jurisdiction for statutorily blind beneficiaries age 55 or over
+The Disability Case Review in PSCs 1-6 maintain jurisdiction for all work CDRs for
+statutorily blind beneficiaries age 55 and older, and is responsible for making the
+comparability determination. When you receive a work report or evidence of work activity
+or earnings:
+•
+establish a work review in eWork;
+•
+develop and update work activity and earnings information in eWork;
+•
+transfer the work review in eWork and the T2 Work CDR in the DCF to the proper PC
+of jurisdiction after all development is complete.
+eWork automatically places a remark on the CDR Remarks Input Screen (IRMK) of the
+DCF documenting the reason for transfer (age 55 statutory blind case).
+See
+also:
+DI 13010.135 Continuing Disability Considerations in Blindness Cases-Title II

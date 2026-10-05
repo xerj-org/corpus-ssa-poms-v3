@@ -1,0 +1,186 @@
+SSA Program Operations Manual System (POMS) - SI 04030.050 - The Supplemental Security Income (SSI) Hearing Decision
+Effective Dates: 12/27/2023 - Present | TN 12 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504030050 (fetched 2026-10-04)
+
+C. Procedure
+1. Effectuating Hearing Decisions
+a.
+Read the entire ALJ decision to determine if the appellant's payment status should be changed or adjustments
+should be made per SM 01305.500 to SM 01305.800 under the statutory disability payment
+continuation provisions.
+b.
+If the decision is an affirmation of a medical/blindness cessation, a dismissal for
+abandonment, or a withdrawal following such cessation, query the system for payment
+status of Title II and Title XVI benefits.
+c.
+In all ALJ decisions, make the SSA-8028 (SSI Claims Control) input and Modernized SSI Claims
+System (MSSICS) online appeal systems input to record the location of the folder and
+the status of the appeal.
+NOTE: It is important to make all appropriate systems inputs when effectuating any ALJ
+decision.
+NOTE: Regional variations exist for control and effectuation of ALJ decisions. (See SM
+01010.062A for escalated cases.)
+2. Effectuating Affirmations and Dismissals of Non-disability Cases
+Do not send the appellant a notice of the unfavorable decision, since the HO will
+assume sole responsibility for notifying the appellant of the unfavorable decision.
+The HO will send the folder to the Social Security Administration National Records
+Center (SSANRC).
+3. Effectuating Affirmations and Dismissals of Disability Cases in Current Pay
+a.
+On receipt of a copy of the decision and a memorandum which requests termination of
+benefit continuation payments, query the Supplemental Security Record (SSR) to verify
+payment continuation status and then take systems action to terminate payments. If
+the ALJ finds disability ceasing in a later month than was determined at the initial
+level, terminate payments accordingly.
+NOTE: The ALJ will annotate the Form HA-5051-U3 (Decision or Dismissal by Administrative
+Law Judge) to reflect when the FO should terminate continuing payments.
+b.
+In Title II/Title XVI payment continuation cases, obtain a Master Beneficiary Record
+(MBR) query effective with the month the disability ended. If the claimant is currently
+receiving Title II payments, notify the appropriate office (ODIO or the PSC) immediately
+of the unfavorable decision.
+c.
+Identify the payment continuation cases with a stamp “TERMINATION INPUT NEEDED” on the decision routing Form HA-5051.
+d.
+If disability payments are continuing, terminate the Title XVI payments on the basis
+of the FO copy of the hearing decision or dismissal or the ALJ's memorandum requesting
+termination of those payments. The HO forwards the folder to the SSANRC.
+e.
+If the HO staff has not done so, annotate the FO copy of the hearing decision or dismissal
+in payment continuation cases “TERMINATION NECESSARY.”
+4. Effectuating Affirmations and Dismissals of Disability Cases Not in Current Pay
+a.
+On receipt of the decision, take action to record the medical/blindness cessation
+on the SSR.
+NOTE: The HO will also specifically annotate disability cessation affirmation decisions
+in which payments are in suspense for non-disability factors, e.g., excess resources.
+In such cases, the HO will annotate the FO copy of the hearing decision or dismissal
+“SSR Input Necessary.” The routing form HA-505 will further identify such cases with the note “SSR Input of Medical/Blindness Cessation Determination
+Necessary.”
+b.
+If disability payments have already been terminated because the appellant did not
+request a hearing (and continued benefits in medical cessation cases) within 10 days
+of receipt of the cessation notice, annotate the FO copy of the hearing decision or
+dismissal “SSR Input Necessary.” Record the hearing decision or dismissal on the SSR and update the MSSICS online appeal system.
+5. Effectuating Reversals in Current Pay — Responsibility of the FO
+Upon receipt of a hearing reversal claims case in which payments have been continued
+in order to meet the statutory disability payment continuation requirements from the
+HO, update the SSR to reflect the favorable decision at the hearing level.
+NOTE: In Title II/Title XVI reversals, the HO will send the Title II folder to ODIO or the
+PSC.
+6. Effectuating Reversals Not in Current Pay
+a. Forwarding the Title II Case Folder
+Forward a Title II folder which has been erroneously routed to an FO by a HO to ODIO or PSC in the same manner as other Title II folders, rather than returning
+it to the HO.
+NOTE: The responsibility for controlling fully or partially favorable Title XVI hearing
+decisions in all SSI initial and PE non-disability (and disability cases in which
+payments have been stopped) rests with the FO.
+b. Effectuation Functions of the FO
+•
+Conduct a preliminary review of the case; and
+•
+Forward disability/blindness cases with potential drug addiction or alcoholism involvement to the Disability Quality Branch (DQB) in the Field Assessment Office
+in the RO; and
+•
+Prepare Form SSA-8028 (SSI Claims Control) to update the SSICS establishing folder controls when cases are received and dispatched;
+and
+•
+Establish the case controls for timely effectuation of hearing decisions; and
+•
+Update or develop factors of eligibility not decided in the hearing. See SI 00603.002 if the case was processed under the OHO early notification procedure. See SI 00603.036 for other simultaneous development cases and SI 00603.035 for other deferred development cases.
+c. After Effectuation of a Favorable Hearing Decision on a Disability Case
+Forward the folder under regional procedure to the Disability Review Section (DRS)
+or DQB for determination of the need to establish a medical reexamination diary.
+NOTE: If the case meets the criteria for a medical reexamination, the DRS or DQB will establish
+the diary.
+NOTE: To effectuate payment before the need for a medical reexamination diary is determined,
+input a temporary code of N00103 in the MO field.
+d. After Action By the DRS or DQB
+Return the folder to the FO. Do not wait for the return of the folder before effectuating
+payment.
+7. Favorable Hearing Decision — FO Reopens Prior Denial
+a. Making A Reopening Determination
+As soon as you find a prior denial or cessation that can be reopened, prepare a reopening
+determination on a report of contact (RC) showing the dates of the prior application,
+denial, reopening, and that the same eligibility factor is involved.
+NOTE: The determination sets the affirmative action in writing date (See SI 04070.015B. for an explanation of affirmative action in writing).
+b. Documentation
+Obtain the prior folder. If there is no prior folder, obtain an SSID. Make sure the
+prior denial and the current hearing decision involve the same factor of eligibility.
+If it is not clear that the same factor of eligibility is involved, ask the AC to
+review and reopen the ALJ's decision per SI 04030.060.
+c. Development
+See SI 00603.035 for update procedures and effectuation. Issue a notice as described in DI 12010.035 and DI 12010.040.
+d. Eligibility For Title II
+If reopening a prior denial may affect eligibility under Title II, follow DI 27515.015 in disability cases or GN 04010.001 for non-disability cases.
+8. Favorable Hearing Decision — Request For AC Review
+a. Within 45 Days, FO Discovers ALJ Decision Improperly Reopening Prior Denial
+To allow time for AC action within the 60 day limit, you must discover an improper
+reopening within 45 days after the ALJ decision. If you find an improper reopening
+within that time, call the Programs Staff in the RO. If the RO agrees the prior denial
+was reopened improperly, send the folder, if the official claim file is paper, to
+Social Security Administration, Office of Appellate Operations, Attn: QRB 1, 6401
+Security Blvd., Baltimore, MD 21235-6401. Annotate on the route slip:
+“AC review requested per Regulation 416.1469. Hearing decision reopened prior denial
+over 2 years old. Regional memorandum to follow.”
+When the RO sends a memorandum per SI 04030.060B.2 pay the claim prospectively. Withhold retroactive payment on the improperly reopened
+application until the AC responds to the RO memorandum.
+b. FO After 45 Days Discovers ALJ Decision Improperly Reopening Prior Denial
+Effectuate payment effective with the date determined by the ALJ's favorable decision
+if:
+•
+The ALJ reopened a prior denial more than 2 years old; and
+•
+You did not discover the error in time to permit AC “own motion” review.
+IMPORTANT: The 60-day AC review limit is the regulatory limit for initiation of “own motion” review. The 45-day deadline is a practical goal. The 45-day goal can be revised by regional
+arrangement between the RO, ARC, Programs and OAO (OARO) staffs provided the AC has
+time to meet the 60-day regulatory limit.
+9. Notice to Appellant of Action on ALJ Decision
+Prepare and send an award notice using an SSA-L8165-U2 (Important Information). See
+POMS NL 00802.010 through NL 00802.015 for instructions on preparing an award notice. Also see the SSI initial notices menu
+of Document Processing System (DPS).
+Prepare an SSA-636 and annotate: “Decision Effectuated.” Attach a copy of the award notice and send both to the hearing office directed to
+the attention of the ALJ.
+10. Appellant Dissatisfied With ALJ Decision
+•
+If the appellant expresses dissatisfaction with the decision in a letter, send the
+letter to the AC after preparing an HA-520 (Request for Review of Hearing Decision/Order)
+(see GN 03104.300 and SI 04040.020 for instructions on completing Form HA-520).
+•
+If the appellant orally expresses dissatisfaction with the ALJ's decision, find out
+if they want an AC review. If so, assist the appellant with completing an HA-520 and
+send the completed form with any material obtained to the AC. (See SI 04040.020C, for instructions.)
+11. Additional Information and Evidence Received After Hearing
+Evaluate new information received in the FO after a hearing decision.
+a. If the Evidence is Pertinent and Bears on the Same Issue and Period Ruled on By the
+ALJ
+Forward to the ALJ if:
+•
+No request for AC review of the ALJ's decision was filed and the AC did not review
+the decision on its own motion; or
+•
+A request for review was filed but the AC dismissed it for any reason other than the
+death of the appellant; or
+•
+A request for review was filed but the AC denied it and the 60-day period for filing
+a civil action has expired; or
+•
+The ALJ dismissed the hearing request and, the dismissal has not been vacated, and
+material relates to the reason for dismissal.
+Forward the entire folder, including the new evidence, to the AC if:
+•
+It issued the decision; or
+•
+It dismissed a request for review because of the death of the appellant; or
+•
+It denied a request for review but the 60-day period for filing a civil action has
+not expired; or
+•
+The appellant or representative is filing a civil action after the 60-day time limit
+and brings or sends to the FO information and a statement to establish good cause
+for late filing.
+b. If the Material is Substantive But Does Not Bear On the Issues Decided By the ALJ
+Evaluate the evidence and determine the appropriate action (e.g., redetermination,
+notification for payment suspension, etc.).
+c. If the Material is Extraneous or Duplicative
+Associate it with the folder.

@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - GN 02402.330 - Coding New Zealand Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 01/29/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402330 (fetched 2026-10-04)
+
+G. Example of coding New Zealand direct deposit
+The customer provides us with a signup form for New Zealand containing the following
+information:
+Bank code: 112222 Account Number: 1234567890
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of "71" (the multi-country prefix for New Zealand),
+•
+The bank code "112222",
+•
+The U.S. check digit: "2",
+•
+The type of account as a “C” for checking or an “S” for savings. If there is no indicated
+account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+"L" (for New Zealand), and
+•
+The 10-digit account number "1234567890".
+•
+If the account number input into ITS.gov has less than 10 digits, ITS.gov will automatically
+add zeroes to the beginning of the account number. Be sure to input the correct information.
+3. Obtain the following information
+•
+RTN: 711122222
+•
+Checking
+•
+DAN: L1234567890
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 711122222 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: L1234567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 711122222
+•
+DAN- CL1234567890

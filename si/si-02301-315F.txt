@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 02301.315 - Erroneous Payments and GK Payment Continuation
+Effective Dates: 06/11/2013 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301315 (fetched 2026-10-04)
+
+F. Process — continuing payments during appeals
+This chart describes how recipients receive payment continuation until the appeal
+decision in a multiple payment or payment ceiling case.
+When the payment continuation amount is...
+then...
+the correct amount on a C01 record
+the system will continue to pay the correct amount without FO input.
+an amount higher than the correct amount on a C01 record
+the FO must use an A-OTP each month to pay the additional amount due (see SM 01901.001).
+an amount higher than the correct amount on an M02 record
+the FO must use force due to pay higher amount (see SM 01701.001).

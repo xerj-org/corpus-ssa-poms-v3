@@ -1,0 +1,67 @@
+SSA Program Operations Manual System (POMS) - DI 11005.045 - Completing the SSA-3367 (Disability Report Field Office)
+Effective Dates: 09/22/2026 - Present | TN 140 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005045 (fetched 2026-10-04)
+
+B. Form SSA-3367 supplemental instructions for specific claim types
+Document information properly as it could affect the claimants entitlement to benefits
+for the claim types described in this section. For each of the following claim types
+provide the following:
+•
+supplemental claim information regarding insured status, and
+•
+prescribed period or controlling date, or both.
+1. DIB and freeze claims with a non-blind DLI and an allegation of blindness, vision
+problems, or low vision
+The blind DFI and blind DLI could be material to the established onset date for blindness
+when applicant alleges:
+•
+blindness,
+•
+vision problems, or
+•
+low vision
+When there are both non-blind and blind allegations, provide the non-blind DLI and
+the blind DLI.
+a.
+In item 6, Miscellaneous Information, enter:
+•
+the non-blind DLI in the Non-blind date last insured (DIB/Freeze case) field and
+•
+the blind DLI in the Blind date last insured (if applicable) field.
+b.
+In the Remarks section enter, If the claimant is found statutorily blind, the blind DFI is MM/DD/YYYY.
+For EDCS cases, the non-blind or blind DLI will propagate from MCS depending on whether
+the stat blind indicator is set in MCS. Only one DLI will propagate into EDCS; the
+other DLI must be keyed in.
+2. MQGE claims
+There may be a second, more recent DLI for Medicare purposes when the claimant meets
+insured status. For MQGE claims:
+a.
+In item 4, Reason for Potential Onset Date, check the Date Last Insured block.
+b.
+In item 5, Explanation for Potential Onset Date, when applicable, enter Medicare Qualified
+Government Employee, DLI for Medicare purposes only is XX/XX/XXXX.
+c.
+In item 6, Miscellaneous Information, Non-blind date last insured (DIB/Freeze case)
+field; enter the non-blind DLI in the space provided.
+d.
+If a claimant is potentially entitled to both MQGE and DIB benefits with different
+DFIs, DLIs, and PODs, you must indicate this in the Remarks section to alert the DDS to develop evidence based on multiple onset dates. Similar
+remarks regarding the DFI, POD, and prescribed period may be required if the claimant
+is potentially entitled to both MQGE and DWB benefits.
+e.
+For additional instructions for MQGE claims, refer to Capability/Remarks in this section.
+3. DWB claims
+In item 6, Miscellaneous Information, for DWB claims enter:
+•
+the protective filing date;
+•
+the beginning and ending dates of the prescribed period and the controlling date per
+DI 11005.050C;
+For EDCS cases:
+•
+verify that the controlling date from systems is correct;
+•
+in a Medicare-only claim filed by a mother or father beneficiary, enter Not yet started
+in the line for End of Prescribed Period, because the prescribed period has not yet
+begun; see DI 11005.050B.1.

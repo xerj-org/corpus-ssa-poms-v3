@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 81010.025 - Completing Electronic Disability Collect System (EDCS) Forms for Initial Claims
+Effective Dates: 07/28/2014 - Present | TN 76 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010025 (fetched 2026-10-04)
+
+C. Completing the Work History Report (Form SSA-3369) in EDCS
+The EDCS 3369 collects detailed information and remarks about the types of work that
+the claimant alleges having performed in the 15 years prior to becoming unable to
+work.
+When creating an EDCS case for an initial claim, determine whether it is necessary
+to complete an SSA-3369, per Completing the SSA-3369 - DI 11005.025. For information regarding data propagation of the Internet Work History Report (i3369),
+see Data Propagation - DI 81010.035D.
+NOTE: If the claimant has a limited education, EDCS prompts the CR to obtain a complete
+work history in accordance with DI 11005.025C.2.b.
+If an SSA-3369 is necessary, complete the EDCS 3369. The job title and job information
+on the longest-held job from the Adult Disability Report (SSA-3368) display in the
+SSA-3369 if:
+•
+The disability report is completed prior to the SSA-3369; or
+•
+An Internet disability report is completed.
+1. ID/Work History
+This page displays basic information such as:
+•
+The claimant’s name and telephone number; and
+•
+Job titles for jobs held.
+To complete the EDCS 3369:
+•
+Add job titles that were not recorded on the SSA-3368 Work History page;
+•
+Select any job title to bring up the Job Information page; and
+•
+Complete the Job Information page for each job listed on the ID/Work History Page.
+NOTE: Changes made to the EDCS 3369 Job Information page automatically update corresponding
+fields in the EDCS 3368 Work History page, and vice-versa.
+2. Remarks
+Use this page to enter additional information that the claimant wishes to provide
+for which there is no corresponding question in EDCS.
+3. Deleting the EDCS 3369
+To delete the EDCS 3369, change the radio button on the Form Selection page. An alert
+message appears:
+•
+To confirm deletion of the form; and
+•
+To indicate that no “longest job” was selected on the EDCS 3368 form.
+CAUTION: Use caution when choosing the delete function. Once deletion is confirmed, all additional
+information collected in the SSA-3369 for a job entry that is not part of the standard
+work information collected on the SSA-3368 is lost.

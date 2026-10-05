@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.345 - Coding Estonia Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 05/09/2018 - Present | TN 259 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402345 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Estonia will have a prefix of “66” at the beginning of the Routing
+Transit Number (RTN). The first letter of the Depositor Account Number (DAN) field
+has the letter “F” assigned for Estonia.

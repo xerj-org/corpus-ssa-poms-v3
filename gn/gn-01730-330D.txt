@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - GN 01730.330 - Providing Monthly Benefit Data to Austrian Agencies
+Effective Dates: 04/10/2017 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201730330 (fetched 2026-10-04)
+
+D. Procedure
+•
+Obtain a current MBR printout for the SSN on which the claim has been filed or the
+assistance request has been received.
+•
+If the claimant or person about whom the information has been requested is the widow(er)
+or divorced widow(er) of the worker on this SSN, obtain a current MBR printout on
+that person's SSN also.
+•
+Refer to the HISTORY field of the MBR. (The first column of that field contains the
+effective date of each benefit amount or change of status, the fifth column contains
+codes to explain the status of the benefits and the seventh (last) column contains
+the MBC amount.)
+•
+Find the first line in the HISTORY field that contains a status code of “01”. (The effective date and MBC found in that line are the date and monthly amount to
+be certified to the Austrian agency. Enter them on the SSA-e2960-U3-AU in accordance
+with GN 01730.220.D.4.)

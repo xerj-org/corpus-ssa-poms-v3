@@ -1,0 +1,59 @@
+SSA Program Operations Manual System (POMS) - GN 03940.055 - Title XVI and Concurrent Titles II and XVI Claims - Field Office Processing of the Fee Agreement Notice
+Effective Dates: 07/01/2005 - Present | TN 19 (07-05)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940055 (fetched 2026-10-04)
+
+D. Procedure - Fee Agreement Approved - Title XVI Automated Notices In Concurrent Claims
+1. Title II Fee Amount Known - No Title XVI Past-Due Benefits or Title II Portion of
+the Fee Equals the Maximum Specified in the Fee Agreement
+If there are no title XVI past-due benefits for purposes of authorizing a representative's
+fee or the title II fee is the maximum fee under the fee agreement, use UTI XVI720
+(FEE038 in DPS), and caption XVI717 (ATYC10 in DPS) and UTIs XVI724 [ATY030 (no higher
+fee based on SSI) or ATY032 (no SSI past-due benefits) in DPS) and XVI727 (ATYC02,
+FEE052, FEEC09, and FEE056 in DPS).
+2. Title II Fee Amount Known - Title XVI Fee Authorized - Representative Not Eligible
+for Direct Payment
+When the SSR interface posts the title II fee information, authorize the title XVI
+fee and send a notice.
+Use UTI XVI720 (FEE038 in DPS), and caption XVI717 (ATYC10 in DPS) and UTIs XVI723
+(ATY029 in DPS) and FEE008 (FEE008 in DPS).
+•
+If the title II portion of the fee amount reduces the title XVI fee amount, use UTI
+XVI726 (ATY027 in DPS).
+Use UTI FEE022 (FEE022 in DPS).
+•
+If the claimant’s first check is being sent to a State agency because of IAR, use
+UTI XVI528 (CHKC07 and CHK002 in DPS).
+Use UTI XVI727 (ATYC02, FEE052, FEEC09, and FEE056 in DPS).
+3. Title II Fee Amount Known - Title XVI Fee Authorized - Representative Eligible for
+Direct Payment - No IAR
+When the SSR interface posts the title II information, authorize the title XVI fee
+and send a notice.
+Use UTI XVI720 (FEE038 in DPS), and caption XVI717 (ATYC10 in DPS) and UTIs XVI723
+(ATY029 in DPS) and FEE008 (FEE008 in DPS)
+•
+If the title II portion of the fee amount reduces the title XVI fee amount, use UTI
+XVI726 (ATY027 in DPS).
+•
+If the representative is eligible for, but waived direct payment, use UTI FEE033 (FEE033
+in DPS).
+Use UTI XVI727 (ATYC02, FEE052, FEEC09, and FEE056 in DPS).
+•
+If SSA is making direct payment, use caption FEEC11 (ATYC03 in DPS) and UTIs FEE035
+(FEE035 in DPS), FEE046 (FEE080 in DPS) and the appropriate assessment paragraph.
+–
+If the assessment deducted from the title II direct payment reduced the assessment
+on the title XVI payment, use UTI FEE048 (FE048 in DPS).
+–
+If the maximum assessment was deducted from the title II direct payment, use UTI FEE049
+(FEE049 in DPS). (See GN
+03920.019K. for assessment language.)
+NOTE: If the claimant had an IAR agreement with a State agency, see GN 03940.055F.
+4. Title II Fee Amount Unknown
+Use UTI XVI720 (FEE038 in DPS) and caption XVI719 (use ATYC10 in DPS).
+•
+If a title II CR approved the fee agreement, use UTI XVI721 (FEE062 in DPS). If an
+ALJ or AAJ approved the fee agreement, use UTI XVI722 (ATY024 in DPS).
+•
+If the representative is eligible for direct payment and benefits are being withheld
+for possible direct fee payment, also use the caption UTI FEEC11 (ATYC03 in DPS) and
+UTIs FEE035 (FEE035 in DPS) and FEE039 (FEE039 in DPS).

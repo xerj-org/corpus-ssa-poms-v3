@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 81010.031 - Multiple Pending Cases (MPC) in the Electronic Disability Collect System (EDCS)
+Effective Dates: 04/28/2025 - Present | TN 85 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010031 (fetched 2026-10-04)
+
+B. Procedures for processing MPC in EDCS and eView
+Technicians establish both a CDR (or EXR) case and an initial claim case separately
+in EDCS. The cases may be created in any order.
+1. Case Creation
+The first step in processing an MPC is to establish the case in EDCS by completing
+the following:
+a.
+Create in EDCS the first case following existing instructions for initial claims,
+age 18 redeterminations, CDRs, or EXRs
+b.
+Complete all fields of the SSA-3367, SSA-3368, or SSA-454 for the first case in EDCS.
+If an i3368 or i454 is present, this data propagates to EDCS.
+c.
+Exit the first case and return to the EDCS “Disability Case Selection” screen.
+d.
+Select “Create Case” and create the second case in EDCS following existing instructions
+for initial claims, age 18 redeterminations, CDRs, or EXRs.
+NOTE: Upon creating the second case, EDCS will copy over data from the first. If the forms
+in the first case were completed, this will prevent the need to retype much of the
+information. However, there are some fields that are unique to the SSA-3368 or the
+SSA-454 that cannot be copied over. In addition, EDCS will
+not copy any changes made after the creation of the second case. Once both cases are established, technicians need to make subsequent changes to each
+claim manually
+e.
+The ‘Confirm Case Creation’ page will display the following message, “You are connecting
+two cases for this claimant. Data will be copied from the first case into this one.
+Are you sure you want to continue?” Select “Create Case” to continue.
+The cases will now be connected as an MPCs and will contain the following MPC indicators:
+•
+'MPC: Y' and an 'Open Connected MPC' hypertext link displays at the top of each EDCS
+page for each connected case. Selecting the link will take you directly to the EDCS
+pages of the connected case.
+•
+The ‘Disability Case Selection’ page will display a ‘Y’ in the ‘MPC’ column next to
+each case. The ‘MPC’ column does not display if an MPC does not exist.
+f.
+Complete all remaining fields of the SSA-3367, SSA-3368, or SSA-454 for the second
+case in EDCS. Any fields that did not copy over from the first case need to be completed.
+g.
+Obtain the SSA-827s for each case per DI 11005.057. The SSA-827s are not copied over. To avoid unnecessary delays or follow-ups from
+the Disability Determination Services (DDS), ensure an SSA-827 is in each case prior
+to transfer. See MSS25-029 EDCS.
+2. Case transfer
+Take the following actions to transfer the MPC:
+a.
+Transfer each case to the DDS separately.
+•
+For the CDR/EXR case, transfer the CDR or EXR in the Disability Control File (DCF).
+•
+For processing Title II collateral estoppel claims with DDS jurisdiction for possible
+earlier established onset date (EOD) determination see DI 11011.001F.
+b.
+The deciding component (DDS or Office of Hearing Operations(OHO)) will make separate
+determinations for each case.
+c.
+EDCS Actions such as Assistance Requests, Assistance Request Follow-Ups, and Action
+Items will be sent for each case separately. The Expedited (EXP) column on the EDCS
+Actions page will display an ‘M’ for Multiple Pending Cases to indicate that the case
+is part of an MPC.
+NOTE: If a change of address or other action applies to both cases, update each case separately.
+3. eView
+Technicians will identify MPCs in eView with the following indicators:
+a.
+On the Disability Folder Selection screen, a new column titled MPC will display a
+‘Y’ next to each MPC. The ‘MPC’ column does not display if there are no MPCs.
+b.
+While viewing an MPC case in eView, an ‘MPC: Y’ will be displayed at the top of the
+case to show that it is an MPC.
+c.
+Documents from both cases will be viewable in the Case Documents tab, regardless of
+which case you are viewing in eView. Documents that are from the connected folder
+will be identified as MPC. For example, if you are viewing the initial claim in eView,
+you also see the CDR documents, marked with MPC to indicate they are from the connected
+folder.
+4. Case actions
+The following case action updates apply to MPC:
+a.
+Flags and Messages: A flag or message added, modified, or deleted for one case (before
+or after transfer to the DDS) will automatically copy to the connected case.
+EXCEPTION: The ‘Appointed Representative’ flag will not copy automatically because the appointed
+representative is case specific and may not apply to both cases, see GN 03910.040B.3. The technician should review the SSA-1696 and add the flag as necessary.
+b.
+EDCS removes the MPC connection if one or both cases are manually cleared, deleted,
+or processed via an FO Determination before either case has been transferred to DDS.
+c.
+EDCS retains the MPC connection if one or both cases are manually cleared or processed
+via an FO Determination after at least one case has been transferred to the DDS.

@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.408 - Coding Vietnam Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402408 (fetched 2026-10-04)
+
+E. Description of IDD bank data for Vietnam
+The data to code IDD for Vietnam comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by his or her FI. The bank data on the MBR reflects
+25 characters including the country code of W.

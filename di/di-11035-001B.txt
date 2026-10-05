@@ -1,0 +1,21 @@
+SSA Program Operations Manual System (POMS) - DI 11035.001 - Medicare for Qualified Government Employment (MQGE) Claims Based on Disability
+Effective Dates: 09/14/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411035001 (fetched 2026-10-04)
+
+B. Disability determination necessary for MQGE cases
+File MQGE disability claims in Modernized Claims System (MCS), the same as Title II
+disability claims.
+The Field Office (FO) forwards initial and reconsideration MQGE disability cases to
+the disability determination services (DDS) for a worker, CDB, or DWB when a disability
+determination is necessary.
+For electronic MQGE claims, select the MQGE sub-type, Transitional Federal Medicare or Regular Federal Medicare
+on the Title II/Title XVI Summary Page in the Electronic Disability Collect System
+(EDCS).
+For paper MQGE claims, annotate the MQGE sub-type, Transitional Federal Medicare or
+Regular Federal Medicare on the SSA-831 (Disability Determination and Transmittal
+NOTE: For both electronic and paper MQGE claims, annotate the SSA-3367 (Disability Report – Field Office) with the remark “MQGE claim
+for Medicare entitlement only” prior to case transfer.
+For its workload reporting purposes, the DDS must identify cases in which the number
+holder (NH) is insured under the transitional provision in the law by the additional
+remark in item 11 of the SSA-831-U5, “Insured status under transitional provisions
+of P.L. 97-248.”

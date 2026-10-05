@@ -1,0 +1,79 @@
+SSA Program Operations Manual System (POMS) - DI 52120.030 - California Workers' Compensation (WC)
+Effective Dates: 03/22/2017 - Present | TN 17 (10-18)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120030 (fetched 2026-10-04)
+
+F. WC and California State Disability Insurance (SDI)
+1. SDI in relation to WC
+Unlike WC, the state EDD pays California SDI and does not require that the injury
+or illness is work-related. Non-public employees' paycheck deductions fund SDI. You
+may use the eWC tool to process cases involving California PDBs. The eWC tool can pull in existing ICF
+data and propagate results into ICF.
+a. SDI payments
+•
+SDI is a PDB and paid bi-weekly (see DI 52135.030).
+•
+SDI pays for a maximum of 52 weeks. If the worker had lower earnings, it pays fewer
+than 52 weeks. If EDD reduces the weekly payments for offsets, such as WC, it is paid
+for more than 52 weeks.
+•
+Although the SDI benefit amount is roughly equivalent to WC TD benefits, it is important
+not to confuse the two.
+b. How SDI and WC benefits affect each other
+Under California law, SDI cannot be paid for any month that WC TD or PD is payable.
+However, SDI can be paid if TD is delayed, interrupted, denied, or paid at an incorrect
+lower rate. In the latter situation, SDI may pay the difference.
+Typically, for any work related injury, a worker files an application and starts receiving
+SDI. It is later that the worker files an application and starts receiving WC. Under
+these circumstances, EDD and the WC carrier may coordinate payments and/or EDD files
+a lien against the WC for SDI already paid (California Labor Code Section 4904).
+If payments are not coordinated timely, EDD and the WC carrier negotiate the amount
+of money reimbursable to the worker's SDI account from any WC settlement. The amount
+repaid to EDD may be less than the SDI actually paid. In this situation, the State
+and WC carrier may agree to use a formula. The WC carrier only reimburses a proportionate
+amount of the SDI. The standard formula is the “Baird Formula.” An explanation is
+in SSR 87-20c. See Example #7 in DI 52120.030M.
+To satisfy the EDD lien, there may be withholdings from the WC LS proceeds. Alternatively,
+the carrier, employer, or third party may satisfy the lien via a separate reimbursement.
+Once any party reimburses EDD for the lien, EDD immediately adds back the amount repaid
+to the worker's SDI account, making the repaid amount available for payment should
+the worker reapply and qualify for SDI benefits. For an explanation of the way we
+adjust for an EDD lien, see DI 52120.030F.2.a.
+When processing cases involving both SDI and WC payments:
+•
+Do not confuse SDI and WC. For offset, treat the PDB and WC claims separately.
+•
+There may be unintentional periods of overlap when the basis of offset is both SDI
+and WC payments.
+•
+Never use an SDI rate or stop date to prorate a WC LS.
+2. EDD liens repaid as part of a WC lump sum
+a. Policy
+EDD liens are not excludable expenses for WC LS proration purposes and should be included
+in the gross LS amount. For instructions on refiguring PDB offset to exclude the amount
+of SDI repaid to EDD associated with the WC claim, see DI 52135.030G.
+EXAMPLE: The SDI claim paid out at a weekly rate of $116.00 for 52 weeks (total paid equals
+$6,032.00). EDD filed a lien for $6,032.00 against WC. When the WC claim settled,
+the WC defendant (employer) repaid $3,016.00 of the $6,032.00 EDD lien. There is no
+deduction from the LS amount awarded to the worker.
+•
+Use the gross LS award amount for proration purposes. Do not adjust for the repaid
+$3,016.00, regardless of which party repaid the EDD lien.
+•
+Reduce the PDB offset by the $3,016.00 repaid amount either by using a weekly rate
+of $58.00 for 52 weeks or $116.00 for 26 weeks, whichever is most advantageous.
+b. SDI payment records as evidence of repaid liens
+SDI payment record printouts often contain sufficient information to verify that there
+was a repayment of a lien to EDD. It also specifies the amount of the lien. This information,
+together with WC documents containing reference to an EDD lien, is generally sufficient
+proof of a lien. It allows for an adjustment of PDB offset per DI 52135.030G. In a lien repayment situation, the SDI printout shows that:
+•
+The individual payments on the SDI printout add up to the Maximum Benefit Amount (MBA)
+and
+•
+The “AMT PD” (Amount Paid) entry is equal to or less than the MBA and
+•
+“BAL” (Balance) entry plus the “AMT PD” entry add up to the MBA amount.
+These entries verify the repayment of the “BAL” amount to satisfy the EDD lien. See
+the following example of an SDI printout that shows the entries indicating a repaid
+lien, click
+here...

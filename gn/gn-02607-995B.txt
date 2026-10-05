@@ -1,0 +1,204 @@
+SSA Program Operations Manual System (POMS) - GN 02607.995 - Processing of Title II Prisoner Systems Exclusions and Exceptions
+Effective Dates: 08/05/2024 - Present | TN 107 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607995 (fetched 2026-10-04)
+
+B. PUPS or PUPS/POS exclusions or PUPS T2R exception referrals
+1. FO actions before referring PUPS exclusions or T2R exception via SSA-2790 for PSC/OCO-ODO
+processing
+Prisoner Update Processing System (PUPS) automated exclusions and exceptions require
+special processing by the PSC/OCO-ODO. Process the PUPS suspension, PUP/POS reinstatement
+exclusions, or PUPS T2R suspension exceptions for referral to the PSC/OCO-ODO by using
+the information explained in the chart.
+Type of exclusion or exception
+POMS reference for processing exclusion or exception
+PUPS suspension exclusion
+For steps and information on FO processing of PUPS suspension exclusions, see GN 02607.740D.
+PUPS/POS T2R reinstatement exclusion
+For steps and information on FO processing of PUPS/POS T2R reinstatement exclusion
+records, see GN 02607.860B.1.
+PUPS T2R suspension exceptions
+For steps and information on FO processing of PUPS T2R suspension exception records,
+see GN 02607.750C.
+2. Other FO general prisoner exclusion or exception processing reminders
+Occasionally, you may encounter other MBR or T2R prisoner exclusions or exceptions
+that are not mentioned in GN 02607.995B.1 in this section. For some examples of other types of prisoner exclusions or exceptions,
+see GN 02607.995B.2.a. in this section. These additional MBR or T2R processing exceptions or exclusions
+also prevent PUPS from processing and interfere with your PUPS prisoner suspensions
+or reinstatements.
+a. FO processing of other Title II prisoner exclusions or exceptions
+Use the information in the chart to process Title II LAF changes, monthly benefit
+amount readjustments, garnishment orders or other Title II prisoner exclusions or
+exceptions not mentioned in GN 02607.995B.1. in this section. Refer these types of processing exclusions or exceptions to the
+PSC/OCO-ODO for subsequent action.
+Steps
+Actions on processing other general exclusions or exceptions
+1
+Update the PUPS record with any changes before transferring the case to the PSC/OCO-ODO
+for suspension or reinstatement processing. Add any information regarding your decision
+to suspend or reinstate benefits on the beneficiary’s PUPS record via the PUPS remarks
+(PMRK) screen.
+2
+Check the PRSNDATA line on the MBR for a STOP date if the exclusion is a PUPS/POS
+reinstatement action. For PUPS/POS reinstatement exclusion information, see MS T2PE
+003.001J.
+3
+Add remarks to the PRMK screen indicating the reason for the reinstatement (you reviewed
+and verified the beneficiary’s official release document), add the date you faxed
+the release document into NDRED using the Evidence Portal (EP). End the remark with
+your first initial and last name, your SSA office designation code, and the current
+date. Close the PUPS record after updating the release information and remarks.
+4
+Complete the Form SSA-2790 (Prisoner Fax Request). For information on completing the SSA-2790, see GN 02607.995B.3. in this section.
+5
+Fax the SSA-2790 to the jurisdictional PSC/OCO-ODO at the fax numbers shown on the
+SSA-2790. The SSA-2790 (Prisoner Fax Request) alerts the PSC/OCO-ODO prisoner coordinator
+that this case needs special handling.
+6
+Forward any physical evidence or developmental documentation regarding your suspension
+or reinstatement determination into the Non-Disability Repository for Evidentiary
+Documents (NDRED) using the Evidence Portal (EP). Do not fax this material along with the SSA-2790 (Prisoner Fax Request). Notify the PSC/OCO-ODO
+technician on the SSA-2790 Prisoner Fax Request form that you added the beneficiary’s
+physical evidence or developmental documentation regarding their suspension or reinstatement
+determination into NDRED using the Evidence Portal (EP).
+7
+Transfer the PUPS alert or record to the jurisdictional PSC/OCO-ODO for action on
+the prisoner processing exclusions or exceptions. For information on transferring
+PUPS records or alerts, see GN 02607.465.
+8
+Diary a Modernized Development Worksheet (MDW) for 15 days after the date you faxed
+the SSA-2790 (Prisoner Fax Request) to the jurisdictional PSC. When the diary matures,
+review the beneficiary’s PUPS record and their MBR to determine if the beneficiary’s
+suspension or reinstatement action processed. No further action is necessary if the
+beneficiary’s suspension or reinstatement action processed. If the suspension or reinstatement
+action did not work, for processing, see GN 02607.995B.4. in this section.
+b. FO actions on Title II and Title XVI (concurrent) pending PUPS alerts
+Do not transfer concurrent Title II and Title XVI pending PUPS alerts or records to
+a PSC/OCO-ODO. PSCs/OCO-ODO do not work Title XVI PUPS alerts or records. Process
+the Title XVI PUPS pending alert or record according to the processing instructions
+in GN 02607.705. After closing the Title XVI PUPS alert, transfer the Title II PUPS pending alert
+to the jurisdictional PSC/OCO-ODO.
+3. Completing the Form SSA-2790 (Prisoner Fax Request)
+Instructions for completing the SSA-2790:
+Click on the link on the inForm website to obtain the SSA-2790 (Prisoner Fax Request) .
+Coding the SSA-2790 (Prisoner Fax Request):
+a. Destination
+Check the box for the jurisdictional PSC/OCO-ODO to which you are sending the fax.
+b. Inmate identification
+Add to the SSA-2790 (Prisoner Fax Request) the beneficiary’s identifying information:
+•
+CAN: enter the wage earner's social security number (SSN);
+•
+BIC: enter the beneficiary identification code (A, B2, C1) of the person who you are
+suspending or reinstating;
+•
+BOAN: enter the beneficiary's own SSN; and
+•
+NAME: enter the first name, middle initial, and last name of the beneficiary subject to
+suspension or reinstatement.
+c. Suspension data
+1.
+Suspending monthly benefits
+Provide the PSC/OCO-ODO technician with the beneficiary’s prisoner suspension information.
+Code these entries as applicable:
+Date of:
+Suspension: enter the beneficiary’s first month of prisoner suspension in MM/YY format.
+For information on suspending benefits as a prisoner, see GN 02607.160A and for information on suspending benefits as a not-guilty-by-reason of insanity
+(NGRI) person, see GN 02607.310B. For suspension information on an incompetent to stand trial (IST) person, see GN 02607.330 and for suspension information for a sexually dangerous person (SDP), see GN 02607.350.
+NOTE: A beneficiary must serve more than 30 continuous days in an institution after conviction
+or commitment and confinement in an institution before we can suspend monthly benefits.
+Confinement: enter the beneficiary’s first month of confinement to the correctional
+or mental health institution, and
+Conviction: enter the date the beneficiary’s conviction and sentencing for a criminal
+offense occurred.
+NOTE: If a court orders a beneficiary confined as an NGRI, IST, or SDP, under an official
+order of commitment, line out the word, “Conviction” and replace it with “Commitment.”
+Enter the date the beneficiary’s official commitment began based on the court’s order.
+Suspense Type:
+Check one label in this category, “PRISON,” “MENTAL” (NGRI or IST), or “PREDTR” (SDP),
+as appropriate.
+2.
+Reinstating monthly benefits
+Provide the PSC/OCO-ODO technician with the beneficiary’s prisoner suspension information
+and their release date (MM/DD/YYYY):
+•
+Date of: For information on coding the entries under this category, see GN 02607.995B.3.c.1. in this section.
+Suspension:
+Confinement:
+Conviction:
+•
+Suspense Type: For information on coding the entries under this category, see GN 02607.995B.3.c.1. in this section.
+•
+Release:enter the date of the beneficiary’s official release from the correctional or mental
+health institution. For information on prisoner releases, see GN 02607.840A, and for an NGRI persons official release, see GN 02607.850. For information on an IST persons release, see GN 02607.852 and for an SDP person, see GN 02607.854.
+d. Due process
+Provide the following due process information for a prisoner suspension action, if
+you prepared an advance notice of proposed suspension:
+•
+Due Process Notice Date: Enter the date you sent the due process notice in MM/DD/YYYY format;
+•
+Due Process Period: Check the due process period (10-day or 30-day) for the due process notice; and
+•
+Notice Not Required: Check this block if a first-party report caused the suspension, the beneficiary is
+in non-pay status, or it is a closed period of suspension.
+e. Exclusion category
+Check the appropriate prisoner processing suspension or PUPS/POS reinstatement exclusion,
+PUPS T2R suspension exception, or other systems related category:
+1.
+PUPS and PUPS/POS automated processing exclusions
+a.
+PUPS suspension exclusions:
+Two PUPS suspension automated processing exclusions require special handling. These
+exclusions include correcting the current prisoner suspension month and year to an
+earlier date of prisoner suspension, or to a later date. Explain in the “Remarks”
+on the SSA-2790, the reason you are referring the PUPS alert or record to the PSC/OCO-ODO
+for further processing action. For information on processing these two exclusions,
+see GN 02607.740.
+b.
+PUPS (PUPS/POS) reinstatement exclusion:
+Online messages states, “T2 REINSTATEMENT EXCLUSION ACTION SENT TO PSC FOR PROCESSING.”
+Explain in the “Remarks” on the SSA-2790, the reason you are referring the PUPS alert
+or record to the PSC/OCO-ODO for further processing action. For information on this
+PUPS/POS processing exclusion, see GN 02607.860B.1.
+2.
+PUPS T2R suspension exceptions
+PUPS T2R suspension exception cases occur when a PUPS suspension action does not properly
+process a prisoner suspension (LAF S7) on the MBR. Explain in the “Remarks” on the
+SSA-2790, the reason you are referring the PUPS alert or record to the PSC/OCO-ODO
+for further processing action. For information on PUPS T2R exceptions (*PENDING cases),
+see GN 02607.750.
+3.
+OTHER (Explain in Remarks)
+Use the OTHER category only after consultation with your Regional Prisoner Coordinator
+(RPSC) or regional systems staff. If you check “OTHER,” explain the processing exclusion,
+exception, or system-related reason for referral in the “Remarks” section of the SSA-2790.
+For additional information on this category of system-related processing problems,
+see GN 02607.995B.2. in this section.
+4.
+Remarks
+Add information in this section to explain to the PSC/OCO-ODO technician the reasons
+why your PUPS suspension or reinstatement processing did not or could not work. Provide
+information in this section to assist the PSC/OCO-ODO technician in completing their
+actions to suspend or reinstate the beneficiary’s monthly benefits. For example, you
+may want to add remarks to explain that the beneficiary’s was incorrectly suspended
+and the beneficiary requests reinstatement, or notify the technician that you placed
+a copy of the beneficiary’s official release document in NDRED using the Evidence
+Portal (EP).
+f. FO preparer of the Form SSA-2790 (Prisoner Fax Request)
+Enter information in this section to identify who completed the SSA-2790 (Prisoner
+Fax Request).
+•
+Prepared by: Add your name in this field as the preparer of the form.
+•
+Date: Annotate the date you prepared the SSA-2790 (Prisoner Fax Request) for referral to
+the PSC/OCO-ODO.
+•
+FO Code: Indicate your SSA FO code in this field.
+•
+Telephone: Provide your SSA work number in this field.
+•
+Ext: Add your SSA work telephone number extension, if required.
+4. FO follow-up on the SSA-2790 (Prisoner Fax Request) referral
+If the beneficiary’s suspension or reinstatement processed, no further action is necessary.
+If the beneficiary’s suspension or reinstatement action is pending, call the jurisdictional
+PSC/OCO-ODO prisoner coordinator contact to inquire about your SSA-2790 referral.
+For the prisoner contact information for PSCs/OCO-ODO, see GN 02607.990B.

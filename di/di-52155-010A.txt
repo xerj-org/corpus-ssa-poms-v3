@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 52155.010 - Modernized Claims System (MCS) Earnings Computation (EC) and Workers' Compensation/Public Disability Benefit (WC/PDB)
+Effective Dates: 06/28/2013 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452155010 (fetched 2026-10-04)
+
+A. Case Display
+This field allows the user to select the EC screens that display Case Data that will
+be displayed in the MCS EC path. These screens provide account information that is
+used for all claimants on the record. WC/PDB screens can be viewed by selecting #1
+or #6 in the Case Display field on the MCR1/MCR2 screen. The WRAC screen provides
+the ACE Computation
+•
+Even if no WC/PDB is involved, a Y response to Disability Work Related on the DISB
+screen will cause the WRAC to be included in the Case Display.
+•
+If a manual ACE computation is necessary, return to the WPCL screen in the claims
+path to override the systems generated ACE. See DI 52150.010D. for an explanation of when the systems derived ACE would be overridden.
+The WRAD displays the factors that are used to determine offset when periodic payments
+are being made.
+•
+Verify the stop and start dates and monthly payment amounts.
+•
+If corrections are needed, return to the WPPR screen in the MCS claims path.
+The WRLS displays the lump sum (LS) information used and the results of the three
+LS proration methods.
+•
+Verify the LS amount, start date and expenses.
+•
+Verify that the proration method being used by EC is the most advantageous. See DI 52150.060 - Prorating a Workers’ Compensation/Public Disability Benefit (WC/PDB) Lump Sum Settlement
+for more information.
+•
+If the LS information requires correction or the systems derived proration method
+is not the most advantageous, return to the WPLS screen in the claims path and make
+the necessary corrections.
+MCS EC will also interface with the records of the Office of Personnel Management
+(OPM) if the individual is receiving a Federal pension. See DI 52130.001E. for an explanation of the data fields presented.

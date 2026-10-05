@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.367 - Coding Monaco Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402367 (fetched 2026-10-04)
+
+E. Description of Monaco IDD bank data
+The data for coding IDD for Monaco will come from the International Bank Account Number
+(IBAN) provided to the beneficiary from his or her FI. The IBAN is 27 characters.
+However, the bank data reflected on the MBR consists of 25 characters. Technicians
+will use the IBAN to derive the RTN and DAN when processing an IDD request.

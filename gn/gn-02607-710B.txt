@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02607.710 - Selecting the Correct Inmate Report for Processing When Multiple Reports Exist
+Effective Dates: 01/08/2015 - Present | TN 86 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607710 (fetched 2026-10-04)
+
+B. Reported conviction date is earlier than confinement date
+A court may convict an individual of a crime, but not confine them for several days
+or weeks after sentencing. When a PUPS report has a conviction date that is earlier
+than the confinement date, take the following corrective action:
+•
+change the conviction date on the PU02 or PU16 screen to equal the confinement date;
+and
+•
+document the reported conviction date on the PRMK screen.
+If we do not take this corrective action, PUPS incorrectly calculates an incentive
+payment based on a comparison of the date of conviction and the date of the report.

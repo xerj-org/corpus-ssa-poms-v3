@@ -1,0 +1,64 @@
+SSA Program Operations Manual System (POMS) - GN 02602.306 - Processing Completed Form SSA-1588-SM (Beneficiary Recontact Reports) and Handling Inquiries
+Effective Dates: 10/12/2023 - Present | TN 103 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202602306 (fetched 2026-10-04)
+
+B. PSC processing
+1. Completed forms
+When you receive a completed form SSA-1588-SM from the young surviving spouse in Paperless,
+follow the instructions below:
+If
+then
+The young surviving spouse still has a dependent child-in-care and did not marry or
+has married an entitled Social Security beneficiary,
+1.
+Input a “5 – Misc Susp/Term/Reinst” selection on the POS Selection List (PESL) screen
+in the Postentitlement Online System (POS). For information on the PESL screen, see
+MSOM T2PE 002.003.
+2.
+Input a “Y” on the line corresponding to the “Recontact – Suspension/Reinstatement
+(LAF-S9)” selection on the POS Suspensions/Terminations and Reinstatements (PEST)
+screen. For information on the PEST screen, see MSOM T2PE 003.013.
+3.
+Input a date in Response Received Date field on the Recontact (RQUD) screen and a
+“1 – Response Received” in the Select Action field.
+4.
+Complete the POS Address/Direct Deposit/Phone (PEAD) screen if the form also indicates
+a change of address. For information on the PEAD screen, see MSOM T2PE 003.002.
+The young surviving spouse married an individual not entitled to Social Security benefits,
+1.
+Input a “4 – Marriage/Divorce” selection on the PESL screen in POS.
+2.
+Complete the Beneficiary Marriage (BMAR) screen with the surviving spouse’s current
+marriage information. For information on the BMAR screen, see MSOM COMMON 005.007.
+3.
+Complete the POS Address/Direct Deposit/Phone (PEAD) screen if the form also indicates
+a change of address. For information on the PEAD screen, see MSOM T2PE 003.002.
+NOTE: Marriage to an individual not entitled to Social Security benefits will terminate
+the young surviving spouse’s entitlement. For more information, see RS 00208.035.
+The young surviving spouse does not have a child-in-care,
+1.
+Input a “10 – Child In Care Issues” selection on the PESL screen in POS.
+2.
+Input a “Y – Dependent Child Left Care – Suspension/Reinstatement (LAF-S4)” on the
+next screen, POS Child In Care Issues (PECI). For information on the PECI screen,
+see MSOM T2PE 002.008.
+3.
+Complete the Dependent Child Left Care (DCLC) screen using the information the beneficiary
+provided. For information on the DCLC screen, see MSOM COMMON 005.016.
+4.
+Complete the POS Address/Direct Deposit/Phone (PEAD) screen if the form also indicates
+a change of address. For information on the PEAD screen, see MSOM T2PE 003.002.
+NOTE: POS will automatically adjust the benefit rates to the other auxiliaries receiving
+benefits on the record.
+2. Incomplete forms
+When you receive an incomplete form in Paperless directly from the young surviving
+spouse, make two attempts to contact the beneficiary using direct contact (DIRCON)
+instructions in GN 01070.305.
+If you are able to collect the missing information during DIRCON, based on the response,
+follow the instructions outlined in GN 02602.306B.1 in this section.
+If you are unable to collect the missing information during DIRCON, update the RQUD
+screen by inputting a “3 – S9 Suspension” in the Select Action field.
+3. PSC exceptions
+When you receive a PSC exception from the WBDOC, take the necessary action that pertains
+to the exception reason (e.g., there is a correction to the pre-printed data or there
+are attachments or additional information for review and action).

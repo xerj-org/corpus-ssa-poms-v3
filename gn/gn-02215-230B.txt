@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - GN 02215.230 - Result of Bankruptcy Proceedings - PC Procedure
+Effective Dates: 03/31/2023 - Present | TN 48 (03-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202215230 (fetched 2026-10-04)
+
+B. Procedure
+1. Debt Discharged Without Exception
+If a Proof of Claim was filed, input a Record Bankruptcy Judgment (DFBJ) screen with
+a Decision of 1 – FULL DISCHARGE (MSOM DMS 007.007) to delete the debt from ROAR control. Annotate the MBR special message field: “DEBT
+DISCHARGED.” Pay any subsequently determined underpayment. DELETE ANY PENALTY.
+If a Proof of Claim was not filed, simply annotate the MBR as indicated. Pay any subsequently
+determined underpayment. Make sure that any penalty is also deleted.
+If the debt was discharged under Chapter 7, repay any monies withheld effective with
+the month of bankruptcy filing (i.e., the date of the bankruptcy notice).
+If a refund (voluntary, without protest) is subsequently received, deposit the refund
+in the appropriate trust fund. If the refund does not completely satisfy the debt,
+do not initiate any follow-up recovery efforts. Clear the remittance control, and
+change the amount of the outstanding overpayment reflected in the special message
+field.
+2. Court Ordered Repayment
+If a Proof of Claim was filed under Chapter 7 and repayment is limited to a portion
+of the debt (see example in GN 02215.230A.2.b.), input a DFBJ screen with a bankruptcy decision of 3, the collectable amount allowed
+by the court, and a diary date of 6 months to control receipt of the payment. If a
+Proof of Claim was filed under Chapter 7 and repayment is for the full amount to be
+refunded, input a DFBJ screen with a bankruptcy decision of 4 and a diary date of
+6 months to control receipt of the payment.
+If a Proof of Claim was filed under Chapter 13 and specific payments are involved,
+maintain the TC 23 (or TC 84 if the debt was controlled by RECOOP) indicator. (DO NOT INPUT AN INSTALLMENT AGREEMENT. Establish a diary based on information obtained from the repayment plan to the DRDY
+screen (MSOM, DMS 007.021).
+Follow-up with OGC in any repayment situation if payment is not received when a diary
+matures and re-diary for no less than 12 months.
+If a Proof of Claim was not filed, the debt was deleted from ROAR control (GN 02215.195E.). Consequently, if a discharge order is received in this situation and repayment
+is involved, reestablish the overpayment on ROAR and proceed as indicated for situations
+where a Proof of Claim was filed.

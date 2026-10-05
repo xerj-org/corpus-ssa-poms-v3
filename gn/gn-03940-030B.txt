@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 03940.030 - Field Office (FO) and Processing Center (PC) Processing of Fee Agreements on Title II Portion of Concurrent Titles II and XVI Claims
+Effective Dates: 12/09/2024 - Present | TN 51 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940030 (fetched 2026-10-04)
+
+B. FO Actions
+In concurrent claims at the initial and reconsideration level, the Title II claims
+specialist (CS) approves or disapproves the fee agreement for both Titles.
+NOTE: The computation of the Title XVI past-due benefits, the fee and the assessment,
+and direct payment, if pertinent, are automated in many cases; however, the automated
+process depends on the correct posting of the Title II fee to the Authorized Fee field
+of the APPREP data line of the Master Beneficiary Record (MBR) (see SM 00510.104,
+Appointed Representation (APPREP) Data Line). In cases where the Authorized Fee field
+is not present on the APPREP data line, the automated process may use the FEE AMT
+field instead. The APPREP data line on the MBR must be posted for both attorneys and
+non-attorneys in all fee agreement cases for the automated windfall offset and fee
+adjustment process to work on the SSI record, even if the representative or the entity,
+if there is a valid assignment as per GN 03920.021, will NOT receive direct payment of the Title XVI fee.
+Although the offset, fee calculation, and direct payment processes are fully automated
+in most cases, if the automated process cannot be used, the following manual actions
+are required.
+When we pay the Title II claim an interface or diary alerts the Title XVI CS of the
+action, or, if it does not, the Title II CS informs the Title XVI CS of the action.
+When the Title XVI CS prepares to effectuate the Title XVI claim, the CS reviews:
+•
+The APPREP data line of the MBR to get the fee amount authorized based on the Title
+II claim, which is necessary to determine the fee amount to authorize based on the
+Title XVI past-due benefits (see SM 00510.104, Appointed Representation (APPREP) Data
+line). The Title II CS will have determined the non-attorney’s direct payment status.
+•
+The Representative, Appointment, Services, and Registration (RASR) application to
+determine if the representative is eligible for direct payment. If a representative
+has validly assigned direct payment of their authorized fee to an entity as per GN 03920.021, determine if that entity is eligible to receive direct payment of fees by querying
+RASR to ensure that the entity has registered and has not been placed on the Ineligible
+for Direct Payment Entity list.
+•
+The Single Payment System (SPS) to determine the assessment amount deducted from the
+Title II fee paid to the representative or entity in order to determine the assessment
+to deduct, if any, from the fee payable directly to the representative, or to the
+entity if there is a valid assignment, from the Title XVI past-due benefits. (SPS
+is item 27, Payments Outside Title II System, on the SSA Main Menu.)

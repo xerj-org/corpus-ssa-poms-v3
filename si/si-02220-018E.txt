@@ -1,0 +1,127 @@
+SSA Program Operations Manual System (POMS) - SI 02220.018 - Debtor Reactions to Collection of Title XVI Overpayments by Administrative Wage Garnishment (AWG)
+Effective Dates: 01/04/2023 - Present | TN 113 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502220018 (fetched 2026-10-04)
+
+E. Procedure - Other Reports that Could Affect AWG
+1. Debtor Alleges Nonreceipt of the Overpaid Amount
+If a debtor alleges nonreceipt of the overpaid amount, obtain an SSID and/or an Inquiry
+Response Query. If the query shows no record of nonreceipt of the payment(s) in question,
+proceed as follows:
+TSC/FO/PC Action
+•
+If the debtor had a representative payee, explain that the payment(s) was sent to
+the payee and there is no indication that payment(s) was not received.
+•
+If there was no representative payee, explain that our records do not show any evidence
+of a nonreceipt allegation at the time the initial overpayment notice was sent.
+•
+If the debtor insists that we provide a photocopy of the check(s) in question, explain
+that we will investigate but the debt will still be subject to TOP/ECO collection
+tools (Treasury Offset Program, credit bureau reporting and AWG).
+•
+If the investigation supports the nonreceipt allegation and the debt is found not
+to exist, explain that SSA will repay any amounts collected by AWG and/or TOP, and
+will also delete the debt from the person's credit report.
+•
+Follow GN 02406.117 to handle the nonreceipt allegation for a check and GN 02406.007 for a direct deposit
+payment (these references apply to titles II and XVI payments). DO NOT make any systems
+input.
+NOTE: If the investigation shows that a copy of the check is not available, presume that
+the debtor received the check. The overpayment should be determined to stand.
+2. Debtor Alleges Nonreceipt of Initial Overpayment Notice
+If the debtor alleges never receiving the initial overpayment notice, proceed as follows:
+a. TSC/PC Action
+•
+Advise the debtor to submit a statement regarding nonreceipt of the notice along with
+his/her current address and telephone number to the FO in person or by mail.
+•
+Provide the address and telephone number of the FO that services the debtor.
+•
+Explain to the debtor that applicable TOP/ECO collection tools (Treasury Offset Program,
+credit bureau reporting and AWG) will continue to apply unless we can confirm his/her
+allegation.
+b. FO Action
+•
+Get a statement from the debtor regarding nonreceipt of the notice along with his/her
+current address.
+•
+Explain to the debtor that TOP/ECO will continue to apply unless we can confirm his/her
+allegation through a folder review.
+•
+If the claims folder is in the FO, check for an undeliverable notice and process according
+to the following instructions.
+c. Undeliverable Initial Overpayment Notice Was Remailed
+Review the claims folder to determine if the notice was returned as undeliverable.
+If the undeliverable initial overpayment notice was remailed, take the following actions:
+•
+Tell the debtor the date the new notice was mailed.
+•
+Tell the debtor that the overpayment is still subject to collection by TOP/ECO tools.
+d. Undeliverable Initial Overpayment Notice Not Remailed
+If a subsequent notice was not mailed, the debtor has the right to a full administrative
+review process. Take the following actions if the original notice was returned as
+undeliverable and a subsequent notice was not mailed:
+•
+Send an initial overpayment notice to the debtor's current address and overlay the
+old notice date with the new notice date using the MSSICS Update Sequence Data (UOSD)
+screen (see MS
+00304.006). If the debtor is in the FO, give him/her the initial overpayment notice.
+•
+If there is a disposition code on the SSR, delete the old disposition code by completing
+the MSSICS Add/Change/Delete Overpayment Decisions (UODC) screen. (See MS
+00304.007).
+•
+The new notice date will overlay the old and an unresolved overpayment will be computed.
+NOTE: The above actions will delete the debt from the Treasury Offset Program and from
+AWG until the debt becomes delinquent and meets all TOP/ECO selection criteria. The
+preceding actions will not, however, delete the debt from the credit bureau if it
+was previously reported as delinquent. Advise the debt management program analyst
+regarding the need to delete the debt from the credit bureau report.
+e. No Evidence to Support Allegation of Nonreceipt of Notice
+If there is no evidence to support the debtor's allegations about not receiving the
+initial overpayment notice, take the following actions:
+•
+Advise the debtor (by telephone, if possible) accordingly.
+•
+Explain that since there is no evidence that the notice was returned as undeliverable
+by the post office, we must proceed on the assumption that the notice was received.
+•
+Document the DMS Remarks (RMKS) screen with the information about the debtor contact.
+3. Report of Bankruptcy Proceeding
+Reports of bankruptcy proceedings on AWG cases are handled the same way as on all
+other overpayment cases. Proceed as follows when you receive a report that a bankruptcy
+petition is pending or that a debt has been discharged in bankruptcy:
+a. TSC Action
+•
+Tell the caller to submit the bankruptcy petition or discharge order to the servicing
+FO.
+•
+Provide the address and telephone number of the servicing FO.
+•
+Explain that all debt collection processes will continue until SSA receives and reviews
+the bankruptcy information and determines that recovery efforts should stop.
+•
+Explain that if the person provides the bankruptcy information within 60 days of the
+pre-offset notice, debt collection processes could be stopped.
+•
+Record the contact on DMS Remarks.
+•
+Do not make any input to stop AWG.
+b. FO/PC Action
+Follow the instructions in SI 02220.040 when you receive a notice of a bankruptcy proceeding.
+NOTE: Any suspend billing input code (other than “Delete”) on the MSSICS Update Sequence
+Data (UOSD) Screen will automatically result in preventing or stopping AWG. (See MS
+00304.007 for more detailed instructions on this screen). Therefore, you do not need to make
+any special input to stop AWG.
+4. Report of Death
+For a report of death, proceed as follows.
+a. FO/TSC Action
+If the FO/TSC first finds out that a debtor is deceased, obtain proof of death as
+required by GN 00304.001. Report the death to the PC as quickly as possible. Provide the debtor's name, claim
+number and date of death, if known.
+b. PC Action
+If the PC first finds out that a debtor is deceased, obtain proof of death as required
+by GN 00304.001. Input the death using the Stop Collection Action (TRSC) screen (see MS
+00304.013) which is requested from the Debt Management screen. This input will prevent or stop
+collection action by TOP/ECO processes.
+Conduct any estate development in accordance with GN 02215.050 through GN 02215.070.

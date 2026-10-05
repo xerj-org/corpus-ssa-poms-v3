@@ -1,0 +1,42 @@
+SSA Program Operations Manual System (POMS) - GN 02402.406 - Coding Palestine Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402406 (fetched 2026-10-04)
+
+G. Example of coding Palestine direct deposit
+The customer provides us with a signup form for Palestine with the account number:"1234567890".
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code RTN as 680123456;
+•
+Code the account type as C for checking or S for savings. If no account type indicated,
+use C for checking.
+2. Derive the DAN
+The technician codes the DAN:
+•
+Start with country code V designated for Palestine; and
+•
+Code the 10-digit account number 1234567890.
+3. Technician obtains the bank data
+•
+RTN: 680123456
+•
+Checking
+•
+DAN: V1234567890
+a. POS coding reflects the bank data
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 680123456
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: V1234567890
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the bank data
+•
+RTN 680123456
+•
+DAN CV1234567890

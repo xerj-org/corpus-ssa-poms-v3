@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - DI 52120.265 - Washington (WA) Workers Compensation (WC)
+Effective Dates: 07/09/2026 - Present | TN 151 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120265 (fetched 2026-10-04)
+
+G. Processing claims involving WA WC via MCS
+When you answer Y to the mandatory question REVERSE JURISDICTION INVOLVED? on the
+MCS Common WC/PDB Claim Data (WPCL) Screen, you must enter a start date for reverse
+offset. Since the start date for reverse offset for WA depends on the claim adjudication
+date, the FO will not know the start date at the time you input a disability claim
+involving WA periodic payments through MCS.
+Process disability claims involving WA WC where TT or PT payments have been awarded
+as follows:
+1.
+Input the following on the WPCL Screen:
+•
+Is reverse jurisdiction involved? Y
+•
+If Yes, Start (MMDDCCYY) ______. (Input the Date of Filing plus 3 months.)
+•
+No Stop Date is required. However, a stop date equal to age 62 may be used.
+2.
+Establish an issue of WPCL on the DW01 screen.
+3.
+Do not input Non-Medical Completion (SPORT) or Auto-Initiate on these claims.
+4.
+When a claim is approved, update the START date on the WPCL screen to reflect the
+first of the month following the month the DECI screen is completed.
+5.
+Update the DW01 to reflect receipt of the WPCL issue and indicate the reverse jurisdiction
+start month in the REMARKS column.
+6.
+Enter a 042 diary on the DECI screen and change the due date on the DIAR screen to
+4 months prior to age 62.
+7.
+If the WC/PDB data must be input via ICF WC/PDB (e.g., due to an MCS processing limitation),
+enter Y under REVERSE JURISDICTION INVOLVED (Y/N) and the appropriate first of the
+month START date on the ICF WCCD screen. For more information on ICF entries, see
+MSOM ICFT2 031.012.

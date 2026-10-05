@@ -1,0 +1,185 @@
+SSA Program Operations Manual System (POMS) - GN 03940.046 - Title XVI — Field Office Processing of Fee Agreements on Favorably Decided Title XVI Only Claims
+Effective Dates: 12/09/2024 - Present | TN 54 (06-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203940046 (fetched 2026-10-04)
+
+D. Fee Agreement Approved - Representative(s) Eligible for Direct Payment
+1. Prior Overpayment
+Manual processing is required when there is an overpayment for a prior period of eligibility
+that is greater than 75 percent of the past-due benefits. It is also necessary in
+interim assistance reimbursement (IAR) cases with an overpayment for a prior period
+of eligibility where the sum of the IAR payment and the overpayment is greater than
+75 percent of past-due benefits. Refer to SM 01901.950C.3 for procedures in these
+situations:
+CASE SITUATION
+REFERENCE
+Prior overpayment, IAR involved
+SM
+01901.950C.3.b.
+Prior overpayment, No IAR involved
+SM
+01901.950C.3.e.
+In addition, if the claim also involves one of the exceptions to automated processing
+listed in GN
+03940.046C.2., refer to the pertinent procedures
+in GN
+03940.046D.2 through GN
+03940.046D.6.
+2. Multiple Representatives
+If all representatives have assigned direct payment of their fees to the same entity,
+it is not necessary to manually input any information, as payment to the entity will
+be automated. However, if there are multiple representatives, and at least one did
+not assign direct payment of their fee to an entity or all did not assign to the same
+entity, take these additional actions:
+•
+Ensure that on the Modernized SSI Claims System (MSSICS) UFEE screen, item 3, Multiple
+Authorized Representatives, is coded “Y.”
+•
+In item 6, Fee Status, on the MSSICS UFEE screen, select “8,” “Manually computed fee
+agreement.” (See MS 00302.014.)
+•
+Manually calculate the fee and the user fee, and divide the fee and the user fee between/among
+the representatives. If all the representatives have validly assigned direct payment
+of their fee to the same entity, do not divide the fee and user fee. For multiple
+representatives see GN
+03920.050D.2 and GN
+03920.019E.
+•
+Enter the representative fee and user fee on the One-Time Payment Fees (UPOF) screen
+(see MSOM BUSSR 003.025).
+•
+Issue a manual fee notice from the Document Processing System (DPS) to the claimant,
+with a copy to the representative, to explain the fee authorization and payment actions
+(see GN
+03940.070).
+NOTE: If there is a valid assignment of direct payment of the representative’s fee to an
+entity, the entity’s POC may need to review fee-related information to resolve fee-related
+issues. However, do not send a copy of the award notice or other protected information
+(e.g. claimant information) to the entity’s point of contact (POC) unless it is the
+minimum amount of information necessary for the POC to review to resolve fee-related
+issues. Only disclose information that is not relevant or necessary to resolve fee-related
+issues if the claimant has expressly consented on a Form SSA-3288 or other written
+consent that meets the requirements of GN
+03305.003. For information on assignment of direct payment of fees, including the roles and
+responsibilities of a POC, see GN
+03920.021.
+Refer to GN
+03940.046D.6 for the order in which to take these actions.
+3. Eligible Couples – Past-Due Benefits of Both Members of Couple Included in Authorized
+Fee Amount
+Refer to GN 03940.052 for the policy for calculating past-due benefits in an SSI couple’s case. The system
+will calculate the portion of the authorized fee that is based on the eligible individual's
+past-due benefits; however, when including the eligible spouse's past-due benefits
+increases the amount of the authorized fee, take these actions:
+•
+In item 6, Fee Status, on the MSSICS UFEE screen, select “8,” “Manually computed fee
+agreement.” (See MMS 00302.014.)
+•
+Manually calculate the additional fee to authorize based on the eligible spouse's
+past-due benefits, ensuring that the total fee does not exceed the maximum fee based
+on the fee agreement.
+•
+Withhold from the eligible spouse's past-due benefits the amount calculated above
+and calculate the user fee, if applicable.
+•
+Enter the representative fee and user fee on the One-Time Payment Fees (UPOF) screen
+(see MSOM BUSSR 003.025).
+•
+Issue a manual notice from DPS to the eligible spouse, with a copy to the representative,
+to explain the fee authorization and payment actions (see GN
+03940.070).
+NOTE: If there is a valid assignment of direct payment of a representative's fee to an
+entity, the entity's POC may need to review fee-related information to resolve fee-related
+issues. However, do not send a copy of the award notice or other protected information
+(e.g. claimant or eligible spouse information) to the entity’s POC unless it is the
+minimum amount of information necessary for the POC to review to resolve fee-related
+issues. Only disclose information that is not relevant or necessary to resolve fee-related
+issues if the eligible spouse has expressly consented on a Form SSA-3288 or other
+written consent that meets the requirements of GN
+03305.003.
+Refer to GN
+03940.046D.6 for the order in which to take these actions.
+4. Start Dated Records, Force Pay Records, Force Due Records, and Post Eligibility Cases
+If the current SSR record has a start date (regardless of whether the start date month
+is earlier or later than the beginning of the past-due period subject to fees) or
+is a force pay record, a force due record, or a post eligibility case (i.e., disability
+cessation appeal), the SSI system is not programmed to compute the Title XVI portion
+of the fee. Therefore, the Title XVI portion of the fee must be computed and paid
+manually. In any of these situations, take these actions:
+•
+Follow the instructions in MS 00302.013.
+•
+Enter the representative fee and user fee on the One-Time Payment Fees (UPOF) screen
+(see MSOM BUSSR 003.025).
+•
+Issue a manual notice from DPS to the claimant, with a copy to the representative,
+to explain the fee authorization and payment actions (see GN
+03940.055).
+5. Representative Eligible for Direct Payment Waives Fee
+When a representative who is eligible for direct payment states the representative
+will not charge a fee, send a manual notice to the representative to advise the representative
+how the waiver affects our action. A notice is available in DPS titled, “Atty Fee-Representative
+Waives Fee.
+6. Manually Calculated Fee and Direct Fee Payment
+When it is necessary to manually calculate the title XVI fee amount (see GN 03940.046C.2) and the representative has not waived a fee and is eligible for direct fee payment,
+follow the order below to process the fee action.
+STEP
+ACTION
+NOTES
+1
+Determine the SSI retroactive benefit amount.
+See GN
+03940.046A.1.c.
+2
+Calculate the past-due benefit amount for fee purposes and the title XVI fee (not
+to exceed the maximum fee specified in the fee agreement).
+See GN 03920.031 and GN 03940.046A.1.d and e.
+3
+Determine the amount available to pay by one time payment (OTP) to the representative
+or to an entity if there is a valid assignment, as follows:
+SSI retroactive amount (Step 1)
+- IAR amount, if any
+Difference (amount available to pay by OTP to the representative or entity)
+4
+Determine the user fee amount and the amount to pay by OTP to the representative or
+the entity as follows:
+Compare the Title XVI fee (Step 2) with the amount available (Step 3).
+•
+If the Title XVI fee is greater than the amount available, use the amount available
+(Step 3) to calculate the user fee. Subtract the user fee from the amount available,
+and the remainder will be paid to the representative or entity by OTP.
+•
+If the Title XVI fee is equal to or less than the amount available, use the Title
+XVI fee amount (Step 2) to calculate the user fee. Subtract the user fee from the
+fee and the remainder will be paid to the representative or entity if there is a valid
+assignment by OTP.
+See GN 03920.019 for additional guidance on calculating the amount to pay to the representative
+See GN 03920.019 Assessment on Representatives Who Received Direct Payment
+See GN 03920.025 if the claimant deposited money in an escrow account.
+5
+Determine the amount to pay by OTP to the claimant as follows:
+SSI retroactive benefit amount (Step 1)
+–
+IAR amount, if any
+–
+Amount used to collect the user fee and pay the representative or entity by OTP (Step
+4)
+–
+Prior collectible overpayment, if any
+Difference (amount to pay by OTP to the claimant)
+Consider installment/dedicated account provisions
+(See SI 02101.020 and SI 02101.010.)
+See GN 03920.033 Representative’s Fee – Title XVI Past-Due Benefits Payable
+6.
+Issue the IAR by OTP. Leave the fee status unresolved.
+7.
+The following day, post the manual fee information to the SSR via UFEE using a FEE
+STATUS = 8 and the approved title XVI fee amount (Step 2). The SSR will display FST
+= M and FMA = the title XVI fee amount.
+8
+Issue the OTP to the representative or entity if there is a valid assignment in the
+amount calculated at Step 4, and post the user fee.
+9
+Issue a manual fee notice.
+See GN 03940.008 and GN 03940.055 for notice policy and procedures
+Refer to SM 01901.950 One Time Payment (OTP) Processing for Direct Payment for Manual
+Fee Agreements and Fee Petitions for Appointed Representatives.

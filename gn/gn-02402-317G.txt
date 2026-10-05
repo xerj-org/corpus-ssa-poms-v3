@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02402.317 - Coding British Virgin Islands Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/25/2026 - Present | TN 327 (08-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402317 (fetched 2026-10-04)
+
+G. Example of coding British Virgin Islands direct deposit
+The customer provides us with a signup form for the British Virgin Islands containing
+the account number: "123456789012", Bank Code (123), and Branch/Transit Code (45678).
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN 700123452 - (The final digit, 2, is the U.S. check digit for 70012345);
+•
+Code the type of account as a “C” for Checking or an “S” for Savings. If no account
+type indicated, use a “C” for Checking.
+2. Derive the DAN
+The technician co9des the DAN.
+•
+Start with the country code of "G" designed for the British Virgin Islands;
+•
+Code the remaining 3 digits of the Branch/Transit Code "678";
+•
+Code the account number "123456789012".

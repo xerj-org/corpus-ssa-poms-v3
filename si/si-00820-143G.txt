@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - SI 00820.143 - Monthly Wage Reporting
+Effective Dates: 09/26/2013 - Present | TN 91 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820143 (fetched 2026-10-04)
+
+G. Procedure for over-reported wage alerts effective 6/28/2008
+S7, J3, and J5 alerts detect situations where the SSR reflects more wages for a recipient, deemor, or essential person than are indicated by either the
+OCSE or the MEF.
+These alerts ensure that individuals whose monthly wage reports are not subject to
+further verification are not erroneously underpaid SSI benefits due to an error in
+the reported wage amount.
+Refer to development instructions:
+•
+SI 02310.063 State Wage Record Match (S7 Diary)
+•
+SI 02310.056 Master Earnings File (MEF) Match (J3 and J5 Diaries)

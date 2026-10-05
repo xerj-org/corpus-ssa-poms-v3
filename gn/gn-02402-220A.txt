@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02402.220 - List of International Direct Deposit (IDD) Countries and references for updating the Master Beneficiary Record (MBR)
+Effective Dates: 08/15/2023 - Present | TN 309 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402220 (fetched 2026-10-04)
+
+A. Policy for updating IDD to the MBR
+International Direct Deposit (IDD) data is retained on the MBR in the same fields
+that are used to retain U.S. direct deposit information. However, the Social Security
+Administration (SSA) creates a pseudo routing/transit number (RTN) for IDD by adding
+a two-digit prefix to the foreign bank/branch number. For some countries, part or
+all of the bank/branch number must be included in the Depositor Account Number (DAN).
+For countries included in multi-country contracts, the two-digit prefix identifies
+the processor bank, and the first character of the DAN is a letter that identifies
+the country. The exception is Greece, which is under a multi-country contract but
+has a separate two-digit prefix.
+IMPORTANT:
+It is absolutely crucial to add this information:
+•
+use the correct RTN prefix code;
+•
+include the foreign bank information in the RTN and DAN fields; and
+•
+include the country letter for any country included in a multi-country contract, when this is shown in the chart
+at GN 02402.220B.2. in this section.

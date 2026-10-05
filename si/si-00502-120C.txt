@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - SI 00502.120 - Eligibility on the Basis of Receiving SSI Benefits on an Application Filed Before January 1, 1979
+Effective Dates: 08/01/2008 - Present | TN 29 (12-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502120 (fetched 2026-10-04)
+
+C. Procedure
+1. Receiving SSI Benefits After July 1996 on the Basis of an Application Filed Before
+1/1/79
+Verify receipt of SSI benefits for months after July 1996 by querying the SSR and
+looking at the CMPH segment, payment status (PS) field for 08/96 (or the next earlier
+month shown, if no entry appears for 8/96). Check for PS C01, N01 or one of the other
+eligibility statuses listed in SI 00502.100B.1. Verify that SSI benefits are payable based on an application filed before 1/1/79
+by looking at the PRSN segment, date of application (AP) field. This field should
+contain an entry in month/day/year format of 12/31/78 or earlier. It is not necessary
+to document the file with a printout of the SSI query.
+2. Evidence of Alien Status
+Assume, absent evidence to the contrary, that SSA does not have clear and convincing
+evidence that an individual receiving SSI benefits after July 1996 on the basis of
+an application filed before 1/1/79 is an alien ineligible for SSI benefits as described
+in SI 00502.100. If the individual contacts SSA, advise them that SSI benefits will continue as long
+as the individual meets all other eligibility requirements. Do not ask for evidence of alien status unless evidence must be obtained because of a reported
+change in status.
+EXCEPTION: If the individual provides SSA with evidence of their alien status, the evidence must
+be evaluated as described in these instructions to determine the individual's continuing
+eligibility for SSI. If the evidence submitted indicates that the individual is ineligible,
+follow instructions in SI 00502.100 ff. However, do not request such evidence when the individual contacts SSA but does
+not provide evidence of alien status.

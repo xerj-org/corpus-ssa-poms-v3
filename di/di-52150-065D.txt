@@ -1,0 +1,105 @@
+SSA Program Operations Manual System (POMS) - DI 52150.065 - Complex Lump Sum (LS) Awards and Settlements
+Effective Dates: 08/01/2023 - Present | TN 39 (11-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150065 (fetched 2026-10-04)
+
+D. Structured settlements
+WC settlements may involve an initial LS payment and subsequent installments paid
+at specified intervals. These are generally referred to as structured settlements.
+Review State procedures in DI 52120.001 for structured settlements (e.g., LS settlements in the State of Maine frequently
+end in structured settlements, see DI 52120.110).
+To compute offset, prorate the initial LS payment using regular LS proration procedure
+and treat each subsequent yearly installment as a separate LS using the beginning
+date specified.
+1. Allocating installment payments
+•
+Allocate installment payments to the period specified in the award.
+•
+Do not allocate payments to a period other than what is specified in the award.
+•
+Disallow award language that deems payments or expenses to be allocated to periods
+that are different than the periods for which the payments are actually made or expenses
+incurred.
+2. Rate for proration
+•
+If a rate is specified for the initial LS payment only, use that specified rate to
+prorate both the initial LS payment and the subsequent installment payments.
+•
+If the award does not stipulate any rate, use the prior periodic payment rate for
+proration of both the initial LS payment and the subsequent installment payments.
+•
+If the award does not stipulate any rate and no previous periodic payments were paid,
+see DI 52150.060D.3.e. and DI 52150.060D.3.f. to determine the LS proration rate.
+Example:
+•
+DOB: 02/04/1958
+•
+DOI: 01/19/1998
+•
+DOED: 07/1998
+•
+Periodic payments issued 01/20/1998-02/15/2003 at $262.56 weekly.
+Structured settlement approved 07/19/2003, paid in installments as follows:
+•
+$20,000 at time of approval, $2,000 allotted for future medical
+•
+$30,000 payable 07/01/2004, $3,000 allotted for future medical
+•
+$50,000 payable 07/01/2006, $5,000 allotted for future medical
+•
+$50,000 payable 01/01/2010, $5,000 allotted for future medical
+No stipulation found in the award for prorating the various LS payments.
+•
+When making MCS or ICF inputs - enter the periodic payments as indicated above
+•
+Enter the initial LS amount of $20,000, the proration rate of $262.56 weekly, a start
+date of 02/16/2003, and $2,000 excludable medical expenses. Select the most advantageous
+proration method.
+•
+Enter the second LS as a second claim (e.g., assign a different WC claim number on
+the WPMU screen in MCS and the WCCL screen in ICF, such as #WC 634JB-1 for the initial
+$20,000 LS installment amount and #WC 634JB-2, for the $30,000 second LS installment,
+etc).
+•
+Enter the LS amount of $30,000, the proration rate of $262.56 weekly, a start date
+of 07/01/2004, and excludable medical expenses of $3,000. Select whichever proration
+method is most advantageous.
+•
+Enter the third LS as a third claim (e.g., assign a different WC claim number on the
+WCCL screen in ICF: #WC 634JB-1, #WC 634JB-2, #WC 634JB-3, etc). Key the LS amount
+of $50,000, the proration rate of $262.56 weekly, a start date of 07/01/2006, and
+excludable medical expenses of $5,000. Select the most advantageous proration method.
+•
+PC prepares a PCACS diary for the fourth LS to be paid 01/2010 at the time the final
+installment will be added to the current computation as a fourth LS claim. The LS
+amount to key at that time is $50,000, the proration rate remains $262.56 weekly,
+the start date is 01/01/2010, and excludable medical expenses are $5,000. Select the
+most advantageous proration method.
+NOTE: If gaps result in the offset computation due to one proration ending before issuance
+of the next payment, consider all payments are based on the same injury/illness award.
+Therefore, there is no break in WC entitlement and all COLA increases are protected.
+Regarding breaks in WC/PDB offset, payment, and entitlement, review DI 52150.055.
+Be alert to potential systems limitations when processing a structured settlement.
+MCS cannot process an offset computation when there are breaks in the offset between
+each LS, use ICERS.
+NOTE: Some cases may require a combination of workarounds in ICF WC/PDB or manual computations.
+See Interactive Computations Facility (ICF) Resource Page for WC/PDB Offset Computations ) to process:
+1.
+Multiple WC/PDB claims (more than one injury or illness)
+Make the following selections when no ongoing periodic payments are involved:
+•
+ICF FUNCTIONS 31 (WC/PDB: PRE-ADJUDICATE CLAIM) AND 32 (WC/PDB: ADJUDICATE CLAIM)
+•
+Other Program Limitations (Not Documented in MSOM)
+•
+Gap Between Two Different WC/PDB Claims
+2.
+One WC/PDB claim (one injury or illness)
+Make the following selections when periodic payments are involved:
+•
+ICF FUNCTIONS 31 (WC/PDB: PRE-ADJUDICATE CLAIM) AND 32 (WC/PDB: ADJUDICATE CLAIM)
+•
+Known Program Problems (With Workarounds, if Any)
+•
+Problems Relating to Lump Sum Prorations
+•
+Overlapping LS and Periodic Payments for Same WC Claim

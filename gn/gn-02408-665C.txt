@@ -1,0 +1,22 @@
+SSA Program Operations Manual System (POMS) - GN 02408.665 - Financial Institution (FI) Returns Incorrect Payments to SSA
+Effective Dates: 04/21/2025 - Present | TN 90 (04-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408665 (fetched 2026-10-04)
+
+C. Process for Title II
+When a Title II payment after death is returned through Treasury, the information
+is usually automatically posted to the Payment History Update System/Master Beneficiary
+Record (PHUS/MBR). The following changes are shown on the beneficiary’s record:
+•
+EVENT 009 RET CHECK is posted to PHUS, showing the payment date, amount, and date
+of return.
+•
+The BSPA on the MBR and PHUS is reduced by the amount of the payment.
+When a returned payment recovers an incorrect payment, notify Treasury to abandon
+reclamation if the FMS-133/135 is not received. For information on how to process
+an EFT abandon reclamation request, see GN 02408.800.
+Input an SSA-4208 to update the Accounts Receivable System (ARS) with the amount of
+the refund.
+When the returned payment does not automatically post, an exception is sent to the
+PC. The PC makes a manual input to post the return. When the payment is not posted
+promptly, it is possible for another reclamation request to be sent, causing a dual
+recovery.

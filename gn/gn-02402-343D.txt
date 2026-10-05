@@ -1,0 +1,23 @@
+SSA Program Operations Manual System (POMS) - GN 02402.343 - Coding Japan Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/17/2020 - Present | TN 273 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402343 (fetched 2026-10-04)
+
+D. Process
+1. Reviewing Japan Bank Data
+Completed enrollment forms are routed to the Social Security section at Tokyo FBU
+in Tokyo, Japan for review and input. They review the forms for completion and return
+them for completion or correction if necessary.
+Any question about the validity of any Japan IDD data is routed to DIO or FBU.
+If routing information for the selected bank is not yet on the list at FRBKC, the
+beneficiary must obtain the full name and address of the bank, and its SWIFT code.
+If a bank or branch uses another bank to route its direct deposits, that information
+must be given also.
+2. Coding Japan bank data to the MBR
+The data is examined at the Tokyo FBU to see if the bank data is already on the list
+of Japan banks that FRBKC can reach with payments. If not, the Tokyo FBU asks FRBKC
+if this data can be added to FRBKC's internal list.
+The staff at Tokyo FBU inputs the approved data into ITS.gov. FRBKC then sends the
+data to SSA through Automated Enrollment for input to the MBR.
+When DIO receives an enrollment for Japan, the input can be done through either the
+applicable SSA software or ITS.gov. If it is within 4 days of the cutoff for direct deposit, DIO must code directly to
+the MBR.

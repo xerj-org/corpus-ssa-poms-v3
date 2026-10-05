@@ -1,0 +1,35 @@
+SSA Program Operations Manual System (POMS) - DI 52105.001 - Reverse Offset Plans
+Effective Dates: 04/06/2017 - Present | TN 1 (11-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452105001 (fetched 2026-10-04)
+
+E. Verifying the existence of reverse offset plans
+Take the following actions to verify whether WC/PDB is paid under a recognized reverse
+offset plan:
+1.
+Verify the type of WC/PDB being received if the State only reduces certain types of
+WC/PDB (e.g., temporary total, permanent partial, etc.). You do not need to verify
+that the reduction was actually applied.
+EXCEPTION: If the worker alleges receipt of WC from Colorado or Wisconsin, or receipt of a railroad
+sickness pension, do not verify unless there is evidence that the source of the WC/PDB
+being received might not be the state with the reverse offset plan, e.g., the worker
+resides in Colorado and the injury occurred in Michigan.
+2.
+Verify the amount of WC/PDB if offset applies for at least one month. Otherwise, the
+amount is irrelevant.
+3.
+If reverse offset applies, code the month/day/year (MM/DD/YY) that reverse jurisdiction
+is effective on the appropriate Interactive Computation Facility – WC/PDB screens
+(ICF WC/PDB) or Modernized Claim System (MCS) screens for an initial award action.
+Input the Compensation Source in the Modernized Claims System (MCS) or the Type in
+the Interactive Computation Facility (ICF WC/PDB) as “WP” or the appropriate code.
+For information on completing the ICF WC/PDB screens, see DI 52165.010.
+For information on completing the MCS Common Screens, see DI
+52155.001.
+4.
+In Florida, New Jersey, and Washington, reverse jurisdiction ends at age 62. Set a
+diary for four months prior to age 62 to develop for any changes in the WC/PDB or
+the reverse offset. Be sure the diary will mature in the correct processing center
+(PC).
+NOTE: If reverse offset, also known as reverse jurisdiction or "RJ", applies but was not
+considered, (i.e., offset was erroneously imposed), remove offset retroactively to
+the effective month of reverse offset, and code RJ accordingly.

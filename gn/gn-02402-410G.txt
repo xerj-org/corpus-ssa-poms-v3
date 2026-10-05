@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - GN 02402.410 - Coding Georgia Bank Data on the Master Beneficiary Record (MBR))
+Effective Dates: 10/28/2022 - Present | TN 227 (10-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402410 (fetched 2026-10-04)
+
+G. Example of coding Georgia direct deposit
+The customer provides us with a signup form for Georgia containing the account number:
+GE29NB0000000101904917
+•
+The first two characters of a Georgia IBAN are “GE,” which represents the International
+Organization for Standardization (ISO) country code.
+•
+The third and fourth characters of the IBAN are the IBAN check digits.
+•
+The fifth through sixth characters of the IBAN are the Bank Identifier.
+•
+The seventh through 22nd characters represent the sixteen digit account number.
+The technicians should never code the IBAN ISO country code, the Bank Identifier,
+or the check digits to the MBR for Georgia.
+1. Derive the RTN
+Enter the information for the RTN:
+•
+Code RTN as 700000067
+•
+Code the account type as “C” for checking or “S” for savings. If no account type indicated,
+use “C” for checking.
+2. Derive the DAN
+•
+Code the DAN for Georgia:
+•
+Start with country code “X” designated for Georgia; and
+•
+Code the 16-digit Customer Account Number “0000000101904917”
+a. Technician obtains the bank data
+•
+Checking
+•
+DAN: X0000000101904917
+b. POS coding reflects
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700000067
+•
+ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: X0000000101904917
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+c. The MBR reflects
+•
+RTN 700000067
+•
+DAN CX0000000101904917

@@ -1,0 +1,144 @@
+SSA Program Operations Manual System (POMS) - DI 81010.025 - Completing Electronic Disability Collect System (EDCS) Forms for Initial Claims
+Effective Dates: 07/28/2014 - Present | TN 76 (02-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010025 (fetched 2026-10-04)
+
+B. Completing the Adult Disability Report (Form SSA-3368) in EDCS
+The EDCS 3368 collects Adult Disability Report information:
+•
+submitted on an Internet Disability Report; or
+•
+completed during the claimant interview.
+The questions on the EDCS 3368 pages correspond to those found on the paper SSA-3368.
+(For detailed information about completing the SSA-3368, see Completing the Disability
+Report Adult Form SSA-3368 - DI 11005.023).
+The EDCS 3368 includes intelligent pathing on selected pages. Intelligent pathing
+presents additional questions based on the answers to previous questions.
+1. About You
+The About You page displays the claimant’s name and daytime telephone number, which
+propagates from the mainframe application. Collect the following information, if applicable:
+•
+Alternate telephone number;
+•
+Language information; and
+•
+Other names used by the claimant.
+NOTE: If no MCS or MSSICS claim has been established, the claimant’s name and daytime telephone
+number propagates from the MCS Exclusion Information Page.
+2. Contacts
+Use the Contacts page to collect the following:
+•
+Alternate contact information; and
+•
+Information about the person completing the disability report.
+3. Medical Conditions
+The Medical Conditions page displays the alleged onset date and medical conditions
+on line 1. This information propagates from the mainframe application. Collect the
+following information:
+•
+Additional medical conditions not listed on line 1;
+NOTE: If the claimant alleges cancer, enter the type and stage when prompted. A “Check
+Spelling” button is placed below the conditions field of the EDCS 3368. Run the spell-check feature on each initial claim.
+•
+The answer to the question, “Do your conditions cause you pain or other symptoms?”;
+and
+•
+The claimant’s height and weight.
+The Calculate CAL button in no longer available in EDCS for the SSA-3368. EDCS automatically
+runs the CAL selection software and checks the conditions entered on the medical conditions
+page. If one or more of the conditions entered are a CAL condition EDCS automatically
+curtails the 3368.
+4. Work and Onset
+Use the Work and Onset page to document the claimant’s alleged:
+•
+Current work status; and
+•
+Ability to work due to their condition.
+The AOD propagates from the mainframe or the MCS Exclusion Information page. Data
+propagated from the mainframe cannot be over keyed. If a change in the AOD is needed:
+•
+Access the mainframe claim;
+•
+Revise the alleged date of onset; and
+•
+Repropagate the data into EDCS.
+For EDCS cases consisting of only an MCS exclusion claim, correct the data on the
+MCS Exclusion Information page.
+An amended application is produced if the AOD is changed on the mainframe. For information
+on handling amended applications, see Alternative Signature Methods – GN 00201.015I.
+5. Job History
+Use the Job History page to document the claimant’s alleged:
+•
+Number of jobs in the 15 years before becoming unable to work because of physical
+or mental condition(s); and
+•
+Job titles of the most recent job(s) (up to 5);
+If the claimant alleges one job in the 15 years before becoming unable to work, obtain
+details pertaining to that job (e.g., specific job duties, heaviest weight lifted,
+hours spent standing, sitting).
+When the claimant alleges more than one job in the 15 years before becoming unable
+to work, obtain the following for up to the five most recent jobs:
+•
+Occupation or job title;
+•
+Type of business;
+•
+Dates worked; and
+•
+Most recent hours and pay.
+6. Medical Sources
+Use the Medical Sources page to:
+•
+Enter information about the claimant’s alleged medical sources;
+•
+Enter tests and medicines associated with the medical source; and
+•
+View a summary of the Doctor/Therapist/Hospital/Clinic and “Other” sources of medical
+information that have been recorded in EDCS.
+You can add, modify, or delete sources from the Source Reference File (SRF) on this
+page. Always check the SRF before adding a medical source. For details, see Source
+Reference File (SRF) - DI 81010.040.
+NOTE: You can edit medical sources that propagate from the Internet 3368 (i3368) without
+deleting other information for that source (e.g., date(s) seen, testing, and medication).
+Use the EDCS Replace Source function to replace a claimant-supplied source on an i3368
+with a source from the SRF.
+7. Tests Summary
+The Tests Summary page:
+•
+Collects any medical tests the claimant alleges they had, or is scheduled to have,
+and the source who ordered the tests;
+•
+Provides a drop-down box of common tests to assist in completing this section; and
+•
+Allows you to add, modify, copy, or delete tests.
+8. Medicines Summary
+The Medicines Summary page:
+•
+Collects names of the medicines the claimant alleges to be currently taking;
+•
+Provides a drop-down box of common medicines to assist in completing this section;
+and
+•
+Allows you to add, modify, or delete medications.
+9. Other Medical Information
+Use the Other Medical Information page to collect information about other sources
+(e.g., worker’s compensation, vocational rehabilitation, insurance companies, prisons,
+attorneys) that can provide information about the claimant’s alleged medical conditions.
+NOTE: Vocational Rehabilitation questions were removed for initial claims.
+10. Education and Training
+Use the Education and Training page to record, update, view, and delete information
+about the claimant’s alleged educational history, including special education, job
+training, or vocational school.
+NOTE: If the claim is marked with a limited educational profile (e.g., 7th-
+11th grade education), EDCS prompts the Claims Representative (CR) to obtain the claimant’s
+full work history. See Completing the SSA-3369 - DI 11005.025.
+11. Remarks
+Use the Remarks page to display:
+•
+Additional information provided by the claimant or interviewer for which there is
+not a corresponding question in EDCS;
+•
+Additional information provided by the claimant or interviewer for which space was
+not sufficient in a previous section; and
+•
+Data imported from the Internet 3368 (i3368), when there is no corresponding field
+in EDCS.

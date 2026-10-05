@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02201.040 - Collection of Title II/Title XVI Overpayments by Administrative Wage Garnishment
+Effective Dates: 05/25/2012 - Present | TN 45 (10-19)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202201040 (fetched 2026-10-04)
+
+C. AWG Payments
+1. AWG Payments Sent to MATPSC
+SSA's intent is to ensure that the employer returns AWG payments to the centralized
+remittance process in MATPSC. To that end, SSA provides scannable payment coupons
+and return envelopes to the employer for use in paying the garnishment. The scan line
+contains information that identifies the remittance as an AWG payment. The system
+then posts it as such to the debtor's overpayment record.
+The ROAR system shows a code of “A” in the remittance source code on the remittance
+transaction to denote the payment as a garnishment. The SSR shows a code of HW in
+the OPRR segment. (See MS 01103.001 for more information about how AWG payments are
+coded and identified in the remittance process).
+2. AWG Payments Received in the Field Offices
+SSA's policy is to accept AWG payments made by employers in field offices. Field offices
+should be sure to properly identify the garnishment payments with the reason code
+of “E”. See GN 02403.006 for detailed instructions about handling any remittance received in the field office.
+3. AWG Stops When Overpayment Balance is Less Than $75
+To prevent excess AWG payments, SSA stops AWG when the overpayment balance is less
+than $75. The system automatically sends the employer a notice to stop AWG, and monitors
+the receipt of continuing payments when the $75 threshold is reached.
+If AWG payments continue to be made after the second follow-up notice to stop AWG
+is sent to the employer, the system creates an alert to the PC to contact the employer
+and request cessation of AWG. (See SM 00610.080B.3. for instructions on contacting the employer.)
+NOTE:
+The policy is to keep any AWG payments the employer continues to make after the $75
+threshold is reached (and before the debt balance equals zero).
+4. AWG Payments by Credit Card
+SSA accepts AWG payments by credit card, subject to the procedures in GN 02210.150, GN 02210.152, GN 02210.153, GN 02210.205, and GN 02403.006.
+5. AWG Payments by Debit Card
+Electronic payments such as debit cards are not acceptable at this time (unless the
+employer wants to use the debit card as a credit card).
+Be aware that the Wage Garnishment Order (SF-329B) contains the following language,
+“Employers are encouraged to make payments electronically, if possible. . .” In addition,
+the SF-329B contains fill-in blocks for ABA Routing Number, Account Number, Agency
+Location Code, Account Title, and Other Information. Since the SF-329B is a standard
+government form and SSA is required to use it, those fill-in blocks must remain on
+the form. They will, however, be pre-filled by the term, “Not Applicable”, so as to
+inform the employer SSA cannot accept electronic payments. See GN 02201.042B.3. for instructions on handling employer requests to make payments electronically.

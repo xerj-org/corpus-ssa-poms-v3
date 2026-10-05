@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - GN 02406.125 - Transmitting Reports of Nonreceipt, Loss, Theft, or Destruction -- Title II and Title XVI -- Recurring Checks and PMA Checks -- Normal and Dire Need Situations
+Effective Dates: 03/28/2000 - Present | TN 14 (04-00)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202406125 (fetched 2026-10-04)
+
+D. Procedure - DIRE NEED - TITLE XVI (If criteria in SI 02004.100 are met)
+1. TSC:
+•
+Refer to FO via PRIORITY MDW.
+2. FO:
+•
+Issue an IP for up to $400 ($999 effective 8/21/99).
+•
+Input a B-stop on the missing recurring payment.
+•
+Enter “MM/DD/YYYY IP issued for MM/DD/YY payment” in SSR RMKS segment.
+Remember, for title XVI, the IP is considered an advance on the next month's check
+and will be deducted automatically by the SSI system.

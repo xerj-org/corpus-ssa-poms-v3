@@ -1,0 +1,9 @@
+SSA Program Operations Manual System (POMS) - GN 02402.387 - Coding Macedonia Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 11/06/2024 - Present | TN 279 (11-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402387 (fetched 2026-10-04)
+
+E. Description of Macedonia IDD bank data
+The data for coding IDD for Macedonia comes from the International Bank Account Number
+(IBAN) provided to the beneficiary by FI. The full length of the IBAN for Macedonia
+consists of 19 characters. However, the bank data on the MBR consists of 21 characters
+including Macedonia country code of L.

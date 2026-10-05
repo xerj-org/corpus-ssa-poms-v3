@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 13050.070 - Expedited Reinstatement (EXR) and Medicare Termination
+Effective Dates: 06/18/2024 - Present | TN 19 (06-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050070 (fetched 2026-10-04)
+
+A. Policy – EXR denials effect on Medicare
+1. When to deny an EXR request
+We may deny an expedited reinstatement (EXR) request for:
+1.
+Not meeting the technical requirements (see DI 13050.001 for EXR requirements);
+2.
+A “not same as or related” determination (shown on the SSA-832/833 as a code of 28
+for Title II cases and a code of 61 for Title XVI - see DI 28057.015C for medical criteria and DI 28057.020 for coding information); or
+3.
+Not meeting the medical improvement review standard (MIRS) due to medical improvement
+(shown on the SSA-832/833 as a MIRS denial code - see DI 28084.015 for MIRS denial codes).
+2. Determining if Medicare ends when denying an EXR request
+When we deny the EXR request, Medicare entitlement may or may not terminate depending
+on the basis of Medicare entitlement (see HI 00801.165).
+1.
+If the only basis for Medicare entitlement is the provisional benefit period, Medicare
+will terminate the earlier of:
+•
+the last day of the 6th month of the provisional benefit period, or
+•
+the last day of the month following the month the unfavorable decision notice is mailed.
+2.
+Medicare based on end-stage renal disease (ESRD) or age will not terminate when the
+provisional period ends, or when we deny an EXR request.
+3.
+Extended Medicare will continue, unless the DDS determines that the individual has
+medically improved (MIRS denial). If the individual has medically improved, coverage
+will end the last day of the month following the month the notice of the unfavorable
+decision is mailed.
+NOTE: If the individual is working, and has not medically improved, they may be eligible
+for Premium HI under the Disabled Working Individual (DWI) provision, see (SM 00850.525
+and HI 00801.170). If the individual chooses to elect Premium HI, the field office (FO) will send
+a high priority message (HP2560) using the modernized development worksheet (MDW)
+to OCO to establish Premium HI entitlement. If you need assistance on how to complete
+an MDW, follow instructions found in the National Toolkit: MDW
+Instructions .
+3. Procedure when Medicare ends due to EXR denial
+The FO will identify the reason for the EXR denial, and determine the Medicare termination
+month. If Medicare terminates, the FO will send a HP2560 using the MDW to OCO/PC with
+instructions to input the correct termination month and prepare the termination notice.
+4. Medicare termination notice used in EXR denials
+OCO/PC prepares and releases the appropriate Medicare termination notice. If Medicare
+was based solely on the provisional benefit period, the beneficiary will not have
+appeal rights with this termination (see HI 00801.165).

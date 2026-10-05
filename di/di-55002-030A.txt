@@ -1,0 +1,31 @@
+SSA Program Operations Manual System (POMS) - DI 55002.030 - Handling Non-Receipt, Lost Ticket, and Ticket Non-Selection Questions
+Effective Dates: 07/15/2024 - Present | TN 4 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0455002030 (fetched 2026-10-04)
+
+A. Procedure – determine whether beneficiary's/recipient's record was selected for a
+ticket
+Field Components should get a “Ticket to Work Query” (DI 55002.025B) or a “General Ticket Query” (DI 55002.025C) and determine the beneficiary's/recipient's ticket eligibility status when a question
+arises about the non-receipt of a ticket, a lost ticket, or why a beneficiary/recipient
+was not selected for a ticket.
+1. Query shows beneficiary/recipient was selected to receive a ticket
+When the query shows the beneficiary/recipient was selected to receive a ticket, follow
+the instructions in:
+•
+DI 55002.030B if the query also shows that the ticket has not been mailed yet.
+•
+DI 55002.030C if the query also shows that the ticket has been mailed.
+2. Query shows beneficiary/recipient was not selected to receive a ticket
+a. FO and PC action
+When the query shows that the beneficiary/recipient was not selected to receive a ticket (see DI 55002.060B.2. for situations in which the FO will issue a ticket), the FO or PC should try to determine
+why (see DI 55002.035). Then, as appropriate, the FO or PC should:
+•
+input any MBR/SSR/DCF coding corrections/updates so that the beneficiary's/recipient's
+record will be selected for a ticket during the next day's system's run (see DI 55002.045);
+•
+explain why the beneficiary's/recipient's record was not selected (see DI 55002.050); or
+•
+refer the issue to the Regional Center for Disability Programs when unable to determine
+why the record was not selected (see DI 55002.040).
+b. TSC action
+When the query shows that the beneficiary/recipient was not selected to receive a ticket, the TSC should refer the individual to the appropriate
+FO.

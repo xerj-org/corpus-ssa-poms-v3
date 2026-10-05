@@ -1,0 +1,18 @@
+SSA Program Operations Manual System (POMS) - GN 02402.359 - Coding Ghana Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/20/2026 - Present | TN 324 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402359 (fetched 2026-10-04)
+
+E. Description of Ghana direct deposit data
+The IDD coding data for Ghana will come from FIs that the FRBKC has determined can
+receive IDD payments. The FRBKC identified and listed the participating FIs on the
+International Treasury Services (ITS.gov) website as part of the ITS help file. If you do not have access to ITS.gov, to verify bank codes when processing direct deposit to Ghana banks, refer to the
+listing in GN 02402.359H in this section.
+The IDD coding for Ghana FIs consist of 23 characters, including the country code
+of K for Ghana. The account number contains:
+•
+a 9-digit RTN 66000BBBX: where 66 is the country code field, positions 2 through 4 are filler 0s, BBB = 3-digit
+bank code, X = the check digit code; and
+•
+a 14-digit DAN KAAAAAAAAAAAAA: where K is the country code for Ghana, followed by a 13-digit account number.
+NOTE: Account type when enrolling in ITS.gov can be defaulted to checking if there is no indication of whether the account is a
+checking or a savings account.

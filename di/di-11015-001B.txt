@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - DI 11015.001 - Disabled Widow(er)'s Benefits (DWB) General
+Effective Dates: 07/23/2014 - Present | TN 31 (10-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411015001 (fetched 2026-10-04)
+
+B. Cash benefits payable to a disabled widow(er)
+For widow(er)s or surviving divorced spouses who meet the disability requirements,
+benefits are payable as early as age 50. For entitlement to DWB effective January1984
+and later, benefits are permanently reduced by 28.5%.
+For information about DIB with DWB involvement, see RS 00207.010.
+For details about DWB benefit computations, see RS 00615.310 and RS 00615.350.
+1. When the claimant’s own disability insurance benefit (DIB) primary insurance amount
+(PIA) is higher than the DWB PIA
+If a DWB claimant is already or could become entitled to a DIB that exceeds the potential
+DWB PIA, a disability determination is not needed on the DWB claim.
+Create a report of contact (RPOC) in the Modernized Claims System (MCS) DIB segment
+stating that a determination of disability on the DWB claim is not necessary if the
+DIB is allowed, due to the higher DIB payment.
+NOTE: If a DIB and DWB claim are filed simultaneously and the periods to be adjudicated
+differ (e.g., the DIB insured status period and the DWB prescribed period differ),
+the field office (FO) should develop both claims. Accurately record all onset, date
+last insured, and prescribed period information on the SSA-3367 (Disability Report
+- Field Office) to advise the Disability Determination Services (DDS) that a determination
+of disability is necessary on both claims.
+2. When the DWB is higher than the DIB PIA
+If, after comparing the potential benefits payable as a DWB and DIB, the DWB exceeds
+the claimant’s own DIB, the FO develops both claims completely.
+If a current DIB beneficiary could become entitled to additional benefits due to DWB
+eligibility, the FO develops the DWB claim to completion.
+3. When the claimant does not meet disability insured status for DIB and files a DWB
+claim simultaneously
+If a claimant files DIB and DWB claims simultaneously, but is not insured for DIB,
+process the uninsured DIB denial and develop the DWB claim completely.
+NOTE: If insured status depends on foreign work credit, see Totalization Benefits – General
+GN 01701.000, for additional information.

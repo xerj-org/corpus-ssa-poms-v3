@@ -1,0 +1,28 @@
+SSA Program Operations Manual System (POMS) - GN 02605.710 - Title II ZIP Code Flags – Change of Address (COA) and National Change of Address (NCOA)
+Effective Dates: 01/19/2011 - Present | TN 27 (01-11)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202605710 (fetched 2026-10-04)
+
+B. When to use a ZIP flag of F, U, or Z
+Use a ZIP Code Flag of F, U or Z input via a MONET ZIDM, ZIP Code maintenance data
+screen to override the ZIP +4 software results. If the software determines a 5-digit
+ZIP Code that is different from the input ZIP.
+NOTE: Use ZIP Flags as a last resort and only use if there is an address correction, i.e., format,
+spelling, etc., is not able to resolve the problem; or if input of the 9-digit ZIP
+is not possible.
+1. Override ZIP +4 software
+If the address entered verifies as correct and adheres to USPS Standards, use ZIP
+Flags if ZIP +4 results are erroneous.
+2. 9-Digit ZIP is unknown
+Use a ZIP Flag of Z (ZIP Override) if the ZIP Code needs correction and the 9-digit
+ZIP is unknown. Field components use a flag Z.
+NOTE: Use a ZIP Flag of C when central office makes a mass correction to an erroneous ZIP.
+3. Unique ZIP
+Use a ZIP Flag of U (unique ZIP) if the 5-digit ZIP is a unique ZIP that cannot be
+found in the ZIP Code directory.
+4. Future ZIP
+Use a ZIP Flag of F (future ZIP) if the 5-digit ZIP will be effective in the near
+future but is not yet established on the ZIP +4 software.
+NOTE: The ZIP Code maintenance operation updates ZIP's based on reports of ZIP changes.
+Therefore, a ZIP Flag of F is only needed if the use of the current ZIP will cause
+address delivery problems before ZIP maintenance changes the ZIP to the future (new)
+ZIP. This update usually occurs the month following the month the new ZIP is effective.

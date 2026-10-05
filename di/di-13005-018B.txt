@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - DI 13005.018 - Field Office (FO) Actions for Section 1619 Cases
+Effective Dates: 10/17/2006 - Present | TN 11 (01-17)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413005018 (fetched 2026-10-04)
+
+B. Procedure for an A2 diary
+1. Non-pay status
+When the FO receives an A2 diary and the case is in non-pay status, delete the A2
+diary according to DI 13005.018B.3. Cases in non-pay status do not require a Section1619 CDR. A subsequent A2 diary generates
+when the case enters into current payment status.
+2. Current pay status
+Section 1619 of the Social Security Act requires us to make a determination of continuing
+disability to qualify for Section 1619 benefits. A Section 1619 CDR is not subject
+to the screen-out rules in DI 13005.020 and DI 13005.022. Exclude cases in non-pay status from a Section1619 CDR. The FO may exclude a Section
+1619 CDR case in current pay status as follows:
+a. CDR exclusions
+If the case is in current pay status, take the following steps to determine if exclusions
+to initiating the CDR exist. If one of the following exclusions exist, delete the
+A2 diary per DI 13005.018B.3 and determine if:
+•
+A CDR is in progress or completed within the last 12 months by reviewing the Disability
+Control File (DCF) and the disability determination service query (DDSQ). If a CDR
+is in progress or a continuance was processed within the last 12 months, delete the
+A2 diary;
+•
+The beneficiary has a ticket “assigned” or “in use” through the Ticket to Work program
+by following the procedures in DI 55025.001C. If the beneficiary has a ticket in use, delete the A2 diary; or
+•
+The case has concurrent Title II disability involvement and if Section 111 CDR protection
+applies per DI 13010.012C. If CDR protection applies to the concurrent Title II disability claim, it will also
+apply to the Title XVI disability claim. Delete the A2 diary.
+b. CDR not excluded for income below the breakeven point test
+If the case is in current pay status and you cannot exclude the CDR based on reasons
+in DI 13005.018B.2. in this section, determine if you must initiate a CDR with the following steps:
+•
+Verify all wages for the prior period and conduct a redetermination (RZ) if a scheduled
+RZ is pending or if an unscheduled RZ is required, see SI 02305.022.
+•
+Determine if earned income for any month in the prior 12 months is equal to or over
+the breakeven point (2xFBR+$85). Count back beginning with the last payment status
+of an “N01” month.
+•
+If all earned income is below the breakeven point, no CDR is required. Delete the
+A2 diary per DI 13005.018B.3.
+c. Earned income over the breakeven point test
+If you cannot exclude the case from a CDR based on the criteria in DI 13005.018B.2.b. in this section, and there was a month with earned income equal to or over the breakeven
+point, conduct a test computation for each of those months to:
+•
+determine if countable earned income for any one month is over the full federal benefit
+rate (FBR); and
+•
+determine if the countable earned income would cause the benefit payment to reduce
+to zero.
+To conduct the test computation:
+1.
+Use the recipient’s total income (wages and self-employment); and
+2.
+Do not consider the spouse's earned income or any other deemed or unearned income.
+3.
+Apply all income exclusions and any work incentives applicable to the earned income,
+see SI 00820.500 (for example, student earned income exclusion (SEIE), impairment-related work expense
+(IRWE), blind work expenses (BWE), and plan for achieving self-support (PASS) exclusions).
+4.
+Do not require initiation of a CDR if:
+•
+there is no month when the countable earned income under the test computation is over
+the full FBR and would reduce the monthly benefit payment to zero; and
+•
+delete the A2 diary per DI 13005.018B.3.
+5.
+Require initiation of a CDR if:
+there is any one month when the countable earned income under the test computation
+is over the full FBR and the countable earned income would reduce the monthly benefit
+payment to zero.
+NOTE: When initiation of the CDR occurs, it will eliminate the need to perform the
+test computation for the remaining months in the period.
+d. Initiating the CDR
+Initiate a CDR per DI 13005.025, establish the CDR on the DCF per DI 13010.610, and delete the A2 diary per DI 13005.018B.3.
+3. FO action to delete an A2 diary
+To delete an A2 diary determine if the CDR Initiation Type (CIT) field or the Prior
+CDR Initiation Type (CIP) field contains a code of “S” in the Disability Information
+(DISB) field of the SSR, see SM 01601.595.
+a. If the CIT field displays an “S” on the SSR
+Update the CIT information using the Disability Data function in Direct SSR Update.
+Select 1619 Processing on the Disability Data Menu (UDMN). On the 1619 Processing
+screen (UDPR), enter “N” in CHANGE IN Section 1619 STATUS, see SM 01301.240, SM 01305.992,
+and MSOM Chapter 167. Send the data to the SSR via the BTS process and this action
+will delete the A2 diary.
+b. If the CIP field displays an “S” on the SSR
+Update the CIP information using the Disability Data function in Direct SSR Update.
+Select Start Date Record Disability Review on UDMN screen. On the Start Date Record
+Disability Review screen (UDSD), choose Option 4, “NO 1619 STATUS CHANGE”. Transmit
+a date equal to the CIP date on the SSR. Send the data to the SSR via the BTS process
+and this action will delete the A2 diary.
+c. If neither the CIT or CIP displays an “S” on the SSR
+Delete the A2 diary using the Direct SSR Update by inputting a Z1 diary with the current
+date using the Update Diaries (UDIA) screen. Send the data to the SSR via the BTS
+process.

@@ -1,0 +1,14 @@
+SSA Program Operations Manual System (POMS) - GN 02408.405 - Stop-Payment Needed and the Treasury Offset Program (TOP) is Involved
+Effective Dates: 12/04/2013 - Present | TN 18 (11-08)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408405 (fetched 2026-10-04)
+
+C. Procedure to determine if TOP applies
+To determine whether a TOP offset was processed on the payment, check the MBR TRANS
+field, or the Payment History Update System (PHUS). When TOP offset applies, the following
+information is on the queries:
+•
+The TRANS field of the MBR shows LAP-ZT PHUS - TOP OFFSET.
+•
+The PHUS record shows ZT PHUS TOP OFFSET followed by a line that states the amount
+of the offset and the month the offset occurred.
+When you need to know the type of offset (BPO or FPLP), go to Online Retrieval System (ORS) IESI, and look for the notice.

@@ -1,0 +1,46 @@
+SSA Program Operations Manual System (POMS) - DI 81010.230 - Creating an EDCS Record for an Electronic Continuing Disability Review (eCDR)
+Effective Dates: 11/25/2019 - Present | TN 36 (08-20)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010230 (fetched 2026-10-04)
+
+B. CDR information screen
+This screen contains basic information about the beneficiary, CDR type, and FO controlling
+the input. The CDR Information folder contains the following data elements:
+1. Client identification
+Review the screens to ensure that the correct mailing address has propagated from
+the MBR/SSR. If the data is incorrect, update the information in EDCS as well as the
+MBR/SSR.
+NOTE: If there is a representative payee, enter the claimant’s residence address on the
+Client Identification screen.
+2. Case information
+•
+Identify and input the type of CDR from the following chart:
+CDR Types
+Periodic Review Due - 3 year diary/MIP
+T16 Age 18 Redet
+Periodic Review Due - 1 year diary/Low Birth Weight/MIE diary
+CDR Mailer – “DO CDR”
+Periodic Review Due – 5 or 7 year diary/MINE
+SGA Cessation-EPE Medical Review (Sec 111 Protection N/A)
+Miscellaneous (includes T16 1619)
+Named Litigant/court case
+NOTE: Review the Disability Control File (DCF) (ECDR, QCDR, and QMID screens) to ensure
+that EDCS is picking up all the entitlements (e.g., Claim types) and correct CDR type.
+If DCF reflects information for more than one CDR (i.e., a prior CDR(s) was done),
+use the CDR Type for the current CDR being established in EDCS.
+•
+Input the CPD date (See the Comparison Point Decision (CPD) Date and Folder - DI 81010.215A.).
+•
+For lost folder cases, enter a CPD date that is 12 months prior to the date of the
+interview.
+•
+For Age 18 Disability Redeterminations, EDCS propagates the CPD field as 12 months
+prior to the case creation date.
+•
+Enter the appropriate response concerning the need for DDS capability development.
+•
+Add a "Potential 301 Case Flag" in EDCS if the SSA-454 (Continuing Disability Review
+Report) indicates the claimant is participating in a Vocational Rehabilitation (VR)
+Program.
+3. Title II or Title XVI FO contact information
+Enter the unit code of the FO component controlling the eCDR. The remaining contact
+information propagates from the mainframe. Correct if necessary.

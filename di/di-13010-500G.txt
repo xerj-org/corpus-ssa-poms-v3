@@ -1,0 +1,70 @@
+SSA Program Operations Manual System (POMS) - DI 13010.500 - The Disability Control File (DCF)
+Effective Dates: 05/02/2014 - Present | TN 31 (04-10)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413010500 (fetched 2026-10-04)
+
+G. Updating and clearing actions to the DCF
+The DCF has two different input screens to update or transfer actions:
+•
+CDR FO Input Screen (IFOA); FO staff must use the IFOA screen to update/transfer actions.
+•
+PC Input Screen (IPCA); PC staff must use the IPCA/IPCB screens.
+FO IFOA procedure:
+Use the IFOA screen to update the DCF or to clear or transfer an action. Once you
+establish an action in the DCF and you prepare necessary documentation (such as preparing
+a SSA-833, etc.); input via the IFOA to update/clear the action.
+1.
+On the MCDR screen, enter #2, FO UPDATE; or access the open CDR action through the
+ECDR screen.
+2.
+Complete the IFOA to record the EVENT TYPE action taken.
+3.
+Input the office you are transferring the action to in the OFFICE RESPONSIBLE FOR
+NEXT ACTION field. If you do not enter an office, the DCF assumes the last office
+of record has jurisdiction.
+4.
+If you input EVENT TYPE 07, ASSISTANCE REQUEST, two issues automatically open on the
+CDRW screen to control the assistance request.
+5.
+If sending the claims folder:
+•
+input Y in the SEND CLAIMS FOLDER TO ABOVE DESTINATION;
+•
+if you processed the action without requesting the claims folder, do not enter a Y
+in this field;
+•
+when forwarding a folder, enter the SSNX code from the bar coding on the folder. When
+you have completed the DCF clearance screens, you see the appropriate Processing Center
+Action Control System (PCACS) screen;
+•
+the DCF action records the transfer of a file only in the DCF but does not update
+other systems; and
+•
+complete the PCACS action to record the folder transfer.
+6.
+If you are reconstructing the folder, enter Y in the FOLDER RECONSTRUCTION ISSUE field
+(see MSOM CDR 001.007).
+PC IPCA procedure:
+Use the IPCA/IPCB screens to update the DCF with a decision or transfer action. Once
+you establish an action in the DCF, use the IPCA screen to update or clear the action
+(see MSOM CDR 001.005 and DI 13010.625).
+1.
+Access the IPCA screen by entering 3, PROCESSING CENTER INPUT SCREEN, in the MCDR
+screen or by accessing the open CDR action through the ECDR screen.
+2.
+Enter the appropriate event in the SELECT EVENT TYPE field on the IPCA.
+3.
+If you enter an appropriate event code, you see the IPCB screen. Enter the three-digit
+office code for the office that is responsible for the next action on the IPCB.
+4.
+If you select EVENT TYPE 7, ASSISTANCE REQUEST, the DCF automatically generate two
+CDRW issues regarding the assistance request.
+5.
+If you select EVENT TYPE 9, CONTINUANCE, you receive the MODIFY MEDICAL DATA (MMDS)
+screen unless the continuance is for an EXR approval.
+6.
+Enter Y in the FOLDER RECONSTRUCTION ISSUE field if that is an issue. Possible entries
+are Y, N, F, L, and Q (see DI 13010.625D.4).
+When a FO completes actions on a work CDR or TWP determination (T2WORK), and all CDR
+actions have processed to completion, the FO will close-out the CDR by entering an
+event code of 5 on the IFOA (see, The CDR FO Input (IFOA) Screen DI 13010.620D). No further CDR actions should be necessary. Pursue overpayment actions under normal
+overpayment procedures per GN 02201.001.

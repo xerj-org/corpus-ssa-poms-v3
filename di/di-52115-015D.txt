@@ -1,0 +1,33 @@
+SSA Program Operations Manual System (POMS) - DI 52115.015 - Federal Mine Safety and Health Act (FMSHA)
+Effective Dates: 03/20/2012 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452115015 (fetched 2026-10-04)
+
+D. Processing initial claims involving BL Part C payments
+The field offices (FOs) and processing centers (PCs) are responsible for adjudicating
+disability claims involving BL Part C.
+1. Claims processed via MCS/EC
+To process claims via MCS/EC, the FO or PC will:
+•
+Complete the MCS/EC WC Common Screens, listing the Source of Compensation as “BL”.
+For Common Screens, see MSOM Common 001.001 through MSOM Common 001.008.
+•
+Establish a 042 diary code by using the DECI and DIAR screens. See MSOM MCS 009.013
+Decision Input (DECI) and MSOM MCS 009.015 Diary Screen (DIAR).
+•
+Retain documentations following the procedure in DI 52145.015 - Retention of Workers’ Compensation/Public Disability Benefit (WC/PDB) Proofs.
+2. Claims processed via A101 or EF101
+To process claims via A101 or EF 101, the FO or PC will:
+•
+Adjudicate the Interactive Computations Facilities (ICF) screens for the WC/PDB action
+before preparing the A101/EF101 screens. For instructions, see DI 52165.000 - Interactive Computations Facility (ICF) for Workers’ Compensation/Public Disability.
+•
+Establish a diary control for 35 days for return of proof.
+•
+The PC establishes the diary in Processing Center Action Center System (PCACS), only
+if MCS is not being used to process your action. Explain the reason for the diary.
+Follow procedures in MSOM PCACS 009.001 - Diaries and Development - Overview.
+•
+FO instructions may vary depending on whether there is a PCACS diary pending. For
+instructions, see DI 52140.001E. - Processing WC/PDB Offset and GN 01040.005 - Establishment of Diaries and Listings.
+•
+Retain documentations following the procedure in DI 52145.015 - Retention of Workers’ Compensation/Public Disability Benefit (WC/PDB) Proofs.

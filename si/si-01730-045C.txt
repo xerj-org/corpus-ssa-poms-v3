@@ -1,0 +1,131 @@
+SSA Program Operations Manual System (POMS) - SI 01730.045 - Third Party Liability for Medicaid Eligibility
+Effective Dates: 07/27/2016 - Present | TN 10 (06-96)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0501730045 (fetched 2026-10-04)
+
+C. Procedure — when to get TPL information
+Skip TPL data collection if the claimant has refused assignment of rights in a State
+that is not an automatic assignment State.
+1. Pointers
+There are various ways of detecting the existence of third party coverage during the
+interview. Depending on the claimant/recipient's circumstances, questions such as
+“Do you have a Medigap policy through a pension plan?” or “Do you have medical coverage through your spouse's employer?” or “How have you been paying for medical care?” may prove useful.
+2. Initial Claims
+a. Paper Applications
+In applications for aged and simultaneously developed claims and at the PERC for a
+deferred claim, get answers to all application items. If item 59(b) of the SSA-8000-BK
+is completed with a “Yes,” complete an SSA-8019-U2. If the applicant does not have TPL information at the time
+of the interview, ask the applicant to call back later with the information and complete
+the SSA-8019-U2. Never delay adjudication of the SSI claim to get an SSA-8019-U2 completed. If necessary, complete the SSA-8019-U2 after adjudication and forward to the State
+agency.
+Do not mail a copy of the SSA-8019-U2 to the State agency until after the claim is allowed. Retain a copy in the claims folder.
+If the individual refuses to provide TPL information, annotate the “Remarks” section of the SSA-8000-BK with the reason for refusal and that the applicant understands
+that the refusal may affect Medicaid eligibility.
+b. MSSICS Claims
+The “HEALTH EXPENSES (Y/N)” question in BMEN will only appear at the PERC for a deferred claim and during the
+full path (i.e., aged and simultaneously developed claims). Answer the question with a “Y” in a section 1634 State, only when the individual appears eligible.
+The question about insurance other than Medicare/Medicaid appears in BHLT. This question
+may be answered with a “Y,” “N,” or “?”
+•
+Enter a “Y” if the applicant alleges third party insurance other than Medicare/Medicaid.
+•
+Enter an “N” if the applicant alleges no third party insurance.
+•
+Enter a “?” if the applicant does not know or is not sure about the third party insurance.
+NOTE: The insurance question in BHLT is a mandatory field; the “?” will require resolution by the time the claim is adjudicated. See SI 01730.045D.2. on completing BTPL when information is not available at adjudication. Never delay adjudication of the SSI claim to complete BTPL data.
+3. Initial Claims Refusals
+a. MSSICS Claims
+If the claimant refuses to provide TPL information and does not appear to need a representative
+payee, inform the individual that the refusal will probably result in Medicaid ineligibility,
+unless the State determines that there is good cause for refusal. Refer the claimant
+to the State Medicaid office for further information and a good cause determination.
+Inform the individual that if the applicant does not contact the Medicaid agency,
+the claimant will be notified by the State agency of the eligibility determination.
+If it appears the refusing claimant will have a payee (or an applicant who is not
+the claimant refuses to provide TPL information), tickle the case to contact the payee
+(or claimant who is not the applicant) about TPL information after the interview.
+Put a “?” in the appropriate BHLT question until you contact the payee. If the payee (or claimant
+who is not the applicant) also refuses to provide TPL information, enter an “N” in the BHLT question and the reason (see MS INTRANETSSI 019.020 Health Expenses &
+Third Party Liability).
+NOTE: This information can be updated at any time before the claim is processed to pay.
+(See MS INTRANETSSI 019.020 Health Expenses & Third Party Liability and MS INTRANETSSI
+019.002 Potential Eligibility for Other Benefit Leads Selection.)
+b. Paper Claims
+Annotate Remarks on the SSA-8000-BK (or, if at a PERC, an SSA-795) with the reason
+for refusal to provide TPL information and that the individual understands that the
+refusal may affect Medicaid eligibility. Refer the claimant to the State Medicaid
+office for further information and a good cause determination. Enter a PR-9 input
+of “R” in the PT field after adjudication and allowance.
+If the applicant is not the claimant, and no representative payee is likely to be
+appointed, contact the claimant about the effects of TPL refusal on Medicaid unless
+the State determines there is good cause for refusal. Inform the individual that if
+the applicant does not contact the Medicaid agency, the claimant will be notified
+by the State agency of the eligibility determination.
+4. Redeterminations
+a. Earlier Refusal - AOR or TPL
+•
+Paper Environment
+Do not address TPL at all if the SSIRD shows an “A” (refusal to assign rights) or “R” (previously refused to provide TPL information) in the PT field.
+•
+MSSICS 4.4 and Later
+Do not address TPL if the record shows a previous refusal to assign rights or to provide
+TPL information.
+b. No Health Insurance on Record
+•
+Paper Environment
+If the SSIRD shows no health insurance (“N” in the PT field, or the PT field is blank), ask if the recipient is now covered by
+health insurance other than Medicare/Medicaid. Complete an SSA-8019-U2 if the recipient
+now has health insurance coverage.
+•
+MSSICS 4.4 and Later
+If there is no health insurance on record, ask if the recipient is now covered by
+health insurance other than Medicare/Medicaid. If the answer is “Yes”, complete the BTPL screen(s). Be sure to code the coverage starting and ending dates
+appropriate for the coverage(s).
+c. Health Insurance on Record
+•
+Paper Environment
+If the SSIRD shows health insurance (“Y” in the PT field), ask if the recipient is still covered by health insurance other
+than Medicare/Medicaid or if there is a third party responsible for medical expenses.
+If the answer is “Yes”, ask if the company, coverage or responsible party has changed. If there has been
+a change, complete an SSA-8019-U2 with ending dates for the old coverage and complete
+information on all current coverages. If there has not been a change, no further action
+is needed.
+If the answer is “No,” change the “Y” in the PT field to an “N” using a PR-9 transmission.
+•
+MSSICS 4.4 and Later
+If the record shows health insurance, ask the recipient (or payee, if appropriate)
+whether there still is health insurance coverage other than Medicare/Medicaid, or
+if there is a third party responsible for medical expenses.
+If the answer is “Yes”, ask if there has been a change. If there has been a change, note that in BTPL and
+complete the screen(s) for the ending dates of the old coverage(s) and the new information.
+If there has not been a change, no further action is needed.
+If the individual no longer has health insurance coverage, change the BHLT “Y” about third party insurance to an “N” .
+5. Other PE Situations
+a. Moves to a 1634 State
+When an individual moves from a section 209(b) State or SSI State to a section 1634
+State and the new servicing FO is contacted to change the address, complete the AOR
+process and collect TPL information as appropriate.
+b. TSC Contact
+Changes in health insurance reported to a teleservice center, e.g., when a change
+of address is reported, should be forwarded to the FO for completion of a paper SSA-8019-U2
+and routed to the State agency.
+c. Refuses TPL Later
+NOTE: PE TPL refusals require notice suppression and a manual notice including paragraph
+1146, NL 00804.110. See NL
+00801.010C. for notice suppression references.
+•
+Paper Environment
+If the FO is contacted later by the recipient or representative payee with a refusal
+to give new or updated TPL information to the State agency, use a PR-9 input to change
+the PT of “Y” to a PT of “R”.
+If the FO is contacted by the State concerning a subsequent refusal to provide TPL information, obtain the request to
+post a refusal from the State agency in writing, then use a PR-9 input to change the
+PT of “Y” to a PT of “R” .
+•
+MSSICS 4.4 or Later
+Annotate refusals when appropriate on the BHLT screen.
+NOTE: A change which disadvantages the recipient should be accompanied by a signed, written
+request from the State (or county) Medicaid agency whenever possible.
+d. State Completes a Section 1634 Agreement
+If a State becomes a section 1634 State, absent regional direction to the contrary,
+complete the AOR process and collect TPL information at the first redetermination
+or PE contact after the effective date of the section 1634 Agreement.

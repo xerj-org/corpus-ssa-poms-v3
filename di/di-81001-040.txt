@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - DI 81001.040 - Editing a Certified Electronic Folder (CEF) in eView
+Effective Dates: 01/25/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481001040 (fetched 2026-10-04)
+
+DI 81001.040 Editing a Certified Electronic Folder (CEF) in eView
+Cases automatically open in eView for viewing only (i.e. in “unlocked” mode). To edit
+a case in eView, the case must first be “locked.”
+To lock an eView case for editing, select the yellow “Edit (Lock Case)” link at the
+top of the screen. Locking a case in eView allows an authorized user who’s PINs have
+appropriate Security Access Codes to:
+•
+Move documents to different sections of the CEF within the Case Documents Tab (see
+Case Documents Tab - DI 81005.050);
+•
+Add or remove sensitive document indicators;
+•
+Add or remove Paper Folder Indicators (see Paper Folder Indicators (PFIs);
+•
+Edit document information by clicking on the details link; and
+•
+Add a message
+Locking an eView case also prevents:
+•
+Other eView users from making changes to it while you are making changes; and
+•
+Users from trying to update a case in more than one browser.
+NOTE: If an Electronic Disability Collect System (EDCS) case is opened in update mode,
+it is locked in eView and the case can only be viewed.
+To remove the case lock after a user is finished editing the case, click on the yellow
+“Unlock” link at the top of the page.
+Cases may lock if a system error occurs or a user exited incorrectly. Locked cases
+can be unlocked by the person who locked it or by a member of management only.
+A Case Lock in eView expires after 30 minutes of inactivity. The system sends an alert
+to the user regarding loss of the case lock. Click the “OK” button on the alert to
+extend the session in edit mode. If the user does not extend the session, the case
+automatically unlocks and returns eView to view only mode.

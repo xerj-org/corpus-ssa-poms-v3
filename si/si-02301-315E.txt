@@ -1,0 +1,57 @@
+SSA Program Operations Manual System (POMS) - SI 02301.315 - Erroneous Payments and GK Payment Continuation
+Effective Dates: 06/11/2013 - Present | TN 60 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502301315 (fetched 2026-10-04)
+
+E. Procedure — correcting payment ceiling cases
+1. Correct Payments
+Follow these steps to correct payments over the payment ceiling:
+STEP
+ACTION
+1
+Determine the correct amount due.
+​
+​
+2
+Input to pay the correct amount effective the month that GK procedures permit it.
+3
+Suppress the systems notice and issue a manual GK notice.
+2. Issue a manual GK notice
+Follow manual GK notice procedures in SI 02301.307 and issue an SSA-L8165-U2. Also:
+•
+Use paragraph GBKM07 (NL 00804.225) under the caption “Your Payment Is Based On These Facts.”
+•
+Use paragraph GBKM08 (NL 00804.225) for the appeal language. Do not use the caption and language for payment continuation if it does not apply (see below).
+3. Determine payment continuation
+Follow these steps to determine if payment continuation applies and, if so, the amount:
+STEP
+ACTION
+1
+Determine the first month in which erroneous payments began (“first month of erroneous payments”).
+2
+Determine the month before the first month of erroneous payments (“the prior month”).
+3
+Was the record in nonpay status due to an eligibility suspension in the prior month?
+IF
+YES, go to Step
+4.
+IF
+NO, go to Step 6.
+4
+Was the suspension also proper for the first month of erroneous payments through the
+present?
+IF YES, determine that payment continuation does not apply. Do not offer it in the GK notice to reduce payment to $0.STOP.
+IF NO, go to Step 5.
+5
+Offer payment continuation at the higher of these amounts:
+•
+the amount that SSA attempted to pay for the first month of erroneous payments, or
+•
+the correct amount due. STOP.
+6
+Offer payment continuation at the highest of these amounts:
+•
+the amount paid in the prior month (subject to intervening changes, if higher), or
+•
+the amount that SSA attempted to pay for the first month of erroneous payments, or
+•
+the correct amount due. STOP.

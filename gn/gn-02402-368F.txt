@@ -1,0 +1,115 @@
+SSA Program Operations Manual System (POMS) - GN 02402.368 - Coding San Marino Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 01/16/2024 - Present | TN 251 (01-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402368 (fetched 2026-10-04)
+
+F. Procedure for coding San Marino bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customer’s account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for San Marino using an SSA system (e.g.
+Modernized Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary
+•
+payee indicator
+•
+enrollment status
+•
+country
+•
+account type
+•
+account ownership
+•
+International Bank Account Number (IBAN)
+•
+Society for Worldwide Internet Financial Telecommunication-Business Identifier Code
+(SWIFT-BIC)
+•
+beneficiary address
+•
+reclamation country
+1. Obtain SWIFT-BIC code from the FI
+The SWIFT code consists of 8 to 11 alphanumeric characters. When an eight-digit code
+is present, it refers to the primary office:
+•
+First four characters - bank code (alpha only)
+•
+Next two characters - ISO 3166-1 alpha-2 country code (alpha only)
+•
+Next two characters - location code (alpha and numeric) (passive participant have
+"1" in the second character)
+•
+Last three characters - branch code, optional ('XXX' for primary office) (alpha and
+numeric)
+2. Process initial award
+Secure IBAN and SWIFT-BIC coding from the beneficiary at the time of filing. The FBU
+inputs an initial IDD claim if the beneficiary elects the option of direct deposit.
+All initial IDD claims for San Marino taken by an FBU require input into ITS.gov and
+an SSA system (i.e., MCS, MACADE, etc.) on the same day. You must complete all initial
+claims taken by the International Benefits Office (IBO). All initial claims taken
+by the IBO involving IDD for San Marino also require input into ITS.gov and an SSA
+system (i.e., MCS, MACADE, etc.) on the same day.
+NOTE: If there is dire need or hardship involved, advice the beneficiary of the option
+of initiating payment via a paper check. Inform the beneficiary that the bank may
+charge for cashing the check. If the beneficiary chooses the option of paper check,
+the FBU documents and processes the initial claim.
+3. Add or update bank data using SSA systems
+When you add or update IDD bank data using SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+STEP
+ACTION
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)? If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a U.S. dollar account in San Marino? If yes, STOP.
+REASON: Beneficiaries in San Marino can only receive IDD payments in Euro accounts.
+If no, go to step 4.
+4
+Code the RTN (9 digits total) for San Marino as follows:
+•
+Start with 71, the prefix SSA has designated for San Marino IDD.
+•
+Code the five-digit bank code.
+•
+Code the first digit of the branch code.
+•
+Code the one-digit check code (obtain through Title II Interactive Comps)
+NOTE: The final digit is the U.S. check digit code and is subject to change. Obtain check
+digit code through the Title II Interactive Comps from the Main Menus 07/Sub Menu
+16.
+5
+Code the account type:
+•
+“S” for savings or
+•
+"C" for checking.
+If the beneficiary does not indicate an account type, use a “C” for checking account.
+6
+To code the DAN as follows:
+•
+Start with the country code of "C" designated for San Marino.
+•
+Code the last four digits of the five-digit branch code.
+•
+Code the 12-digit Customer Account Number.
+NOTE: SSA sends IDD payments for San Marino in Euros to local FI accounts.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.368F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02402.342 - Coding Panama Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 09/01/2022 - Present | TN 269 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402342 (fetched 2026-10-04)
+
+D. Description of Panama bank data
+1. Bank and account codes
+The IDD coding for Panama bank data consists of 27 digits, as follows:
+•
+A 9-digit bank code. (This must have all 9 digits.)
+•
+An up to 18-digit account number.
+2. Panamanian bank data on the MBR and ITS.gov
+Because there are not enough total spaces for Panama bank data in the Routing and
+Transit Number (RTN) and the Depositor Account Number (DAN) fields on the MBR, only
+a portion of the full code goes on the MBR. However, the full code must be on ITS.gov , a Department of the Treasury Internet-based program developed by FRBKC for IDD.

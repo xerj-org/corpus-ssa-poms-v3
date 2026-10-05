@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 02305.015 - Limited Issue Cases
+Effective Dates: 09/14/2015 - Present | TN 91 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502305015 (fetched 2026-10-04)
+
+D. Procedure
+1. Clearing a LI or closing a LI event
+a. Resolve the diary or identified issue
+Resolve the diary or identified issue per appropriate POMS instructions outlined in
+SI 02305.015B.
+NOTE: For all LIs involving residents of Texas receiving type H unearned income for any month(s)
+after 04/96, see Dallas regional POMS instructions on processing Diaz cases at SI DAL00835.380C.
+b. For LIs on Non-MSSICS cases
+For LIs on non-MSSICS cases, clear the LI using 1719B input. See SM 01501.003 for instructions on types of RZ
+inputs. Delete all diaries using Direct SSR input on the UDIA screen in MSSICS. For
+5B diaries, make appropriate input to the MS field per SM 01301.950 and SM 01501.250B.
+c. For LIs Sseeded into MSSICS
+For LIs seeded into MSSICS, MSSICS will delete the 5B, 5H, D8, I8, K6, KB, KC, K7, K8, K9, KP, KE, KZ, S2, SB,
+R8, 3D and U5 diaries upon completion of the appropriate Development Documentation
+Screen (MSOM MSSICS 022.012 through MSOM MSSICS 022.018). Clear the DI diary on the
+UDIA screen through Direct SSR Update.
+NOTE:
+When you complete processing a S2, U5, or D8 diary you MUST close the MSSICS LI event
+at the same
+time that you clear the diary.
+If the MSSICS LI event and the S2, U5, or D8 diary are not cleared at the same time,
+the Diaries SDO report on MI Central will continue to count the diaries as pending.
+NOTE:
+If the case is placed into non-payment and the LI is deleted from the SSR, the LI
+event will remain open in MSSICS and the LI event will continue to show as pending
+on MI Central. The MSSICS file must be locked by the manclear process in order to
+clear the LI from SUMS/MCAS MI Central. If the case becomes “stuck” because manclearing
+does not remove it from the list of pending LIs, report it to your Regional Office.
+They will delete the case from SUMS/MCAS MI Central.
+2. Clearing a LI or closing a LI event upgraded to an unscheduled RZ
+Development of a LI may lead to completion of an unscheduled RZ as described in SI 02305.022A.5. Clear a LI that results in an unscheduled RZ, as follows:
+a. For LIs not seeded into MSSICS
+For LIs not seeded into MSSICS, clear the case using a disposition code M (face-to-face interview) or N (telephone
+interview). Clear the diaries via the Diary function in Direct SSR Update per MSOM
+BUSSR 002.019. The diaries must be cleared before or at the same time as the RZ input
+to avoid the VP reject (SM 01501.005).
+b. For LIs seeded into MSSICS
+For LIs seeded into MSSICS:
+•
+Upgrade the event to a Redetermination with or without recap on PMEN (see MS 08104.008
+);
+•
+Complete an RZ path; and
+•
+Close the RZ event.

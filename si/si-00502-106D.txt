@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - SI 00502.106 - Time-Limited Eligibility for Certain Aliens
+Effective Dates: 12/21/2023 - Present | TN 54 (08-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502106 (fetched 2026-10-04)
+
+D. Policy - effect of adjustment to LAPR or other qualified alien status during 7-year
+period
+1. General
+If an alien in one of the time-limited categories adjusts to another qualified alien
+category, such as LAPR during the 7-year period, the alien’s eligibility can continue
+during the entire 7 years as determined in SI 00502.106C of this section. See SI 00502.106E for when eligibility may continue beyond the 7-year period.
+2. Systems coding for 7-year aliens who adjust to LAPR
+For individuals who are currently LAPR, but are eligible for 7 years, based on prior status as an alien in one of the categories in SI 00502.106B of this section, input the Alien Status Code (AR) and the Alien Status Date (ASA)
+for the 7-year alien
+status (F, J, L, X, or 3) rather than the code LAPR. (Refer to SM 01005.632 and SM 01005.645
+for non-MSSICS coding and MS 08108.007 for completion instructions for the Alien Status
+page.) Entering the coding for the relevant 7-year alien category will enable the
+SSI payment system to properly compute the ending date of the 7-year period and suspend
+benefits accordingly. Annotate the Remarks
+portion of the Supplemental Security Record (SSR) that the alien is currently in LAPR
+and the date LAPR status was granted in MMDDYYYY format.

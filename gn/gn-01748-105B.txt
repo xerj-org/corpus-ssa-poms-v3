@@ -1,0 +1,37 @@
+SSA Program Operations Manual System (POMS) - GN 01748.105 - Danish Coverage Certification
+Effective Dates: 02/01/2017 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0201748105 (fetched 2026-10-04)
+
+B. Description of the Danish earnings record
+The Danish earnings record is a computer-generated form which lists a person’s coverage.
+The form has been converted for SSA to show quarters of coverage (QC) in column 7.
+The fields are as follows:
+1.
+Name
+2.
+Year -Year worker made contributions
+3.
+SATS – Kinds of Contribution code (A, B, C or D) does not affect SSA
+4.
+Contributions - amount of contribution
+5.
+Contributions for Calculation – allowable contributions to be used for calculation
+6.
+Monthly Employment Factor
+7.
+QC Employment Factor – Conversion has been done for SSA (use this field) for quarters
+of coverage
+8.
+Year Employment Factor
+9.
+Monthly Standard Contribution
+10.
+Quarterly Standard Contribution
+11.
+Yearly Standard Contribution
+12.
+FRI Number – Contribution Codes
+a.
+SSA does not accept code 600 (cash sickness benefits from municipality)
+b.
+SSA does not accept code 610 (cash unemployment benefit)

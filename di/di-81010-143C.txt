@@ -1,0 +1,48 @@
+SSA Program Operations Manual System (POMS) - DI 81010.143 - Processing Medical Reactivations
+Effective Dates: 01/20/2010 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481010143 (fetched 2026-10-04)
+
+C. How to Do a Medical Reactivation
+Medical Reactivation is done using eView. To reactivate a claim:
+•
+Access eView;
+•
+Enter the SSN on the Case Selection screen and select the claim to reactivate.
+REMINDER: The claim must be in the most recent CEF case and have a status of closed, transferred,
+or manually cleared. Reactivation only works when there are no pending cases in eView;
+•
+Lock the claim using Edit (Lock Case) in eView;
+REMINDER: Cases automatically open in eView for viewing only (i.e. in unlocked mode). To edit
+a case in eView, the case must first be locked. For more information on locking and
+unlocking a case in eView see DI 81001.040 Editing a Certified Electronic Folder (CEF) in eView.
+•
+Click on the Case Status/History tab;
+•
+Click Reactivate on the Case Status/History screen. The Reactivate Claim screen will
+display claims available for reactivation;
+•
+Select the claim to reactivate;
+•
+Key the reason why a Medical Reactivation is needed. For example, Developing for an
+earlier onset date, FO modified the date last insured, or Incorrect Regulation Basis
+Code on 831 dated xx/xx/xx, SGA establishes a different onset date, etc.
+NOTE: The FO must contact the DDS, DCR or FDU before they send a Medical Reactivation
+to the DDS, DCR or FDU. The DDS, DCR or FDU must agree with the FO to medically reactivate
+the claim.
+Medical Reactivation is only permitted on a claim with a medical determination in
+the most recently closed CEF case. A case is defined as all of the claims filed/adjudicated
+at the same time. For example:
+John Smith has two disability cases and both are CEFs.
+•
+Case 1 - DI and DIB claims filed in January 2006. Both claims were medically denied
+in March 2006.
+•
+Case 2 - DI and DIB claims filed in January 2007. Both claims were medically denied
+in April 2007.
+Since Medical Reactivation can only be performed on the claims in the most recently
+closed CEF, the user can only medically reactivate the claims in Case 2, the case
+that was closed in April 2007. Either the DI or DIB claim, or both, can be medically
+reactivated. Claims that were closed in March 2006 cannot be medically reactivated
+because they are not part of the most recently closed CEF case.
+NOTE: Claims that were technically denied by the FO cannot be medically reactivated. Instead,
+FOs will use the Technical Reactivation utility in EDCS per DI 81010.110.

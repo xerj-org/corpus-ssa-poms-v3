@@ -1,0 +1,77 @@
+SSA Program Operations Manual System (POMS) - GN 02607.420 - Incarceration Reporting and Control System (IRCS)
+Effective Dates: 04/14/2026 - Present | TN 110 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607420 (fetched 2026-10-04)
+
+A. Establishing reporter and facility information
+When an institution signs a reporting agreement, either the Field Operations Prisoner
+Coordinator (FOPC) or parallel FO manager who negotiated the agreement populates IRCS
+with information about the:
+•
+agreement,
+•
+reporting institution, and
+•
+associated facilities.
+IRCS maintains information in its database on all known correctional institutions
+in the United States. Notify your FOPC if you become aware of a new correctional institution
+or discover the existence of an institution that is not already on IRCS. The FOPC
+will verify that the institution is actually a new institution and either negotiate
+an agreement with the institution or establish it as a non-participating institution.
+For an overview of IRCS, see MSOM PRISON 002.001. For a list of the FOPCs, see GN
+02607.990.
+1. Accessing IRCS establishment input screens
+To access IRCS agreement, reporter, and facility information input screens, on the
+Prison System Menu (PSMU) screen, select:
+•
+FIELD OFFICE: enter the office code associated with the PIN used to log onto the system;
+•
+MODE: 1 (ESTABLISH);
+•
+FUNCTION: 4 (REPORTER AND FACILITY); and
+•
+the desired STATE.
+For information on the PSMU screen, see MSOM PRISON 001.003.
+2. Coding the input screens
+The PSMU ESTABLISH mode will present a series of sequential input screens. Complete
+the screens as follows:
+a.
+Existing Reporter/Facility ID (IERF) screen: This screen displays the Reporter ID Codes or Facility ID Numbers, and their corresponding
+names, currently assigned for the State entered on the PSMU screen.
+•
+If the reporter and associated facility(ies) are not listed on the IERF screen, continue
+pressing ENTER to proceed through the data fields until you reach the next screen.
+•
+If the reporter or associated facility is already listed on the IERF screen, press
+PF3 to return to the PSMU screen and follow instructions in GN 02607.420B in this section.
+For information on using the IERF screen, see MSOM PRISON 002.002.
+b.
+Incarceration Agreement Identification Data (IAID) screen: Enter data in each field as instructed in MSOM PRISON 002.003. Input the date the
+institution signed its most current inmate reporting agreement as the Start Date.
+c.
+Reporter Contact Information (IRID) screen: Enter data in each field as instructed in MSOM PRISON 002.004.
+d.
+Reporter Remarks (IRI2) screen: Enter data in each field as instructed in MSOM PRISON 002.005. Some examples of
+remarks to include on this screen are:
+•
+special instructions that apply for inmate verification with the reporting institution
+(e.g., send FAX only do not contact the jail directly for inmate information; send
+requests for verification through the parallel FO);
+•
+name and code of the FO responsible for negotiating the agreement with the institution;
+•
+status of any reporting problems with the institution; and
+•
+status of any ongoing reporting agreement negotiations with the institution.
+e.
+Facility Identification Information (IFID) screen: Enter data in each field as instructed in MSOM PRISON 002.006. Establishing a reporter
+on IRCS also requires establishing at least one facility associated with that reporter.
+f.
+Incentive Payment Identification Information (IPID) screen: Enter data in each field as instructed in MSOM PRISON 002.007.
+CAUTION: If you use PF3 to back out of IRCS before you transmit the IPID screen, none of
+the input screens will process.
+g.
+Assignment of Reporter/Facility Identification Numbers (IARF) screen: This screen
+displays the new reporter identification (RID) and facility identification (FID) numbers
+that IRCS assigned during establishment of a new reporter or facility, or both. Display
+of the IARF verifies that coding of the facility(s) and reporter information processed.
+For more information on the IARF screen, see MSOM PRISON 002.008.

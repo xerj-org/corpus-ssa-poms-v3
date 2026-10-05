@@ -1,0 +1,36 @@
+SSA Program Operations Manual System (POMS) - SI 02310.055 - Master Earnings File (MEF) Match (K6 and K7 Diary)
+Effective Dates: 12/17/2012 - Present | TN 68 (01-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502310055 (fetched 2026-10-04)
+
+A. Description of match
+1. Comparison
+The match compares the annual earnings amount as reported on Form W-2 or Schedule
+SE to the amount on the SSR for the tax year. The MEF data may constitute wages, net
+earnings from self-employment, or sheltered workshop payments. When the MEF data indicate
+significant unreported or underreported earned income, a K6 or K7 diary is set and
+controlled on the Post Entitlement Operational Data Store (PE ODS) system. The discrepancy
+can be determined by reviewing a Detailed Earnings Query (DEQY) printout and comparing
+it to the information posted to the SSR. The FOs must resolve the discrepancy, update
+the SSR, determine past and continuing SSI eligibility, and pursue overpayment recovery.
+NOTE: In cases where the beneficiary denies the earnings in question; see RM 03870.057 When Earnings May Be Transferred.
+2. Frequency of Match
+The initial release of MEF cases coincides with the first redetermination release
+of the fiscal year. A supplemental release is usually scheduled for March.
+3. Generation of Diaries
+a. K6 Diaries
+If the date of eligibility is in January of the tax year involved or earlier, the
+interface will set a K6 diary if the recipient's or deemor's earnings on the MEF exceed
+the amount on the SSR by $1,000 or more.
+b. K7 Diaries
+If the date of eligibility is later than January of the tax year involved, the interface
+will set a K7 diary if a deemor's earnings exceed the amount posted on the SSR by
+$2,000 or more and either the MEF contains an amended earnings report or the SSR does
+not reflect any earnings for the deemor.
+c. The diaries are suppressed if:
+•
+The SSR already has a K6 or K7 diary; or
+•
+The SSR has a payment status other than CO1 or MO1; or
+•
+When the earnings are for a deemor, the SSR shows that the deemor is receiving assistance
+based on need (ABON).

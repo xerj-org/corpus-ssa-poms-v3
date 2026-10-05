@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - GN 02607.500 - Processing Claims When a Prisoner Update Processing System (PUPS) Record Exists
+Effective Dates: 04/14/2015 - Present | TN 85 (04-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202607500 (fetched 2026-10-04)
+
+A. Identifying PUPS records in initial claims
+PUPS establishes a record for every reported inmate whose Social Security number (SSN)
+we can verify. When a verified SSN matches with a Master Beneficiary Record (MBR)
+with current entitlement or a Supplemental Security Record (SSR) with current eligibility,
+PUPS establishes a pending record and generates a PUPS alert when we receive the inmate
+report electronically. When a verified SSN does not match an MBR with current entitlement
+or an SSR with current eligibility, PUPS creates a skeleton record.
+When PUPS establishes either a pending or a skeleton record, the MBR and SSR display
+the following message: "A RECORD IS PRESENT ON THE PRISONER UPDATE PROCESSING SYSTEM
+DATABASE FOR BOAN: XXX-XX-XXX, JOHN DOE, BIC-X."
+For more information on PUPS record establishment, see GN 02607.410. For more information on PUPS skeleton records, see GN 02607.520.

@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - GN 02408.007 - Title II Paper Check Payment Issued to a Representative Payee after the Death of a Beneficiary
+Effective Dates: 04/22/2011 - Present | TN 78 (05-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202408007 (fetched 2026-10-04)
+
+D. Process after F-stop is input
+After the F-stop is input, Treasury will return a disposition to SSA.
+A disposition of:
+•
+“32” (check is outstanding) will result in a “00” credit being returned to SSA from Treasury.
+A REACT alert will be created when no SPA field is on the MBR. The PSC will apply
+the “00” credit to the BOUD, reducing the overpayment.
+•
+“11” (check cashed) will result in a claims package being mailed to the PSC by Treasury.
+If the representative payee protests the overpayment due to nonreceipt/forgery, the
+representative payee will review and complete the claims package. Treasury will process
+a forgery determination on the check. See GN 02406.160 for more information on Treasury’s claims package.

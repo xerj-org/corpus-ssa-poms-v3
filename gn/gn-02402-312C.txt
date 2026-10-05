@@ -1,0 +1,8 @@
+SSA Program Operations Manual System (POMS) - GN 02402.312 - Coding Antigua and Barbuda Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 05/05/2021 - Present | TN 268 (04-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402312 (fetched 2026-10-04)
+
+C. Multi-country contract
+The processing FI in Antigua and Barbuda has a prefix of “74” at the beginning of
+the Routing and Transit Number (RTN). The first letter of the Depositor Account Number
+(DAN) field has the letter “D” assigned for Antigua and Barbuda.

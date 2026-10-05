@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - GN 02402.335 - Coding Trinidad and Tobago Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 07/19/2016 - Present | TN 260 (03-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402335 (fetched 2026-10-04)
+
+G. Example of coding Trinidad and Tobago direct deposit
+The customer provides us with a signup form for Trinidad and Tobago containing the
+following information:
+Bank code: 123
+Branch code: 45678
+Account Number: 123456789012
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Prefix of 70, assigned to Caribbean countries for which Citibank is the processor
+bank
+•
+a filler “0"
+•
+3-digit bank code: "123"
+•
+the first 2 digits of the branch: "45"
+•
+the U.S. check digit (i.e., 2) obtained through the Title II Interactive Comps from
+the Main Menus 07/Sub Menu 16.
+•
+The account type as a “C” for checking or an “S” for savings. If there is no indicated
+account type, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of "R" designated for Trinidad and Tobago,
+•
+The remaining 3 digits of the branch code: "678"
+•
+Code up to 12 digits of the account number: "123456789012"
+3. Obtain the following information
+•
+RTN: 700123452
+•
+Checking
+•
+DAN: R678123456789012
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 700123452 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: R678123456789012
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 700123452
+•
+DAN- CR678123456789012

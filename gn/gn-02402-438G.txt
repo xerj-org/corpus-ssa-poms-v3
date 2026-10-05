@@ -1,0 +1,41 @@
+SSA Program Operations Manual System (POMS) - GN 02402.438 - Coding Myanmar Bank Data on the Master Beneficiary Record (MBR)
+Effective Dates: 08/21/2019 - Present | TN 192 (05-21)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402438 (fetched 2026-10-04)
+
+G. Example of coding Myanmar direct deposit
+The customer provides us with a signup form for Myanmar containing the account number:
+“12345678901122334455667788990.”
+1. Derive the RTN
+The technician enters the information for the RTN.
+•
+Code the RTN of 720000128
+•
+Code the type of account as a “C” for checking or an “S” for savings. If no account
+type indicated, use a “C” for checking.
+2. Derive the DAN
+The technician codes the DAN.
+•
+Start with the country code of “N” designated for Myanmar; and
+•
+Code 16 digits of the 29-digit account number “1234567890112233”
+3. Obtain the following information:
+•
+RTN: 720000128
+•
+Checking
+•
+DAN: N1234567890112233
+a. POS reflects the direct deposit information
+•
+DIRECT DEPOSIT ROUTING TRANSIT NUMBER: 720000128 ACCOUNT TYPE (C/S): C
+•
+DEPOSITOR ACCOUNT NUMBER: N1234567890112233
+•
+CANCEL DIRECT DEPOSIT (Y):
+•
+DIRECT EXPRESS (Y):
+b. The MBR reflects the following information
+•
+RTN- 720000128
+•
+DAN- CN1234567890112233

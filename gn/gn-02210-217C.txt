@@ -1,0 +1,39 @@
+SSA Program Operations Manual System (POMS) - GN 02210.217 - Debtor Unable or Unwilling to Refund the Overpayment - Debt Contact Representative (DCR) and Debt Specialist (DS) Actions
+Effective Dates: 03/16/2022 - Present | TN 67 (03-22)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202210217 (fetched 2026-10-04)
+
+C. ECO referral
+The ECO system selects delinquent programmatic debts and refers these debts for external
+collection action. The system will then send the debtor’s information (taxpayer identification
+number or SSN) to any external collection tool that meets the criteria of eligible
+debts.
+To determine if we referred a debt to our external collection tools, please refer
+to MS DMS 01114.007, ECO Master Query.
+IMPORTANT: Do not diary cases that will NOT be selected for TOP or credit bureau reporting.
+Instead, move those cases along to the next step in the process.
+1. Title II cases
+The system will not select Title II cases if:
+•
+The Title II debtor is in ledger account file (LAF) “S” or any LAF other than “T,
+U, X, N, or P”;
+•
+The debt was established before the debtor attained age 18;
+•
+The debt shows an indication that Department of Justice (DOJ) is involved, such as
+a TC-31, TC-32 or TC-70 (see SM 00610.516);
+•
+The person billed is a representative payee;
+•
+The Title II debt is a type of event (TOE) 29 or 31; or
+•
+The debtor is deceased with no representative payee on the record.
+2. Title XVI cases
+The system will not select Title XVI cases if:
+•
+The debt has a future payment status (PSTAT) code of "C01," which indicates that the
+former recipient will soon go into current pay status; or
+•
+The payment status is not "N" or "T."
+The criteria above are not all-inclusive. If you have questions about a case, consult
+with the subject matter expert in your office. For additional information about ECO,
+see SM 00610.040.

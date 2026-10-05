@@ -1,0 +1,17 @@
+SSA Program Operations Manual System (POMS) - SI 02201.015 - SSI Netting/Offsetting Overpayments Against Underpayments
+Effective Dates: 10/18/2023 - Present | TN 16 (10-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502201015 (fetched 2026-10-04)
+
+B. Procedure - netting
+Beginning September 2002 the system, in most cases, automatically computes the net
+amount for all periods where there are excess payments and additional amounts due
+for the period(s) under review. If the net result is an overpayment, the system creates
+an overpayment sequence for the period under review. The system, in most cases, notifies
+the individual of the net result either by sending a post eligibility notice and issuing
+an underpayment or by sending an initial overpayment notice. If the system can not
+perform automated netting or can not send an automated notice, it sets a B3 diary.
+For instructions on resolving B3 diaries, see SM 01311.633.
+If the system can not perform automated netting or cannot send an automated notice,
+the field office (FO) is required to manually net the period under review and issue the appropriate initial overpayment (or underpayment)
+notice.
+For cases that are excluded from automated netting, see SM 01311.160B.

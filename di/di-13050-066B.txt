@@ -1,0 +1,95 @@
+SSA Program Operations Manual System (POMS) - DI 13050.066 - Initial Reinstatement Period - Title II
+Effective Dates: 11/20/2025 - Present | TN 33 (11-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050066 (fetched 2026-10-04)
+
+B. Procedure - Documenting the Initial Reinstatement Period
+1. Electronic Processing of Payment Determinations During the IRP- eWork
+Unless one of the exclusions in DI 13010.025B.3. applies, eWork should be used to assist with the development and adjudication
+of payment determinations during the IRP for Title II beneficiaries.
+•
+When evidence of earnings is received, establish a Work Review within eWork as outlined
+in DI 13010.025B.1.
+•
+Review the information presented on the Initiate Work Review screen. If the MBR is
+correctly coded with a DAC of F, eWork will establish the case as an EXR case and
+apply all applicable IRP policies. If the MBR is not correct, flag the case as an
+EXR case by placing a check in the EXR box. Correct the DOED if necessary. Enter the
+correct date of filing when prompted. See the eWork Help screen for assistance in
+determining the proper date.
+NOTE: Although you can manually flag a case as an EXR case, enter it into eWork and begin
+development. IRP status changes cannot be finally processed until the MBR is corrected. Contact OCO/PC to request correction
+of the MBR. See the Help screens on the Initiate Work Review Screen for information
+on procedures.
+•
+If this is the first entry into eWork, enter the date of the EXR award determination
+and any prior IRP determination information. See the eWork Help screen for more information
+on determining the date of award.
+•
+After the date of award is entered, enter all payable months from date of entitlement
+through date of last determination to correctly determine IRP months.
+When all development is completed, eWork will calculate the IRP months and proceed
+to the TWP and EPE if applicable. eWork will also produce the forms and notices needed
+for adjudication and the mainframe inputs necessary to effectuate the determination.
+2. Manual Processing
+EXR cases with non payment months during the IRP for any of the reasons listed in
+DI 13050.066A other than SGA are eWork exclusions. If the case is an eWork exclusion, manually
+prepare all development requests, notices and determinations. Use the CDRW to control
+development requests and outstanding issues.
+a. Completing the 833
+Document an SGA determination during the IRP on a SSA-833, (Cessation or Continuance
+Disability Determination or Transmittal). Complete the SSA-833 as you would for a
+SGA determination during the extended period of eligibility (EPE), with the following
+modifications.
+1.
+Block 5; show the original claim date of onset.
+2.
+Block 9; no entry. An IRP payment determination is neither a cessation nor continuance
+determination.
+3.
+Block 24; annotate “EXR-IRP SGA” and record the months of SGA and non-SGA. If there
+is not sufficient space in the block to record the determination, use a continuation
+sheet (check block 13). This data is recorded in the same manner as EPE data.
+•
+IRP Begin Month: Show the month benefits were reinstated.
+•
+IRP Suspense Month: Show the first month in the IRP the individual engages in SGA.
+•
+IRP Reinstatement Allowed: Show the first month of non-SGA after a suspense month.
+•
+IRP Suspense After Reinstatement: Show the first month of SGA after a reinstatement.
+•
+IRP End Month: Show the last month of the IRP. This is the 24th month the individual did not engage in SGA after the IRP Begin Month. This date is
+needed to document the individual's reentry into the regular work incentive provisions
+(TWP/EPE/Extended Medicare).
+If the period of earnings being reviewed goes beyond the IRP and through the new TWP,
+prepare a second SSA-833 for an EPE determination per DI 13010.170.
+b. Effectuating the Determination
+When adjudication is complete, input IRP suspense and reinstatement months to the
+PEC1 screen in the Postentitlement Online System (POS). Refer to MSOM T2PE 003.024
+and MSOM T2PE 003.037 for instructions. Also input the appropriate monthly earnings
+and WORK DET code for each month of earnings in the review period per DI 13010.675 and place a remark on the Remarks screen of the DCF to document the IRP.
+NOTE: Notices for IRP determinations are available in the Distributed Online Correspondence
+system (DPS).
+3. Routing and Review
+The DO has final adjudicative authority for all work issue CDR and IRP determinations
+and OCO/PC review is not required. When development is completed, print copies of
+any determinations and notices for retention in the claims folder. Send the paper
+material to OCO or the PC of jurisdiction, along with the SSA-820/821 and any other
+evidence submitted which may be useful in an appeal. OCO/PC will associate the material
+with the folder. Mark the material “No action needed-Prong file material”.
+If eWork is used, do not maintain an ongoing paper file in the FO. An electronic record
+of the determination and earnings information is saved and available online in the
+automated databases, and information is posted to the DCF.
+If eWork cannot be used, a paper file must also be maintained in the FO containing
+the following information:
+•
+copies of any determinations (SSA-899, SSA-833-U5, SSA-4268),
+•
+copies of manual notices sent,
+•
+IRWE/Special consideration computations,
+•
+any other information, such as relevant Reports of Contact, necessary to expedite
+the reinstatement or suspension of benefits, and
+•
+copies of evidence supporting the determination.

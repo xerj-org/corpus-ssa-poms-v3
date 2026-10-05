@@ -1,0 +1,61 @@
+SSA Program Operations Manual System (POMS) - SI 02005.001 - Retrospective Monthly Accounting Computation
+Effective Dates: 09/22/2010 - Present | TN 24 (09-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502005001 (fetched 2026-10-04)
+
+F. Policy - The OSS Payment Computation
+1. No Additional State Income Disregards (All Except Maine)
+a. Step 1
+Compute the Federal SSI payment. If a Federal SSI payment is due, there is no excess
+income and the full CM OSS payment level is payable.
+b. Step 2
+If no Federal payment is due, compute the excess income. The excess income in the
+payment computation is the difference between the BM's CI and the CM FBR (plus any
+essential person increment). If the Federal payment limit for FLA D was used in the
+Federal payment computation, the excess income is the difference between the BM's
+CI and the FLA D payment limit.
+If there is no excess income in the payment computation (whether or not there is excess
+income in the CM), the full OSS payment level is payable.
+If there is excess income in the payment computation, it is subtracted from the CM
+OSS payment level; the remainder is the OSS payment.
+If the excess income in the payment computation equals or exceeds the CM's OSS payment
+level, no OSS is due.
+c. Eligible Couple Living Together
+Select an OSS payment level based on the couple's living arrangement variation for
+the State of residence. Perform the payment computation jointly; and, divide the results
+by two. Do not add the Federal SSI and OSS amounts because rounding may be necessary
+in the final step of either the Federal SSI or OSS computation. (See SI 02001.010).
+d. Eligible Couple Living Apart
+(See SI 02005.030).
+e. Mandatory Minimum State Supplementation (MMSS) Payments
+The OSS will be paid if it is equal to or greater than the MMSS. (See SI 02005.082.)
+2. Additional State Income Disregards — Maine
+a. Step 1
+Compute the Federal SSI payment based on regular income rules. If a Federal payment
+is due based on BM CI (without considering the additional State disregards), there
+is no excess income and the full CM OSS payment level is payable.
+b. Step 2
+If no Federal payment is due (based on regular income rules), compute the excess income
+as in SI 02005.001F.1.b.
+If there is no excess income in the payment computation, whether or not there is excess
+income in the CM, the full OSS payment level is payable.
+If there is excess income in the payment computation, apply the State's additional
+income disregards.
+c. Step 3
+Subtract the State's additional income disregards from the BM's CI except for the
+VTR. Add the VTR to the FCI that remains after the State's additional exclusions have
+been applied. Compare this remaining CI (including the VTR) to the FBR (plus any essential
+person increment).
+d. Step 4
+If a Federal SSI benefit is due based on the remaining CI (new CI is less than or
+equal to the Federal limit in Step 3 above), there is no excess income and the individual/couple
+is due the full OSS level.
+REMINDER: State disregards do not affect the Federal payment, so the individual/couple is still
+not due a Federal payment.
+e. Step 5
+If a Federal SSI benefit is not due based on the remaining CI, the difference between
+the new CI and the Federal limit in Step 3 above is the excess income. Subtract this
+income from the OSS level.
+If the excess income (based on the new CI) is less than the OSS level, the difference
+is the OSS payment.
+If the excess income (based on the new CI) is equal to or greater than the OSS level,
+the individual/couple is due no OSS payment.

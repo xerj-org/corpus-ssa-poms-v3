@@ -1,0 +1,29 @@
+SSA Program Operations Manual System (POMS) - GN 02610.010 - How to Identify Potential Windfall Offset Cases
+Effective Dates: 09/12/2025 - Present | TN 37 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202610010 (fetched 2026-10-04)
+
+C. Situations when the FO will initiate the e4345
+The e4345 is a web-based application used to electronically communicate windfall offset
+information between the PC and FO. Normally, the PC will initiate the e4345. However,
+there are situations when the FO must initiate the e4345. The following situations
+are when the FO should initiate an e4345.
+•
+The windfall offset data cannot be posted to the Supplemental Security Record (SSR).
+•
+The completed offset computation is on the SSR, but the MBR has a windfall offset
+data (WOD) line with a windfall indicator (WIN) code other than A,L, or M.
+•
+The claims representative (CR) needs to follow up with the PC to post pending offset
+or authorized representative date to the MBR.
+•
+The CR needs to follow-up with the PC to process the offset or correct data on the
+MBR.
+•
+The offset results have been posted to the SSR but an MBR/SSR interface will not occur,
+e.g., terminated SSR.
+NOTE: You do not need an e4345 action in every case. Do not enter windfall offset data
+into this application if all title II and title XVI actions can be automated and completed
+by the system. For instructions on when to use and how to complete the e4345, see
+Field Office User's
+Guide and Program Center
+User's Guide.

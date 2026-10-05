@@ -1,0 +1,20 @@
+SSA Program Operations Manual System (POMS) - DI 26510.050 - Completing Item 23 (Medical List Number) on the SSA-831
+Effective Dates: 02/03/2012 - Present | TN 10 (04-09)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0426510050 (fetched 2026-10-04)
+
+A. Title II
+When Item 15 is checked and the claimant's impairment meets or equals the level of
+severity of the Listing of Impairments at the time of adjudication, enter up to 7
+positions of the appropriate medical listing number. The first three positions (to
+the left of the decimal point) must be numeric, with values of 001-114. Fill in with
+leading zeroes if the medical listing number has fewer than 3 positions before the
+decimal. Positions 4-5 (the first two positions to the right of the decimal point)
+must be numeric; with values, 02-30 (must show leading zeroes). Position 6 (the third
+position to the right of the decimal point) must be alpha with values A-O, or blank).
+Position 7 (the last position) can have values A-O (alpha), 1-9 (numeric, no zeroes),
+or be blank.
+For example:
+Medical listing “112.09” should be coded as “112.09”
+Medical listing “4.02A2” should be coded as “004.02A2”
+NOTE: These coding instructions coincide with the requirements for entering medical listing
+codes to the National Disability Determination Services System.

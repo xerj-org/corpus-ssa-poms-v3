@@ -1,0 +1,53 @@
+SSA Program Operations Manual System (POMS) - DI 11005.007 - Field Office (FO) Instructions for Identifying Claims, Applicable Terms, and Scheduling Appointments for Claimants with a Veterans Affairs 100 Percent Permanent and Total (VAPT) Disability Compensation Rating
+Effective Dates: 11/21/2023 - Present | TN 122 (02-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411005007 (fetched 2026-10-04)
+
+B. Identifying VAPT cases using the Social Security Administration (SSA)/VA data exchange
+information
+The VA identifies veterans with a VAPT disability compensation rating, and provides
+SSA with weekly information on this population through an automated data exchange.
+We verify the Social Security Numbers (SSNs) and other data (such as, name, date of
+birth, and sex) that the VA provides against the NUMIDENT. The information VA provided
+may not be a comprehensive list of all VAPT disability compensation recipients, therefore
+we must be alert to the possibility of new VAPT claimants during the initial interview.
+We store the SSN of only verified disability compensation recipients in the SSA Integrated
+Client Data Base (ICDB), also known as PERSON. We do not take any action on the information
+in this database until the veteran contacts us to file a claim; we cannot use this
+information for leads purposes.
+1. Claimant’s SSN matches the SSA ICDB
+If a veteran files a claim, follow these procedures:
+a.
+When the claimant’s SSN matches the information in the ICDB, an alert may appear in
+either one of or all of the following:
+•
+Enhanced
+Leads and Appointment System (eLAS) generates the time sensitive case alert “Schedule Appointment Within 3 Business Days
+Due To: VA 100% P&T”;
+•
+Customer Service Record Query (CSQR) generates the alert “VA 100% P&T – Use Expedited Procedures” in both Visitor Intake
+Process Re-write (VIPr) and Customer Information Control System (CICS);
+•
+Modernized Claims Systems (MCS) adds an ISSUE “100% PT” and the remark “VA 100% Perm and Total” to the Remarks field
+on the MCS DW01 Screen;
+•
+Electronic Disability Collect System (EDCS) adds Flag #38 “Disabled Veteran Rated 100% Permanent and Total” to pending cases
+and initiated cases that have a data match;
+•
+Case Processing and Management System (CPMS) adds the case characteristic “VPAT” (effective 07/15), and
+•
+Appeals Review Processing System (ARPS) adds the case characteristic “VPAT.”
+b.
+During case creation, when the SSN is present in the PERSON VAPT segment, the EDCS
+automatically attaches a VAPT flag.
+If the SSN match occurs after initial case creation, the VAPT flag re-propagates into
+EDCS during case creation at any adjudicative level.
+2. Claimant’s SSN does not match the SSA ICDB
+If the claimant’s SSN does not match the information in the SSA ICDB (i.e., no alert
+is present), but the claimant alleges a VAPT disability compensation rating:
+•
+Manually establish a VAPT flag in EDCS.
+(For instructions on manually establishing a flag, see DI 81010.080 )
+•
+If the case is a paper modular disability folder (MDF), attach a paper VAPT flag to
+the MDF.
+See an exhibit of the paper flag in DI 11005.012G.

@@ -1,0 +1,54 @@
+SSA Program Operations Manual System (POMS) - DI 81020.065 - Electronic Case Documentation
+Effective Dates: 01/23/2008 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0481020065 (fetched 2026-10-04)
+
+E. Scanning Problems
+1. Scanned Documents Added to Wrong Case
+When the DDS or the scanning contractor adds scanned documents to the wrong CEF:
+•
+Document the error on the DDS case processing worksheet;
+•
+Move the misfiled document to the Current Development/Temporary (green) section of
+the CEF;
+•
+Create a barcode coversheet for the correct case;
+•
+Obtain the source document from storage or print from the DMA viewer; and
+•
+Rescan or fax the source document to the correct CEF.
+NOTE: If the source document was printed, destroy the printed copy after scanning per
+Document Retention and Destruction - DI 81020.055.
+2. Page(s) of Scanned Document Added to Wrong Case
+Remove page(s) of a scanned document that are added to the wrong CEF and associate
+the page(s) with the correct case. If the page(s) does not belong to a disability
+claim, process the page(s) per Disposition of Trailer Material - DI 22520.001B.2.
+When page(s) of a scanned document are added to the wrong CEF:
+•
+Document the error on the DDS case processing worksheet;
+•
+Obtain the page(s) of the source document from storage or print from the DMA viewer;
+•
+Create a barcode coversheet for the correct case;
+•
+Delete the page(s) through the DMA Viewer; and
+•
+Scan the page(s) of the source document to the correct CEF.
+NOTE: If the source document was printed, destroy the printed copy after scanning per
+Document Retention and Destruction - DI 81020.055.
+3. DMA Document Manipulation
+DMA Document Manipulation may be used to copy a page or document from one CEF to another
+CEF.
+•
+Using the DDS case processing system, create a barcode for the document in the correct
+case. Include in the barcode the SSN for the correct case and a new request ID number
+(see Document Management Architecture (DMA) Barcodes and Document Indexing - DI 81020.035).
+NOTE: The request ID must be different than the request ID on the original document.
+•
+Open the CEF document requiring manipulation.
+•
+Use the DMA page level manipulation features to copy the applicable pages or document
+and paste them into a new document.
+•
+The “New Document Attributes” box appears. Enter the SSN for the correct claimant,
+the correct document type, your DDS site code, and the new request ID from Document
+Management Architecture (DMA) Barcodes and Document Indexing DI 81020.065E.1.

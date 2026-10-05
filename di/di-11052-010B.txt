@@ -1,0 +1,34 @@
+SSA Program Operations Manual System (POMS) - DI 11052.010 - Processing End-Stage Renal Disease Medicare Claims with Railroad Retirement Board Involvement
+Effective Dates: 08/13/2015 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0411052010 (fetched 2026-10-04)
+
+B. Determining how to process a RRB ESRD award
+1. RRB ESRD premiums
+The Centers for Medicare & Medicaid Services (CMS) bills the claimant for ESRD Part
+B (R-SMI) premiums, even if he or she is receiving a monthly RRB benefit but is not
+yet entitled to Medicare. The only time CMS does not bill for premiums is if the claimant
+is already entitled to Medicare under a Railroad Retirement Claim Number (RLCN) or
+if the Ledger Account File (LAF) code on the Master Beneficiary Record (MBR) is “E”.
+For processing instructions, see DI 11052.010E. in this section.
+2. Determine if Medicare exists under an RLCN
+If the claimant meets the requirements for entitlement to ESRD, we must determine
+whether he or she is currently entitled to Medicare under a RLCN. A claimant will
+have Medicare under an RLCN only if he or she:
+•
+is age 65 or over, or
+•
+has received a disability benefit from RRB for 24 months.
+A Medicare record is established if an RRB claimant is age 64 and 8 months or in the
+20th month of disability.
+Secure an MBR and HI/SMI Query Response (HIQR) printouts on the claimant’s own SSN
+or any other SSN’s involved, such as those indicated in the answer to item 9(c) of
+the CMS-43 (Application for Health Insurance under Medicare for Individual with Chronic
+Renal Disease). Review the printouts to determine whether the:
+•
+MBR establishes Medicare entitlement under RRB;
+•
+HIQR on the RLCN shows Medicare entitlement for the claimant; or
+•
+XCN field of the HIQR on the claimant’s SSN shows a cross reference to an RLCN (six
+or nine digit number preceded by one, two, or three alpha characters, e.g., WA 123456;
+A 123456789).

@@ -1,0 +1,40 @@
+SSA Program Operations Manual System (POMS) - GN 00503.120 - Response Received to Advance Notice
+Effective Dates: 08/14/2023 - Present | TN 14 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200503120 (fetched 2026-10-04)
+
+D. Procedure - reconsideration
+Document the receipt of the reconsideration on the Add New Issue screen on eRPS.
+Compare the information provided when the protest is filed with the evidence used
+in the initial determination.
+Request a face-to-face interview with the beneficiary to resolve any problems.
+Document the rationale for the decision on the Protest Decision Details screen.
+1. Reconsideration filed before effectuation
+Record on the Protest Details screen that a “protest” has been filed to prevent effectuation,
+per MS 07412.004.
+2. Change in initial determination
+All notices should be sent by the FO.
+a. Capability issue
+If the reconsideration involves the need for a payee and you decide that the beneficiary
+is capable, initiate direct payment immediately. The system will send the correct
+notice to the beneficiary if they had a payee.
+If the beneficiary is in direct pay, send a manual reconsideration notice including
+the hearing paragraph. Record the non-selection issue on eRPS and process the SSA-11
+normally.
+b. Selection of payee issues
+If the issue is the selection of a specific payee and you decide to select a different
+one, process the new SSA-11 in the normal procedure. The eRPS will send the beneficiary
+the advance notice of the revised selection. Allow the beneficiary the normal time
+to appeal the revised determination. Record the nonselection issue for the first applicant
+on eRPS.
+For title II cases, the T2R notice system will send the notices to the new payee,
+beneficiary and former payee. The FO is responsible for sending the notices to the
+new payee, former payee and beneficiary in title XVI change of payee situations. The
+title XVI system will send these notices if the beneficiary was in direct pay. However,
+the FO must send the SSA-623 when a final accounting is needed.
+3. No change in initial determination
+If you decide that the original decision is correct, effectuate the payee appointment
+and send a manual formal reconsideration notice including the hearing paragraph.
+If the issue is the need for a payee, use notice language similar to that in NL 00703.215.
+If the issue is selection of the payee, use NL 00703.216.
+Suppress the notice on title XVI cases and send the notices to the new payee, former
+payee and beneficiary manually.

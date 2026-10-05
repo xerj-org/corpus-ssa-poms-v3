@@ -1,0 +1,24 @@
+SSA Program Operations Manual System (POMS) - SI 00820.130 - Evidence of Wages or Termination of Wages
+Effective Dates: 03/25/2025 - Present | TN 99 (03-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500820130 (fetched 2026-10-04)
+
+D. Procedure for verifying “reported” wages
+1. Do not routinely verify wages that meet criteria to be considered “reported” wages
+unless an exception applies
+Consider “reported” wages as verified if they meet the criteria in SI 00820.143E (Monthly Wage Reporting). Do not routinely verify “reported” wages, unless one of the exceptions applies to the period
+that you are developing, see SI 00820.130B.3 in this section.
+2. No wage interface alert on the SSR
+If an exception applies during the development period and a wage interface alert is
+not present in the DIAR segment of the SSR, verify the wages using the procedures in
+SI 00820.130C in this section.
+3. Wage interface alert on the SSR
+If a wage interface alert applying to the period that you are developing is present
+in the DIAR segment of the SSR, develop for evidence of wages using the instructions:
+•
+SI 02310.055 Master Earnings File (MEF) Match (K6 and K7 Diary)
+•
+SI 02310.056 Master Earnings File (MEF) Match (J3 and J5 Diaries)
+•
+SI 02310.062 State Wage Record Match (S2 Diary)
+•
+SI 02310.063 State Wage Record Match (S7 Diary)

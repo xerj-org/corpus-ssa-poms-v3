@@ -1,0 +1,32 @@
+SSA Program Operations Manual System (POMS) - SI 02006.204 - Field Office Processing Instructions for Concurrent Cases Involving Unknown or Unresolved Representative Fees
+Effective Dates: 07/28/2023 - Present | TN 18 (07-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0502006204 (fetched 2026-10-04)
+
+E. Initial windfall offset computation for concurrent cases involving unknown or unresolved
+representative fees
+Continue to process an “initial” offset while waiting on the resolution of all fees
+in fee petition and some fee agreement cases (i.e. auxiliary benefits).
+What is an “initial offset”? In some cases, it is possible the payment center (PC)
+can take the second day action to post an offset computed without fees and release
+some of the Title II past-due benefits while waiting on the fee authorization. In
+other cases, they may not complete processing of the “initial offset” because after
+applying windfall, there may not be enough Title II past-due benefits left to allow
+for 25% withholding, see GN03920.036.
+Determine if the system was able to compute the initial windfall offset automatically.
+Check the Windfall Indicator (WIN) codes on the SSR to determine if the offset was
+completed, see SM 01320.021.
+•
+Clues the PC could not complete the "initial" offset include a pending 6W diary windfall
+coding in the MBR history segment, a pending e4345, and no offset entry on PHUS.
+•
+If a limitation or exclusion prevented automation of the initial windfall offset,
+an offset diary (e.g., 5W, 7W, etc.) will post to the SSR. If an offset diary posts,
+to take any necessary action, follow the instructions SM 01320.010.
+•
+If a 2L diary posts, to resolve any discrepancies between the fee statuses posted
+to the MBR and the SSR, follow instructions SM 02001.217 . If after ruling out all
+other possibilities for the 2L diary and the only discrepancy is that the SSR correctly
+reflects a fee status of unknown or unresolved, delete the 2L diary, and send to the
+SSR.
+Once you have resolved any diaries preventing windfall automation, review SI 02006.210 & SM 01320.001 to locate any further instructions you may need to complete the initial
+windfall offset.

@@ -1,0 +1,97 @@
+SSA Program Operations Manual System (POMS) - GN 02402.324 - Coding Haiti Bank Data for the Master Beneficiary Record (MBR)
+Effective Dates: 07/22/2026 - Present | TN 325 (07-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202402324 (fetched 2026-10-04)
+
+F. Procedure for coding Haiti bank data
+The FRBKC relies on us to provide the complete bank data to ensure correct posting
+of payments to a customers account. If the information is incomplete, the FRBKC rejects
+the payment and returns the funds to our agency.
+You may establish or change IDD bank data for Haiti using an SSA system (e.g. Modernized
+Claims System (MCS), Manual Adjustment Credit and Award Data Entry (MACADE)).
+You must then go to ITS.gov to enter the following data:
+•
+first and last name of the beneficiary;
+•
+payee indicator;
+•
+enrollment status;
+•
+country;
+•
+account type;
+•
+account ownership;
+•
+3-digit bank code;
+•
+5-digit branch code;
+•
+account number (up to 12 digits);
+•
+beneficiary address; (no P.O. box address
+allowed). NOTE: Enter the beneficiarie's address in this format: HT/Town/Name . Start with the ISO country code for Haiti (HT).
+•
+reclamation country
+1. Process initial award
+You must update ITS.gov with the bank account information prior to processing an initial award to ensure
+that the beneficiary receives payment. If the complete bank account information is
+not in ITS.gov when the payment processes, the payment rejects and returns to our agency.
+2. Add or update bank data using SSA systems
+When you add or update IDD bank data using an SSA system (e.g. Post Entitlement Online
+System (POS), MACADE), you must:
+•
+update ITS.gov on the same day;
+•
+enter all POS direct deposit changes according to normal procedures;
+•
+use procedures outlined in the following chart when processing within four business
+days of the current operational month (COM) cutoff date.
+Step
+Action
+1
+Are you coding an initial claim?
+If yes, go to step 3.
+If no, go to step 2.
+2
+Is the beneficiary's address on the MBR in a foreign country (PCOC = 8)?
+If no, STOP.
+REASON: The MBR does not accept the IDD information unless the address is in a foreign country.
+If yes, go to step 3.
+3
+Is the beneficiary's account a USD account in Haiti? If no, STOP.
+REASON: Beneficiaries in Haiti can only receive IDD payments in USD accounts.
+If yes, go to step 4.
+4
+To derive the 9-digit RTN for Haiti, code as follows:
+–
+Prefix of 70 (the multi-country prefix SSA and FRBKC designated to use for IDD to
+Haiti),
+–
+A filler zero 0,
+–
+3-digit bank code
+–
+the first 2 digits of the branch code
+–
+U.S. check digit (obtained through Title II Interactive Comps from the Main Menus
+07/Sub Menu 16.
+5
+Code the account type:
+–
+S for savings, or
+–
+C for checking.
+If the beneficiary does not indicate an account type, use a C for checking account.
+6
+To code the DAN for Haiti, code:
+–
+"L" as designated for Haiti,
+–
+The remaining 3 digits of the branch code, and
+–
+Up to 12 digits of the account number.
+7
+You must take action on the same business day to enter into ITS.gov all the information listed in GN 02402.324F.
+You must access ITS.gov or ask a co-worker to update the required information into ITS.gov.
+REMINDER: When information is not available, FRBKC rejects the payment and returns it to our
+agency.

@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 44001.105 - Jurisdiction of Dual Eligibility Claims
+Effective Dates: 10/02/2026 - Present | TN 10 (10-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0444001105 (fetched 2026-10-04)
+
+D. Jurisdiction of disability survivor claims with railroad involvement
+When a railroad worker dies, either RRB or SSA will have jurisdiction of any survivor
+claim on the deceased workers SSN. Only one agency will have jurisdiction. RRB makes
+the jurisdiction decision and sends an electronic notification of jurisdiction to
+SSA systems. The field office (FO) can access this information by obtaining the initial
+earnings record. Processing Center (PC) and Office of Central Operations (OCO) employees
+can access this information via an SSA Disability, Railroad, Alien, and Military Service
+(DRAMS) query.
+For more information refer to RS 01601.300 and RS 01602.200.
+1. RRB has jurisdiction of survivor claim
+If RRB has jurisdiction of the survivor claim, the FO should send the claim to the
+RRB. DCR does not have jurisdiction over these survivor claims.
+However, if RRB has jurisdiction of the survivor claim, and the claimant files a claim
+with SSA for DIB and/or SSI on his or her own SSN, then the DCR has jurisdiction of
+the DIB/SSI claim(s). In these cases, the FO should send the survivor claim to RRB
+and forward the DIB/SSI claim(s) to DCR, location code V32.
+EXAMPLE:
+During an appointment at her local SSA FO, Mrs. Jones files a claim for disabled widows
+benefits on the SSN of her deceased husband, who worked in the railroad industry for
+more than 10 years. The Modernized Claims System (MCS)-Earnings Computation screens
+show that RRB has jurisdiction of the survivor claim. The FO routes the widows claim
+material to the RRB. However, since Mrs. Jones is also insured for DIB on her own
+earnings record, the FO also takes an application for disability benefits and routes
+the DIB claim to DCR, location V32. DCR will adjudicate the DIB claim and coordinate
+their disability determination with RRB. The folder should be annotated that a survivor
+claim was sent to RRB.
+2. SSA has jurisdiction of survivor claim
+If SSA has jurisdiction of the survivor claim, the FO routes the disabled survivor
+claim to the DDS, not to DCR. If SSA has jurisdiction, there is no disability entitlement
+with RRB, and therefore there is no reason to coordinate the SSA disability determination
+with RRB. However, if the widow(er) or childhood disability claimant has 60 months
+of creditable RR service earned after December 31, 1995 (or at least 120 months earned
+at any time), the DCR has jurisdiction of all the claimant's disability claims.
+3. Survivor jurisdiction determination
+Obtain a DRAMS query to ascertain if RRB or SSA has jurisdiction of the survivor claim:
+•
+Using QUERY MASTER, enter a check mark in DRAMS box, and select Get Queries button,
+or
+•
+On SSA MAIN MENU, select functions: 09 (MFQ) 16 (MISM) 01 (DRMQ)
+EXHIBIT: DRAMS query
+DRAMS DTE: 06/24/09 SSN: xxx-xx-xxxx DOC: PC4 UNIT: D PG: 001
+RRB INFORMATION:
+RRB HAS DETERMINED THAT SSA HAS JURISDICTION
+DATE DETERMINED: 10/24/2008
+RRB STOP DATE WAS 06/2004

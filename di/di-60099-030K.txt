@@ -1,0 +1,56 @@
+SSA Program Operations Manual System (POMS) - DI 60099.030 - Field Office (FO), Processing Service Center (PSC), and National 800 Number Network (N8NN) Responsibilities under the Benefit Offset National Demonstration (BOND)
+Effective Dates: 09/29/2017 - Present | TN 9 (07-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0460099030 (fetched 2026-10-04)
+
+K. Medical CDRs and work development
+A beneficiary participating in the BOND project is subject to medical CDRs.
+1. BOND work CDR unit discovers need for a medical CDR
+When a medical review is due, the BOND work CDR unit (L5R) OFFICE L5R NO
+LONGER OPERATING must
+•
+transfer the case to the local FO to develop the case, and
+•
+send it to the local DDS for a medical decision after completing the work CDR development.
+2. FO or PSC discovers need for a medical CDR
+If the FO or PSC discovers a need for a medical review for a case pending in L5R OFFICE L5R NO LONGER OPERATING in eWork, alert the Office of Research, Demonstration, and Employment Support (ORDES)
+via an MDW to L5R OFFICE L5R NO LONGER OPERATING. The MDW can say “Medical CDR needed, please expedite processing of the Work CDR
+decision and forward to DO ____, Attn: (insert CR or FO contact information).
+3. Work development during the BOND offset period
+If a medical CDR is required, do not complete another work CDR to send the case to
+the DDS, for a beneficiary whose
+•
+benefits ceased due to SGA (ADC date on the MBR with CDR=E), and
+•
+last completed work review is past the BOND participation period start date, and
+•
+BOND participation period has not ended.
+The beginning and ending date of offset is on the MBR in the HISTDEMO group.
+The participation period is in the DCF on the DEMO screen under #16 Demonstration
+Project on the CDR Selection Menu.
+Annotate the following in your SGA determination to DDS:
+ISSUE: Evaluation of work performed for a participant in the Benefit Offset National Demonstration
+(BOND).
+POLICY: When a BOND beneficiary is eligible for BOND offset, he or she no longer has an evaluation
+under SGA guidelines. Only use past relevant work (PRW) in steps 7 and 8 of the medical
+CDR process for BOND cases in offset.
+BOND offset period began: (later of Participation Period Start Date in the DCF or
+three months after the Work ADC date on MBR)
+BOND offset period ends: If the last work CDR completed is prior to the BOND start
+date of participation and there is a prior ADC date on the MBR, L5R must complete
+a work CDR in eWork to address the work prior to the BOND offset period. Please send
+a priority MDW to L5R OFFICE L5R NO LONGER OPERATING asking them to expedite this case due to medical CDR processing.
+4. Medical cessation
+If the DDS finds medical improvement, review the MBR for a HISTDEMO group and a DPI
+code of DD.
+a. MBR has HISTDEMO group and a DPI code of DD
+If the MBR has a DPI code of DD, send a high priority MDW to L5R OFFICE L5R NO
+LONGER OPERATING indicating medical denial. L5R OFFICE L5R NO
+LONGER OPERATING codes the medical CDR determination on the MBR.
+If the FO tries to code this data via POS, it will send an edit to PC7, which may
+delay posting the medical information to the MBR.
+b. MBR does not have a HISTDEMO group or a DPI code of DD
+If the MBR does not have a HISTDEMO group, the system automatically processes the
+termination when the proper medical cessation coding appears on the MBR DIB line.
+NOTE: Follow normal procedures to process a medical CDR and appeal for all BOND cases,
+including Section 301 payment continuation. The local FO takes control of this case
+and processes it normally.

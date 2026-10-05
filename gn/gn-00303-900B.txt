@@ -1,0 +1,38 @@
+SSA Program Operations Manual System (POMS) - GN 00303.900 - Evidence of Foreign Travel - Foreign Travel Data Application
+Effective Dates: 12/23/2025 - Present | TN 63 (12-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0200303900 (fetched 2026-10-04)
+
+B. Introduction to the Foreign Travel Data (FTD) Application
+1. Purpose of the FTD Application
+We developed the FTD application with a data exchange to create direct query access
+to DHS's Arrival and Departure Information System (ADIS). We use this application
+to obtain foreign travel information.
+ADIS is an electronic repository maintained by DHS that contains information on U.S.
+entries and exits for citizens and non-citizens. The repository receives data from
+several DHS components and the U.S. Department of State.
+2. Implementation of the FTD Application
+The FTD application is a valuable tool and builds on our existing, successful exchanges
+with DHS that prevent and detect improper payments. On June 17, 2019, we began using
+travel data from ADIS in the SSI program. Upon implementation, we used the FTD application
+only in Redeterminations (RZ) involving non-citizens. The expansion of the FTD application's
+functionality and business processes will occur in phases.
+Beginning January 2, 2026, the FTD application is expanded for use when completing
+RZs for U.S. citizens in certain situations. Also, the use of the FTD application
+is expanded for use in SSI initial claims when developing for SSI payments, such as
+aged, simultaneous development (e.g., terminal illness (TERI), pre-effectuation reviews
+(PERC), reconsideration reversals, and Administrative Law Judge (ALJ) reversals for
+non-citizens in all cases and for U.S. citizens in certain situations, see SI
+00501.409B.
+3. FTD Information is a Third-Party Report
+The travel information displayed in the FTD application is a third-party report that
+we can use to develop foreign travel as it relates to our programs. Verification of
+FTD information must occur before making an initial determination of SSI eligibility
+or taking any action on payments. An individual with suspended payments based on verified
+FTD information will have full appeal rights, including the right to continue to receive
+payments during the first level of appeal in certain circumstances. See SSI suspension
+and reinstatement policy in SI 02301.201B.
+NOTE: Technicians cannot under any condition copy or print the FTD Data Results screen(s)
+within the FTD application. If an individual requests a copy or printout, technicians
+should refer the individual to the U.S. Customs and Border Protection (CBP) Information
+Center website, since the FTD information
+is DHS/CBP information.

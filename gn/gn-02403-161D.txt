@@ -1,0 +1,118 @@
+SSA Program Operations Manual System (POMS) - GN 02403.161 - Social Security Electronic Remittance System (SERS) for Programmatic and Conserved Funds Remittances
+Effective Dates: 11/18/2024 - Present | TN 60 (02-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0202403161 (fetched 2026-10-04)
+
+D. Procedure for handling SERS remittances
+When we receive remittances in the FO, continue to follow the procedures for logging
+the remittances in the daily log when received per GN 02403.004. In addition, examine the remittances to determine if the remittances are acceptable,
+per GN 02403.005.
+A technician, remittance clerk, remittance supervisor, or an office manager can process
+remittances via SERS, as long as they ensure that they process all SERS remittances
+upon receipt and take proper safeguards, as applicable.
+The instructions provide the procedures on how to process:
+•
+Mail-in checks or money orders (see, GN 02403.161D.1.); and
+•
+Walk-in checks or money orders (see, GN 02403.161D.2.)
+1. Mail-in check or money order transactions procedures
+a.
+Verify the controlling SSN or Beneficiary’s Own Account Number (BOAN) of the account
+that the remitter wants to pay.
+b.
+Ensure that the remitter provided the correct SSN and there is an active debt on the
+MBR or SSR. This verifies that the remittance should be processed in the Programmatic
+store.
+•
+If there is no active debt on the MBR or SSR,and the payment is for conserved funds,
+process the remittance in the Conserved Funds store.
+•
+In the Conserved Funds store, enter Number Holder's SSN for Disability or Retirement;
+enter BOAN for Supplemental Security Income (SSI).
+•
+Select Trust Fund for Conserved Funds Remittance. Proceed to step "d".
+c.
+Input the controlling SSN into SERS and review the returned programmatic debt(s) per
+MS 09301.001 through MS 09301.012.
+d.
+Examine the check or money order to determine if it is acceptable per GN 02403.005.
+1.
+Verify the date and signature, and ensure that the check or money order is made payable
+to SSA,
+2.
+Verify the amount on the check is equal to the amount to be paid in SERS;
+3.
+Scan the remitter’s check or money order using the SERS check scanner;
+4.
+View the check or money order image to ensure it is legible and upright and if it
+is not, rescan the check or money order; and
+5.
+Enter the amount of the check or money order in the Check Amount box.
+e.
+Place the SERS order.
+f.
+Print the SSA receipt.
+g.
+Mail the receipt to the remitter.
+h.
+Stamp non-negotiable on the front of the check or money order.
+i.
+Retain the check or money order in a locked, secured location for five days and then
+shred it.
+IMPORTANT:
+Do not send checks or money orders processed through SERS to MATPSC. This will result
+in
+duplicate processing.
+2. Walk-in check or money order transaction procedures
+a.
+Request the controlling SSN or BOAN of the account that the remitter wants to pay.
+b.
+Ensure that the remitter provided the correct SSN and that there is an active debt
+on the MBR or SSR.
+1.
+If there is no active debt on the MBR or SSR, and the payment is for conserved funds,process
+the remittance in the Conserved Funds store.
+2.
+In the Conserved Funds store, enter Number Holder's SSN for Disability or Retirement;
+enter BOAN for Supplemental Security Income (SSI).
+3.
+Select Trust Fund for Conserved Funds Remittance. Proceed to "d" below.
+c.
+Input the controlling SSN into SERS and review the returned programmatic debt(s) per
+MS
+09301.001 through MS
+09301.012.
+d.
+Request the check or money order from the remitter.
+e.
+Examine the check or money order to determine if it is acceptable. For more information
+regarding examining remittances, see GN 02403.005.
+1.
+Verify the date and signature, and ensure that the check or money order is made payable
+to SSA;
+2.
+Verify the amount on the check is equal to the amount to be paid in SERS; then
+3.
+Scan the remitter's check or money order using the SERS check scanner.
+4.
+View the check or money order image to ensure it is legible and upright. If it is
+not, rescan the check or money order.
+5.
+Enter the check amount in the Check Amount box.
+f.
+Verbally inform the remitter, that the transaction is NON-REFUNDABLE and the completed
+transaction occurs immediately.
+g.
+Place the order in SERS.
+h.
+Print the receipt.
+i.
+Give the remitter the receipt.
+j.
+Stamp non-negotiable on the front of the check or money order.
+k.
+Retain check or money order in a locked, secured location for five days and then shred
+it.
+IMPORTANT:
+Do not send checks or money orders processed through SERS to MATPSC. This will result
+in
+duplicate processing.

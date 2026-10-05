@@ -1,0 +1,49 @@
+SSA Program Operations Manual System (POMS) - SI 00502.116 - “Deemed Qualified Alien” Status Based On Battery Or Extreme Cruelty By A Family Member
+Effective Dates: 09/15/2026 - Present | TN 73 (09-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0500502116 (fetched 2026-10-04)
+
+J. Systems Processing Instructions for Alien Battery Cases
+1. Background
+Until further changes are made to the system, SSI eligibility based on battery is
+coded differently on the Supplemental Security Record (SSR) and in MSSICS.
+2. Initial SSI Claim Awards
+a. MSSICS
+•
+IF ALIEN STATUS IS VERIFIED as being a “deemed qualified alien” based on battery, CODE a "Z" in the ALIEN STATUS field and ENTER a "Y" in the BATTERY PETITION FILED field.
+•
+ENTER the appropriate exception code. For military exceptions, enter 4, 5, or 6, as appropriate.
+If the disability exemption is met, MAKE CERTAIN that the Disability Clearance page is completed with an established onset date and
+the proper multi-category code if the claimant is an aged disabled alien.
+b. Non-MSSICS
+If the battery requirements are met, CODE a "Z" in the citizenship/alien (AR) field. ENTER the appropriate exception code in the AQ field on the SSR.
+3. Initial Title II Claims
+PROCESS the Title II claim following the procedure ALIEN NEEDS REVERIFICATION in RS 00204.040C. DETERMINE the expiration of status date for the month of suspension following instructions
+in SI 00502.116I.
+4. Posteligibility
+a. Change from “Deemed Qualified Alien” status to a Qualified Alien Status
+•
+An alien can receive benefits based on battery only while in one of the immigration
+categories listed in SI 00502.116B.2.
+•
+If the alien's immigration category (see SI 00502.116B.2 for categories) changes, UPDATE the AR code to reflect the new status. Eligibility will continue if the alien adjusts to a qualified
+alien status and still meets an exception. DOCUMENT the change of the old AR code to the updated AR code in the "REMARKS" field of the SSR.
+b. Loss of “Deemed Qualified Alien” Status Based on Battery
+•
+Until further changes can be made in systems processing, if an alien loses battered
+alien status (SI 00502.116K.1), PROCESS the suspension as follows:
+•
+MSSICS PROCESSING
+This is a MSSICS limitation. UPDATE the AR code to "2" via a PR-9 input. DOCUMENT the change of the old AR code to the updated AR in the "REMARKS"
+field and GENERATE a N13 denial via 1719B input.
+•
+PROCESSING OUTSIDE OF MSSICS
+UPDATE the AR code to "2" via a PR-9 input. DOCUMENT the change of the old AR code to the updated AR in the "REMARKS" field and GENERATE a N13 denial via 1719B input.
+c. Loss of Eligibility Based on Exception No Longer Met
+IN TITLE XVI CLAIMS ONLY, until further changes can be made in systems processing, if one of the exception
+categories in SI 00502.116B.3 are no longer met, PROCESS the suspension as follows:
+•
+MSSICS PROCESSING
+This is a MSSICS limitation. DELETE the exception code via a PR-9 input. ANNOTATE the "Remarks" field and GENERATE a N13 via 1719B input.
+•
+PROCESSING OUTSIDE OF MSSICS
+DELETE the exception code via a PR-9 input. ANNOTATE the "REMARKS" field and GENERATE a N13 via 1719B input.

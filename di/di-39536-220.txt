@@ -1,0 +1,50 @@
+SSA Program Operations Manual System (POMS) - DI 39536.220 - DDS Systems Security
+Effective Dates: 09/26/2023 - Present | 
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0439536220 (fetched 2026-10-04)
+
+DI 39536.220 DDS Systems Security
+The administration of the program covered by the Social Security Act requires SSA
+and its representatives, such as a DDS, to provide sufficient safeguards for personally
+identifiable information (PII). The act itself, along with other Federal statutes,
+requires that SSA protect the privacy, confidentiality and integrity of that PII.
+When in the process of developing information technology systems to maintain PII,
+the DDSs are expected to provide safeguards that are intended to prevent, minimize,
+and provide for recovery from the effects of actions or events, whether accidental
+or intentional, that:
+A.
+Breach Confidentiality and Privacy--The DDS is responsible for guaranteeing the confidentiality
+of records that fall under any of the following statutes or regulations: (1) Regulation
+1; (2) Freedom of Information Act; (3) Privacy Act of 1974; and (4) Tax Reform Act
+of 1976.
+B.
+Result in Program Abuse--The DDS must take all prudent measures necessary to ensure
+that its systems are free from abuse, both from internal (DDS and parent agency) and
+external sources. This applies to both prevention and detection of potential or actual
+abuse.
+C.
+Prevent or Delay Accomplishment of SSA's Mission--The DDS must ensure that should
+such action or event still occur, (despite careful use of preventive measures), it
+is capable of rapid recovery to maintain the continuity of its operations and accomplishments
+of its mission.
+The system safeguards are intended to be primarily preventive in nature, with the
+added responsibilities to detect abuse and recover from actions and events not intended.
+As the DDS proceeds with feasibility studies and cost benefit analyses, the security
+requirements of the system must be considered. The DDSs should consult with the regional
+Information Security Officer (ISO) at the outset of planning so that proper safeguards
+can be integrated into the systems design. Standard systems development procedures
+require that functional requirement documents submitted as part of the studies contain
+a thorough discussion of the security implications. Such procedures are intended to
+require the designer of the system to think through the security problems being created
+by the proposal and then explain how they are being guarded against.
+All systems need appropriate backup procedures. A copy of all programs should be made
+(either a tape or disk) and stored in a fireproof vault at an offsite location, to
+be used in the event of an emergency.
+Requirements for controls over password usage in accessing the system should include
+hiring and termination procedures.
+NOTE:
+Access to the system must be limited to appropriate personnel. Controls should be
+in
+place to allow new hires and disallow terminated personnel use of the system.
+DDSs are subject to the same security requirements as SSA components (i.e., FOs) and
+the ISO has responsibility for all system security matters. Therefore, all system
+proposals are subject to ISO approval.

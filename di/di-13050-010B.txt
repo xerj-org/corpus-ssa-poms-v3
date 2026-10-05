@@ -1,0 +1,16 @@
+SSA Program Operations Manual System (POMS) - DI 13050.010 - Time Limit for Requesting Expedited Reinstatement (EXR)
+Effective Dates: 09/18/2024 - Present | TN 25 (09-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0413050010 (fetched 2026-10-04)
+
+B. Procedure for determining the 60-month request period
+1. Title II
+Review the DIB line of the MBR for the date of the disability benefit cessation (DBC)
+field or the TERMINATION field on the most recent occurrence of the BENE ENT line
+(see SM 00510.190 and SM 00510.200). If the date the EXR request is filed is within
+the 60-month period beginning with the date of benefit cessation (as shown in the
+DBC field or the TERMINATION field), consider the request timely filed.
+2. Title XVI
+Check the date of the T31 entry in the computation history (CMPH) segment of the appropriate
+SSID record. If the date the EXR request is filed is within the 60-month period beginning
+with the date of eligibility termination (the date of the T31 entry), the request
+is timely filed.

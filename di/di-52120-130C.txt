@@ -1,0 +1,91 @@
+SSA Program Operations Manual System (POMS) - DI 52120.130 - Minnesota Workers’ Compensation (WC)
+Effective Dates: 08/03/2023 - Present | TN 103 (09-25)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452120130 (fetched 2026-10-04)
+
+C. Supplementary WC
+For injuries occurring prior to 10/01/95 Minnesota pays a supplementary payment to
+individuals who meet certain qualifications. See DI 52120.130C.2 in this section concerning the effect of supplementary payments on the offset computation.
+1. Eligibility for supplementary WC and effective dates of State saw requirements
+The State has had various eligibility requirements for supplementary WC payments.
+The date of injury is the controlling date when determining which laws apply.
+•
+Effective 10/01/1995
+Supplementary payments are not paid for injuries occurring 10/01/1995 and later.
+•
+WC Injuries On or After 10/01/1983
+The worker is eligible after receiving TT or PT WC for 208 weeks.
+•
+Effective 04/08/1978
+The worker need not be continuously disabled. Total disability can be intermittent.
+Supplementary WC is paid when there has been a total of 104 weeks of total disability.
+Supplementary WC is also paid when a subsequent injury occurs 4 years or more after
+the original injury and the subsequent injury relates to the original injury.
+•
+Effective 07/1973
+The worker must have been totally (permanent or temporary) and continuously disabled
+for more than 104 weeks and for the remainder of the “continuous total disablement.”
+Supplementary WC is paid effective with the 105th week.
+2. Effect of supplementary benefits on WC offset
+•
+Pre-1978 Provision
+Prior to 1978:
+a.
+Minnesota reduces its supplementary WC when the individual is receiving DIB. Therefore,
+SSA will remove offset for any DIB claimant receiving Minnesota supplementary payments.
+b.
+Offset is removed as early as the worker began receiving supplementary WC, but not
+before 07/73.
+•
+1978 Provision
+Generally, if SSA is paying the individual a full DIB benefit, then SSA will continue
+to pay a full DIB benefit and not offset for receipt of Supplementary Benefits. In
+situations when SSA already offsets the DIB benefit, then SSA will include the Supplementary
+Benefits in the offset calculation.
+Beginning 1978:
+Minnesota reduces its supplementary WC only when the individual receives full Social
+Security benefits, i.e., DIB is not reduced due to WC offset. SSA will not offset
+DIB due to the receipt of supplementary benefits when full Social Security benefits
+are payable. If the individual's benefits are reduced due to the receipt of WC, including
+the receipt of PP WC, the State will not reduce its supplementary WC benefits.
+Individuals who receive TT or PT WC benefits of less than $25,000 may also become
+entitled to supplementary benefits depending on such factors as the period of disability
+or the amount of WC benefits being paid. If the NH's DIB is being offset due to the
+receipt of TT or PT WC, the State cannot reduce the supplementary WC benefits. Therefore,
+the supplementary benefits are subject to SSA's offset and must be figured in the
+offset computation.
+If the TT or PT WC does not cause offset (e.g., a high ACE precludes offset), the
+State will reduce the supplementary payment because SSA is paying full DIB, i.e.,
+DIB is not being reduced due to the receipt of WC. Thus, in this situation, the supplementary
+WC benefit is not subject to SSA's offset.
+NOTE: SSA's offset of supplementary WC due to the receipt of reduced DIB, i.e., DIB reduced
+due to the receipt of WC, will apply only to new and pending cases adjudicated on
+or after 10/1991 or previously adjudicated cases worked on or after 10/1991.
+3. Procedure – supplementary payments
+Because of the varying criteria for injuries prior to 10/01/1995, it generally will
+not be possible to determine if the WC individual is eligible for supplementary WC
+based on injuries and length of time WC has been paid.
+•
+Supplementary benefits before 1978
+For supplementary benefits before 1978:
+Question the worker regarding the receipt of supplementary WC.
+Verify if the worker is eligible for such payment.
+Offset DIB up to the time the worker is eligible for supplementary WC.
+Code the reverse offset, “RJ”, if offset is removed or not imposed due to the worker's
+receipt of supplementary WC.
+•
+Supplementary benefits after 1977
+For supplementary benefits after 1977:
+Question the worker regarding the receipt of supplementary WC.
+Verify if the worker is eligible for such payment and the amount of the payment.
+If the individual receives reduced DIB (e.g., the individual is receiving TT WC or
+a PP lump sum is being prorated), then SSA offsets the supplementary WC.
+If the individual is receiving full DIB (e.g., a high ACE precludes offset or offset is removed because the individual
+has received $25,000 in PT), do not offset for the supplementary WC. Code the reverse offset, “RJ”, on the MBR.
+•
+Possible re-imposition of offset and notice instructions
+An individual receiving supplementary WC can lose eligibility for such benefits (e.g.,
+the WC rating may be changed from total or partial) at which point offset of DIB would
+be applicable. Therefore, when offset is not applicable because of the individual's
+eligibility for supplementary WC, include in the notice to the individual a dictated
+paragraph advising why offset is not applicable. If eligibility to supplementary WC
+benefits ceases, the individual should notify SSA so that any offset may be re-imposed.

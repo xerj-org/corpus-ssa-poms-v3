@@ -1,0 +1,76 @@
+SSA Program Operations Manual System (POMS) - SI 04040.025 - Subsequent Application Filed While A Request For Review Is Pending At Appeals Council (AC) On Prior Claim - Title XVI Nondisability
+Effective Dates: 03/10/2015 - Present | TN 8 (06-23)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0504040025 (fetched 2026-10-04)
+
+B. Procedure - Processing Subsequent Application
+1. Subsequent Claim Filed
+Take the following actions when you have a subsequent application:
+•
+Determine whether the appellant has a request for review pending at the AC on a prior
+claim. Obtain this information from the appellant or representative and verify with
+an OHAQ (MSOM OHA 001.003 ). The RRD field on the query is the request for review date; this indicates a request
+for review is pending at the AC.
+•
+Determine whether the appellant is filing based on a new issue, i.e., an issue that
+we have not already decided at some level of the administrative appeals process.
+If it is a new issue, process the subsequent application through MSSICS. Follow the
+instructions in DI 12045.027D for title XVI disability claims and GN 03104.370 for non-disability title II claims.
+If the subsequent application concerns an issue that is currently before the AC for
+a decision, send the subsequent application to the AC for association with the prior
+claim by using the subsequent application flag at SI 04040.028. For example, if the AC is deciding an overpayment issue and the subsequent application
+involves a waiver issue, forward the subsequent application to the AC. The issue of
+waiver depends on how the AC will decide on the overpayment issue.
+NOTE: For favorable determinations in initial claims, the date of eligibility can be no
+earlier than the day after the date of the ALJ decision. The period on or before the
+date of the ALJ decision rests with the AC.
+•
+Secure a SSA-1696-U4 if the claimant is represented. A new SSA-1696-U4 is necessary
+even if the representative is the same for the prior claim.
+•
+Explain to the appellant that until the AC completes its action, we will not be decid­ing
+the period on or before the date of the ALJ decision. The period before the ALJ decision
+will be decided by the AC. Also, explain that the appellant will receive a notice
+from the AC on the request for review and a separate notice on the subsequent application
+and that each notice will explain the appeal rights, where appropriate.
+•
+Attach the flag at SI 04040.028 and the OHAQ to the outside of the subsequent claim file. This is an alert that there
+is a prior claim pending review at the AC and should remain on the file in the event
+that the determination on the subsequent application is favorable and/or appealed.
+Also, attach the flag even if the appellant has not yet filed an appeal of the ALJ
+decision, but files the subsequent application within the 60-day period for appeal
+on the ALJ decision.
+2. Subsequent Application and RR Filed Simultaneously
+If a subsequent application and request for review are filed together and the appellant
+is filing based on a new issue, process the subsequent application through MSSICS.
+Follow SI 04040.020 for processing the request for review. If the subsequent application and the request
+for review involve the same issue, send the subsequent application with the request
+for review to the AC.
+3. Systems Input
+Take the following systems actions:
+•
+Reestablish MSSICS to control subsequent claim, this automatically terminates the
+prior claim.
+•
+Control the prior claim (claim pending at AC) with an MDW record and completion of
+Development Worksheet as shown below.
+•
+On the subsequent claim, include the following supplemental security record (SSR)
+remark: PRIOR CLAIM AWAITING AC DECISION.
+•
+On the MDW record include:
+–
+an issue of “AC Appeal,” and
+–
+in the remarks for that issue: Prior claim dated mm/dd/yy pending at the AC; and
+–
+the date of appeal and date sent to AC.
+•
+On the Development Worksheet include:
+–
+an issue of “AC Appeal,” and
+–
+in the remarks for that issue: Prior claim dated mm/dd/yy pending at the AC; and
+–
+the date of appeal and date sent to AC; and
+–
+set an appropriate tickle date for the AC decision.

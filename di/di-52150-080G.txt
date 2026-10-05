@@ -1,0 +1,15 @@
+SSA Program Operations Manual System (POMS) - DI 52150.080 - Triennial Redetermination (Redet) of the Average Current Earnings (ACE)
+Effective Dates: 04/05/2018 - Present | TN 50 (04-26)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0452150080 (fetched 2026-10-04)
+
+G. Redetermination ACE does not yield an increase
+•
+ICF #31 and #32 do not display a redet ACE on the ACE Data (WCAC) screen if the redet
+ACE does not yield an increase in benefits payable after offset for any beneficiary
+on the account.
+•
+ICF (#28) displays the remark No Redet Increases on the IC2J screen.
+•
+Correct the MBR offset coding if necessary, and annotate the MBR via the special message
+field that a triennial redet for (designate redet year) does not apply (i.e., yields
+no increase).

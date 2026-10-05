@@ -1,0 +1,26 @@
+SSA Program Operations Manual System (POMS) - GN 03930.066 - Title II - Fee Petitions – Processing the Assessment
+Effective Dates: 12/09/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930066 (fetched 2026-10-04)
+
+B. Overview
+The Single Payment System (SPS) processing of the assessment differs depending on
+the Payment Identification Code (PIC) cluster. The key difference between the two
+clusters is whether SPS considers paid assessment amounts already in the SPS database
+when calculating the assessment.
+•
+PICs of A, D, E, and W generally are associated with the person who is the primary
+claimant for purposes of representation (i.e., the person who appointed the representative
+or on whose behalf the representative was appointed). For these PICs, SPS does not
+consider paid assessment amounts already in the SPS database.
+EXAMPLE: We are paying the fee based on a new period of disability, and an assessment amount
+is in the database. SPS will disregard the previous assessment payment and correctly
+calculate the assessment.
+•
+PICs of B and C generally are associated with an auxiliary beneficiary for purposes
+of representation. For these PICs, SPS considers paid assessment amounts already in
+the SPS database.
+Most actions are automated because of these defaults, but manual processing will be
+required in some cases. For example, a child (PIC C) may in fact be the primary claimant
+(i.e., the person who appointed the representative or on whose behalf the representative
+was appointed). In this situation, SPS may not process the assessment correctly on
+its own. Refer to GN 03920.019M.2., which identifies manual processing situations.

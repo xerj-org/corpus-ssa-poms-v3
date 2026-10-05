@@ -1,0 +1,89 @@
+SSA Program Operations Manual System (POMS) - GN 03930.066 - Title II - Fee Petitions – Processing the Assessment
+Effective Dates: 12/09/2024 - Present | TN 35 (12-24)
+Source: https://secure.ssa.gov/apps10/poms.nsf/lnx/0203930066 (fetched 2026-10-04)
+
+D. Process – Fee Authorized Based on Fee Petition
+1. General
+When the claims specialist (CS) or processing center (PC) technician effectuates a
+Title II decision that may involve direct payment of authorized fees, the CS or technician
+ensures that we withhold from past-due benefits (see GN 03930.035). After the fee is authorized, the benefit authorizer (BA), benefit technical examiner
+(BTE), or post entitlement technical expert (PETE) completes the SPS Attorney Fee
+Payment Screen (APAY) to make direct payment of the authorized fee to the appropriate
+recipient(s) (see GN 03930.065). When the technician inputs the authorized fee amount, SPS will calculate the assessment.
+2. Fee Payments to Two or More Representatives or Entities
+When more than one representative files a fee petition and requests direct payment
+or assigns direct payment to an entity, SPS processing differs depending on the order
+in which we authorize the fees.
+a. We Pay the Authorized Fees Simultaneously
+If the authorized fees are the same amount for each representative, SPS will divide
+the assessment equally between or among the representatives receiving direct payment.
+If the authorized fees are not the same amount for each representative, SPS will not
+calculate the assessment correctly. The technician in the PC must override the SPS-calculated
+assessment, recalculate the assessment to prorate it based on each representative's
+percentage of the total fee (see the example in GN 03930.066D.2.b.), and input into SPS the correct amount to deduct.
+NOTE: If one or more of the representatives validly assign direct payment of their fee
+to the same entity, the entity's payment will be reduced by the sum of the user fees
+that would otherwise have been assessed to their affiliated representatives. If all
+representatives have assigned direct payment of their fees to the same entity, the
+entity's payment would be reduced by the full user fee, up to the current user fee
+cap.
+b. We Pay the Authorized Fees at Different Times
+When we make the first fee payment, SPS correctly determines the assessment to be
+the lesser of 6.3% of the fee amount or the flat-rate cap based on the annual cost
+of living adjustment. When processing a subsequent fee authorization, it becomes necessary
+to:
+•
+Use the SPS Online (manual) process.
+•
+Override the SPS-calculated assessment for the subsequent fee payment.
+•
+Prorate the assessment, as described in the example below, based on the total fees
+paid to each representative, including representatives who validly assigned direct
+payment of their authorized fee to an entity.
+•
+Deduct the prorated assessment from the fee being processed.
+•
+Initiate payment action on the second fee.
+•
+Refund to the representative or validly assigned entity who received the first direct
+payment the difference between the amount the representative was assessed and the
+recalculated assessment.
+•
+Send a notice to the representative paid first and, if the fee was paid to an entity,
+a copy to the entity's point of contact (see GN 03920.021), containing the information included in the following sample language:
+“Previously we paid you a fee of $(amount of payment made to representative after
+deduction of assessment). As required by law, we reduced the fee payment amount by a service charge of $(amount of assessment), which was the lower of 6.3% of the fee we paid or (the applicable assessment cap).
+Later, we authorized and paid a fee on the same claim to another representative. When
+6.3% of the combined payments exceeds (the applicable assessment cap), we divide the
+(the applicable assessment cap) service charge based on the percentage of the individual
+fee amounts. Therefore, we have recalculated the service charge you must pay and are
+refunding $(amount of excess
+assessment) to you.”
+•
+Refer the case to the appropriate technician to correct the assessment for the first
+direct payment on the Payment History Update System (PHUS) record.
+EXAMPLE: We withheld $5,200 from the claimant's past-due benefits. Two representatives who
+are eligible for direct payment filed fee petitions requesting authorization to charge
+and collect fees for their services. In February 2024, we authorized Representative
+A to charge and collect $1,600, and paid Representative A $1,523 after deducting the
+$77 assessment. Later, Representative B filed a fee petition and was authorized to
+charge and collect $3,100. Because $77 is less than 6.3% of $4,700 ($1,600 + $3,100),
+the cap applies and must be prorated between the two representatives in proportion
+to the fee amount we pay to each.
+Representative A
+Representative B
+Percent of total fee
+$1,600/$4,700 = .340425
+(Generally, we do not round intermediate calculations. However, it is not necessary
+to carry the results of this step beyond six decimal places. Disregard digits beyond
+six decimal places.)
+$3,100/$4,700 = .659574
+Assessment amount
+$77 X .340425 = $26.212 or $26.21 (Round to the nearest cent, following RS 00601.020B.)
+$77 X .659574 = $50.787 or $50.79
+Amount of direct payment
+$1,600 – 26.21 = $1,573.79 (Recalculated)
+$3,100 – 50.79 = $3,049.21 (Paid to Representative B)
+We will refund the excess assessment to Representative A.
+$77.00 – 26.21 = $50.79 (Refund paid to Representative A)
+​
